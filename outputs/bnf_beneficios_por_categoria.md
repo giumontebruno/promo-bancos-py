@@ -1,0 +1,11 @@
+# BNF - beneficios por categoria
+
+Fuente: https://www.bnf.gov.py/bnf/web/#/club-beneficios
+
+| Categoría | Descuento | Día | Vigencia | Locales / comercios | Montos / topes |
+|---|---|---|---|---|---|
+| Mayoristas | 30% reintegro | Sábados | Todos los sábados | 14 locales. Marcas/comercios: BOX Mayorista; Aho Aho Comercial; Supermás; Casa Grütter | Tope de compra mensual por cuenta de tarjeta de crédito (incluye titular y adicionales) Gs; Tope de reintegro máximo mensual por tarjeta de crédito Gs; Gs. 2.000.000; Gs. 1.000.000; Gs. 600.000 |
+| Farmacias | 10% reintegro | No especificado en tarjeta | Todos los lunes | 419 locales. Marcas/comercios: ASISMED Drugstore; Farmacias Catedral; Farmacia Vicente Scavone; Farmacenter; Farma Koke; Farmacia Santa Victoria | Tope de compra mensual por tarjeta de crédito Gs; tope no se multiplicará por sucursal, sino que se unificará bajo el mismo sello comercial; tope de reintegro máximo mensual por tarjeta de crédito será de Gs; Gs. 1.000.000; Gs. 100.000 |
+| Estaciones de Servicio | 20% reintegro | Miércoles | Todos los Miércoles | 386 locales. Marcas/comercios: Puma; Copetrol; Compasa; Petrochaco; 3MG | Tope de compra mensual por cuenta de tarjeta de crédito (incluye titular y adicionales) Gs; tope asignado se computará estrictamente por marca en su totalidad y no por localidad; tope de reintegro máximo mensual por tarjeta de crédito será de Gs; Gs. 1.000.000 |
+| Supermercados | 30% reintegro | Jueves | Todos los Jueves | 116 locales. Comercios detectados: PLUB, Los Jardines Supermercado, Casa Paraná, Hipermercados Luisito, Superseis, Supersies, Superseis Express, Delimarket, Mercado Villa Sofía, Supermercado La Preferida, Cadena Real, Supermercados Gran Vía, Copemarket, Superm | Tope de compra mensual por cuenta de tarjeta de crédito (incluye titular y adicionales) Gs; Tope de reintegro máximo mensual por tarjeta de crédito Gs; Gs. 1.500.000; Gs. 1.000.000; Gs. 450.000 |
+| Frigoríficos | 30% reintegro | Viernes | Todos los viernes | 46 locales. Marcas/comercios: Pollos Don Juan; Cooperativa Chortitzer | Tope de compra mensual por cuenta de tarjeta de crédito (incluye titular y adicionales) Gs; Tope de reintegro máximo mensual por tarjeta de crédito Gs; Gs. 1.000.000; Gs. 300.000 |

@@ -1,0 +1,54 @@
+name: Refresh promotions database
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs daily at 04:00 Paraguay time during standard offset UTC-4.
+    # The job continues only on Fridays or on the first day of each month.
+    - cron: "0 8 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check schedule rule
+        id: schedule_rule
+        if: github.event_name == 'schedule'
+        shell: bash
+        run: |
+          day_of_week="$(TZ=America/Asuncion date +%u)"
+          day_of_month="$(TZ=America/Asuncion date +%d)"
+          if [ "$day_of_week" != "5" ] && [ "$day_of_month" != "01" ]; then
+            echo "Not Friday and not the first day of the month in Paraguay. Skipping."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: github.event_name == 'workflow_dispatch' || steps.schedule_rule.outputs.should_run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        if: github.event_name == 'workflow_dispatch' || steps.schedule_rule.outputs.should_run == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Refresh data
+        if: github.event_name == 'workflow_dispatch' || steps.schedule_rule.outputs.should_run == 'true'
+        run: python promo_backend/run_all.py
+
+      - name: Commit updated data
+        if: github.event_name == 'workflow_dispatch' || steps.schedule_rule.outputs.should_run == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Refresh promotions database"
+          file_pattern: "outputs/*.csv outputs/*.md public/*.json public/*.csv data/*.csv work/**/*.json work/**/*.csv"

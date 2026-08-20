@@ -1,0 +1,70 @@
+# ueno bank - beneficios por categoria
+
+Fuente: PDF mensual + páginas de bases y condiciones enlazadas desde el PDF.
+
+## Beneficios del mes
+
+| Promoción | Locales / comercios | Descuento | Niveles | Topes / mínimos | Vigencia |
+|---|---|---|---|---|---|
+| Beneficios del mes | Kingo y Ahorrazo | 40%; 30%; 25%; 15% | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope máximo de compra fijado para cada nivel de cliente; tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 1.500.000; Gs. 600.000; Gs. 450.000; Gs. 3 | Vigencia: ● Exclusivamente los días sábado 01 de agosto y sábado 15 de agosto 2026 |
+| Beneficios del mes | Petropar | 30%; 25%; 15% | Nivel 5: 40%; Nivel 4: 30%; Nivel 3: 25%; Nivel 2: 15%; Nivel 1: 10%. | Gs. 500.000; Gs. 150.000; Gs. 300.000; Gs. 75.000; Gs. 200.000; Gs. 30.000 | Del 01 al 31 de agosto de 2026 |
+| Hoteles Solo con Nivel Reintegro | CABAÑAS LOS ARBOLES; HOTEL ACUARIO; HOTEL BOUTIQUE CASABLANCA; OASIS DREAM HOLIDAYS; PLANAZO; QUINTA LA PALOMA | 40%; 30%; 25%; 15% | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 1.000.000; Gs. 400.000; Gs. 800.000; Gs. 240.000; Gs. 700.000; Gs. 175.000; Gs. 600.000; Gs. 90.000 | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+| Deportes Exclusivo AF PEAK LAB ¡Nuevo! Nivel Reintegro | ACADEMIA JESSICA SANTA CRUZ; AF PEAK LAB; ARK GYM; BODY TRAINING; CLUB BENJAMIN HOCKIN; COMPLEJO PRESIDENTE PADEL; EVEREST PILATES; FITWAY; MOMENTUM; OLIMPIA TRAINING CENTER; ACADEMIA OLIMPIA; OLIMPIA HIGH PERFORMANCE; P | 40%; 30%; 25%; 15% | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 1.000.000; Gs. 400.000; Gs. 800.000; Gs. 240.000; Gs. 600.000; Gs. 150.000; Gs. 60.000; Gs. 300.000 | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+| Clubes Nivel Reintegro | Club Internacional de Tenis | 20% | nivel 5 20% Gs; nivel 4 20% Gs; nivel 3 20% Gs; nivel 2 20% Gs; nivel 1 20% Gs | tope de compra/reintegro asignado por cliente, definido según su nivel, se aplicará mensualmente y de forma conjunta considerando todos los pagos realizados en los clubes adheridos a la presente promoción, durante la vig | Vigencia: ● Desde el 01 de septiembre de 2025 hasta el 26 de agosto de 2029 para el CLUB INTERNACIONAL DE TENIS, en los conceptos detallados en los ANEXOS I y II. Condiciones: ● Aplica exclusivamente para compras realiza |
+| Débito automático Club Cerro porteño Nivel Reintegro | Club Cerro Porteño - Club Social y Deportivo; Club Olimpia | 40%; 30%; 25%; 15% | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 500.000; Gs. 200.000; Gs. 150.000; Gs. 125.000; Gs. 75.000; Gs. 50.000 | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+| Feria Palmear Solo con Exlcolsu ssiávbaamdeonste Nivel Reintegro | Feria Palmear | 40%; 30%; 25%; 15% | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope de compra/reintegro asignado por cliente, definido según su nivel, se aplica de forma conjunta a todas las compras realizadas en los comercios adheridos durante la vigencia de la promoción; Gs.; Gs. 100.000; Gs. 40. | Vigencia: ● Exclusivamente los días Sábados: Desde el 1 de agosto hasta el 31 de agosto del 2026 |
+| Monchis ¡Sumá upys con tus pedidos! Enco amgopsratos sau pmarátsir2 d0e 0G s . 5 0 . 0 0 p0o.r | Monchis | Ver detalle | Nivel 1: al tener una cuenta activa en ueno bank; Nivel 2: Si tiene entre 3; Nivel 3: Si tiene entre 6; Nivel 4: Si tiene entre 8; Nivel 5: Desde 10; Nivel 5 en un plazo máximo de 48 horas hábiles desde la activación de  | tope máximo y reglas particulares (consultar ANEXO I); tope de compra y el límite mensual de reintegro aplicables a cada promoción estarán determinados por el nivel del cliente (consultar ANEXO I) al momento de realizar  | Vigencia Desde el 1 de agosto de 2026 |
+| Beneficios del mes | Oscar Joyas; Neusa Joyas | Ver detalle | nivel 5 20% sin tope de compra sin tope nivel 4 20% sin tope de compra sin tope nivel 3 20% sin tope de compra sin tope nivel 2 20% sin tope de compra sin tope nivel 1 | tope de compra sin tope nivel 4 20% sin tope de compra sin tope nivel 3 20% sin tope de compra sin tope nivel 2 20% sin tope de compra sin tope nivel 1 20% sin tope de compra sin tope ● Hasta 12 cuotas sin intereses a tr | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+| Beneficios del mes | Isalú | 40%; 30%; 25%; 15% | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | Gs.; Gs. 1.000.000; Gs. 400.000; Gs. 700.000; Gs. 210.000; Gs. 500.000; Gs. 125.000; Gs. 300.000; Gs. 45.000; Gs. 100.000; Gs. 10.000 | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+| Beneficios del mes | Óptica Luce | 30%; 25%; 20% | nivel 5 30% Gs; nivel 4 25% Gs; nivel 3 25% Gs; nivel 2 20% Gs; nivel 1 20% Gs | monto mínimo de compra establecido (o superior), hasta completar el tope máximo de compra fijado para cada nivel de cliente; tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia  | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+| Beneficios del mes | Puka | Ver detalle | nivel 5 12% Gs; nivel 4 12% Gs; nivel 3 12% Gs; nivel 2 12% Gs; nivel 1 12% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 10.000.000; Gs. 1.200.000 | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+| conto Nivel Reintegro | Conto | 40%; 30%; 25%; 15% | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 300.000; Gs. 120.000; Gs. 90.000; Gs. 75.000; Gs. 200.000; Gs. 30.000; Gs. 150.000; Gs. 15.000 | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+| muv Ademápso sr ucamdaá psa g6o0 | Muv | 30% | nivel 5 30% Gs; nivel 4 30% Gs; nivel 3 30% Gs; nivel 2 30% Gs; nivel 1 30% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 180.000; Gs. 54.000; Gs. 160.000; Gs. 48.000; Gs. 130.000; Gs. 39.000; Gs. 100.000; Gs. 30.000; Gs. | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+| Consejo de la Magistratura Escuela Judicial Solo con Nivel Reintegro | Escuela Judicial | 40%; 30%; 25%; 15% | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 500.000; Gs. 200.000; Gs. 150.000; Gs. 125.000; Gs. 75.000; Gs. 50.000 | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+| Beneficios del mes | Vernier | 20% | nivel 5 20% Gs; nivel 4 20% Gs; nivel 3 20% Gs; nivel 2 20% Gs; nivel 1 20% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 1.000.000; Gs. 200.000; Gs. 700.000; Gs. 140.000; Gs. 500.000; Gs. 100.000; Gs. 400.000; Gs. 80.000 | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+| Koala Solo con | Promoción válida para todas las sucursales , tiendas multimarcas y sitio web de Koala ● El | 10 % | nivel 5 10% Gs; nivel 4 10% Gs; nivel 3 10% Gs; nivel 2 10% Gs; nivel 1 10% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 10.000.000; Gs. 1.000.000 | Vigencia: ● Del 01 de agosto hasta el 09 de agosto del 2026 |
+| Ahorrá más con | Publicidad / cierre ueno | Ver detalle | No aplica - publicidad / cierre. | Ver bases y condiciones | Del 01 al 31 de agosto de 2026 |
+
+## Combustible
+
+| Promoción | Locales / comercios | Descuento | Niveles | Topes / mínimos | Vigencia |
+|---|---|---|---|---|---|
+| Combustible | Copetrol; Enex; Petrobras; 3MG Estaciones de Servicios; Puma Energy; Petrochaco; Petromax | 30%; 25%; 15% | Nivel 5: 40%; Nivel 4: 30%; Nivel 3: 25%; Nivel 2: 15%; Nivel 1: 10%. | Nivel 5: 40%, tope de compra total Gs. 600.000, tope de compra semanal Gs. 150.000; Nivel 4: 30%, total Gs. 500.000, semanal Gs. 125.000; Nivel 3: 25%, total Gs. 300.000, semanal Gs. 75.000; Nivel 2: 15%, total Gs. 200.0 | Del 01 al 31 de agosto de 2026 |
+
+## Entretenimiento
+
+| Promoción | Locales / comercios | Descuento | Niveles | Topes / mínimos | Vigencia |
+|---|---|---|---|---|---|
+| Entretenimiento Solo con ¡Nuevo! Vuelos panorámicos Nivel Reintegro | FLIGHTNEX - VUELOS PANORÁMICOS.; VIRTUALITY | 40%; 30%; 25%; 15% | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 1.000.000; Gs. 400.000; Gs. 500.000; Gs. 150.000; Gs. 300.000; Gs. 75.000; Gs. 200.000; Gs. 30.000; | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+
+## Farmacias
+
+| Promoción | Locales / comercios | Descuento | Niveles | Topes / mínimos | Vigencia |
+|---|---|---|---|---|---|
+| Farmacias Exclusivo del 01 al 10 de agosto Exclusivo del 01 al 31 de agosto Web & Sucursales Nivel Reintegro | BIGGIE FARMA; DRUGSTORE BY ASISMED; FARMACENTER; FARMACENTER (ECOMMERCE); FARMACIA VICENTE SCAVONE; FARMATOTAL; de Agosto. MAXIFARMA ASUNCIÓN (Detallados en | 15% | nivel 5 15% Gs; nivel 4 15% Gs; nivel 3 15% Gs; nivel 2 15% Gs; nivel 1 15% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 1.000.000; Gs. 150.000; Gs. 700.000; Gs. 105.000; Gs. 400.000; Gs. 60.000; Gs. 300.000; Gs. 45.000; | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+
+## Primera compra
+
+| Promoción | Locales / comercios | Descuento | Niveles | Topes / mínimos | Vigencia |
+|---|---|---|---|---|---|
+| Activá tu tarjeta - primera compra | Publicidad de ueno | Ver detalle | No aplica - publicidad de primera compra. | monto mínimo establecido) con cualquier tarjeta de crédito emitida por ueno bank S; Tope máximo de compra de Guaraníes un millón (Gs; tope de reintegro máximo en este caso será de Guaraníes quinientos mil (Gs; Tope máxim | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+
+## Shopping
+
+| Promoción | Locales / comercios | Descuento | Niveles | Topes / mínimos | Vigencia |
+|---|---|---|---|---|---|
+| Bienestar Solo con Shopping Costanera Shopping Costanera Nivel Reintegro | BELEZE - SHOPPING COSTANERA; DEPILASER; DEPYLESS; DINO HOMME SPA; DINO VILLAMORRA; DOXAMED; GUAPA SPA; ISDIN; LA GUARIDA; NUTRIFIT SPA Y BELLEZA; O BOTICARIO; PIEL+SANA; RAIO BEMBA PELUQUERIA; SAONA SPA Y PELUQUERÍA; SPA | 40%; 30%; 25%; 15% | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 1.000.000; Gs. 400.000; Gs. 700.000; Gs. 210.000; Gs. 500.000; Gs. 125.000; Gs. 300.000; Gs. 45.000 | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+
+## Supermercados
+
+| Promoción | Locales / comercios | Descuento | Niveles | Topes / mínimos | Vigencia |
+|---|---|---|---|---|---|
+| Supermercados | Feria Palmear; Combustible; Petropar; Hoteles; Supermercados; Kingo & Ahorrazo; Farmacias; Bienestar; Gastronomía; Entretenimiento; Puka; Muv; Cuotas sin intereses; Vernier; Koala; Óptica Luce; Joyerías; Isalú; Conto; Es | Ver detalle | Cuotas sin intereses - aplica a todos los niveles. | Ver bases y condiciones | Del 01 al 31 de agosto de 2026 |
+| Supermercados Nivel Reintegro | 4PETS; CADENA REAL; DELIMARKET; GRAN VIA; HELLO OVEN; MARÍA'S; MOLINO CAAGUAZU; PLUB; PRONTO SUPERMERCADO; SALEMMA; STOCK; STOCK EXPRESS; SUPERMERCADO COLON; SUPERMERCADO METRO; SUPERMERCADOS HYV; SUPERSEIS; SUPERSEIS EX | 40%; 30%; 25%; 15% | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope máximo de compra fijado para cada nivel de cliente; tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs. 300.000; Gs.; Gs. 500.000; Gs. 200.000; Gs. 400 | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+
+## Tiendas
+
+| Promoción | Locales / comercios | Descuento | Niveles | Topes / mínimos | Vigencia |
+|---|---|---|---|---|---|
+| Tiendas | UELA; INTERTOURS; ACADEMIA OLIMPIA; AEROPOSTALE; AF PEAK LAB; ÁFRICA DESIGN BY ARLET; AH CORTES & GRABADOS; AIREA; ALMA CARIOCA; ALTEZA PERFUMERIA; AMERICA SHOP; AMERICAN LOOK; ASISMED SUCURSAL CIT; ATLANTIC EXPRESS; AUT | Ver detalle | Cuotas sin intereses - aplica a todos los niveles. | tope de compra 1 al 31 de Agosto; Gs. | Vigencia: ● Desde el 01 de agosto hasta el 31 de agosto del 2026 |
+
