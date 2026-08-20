@@ -81,6 +81,11 @@ function getTodayLabel() {
 }
 
 function inferPromotionDaysFromText(promo) {
+  if (getMonthDays(promo).length) return [];
+
+  const ordinalRules = getOrdinalWeekdayRules(promo);
+  if (ordinalRules.length) return [...new Set(ordinalRules.map((rule) => rule.day))];
+
   const existing = (promo.promotion_days || []).map(normalizeDayName).filter(Boolean);
   if (existing.length) return existing;
 
@@ -101,10 +106,89 @@ function hasOpenDateRangeWithoutSpecificDay(text) {
 }
 
 function getDisplayDays(promo) {
+  const monthDays = getMonthDays(promo);
+  if (monthDays.length) return monthDays.map((day) => `${day} de cada mes`).join(", ");
+
+  const ordinalRules = getOrdinalWeekdayRules(promo);
+  if (ordinalRules.length) {
+    return ordinalRules.map((rule) => `${ordinalLabel(rule.ordinal)} ${rule.day} de cada mes`).join(", ");
+  }
+
   const days = inferPromotionDaysFromText(promo);
   if (isEveryDayPromotion(promo)) return "Todos los dias";
   if (!days.length) return "No especificado";
   return days.map(capitalize).join(", ");
+}
+
+function getOrdinalWeekdayRules(promo) {
+  if (Array.isArray(promo.ordinal_weekdays) && promo.ordinal_weekdays.length) {
+    return promo.ordinal_weekdays
+      .map((rule) => ({ ordinal: Number(rule.ordinal), day: normalizeDayName(rule.day) }))
+      .filter((rule) => rule.ordinal && DAYS.includes(rule.day));
+  }
+
+  const text = normalizeDayName(`${promo.day_text || ""} ${promo.validity || ""} ${promo.raw_detail || ""}`);
+  const ordinalWords = {
+    primer: 1,
+    primero: 1,
+    primera: 1,
+    segundo: 2,
+    segunda: 2,
+    tercer: 3,
+    tercero: 3,
+    tercera: 3,
+    cuarto: 4,
+    cuarta: 4,
+    ultimo: -1,
+    ultima: -1,
+  };
+  const rules = [];
+  const wordPattern = Object.keys(ordinalWords).join("|");
+  const dayPattern = DAYS.map(normalizeDayName).join("|");
+  const regexes = [
+    new RegExp(`\\b(${wordPattern})\\s+((?:${dayPattern})(?:\\s+y\\s+(?:${dayPattern}))*)\\s+de\\s+cada\\s+mes\\b`, "g"),
+    new RegExp(`\\bsolo\\s+el\\s+(${wordPattern})\\s+((?:${dayPattern})(?:\\s+y\\s+(?:${dayPattern}))*)\\b`, "g"),
+  ];
+  regexes.forEach((regex) => {
+    for (const match of text.matchAll(regex)) {
+      const ordinal = ordinalWords[match[1]];
+      DAYS.forEach((day) => {
+        if (match[2].includes(normalizeDayName(day))) rules.push({ ordinal, day });
+      });
+    }
+  });
+  return uniqueOrdinalRules(rules);
+}
+
+function uniqueOrdinalRules(rules) {
+  const seen = new Set();
+  return rules.filter((rule) => {
+    const key = `${rule.ordinal}:${rule.day}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function ordinalLabel(ordinal) {
+  if (ordinal === 1) return "Primer";
+  if (ordinal === 2) return "Segundo";
+  if (ordinal === 3) return "Tercer";
+  if (ordinal === 4) return "Cuarto";
+  if (ordinal === -1) return "Ultimo";
+  return `${ordinal}°`;
+}
+
+function getMonthDays(promo) {
+  if (Array.isArray(promo.month_days)) {
+    return promo.month_days.map(Number).filter((day) => day >= 1 && day <= 31);
+  }
+
+  const text = normalizeDayName(`${promo.day_text || ""} ${promo.validity || ""} ${promo.raw_detail || ""}`);
+  const found = [...text.matchAll(/\b(?:dia\s*)?([0-3]?\d)\s+de\s+cada\s+mes\b/g)]
+    .map((match) => Number(match[1]))
+    .filter((day) => day >= 1 && day <= 31);
+  return [...new Set(found)];
 }
 
 function getDisplayValidity(promo) {
@@ -202,9 +286,42 @@ function getPromoTitle(promo) {
 }
 
 function appliesToSelectedDay(promo, selectedDay) {
+  const monthDays = getMonthDays(promo);
+  if (monthDays.length) {
+    return selectedDay === "hoy" && monthDays.includes(getParaguayMonthDay());
+  }
+
+  const ordinalRules = getOrdinalWeekdayRules(promo);
+  if (ordinalRules.length) {
+    return selectedDay === "hoy" && ordinalRules.some((rule) => isTodayOrdinalWeekday(rule));
+  }
+
   const day = selectedDay === "hoy" ? getTodayInParaguay() : selectedDay;
   if (selectedDay === "hoy" && !passesOrdinalDayRule(promo, day)) return false;
   return inferPromotionDaysFromText(promo).includes(day);
+}
+
+function isTodayOrdinalWeekday(rule) {
+  const today = getTodayInParaguay();
+  if (rule.day !== today) return false;
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Asuncion",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+  const year = Number(parts.find((part) => part.type === "year")?.value);
+  const month = Number(parts.find((part) => part.type === "month")?.value);
+  const date = Number(parts.find((part) => part.type === "day")?.value);
+  return date === getOrdinalDayOfMonthDate(year, month, rule.day, rule.ordinal);
+}
+
+function getParaguayMonthDay() {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    day: "2-digit",
+    timeZone: "America/Asuncion",
+  }).formatToParts(new Date());
+  return Number(parts.find((part) => part.type === "day")?.value);
 }
 
 function passesOrdinalDayRule(promo, day) {
@@ -227,6 +344,25 @@ function passesOrdinalDayRule(promo, day) {
 }
 
 function getFirstDayOfMonthDate(year, month, day) {
+  return getOrdinalDayOfMonthDate(year, month, day, 1);
+}
+
+function getOrdinalDayOfMonthDate(year, month, day, ordinal) {
+  const matches = [];
+  const lastDate = new Date(Date.UTC(year, month, 0, 12, 0, 0)).getUTCDate();
+  for (let date = 1; date <= lastDate; date += 1) {
+    const candidate = new Date(Date.UTC(year, month - 1, date, 12, 0, 0));
+    const candidateDay = new Intl.DateTimeFormat("es-PY", {
+      weekday: "long",
+      timeZone: "America/Asuncion",
+    }).format(candidate);
+    if (normalizeDayName(candidateDay) === normalizeDayName(day)) matches.push(date);
+  }
+  if (ordinal === -1) return matches.at(-1) || -1;
+  return matches[ordinal - 1] || -1;
+}
+
+function getFirstDayOfMonthDateLegacy(year, month, day) {
   for (let date = 1; date <= 7; date += 1) {
     const candidate = new Date(Date.UTC(year, month - 1, date, 12, 0, 0));
     const candidateDay = new Intl.DateTimeFormat("es-PY", {

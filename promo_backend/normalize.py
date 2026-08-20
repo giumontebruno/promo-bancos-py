@@ -63,6 +63,11 @@ def first(row, *names):
 
 def detect_days(*texts):
     haystack = " ".join(clean(t).lower() for t in texts)
+    if detect_month_days(haystack):
+        return []
+    ordinal_rules = detect_ordinal_weekdays(haystack)
+    if ordinal_rules:
+        return list(dict.fromkeys(rule["day"] for rule in ordinal_rules))
     if re.search(r"todos los d[ií]as|todos los dias", haystack):
         return ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
     days = []
@@ -70,6 +75,52 @@ def detect_days(*texts):
         if re.search(rf"\b{re.escape(raw)}\b", haystack):
             days.append(normalized)
     return list(dict.fromkeys(days))
+
+
+def detect_month_days(*texts):
+    haystack = " ".join(clean(t).lower() for t in texts)
+    found = []
+    for match in re.finditer(r"\b(?:d[ií]a\s*)?([0-3]?\d)\s+de\s+cada\s+mes\b", haystack):
+        day = int(match.group(1))
+        if 1 <= day <= 31:
+            found.append(day)
+    return list(dict.fromkeys(found))
+
+
+def detect_ordinal_weekdays(*texts):
+    haystack = " ".join(clean(t).lower() for t in texts)
+    ordinal_words = {
+        "primer": 1,
+        "primero": 1,
+        "primera": 1,
+        "segundo": 2,
+        "segunda": 2,
+        "tercer": 3,
+        "tercero": 3,
+        "tercera": 3,
+        "cuarto": 4,
+        "cuarta": 4,
+        "ultimo": -1,
+        "último": -1,
+        "ultima": -1,
+        "última": -1,
+    }
+    rules = []
+    day_pattern = "|".join(re.escape(day) for day in DAY_ALIASES)
+    ordinal_pattern = "|".join(ordinal_words)
+    for match in re.finditer(rf"\b({ordinal_pattern})\s+((?:{day_pattern})(?:\s+y\s+(?:{day_pattern}))*)\s+de\s+cada\s+mes\b", haystack):
+        ordinal = ordinal_words[match.group(1)]
+        day_text = match.group(2)
+        for raw, normalized in DAY_ALIASES.items():
+            if re.search(rf"\b{re.escape(raw)}\b", day_text):
+                rules.append({"ordinal": ordinal, "day": normalized})
+    for match in re.finditer(rf"\bsolo\s+el\s+({ordinal_pattern})\s+((?:{day_pattern})(?:\s+y\s+(?:{day_pattern}))*)\b", haystack):
+        ordinal = ordinal_words[match.group(1)]
+        day_text = match.group(2)
+        for raw, normalized in DAY_ALIASES.items():
+            if re.search(rf"\b{re.escape(raw)}\b", day_text):
+                rules.append({"ordinal": ordinal, "day": normalized})
+    return [dict(t) for t in {tuple(rule.items()) for rule in rules}]
 
 
 def detect_benefit_type(text):
@@ -135,6 +186,8 @@ def normalize_row(bank, row):
         "benefit_type": detect_benefit_type(" ".join([benefit, levels, detail])),
         "percentages": detect_percentages(" ".join([benefit, levels, detail])),
         "promotion_days": detect_days(day_text, detail),
+        "month_days": detect_month_days(day_text, validity, detail),
+        "ordinal_weekdays": detect_ordinal_weekdays(day_text, validity, detail),
         "day_text": day_text or "No especificado",
         "validity": validity,
         "caps_and_minimums": caps,
@@ -169,6 +222,8 @@ def write_csv(path, rows):
         "benefit_type",
         "percentages",
         "promotion_days",
+        "month_days",
+        "ordinal_weekdays",
         "day_text",
         "validity",
         "caps_and_minimums",
@@ -182,6 +237,10 @@ def write_csv(path, rows):
             out = dict(row)
             out["percentages"] = "; ".join(out["percentages"])
             out["promotion_days"] = "; ".join(out["promotion_days"])
+            out["month_days"] = "; ".join(str(day) for day in out.get("month_days", []))
+            out["ordinal_weekdays"] = "; ".join(
+                f"{rule.get('ordinal')}:{rule.get('day')}" for rule in out.get("ordinal_weekdays", [])
+            )
             writer.writerow({k: out.get(k, "") for k in fieldnames})
 
 

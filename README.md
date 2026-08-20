@@ -28,6 +28,7 @@ Incluye:
 
 - pantalla Hoy con día actual de Paraguay;
 - separación de promos exclusivas del día, promos de todos los días con descuento y cuotas sin intereses;
+- reglas de bases y condiciones para promociones mensuales como `15 de cada mes`, `primer jueves` o `tercer lunes`;
 - filtros exclusivos por banco y por categoría;
 - búsqueda global por comercio/local;
 - selector de Nivel 1 a Nivel 5 para ueno bank;
