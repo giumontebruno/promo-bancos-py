@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Sudameris">
-  <rect width="120" height="120" rx="22" fill="#005baa"/>
-  <path d="M25 63c21-29 48-31 70-6-26-8-49-2-70 6z" fill="#ffffff"/>
-  <text x="60" y="91" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#ffffff">SUD</text>
+  <rect width="120" height="120" rx="18" fill="#005baa"/>
+  <path d="M22 50c18-21 44-29 76-13-31-2-55 8-76 13z" fill="#ffffff"/>
+  <path d="M24 61c23-12 46-14 72-4-27 0-50 4-72 4z" fill="#ffffff" opacity=".78"/>
+  <text x="60" y="84" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="900" fill="#ffffff">Sudameris</text>
 </svg>

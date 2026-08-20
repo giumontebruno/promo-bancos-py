@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="BNF">
-  <rect width="120" height="120" rx="22" fill="#00529b"/>
-  <path d="M23 72h74v12H23zM28 61h64v8H28zM60 25l38 25H22z" fill="#ffffff"/>
-  <text x="60" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">BNF</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="BNF Banco Nacional de Fomento">
+  <rect width="120" height="120" rx="18" fill="#ffffff"/>
+  <rect x="18" y="29" width="10" height="10" fill="#ed1c24"/>
+  <rect x="18" y="51" width="10" height="10" fill="#005da8"/>
+  <text x="34" y="70" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#005da8">BNF</text>
+  <text x="35" y="86" font-family="Arial, sans-serif" font-size="8" font-weight="800" fill="#005da8">BANCO NACIONAL DE FOMENTO</text>
 </svg>

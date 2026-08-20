@@ -27,11 +27,11 @@ const state = {
 };
 
 const bankThemes = {
-  "ueno bank": { main: "#00a86b", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno.svg" },
-  "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau.svg" },
-  "Continental": { main: "#b21f3a", soft: "#fde8ee", card: "#fff5f7", logo: "./assets/logos/continental.svg" },
-  "Sudameris": { main: "#005baa", soft: "#e4f0ff", card: "#f3f8ff", logo: "./assets/logos/sudameris.svg" },
-  "BNF": { main: "#00529b", soft: "#e3effa", card: "#f2f7fc", logo: "./assets/logos/bnf.svg" },
+  "ueno bank": { main: "#2bd98e", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno-icon-official.svg", logoBg: "#062017" },
+  "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau-official.svg", logoBg: "#ec7000" },
+  "Continental": { main: "#082a63", soft: "#e5edf8", card: "#f4f8fe", logo: "./assets/logos/continental.svg", logoBg: "#082a63" },
+  "Sudameris": { main: "#005baa", soft: "#e4f0ff", card: "#f3f8ff", logo: "./assets/logos/sudameris.svg", logoBg: "#005baa" },
+  "BNF": { main: "#005da8", soft: "#e3effa", card: "#f2f7fc", logo: "./assets/logos/bnf.svg", logoBg: "#ffffff" },
 };
 
 const els = {
@@ -255,7 +255,7 @@ function isInstallmentsOnly(promo) {
 }
 
 function getBankTheme(bank) {
-  return bankThemes[bank] || { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "" };
+  return bankThemes[bank] || { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "", logoBg: "#ffffff" };
 }
 
 function getMainBenefit(promo) {
@@ -552,7 +552,7 @@ function renderCard(promo) {
   const theme = getBankTheme(promo.bank);
   const benefitLines = getBenefitLines(promo);
   return `
-    <article class="promo-card" data-id="${promo.id}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card}">
+    <article class="promo-card" data-id="${promo.id}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
       <div class="logo-box">${theme.logo ? `<img src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(promo.bank || "Banco")}" />` : ""}</div>
       <div class="promo-content">
         <h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3>
