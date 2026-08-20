@@ -168,7 +168,7 @@ def row_id(row):
     return hashlib.sha1(base.encode("utf-8")).hexdigest()[:16]
 
 
-def normalize_row(bank, row):
+def normalize_row(bank, row, merchant_override=None, group_override=None, category_override=None):
     category = first(row, "Categoría", "Categoria", "category") or "Sin categoría"
     merchant = first(
         row,
@@ -196,9 +196,9 @@ def normalize_row(bank, row):
 
     normalized = {
         "bank": bank,
-        "category": category,
-        "merchant_name": merchant or merchants or category,
-        "merchant_locations_or_group": merchants,
+        "category": category_override or category,
+        "merchant_name": merchant_override or merchant or merchants or category,
+        "merchant_locations_or_group": group_override if group_override is not None else merchants,
         "benefit_summary": benefit,
         "benefit_type": detect_benefit_type(" ".join([benefit, levels, detail])),
         "percentages": detect_percentages(" ".join([benefit, levels, detail])),
@@ -216,6 +216,71 @@ def normalize_row(bank, row):
     return normalized
 
 
+def split_merchant_list(value):
+    text = clean(value)
+    if not text or text.lower().startswith(("no aplica", "ver detalle", "publicidad")):
+        return []
+    if any(phrase in text.lower() for phrase in ["promoción válida", "aplica exclusivamente", "beneficio válido"]):
+        return []
+    merchants = [clean(part) for part in text.split(";")]
+    merchants = [merchant for merchant in merchants if merchant and len(merchant) <= 80]
+    return list(dict.fromkeys(merchants))
+
+
+def should_skip_ueno_row(row):
+    category = clean(row.get("Categoría")).lower()
+    merchant = clean(row.get("Comercio/Promoción")).lower()
+    detail = clean(row.get("Detalle")).lower()
+    return (
+        category == "beneficios del mes"
+        and ("publicidad" in detail or "publicidad" in merchant or "ahorrá más con" in merchant)
+    )
+
+
+def infer_ueno_category(category, merchant, group):
+    if clean(category).lower() != "beneficios del mes":
+        return category
+    haystack = clean(" ".join([merchant, group])).lower()
+    rules = [
+        ("Combustible", ["petropar", "copetrol", "enex", "petrobras", "puma energy", "petrochaco", "petromax"]),
+        ("Supermercados", ["kingo", "ahorrazo", "salemma", "superseis", "stock", "delimarket", "real"]),
+        ("Farmacias", ["farmacia", "farmacenter", "biggie farma", "drugstore", "farmatotal", "isalú", "isalu"]),
+        ("Viajes", ["hotel", "cabaña", "cabañas", "oasis dream", "planazo", "quinta la paloma"]),
+        ("Entretenimiento", ["club", "deportes", "academia", "gym", "pilates", "feria", "flight", "virtuality"]),
+        ("Tiendas", ["joyas", "joyería", "joyeria", "vernier", "koala"]),
+    ]
+    for inferred, needles in rules:
+        if any(needle in haystack for needle in needles):
+            return inferred
+    return "Especiales"
+
+
+def normalize_source_row(bank, row):
+    if bank != "ueno bank":
+        return [normalize_row(bank, row)]
+    if should_skip_ueno_row(row):
+        return []
+    original_category = first(row, "Categoría", "Categoria", "category") or "Sin categoría"
+    original_group = first(row, "Comercio/Promoción", "Comercio/Promocion", "Comercio", "Promoción", "Promocion")
+    merchants = split_merchant_list(first(row, "Locales / comercios detectados", "Locales / comercios incluidos", "Locales"))
+    if len(merchants) == 1:
+        category = infer_ueno_category(original_category, merchants[0], original_group)
+        return [normalize_row(bank, row, merchant_override=merchants[0], group_override=original_group, category_override=category)]
+    if len(merchants) == 0:
+        category = infer_ueno_category(original_category, original_group, "")
+        return [normalize_row(bank, row, category_override=category)]
+    return [
+        normalize_row(
+            bank,
+            row,
+            merchant_override=merchant,
+            group_override=original_group,
+            category_override=infer_ueno_category(original_category, merchant, original_group),
+        )
+        for merchant in merchants
+    ]
+
+
 def load_promotions():
     promotions = []
     for bank, path in SOURCE_FILES:
@@ -223,7 +288,7 @@ def load_promotions():
             continue
         with path.open(encoding="utf-8-sig", newline="") as f:
             for row in csv.DictReader(f):
-                promotions.append(normalize_row(bank, row))
+                promotions.extend(normalize_source_row(bank, row))
     promotions.sort(key=lambda r: (r["bank"], r["category"], r["merchant_name"]))
     return promotions
 

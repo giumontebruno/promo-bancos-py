@@ -7,11 +7,11 @@ const CATEGORY_GROUPS = [
   ["Combustible", ["combustible", "estacion", "estaciones", "shell", "puma flota"]],
   ["Farmacias", ["farmacia", "farmacias", "perfumeria", "perfumerías"]],
   ["Gastronomía", ["gastronomia", "gastronomía", "cafeteria", "cafeterías", "heladeria", "heladerías"]],
-  ["Tiendas", ["tienda", "tiendas", "moda", "indumentaria", "shopping", "shoppings", "joyeria", "joyerías", "niños", "jugueteria", "jugueterías"]],
+  ["Tiendas", ["tienda", "tiendas", "moda", "indumentaria", "shopping", "shoppings", "joyeria", "joyerías", "joyas", "niños", "jugueteria", "jugueterías"]],
   ["Hogar y construcción", ["hogar", "construccion", "construcción", "ferreteria", "ferreterías", "muebleria", "mueblerías", "industrial"]],
   ["Tecnología", ["tecnologia", "tecnología", "electronica", "electrónica"]],
-  ["Entretenimiento", ["entretenimiento", "eventos", "teatro", "clubes", "deportes", "caza", "pesca"]],
-  ["Viajes", ["viaje", "viajes", "turismo", "hoteles", "aéreas", "aereas"]],
+  ["Entretenimiento", ["entretenimiento", "eventos", "teatro", "clubes", "club", "deportes", "academia", "gym", "gimnasio", "pilates", "feria", "caza", "pesca"]],
+  ["Viajes", ["viaje", "viajes", "turismo", "hoteles", "hotel", "cabaña", "cabañas", "aéreas", "aereas"]],
   ["Salud y belleza", ["salud", "belleza", "peluqueria", "peluquerías", "spa", "spas", "veterinaria", "veterinarias"]],
   ["Servicios", ["educacion", "educación", "seguros", "municipalidades", "juridicos", "jurídicos", "inmobiliarias", "vehículos", "vehiculos"]],
   ["Especiales", ["beneficios del mes", "primera compra", "privilege", "promociones especiales", "cuotas", "tarjetas", "últimos días", "ultimos dias", "varios", "otros", "sin categoría"]],
@@ -436,7 +436,7 @@ function matchesBank(promo) {
 
 function matchesCategory(promo) {
   if (state.activeCategory === "Todas") return true;
-  return getCategoryGroup(promo.category) === state.activeCategory;
+  return getPromoCategoryGroup(promo) === state.activeCategory;
 }
 
 function sectionPromotions(promos) {
@@ -526,14 +526,18 @@ function render() {
 function getCategories() {
   const categories = [...new Set(state.promotions
     .filter(matchesBank)
-    .map((promo) => getCategoryGroup(promo.category))
+    .map(getPromoCategoryGroup)
     .filter(Boolean))]
     .sort((a, b) => getCategoryOrder(a) - getCategoryOrder(b) || a.localeCompare(b, "es"));
   return ["Todas", ...categories];
 }
 
-function getCategoryGroup(category) {
-  const normalized = normalizeDayName(category);
+function getPromoCategoryGroup(promo) {
+  const normalized = normalizeDayName([
+    promo.category,
+    promo.merchant_name,
+    promo.merchant_locations_or_group,
+  ].join(" "));
   const found = CATEGORY_GROUPS.find(([group, needles]) => (
     group !== "Todas" && needles.some((needle) => normalized.includes(normalizeDayName(needle)))
   ));
@@ -558,7 +562,7 @@ function renderCard(promo) {
       <div class="promo-content">
         <h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3>
         <div class="benefit-lines">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
-        <p class="bank-card-line">${escapeHtml(promo.bank || "Banco")} · ${escapeHtml(getCategoryGroup(promo.category))}</p>
+        <p class="bank-card-line">${escapeHtml(promo.bank || "Banco")} · ${escapeHtml(getPromoCategoryGroup(promo))}</p>
         <div class="meta">
           <div><strong>Dia:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
           <div><strong>Vigencia:</strong> ${escapeHtml(getDisplayValidity(promo))}</div>
