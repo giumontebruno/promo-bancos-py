@@ -29,9 +29,9 @@ const state = {
 const bankThemes = {
   "ueno bank": { main: "#2bd98e", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno-icon-official.svg", logoBg: "#062017" },
   "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau-official.svg", logoBg: "#ec7000" },
-  "Continental": { main: "#082a63", soft: "#e5edf8", card: "#f4f8fe", logo: "./assets/logos/continental.svg", logoBg: "#082a63" },
-  "Sudameris": { main: "#005baa", soft: "#e4f0ff", card: "#f3f8ff", logo: "./assets/logos/sudameris.svg", logoBg: "#005baa" },
-  "BNF": { main: "#005da8", soft: "#e3effa", card: "#f2f7fc", logo: "./assets/logos/bnf.svg", logoBg: "#ffffff" },
+  "Continental": { main: "#082a63", soft: "#e5edf8", card: "#f4f8fe", logo: "./assets/logos/continental-official.png", logoBg: "#ffffff" },
+  "Sudameris": { main: "#ff0000", soft: "#ffe6e6", card: "#fff7f7", logo: "./assets/logos/sudameris-official.png", logoBg: "#ffffff" },
+  "BNF": { main: "#005da8", soft: "#e3effa", card: "#f2f7fc", logo: "./assets/logos/bnf-official.png", logoBg: "#ffffff" },
 };
 
 const els = {

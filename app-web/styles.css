@@ -166,7 +166,7 @@ input[type="search"] {
   background: var(--bank-card);
   color: #15202f;
   display: grid;
-  grid-template-columns: 116px 1fr;
+  grid-template-columns: 172px 1fr;
   min-height: 172px;
   overflow: hidden;
   padding: 0;
@@ -191,8 +191,8 @@ input[type="search"] {
 .logo-box img {
   border-radius: 10px;
   display: block;
-  max-height: 64px;
-  max-width: 92px;
+  max-height: 72px;
+  max-width: 148px;
   object-fit: contain;
   width: 100%;
 }
@@ -316,10 +316,10 @@ dialog::backdrop {
   }
 
   .promo-card {
-    grid-template-columns: 96px 1fr;
+    grid-template-columns: 128px 1fr;
   }
 
   .logo-box img {
-    max-width: 74px;
+    max-width: 106px;
   }
 }
