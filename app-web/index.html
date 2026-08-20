@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promo Bancos PY</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Promociones bancarias</p>
+          <h1>Promo Bancos PY</h1>
+        </div>
+        <button id="refreshButton" class="icon-button" title="Actualizar datos">Actualizar</button>
+      </header>
+
+      <section class="controls">
+        <input id="searchInput" type="search" placeholder="Buscar local, banco, categoria o beneficio" />
+        <div id="bankTabs" class="tabs"></div>
+        <div id="dayTabs" class="tabs"></div>
+        <div id="uenoLevelPanel" class="level-panel hidden"></div>
+      </section>
+
+      <section class="summary">
+        <span id="statusText">Cargando promociones...</span>
+        <span id="countText"></span>
+      </section>
+
+      <section id="results" class="results"></section>
+    </main>
+
+    <dialog id="promoDialog">
+      <article class="dialog-card">
+        <button id="closeDialog" class="close-button" title="Cerrar">x</button>
+        <div id="dialogContent"></div>
+      </article>
+    </dialog>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

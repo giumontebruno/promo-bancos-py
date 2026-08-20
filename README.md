@@ -20,6 +20,31 @@ Los archivos consumibles quedan en `public/`:
 - `public/index_by_category.json`: ids agrupados por categoría.
 - `public/manifest.json`: fecha de generación, bancos, categorías y conteo.
 
+## Prototipo web
+
+La carpeta `app-web/` contiene una primera interfaz usable para validar la experiencia antes de llevarla a APK.
+
+Incluye:
+
+- pantalla Hoy con día actual de Paraguay;
+- separación de promos específicas del día, todos los días con descuento y cuotas sin intereses;
+- filtros exclusivos por banco;
+- búsqueda global por comercio/local;
+- selector de Nivel 1 a Nivel 5 para ueno bank;
+- tarjetas con colores por banco y título enfocado en comercio + beneficio.
+
+Para probarla:
+
+```bash
+python -m http.server 5177
+```
+
+Luego abrir:
+
+```text
+http://localhost:5177/app-web/
+```
+
 ## Automatización
 
 El workflow `.github/workflows/refresh-promotions.yml` corre todos los días a las 04:00 de Paraguay, pero solo actualiza datos si:
