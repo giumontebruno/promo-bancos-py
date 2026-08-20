@@ -5,23 +5,25 @@ const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF"]
 const state = {
   promotions: [],
   activeBank: "Todos",
+  activeCategory: "Todas",
   activeDay: "hoy",
   query: "",
   uenoLevel: 5,
 };
 
 const bankThemes = {
-  "ueno bank": { main: "#007a53", soft: "#dcf6eb" },
-  "Itaú": { main: "#ec7000", soft: "#fff0df" },
-  "Continental": { main: "#9f1736", soft: "#fde8ee" },
-  "Sudameris": { main: "#0057a8", soft: "#e4f0ff" },
-  "BNF": { main: "#004b8d", soft: "#e3effa" },
+  "ueno bank": { main: "#007a53", soft: "#e5f6ef", card: "#f2fbf7", logo: "ueno" },
+  "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "Itaú" },
+  "Continental": { main: "#9f1736", soft: "#fde8ee", card: "#fff5f7", logo: "BC" },
+  "Sudameris": { main: "#0057a8", soft: "#e4f0ff", card: "#f3f8ff", logo: "SUD" },
+  "BNF": { main: "#004b8d", soft: "#e3effa", card: "#f2f7fc", logo: "BNF" },
 };
 
 const els = {
   bankTabs: document.querySelector("#bankTabs"),
   dayTabs: document.querySelector("#dayTabs"),
   searchInput: document.querySelector("#searchInput"),
+  categoryTabs: document.querySelector("#categoryTabs"),
   refreshButton: document.querySelector("#refreshButton"),
   statusText: document.querySelector("#statusText"),
   countText: document.querySelector("#countText"),
@@ -63,6 +65,41 @@ function inferPromotionDaysFromText(promo) {
   return [...new Set([...found, ...range])];
 }
 
+function getDisplayDays(promo) {
+  const days = inferPromotionDaysFromText(promo);
+  if (isEveryDayPromotion(promo)) return "Todos los dias";
+  if (!days.length) return "No especificado";
+  return days.map(capitalize).join(", ");
+}
+
+function getDisplayValidity(promo) {
+  const text = String(promo.validity || "").trim();
+  if (!text || normalizeDayName(text).includes("no especificado")) return "Ver bases";
+
+  const datePatterns = [
+    /hasta\s+el\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
+    /hasta\s+el\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+del\s+[0-9]{4})/i,
+    /hasta\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
+    /hasta\s+([0-9]{4}-[0-9]{2}-[0-9]{2})/i,
+    /[0-9]{4}-[0-9]{2}-[0-9]{2}\s+hasta\s+([0-9]{4}-[0-9]{2}-[0-9]{2})/i,
+    /hasta\s+el\s+([0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4})/i,
+  ];
+  for (const pattern of datePatterns) {
+    const match = text.match(pattern);
+    if (match) return `Hasta ${cleanSentence(match[1])}`;
+  }
+  return cleanSentence(text.replace(/^vigencia:\s*/i, ""));
+}
+
+function cleanSentence(value) {
+  return String(value || "")
+    .replace(/[•●]/g, "")
+    .replace(/\bdel\s+([0-9]{4})\b/gi, "de $1")
+    .replace(/\s+/g, " ")
+    .replace(/\s+\./g, ".")
+    .trim();
+}
+
 function inferDayRange(text) {
   const normalized = normalizeDayName(text);
   const ranges = [
@@ -97,7 +134,7 @@ function isInstallmentsOnly(promo) {
 }
 
 function getBankTheme(bank) {
-  return bankThemes[bank] || { main: "#334155", soft: "#eef2f7" };
+  return bankThemes[bank] || { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "PY" };
 }
 
 function getMainBenefit(promo) {
@@ -125,8 +162,7 @@ function getBenefitForSelectedUenoLevel(promo, level) {
 }
 
 function getPromoTitle(promo) {
-  const merchant = promo.merchant_name || promo.category || "Promoción";
-  return `${merchant} - ${getMainBenefit(promo)}`;
+  return promo.merchant_name || promo.category || "Promoción";
 }
 
 function appliesToSelectedDay(promo, selectedDay) {
@@ -186,10 +222,17 @@ function matchesBank(promo) {
   return promo.bank === state.activeBank;
 }
 
+function matchesCategory(promo) {
+  if (state.activeCategory === "Todas") return true;
+  return promo.category === state.activeCategory;
+}
+
 function sectionPromotions(promos) {
-  const exact = [];
+  const onlyToday = [];
+  const todayWithOtherDays = [];
   const everydayDiscounts = [];
   const everydayInstallments = [];
+  const selectedDay = state.activeDay === "hoy" ? getTodayInParaguay() : state.activeDay;
 
   promos.forEach((promo) => {
     const everyDay = isEveryDayPromotion(promo);
@@ -197,13 +240,16 @@ function sectionPromotions(promos) {
       everydayInstallments.push(promo);
     } else if (everyDay) {
       everydayDiscounts.push(promo);
+    } else if (inferPromotionDaysFromText(promo).length === 1 && inferPromotionDaysFromText(promo)[0] === selectedDay) {
+      onlyToday.push(promo);
     } else {
-      exact.push(promo);
+      todayWithOtherDays.push(promo);
     }
   });
 
   return [
-    ["Promos de hoy", exact],
+    [`Solo ${capitalize(selectedDay)}`, onlyToday, "featured"],
+    [`Tambien aplican ${capitalize(selectedDay)}`, todayWithOtherDays, ""],
     ["Todos los dias con descuento o reintegro", everydayDiscounts],
     ["Cuotas sin intereses todos los dias", everydayInstallments],
   ].filter(([, items]) => items.length);
@@ -212,6 +258,11 @@ function sectionPromotions(promos) {
 function renderTabs() {
   els.bankTabs.innerHTML = BANKS.map((bank) => (
     `<button class="${state.activeBank === bank ? "active" : ""}" data-bank="${bank}">${bank}</button>`
+  )).join("");
+
+  const categories = getCategories();
+  els.categoryTabs.innerHTML = categories.map((category) => (
+    `<button class="${state.activeCategory === category ? "active" : ""}" data-category="${escapeAttribute(category)}">${escapeHtml(category)}</button>`
   )).join("");
 
   const days = [["hoy", "Hoy"], ...DAYS.map((day) => [day, capitalize(day)])];
@@ -229,6 +280,7 @@ function render() {
   renderTabs();
   const base = state.promotions
     .filter(matchesBank)
+    .filter(matchesCategory)
     .filter(matchesQuery)
     .filter((promo) => appliesToSelectedDay(promo, state.activeDay))
     .sort(sortPromotions);
@@ -241,12 +293,21 @@ function render() {
     return;
   }
 
-  els.results.innerHTML = sectionPromotions(base).map(([title, items]) => `
-    <section>
+  els.results.innerHTML = sectionPromotions(base).map(([title, items, mode]) => `
+    <section class="${mode === "featured" ? "featured-section" : ""}">
       <h2 class="section-title">${title}</h2>
       <div class="grid">${items.map(renderCard).join("")}</div>
     </section>
   `).join("");
+}
+
+function getCategories() {
+  const categories = [...new Set(state.promotions
+    .filter(matchesBank)
+    .map((promo) => promo.category)
+    .filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, "es"));
+  return ["Todas", ...categories];
 }
 
 function sortPromotions(a, b) {
@@ -256,15 +317,16 @@ function sortPromotions(a, b) {
 function renderCard(promo) {
   const theme = getBankTheme(promo.bank);
   return `
-    <article class="promo-card" data-id="${promo.id}" style="--bank-main:${theme.main};--bank-soft:${theme.soft}">
-      <h3 class="promo-title">${escapeHtml(getPromoTitle(promo))}</h3>
-      <div class="bank-line">
-        <span class="pill">${escapeHtml(promo.bank || "Banco")}</span>
-        <span class="pill">${escapeHtml(promo.category || "Categoria")}</span>
-      </div>
-      <div class="meta">
-        <div><strong>Dia:</strong> ${escapeHtml(promo.day_text || promo.validity || "No especificado")}</div>
-        <div><strong>Vigencia:</strong> ${escapeHtml(promo.validity || "Ver bases")}</div>
+    <article class="promo-card" data-id="${promo.id}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card}">
+      <div class="bank-rail"><span>${escapeHtml(theme.logo)}</span></div>
+      <div class="promo-content">
+        <h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3>
+        <p class="discount-line">${escapeHtml(getMainBenefit(promo))}</p>
+        <p class="bank-card-line">${escapeHtml(promo.bank || "Banco")} · ${escapeHtml(promo.category || "Categoria")}</p>
+        <div class="meta">
+          <div><strong>Dia:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
+          <div><strong>Vigencia:</strong> ${escapeHtml(getDisplayValidity(promo))}</div>
+        </div>
       </div>
     </article>
   `;
@@ -280,8 +342,8 @@ function openDetail(id) {
       <div><strong>Banco:</strong> ${escapeHtml(promo.bank || "")}</div>
       <div><strong>Categoria:</strong> ${escapeHtml(promo.category || "")}</div>
       <div><strong>Comercios/locales:</strong> ${escapeHtml(promo.merchant_locations_or_group || promo.merchant_name || "")}</div>
-      <div><strong>Dias:</strong> ${escapeHtml(promo.day_text || "")}</div>
-      <div><strong>Vigencia:</strong> ${escapeHtml(promo.validity || "")}</div>
+      <div><strong>Dias:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
+      <div><strong>Vigencia:</strong> ${escapeHtml(getDisplayValidity(promo))}</div>
       <div><strong>Topes y minimos:</strong> ${escapeHtml(promo.caps_and_minimums || "No especificado")}</div>
       <div><strong>Reglas por nivel:</strong> ${escapeHtml(promo.level_rules || "No aplica")}</div>
       <div><a href="${escapeAttribute(promo.source_url || "#")}" target="_blank" rel="noreferrer">Ver bases y condiciones</a></div>
@@ -320,6 +382,14 @@ els.bankTabs.addEventListener("click", (event) => {
   const bank = event.target?.dataset?.bank;
   if (!bank) return;
   state.activeBank = bank;
+  state.activeCategory = "Todas";
+  render();
+});
+
+els.categoryTabs.addEventListener("click", (event) => {
+  const category = event.target?.dataset?.category;
+  if (!category) return;
+  state.activeCategory = category;
   render();
 });
 

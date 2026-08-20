@@ -27,11 +27,11 @@ La carpeta `app-web/` contiene una primera interfaz usable para validar la exper
 Incluye:
 
 - pantalla Hoy con día actual de Paraguay;
-- separación de promos específicas del día, todos los días con descuento y cuotas sin intereses;
-- filtros exclusivos por banco;
+- separación de promos exclusivas del día, promos de todos los días con descuento y cuotas sin intereses;
+- filtros exclusivos por banco y por categoría;
 - búsqueda global por comercio/local;
 - selector de Nivel 1 a Nivel 5 para ueno bank;
-- tarjetas con colores por banco y título enfocado en comercio + beneficio.
+- tarjetas con fondo/marca por banco y jerarquía comercio, beneficio y banco/categoría.
 
 Para probarla:
 
