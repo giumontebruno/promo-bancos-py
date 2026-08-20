@@ -30,8 +30,8 @@ const bankThemes = {
   "ueno bank": { main: "#2bd98e", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno-icon-official.svg", logoBg: "#062017" },
   "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau-official.svg", logoBg: "#ec7000" },
   "Continental": { main: "#082a63", soft: "#e5edf8", card: "#f4f8fe", logo: "./assets/logos/continental-official.png", logoBg: "#ffffff" },
-  "Sudameris": { main: "#ff0000", soft: "#ffe6e6", card: "#fff7f7", logo: "./assets/logos/sudameris-official.png", logoBg: "#ffffff" },
-  "BNF": { main: "#005da8", soft: "#e3effa", card: "#f2f7fc", logo: "./assets/logos/bnf-official.png", logoBg: "#ffffff" },
+  "Sudameris": { main: "#4b2455", soft: "#f0e9f2", card: "#fbf7fc", logo: "./assets/logos/sudameris.svg", logoBg: "#ffffff" },
+  "BNF": { main: "#b08a2e", soft: "#f4eddd", card: "#fbfaf6", logo: "./assets/logos/bnf-official.png", logoBg: "#f3f0e8" },
 };
 
 const els = {
@@ -91,11 +91,12 @@ function inferPromotionDaysFromText(promo) {
 
   const text = normalizeDayName(`${promo.day_text || ""} ${promo.validity || ""}`);
   if (hasOpenDateRangeWithoutSpecificDay(text)) return [...DAYS];
-  if (!text || text.includes("no especificado")) return [];
+  if (!text) return [];
   if (text.includes("todos los dias") || text.includes("todos los días")) return [...DAYS];
 
   const found = DAYS.filter((day) => text.includes(normalizeDayName(day)));
   const range = inferDayRange(text);
+  if (!found.length && !range.length && text.includes("no especificado")) return [];
   return [...new Set([...found, ...range])];
 }
 

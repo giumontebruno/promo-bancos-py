@@ -32,7 +32,9 @@
     "percentages": [
       "10%"
     ],
-    "promotion_days": [],
+    "promotion_days": [
+      "lunes"
+    ],
     "month_days": [],
     "ordinal_weekdays": [],
     "day_text": "No especificado en tarjeta",
@@ -22598,7 +22600,8 @@
       "30%"
     ],
     "promotion_days": [
-      "martes"
+      "martes",
+      "miércoles"
     ],
     "month_days": [],
     "ordinal_weekdays": [],
@@ -22677,7 +22680,9 @@
     "percentages": [
       "25%"
     ],
-    "promotion_days": [],
+    "promotion_days": [
+      "viernes"
+    ],
     "month_days": [],
     "ordinal_weekdays": [],
     "day_text": "No especificado",
@@ -22892,7 +22897,9 @@
       "15%",
       "10%"
     ],
-    "promotion_days": [],
+    "promotion_days": [
+      "sábado"
+    ],
     "month_days": [],
     "ordinal_weekdays": [],
     "day_text": "No especificado",
@@ -23149,7 +23156,9 @@
       "15%",
       "10%"
     ],
-    "promotion_days": [],
+    "promotion_days": [
+      "sábado"
+    ],
     "month_days": [],
     "ordinal_weekdays": [],
     "day_text": "No especificado",

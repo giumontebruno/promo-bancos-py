@@ -185,7 +185,7 @@ def normalize_row(bank, row):
         "benefit_summary": benefit,
         "benefit_type": detect_benefit_type(" ".join([benefit, levels, detail])),
         "percentages": detect_percentages(" ".join([benefit, levels, detail])),
-        "promotion_days": detect_days(day_text, detail),
+        "promotion_days": detect_days(day_text, validity, detail),
         "month_days": detect_month_days(day_text, validity, detail),
         "ordinal_weekdays": detect_ordinal_weekdays(day_text, validity, detail),
         "day_text": day_text or "No especificado",
