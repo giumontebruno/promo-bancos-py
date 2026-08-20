@@ -14,7 +14,7 @@ La APK no debería hacer scraping. Debe consumir una base ya procesada:
 Cuando el repo esté en GitHub, la URL puede ser:
 
 ```text
-https://raw.githubusercontent.com/OWNER/REPO/main/public/promotions.json
+https://raw.githubusercontent.com/giumontebruno/promo-bancos-py/main/public/promotions.json
 ```
 
 Más adelante se puede reemplazar por:
