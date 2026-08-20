@@ -165,7 +165,7 @@ input[type="search"] {
   background: var(--bank-card);
   color: #15202f;
   display: grid;
-  grid-template-columns: 54px 1fr;
+  grid-template-columns: 84px 1fr;
   min-height: 172px;
   overflow: hidden;
   padding: 0;
@@ -177,24 +177,22 @@ input[type="search"] {
   transform: translateY(-1px);
 }
 
-.bank-rail {
+.logo-box {
   align-items: center;
   background: var(--bank-main);
-  color: #fff;
   display: flex;
   justify-content: center;
   min-height: 100%;
-  padding: 8px;
+  padding: 12px;
 }
 
-.bank-rail span {
+.logo-box img {
+  aspect-ratio: 1;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
   display: block;
-  font-size: 12px;
-  font-weight: 900;
-  line-height: 1;
-  text-align: center;
-  transform: rotate(-90deg);
-  white-space: nowrap;
+  max-width: 58px;
+  width: 100%;
 }
 
 .promo-content {
@@ -207,12 +205,22 @@ input[type="search"] {
   line-height: 1.25;
 }
 
-.discount-line {
+.benefit-lines {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 9px;
+}
+
+.benefit-lines span {
+  background: color-mix(in srgb, var(--bank-main) 12%, #ffffff);
+  border: 1px solid color-mix(in srgb, var(--bank-main) 28%, #ffffff);
+  border-radius: 8px;
   color: var(--bank-main);
   font-size: 15px;
   font-weight: 900;
-  line-height: 1.3;
-  margin: 0 0 7px;
+  line-height: 1.2;
+  padding: 5px 7px;
 }
 
 .bank-card-line {
@@ -306,6 +314,6 @@ dialog::backdrop {
   }
 
   .promo-card {
-    grid-template-columns: 46px 1fr;
+    grid-template-columns: 76px 1fr;
   }
 }

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="BNF">
+  <rect width="120" height="120" rx="22" fill="#00529b"/>
+  <path d="M23 72h74v12H23zM28 61h64v8H28zM60 25l38 25H22z" fill="#ffffff"/>
+  <text x="60" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">BNF</text>
+</svg>

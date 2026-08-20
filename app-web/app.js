@@ -27,11 +27,11 @@ const state = {
 };
 
 const bankThemes = {
-  "ueno bank": { main: "#007a53", soft: "#e5f6ef", card: "#f2fbf7", logo: "ueno" },
-  "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "Itaú" },
-  "Continental": { main: "#9f1736", soft: "#fde8ee", card: "#fff5f7", logo: "BC" },
-  "Sudameris": { main: "#0057a8", soft: "#e4f0ff", card: "#f3f8ff", logo: "SUD" },
-  "BNF": { main: "#004b8d", soft: "#e3effa", card: "#f2f7fc", logo: "BNF" },
+  "ueno bank": { main: "#00a86b", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno.svg" },
+  "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau.svg" },
+  "Continental": { main: "#b21f3a", soft: "#fde8ee", card: "#fff5f7", logo: "./assets/logos/continental.svg" },
+  "Sudameris": { main: "#005baa", soft: "#e4f0ff", card: "#f3f8ff", logo: "./assets/logos/sudameris.svg" },
+  "BNF": { main: "#00529b", soft: "#e3effa", card: "#f2f7fc", logo: "./assets/logos/bnf.svg" },
 };
 
 const els = {
@@ -197,6 +197,7 @@ function getDisplayValidity(promo) {
 
   const datePatterns = [
     /del\s+[0-9]{1,2}\s+al\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
+    /desde\s+el\s+[0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+al\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
     /hasta\s+el\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
     /hasta\s+el\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+del\s+[0-9]{4})/i,
     /hasta\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
@@ -254,7 +255,7 @@ function isInstallmentsOnly(promo) {
 }
 
 function getBankTheme(bank) {
-  return bankThemes[bank] || { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "PY" };
+  return bankThemes[bank] || { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "" };
 }
 
 function getMainBenefit(promo) {
@@ -264,6 +265,44 @@ function getMainBenefit(promo) {
   const pct = (promo.percentages || [])[0];
   if (pct && promo.benefit_summary?.toLowerCase().includes(pct.toLowerCase())) return promo.benefit_summary;
   return [pct, promo.benefit_type].filter(Boolean).join(" ") || promo.benefit_summary || "Ver detalle";
+}
+
+function getBenefitLines(promo) {
+  const text = String(getMainBenefit(promo) || promo.benefit_summary || "Ver detalle");
+  if (text.toLowerCase().includes("aplica a todos los niveles")) return [text];
+
+  const normalized = text
+    .replace(/hasta\s+(\d+)\s+cuotas?\s+sin\s+inter[eé]s(?:es)?/gi, "$1 cuotas")
+    .replace(/(\d{1,3}\s*%)\s+de\s+/gi, "$1 ")
+    .replace(/;/g, "|");
+
+  const rawParts = normalized
+    .split("|")
+    .map((part) => cleanBenefitLine(part))
+    .filter(Boolean);
+
+  const parts = rawParts.length ? rawParts : [cleanBenefitLine(normalized)];
+  return [...new Set(parts)].slice(0, 4);
+}
+
+function cleanBenefitLine(value) {
+  let line = String(value || "").replace(/\s+/g, " ").trim();
+  if (!line) return "";
+  if (line.toLowerCase() === "cuotas_sin_intereses") return "Cuotas sin intereses";
+
+  const quota = line.match(/(\d+)\s+cuotas?/i);
+  if (quota) return `${quota[1]} cuotas`;
+
+  const pct = line.match(/(\d{1,3}\s*%)/);
+  if (pct) {
+    const lower = line.toLowerCase();
+    if (lower.includes("reintegro")) return `${pct[1].replace(/\s+/g, "")} reintegro`;
+    if (lower.includes("descuento")) return `${pct[1].replace(/\s+/g, "")} descuento`;
+    if (lower.includes("beneficio")) return `${pct[1].replace(/\s+/g, "")} beneficio`;
+    return `${pct[1].replace(/\s+/g, "")} descuento`;
+  }
+
+  return line.replace(/^hasta\s+/i, "");
 }
 
 function getBenefitForSelectedUenoLevel(promo, level) {
@@ -511,12 +550,13 @@ function sortPromotions(a, b) {
 
 function renderCard(promo) {
   const theme = getBankTheme(promo.bank);
+  const benefitLines = getBenefitLines(promo);
   return `
     <article class="promo-card" data-id="${promo.id}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card}">
-      <div class="bank-rail"><span>${escapeHtml(theme.logo)}</span></div>
+      <div class="logo-box">${theme.logo ? `<img src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(promo.bank || "Banco")}" />` : ""}</div>
       <div class="promo-content">
         <h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3>
-        <p class="discount-line">${escapeHtml(getMainBenefit(promo))}</p>
+        <div class="benefit-lines">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
         <p class="bank-card-line">${escapeHtml(promo.bank || "Banco")} · ${escapeHtml(getCategoryGroup(promo.category))}</p>
         <div class="meta">
           <div><strong>Dia:</strong> ${escapeHtml(getDisplayDays(promo))}</div>

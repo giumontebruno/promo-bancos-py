@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Banco Continental">
+  <rect width="120" height="120" rx="22" fill="#b21f3a"/>
+  <circle cx="60" cy="49" r="23" fill="#ffffff"/>
+  <text x="60" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">BC</text>
+</svg>
