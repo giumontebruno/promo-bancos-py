@@ -19000,6 +19000,7 @@
     ],
     "promotion_days": [
       "viernes",
+      "sábado",
       "domingo"
     ],
     "month_days": [],
@@ -19050,6 +19051,8 @@
     "promotion_days": [
       "lunes",
       "martes",
+      "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -19076,6 +19079,8 @@
     "promotion_days": [
       "lunes",
       "martes",
+      "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -19102,6 +19107,8 @@
     "promotion_days": [
       "lunes",
       "martes",
+      "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -19128,6 +19135,8 @@
     "promotion_days": [
       "lunes",
       "martes",
+      "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -19154,6 +19163,8 @@
     "promotion_days": [
       "lunes",
       "martes",
+      "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -19180,6 +19191,8 @@
     "promotion_days": [
       "lunes",
       "martes",
+      "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -19206,6 +19219,8 @@
     "promotion_days": [
       "lunes",
       "martes",
+      "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -19232,6 +19247,8 @@
     "promotion_days": [
       "lunes",
       "martes",
+      "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -19258,6 +19275,8 @@
     "promotion_days": [
       "lunes",
       "martes",
+      "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -19284,6 +19303,8 @@
     "promotion_days": [
       "lunes",
       "martes",
+      "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -19426,6 +19447,8 @@
     ],
     "promotion_days": [
       "lunes",
+      "martes",
+      "miércoles",
       "jueves"
     ],
     "month_days": [],
@@ -22299,6 +22322,7 @@
     ],
     "promotion_days": [
       "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -22343,6 +22367,7 @@
     ],
     "promotion_days": [
       "lunes",
+      "martes",
       "miércoles"
     ],
     "month_days": [],
@@ -22389,6 +22414,9 @@
     ],
     "promotion_days": [
       "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
       "viernes"
     ],
     "month_days": [],
@@ -22443,6 +22471,8 @@
     ],
     "promotion_days": [
       "miércoles",
+      "jueves",
+      "viernes",
       "sábado"
     ],
     "month_days": [],
@@ -22833,6 +22863,10 @@
     ],
     "promotion_days": [
       "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
       "domingo"
     ],
     "month_days": [],

@@ -70,11 +70,28 @@ def detect_days(*texts):
         return list(dict.fromkeys(rule["day"] for rule in ordinal_rules))
     if re.search(r"todos los d[ií]as|todos los dias", haystack):
         return ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
-    days = []
+    days = detect_day_ranges(haystack)
     for raw, normalized in DAY_ALIASES.items():
         if re.search(rf"\b{re.escape(raw)}\b", haystack):
             days.append(normalized)
     return list(dict.fromkeys(days))
+
+
+def detect_day_ranges(*texts):
+    haystack = " ".join(clean(t).lower() for t in texts)
+    order = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+    day_pattern = "|".join(re.escape(day) for day in DAY_ALIASES)
+    ranges = []
+    for match in re.finditer(rf"\b(?:de\s+)?({day_pattern})\s+a\s+({day_pattern})\b", haystack):
+        start_day = DAY_ALIASES[match.group(1)]
+        end_day = DAY_ALIASES[match.group(2)]
+        start = order.index(start_day)
+        end = order.index(end_day)
+        if start <= end:
+            ranges.extend(order[start : end + 1])
+        else:
+            ranges.extend(order[start:] + order[: end + 1])
+    return list(dict.fromkeys(ranges))
 
 
 def detect_month_days(*texts):
