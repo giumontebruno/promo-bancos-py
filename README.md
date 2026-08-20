@@ -40,6 +40,12 @@ python promo_backend/run_all.py
 
 La app debe leer `promotions.json` desde una URL pública del repositorio o desde una API propia.
 
+URL pública actual:
+
+```text
+https://raw.githubusercontent.com/giumontebruno/promo-bancos-py/main/public/promotions.json
+```
+
 Campos principales:
 
 - `bank`
@@ -56,3 +62,5 @@ Campos principales:
 - `source_url`
 
 Para uso personal, se puede consumir directamente el JSON publicado. Para comercializar, conviene poner una API intermedia con cache, autenticación y analítica.
+
+La carpeta `android-integration/` contiene un kit de integración para la APK generada en AI Studio: DTOs, cliente remoto y guía de parche para reemplazar datos hardcodeados por cache local + JSON remoto.
