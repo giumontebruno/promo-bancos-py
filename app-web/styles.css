@@ -282,6 +282,11 @@ dialog::backdrop {
   background: #fff;
 }
 
+.empty.compact {
+  padding: 16px;
+  text-align: left;
+}
+
 @media (max-width: 640px) {
   .app-shell {
     padding: 14px;

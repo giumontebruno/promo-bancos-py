@@ -1,6 +1,21 @@
 const DATA_URL = "../public/promotions.json";
 const DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
 const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF"];
+const CATEGORY_GROUPS = [
+  ["Todas", []],
+  ["Supermercados", ["super", "mayorista", "delimarket", "stock", "real", "contimarket"]],
+  ["Combustible", ["combustible", "estacion", "estaciones", "shell", "puma flota"]],
+  ["Farmacias", ["farmacia", "farmacias", "perfumeria", "perfumerías"]],
+  ["Gastronomía", ["gastronomia", "gastronomía", "cafeteria", "cafeterías", "heladeria", "heladerías"]],
+  ["Tiendas", ["tienda", "tiendas", "moda", "indumentaria", "shopping", "shoppings", "joyeria", "joyerías", "niños", "jugueteria", "jugueterías"]],
+  ["Hogar y construcción", ["hogar", "construccion", "construcción", "ferreteria", "ferreterías", "muebleria", "mueblerías", "industrial"]],
+  ["Tecnología", ["tecnologia", "tecnología", "electronica", "electrónica"]],
+  ["Entretenimiento", ["entretenimiento", "eventos", "teatro", "clubes", "deportes", "caza", "pesca"]],
+  ["Viajes", ["viaje", "viajes", "turismo", "hoteles", "aéreas", "aereas"]],
+  ["Salud y belleza", ["salud", "belleza", "peluqueria", "peluquerías", "spa", "spas", "veterinaria", "veterinarias"]],
+  ["Servicios", ["educacion", "educación", "seguros", "municipalidades", "juridicos", "jurídicos", "inmobiliarias", "vehículos", "vehiculos"]],
+  ["Especiales", ["beneficios del mes", "primera compra", "privilege", "promociones especiales", "cuotas", "tarjetas", "últimos días", "ultimos dias", "varios", "otros", "sin categoría"]],
+];
 
 const state = {
   promotions: [],
@@ -52,17 +67,37 @@ function getTodayInParaguay() {
   return normalizeDayName(text);
 }
 
+function getTodayLabel() {
+  const parts = new Intl.DateTimeFormat("es-PY", {
+    day: "numeric",
+    month: "long",
+    timeZone: "America/Asuncion",
+    weekday: "long",
+  }).formatToParts(new Date());
+  const weekday = parts.find((part) => part.type === "weekday")?.value || getTodayInParaguay();
+  const day = parts.find((part) => part.type === "day")?.value || "";
+  const month = parts.find((part) => part.type === "month")?.value || "";
+  return `Hoy ${normalizeDayName(weekday)} ${day} de ${month}`;
+}
+
 function inferPromotionDaysFromText(promo) {
   const existing = (promo.promotion_days || []).map(normalizeDayName).filter(Boolean);
   if (existing.length) return existing;
 
   const text = normalizeDayName(`${promo.day_text || ""} ${promo.validity || ""}`);
+  if (hasOpenDateRangeWithoutSpecificDay(text)) return [...DAYS];
   if (!text || text.includes("no especificado")) return [];
   if (text.includes("todos los dias") || text.includes("todos los días")) return [...DAYS];
 
   const found = DAYS.filter((day) => text.includes(normalizeDayName(day)));
   const range = inferDayRange(text);
   return [...new Set([...found, ...range])];
+}
+
+function hasOpenDateRangeWithoutSpecificDay(text) {
+  const hasRange = /\b(del|desde)\b.+\b(al|hasta)\b/.test(text);
+  if (!hasRange) return false;
+  return !DAYS.some((day) => text.includes(normalizeDayName(day)));
 }
 
 function getDisplayDays(promo) {
@@ -77,6 +112,7 @@ function getDisplayValidity(promo) {
   if (!text || normalizeDayName(text).includes("no especificado")) return "Ver bases";
 
   const datePatterns = [
+    /del\s+[0-9]{1,2}\s+al\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
     /hasta\s+el\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
     /hasta\s+el\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+del\s+[0-9]{4})/i,
     /hasta\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
@@ -224,12 +260,11 @@ function matchesBank(promo) {
 
 function matchesCategory(promo) {
   if (state.activeCategory === "Todas") return true;
-  return promo.category === state.activeCategory;
+  return getCategoryGroup(promo.category) === state.activeCategory;
 }
 
 function sectionPromotions(promos) {
-  const onlyToday = [];
-  const todayWithOtherDays = [];
+  const todaySpecific = [];
   const everydayDiscounts = [];
   const everydayInstallments = [];
   const selectedDay = state.activeDay === "hoy" ? getTodayInParaguay() : state.activeDay;
@@ -240,19 +275,30 @@ function sectionPromotions(promos) {
       everydayInstallments.push(promo);
     } else if (everyDay) {
       everydayDiscounts.push(promo);
-    } else if (inferPromotionDaysFromText(promo).length === 1 && inferPromotionDaysFromText(promo)[0] === selectedDay) {
-      onlyToday.push(promo);
     } else {
-      todayWithOtherDays.push(promo);
+      todaySpecific.push(promo);
     }
   });
 
-  return [
-    [`Solo ${capitalize(selectedDay)}`, onlyToday, "featured"],
-    [`Tambien aplican ${capitalize(selectedDay)}`, todayWithOtherDays, ""],
-    ["Todos los dias con descuento o reintegro", everydayDiscounts],
+  todaySpecific.sort((a, b) => {
+    const aExclusive = isExclusiveToDay(a, selectedDay) ? -1 : 1;
+    const bExclusive = isExclusiveToDay(b, selectedDay) ? -1 : 1;
+    if (aExclusive !== bExclusive) return aExclusive - bExclusive;
+    return sortPromotions(a, b);
+  });
+
+  const sections = [
+    [state.activeDay === "hoy" ? getTodayLabel() : capitalize(selectedDay), todaySpecific, "featured"],
+    ["Todos los dias", everydayDiscounts],
     ["Cuotas sin intereses todos los dias", everydayInstallments],
-  ].filter(([, items]) => items.length);
+  ];
+
+  return sections.filter((section, index) => index === 0 || section[1].length);
+}
+
+function isExclusiveToDay(promo, day) {
+  const days = inferPromotionDaysFromText(promo);
+  return days.length === 1 && days[0] === day;
 }
 
 function renderTabs() {
@@ -296,7 +342,7 @@ function render() {
   els.results.innerHTML = sectionPromotions(base).map(([title, items, mode]) => `
     <section class="${mode === "featured" ? "featured-section" : ""}">
       <h2 class="section-title">${title}</h2>
-      <div class="grid">${items.map(renderCard).join("")}</div>
+      ${items.length ? `<div class="grid">${items.map(renderCard).join("")}</div>` : `<div class="empty compact">No hay promociones exclusivas para este dia con estos filtros.</div>`}
     </section>
   `).join("");
 }
@@ -304,10 +350,23 @@ function render() {
 function getCategories() {
   const categories = [...new Set(state.promotions
     .filter(matchesBank)
-    .map((promo) => promo.category)
+    .map((promo) => getCategoryGroup(promo.category))
     .filter(Boolean))]
-    .sort((a, b) => a.localeCompare(b, "es"));
+    .sort((a, b) => getCategoryOrder(a) - getCategoryOrder(b) || a.localeCompare(b, "es"));
   return ["Todas", ...categories];
+}
+
+function getCategoryGroup(category) {
+  const normalized = normalizeDayName(category);
+  const found = CATEGORY_GROUPS.find(([group, needles]) => (
+    group !== "Todas" && needles.some((needle) => normalized.includes(normalizeDayName(needle)))
+  ));
+  return found ? found[0] : "Especiales";
+}
+
+function getCategoryOrder(category) {
+  const index = CATEGORY_GROUPS.findIndex(([group]) => group === category);
+  return index === -1 ? 999 : index;
 }
 
 function sortPromotions(a, b) {
@@ -322,7 +381,7 @@ function renderCard(promo) {
       <div class="promo-content">
         <h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3>
         <p class="discount-line">${escapeHtml(getMainBenefit(promo))}</p>
-        <p class="bank-card-line">${escapeHtml(promo.bank || "Banco")} · ${escapeHtml(promo.category || "Categoria")}</p>
+        <p class="bank-card-line">${escapeHtml(promo.bank || "Banco")} · ${escapeHtml(getCategoryGroup(promo.category))}</p>
         <div class="meta">
           <div><strong>Dia:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
           <div><strong>Vigencia:</strong> ${escapeHtml(getDisplayValidity(promo))}</div>
