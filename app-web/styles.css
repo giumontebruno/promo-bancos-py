@@ -170,9 +170,9 @@ input[type="search"]::placeholder {
 .level-panel {
   display: flex;
   gap: 8px;
-  overflow-x: auto;
+  flex-wrap: wrap;
+  overflow-x: visible;
   padding: 2px 1px;
-  scroll-snap-type: x proximity;
   scrollbar-width: none;
 }
 
@@ -195,8 +195,8 @@ input[type="search"]::placeholder {
   font-weight: 800;
   min-height: 42px;
   padding: 10px 15px;
-  scroll-snap-align: start;
   transition: background 0.16s ease, border-color 0.16s ease, transform 0.16s ease;
+  white-space: normal;
 }
 
 .chip-icon {
@@ -220,6 +220,10 @@ input[type="search"]::placeholder {
   border-radius: 14px;
   border-color: color-mix(in srgb, var(--tab-color, #8cb3c7) 72%, rgba(140, 179, 199, 0.16));
   box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--tab-color, #8cb3c7) 25%, transparent);
+  flex: 1 1 auto;
+  justify-content: center;
+  min-width: max-content;
+  padding-inline: 12px;
 }
 
 .category-tabs {
@@ -227,8 +231,17 @@ input[type="search"]::placeholder {
   padding-block: 8px;
 }
 
+.category-tabs button {
+  flex: 1 1 auto;
+  justify-content: center;
+  min-width: max-content;
+  padding-inline: 11px;
+}
+
 .day-tabs button {
-  min-width: 68px;
+  flex: 1 1 0;
+  justify-content: center;
+  min-width: 78px;
 }
 
 .tabs button.active,
@@ -728,6 +741,43 @@ dialog::backdrop {
   .controls {
     border-radius: 18px;
     padding: 10px;
+  }
+
+  .filter-strip {
+    gap: 7px;
+    padding: 7px;
+  }
+
+  .tabs {
+    gap: 6px;
+  }
+
+  .tabs button,
+  .level-panel button {
+    font-size: 12px;
+    min-height: 36px;
+    padding: 8px 10px;
+  }
+
+  .bank-tabs button {
+    flex-basis: calc(25% - 5px);
+    min-width: 0;
+  }
+
+  .category-tabs button {
+    flex-basis: calc(50% - 4px);
+    min-width: 0;
+  }
+
+  .day-tabs button {
+    flex-basis: calc(25% - 5px);
+    min-width: 0;
+  }
+
+  .chip-icon {
+    height: 15px;
+    margin-right: 5px;
+    width: 15px;
   }
 
   .grid {
