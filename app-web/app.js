@@ -1,4 +1,9 @@
 const DATA_URL = "../public/promotions.json";
+const STORAGE_KEYS = {
+  user: "paybackPy.user",
+  favorites: "paybackPy.favorites",
+  alertPrefs: "paybackPy.alertPrefs",
+};
 const DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
 const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria"];
 const PREMIUM_CATEGORY = "Club Black";
@@ -76,11 +81,15 @@ const OTHER_CITY_TERMS = [
 
 const state = {
   promotions: [],
+  activeView: "today",
   activeBank: "Todos",
   activeCategory: "Todas",
   activeDay: "hoy",
   query: "",
   uenoLevel: 5,
+  user: loadStoredJson(STORAGE_KEYS.user, null),
+  favorites: new Set(loadStoredJson(STORAGE_KEYS.favorites, [])),
+  alertPrefs: loadStoredJson(STORAGE_KEYS.alertPrefs, { today: true, favorites: true }),
   collapsedSections: new Set(["Todos los dias", "Cuotas sin intereses todos los dias", "Otras ciudades"]),
 };
 
@@ -155,6 +164,7 @@ const els = {
   countText: document.querySelector("#countText"),
   results: document.querySelector("#results"),
   uenoLevelPanel: document.querySelector("#uenoLevelPanel"),
+  bottomNav: document.querySelector("#bottomNav"),
   dialog: document.querySelector("#promoDialog"),
   dialogContent: document.querySelector("#dialogContent"),
   closeDialog: document.querySelector("#closeDialog"),
@@ -168,6 +178,19 @@ function normalizeDayName(value) {
     .replace("miercoles", "miércoles")
     .replace("sabado", "sábado")
     .trim();
+}
+
+function loadStoredJson(key, fallback) {
+  try {
+    const value = localStorage.getItem(key);
+    return value ? JSON.parse(value) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function saveStoredJson(key, value) {
+  localStorage.setItem(key, JSON.stringify(value));
 }
 
 function getTodayInParaguay() {
@@ -728,18 +751,30 @@ function renderIcon(name) {
 
 function render() {
   renderTabs();
+  renderBottomNav();
+
+  if (state.activeView === "alerts") {
+    renderAlertsView();
+    return;
+  }
+
   const base = state.promotions
     .filter(matchesBank)
     .filter(matchesCategory)
     .filter(matchesQuery)
-    .filter((promo) => appliesToSelectedDay(promo, state.activeDay))
+    .filter(matchesActiveView)
+    .filter(matchesSelectedDay)
     .sort(sortPromotions);
 
-  els.statusText.textContent = `Día activo: ${state.activeDay === "hoy" ? capitalize(getTodayInParaguay()) : capitalize(state.activeDay)}`;
+  els.statusText.textContent = state.activeView === "favorites"
+    ? "Tus promociones guardadas"
+    : `Día activo: ${state.activeDay === "hoy" ? capitalize(getTodayInParaguay()) : capitalize(state.activeDay)}`;
   els.countText.textContent = `${base.length} promociones`;
 
   if (!base.length) {
-    els.results.innerHTML = `<div class="empty">No encontramos promociones para estos filtros.</div>`;
+    els.results.innerHTML = state.activeView === "favorites"
+      ? `<div class="empty">Todavía no guardaste favoritos. Tocá el corazón en una promo para verla acá.</div>`
+      : `<div class="empty">No encontramos promociones para estos filtros.</div>`;
     return;
   }
 
@@ -759,6 +794,67 @@ function render() {
     </section>
   `;
   }).join("");
+}
+
+function matchesActiveView(promo) {
+  if (state.activeView !== "favorites") return true;
+  return state.favorites.has(promo.id);
+}
+
+function matchesSelectedDay(promo) {
+  if (state.activeView === "favorites") return true;
+  return appliesToSelectedDay(promo, state.activeDay);
+}
+
+function renderBottomNav() {
+  els.bottomNav.querySelectorAll("button").forEach((button) => {
+    button.classList.toggle("active", button.dataset.view === state.activeView);
+  });
+}
+
+function renderAlertsView() {
+  els.statusText.textContent = state.user?.name ? `Perfil: ${state.user.name}` : "Perfil local";
+  els.countText.textContent = `${state.favorites.size} favoritos`;
+  els.results.innerHTML = `
+    <section class="profile-panel">
+      <div class="profile-card">
+        <span class="profile-logo"><img src="./assets/logos/payback-py.svg" alt="" /></span>
+        <div>
+          <h2>${state.user?.name ? `Hola, ${escapeHtml(state.user.name)}` : "Activá tu perfil Payback"}</h2>
+          <p>Guardamos tus favoritos y preferencias en este teléfono.</p>
+        </div>
+      </div>
+      <form id="profileForm" class="profile-form">
+        <label>
+          Nombre
+          <input name="name" type="text" placeholder="Tu nombre" value="${escapeAttribute(state.user?.name || "")}" />
+        </label>
+        <label class="check-row">
+          <input name="today" type="checkbox" ${state.alertPrefs.today ? "checked" : ""} />
+          Avisarme por promociones del día
+        </label>
+        <label class="check-row">
+          <input name="favorites" type="checkbox" ${state.alertPrefs.favorites ? "checked" : ""} />
+          Priorizar mis comercios favoritos
+        </label>
+        <button type="submit">Guardar perfil</button>
+      </form>
+      <div class="profile-note">
+        Esta primera versión guarda todo en tu teléfono. Cuando avancemos a cuenta online, tus favoritos podrán sincronizarse entre dispositivos.
+      </div>
+    </section>
+  `;
+}
+
+function toggleFavorite(id) {
+  if (!id) return;
+  if (state.favorites.has(id)) {
+    state.favorites.delete(id);
+  } else {
+    state.favorites.add(id);
+  }
+  saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
+  render();
 }
 
 function getCategories() {
@@ -804,6 +900,7 @@ function renderCard(promo, variant = null) {
   const categoryGroup = getPromoCategoryGroup(promo);
   const isPowerPromo = isUenoPowerPromo(promo);
   const isPremium = variant?.kind === "premium";
+  const isFavorite = state.favorites.has(promo.id);
   const logoClass = `bank-logo-${normalizeDayName(promo.bank).replace(/[^a-z0-9]+/g, "-")}`;
   const premiumBadge = isPremium ? `<span class="premium-badge">${escapeHtml(variant.label)}</span>` : "";
   const powerBadge = isPowerPromo
@@ -815,7 +912,10 @@ function renderCard(promo, variant = null) {
       <div class="promo-content">
         <div class="promo-card-head">
           <h3 class="store-name">${renderCategoryIcon(categoryGroup)}<span>${escapeHtml(getPromoTitle(promo))}</span></h3>
-          ${premiumBadge || powerBadge}
+          <div class="card-actions">
+            ${premiumBadge || powerBadge}
+            <button class="favorite-toggle ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}" title="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-label="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}">${isFavorite ? "♥" : "♡"}</button>
+          </div>
         </div>
         <div class="benefit-lines">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
         <p class="bank-card-line">${escapeHtml(getBankLabel(promo.bank))} · ${escapeHtml(categoryGroup)}</p>
@@ -831,9 +931,11 @@ function renderCard(promo, variant = null) {
 function openDetail(id) {
   const promo = state.promotions.find((item) => item.id === id);
   if (!promo) return;
+  const isFavorite = state.favorites.has(promo.id);
   els.dialogContent.innerHTML = `
     <h2>${escapeHtml(getPromoTitle(promo))}</h2>
     <p class="benefit">${escapeHtml(getMainBenefit(promo))}</p>
+    <button class="detail-favorite ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}">${isFavorite ? "♥ Guardado en favoritos" : "♡ Guardar en favoritos"}</button>
     <div class="detail-list">
       ${isUenoPowerPromo(promo) ? `<div class="power-detail"><strong>Promo especial:</strong> ueno+ POWER. Puede requerir desbloqueo o criterios adicionales en la app de ueno.</div>` : ""}
       <div><strong>Banco:</strong> ${escapeHtml(promo.bank || "")}</div>
@@ -907,10 +1009,19 @@ els.uenoLevelPanel.addEventListener("click", (event) => {
 
 els.searchInput.addEventListener("input", (event) => {
   state.query = event.target.value;
+  if (state.activeView === "alerts") state.activeView = "search";
   render();
 });
 
 els.results.addEventListener("click", (event) => {
+  const favoriteButton = event.target.closest("[data-favorite-id]");
+  if (favoriteButton) {
+    event.preventDefault();
+    event.stopPropagation();
+    toggleFavorite(favoriteButton.dataset.favoriteId);
+    return;
+  }
+
   const toggle = event.target.closest("[data-section-toggle]");
   if (toggle) {
     const title = toggle.dataset.sectionToggle;
@@ -925,6 +1036,45 @@ els.results.addEventListener("click", (event) => {
 
   const card = event.target.closest(".promo-card");
   if (card) openDetail(card.dataset.id);
+});
+
+els.results.addEventListener("submit", (event) => {
+  const form = event.target.closest("#profileForm");
+  if (!form) return;
+  event.preventDefault();
+  const formData = new FormData(form);
+  const name = String(formData.get("name") || "").trim();
+  state.user = name ? { name } : null;
+  state.alertPrefs = {
+    today: formData.has("today"),
+    favorites: formData.has("favorites"),
+  };
+  saveStoredJson(STORAGE_KEYS.user, state.user);
+  saveStoredJson(STORAGE_KEYS.alertPrefs, state.alertPrefs);
+  render();
+});
+
+els.dialogContent.addEventListener("click", (event) => {
+  const favoriteButton = event.target.closest("[data-favorite-id]");
+  if (!favoriteButton) return;
+  toggleFavorite(favoriteButton.dataset.favoriteId);
+  els.dialog.close();
+});
+
+els.bottomNav.addEventListener("click", (event) => {
+  const view = event.target.closest("button")?.dataset?.view;
+  if (!view) return;
+  state.activeView = view;
+  if (view === "today") {
+    state.activeDay = "hoy";
+  }
+  if (view === "search") {
+    requestAnimationFrame(() => {
+      els.searchInput.focus();
+      els.searchInput.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+  }
+  render();
 });
 
 els.closeDialog.addEventListener("click", () => els.dialog.close());

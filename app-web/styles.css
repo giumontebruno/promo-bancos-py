@@ -486,6 +486,39 @@ input[type="search"]::placeholder {
   justify-content: space-between;
 }
 
+.card-actions {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+}
+
+.favorite-toggle,
+.detail-favorite {
+  align-items: center;
+  background: rgba(247, 241, 227, 0.08);
+  border: 1px solid rgba(247, 241, 227, 0.18);
+  color: var(--brand-cream);
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: 950;
+  justify-content: center;
+}
+
+.favorite-toggle {
+  border-radius: 999px;
+  height: 32px;
+  line-height: 1;
+  width: 32px;
+}
+
+.favorite-toggle.active,
+.detail-favorite.active {
+  background: rgba(213, 184, 116, 0.2);
+  border-color: rgba(213, 184, 116, 0.58);
+  color: #f8d36a;
+}
+
 .store-name {
   align-items: flex-start;
   display: inline-flex;
@@ -601,6 +634,13 @@ input[type="search"]::placeholder {
   font-weight: 900;
 }
 
+.detail-favorite {
+  border-radius: 14px;
+  margin: 4px 0 6px;
+  min-height: 42px;
+  padding: 10px 14px;
+}
+
 dialog {
   background: var(--brand-navy-deep);
   border: 1px solid var(--brand-line);
@@ -664,6 +704,108 @@ dialog::backdrop {
 .empty.compact {
   padding: 16px;
   text-align: left;
+}
+
+.profile-panel {
+  display: grid;
+  gap: 14px;
+}
+
+.profile-card {
+  align-items: center;
+  background: linear-gradient(145deg, rgba(8, 20, 41, 0.98), rgba(2, 8, 20, 0.98));
+  border: 1px solid var(--brand-line);
+  border-radius: 24px;
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+}
+
+.profile-logo {
+  align-items: center;
+  border: 1px solid var(--brand-line);
+  border-radius: 18px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 58px;
+  justify-content: center;
+  width: 58px;
+}
+
+.profile-logo img {
+  border-radius: 16px;
+  height: 54px;
+  width: 54px;
+}
+
+.profile-card h2 {
+  font-size: 20px;
+  line-height: 1.1;
+  margin: 0 0 5px;
+}
+
+.profile-card p,
+.profile-note {
+  color: var(--brand-cream-muted);
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.profile-form {
+  background: rgba(5, 18, 38, 0.78);
+  border: 1px solid var(--brand-line);
+  border-radius: 22px;
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+}
+
+.profile-form label {
+  color: var(--brand-cream-muted);
+  display: grid;
+  font-size: 13px;
+  font-weight: 800;
+  gap: 7px;
+}
+
+.profile-form input[type="text"] {
+  background: rgba(2, 8, 20, 0.82);
+  border: 1px solid rgba(247, 241, 227, 0.13);
+  border-radius: 16px;
+  color: var(--brand-cream);
+  min-height: 44px;
+  outline: 0;
+  padding: 10px 12px;
+}
+
+.profile-form .check-row {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.profile-form input[type="checkbox"] {
+  accent-color: var(--brand-accent);
+  height: 18px;
+  width: 18px;
+}
+
+.profile-form button {
+  background: var(--brand-cream);
+  border: 0;
+  border-radius: 16px;
+  color: var(--brand-navy-deep);
+  cursor: pointer;
+  font-weight: 950;
+  min-height: 46px;
+}
+
+.profile-note {
+  background: rgba(247, 241, 227, 0.06);
+  border: 1px solid rgba(247, 241, 227, 0.12);
+  border-radius: 18px;
+  padding: 14px;
 }
 
 .bottom-nav {

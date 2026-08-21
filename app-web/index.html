@@ -7,7 +7,7 @@
     <title>Payback PY</title>
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" href="./assets/logos/payback-py.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="./styles.css?v=20260821-club-black" />
+    <link rel="stylesheet" href="./styles.css?v=20260821-nav-favorites" />
   </head>
   <body>
     <main class="app-shell">
@@ -45,11 +45,11 @@
       <section id="results" class="results"></section>
     </main>
 
-    <nav class="bottom-nav" aria-label="Navegación principal">
-      <button class="active" type="button"><span aria-hidden="true">●</span>Hoy</button>
-      <button type="button"><span aria-hidden="true">⌕</span>Buscar</button>
-      <button type="button"><span aria-hidden="true">♡</span>Favoritos</button>
-      <button type="button"><span aria-hidden="true">◴</span>Alertas</button>
+    <nav id="bottomNav" class="bottom-nav" aria-label="Navegación principal">
+      <button class="active" type="button" data-view="today"><span aria-hidden="true">●</span>Hoy</button>
+      <button type="button" data-view="search"><span aria-hidden="true">⌕</span>Buscar</button>
+      <button type="button" data-view="favorites"><span aria-hidden="true">♡</span>Favoritos</button>
+      <button type="button" data-view="alerts"><span aria-hidden="true">◴</span>Alertas</button>
     </nav>
 
     <dialog id="promoDialog">
@@ -59,7 +59,7 @@
       </article>
     </dialog>
 
-    <script src="./app.js?v=20260821-go-live"></script>
+    <script src="./app.js?v=20260821-nav-favorites"></script>
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("./sw.js");

@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260821";
+const CACHE_NAME = "payback-py-v20260821-nav-favorites";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -24,6 +24,19 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
+
+  if (event.request.mode === "navigate" || url.pathname.endsWith("/app-web/index.html")) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
 
   if (url.pathname.endsWith("/public/promotions.json")) {
     event.respondWith(
