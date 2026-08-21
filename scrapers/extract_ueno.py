@@ -7,6 +7,7 @@ import requests
 
 
 PDF_URL = "https://www.ueno.com.py/wp-content/uploads/2026/08/BENEFICIOS-ueno-agosto2026.pdf"
+POWER_PDF_URL = "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf"
 PDF_PATH = Path("work/ueno_beneficios_agosto2026.pdf")
 OUT_CSV = Path("outputs/ueno_beneficios_por_categoria.csv")
 OUT_MD = Path("outputs/ueno_beneficios_por_categoria.md")
@@ -82,6 +83,16 @@ PAGE_LEVEL_OVERRIDES = {
     19: "Nivel 1 al 5: 12%.",
     26: "No aplica - publicidad / cierre.",
 }
+
+POWER_PROMOS = [
+    ("lunes", "Cafeterías", ["Arik Coffee", "Borja Cafe", "Fontana", "Fontana Coffee", "ueno bank Cafe", "Cope Market", "Canela"]),
+    ("martes", "Hamburgueserías", ["Burger House", "Burmet"]),
+    ("miércoles", "Pizzerías", ["Grosso", "Fusion Resto", "Pizza Hut"]),
+    ("jueves", "Crocantes", ["Don Vito", "Bistro Francés"]),
+    ("viernes", "FIT", ["Huppy", "La Huerta", "Kalo Poke", "Hey! Fritex Bakery", "Narma"]),
+    ("sábado", "Restaurantes", ["Alza", "Tierra Colorada", "Restaurante Bolsi", "Stilo Campo", "Fontana Rooftop", "Apira", "Food Garden", "Di Carlo", "Máximo"]),
+    ("domingo", "Heladerías", ["Fontana Helados", "Glacé"]),
+]
 
 
 def clean(text):
@@ -237,6 +248,28 @@ def main():
                     "Bases / PDF URL": PDF_URL,
                     "Página PDF": idx,
                 })(extract_level_benefit(text, idx))
+            )
+
+    for day, subcategory, merchants in POWER_PROMOS:
+        for merchant in merchants:
+            rows.append(
+                {
+                    "Categoría": "Gastronomía",
+                    "Banco": "ueno bank",
+                    "Comercio/Promoción": merchant,
+                    "Cantidad de descuento / beneficio": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
+                    "Beneficio por niveles": "No",
+                    "Tipo de beneficio por nivel": "ueno+ POWER - aplica a todos los niveles",
+                    "Descuentos por nivel": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
+                    "Día de promoción": day,
+                    "Vigencia": "Agosto 2026",
+                    "Locales / comercios detectados": merchant,
+                    "Montos / topes": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
+                    "Reinicio de límites": "Topes semanales y mensuales según bases ueno+ POWER.",
+                    "Detalle": f"ueno+ POWER AGO 2026. Rubro {subcategory}. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
+                    "Bases / PDF URL": POWER_PDF_URL,
+                    "Página PDF": "ueno+ POWER",
+                }
             )
 
     OUT_CSV.parent.mkdir(exist_ok=True)

@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 50
+Total de promociones: 51
 
 ## Combustible
 
@@ -85,6 +85,7 @@ Total de promociones: 50
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| PLUB | 20% | No especificado | • Último viernes de cada mes. • Desde el 01 de agosto 2026 hasta el 31 de octubre de 2026. |
 | ZONA CENTRAL - ASUNCIÓN Y GRAN ASUNCIÓN | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 | ZONA ESTE | en tu zona • Reintegros directos en el extracto, sin canje de puntos CIUDAD DEL ESTE HERNANDARIAS VILLARRICA CORONEL OVIEDO CAAZAPÁ SANTA RITA NARANJAL J. EULOGIO ESTIGARRIBIA SANT | No especificado | No especificado |
 | ZONA SUR | en tu zona • Reintegros directos en el extracto, sin canje de puntos ENCARNACIÓN HOHENAU PIRAPÓ BELLA VISTA CORONEL BOGADO TRINIDAD MARÍA AUXILIADORA FRAM OBLIGADO CARMEN DEL PARAN | No especificado | No especificado |

@@ -161,7 +161,14 @@ def main():
         if field not in existing_fields:
             existing_fields.append(field)
     for row in rows:
-        page = int(row["Página PDF"])
+        try:
+            page = int(row["Página PDF"])
+        except (TypeError, ValueError):
+            row["Bases y condiciones URL"] = row.get("Bases / PDF URL", "")
+            row["Bases PDF URL"] = row.get("Bases / PDF URL", "")
+            row["Texto bases y condiciones"] = row.get("Detalle", "")
+            row["Texto PDF bases"] = row.get("Detalle", "")
+            continue
         urls = links.get(page, [])
         bases_texts = []
         pdf_urls = []

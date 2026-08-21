@@ -2,7 +2,7 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 50
+Total: 51
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
@@ -17,6 +17,7 @@ Total: 50
 | Sudameris | DTP TRAVEL GROUP | •La Promoción tendrá |  | https://www.sudameris.com.py/beneficios/destacado/787/detalle |
 | Sudameris | TATANO POSADA BOUTIQUE | • Martes a domingo. • Desde el 07 de abril 2026 hasta el 31 de diciembre 2026. | • 20% de descuento en caja con tarjetas de crédito de Sudameris. • 25% de descuento en caja con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 12 cuotas sin intereses (Aplica exclusivamente pa | https://www.sudameris.com.py/beneficios/destacado/761/detalle |
 | Sudameris | BIGGIE FARMA | • Desde el 01 de julio hasta el 30 de septiembre 2026. • Solo el primer Jueves de cada mes: • 02 de julio. • 06 de agosto. • 03 de septiembre. | • Desde 20% de descuento en caja. • +10% de reintegro directo adicional en extracto, pagando exclusivamente con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/708/detalle |
+| Sudameris | PLUB | • Último viernes de cada mes. • Desde el 01 de agosto 2026 hasta el 31 de octubre de 2026. | • 20% de reintegro directo con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/360/detalle |
 | Sudameris | TARJETAS EMPRESARIALES | • Todos los días. • Desde el 01 de enero hasta el 31 de diciembre de 2026. | • Hasta 6 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/742/detalle |
 | Sudameris | ZONA CENTRAL - ASUNCIÓN Y GRAN ASUNCIÓN | • Verificar según aplicación de promoción (ver cuadro más abajo). | en tu zona | https://www.sudameris.com.py/beneficios/destacado/647/detalle |
 | Sudameris | ENEX Y APP MI ENEX | • Desde el 01 de julio hasta el 30 de septiembre 2026. • Solo el primer lunes de cada mes. • 6 de julio. • 3 de agosto. • 7 de septiembre. | • 10% de reintegro en estaciones físicas pagando con tarjetas de crédito de Sudameris. • 20% de reintegro a través de la app Mi Enex, pagando con tarjetas de crédito de Sudameris | https://www.sudameris.com.py/beneficios/destacado/307/detalle |

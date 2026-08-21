@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 124
+Total de beneficios: 123
 
 ## Belleza y Salud
 
@@ -46,6 +46,7 @@ Total de beneficios: 124
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Almacen De Pizzas | 2x1; Tenes 25% de ahorro con todas las tarjetas de crédito + 5% adicional con tarjetas de crédito Personal Bank (Amex Platinum y Visa Infinite). | No especificado | 2025-11-18 hasta 2026-08-31 |
 | FRANCESCANA | 20 %; Tenes 20% de ahorro | Aplica los jueves | 2026-07-08 hasta 2026-08-28 |
 | Juan Valdez | 25 % Hasta; Tenes 25% de reintegro + 5% adicional con AMEX PLATINUM y VISA INFINITE | Todos los lunes | 2025-12-10 hasta 2026-09-28 |
 | Pizza Hut | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses para los cumpleaños. | No especificado | 2025-09-19 hasta 2026-09-30 |
@@ -145,7 +146,6 @@ Total de beneficios: 124
 | Denoir | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | EXA GOETHE | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses. | No especificado | 2026-03-05 hasta 2026-12-31 |
 | Fapasisa | 10 Cuotas sin intereses 20 % Hasta; hasta 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-07-08 hasta 2026-09-30 |
-| Garden | 3 Cuotas sin intereses; hasta 3 cuotas sin intereses. | No especificado | 2025-01-01 hasta 2026-12-31 |
 | Hering | 6 Cuotas sin intereses 20 % Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-03-26 hasta 2026-12-02 |
 | Indio Termos | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | JOSEPH COIFFURE | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
@@ -209,7 +209,6 @@ Total de beneficios: 124
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Almacen De Pizzas | 25 % Hasta; Tenés 20% de ahorro pagando con tarjeta de crédito Itaú + 5% con American Express | No especificado | 2020-03-02 hasta 2026-08-23 |
-| Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-11-20 hasta 2026-08-20 |
+| Feria Asunción | 10 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro mas 5% adicional pagando con Google Pay y Apple Pay y hasta 10 cuotas sin intereses. | No especificado | 2025-08-08 hasta 2026-08-23 |
 | TRINCHE | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-08-21 |
-| Tienda Móvil | 15 Cuotas sin intereses; Hasta 15 cuotas sin intereses. | No especificado | 2025-01-02 hasta 2026-08-20 |
 

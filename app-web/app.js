@@ -330,6 +330,9 @@ function isUenoPowerPromo(promo) {
 }
 
 function getMainBenefit(promo) {
+  if (isUenoPowerPromo(promo)) {
+    return "10% reintegro base; hasta 40% adicional ueno+ POWER";
+  }
   if (promo.bank === "ueno bank") {
     return getBenefitForSelectedUenoLevel(promo, state.uenoLevel);
   }
