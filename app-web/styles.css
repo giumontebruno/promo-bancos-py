@@ -391,7 +391,7 @@ input[type="search"]::placeholder {
 
 .grid {
   display: grid;
-  gap: 12px;
+  gap: 9px;
   grid-template-columns: 1fr;
 }
 
@@ -407,8 +407,8 @@ input[type="search"]::placeholder {
   color: var(--brand-cream);
   cursor: pointer;
   display: grid;
-  grid-template-columns: 92px 1fr;
-  min-height: 126px;
+  grid-template-columns: 76px 1fr;
+  min-height: 104px;
   overflow: hidden;
   padding: 0;
   position: relative;
@@ -424,7 +424,7 @@ input[type="search"]::placeholder {
   content: "";
   inset: 0 auto 0 0;
   position: absolute;
-  width: 6px;
+  width: 4px;
 }
 
 .promo-card:hover {
@@ -438,7 +438,7 @@ input[type="search"]::placeholder {
   display: flex;
   justify-content: center;
   min-height: 100%;
-  padding: 14px 10px 14px 16px;
+  padding: 10px 8px 10px 12px;
 }
 
 .premium-card .logo-box {
@@ -448,23 +448,23 @@ input[type="search"]::placeholder {
 .logo-box img {
   background: var(--logo-bg);
   border: 1px solid color-mix(in srgb, var(--bank-main) 18%, rgba(255, 255, 255, 0.16));
-  border-radius: 18px;
+  border-radius: 15px;
   box-shadow: 0 10px 22px rgba(0, 0, 0, 0.26);
   display: block;
-  height: 58px;
-  max-width: 58px;
+  height: 48px;
+  max-width: 48px;
   object-fit: contain;
-  padding: 8px;
-  width: 58px;
+  padding: 7px;
+  width: 48px;
 }
 
 .logo-box img.bank-logo-atlas,
 .logo-box img.bank-logo-coop-universitaria {
   border-radius: 14px;
-  height: 52px;
-  max-width: 92px;
-  padding: 8px;
-  width: 92px;
+  height: 42px;
+  max-width: 70px;
+  padding: 6px;
+  width: 70px;
 }
 
 .logo-box img.bank-logo-atlas {
@@ -476,7 +476,7 @@ input[type="search"]::placeholder {
 }
 
 .promo-content {
-  padding: 14px 14px 13px;
+  padding: 10px 11px 10px;
 }
 
 .promo-card-head {
@@ -507,9 +507,9 @@ input[type="search"]::placeholder {
 
 .favorite-toggle {
   border-radius: 999px;
-  height: 32px;
+  height: 28px;
   line-height: 1;
-  width: 32px;
+  width: 28px;
 }
 
 .favorite-toggle.active,
@@ -522,11 +522,11 @@ input[type="search"]::placeholder {
 .store-name {
   align-items: flex-start;
   display: inline-flex;
-  font-size: 16px;
-  gap: 7px;
+  font-size: 14px;
+  gap: 6px;
   letter-spacing: 0;
   line-height: 1.18;
-  margin: 0 0 7px;
+  margin: 0 0 5px;
 }
 
 .store-category-icon {
@@ -537,20 +537,20 @@ input[type="search"]::placeholder {
   color: var(--bank-main);
   display: inline-flex;
   flex: 0 0 auto;
-  height: 24px;
+  height: 21px;
   justify-content: center;
   margin-top: -2px;
-  width: 24px;
+  width: 21px;
 }
 
 .store-category-icon svg {
   fill: none;
-  height: 15px;
+  height: 13px;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2.2;
-  width: 15px;
+  width: 13px;
 }
 
 .power-badge {
@@ -597,43 +597,43 @@ input[type="search"]::placeholder {
 .benefit-lines {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  margin: 0 0 7px;
+  gap: 4px;
+  margin: 0 0 5px;
 }
 
 .benefit-lines span {
   background: color-mix(in srgb, var(--bank-main) 18%, #09192e);
   border: 1px solid color-mix(in srgb, var(--bank-main) 34%, rgba(247, 241, 227, 0.12));
-  border-radius: 12px;
+  border-radius: 10px;
   color: color-mix(in srgb, var(--bank-main) 65%, #ffffff);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 950;
   line-height: 1.15;
-  padding: 5px 7px;
+  padding: 4px 7px;
 }
 
 .primary-benefit {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .primary-benefit span {
-  border-radius: 14px;
-  font-size: 18px;
-  padding: 7px 10px;
+  border-radius: 11px;
+  font-size: 13px;
+  padding: 5px 8px;
 }
 
 .savings-line {
   color: var(--brand-cream);
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 900;
-  margin: -2px 0 7px;
+  margin: -1px 0 5px;
 }
 
 .level-caps {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  margin: -2px 0 7px;
+  gap: 4px;
+  margin: -1px 0 5px;
 }
 
 .level-caps span {
@@ -641,25 +641,25 @@ input[type="search"]::placeholder {
   border: 1px solid rgba(43, 217, 142, 0.22);
   border-radius: 10px;
   color: #c8ffeb;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 850;
   line-height: 1.15;
-  padding: 4px 7px;
+  padding: 3px 6px;
 }
 
 .bank-card-line {
   color: color-mix(in srgb, var(--bank-main) 60%, #ffffff);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 900;
   line-height: 1.25;
-  margin: 0 0 7px;
+  margin: 0 0 5px;
 }
 
 .meta {
   color: #c9c0b0;
   display: flex;
   flex-wrap: wrap;
-  font-size: 12px;
+  font-size: 11px;
   gap: 4px 12px;
   line-height: 1.35;
 }
@@ -1209,26 +1209,26 @@ dialog::backdrop {
   }
 
   .promo-card {
-    grid-template-columns: 84px 1fr;
-    min-height: 120px;
+    grid-template-columns: 72px 1fr;
+    min-height: 102px;
   }
 
   .logo-box {
-    padding: 12px 8px 12px 14px;
+    padding: 10px 7px 10px 12px;
   }
 
   .logo-box img {
-    height: 54px;
-    max-width: 54px;
-    width: 54px;
+    height: 46px;
+    max-width: 46px;
+    width: 46px;
   }
 
   .promo-content {
-    padding: 13px 12px 12px;
+    padding: 10px 10px 9px;
   }
 
   .store-name {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .power-badge {

@@ -465,7 +465,7 @@ function getBenefitLines(promo, variant = null) {
     .filter(Boolean);
 
   const parts = rawParts.length ? rawParts : [cleanBenefitLine(normalized)];
-  return [...new Set(parts)].slice(0, 4);
+  return [...new Set(parts)].slice(0, 1);
 }
 
 function cleanBenefitLine(value) {
