@@ -86,9 +86,9 @@ const state = {
 const bankThemes = {
   "ueno bank": { main: "#2bd98e", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno-icon-official.svg", logoBg: "#062017" },
   "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau-official.svg", logoBg: "#ec7000" },
-  "Continental": { main: "#082a63", soft: "#e5edf8", card: "#f4f8fe", logo: "./assets/logos/continental-official.png", logoBg: "#ffffff" },
+  "Continental": { main: "#082a63", soft: "#e5edf8", card: "#f4f8fe", logo: "./assets/logos/continental-official.png", logoBg: "#e7ebf0" },
   "Sudameris": { main: "#ff0000", soft: "#ffe5e5", card: "#fff7f7", logo: "./assets/logos/sudameris.svg", logoBg: "#ff0000" },
-  "BNF": { main: "#b08a2e", soft: "#f4eddd", card: "#fbfaf6", logo: "./assets/logos/bnf-official.png", logoBg: "#f3f0e8" },
+  "BNF": { main: "#b08a2e", soft: "#f4eddd", card: "#fbfaf6", logo: "./assets/logos/bnf-official.png", logoBg: "#d9d1bf" },
   "Atlas": { main: "#a41f35", soft: "#f7e6ea", card: "#fff6f8", logo: "./assets/logos/atlas.svg", logoBg: "#631421" },
   "Coop. Universitaria": { main: "#196a2a", soft: "#e4f3e8", card: "#f5fbf6", logo: "./assets/logos/universitaria.svg", logoBg: "#196a2a" },
 };
@@ -770,6 +770,12 @@ function getCategoryOrder(category) {
   return index === -1 ? 999 : index;
 }
 
+function renderCategoryIcon(category) {
+  const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
+  const path = ICON_PATHS[iconKey] || ICON_PATHS.star;
+  return `<span class="store-category-icon" title="${escapeAttribute(category)}" aria-hidden="true"><svg viewBox="0 0 24 24">${path}</svg></span>`;
+}
+
 function sortPromotions(a, b) {
   return String(a.merchant_name || "").localeCompare(String(b.merchant_name || ""), "es");
 }
@@ -777,6 +783,7 @@ function sortPromotions(a, b) {
 function renderCard(promo, variant = null) {
   const theme = getBankTheme(promo.bank);
   const benefitLines = getBenefitLines(promo, variant);
+  const categoryGroup = getPromoCategoryGroup(promo);
   const isPowerPromo = isUenoPowerPromo(promo);
   const isPremium = variant?.kind === "premium";
   const premiumBadge = isPremium ? `<span class="premium-badge">${escapeHtml(variant.label)}</span>` : "";
@@ -788,11 +795,11 @@ function renderCard(promo, variant = null) {
       <div class="logo-box">${theme.logo ? `<img src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(getBankLabel(promo.bank))}" />` : ""}</div>
       <div class="promo-content">
         <div class="promo-card-head">
-          <h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3>
+          <h3 class="store-name">${renderCategoryIcon(categoryGroup)}<span>${escapeHtml(getPromoTitle(promo))}</span></h3>
           ${premiumBadge || powerBadge}
         </div>
         <div class="benefit-lines">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
-        <p class="bank-card-line">${escapeHtml(getBankLabel(promo.bank))} · ${escapeHtml(getPromoCategoryGroup(promo))}</p>
+        <p class="bank-card-line">${escapeHtml(getBankLabel(promo.bank))} · ${escapeHtml(categoryGroup)}</p>
         <div class="meta">
           <div><strong>Día:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
           <div><strong>Vigencia:</strong> ${escapeHtml(getDisplayValidity(promo))}</div>
