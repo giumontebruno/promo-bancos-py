@@ -90,7 +90,7 @@ const bankThemes = {
   "Sudameris": { main: "#ff0000", soft: "#ffe5e5", card: "#fff7f7", logo: "./assets/logos/sudameris.svg", logoBg: "#ff0000" },
   "BNF": { main: "#b08a2e", soft: "#f4eddd", card: "#fbfaf6", logo: "./assets/logos/bnf-official.png", logoBg: "#d9d1bf" },
   "Atlas": { main: "#a41f35", soft: "#f7e6ea", card: "#fff6f8", logo: "./assets/logos/atlas-official.svg", logoBg: "#631421" },
-  "Coop. Universitaria": { main: "#196a2a", soft: "#e4f3e8", card: "#f5fbf6", logo: "./assets/logos/universitaria-official.png", logoBg: "#f4f7f2" },
+  "Coop. Universitaria": { main: "#4c1d95", soft: "#ede9fe", card: "#f7f2ff", logo: "./assets/logos/universitaria-official.png", logoBg: "#f1ecff" },
 };
 
 const BANK_LABELS = {
