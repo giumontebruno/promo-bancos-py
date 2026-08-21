@@ -934,8 +934,11 @@ function sectionPromotions(promos) {
     const aExclusive = isExclusiveToDay(a, selectedDay) ? -1 : 1;
     const bExclusive = isExclusiveToDay(b, selectedDay) ? -1 : 1;
     if (aExclusive !== bExclusive) return aExclusive - bExclusive;
-    return sortPromotions(a, b);
+    return sortByDayDisplayPriority(a, b);
   });
+  everydayDiscounts.sort(sortByDayDisplayPriority);
+  everydayInstallments.sort(sortByDayDisplayPriority);
+  otherCities.sort(sortByDayDisplayPriority);
 
   const sections = [
     [state.activeDay === "hoy" ? getTodayLabel() : capitalize(selectedDay), todaySpecific, "featured"],
@@ -1019,7 +1022,7 @@ function render() {
     .filter(matchesQuery)
     .filter(matchesActiveView)
     .filter(matchesSelectedDay)
-    .sort(sortPromotions);
+    .sort(sortByDayDisplayPriority);
 
   els.statusText.textContent = state.activeView === "favorites"
     ? "Tus promociones guardadas"
@@ -1310,6 +1313,13 @@ function sortByBenefitValue(a, b) {
     return Number(isInstallmentsOnly(a)) - Number(isInstallmentsOnly(b));
   }
   return sortPromotions(a, b);
+}
+
+function sortByDayDisplayPriority(a, b) {
+  const aInstallmentsOnly = Number(isInstallmentsOnly(a));
+  const bInstallmentsOnly = Number(isInstallmentsOnly(b));
+  if (aInstallmentsOnly !== bInstallmentsOnly) return aInstallmentsOnly - bInstallmentsOnly;
+  return sortByBenefitValue(a, b);
 }
 
 function getEstimatedSavings(promo, amount = null) {
