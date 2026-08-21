@@ -36,7 +36,7 @@ button {
 
 .app-shell {
   margin: 0 auto;
-  max-width: 460px;
+  max-width: 720px;
   padding: 18px;
   width: 100%;
 }
@@ -162,23 +162,47 @@ input[type="search"]::placeholder {
   background: rgba(2, 8, 20, 0.42);
   border: 1px solid rgba(247, 241, 227, 0.1);
   border-radius: 20px;
-  gap: 8px;
-  padding: 8px;
+  gap: 10px;
+  padding: 10px;
 }
 
-.tabs,
+.filter-group {
+  display: grid;
+  gap: 7px;
+}
+
+.filter-label {
+  color: var(--brand-cream-muted);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  padding-left: 4px;
+  text-transform: uppercase;
+}
+
+.tabs {
+  display: grid;
+  gap: 7px;
+  overflow: visible;
+  padding: 0;
+}
+
+.bank-tabs {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.category-tabs {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.day-tabs {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .level-panel {
-  display: flex;
+  display: grid;
   gap: 8px;
-  flex-wrap: wrap;
-  overflow-x: visible;
-  padding: 2px 1px;
-  scrollbar-width: none;
-}
-
-.tabs::-webkit-scrollbar,
-.level-panel::-webkit-scrollbar {
-  display: none;
+  grid-template-columns: auto repeat(5, minmax(0, 1fr));
 }
 
 .tabs button,
@@ -190,11 +214,12 @@ input[type="search"]::placeholder {
   color: #e9dfce;
   cursor: pointer;
   display: inline-flex;
-  flex: 0 0 auto;
   font-size: 14px;
   font-weight: 800;
+  justify-content: center;
   min-height: 42px;
-  padding: 10px 15px;
+  min-width: 0;
+  padding: 10px 8px;
   transition: background 0.16s ease, border-color 0.16s ease, transform 0.16s ease;
   white-space: normal;
 }
@@ -220,28 +245,11 @@ input[type="search"]::placeholder {
   border-radius: 14px;
   border-color: color-mix(in srgb, var(--tab-color, #8cb3c7) 72%, rgba(140, 179, 199, 0.16));
   box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--tab-color, #8cb3c7) 25%, transparent);
-  flex: 1 1 auto;
-  justify-content: center;
-  min-width: max-content;
-  padding-inline: 12px;
 }
 
 .category-tabs {
   border-block: 1px solid rgba(125, 168, 190, 0.12);
   padding-block: 8px;
-}
-
-.category-tabs button {
-  flex: 1 1 auto;
-  justify-content: center;
-  min-width: max-content;
-  padding-inline: 11px;
-}
-
-.day-tabs button {
-  flex: 1 1 0;
-  justify-content: center;
-  min-width: 78px;
 }
 
 .tabs button.active,
@@ -612,6 +620,24 @@ input[type="search"]::placeholder {
   padding: 5px 7px;
 }
 
+.level-caps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: -2px 0 7px;
+}
+
+.level-caps span {
+  background: rgba(43, 217, 142, 0.1);
+  border: 1px solid rgba(43, 217, 142, 0.22);
+  border-radius: 10px;
+  color: #c8ffeb;
+  font-size: 11px;
+  font-weight: 850;
+  line-height: 1.15;
+  padding: 4px 7px;
+}
+
 .bank-card-line {
   color: color-mix(in srgb, var(--bank-main) 60%, #ffffff);
   font-size: 13px;
@@ -894,6 +920,15 @@ dialog::backdrop {
     gap: 6px;
   }
 
+  .bank-tabs,
+  .day-tabs {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .category-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .tabs button,
   .level-panel button {
     font-size: 12px;
@@ -901,25 +936,18 @@ dialog::backdrop {
     padding: 8px 10px;
   }
 
-  .bank-tabs button {
-    flex-basis: calc(25% - 5px);
-    min-width: 0;
-  }
-
-  .category-tabs button {
-    flex-basis: calc(50% - 4px);
-    min-width: 0;
-  }
-
-  .day-tabs button {
-    flex-basis: calc(25% - 5px);
-    min-width: 0;
-  }
-
   .chip-icon {
     height: 15px;
     margin-right: 5px;
     width: 15px;
+  }
+
+  .level-panel {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .level-panel .label {
+    grid-column: 1 / -1;
   }
 
   .grid {

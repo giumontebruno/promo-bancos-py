@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260821-nav-favorites";
+const CACHE_NAME = "payback-py-v20260821-ueno-levels";
 const APP_SHELL = [
   "./",
   "./index.html",

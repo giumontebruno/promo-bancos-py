@@ -422,7 +422,7 @@ function isUenoPowerPromo(promo) {
 function getMainBenefit(promo, variant = null) {
   if (variant?.benefit) return variant.benefit;
   if (isUenoPowerPromo(promo)) {
-    return "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER";
+    return getBenefitForSelectedUenoLevel(promo, state.uenoLevel);
   }
   if (promo.bank === "ueno bank") {
     return getBenefitForSelectedUenoLevel(promo, state.uenoLevel);
@@ -473,6 +473,9 @@ function cleanBenefitLine(value) {
 }
 
 function getBenefitForSelectedUenoLevel(promo, level) {
+  const selected = getSelectedUenoLevelDetails(promo, level);
+  if (selected?.percent) return `${selected.percent} ${promo.benefit_type || "reintegro"}`.trim();
+
   const rules = String(promo.level_rules || "");
   if (isInstallmentsOnly(promo) || rules.toLowerCase().includes("aplica a todos los niveles")) {
     return "Cuotas sin intereses - aplica a todos los niveles";
@@ -485,6 +488,68 @@ function getBenefitForSelectedUenoLevel(promo, level) {
 
   const percentages = promo.percentages || [];
   return percentages[0] ? `${percentages[0]} ${promo.benefit_type || ""}`.trim() : promo.benefit_summary || "Ver detalle";
+}
+
+function getSelectedUenoLevelDetails(promo, level) {
+  if (promo.bank !== "ueno bank") return null;
+  if (isInstallmentsOnly(promo)) return null;
+
+  const rules = normalizeDayName(promo.level_rules || "");
+  const escapedLevel = String(level).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const pctMatch = rules.match(new RegExp(`nivel\\s*${escapedLevel}\\D{0,24}(\\d{1,3})\\s*%`, "i"));
+  const percent = pctMatch ? `${pctMatch[1]}%` : "";
+  if (!percent) return null;
+
+  const caps = extractUenoLevelCaps(promo, level, percent);
+  return { level, percent, ...caps };
+}
+
+function extractUenoLevelCaps(promo, level, percent) {
+  const capsText = cleanSentence(promo.caps_and_minimums || "");
+  const levelBlock = capsText.match(new RegExp(`nivel\\s*${level}[^;]*(?:;|$)`, "i"))?.[0] || "";
+  const amountsFromBlock = extractGuaraniAmounts(levelBlock);
+  if (amountsFromBlock.length) {
+    return {
+      purchaseCap: amountsFromBlock[0] || "",
+      refundCap: amountsFromBlock[1] || "",
+      capLabel: levelBlock.toLowerCase().includes("semanal") ? "Semanal" : "Durante vigencia",
+    };
+  }
+
+  const allAmounts = extractGuaraniAmounts(capsText);
+  const levelOrder = extractUenoLevelOrder(promo);
+  const position = levelOrder.indexOf(Number(level));
+  if (position >= 0 && allAmounts.length >= (position + 1) * 2) {
+    return {
+      purchaseCap: allAmounts[position * 2] || "",
+      refundCap: allAmounts[position * 2 + 1] || "",
+      capLabel: "Durante vigencia",
+    };
+  }
+
+  const rawText = cleanSentence(promo.raw_detail || "");
+  const rawPattern = new RegExp(`(?:nivel\\s*)?${level}\\s+${percent.replace("%", "\\s*%")}\\s+Gs\\.?\\s*([0-9.]+)(?:\\s+Gs\\.?\\s*([0-9.]+))?`, "i");
+  const rawMatch = rawText.match(rawPattern);
+  if (rawMatch) {
+    return {
+      purchaseCap: `Gs. ${rawMatch[1]}`,
+      refundCap: rawMatch[2] ? `Gs. ${rawMatch[2]}` : "",
+      capLabel: "Durante vigencia",
+    };
+  }
+
+  return { purchaseCap: "", refundCap: "", capLabel: "" };
+}
+
+function extractUenoLevelOrder(promo) {
+  const matches = [...normalizeDayName(promo.level_rules || "").matchAll(/nivel\s*([1-5])\D{0,24}\d{1,3}\s*%/g)]
+    .map((match) => Number(match[1]));
+  return matches.length ? matches : [5, 4, 3, 2, 1];
+}
+
+function extractGuaraniAmounts(text) {
+  return [...String(text || "").matchAll(/Gs\.?\s*([0-9]+(?:\.[0-9]{3})*)/gi)]
+    .map((match) => `Gs. ${match[1]}`);
 }
 
 function getPromoVariants(promo) {
@@ -890,6 +955,15 @@ function renderCategoryIcon(category) {
   return `<span class="store-category-icon" title="${escapeAttribute(category)}" aria-hidden="true"><svg viewBox="0 0 24 24">${path}</svg></span>`;
 }
 
+function renderUenoLevelCaps(details) {
+  const items = [
+    details.purchaseCap ? `Compra ${details.purchaseCap}` : "",
+    details.refundCap ? `Reintegro ${details.refundCap}` : "",
+  ].filter(Boolean);
+  if (!items.length) return "";
+  return `<div class="level-caps">${items.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div>`;
+}
+
 function sortPromotions(a, b) {
   return String(a.merchant_name || "").localeCompare(String(b.merchant_name || ""), "es");
 }
@@ -901,6 +975,7 @@ function renderCard(promo, variant = null) {
   const isPowerPromo = isUenoPowerPromo(promo);
   const isPremium = variant?.kind === "premium";
   const isFavorite = state.favorites.has(promo.id);
+  const levelDetails = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   const logoClass = `bank-logo-${normalizeDayName(promo.bank).replace(/[^a-z0-9]+/g, "-")}`;
   const premiumBadge = isPremium ? `<span class="premium-badge">${escapeHtml(variant.label)}</span>` : "";
   const powerBadge = isPowerPromo
@@ -918,6 +993,7 @@ function renderCard(promo, variant = null) {
           </div>
         </div>
         <div class="benefit-lines">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
+        ${levelDetails ? renderUenoLevelCaps(levelDetails) : ""}
         <p class="bank-card-line">${escapeHtml(getBankLabel(promo.bank))} · ${escapeHtml(categoryGroup)}</p>
         <div class="meta">
           <div><strong>Día:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
@@ -932,12 +1008,14 @@ function openDetail(id) {
   const promo = state.promotions.find((item) => item.id === id);
   if (!promo) return;
   const isFavorite = state.favorites.has(promo.id);
+  const levelDetails = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   els.dialogContent.innerHTML = `
     <h2>${escapeHtml(getPromoTitle(promo))}</h2>
     <p class="benefit">${escapeHtml(getMainBenefit(promo))}</p>
     <button class="detail-favorite ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}">${isFavorite ? "♥ Guardado en favoritos" : "♡ Guardar en favoritos"}</button>
     <div class="detail-list">
       ${isUenoPowerPromo(promo) ? `<div class="power-detail"><strong>Promo especial:</strong> ueno+ POWER. Puede requerir desbloqueo o criterios adicionales en la app de ueno.</div>` : ""}
+      ${levelDetails ? `<div><strong>Nivel UENO seleccionado:</strong> Nivel ${state.uenoLevel} · ${escapeHtml(levelDetails.percent)}${levelDetails.purchaseCap ? ` · Compra ${escapeHtml(levelDetails.purchaseCap)}` : ""}${levelDetails.refundCap ? ` · Reintegro ${escapeHtml(levelDetails.refundCap)}` : ""}</div>` : ""}
       <div><strong>Banco:</strong> ${escapeHtml(promo.bank || "")}</div>
       <div><strong>Categoría:</strong> ${escapeHtml(promo.category || "")}</div>
       <div><strong>Comercios/locales:</strong> ${escapeHtml(promo.merchant_locations_or_group || promo.merchant_name || "")}</div>

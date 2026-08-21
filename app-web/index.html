@@ -7,7 +7,7 @@
     <title>Payback PY</title>
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" href="./assets/logos/payback-py.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="./styles.css?v=20260821-nav-favorites" />
+    <link rel="stylesheet" href="./styles.css?v=20260821-ueno-levels" />
   </head>
   <body>
     <main class="app-shell">
@@ -30,9 +30,18 @@
           <input id="searchInput" type="search" placeholder="Buscar local, banco, categoría o beneficio" />
         </label>
         <div class="filter-strip">
-          <div id="bankTabs" class="tabs bank-tabs"></div>
-          <div id="categoryTabs" class="tabs category-tabs"></div>
-          <div id="dayTabs" class="tabs day-tabs"></div>
+          <div class="filter-group">
+            <span class="filter-label">Bancos</span>
+            <div id="bankTabs" class="tabs bank-tabs"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">Categorías</span>
+            <div id="categoryTabs" class="tabs category-tabs"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">Días</span>
+            <div id="dayTabs" class="tabs day-tabs"></div>
+          </div>
         </div>
         <div id="uenoLevelPanel" class="level-panel hidden"></div>
       </section>
@@ -59,7 +68,7 @@
       </article>
     </dialog>
 
-    <script src="./app.js?v=20260821-nav-favorites"></script>
+    <script src="./app.js?v=20260821-ueno-levels"></script>
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("./sw.js");
