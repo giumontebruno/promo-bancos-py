@@ -1,6 +1,7 @@
 const DATA_URL = "../public/promotions.json";
 const DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
 const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria"];
+const PREMIUM_CATEGORY = "Elite";
 const CATEGORY_GROUPS = [
   ["Todas", []],
   ["Supermercados", ["super", "mayorista", "delimarket", "stock", "real", "contimarket"]],
@@ -124,12 +125,13 @@ const CATEGORY_ICONS = {
   "Salud y belleza": "heart",
   Servicios: "briefcase",
   Especiales: "star",
+  [PREMIUM_CATEGORY]: "crown",
 };
 
 const ICON_PATHS = {
   spark: '<path d="M12 3l1.6 5.1L19 10l-5.4 1.9L12 17l-1.6-5.1L5 10l5.4-1.9L12 3z"/>',
   cart: '<path d="M5 6h2l1.4 8.2h8.3L19 8H8"/><circle cx="10" cy="18" r="1.4"/><circle cx="16" cy="18" r="1.4"/>',
-  fuel: '<path d="M7 20V5h8v15"/><path d="M9 8h4"/><path d="M15 9l3 3v5a2 2 0 0 0 2 2"/><path d="M18 12l1-1"/>',
+  fuel: '<path d="M6 21V5a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v16"/><path d="M8 9h7"/><path d="M18 7l2 2v7a2 2 0 0 1-4 0v-4"/><path d="M4 21h15"/>',
   plus: '<path d="M12 5v14M5 12h14"/>',
   fork: '<path d="M7 4v8M10 4v8M7 8h3M9 12v8"/><path d="M16 4v16"/><path d="M16 4c2 1.5 3 3.5 3 6"/>',
   bag: '<path d="M6 9h12l-1 11H7L6 9z"/><path d="M9 9a3 3 0 0 1 6 0"/>',
@@ -140,6 +142,7 @@ const ICON_PATHS = {
   heart: '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
   briefcase: '<path d="M7 8V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/><rect x="4" y="8" width="16" height="11" rx="2"/><path d="M4 13h16"/>',
   star: '<path d="M12 4l2.4 5 5.6.8-4 3.9.9 5.5-4.9-2.6-4.9 2.6.9-5.5-4-3.9 5.6-.8L12 4z"/>',
+  crown: '<path d="M5 18h14"/><path d="M6 15l1-8 5 4 5-4 1 8H6z"/><path d="M9 21h6"/>',
 };
 
 const els = {
@@ -321,6 +324,15 @@ function getDisplayValidity(promo) {
   return cleanSentence(text.replace(/^vigencia:\s*/i, ""));
 }
 
+function getCardValidity(promo) {
+  const validity = getDisplayValidity(promo);
+  if (validity.length <= 46) return validity;
+  const text = cleanSentence(`${promo.validity || ""} ${promo.raw_detail || ""}`);
+  const match = text.match(/vigente[^.]*?(?:hasta|al)\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4}|[0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4})/i);
+  if (match) return `Hasta ${cleanSentence(match[1])}`;
+  return "Ver detalle";
+}
+
 function cleanSentence(value) {
   return String(value || "")
     .replace(/[•●]/g, "")
@@ -477,6 +489,10 @@ function getPromoVariants(promo) {
   return uniquePremium.length ? [...variants, ...uniquePremium] : [null];
 }
 
+function hasPremiumVariant(promo) {
+  return getPromoVariants(promo).some((variant) => variant?.kind === "premium");
+}
+
 function percentNumber(value) {
   const match = String(value || "").match(/(\d{1,3})\s*%/);
   return match ? Number(match[1]) : 0;
@@ -620,6 +636,7 @@ function matchesBank(promo) {
 
 function matchesCategory(promo) {
   if (state.activeCategory === "Todas") return true;
+  if (state.activeCategory === PREMIUM_CATEGORY) return hasPremiumVariant(promo);
   return getPromoCategoryGroup(promo) === state.activeCategory;
 }
 
@@ -691,7 +708,7 @@ function renderTabs() {
 
   const categories = getCategories();
   els.categoryTabs.innerHTML = categories.map((category) => (
-    `<button class="${state.activeCategory === category ? "active" : ""}" data-category="${escapeAttribute(category)}">${renderIcon(CATEGORY_ICONS[category] || "star")}${escapeHtml(category)}</button>`
+    `<button class="${state.activeCategory === category ? "active" : ""} ${category === PREMIUM_CATEGORY ? "premium-filter" : ""}" data-category="${escapeAttribute(category)}">${renderIcon(CATEGORY_ICONS[category] || "star")}${escapeHtml(category)}</button>`
   )).join("");
 
   const days = [["hoy", "Hoy"], ...DAYS.map((day) => [day, capitalize(day)])];
@@ -750,7 +767,8 @@ function getCategories() {
     .map(getPromoCategoryGroup)
     .filter(Boolean))]
     .sort((a, b) => getCategoryOrder(a) - getCategoryOrder(b) || a.localeCompare(b, "es"));
-  return ["Todas", ...categories];
+  const hasPremium = state.promotions.filter(matchesBank).some(hasPremiumVariant);
+  return ["Todas", ...(hasPremium ? [PREMIUM_CATEGORY] : []), ...categories];
 }
 
 function getPromoCategoryGroup(promo) {
@@ -803,7 +821,7 @@ function renderCard(promo, variant = null) {
         <p class="bank-card-line">${escapeHtml(getBankLabel(promo.bank))} · ${escapeHtml(categoryGroup)}</p>
         <div class="meta">
           <div><strong>Día:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
-          <div><strong>Vigencia:</strong> ${escapeHtml(getDisplayValidity(promo))}</div>
+          <div><strong>Vigencia:</strong> ${escapeHtml(getCardValidity(promo))}</div>
         </div>
       </div>
     </article>
@@ -825,6 +843,7 @@ function openDetail(id) {
       <div><strong>Vigencia:</strong> ${escapeHtml(getDisplayValidity(promo))}</div>
       <div><strong>Topes y mínimos:</strong> ${escapeHtml(promo.caps_and_minimums || "No especificado")}</div>
       <div><strong>Reglas por nivel:</strong> ${escapeHtml(promo.level_rules || "No aplica")}</div>
+      <div><strong>Condiciones:</strong> ${escapeHtml(cleanSentence(promo.raw_detail || promo.validity || "Ver bases y condiciones"))}</div>
       <div><a href="${escapeAttribute(promo.source_url || "#")}" target="_blank" rel="noreferrer">Ver bases y condiciones</a></div>
     </div>
   `;
@@ -858,7 +877,7 @@ function escapeAttribute(value) {
 }
 
 els.bankTabs.addEventListener("click", (event) => {
-  const bank = event.target?.dataset?.bank;
+  const bank = event.target.closest("button")?.dataset?.bank;
   if (!bank) return;
   state.activeBank = bank;
   state.activeCategory = "Todas";
@@ -866,21 +885,21 @@ els.bankTabs.addEventListener("click", (event) => {
 });
 
 els.categoryTabs.addEventListener("click", (event) => {
-  const category = event.target?.dataset?.category;
+  const category = event.target.closest("button")?.dataset?.category;
   if (!category) return;
   state.activeCategory = category;
   render();
 });
 
 els.dayTabs.addEventListener("click", (event) => {
-  const day = event.target?.dataset?.day;
+  const day = event.target.closest("button")?.dataset?.day;
   if (!day) return;
   state.activeDay = day;
   render();
 });
 
 els.uenoLevelPanel.addEventListener("click", (event) => {
-  const level = Number(event.target?.dataset?.level);
+  const level = Number(event.target.closest("button")?.dataset?.level);
   if (!level) return;
   state.uenoLevel = level;
   render();

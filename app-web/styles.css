@@ -147,7 +147,11 @@ input[type="search"]::placeholder {
 
 .filter-strip {
   display: grid;
-  gap: 10px;
+  background: rgba(2, 16, 25, 0.42);
+  border: 1px solid rgba(126, 170, 194, 0.1);
+  border-radius: 20px;
+  gap: 8px;
+  padding: 8px;
 }
 
 .tabs,
@@ -155,7 +159,8 @@ input[type="search"]::placeholder {
   display: flex;
   gap: 8px;
   overflow-x: auto;
-  padding: 1px 1px 4px;
+  padding: 2px 1px;
+  scroll-snap-type: x proximity;
   scrollbar-width: none;
 }
 
@@ -167,7 +172,7 @@ input[type="search"]::placeholder {
 .tabs button,
 .level-panel button {
   align-items: center;
-  background: rgba(9, 29, 43, 0.94);
+  background: rgba(8, 28, 42, 0.72);
   border: 1px solid rgba(140, 179, 199, 0.16);
   border-radius: 999px;
   color: #d8e8f0;
@@ -178,6 +183,8 @@ input[type="search"]::placeholder {
   font-weight: 800;
   min-height: 42px;
   padding: 10px 15px;
+  scroll-snap-align: start;
+  transition: background 0.16s ease, border-color 0.16s ease, transform 0.16s ease;
 }
 
 .chip-icon {
@@ -204,8 +211,8 @@ input[type="search"]::placeholder {
 }
 
 .category-tabs {
-  border: 0;
-  padding: 0 1px 4px;
+  border-block: 1px solid rgba(125, 168, 190, 0.12);
+  padding-block: 8px;
 }
 
 .day-tabs button {
@@ -218,6 +225,23 @@ input[type="search"]::placeholder {
   border-color: #e9fbf5;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.28);
   color: #071722;
+}
+
+.tabs button.premium-filter {
+  background: linear-gradient(135deg, #0b0f18, #02040a);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 8px 20px rgba(0, 0, 0, 0.22);
+  color: #f8fafc;
+}
+
+.tabs button.premium-filter .chip-icon {
+  color: #f8d36a;
+}
+
+.tabs button.premium-filter.active {
+  background: linear-gradient(135deg, #f8fafc, #a8b0bd);
+  border-color: #f8fafc;
+  color: #05070c;
 }
 
 .level-panel {
