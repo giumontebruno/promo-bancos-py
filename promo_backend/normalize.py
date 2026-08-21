@@ -155,6 +155,17 @@ def detect_percentages(text):
     return list(dict.fromkeys(re.findall(r"\d{1,3}\s*%", clean(text))))
 
 
+def detect_special_flags(bank, *texts):
+    haystack = clean(" ".join(texts)).lower()
+    flags = []
+    if bank == "ueno bank" and re.search(
+        r"ueno\s*\+\s*power|ueno\+\s*power|desbloque[aá]\s+ueno|saldo promedio requerido",
+        haystack,
+    ):
+        flags.append("ueno_power")
+    return flags
+
+
 def row_id(row):
     base = "|".join(
         [
@@ -192,8 +203,18 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
     location = first(row, "Localidad", "Ciudad", "Departamento", "Ubicación", "Ubicacion")
     caps = first(row, "Montos / topes", "Tope detectado", "Montos", "Topes")
     levels = first(row, "Descuentos por nivel", "Beneficio por niveles")
-    source_url = first(row, "URL detalle", "URL", "Bases / PDF URL", "Fuente API", "Bases y condiciones URL")
+    source_url = first(row, "URL detalle", "URL", "Bases y condiciones URL", "Bases PDF URL", "Bases / PDF URL", "Fuente API")
     detail = first(row, "Detalle", "Texto completo", "Texto bases", "Texto bases y condiciones")
+    base_detail = " ".join(
+        filter(
+            None,
+            [
+                first(row, "Texto bases y condiciones"),
+                first(row, "Texto PDF bases"),
+            ],
+        )
+    )
+    full_detail = clean(" ".join(filter(None, [detail, base_detail])))
 
     normalized = {
         "bank": bank,
@@ -201,17 +222,18 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "merchant_name": merchant_override or merchant or merchants or category,
         "merchant_locations_or_group": group_override if group_override is not None else merchants or location,
         "benefit_summary": benefit,
-        "benefit_type": detect_benefit_type(" ".join([benefit, levels, detail])),
-        "percentages": detect_percentages(" ".join([benefit, levels, detail])),
-        "promotion_days": detect_days(day_text, validity, detail),
-        "month_days": detect_month_days(day_text, validity, detail),
-        "ordinal_weekdays": detect_ordinal_weekdays(day_text, validity, detail),
+        "benefit_type": detect_benefit_type(" ".join([benefit, levels, full_detail])),
+        "percentages": detect_percentages(" ".join([benefit, levels, full_detail])),
+        "promotion_days": detect_days(day_text, validity, full_detail),
+        "month_days": detect_month_days(day_text, validity, full_detail),
+        "ordinal_weekdays": detect_ordinal_weekdays(day_text, validity, full_detail),
         "day_text": day_text or "No especificado",
         "validity": validity,
         "caps_and_minimums": caps,
         "level_rules": levels,
+        "special_flags": detect_special_flags(bank, benefit, levels, caps, validity, day_text, full_detail),
         "source_url": source_url,
-        "raw_detail": detail[:4000],
+        "raw_detail": full_detail[:4000],
     }
     normalized["id"] = row_id(normalized)
     return normalized
@@ -311,6 +333,7 @@ def write_csv(path, rows):
         "validity",
         "caps_and_minimums",
         "level_rules",
+        "special_flags",
         "source_url",
     ]
     with path.open("w", encoding="utf-8-sig", newline="") as f:
@@ -324,6 +347,7 @@ def write_csv(path, rows):
             out["ordinal_weekdays"] = "; ".join(
                 f"{rule.get('ordinal')}:{rule.get('day')}" for rule in out.get("ordinal_weekdays", [])
             )
+            out["special_flags"] = "; ".join(out.get("special_flags", []))
             writer.writerow({k: out.get(k, "") for k in fieldnames})
 
 

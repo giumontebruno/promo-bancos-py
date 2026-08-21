@@ -237,10 +237,44 @@ input[type="search"] {
   padding: 11px 12px;
 }
 
+.promo-card-head {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
 .store-name {
   margin: 0 0 6px;
   font-size: 16px;
   line-height: 1.2;
+}
+
+.power-badge {
+  align-items: center;
+  background: #062017;
+  border: 1px solid #2bd98e;
+  border-radius: 999px;
+  color: #2bd98e;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-size: 10px;
+  font-weight: 900;
+  gap: 4px;
+  letter-spacing: 0;
+  line-height: 1;
+  padding: 3px 6px 3px 4px;
+  white-space: nowrap;
+}
+
+.power-badge img {
+  border-radius: 4px;
+  height: 16px;
+  width: 16px;
+}
+
+.ueno-power-card {
+  border-color: color-mix(in srgb, #2bd98e 55%, #dbe2ea);
 }
 
 .benefit-lines {
@@ -320,6 +354,14 @@ dialog::backdrop {
 .detail-list div {
   border-top: 1px solid #eef2f6;
   padding-top: 10px;
+}
+
+.detail-list .power-detail {
+  background: #e2f8ef;
+  border: 1px solid #a9ebcd;
+  border-radius: 8px;
+  color: #06442e;
+  padding: 10px;
 }
 
 .empty {

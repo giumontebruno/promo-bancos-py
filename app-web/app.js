@@ -316,6 +316,19 @@ function getBankTheme(bank) {
   return bankThemes[bank] || { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "", logoBg: "#ffffff" };
 }
 
+function isUenoPowerPromo(promo) {
+  if (promo.bank !== "ueno bank") return false;
+  if (Array.isArray(promo.special_flags) && promo.special_flags.includes("ueno_power")) return true;
+  const text = normalizeDayName([
+    promo.benefit_summary,
+    promo.level_rules,
+    promo.caps_and_minimums,
+    promo.validity,
+    promo.raw_detail,
+  ].join(" "));
+  return /ueno\s*\+\s*power|desbloquea\s+ueno|saldo promedio requerido/.test(text);
+}
+
 function getMainBenefit(promo) {
   if (promo.bank === "ueno bank") {
     return getBenefitForSelectedUenoLevel(promo, state.uenoLevel);
@@ -645,11 +658,18 @@ function sortPromotions(a, b) {
 function renderCard(promo) {
   const theme = getBankTheme(promo.bank);
   const benefitLines = getBenefitLines(promo);
+  const isPowerPromo = isUenoPowerPromo(promo);
+  const powerBadge = isPowerPromo
+    ? `<span class="power-badge" title="Promo ueno+ POWER"><img src="${escapeAttribute(bankThemes["ueno bank"].logo)}" alt="" />ueno+ POWER</span>`
+    : "";
   return `
-    <article class="promo-card" data-id="${promo.id}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
+    <article class="promo-card ${isPowerPromo ? "ueno-power-card" : ""}" data-id="${promo.id}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
       <div class="logo-box">${theme.logo ? `<img src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(promo.bank || "Banco")}" />` : ""}</div>
       <div class="promo-content">
-        <h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3>
+        <div class="promo-card-head">
+          <h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3>
+          ${powerBadge}
+        </div>
         <div class="benefit-lines">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
         <p class="bank-card-line">${escapeHtml(promo.bank || "Banco")} · ${escapeHtml(getPromoCategoryGroup(promo))}</p>
         <div class="meta">
@@ -668,6 +688,7 @@ function openDetail(id) {
     <h2>${escapeHtml(getPromoTitle(promo))}</h2>
     <p class="benefit">${escapeHtml(getMainBenefit(promo))}</p>
     <div class="detail-list">
+      ${isUenoPowerPromo(promo) ? `<div class="power-detail"><strong>Promo especial:</strong> ueno+ POWER. Puede requerir desbloqueo o criterios adicionales en la app de ueno.</div>` : ""}
       <div><strong>Banco:</strong> ${escapeHtml(promo.bank || "")}</div>
       <div><strong>Categoria:</strong> ${escapeHtml(promo.category || "")}</div>
       <div><strong>Comercios/locales:</strong> ${escapeHtml(promo.merchant_locations_or_group || promo.merchant_name || "")}</div>
