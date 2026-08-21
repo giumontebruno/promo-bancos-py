@@ -538,7 +538,7 @@ input[type="search"]::placeholder {
 .store-name {
   align-items: flex-start;
   display: inline-flex;
-  font-size: 14px;
+  font-size: 15px;
   gap: 6px;
   letter-spacing: 0;
   line-height: 1.18;
@@ -622,7 +622,7 @@ input[type="search"]::placeholder {
   border: 1px solid color-mix(in srgb, var(--bank-main) 34%, rgba(247, 241, 227, 0.12));
   border-radius: 9px;
   color: color-mix(in srgb, var(--bank-main) 65%, #ffffff);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 950;
   line-height: 1.15;
   padding: 3px 6px;
@@ -634,13 +634,13 @@ input[type="search"]::placeholder {
 
 .primary-benefit span {
   border-radius: 9px;
-  font-size: 11px;
+  font-size: 12px;
   padding: 3px 6px;
 }
 
 .savings-line {
   color: var(--brand-cream);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 900;
   margin: -1px 0 5px;
 }
@@ -665,7 +665,7 @@ input[type="search"]::placeholder {
 
 .bank-card-line {
   color: color-mix(in srgb, var(--bank-main) 60%, #ffffff);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 900;
   line-height: 1.25;
   margin: 0 0 5px;
@@ -675,7 +675,7 @@ input[type="search"]::placeholder {
   color: #c9c0b0;
   display: flex;
   flex-wrap: wrap;
-  font-size: 11px;
+  font-size: 12px;
   gap: 4px 12px;
   line-height: 1.35;
 }

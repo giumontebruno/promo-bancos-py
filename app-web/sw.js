@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260821-discount-priority";
+const CACHE_NAME = "payback-py-v20260821-card-text-plus";
 const APP_SHELL = [
   "./",
   "./index.html",
