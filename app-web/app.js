@@ -7,6 +7,13 @@ const STORAGE_KEYS = {
 const DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
 const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria"];
 const PREMIUM_CATEGORY = "Club Black";
+const KNOWN_PLACES = [
+  { name: "Shopping del Sol", lat: -25.28288, lng: -57.56706, terms: ["del sol", "delsol", "shopping del sol"] },
+  { name: "Paseo La Galería", lat: -25.2819, lng: -57.5638, terms: ["paseo la galeria", "paseo la galería", "la galeria", "la galería"] },
+  { name: "Shopping Mariscal", lat: -25.2964, lng: -57.5814, terms: ["shopping mariscal", "mariscal", "gastro mariscal"] },
+  { name: "Pinedo Shopping", lat: -25.32396, lng: -57.52098, terms: ["pinedo", "pinedo shopping"] },
+  { name: "Shopping Mariano", lat: -25.2076, lng: -57.5323, terms: ["shopping mariano", "mariano"] },
+];
 const CATEGORY_GROUPS = [
   ["Todas", []],
   ["Supermercados", ["super", "mayorista", "delimarket", "stock", "real", "contimarket"]],
@@ -87,6 +94,8 @@ const state = {
   activeDay: "hoy",
   query: "",
   uenoLevel: 5,
+  location: null,
+  locationStatus: "idle",
   user: loadStoredJson(STORAGE_KEYS.user, null),
   favorites: new Set(loadStoredJson(STORAGE_KEYS.favorites, [])),
   alertPrefs: loadStoredJson(STORAGE_KEYS.alertPrefs, { today: true, favorites: true }),
@@ -832,6 +841,10 @@ function render() {
     renderAlertsView();
     return;
   }
+  if (state.activeView === "nearby") {
+    renderNearbyView();
+    return;
+  }
 
   const base = state.promotions
     .filter(matchesBank)
@@ -960,6 +973,107 @@ function renderAlertsView() {
       </div>
     </section>
   `;
+}
+
+function renderNearbyView() {
+  const places = getNearbyPlaces();
+  const selectedPlace = places[0]?.place || KNOWN_PLACES[0];
+  const promos = selectedPlace ? getPromotionsForPlace(selectedPlace).sort(sortByBenefitValue) : [];
+  els.statusText.textContent = state.location
+    ? `Cerca de ${selectedPlace.name}`
+    : "Promos por zona";
+  els.countText.textContent = `${promos.length} promociones`;
+  els.results.innerHTML = `
+    <section class="nearby-panel">
+      <div class="nearby-hero">
+        <div>
+          <span class="nearby-kicker">Ubicación</span>
+          <h2>${state.location ? escapeHtml(selectedPlace.name) : "Encontrá promos cerca"}</h2>
+          <p>${state.location ? `Aprox. ${formatDistance(places[0]?.distance || 0)} de tu ubicación.` : "Activá tu ubicación para detectar shoppings y zonas cercanas."}</p>
+        </div>
+        <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : "Usar mi ubicación"}</button>
+      </div>
+      <div class="mini-map" aria-label="Mapa de referencia">
+        ${places.slice(0, 5).map((item, index) => `<button type="button" class="${index === 0 ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%" title="${escapeAttribute(item.place.name)}"><span>${index + 1}</span></button>`).join("")}
+      </div>
+      <div class="place-list">
+        ${places.slice(0, 5).map((item, index) => `<div class="${index === 0 ? "active" : ""}"><strong>${escapeHtml(item.place.name)}</strong><span>${state.location ? formatDistance(item.distance) : "Zona conocida"}</span></div>`).join("")}
+      </div>
+      ${promos.length ? `<div class="grid nearby-grid">${promos.slice(0, 20).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. Podemos ampliar el scraper con locales y pisos de cada shopping.</div>`}
+    </section>
+  `;
+}
+
+function getNearbyPlaces() {
+  const withDistance = KNOWN_PLACES.map((place) => ({
+    place,
+    distance: state.location ? distanceKm(state.location.lat, state.location.lng, place.lat, place.lng) : 0,
+  }));
+  return withDistance.sort((a, b) => a.distance - b.distance);
+}
+
+function getPromotionsForPlace(place) {
+  return state.promotions.filter((promo) => {
+    const text = normalizeDayName([
+      promo.merchant_name,
+      promo.category,
+      promo.merchant_locations_or_group,
+      promo.caps_and_minimums,
+      promo.raw_detail,
+    ].join(" "));
+    return place.terms.some((term) => text.includes(normalizeDayName(term)));
+  });
+}
+
+function distanceKm(lat1, lng1, lat2, lng2) {
+  const earth = 6371;
+  const dLat = toRadians(lat2 - lat1);
+  const dLng = toRadians(lng2 - lng1);
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRadians(lat1)) * Math.cos(toRadians(lat2)) * Math.sin(dLng / 2) ** 2;
+  return earth * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function toRadians(value) {
+  return value * Math.PI / 180;
+}
+
+function formatDistance(value) {
+  if (!value) return "0 km";
+  if (value < 1) return `${Math.round(value * 1000)} m`;
+  return `${value.toFixed(1)} km`;
+}
+
+function getMapX(lng) {
+  const min = -57.59;
+  const max = -57.51;
+  return Math.min(92, Math.max(8, ((lng - min) / (max - min)) * 84 + 8));
+}
+
+function getMapY(lat) {
+  const min = -25.33;
+  const max = -25.20;
+  return Math.min(88, Math.max(12, (1 - ((lat - min) / (max - min))) * 76 + 12));
+}
+
+function requestLocation() {
+  if (!navigator.geolocation) {
+    state.locationStatus = "unsupported";
+    render();
+    return;
+  }
+  state.locationStatus = "loading";
+  render();
+  navigator.geolocation.getCurrentPosition((position) => {
+    state.location = {
+      lat: position.coords.latitude,
+      lng: position.coords.longitude,
+    };
+    state.locationStatus = "ready";
+    render();
+  }, () => {
+    state.locationStatus = "denied";
+    render();
+  }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 300000 });
 }
 
 function toggleFavorite(id) {
@@ -1220,6 +1334,12 @@ els.searchInput.addEventListener("input", (event) => {
 });
 
 els.results.addEventListener("click", (event) => {
+  const locationButton = event.target.closest("[data-location-action]");
+  if (locationButton) {
+    requestLocation();
+    return;
+  }
+
   const favoriteButton = event.target.closest("[data-favorite-id]");
   if (favoriteButton) {
     event.preventDefault();
