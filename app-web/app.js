@@ -384,7 +384,7 @@ function isUenoPowerPromo(promo) {
 function getMainBenefit(promo, variant = null) {
   if (variant?.benefit) return variant.benefit;
   if (isUenoPowerPromo(promo)) {
-    return "10% reintegro base; hasta 40% adicional ueno+ POWER";
+    return "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER";
   }
   if (promo.bank === "ueno bank") {
     return getBenefitForSelectedUenoLevel(promo, state.uenoLevel);
@@ -450,6 +450,8 @@ function getBenefitForSelectedUenoLevel(promo, level) {
 }
 
 function getPromoVariants(promo) {
+  if (isUenoPowerPromo(promo)) return [null];
+
   const baseBenefit = getBaseBenefitForPremiumPromo(promo);
   const basePercent = percentNumber(baseBenefit);
   const variants = [{ kind: "base", label: "", benefit: baseBenefit }];

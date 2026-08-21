@@ -10549,18 +10549,18 @@
       "10%"
     ],
     "promotion_days": [
-      "sábado",
-      "domingo"
+      "domingo",
+      "sábado"
     ],
     "month_days": [],
     "ordinal_weekdays": [
       {
         "ordinal": 1,
-        "day": "sábado"
+        "day": "domingo"
       },
       {
         "ordinal": 1,
-        "day": "domingo"
+        "day": "sábado"
       }
     ],
     "day_text": "Primer sábado y domingo de cada mes, en Fortis Mayorista - 10% de reintegro en el extracto, pagando exclusivamente con las tarjetas de crédito Dinelco Continental",
@@ -24959,6 +24959,60 @@
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
+    "merchant_name": "+Mu",
+    "merchant_locations_or_group": "+Mu",
+    "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "10%",
+      "40%"
+    ],
+    "promotion_days": [
+      "viernes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "viernes",
+    "validity": "Agosto 2026",
+    "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
+    "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
+    "special_flags": [
+      "ueno_power"
+    ],
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
+    "raw_detail": "ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
+    "id": "4179bd380e56fcac"
+  },
+  {
+    "bank": "ueno bank",
+    "category": "Gastronomía",
+    "merchant_name": "ARK Coffee",
+    "merchant_locations_or_group": "ARK Coffee",
+    "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "10%",
+      "40%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "lunes",
+    "validity": "Agosto 2026",
+    "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
+    "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
+    "special_flags": [
+      "ueno_power"
+    ],
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
+    "raw_detail": "ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
+    "id": "fec3f7018563dbbd"
+  },
+  {
+    "bank": "ueno bank",
+    "category": "Gastronomía",
     "merchant_name": "Alza",
     "merchant_locations_or_group": "Alza",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
@@ -24986,8 +25040,8 @@
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Apira",
-    "merchant_locations_or_group": "Apira",
+    "merchant_name": "Apira Sushi",
+    "merchant_locations_or_group": "Apira Sushi",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25008,13 +25062,13 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "0f98e9795b5c70f1"
+    "id": "6e9476952be1db65"
   },
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Arik Coffee",
-    "merchant_locations_or_group": "Arik Coffee",
+    "merchant_name": "Billy Smash",
+    "merchant_locations_or_group": "Billy Smash",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25022,11 +25076,11 @@
       "40%"
     ],
     "promotion_days": [
-      "lunes"
+      "martes"
     ],
     "month_days": [],
     "ordinal_weekdays": [],
-    "day_text": "lunes",
+    "day_text": "martes",
     "validity": "Agosto 2026",
     "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
     "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
@@ -25034,14 +25088,14 @@
       "ueno_power"
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
-    "raw_detail": "ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "b2dcec79bbd16091"
+    "raw_detail": "ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
+    "id": "107115da2a4d3542"
   },
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Bistro Francés",
-    "merchant_locations_or_group": "Bistro Francés",
+    "merchant_name": "Bistro del Centro",
+    "merchant_locations_or_group": "Bistro del Centro",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25062,13 +25116,13 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro Crocantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Crocantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Crocantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "b1c662187d21ee05"
+    "id": "6bccff23f817c0cf"
   },
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Borja Cafe",
-    "merchant_locations_or_group": "Borja Cafe",
+    "merchant_name": "Canela Café",
+    "merchant_locations_or_group": "Canela Café",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25089,88 +25143,7 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "d633c0fc9404cc79"
-  },
-  {
-    "bank": "ueno bank",
-    "category": "Gastronomía",
-    "merchant_name": "Burger House",
-    "merchant_locations_or_group": "Burger House",
-    "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
-    "benefit_type": "reintegro",
-    "percentages": [
-      "10%",
-      "40%"
-    ],
-    "promotion_days": [
-      "martes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "martes",
-    "validity": "Agosto 2026",
-    "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
-    "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
-    "special_flags": [
-      "ueno_power"
-    ],
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
-    "raw_detail": "ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "816e846e0138c4db"
-  },
-  {
-    "bank": "ueno bank",
-    "category": "Gastronomía",
-    "merchant_name": "Burmet",
-    "merchant_locations_or_group": "Burmet",
-    "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
-    "benefit_type": "reintegro",
-    "percentages": [
-      "10%",
-      "40%"
-    ],
-    "promotion_days": [
-      "martes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "martes",
-    "validity": "Agosto 2026",
-    "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
-    "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
-    "special_flags": [
-      "ueno_power"
-    ],
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
-    "raw_detail": "ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "62aa3e8d65dd7100"
-  },
-  {
-    "bank": "ueno bank",
-    "category": "Gastronomía",
-    "merchant_name": "Canela",
-    "merchant_locations_or_group": "Canela",
-    "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
-    "benefit_type": "reintegro",
-    "percentages": [
-      "10%",
-      "40%"
-    ],
-    "promotion_days": [
-      "lunes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "lunes",
-    "validity": "Agosto 2026",
-    "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
-    "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
-    "special_flags": [
-      "ueno_power"
-    ],
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
-    "raw_detail": "ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "6d1d25970fc17fae"
+    "id": "24129ea61b7c5cce"
   },
   {
     "bank": "ueno bank",
@@ -25202,33 +25175,6 @@
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Di Carlo",
-    "merchant_locations_or_group": "Di Carlo",
-    "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
-    "benefit_type": "reintegro",
-    "percentages": [
-      "10%",
-      "40%"
-    ],
-    "promotion_days": [
-      "sábado"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "sábado",
-    "validity": "Agosto 2026",
-    "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
-    "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
-    "special_flags": [
-      "ueno_power"
-    ],
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
-    "raw_detail": "ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "373fa0b6f21f9427"
-  },
-  {
-    "bank": "ueno bank",
-    "category": "Gastronomía",
     "merchant_name": "Don Vito",
     "merchant_locations_or_group": "Don Vito",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
@@ -25256,8 +25202,8 @@
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Fontana",
-    "merchant_locations_or_group": "Fontana",
+    "merchant_name": "Fontana Bar",
+    "merchant_locations_or_group": "Fontana Bar",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25265,11 +25211,11 @@
       "40%"
     ],
     "promotion_days": [
-      "lunes"
+      "sábado"
     ],
     "month_days": [],
     "ordinal_weekdays": [],
-    "day_text": "lunes",
+    "day_text": "sábado",
     "validity": "Agosto 2026",
     "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
     "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
@@ -25277,14 +25223,14 @@
       "ueno_power"
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
-    "raw_detail": "ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "2a22789b286a53d6"
+    "raw_detail": "ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
+    "id": "c633bcfbd712e3a2"
   },
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Fontana Coffee",
-    "merchant_locations_or_group": "Fontana Coffee",
+    "merchant_name": "Fontana Café",
+    "merchant_locations_or_group": "Fontana Café",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25305,7 +25251,34 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "0bd04a1214c0211f"
+    "id": "c22b638565baba76"
+  },
+  {
+    "bank": "ueno bank",
+    "category": "Gastronomía",
+    "merchant_name": "Fontana Express",
+    "merchant_locations_or_group": "Fontana Express",
+    "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "10%",
+      "40%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "lunes",
+    "validity": "Agosto 2026",
+    "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
+    "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
+    "special_flags": [
+      "ueno_power"
+    ],
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
+    "raw_detail": "ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
+    "id": "014b74b80381c4b8"
   },
   {
     "bank": "ueno bank",
@@ -25337,8 +25310,8 @@
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Fontana Rooftop",
-    "merchant_locations_or_group": "Fontana Rooftop",
+    "merchant_name": "Fusion Altos Restaurant",
+    "merchant_locations_or_group": "Fusion Altos Restaurant",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25359,40 +25332,13 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "45164218c6d5e6c9"
+    "id": "93e9df7c5fb4c8c5"
   },
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Food Garden",
-    "merchant_locations_or_group": "Food Garden",
-    "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
-    "benefit_type": "reintegro",
-    "percentages": [
-      "10%",
-      "40%"
-    ],
-    "promotion_days": [
-      "sábado"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "sábado",
-    "validity": "Agosto 2026",
-    "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
-    "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
-    "special_flags": [
-      "ueno_power"
-    ],
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
-    "raw_detail": "ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "e92b8ee36e117189"
-  },
-  {
-    "bank": "ueno bank",
-    "category": "Gastronomía",
-    "merchant_name": "Fusion Resto",
-    "merchant_locations_or_group": "Fusion Resto",
+    "merchant_name": "Fusion Chef Pizza & Terraza",
+    "merchant_locations_or_group": "Fusion Chef Pizza & Terraza",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25413,7 +25359,7 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro Pizzerías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Pizzerías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Pizzerías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "620c0e6f31dcfd84"
+    "id": "36fc83db255e39aa"
   },
   {
     "bank": "ueno bank",
@@ -25472,8 +25418,8 @@
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Hey! Fritex Bakery",
-    "merchant_locations_or_group": "Hey! Fritex Bakery",
+    "merchant_name": "Hey Life! Bakery",
+    "merchant_locations_or_group": "Hey Life! Bakery",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25494,13 +25440,13 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "a98d54c4cc4cfd26"
+    "id": "cf33c67221becced"
   },
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Huppy",
-    "merchant_locations_or_group": "Huppy",
+    "merchant_name": "Kala Poke",
+    "merchant_locations_or_group": "Kala Poke",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25521,13 +25467,13 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "3dd1704a7c96716d"
+    "id": "538ebaf34e8c9ce2"
   },
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Kalo Poke",
-    "merchant_locations_or_group": "Kalo Poke",
+    "merchant_name": "La Nutry",
+    "merchant_locations_or_group": "La Nutry",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25548,13 +25494,13 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "181a67395e1a073a"
+    "id": "d73eb42eb40854f7"
   },
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "La Huerta",
-    "merchant_locations_or_group": "La Huerta",
+    "merchant_name": "Lomy's",
+    "merchant_locations_or_group": "Lomy's",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25562,11 +25508,11 @@
       "40%"
     ],
     "promotion_days": [
-      "viernes"
+      "martes"
     ],
     "month_days": [],
     "ordinal_weekdays": [],
-    "day_text": "viernes",
+    "day_text": "martes",
     "validity": "Agosto 2026",
     "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
     "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
@@ -25574,8 +25520,8 @@
       "ueno_power"
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
-    "raw_detail": "ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "94be06230d7cba5d"
+    "raw_detail": "ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Hamburgueserías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
+    "id": "f6a92bfa8f463acd"
   },
   {
     "bank": "ueno bank",
@@ -25607,8 +25553,35 @@
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Narma",
-    "merchant_locations_or_group": "Narma",
+    "merchant_name": "Nacion Sushi",
+    "merchant_locations_or_group": "Nacion Sushi",
+    "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "10%",
+      "40%"
+    ],
+    "promotion_days": [
+      "sábado"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "sábado",
+    "validity": "Agosto 2026",
+    "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
+    "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
+    "special_flags": [
+      "ueno_power"
+    ],
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
+    "raw_detail": "ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
+    "id": "8bd8cca6b845a622"
+  },
+  {
+    "bank": "ueno bank",
+    "category": "Gastronomía",
+    "merchant_name": "Närma",
+    "merchant_locations_or_group": "Närma",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25629,7 +25602,7 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro FIT. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "36e2d262089ce9fb"
+    "id": "dab11a4c04ec5668"
   },
   {
     "bank": "ueno bank",
@@ -25661,8 +25634,35 @@
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Restaurante Bolsi",
-    "merchant_locations_or_group": "Restaurante Bolsi",
+    "merchant_name": "Robinson Bakeshop",
+    "merchant_locations_or_group": "Robinson Bakeshop",
+    "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "10%",
+      "40%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "lunes",
+    "validity": "Agosto 2026",
+    "caps_and_minimums": "Tope de compra semanal y mensual. Saldo promedio personalizado visible en la app ueno.",
+    "level_rules": "Nivel 1 al 5: 10% reintegro base + hasta 40% reintegro adicional ueno+ POWER.",
+    "special_flags": [
+      "ueno_power"
+    ],
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
+    "raw_detail": "ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
+    "id": "fa6f69482e7a2841"
+  },
+  {
+    "bank": "ueno bank",
+    "category": "Gastronomía",
+    "merchant_name": "Sin Culpa",
+    "merchant_locations_or_group": "Sin Culpa",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25683,7 +25683,7 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "0f759c3e590438e6"
+    "id": "aa49b7d828b761a7"
   },
   {
     "bank": "ueno bank",
@@ -25715,8 +25715,8 @@
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "Tierra Colorada",
-    "merchant_locations_or_group": "Tierra Colorada",
+    "merchant_name": "Taberna Española",
+    "merchant_locations_or_group": "Taberna Española",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25737,13 +25737,13 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Restaurantes. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "fa3886a6b2167620"
+    "id": "5dd6a0de03ac15f9"
   },
   {
     "bank": "ueno bank",
     "category": "Gastronomía",
-    "merchant_name": "ueno bank Cafe",
-    "merchant_locations_or_group": "ueno bank Cafe",
+    "merchant_name": "ueno bank Café",
+    "merchant_locations_or_group": "ueno bank Café",
     "benefit_summary": "10% reintegro base; hasta 40% reintegro adicional ueno+ POWER",
     "benefit_type": "reintegro",
     "percentages": [
@@ -25764,7 +25764,7 @@
     ],
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf",
     "raw_detail": "ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros. ueno+ POWER AGO 2026. Rubro Cafeterías. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
-    "id": "4d1fa1446fe3aa0a"
+    "id": "92c7c2523e185326"
   },
   {
     "bank": "ueno bank",

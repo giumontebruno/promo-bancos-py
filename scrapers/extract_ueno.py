@@ -85,12 +85,12 @@ PAGE_LEVEL_OVERRIDES = {
 }
 
 POWER_PROMOS = [
-    ("lunes", "Cafeterías", ["Arik Coffee", "Borja Cafe", "Fontana", "Fontana Coffee", "ueno bank Cafe", "Cope Market", "Canela"]),
-    ("martes", "Hamburgueserías", ["Burger House", "Burmet"]),
-    ("miércoles", "Pizzerías", ["Grosso", "Fusion Resto", "Pizza Hut"]),
-    ("jueves", "Crocantes", ["Don Vito", "Bistro Francés"]),
-    ("viernes", "FIT", ["Huppy", "La Huerta", "Kalo Poke", "Hey! Fritex Bakery", "Narma"]),
-    ("sábado", "Restaurantes", ["Alza", "Tierra Colorada", "Restaurante Bolsi", "Stilo Campo", "Fontana Rooftop", "Apira", "Food Garden", "Di Carlo", "Máximo"]),
+    ("lunes", "Cafeterías", ["ARK Coffee", "Robinson Bakeshop", "Fontana Express", "Fontana Café", "ueno bank Café", "Cope Market", "Canela Café"]),
+    ("martes", "Hamburgueserías", ["Billy Smash", "Lomy's"]),
+    ("miércoles", "Pizzerías", ["Grosso", "Fusion Chef Pizza & Terraza", "Pizza Hut"]),
+    ("jueves", "Crocantes", ["Don Vito", "Bistro del Centro"]),
+    ("viernes", "FIT", ["+Mu", "La Nutry", "Kala Poke", "Hey Life! Bakery", "Närma"]),
+    ("sábado", "Restaurantes", ["Alza", "Fusion Altos Restaurant", "Taberna Española", "Stilo Campo", "Apira Sushi", "Nacion Sushi", "Sin Culpa", "Máximo", "Fontana Bar"]),
     ("domingo", "Heladerías", ["Fontana Helados", "Glacé"]),
 ]
 
