@@ -1,8 +1,8 @@
 :root {
   color-scheme: light;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #f3f5f8;
-  color: #17202a;
+  background: #eef2f6;
+  color: #101828;
 }
 
 * {
@@ -10,7 +10,12 @@
 }
 
 body {
+  background:
+    radial-gradient(circle at top left, rgba(43, 217, 142, 0.14), transparent 34rem),
+    linear-gradient(180deg, #f8fafc 0%, #edf2f7 42%, #e9eef5 100%);
   margin: 0;
+  min-height: 100vh;
+  padding-bottom: 92px;
 }
 
 button,
@@ -18,63 +23,110 @@ input {
   font: inherit;
 }
 
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .app-shell {
-  width: min(1120px, 100%);
   margin: 0 auto;
+  max-width: 460px;
   padding: 18px;
+  width: 100%;
 }
 
 .topbar {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
+  background: #101828;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  box-shadow: 0 18px 42px rgba(16, 24, 40, 0.18);
+  color: #fff;
+  display: flex;
   gap: 14px;
-  margin-bottom: 16px;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  min-height: 106px;
+  padding: 22px;
 }
 
 .eyebrow {
-  margin: 0 0 3px;
-  color: #65717f;
+  color: #9ee8c9;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: 0;
+  margin: 0 0 5px;
   text-transform: uppercase;
 }
 
 h1 {
+  font-size: clamp(26px, 4vw, 42px);
+  letter-spacing: 0;
+  line-height: 1;
   margin: 0;
-  font-size: 28px;
 }
 
-.icon-button,
-.tabs button,
-.level-panel button {
-  border: 1px solid #d6dde6;
+.icon-button {
+  align-items: center;
   background: #fff;
-  color: #17202a;
-  border-radius: 8px;
-  padding: 9px 12px;
+  border: 0;
+  border-radius: 16px;
+  box-shadow: inset 0 0 0 1px rgba(16, 24, 40, 0.08);
+  color: #101828;
   cursor: pointer;
-  font-weight: 700;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-size: 24px;
+  font-weight: 900;
+  height: 52px;
+  justify-content: center;
+  width: 52px;
 }
 
-.icon-button:hover,
-.tabs button:hover,
-.level-panel button:hover {
-  border-color: #a7b2c0;
+.icon-button:hover {
+  transform: translateY(-1px);
 }
 
 .controls {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(203, 213, 225, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 14px 36px rgba(16, 24, 40, 0.08);
   display: grid;
   gap: 12px;
   margin-bottom: 12px;
+  padding: 12px;
+}
+
+.search-box {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d9e2ec;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.06);
+  color: #667085;
+  display: flex;
+  gap: 10px;
+  padding: 0 14px;
+}
+
+.search-box span {
+  font-size: 24px;
+  line-height: 1;
 }
 
 input[type="search"] {
+  background: transparent;
+  border: 0;
+  color: #101828;
+  min-width: 0;
+  outline: 0;
+  padding: 15px 0;
   width: 100%;
-  border: 1px solid #cbd5e1;
-  border-radius: 8px;
-  padding: 13px 14px;
-  background: #fff;
+}
+
+.filter-strip {
+  display: grid;
+  gap: 10px;
 }
 
 .tabs,
@@ -82,33 +134,62 @@ input[type="search"] {
   display: flex;
   gap: 8px;
   overflow-x: auto;
-  padding-bottom: 2px;
+  padding: 1px 1px 4px;
+  scrollbar-width: none;
+}
+
+.tabs::-webkit-scrollbar,
+.level-panel::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs button,
+.level-panel button {
+  background: #fff;
+  border: 1px solid #d8e1ec;
+  border-radius: 999px;
+  color: #223044;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: 14px;
+  font-weight: 800;
+  min-height: 42px;
+  padding: 10px 15px;
+}
+
+.bank-tabs button {
+  border-radius: 14px;
 }
 
 .category-tabs {
-  border-top: 1px solid #e1e7ef;
-  border-bottom: 1px solid #e1e7ef;
-  padding: 10px 0;
+  border: 0;
+  padding: 0 1px 4px;
+}
+
+.day-tabs button {
+  min-width: 68px;
 }
 
 .tabs button.active,
 .level-panel button.active {
-  background: #18212f;
-  border-color: #18212f;
+  background: #101828;
+  border-color: #101828;
+  box-shadow: 0 10px 20px rgba(16, 24, 40, 0.18);
   color: #fff;
 }
 
 .level-panel {
   align-items: center;
-  background: #e8f6ef;
-  border: 1px solid #b9dfcc;
-  border-radius: 8px;
+  background: #e7f8ef;
+  border: 1px solid #b7e8cf;
+  border-radius: 16px;
   padding: 10px;
 }
 
 .level-panel .label {
-  font-weight: 800;
-  color: #0d5d3c;
+  color: #087443;
+  flex: 0 0 auto;
+  font-weight: 900;
   white-space: nowrap;
 }
 
@@ -117,12 +198,12 @@ input[type="search"] {
 }
 
 .summary {
+  color: #667085;
   display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  color: #65717f;
   font-size: 14px;
-  margin: 10px 0 16px;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 12px 2px 16px;
 }
 
 .results {
@@ -134,27 +215,27 @@ input[type="search"] {
   align-items: center;
   background: transparent;
   border: 0;
-  color: #121a26;
+  color: #101828;
   cursor: pointer;
   display: flex;
   gap: 8px;
-  margin: 8px 0 10px;
-  padding: 0;
+  margin: 7px 0 10px;
+  padding: 0 2px;
   text-align: left;
   width: 100%;
 }
 
 .section-title {
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .section-count {
-  background: #e8edf3;
+  background: #dfe7f0;
   border-radius: 999px;
   color: #526173;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 900;
   line-height: 1;
   padding: 5px 8px;
 }
@@ -173,23 +254,19 @@ input[type="search"] {
   transform: rotate(-45deg);
 }
 
-.featured-section .section-toggle {
-  align-items: center;
-  color: #121a26;
-}
-
 .featured-section .section-toggle::before {
+  background: #17b26a;
+  border-radius: 999px;
+  box-shadow: 0 0 0 5px rgba(23, 178, 106, 0.12);
   content: "";
-  width: 10px;
   height: 10px;
-  border-radius: 50%;
-  background: #18a058;
+  width: 10px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-  gap: 10px;
+  gap: 12px;
+  grid-template-columns: 1fr;
 }
 
 .promo-card {
@@ -197,44 +274,57 @@ input[type="search"] {
   --bank-soft: #e8f1fa;
   --bank-card: #ffffff;
   --logo-bg: #ffffff;
-  border: 1px solid color-mix(in srgb, var(--bank-main) 18%, #dbe2ea);
-  border-radius: 8px;
-  background: var(--bank-card);
-  color: #15202f;
+  background: #fff;
+  border: 1px solid rgba(203, 213, 225, 0.9);
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(16, 24, 40, 0.08);
+  color: #101828;
+  cursor: pointer;
   display: grid;
-  grid-template-columns: 86px 1fr;
-  min-height: 118px;
+  grid-template-columns: 92px 1fr;
+  min-height: 126px;
   overflow: hidden;
   padding: 0;
-  box-shadow: 0 5px 16px rgba(24, 33, 47, 0.06);
-  cursor: pointer;
+  position: relative;
+}
+
+.promo-card::before {
+  background: var(--bank-main);
+  content: "";
+  inset: 0 auto 0 0;
+  position: absolute;
+  width: 6px;
 }
 
 .promo-card:hover {
+  box-shadow: 0 16px 34px rgba(16, 24, 40, 0.13);
   transform: translateY(-1px);
 }
 
 .logo-box {
   align-items: center;
-  background: var(--logo-bg);
-  border-right: 6px solid var(--bank-main);
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--bank-main) 14%, #ffffff), #fff);
   display: flex;
   justify-content: center;
   min-height: 100%;
-  padding: 10px;
+  padding: 14px 10px 14px 16px;
 }
 
 .logo-box img {
-  border-radius: 8px;
+  background: var(--logo-bg);
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(16, 24, 40, 0.12);
   display: block;
-  max-height: 56px;
-  max-width: 56px;
+  height: 58px;
+  max-width: 58px;
   object-fit: contain;
-  width: 100%;
+  padding: 8px;
+  width: 58px;
 }
 
 .promo-content {
-  padding: 11px 12px;
+  padding: 14px 14px 13px;
 }
 
 .promo-card-head {
@@ -245,9 +335,10 @@ input[type="search"] {
 }
 
 .store-name {
-  margin: 0 0 6px;
   font-size: 16px;
-  line-height: 1.2;
+  letter-spacing: 0;
+  line-height: 1.18;
+  margin: 0 0 7px;
 }
 
 .power-badge {
@@ -263,52 +354,52 @@ input[type="search"] {
   gap: 4px;
   letter-spacing: 0;
   line-height: 1;
-  padding: 3px 6px 3px 4px;
+  padding: 4px 7px 4px 5px;
   white-space: nowrap;
 }
 
 .power-badge img {
-  border-radius: 4px;
+  border-radius: 5px;
   height: 16px;
   width: 16px;
 }
 
 .ueno-power-card {
-  border-color: color-mix(in srgb, #2bd98e 55%, #dbe2ea);
+  border-color: color-mix(in srgb, #2bd98e 52%, #dbe2ea);
 }
 
 .benefit-lines {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
-  margin: 0 0 6px;
+  margin: 0 0 7px;
 }
 
 .benefit-lines span {
-  background: color-mix(in srgb, var(--bank-main) 12%, #ffffff);
-  border: 1px solid color-mix(in srgb, var(--bank-main) 28%, #ffffff);
-  border-radius: 8px;
+  background: color-mix(in srgb, var(--bank-main) 11%, #ffffff);
+  border: 1px solid color-mix(in srgb, var(--bank-main) 20%, #ffffff);
+  border-radius: 10px;
   color: var(--bank-main);
   font-size: 13px;
-  font-weight: 900;
-  line-height: 1.2;
-  padding: 4px 6px;
+  font-weight: 950;
+  line-height: 1.15;
+  padding: 5px 7px;
 }
 
 .bank-card-line {
   color: var(--bank-main);
   font-size: 13px;
-  font-weight: 800;
-  line-height: 1.3;
-  margin: 0 0 6px;
+  font-weight: 900;
+  line-height: 1.25;
+  margin: 0 0 7px;
 }
 
 .meta {
-  color: #566271;
+  color: #667085;
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 12px;
   font-size: 12px;
+  gap: 4px 12px;
   line-height: 1.35;
 }
 
@@ -318,31 +409,31 @@ input[type="search"] {
 }
 
 dialog {
-  width: min(680px, calc(100% - 24px));
   border: 0;
-  border-radius: 8px;
+  border-radius: 20px;
   padding: 0;
+  width: min(680px, calc(100% - 24px));
 }
 
 dialog::backdrop {
-  background: rgba(13, 20, 31, 0.55);
+  background: rgba(16, 24, 40, 0.58);
 }
 
 .dialog-card {
-  padding: 18px;
+  padding: 20px;
   position: relative;
 }
 
 .close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 34px;
-  height: 34px;
+  background: #f2f4f7;
   border: 1px solid #d6dde6;
   border-radius: 50%;
-  background: #fff;
   cursor: pointer;
+  height: 34px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 34px;
 }
 
 .detail-list {
@@ -359,18 +450,18 @@ dialog::backdrop {
 .detail-list .power-detail {
   background: #e2f8ef;
   border: 1px solid #a9ebcd;
-  border-radius: 8px;
+  border-radius: 12px;
   color: #06442e;
   padding: 10px;
 }
 
 .empty {
-  border: 1px dashed #bac4d1;
-  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px dashed #b8c4d2;
+  border-radius: 18px;
+  color: #667085;
   padding: 28px;
   text-align: center;
-  color: #65717f;
-  background: #fff;
 }
 
 .empty.compact {
@@ -378,18 +469,81 @@ dialog::backdrop {
   text-align: left;
 }
 
-@media (max-width: 640px) {
+.bottom-nav {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(203, 213, 225, 0.9);
+  border-radius: 22px;
+  bottom: 14px;
+  box-shadow: 0 18px 38px rgba(16, 24, 40, 0.18);
+  display: flex;
+  gap: 4px;
+  justify-content: space-around;
+  left: 50%;
+  max-width: 430px;
+  padding: 8px;
+  position: fixed;
+  transform: translateX(-50%);
+  width: calc(100% - 24px);
+  z-index: 20;
+}
+
+.bottom-nav button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: 16px;
+  color: #667085;
+  cursor: pointer;
+  display: grid;
+  flex: 1;
+  font-size: 12px;
+  font-weight: 900;
+  gap: 3px;
+  justify-items: center;
+  min-height: 48px;
+  padding: 6px;
+}
+
+.bottom-nav button span {
+  font-size: 17px;
+  line-height: 1;
+}
+
+.bottom-nav button.active {
+  background: #101828;
+  color: #fff;
+}
+
+@media (min-width: 760px) {
   .app-shell {
-    padding: 14px;
+    padding: 22px 0 108px;
+  }
+
+  body {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    padding-bottom: 88px;
+  }
+
+  .app-shell {
+    padding: 12px;
   }
 
   .topbar {
-    align-items: flex-start;
-    flex-direction: column;
+    border-radius: 0 0 24px 24px;
+    margin: -12px -12px 12px;
+    min-height: 118px;
+    padding: 26px 18px 20px;
   }
 
-  h1 {
-    font-size: 24px;
+  .controls {
+    border-radius: 18px;
+    padding: 10px;
   }
 
   .grid {
@@ -397,10 +551,35 @@ dialog::backdrop {
   }
 
   .promo-card {
-    grid-template-columns: 128px 1fr;
+    grid-template-columns: 84px 1fr;
+    min-height: 120px;
+  }
+
+  .logo-box {
+    padding: 12px 8px 12px 14px;
   }
 
   .logo-box img {
-    max-width: 106px;
+    height: 54px;
+    max-width: 54px;
+    width: 54px;
+  }
+
+  .promo-content {
+    padding: 13px 12px 12px;
+  }
+
+  .store-name {
+    font-size: 15px;
+  }
+
+  .power-badge {
+    max-width: 92px;
+    overflow: hidden;
+  }
+
+  .bottom-nav {
+    bottom: 10px;
+    border-radius: 20px;
   }
 }

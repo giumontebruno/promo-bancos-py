@@ -605,7 +605,7 @@ function render() {
     .filter((promo) => appliesToSelectedDay(promo, state.activeDay))
     .sort(sortPromotions);
 
-  els.statusText.textContent = `Dia activo: ${state.activeDay === "hoy" ? capitalize(getTodayInParaguay()) : capitalize(state.activeDay)}`;
+  els.statusText.textContent = `Día activo: ${state.activeDay === "hoy" ? capitalize(getTodayInParaguay()) : capitalize(state.activeDay)}`;
   els.countText.textContent = `${base.length} promociones`;
 
   if (!base.length) {
@@ -693,11 +693,11 @@ function openDetail(id) {
     <div class="detail-list">
       ${isUenoPowerPromo(promo) ? `<div class="power-detail"><strong>Promo especial:</strong> ueno+ POWER. Puede requerir desbloqueo o criterios adicionales en la app de ueno.</div>` : ""}
       <div><strong>Banco:</strong> ${escapeHtml(promo.bank || "")}</div>
-      <div><strong>Categoria:</strong> ${escapeHtml(promo.category || "")}</div>
+      <div><strong>Categoría:</strong> ${escapeHtml(promo.category || "")}</div>
       <div><strong>Comercios/locales:</strong> ${escapeHtml(promo.merchant_locations_or_group || promo.merchant_name || "")}</div>
-      <div><strong>Dias:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
+      <div><strong>Días:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
       <div><strong>Vigencia:</strong> ${escapeHtml(getDisplayValidity(promo))}</div>
-      <div><strong>Topes y minimos:</strong> ${escapeHtml(promo.caps_and_minimums || "No especificado")}</div>
+      <div><strong>Topes y mínimos:</strong> ${escapeHtml(promo.caps_and_minimums || "No especificado")}</div>
       <div><strong>Reglas por nivel:</strong> ${escapeHtml(promo.level_rules || "No aplica")}</div>
       <div><a href="${escapeAttribute(promo.source_url || "#")}" target="_blank" rel="noreferrer">Ver bases y condiciones</a></div>
     </div>
