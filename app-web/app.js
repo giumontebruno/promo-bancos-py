@@ -16,6 +16,62 @@ const CATEGORY_GROUPS = [
   ["Servicios", ["educacion", "educación", "seguros", "municipalidades", "juridicos", "jurídicos", "inmobiliarias", "vehículos", "vehiculos"]],
   ["Especiales", ["beneficios del mes", "primera compra", "privilege", "promociones especiales", "cuotas", "tarjetas", "últimos días", "ultimos dias", "varios", "otros", "sin categoría"]],
 ];
+const METRO_AREA_TERMS = [
+  "asuncion",
+  "gran asuncion",
+  "fernando de la mora",
+  "san lorenzo",
+  "luque",
+  "lambare",
+  "lambare",
+  "mariano roque alonso",
+  "limpio",
+  "capiata",
+  "nemby",
+  "ñemby",
+  "san antonio",
+  "villa elisa",
+  "villa hayes",
+  "ypane",
+  "yaguaron",
+  "aregua",
+  "itaugua",
+];
+const OTHER_CITY_TERMS = [
+  "ciudad del este",
+  "encarnacion",
+  "caaguazu",
+  "coronel oviedo",
+  "concepcion",
+  "itapua",
+  "pilar",
+  "paraguari",
+  "san bernardino",
+  "villarrica",
+  "hohenau",
+  "hernandarias",
+  "presidente franco",
+  "maria auxiliadora",
+  "obligado",
+  "colonias unidas",
+  "bella vista",
+  "capitan meza",
+  "santa rita",
+  "minga guazu",
+  "curuguaty",
+  "salto del guaira",
+  "san ignacio",
+  "misiones",
+  "caazapa",
+  "caaguazu",
+  "cordillera",
+  "alto parana",
+  "neembucu",
+  "ñeembucu",
+  "guaira",
+  "canindeyu",
+  "concepcion",
+];
 
 const state = {
   promotions: [],
@@ -443,9 +499,14 @@ function sectionPromotions(promos) {
   const todaySpecific = [];
   const everydayDiscounts = [];
   const everydayInstallments = [];
+  const otherCities = [];
   const selectedDay = state.activeDay === "hoy" ? getTodayInParaguay() : state.activeDay;
 
   promos.forEach((promo) => {
+    if (isOtherCitiesOnly(promo)) {
+      otherCities.push(promo);
+      return;
+    }
     const everyDay = isEveryDayPromotion(promo);
     if (everyDay && isInstallmentsOnly(promo)) {
       everydayInstallments.push(promo);
@@ -467,9 +528,27 @@ function sectionPromotions(promos) {
     [state.activeDay === "hoy" ? getTodayLabel() : capitalize(selectedDay), todaySpecific, "featured"],
     ["Todos los dias", everydayDiscounts],
     ["Cuotas sin intereses todos los dias", everydayInstallments],
+    ["Otras ciudades", otherCities],
   ];
 
   return sections.filter((section, index) => index === 0 || section[1].length);
+}
+
+function isOtherCitiesOnly(promo) {
+  const primaryText = normalizeDayName([
+    promo.merchant_name,
+    promo.merchant_locations_or_group,
+  ].join(" "));
+  if (primaryText) {
+    if (METRO_AREA_TERMS.some((term) => primaryText.includes(normalizeDayName(term)))) return false;
+    if (OTHER_CITY_TERMS.some((term) => primaryText.includes(normalizeDayName(term)))) return true;
+  }
+
+  const detailText = normalizeDayName(promo.raw_detail || "");
+  const hasLocationList = /sucursales|locales adherid|estaciones adherid|agencias adherid/.test(detailText);
+  if (!hasLocationList) return false;
+  if (METRO_AREA_TERMS.some((term) => detailText.includes(normalizeDayName(term)))) return false;
+  return OTHER_CITY_TERMS.some((term) => detailText.includes(normalizeDayName(term)));
 }
 
 function isExclusiveToDay(promo, day) {

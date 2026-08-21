@@ -189,6 +189,7 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
     day_text = first(row, "Día de promoción", "Dia de promoción", "Día", "Dia")
     validity = first(row, "Vigencia", "Hasta", "Desde")
     merchants = first(row, "Locales / comercios detectados", "Locales / comercios incluidos", "Locales")
+    location = first(row, "Localidad", "Ciudad", "Departamento", "Ubicación", "Ubicacion")
     caps = first(row, "Montos / topes", "Tope detectado", "Montos", "Topes")
     levels = first(row, "Descuentos por nivel", "Beneficio por niveles")
     source_url = first(row, "URL detalle", "URL", "Bases / PDF URL", "Fuente API", "Bases y condiciones URL")
@@ -198,7 +199,7 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "bank": bank,
         "category": category_override or category,
         "merchant_name": merchant_override or merchant or merchants or category,
-        "merchant_locations_or_group": group_override if group_override is not None else merchants,
+        "merchant_locations_or_group": group_override if group_override is not None else merchants or location,
         "benefit_summary": benefit,
         "benefit_type": detect_benefit_type(" ".join([benefit, levels, detail])),
         "percentages": detect_percentages(" ".join([benefit, levels, detail])),
