@@ -375,6 +375,125 @@ function getCardValidity(promo) {
   return "Ver detalle";
 }
 
+function isActivePromotion(promo) {
+  const endDate = getPromotionEndDate(promo);
+  if (!endDate) return true;
+  return endDate >= getTodayDateOnly();
+}
+
+function shouldShowPromotion(promo) {
+  return isActivePromotion(promo) && isDisplayablePromotion(promo);
+}
+
+function isDisplayablePromotion(promo) {
+  const text = normalizeDayName([
+    promo.merchant_name,
+    promo.benefit_summary,
+    promo.benefit_type,
+    promo.category,
+    promo.merchant_locations_or_group,
+    promo.caps_and_minimums,
+    promo.level_rules,
+    promo.raw_detail,
+    promo.source_url,
+  ].join(" "));
+
+  if (text.includes("tyc-beneficios-ueno") || text.includes("programa de beneficios ueno+")) {
+    return false;
+  }
+
+  const hasDiscountBenefit =
+    /\d{1,3}\s*%/.test(text) ||
+    text.includes("reintegro") ||
+    text.includes("descuento") ||
+    text.includes("cuotas sin interes") ||
+    text.includes("cuotas sin intereses");
+  const isOnlyPointsAction =
+    text.includes("upys") &&
+    !text.includes("reintegro") &&
+    !text.includes("descuento") &&
+    !text.includes("cuotas sin interes") &&
+    !text.includes("cuotas sin intereses");
+
+  return hasDiscountBenefit && !isOnlyPointsAction;
+}
+
+function getPromotionEndDate(promo) {
+  const text = cleanSentence([
+    promo.validity,
+    promo.caps_and_minimums,
+    promo.raw_detail,
+  ].join(" "));
+  const dates = extractEndDates(text);
+  if (!dates.length) return null;
+  return new Date(Math.max(...dates.map((date) => date.getTime())));
+}
+
+function extractEndDates(text) {
+  const normalized = String(text || "");
+  const patterns = [
+    /\b(?:hasta|al)\s+el\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de|del)\s+[0-9]{4})/gi,
+    /\b(?:hasta|al)\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de|del)\s+[0-9]{4})/gi,
+    /\b(?:hasta|al)\s+el\s+([0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4})/gi,
+    /\b(?:hasta|al)\s+([0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4})/gi,
+    /\b(?:hasta|al)\s+([0-9]{4}-[0-9]{2}-[0-9]{2})/gi,
+    /\b[0-9]{4}-[0-9]{2}-[0-9]{2}\s+hasta\s+([0-9]{4}-[0-9]{2}-[0-9]{2})/gi,
+  ];
+  const dates = [];
+  patterns.forEach((pattern) => {
+    for (const match of normalized.matchAll(pattern)) {
+      const parsed = parseDateText(match[1]);
+      if (parsed) dates.push(parsed);
+    }
+  });
+  return dates;
+}
+
+function parseDateText(value) {
+  const text = normalizeDayName(value).replace(/\bdel\b/g, "de");
+  const iso = text.match(/^([0-9]{4})-([0-9]{2})-([0-9]{2})$/);
+  if (iso) return new Date(Number(iso[1]), Number(iso[2]) - 1, Number(iso[3]), 23, 59, 59);
+
+  const slash = text.match(/^([0-9]{1,2})\/([0-9]{1,2})\/([0-9]{4})$/);
+  if (slash) return new Date(Number(slash[3]), Number(slash[2]) - 1, Number(slash[1]), 23, 59, 59);
+
+  const monthNames = {
+    enero: 0,
+    febrero: 1,
+    marzo: 2,
+    abril: 3,
+    mayo: 4,
+    junio: 5,
+    julio: 6,
+    agosto: 7,
+    septiembre: 8,
+    setiembre: 8,
+    octubre: 9,
+    noviembre: 10,
+    diciembre: 11,
+  };
+  const words = text.match(/^([0-9]{1,2})\s+de\s+([a-zñ]+)\s+de\s+([0-9]{4})$/);
+  if (!words || !(words[2] in monthNames)) return null;
+  return new Date(Number(words[3]), monthNames[words[2]], Number(words[1]), 23, 59, 59);
+}
+
+function getTodayDateOnly() {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Asuncion",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+  return new Date(
+    Number(parts.find((part) => part.type === "year")?.value),
+    Number(parts.find((part) => part.type === "month")?.value) - 1,
+    Number(parts.find((part) => part.type === "day")?.value),
+    0,
+    0,
+    0
+  );
+}
+
 function cleanSentence(value) {
   return String(value || "")
     .replace(/[•●]/g, "")
@@ -1014,6 +1133,7 @@ function getNearbyPlaces() {
 
 function getPromotionsForPlace(place) {
   return state.promotions.filter((promo) => {
+    if (!shouldShowPromotion(promo)) return false;
     const text = normalizeDayName([
       promo.merchant_name,
       promo.category,
@@ -1267,7 +1387,7 @@ async function loadPromotions() {
   els.results.innerHTML = renderSkeletons();
   const response = await fetch(`${DATA_URL}?t=${Date.now()}`);
   if (!response.ok) throw new Error("No se pudo cargar promotions.json");
-  state.promotions = await response.json();
+  state.promotions = (await response.json()).filter(shouldShowPromotion);
   render();
 }
 
