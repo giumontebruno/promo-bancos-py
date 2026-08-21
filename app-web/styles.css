@@ -604,22 +604,22 @@ input[type="search"]::placeholder {
 .benefit-lines span {
   background: color-mix(in srgb, var(--bank-main) 18%, #09192e);
   border: 1px solid color-mix(in srgb, var(--bank-main) 34%, rgba(247, 241, 227, 0.12));
-  border-radius: 10px;
+  border-radius: 9px;
   color: color-mix(in srgb, var(--bank-main) 65%, #ffffff);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 950;
   line-height: 1.15;
-  padding: 4px 7px;
+  padding: 3px 6px;
 }
 
 .primary-benefit {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .primary-benefit span {
-  border-radius: 11px;
-  font-size: 13px;
-  padding: 5px 8px;
+  border-radius: 9px;
+  font-size: 11px;
+  padding: 3px 6px;
 }
 
 .savings-line {

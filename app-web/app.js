@@ -583,27 +583,65 @@ function getBenefitLines(promo, variant = null) {
     .map((part) => cleanBenefitLine(part))
     .filter(Boolean);
 
-  const parts = rawParts.length ? rawParts : [cleanBenefitLine(normalized)];
+  const compactParts = extractCompactBenefitLines(normalized);
+  const parts = compactParts.length ? compactParts : rawParts.length ? rawParts : [cleanBenefitLine(normalized)];
   return [...new Set(parts)].slice(0, 1);
+}
+
+function extractCompactBenefitLines(value) {
+  const text = String(value || "");
+  const lower = text.toLowerCase();
+  if (lower.includes("cuotas sin intereses") && lower.includes("aplica a todos los niveles")) {
+    return ["Cuotas sin intereses"];
+  }
+
+  const benefits = [];
+  for (const match of text.matchAll(/(\d{1,3})\s*%[^|;,.]*/g)) {
+    const segment = match[0].toLowerCase();
+    if (segment.includes("tope") || segment.includes("mínim") || segment.includes("minim")) continue;
+    if (segment.includes("reintegro")) benefits.push(`${match[1]}% reintegro`);
+    else if (segment.includes("descuento")) benefits.push(`${match[1]}% descuento`);
+    else benefits.push(`${match[1]}% ${promoBenefitWord(value)}`);
+  }
+
+  const quota = text.match(/(\d+)\s+cuotas?/i);
+  if (!benefits.length && quota) benefits.push(`${quota[1]} cuotas`);
+  return benefits;
+}
+
+function promoBenefitWord(value) {
+  const lower = String(value || "").toLowerCase();
+  if (lower.includes("reintegro")) return "reintegro";
+  if (lower.includes("beneficio")) return "beneficio";
+  return "descuento";
 }
 
 function cleanBenefitLine(value) {
   let line = String(value || "").replace(/\s+/g, " ").trim();
   if (!line) return "";
-  if (line.toLowerCase().includes("cuotas sin intereses") && line.toLowerCase().includes("aplica a todos los niveles")) {
+  const lowerLine = line.toLowerCase();
+  if (
+    lowerLine.includes("tope") ||
+    lowerLine.includes("monto mínimo") ||
+    lowerLine.includes("monto minimo") ||
+    lowerLine.includes("compra mensual") ||
+    line.length > 42
+  ) {
+    return "";
+  }
+  if (lowerLine.includes("cuotas sin intereses") && lowerLine.includes("aplica a todos los niveles")) {
     return "Cuotas sin intereses";
   }
-  if (line.toLowerCase() === "cuotas_sin_intereses") return "Cuotas sin intereses";
+  if (lowerLine === "cuotas_sin_intereses") return "Cuotas sin intereses";
 
   const quota = line.match(/(\d+)\s+cuotas?/i);
   if (quota) return `${quota[1]} cuotas`;
 
   const pct = line.match(/(\d{1,3}\s*%)/);
   if (pct) {
-    const lower = line.toLowerCase();
-    if (lower.includes("reintegro")) return `${pct[1].replace(/\s+/g, "")} reintegro`;
-    if (lower.includes("descuento")) return `${pct[1].replace(/\s+/g, "")} descuento`;
-    if (lower.includes("beneficio")) return `${pct[1].replace(/\s+/g, "")} beneficio`;
+    if (lowerLine.includes("reintegro")) return `${pct[1].replace(/\s+/g, "")} reintegro`;
+    if (lowerLine.includes("descuento")) return `${pct[1].replace(/\s+/g, "")} descuento`;
+    if (lowerLine.includes("beneficio")) return `${pct[1].replace(/\s+/g, "")} beneficio`;
     return `${pct[1].replace(/\s+/g, "")} descuento`;
   }
 
