@@ -1,6 +1,6 @@
 const DATA_URL = "../public/promotions.json";
 const DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
-const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF"];
+const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria"];
 const CATEGORY_GROUPS = [
   ["Todas", []],
   ["Supermercados", ["super", "mayorista", "delimarket", "stock", "real", "contimarket"]],
@@ -89,10 +89,13 @@ const bankThemes = {
   "Continental": { main: "#082a63", soft: "#e5edf8", card: "#f4f8fe", logo: "./assets/logos/continental-official.png", logoBg: "#ffffff" },
   "Sudameris": { main: "#ff0000", soft: "#ffe5e5", card: "#fff7f7", logo: "./assets/logos/sudameris.svg", logoBg: "#ff0000" },
   "BNF": { main: "#b08a2e", soft: "#f4eddd", card: "#fbfaf6", logo: "./assets/logos/bnf-official.png", logoBg: "#f3f0e8" },
+  "Atlas": { main: "#a41f35", soft: "#f7e6ea", card: "#fff6f8", logo: "./assets/logos/atlas.svg", logoBg: "#631421" },
+  "Coop. Universitaria": { main: "#196a2a", soft: "#e4f3e8", card: "#f5fbf6", logo: "./assets/logos/universitaria.svg", logoBg: "#196a2a" },
 };
 
 const BANK_LABELS = {
   "ueno bank": "UENO",
+  "Coop. Universitaria": "Universitaria",
 };
 
 const SECTION_LABELS = {

@@ -12,6 +12,8 @@ STEPS = [
     ["scrapers/extract_itau.py"],
     ["scrapers/extract_bnf.py"],
     ["scrapers/extract_continental.py"],
+    ["scrapers/extract_atlas.py"],
+    ["scrapers/extract_universitaria.py"],
     ["scrapers/extract_ueno.py"],
     ["scrapers/extract_ueno_pdf_links.py"],
     ["scrapers/enrich_ueno_from_bases.py"],

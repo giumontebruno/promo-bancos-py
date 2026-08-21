@@ -9,6 +9,8 @@ Base automatizada de promociones bancarias de Paraguay para consumo desde una ap
 - BNF
 - Continental
 - ueno bank
+- Atlas
+- Coop. Universitaria
 
 ## Salidas para la app
 

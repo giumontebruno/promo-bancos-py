@@ -17,6 +17,8 @@ SOURCE_FILES = [
     ("Itaú", OUTPUTS / "itau_beneficios_por_categoria.csv"),
     ("BNF", OUTPUTS / "bnf_beneficios_por_categoria.csv"),
     ("Continental", OUTPUTS / "continental_beneficios_por_categoria.csv"),
+    ("Atlas", OUTPUTS / "atlas_beneficios_por_categoria.csv"),
+    ("Coop. Universitaria", OUTPUTS / "universitaria_beneficios_por_categoria.csv"),
     ("ueno bank", OUTPUTS / "ueno_beneficios_por_categoria.csv"),
 ]
 

@@ -14,6 +14,10 @@
     "0323c816c23ff5a0",
     "db52ff805ffb13b9"
   ],
+  "Bienestar": [
+    "84714bfec7199316",
+    "25ac0630761a2330"
+  ],
   "Cafeterías": [
     "62a72c36923d8942",
     "764e0b7ae92f5e1f",
@@ -99,9 +103,16 @@
     "07955249ec6490ff"
   ],
   "Educación": [
+    "d70ba6f32e9a8624",
     "f6748e7507bca66e",
     "cf87e5bc4660e379",
     "c64b8700b06eb392"
+  ],
+  "Electrodomésticos": [
+    "95a59d20b3f43651",
+    "5cd24e87b3b5b4d1",
+    "5c43b5a4357f9998",
+    "496b7136bd825658"
   ],
   "Electrónica": [
     "5b7bcbdf8ec3640f",
@@ -136,7 +147,9 @@
     "b0b175f08655e125",
     "d646ca28116eaefc",
     "46634d695b95a63e",
-    "b895df99aed412ff"
+    "b895df99aed412ff",
+    "2c4bd1f86974aa41",
+    "87fbae214eee99ad"
   ],
   "Entretenimiento": [
     "0bfb944bafb08908",
@@ -176,6 +189,9 @@
     "c7c35a1e97ea4ef3",
     "f798d3b436c569cb"
   ],
+  "Estaciones De Servicio": [
+    "5ebc364f02c7c6e2"
+  ],
   "Estaciones de Servicio": [
     "02bae3cf228d830e"
   ],
@@ -199,11 +215,22 @@
   "Estudios Jurídicos": [
     "e480857a299403a0"
   ],
+  "Estética": [
+    "c51354cad24e3e65",
+    "e88640079cb72988"
+  ],
   "Eventos": [
     "8b4aa53aeea71af0"
   ],
   "Farmacias": [
     "cc150d8996caad4a",
+    "188f67e5221513ca",
+    "a9514f32a5478b37",
+    "9f7e83cf8ff53c4d",
+    "e84c9e4f8de4226b",
+    "c51a7e011a3b6253",
+    "5adc6fd1838d5d57",
+    "909cc28ebbca23b1",
     "2431d7b694ba470f",
     "fcdc3c1b164fdc31",
     "69e6096277c0ccc6",
@@ -251,6 +278,11 @@
     "113ac7153b0d40f3",
     "4f9ce5cd46af97a9"
   ],
+  "Fast Food": [
+    "27968d3776836181",
+    "490bb70aaff15c4a",
+    "f980aa0be4eda1eb"
+  ],
   "Ferreterías": [
     "b5eb70e6897abd01",
     "408ed0785ca4aa64",
@@ -269,6 +301,9 @@
     "c0941e4a5daeb225"
   ],
   "Gastronomía": [
+    "dad8e8a3e3de5f98",
+    "bbca9c1b1ccde9ac",
+    "ff6803046a6c7441",
     "f7af2a04b44c58d1",
     "eb602f9fd55bfa28",
     "9c98a07b5b07bd58",
@@ -359,10 +394,20 @@
     "5dd6a0de03ac15f9",
     "92c7c2523e185326"
   ],
+  "Generales": [
+    "eac0369ab2c3948b",
+    "e45d6706ec738e16",
+    "24061c3af11c4ecd",
+    "c518393e58fbd72c",
+    "e34f133d048a72fe",
+    "e5e058339b15df8e",
+    "5f25d91d35d7793d"
+  ],
   "Heladerías": [
     "acc0fb84f566d4ac"
   ],
   "Hogar": [
+    "f15cf9854b37b0c4",
     "612938efa3877640",
     "7107bbfd93af0bbb",
     "baa4ff7557657b94",
@@ -437,7 +482,10 @@
     "893e280ece069c8e",
     "c226b763defc2ac9",
     "8dcb1481a6b391d3",
-    "d1f40943987b04a3"
+    "d1f40943987b04a3",
+    "5eeabcaebf3d24af",
+    "3219200abf609c33",
+    "8ba725f729db4a30"
   ],
   "Indumentaria": [
     "b5f14bdcdf7f1fff",
@@ -455,6 +503,27 @@
     "5d33cd2cf5c8ce7d",
     "7aca0a333672af68"
   ],
+  "Inmuebles": [
+    "bb6c2dc136505a62",
+    "e007fa2cca116af3",
+    "0b28f86f577d2495",
+    "50c153d0cdd8af1a"
+  ],
+  "Instituciones Educativas": [
+    "947fceed031cb442",
+    "7adef0465ab7b24d",
+    "97cc0d40e001bec8",
+    "d6295b4fb3e451cf",
+    "d072831fd761091e",
+    "4243d6e40f30dd55",
+    "e90b73120c990eec",
+    "a9fe9c767bb1f9c3",
+    "e646c40aaf23c398",
+    "dff1f9f5c2a94133",
+    "6f6e1f3e5f6b2d89",
+    "849b1cb38f34545c",
+    "9eb86cd4d77f4f91"
+  ],
   "Joyerías": [
     "21e309de0fe38845",
     "c5a499dd58ba807f",
@@ -469,6 +538,10 @@
     "6d145b520cc11b83",
     "7d009b3103e29cf8"
   ],
+  "Laboratorios": [
+    "4c924ca696ab8d1e",
+    "9f4e9f1990ec5d8b"
+  ],
   "Librerías": [
     "aa6903f98fb1118e",
     "f365a7cec2fbd5e9",
@@ -479,7 +552,17 @@
   "Mayoristas": [
     "27b100a3985f856c"
   ],
+  "Mecánica": [
+    "971bbf81ae377194",
+    "586102155dca6c08",
+    "c50748813afd5935",
+    "416b19539c4e2ff1",
+    "0a64b8f4f3e4e702",
+    "eb5f2f5552b15e7e"
+  ],
   "Moda": [
+    "5bdbd310b2b62478",
+    "aefe80febf55cf40",
     "5c9ecaa42c9f540f",
     "d6f116af94e1bcf3",
     "efba88f20d24bbac",
@@ -498,6 +581,9 @@
     "a164ecb8bd917ddf",
     "68610411c398d3fc",
     "82e737114d276925"
+  ],
+  "Muebles": [
+    "e4f5f2e12f77cb6b"
   ],
   "Municipalidades": [
     "d953af66815647b4"
@@ -599,11 +685,22 @@
     "38390130fbd5b2bb",
     "ad4c8159f16eb2a6",
     "3f855b7a16bec41f",
-    "e25e5af97f462fc7"
+    "e25e5af97f462fc7",
+    "8e5536cb37d65145",
+    "d15627c780c43012",
+    "5c48ba90fae7c498",
+    "59a40b5c218cce4f",
+    "2e401dd112aebac7",
+    "e4e4c501c0c8c12d",
+    "9ed9fdd68e338b51"
   ],
   "Seguros": [
     "0939a5e091e41e38",
     "256e1de98d8941cd"
+  ],
+  "Servicios": [
+    "86cf4f8a53d556f0",
+    "52018510cede8419"
   ],
   "Shell": [
     "45150e821c8556d4"
@@ -644,6 +741,8 @@
     "d6c367ffeaac383a"
   ],
   "Supermercados": [
+    "405df50264da77c4",
+    "28100c1f8dcdffbe",
     "a05b63930854650d",
     "a3de2b0855afe847",
     "051836cd3100fde5",
@@ -754,6 +853,15 @@
     "9dedf88b18aee11a",
     "92c229f4f7dc932a",
     "68a6d8ba21799751",
+    "fd18de432a608146",
+    "21d418b9714bd04d",
+    "208de4c3cf830ac5",
+    "3a467cbe0ee900f5",
+    "02c38fab428bea5c",
+    "9561f85ec2a6a795",
+    "9bc8378923423917",
+    "07ccdb612a757c62",
+    "cc02a6c7d9fef503",
     "36c333abaf98351d",
     "7c871f73bfc8fc10",
     "4d002b503294076f",
@@ -811,6 +919,7 @@
     "7185b3e16b670118"
   ],
   "Tecnología": [
+    "e77fe8d93e9865f3",
     "a4f9f338850cd745",
     "aa50c64612e4b6a8",
     "80635aa5c66c9f35",
@@ -1027,6 +1136,8 @@
     "d31c88a4c69e7025",
     "56eed98193370c73",
     "2b905129eac8f5c3",
+    "b17c26f7cc23e263",
+    "1fc9cec4fdd97105",
     "2f8ceef5fa4a0a3d",
     "6495a0e5ae5a04fb",
     "cca1cc9939c6ccf0",
@@ -1150,6 +1261,7 @@
     "1b014853d4f8e2f6"
   ],
   "Varios": [
+    "5e7607b5d2ea0b87",
     "3e80cf49242dc77f",
     "0df1b25b653df1f8",
     "519f5ff5ed53e649",
@@ -1187,6 +1299,9 @@
     "cff3459eab37905a",
     "2d64a7987a4435bc",
     "b8be0bfa667e7dfe"
+  ],
+  "Vehículo": [
+    "3d01eed9be736446"
   ],
   "Vehículos": [
     "d5af13b5ac1f8e0d",
@@ -1269,6 +1384,9 @@
     "cbc5c46ff4fe5931"
   ],
   "Viajes": [
+    "81a39825effe00d9",
+    "04b47072d932b2ef",
+    "22fe69aae80494a1",
     "9906fd2ee665637d",
     "4e201b27a611ced0",
     "8b7c2849ff856866",
@@ -1282,6 +1400,15 @@
     "c4d5cc3015cf7c35",
     "94baa749ea2b36db",
     "3ce4c0e749d94338"
+  ],
+  "Ópticas": [
+    "cf742a67a8f0a269",
+    "9bcdb4df83ebbbc2",
+    "c2993db5824bef80",
+    "64888bf4cbc5f762",
+    "749daf3545089f31",
+    "49f72015769be86e",
+    "932ca3ebacfcf706"
   ],
   "Últimos días": [
     "6861bf9a085e98ae",
