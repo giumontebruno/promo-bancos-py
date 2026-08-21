@@ -1,7 +1,7 @@
 const DATA_URL = "../public/promotions.json";
 const DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
 const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria"];
-const PREMIUM_CATEGORY = "Elite";
+const PREMIUM_CATEGORY = "Club Black";
 const CATEGORY_GROUPS = [
   ["Todas", []],
   ["Supermercados", ["super", "mayorista", "delimarket", "stock", "real", "contimarket"]],
