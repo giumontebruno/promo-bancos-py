@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260821-lean-cards";
+const CACHE_NAME = "payback-py-v20260821-filter-colors";
 const APP_SHELL = [
   "./",
   "./index.html",

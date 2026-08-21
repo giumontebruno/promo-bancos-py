@@ -143,7 +143,7 @@ const CATEGORY_ICONS = {
   Todas: "spark",
   Supermercados: "cart",
   Combustible: "fuel",
-  Farmacias: "plus",
+  Farmacias: "pill",
   Gastronomía: "fork",
   Tiendas: "bag",
   "Hogar y construcción": "home",
@@ -160,6 +160,7 @@ const ICON_PATHS = {
   spark: '<path d="M12 3l1.6 5.1L19 10l-5.4 1.9L12 17l-1.6-5.1L5 10l5.4-1.9L12 3z"/>',
   cart: '<path d="M5 6h2l1.4 8.2h8.3L19 8H8"/><circle cx="10" cy="18" r="1.4"/><circle cx="16" cy="18" r="1.4"/>',
   fuel: '<path d="M6 21V5a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v16"/><path d="M8 9h7"/><path d="M18 7l2 2v7a2 2 0 0 1-4 0v-4"/><path d="M4 21h15"/>',
+  pill: '<path d="M10.5 20.5a5 5 0 0 1-7-7l7-7a5 5 0 0 1 7 7l-7 7z"/><path d="M8 9l7 7"/>',
   plus: '<path d="M12 5v14M5 12h14"/>',
   fork: '<path d="M7 4v8M10 4v8M7 8h3M9 12v8"/><path d="M16 4v16"/><path d="M16 4c2 1.5 3 3.5 3 6"/>',
   bag: '<path d="M6 9h12l-1 11H7L6 9z"/><path d="M9 9a3 3 0 0 1 6 0"/>',
@@ -967,7 +968,7 @@ function isExclusiveToDay(promo, day) {
 
 function renderTabs() {
   els.bankTabs.innerHTML = BANKS.map((bank) => (
-    `<button class="${state.activeBank === bank ? "active" : ""}" data-bank="${bank}" style="--tab-color:${getBankTheme(bank).main}">${escapeHtml(getBankLabel(bank))}</button>`
+    `<button class="${state.activeBank === bank ? "active" : ""}" data-bank="${bank}" style="${getBankTabStyle(bank)}">${escapeHtml(getBankLabel(bank))}</button>`
   )).join("");
 
   const categories = getCategories();
@@ -984,6 +985,12 @@ function renderTabs() {
   els.uenoLevelPanel.innerHTML = `<span class="label">Nivel ueno</span>` + [1, 2, 3, 4, 5].map((level) => (
     `<button class="${state.uenoLevel === level ? "active" : ""}" data-level="${level}">Nivel ${level}</button>`
   )).join("");
+}
+
+function getBankTabStyle(bank) {
+  if (bank === "Todos") return "--tab-color:#f7f1e3;--tab-fill:#f7f1e3;--tab-text:#071124;";
+  const theme = getBankTheme(bank);
+  return `--tab-color:${theme.main};--tab-fill:${theme.main};--tab-text:#ffffff;`;
 }
 
 function renderIcon(name) {

@@ -192,7 +192,7 @@ input[type="search"]::placeholder {
 }
 
 .day-tabs {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
 .level-panel {
@@ -238,9 +238,11 @@ input[type="search"]::placeholder {
 }
 
 .bank-tabs button {
+  background: color-mix(in srgb, var(--tab-fill, #07152a) 86%, #07152a);
   border-radius: 14px;
   border-color: color-mix(in srgb, var(--tab-color, #8cb3c7) 72%, rgba(140, 179, 199, 0.16));
   box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--tab-color, #8cb3c7) 25%, transparent);
+  color: var(--tab-text, #e9dfce);
 }
 
 .category-tabs {
@@ -254,6 +256,13 @@ input[type="search"]::placeholder {
   border-color: var(--brand-cream);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.28);
   color: var(--brand-navy-deep);
+}
+
+.bank-tabs button.active {
+  background: color-mix(in srgb, var(--tab-fill, #f7f1e3) 92%, #ffffff);
+  border-color: color-mix(in srgb, var(--tab-color, #f7f1e3) 82%, #ffffff);
+  color: var(--tab-text, #071124);
+  transform: translateY(-1px);
 }
 
 .tabs button.premium-filter {
@@ -271,6 +280,13 @@ input[type="search"]::placeholder {
   background: linear-gradient(135deg, #f8fafc, #a8b0bd);
   border-color: #f8fafc;
   color: #05070c;
+}
+
+.day-tabs button {
+  border-radius: 14px;
+  font-size: 12px;
+  min-height: 32px;
+  padding: 7px 6px;
 }
 
 .level-panel {
