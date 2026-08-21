@@ -107,6 +107,38 @@ const SECTION_SUBTITLES = {
   "Otras ciudades": "Promos fuera de Asunción y Gran Asunción.",
 };
 
+const CATEGORY_ICONS = {
+  Todas: "spark",
+  Supermercados: "cart",
+  Combustible: "fuel",
+  Farmacias: "plus",
+  Gastronomía: "fork",
+  Tiendas: "bag",
+  "Hogar y construcción": "home",
+  Tecnología: "device",
+  Entretenimiento: "ticket",
+  Viajes: "plane",
+  "Salud y belleza": "heart",
+  Servicios: "briefcase",
+  Especiales: "star",
+};
+
+const ICON_PATHS = {
+  spark: '<path d="M12 3l1.6 5.1L19 10l-5.4 1.9L12 17l-1.6-5.1L5 10l5.4-1.9L12 3z"/>',
+  cart: '<path d="M5 6h2l1.4 8.2h8.3L19 8H8"/><circle cx="10" cy="18" r="1.4"/><circle cx="16" cy="18" r="1.4"/>',
+  fuel: '<path d="M7 20V5h8v15"/><path d="M9 8h4"/><path d="M15 9l3 3v5a2 2 0 0 0 2 2"/><path d="M18 12l1-1"/>',
+  plus: '<path d="M12 5v14M5 12h14"/>',
+  fork: '<path d="M7 4v8M10 4v8M7 8h3M9 12v8"/><path d="M16 4v16"/><path d="M16 4c2 1.5 3 3.5 3 6"/>',
+  bag: '<path d="M6 9h12l-1 11H7L6 9z"/><path d="M9 9a3 3 0 0 1 6 0"/>',
+  home: '<path d="M4 11l8-7 8 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-6h4v6"/>',
+  device: '<rect x="7" y="4" width="10" height="16" rx="2"/><path d="M11 17h2"/>',
+  ticket: '<path d="M5 8h14v3a2 2 0 0 0 0 4v3H5v-3a2 2 0 0 0 0-4V8z"/><path d="M12 9v2M12 13v2M12 17v1"/>',
+  plane: '<path d="M3 11l18-7-7 18-3-8-8-3z"/><path d="M11 14l4-4"/>',
+  heart: '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+  briefcase: '<path d="M7 8V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/><rect x="4" y="8" width="16" height="11" rx="2"/><path d="M4 13h16"/>',
+  star: '<path d="M12 4l2.4 5 5.6.8-4 3.9.9 5.5-4.9-2.6-4.9 2.6.9-5.5-4-3.9 5.6-.8L12 4z"/>',
+};
+
 const els = {
   bankTabs: document.querySelector("#bankTabs"),
   dayTabs: document.querySelector("#dayTabs"),
@@ -654,7 +686,7 @@ function renderTabs() {
 
   const categories = getCategories();
   els.categoryTabs.innerHTML = categories.map((category) => (
-    `<button class="${state.activeCategory === category ? "active" : ""}" data-category="${escapeAttribute(category)}">${escapeHtml(category)}</button>`
+    `<button class="${state.activeCategory === category ? "active" : ""}" data-category="${escapeAttribute(category)}">${renderIcon(CATEGORY_ICONS[category] || "star")}${escapeHtml(category)}</button>`
   )).join("");
 
   const days = [["hoy", "Hoy"], ...DAYS.map((day) => [day, capitalize(day)])];
@@ -666,6 +698,10 @@ function renderTabs() {
   els.uenoLevelPanel.innerHTML = `<span class="label">Nivel ueno</span>` + [1, 2, 3, 4, 5].map((level) => (
     `<button class="${state.uenoLevel === level ? "active" : ""}" data-level="${level}">Nivel ${level}</button>`
   )).join("");
+}
+
+function renderIcon(name) {
+  return `<svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true">${ICON_PATHS[name] || ICON_PATHS.star}</svg>`;
 }
 
 function render() {
