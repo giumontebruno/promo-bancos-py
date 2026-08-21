@@ -409,6 +409,23 @@ input[type="search"]::placeholder {
   width: 58px;
 }
 
+.logo-box img.bank-logo-atlas,
+.logo-box img.bank-logo-coop-universitaria {
+  border-radius: 14px;
+  height: 52px;
+  max-width: 92px;
+  padding: 8px;
+  width: 92px;
+}
+
+.logo-box img.bank-logo-atlas {
+  padding: 7px;
+}
+
+.logo-box img.bank-logo-coop-universitaria {
+  padding: 9px 7px;
+}
+
 .promo-content {
   padding: 14px 14px 13px;
 }

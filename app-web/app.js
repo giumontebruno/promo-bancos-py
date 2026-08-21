@@ -89,8 +89,8 @@ const bankThemes = {
   "Continental": { main: "#082a63", soft: "#e5edf8", card: "#f4f8fe", logo: "./assets/logos/continental-official.png", logoBg: "#e7ebf0" },
   "Sudameris": { main: "#ff0000", soft: "#ffe5e5", card: "#fff7f7", logo: "./assets/logos/sudameris.svg", logoBg: "#ff0000" },
   "BNF": { main: "#b08a2e", soft: "#f4eddd", card: "#fbfaf6", logo: "./assets/logos/bnf-official.png", logoBg: "#d9d1bf" },
-  "Atlas": { main: "#a41f35", soft: "#f7e6ea", card: "#fff6f8", logo: "./assets/logos/atlas.svg", logoBg: "#631421" },
-  "Coop. Universitaria": { main: "#196a2a", soft: "#e4f3e8", card: "#f5fbf6", logo: "./assets/logos/universitaria.svg", logoBg: "#196a2a" },
+  "Atlas": { main: "#a41f35", soft: "#f7e6ea", card: "#fff6f8", logo: "./assets/logos/atlas-official.svg", logoBg: "#631421" },
+  "Coop. Universitaria": { main: "#196a2a", soft: "#e4f3e8", card: "#f5fbf6", logo: "./assets/logos/universitaria-official.png", logoBg: "#f4f7f2" },
 };
 
 const BANK_LABELS = {
@@ -786,13 +786,14 @@ function renderCard(promo, variant = null) {
   const categoryGroup = getPromoCategoryGroup(promo);
   const isPowerPromo = isUenoPowerPromo(promo);
   const isPremium = variant?.kind === "premium";
+  const logoClass = `bank-logo-${normalizeDayName(promo.bank).replace(/[^a-z0-9]+/g, "-")}`;
   const premiumBadge = isPremium ? `<span class="premium-badge">${escapeHtml(variant.label)}</span>` : "";
   const powerBadge = isPowerPromo
     ? `<span class="power-badge" title="Promo ueno+ POWER"><img src="${escapeAttribute(bankThemes["ueno bank"].logo)}" alt="" />ueno+ POWER</span>`
     : "";
   return `
     <article class="promo-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""}" data-id="${promo.id}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
-      <div class="logo-box">${theme.logo ? `<img src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(getBankLabel(promo.bank))}" />` : ""}</div>
+      <div class="logo-box">${theme.logo ? `<img class="${escapeAttribute(logoClass)}" src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(getBankLabel(promo.bank))}" />` : ""}</div>
       <div class="promo-content">
         <div class="promo-card-head">
           <h3 class="store-name">${renderCategoryIcon(categoryGroup)}<span>${escapeHtml(getPromoTitle(promo))}</span></h3>
