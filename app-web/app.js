@@ -91,6 +91,22 @@ const bankThemes = {
   "BNF": { main: "#b08a2e", soft: "#f4eddd", card: "#fbfaf6", logo: "./assets/logos/bnf-official.png", logoBg: "#f3f0e8" },
 };
 
+const BANK_LABELS = {
+  "ueno bank": "UENO",
+};
+
+const SECTION_LABELS = {
+  "Todos los dias": "Siempre activas",
+  "Cuotas sin intereses todos los dias": "Financiación",
+  "Otras ciudades": "Explorar interior",
+};
+
+const SECTION_SUBTITLES = {
+  "Todos los dias": "Beneficios que podés usar cualquier día.",
+  "Cuotas sin intereses todos los dias": "Opciones para pagar en cuotas sin interés.",
+  "Otras ciudades": "Promos fuera de Asunción y Gran Asunción.",
+};
+
 const els = {
   bankTabs: document.querySelector("#bankTabs"),
   dayTabs: document.querySelector("#dayTabs"),
@@ -316,6 +332,10 @@ function getBankTheme(bank) {
   return bankThemes[bank] || { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "", logoBg: "#ffffff" };
 }
 
+function getBankLabel(bank) {
+  return BANK_LABELS[bank] || bank || "Banco";
+}
+
 function isUenoPowerPromo(promo) {
   if (promo.bank !== "ueno bank") return false;
   if (Array.isArray(promo.special_flags) && promo.special_flags.includes("ueno_power")) return true;
@@ -329,7 +349,8 @@ function isUenoPowerPromo(promo) {
   return /ueno\s*\+\s*power|desbloquea\s+ueno|saldo promedio requerido/.test(text);
 }
 
-function getMainBenefit(promo) {
+function getMainBenefit(promo, variant = null) {
+  if (variant?.benefit) return variant.benefit;
   if (isUenoPowerPromo(promo)) {
     return "10% reintegro base; hasta 40% adicional ueno+ POWER";
   }
@@ -341,8 +362,8 @@ function getMainBenefit(promo) {
   return [pct, promo.benefit_type].filter(Boolean).join(" ") || promo.benefit_summary || "Ver detalle";
 }
 
-function getBenefitLines(promo) {
-  const text = String(getMainBenefit(promo) || promo.benefit_summary || "Ver detalle");
+function getBenefitLines(promo, variant = null) {
+  const text = String(getMainBenefit(promo, variant) || promo.benefit_summary || "Ver detalle");
 
   const normalized = text
     .replace(/hasta\s+(\d+)\s+cuotas?\s+sin\s+inter[eé]s(?:es)?/gi, "$1 cuotas")
@@ -394,6 +415,57 @@ function getBenefitForSelectedUenoLevel(promo, level) {
 
   const percentages = promo.percentages || [];
   return percentages[0] ? `${percentages[0]} ${promo.benefit_type || ""}`.trim() : promo.benefit_summary || "Ver detalle";
+}
+
+function getPromoVariants(promo) {
+  const baseBenefit = getBaseBenefitForPremiumPromo(promo);
+  const basePercent = percentNumber(baseBenefit);
+  const variants = [{ kind: "base", label: "", benefit: baseBenefit }];
+  const text = normalizeDayName(`${promo.benefit_summary || ""} ${promo.level_rules || ""} ${promo.caps_and_minimums || ""} ${promo.raw_detail || ""}`);
+  const premium = [];
+  const privilegePct = percentNear(text, ["privilege", "privilegio"]);
+  if (privilegePct && percentNumber(privilegePct) > basePercent) {
+    premium.push({ kind: "premium", label: "Privilege", benefit: `${privilegePct} reintegro` });
+  }
+
+  const blackPct = percentNear(text, ["black", "infinite", "visa infinite", "amex platinum", "personal bank", "ueno black"]);
+  if (blackPct && blackPct !== privilegePct && percentNumber(blackPct) > basePercent) {
+    const label = promo.bank === "ueno bank" ? "UENO Black" : promo.bank === "Itaú" ? "Black / Infinite" : "Black / Infinite";
+    premium.push({ kind: "premium", label, benefit: `${blackPct} reintegro` });
+  }
+
+  const uniquePremium = premium.filter((item, index, list) => (
+    list.findIndex((other) => other.label === item.label && other.benefit === item.benefit) === index
+  ));
+  return uniquePremium.length ? [...variants, ...uniquePremium] : [null];
+}
+
+function percentNumber(value) {
+  const match = String(value || "").match(/(\d{1,3})\s*%/);
+  return match ? Number(match[1]) : 0;
+}
+
+function getBaseBenefitForPremiumPromo(promo) {
+  const text = normalizeDayName(`${promo.benefit_summary || ""} ${promo.raw_detail || ""}`);
+  const baseMatch = text.match(/(?:clasica|clásica|oro|dinelco|todas las tarjetas|tarjetas de credito itau|tarjetas de crédito itau)[^.%]{0,90}(\d{1,3})\s*%|(\d{1,3})\s*%[^.%]{0,90}(?:clasica|clásica|oro|dinelco|todas las tarjetas|tarjetas de credito itau|tarjetas de crédito itau)/i);
+  const basePct = baseMatch?.[1] || baseMatch?.[2];
+  if (basePct) return `${basePct}% ${promo.benefit_type || "reintegro"}`.trim();
+  const percentages = (promo.percentages || []).map((pct) => pct.replace(/\s+/g, ""));
+  if (percentages.length >= 2) return `${percentages.at(-1)} ${promo.benefit_type || "reintegro"}`.trim();
+  return null;
+}
+
+function percentNear(text, needles) {
+  const normalizedNeedles = needles.map(normalizeDayName);
+  const percentages = [];
+  normalizedNeedles.forEach((needle) => {
+    const patternBefore = new RegExp(`(\\d{1,3})\\s*%[^.]{0,130}${needle}`, "gi");
+    const patternAfter = new RegExp(`${needle}[^.]{0,130}(\\d{1,3})\\s*%`, "gi");
+    for (const match of text.matchAll(patternBefore)) percentages.push(Number(match[1]));
+    for (const match of text.matchAll(patternAfter)) percentages.push(Number(match[1]));
+  });
+  if (!percentages.length) return "";
+  return `${Math.max(...percentages)}%`;
 }
 
 function getPromoTitle(promo) {
@@ -577,7 +649,7 @@ function isExclusiveToDay(promo, day) {
 
 function renderTabs() {
   els.bankTabs.innerHTML = BANKS.map((bank) => (
-    `<button class="${state.activeBank === bank ? "active" : ""}" data-bank="${bank}">${bank}</button>`
+    `<button class="${state.activeBank === bank ? "active" : ""}" data-bank="${bank}" style="--tab-color:${getBankTheme(bank).main}">${escapeHtml(getBankLabel(bank))}</button>`
   )).join("");
 
   const categories = getCategories();
@@ -619,10 +691,13 @@ function render() {
     <section class="${mode === "featured" ? "featured-section" : ""} ${isCollapsed ? "collapsed" : ""}" data-section="${escapeAttribute(title)}">
       <button class="section-toggle" type="button" data-section-toggle="${escapeAttribute(title)}" aria-expanded="${String(!isCollapsed)}">
         <span class="chevron" aria-hidden="true"></span>
-        <span class="section-title">${escapeHtml(title)}</span>
+        <span class="section-copy">
+          <span class="section-title">${escapeHtml(SECTION_LABELS[title] || title)}</span>
+          ${SECTION_SUBTITLES[title] ? `<span class="section-subtitle">${escapeHtml(SECTION_SUBTITLES[title])}</span>` : ""}
+        </span>
         <span class="section-count">${items.length}</span>
       </button>
-      ${isCollapsed ? "" : items.length ? `<div class="grid">${items.map(renderCard).join("")}</div>` : `<div class="empty compact">No hay promociones exclusivas para este dia con estos filtros.</div>`}
+      ${isCollapsed ? "" : items.length ? `<div class="grid">${items.flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty compact">No hay promociones exclusivas para este día con estos filtros.</div>`}
     </section>
   `;
   }).join("");
@@ -658,25 +733,27 @@ function sortPromotions(a, b) {
   return String(a.merchant_name || "").localeCompare(String(b.merchant_name || ""), "es");
 }
 
-function renderCard(promo) {
+function renderCard(promo, variant = null) {
   const theme = getBankTheme(promo.bank);
-  const benefitLines = getBenefitLines(promo);
+  const benefitLines = getBenefitLines(promo, variant);
   const isPowerPromo = isUenoPowerPromo(promo);
+  const isPremium = variant?.kind === "premium";
+  const premiumBadge = isPremium ? `<span class="premium-badge">${escapeHtml(variant.label)}</span>` : "";
   const powerBadge = isPowerPromo
     ? `<span class="power-badge" title="Promo ueno+ POWER"><img src="${escapeAttribute(bankThemes["ueno bank"].logo)}" alt="" />ueno+ POWER</span>`
     : "";
   return `
-    <article class="promo-card ${isPowerPromo ? "ueno-power-card" : ""}" data-id="${promo.id}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
-      <div class="logo-box">${theme.logo ? `<img src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(promo.bank || "Banco")}" />` : ""}</div>
+    <article class="promo-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""}" data-id="${promo.id}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
+      <div class="logo-box">${theme.logo ? `<img src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(getBankLabel(promo.bank))}" />` : ""}</div>
       <div class="promo-content">
         <div class="promo-card-head">
           <h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3>
-          ${powerBadge}
+          ${premiumBadge || powerBadge}
         </div>
         <div class="benefit-lines">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
-        <p class="bank-card-line">${escapeHtml(promo.bank || "Banco")} · ${escapeHtml(getPromoCategoryGroup(promo))}</p>
+        <p class="bank-card-line">${escapeHtml(getBankLabel(promo.bank))} · ${escapeHtml(getPromoCategoryGroup(promo))}</p>
         <div class="meta">
-          <div><strong>Dia:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
+          <div><strong>Día:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
           <div><strong>Vigencia:</strong> ${escapeHtml(getDisplayValidity(promo))}</div>
         </div>
       </div>
