@@ -327,7 +327,6 @@ function getMainBenefit(promo) {
 
 function getBenefitLines(promo) {
   const text = String(getMainBenefit(promo) || promo.benefit_summary || "Ver detalle");
-  if (text.toLowerCase().includes("aplica a todos los niveles")) return [text];
 
   const normalized = text
     .replace(/hasta\s+(\d+)\s+cuotas?\s+sin\s+inter[eé]s(?:es)?/gi, "$1 cuotas")
@@ -346,6 +345,9 @@ function getBenefitLines(promo) {
 function cleanBenefitLine(value) {
   let line = String(value || "").replace(/\s+/g, " ").trim();
   if (!line) return "";
+  if (line.toLowerCase().includes("cuotas sin intereses") && line.toLowerCase().includes("aplica a todos los niveles")) {
+    return "Cuotas sin intereses";
+  }
   if (line.toLowerCase() === "cuotas_sin_intereses") return "Cuotas sin intereses";
 
   const quota = line.match(/(\d+)\s+cuotas?/i);
