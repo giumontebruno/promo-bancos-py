@@ -80,6 +80,7 @@ const state = {
   activeDay: "hoy",
   query: "",
   uenoLevel: 5,
+  collapsedSections: new Set(["Todos los dias", "Cuotas sin intereses todos los dias", "Otras ciudades"]),
 };
 
 const bankThemes = {
@@ -594,12 +595,19 @@ function render() {
     return;
   }
 
-  els.results.innerHTML = sectionPromotions(base).map(([title, items, mode]) => `
-    <section class="${mode === "featured" ? "featured-section" : ""}">
-      <h2 class="section-title">${title}</h2>
-      ${items.length ? `<div class="grid">${items.map(renderCard).join("")}</div>` : `<div class="empty compact">No hay promociones exclusivas para este dia con estos filtros.</div>`}
+  els.results.innerHTML = sectionPromotions(base).map(([title, items, mode]) => {
+    const isCollapsed = state.collapsedSections.has(title);
+    return `
+    <section class="${mode === "featured" ? "featured-section" : ""} ${isCollapsed ? "collapsed" : ""}" data-section="${escapeAttribute(title)}">
+      <button class="section-toggle" type="button" data-section-toggle="${escapeAttribute(title)}" aria-expanded="${String(!isCollapsed)}">
+        <span class="chevron" aria-hidden="true"></span>
+        <span class="section-title">${escapeHtml(title)}</span>
+        <span class="section-count">${items.length}</span>
+      </button>
+      ${isCollapsed ? "" : items.length ? `<div class="grid">${items.map(renderCard).join("")}</div>` : `<div class="empty compact">No hay promociones exclusivas para este dia con estos filtros.</div>`}
     </section>
-  `).join("");
+  `;
+  }).join("");
 }
 
 function getCategories() {
@@ -732,6 +740,18 @@ els.searchInput.addEventListener("input", (event) => {
 });
 
 els.results.addEventListener("click", (event) => {
+  const toggle = event.target.closest("[data-section-toggle]");
+  if (toggle) {
+    const title = toggle.dataset.sectionToggle;
+    if (state.collapsedSections.has(title)) {
+      state.collapsedSections.delete(title);
+    } else {
+      state.collapsedSections.add(title);
+    }
+    render();
+    return;
+  }
+
   const card = event.target.closest(".promo-card");
   if (card) openDetail(card.dataset.id);
 });
