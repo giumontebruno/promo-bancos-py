@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260821-ueno-levels";
+const CACHE_NAME = "payback-py-v20260821-payback-decision";
 const APP_SHELL = [
   "./",
   "./index.html",

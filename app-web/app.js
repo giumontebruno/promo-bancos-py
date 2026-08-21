@@ -112,12 +112,22 @@ const SECTION_LABELS = {
   "Todos los dias": "Siempre activas",
   "Cuotas sin intereses todos los dias": "Financiación",
   "Otras ciudades": "Explorar interior",
+  "Mejor opción hoy": "Mejor opción hoy",
+  "Otras opciones": "Otras opciones",
+  "Hoy te conviene": "Hoy te conviene",
+  "Mayor ahorro hoy": "Mayor ahorro hoy",
+  "Cuotas sin intereses": "Cuotas sin intereses",
 };
 
 const SECTION_SUBTITLES = {
   "Todos los dias": "Beneficios que podés usar cualquier día.",
   "Cuotas sin intereses todos los dias": "Opciones para pagar en cuotas sin interés.",
   "Otras ciudades": "Promos fuera de Asunción y Gran Asunción.",
+  "Mejor opción hoy": "La tarjeta que más conviene para esta búsqueda.",
+  "Otras opciones": "Alternativas disponibles para comparar.",
+  "Hoy te conviene": "Beneficios destacados para usar hoy.",
+  "Mayor ahorro hoy": "Ordenado por ahorro máximo estimado.",
+  "Cuotas sin intereses": "Financiación separada de reintegros y descuentos.",
 };
 
 const CATEGORY_ICONS = {
@@ -843,7 +853,7 @@ function render() {
     return;
   }
 
-  els.results.innerHTML = sectionPromotions(base).map(([title, items, mode]) => {
+  els.results.innerHTML = buildResultSections(base).map(([title, items, mode]) => {
     const isCollapsed = state.collapsedSections.has(title);
     return `
     <section class="${mode === "featured" ? "featured-section" : ""} ${isCollapsed ? "collapsed" : ""}" data-section="${escapeAttribute(title)}">
@@ -859,6 +869,47 @@ function render() {
     </section>
   `;
   }).join("");
+}
+
+function buildResultSections(promos) {
+  if (state.query.trim()) return buildSearchSections(promos);
+  if (state.activeView === "today" && state.activeBank === "Todos" && state.activeCategory === "Todas") {
+    return buildHomeSections(promos);
+  }
+  return sectionPromotions(promos);
+}
+
+function buildSearchSections(promos) {
+  const ranked = [...promos].sort(sortByBenefitValue);
+  const best = ranked[0] ? [ranked[0]] : [];
+  return [
+    ["Mejor opción hoy", best, "featured"],
+    ["Otras opciones", ranked.slice(1)],
+  ].filter((section, index) => index === 0 || section[1].length);
+}
+
+function buildHomeSections(promos) {
+  const ranked = [...promos].sort(sortByBenefitValue);
+  const seen = new Set();
+  const takeUnique = (items, count) => {
+    const selected = [];
+    items.forEach((promo) => {
+      if (selected.length >= count || seen.has(promo.id)) return;
+      seen.add(promo.id);
+      selected.push(promo);
+    });
+    return selected;
+  };
+  const todayBest = takeUnique(ranked.filter((promo) => !isInstallmentsOnly(promo)), 5);
+  const maxSavings = takeUnique(ranked.filter((promo) => getEstimatedSavings(promo).refundCap > 0), 8);
+  const installments = takeUnique(ranked.filter(isInstallmentsOnly), 8);
+  const remaining = ranked.filter((promo) => !seen.has(promo.id));
+  return [
+    ["Hoy te conviene", todayBest, "featured"],
+    ["Mayor ahorro hoy", maxSavings],
+    ["Cuotas sin intereses", installments],
+    ["Otras opciones", remaining],
+  ].filter((section) => section[1].length);
 }
 
 function matchesActiveView(promo) {
@@ -968,6 +1019,59 @@ function sortPromotions(a, b) {
   return String(a.merchant_name || "").localeCompare(String(b.merchant_name || ""), "es");
 }
 
+function sortByBenefitValue(a, b) {
+  const aSavings = getEstimatedSavings(a);
+  const bSavings = getEstimatedSavings(b);
+  if (bSavings.refundCap !== aSavings.refundCap) return bSavings.refundCap - aSavings.refundCap;
+  if (bSavings.percent !== aSavings.percent) return bSavings.percent - aSavings.percent;
+  if (Number(isInstallmentsOnly(a)) !== Number(isInstallmentsOnly(b))) {
+    return Number(isInstallmentsOnly(a)) - Number(isInstallmentsOnly(b));
+  }
+  return sortPromotions(a, b);
+}
+
+function getEstimatedSavings(promo, amount = null) {
+  const level = getSelectedUenoLevelDetails(promo, state.uenoLevel);
+  const percent = percentNumber(level?.percent || getMainBenefit(promo) || promo.benefit_summary);
+  const amounts = extractGuaraniAmounts(`${promo.caps_and_minimums || ""} ${promo.raw_detail || ""}`).map(moneyToNumber).filter(Boolean);
+  const purchaseCap = moneyToNumber(level?.purchaseCap) || inferPurchaseCap(promo, amounts);
+  const explicitRefundCap = moneyToNumber(level?.refundCap) || inferRefundCap(promo, amounts, purchaseCap, percent);
+  const spend = amount ? Math.max(0, Number(amount)) : purchaseCap;
+  const calculated = percent && spend ? Math.round(spend * percent / 100) : 0;
+  const refundCap = explicitRefundCap || calculated;
+  const estimated = amount ? (explicitRefundCap ? Math.min(calculated, explicitRefundCap) : calculated) : refundCap;
+  return { percent, purchaseCap, refundCap: estimated || 0, explicitRefundCap };
+}
+
+function inferPurchaseCap(promo, amounts) {
+  const text = normalizeDayName(promo.caps_and_minimums || "");
+  if (!amounts.length) return 0;
+  if (text.includes("tope de reintegro") || text.includes("reintegro maximo")) {
+    return amounts.length >= 2 ? amounts[0] : 0;
+  }
+  return amounts[0] || 0;
+}
+
+function inferRefundCap(promo, amounts, purchaseCap, percent) {
+  const text = normalizeDayName(promo.caps_and_minimums || "");
+  if (text.includes("tope de reintegro") || text.includes("reintegro maximo")) {
+    return amounts.length >= 2 ? amounts[1] : amounts[0] || 0;
+  }
+  if (purchaseCap && percent) return Math.round(purchaseCap * percent / 100);
+  return 0;
+}
+
+function moneyToNumber(value) {
+  const match = String(value || "").match(/([0-9]+(?:\.[0-9]{3})*)/);
+  return match ? Number(match[1].replace(/\./g, "")) : 0;
+}
+
+function formatGuarani(value) {
+  const number = Math.round(Number(value || 0));
+  if (!number) return "";
+  return `Gs. ${number.toLocaleString("es-PY")}`;
+}
+
 function renderCard(promo, variant = null) {
   const theme = getBankTheme(promo.bank);
   const benefitLines = getBenefitLines(promo, variant);
@@ -976,6 +1080,8 @@ function renderCard(promo, variant = null) {
   const isPremium = variant?.kind === "premium";
   const isFavorite = state.favorites.has(promo.id);
   const levelDetails = getSelectedUenoLevelDetails(promo, state.uenoLevel);
+  const savings = getEstimatedSavings(promo);
+  const savingsLabel = savings.refundCap ? `Ahorro max. ${formatGuarani(savings.refundCap)}` : "";
   const logoClass = `bank-logo-${normalizeDayName(promo.bank).replace(/[^a-z0-9]+/g, "-")}`;
   const premiumBadge = isPremium ? `<span class="premium-badge">${escapeHtml(variant.label)}</span>` : "";
   const powerBadge = isPowerPromo
@@ -986,13 +1092,16 @@ function renderCard(promo, variant = null) {
       <div class="logo-box">${theme.logo ? `<img class="${escapeAttribute(logoClass)}" src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(getBankLabel(promo.bank))}" />` : ""}</div>
       <div class="promo-content">
         <div class="promo-card-head">
-          <h3 class="store-name">${renderCategoryIcon(categoryGroup)}<span>${escapeHtml(getPromoTitle(promo))}</span></h3>
+          <div>
+            <div class="benefit-lines primary-benefit">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
+            <h3 class="store-name">${renderCategoryIcon(categoryGroup)}<span>${escapeHtml(getPromoTitle(promo))}</span></h3>
+          </div>
           <div class="card-actions">
             ${premiumBadge || powerBadge}
             <button class="favorite-toggle ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}" title="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-label="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}">${isFavorite ? "♥" : "♡"}</button>
           </div>
         </div>
-        <div class="benefit-lines">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
+        ${savingsLabel ? `<div class="savings-line">${escapeHtml(savingsLabel)}</div>` : ""}
         ${levelDetails ? renderUenoLevelCaps(levelDetails) : ""}
         <p class="bank-card-line">${escapeHtml(getBankLabel(promo.bank))} · ${escapeHtml(categoryGroup)}</p>
         <div class="meta">
@@ -1009,10 +1118,18 @@ function openDetail(id) {
   if (!promo) return;
   const isFavorite = state.favorites.has(promo.id);
   const levelDetails = getSelectedUenoLevelDetails(promo, state.uenoLevel);
+  const savings = getEstimatedSavings(promo);
   els.dialogContent.innerHTML = `
     <h2>${escapeHtml(getPromoTitle(promo))}</h2>
     <p class="benefit">${escapeHtml(getMainBenefit(promo))}</p>
+    ${savings.refundCap ? `<div class="detail-saving"><span>Ahorro máximo estimado</span><strong>${escapeHtml(formatGuarani(savings.refundCap))}</strong></div>` : ""}
     <button class="detail-favorite ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}">${isFavorite ? "♥ Guardado en favoritos" : "♡ Guardar en favoritos"}</button>
+    <div class="calculator" data-calculator-id="${escapeAttribute(promo.id)}">
+      <label>¿Cuánto vas a gastar?
+        <input type="number" inputmode="numeric" min="0" step="1000" placeholder="Ej: 500000" />
+      </label>
+      <div class="calculator-result">Ingresá un monto para calcular tu ahorro.</div>
+    </div>
     <div class="detail-list">
       ${isUenoPowerPromo(promo) ? `<div class="power-detail"><strong>Promo especial:</strong> ueno+ POWER. Puede requerir desbloqueo o criterios adicionales en la app de ueno.</div>` : ""}
       ${levelDetails ? `<div><strong>Nivel UENO seleccionado:</strong> Nivel ${state.uenoLevel} · ${escapeHtml(levelDetails.percent)}${levelDetails.purchaseCap ? ` · Compra ${escapeHtml(levelDetails.purchaseCap)}` : ""}${levelDetails.refundCap ? ` · Reintegro ${escapeHtml(levelDetails.refundCap)}` : ""}</div>` : ""}
@@ -1024,6 +1141,7 @@ function openDetail(id) {
       <div><strong>Topes y mínimos:</strong> ${escapeHtml(promo.caps_and_minimums || "No especificado")}</div>
       <div><strong>Reglas por nivel:</strong> ${escapeHtml(promo.level_rules || "No aplica")}</div>
       <div><strong>Condiciones:</strong> ${escapeHtml(cleanSentence(promo.raw_detail || promo.validity || "Ver bases y condiciones"))}</div>
+      <div><strong>Fuente:</strong> ${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente</div>
       <div><a href="${escapeAttribute(promo.source_url || "#")}" target="_blank" rel="noreferrer">Ver bases y condiciones</a></div>
     </div>
   `;
@@ -1032,10 +1150,20 @@ function openDetail(id) {
 
 async function loadPromotions() {
   els.statusText.textContent = "Actualizando promociones...";
+  els.results.innerHTML = renderSkeletons();
   const response = await fetch(`${DATA_URL}?t=${Date.now()}`);
   if (!response.ok) throw new Error("No se pudo cargar promotions.json");
   state.promotions = await response.json();
   render();
+}
+
+function renderSkeletons() {
+  return `<div class="skeleton-list">${[1, 2, 3].map(() => `
+    <article class="skeleton-card">
+      <span></span>
+      <div><i></i><i></i><i></i></div>
+    </article>
+  `).join("")}</div>`;
 }
 
 function capitalize(value) {
@@ -1137,6 +1265,25 @@ els.dialogContent.addEventListener("click", (event) => {
   if (!favoriteButton) return;
   toggleFavorite(favoriteButton.dataset.favoriteId);
   els.dialog.close();
+});
+
+els.dialogContent.addEventListener("input", (event) => {
+  const input = event.target.closest(".calculator input");
+  if (!input) return;
+  const wrapper = input.closest("[data-calculator-id]");
+  const promo = state.promotions.find((item) => item.id === wrapper?.dataset?.calculatorId);
+  const output = wrapper?.querySelector(".calculator-result");
+  if (!promo || !output) return;
+  const amount = Number(input.value || 0);
+  if (!amount) {
+    output.textContent = "Ingresá un monto para calcular tu ahorro.";
+    return;
+  }
+  const savings = getEstimatedSavings(promo, amount);
+  const capText = savings.explicitRefundCap && Math.round(amount * savings.percent / 100) > savings.explicitRefundCap
+    ? " porque alcanzaste el tope."
+    : ".";
+  output.innerHTML = `Recibís <strong>${escapeHtml(formatGuarani(savings.refundCap))}</strong>${capText}`;
 });
 
 els.bottomNav.addEventListener("click", (event) => {
