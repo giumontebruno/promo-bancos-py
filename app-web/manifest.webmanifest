@@ -1,0 +1,19 @@
+{
+  "name": "Payback PY",
+  "short_name": "Payback PY",
+  "description": "Promociones bancarias de Paraguay en una sola app.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#020814",
+  "theme_color": "#061326",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./assets/logos/payback-py.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

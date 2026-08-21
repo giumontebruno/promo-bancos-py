@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#061326" />
     <title>Payback PY</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./assets/logos/payback-py.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="./styles.css?v=20260821-club-black" />
   </head>
   <body>
@@ -56,6 +59,11 @@
       </article>
     </dialog>
 
-    <script src="./app.js?v=20260821-club-black"></script>
+    <script src="./app.js?v=20260821-go-live"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js");
+      }
+    </script>
   </body>
 </html>
