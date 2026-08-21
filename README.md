@@ -1,4 +1,4 @@
-# Promo Bancos PY
+# Payback PY
 
 Base automatizada de promociones bancarias de Paraguay para consumo desde una app Android.
 
