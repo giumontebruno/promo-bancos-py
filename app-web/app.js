@@ -119,6 +119,7 @@ const state = {
   favorites: new Set(loadStoredJson(STORAGE_KEYS.favorites, [])),
   alertPrefs: loadStoredJson(STORAGE_KEYS.alertPrefs, { today: true, favorites: true }),
   collapsedSections: new Set(["Todos los dias", "Cuotas sin intereses todos los dias", "Otras ciudades"]),
+  expandedSections: new Set(),
   lastUpdated: "",
 };
 
@@ -1126,8 +1127,8 @@ function render() {
     return;
   }
 
-  els.results.innerHTML = buildResultSections(base).map(([title, items, mode]) => {
-    const isCollapsed = state.collapsedSections.has(title);
+  els.results.innerHTML = buildResultSections(base).map(([title, items, mode], index) => {
+    const isCollapsed = shouldCollapseSection(title, mode, index);
     return `
     <section class="${mode === "featured" ? "featured-section" : ""} ${isCollapsed ? "collapsed" : ""}" data-section="${escapeAttribute(title)}">
       <button class="section-toggle" type="button" data-section-toggle="${escapeAttribute(title)}" aria-expanded="${String(!isCollapsed)}">
@@ -1148,9 +1149,18 @@ function renderSectionCards(items, mode = "") {
   const premiumOnly = mode === "premium" || state.activeCategory === PREMIUM_CATEGORY;
   return items.flatMap((promo) => {
     const variants = getPromoVariants(promo);
-    const visibleVariants = premiumOnly ? variants.filter((variant) => variant?.kind === "premium") : variants;
+    const visibleVariants = premiumOnly
+      ? variants.filter((variant) => variant?.kind === "premium")
+      : variants.filter((variant) => variant?.kind !== "premium");
     return (visibleVariants.length ? visibleVariants : variants).map((variant) => renderCard(promo, variant));
   }).join("");
+}
+
+function shouldCollapseSection(title, mode, index) {
+  if (state.expandedSections.has(title)) return false;
+  if (state.collapsedSections.has(title)) return true;
+  if (mode === "featured" || index === 0) return false;
+  return true;
 }
 
 function buildResultSections(promos) {
@@ -1165,6 +1175,7 @@ function buildSearchSections(promos) {
   const today = promos
     .filter((promo) => !isEveryDayPromotion(promo) && appliesToSelectedDay(promo, "hoy"))
     .sort(sortByDayDisplayPriority);
+  const premium = [...promos].filter(hasPremiumVariant).sort(sortPremiumPromotions);
   const seen = new Set(today.map((promo) => promo.id));
   const daySections = DAYS.map((day) => [
     capitalize(day),
@@ -1188,6 +1199,7 @@ function buildSearchSections(promos) {
 
   return [
     ["Disponible hoy", today, "featured"],
+    ["Club Black", premium, "premium"],
     ...daySections,
     ["Todos los dias", everydayDiscounts],
     ["Cuotas sin intereses todos los dias", everydayInstallments],
@@ -2440,10 +2452,14 @@ els.results.addEventListener("click", (event) => {
   const toggle = event.target.closest("[data-section-toggle]");
   if (toggle) {
     const title = toggle.dataset.sectionToggle;
-    if (state.collapsedSections.has(title)) {
+    const section = toggle.closest("[data-section]");
+    const isCurrentlyCollapsed = section?.classList.contains("collapsed");
+    if (isCurrentlyCollapsed) {
       state.collapsedSections.delete(title);
+      state.expandedSections.add(title);
     } else {
       state.collapsedSections.add(title);
+      state.expandedSections.delete(title);
     }
     render();
     return;
