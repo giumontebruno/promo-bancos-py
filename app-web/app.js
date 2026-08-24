@@ -594,6 +594,12 @@ function getBenefitLines(promo, variant = null) {
   return [...new Set(parts)].slice(0, 1);
 }
 
+function getDisplayBenefit(promo, variant = null) {
+  const lines = getBenefitLines(promo, variant);
+  if (lines.length) return lines.join(" · ");
+  return cleanBenefitLine(getMainBenefit(promo, variant)) || "Ver detalle";
+}
+
 function extractCompactBenefitLines(value) {
   const text = String(value || "");
   const lower = text.toLowerCase();
@@ -624,6 +630,7 @@ function promoBenefitWord(value) {
 
 function cleanBenefitLine(value) {
   let line = String(value || "").replace(/\s+/g, " ").trim();
+  line = line.replace(/^(\d{1,3})\s*%\s*;\s*(?=\1\s*%)/i, "");
   if (!line) return "";
   const lowerLine = line.toLowerCase();
   if (
@@ -1377,6 +1384,65 @@ function getEstimatedSavings(promo, amount = null) {
   return { percent, purchaseCap, refundCap: estimated || 0, explicitRefundCap };
 }
 
+function getDetailRows(promo) {
+  const rawDetail = cleanSentence(promo.raw_detail || promo.validity || "");
+  const rows = [
+    ["Banco", promo.bank || ""],
+    ["Categoría", promo.category || ""],
+    ["Comercios/locales", promo.merchant_locations_or_group || promo.merchant_name || ""],
+    ["Días", getDisplayDays(promo)],
+    ["Fecha", getDisplayValidity(promo)],
+    ["Reintegro o descuento", getDisplayBenefit(promo)],
+    ["Tarjetas que aplican", extractApplicableCards(promo)],
+    ["Tarjetas excluidas", extractExcludedCards(promo)],
+    ["Topes y mínimos", promo.caps_and_minimums || extractCapsText(rawDetail) || "No especificado"],
+    ["Reglas por nivel", promo.level_rules || ""],
+    ["Info adicional importante", extractAdditionalInfo(promo, rawDetail)],
+  ];
+  return rows.filter(([, value]) => cleanSentence(value));
+}
+
+function extractApplicableCards(promo) {
+  const text = cleanSentence([promo.raw_detail, promo.benefit_summary].join(" "));
+  const explicit = text.match(/(?:con|pagando con|válido con|valido con)\s+(?:tu\s+)?(?:tarjeta|tarjetas)[^.]+/i)?.[0];
+  if (explicit) return cleanSentence(explicit.replace(/^(?:con|pagando con|válido con|valido con)\s+/i, ""));
+  const cards = text.match(/\b(?:visa|mastercard|mc|cabal|oro|premium|black|platinum|infinite|signature|cl[aá]sica|prepaga|albirroja)[^.;)]*/gi);
+  return cards ? cleanSentence([...new Set(cards.map((card) => cleanSentence(card)))].join("; ")) : "No especificado";
+}
+
+function extractExcludedCards(promo) {
+  const text = cleanSentence([promo.raw_detail, promo.validity].join(" "));
+  const match = text.match(/(?:no aplica|se excluyen|quedan excluidas?)[^.]+/i);
+  return match ? cleanSentence(match[0]) : "No especificado";
+}
+
+function extractCapsText(text) {
+  const matches = String(text || "").match(/(?:tope|m[ií]nimo|monto m[ií]nimo|l[ií]mite)[^.]+/gi);
+  return matches ? cleanSentence([...new Set(matches)].join("; ")) : "";
+}
+
+function extractAdditionalInfo(promo, rawDetail) {
+  const important = [];
+  const source = cleanSentence(rawDetail);
+  const withoutKnown = source
+    .replace(/(?:con|pagando con|válido con|valido con)\s+(?:tu\s+)?(?:tarjeta|tarjetas)[^.]+/gi, "")
+    .replace(/(?:no aplica|se excluyen|quedan excluidas?)[^.]+/gi, "")
+    .replace(/(?:tope|m[ií]nimo|monto m[ií]nimo|l[ií]mite)[^.]+/gi, "");
+  const sentences = withoutKnown.split(".").map(cleanSentence).filter(Boolean);
+  sentences.slice(0, 3).forEach((sentence) => important.push(sentence));
+  if (promo.source_url) important.push("Ver promoción original para bases completas.");
+  return cleanSentence(important.join(". "));
+}
+
+function renderDetailRows(promo) {
+  return getDetailRows(promo).map(([label, value]) => `
+    <div class="detail-row">
+      <span>${escapeHtml(label)}</span>
+      <strong>${escapeHtml(value)}</strong>
+    </div>
+  `).join("");
+}
+
 function inferPurchaseCap(promo, amounts) {
   const text = normalizeDayName(promo.caps_and_minimums || "");
   if (!amounts.length) return 0;
@@ -1455,7 +1521,7 @@ function openDetail(id) {
   const savings = getEstimatedSavings(promo);
   els.dialogContent.innerHTML = `
     <h2>${escapeHtml(getPromoTitle(promo))}</h2>
-    <p class="benefit">${escapeHtml(getMainBenefit(promo))}</p>
+    <p class="benefit">${escapeHtml(getDisplayBenefit(promo))}</p>
     ${savings.refundCap ? `<div class="detail-saving"><span>Ahorro máximo estimado</span><strong>${escapeHtml(formatGuarani(savings.refundCap))}</strong></div>` : ""}
     <button class="detail-favorite ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}">${isFavorite ? "♥ Guardado en favoritos" : "♡ Guardar en favoritos"}</button>
     <div class="calculator" data-calculator-id="${escapeAttribute(promo.id)}">
@@ -1467,15 +1533,8 @@ function openDetail(id) {
     <div class="detail-list">
       ${isUenoPowerPromo(promo) ? `<div class="power-detail"><strong>Promo especial:</strong> ueno+ POWER. Puede requerir desbloqueo o criterios adicionales en la app de ueno.</div>` : ""}
       ${levelDetails ? `<div><strong>Nivel UENO seleccionado:</strong> Nivel ${state.uenoLevel} · ${escapeHtml(levelDetails.percent)}${levelDetails.purchaseCap ? ` · Compra ${escapeHtml(levelDetails.purchaseCap)}` : ""}${levelDetails.refundCap ? ` · Reintegro ${escapeHtml(levelDetails.refundCap)}` : ""}</div>` : ""}
-      <div><strong>Banco:</strong> ${escapeHtml(promo.bank || "")}</div>
-      <div><strong>Categoría:</strong> ${escapeHtml(promo.category || "")}</div>
-      <div><strong>Comercios/locales:</strong> ${escapeHtml(promo.merchant_locations_or_group || promo.merchant_name || "")}</div>
-      <div><strong>Días:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
-      <div><strong>Vigencia:</strong> ${escapeHtml(getDisplayValidity(promo))}</div>
-      <div><strong>Topes y mínimos:</strong> ${escapeHtml(promo.caps_and_minimums || "No especificado")}</div>
-      <div><strong>Reglas por nivel:</strong> ${escapeHtml(promo.level_rules || "No aplica")}</div>
-      <div><strong>Condiciones:</strong> ${escapeHtml(cleanSentence(promo.raw_detail || promo.validity || "Ver bases y condiciones"))}</div>
-      <div><strong>Fuente:</strong> ${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente</div>
+      ${renderDetailRows(promo)}
+      <div class="detail-row"><span>Fuente</span><strong>${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente</strong></div>
       <div><a href="${escapeAttribute(promo.source_url || "#")}" target="_blank" rel="noreferrer">Ver bases y condiciones</a></div>
     </div>
   `;

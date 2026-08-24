@@ -693,23 +693,23 @@ input[type="search"]::placeholder {
 .detail-saving {
   background: rgba(247, 241, 227, 0.06);
   border: 1px solid rgba(247, 241, 227, 0.14);
-  border-radius: 18px;
+  border-radius: 15px;
   display: grid;
   gap: 4px;
-  margin: 8px 0 10px;
-  padding: 14px;
+  margin: 7px 0 9px;
+  padding: 12px;
 }
 
 .detail-saving span {
   color: var(--brand-cream-muted);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 850;
   text-transform: uppercase;
 }
 
 .detail-saving strong {
   color: var(--brand-cream);
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1;
 }
 
@@ -792,13 +792,33 @@ dialog::backdrop {
 
 .detail-list {
   display: grid;
-  gap: 10px;
+  gap: 8px;
   margin-top: 14px;
 }
 
 .detail-list div {
   border-top: 1px solid rgba(238, 242, 246, 0.1);
-  padding-top: 10px;
+  padding-top: 8px;
+}
+
+.detail-row {
+  display: grid;
+  gap: 3px;
+}
+
+.detail-row span {
+  color: var(--brand-cream-muted);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.detail-row strong {
+  color: var(--brand-cream);
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.35;
 }
 
 .detail-list .power-detail {

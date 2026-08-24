@@ -1,5 +1,596 @@
 [
   {
+    "bank": "Atlas",
+    "category": "Bienestar",
+    "merchant_name": "Martiderm",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de descuento; 3 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "jueves"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Último jueves del mes",
+    "validity": "La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Válido en los locales adheridos. Beneficios exclusivos para consumo personal. Vigente todos los últimos jueves de cada mes hasta el 31/12 del 2026. Se excluyen tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Shopping Pinedo y Shoping Mariano.",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Válido en los locales adheridos. Beneficios exclusivos para consumo personal. Vigente todos los últimos jueves de cada mes hasta el 31/12 del 2026. Se excluyen tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Shopping Pinedo y Shoping Mariano.",
+    "id": "84714bfec7199316"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Bienestar",
+    "merchant_name": "Prepaga Joven",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; En tiendas adheridas:",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 de febrero de 2026 y hasta el 31 de enero de 2027. Se excluyen otras tarjetas prepagas.",
+    "caps_and_minimums": "Gs 1.000.000 para tarjetas Prepaga Joven",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjeta Prepaga Joven En tiendas adheridas: Burger King, La Casita Gourmet, McDonald's, Tía Laura, Adidas, Nike, Meta Sports, Gimnasio, Smart Fit y Cinemark. Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 de febrero de 2026 y hasta el 31 de enero de 2027. Se excluyen otras tarjetas prepagas.",
+    "id": "25ac0630761a2330"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Educación",
+    "merchant_name": "Universidades",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Universidad Católica, Universidad Americana, USIL, Universidad del Pacífico, UNIVE, Universidad San Carlos, PwC Academy, Potencial Humano, UCOM, Universidad Columbia, MarketData Academy.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "d70ba6f32e9a8624"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Gastronomía",
+    "merchant_name": "Beneficios gastronómicos",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [
+      "viernes",
+      "sábado"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Viernes y Sábados",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 1.000.000 para tarjetas de crédito Clásica y Oro en el conjunto de restaurantes adheridos a la promoción gastronómica. Aplica para pagos realizados a través del POS de la Red Infonet. Vigente todos los viernes y sábados hasta el 26 de diciembre de 2026. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 2.000.000 para tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol.; Gs. 1.000.000 para tarjetas de crédito Clásica y Oro.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/Locales%20gastron%C3%B3micos%20adheridos.jpg",
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 1.000.000 para tarjetas de crédito Clásica y Oro en el conjunto de restaurantes adheridos a la promoción gastronómica. Aplica para pagos realizados a través del POS de la Red Infonet. Vigente todos los viernes y sábados hasta el 26 de diciembre de 2026. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "dad8e8a3e3de5f98"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Gastronomía",
+    "merchant_name": "Delicias de Juju",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "25% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "25%"
+    ],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas clásicas, oro, prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+    "caps_and_minimums": "Gs. 1.000.000 para tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas clásicas, oro, prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+    "id": "bbca9c1b1ccde9ac"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Gastronomía",
+    "merchant_name": "Gastro Mariscal",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Lunes a Viernes",
+    "validity": "Monto mínimo de compra Gs. 50.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro. Aplica para compras realizadas a través del POS de la Red Infonet en el conjunto de locales gastronómicos del Shopping Mariscal. Vigente del 4 de febrero de 2026 al 31 de marzo de 2027. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card, gift card y las afinidades delSol, Shopping Mariscal, Pinedo y Mariano.",
+    "caps_and_minimums": "Gs. 1.000.000 para tarjetas de crédito Visa Infinite y Mastercard Black.; Gs. 500.000 para tarjetas de crédito Clásica y Oro.; Mínimo de compra Gs. 50.000.-",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito Monto mínimo de compra Gs. 50.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro. Aplica para compras realizadas a través del POS de la Red Infonet en el conjunto de locales gastronómicos del Shopping Mariscal. Vigente del 4 de febrero de 2026 al 31 de marzo de 2027. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card, gift card y las afinidades delSol, Shopping Mariscal, Pinedo y Mariano.",
+    "id": "ff6803046a6c7441"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Generales",
+    "merchant_name": "Beneficios Spa y Peluquerías",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [
+      "sábado"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Sábados",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 800.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro en el conjunto de locales adheridos a la promo Spa y Peluquerías. Aplica para compras realizadas a través del POS de la Red Infonet. Vigente todos los sábados hasta el 26 de diciembre de 2026. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 800.000 para tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol.; Gs. 500.000 para tarjetas de crédito Clásica y Oro.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/Spa%20y%20Peluqueria%20adheridas.png",
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 800.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro en el conjunto de locales adheridos a la promo Spa y Peluquerías. Aplica para compras realizadas a través del POS de la Red Infonet. Vigente todos los sábados hasta el 26 de diciembre de 2026. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "eac0369ab2c3948b"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Generales",
+    "merchant_name": "Biggie Farma",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de descuento; +10% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%",
+      "10%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los Lunes",
+    "validity": "Monto mínimo de compra Gs. 50.000.Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro. Aplica para compras realizadas a través del POS de la Red Infonet. No incluye delivery o compras a través del E-Commerce. Valido todos los Lunes hasta el 28 de diciembre del 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+    "caps_and_minimums": "Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black; Gs. 500.000 para tarjetas de crédito Clásicas y Oro.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "+10% de reintegro con todas las tarjetas de crédito Monto mínimo de compra Gs. 50.000.Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro. Aplica para compras realizadas a través del POS de la Red Infonet. No incluye delivery o compras a través del E-Commerce. Valido todos los Lunes hasta el 28 de diciembre del 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+    "id": "e45d6706ec738e16"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Generales",
+    "merchant_name": "Estaciones de Servicio",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [
+      "martes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los Martes",
+    "validity": "Mínimo de compra Gs. 200.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 700.000 para tarjetas de crédito Clásica y Oro en el conjunto de estaciones adheridas a la promoción a través del POS de la Red Infonet y para estaciones Petrobras exclusivamente pagos realizados a través de la App Petrobras Premmia. Vigente todos los martes hasta el 29 de diciembre de 2026. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs 1.000.000 para tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol.; Gs. 700.000 para tarjetas de crédito Clásica y Oro.; Mínimo de compra Gs. 200.000",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/Banco%20Atlas%20-%20Beneficios%20Estaciones%20de%20Servicio%202026.pdf",
+    "raw_detail": "con todas las tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Mínimo de compra Gs. 200.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 700.000 para tarjetas de crédito Clásica y Oro en el conjunto de estaciones adheridas a la promoción a través del POS de la Red Infonet y para estaciones Petrobras exclusivamente pagos realizados a través de la App Petrobras Premmia. Vigente todos los martes hasta el 29 de diciembre de 2026. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "24061c3af11c4ecd"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Generales",
+    "merchant_name": "Impuestos al día",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Asunción, Benjamín Aceval, Caaguazú, Ciudad del Este, Hernandarias, Lambaré, Luque y Mariano Roque Alonso.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "c518393e58fbd72c"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Generales",
+    "merchant_name": "L'uomo",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "6 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 . Valida para compras realizadas a través del POS de la red Infonet. Válido para las sucursales L\\\\\\'uomo de Shopping Vilamorra, Shopping Multiplaza, Shopping Zuni CDE y Lambaré. Beneficios exclusivos para consumo personal. Vigente todos los días del 01/06 al 31/12 del 2026. Se excluyen tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Shopping Pinedo y Shoping Mariano. Bases y condiciones en www.bancoatlas.com.py",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 . Valida para compras realizadas a través del POS de la red Infonet. Válido para las sucursales L\\\\\\'uomo de Shopping Vilamorra, Shopping Multiplaza, Shopping Zuni CDE y Lambaré. Beneficios exclusivos para consumo personal. Vigente todos los días del 01/06 al 31/12 del 2026. Se excluyen tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Shopping Pinedo y Shoping Mariano. Bases y condiciones en www.bancoatlas.com.py",
+    "id": "e34f133d048a72fe"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Generales",
+    "merchant_name": "Pinedo Shopping",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de descuento; 3 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "viernes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los viernes",
+    "validity": "El descuento se realiza en caja. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica para tiendas adheridas a la promoción. Beneficio exclusivo para consumo personal. Vigente todos los viernes, a partir del 20 de marzo de 2026 al 26 de febrero de 2027. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/Tiendas%20adheridas%20Pinedo.jpg",
+    "raw_detail": "con tarjetas de crédito en tiendas adheridas El descuento se realiza en caja. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica para tiendas adheridas a la promoción. Beneficio exclusivo para consumo personal. Vigente todos los viernes, a partir del 20 de marzo de 2026 al 26 de febrero de 2027. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "e5e058339b15df8e"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Generales",
+    "merchant_name": "delSol",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Promoción válida todos los días para tarjetas afinidad delSol en todos los locales comerciales de delSol Shopping. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gif card y las que no son afinidad delSol.",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito delSol Atlas La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Promoción válida todos los días para tarjetas afinidad delSol en todos los locales comerciales de delSol Shopping. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gif card y las que no son afinidad delSol.",
+    "id": "5f25d91d35d7793d"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Hogar",
+    "merchant_name": "Renová tu Hogar",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Artículos electrónicos, Casas de pinturas, Ferreterías Mueblería y Decoración, Equipos musicales y Electrodomésticos.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "f15cf9854b37b0c4"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Moda",
+    "merchant_name": "H&M",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 para compras realizadas a través del POS de la Red Infonet Válido para las sucursales de Paseo La Galería, Distrito Perseverancia y su E- commerce. Beneficios exclusivos para consumo personal. Vigente todos los días desde el 13 de agosto al 31 de diciembre del 2026. Se excluyen tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades delSol Shopping Mariscal, Shopping Pinedo y Shopping Mariano",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 para compras realizadas a través del POS de la Red Infonet Válido para las sucursales de Paseo La Galería, Distrito Perseverancia y su E- commerce. Beneficios exclusivos para consumo personal. Vigente todos los días desde el 13 de agosto al 31 de diciembre del 2026. Se excluyen tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades delSol Shopping Mariscal, Shopping Pinedo y Shopping Mariano",
+    "id": "5bdbd310b2b62478"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Moda",
+    "merchant_name": "Shopping Mariscal",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de descuento; Hasta 3 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "miércoles"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los Miércoles",
+    "validity": "El descuento se realiza en caja. Aplica para tiendas adheridas a la promoción y pagos realizados a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente todos los miércoles, a partir del 4 de febrero de 2026 al 27 de enero de 2027. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/Tiendas%20adheridas%20Mariscal.jpg",
+    "raw_detail": "con tarjetas de crédito El descuento se realiza en caja. Aplica para tiendas adheridas a la promoción y pagos realizados a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente todos los miércoles, a partir del 4 de febrero de 2026 al 27 de enero de 2027. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "aefe80febf55cf40"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Supermercados",
+    "merchant_name": "Delimarket",
+    "merchant_locations_or_group": "Asunción",
+    "benefit_summary": "20% de reintegro; +5% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [
+      "sábado"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los Sábados",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito delSol Atlas Visa Signature, Gs. 1.500.000 para tarjetas de crédito delSol Atlas Visa Clásica. Aplica para compras realizadas a través de la Red Infonet. Vigente todos los sábados hasta el 26 de dicimebre de 2026. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 2.000.000 para tarjetas de crédito delSol Atlas Visa Signature.; Gs. 1.500.000 para tarjetas de crédito delSol Atlas Visa Clásica.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito delSol Atlas +5% de reintegro con tarjetas de crédito Visa Signature delSol Atlas Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito delSol Atlas Visa Signature, Gs. 1.500.000 para tarjetas de crédito delSol Atlas Visa Clásica. Aplica para compras realizadas a través de la Red Infonet. Vigente todos los sábados hasta el 26 de dicimebre de 2026. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "405df50264da77c4"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Supermercados",
+    "merchant_name": "Supermercados",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "15% de reintegro; +5% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "15%",
+      "5%"
+    ],
+    "promotion_days": [
+      "viernes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los viernes",
+    "validity": "Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tarjetas Visa Oro y Visa Clásica. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+    "caps_and_minimums": "Gs. 1.000.000 con tarjetas de crédito Visa Infinite, Signature y Mastercard Black.; Gs. 700.000 con tarjetas de crédito Visa Clásica y Oro.; Mínimo de compra Gs. 200.000.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg",
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tarjetas Visa Oro y Visa Clásica. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+    "id": "28100c1f8dcdffbe"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Tecnología",
+    "merchant_name": "Tecnología a tu alcance",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Artículos electrónicos y Electrodomésticos",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "e77fe8d93e9865f3"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Vehículo",
+    "merchant_name": "Prepará tu vehículo",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Casas de cubiertas, talleres mecánicos, chapería y pintura, casas de reepuestos y accesorios para vehiculos,",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "3d01eed9be736446"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Viajes",
+    "merchant_name": "Atlas Viajes",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "18 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "La cantidad de cuotas se solicita al momento de la compra, hasta 18 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Utilización de puntos Atlas Más sujeta a disponibilidad del cliente. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito La cantidad de cuotas se solicita al momento de la compra, hasta 18 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Utilización de puntos Atlas Más sujeta a disponibilidad del cliente. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "04b47072d932b2ef"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Viajes",
+    "merchant_name": "Planeá tus próximas vacaciones",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "En agencias de viajes y Aerolíneas La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "22fe69aae80494a1"
+  },
+  {
     "bank": "BNF",
     "category": "Estaciones de Servicio",
     "merchant_name": "Estaciones de Servicio",
@@ -693,7 +1284,7 @@
     "category": "Construcción",
     "merchant_name": "Ogara Construcciones",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -921,7 +1512,7 @@
     "category": "Contimarket",
     "merchant_name": "Contimarket - 25%",
     "merchant_locations_or_group": "Todo el país",
-    "benefit_summary": "25%; 25% de reintegro",
+    "benefit_summary": "25% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "25%"
@@ -1001,7 +1592,7 @@
     "category": "Deportes",
     "merchant_name": "Bigg",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -1023,7 +1614,7 @@
     "category": "Deportes",
     "merchant_name": "Complejo Rotela",
     "merchant_locations_or_group": "Ma. Auxiliadora (Itapúa)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -1103,7 +1694,7 @@
     "category": "Deportes",
     "merchant_name": "Javi Deportes",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -1443,7 +2034,7 @@
     "category": "Electrónica",
     "merchant_name": "Centauri Smart House",
     "merchant_locations_or_group": "Ayolas - Misiones",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -2085,7 +2676,7 @@
     "category": "Electrónica",
     "merchant_name": "Shopping City",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -2193,7 +2784,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "Compasa",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -2217,7 +2808,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "Copetrol",
     "merchant_locations_or_group": "Todo el país",
-    "benefit_summary": "25%; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "25%",
@@ -2242,7 +2833,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "ECOP",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -2266,7 +2857,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "Enercon - Estaciones de Servicio",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -2290,7 +2881,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "Energy",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro; 25% de reintegro",
+    "benefit_summary": "20% de reintegro; 25% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%",
@@ -2316,7 +2907,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "Grupo Laso - Estaciones de Servicio",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -2340,7 +2931,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "HN - Petróleos",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -2415,7 +3006,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "Petrochaco",
     "merchant_locations_or_group": "Todo el país",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -2439,7 +3030,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "Petromax",
     "merchant_locations_or_group": "Todo el país",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -2463,7 +3054,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "Petropar - Curuguaty",
     "merchant_locations_or_group": "Curuguaty",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -2487,7 +3078,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "Petrosur",
     "merchant_locations_or_group": "Todo el país",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -2511,7 +3102,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "Puma Energy",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -2535,7 +3126,7 @@
     "category": "Estaciones de Servicios",
     "merchant_name": "Ultra Estaciones de Servicio",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -2699,7 +3290,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farma Lorena",
     "merchant_locations_or_group": "Concepción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -2809,7 +3400,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmacia - Sanatorio Alemán",
     "merchant_locations_or_group": "Obligado, Itapúa",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -2864,7 +3455,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmacia Ivan",
     "merchant_locations_or_group": "Col. Independencia",
-    "benefit_summary": "30%; 30% de reintegro",
+    "benefit_summary": "30% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "30%"
@@ -2888,7 +3479,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmacia La Trinidad",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -2912,7 +3503,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmacia Ultrapharma",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -2936,7 +3527,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmacia Ypané",
     "merchant_locations_or_group": "Concepción",
-    "benefit_summary": "30%; 30% de reintegro",
+    "benefit_summary": "30% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "30%"
@@ -2960,7 +3551,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmacia y Perfumería Liz",
     "merchant_locations_or_group": "Coronel Oviedo",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -3040,7 +3631,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmacias Energy",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "10%; 10% de reintegro; 25% de descuento",
+    "benefit_summary": "10% de reintegro; 25% de descuento",
     "benefit_type": "reintegro",
     "percentages": [
       "10%",
@@ -3089,7 +3680,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmacumbre",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -3143,7 +3734,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmalab",
     "merchant_locations_or_group": "Naranjal",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -3167,7 +3758,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmalife",
     "merchant_locations_or_group": "San Estanislao",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -3243,7 +3834,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmavida",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -3267,7 +3858,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Farmavip",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "30%; 30% de reintegro",
+    "benefit_summary": "30% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "30%"
@@ -3291,7 +3882,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Maxi Farma",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -3371,7 +3962,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Total Farma",
     "merchant_locations_or_group": "San Alberto (Alto Paraná)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -3395,12 +3986,13 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Vicente Scavone",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "30%; hasta 6 cuotas sin intereses; 10 % de reintegro; 20% de descuento",
+    "benefit_summary": "30%; hasta 6 cuotas sin intereses; 10% de reintegro; 20% de descuento",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
       "30%",
-      "10 %",
-      "20%"
+      "10%",
+      "20%",
+      "10 %"
     ],
     "promotion_days": [
       "lunes",
@@ -3427,7 +4019,7 @@
     "category": "Farmacias y Perfumerías",
     "merchant_name": "Vitalmed",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -3451,7 +4043,7 @@
     "category": "Ferreterías",
     "merchant_name": "Bricomas",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -3645,7 +4237,7 @@
     "category": "Ferreterías",
     "merchant_name": "Huguito Ferretería",
     "merchant_locations_or_group": "Caaguazú",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
       "10%"
@@ -3727,7 +4319,7 @@
     "category": "Gastronomía",
     "merchant_name": "836 Cocina Internacional",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -3754,7 +4346,7 @@
     "category": "Gastronomía",
     "merchant_name": "Acuarela Churrasquería",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -3781,7 +4373,7 @@
     "category": "Gastronomía",
     "merchant_name": "Agro Masa",
     "merchant_locations_or_group": "Nueva Durango",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -3808,7 +4400,7 @@
     "category": "Gastronomía",
     "merchant_name": "Almarreina",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -3835,7 +4427,7 @@
     "category": "Gastronomía",
     "merchant_name": "Amandau - Encarnación",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -3913,7 +4505,7 @@
     "category": "Gastronomía",
     "merchant_name": "Bernardino Hamburguesas",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -3940,7 +4532,7 @@
     "category": "Gastronomía",
     "merchant_name": "Billy Smash",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -3967,7 +4559,7 @@
     "category": "Gastronomía",
     "merchant_name": "Bodega Duff",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -3991,7 +4583,7 @@
     "category": "Gastronomía",
     "merchant_name": "Brebaje Bar Parrilla",
     "merchant_locations_or_group": "Caaguazú",
-    "benefit_summary": "20%; 20% de reintegro; 25% de reintegro; 35% de reintegro",
+    "benefit_summary": "20% de reintegro; 25% de reintegro; 35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%",
@@ -4018,7 +4610,7 @@
     "category": "Gastronomía",
     "merchant_name": "Calle 75",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro; 25% de reintegro; 35% de reintegro",
+    "benefit_summary": "20% de reintegro; 25% de reintegro; 35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%",
@@ -4045,7 +4637,7 @@
     "category": "Gastronomía",
     "merchant_name": "Churrasquería García",
     "merchant_locations_or_group": "Pirapó (Itapúa)",
-    "benefit_summary": "20%; 20% de reintegro; 25% de reintegro; 35% de reintegro",
+    "benefit_summary": "20% de reintegro; 25% de reintegro; 35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%",
@@ -4072,7 +4664,7 @@
     "category": "Gastronomía",
     "merchant_name": "Costa Colón",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4126,7 +4718,7 @@
     "category": "Gastronomía",
     "merchant_name": "Don Beling",
     "merchant_locations_or_group": "Ayolas - Misiones",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -4156,7 +4748,7 @@
     "category": "Gastronomía",
     "merchant_name": "El Viejo Marino",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro; 25% de reintegro; 35% de reintegro",
+    "benefit_summary": "20% de reintegro; 25% de reintegro; 35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%",
@@ -4183,7 +4775,7 @@
     "category": "Gastronomía",
     "merchant_name": "Game Core",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4210,7 +4802,7 @@
     "category": "Gastronomía",
     "merchant_name": "KFC",
     "merchant_locations_or_group": "Todo el país",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4237,7 +4829,7 @@
     "category": "Gastronomía",
     "merchant_name": "Kafea",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4291,7 +4883,7 @@
     "category": "Gastronomía",
     "merchant_name": "La Brasileña- Shopping Dubai",
     "merchant_locations_or_group": "Pedro Juan Caballero",
-    "benefit_summary": "20%; 20% de reintegro; 25% de reintegro; 35% de reintegro",
+    "benefit_summary": "20% de reintegro; 25% de reintegro; 35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%",
@@ -4345,7 +4937,7 @@
     "category": "Gastronomía",
     "merchant_name": "La Negrita",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro; 25% de reintegro; 35% de reintegro",
+    "benefit_summary": "20% de reintegro; 25% de reintegro; 35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%",
@@ -4372,7 +4964,7 @@
     "category": "Gastronomía",
     "merchant_name": "La Nutry",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4399,7 +4991,7 @@
     "category": "Gastronomía",
     "merchant_name": "Malandras Grill",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4426,7 +5018,7 @@
     "category": "Gastronomía",
     "merchant_name": "Marimex Hotel y Restaurant",
     "merchant_locations_or_group": "Ayolas - Misiones",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -4456,7 +5048,7 @@
     "category": "Gastronomía",
     "merchant_name": "Mc Donald's",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -4507,7 +5099,7 @@
     "category": "Gastronomía",
     "merchant_name": "Nelore Estrellita",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4534,7 +5126,7 @@
     "category": "Gastronomía",
     "merchant_name": "Parador Campo 9",
     "merchant_locations_or_group": "Campo 9",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4561,7 +5153,7 @@
     "category": "Gastronomía",
     "merchant_name": "Paulista Grill Churrasquería",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro; 25% de reintegro; 35% de reintegro",
+    "benefit_summary": "20% de reintegro; 25% de reintegro; 35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%",
@@ -4588,7 +5180,7 @@
     "category": "Gastronomía",
     "merchant_name": "Pederzani",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4615,7 +5207,7 @@
     "category": "Gastronomía",
     "merchant_name": "Pizza Hut",
     "merchant_locations_or_group": "Todo el país",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4642,7 +5234,7 @@
     "category": "Gastronomía",
     "merchant_name": "Plaza Tamarindo",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4670,7 +5262,7 @@
     "category": "Gastronomía",
     "merchant_name": "Real Costanera Restaurante - Encarnación",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4697,7 +5289,7 @@
     "category": "Gastronomía",
     "merchant_name": "Real Restaurante - Luque",
     "merchant_locations_or_group": "Luque",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4724,7 +5316,7 @@
     "category": "Gastronomía",
     "merchant_name": "Restaurante - Soho Savoy Hotel",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4777,7 +5369,7 @@
     "category": "Gastronomía",
     "merchant_name": "Sabores del Pacífico",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4803,7 +5395,7 @@
     "category": "Gastronomía",
     "merchant_name": "Takuare'e Restó",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4830,7 +5422,7 @@
     "category": "Gastronomía",
     "merchant_name": "Unaghi Sushi Bar",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de descuento",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de descuento",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4857,7 +5449,7 @@
     "category": "Gastronomía",
     "merchant_name": "Ña Virginia",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -4884,7 +5476,7 @@
     "category": "Heladerías",
     "merchant_name": "Kekala",
     "merchant_locations_or_group": "San Lorenzo",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -5253,7 +5845,7 @@
     "category": "Hogar",
     "merchant_name": "Electroluz",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -5880,7 +6472,7 @@
     "category": "Hogar",
     "merchant_name": "Plastienvase",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -6666,7 +7258,7 @@
     "category": "Hoteles",
     "merchant_name": "Las Hortensias - Hotel",
     "merchant_locations_or_group": "Pilar",
-    "benefit_summary": "35%; 35% de reintegro; 30% de reintegro",
+    "benefit_summary": "35% de reintegro; 30% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -7153,7 +7745,7 @@
     "category": "Jugueterías",
     "merchant_name": "Teko Baby Shop & Juguetería",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -7177,7 +7769,7 @@
     "category": "Librerías",
     "merchant_name": "Arandu Paper",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -7229,7 +7821,7 @@
     "category": "Librerías",
     "merchant_name": "Librería Creativa",
     "merchant_locations_or_group": "Col. Hohenau",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -7253,7 +7845,7 @@
     "category": "Librerías",
     "merchant_name": "Librería Emanuel",
     "merchant_locations_or_group": "Col. Hohenau",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -7654,7 +8246,7 @@
     "category": "Peluquerías y Spas",
     "merchant_name": "Bomo",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -7741,7 +8333,7 @@
     "category": "Peluquerías y Spas",
     "merchant_name": "Jennifer Valdez Make Up & Hair",
     "merchant_locations_or_group": "San Juan Bautista",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -7765,7 +8357,7 @@
     "category": "Peluquerías y Spas",
     "merchant_name": "Joseph - Coronel Oviedo",
     "merchant_locations_or_group": "Coronel Oviedo",
-    "benefit_summary": "20%; 20% de reintegro; 25% de reintegro; 35% de reintegro",
+    "benefit_summary": "20% de reintegro; 25% de reintegro; 35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%",
@@ -7819,7 +8411,7 @@
     "category": "Peluquerías y Spas",
     "merchant_name": "Maison Mint",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro; 25% de reintegro; 35% de reintegro",
+    "benefit_summary": "20% de reintegro; 25% de reintegro; 35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%",
@@ -7875,7 +8467,7 @@
     "category": "Peluquerías y Spas",
     "merchant_name": "Mel Peluquería & Barbería",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "35%; 35% de reintegro; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "35% de reintegro; 25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%",
@@ -7901,7 +8493,7 @@
     "category": "Peluquerías y Spas",
     "merchant_name": "Naty Arnold Studio",
     "merchant_locations_or_group": "San Juan Bautista",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -8088,7 +8680,7 @@
     "category": "Privilege",
     "merchant_name": "Brebaje Bar Parrilla - Privilege",
     "merchant_locations_or_group": "Caaguazú",
-    "benefit_summary": "35%; 35% de reintegro",
+    "benefit_summary": "35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%"
@@ -8379,7 +8971,7 @@
     "category": "Privilege",
     "merchant_name": "Privilege - Peluquerías y Spa",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "35%; 35% de reintegro",
+    "benefit_summary": "35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%"
@@ -8403,7 +8995,7 @@
     "category": "Privilege",
     "merchant_name": "Privilege - Restaurantes",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "35%; 35% de reintegro",
+    "benefit_summary": "35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%"
@@ -8606,7 +9198,7 @@
     "category": "Promociones especiales",
     "merchant_name": "Intercolegial - Las Almenas",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -8660,7 +9252,7 @@
     "category": "Promociones especiales",
     "merchant_name": "Las Hortensias - Cine",
     "merchant_locations_or_group": "Pilar",
-    "benefit_summary": "50%; 50% de reintegro",
+    "benefit_summary": "50% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "50%"
@@ -8690,7 +9282,7 @@
     "category": "Promociones especiales",
     "merchant_name": "Mango /Cortefiel / Pedro de Hierro",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "25%; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "25%",
@@ -8876,7 +9468,7 @@
     "category": "Salud",
     "merchant_name": "Caofa",
     "merchant_locations_or_group": "Ciudad del Este",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -9042,7 +9634,7 @@
     "category": "Salud",
     "merchant_name": "Clínica Odontológica Santa Teresa",
     "merchant_locations_or_group": "San Estanislao",
-    "benefit_summary": "30%; 30% de descuento",
+    "benefit_summary": "30% de descuento",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
       "30%"
@@ -9214,7 +9806,7 @@
     "category": "Salud",
     "merchant_name": "Gaesa",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -9866,7 +10458,7 @@
     "category": "Supermercados",
     "merchant_name": "A Punto Market - Tienda del Asadero",
     "merchant_locations_or_group": "Caaguazú",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -9890,7 +10482,7 @@
     "category": "Supermercados",
     "merchant_name": "Aaron Express - Miércoles de Supermercados",
     "merchant_locations_or_group": "Ma. Auxiliadora (Itapúa)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -9914,7 +10506,7 @@
     "category": "Supermercados",
     "merchant_name": "Ahorramás \"Miércoles de supermercados\"",
     "merchant_locations_or_group": "San Estanislao",
-    "benefit_summary": "25%; 25% de reintegro",
+    "benefit_summary": "25% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "25%"
@@ -9938,7 +10530,7 @@
     "category": "Supermercados",
     "merchant_name": "Alimentos Capri - Miércoles de Supermercados",
     "merchant_locations_or_group": "Curuguaty",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -9962,7 +10554,7 @@
     "category": "Supermercados",
     "merchant_name": "Archi - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "25%; 25% de reintegro",
+    "benefit_summary": "25% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "25%"
@@ -9986,7 +10578,7 @@
     "category": "Supermercados",
     "merchant_name": "Asuncena - Grupo Maciel - Miércoles de supermercados",
     "merchant_locations_or_group": "San Juan Bautista",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -10010,7 +10602,7 @@
     "category": "Supermercados",
     "merchant_name": "Autoservice Santa Clara",
     "merchant_locations_or_group": "Coronel Bogado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10058,7 +10650,7 @@
     "category": "Supermercados",
     "merchant_name": "Beef Shop - Miércoles de Supermercados",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10082,7 +10674,7 @@
     "category": "Supermercados",
     "merchant_name": "Biggie Express - Miércoles de supermercados",
     "merchant_locations_or_group": "Todo el país",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10106,7 +10698,7 @@
     "category": "Supermercados",
     "merchant_name": "Box Mayorista",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10135,7 +10727,7 @@
     "category": "Supermercados",
     "merchant_name": "Carni Shop (Filas) - Miércoles de Supermercados",
     "merchant_locations_or_group": "Filadelfia",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10159,7 +10751,7 @@
     "category": "Supermercados",
     "merchant_name": "Carniceria Vera - Miércoles de Supermercados",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10183,7 +10775,7 @@
     "category": "Supermercados",
     "merchant_name": "Casa Grutter- Miércoles de Supermercados",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10207,7 +10799,7 @@
     "category": "Supermercados",
     "merchant_name": "Casa Yasy - Miércoles de Supermercados",
     "merchant_locations_or_group": "Concepción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10231,7 +10823,7 @@
     "category": "Supermercados",
     "merchant_name": "Comercial Baratodo - Miércoles de supermercados",
     "merchant_locations_or_group": "Capiatá",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10255,7 +10847,7 @@
     "category": "Supermercados",
     "merchant_name": "Comercial Elena - Miércoles de Supermercados",
     "merchant_locations_or_group": "Coronel Oviedo",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10279,7 +10871,7 @@
     "category": "Supermercados",
     "merchant_name": "Comercial Insaurralde - Miércoles de supermercados",
     "merchant_locations_or_group": "Caaguazú",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10303,7 +10895,7 @@
     "category": "Supermercados",
     "merchant_name": "Comercial Liz - Miércoles de Supermercados",
     "merchant_locations_or_group": "San Ignacio, Misiones",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10327,7 +10919,7 @@
     "category": "Supermercados",
     "merchant_name": "Comercial Triangulo \"Miércoles de supermercados\"",
     "merchant_locations_or_group": "Salto del Guairá",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -10382,7 +10974,7 @@
     "category": "Supermercados",
     "merchant_name": "Despensa Artu - Miércoles de Supermercados",
     "merchant_locations_or_group": "Coronel Bogado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10406,7 +10998,7 @@
     "category": "Supermercados",
     "merchant_name": "Don Pedro - Tienda de Alimentos",
     "merchant_locations_or_group": "Ma. Auxiliadora (Itapúa)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10430,7 +11022,7 @@
     "category": "Supermercados",
     "merchant_name": "El Ahorrazo Supermayorista",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10459,7 +11051,7 @@
     "category": "Supermercados",
     "merchant_name": "El Amanecer - Miércoles de Supermercados",
     "merchant_locations_or_group": "San Juan Bautista",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -10483,7 +11075,7 @@
     "category": "Supermercados",
     "merchant_name": "Emanuel Supermercado - Miércoles de Supermercados",
     "merchant_locations_or_group": "Bella Vista",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10507,7 +11099,7 @@
     "category": "Supermercados",
     "merchant_name": "Fortis Mayorista",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -10541,7 +11133,7 @@
     "category": "Supermercados",
     "merchant_name": "Gran Vía - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10565,7 +11157,7 @@
     "category": "Supermercados",
     "merchant_name": "Grupo Laso - Minimarket",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10589,7 +11181,7 @@
     "category": "Supermercados",
     "merchant_name": "Hello Oven - Miércoles Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "25%; 25% de reintegro",
+    "benefit_summary": "25% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "25%"
@@ -10613,7 +11205,7 @@
     "category": "Supermercados",
     "merchant_name": "Hipermercado El Pueblo - Miércoles de supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10637,7 +11229,7 @@
     "category": "Supermercados",
     "merchant_name": "Hipermercado Luisito - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10661,7 +11253,7 @@
     "category": "Supermercados",
     "merchant_name": "Kelita Supermarket - Miércoles de Supermercados",
     "merchant_locations_or_group": "Trinidad (Itapúa)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10715,7 +11307,7 @@
     "category": "Supermercados",
     "merchant_name": "LT Supermercado - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10769,7 +11361,7 @@
     "category": "Supermercados",
     "merchant_name": "La Criolla - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10793,7 +11385,7 @@
     "category": "Supermercados",
     "merchant_name": "La Economía - Miércoles de Supermercados",
     "merchant_locations_or_group": "Capiatá",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10817,7 +11409,7 @@
     "category": "Supermercados",
     "merchant_name": "La Familia Villalba - Miércoles de Supermercados",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10841,7 +11433,7 @@
     "category": "Supermercados",
     "merchant_name": "La Preferida - Miércoles de Supermercados",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10865,7 +11457,7 @@
     "category": "Supermercados",
     "merchant_name": "La Sirenita - Miércoles de Supermercados",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10889,7 +11481,7 @@
     "category": "Supermercados",
     "merchant_name": "Linalu Supermercado - \"Miércoles de supermercados\"",
     "merchant_locations_or_group": "Pilar",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -10913,7 +11505,7 @@
     "category": "Supermercados",
     "merchant_name": "Los Hermanitos - Miércoles de Supermercados",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10937,7 +11529,7 @@
     "category": "Supermercados",
     "merchant_name": "Maxi Hipermercado - Miércoles de Supermercado",
     "merchant_locations_or_group": "Pedro Juan Caballero",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10961,7 +11553,7 @@
     "category": "Supermercados",
     "merchant_name": "Mercadito Agrosah - Miércoles de Supermercados",
     "merchant_locations_or_group": "Fernando de la Mora",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -10985,7 +11577,7 @@
     "category": "Supermercados",
     "merchant_name": "Mini Market San Nicolas - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11009,7 +11601,7 @@
     "category": "Supermercados",
     "merchant_name": "Minimercado San Pedro - Miércoles de Supermercados",
     "merchant_locations_or_group": "Itauguá",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11033,7 +11625,7 @@
     "category": "Supermercados",
     "merchant_name": "Molino Caaguazú - Miércoles de Supermercados",
     "merchant_locations_or_group": "Caaguazú",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11057,7 +11649,7 @@
     "category": "Supermercados",
     "merchant_name": "Morel Hermanos - Miércoles de Supermercados",
     "merchant_locations_or_group": "Itauguá",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -11081,7 +11673,7 @@
     "category": "Supermercados",
     "merchant_name": "Nelore Estrellita - Miércoles de Supermercados",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11105,7 +11697,7 @@
     "category": "Supermercados",
     "merchant_name": "Nutritiva Store - Miércoles de Supermercados",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11129,7 +11721,7 @@
     "category": "Supermercados",
     "merchant_name": "Porkus - Miércoles de Supermercados",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "25%; 25% de reintegro",
+    "benefit_summary": "25% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "25%"
@@ -11153,7 +11745,7 @@
     "category": "Supermercados",
     "merchant_name": "Predileto - Miércoles de supermercados",
     "merchant_locations_or_group": "San Alberto (Alto Paraná)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11177,7 +11769,7 @@
     "category": "Supermercados",
     "merchant_name": "Pronto - Miércoles de Supermercados",
     "merchant_locations_or_group": "Col. Hohenau",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11201,7 +11793,7 @@
     "category": "Supermercados",
     "merchant_name": "Pryca - Miércoles de supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11225,7 +11817,7 @@
     "category": "Supermercados",
     "merchant_name": "Real - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "25%; 25% de reintegro",
+    "benefit_summary": "25% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "25%"
@@ -11249,7 +11841,7 @@
     "category": "Supermercados",
     "merchant_name": "Real Online - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "30%; 30% de reintegro",
+    "benefit_summary": "30% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "30%"
@@ -11273,7 +11865,7 @@
     "category": "Supermercados",
     "merchant_name": "Rubencito - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11297,7 +11889,7 @@
     "category": "Supermercados",
     "merchant_name": "San Cayetano Comercial - Miércoles de Supermercados",
     "merchant_locations_or_group": "Luque",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11351,7 +11943,7 @@
     "category": "Supermercados",
     "merchant_name": "Super Favesa - Miércoles de Supermercados",
     "merchant_locations_or_group": "Coronel Oviedo",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11375,7 +11967,7 @@
     "category": "Supermercados",
     "merchant_name": "Super Total - Miércoles de Supermercados",
     "merchant_locations_or_group": "Ayolas - Misiones",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11399,7 +11991,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado 7 de Agosto - Miércoles de supermercados",
     "merchant_locations_or_group": "Tomás R. Pereira",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11423,7 +12015,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Boquerón - Miércoles de Supermercados",
     "merchant_locations_or_group": "Filadelfia",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11447,7 +12039,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Campo 9 - Miércoles de Supermercados",
     "merchant_locations_or_group": "Campo 9",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -11471,7 +12063,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Cardoso - Miércoles de supermercados",
     "merchant_locations_or_group": "Santa Rita (Alto Paraná)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11495,7 +12087,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Cavian - Miércoles de Supermercados",
     "merchant_locations_or_group": "San Estanislao",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11519,7 +12111,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Colonias Unidas - Miércoles de Supermercados",
     "merchant_locations_or_group": "Obligado, Itapúa",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -11543,7 +12135,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Colón - Miércoles de Supermercados",
     "merchant_locations_or_group": "Guarambaré",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11567,7 +12159,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Coop . Yguazu - Miércoles de supermercados",
     "merchant_locations_or_group": "Yguazú",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -11621,7 +12213,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado El Cacique S.R.L - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11645,7 +12237,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Emanuel - Miércoles de supermercados",
     "merchant_locations_or_group": "Katueté (Canindeyú)",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -11669,7 +12261,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Everest - Miércoles de Supermercados",
     "merchant_locations_or_group": "Presidente Franco",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11693,7 +12285,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Gran Avenida",
     "merchant_locations_or_group": "Concepción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11717,7 +12309,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Grefran - Miércoles de Supermercados",
     "merchant_locations_or_group": "Curuguaty",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -11741,7 +12333,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Herrero - Miércoles de Supermercados",
     "merchant_locations_or_group": "Villarrica",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11765,7 +12357,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Irene - Miércoles de Supermercados",
     "merchant_locations_or_group": "Tobatí, Cordillera",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11789,7 +12381,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Jullito - Miércoles de Supermercados",
     "merchant_locations_or_group": "Obligado, Itapúa",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -11813,7 +12405,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Ka'i - Miércoles de Supermercados",
     "merchant_locations_or_group": "Loma Plata",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -11837,7 +12429,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Kaiza - Miércoles de supermercados",
     "merchant_locations_or_group": "Naranjal",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -11861,7 +12453,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado La Familia - Miércoles de Supermercados",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -11885,7 +12477,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado La Moderna - Miércoles de Supermercados",
     "merchant_locations_or_group": "Ciudad del Este",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11909,7 +12501,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Las Ellas - Miércoles de supermercados",
     "merchant_locations_or_group": "Hernandarias",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11933,7 +12525,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Las Estrellas - Miércoles de Supermercados",
     "merchant_locations_or_group": "Capitán Miranda",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11957,7 +12549,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Los Jardines - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -11981,7 +12573,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado MR Express - Miércoles de Supermercados",
     "merchant_locations_or_group": "Itauguá",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -12005,7 +12597,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Marangatu - Miércoles de Supermercados",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12029,7 +12621,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado MiniMax - Miércoles de Supermercados",
     "merchant_locations_or_group": "Coronel Bogado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12053,7 +12645,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Multicarnes - Miércoles de Supermercados",
     "merchant_locations_or_group": "Concepción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12077,7 +12669,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Primavera - Miércoles de Supermercados",
     "merchant_locations_or_group": "Santa Rita (Alto Paraná)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12101,7 +12693,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Sac - Miércoles de supermercados",
     "merchant_locations_or_group": "Nueva Esperanza (Canindeyú)",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -12155,7 +12747,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado San Sebastian - Miércoles de Supermercados",
     "merchant_locations_or_group": "Caacupé",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12179,7 +12771,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado San Vicente - Miércoles de supermercados",
     "merchant_locations_or_group": "Caacupé",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12203,7 +12795,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Santa Elena - Miércoles de Supermercados",
     "merchant_locations_or_group": "Caaguazú",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12227,7 +12819,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Santa Rosa de Lima - Miércoles de Supermercados",
     "merchant_locations_or_group": "Lambaré",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12251,7 +12843,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Santo Domingo - Miércoles de Supermercados",
     "merchant_locations_or_group": "Santa Rita (Alto Paraná)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12276,7 +12868,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Schneider - Miércoles de supermercados",
     "merchant_locations_or_group": "Santa Rosa del Aguaray",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12300,7 +12892,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado SyM - Miércoles de Supermercados",
     "merchant_locations_or_group": "Concepción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12324,7 +12916,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Victor - Miércoles de Supermercados",
     "merchant_locations_or_group": "Ayolas - Misiones",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12348,7 +12940,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermercado Ára - Miércoles de Supermercados",
     "merchant_locations_or_group": "Caaguazú",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12372,7 +12964,7 @@
     "category": "Supermercados",
     "merchant_name": "Supermás - Miércoles de Supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -12426,7 +13018,7 @@
     "category": "Supermercados",
     "merchant_name": "Todo Chaco - Miércoles de Supermercados",
     "merchant_locations_or_group": "Loma Plata",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12450,7 +13042,7 @@
     "category": "Supermercados",
     "merchant_name": "Total Abasto - Miércoles de Supermercados",
     "merchant_locations_or_group": "Capiatá",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12474,7 +13066,7 @@
     "category": "Supermercados",
     "merchant_name": "Ultra Minú - Minimarket de Estaciones de Servicio Ultra",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12498,7 +13090,7 @@
     "category": "Supermercados",
     "merchant_name": "Villa Sofía - Miércoles de supermercados",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12522,7 +13114,7 @@
     "category": "Supermercados",
     "merchant_name": "Virgen del Rosario - Miércoles de Supermercados",
     "merchant_locations_or_group": "Luque",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12577,7 +13169,7 @@
     "category": "Tiendas",
     "merchant_name": "A Y L Tienda",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12601,7 +13193,7 @@
     "category": "Tiendas",
     "merchant_name": "AB Alejandro Benítez Calzados - Encarnación",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12655,7 +13247,7 @@
     "category": "Tiendas",
     "merchant_name": "AL Store",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12763,7 +13355,7 @@
     "category": "Tiendas",
     "merchant_name": "Albertina",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "25%; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "25%",
@@ -12788,7 +13380,7 @@
     "category": "Tiendas",
     "merchant_name": "Alborada Super Store",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12840,7 +13432,7 @@
     "category": "Tiendas",
     "merchant_name": "Alexa Tienda",
     "merchant_locations_or_group": "Ma. Auxiliadora (Itapúa)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12922,7 +13514,7 @@
     "category": "Tiendas",
     "merchant_name": "Alternativa",
     "merchant_locations_or_group": "Caaguazú",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -12946,7 +13538,7 @@
     "category": "Tiendas",
     "merchant_name": "Alto Concepto Trajes",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -13026,7 +13618,7 @@
     "category": "Tiendas",
     "merchant_name": "Atemporal",
     "merchant_locations_or_group": "San Juan Bautista",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -13464,7 +14056,7 @@
     "category": "Tiendas",
     "merchant_name": "Casa China",
     "merchant_locations_or_group": "Katueté (Canindeyú)",
-    "benefit_summary": "15%; 15% de reintegro",
+    "benefit_summary": "15% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "15%"
@@ -13488,7 +14080,7 @@
     "category": "Tiendas",
     "merchant_name": "Casa Heri Calzados",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -13601,7 +14193,7 @@
     "category": "Tiendas",
     "merchant_name": "Casa de Campo",
     "merchant_locations_or_group": "Fernando de la Mora",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -13712,7 +14304,7 @@
     "category": "Tiendas",
     "merchant_name": "Chetos & Chetitos",
     "merchant_locations_or_group": "Col. Hohenau",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -13736,7 +14328,7 @@
     "category": "Tiendas",
     "merchant_name": "Cindy & Co.",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -13760,7 +14352,7 @@
     "category": "Tiendas",
     "merchant_name": "Claudia Boutique",
     "merchant_locations_or_group": "Pilar",
-    "benefit_summary": "10%; hasta 12 cuotas sin intereses; 10 % de descuento",
+    "benefit_summary": "10%; hasta 12 cuotas sin intereses; 10% de descuento",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
       "10%",
@@ -13969,7 +14561,7 @@
     "category": "Tiendas",
     "merchant_name": "DV Cueros",
     "merchant_locations_or_group": "San Ignacio, Misiones",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -14079,7 +14671,7 @@
     "category": "Tiendas",
     "merchant_name": "Deysi Boutique",
     "merchant_locations_or_group": "Obligado, Itapúa",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -14368,7 +14960,7 @@
     "category": "Tiendas",
     "merchant_name": "Eneache",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -14482,7 +15074,7 @@
     "category": "Tiendas",
     "merchant_name": "Facha Facha",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -14566,7 +15158,7 @@
     "category": "Tiendas",
     "merchant_name": "Fitway",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "25%; 25% de reintegro; 20% de reintegro",
+    "benefit_summary": "25% de reintegro; 20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "25%",
@@ -14762,7 +15354,7 @@
     "category": "Tiendas",
     "merchant_name": "Gaete - Tienda Deportiva",
     "merchant_locations_or_group": "Tomás R. Pereira",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -14786,7 +15378,7 @@
     "category": "Tiendas",
     "merchant_name": "Ganian Petshop",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -14840,7 +15432,7 @@
     "category": "Tiendas",
     "merchant_name": "Giorgio Redaelli",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -14920,7 +15512,7 @@
     "category": "Tiendas",
     "merchant_name": "HeartWood",
     "merchant_locations_or_group": "Santa Rita (Alto Paraná)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -15307,7 +15899,7 @@
     "category": "Tiendas",
     "merchant_name": "Jessica Valentina Boutique",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -15331,7 +15923,7 @@
     "category": "Tiendas",
     "merchant_name": "Jessica Valentina Lingerie",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -15355,7 +15947,7 @@
     "category": "Tiendas",
     "merchant_name": "Joy Calzados",
     "merchant_locations_or_group": "Obligado, Itapúa",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -15467,7 +16059,7 @@
     "category": "Tiendas",
     "merchant_name": "Kyrios - Santani",
     "merchant_locations_or_group": "San Estanislao",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -15491,7 +16083,7 @@
     "category": "Tiendas",
     "merchant_name": "LP Cosméticos",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -15704,7 +16296,7 @@
     "category": "Tiendas",
     "merchant_name": "LanderFit",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "35%; 35% de reintegro",
+    "benefit_summary": "35% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "35%"
@@ -15728,7 +16320,7 @@
     "category": "Tiendas",
     "merchant_name": "Le Parfum",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -15984,7 +16576,7 @@
     "category": "Tiendas",
     "merchant_name": "Marijoa Tejidos",
     "merchant_locations_or_group": "Todo el país",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -16062,7 +16654,7 @@
     "category": "Tiendas",
     "merchant_name": "María José",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -16086,7 +16678,7 @@
     "category": "Tiendas",
     "merchant_name": "Mas Chic Store",
     "merchant_locations_or_group": "Fram (Itapúa)",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -16202,7 +16794,7 @@
     "category": "Tiendas",
     "merchant_name": "Mi Dulce Bebé",
     "merchant_locations_or_group": "Bella Vista",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -16312,7 +16904,7 @@
     "category": "Tiendas",
     "merchant_name": "Modas Espinola",
     "merchant_locations_or_group": "Campo 9",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -16336,7 +16928,7 @@
     "category": "Tiendas",
     "merchant_name": "Modas Stella",
     "merchant_locations_or_group": "Caaguazú",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -16384,7 +16976,7 @@
     "category": "Tiendas",
     "merchant_name": "Multitienda",
     "merchant_locations_or_group": "Col. Hohenau",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -16436,7 +17028,7 @@
     "category": "Tiendas",
     "merchant_name": "Nadia Cosméticos",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -16670,7 +17262,7 @@
     "category": "Tiendas",
     "merchant_name": "Paats&Paats",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "30%; 30% de reintegro; 25% de reintegro",
+    "benefit_summary": "30% de reintegro; 25% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "30%",
@@ -16725,7 +17317,7 @@
     "category": "Tiendas",
     "merchant_name": "Parana Calzados",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -16777,7 +17369,7 @@
     "category": "Tiendas",
     "merchant_name": "Penina - Galan",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -16829,7 +17421,7 @@
     "category": "Tiendas",
     "merchant_name": "Pistacho",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -16883,7 +17475,7 @@
     "category": "Tiendas",
     "merchant_name": "Prontodog (Vetspy)",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -16935,7 +17527,7 @@
     "category": "Tiendas",
     "merchant_name": "Quien Diría - Boutique",
     "merchant_locations_or_group": "Col. Hohenau",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17012,7 +17604,7 @@
     "category": "Tiendas",
     "merchant_name": "Rondina",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17098,7 +17690,7 @@
     "category": "Tiendas",
     "merchant_name": "San Cayetano - Centro de Compras",
     "merchant_locations_or_group": "Ayolas - Misiones",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17176,7 +17768,7 @@
     "category": "Tiendas",
     "merchant_name": "Shop Center La Economía",
     "merchant_locations_or_group": "Col. Hohenau",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17200,7 +17792,7 @@
     "category": "Tiendas",
     "merchant_name": "Shopping Lion",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
       "20%"
@@ -17255,7 +17847,7 @@
     "category": "Tiendas",
     "merchant_name": "Sindec",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17338,7 +17930,7 @@
     "category": "Tiendas",
     "merchant_name": "Sport Shop",
     "merchant_locations_or_group": "Col. Hohenau",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17423,7 +18015,7 @@
     "category": "Tiendas",
     "merchant_name": "Tayanara Boutique",
     "merchant_locations_or_group": "San Ignacio, Misiones",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17447,7 +18039,7 @@
     "category": "Tiendas",
     "merchant_name": "Tche Morena",
     "merchant_locations_or_group": "Bella Vista Sur",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17471,7 +18063,7 @@
     "category": "Tiendas",
     "merchant_name": "Tessy Boutique",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17495,7 +18087,7 @@
     "category": "Tiendas",
     "merchant_name": "The Black Cow",
     "merchant_locations_or_group": "Mariano Roque Alonso",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17547,7 +18139,7 @@
     "category": "Tiendas",
     "merchant_name": "Tienda Adlin",
     "merchant_locations_or_group": "Campo 9",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17685,7 +18277,7 @@
     "category": "Tiendas",
     "merchant_name": "Tiento Multimarcas",
     "merchant_locations_or_group": "Caaguazú",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -17887,7 +18479,7 @@
     "category": "Tiendas",
     "merchant_name": "Tu Estilo Boutique",
     "merchant_locations_or_group": "Pilar",
-    "benefit_summary": "10%; 10 % de descuento",
+    "benefit_summary": "10% de descuento",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
       "10%",
@@ -17976,7 +18568,7 @@
     "category": "Tiendas",
     "merchant_name": "Vane Shop",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -18031,7 +18623,7 @@
     "category": "Tiendas",
     "merchant_name": "Venus's Calzados",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "10%; 10% de reintegro",
+    "benefit_summary": "10% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "10%"
@@ -18085,7 +18677,7 @@
     "category": "Tiendas",
     "merchant_name": "Violeta",
     "merchant_locations_or_group": "San Ignacio, Misiones",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -18109,7 +18701,7 @@
     "category": "Tiendas",
     "merchant_name": "Violeta - Munditex",
     "merchant_locations_or_group": "No especificado",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -18133,7 +18725,7 @@
     "category": "Tiendas",
     "merchant_name": "Wish Boutique",
     "merchant_locations_or_group": "Bella Vista",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -18302,7 +18894,7 @@
     "category": "Tiendas",
     "merchant_name": "Ñemonde Tienda",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -19560,7 +20152,7 @@
     "category": "Veterinarias",
     "merchant_name": "Tiempo de Mascota",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -21812,10 +22404,10 @@
     "category": "Belleza y Salud",
     "merchant_name": "El Mundo del Asado",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro con todas las tarjetas de crédito + 5% con las tarjetas de crédito Personal Bank y hasta 10 cuotas sin intereses",
+    "benefit_summary": "10 Cuotas sin intereses 25% Hasta; Tenes 20% de ahorro con todas las tarjetas de crédito + 5% con las tarjetas de crédito Personal Bank y hasta 10 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -21836,10 +22428,9 @@
     "category": "Belleza y Salud",
     "merchant_name": "Punto Farma",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 35 % Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses.",
+    "benefit_summary": "6 Cuotas sin intereses 35% Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "35 %",
       "35%",
       "30%",
       "25%"
@@ -21863,10 +22454,9 @@
     "category": "Belleza y Salud",
     "merchant_name": "Punto Farma",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses.",
+    "benefit_summary": "20% Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%",
       "5%"
     ],
@@ -21891,10 +22481,9 @@
     "category": "Cafeterías",
     "merchant_name": "Almarreina",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -21920,10 +22509,9 @@
     "category": "Cafeterías",
     "merchant_name": "CAFE PILAR",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -21949,10 +22537,9 @@
     "category": "Cafeterías",
     "merchant_name": "El Cafetero",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -21978,10 +22565,9 @@
     "category": "Cafeterías",
     "merchant_name": "El Café de aca",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -22007,10 +22593,9 @@
     "category": "Cafeterías",
     "merchant_name": "Havanna",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -22036,10 +22621,9 @@
     "category": "Cafeterías",
     "merchant_name": "Kafea",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -22065,10 +22649,9 @@
     "category": "Cafeterías",
     "merchant_name": "La Lilia Cafe",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -22094,10 +22677,9 @@
     "category": "Cafeterías",
     "merchant_name": "Medialunas Calentitas",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -22123,10 +22705,9 @@
     "category": "Cafeterías",
     "merchant_name": "Quattro D",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -22152,10 +22733,9 @@
     "category": "Cafeterías",
     "merchant_name": "Waffle Roga",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -22181,10 +22761,9 @@
     "category": "Delimarket",
     "merchant_name": "Delimarket",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; 20% de reintegro",
+    "benefit_summary": "20% de reintegro",
     "benefit_type": "reintegro",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -22230,10 +22809,10 @@
     "category": "Gastronomía",
     "merchant_name": "Almacen De Pizzas",
     "merchant_locations_or_group": "",
-    "benefit_summary": "30 % Hasta; Tenes 25% de ahorro con todas las tarjetas de crédito + 5% adicional con tarjetas de crédito Personal Bank (Amex Platinum y Visa Infinite).",
+    "benefit_summary": "30% Hasta; Tenes 25% de ahorro con todas las tarjetas de crédito + 5% adicional con tarjetas de crédito Personal Bank (Amex Platinum y Visa Infinite).",
     "benefit_type": "beneficio",
     "percentages": [
-      "30 %",
+      "30%",
       "25%",
       "5%"
     ],
@@ -22257,10 +22836,9 @@
     "category": "Gastronomía",
     "merchant_name": "FRANCESCANA",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -22283,10 +22861,9 @@
     "category": "Gastronomía",
     "merchant_name": "Juan Valdez",
     "merchant_locations_or_group": "",
-    "benefit_summary": "25 % Hasta; Tenes 25% de reintegro + 5% adicional con AMEX PLATINUM y VISA INFINITE",
+    "benefit_summary": "25% Hasta; Tenes 25% de reintegro + 5% adicional con AMEX PLATINUM y VISA INFINITE",
     "benefit_type": "reintegro",
     "percentages": [
-      "25 %",
       "25%",
       "5%"
     ],
@@ -22358,10 +22935,9 @@
     "category": "Hogar",
     "merchant_name": "CENTRO DE MATERIALES",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 40 %; Tenes 40% de ahorro con Tarjeta de Crédito y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "10 Cuotas sin intereses 40%; Tenes 40% de ahorro con Tarjeta de Crédito y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "40 %",
       "40%"
     ],
     "promotion_days": [],
@@ -22381,10 +22957,9 @@
     "category": "Hogar",
     "merchant_name": "Corporacion Mercantil",
     "merchant_locations_or_group": "",
-    "benefit_summary": "25 % 10 Cuotas sin intereses; 25% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "25% 10 Cuotas sin intereses; 25% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
       "25%"
     ],
     "promotion_days": [],
@@ -22404,10 +22979,9 @@
     "category": "Hogar",
     "merchant_name": "Essen",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 30 %; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "10 Cuotas sin intereses 30%; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "30 %",
       "30%"
     ],
     "promotion_days": [],
@@ -22447,10 +23021,9 @@
     "category": "Hogar",
     "merchant_name": "Luminotecnia",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 15 %; 15% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "10 Cuotas sin intereses 15%; 15% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "15 %",
       "15%"
     ],
     "promotion_days": [
@@ -22492,10 +23065,9 @@
     "category": "Hogar",
     "merchant_name": "Tecnocentro",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 45 % Hasta; Tenes hasta 45% de descuento y hasta 10 cuotas sin intereses",
+    "benefit_summary": "10 Cuotas sin intereses 45% Hasta; Tenes hasta 45% de descuento y hasta 10 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "45 %",
       "45%"
     ],
     "promotion_days": [],
@@ -22515,10 +23087,9 @@
     "category": "Indumentaria",
     "merchant_name": "Tiendas Martel",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 50 % Hasta; Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses.",
+    "benefit_summary": "6 Cuotas sin intereses 50% Hasta; Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "50 %",
       "50%"
     ],
     "promotion_days": [],
@@ -22558,10 +23129,9 @@
     "category": "Indumentaria",
     "merchant_name": "Wrangler",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 50 % Hasta; Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses.",
+    "benefit_summary": "6 Cuotas sin intereses 50% Hasta; Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "50 %",
       "50%"
     ],
     "promotion_days": [],
@@ -22581,10 +23151,9 @@
     "category": "Niños",
     "merchant_name": "AVENTURA PARK",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10 % 10 Cuotas sin intereses; Tenés 10% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "10% 10 Cuotas sin intereses; Tenés 10% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "10 %",
       "10%"
     ],
     "promotion_days": [],
@@ -22604,10 +23173,9 @@
     "category": "Niños",
     "merchant_name": "Estoy Jugueteria",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses.",
+    "benefit_summary": "20% 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -22629,10 +23197,9 @@
     "category": "Niños",
     "merchant_name": "Owoki",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 20 % Hasta; 20% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "10 Cuotas sin intereses 20% Hasta; 20% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%",
       "15%",
       "5%"
@@ -22654,10 +23221,9 @@
     "category": "Shell",
     "merchant_name": "Shell",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; 20% de REINTEGRO con tu tarjeta de Crédito ORO y PREMIUM.",
+    "benefit_summary": "20% de REINTEGRO con tu tarjeta de Crédito ORO y PREMIUM.",
     "benefit_type": "reintegro",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -22679,10 +23245,9 @@
     "category": "Stock & Superseis",
     "merchant_name": "Stock",
     "merchant_locations_or_group": "",
-    "benefit_summary": "15 %; 15% de ahorro.",
+    "benefit_summary": "15% de ahorro.",
     "benefit_type": "reintegro",
     "percentages": [
-      "15 %",
       "15%"
     ],
     "promotion_days": [
@@ -22704,10 +23269,9 @@
     "category": "Stock & Superseis",
     "merchant_name": "SuperSeis",
     "merchant_locations_or_group": "",
-    "benefit_summary": "15 %; 15% de ahorro.",
+    "benefit_summary": "15% de ahorro.",
     "benefit_type": "reintegro",
     "percentages": [
-      "15 %",
       "15%"
     ],
     "promotion_days": [
@@ -22729,10 +23293,9 @@
     "category": "Super Real",
     "merchant_name": "Super Real",
     "merchant_locations_or_group": "",
-    "benefit_summary": "15 %; 15% de ahorro.",
+    "benefit_summary": "15% de ahorro.",
     "benefit_type": "reintegro",
     "percentages": [
-      "15 %",
       "15%"
     ],
     "promotion_days": [
@@ -22754,10 +23317,9 @@
     "category": "Supermercados",
     "merchant_name": "Areté",
     "merchant_locations_or_group": "",
-    "benefit_summary": "15 %; Tenes 15% de ahorro.",
+    "benefit_summary": "15%; Tenes 15% de ahorro.",
     "benefit_type": "reintegro",
     "percentages": [
-      "15 %",
       "15%"
     ],
     "promotion_days": [
@@ -22779,12 +23341,11 @@
     "category": "Supermercados",
     "merchant_name": "CASA GRUTTER",
     "merchant_locations_or_group": "",
-    "benefit_summary": "15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM",
+    "benefit_summary": "15% Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM",
     "benefit_type": "reintegro",
     "percentages": [
-      "15 %",
-      "10%",
-      "15%"
+      "15%",
+      "10%"
     ],
     "promotion_days": [
       "martes"
@@ -22805,10 +23366,9 @@
     "category": "Teatro",
     "merchant_name": "CIRKO MARISKO",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "20% 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [],
@@ -22828,10 +23388,9 @@
     "category": "Teatro",
     "merchant_name": "FACUNDO ARANA SOBRE LA MARCHA",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "20% 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [],
@@ -22851,10 +23410,9 @@
     "category": "Teatro",
     "merchant_name": "HABLANDO HUEVADAS",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "20% 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [],
@@ -22874,10 +23432,9 @@
     "category": "Teatro",
     "merchant_name": "LA JENNY",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "20% 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [],
@@ -22897,10 +23454,9 @@
     "category": "Teatro",
     "merchant_name": "RESET UNIPERSONAL STAND UP",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "20% 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [],
@@ -23040,10 +23596,10 @@
     "category": "Varios",
     "merchant_name": "American Look",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23066,10 +23622,10 @@
     "category": "Varios",
     "merchant_name": "Ares",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23112,10 +23668,9 @@
     "category": "Varios",
     "merchant_name": "Bertoni",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 15 % Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 15% Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "15 %",
       "15%",
       "5%",
       "10%"
@@ -23139,10 +23694,10 @@
     "category": "Varios",
     "merchant_name": "Bertoni",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 20 % Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 20% Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
+      "20%",
       "15%",
       "5%"
     ],
@@ -23185,10 +23740,9 @@
     "category": "Varios",
     "merchant_name": "Casa Corbellani",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "20% 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [],
@@ -23208,10 +23762,10 @@
     "category": "Varios",
     "merchant_name": "Cat",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23234,10 +23788,9 @@
     "category": "Varios",
     "merchant_name": "Chacomer",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % 12 Cuotas sin intereses; Tenes 20% de ahorro y hasta 12 cuotas sin intereses.",
+    "benefit_summary": "20% 12 Cuotas sin intereses; Tenes 20% de ahorro y hasta 12 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%",
       "15%"
     ],
@@ -23260,10 +23813,9 @@
     "category": "Varios",
     "merchant_name": "Chacomer",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % 12 Cuotas sin intereses; Tenes 20% de reintegro con las Tarjetas de Crédito Itaú y HASTA 12 CUOTAS SIN INTERESES",
+    "benefit_summary": "20% 12 Cuotas sin intereses; Tenes 20% de reintegro con las Tarjetas de Crédito Itaú y HASTA 12 CUOTAS SIN INTERESES",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [],
@@ -23283,10 +23835,10 @@
     "category": "Varios",
     "merchant_name": "Crocs",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23309,10 +23861,10 @@
     "category": "Varios",
     "merchant_name": "Denoir",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23355,10 +23907,9 @@
     "category": "Varios",
     "merchant_name": "Fapasisa",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 20 % Hasta; hasta 20% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "10 Cuotas sin intereses 20% Hasta; hasta 20% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [],
@@ -23378,10 +23929,10 @@
     "category": "Varios",
     "merchant_name": "Hering",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 20 % Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 20% Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
+      "20%",
       "15%",
       "5%"
     ],
@@ -23404,10 +23955,10 @@
     "category": "Varios",
     "merchant_name": "Indio Termos",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23430,10 +23981,10 @@
     "category": "Varios",
     "merchant_name": "JOSEPH COIFFURE",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23456,10 +24007,9 @@
     "category": "Varios",
     "merchant_name": "Lomas Padel",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; Tenes 20% de ahorro con APPLE PAY o GOOGLE PAY (billeteras).",
+    "benefit_summary": "20%; Tenes 20% de ahorro con APPLE PAY o GOOGLE PAY (billeteras).",
     "benefit_type": "beneficio",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -23482,10 +24032,9 @@
     "category": "Varios",
     "merchant_name": "Mi portal Coca Cola",
     "merchant_locations_or_group": "",
-    "benefit_summary": "25 %; 25% de ahorro.",
+    "benefit_summary": "25% de ahorro.",
     "benefit_type": "beneficio",
     "percentages": [
-      "25 %",
       "25%"
     ],
     "promotion_days": [
@@ -23507,10 +24056,10 @@
     "category": "Varios",
     "merchant_name": "New Balance",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23533,10 +24082,10 @@
     "category": "Varios",
     "merchant_name": "Nice",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23559,10 +24108,10 @@
     "category": "Varios",
     "merchant_name": "Pampero",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23585,10 +24134,10 @@
     "category": "Varios",
     "merchant_name": "Patrol",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23611,10 +24160,9 @@
     "category": "Varios",
     "merchant_name": "Primer Martes",
     "merchant_locations_or_group": "",
-    "benefit_summary": "25 % Hasta 10 Cuotas sin intereses; hasta 25% de ahorro y hasta 10 cuotas sin intereses + 10% con código QR, Apple Pay, Google Pay.",
+    "benefit_summary": "25% Hasta 10 Cuotas sin intereses; hasta 25% de ahorro y hasta 10 cuotas sin intereses + 10% con código QR, Apple Pay, Google Pay.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
       "25%",
       "10%",
       "5%"
@@ -23658,10 +24206,10 @@
     "category": "Varios",
     "merchant_name": "Rondina",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23684,10 +24232,10 @@
     "category": "Varios",
     "merchant_name": "Sallustro",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23710,10 +24258,9 @@
     "category": "Varios",
     "merchant_name": "Shell",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 %; 20% de reintegro con tu tarjeta de Crédito clásica",
+    "benefit_summary": "20% de reintegro con tu tarjeta de Crédito clásica",
     "benefit_type": "reintegro",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -23735,10 +24282,10 @@
     "category": "Varios",
     "merchant_name": "Sport House",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23761,10 +24308,10 @@
     "category": "Varios",
     "merchant_name": "TL Sports & Outdoors",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23787,10 +24334,10 @@
     "category": "Varios",
     "merchant_name": "Timberland",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23833,10 +24380,10 @@
     "category": "Varios",
     "merchant_name": "VGS",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -23859,10 +24406,10 @@
     "category": "Varios",
     "merchant_name": "Vernier",
     "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "25 %",
+      "25%",
       "20%",
       "5%"
     ],
@@ -24505,10 +25052,9 @@
     "category": "Últimos días",
     "merchant_name": "BELA NAILS",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses.",
+    "benefit_summary": "20% 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -24530,10 +25076,10 @@
     "category": "Últimos días",
     "merchant_name": "Maestro",
     "merchant_locations_or_group": "",
-    "benefit_summary": "60 % Hasta 10 Cuotas sin intereses; Tenés hasta 50% de descuento en caja + 10% adicional vía reintegro pagando con GPAY y APPLE PAY + hasta 6 cuotas sin intereses",
+    "benefit_summary": "60% Hasta 10 Cuotas sin intereses; Tenés hasta 50% de descuento en caja + 10% adicional vía reintegro pagando con GPAY y APPLE PAY + hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "60 %",
+      "60%",
       "50%",
       "10%"
     ],
@@ -24554,10 +25100,9 @@
     "category": "Últimos días",
     "merchant_name": "Tippy Toe",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_summary": "20% 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20 %",
       "20%"
     ],
     "promotion_days": [
@@ -31248,11 +31793,11 @@
     "category": "Tiendas",
     "merchant_name": "Koala Solo con",
     "merchant_locations_or_group": "Promoción válida para todas las sucursales , tiendas multimarcas y sitio web de Koala ● El",
-    "benefit_summary": "10 %",
+    "benefit_summary": "10%",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "10 %",
       "10%",
+      "10 %",
       "45%",
       "100%"
     ],

@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 23
+Total de beneficios: 22
 
 ## Bienestar
 
@@ -73,7 +73,6 @@ Total de beneficios: 23
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Assist Card | 40% de descuento; 12 cuotas sin intereses | Del 17 al 23 de agosto | El descuento se realiza en caja. La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Vigente las fechas del 17 al  |
 | Atlas Viajes | 18 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita al momento de la compra, hasta 18 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Utilización de puntos Atlas Más sujeta a disponibilidad del client |
 | Planeá tus próximas vacaciones | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para c |
 

@@ -13,6 +13,22 @@ START = f"{BASE}/web/beneficios"
 OUT_CSV = Path("outputs/atlas_beneficios_por_categoria.csv")
 OUT_MD = Path("outputs/atlas_beneficios_por_categoria.md")
 WORK_DIR = Path("work/atlas")
+FIELDNAMES = [
+    "Categoría",
+    "Banco",
+    "Comercio/Promoción",
+    "Cantidad de descuento / beneficio",
+    "Día de promoción",
+    "Vigencia",
+    "Localidad",
+    "Montos / topes",
+    "Medios de pago",
+    "Beneficio adicional",
+    "Detalle",
+    "Logo URL",
+    "URL detalle",
+    "URL categoría",
+]
 
 
 def clean(text):
@@ -103,8 +119,12 @@ def main():
                 rows.append(row)
 
     rows.sort(key=lambda r: (r["Categoría"], r["Comercio/Promoción"]))
+    if not rows:
+        print("WARNING: Atlas returned 0 active benefits. Keeping existing Atlas output files.")
+        return
+
     with OUT_CSV.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
         writer.writeheader()
         writer.writerows(rows)
 

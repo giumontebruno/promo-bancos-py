@@ -12,6 +12,10 @@
     "f0b8d88ff2a85ff1",
     "0323c816c23ff5a0"
   ],
+  "Bienestar": [
+    "84714bfec7199316",
+    "25ac0630761a2330"
+  ],
   "Cafeterías": [
     "62a72c36923d8942",
     "764e0b7ae92f5e1f",
@@ -98,6 +102,7 @@
     "07955249ec6490ff"
   ],
   "Educación": [
+    "d70ba6f32e9a8624",
     "f6748e7507bca66e",
     "cf87e5bc4660e379",
     "c64b8700b06eb392"
@@ -295,6 +300,9 @@
     "c0941e4a5daeb225"
   ],
   "Gastronomía": [
+    "dad8e8a3e3de5f98",
+    "bbca9c1b1ccde9ac",
+    "ff6803046a6c7441",
     "f7af2a04b44c58d1",
     "eb602f9fd55bfa28",
     "9c98a07b5b07bd58",
@@ -385,10 +393,20 @@
     "5dd6a0de03ac15f9",
     "92c7c2523e185326"
   ],
+  "Generales": [
+    "eac0369ab2c3948b",
+    "e45d6706ec738e16",
+    "24061c3af11c4ecd",
+    "c518393e58fbd72c",
+    "e34f133d048a72fe",
+    "e5e058339b15df8e",
+    "5f25d91d35d7793d"
+  ],
   "Heladerías": [
     "acc0fb84f566d4ac"
   ],
   "Hogar": [
+    "f15cf9854b37b0c4",
     "612938efa3877640",
     "7107bbfd93af0bbb",
     "baa4ff7557657b94",
@@ -542,6 +560,8 @@
     "eb5f2f5552b15e7e"
   ],
   "Moda": [
+    "5bdbd310b2b62478",
+    "aefe80febf55cf40",
     "5c9ecaa42c9f540f",
     "d6f116af94e1bcf3",
     "efba88f20d24bbac",
@@ -718,6 +738,8 @@
     "d6c367ffeaac383a"
   ],
   "Supermercados": [
+    "405df50264da77c4",
+    "28100c1f8dcdffbe",
     "a05b63930854650d",
     "a3de2b0855afe847",
     "051836cd3100fde5",
@@ -894,6 +916,7 @@
     "7185b3e16b670118"
   ],
   "Tecnología": [
+    "e77fe8d93e9865f3",
     "a4f9f338850cd745",
     "aa50c64612e4b6a8",
     "80635aa5c66c9f35",
@@ -1273,6 +1296,9 @@
     "cff3459eab37905a",
     "b8be0bfa667e7dfe"
   ],
+  "Vehículo": [
+    "3d01eed9be736446"
+  ],
   "Vehículos": [
     "d5af13b5ac1f8e0d",
     "fcd1d2cc066af668",
@@ -1354,6 +1380,8 @@
     "cbc5c46ff4fe5931"
   ],
   "Viajes": [
+    "04b47072d932b2ef",
+    "22fe69aae80494a1",
     "9906fd2ee665637d",
     "4e201b27a611ced0",
     "8b7c2849ff856866",

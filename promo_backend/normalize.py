@@ -157,6 +157,13 @@ def detect_percentages(text):
     return list(dict.fromkeys(re.findall(r"\d{1,3}\s*%", clean(text))))
 
 
+def normalize_benefit_summary(text):
+    value = clean(text)
+    value = re.sub(r"^(\d{1,3})\s*%\s*;\s*(?=\1\s*%)", "", value, flags=re.IGNORECASE).strip()
+    value = re.sub(r"\b(\d{1,3})\s+%", r"\1%", value)
+    return value
+
+
 def detect_special_flags(bank, *texts):
     haystack = clean(" ".join(texts)).lower()
     flags = []
@@ -191,14 +198,14 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "Promoción",
         "Promocion",
     )
-    benefit = first(
+    benefit = normalize_benefit_summary(first(
         row,
         "Cantidad de descuento / beneficio",
         "% detectado",
         "Beneficios",
         "Beneficio",
         "Detalle",
-    )
+    ))
     day_text = first(row, "Día de promoción", "Dia de promoción", "Día", "Dia")
     validity = first(row, "Vigencia", "Hasta", "Desde")
     merchants = first(row, "Locales / comercios detectados", "Locales / comercios incluidos", "Locales")
