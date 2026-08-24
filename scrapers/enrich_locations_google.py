@@ -105,6 +105,8 @@ def google_text_search(item):
         },
         timeout=25,
     )
+    if response.status_code == 403:
+        raise RuntimeError("Google Places API denied the request. Enable Places API (New) and allow it in the backend key restrictions.")
     response.raise_for_status()
     places = response.json().get("places") or []
     if not places:
@@ -135,6 +137,8 @@ def google_geocode(item):
         },
         timeout=25,
     )
+    if response.status_code == 403:
+        raise RuntimeError("Google Geocoding API denied the request. Enable Geocoding API and allow it in the backend key restrictions.")
     response.raise_for_status()
     payload = response.json()
     if payload.get("status") != "OK" or not payload.get("results"):
@@ -209,7 +213,11 @@ def main():
     for item in locations:
         if not should_enrich(item):
             continue
-        result = enrich_one(item, cache)
+        try:
+            result = enrich_one(item, cache)
+        except RuntimeError as error:
+            print(str(error))
+            break
         apply_result(item, result)
         if result:
             enriched += 1
