@@ -1,9 +1,10 @@
-const CACHE_NAME = "payback-py-v20260824-leaflet-map";
+const CACHE_NAME = "payback-py-v20260824-google-map-ready";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
+  "./config.js",
   "./manifest.webmanifest",
   "./assets/logos/payback-py.svg",
   "../public/promotions.json",

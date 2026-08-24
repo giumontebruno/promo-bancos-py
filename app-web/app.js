@@ -126,6 +126,10 @@ const nearbyMapState = {
   map: null,
   markers: [],
   userMarker: null,
+  googleMap: null,
+  googleMarkers: [],
+  googleUserMarker: null,
+  googlePromise: null,
 };
 
 const bankThemes = {
@@ -1280,8 +1284,10 @@ function renderNearbyView() {
         </div>
         <div id="nearbyMap" class="leaflet-map" aria-label="Mapa de locales con promociones"></div>
         <div class="map-place-sheet">
-          <strong>${escapeHtml(selectedPlace.name)}</strong>
-          <span>${promos.length} promos${state.location ? ` · ${formatDistance(selectedDistance)}` : ""}</span>
+          <div>
+            <strong>${escapeHtml(selectedPlace.name)}</strong>
+            <span>${promos.length} promos${state.location ? ` · ${formatDistance(selectedDistance)}` : ""}</span>
+          </div>
           ${mapsUrl ? `<a class="maps-link compact" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer">Ir con Maps</a>` : ""}
         </div>
       </div>
@@ -1315,9 +1321,41 @@ function renderMapMarker(item, selectedPlace) {
 }
 
 function hydrateNearbyMap(points, selectedPlace) {
-  if (!window.L) return;
-  const mapElement = document.querySelector("#nearbyMap");
-  if (!mapElement) return;
+  ensureGoogleMaps().then((hasGoogleMaps) => {
+    if (hasGoogleMaps) {
+      renderGoogleNearbyMap(points, selectedPlace);
+    } else {
+      renderLeafletNearbyMap(points, selectedPlace);
+    }
+  });
+}
+
+function getGoogleMapsApiKey() {
+  return String(window.PAYBACK_CONFIG?.googleMapsApiKey || "").trim();
+}
+
+function ensureGoogleMaps() {
+  const apiKey = getGoogleMapsApiKey();
+  if (!apiKey) return Promise.resolve(false);
+  if (window.google?.maps) return Promise.resolve(true);
+  if (nearbyMapState.googlePromise) return nearbyMapState.googlePromise;
+  nearbyMapState.googlePromise = new Promise((resolve) => {
+    const callbackName = `paybackGoogleMapsReady${Date.now()}`;
+    window[callbackName] = () => {
+      delete window[callbackName];
+      resolve(true);
+    };
+    const script = document.createElement("script");
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&callback=${callbackName}`;
+    script.async = true;
+    script.defer = true;
+    script.onerror = () => resolve(false);
+    document.head.appendChild(script);
+  });
+  return nearbyMapState.googlePromise;
+}
+
+function cleanupNearbyMaps() {
   nearbyMapState.markers.forEach((marker) => marker.remove());
   nearbyMapState.markers = [];
   if (nearbyMapState.userMarker) {
@@ -1328,13 +1366,108 @@ function hydrateNearbyMap(points, selectedPlace) {
     nearbyMapState.map.remove();
     nearbyMapState.map = null;
   }
-  const start = selectedPlace && Number.isFinite(selectedPlace.lat) && Number.isFinite(selectedPlace.lng)
-    ? [selectedPlace.lat, selectedPlace.lng]
-    : [-25.2867, -57.6282];
+  nearbyMapState.googleMarkers.forEach((marker) => marker.setMap(null));
+  nearbyMapState.googleMarkers = [];
+  if (nearbyMapState.googleUserMarker) {
+    nearbyMapState.googleUserMarker.setMap(null);
+    nearbyMapState.googleUserMarker = null;
+  }
+}
+
+function getMapStart(selectedPlace) {
+  return selectedPlace && Number.isFinite(selectedPlace.lat) && Number.isFinite(selectedPlace.lng)
+    ? { lat: selectedPlace.lat, lng: selectedPlace.lng }
+    : { lat: -25.2867, lng: -57.6282 };
+}
+
+function renderGoogleNearbyMap(points, selectedPlace) {
+  const mapElement = document.querySelector("#nearbyMap");
+  if (!mapElement || !window.google?.maps) return;
+  cleanupNearbyMaps();
+  const start = getMapStart(selectedPlace);
+  const map = new window.google.maps.Map(mapElement, {
+    center: start,
+    zoom: state.location ? 15 : 12,
+    clickableIcons: false,
+    fullscreenControl: false,
+    mapTypeControl: false,
+    streetViewControl: false,
+    styles: [
+      { elementType: "geometry", stylers: [{ color: "#071629" }] },
+      { elementType: "labels.text.fill", stylers: [{ color: "#d7e2ef" }] },
+      { elementType: "labels.text.stroke", stylers: [{ color: "#071629" }] },
+      { featureType: "road", elementType: "geometry", stylers: [{ color: "#1f3449" }] },
+      { featureType: "road", elementType: "labels.icon", stylers: [{ visibility: "off" }] },
+      { featureType: "water", elementType: "geometry", stylers: [{ color: "#06101f" }] },
+      { featureType: "poi", stylers: [{ visibility: "off" }] },
+    ],
+  });
+  nearbyMapState.googleMap = map;
+  const bounds = new window.google.maps.LatLngBounds();
+  points.slice(0, 80).forEach((item) => {
+    const marker = new window.google.maps.Marker({
+      position: { lat: item.place.lat, lng: item.place.lng },
+      map,
+      title: item.place.name,
+      icon: getGoogleMarkerIcon(item, selectedPlace),
+    });
+    marker.addListener("click", () => {
+      state.activePlaceName = item.place.name;
+      renderNearbyView();
+    });
+    nearbyMapState.googleMarkers.push(marker);
+    bounds.extend(marker.getPosition());
+  });
+  if (state.location) {
+    nearbyMapState.googleUserMarker = new window.google.maps.Marker({
+      position: { lat: state.location.lat, lng: state.location.lng },
+      map,
+      title: "Tu ubicación",
+      icon: {
+        path: window.google.maps.SymbolPath.CIRCLE,
+        scale: 8,
+        fillColor: "#24d79c",
+        fillOpacity: 1,
+        strokeColor: "#f7f1e3",
+        strokeWeight: 3,
+      },
+    });
+    bounds.extend(nearbyMapState.googleUserMarker.getPosition());
+  }
+  if (!bounds.isEmpty()) {
+    map.fitBounds(bounds, 46);
+    window.google.maps.event.addListenerOnce(map, "bounds_changed", () => {
+      if (map.getZoom() > 15) map.setZoom(15);
+    });
+  }
+}
+
+function getGoogleMarkerIcon(item, selectedPlace) {
+  const firstPromo = item.promos[0];
+  const theme = getBankTheme(firstPromo?.bank);
+  const category = getDominantPromoCategory(item.promos);
+  const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
+  const path = (ICON_PATHS[iconKey] || ICON_PATHS.star).replaceAll('"', "'");
+  const selected = item.place.name === selectedPlace.name;
+  const size = selected ? 42 : 34;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}"><rect x="3" y="3" width="${size - 6}" height="${size - 6}" rx="11" fill="${theme.main}" stroke="#f7f1e3" stroke-width="2"/><g transform="translate(${(size - 24) / 2} ${(size - 24) / 2})" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">${path}</g></svg>`;
+  return {
+    url: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`,
+    scaledSize: new window.google.maps.Size(size, size),
+    anchor: new window.google.maps.Point(size / 2, size / 2),
+  };
+}
+
+function renderLeafletNearbyMap(points, selectedPlace) {
+  if (!window.L) return;
+  const mapElement = document.querySelector("#nearbyMap");
+  if (!mapElement) return;
+  cleanupNearbyMaps();
+  const start = getMapStart(selectedPlace);
   const map = window.L.map(mapElement, {
     zoomControl: false,
     attributionControl: false,
-  }).setView(start, state.location ? 15 : 12);
+  }).setView([start.lat, start.lng], state.location ? 15 : 12);
   nearbyMapState.map = map;
   window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,

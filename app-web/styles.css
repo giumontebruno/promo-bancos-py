@@ -1182,18 +1182,19 @@ dialog::backdrop {
 
 .map-toolbar {
   align-items: center;
-  background: rgba(2, 8, 20, 0.72);
+  background: rgba(2, 8, 20, 0.68);
   border: 1px solid rgba(247, 241, 227, 0.12);
-  border-radius: 18px;
+  border-radius: 16px;
   display: flex;
   gap: 12px;
   justify-content: space-between;
   left: 12px;
   position: absolute;
-  right: 12px;
+  right: auto;
   top: 12px;
   z-index: 3;
-  padding: 10px 12px;
+  max-width: calc(100% - 82px);
+  padding: 8px 10px;
 }
 
 .map-toolbar strong,
@@ -1203,13 +1204,13 @@ dialog::backdrop {
 
 .map-toolbar strong {
   color: var(--brand-cream);
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.15;
 }
 
 .map-toolbar small {
   color: var(--brand-cream-muted);
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 800;
   margin-top: 2px;
 }
@@ -1219,6 +1220,9 @@ dialog::backdrop {
   font-size: 12px;
   min-height: 36px;
   padding: 8px 11px;
+  position: absolute;
+  right: -70px;
+  top: 0;
 }
 
 .mini-map button,
@@ -1310,28 +1314,38 @@ dialog::backdrop {
 
 .map-place-sheet {
   align-items: center;
-  background: rgba(2, 8, 20, 0.86);
+  background: rgba(2, 8, 20, 0.78);
   border: 1px solid rgba(247, 241, 227, 0.16);
-  border-radius: 20px;
+  border-radius: 18px;
   bottom: 12px;
   box-shadow: 0 18px 34px rgba(0, 0, 0, 0.34);
-  display: grid;
-  gap: 3px;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
   left: 12px;
-  padding: 12px;
+  padding: 10px;
   position: absolute;
   right: 12px;
   z-index: 3;
 }
 
+.map-place-sheet > div {
+  min-width: 0;
+}
+
 .map-place-sheet strong {
   color: var(--brand-cream);
-  font-size: 14px;
+  display: block;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .map-place-sheet span {
   color: var(--brand-cream-muted);
-  font-size: 12px;
+  display: block;
+  font-size: 11px;
   font-weight: 800;
 }
 
@@ -1384,8 +1398,7 @@ dialog::backdrop {
 }
 
 .maps-link.compact {
-  justify-self: start;
-  margin-top: 6px;
+  flex: 0 0 auto;
   min-height: 34px;
   padding: 7px 11px;
 }
