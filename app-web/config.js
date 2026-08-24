@@ -1,3 +1,3 @@
 window.PAYBACK_CONFIG = {
-  googleMapsApiKey: "",
+  googleMapsApiKey: "AIzaSyCnpaAJg4klLxxSNHTgEm-T9b2spOYMto4",
 };
