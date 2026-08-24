@@ -40,7 +40,9 @@ button {
 
 .topbar {
   align-items: center;
-  background: rgba(6, 20, 38, 0.98);
+  background:
+    radial-gradient(circle at 12% 20%, rgba(247, 241, 227, 0.08), transparent 34%),
+    linear-gradient(135deg, rgba(2, 8, 20, 0.98), rgba(6, 20, 38, 0.96));
   border: 1px solid var(--brand-line);
   border-radius: 30px;
   box-shadow: 0 24px 52px rgba(0, 0, 0, 0.46), inset 0 1px 0 rgba(247, 241, 227, 0.06);
@@ -49,8 +51,26 @@ button {
   gap: 14px;
   justify-content: space-between;
   margin-bottom: 14px;
-  min-height: 106px;
-  padding: 22px;
+  min-height: 118px;
+  overflow: hidden;
+  padding: 20px 22px;
+  position: relative;
+}
+
+.topbar::after {
+  background: linear-gradient(90deg, transparent, rgba(247, 241, 227, 0.1), transparent);
+  content: "";
+  height: 1px;
+  left: 22px;
+  position: absolute;
+  right: 82px;
+  top: 18px;
+}
+
+.topbar-brand {
+  align-items: center;
+  display: flex;
+  min-width: 0;
 }
 
 .eyebrow {
@@ -79,6 +99,7 @@ h1 strong {
   align-items: center;
   display: flex;
   gap: 12px;
+  min-width: 0;
 }
 
 .brand-logo {
@@ -87,9 +108,12 @@ h1 strong {
 
 .full-brand-logo {
   height: auto;
-  max-height: 72px;
-  max-width: min(360px, calc(100vw - 132px));
+  max-height: 92px;
+  max-width: min(460px, calc(100vw - 128px));
   object-fit: contain;
+  object-position: left center;
+  opacity: 0.96;
+  transform: translateX(-2px);
   width: 100%;
 }
 

@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-final-brand";
+const CACHE_NAME = "payback-py-v20260824-header-logo";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,7 +6,7 @@ const APP_SHELL = [
   "./app.js",
   "./config.js",
   "./manifest.webmanifest",
-  "./assets/logos/payback-py-full.png",
+  "./assets/logos/payback-py-wordmark.png",
   "./assets/logos/payback-py-icon-192.png",
   "./assets/logos/payback-py-icon-512.png",
   "../public/promotions.json",
