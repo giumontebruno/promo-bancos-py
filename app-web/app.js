@@ -1783,6 +1783,7 @@ function getNearbyPromoPoints() {
   const promoIndex = buildNearbyPromoIndex();
   const dynamicPoints = state.locations
     .filter((place) => Number.isFinite(place.lat) && Number.isFinite(place.lng))
+    .filter(isReliableMapLocation)
     .map((place) => {
       const promos = getPromotionsForLocation(place, promoIndex);
       return {
@@ -1821,8 +1822,16 @@ function getNearbyPromoPoints() {
 
 function isPreciseNearbyPoint(point) {
   const source = point?.place?.geocode_source || "";
+  const confidence = point?.place?.google_confidence || "";
   return Boolean(point && Number.isFinite(point.place?.lat) && Number.isFinite(point.place?.lng)
-    && source !== "city_approximation" && source !== "");
+    && source !== "city_approximation" && source !== "" && confidence !== "review");
+}
+
+function isReliableMapLocation(place) {
+  const source = place?.geocode_source || "";
+  const confidence = place?.google_confidence || "";
+  return Boolean(Number.isFinite(place?.lat) && Number.isFinite(place?.lng)
+    && source !== "city_approximation" && source !== "" && confidence !== "review");
 }
 
 function preferBetterPlace(current, next) {

@@ -3,6 +3,7 @@ import os
 import re
 import time
 import unicodedata
+from datetime import datetime
 from pathlib import Path
 
 import requests
@@ -228,7 +229,12 @@ def main():
         if enriched >= LIMIT:
             break
     payload["google_enriched_locations"] = sum(1 for item in locations if str(item.get("geocode_source", "")).startswith("google_"))
+    payload["geocoded_locations"] = sum(
+        1 for item in locations
+        if isinstance(item.get("lat"), (int, float)) and isinstance(item.get("lng"), (int, float))
+    )
     payload["google_enrichment_focus"] = "Asunción y Gran Asunción"
+    payload["locations_updated_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
     save_json(LOCATIONS_JSON, payload)
     save_json(CACHE_PATH, cache)
     save_json(METRO_OUTPUT, reviewed[:100])

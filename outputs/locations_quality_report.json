@@ -1,0 +1,725 @@
+{
+  "generated_at": "2026-08-24T17:43:36-03:00",
+  "total_locations": 948,
+  "metro_locations": 517,
+  "with_coordinates": 660,
+  "precise_or_google_locations": 517,
+  "needs_review": 564,
+  "needs_review_metro": 133,
+  "source_counts": {
+    "google_places_text_search": 491,
+    "city_approximation": 143,
+    "official_map_link": 12,
+    "manual": 13,
+    "missing": 288,
+    "google_geocoding": 1
+  },
+  "confidence_counts": {
+    "medium": 330,
+    "review": 133,
+    "not_google": 444,
+    "high": 41
+  },
+  "close_conflicts": [
+    {
+      "merchant_name": "Estaciones de Servicio",
+      "location_a": "Ruta 1 Km. 20,5",
+      "location_b": "Km. 20 Ruta Yuquyry",
+      "city": "Capiatá",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Estaciones de Servicio",
+      "location_a": "Alejo García y Sgto. Rivas Ortellado - Barrio Catedral",
+      "location_b": "Avda. Bernardino Caballero entre Av. América y Julio Correa",
+      "city": "Ciudad del Este",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Estaciones de Servicio",
+      "location_a": "San Isidro y Bonifacio Ovando",
+      "location_b": "Avda. San Isidro esq. La Fortuna",
+      "city": "Lambaré",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Estaciones de Servicio",
+      "location_a": "Avenida San Joseé 817",
+      "location_b": "Avda. San Joseé",
+      "city": "Limpio",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Estaciones de Servicio",
+      "location_a": "Avda. Carlos Antonio López esq. Manuel Irala Fernández",
+      "location_b": "Avda. Gral. Eugenio Alejandrino Garay esq. Tte. Wenseslao",
+      "city": "Mariano Roque Alonso",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Estaciones de Servicio",
+      "location_a": "Avda. Manuel Ortiz Guerrero antes de la entrada al Cerro Nemby",
+      "location_b": "Avda. Manuel Ortiz Guerrero esq. Rosa Mística",
+      "city": "Nemby",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Estaciones de Servicio",
+      "location_a": "Ruta Acceso Sur Km 17,5, e/ Calle Zenteno y Fortín Toledo",
+      "location_b": "Avda. De La Victoria y Pompeya - Ruta Nemby",
+      "city": "Nemby",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Estaciones de Servicio",
+      "location_a": "Avda. Defensores del Chaco y Azahares",
+      "location_b": "Palma esq. Mcal. Estigarribia",
+      "city": "Villa Elisa",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Estaciones de Servicio",
+      "location_a": "Avda. Defensores del Chaco y Azahares",
+      "location_b": "Cnel. Martínez esq. Mcal. Estigarribia",
+      "city": "Villa Elisa",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Estaciones de Servicio",
+      "location_a": "Palma esq. Mcal. Estigarribia",
+      "location_b": "Cnel. Martínez esq. Mcal. Estigarribia",
+      "city": "Villa Elisa",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Gral. Gervasio Artigas y Calle Enrique Solano López",
+      "location_b": "Concepción Leyes de Chávez",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Federación Rusa y Augusto Roa Bastos",
+      "location_b": "San Roque Gonzalez y Quesada",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Federación Rusa y Augusto Roa Bastos",
+      "location_b": "Avda. España esq. Santa Ana N° 429",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. España esq Gral. Santiviago",
+      "location_b": "Avda. España esq. Cassianoff",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. España esq Gral. Santiviago",
+      "location_b": "Avda. España N° 1294 y Senador Long",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Palma e Ind. Nacional Nº 102",
+      "location_b": "Madame Lynch y Liberato Rojas",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Gral. Santos N° 824 y Teodoro S. Mongelos",
+      "location_b": "Avda. Gral. Santos N° 145 Tte. Brugada",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Gral. Santos N° 824 y Teodoro S. Mongelos",
+      "location_b": "11 de Septiembre esq. Fulgencio Yegros",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Gral. Santos N° 824 y Teodoro S. Mongelos",
+      "location_b": "Gral. Santos esq. Teodoro S. Mongelós",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Gral. Santos N° 145 Tte. Brugada",
+      "location_b": "11 de Septiembre esq. Fulgencio Yegros",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Gral. Santos N° 145 Tte. Brugada",
+      "location_b": "Gral. Santos esq. Teodoro S. Mongelós",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Bruno Guggiari N° 412 esq. 29 de Septiembre",
+      "location_b": "Avda. Bruno Guggiari esq. Avda. Fdo. De la Mora",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Eusebio Lillo Robles c/ Cnel. Cabrera",
+      "location_b": "Eusebio Lillo c/ Consejal Vargas",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Calle Transchaco Dr. Carlos A. López",
+      "location_b": "Avda. Carlos A. López N° 920",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Calle Transchaco Dr. Carlos A. López",
+      "location_b": "Carlos Antonio López Esquina Testanova",
+      "city": "Asunción",
+      "distance_m": 12
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Calle Transchaco Dr. Carlos A. López",
+      "location_b": "Avda. Carlos A. López y De la Conquista",
+      "city": "Asunción",
+      "distance_m": 38
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Calle Transchaco Dr. Carlos A. López",
+      "location_b": "Avda. Carlos A. López 933 e/ Dr. Paiva y Testanova",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Eusebio Ayala esq. Tte. 1ro. Ángel Espinoza",
+      "location_b": "Avda. Eusebio Ayala c/ Bernardino Caballero",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Rca. Argentina N° 2650",
+      "location_b": "Rca. Argentina c/ Alberto de Souza y Fernando de la Mora",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Rca. Argentina esq. Diego Garcia",
+      "location_b": "José Asunción Flores esq. Tte. Martínez",
+      "city": "Asunción",
+      "distance_m": 20
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Sacramento y Cap. Lombardo",
+      "location_b": "Avda. Sacramento esq. Dr. Argaña",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Sacramento y Cap. Lombardo",
+      "location_b": "Avda. Stmo. Sacramento esq. Roque Miranda",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Carlos A. López N° 920",
+      "location_b": "Carlos Antonio López Esquina Testanova",
+      "city": "Asunción",
+      "distance_m": 12
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Carlos A. López N° 920",
+      "location_b": "Avda. Carlos A. López y De la Conquista",
+      "city": "Asunción",
+      "distance_m": 38
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Carlos A. López N° 920",
+      "location_b": "Avda. Carlos A. López 933 e/ Dr. Paiva y Testanova",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Carlos Antonio López Esquina Testanova",
+      "location_b": "Avda. Carlos A. López y De la Conquista",
+      "city": "Asunción",
+      "distance_m": 27
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Carlos Antonio López Esquina Testanova",
+      "location_b": "Avda. Carlos A. López 933 e/ Dr. Paiva y Testanova",
+      "city": "Asunción",
+      "distance_m": 12
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Del Maestro 2924 c/ Dr. Caballero",
+      "location_b": "Avda. Mcal. López N° 3683 c/ Senador Long",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Chile y Manduvirá. Local 9. Primer Nivel",
+      "location_b": "Estrella N° 526 y 14 de Mayo",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "San Roque Gonzalez y Quesada",
+      "location_b": "Avda. España esq. Santa Ana N° 429",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Ruta PY03 Gral. Elizardo Aquino y Máxima Lugo",
+      "location_b": "Ruta Mcal. Estigarribia N° 1903 c/ Sgto. Ferreira",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. España esq. Cassianoff",
+      "location_b": "Avda. España N° 1294 y Senador Long",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "11 de Septiembre esq. Fulgencio Yegros",
+      "location_b": "Gral. Santos esq. Teodoro S. Mongelós",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Félix Bogado c/ Campo Vía",
+      "location_b": "Félix Bogado y Capitán Bado",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Mcal. López esq. Bernardino Caballero",
+      "location_b": "Mcal. López esq. Caballero y México",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Mcal. López esq. Bernardino Caballero",
+      "location_b": "Avda. Mcal. López esq. Valdez Verón",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Mcal. López esq. Bernardino Caballero",
+      "location_b": "Av. E. A. Garay e/ Félix Bernie y Vice Pte. Sánchez",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Palma esq. 15 de Agosto",
+      "location_b": "Máximo Caballero c/ Navío Humberto",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Sacramento esq. Dr. Argaña",
+      "location_b": "Avda. Stmo. Sacramento esq. Roque Miranda",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Carlos A. López y De la Conquista",
+      "location_b": "Avda. Carlos A. López 933 e/ Dr. Paiva y Testanova",
+      "city": "Asunción",
+      "distance_m": 38
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Santa Teresa y Cnel. Francisco Martínez",
+      "location_b": "Avda. Mcal. López c/ Santa Teresa",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Aviadores del Chaco N° 3308 e/ Mayor Merlo",
+      "location_b": "Aviadores del Chaco c/ Rigoberto Fontao",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Aviadores del Chaco N° 3308 e/ Mayor Merlo",
+      "location_b": "Avda. Aviadores del Chaco esq. Mayor Leandro",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Choferes del Chaco N° 1908",
+      "location_b": "Choferes del Chaco y Las Perlas",
+      "city": "Asunción",
+      "distance_m": 1
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Mcal. López esq. Caballero y México",
+      "location_b": "Avda. Mcal. López esq. Valdez Verón",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Mcal. López esq. Caballero y México",
+      "location_b": "Av. E. A. Garay e/ Félix Bernie y Vice Pte. Sánchez",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Aviadores del Chaco c/ Rigoberto Fontao",
+      "location_b": "Avda. Aviadores del Chaco esq. Mayor Leandro",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Defensores del Chaco c/ De las Llanas",
+      "location_b": "Avda. Defensores del Chaco y San Isidro",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Mcal. López esq. Valdez Verón",
+      "location_b": "Av. E. A. Garay e/ Félix Bernie y Vice Pte. Sánchez",
+      "city": "Asunción",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "12 de Octubre e/ Ramón Elias y Pbro. P.J. Moreno",
+      "location_b": "Ruta 2 Mcal. Estigarribia casi Ramón Elias",
+      "city": "Capiatá",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "12 de Octubre e/ Ramón Elias y Pbro. P.J. Moreno",
+      "location_b": "Mcal. Estigarribia c/ P. Moreno Km. 19",
+      "city": "Capiatá",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Ruta Departamental D027 Km 22,5 entre 14 de Mayo y Juana de Lara",
+      "location_b": "Ruta 1 KM. 17",
+      "city": "Capiatá",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Ruta Departamental D027 Km 22,5 entre 14 de Mayo y Juana de Lara",
+      "location_b": "Compañía 8 Yvyraro",
+      "city": "Capiatá",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Ruta 2 Mcal. Estigarribia casi Ramón Elias",
+      "location_b": "Mcal. Estigarribia c/ P. Moreno Km. 19",
+      "city": "Capiatá",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Ruta 1 Km. 16",
+      "location_b": "Ruta Departamental D027 esq. España",
+      "city": "Capiatá",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Ruta 1 KM. 17",
+      "location_b": "Compañía 8 Yvyraro",
+      "city": "Capiatá",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Cerro León c/ Alejo García",
+      "location_b": "Rca. de Colombia 1311",
+      "city": "Ciudad del Este",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Juan Leopardi esq. 11 de Septiembre",
+      "location_b": "Ruta PY02 esq. Juan Leopardi",
+      "city": "Fernando de la Mora",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Juan Leopardi esq. 11 de Septiembre",
+      "location_b": "Leopardi esq. 11 de Septiembre",
+      "city": "Fernando de la Mora",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Calle Tte. Ettiene y Primera",
+      "location_b": "Avda. San Francisco c/ Tte. Ettiene",
+      "city": "Fernando de la Mora",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Ruta PY02 esq. Juan Leopardi",
+      "location_b": "Leopardi esq. 11 de Septiembre",
+      "city": "Fernando de la Mora",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Cacique Lambaré y Tte. Ruíz",
+      "location_b": "Avda. Cacique Lambaré esq. María Auxiliadora y Justo Pastor",
+      "city": "Lambaré",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Cacique Lambaré y Tte. Ruíz",
+      "location_b": "Cacique Lambaré esq. Pedro Juan Caballero",
+      "city": "Lambaré",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Cacique Lambaré esq. María Auxiliadora y Justo Pastor",
+      "location_b": "Cacique Lambaré esq. Pedro Juan Caballero",
+      "city": "Lambaré",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Cacique Lambaré N° 1034 Casi Cerro Corá",
+      "location_b": "Cacique Lambaré N° 1180 c/ San Vicente",
+      "city": "Lambaré",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Cacique Lambaré N° 1034 Casi Cerro Corá",
+      "location_b": "Cacique Lambaré c/ Hernán Cortés",
+      "city": "Lambaré",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Cacique Lambaré N° 1034 Casi Cerro Corá",
+      "location_b": "Avda. Cacique Lambaré c/ Choferes del 70",
+      "city": "Lambaré",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Rca. Argentina e/ Paseo del Solar y Paz del Chaco",
+      "location_b": "Avda. Rca. Argentina esq. San Esteban",
+      "city": "Lambaré",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Cacique Lambaré N° 1180 c/ San Vicente",
+      "location_b": "Cacique Lambaré c/ Hernán Cortés",
+      "city": "Lambaré",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Cacique Lambaré N° 1180 c/ San Vicente",
+      "location_b": "Avda. Cacique Lambaré c/ Choferes del 70",
+      "city": "Lambaré",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Cacique Lambaré c/ Hernán Cortés",
+      "location_b": "Avda. Cacique Lambaré c/ Choferes del 70",
+      "city": "Lambaré",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Km. 23 Ruta N° 3 Gral. Aquino y Carlos Antonio López",
+      "location_b": "Calle La Amistad esq. 2do. Barrio",
+      "city": "Limpio",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Km. 23 Ruta N° 3 Gral. Aquino y Carlos Antonio López",
+      "location_b": "Ruta PY03 Gral. Elizardo Aquino N° 294 esq. Choferes del Chaco",
+      "city": "Limpio",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Calle La Amistad esq. 2do. Barrio",
+      "location_b": "Ruta PY03 Gral. Elizardo Aquino N° 294 esq. Choferes del Chaco",
+      "city": "Limpio",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. San Joseé e/ Carlos A. López y Boquerón",
+      "location_b": "Avda. San Joseé y Desvío Salado",
+      "city": "Limpio",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Corrales y Ruta Luque San Bernardino",
+      "location_b": "Humaitá N° 260",
+      "city": "Luque",
+      "distance_m": 29
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Corrales y Ruta Luque San Bernardino",
+      "location_b": "Avda. Humaita esq. 14 de Mayo",
+      "city": "Luque",
+      "distance_m": 29
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Gral. Aquino esq. Alberdi",
+      "location_b": "Ruta Gral. Aquino y Bernardino Caballero",
+      "city": "Luque",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Gral. Aquino esq. Alberdi",
+      "location_b": "Avda. Ramos Alfaro esq. Samukiay",
+      "city": "Luque",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Gral. Aquino esq. Alberdi",
+      "location_b": "Avda. Artigas c/ Bernardino Caballero",
+      "city": "Luque",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Carlos Antonio López esq. 14 de Mayo",
+      "location_b": "14 de Mayo esq. Carlos A. López",
+      "city": "Luque",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Humaitá N° 260",
+      "location_b": "Avda. Humaita esq. 14 de Mayo",
+      "city": "Luque",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Cerro Corá y Fulgencio Yegros",
+      "location_b": "Cerro Corá c/ Azara",
+      "city": "Luque",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Ruta Gral. Aquino y Bernardino Caballero",
+      "location_b": "Avda. Ramos Alfaro esq. Samukiay",
+      "city": "Luque",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Ruta Gral. Aquino y Bernardino Caballero",
+      "location_b": "Avda. Artigas c/ Bernardino Caballero",
+      "city": "Luque",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "14 de Mayo esq. Moisés Bertoni",
+      "location_b": "Coronel Martínez esq. Prof. Inés Figueredo",
+      "city": "Luque",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. Ramos Alfaro esq. Samukiay",
+      "location_b": "Avda. Artigas c/ Bernardino Caballero",
+      "city": "Luque",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Avda. General Bernardino Caballero esq. Autopista Silvio Pettirosi",
+      "location_b": "Boquerón c/ Cañada Tarija",
+      "city": "Mariano Roque Alonso",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Ruta PY03 esq. Cnel. Irrazabal",
+      "location_b": "Ruta PY03 Transchaco c/ Waldino Lovera",
+      "city": "Mariano Roque Alonso",
+      "distance_m": 0
+    },
+    {
+      "merchant_name": "Farmacias",
+      "location_a": "Ruta PY03 esq. Cnel. Irrazabal",
+      "location_b": "Transchaco esq. Zenteno",
+      "city": "Mariano Roque Alonso",
+      "distance_m": 0
+    }
+  ]
+}
