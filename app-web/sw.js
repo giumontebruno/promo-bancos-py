@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-nearby-stable-restore";
+const CACHE_NAME = "payback-py-v20260824-nearby-bottom-panel";
 const APP_SHELL = [
   "./",
   "./index.html",

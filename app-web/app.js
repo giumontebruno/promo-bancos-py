@@ -1362,15 +1362,8 @@ function renderNearbyView() {
         </div>
         ${state.location ? `<button type="button" class="map-user-center" data-map-action="center-user" aria-label="Centrar en mi ubicación" title="Mi ubicación">${renderIcon("target")}</button>` : ""}
         <div id="nearbyMap" class="leaflet-map" aria-label="Mapa de locales con promociones"></div>
-        <div class="map-place-sheet" style="--sheet-accent:${selectedTheme.main};">
-          <div class="map-place-main">
-            <strong>${escapeHtml(getPlaceDisplayName(selectedPlace))}</strong>
-            ${formatPlaceAddress(selectedPlace) ? `<small>${escapeHtml(formatPlaceAddress(selectedPlace))}</small>` : ""}
-            <span>${formatPlaceSheetMeta(selectedPoint, selectedDistance)}</span>
-          </div>
-          ${renderPlaceBankBadges(selectedPoint)}
-        </div>
       </div>
+      ${renderNearbySelectedPlace(selectedPoint, selectedTheme)}
       <div class="place-list">
         ${points.slice(0, 14).map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
       </div>
@@ -1475,8 +1468,25 @@ function renderNearbyPlaceButton(item, selectedPoint) {
           ${item.banks?.length > 1 ? `<b>${item.banks.length} bancos</b>` : ""}
         </span>
       </button>
-      ${isActive ? renderNearbyPlacePromos(item) : ""}
     </div>
+  `;
+}
+
+function renderNearbySelectedPlace(item, theme) {
+  if (!item) return "";
+  const address = formatPlaceAddress(item.place);
+  return `
+    <section class="selected-place-panel" style="--sheet-accent:${theme.main};">
+      <div class="selected-place-head">
+        <div class="map-place-main">
+          <strong>${escapeHtml(getPlaceDisplayName(item.place))}</strong>
+          ${address ? `<small>${escapeHtml(address)}</small>` : ""}
+          <span>${formatPlaceSheetMeta(item, item.distance)}</span>
+        </div>
+        ${renderPlaceBankBadges(item)}
+      </div>
+      ${renderNearbyPlacePromos(item)}
+    </section>
   `;
 }
 
@@ -1484,9 +1494,10 @@ function renderNearbyPlacePromos(item) {
   const cards = item.promos
     .slice(0, 4)
     .flatMap((promo) => {
-      const variants = getPromoVariants(promo);
+      const variants = getPromoVariants(promo).filter(Boolean);
       const visibleVariants = variants.filter((variant) => variant.kind !== "premium").slice(0, 1);
-      return (visibleVariants.length ? visibleVariants : [variants[0] || null]).map((variant) => renderCard(promo, variant));
+      return (visibleVariants.length ? visibleVariants : [variants[0] || null])
+        .map((variant) => renderCard(promo, variant));
     })
     .join("");
   const moreCount = Math.max(0, item.promos.length - 4);

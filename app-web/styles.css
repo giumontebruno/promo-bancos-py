@@ -1395,30 +1395,30 @@ dialog::backdrop {
   width: 16px;
 }
 
-.map-place-sheet {
+.selected-place-panel {
   align-items: center;
   backdrop-filter: blur(16px);
   background: linear-gradient(90deg, color-mix(in srgb, var(--sheet-accent, #d5b874) 22%, rgba(2, 8, 20, 0.78)), rgba(2, 8, 20, 0.68));
   border: 1px solid color-mix(in srgb, var(--sheet-accent, #d5b874) 62%, rgba(247, 241, 227, 0.16));
   border-radius: 18px;
-  bottom: 12px;
   box-shadow: 0 18px 34px rgba(0, 0, 0, 0.34), inset 4px 0 0 var(--sheet-accent, #d5b874);
+  display: grid;
+  gap: 8px;
+  padding: 10px 10px 10px 14px;
+}
+
+.selected-place-head {
+  align-items: center;
   display: flex;
   gap: 10px;
   justify-content: space-between;
-  left: 12px;
-  max-width: min(90%, 560px);
-  min-width: min(78%, 420px);
-  padding: 9px 10px 9px 14px;
-  position: absolute;
-  z-index: 3;
 }
 
 .map-place-main {
   min-width: 0;
 }
 
-.map-place-sheet strong {
+.selected-place-panel strong {
   color: var(--brand-cream);
   display: block;
   font-size: 12px;
@@ -1427,7 +1427,7 @@ dialog::backdrop {
   white-space: nowrap;
 }
 
-.map-place-sheet small {
+.selected-place-panel small {
   color: rgba(247, 241, 227, 0.76);
   display: block;
   font-size: 9px;
@@ -1439,7 +1439,7 @@ dialog::backdrop {
   white-space: nowrap;
 }
 
-.map-place-sheet span {
+.selected-place-panel span {
   color: var(--brand-cream-muted);
   display: block;
   font-size: 10px;
@@ -1561,12 +1561,12 @@ dialog::backdrop {
 }
 
 .place-promo-drawer {
-  background: rgba(247, 241, 227, 0.04);
-  border: 1px solid rgba(213, 184, 116, 0.2);
-  border-radius: 18px;
+  background: rgba(2, 8, 20, 0.3);
+  border: 1px solid rgba(247, 241, 227, 0.1);
+  border-radius: 16px;
   display: grid;
   gap: 8px;
-  padding: 8px;
+  padding: 7px;
 }
 
 .place-promo-header {
