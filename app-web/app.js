@@ -1602,7 +1602,7 @@ function renderGoogleNearbyMap(points, selectedPlace) {
     bounds.extend(nearbyMapState.googleUserMarker.getPosition());
   }
   if (!bounds.isEmpty()) {
-    map.fitBounds(bounds, 64);
+    map.fitBounds(bounds, 48);
     window.google.maps.event.addListenerOnce(map, "bounds_changed", () => {
       if (state.location && map.getZoom() < 15) map.setZoom(15);
       if (map.getZoom() > 17) map.setZoom(17);
@@ -1681,7 +1681,7 @@ function renderLeafletNearbyMap(points, selectedPlace) {
     .map((item) => [item.place.lat, item.place.lng]);
   if (state.location) visible.push([state.location.lat, state.location.lng]);
   if (visible.length > 1) {
-    map.fitBounds(window.L.latLngBounds(visible), { padding: [64, 64], maxZoom: state.location ? 16 : 14 });
+    map.fitBounds(window.L.latLngBounds(visible), { padding: [48, 48], maxZoom: state.location ? 16 : 14 });
   }
   window.setTimeout(() => map.invalidateSize(), 80);
 }
@@ -1697,9 +1697,11 @@ function getDominantPromoCategory(promos) {
 
 function getMapVisiblePoints(points) {
   if (!state.location) return points.slice(0, 18);
-  const close = points.filter((item) => item.distance <= 3.5).slice(0, 28);
-  if (close.length >= 8) return close;
-  return points.slice(0, 24);
+  const precise = points.filter(isPreciseNearbyPoint);
+  const source = precise.length >= 8 ? precise : points;
+  const close = source.filter((item) => item.distance <= 2.5).slice(0, 22);
+  if (close.length >= 6) return close;
+  return source.slice(0, 18);
 }
 
 function getPointPrimaryPromo(point) {
@@ -1781,10 +1783,24 @@ function getNearbyPromoPoints() {
       pointsByName.set(key, { ...item, key });
     }
   });
-  return [...pointsByName.values()].map(enrichNearbyPoint).sort((a, b) => {
+  const sorted = [...pointsByName.values()].map(enrichNearbyPoint).sort((a, b) => {
+    const aPrecise = Number(isPreciseNearbyPoint(a));
+    const bPrecise = Number(isPreciseNearbyPoint(b));
+    if (state.location && aPrecise !== bPrecise) return bPrecise - aPrecise;
     if (state.location && a.distance !== b.distance) return a.distance - b.distance;
     return getBestPromoScore(b.primaryPromo) - getBestPromoScore(a.primaryPromo) || b.banks.length - a.banks.length;
-  }).slice(0, state.location ? 70 : 30);
+  });
+  if (state.location) {
+    const precise = sorted.filter(isPreciseNearbyPoint);
+    if (precise.length >= 8) return precise.slice(0, 70);
+  }
+  return sorted.slice(0, state.location ? 70 : 30);
+}
+
+function isPreciseNearbyPoint(point) {
+  const source = point?.place?.geocode_source || "";
+  return Boolean(point && Number.isFinite(point.place?.lat) && Number.isFinite(point.place?.lng)
+    && source !== "city_approximation" && source !== "");
 }
 
 function preferBetterPlace(current, next) {

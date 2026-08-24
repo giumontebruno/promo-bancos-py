@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-club-black-order";
+const CACHE_NAME = "payback-py-v20260824-nearby-precision";
 const APP_SHELL = [
   "./",
   "./index.html",

@@ -8577,9 +8577,13 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.2951,
-      "lng": -57.621,
-      "geocode_source": "city_approximation"
+      "lat": -25.28217,
+      "lng": -57.56764,
+      "geocode_source": "official_map_link",
+      "google_name": "Delimarket",
+      "formatted_address": "Avenida Aviadores del Chaco esq. Profesora Delia González, Shopping del Sol, Asunción",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-64126ab6de",
@@ -8922,9 +8926,13 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.2819,
-      "lng": -57.6342,
-      "geocode_source": "city_approximation"
+      "lat": -25.2922039,
+      "lng": -57.5596934,
+      "geocode_source": "official_map_link",
+      "google_name": "Superseis Denis Roa",
+      "formatted_address": "Avda. Denis Roa y Lillo, Asunción",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-ab6f369982",
@@ -8952,9 +8960,13 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.2831,
-      "lng": -57.633,
-      "geocode_source": "city_approximation"
+      "lat": -25.3027058,
+      "lng": -57.5642771,
+      "geocode_source": "official_map_link",
+      "google_name": "Hiperseis",
+      "formatted_address": "Avda. Mcal. López y Tte. Casco, Asunción",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-a1098041ba",
@@ -8967,9 +8979,13 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.2831,
-      "lng": -57.6378,
-      "geocode_source": "city_approximation"
+      "lat": -25.2845504,
+      "lng": -57.563528,
+      "geocode_source": "official_map_link",
+      "google_name": "Superseis Galería",
+      "formatted_address": "Avda. Santa Teresa y Aviadores del Chaco, Asunción",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-4497357d28",
@@ -8997,9 +9013,13 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.2867,
-      "lng": -57.6234,
-      "geocode_source": "city_approximation"
+      "lat": -25.303711,
+      "lng": -57.583792,
+      "geocode_source": "official_map_link",
+      "google_name": "Superseis Los Laureles",
+      "formatted_address": "Avda. República Argentina e/ Facundo Machain, Asunción",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-b28d333726",
@@ -9012,9 +9032,13 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.2903,
-      "lng": -57.6234,
-      "geocode_source": "city_approximation"
+      "lat": -25.26999,
+      "lng": -57.563028,
+      "geocode_source": "official_map_link",
+      "google_name": "Superseis Mburucuya",
+      "formatted_address": "Avda. Santísima Trinidad y Julio Correa, Asunción",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-ff98041ccb",
@@ -9027,9 +9051,13 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.2819,
-      "lng": -57.6222,
-      "geocode_source": "city_approximation"
+      "lat": -25.2873388,
+      "lng": -57.6058441,
+      "geocode_source": "official_map_link",
+      "google_name": "Superseis Mundimark",
+      "formatted_address": "Avda. España y Avda. Pitiantuta, Asunción",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-83a9494430",
@@ -9042,9 +9070,13 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.2831,
-      "lng": -57.6222,
-      "geocode_source": "city_approximation"
+      "lat": -25.285572,
+      "lng": -57.620873,
+      "geocode_source": "official_map_link",
+      "google_name": "Superseis España",
+      "formatted_address": "Avda. España casi Brasil, Asunción",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-2776535a48",
@@ -9057,9 +9089,13 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.2963,
-      "lng": -57.6306,
-      "geocode_source": "city_approximation"
+      "lat": -25.3183335,
+      "lng": -57.6298757,
+      "geocode_source": "official_map_link",
+      "google_name": "Superseis Japón",
+      "formatted_address": "Av. José Félix Bogado, Asunción",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-8ae78d6d89",
@@ -9072,9 +9108,13 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.2807,
-      "lng": -57.6366,
-      "geocode_source": "city_approximation"
+      "lat": -25.2880431,
+      "lng": -57.6490241,
+      "geocode_source": "official_map_link",
+      "google_name": "Superseis Total",
+      "formatted_address": "Carlos A. López c/ Colón, Asunción",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-a919284897",
@@ -9612,9 +9652,13 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.3468,
-      "lng": -57.6149,
-      "geocode_source": "city_approximation"
+      "lat": -25.3409133,
+      "lng": -57.5994751,
+      "geocode_source": "official_map_link",
+      "google_name": "Superseis Lambaré",
+      "formatted_address": "Avda. Cacique Lambaré y Pedro J. Caballero, Lambaré",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-ad018dbfa8",
@@ -10002,9 +10046,13 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf",
-      "lat": -25.2685,
-      "lng": -57.476,
-      "geocode_source": "city_approximation"
+      "lat": -25.2892879,
+      "lng": -57.5003963,
+      "geocode_source": "official_map_link",
+      "google_name": "Superseis Laurelty",
+      "formatted_address": "Avda. Cap. Andres Insfran, Luque",
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-5cca3cc840",
@@ -15467,6 +15515,7 @@
       "geocode_source": ""
     }
   ],
-  "google_enriched_locations": 110,
-  "google_enrichment_focus": "Asunción y Gran Asunción"
+  "google_enriched_locations": 122,
+  "google_enrichment_focus": "Asunción y Gran Asunción",
+  "location_manual_corrections": "Superseis y Delimarket con enlaces oficiales / fuentes públicas"
 }
