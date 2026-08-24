@@ -503,7 +503,22 @@ function getTodayDateOnly() {
 function cleanSentence(value) {
   return String(value || "")
     .replace(/[•●]/g, "")
+    .replace(/\bapple pay\b/gi, "Apple Pay")
+    .replace(/\bgoogle pay\b/gi, "Google Pay")
+    .replace(/\bmastercard\b/gi, "Mastercard")
+    .replace(/\bueno bank\b/gi, "UENO")
+    .replace(/\bueno\b/gi, "UENO")
+    .replace(/\bapp UENO\b/g, "app UENO")
+    .replace(/\bgpays?\b/gi, "Google Pay")
+    .replace(/\bqr\b/gi, "QR")
+    .replace(/\bpos\b/gi, "POS")
+    .replace(/\bvpos\b/gi, "VPOS")
+    .replace(/\bupay\b/gi, "Upay")
+    .replace(/\bGs\b/g, "Gs.")
+    .replace(/Gs\.\./g, "Gs.")
     .replace(/\bdel\s+([0-9]{4})\b/gi, "de $1")
+    .replace(/\s*;\s*/g, "; ")
+    .replace(/\s*,\s*/g, ", ")
     .replace(/\s+/g, " ")
     .replace(/\s+\./g, ".")
     .trim();
@@ -1393,10 +1408,10 @@ function getDetailRows(promo) {
     ["Días", getDisplayDays(promo)],
     ["Fecha", getDisplayValidity(promo)],
     ["Reintegro o descuento", getDisplayBenefit(promo)],
-    ["Tarjetas que aplican", extractApplicableCards(promo)],
-    ["Tarjetas excluidas", extractExcludedCards(promo)],
-    ["Topes y mínimos", promo.caps_and_minimums || extractCapsText(rawDetail) || "No especificado"],
-    ["Reglas por nivel", promo.level_rules || ""],
+    ["Tarjetas que aplican", formatDetailText(extractApplicableCards(promo))],
+    ["Tarjetas excluidas", formatDetailText(extractExcludedCards(promo))],
+    ["Topes y mínimos", formatDetailText(promo.caps_and_minimums || extractCapsText(rawDetail) || "No especificado")],
+    ["Reglas por nivel", promo.level_rules || "", "levels"],
     ["Info adicional importante", extractAdditionalInfo(promo, rawDetail)],
   ];
   return rows.filter(([, value]) => cleanSentence(value));
@@ -1404,8 +1419,10 @@ function getDetailRows(promo) {
 
 function extractApplicableCards(promo) {
   const text = cleanSentence([promo.raw_detail, promo.benefit_summary].join(" "));
-  const explicit = text.match(/(?:con|pagando con|válido con|valido con)\s+(?:tu\s+)?(?:tarjeta|tarjetas)[^.]+/i)?.[0];
-  if (explicit) return cleanSentence(explicit.replace(/^(?:con|pagando con|válido con|valido con)\s+/i, ""));
+  const explicit = text.match(/(?:aplica exclusivamente para compras realizadas con|con|pagando con|válido con|valido con)\s+(?:tu\s+)?(?:tarjeta|tarjetas|tarjetas físicas)[^.]+/i)?.[0];
+  if (explicit) {
+    return cleanSentence(explicit.replace(/^(?:aplica exclusivamente para compras realizadas con|con|pagando con|válido con|valido con)\s+/i, ""));
+  }
   const cards = text.match(/\b(?:visa|mastercard|mc|cabal|oro|premium|black|platinum|infinite|signature|cl[aá]sica|prepaga|albirroja)[^.;)]*/gi);
   return cards ? cleanSentence([...new Set(cards.map((card) => cleanSentence(card)))].join("; ")) : "No especificado";
 }
@@ -1434,11 +1451,71 @@ function extractAdditionalInfo(promo, rawDetail) {
   return cleanSentence(important.join(". "));
 }
 
+function formatDetailText(value) {
+  let text = cleanSentence(value);
+  text = text
+    .replace(/^tarjetas físicas/i, "Tarjetas físicas")
+    .replace(/^tope de/i, "Tope de")
+    .replace(/^monto mínimo/i, "Monto mínimo")
+    .replace(/^no aplica/i, "No aplica")
+    .replace(/^se excluyen/i, "Se excluyen")
+    .replace(/\bcredito\b/gi, "crédito")
+    .replace(/\bclasica\b/gi, "Clásica")
+    .replace(/\bduo\b/gi, "Dúo")
+    .replace(/\balbirroja\b/gi, "Albirroja")
+    .replace(/\bblack\b/gi, "Black")
+    .replace(/\bultra Black\b/g, "Ultra Black");
+  return text;
+}
+
+function parseLevelRows(promo) {
+  const rules = normalizeDayName(promo.level_rules || "");
+  const rawText = cleanSentence(`${promo.raw_detail || ""} ${promo.caps_and_minimums || ""}`);
+  const rows = [];
+  const seen = new Set();
+  for (const match of rules.matchAll(/nivel\s*([1-5])\D{0,24}(\d{1,3})\s*%/g)) {
+    const level = Number(match[1]);
+    const percent = `${match[2]}%`;
+    if (seen.has(level)) continue;
+    seen.add(level);
+    const caps = extractUenoLevelCaps(promo, level, percent);
+    const rawPattern = new RegExp(`nivel\\s*${level}\\s+${percent.replace("%", "\\s*%")}\\s+Gs\\.?\\s*([0-9.]+)(?:\\s+Gs\\.?\\s*([0-9.]+))?`, "i");
+    const rawMatch = rawText.match(rawPattern);
+    rows.push({
+      level,
+      percent,
+      purchaseCap: caps.purchaseCap || (rawMatch ? `Gs. ${rawMatch[1]}` : ""),
+      refundCap: caps.refundCap || (rawMatch?.[2] ? `Gs. ${rawMatch[2]}` : ""),
+    });
+  }
+  return rows.sort((a, b) => b.level - a.level);
+}
+
+function renderLevelTable(promo) {
+  const rows = parseLevelRows(promo);
+  if (!rows.length) return "";
+  return `
+    <div class="level-table" role="table" aria-label="Reglas por nivel">
+      <div class="level-table-head" role="row">
+        <span>Nivel</span><span>Beneficio</span><span>Compra</span><span>Reintegro</span>
+      </div>
+      ${rows.map((row) => `
+        <div class="level-table-row ${Number(row.level) === Number(state.uenoLevel) ? "active" : ""}" role="row">
+          <span>Nivel ${row.level}</span>
+          <strong>${escapeHtml(row.percent)}</strong>
+          <span>${escapeHtml(row.purchaseCap || "-")}</span>
+          <span>${escapeHtml(row.refundCap || "-")}</span>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
 function renderDetailRows(promo) {
-  return getDetailRows(promo).map(([label, value]) => `
+  return getDetailRows(promo).map(([label, value, type]) => `
     <div class="detail-row">
       <span>${escapeHtml(label)}</span>
-      <strong>${escapeHtml(value)}</strong>
+      ${type === "levels" ? renderLevelTable(promo) : `<strong>${escapeHtml(formatDetailText(value))}</strong>`}
     </div>
   `).join("");
 }

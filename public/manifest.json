@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T13:17:38.804814+00:00",
-  "promotion_count": 1251,
+  "generated_at": "2026-08-24T13:27:19.794553+00:00",
+  "promotion_count": 1252,
   "banks": [
     "Atlas",
     "BNF",
@@ -17,6 +17,7 @@
     "Cafeterías",
     "Caza y Pesca",
     "Clubes",
+    "Clubes sociales",
     "Combustible",
     "Construcción",
     "Contimarket",
@@ -93,12 +94,12 @@
     "Últimos días"
   ],
   "source_files": [
-    "outputs/sudameris_beneficios_por_categoria.csv",
-    "outputs/itau_beneficios_por_categoria.csv",
-    "outputs/bnf_beneficios_por_categoria.csv",
-    "outputs/continental_beneficios_por_categoria.csv",
-    "outputs/atlas_beneficios_por_categoria.csv",
-    "outputs/universitaria_beneficios_por_categoria.csv",
-    "outputs/ueno_beneficios_por_categoria.csv"
+    "outputs\\sudameris_beneficios_por_categoria.csv",
+    "outputs\\itau_beneficios_por_categoria.csv",
+    "outputs\\bnf_beneficios_por_categoria.csv",
+    "outputs\\continental_beneficios_por_categoria.csv",
+    "outputs\\atlas_beneficios_por_categoria.csv",
+    "outputs\\universitaria_beneficios_por_categoria.csv",
+    "outputs\\ueno_beneficios_por_categoria.csv"
   ]
 }

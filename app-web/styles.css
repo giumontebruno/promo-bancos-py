@@ -796,7 +796,7 @@ dialog::backdrop {
   margin-top: 14px;
 }
 
-.detail-list div {
+.detail-list > div {
   border-top: 1px solid rgba(238, 242, 246, 0.1);
   padding-top: 8px;
 }
@@ -819,6 +819,47 @@ dialog::backdrop {
   font-size: 14px;
   font-weight: 750;
   line-height: 1.35;
+}
+
+.level-table {
+  background: rgba(247, 241, 227, 0.05);
+  border: 1px solid rgba(247, 241, 227, 0.12);
+  border-radius: 14px;
+  display: grid;
+  overflow: hidden;
+}
+
+.level-table-head,
+.level-table-row {
+  align-items: center;
+  display: grid;
+  gap: 6px;
+  grid-template-columns: 0.8fr 0.8fr 1fr 1fr;
+  padding: 8px 10px;
+}
+
+.level-table-head {
+  background: rgba(247, 241, 227, 0.08);
+  color: var(--brand-cream-muted);
+  font-size: 10px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.level-table-row {
+  border-top: 1px solid rgba(247, 241, 227, 0.08);
+  color: var(--brand-cream);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.level-table-row.active {
+  background: rgba(247, 241, 227, 0.1);
+}
+
+.level-table-row strong {
+  color: inherit;
+  font-size: 12px;
 }
 
 .detail-list .power-detail {

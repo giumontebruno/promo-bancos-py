@@ -295,6 +295,27 @@ def normalize_source_row(bank, row):
     original_category = first(row, "Categoría", "Categoria", "category") or "Sin categoría"
     original_group = first(row, "Comercio/Promoción", "Comercio/Promocion", "Comercio", "Promoción", "Promocion")
     merchants = split_merchant_list(first(row, "Locales / comercios detectados", "Locales / comercios incluidos", "Locales"))
+    if "clubes nivel reintegro" in clean(original_group).lower() and any(
+        "club internacional de tenis" in clean(merchant).lower() for merchant in merchants
+    ):
+        base = normalize_row(
+            bank,
+            row,
+            merchant_override="CIT - Consumos dentro del club",
+            group_override="Club Internacional de Tenis",
+            category_override="Clubes sociales",
+        )
+        base["benefit_summary"] = "20% reintegro; 12 cuotas sin intereses"
+        base["benefit_type"] = "reintegro"
+        base["id"] = row_id(base)
+
+        social_fee = dict(base)
+        social_fee["merchant_name"] = "CIT - Cuotas sociales"
+        social_fee["merchant_locations_or_group"] = "Pago de cuotas sociales por débito automático"
+        social_fee["benefit_summary"] = "20% reintegro en cuotas sociales"
+        social_fee["benefit_type"] = "reintegro"
+        social_fee["id"] = row_id(social_fee)
+        return [base, social_fee]
     if len(merchants) == 1:
         category = infer_ueno_category(original_category, merchants[0], original_group)
         return [normalize_row(bank, row, merchant_override=merchants[0], group_override=original_group, category_override=category)]
