@@ -2121,13 +2121,19 @@ els.bottomNav.addEventListener("click", (event) => {
   if (view === "today") {
     state.activeDay = "hoy";
   }
-  if (view === "search") {
-    requestAnimationFrame(() => {
-      els.searchInput.focus();
-      els.searchInput.scrollIntoView({ behavior: "smooth", block: "center" });
-    });
-  }
   render();
+  if (view === "search") {
+    els.searchInput.focus({ preventScroll: true });
+    window.setTimeout(() => {
+      els.searchInput.scrollIntoView({ behavior: "smooth", block: "center" });
+      els.searchInput.focus();
+    }, 60);
+  }
+  if (view === "nearby") {
+    window.setTimeout(() => {
+      document.querySelector(".map-stage, .nearby-panel")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 60);
+  }
 });
 
 els.closeDialog.addEventListener("click", () => els.dialog.close());
