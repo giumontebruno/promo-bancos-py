@@ -1263,22 +1263,26 @@ function renderNearbyView() {
   els.countText.textContent = `${points.reduce((sum, item) => sum + item.promos.length, 0)} promos ubicables`;
   els.results.innerHTML = `
     <section class="nearby-panel">
-      <div class="nearby-hero">
-        <div>
-          <span class="nearby-kicker">Ubicación</span>
-          <h2>${state.location ? escapeHtml(selectedPlace.name) : "Promos cerca tuyo"}</h2>
-          <p>${state.location ? `Aprox. ${formatDistance(selectedDistance)} de tu ubicación.` : "Activá tu ubicación o elegí un punto del mapa para ver locales con promociones."}</p>
+      <div class="map-stage">
+        <div class="map-toolbar">
+          <div>
+            <span class="nearby-kicker">Cerca</span>
+            <strong>${state.location ? escapeHtml(selectedPlace.name) : "Explorar promos"}</strong>
+            <small>${state.location ? `Aprox. ${formatDistance(selectedDistance)}` : "Mapa de locales con beneficios"}</small>
+          </div>
+          <button type="button" class="location-button compact" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : state.location ? "Actualizar" : "Ubicarme"}</button>
         </div>
-        <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : state.location ? "Actualizar ubicación" : "Usar mi ubicación"}</button>
-      </div>
-      <div class="mini-map local-radar" aria-label="Mapa de referencia">
         ${points.slice(0, 40).map((item) => renderMapMarker(item, selectedPlace)).join("")}
+        <div class="map-place-sheet">
+          <strong>${escapeHtml(selectedPlace.name)}</strong>
+          <span>${promos.length} promos${state.location ? ` · ${formatDistance(selectedDistance)}` : ""}</span>
+          ${mapsUrl ? `<a class="maps-link compact" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer">Ir con Maps</a>` : ""}
+        </div>
       </div>
       <div class="place-list">
         ${points.slice(0, 12).map((item) => `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="${item.place.name === selectedPlace.name ? "active" : ""}"><strong>${escapeHtml(item.place.name)}</strong><span>${state.location ? formatDistance(item.distance) : `${item.promos.length} promos`}</span></button>`).join("")}
       </div>
-      ${mapsUrl ? `<a class="maps-link" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer">Ir con Google Maps</a>` : ""}
-      ${promos.length ? `<div class="nearby-note">Mostrando promos asociadas a <strong>${escapeHtml(selectedPlace.name)}</strong>. ${geocodedCount ? `${geocodedCount} locales tienen coordenadas reales o aproximadas por ciudad.` : "El mapa usa puntos de referencia mientras se completa la base geolocalizada."}</div><div class="grid nearby-grid">${promos.slice(0, 20).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
+      ${promos.length ? `<div class="nearby-note">Mostrando promos asociadas a <strong>${escapeHtml(selectedPlace.name)}</strong>. ${geocodedCount ? `${geocodedCount} locales tienen coordenadas reales o aproximadas por ciudad.` : "El mapa usa puntos de referencia mientras se completa la base geolocalizada."}</div><div class="grid nearby-grid">${promos.slice(0, 6).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
     </section>
   `;
 }
@@ -1358,16 +1362,20 @@ function getNearbyPlaces() {
 }
 
 function getPromotionsForPlace(place) {
+  const safeTerms = place.terms
+    .map((term) => normalizeDayName(term))
+    .filter((term) => term.length >= 5 || /\b(?:cit)\b/.test(term));
   return state.promotions.filter((promo) => {
     if (!shouldShowPromotion(promo)) return false;
     const text = normalizeDayName([
       promo.merchant_name,
-      promo.category,
       promo.merchant_locations_or_group,
-      promo.caps_and_minimums,
-      promo.raw_detail,
     ].join(" "));
-    return place.terms.some((term) => text.includes(normalizeDayName(term)));
+    return safeTerms.some((term) => (
+      term === "cit"
+        ? /\bcit\b/.test(text) || text.includes("club internacional de tenis")
+        : text.includes(term)
+    ));
   });
 }
 

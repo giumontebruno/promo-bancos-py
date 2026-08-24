@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-maps-link";
+const CACHE_NAME = "payback-py-v20260824-airbnb-map";
 const APP_SHELL = [
   "./",
   "./index.html",

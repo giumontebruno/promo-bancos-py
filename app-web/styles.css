@@ -1146,6 +1146,7 @@ dialog::backdrop {
   justify-self: start;
 }
 
+.map-stage,
 .mini-map {
   background:
     linear-gradient(28deg, transparent 0 43%, rgba(247, 241, 227, 0.12) 43% 45%, transparent 45% 100%),
@@ -1156,12 +1157,54 @@ dialog::backdrop {
   background-size: 260px 180px, 220px 180px, 150px 90px, 170px 110px;
   border: 1px solid rgba(247, 241, 227, 0.12);
   border-radius: 24px;
-  height: 220px;
+  min-height: 390px;
   overflow: hidden;
   position: relative;
 }
 
-.mini-map button {
+.map-toolbar {
+  align-items: center;
+  background: rgba(2, 8, 20, 0.72);
+  border: 1px solid rgba(247, 241, 227, 0.12);
+  border-radius: 18px;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  left: 12px;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 3;
+  padding: 10px 12px;
+}
+
+.map-toolbar strong,
+.map-toolbar small {
+  display: block;
+}
+
+.map-toolbar strong {
+  color: var(--brand-cream);
+  font-size: 15px;
+  line-height: 1.15;
+}
+
+.map-toolbar small {
+  color: var(--brand-cream-muted);
+  font-size: 11px;
+  font-weight: 800;
+  margin-top: 2px;
+}
+
+.location-button.compact {
+  border-radius: 14px;
+  font-size: 12px;
+  min-height: 36px;
+  padding: 8px 11px;
+}
+
+.mini-map button,
+.map-stage .map-marker {
   align-items: center;
   background: var(--marker-color, rgba(247, 241, 227, 0.14));
   border: 1px solid rgba(247, 241, 227, 0.82);
@@ -1182,13 +1225,15 @@ dialog::backdrop {
   z-index: 1;
 }
 
-.mini-map button.active {
+.mini-map button.active,
+.map-stage .map-marker.active {
   outline: 4px solid rgba(213, 184, 116, 0.35);
   transform: translate(-50%, -50%) scale(1.12);
   z-index: 2;
 }
 
-.mini-map button.approximate {
+.mini-map button.approximate,
+.map-stage .map-marker.approximate {
   opacity: 0.68;
 }
 
@@ -1210,6 +1255,33 @@ dialog::backdrop {
   stroke-linejoin: round;
   stroke-width: 2.4;
   width: 15px;
+}
+
+.map-place-sheet {
+  align-items: center;
+  background: rgba(2, 8, 20, 0.86);
+  border: 1px solid rgba(247, 241, 227, 0.16);
+  border-radius: 20px;
+  bottom: 12px;
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.34);
+  display: grid;
+  gap: 3px;
+  left: 12px;
+  padding: 12px;
+  position: absolute;
+  right: 12px;
+  z-index: 3;
+}
+
+.map-place-sheet strong {
+  color: var(--brand-cream);
+  font-size: 14px;
+}
+
+.map-place-sheet span {
+  color: var(--brand-cream-muted);
+  font-size: 12px;
+  font-weight: 800;
 }
 
 .place-list {
@@ -1258,6 +1330,13 @@ dialog::backdrop {
   min-height: 42px;
   padding: 10px 14px;
   text-decoration: none;
+}
+
+.maps-link.compact {
+  justify-self: start;
+  margin-top: 6px;
+  min-height: 34px;
+  padding: 7px 11px;
 }
 
 .nearby-note {
