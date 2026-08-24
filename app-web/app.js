@@ -2016,9 +2016,16 @@ async function requestLocation() {
   const token = ++locationRequestToken;
   state.locationStatus = "loading";
   render();
-  const fallbackTimer = window.setTimeout(() => {
+  const fallbackTimer = window.setTimeout(async () => {
     if (token !== locationRequestToken || state.locationStatus !== "loading") return;
-    state.locationStatus = state.locationsLoaded ? "ready" : "idle";
+    try {
+      await loadLocations();
+      if (token !== locationRequestToken) return;
+      state.locationStatus = "ready";
+    } catch {
+      if (token !== locationRequestToken) return;
+      state.locationStatus = "error";
+    }
     render();
   }, 12000);
   navigator.geolocation.getCurrentPosition(async (position) => {
