@@ -1280,6 +1280,11 @@ dialog::backdrop {
   z-index: 2;
 }
 
+.mini-map button.has-today,
+.map-stage .map-marker.has-today {
+  box-shadow: 0 0 0 5px rgba(213, 184, 116, 0.16), 0 12px 26px rgba(213, 184, 116, 0.2);
+}
+
 .mini-map button.approximate,
 .map-stage .map-marker.approximate {
   opacity: 0.68;
@@ -1347,6 +1352,10 @@ dialog::backdrop {
 .payback-map-pin.active span {
   outline: 4px solid rgba(213, 184, 116, 0.36);
   transform: scale(1.12);
+}
+
+.payback-map-pin.has-today span {
+  box-shadow: 0 0 0 5px rgba(213, 184, 116, 0.16), 0 12px 28px rgba(213, 184, 116, 0.24);
 }
 
 .payback-map-pin svg {
@@ -1501,6 +1510,54 @@ dialog::backdrop {
 
 .nearby-grid {
   margin-top: 2px;
+}
+
+.nearby-promo-group {
+  display: grid;
+  gap: 8px;
+}
+
+.nearby-group-title {
+  align-items: center;
+  border-top: 1px solid rgba(247, 241, 227, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+.nearby-group-title strong,
+.nearby-group-title small {
+  display: block;
+}
+
+.nearby-group-title strong {
+  color: var(--brand-cream);
+  font-size: 15px;
+}
+
+.nearby-group-title small {
+  color: var(--brand-cream-muted);
+  font-size: 11px;
+  font-weight: 750;
+  margin-top: 2px;
+}
+
+.nearby-group-title span {
+  align-items: center;
+  background: rgba(247, 241, 227, 0.08);
+  border-radius: 999px;
+  color: var(--brand-cream);
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 900;
+  height: 24px;
+  justify-content: center;
+  min-width: 24px;
+  padding: 0 8px;
+}
+
+.nearby-promo-group.today .nearby-group-title {
+  border-top-color: rgba(213, 184, 116, 0.3);
 }
 
 .bottom-nav {

@@ -1295,10 +1295,48 @@ function renderNearbyView() {
       <div class="place-list">
         ${points.slice(0, 14).map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
       </div>
-      ${promos.length ? `<div class="nearby-note">Mostrando promociones disponibles en esta ubicación. ${bankCount > 1 ? `Hay beneficios de ${bankCount} bancos para comparar.` : "El color del punto corresponde al banco con el mayor beneficio detectado."} ${geocodedCount ? `${geocodedCount} locales tienen coordenadas en la base.` : ""}</div><div class="grid nearby-grid">${promos.slice(0, 6).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
+      ${promos.length ? `<div class="nearby-note">Mostrando promociones disponibles en esta ubicación. ${bankCount > 1 ? `Hay beneficios de ${bankCount} bancos para comparar.` : "El color del punto corresponde al banco con el mayor beneficio detectado."} ${geocodedCount ? `${geocodedCount} locales tienen coordenadas en la base.` : ""}</div>${renderNearbyPromoGroups(promos)}` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
     </section>
   `;
   hydrateNearbyMap(points, selectedPlace);
+}
+
+function renderNearbyPromoGroups(promos) {
+  const groups = groupNearbyPromos(promos);
+  return groups.map(([title, subtitle, items, tone]) => `
+    <section class="nearby-promo-group ${tone}">
+      <div class="nearby-group-title">
+        <div>
+          <strong>${escapeHtml(title)}</strong>
+          <small>${escapeHtml(subtitle)}</small>
+        </div>
+        <span>${items.length}</span>
+      </div>
+      <div class="grid nearby-grid">${items.slice(0, 8).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>
+    </section>
+  `).join("");
+}
+
+function groupNearbyPromos(promos) {
+  const today = promos
+    .filter((promo) => appliesToSelectedDay(promo, "hoy") && !isEveryDayPromotion(promo) && !isInstallmentsOnly(promo))
+    .sort(sortByDayDisplayPriority);
+  const seen = new Set(today.map((promo) => promo.id));
+  const everyday = promos
+    .filter((promo) => !seen.has(promo.id) && isEveryDayPromotion(promo) && !isInstallmentsOnly(promo))
+    .sort(sortByDayDisplayPriority);
+  everyday.forEach((promo) => seen.add(promo.id));
+  const installments = promos
+    .filter((promo) => !seen.has(promo.id) && isInstallmentsOnly(promo))
+    .sort(sortByDayDisplayPriority);
+  installments.forEach((promo) => seen.add(promo.id));
+  const other = promos.filter((promo) => !seen.has(promo.id)).sort(sortByDayDisplayPriority);
+  return [
+    ["Promos de hoy", "Beneficios puntuales para usar hoy.", today, "today"],
+    ["Todos los días", "Beneficios activos cualquier día.", everyday, "everyday"],
+    ["Cuotas sin intereses", "Financiación disponible sin depender del día.", installments, "installments"],
+    ["Otras promos", "Beneficios vigentes con condiciones particulares.", other, "other"],
+  ].filter(([, , items]) => items.length);
 }
 
 function formatPlaceSheetMeta(point, distance) {
@@ -1350,7 +1388,7 @@ function renderMapMarker(item, selectedPlace) {
   const sourceLabel = item.place.geocode_source === "city_approximation" ? "zona aproximada" : "ubicación";
   const title = `${item.place.name}${item.place.address ? ` · ${item.place.address}` : ""} · ${category} · ${item.promos.length} promos · ${item.banks.length} bancos · ${sourceLabel}`;
   const badge = item.banks.length > 1 ? `<i>${item.banks.length}</i>` : "";
-  return `<button type="button" data-place-name="${escapeAttribute(getPointKey(item))}" class="map-marker ${item.place.geocode_source === "city_approximation" ? "approximate" : ""} ${isSelectedPoint(item, selectedPlace) ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(title)}" aria-label="${escapeAttribute(title)}"><span><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg></span>${badge}</button>`;
+  return `<button type="button" data-place-name="${escapeAttribute(getPointKey(item))}" class="map-marker ${item.hasTodayPromos ? "has-today" : ""} ${item.place.geocode_source === "city_approximation" ? "approximate" : ""} ${isSelectedPoint(item, selectedPlace) ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(title)}" aria-label="${escapeAttribute(title)}"><span><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg></span>${badge}</button>`;
 }
 
 function hydrateNearbyMap(points, selectedPlace) {
@@ -1487,7 +1525,8 @@ function getGoogleMarkerIcon(item, selectedPlace) {
   const badge = item.banks.length > 1
     ? `<circle cx="${size - 7}" cy="7" r="6" fill="#f7f1e3"/><text x="${size - 7}" y="10.5" text-anchor="middle" font-size="9" font-family="Arial" font-weight="800" fill="#020814">${item.banks.length}</text>`
     : "";
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}"><rect x="3" y="3" width="${size - 6}" height="${size - 6}" rx="11" fill="${theme.main}" stroke="#f7f1e3" stroke-width="2"/><g transform="translate(${(size - 24) / 2} ${(size - 24) / 2})" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">${path}</g>${badge}</svg>`;
+  const glow = item.hasTodayPromos ? `<rect x="1.5" y="1.5" width="${size - 3}" height="${size - 3}" rx="13" fill="none" stroke="#d5b874" stroke-width="3" opacity="0.48"/>` : "";
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">${glow}<rect x="3" y="3" width="${size - 6}" height="${size - 6}" rx="11" fill="${theme.main}" stroke="#f7f1e3" stroke-width="2"/><g transform="translate(${(size - 24) / 2} ${(size - 24) / 2})" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">${path}</g>${badge}</svg>`;
   return {
     url: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`,
     scaledSize: new window.google.maps.Size(size, size),
@@ -1519,7 +1558,7 @@ function renderLeafletNearbyMap(points, selectedPlace) {
     const iconPath = ICON_PATHS[iconKey] || ICON_PATHS.star;
     const marker = window.L.marker([item.place.lat, item.place.lng], {
       icon: window.L.divIcon({
-        className: `payback-map-pin ${isSelectedPoint(item, selectedPlace) ? "active" : ""}`,
+        className: `payback-map-pin ${item.hasTodayPromos ? "has-today" : ""} ${isSelectedPoint(item, selectedPlace) ? "active" : ""}`,
         html: `<span style="--pin-color:${escapeAttribute(theme.main)}"><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg>${item.banks.length > 1 ? `<i>${item.banks.length}</i>` : ""}</span>`,
         iconSize: [34, 34],
         iconAnchor: [17, 17],
@@ -1604,6 +1643,7 @@ function enrichNearbyPoint(item) {
     ...item,
     promos,
     banks: [...new Set(promos.map((promo) => promo.bank).filter(Boolean))],
+    hasTodayPromos: promos.some((promo) => appliesToSelectedDay(promo, "hoy") && !isEveryDayPromotion(promo) && !isInstallmentsOnly(promo)),
     primaryPromo: promos[0] || null,
   };
 }
