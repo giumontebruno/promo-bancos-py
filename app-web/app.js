@@ -1282,10 +1282,11 @@ function getDominantPromoCategory(promos) {
 }
 
 function getNearbyPromoPoints() {
+  const promoIndex = buildNearbyPromoIndex();
   const dynamicPoints = state.locations
     .filter((place) => Number.isFinite(place.lat) && Number.isFinite(place.lng))
     .map((place) => {
-      const promos = getPromotionsForLocation(place);
+      const promos = getPromotionsForLocation(place, promoIndex);
       return {
         place,
         promos,
@@ -1338,25 +1339,44 @@ function getPromotionsForPlace(place) {
   });
 }
 
-function getPromotionsForLocation(place) {
+function buildNearbyPromoIndex() {
+  const index = new Map();
+  state.promotions
+    .filter(shouldShowPromotion)
+    .filter(matchesBank)
+    .filter(matchesCategory)
+    .filter((promo) => state.query.trim() ? matchesQuery(promo) : true)
+    .forEach((promo) => {
+      const bank = normalizeDayName(promo.bank);
+      const category = normalizeDayName(getPromoCategoryGroup(promo));
+      const key = `${bank}|${category}`;
+      if (!index.has(key)) index.set(key, []);
+      index.get(key).push(promo);
+    });
+  return index;
+}
+
+function getPromotionsForLocation(place, promoIndex) {
   const merchant = normalizeDayName(place.merchant_name || place.name);
   const category = normalizeDayName(place.category);
   const bank = normalizeDayName(place.bank);
-  return state.promotions.filter((promo) => {
-    if (!shouldShowPromotion(promo)) return false;
-    const promoBank = normalizeDayName(promo.bank);
-    if (bank && bank !== "varios" && promoBank !== bank) return false;
-    const promoCategory = normalizeDayName(getPromoCategoryGroup(promo));
+  const candidates = [];
+  if (bank && bank !== "varios" && category) {
+    candidates.push(...(promoIndex.get(`${bank}|${category}`) || []));
+  } else if (category) {
+    promoIndex.forEach((promos, key) => {
+      if (key.endsWith(`|${category}`)) candidates.push(...promos);
+    });
+  }
+  if (!candidates.length) return [];
+  const exactMerchantMatches = candidates.filter((promo) => {
     const promoText = normalizeDayName([
       promo.merchant_name,
-      promo.category,
       promo.merchant_locations_or_group,
-      promo.raw_detail,
     ].join(" "));
-    if (merchant && promoText.includes(merchant)) return true;
-    if (category && promoCategory === normalizeDayName(category)) return true;
-    return false;
-  }).slice(0, 10);
+    return merchant && promoText.includes(merchant);
+  });
+  return (exactMerchantMatches.length ? exactMerchantMatches : candidates).slice(0, 4);
 }
 
 function distanceKm(lat1, lng1, lat2, lng2) {
