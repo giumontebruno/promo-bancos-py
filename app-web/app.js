@@ -125,6 +125,7 @@ const SECTION_LABELS = {
   "Mejor opción hoy": "Mejor opción hoy",
   "Otras opciones": "Otras opciones",
   "Hoy te conviene": "Hoy te conviene",
+  "Disponible hoy": "Disponible hoy",
   "Mayor ahorro hoy": "Mayor ahorro hoy",
   "Cuotas sin intereses": "Cuotas sin intereses",
 };
@@ -136,6 +137,7 @@ const SECTION_SUBTITLES = {
   "Mejor opción hoy": "La tarjeta que más conviene para esta búsqueda.",
   "Otras opciones": "Alternativas disponibles para comparar.",
   "Hoy te conviene": "Beneficios destacados para usar hoy.",
+  "Disponible hoy": "Promos activas para usar ahora mismo.",
   "Mayor ahorro hoy": "Ordenado por ahorro máximo estimado.",
   "Cuotas sin intereses": "Financiación separada de reintegros y descuentos.",
 };
@@ -1021,18 +1023,23 @@ function render() {
     .filter(matchesCategory)
     .filter(matchesQuery)
     .filter(matchesActiveView)
-    .filter(matchesSelectedDay)
+    .filter((promo) => state.query.trim() ? true : matchesSelectedDay(promo))
     .sort(sortByDayDisplayPriority);
 
+  const hasQuery = Boolean(state.query.trim());
   els.statusText.textContent = state.activeView === "favorites"
     ? "Tus promociones guardadas"
-    : `Día activo: ${state.activeDay === "hoy" ? capitalize(getTodayInParaguay()) : capitalize(state.activeDay)}`;
-  els.countText.textContent = `${base.length} promociones`;
+    : hasQuery
+      ? `Resultados para "${state.query.trim()}"`
+      : `Día activo: ${state.activeDay === "hoy" ? capitalize(getTodayInParaguay()) : capitalize(state.activeDay)}`;
+  els.countText.textContent = `${base.length} ${hasQuery ? "promociones activas" : "promociones"}`;
 
   if (!base.length) {
     els.results.innerHTML = state.activeView === "favorites"
       ? `<div class="empty">Todavía no guardaste favoritos. Tocá el corazón en una promo para verla acá.</div>`
-      : `<div class="empty">No encontramos promociones para estos filtros.</div>`;
+      : hasQuery
+        ? `<div class="empty">No encontramos beneficios activos para "${escapeHtml(state.query.trim())}".</div>`
+        : `<div class="empty">No encontramos promociones para estos filtros.</div>`;
     return;
   }
 
@@ -1063,16 +1070,47 @@ function buildResultSections(promos) {
 }
 
 function buildSearchSections(promos) {
-  const ranked = [...promos].sort(sortByBenefitValue);
-  const best = ranked[0] ? [ranked[0]] : [];
+  const today = promos
+    .filter((promo) => !isEveryDayPromotion(promo) && appliesToSelectedDay(promo, "hoy"))
+    .sort(sortByDayDisplayPriority);
+  const seen = new Set(today.map((promo) => promo.id));
+  const daySections = DAYS.map((day) => [
+    capitalize(day),
+    promos
+      .filter((promo) => !seen.has(promo.id) && !isEveryDayPromotion(promo) && appliesToSelectedDay(promo, day))
+      .sort(sortByDayDisplayPriority),
+  ]).filter(([, items]) => items.length);
+  daySections.forEach(([, items]) => items.forEach((promo) => seen.add(promo.id)));
+
+  const everydayDiscounts = promos
+    .filter((promo) => !seen.has(promo.id) && isEveryDayPromotion(promo) && !isInstallmentsOnly(promo))
+    .sort(sortByDayDisplayPriority);
+  everydayDiscounts.forEach((promo) => seen.add(promo.id));
+
+  const everydayInstallments = promos
+    .filter((promo) => !seen.has(promo.id) && isEveryDayPromotion(promo) && isInstallmentsOnly(promo))
+    .sort(sortByDayDisplayPriority);
+  everydayInstallments.forEach((promo) => seen.add(promo.id));
+
+  const remaining = promos.filter((promo) => !seen.has(promo.id)).sort(sortByDayDisplayPriority);
+
   return [
-    ["Mejor opción hoy", best, "featured"],
-    ["Otras opciones", ranked.slice(1)],
+    ["Disponible hoy", today, "featured"],
+    ...daySections,
+    ["Todos los dias", everydayDiscounts],
+    ["Cuotas sin intereses todos los dias", everydayInstallments],
+    ["Otras opciones", remaining],
   ].filter((section, index) => index === 0 || section[1].length);
 }
 
 function buildHomeSections(promos) {
-  const ranked = [...promos].sort(sortByBenefitValue);
+  const today = state.activeDay === "hoy" ? getTodayInParaguay() : state.activeDay;
+  const ranked = [...promos].sort((a, b) => {
+    const aExclusive = isExclusiveToDay(a, today) ? -1 : 1;
+    const bExclusive = isExclusiveToDay(b, today) ? -1 : 1;
+    if (aExclusive !== bExclusive) return aExclusive - bExclusive;
+    return sortByDayDisplayPriority(a, b);
+  });
   const seen = new Set();
   const takeUnique = (items, count) => {
     const selected = [];
@@ -1265,7 +1303,11 @@ function getCategories() {
     .filter(Boolean))]
     .sort((a, b) => getCategoryOrder(a) - getCategoryOrder(b) || a.localeCompare(b, "es"));
   const hasPremium = state.promotions.filter(matchesBank).some(hasPremiumVariant);
-  return ["Todas", ...(hasPremium ? [PREMIUM_CATEGORY] : []), ...categories];
+  const visible = ["Todas", ...(hasPremium ? [PREMIUM_CATEGORY] : []), ...categories];
+  if (state.activeCategory !== "Todas" && !visible.includes(state.activeCategory)) {
+    visible.push(state.activeCategory);
+  }
+  return visible;
 }
 
 function getPromoCategoryGroup(promo) {
@@ -1480,7 +1522,6 @@ els.bankTabs.addEventListener("click", (event) => {
   const bank = event.target.closest("button")?.dataset?.bank;
   if (!bank) return;
   state.activeBank = bank;
-  state.activeCategory = "Todas";
   render();
 });
 
