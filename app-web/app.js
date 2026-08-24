@@ -9,6 +9,7 @@ const STORAGE_KEYS = {
 const DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
 const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria"];
 const PREMIUM_CATEGORY = "Club Black";
+const PREMIUM_BANK_ORDER = ["Itaú", "Sudameris", "Continental", "ueno bank", "BNF", "Atlas", "Coop. Universitaria"];
 const KNOWN_PLACES = [
   { name: "Shopping del Sol", lat: -25.28288, lng: -57.56706, terms: ["del sol", "delsol", "shopping del sol", "shopping delsol"] },
   { name: "Paseo La Galería", lat: -25.2819, lng: -57.5638, terms: ["paseo la galeria", "paseo la galería", "la galeria", "la galería", "paseo galeria"] },
@@ -1021,6 +1022,9 @@ function sectionPromotions(promos) {
 }
 
 function sortPremiumPromotions(a, b) {
+  const aBank = getPremiumBankPriority(a.bank);
+  const bBank = getPremiumBankPriority(b.bank);
+  if (aBank !== bBank) return aBank - bBank;
   const aInstallments = Number(isInstallmentsOnly(a));
   const bInstallments = Number(isInstallmentsOnly(b));
   if (aInstallments !== bInstallments) return aInstallments - bInstallments;
@@ -1028,6 +1032,11 @@ function sortPremiumPromotions(a, b) {
   const bPct = getBestPremiumPercent(b);
   if (bPct !== aPct) return bPct - aPct;
   return sortByBenefitValue(a, b);
+}
+
+function getPremiumBankPriority(bank) {
+  const index = PREMIUM_BANK_ORDER.indexOf(bank);
+  return index >= 0 ? index : PREMIUM_BANK_ORDER.length;
 }
 
 function getBestPremiumPercent(promo) {
