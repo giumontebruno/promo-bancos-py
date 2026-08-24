@@ -1832,7 +1832,11 @@ els.results.addEventListener("submit", (event) => {
 els.dialogContent.addEventListener("click", (event) => {
   const sourceButton = event.target.closest("[data-scroll-source]");
   if (sourceButton) {
-    els.dialogContent.querySelector("#detailSourceLink")?.scrollIntoView({ behavior: "smooth", block: "center" });
+    const sourceLink = els.dialogContent.querySelector("#detailSourceLink");
+    sourceLink?.scrollIntoView({ behavior: "smooth", block: "center" });
+    sourceLink?.classList.remove("pulse-source");
+    window.setTimeout(() => sourceLink?.classList.add("pulse-source"), 80);
+    window.setTimeout(() => sourceLink?.classList.remove("pulse-source"), 1800);
     return;
   }
   const favoriteButton = event.target.closest("[data-favorite-id]");
