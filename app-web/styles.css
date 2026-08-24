@@ -82,11 +82,15 @@ h1 strong {
 }
 
 .brand-logo {
-  border: 1px solid var(--brand-line);
-  border-radius: 18px;
-  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.42);
-  height: 54px;
-  width: 54px;
+  display: block;
+}
+
+.full-brand-logo {
+  height: auto;
+  max-height: 72px;
+  max-width: min(360px, calc(100vw - 132px));
+  object-fit: contain;
+  width: 100%;
 }
 
 .icon-button {
