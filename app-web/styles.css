@@ -1493,6 +1493,11 @@ dialog::backdrop {
   gap: 8px;
 }
 
+.place-list-item {
+  display: grid;
+  gap: 8px;
+}
+
 .place-list button {
   align-items: center;
   background: rgba(247, 241, 227, 0.05);
@@ -1553,6 +1558,87 @@ dialog::backdrop {
 
 .place-list-meta b {
   color: var(--brand-gold);
+}
+
+.place-promo-drawer {
+  background: rgba(247, 241, 227, 0.04);
+  border: 1px solid rgba(213, 184, 116, 0.2);
+  border-radius: 18px;
+  display: grid;
+  gap: 8px;
+  padding: 8px;
+}
+
+.place-promo-header {
+  align-items: center;
+  color: var(--brand-cream);
+  display: flex;
+  font-size: 11px;
+  font-weight: 950;
+  justify-content: space-between;
+  letter-spacing: 0.02em;
+  padding: 0 2px;
+  text-transform: uppercase;
+}
+
+.place-promo-header small {
+  color: var(--brand-cream-muted);
+  font-size: 10px;
+  font-weight: 850;
+  text-transform: none;
+}
+
+.place-promo-cards {
+  display: grid;
+  gap: 7px;
+}
+
+.place-promo-cards .promo-card {
+  border-radius: 18px;
+  grid-template-columns: 58px 1fr;
+  min-height: 82px;
+}
+
+.place-promo-cards .logo-box {
+  padding: 8px 6px 8px 10px;
+}
+
+.place-promo-cards .logo-box img {
+  border-radius: 12px;
+  height: 38px;
+  max-width: 38px;
+  padding: 5px;
+  width: 38px;
+}
+
+.place-promo-cards .logo-box img.bank-logo-atlas,
+.place-promo-cards .logo-box img.bank-logo-coop-universitaria {
+  height: 34px;
+  max-width: 48px;
+  padding: 5px;
+  width: 48px;
+}
+
+.place-promo-cards .promo-content {
+  padding: 8px 9px;
+}
+
+.place-promo-cards .benefit-lines {
+  gap: 4px;
+}
+
+.place-promo-cards .benefit-lines span {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+
+.place-promo-cards .store-name {
+  font-size: 13px;
+}
+
+.place-promo-cards .bank-card-line,
+.place-promo-cards .meta {
+  font-size: 10px;
 }
 
 .maps-link {

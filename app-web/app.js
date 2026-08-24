@@ -1465,17 +1465,41 @@ function renderNearbyPlaceButton(item, selectedPoint) {
   const isActive = getPointKey(item) === getPointKey(selectedPoint);
   const address = formatPlaceAddress(item.place);
   return `
-    <button type="button" data-place-name="${escapeAttribute(getPointKey(item))}" class="${isActive ? "active" : ""}">
-      <span class="place-list-main">
-        <strong>${escapeHtml(getPlaceDisplayName(item.place))}</strong>
-        ${address ? `<small>${escapeHtml(address)}</small>` : ""}
-      </span>
-      <span class="place-list-meta">
-        ${state.location ? `<em>${formatDistance(item.distance)}</em>` : ""}
-        <em>${item.promos.length} promo${item.promos.length === 1 ? "" : "s"}</em>
-        ${item.banks?.length > 1 ? `<b>${item.banks.length} bancos</b>` : ""}
-      </span>
-    </button>
+    <div class="place-list-item ${isActive ? "active" : ""}">
+      <button type="button" data-place-name="${escapeAttribute(getPointKey(item))}" class="${isActive ? "active" : ""}">
+        <span class="place-list-main">
+          <strong>${escapeHtml(getPlaceDisplayName(item.place))}</strong>
+          ${address ? `<small>${escapeHtml(address)}</small>` : ""}
+        </span>
+        <span class="place-list-meta">
+          ${state.location ? `<em>${formatDistance(item.distance)}</em>` : ""}
+          <em>${item.promos.length} promo${item.promos.length === 1 ? "" : "s"}</em>
+          ${item.banks?.length > 1 ? `<b>${item.banks.length} bancos</b>` : ""}
+        </span>
+      </button>
+      ${isActive ? renderNearbyPlacePromos(item) : ""}
+    </div>
+  `;
+}
+
+function renderNearbyPlacePromos(item) {
+  const cards = item.promos
+    .slice(0, 4)
+    .flatMap((promo) => {
+      const variants = getPromoVariants(promo);
+      const visibleVariants = variants.filter((variant) => variant.kind !== "premium").slice(0, 1);
+      return (visibleVariants.length ? visibleVariants : [variants[0] || null]).map((variant) => renderCard(promo, variant));
+    })
+    .join("");
+  const moreCount = Math.max(0, item.promos.length - 4);
+  return `
+    <div class="place-promo-drawer">
+      <div class="place-promo-header">
+        <span>Promos en este local</span>
+        ${moreCount ? `<small>+${moreCount} más abajo</small>` : ""}
+      </div>
+      <div class="place-promo-cards">${cards}</div>
+    </div>
   `;
 }
 
@@ -2685,6 +2709,12 @@ els.results.addEventListener("click", (event) => {
     return;
   }
 
+  const card = event.target.closest(".promo-card");
+  if (card) {
+    openDetail(card.dataset.id, card.dataset.variant);
+    return;
+  }
+
   const placeButton = event.target.closest("[data-place-name]");
   if (placeButton) {
     state.activePlaceName = placeButton.dataset.placeName;
@@ -2716,8 +2746,6 @@ els.results.addEventListener("click", (event) => {
     return;
   }
 
-  const card = event.target.closest(".promo-card");
-  if (card) openDetail(card.dataset.id, card.dataset.variant);
 });
 
 els.results.addEventListener("submit", (event) => {

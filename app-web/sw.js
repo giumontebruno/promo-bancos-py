@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-nearby-polish";
+const CACHE_NAME = "payback-py-v20260824-nearby-place-promos";
 const APP_SHELL = [
   "./",
   "./index.html",
