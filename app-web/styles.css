@@ -1139,6 +1139,13 @@ dialog::backdrop {
   padding: 10px 14px;
 }
 
+.location-button.secondary {
+  background: rgba(247, 241, 227, 0.06);
+  border: 1px solid rgba(247, 241, 227, 0.14);
+  color: var(--brand-cream);
+  justify-self: start;
+}
+
 .mini-map {
   background:
     linear-gradient(rgba(247, 241, 227, 0.05) 1px, transparent 1px),

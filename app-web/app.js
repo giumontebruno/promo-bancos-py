@@ -105,6 +105,7 @@ const state = {
   promotions: [],
   locations: [],
   locationsUpdated: "",
+  locationsLoaded: false,
   activeView: "today",
   activeBank: "Todos",
   activeCategory: "Todas",
@@ -1230,6 +1231,25 @@ function renderAlertsView() {
 }
 
 function renderNearbyView() {
+  if (!state.location && !state.locationsLoaded) {
+    els.statusText.textContent = "Radar de locales";
+    els.countText.textContent = "Listo para buscar";
+    els.results.innerHTML = `
+      <section class="nearby-panel">
+        <div class="nearby-hero">
+          <div>
+            <span class="nearby-kicker">Ubicación</span>
+            <h2>Promos cerca tuyo</h2>
+            <p>Activá tu ubicación y cargamos solamente los locales cercanos con promociones.</p>
+          </div>
+          <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : "Usar mi ubicación"}</button>
+        </div>
+        <button type="button" class="location-button secondary" data-location-action="explore">Explorar mapa sin ubicación</button>
+        <div class="empty compact">El mapa no carga locales hasta que autorices tu ubicación. Así la app entra rápido y no se cuelga.</div>
+      </section>
+    `;
+    return;
+  }
   const points = getNearbyPromoPoints();
   const selectedPoint = points.find((item) => item.place.name === state.activePlaceName) || points[0];
   const selectedPlace = selectedPoint?.place || KNOWN_LOCAL_POINTS[0];
@@ -1248,7 +1268,7 @@ function renderNearbyView() {
           <h2>${state.location ? escapeHtml(selectedPlace.name) : "Promos cerca tuyo"}</h2>
           <p>${state.location ? `Aprox. ${formatDistance(selectedDistance)} de tu ubicación.` : "Activá tu ubicación o elegí un punto del mapa para ver locales con promociones."}</p>
         </div>
-        <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : "Usar mi ubicación"}</button>
+        <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : state.location ? "Actualizar ubicación" : "Usar mi ubicación"}</button>
       </div>
       <div class="mini-map local-radar" aria-label="Mapa de referencia">
         ${points.slice(0, 40).map((item) => renderMapMarker(item, selectedPlace)).join("")}
@@ -1282,6 +1302,7 @@ function getDominantPromoCategory(promos) {
 }
 
 function getNearbyPromoPoints() {
+  if (!state.location && !state.locationsLoaded) return [];
   const promoIndex = buildNearbyPromoIndex();
   const dynamicPoints = state.locations
     .filter((place) => Number.isFinite(place.lat) && Number.isFinite(place.lng))
@@ -1314,7 +1335,7 @@ function getNearbyPromoPoints() {
   return [...pointsByName.values()].sort((a, b) => {
     if (state.location && a.distance !== b.distance) return a.distance - b.distance;
     return b.promos.length - a.promos.length;
-  });
+  }).slice(0, state.location ? 30 : 12);
 }
 
 function getNearbyPlaces() {
@@ -1409,7 +1430,7 @@ function getMapY(lat) {
   return Math.min(88, Math.max(12, (1 - ((lat - min) / (max - min))) * 76 + 12));
 }
 
-function requestLocation() {
+async function requestLocation() {
   if (!navigator.geolocation) {
     state.locationStatus = "unsupported";
     render();
@@ -1417,17 +1438,51 @@ function requestLocation() {
   }
   state.locationStatus = "loading";
   render();
-  navigator.geolocation.getCurrentPosition((position) => {
+  navigator.geolocation.getCurrentPosition(async (position) => {
     state.location = {
       lat: position.coords.latitude,
       lng: position.coords.longitude,
     };
-    state.locationStatus = "ready";
-    render();
+    try {
+      await loadLocations();
+      state.locationStatus = "ready";
+      render();
+    } catch {
+      state.locationStatus = "error";
+      render();
+    }
   }, () => {
     state.locationStatus = "denied";
     render();
   }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 300000 });
+}
+
+async function exploreNearbyManually() {
+  state.locationStatus = "loading";
+  render();
+  try {
+    await loadLocations();
+    state.locationStatus = "ready";
+  } catch {
+    state.locationStatus = "error";
+  }
+  render();
+}
+
+async function loadLocations() {
+  if (state.locationsLoaded) return;
+  const response = await fetch(`${LOCATIONS_URL}?t=${Date.now()}`);
+  if (!response.ok) throw new Error("No se pudieron cargar ubicaciones");
+  const payload = await response.json();
+  state.locationsUpdated = payload.generated_at || "";
+  state.locations = (payload.locations || []).map((item) => ({
+    ...item,
+    name: [item.merchant_name, item.address].filter(Boolean).join(" · "),
+    lat: item.lat === null || item.lat === "" ? null : Number(item.lat),
+    lng: item.lng === null || item.lng === "" ? null : Number(item.lng),
+    terms: [item.merchant_name, item.address, item.city].filter(Boolean),
+  }));
+  state.locationsLoaded = true;
 }
 
 function toggleFavorite(id) {
@@ -1873,10 +1928,9 @@ function openDetail(id, variantKey = "") {
 async function loadPromotions() {
   els.statusText.textContent = "Actualizando promociones...";
   els.results.innerHTML = renderSkeletons();
-  const [response, manifestResponse, locationsResponse] = await Promise.all([
+  const [response, manifestResponse] = await Promise.all([
     fetch(`${DATA_URL}?t=${Date.now()}`),
     fetch(`${MANIFEST_URL}?t=${Date.now()}`).catch(() => null),
-    fetch(`${LOCATIONS_URL}?t=${Date.now()}`).catch(() => null),
   ]);
   if (!response.ok) throw new Error("No se pudo cargar promotions.json");
   if (manifestResponse?.ok) {
@@ -1884,17 +1938,6 @@ async function loadPromotions() {
     state.lastUpdated = manifest.generated_at || "";
   }
   state.promotions = (await response.json()).filter(shouldShowPromotion);
-  if (locationsResponse?.ok) {
-    const payload = await locationsResponse.json();
-    state.locationsUpdated = payload.generated_at || "";
-    state.locations = (payload.locations || []).map((item) => ({
-      ...item,
-      name: [item.merchant_name, item.address].filter(Boolean).join(" · "),
-      lat: item.lat === null || item.lat === "" ? null : Number(item.lat),
-      lng: item.lng === null || item.lng === "" ? null : Number(item.lng),
-      terms: [item.merchant_name, item.address, item.city].filter(Boolean),
-    }));
-  }
   render();
 }
 
@@ -1962,7 +2005,11 @@ els.searchInput.addEventListener("input", (event) => {
 els.results.addEventListener("click", (event) => {
   const locationButton = event.target.closest("[data-location-action]");
   if (locationButton) {
-    requestLocation();
+    if (locationButton.dataset.locationAction === "explore") {
+      exploreNearbyManually();
+    } else {
+      requestLocation();
+    }
     return;
   }
 
