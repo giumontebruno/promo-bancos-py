@@ -1327,6 +1327,7 @@ function renderNearbyView() {
   const bankCount = selectedPoint?.banks?.length || 0;
   const geocodedCount = state.locations.filter((item) => Number.isFinite(item.lat) && Number.isFinite(item.lng)).length;
   const mapsUrl = selectedPoint ? getMapsUrl(selectedPlace) : "";
+  const selectedTheme = getBankTheme(getPointPrimaryPromo(selectedPoint)?.bank);
   const activeFilterText = getNearbyActiveFilterText();
   if (!points.length) {
     els.statusText.textContent = "Radar de locales";
@@ -1356,20 +1357,20 @@ function renderNearbyView() {
         <div class="map-toolbar">
           <div>
             <span class="nearby-kicker">Cerca</span>
-            <strong>${state.location ? escapeHtml(getPlaceDisplayName(selectedPlace)) : "Explorar promos"}</strong>
-            <small>${state.location ? `Aprox. ${formatDistance(selectedDistance)}` : "Mapa de locales con beneficios"}</small>
+            <strong>${state.location ? "Tu zona" : "Explorar promos"}</strong>
+            <small>${state.location ? "Locales con beneficios cercanos" : "Mapa de locales con beneficios"}</small>
           </div>
-          <button type="button" class="location-button compact" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : state.location ? "Actualizar" : "Ubicarme"}</button>
+          ${mapsUrl ? `<a class="maps-link compact top" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer">Ir con Maps</a>` : ""}
         </div>
         ${state.location ? `<button type="button" class="map-user-center" data-map-action="center-user" aria-label="Centrar en mi ubicación" title="Mi ubicación">${renderIcon("target")}</button>` : ""}
         <div id="nearbyMap" class="leaflet-map" aria-label="Mapa de locales con promociones"></div>
-        <div class="map-place-sheet">
-          <div>
+        <div class="map-place-sheet" style="--sheet-accent:${selectedTheme.main};">
+          <div class="map-place-main">
             <strong>${escapeHtml(getPlaceDisplayName(selectedPlace))}</strong>
             ${formatPlaceAddress(selectedPlace) ? `<small>${escapeHtml(formatPlaceAddress(selectedPlace))}</small>` : ""}
             <span>${formatPlaceSheetMeta(selectedPoint, selectedDistance)}</span>
           </div>
-          ${mapsUrl ? `<a class="maps-link compact" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer">Ir con Maps</a>` : ""}
+          ${renderPlaceBankBadges(selectedPoint)}
         </div>
       </div>
       <div class="place-list">
@@ -1433,8 +1434,31 @@ function formatPlaceSheetMeta(point, distance) {
   const parts = [];
   if (state.location) parts.push(formatDistance(distance));
   parts.push(`${point.promos.length} promo${point.promos.length === 1 ? "" : "s"}`);
-  if (point.banks?.length > 1) parts.push(`${point.banks.length} bancos`);
   return parts.join(" · ");
+}
+
+function renderPlaceBankBadges(point) {
+  if (!point?.promos?.length) return "";
+  const byBank = new Map();
+  point.promos.forEach((promo) => {
+    const key = promo.bank || "Banco";
+    if (!byBank.has(key)) byBank.set(key, { bank: key, promos: [], bestScore: 0 });
+    const row = byBank.get(key);
+    row.promos.push(promo);
+    row.bestScore = Math.max(row.bestScore, getBestPromoScore(promo));
+  });
+  return `
+    <div class="map-bank-badges" aria-label="Bancos con promociones">
+      ${[...byBank.values()]
+        .sort((a, b) => b.bestScore - a.bestScore || a.bank.localeCompare(b.bank))
+        .slice(0, 4)
+        .map((item) => {
+          const theme = getBankTheme(item.bank);
+          const label = getBankLabel(item.bank);
+          return `<span style="--bank-color:${theme.main};" title="${escapeAttribute(`${label}: ${item.promos.length} promo${item.promos.length === 1 ? "" : "s"}`)}">${escapeHtml(label.replace("Universitaria", "CU").slice(0, 4))}<i>${item.promos.length}</i></span>`;
+        }).join("")}
+    </div>
+  `;
 }
 
 function renderNearbyPlaceButton(item, selectedPoint) {

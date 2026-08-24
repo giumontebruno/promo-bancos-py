@@ -1211,18 +1211,19 @@ dialog::backdrop {
 .map-toolbar {
   align-items: center;
   backdrop-filter: blur(16px);
-  background: rgba(2, 8, 20, 0.52);
-  border: 1px solid rgba(247, 241, 227, 0.12);
-  border-radius: 16px;
+  background: rgba(2, 8, 20, 0.68);
+  border: 1px solid rgba(247, 241, 227, 0.16);
+  border-radius: 18px;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.24);
   display: flex;
   gap: 12px;
   justify-content: space-between;
   left: 12px;
-  max-width: min(78%, 420px);
+  max-width: calc(100% - 72px);
   position: absolute;
   top: 12px;
   z-index: 3;
-  padding: 7px 9px;
+  padding: 8px 10px;
 }
 
 .map-toolbar strong,
@@ -1263,6 +1264,8 @@ dialog::backdrop {
   display: inline-flex;
   height: 36px;
   justify-content: center;
+  line-height: 0;
+  padding: 0;
   position: absolute;
   right: 12px;
   top: 12px;
@@ -1395,22 +1398,23 @@ dialog::backdrop {
 .map-place-sheet {
   align-items: center;
   backdrop-filter: blur(16px);
-  background: rgba(2, 8, 20, 0.56);
-  border: 1px solid rgba(247, 241, 227, 0.16);
-  border-radius: 16px;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--sheet-accent, #d5b874) 22%, rgba(2, 8, 20, 0.78)), rgba(2, 8, 20, 0.68));
+  border: 1px solid color-mix(in srgb, var(--sheet-accent, #d5b874) 62%, rgba(247, 241, 227, 0.16));
+  border-radius: 18px;
   bottom: 12px;
-  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.34);
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.34), inset 4px 0 0 var(--sheet-accent, #d5b874);
   display: flex;
-  gap: 8px;
+  gap: 10px;
   justify-content: space-between;
   left: 12px;
-  max-width: min(82%, 500px);
-  padding: 8px 9px;
+  max-width: min(90%, 560px);
+  min-width: min(78%, 420px);
+  padding: 9px 10px 9px 14px;
   position: absolute;
   z-index: 3;
 }
 
-.map-place-sheet > div {
+.map-place-main {
   min-width: 0;
 }
 
@@ -1440,6 +1444,48 @@ dialog::backdrop {
   display: block;
   font-size: 10px;
   font-weight: 800;
+  margin-top: 3px;
+}
+
+.map-bank-badges {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  gap: 5px;
+}
+
+.map-bank-badges span {
+  align-items: center;
+  background: var(--bank-color);
+  border: 1px solid rgba(247, 241, 227, 0.45);
+  border-radius: 10px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 9px;
+  font-weight: 950;
+  height: 28px;
+  justify-content: center;
+  min-width: 34px;
+  padding: 0 6px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.map-bank-badges i {
+  align-items: center;
+  background: var(--brand-cream);
+  border-radius: 999px;
+  color: var(--brand-navy-deep);
+  display: inline-flex;
+  font-size: 8px;
+  font-style: normal;
+  height: 14px;
+  justify-content: center;
+  min-width: 14px;
+  padding: 0 3px;
+  position: absolute;
+  right: -5px;
+  top: -6px;
 }
 
 .place-list {
@@ -1528,6 +1574,13 @@ dialog::backdrop {
   font-size: 11px;
   min-height: 30px;
   padding: 6px 10px;
+}
+
+.maps-link.top {
+  background: rgba(247, 241, 227, 0.92);
+  border: 1px solid rgba(247, 241, 227, 0.28);
+  border-radius: 13px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22);
 }
 
 .nearby-note {
