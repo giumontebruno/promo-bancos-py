@@ -1302,6 +1302,9 @@ function renderAlertsView() {
 }
 
 function renderNearbyView() {
+  if (state.locationStatus === "loading" && state.locationsLoaded) {
+    state.locationStatus = "ready";
+  }
   if (!state.location && !state.locationsLoaded) {
     els.statusText.textContent = "Radar de locales";
     els.countText.textContent = "Listo para buscar";
@@ -1349,9 +1352,7 @@ function renderNearbyView() {
     `;
     return;
   }
-  els.statusText.textContent = state.location
-    ? `Cerca de ${getPlaceDisplayName(selectedPlace)}`
-    : "Radar de locales";
+  els.statusText.textContent = state.location ? "Cerca de tu ubicación" : "Explorar cerca";
   els.countText.textContent = `${points.length} ubicaciones`;
   els.results.innerHTML = `
     <section class="nearby-panel">
@@ -1565,17 +1566,24 @@ function ensureGoogleMaps() {
   if (window.google?.maps) return Promise.resolve(true);
   if (nearbyMapState.googlePromise) return nearbyMapState.googlePromise;
   nearbyMapState.googlePromise = new Promise((resolve) => {
+    let settled = false;
     const callbackName = `paybackGoogleMapsReady${Date.now()}`;
-    window[callbackName] = () => {
+    const finish = (value) => {
+      if (settled) return;
+      settled = true;
       delete window[callbackName];
-      resolve(true);
+      resolve(value);
+    };
+    window[callbackName] = () => {
+      finish(true);
     };
     const script = document.createElement("script");
     script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&callback=${callbackName}`;
     script.async = true;
     script.defer = true;
-    script.onerror = () => resolve(false);
+    script.onerror = () => finish(false);
     document.head.appendChild(script);
+    window.setTimeout(() => finish(Boolean(window.google?.maps)), 4500);
   });
   return nearbyMapState.googlePromise;
 }

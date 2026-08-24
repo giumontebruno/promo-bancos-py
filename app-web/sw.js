@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-location-map-fallback";
+const CACHE_NAME = "payback-py-v20260824-map-load-fallback";
 const APP_SHELL = [
   "./",
   "./index.html",
