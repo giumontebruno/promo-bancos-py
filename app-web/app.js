@@ -1256,6 +1256,7 @@ function renderNearbyView() {
   const selectedDistance = selectedPoint?.distance || 0;
   const promos = selectedPoint?.promos || [];
   const geocodedCount = state.locations.filter((item) => Number.isFinite(item.lat) && Number.isFinite(item.lng)).length;
+  const mapsUrl = selectedPoint ? getMapsUrl(selectedPlace) : "";
   els.statusText.textContent = state.location
     ? `Cerca de ${selectedPlace.name}`
     : "Radar de locales";
@@ -1276,9 +1277,19 @@ function renderNearbyView() {
       <div class="place-list">
         ${points.slice(0, 12).map((item) => `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="${item.place.name === selectedPlace.name ? "active" : ""}"><strong>${escapeHtml(item.place.name)}</strong><span>${state.location ? formatDistance(item.distance) : `${item.promos.length} promos`}</span></button>`).join("")}
       </div>
+      ${mapsUrl ? `<a class="maps-link" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer">Ir con Google Maps</a>` : ""}
       ${promos.length ? `<div class="nearby-note">Mostrando promos asociadas a <strong>${escapeHtml(selectedPlace.name)}</strong>. ${geocodedCount ? `${geocodedCount} locales tienen coordenadas reales o aproximadas por ciudad.` : "El mapa usa puntos de referencia mientras se completa la base geolocalizada."}</div><div class="grid nearby-grid">${promos.slice(0, 20).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
     </section>
   `;
+}
+
+function getMapsUrl(place) {
+  if (!place) return "";
+  const hasCoords = Number.isFinite(place.lat) && Number.isFinite(place.lng);
+  const destination = hasCoords
+    ? `${place.lat},${place.lng}`
+    : [place.name, place.address, place.city, "Paraguay"].filter(Boolean).join(", ");
+  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destination)}`;
 }
 
 function renderMapMarker(item, selectedPlace) {
