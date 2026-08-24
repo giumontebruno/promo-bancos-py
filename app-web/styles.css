@@ -1251,6 +1251,30 @@ dialog::backdrop {
   position: static;
 }
 
+.map-user-center {
+  align-items: center;
+  backdrop-filter: blur(16px);
+  background: rgba(247, 241, 227, 0.86);
+  border: 1px solid rgba(247, 241, 227, 0.28);
+  border-radius: 14px;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.24);
+  color: var(--brand-navy-deep);
+  cursor: pointer;
+  display: inline-flex;
+  height: 36px;
+  justify-content: center;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  width: 36px;
+  z-index: 4;
+}
+
+.map-user-center .chip-icon {
+  height: 17px;
+  width: 17px;
+}
+
 .mini-map button,
 .map-stage .map-marker {
   align-items: center;
@@ -1394,6 +1418,18 @@ dialog::backdrop {
   color: var(--brand-cream);
   display: block;
   font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.map-place-sheet small {
+  color: rgba(247, 241, 227, 0.76);
+  display: block;
+  font-size: 9px;
+  font-weight: 700;
+  margin-top: 1px;
+  max-width: 340px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

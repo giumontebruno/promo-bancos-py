@@ -210,6 +210,7 @@ const ICON_PATHS = {
   briefcase: '<path d="M7 8V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/><rect x="4" y="8" width="16" height="11" rx="2"/><path d="M4 13h16"/>',
   star: '<path d="M12 4l2.4 5 5.6.8-4 3.9.9 5.5-4.9-2.6-4.9 2.6.9-5.5-4-3.9 5.6-.8L12 4z"/>',
   crown: '<path d="M5 18h14"/><path d="M6 15l1-8 5 4 5-4 1 8H6z"/><path d="M9 21h6"/>',
+  target: '<circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>',
 };
 
 const els = {
@@ -1360,10 +1361,12 @@ function renderNearbyView() {
           </div>
           <button type="button" class="location-button compact" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : state.location ? "Actualizar" : "Ubicarme"}</button>
         </div>
+        ${state.location ? `<button type="button" class="map-user-center" data-map-action="center-user" aria-label="Centrar en mi ubicación" title="Mi ubicación">${renderIcon("target")}</button>` : ""}
         <div id="nearbyMap" class="leaflet-map" aria-label="Mapa de locales con promociones"></div>
         <div class="map-place-sheet">
           <div>
             <strong>${escapeHtml(getPlaceDisplayName(selectedPlace))}</strong>
+            ${formatPlaceAddress(selectedPlace) ? `<small>${escapeHtml(formatPlaceAddress(selectedPlace))}</small>` : ""}
             <span>${formatPlaceSheetMeta(selectedPoint, selectedDistance)}</span>
           </div>
           ${mapsUrl ? `<a class="maps-link compact" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer">Ir con Maps</a>` : ""}
@@ -1469,10 +1472,15 @@ function formatPlaceAddress(place) {
 function getMapsUrl(place) {
   if (!place) return "";
   const hasCoords = Number.isFinite(place.lat) && Number.isFinite(place.lng);
-  const destination = hasCoords
-    ? `${place.lat},${place.lng}`
-    : [getPlaceDisplayName(place), place.formatted_address || place.address, place.city, "Paraguay"].filter(Boolean).join(", ");
-  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destination)}`;
+  if (hasCoords) {
+    const origin = state.location && Number.isFinite(state.location.lat) && Number.isFinite(state.location.lng)
+      ? `&origin=${encodeURIComponent(`${state.location.lat},${state.location.lng}`)}`
+      : "";
+    return `https://www.google.com/maps/dir/?api=1${origin}&destination=${encodeURIComponent(`${place.lat},${place.lng}`)}&travelmode=driving`;
+  }
+  const destination = [getPlaceDisplayName(place), place.formatted_address || place.address, place.city, "Paraguay"].filter(Boolean).join(", ");
+  const placeId = place.place_id ? `&destination_place_id=${encodeURIComponent(place.place_id)}` : "";
+  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destination)}${placeId}&travelmode=driving`;
 }
 
 function renderMapMarker(item, selectedPlace) {
@@ -1535,9 +1543,23 @@ function cleanupNearbyMaps() {
   }
   nearbyMapState.googleMarkers.forEach((marker) => marker.setMap(null));
   nearbyMapState.googleMarkers = [];
+  nearbyMapState.googleMap = null;
   if (nearbyMapState.googleUserMarker) {
     nearbyMapState.googleUserMarker.setMap(null);
     nearbyMapState.googleUserMarker = null;
+  }
+}
+
+function centerNearbyMapOnUser() {
+  if (!state.location) return;
+  const position = { lat: state.location.lat, lng: state.location.lng };
+  if (nearbyMapState.googleMap) {
+    nearbyMapState.googleMap.panTo(position);
+    if (nearbyMapState.googleMap.getZoom() < 16) nearbyMapState.googleMap.setZoom(16);
+    return;
+  }
+  if (nearbyMapState.map) {
+    nearbyMapState.map.setView([position.lat, position.lng], Math.max(nearbyMapState.map.getZoom(), 16), { animate: true });
   }
 }
 
@@ -2614,6 +2636,12 @@ els.searchInput.addEventListener("input", (event) => {
 });
 
 els.results.addEventListener("click", (event) => {
+  const mapAction = event.target.closest("[data-map-action]");
+  if (mapAction) {
+    if (mapAction.dataset.mapAction === "center-user") centerNearbyMapOnUser();
+    return;
+  }
+
   const locationButton = event.target.closest("[data-location-action]");
   if (locationButton) {
     if (locationButton.dataset.locationAction === "explore") {
