@@ -1261,16 +1261,17 @@ function renderNearbyView() {
     return;
   }
   const points = getNearbyPromoPoints();
-  const selectedPoint = points.find((item) => item.place.name === state.activePlaceName) || points[0];
+  const selectedPoint = points.find((item) => getPointKey(item) === state.activePlaceName || item.place.name === state.activePlaceName) || points[0];
   const selectedPlace = selectedPoint?.place || KNOWN_LOCAL_POINTS[0];
   const selectedDistance = selectedPoint?.distance || 0;
   const promos = selectedPoint?.promos || [];
+  const bankCount = selectedPoint?.banks?.length || 0;
   const geocodedCount = state.locations.filter((item) => Number.isFinite(item.lat) && Number.isFinite(item.lng)).length;
   const mapsUrl = selectedPoint ? getMapsUrl(selectedPlace) : "";
   els.statusText.textContent = state.location
     ? `Cerca de ${selectedPlace.name}`
     : "Radar de locales";
-  els.countText.textContent = `${points.reduce((sum, item) => sum + item.promos.length, 0)} promos ubicables`;
+  els.countText.textContent = `${points.length} ubicaciones cercanas`;
   els.results.innerHTML = `
     <section class="nearby-panel">
       <div class="map-stage">
@@ -1286,18 +1287,49 @@ function renderNearbyView() {
         <div class="map-place-sheet">
           <div>
             <strong>${escapeHtml(selectedPlace.name)}</strong>
-            <span>${promos.length} promos${state.location ? ` · ${formatDistance(selectedDistance)}` : ""}</span>
+            <span>${formatPlaceSheetMeta(selectedPoint, selectedDistance)}</span>
           </div>
           ${mapsUrl ? `<a class="maps-link compact" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer">Ir con Maps</a>` : ""}
         </div>
       </div>
       <div class="place-list">
-        ${points.slice(0, 12).map((item) => `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="${item.place.name === selectedPlace.name ? "active" : ""}"><strong>${escapeHtml(item.place.name)}</strong><span>${state.location ? formatDistance(item.distance) : `${item.promos.length} promos`}</span></button>`).join("")}
+        ${points.slice(0, 14).map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
       </div>
-      ${promos.length ? `<div class="nearby-note">Mostrando promos asociadas a <strong>${escapeHtml(selectedPlace.name)}</strong>. ${geocodedCount ? `${geocodedCount} locales tienen coordenadas reales o aproximadas por ciudad.` : "El mapa usa puntos de referencia mientras se completa la base geolocalizada."}</div><div class="grid nearby-grid">${promos.slice(0, 6).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
+      ${promos.length ? `<div class="nearby-note">Mostrando promociones disponibles en esta ubicación. ${bankCount > 1 ? `Hay beneficios de ${bankCount} bancos para comparar.` : "El color del punto corresponde al banco con el mayor beneficio detectado."} ${geocodedCount ? `${geocodedCount} locales tienen coordenadas en la base.` : ""}</div><div class="grid nearby-grid">${promos.slice(0, 6).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
     </section>
   `;
   hydrateNearbyMap(points, selectedPlace);
+}
+
+function formatPlaceSheetMeta(point, distance) {
+  if (!point) return "";
+  const parts = [];
+  if (state.location) parts.push(formatDistance(distance));
+  parts.push(`${point.promos.length} promo${point.promos.length === 1 ? "" : "s"}`);
+  if (point.banks?.length > 1) parts.push(`${point.banks.length} bancos`);
+  return parts.join(" · ");
+}
+
+function renderNearbyPlaceButton(item, selectedPoint) {
+  const isActive = getPointKey(item) === getPointKey(selectedPoint);
+  const address = formatPlaceAddress(item.place);
+  return `
+    <button type="button" data-place-name="${escapeAttribute(getPointKey(item))}" class="${isActive ? "active" : ""}">
+      <span class="place-list-main">
+        <strong>${escapeHtml(item.place.name)}</strong>
+        ${address ? `<small>${escapeHtml(address)}</small>` : ""}
+      </span>
+      <span class="place-list-meta">
+        ${state.location ? `<em>${formatDistance(item.distance)}</em>` : ""}
+        <em>${item.promos.length} promo${item.promos.length === 1 ? "" : "s"}</em>
+        ${item.banks?.length > 1 ? `<b>${item.banks.length} bancos</b>` : ""}
+      </span>
+    </button>
+  `;
+}
+
+function formatPlaceAddress(place) {
+  return [place.address || place.formatted_address, place.city].filter(Boolean).join(" · ");
 }
 
 function getMapsUrl(place) {
@@ -1310,14 +1342,15 @@ function getMapsUrl(place) {
 }
 
 function renderMapMarker(item, selectedPlace) {
-  const firstPromo = item.promos[0];
-  const theme = getBankTheme(firstPromo?.bank);
+  const primaryPromo = getPointPrimaryPromo(item);
+  const theme = getBankTheme(primaryPromo?.bank);
   const category = getDominantPromoCategory(item.promos);
   const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
   const iconPath = ICON_PATHS[iconKey] || ICON_PATHS.star;
   const sourceLabel = item.place.geocode_source === "city_approximation" ? "zona aproximada" : "ubicación";
-  const title = `${item.place.name}${item.place.address ? ` · ${item.place.address}` : ""} · ${category} · ${item.promos.length} promos · ${sourceLabel}`;
-  return `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="map-marker ${item.place.geocode_source === "city_approximation" ? "approximate" : ""} ${item.place.name === selectedPlace.name ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(title)}" aria-label="${escapeAttribute(title)}"><span><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg></span></button>`;
+  const title = `${item.place.name}${item.place.address ? ` · ${item.place.address}` : ""} · ${category} · ${item.promos.length} promos · ${item.banks.length} bancos · ${sourceLabel}`;
+  const badge = item.banks.length > 1 ? `<i>${item.banks.length}</i>` : "";
+  return `<button type="button" data-place-name="${escapeAttribute(getPointKey(item))}" class="map-marker ${item.place.geocode_source === "city_approximation" ? "approximate" : ""} ${isSelectedPoint(item, selectedPlace) ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(title)}" aria-label="${escapeAttribute(title)}"><span><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg></span>${badge}</button>`;
 }
 
 function hydrateNearbyMap(points, selectedPlace) {
@@ -1404,7 +1437,7 @@ function renderGoogleNearbyMap(points, selectedPlace) {
   });
   nearbyMapState.googleMap = map;
   const bounds = new window.google.maps.LatLngBounds();
-  points.slice(0, 80).forEach((item) => {
+  getMapVisiblePoints(points).forEach((item) => {
     const marker = new window.google.maps.Marker({
       position: { lat: item.place.lat, lng: item.place.lng },
       map,
@@ -1412,7 +1445,7 @@ function renderGoogleNearbyMap(points, selectedPlace) {
       icon: getGoogleMarkerIcon(item, selectedPlace),
     });
     marker.addListener("click", () => {
-      state.activePlaceName = item.place.name;
+      state.activePlaceName = getPointKey(item);
       renderNearbyView();
     });
     nearbyMapState.googleMarkers.push(marker);
@@ -1435,22 +1468,26 @@ function renderGoogleNearbyMap(points, selectedPlace) {
     bounds.extend(nearbyMapState.googleUserMarker.getPosition());
   }
   if (!bounds.isEmpty()) {
-    map.fitBounds(bounds, 46);
+    map.fitBounds(bounds, 64);
     window.google.maps.event.addListenerOnce(map, "bounds_changed", () => {
-      if (map.getZoom() > 15) map.setZoom(15);
+      if (state.location && map.getZoom() < 15) map.setZoom(15);
+      if (map.getZoom() > 17) map.setZoom(17);
     });
   }
 }
 
 function getGoogleMarkerIcon(item, selectedPlace) {
-  const firstPromo = item.promos[0];
-  const theme = getBankTheme(firstPromo?.bank);
+  const primaryPromo = getPointPrimaryPromo(item);
+  const theme = getBankTheme(primaryPromo?.bank);
   const category = getDominantPromoCategory(item.promos);
   const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
   const path = (ICON_PATHS[iconKey] || ICON_PATHS.star).replaceAll('"', "'");
-  const selected = item.place.name === selectedPlace.name;
+  const selected = isSelectedPoint(item, selectedPlace);
   const size = selected ? 42 : 34;
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}"><rect x="3" y="3" width="${size - 6}" height="${size - 6}" rx="11" fill="${theme.main}" stroke="#f7f1e3" stroke-width="2"/><g transform="translate(${(size - 24) / 2} ${(size - 24) / 2})" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">${path}</g></svg>`;
+  const badge = item.banks.length > 1
+    ? `<circle cx="${size - 7}" cy="7" r="6" fill="#f7f1e3"/><text x="${size - 7}" y="10.5" text-anchor="middle" font-size="9" font-family="Arial" font-weight="800" fill="#020814">${item.banks.length}</text>`
+    : "";
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}"><rect x="3" y="3" width="${size - 6}" height="${size - 6}" rx="11" fill="${theme.main}" stroke="#f7f1e3" stroke-width="2"/><g transform="translate(${(size - 24) / 2} ${(size - 24) / 2})" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">${path}</g>${badge}</svg>`;
   return {
     url: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`,
     scaledSize: new window.google.maps.Size(size, size),
@@ -1474,22 +1511,22 @@ function renderLeafletNearbyMap(points, selectedPlace) {
   }).addTo(map);
   window.L.control.zoom({ position: "bottomright" }).addTo(map);
 
-  points.slice(0, 80).forEach((item) => {
-    const firstPromo = item.promos[0];
-    const theme = getBankTheme(firstPromo?.bank);
+  getMapVisiblePoints(points).forEach((item) => {
+    const primaryPromo = getPointPrimaryPromo(item);
+    const theme = getBankTheme(primaryPromo?.bank);
     const category = getDominantPromoCategory(item.promos);
     const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
     const iconPath = ICON_PATHS[iconKey] || ICON_PATHS.star;
     const marker = window.L.marker([item.place.lat, item.place.lng], {
       icon: window.L.divIcon({
-        className: `payback-map-pin ${item.place.name === selectedPlace.name ? "active" : ""}`,
-        html: `<span style="--pin-color:${escapeAttribute(theme.main)}"><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg></span>`,
+        className: `payback-map-pin ${isSelectedPoint(item, selectedPlace) ? "active" : ""}`,
+        html: `<span style="--pin-color:${escapeAttribute(theme.main)}"><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg>${item.banks.length > 1 ? `<i>${item.banks.length}</i>` : ""}</span>`,
         iconSize: [34, 34],
         iconAnchor: [17, 17],
       }),
     }).addTo(map);
     marker.on("click", () => {
-      state.activePlaceName = item.place.name;
+      state.activePlaceName = getPointKey(item);
       renderNearbyView();
     });
     nearbyMapState.markers.push(marker);
@@ -1504,13 +1541,12 @@ function renderLeafletNearbyMap(points, selectedPlace) {
       fillOpacity: 1,
     }).addTo(map);
   }
-  const visible = points
-    .slice(0, state.location ? 30 : 20)
+  const visible = getMapVisiblePoints(points)
     .filter((item) => Number.isFinite(item.place.lat) && Number.isFinite(item.place.lng))
     .map((item) => [item.place.lat, item.place.lng]);
   if (state.location) visible.push([state.location.lat, state.location.lng]);
   if (visible.length > 1) {
-    map.fitBounds(window.L.latLngBounds(visible), { padding: [46, 46], maxZoom: 15 });
+    map.fitBounds(window.L.latLngBounds(visible), { padding: [64, 64], maxZoom: state.location ? 16 : 14 });
   }
   window.setTimeout(() => map.invalidateSize(), 80);
 }
@@ -1522,6 +1558,63 @@ function getDominantPromoCategory(promos) {
     counts.set(category, (counts.get(category) || 0) + 1);
   });
   return [...counts.entries()].sort((a, b) => b[1] - a[1] || getCategoryOrder(a[0]) - getCategoryOrder(b[0]))[0]?.[0] || "Especiales";
+}
+
+function getMapVisiblePoints(points) {
+  if (!state.location) return points.slice(0, 18);
+  const close = points.filter((item) => item.distance <= 3.5).slice(0, 28);
+  if (close.length >= 8) return close;
+  return points.slice(0, 24);
+}
+
+function getPointPrimaryPromo(point) {
+  return point?.primaryPromo || point?.promos?.[0] || null;
+}
+
+function getPointKey(point) {
+  if (!point) return "";
+  return point.key || getPlaceGroupKey(point.place);
+}
+
+function isSelectedPoint(item, selectedPlace) {
+  if (!item || !selectedPlace) return false;
+  return getPointKey(item) === state.activePlaceName || getPlaceGroupKey(selectedPlace) === getPointKey(item);
+}
+
+function getPlaceGroupKey(place) {
+  if (!place) return "";
+  if (Number.isFinite(place.lat) && Number.isFinite(place.lng)) {
+    return `${place.lat.toFixed(5)},${place.lng.toFixed(5)}`;
+  }
+  return normalizeDayName([place.name, place.address, place.city].filter(Boolean).join("|"));
+}
+
+function getBestPromoScore(promo) {
+  const variants = getPromoVariants(promo);
+  const variantScores = variants.map((variant) => percentNumber(getMainBenefit(promo, variant)));
+  const benefitScore = Math.max(percentNumber(promo.benefit_summary), percentNumber(promo.benefit_type), ...variantScores);
+  const quotaMatch = String(promo.benefit_summary || "").match(/(\d{1,2})\s*cuotas?/i);
+  const quotaScore = quotaMatch ? Math.min(Number(quotaMatch[1]), 36) / 10 : 0;
+  return Math.max(benefitScore, quotaScore);
+}
+
+function enrichNearbyPoint(item) {
+  const promos = uniquePromos(item.promos).sort((a, b) => getBestPromoScore(b) - getBestPromoScore(a));
+  return {
+    ...item,
+    promos,
+    banks: [...new Set(promos.map((promo) => promo.bank).filter(Boolean))],
+    primaryPromo: promos[0] || null,
+  };
+}
+
+function uniquePromos(promos) {
+  const byId = new Map();
+  promos.forEach((promo) => {
+    const key = promo.id || `${promo.bank}|${promo.merchant_name}|${promo.benefit_summary}`;
+    if (!byId.has(key)) byId.set(key, promo);
+  });
+  return [...byId.values()];
 }
 
 function getNearbyPromoPoints() {
@@ -1538,27 +1631,33 @@ function getNearbyPromoPoints() {
       };
     })
     .filter((item) => item.promos.length);
-  const knownPoints = KNOWN_LOCAL_POINTS
-    .map((place) => {
-      const promos = getPromotionsForPlace(place);
-      return {
-        place,
-        promos,
-        distance: state.location ? distanceKm(state.location.lat, state.location.lng, place.lat, place.lng) : 0,
-      };
-    })
-    .filter((item) => item.promos.length);
+  const knownPoints = [];
   const pointsByName = new Map();
   [...dynamicPoints, ...knownPoints].forEach((item) => {
-    const key = normalizeDayName([item.place.name, item.place.address, item.place.city].join(" "));
-    if (!pointsByName.has(key) || item.promos.length > pointsByName.get(key).promos.length) {
-      pointsByName.set(key, item);
+    const key = getPlaceGroupKey(item.place);
+    const existing = pointsByName.get(key);
+    if (existing) {
+      existing.promos.push(...item.promos);
+      existing.place = preferBetterPlace(existing.place, item.place);
+      existing.distance = Math.min(existing.distance, item.distance);
+    } else {
+      pointsByName.set(key, { ...item, key });
     }
   });
-  return [...pointsByName.values()].sort((a, b) => {
+  return [...pointsByName.values()].map(enrichNearbyPoint).sort((a, b) => {
     if (state.location && a.distance !== b.distance) return a.distance - b.distance;
-    return b.promos.length - a.promos.length;
-  }).slice(0, state.location ? 30 : 12);
+    return getBestPromoScore(b.primaryPromo) - getBestPromoScore(a.primaryPromo) || b.banks.length - a.banks.length;
+  }).slice(0, state.location ? 70 : 30);
+}
+
+function preferBetterPlace(current, next) {
+  const currentName = normalizeDayName(current.google_name || current.name || "");
+  const nextName = normalizeDayName(next.google_name || next.name || "");
+  if (next.google_name && (!current.google_name || currentName.includes("estaciones de servicio"))) {
+    return { ...current, ...next, name: next.google_name || next.name };
+  }
+  if ((current.name || "").length < 6 && (next.name || "").length > (current.name || "").length) return next;
+  return current.google_name ? { ...current, name: current.google_name } : current;
 }
 
 function getNearbyPlaces() {
@@ -1605,13 +1704,18 @@ function buildNearbyPromoIndex() {
 }
 
 function getPromotionsForLocation(place, promoIndex) {
-  const merchant = normalizeDayName(place.merchant_name || place.name);
+  const merchantTerms = [
+    place.google_name,
+    place.merchant_name,
+    place.name,
+  ].map((value) => normalizeDayName(value)).filter((value) => value && !["estaciones de servicio", "farmacias", "mayoristas", "supermercados"].includes(value));
   const category = normalizeDayName(place.category);
   const bank = normalizeDayName(place.bank);
   const candidates = [];
   if (bank && bank !== "varios" && category) {
     candidates.push(...(promoIndex.get(`${bank}|${category}`) || []));
-  } else if (category) {
+  }
+  if (category) {
     promoIndex.forEach((promos, key) => {
       if (key.endsWith(`|${category}`)) candidates.push(...promos);
     });
@@ -1622,9 +1726,10 @@ function getPromotionsForLocation(place, promoIndex) {
       promo.merchant_name,
       promo.merchant_locations_or_group,
     ].join(" "));
-    return merchant && promoText.includes(merchant);
+    return merchantTerms.some((term) => promoText.includes(term) || term.includes(promoText));
   });
-  return (exactMerchantMatches.length ? exactMerchantMatches : candidates).slice(0, 4);
+  const sameBankFallback = candidates.filter((promo) => normalizeDayName(promo.bank) === bank);
+  return (exactMerchantMatches.length ? exactMerchantMatches : sameBankFallback).slice(0, 8);
 }
 
 function distanceKm(lat1, lng1, lat2, lng2) {
@@ -1704,10 +1809,10 @@ async function loadLocations() {
   state.locationsUpdated = payload.generated_at || "";
   state.locations = (payload.locations || []).map((item) => ({
     ...item,
-    name: [item.merchant_name, item.address].filter(Boolean).join(" · "),
+    name: item.google_name || [item.merchant_name, item.address].filter(Boolean).join(" · "),
     lat: item.lat === null || item.lat === "" ? null : Number(item.lat),
     lng: item.lng === null || item.lng === "" ? null : Number(item.lng),
-    terms: [item.merchant_name, item.address, item.city].filter(Boolean),
+    terms: [item.google_name, item.merchant_name, item.address, item.city].filter(Boolean),
   }));
   state.locationsLoaded = true;
 }
