@@ -44,6 +44,8 @@ jobs:
 
       - name: Refresh data
         if: github.event_name == 'workflow_dispatch' || steps.schedule_rule.outputs.should_run == 'true'
+        env:
+          GOOGLE_MAPS_BACKEND_API_KEY: ${{ secrets.GOOGLE_MAPS_BACKEND_API_KEY }}
         run: python promo_backend/run_all.py
 
       - name: Commit updated data

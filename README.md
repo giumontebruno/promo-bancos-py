@@ -64,6 +64,27 @@ pip install -r requirements.txt
 python promo_backend/run_all.py
 ```
 
+## Geolocalización exacta
+
+El enriquecimiento de locales usa Google Maps Platform solo cuando existe la variable
+`GOOGLE_MAPS_BACKEND_API_KEY`. El foco inicial es Asunción y Gran Asunción.
+
+Orden de búsqueda:
+
+1. Places API Text Search con comercio, dirección, ciudad y Paraguay.
+2. Geocoding API como respaldo cuando Places no devuelve un local claro.
+
+En GitHub Actions la key debe guardarse como secret:
+
+```text
+GOOGLE_MAPS_BACKEND_API_KEY
+```
+
+Para esta key backend se recomienda habilitar/restringir solo:
+
+- Places API
+- Geocoding API
+
 ## Integración Android
 
 La app debe leer `promotions.json` desde una URL pública del repositorio o desde una API propia.
