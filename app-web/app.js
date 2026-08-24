@@ -134,8 +134,6 @@ const nearbyMapState = {
   googlePromise: null,
 };
 
-let locationRequestToken = 0;
-
 const bankThemes = {
   "ueno bank": { main: "#2bd98e", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno-icon-official.svg", logoBg: "#062017" },
   "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau-official.svg", logoBg: "#ec7000" },
@@ -1302,9 +1300,6 @@ function renderAlertsView() {
 }
 
 function renderNearbyView() {
-  if (state.locationStatus === "loading" && state.locationsLoaded) {
-    state.locationStatus = "ready";
-  }
   if (!state.location && !state.locationsLoaded) {
     els.statusText.textContent = "Radar de locales";
     els.countText.textContent = "Listo para buscar";
@@ -1318,8 +1313,8 @@ function renderNearbyView() {
           </div>
           <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : "Usar mi ubicación"}</button>
         </div>
-        <button type="button" class="location-button secondary" data-location-action="explore">${state.locationStatus === "loading" ? "Tarda mucho, ver mapa igual" : "Explorar mapa sin ubicación"}</button>
-        <div class="empty compact">${state.locationStatus === "loading" ? "Estamos esperando la respuesta del GPS. Si tarda, podés abrir el mapa igual y elegir desde el listado." : "El mapa no carga locales hasta que autorices tu ubicación. Así la app entra rápido y no se cuelga."}</div>
+        <button type="button" class="location-button secondary" data-location-action="explore">Explorar mapa sin ubicación</button>
+        <div class="empty compact">El mapa no carga locales hasta que autorices tu ubicación. Así la app entra rápido y no se cuelga.</div>
       </section>
     `;
     return;
@@ -1566,24 +1561,17 @@ function ensureGoogleMaps() {
   if (window.google?.maps) return Promise.resolve(true);
   if (nearbyMapState.googlePromise) return nearbyMapState.googlePromise;
   nearbyMapState.googlePromise = new Promise((resolve) => {
-    let settled = false;
     const callbackName = `paybackGoogleMapsReady${Date.now()}`;
-    const finish = (value) => {
-      if (settled) return;
-      settled = true;
-      delete window[callbackName];
-      resolve(value);
-    };
     window[callbackName] = () => {
-      finish(true);
+      delete window[callbackName];
+      resolve(true);
     };
     const script = document.createElement("script");
     script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&callback=${callbackName}`;
     script.async = true;
     script.defer = true;
-    script.onerror = () => finish(false);
+    script.onerror = () => resolve(false);
     document.head.appendChild(script);
-    window.setTimeout(() => finish(Boolean(window.google?.maps)), 4500);
   });
   return nearbyMapState.googlePromise;
 }
@@ -2021,24 +2009,9 @@ async function requestLocation() {
     render();
     return;
   }
-  const token = ++locationRequestToken;
   state.locationStatus = "loading";
   render();
-  const fallbackTimer = window.setTimeout(async () => {
-    if (token !== locationRequestToken || state.locationStatus !== "loading") return;
-    try {
-      await loadLocations();
-      if (token !== locationRequestToken) return;
-      state.locationStatus = "ready";
-    } catch {
-      if (token !== locationRequestToken) return;
-      state.locationStatus = "error";
-    }
-    render();
-  }, 12000);
   navigator.geolocation.getCurrentPosition(async (position) => {
-    if (token !== locationRequestToken) return;
-    window.clearTimeout(fallbackTimer);
     state.location = {
       lat: position.coords.latitude,
       lng: position.coords.longitude,
@@ -2052,15 +2025,12 @@ async function requestLocation() {
       render();
     }
   }, () => {
-    if (token !== locationRequestToken) return;
-    window.clearTimeout(fallbackTimer);
     state.locationStatus = "denied";
     render();
-  }, { enableHighAccuracy: false, timeout: 8000, maximumAge: 600000 });
+  }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 300000 });
 }
 
 async function exploreNearbyManually() {
-  locationRequestToken += 1;
   state.locationStatus = "loading";
   render();
   try {
