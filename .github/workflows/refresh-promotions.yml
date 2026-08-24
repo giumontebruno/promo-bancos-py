@@ -51,4 +51,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Refresh promotions database"
-          file_pattern: "outputs/*.csv outputs/*.md public/*.json public/*.csv data/*.csv work/**/*.json work/**/*.csv"
+          file_pattern: "outputs/*.csv outputs/*.md public/*.json public/*.csv data/*.csv"
