@@ -1337,7 +1337,7 @@ function renderNearbyView() {
     return;
   }
   els.statusText.textContent = state.location
-    ? `Cerca de ${selectedPlace.name}`
+    ? `Cerca de ${getPlaceDisplayName(selectedPlace)}`
     : "Radar de locales";
   els.countText.textContent = `${points.length} ubicaciones`;
   els.results.innerHTML = `
@@ -1346,7 +1346,7 @@ function renderNearbyView() {
         <div class="map-toolbar">
           <div>
             <span class="nearby-kicker">Cerca</span>
-            <strong>${state.location ? escapeHtml(selectedPlace.name) : "Explorar promos"}</strong>
+            <strong>${state.location ? escapeHtml(getPlaceDisplayName(selectedPlace)) : "Explorar promos"}</strong>
             <small>${state.location ? `Aprox. ${formatDistance(selectedDistance)}` : "Mapa de locales con beneficios"}</small>
           </div>
           <button type="button" class="location-button compact" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : state.location ? "Actualizar" : "Ubicarme"}</button>
@@ -1354,7 +1354,7 @@ function renderNearbyView() {
         <div id="nearbyMap" class="leaflet-map" aria-label="Mapa de locales con promociones"></div>
         <div class="map-place-sheet">
           <div>
-            <strong>${escapeHtml(selectedPlace.name)}</strong>
+            <strong>${escapeHtml(getPlaceDisplayName(selectedPlace))}</strong>
             <span>${formatPlaceSheetMeta(selectedPoint, selectedDistance)}</span>
           </div>
           ${mapsUrl ? `<a class="maps-link compact" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer">Ir con Maps</a>` : ""}
@@ -1431,7 +1431,7 @@ function renderNearbyPlaceButton(item, selectedPoint) {
   return `
     <button type="button" data-place-name="${escapeAttribute(getPointKey(item))}" class="${isActive ? "active" : ""}">
       <span class="place-list-main">
-        <strong>${escapeHtml(item.place.name)}</strong>
+        <strong>${escapeHtml(getPlaceDisplayName(item.place))}</strong>
         ${address ? `<small>${escapeHtml(address)}</small>` : ""}
       </span>
       <span class="place-list-meta">
@@ -1443,8 +1443,18 @@ function renderNearbyPlaceButton(item, selectedPoint) {
   `;
 }
 
+function getPlaceDisplayName(place) {
+  return place?.google_name || place?.name || place?.merchant_name || "Ubicación";
+}
+
 function formatPlaceAddress(place) {
-  return [place.address || place.formatted_address, place.city].filter(Boolean).join(" · ");
+  if (!place) return "";
+  const address = place.formatted_address || place.address || "";
+  if (!address) return place.city || "";
+  const city = place.city || "";
+  return city && !normalizeDayName(address).includes(normalizeDayName(city))
+    ? `${address} · ${city}`
+    : address;
 }
 
 function getMapsUrl(place) {
@@ -1452,7 +1462,7 @@ function getMapsUrl(place) {
   const hasCoords = Number.isFinite(place.lat) && Number.isFinite(place.lng);
   const destination = hasCoords
     ? `${place.lat},${place.lng}`
-    : [place.name, place.address, place.city, "Paraguay"].filter(Boolean).join(", ");
+    : [getPlaceDisplayName(place), place.formatted_address || place.address, place.city, "Paraguay"].filter(Boolean).join(", ");
   return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destination)}`;
 }
 
@@ -1463,7 +1473,7 @@ function renderMapMarker(item, selectedPlace) {
   const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
   const iconPath = ICON_PATHS[iconKey] || ICON_PATHS.star;
   const sourceLabel = item.place.geocode_source === "city_approximation" ? "zona aproximada" : "ubicación";
-  const title = `${item.place.name}${item.place.address ? ` · ${item.place.address}` : ""} · ${category} · ${item.promos.length} promos · ${item.banks.length} bancos · ${sourceLabel}`;
+  const title = `${getPlaceDisplayName(item.place)}${formatPlaceAddress(item.place) ? ` · ${formatPlaceAddress(item.place)}` : ""} · ${category} · ${item.promos.length} promos · ${item.banks.length} bancos · ${sourceLabel}`;
   const badge = item.banks.length > 1 ? `<i>${item.banks.length}</i>` : "";
   return `<button type="button" data-place-name="${escapeAttribute(getPointKey(item))}" class="map-marker ${item.hasTodayPromos ? "has-today" : ""} ${item.place.geocode_source === "city_approximation" ? "approximate" : ""} ${isSelectedPoint(item, selectedPlace) ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(title)}" aria-label="${escapeAttribute(title)}"><span><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg></span>${badge}</button>`;
 }
@@ -1699,6 +1709,7 @@ function isSelectedPoint(item, selectedPlace) {
 
 function getPlaceGroupKey(place) {
   if (!place) return "";
+  if (place.place_id) return `google:${place.place_id}`;
   if (Number.isFinite(place.lat) && Number.isFinite(place.lng)) {
     return `${place.lat.toFixed(5)},${place.lng.toFixed(5)}`;
   }
@@ -1769,7 +1780,11 @@ function getNearbyPromoPoints() {
 
 function preferBetterPlace(current, next) {
   const currentName = normalizeDayName(current.google_name || current.name || "");
-  const nextName = normalizeDayName(next.google_name || next.name || "");
+  const currentHasGoogleAddress = Boolean(current.formatted_address);
+  const nextHasGoogleAddress = Boolean(next.formatted_address);
+  if (nextHasGoogleAddress && !currentHasGoogleAddress) {
+    return { ...current, ...next, name: next.google_name || next.name || current.name };
+  }
   if (next.google_name && (!current.google_name || currentName.includes("estaciones de servicio"))) {
     return { ...current, ...next, name: next.google_name || next.name };
   }
