@@ -1148,18 +1148,36 @@ dialog::backdrop {
 
 .map-stage,
 .mini-map {
-  background:
-    linear-gradient(28deg, transparent 0 43%, rgba(247, 241, 227, 0.12) 43% 45%, transparent 45% 100%),
-    linear-gradient(112deg, transparent 0 38%, rgba(247, 241, 227, 0.1) 38% 40%, transparent 40% 100%),
-    linear-gradient(0deg, transparent 0 54%, rgba(247, 241, 227, 0.08) 54% 56%, transparent 56% 100%),
-    linear-gradient(90deg, transparent 0 28%, rgba(247, 241, 227, 0.08) 28% 30%, transparent 30% 100%),
-    #08182b;
-  background-size: 260px 180px, 220px 180px, 150px 90px, 170px 110px;
+  background: #08182b;
   border: 1px solid rgba(247, 241, 227, 0.12);
   border-radius: 24px;
   min-height: 390px;
   overflow: hidden;
   position: relative;
+}
+
+.leaflet-map {
+  inset: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+.leaflet-container {
+  background: #08182b;
+  color: var(--brand-cream);
+  font-family: inherit;
+}
+
+.leaflet-control-zoom {
+  border: 1px solid rgba(247, 241, 227, 0.16) !important;
+  border-radius: 14px !important;
+  overflow: hidden;
+}
+
+.leaflet-control-zoom a {
+  background: rgba(2, 8, 20, 0.84) !important;
+  border: 0 !important;
+  color: var(--brand-cream) !important;
 }
 
 .map-toolbar {
@@ -1255,6 +1273,39 @@ dialog::backdrop {
   stroke-linejoin: round;
   stroke-width: 2.4;
   width: 15px;
+}
+
+.payback-map-pin {
+  background: transparent;
+  border: 0;
+}
+
+.payback-map-pin span {
+  align-items: center;
+  background: var(--pin-color);
+  border: 2px solid rgba(247, 241, 227, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.32);
+  color: #fff;
+  display: inline-flex;
+  height: 34px;
+  justify-content: center;
+  width: 34px;
+}
+
+.payback-map-pin.active span {
+  outline: 4px solid rgba(213, 184, 116, 0.36);
+  transform: scale(1.12);
+}
+
+.payback-map-pin svg {
+  fill: none;
+  height: 16px;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.4;
+  width: 16px;
 }
 
 .map-place-sheet {

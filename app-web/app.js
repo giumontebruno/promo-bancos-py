@@ -122,6 +122,12 @@ const state = {
   lastUpdated: "",
 };
 
+const nearbyMapState = {
+  map: null,
+  markers: [],
+  userMarker: null,
+};
+
 const bankThemes = {
   "ueno bank": { main: "#2bd98e", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno-icon-official.svg", logoBg: "#062017" },
   "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau-official.svg", logoBg: "#ec7000" },
@@ -1272,7 +1278,7 @@ function renderNearbyView() {
           </div>
           <button type="button" class="location-button compact" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : state.location ? "Actualizar" : "Ubicarme"}</button>
         </div>
-        ${points.slice(0, 40).map((item) => renderMapMarker(item, selectedPlace)).join("")}
+        <div id="nearbyMap" class="leaflet-map" aria-label="Mapa de locales con promociones"></div>
         <div class="map-place-sheet">
           <strong>${escapeHtml(selectedPlace.name)}</strong>
           <span>${promos.length} promos${state.location ? ` · ${formatDistance(selectedDistance)}` : ""}</span>
@@ -1285,6 +1291,7 @@ function renderNearbyView() {
       ${promos.length ? `<div class="nearby-note">Mostrando promos asociadas a <strong>${escapeHtml(selectedPlace.name)}</strong>. ${geocodedCount ? `${geocodedCount} locales tienen coordenadas reales o aproximadas por ciudad.` : "El mapa usa puntos de referencia mientras se completa la base geolocalizada."}</div><div class="grid nearby-grid">${promos.slice(0, 6).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
     </section>
   `;
+  hydrateNearbyMap(points, selectedPlace);
 }
 
 function getMapsUrl(place) {
@@ -1305,6 +1312,74 @@ function renderMapMarker(item, selectedPlace) {
   const sourceLabel = item.place.geocode_source === "city_approximation" ? "zona aproximada" : "ubicación";
   const title = `${item.place.name}${item.place.address ? ` · ${item.place.address}` : ""} · ${category} · ${item.promos.length} promos · ${sourceLabel}`;
   return `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="map-marker ${item.place.geocode_source === "city_approximation" ? "approximate" : ""} ${item.place.name === selectedPlace.name ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(title)}" aria-label="${escapeAttribute(title)}"><span><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg></span></button>`;
+}
+
+function hydrateNearbyMap(points, selectedPlace) {
+  if (!window.L) return;
+  const mapElement = document.querySelector("#nearbyMap");
+  if (!mapElement) return;
+  nearbyMapState.markers.forEach((marker) => marker.remove());
+  nearbyMapState.markers = [];
+  if (nearbyMapState.userMarker) {
+    nearbyMapState.userMarker.remove();
+    nearbyMapState.userMarker = null;
+  }
+  if (nearbyMapState.map) {
+    nearbyMapState.map.remove();
+    nearbyMapState.map = null;
+  }
+  const start = selectedPlace && Number.isFinite(selectedPlace.lat) && Number.isFinite(selectedPlace.lng)
+    ? [selectedPlace.lat, selectedPlace.lng]
+    : [-25.2867, -57.6282];
+  const map = window.L.map(mapElement, {
+    zoomControl: false,
+    attributionControl: false,
+  }).setView(start, state.location ? 15 : 12);
+  nearbyMapState.map = map;
+  window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+  }).addTo(map);
+  window.L.control.zoom({ position: "bottomright" }).addTo(map);
+
+  points.slice(0, 80).forEach((item) => {
+    const firstPromo = item.promos[0];
+    const theme = getBankTheme(firstPromo?.bank);
+    const category = getDominantPromoCategory(item.promos);
+    const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
+    const iconPath = ICON_PATHS[iconKey] || ICON_PATHS.star;
+    const marker = window.L.marker([item.place.lat, item.place.lng], {
+      icon: window.L.divIcon({
+        className: `payback-map-pin ${item.place.name === selectedPlace.name ? "active" : ""}`,
+        html: `<span style="--pin-color:${escapeAttribute(theme.main)}"><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg></span>`,
+        iconSize: [34, 34],
+        iconAnchor: [17, 17],
+      }),
+    }).addTo(map);
+    marker.on("click", () => {
+      state.activePlaceName = item.place.name;
+      renderNearbyView();
+    });
+    nearbyMapState.markers.push(marker);
+  });
+
+  if (state.location) {
+    nearbyMapState.userMarker = window.L.circleMarker([state.location.lat, state.location.lng], {
+      radius: 7,
+      color: "#f7f1e3",
+      weight: 3,
+      fillColor: "#24d79c",
+      fillOpacity: 1,
+    }).addTo(map);
+  }
+  const visible = points
+    .slice(0, state.location ? 30 : 20)
+    .filter((item) => Number.isFinite(item.place.lat) && Number.isFinite(item.place.lng))
+    .map((item) => [item.place.lat, item.place.lng]);
+  if (state.location) visible.push([state.location.lat, state.location.lng]);
+  if (visible.length > 1) {
+    map.fitBounds(window.L.latLngBounds(visible), { padding: [46, 46], maxZoom: 15 });
+  }
+  window.setTimeout(() => map.invalidateSize(), 80);
 }
 
 function getDominantPromoCategory(promos) {

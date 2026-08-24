@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-nav-scroll";
+const CACHE_NAME = "payback-py-v20260824-leaflet-map";
 const APP_SHELL = [
   "./",
   "./index.html",
