@@ -1,4 +1,5 @@
 const DATA_URL = "../public/promotions.json";
+const MANIFEST_URL = "../public/manifest.json";
 const STORAGE_KEYS = {
   user: "paybackPy.user",
   favorites: "paybackPy.favorites",
@@ -101,6 +102,7 @@ const state = {
   favorites: new Set(loadStoredJson(STORAGE_KEYS.favorites, [])),
   alertPrefs: loadStoredJson(STORAGE_KEYS.alertPrefs, { today: true, favorites: true }),
   collapsedSections: new Set(["Todos los dias", "Cuotas sin intereses todos los dias", "Otras ciudades"]),
+  lastUpdated: "",
 };
 
 const bankThemes = {
@@ -1404,17 +1406,58 @@ function getDetailRows(promo) {
   const rows = [
     ["Banco", promo.bank || ""],
     ["Categoría", promo.category || ""],
-    ["Comercios/locales", promo.merchant_locations_or_group || promo.merchant_name || ""],
+    ["Comercios/locales", getMerchantDetail(promo), "merchants"],
     ["Días", getDisplayDays(promo)],
     ["Fecha", getDisplayValidity(promo)],
     ["Reintegro o descuento", getDisplayBenefit(promo)],
     ["Tarjetas que aplican", formatDetailText(extractApplicableCards(promo))],
     ["Tarjetas excluidas", formatDetailText(extractExcludedCards(promo))],
-    ["Topes y mínimos", formatDetailText(promo.caps_and_minimums || extractCapsText(rawDetail) || "No especificado")],
+    ["Topes y mínimos", formatCapsText(promo), "caps"],
     ["Reglas por nivel", promo.level_rules || "", "levels"],
     ["Info adicional importante", extractAdditionalInfo(promo, rawDetail)],
   ];
   return rows.filter(([, value]) => cleanSentence(value));
+}
+
+function getMerchantDetail(promo) {
+  const group = cleanSentence(promo.merchant_locations_or_group || promo.merchant_name || "");
+  if (!group) return "";
+  const count = extractMerchantCount(promo);
+  const brands = extractMerchantBrands(promo);
+  if (count || brands.length > 3) {
+    const intro = count ? `${count} locales adheridos.` : "Locales adheridos.";
+    const names = brands.length ? ` Principales comercios: ${brands.slice(0, 10).join("; ")}.` : "";
+    return `${intro}${names}`;
+  }
+  return group;
+}
+
+function extractMerchantCount(promo) {
+  const text = cleanSentence(`${promo.merchant_locations_or_group || ""} ${promo.raw_detail || ""}`);
+  const match = text.match(/\b(\d{2,5})\s+locales?\b/i);
+  return match ? Number(match[1]) : 0;
+}
+
+function extractMerchantBrands(promo) {
+  const source = cleanSentence(`${promo.merchant_locations_or_group || ""} ${promo.raw_detail || ""}`);
+  const explicit = source.match(/Marcas\/comercios:\s*([^.|]+)/i)?.[1] || "";
+  const names = explicit
+    ? explicit.split(";").map(formatBrandName)
+    : [...source.matchAll(/Listado de locales de\s+(.+?)\s+adheridos/gi)].map((match) => formatBrandName(match[1]));
+  return [...new Set(names.filter(Boolean))].slice(0, 12);
+}
+
+function formatBrandName(value) {
+  return cleanSentence(value)
+    .replace(/\bASISMED\b/g, "ASISMED")
+    .replace(/\bDRUGSTORE\b/g, "Drugstore")
+    .replace(/\bFARMACIAS\b/g, "Farmacias")
+    .replace(/\bFARMACIA\b/g, "Farmacia")
+    .replace(/\bCATEDRAL\b/g, "Catedral")
+    .replace(/\bVICENTE SCAVONE\b/g, "Vicente Scavone")
+    .replace(/\bFARMACENTER\b/g, "Farmacenter")
+    .replace(/\bFARMA KOKE\b/g, "Farma Koke")
+    .replace(/\bSANTA VICTORIA\b/g, "Santa Victoria");
 }
 
 function extractApplicableCards(promo) {
@@ -1436,6 +1479,28 @@ function extractExcludedCards(promo) {
 function extractCapsText(text) {
   const matches = String(text || "").match(/(?:tope|m[ií]nimo|monto m[ií]nimo|l[ií]mite)[^.]+/gi);
   return matches ? cleanSentence([...new Set(matches)].join("; ")) : "";
+}
+
+function formatCapsText(promo) {
+  const text = cleanSentence(`${promo.caps_and_minimums || ""} ${promo.raw_detail || ""}`);
+  if (!text || normalizeDayName(text).includes("no especificado")) return "No especificado";
+  const amounts = extractGuaraniAmounts(text);
+  const parts = [];
+  const purchase = text.match(/tope de compra[^.]*?Gs\.?\s*([0-9.]+)/i);
+  const refund = text.match(/tope de reintegro[^.]*?Gs\.?\s*([0-9.]+)/i);
+  const minimum = text.match(/(?:monto|mínimo|minimo)[^.]*?Gs\.?\s*([0-9.]+)/i);
+  if (minimum) parts.push(`Compra mínima: Gs. ${minimum[1]}.`);
+  if (purchase) parts.push(`Tope de compra: Gs. ${purchase[1]}.`);
+  if (refund) parts.push(`Tope de reintegro: Gs. ${refund[1]}.`);
+  if (!purchase && amounts[0]) parts.push(`Tope de compra: ${amounts[0]}.`);
+  if (!refund && amounts[1]) parts.push(`Tope de reintegro: ${amounts[1]}.`);
+  if (/no se multiplicar[aá]\s+por\s+sucursal/i.test(text)) {
+    parts.push("El tope aplica por marca/comercio adherido y no se multiplica por sucursal.");
+  }
+  if (/mensual/i.test(text) && parts.length) {
+    parts[0] = parts[0].replace("Tope de compra:", "Tope mensual de compra:");
+  }
+  return parts.length ? parts.join(" ") : formatDetailText(text).slice(0, 240);
 }
 
 function extractAdditionalInfo(promo, rawDetail) {
@@ -1515,9 +1580,31 @@ function renderDetailRows(promo) {
   return getDetailRows(promo).map(([label, value, type]) => `
     <div class="detail-row">
       <span>${escapeHtml(label)}</span>
-      ${type === "levels" ? renderLevelTable(promo) : `<strong>${escapeHtml(formatDetailText(value))}</strong>`}
+      ${type === "levels" ? renderLevelTable(promo) : renderDetailValue(value, type)}
     </div>
   `).join("");
+}
+
+function renderDetailValue(value, type) {
+  if (type === "merchants") {
+    return `
+      <strong>${escapeHtml(formatDetailText(value))}</strong>
+      <button class="detail-inline-action" type="button" data-scroll-source>Ver más locales</button>
+    `;
+  }
+  if (type === "caps") return `<strong class="detail-readable">${escapeHtml(formatDetailText(value))}</strong>`;
+  return `<strong>${escapeHtml(formatDetailText(value))}</strong>`;
+}
+
+function formatLastUpdated() {
+  const value = state.lastUpdated ? new Date(state.lastUpdated) : null;
+  if (!value || Number.isNaN(value.getTime())) return "";
+  return new Intl.DateTimeFormat("es-PY", {
+    timeZone: "America/Asuncion",
+    day: "2-digit",
+    month: "2-digit",
+    year: "2-digit",
+  }).format(value);
 }
 
 function inferPurchaseCap(promo, amounts) {
@@ -1611,8 +1698,8 @@ function openDetail(id) {
       ${isUenoPowerPromo(promo) ? `<div class="power-detail"><strong>Promo especial:</strong> ueno+ POWER. Puede requerir desbloqueo o criterios adicionales en la app de ueno.</div>` : ""}
       ${levelDetails ? `<div><strong>Nivel UENO seleccionado:</strong> Nivel ${state.uenoLevel} · ${escapeHtml(levelDetails.percent)}${levelDetails.purchaseCap ? ` · Compra ${escapeHtml(levelDetails.purchaseCap)}` : ""}${levelDetails.refundCap ? ` · Reintegro ${escapeHtml(levelDetails.refundCap)}` : ""}</div>` : ""}
       ${renderDetailRows(promo)}
-      <div class="detail-row"><span>Fuente</span><strong>${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente</strong></div>
-      <div><a href="${escapeAttribute(promo.source_url || "#")}" target="_blank" rel="noreferrer">Ver bases y condiciones</a></div>
+      <div class="detail-row"><span>Fuente</span><strong>${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente${formatLastUpdated() ? ` · ${escapeHtml(formatLastUpdated())}` : ""}</strong></div>
+      <div id="detailSourceLink"><a href="${escapeAttribute(promo.source_url || "#")}" target="_blank" rel="noreferrer">Ver bases y condiciones</a></div>
     </div>
   `;
   els.dialog.showModal();
@@ -1621,8 +1708,15 @@ function openDetail(id) {
 async function loadPromotions() {
   els.statusText.textContent = "Actualizando promociones...";
   els.results.innerHTML = renderSkeletons();
-  const response = await fetch(`${DATA_URL}?t=${Date.now()}`);
+  const [response, manifestResponse] = await Promise.all([
+    fetch(`${DATA_URL}?t=${Date.now()}`),
+    fetch(`${MANIFEST_URL}?t=${Date.now()}`).catch(() => null),
+  ]);
   if (!response.ok) throw new Error("No se pudo cargar promotions.json");
+  if (manifestResponse?.ok) {
+    const manifest = await manifestResponse.json();
+    state.lastUpdated = manifest.generated_at || "";
+  }
   state.promotions = (await response.json()).filter(shouldShowPromotion);
   render();
 }
@@ -1736,6 +1830,11 @@ els.results.addEventListener("submit", (event) => {
 });
 
 els.dialogContent.addEventListener("click", (event) => {
+  const sourceButton = event.target.closest("[data-scroll-source]");
+  if (sourceButton) {
+    els.dialogContent.querySelector("#detailSourceLink")?.scrollIntoView({ behavior: "smooth", block: "center" });
+    return;
+  }
   const favoriteButton = event.target.closest("[data-favorite-id]");
   if (!favoriteButton) return;
   toggleFavorite(favoriteButton.dataset.favoriteId);
