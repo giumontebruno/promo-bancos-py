@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-premium-collapse";
+const CACHE_NAME = "payback-py-v20260824-nearby-filter-sync";
 const APP_SHELL = [
   "./",
   "./index.html",

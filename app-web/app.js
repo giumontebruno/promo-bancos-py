@@ -1317,10 +1317,29 @@ function renderNearbyView() {
   const bankCount = selectedPoint?.banks?.length || 0;
   const geocodedCount = state.locations.filter((item) => Number.isFinite(item.lat) && Number.isFinite(item.lng)).length;
   const mapsUrl = selectedPoint ? getMapsUrl(selectedPlace) : "";
+  const activeFilterText = getNearbyActiveFilterText();
+  if (!points.length) {
+    els.statusText.textContent = "Radar de locales";
+    els.countText.textContent = "0 ubicaciones";
+    els.results.innerHTML = `
+      <section class="nearby-panel">
+        <div class="nearby-hero">
+          <div>
+            <span class="nearby-kicker">Cerca</span>
+            <h2>Sin locales para este filtro</h2>
+            <p>Filtro aplicado: ${escapeHtml(activeFilterText)}.</p>
+          </div>
+          <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : state.location ? "Actualizar ubicación" : "Usar mi ubicación"}</button>
+        </div>
+        <div class="empty compact">Probá con otro banco, otra categoría o volvé a Todas para ampliar el mapa.</div>
+      </section>
+    `;
+    return;
+  }
   els.statusText.textContent = state.location
     ? `Cerca de ${selectedPlace.name}`
     : "Radar de locales";
-  els.countText.textContent = `${points.length} ubicaciones cercanas`;
+  els.countText.textContent = `${points.length} ubicaciones`;
   els.results.innerHTML = `
     <section class="nearby-panel">
       <div class="map-stage">
@@ -1344,10 +1363,19 @@ function renderNearbyView() {
       <div class="place-list">
         ${points.slice(0, 14).map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
       </div>
-      ${promos.length ? `<div class="nearby-note">Mostrando promociones disponibles en esta ubicación. ${bankCount > 1 ? `Hay beneficios de ${bankCount} bancos para comparar.` : "El color del punto corresponde al banco con el mayor beneficio detectado."} ${geocodedCount ? `${geocodedCount} locales tienen coordenadas en la base.` : ""}</div>${renderNearbyPromoGroups(promos)}` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
+      ${promos.length ? `<div class="nearby-note">Filtro aplicado: <strong>${escapeHtml(activeFilterText)}</strong>. ${bankCount > 1 ? `Hay beneficios de ${bankCount} bancos para comparar.` : "El color del punto corresponde al banco con el mayor beneficio detectado."} ${geocodedCount ? `${geocodedCount} locales tienen coordenadas en la base.` : ""}</div>${renderNearbyPromoGroups(promos)}` : `<div class="empty">No encontramos locales geolocalizados para el filtro actual: ${escapeHtml(activeFilterText)}.</div>`}
     </section>
   `;
   hydrateNearbyMap(points, selectedPlace);
+}
+
+function getNearbyActiveFilterText() {
+  const parts = [];
+  if (state.activeBank !== "Todos") parts.push(getBankLabel(state.activeBank));
+  if (state.activeCategory !== "Todas") parts.push(state.activeCategory);
+  if (state.activeDay !== "hoy") parts.push(capitalize(state.activeDay));
+  if (state.query.trim()) parts.push(`"${state.query.trim()}"`);
+  return parts.length ? parts.join(" · ") : "Todos los bancos y categorías";
 }
 
 function renderNearbyPromoGroups(promos) {
@@ -1781,6 +1809,7 @@ function buildNearbyPromoIndex() {
     .filter(shouldShowPromotion)
     .filter(matchesBank)
     .filter(matchesCategory)
+    .filter(matchesNearbyDay)
     .filter((promo) => state.query.trim() ? matchesQuery(promo) : true)
     .forEach((promo) => {
       const bank = normalizeDayName(promo.bank);
@@ -1790,6 +1819,11 @@ function buildNearbyPromoIndex() {
       index.get(key).push(promo);
     });
   return index;
+}
+
+function matchesNearbyDay(promo) {
+  if (state.activeDay === "hoy") return true;
+  return appliesToSelectedDay(promo, state.activeDay);
 }
 
 function getPromotionsForLocation(place, promoIndex) {
@@ -1818,7 +1852,8 @@ function getPromotionsForLocation(place, promoIndex) {
     return merchantTerms.some((term) => promoText.includes(term) || term.includes(promoText));
   });
   const sameBankFallback = candidates.filter((promo) => normalizeDayName(promo.bank) === bank);
-  return (exactMerchantMatches.length ? exactMerchantMatches : sameBankFallback).slice(0, 8);
+  const matches = exactMerchantMatches.length ? exactMerchantMatches : sameBankFallback;
+  return matches.filter((promo) => state.activeCategory !== PREMIUM_CATEGORY || hasPremiumVariant(promo)).slice(0, 8);
 }
 
 function distanceKm(lat1, lng1, lat2, lng2) {
@@ -2389,10 +2424,15 @@ function escapeAttribute(value) {
   return escapeHtml(value).replace(/`/g, "&#096;");
 }
 
+function resetNearbySelection() {
+  state.activePlaceName = "";
+}
+
 els.bankTabs.addEventListener("click", (event) => {
   const bank = event.target.closest("button")?.dataset?.bank;
   if (!bank) return;
   state.activeBank = bank;
+  resetNearbySelection();
   render();
 });
 
@@ -2400,6 +2440,7 @@ els.categoryTabs.addEventListener("click", (event) => {
   const category = event.target.closest("button")?.dataset?.category;
   if (!category) return;
   state.activeCategory = category;
+  resetNearbySelection();
   render();
 });
 
@@ -2407,6 +2448,7 @@ els.dayTabs.addEventListener("click", (event) => {
   const day = event.target.closest("button")?.dataset?.day;
   if (!day) return;
   state.activeDay = day;
+  resetNearbySelection();
   render();
 });
 
@@ -2419,6 +2461,7 @@ els.uenoLevelPanel.addEventListener("click", (event) => {
 
 els.searchInput.addEventListener("input", (event) => {
   state.query = event.target.value;
+  resetNearbySelection();
   if (state.activeView === "alerts") state.activeView = "search";
   render();
 });
