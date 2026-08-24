@@ -9,11 +9,13 @@ const DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "
 const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria"];
 const PREMIUM_CATEGORY = "Club Black";
 const KNOWN_PLACES = [
-  { name: "Shopping del Sol", lat: -25.28288, lng: -57.56706, terms: ["del sol", "delsol", "shopping del sol"] },
-  { name: "Paseo La Galería", lat: -25.2819, lng: -57.5638, terms: ["paseo la galeria", "paseo la galería", "la galeria", "la galería"] },
-  { name: "Shopping Mariscal", lat: -25.2964, lng: -57.5814, terms: ["shopping mariscal", "mariscal", "gastro mariscal"] },
-  { name: "Pinedo Shopping", lat: -25.32396, lng: -57.52098, terms: ["pinedo", "pinedo shopping"] },
-  { name: "Shopping Mariano", lat: -25.2076, lng: -57.5323, terms: ["shopping mariano", "mariano"] },
+  { name: "Shopping del Sol", lat: -25.28288, lng: -57.56706, terms: ["del sol", "delsol", "shopping del sol", "shopping delsol"] },
+  { name: "Paseo La Galería", lat: -25.2819, lng: -57.5638, terms: ["paseo la galeria", "paseo la galería", "la galeria", "la galería", "paseo galeria"] },
+  { name: "Shopping Mariscal", lat: -25.2964, lng: -57.5814, terms: ["shopping mariscal", "mariscal", "gastro mariscal", "shopping mariscal lopez", "shopping mariscal lópez"] },
+  { name: "Pinedo Shopping", lat: -25.32396, lng: -57.52098, terms: ["pinedo", "pinedo shopping", "shopping pinedo"] },
+  { name: "Shopping Mariano", lat: -25.2076, lng: -57.5323, terms: ["shopping mariano", "mariano", "shopping mariano roque alonso"] },
+  { name: "Multiplaza", lat: -25.29831, lng: -57.55011, terms: ["multiplaza", "shopping multiplaza"] },
+  { name: "Villa Morra", lat: -25.29338, lng: -57.58125, terms: ["villa morra", "villamorra", "shopping villa morra", "shopping villamorra"] },
 ];
 const CATEGORY_GROUPS = [
   ["Todas", []],
@@ -98,6 +100,7 @@ const state = {
   uenoLevel: 5,
   location: null,
   locationStatus: "idle",
+  activePlaceName: "",
   user: loadStoredJson(STORAGE_KEYS.user, null),
   favorites: new Set(loadStoredJson(STORAGE_KEYS.favorites, [])),
   alertPrefs: loadStoredJson(STORAGE_KEYS.alertPrefs, { today: true, favorites: true }),
@@ -783,6 +786,12 @@ function getPromoVariants(promo) {
   return uniquePremium.length ? [...variants, ...uniquePremium] : [null];
 }
 
+function getVariantByKey(promo, key) {
+  const variants = getPromoVariants(promo);
+  if (!key) return variants[0] || null;
+  return variants.find((variant, index) => String(index) === String(key) || variant?.label === key) || variants[0] || null;
+}
+
 function hasPremiumVariant(promo) {
   return getPromoVariants(promo).some((variant) => variant?.kind === "premium");
 }
@@ -1209,7 +1218,8 @@ function renderAlertsView() {
 
 function renderNearbyView() {
   const places = getNearbyPlaces();
-  const selectedPlace = places[0]?.place || KNOWN_PLACES[0];
+  const selectedPlace = KNOWN_PLACES.find((place) => place.name === state.activePlaceName) || places[0]?.place || KNOWN_PLACES[0];
+  const selectedDistance = places.find((item) => item.place.name === selectedPlace.name)?.distance || 0;
   const promos = selectedPlace ? getPromotionsForPlace(selectedPlace).sort(sortByBenefitValue) : [];
   els.statusText.textContent = state.location
     ? `Cerca de ${selectedPlace.name}`
@@ -1221,15 +1231,15 @@ function renderNearbyView() {
         <div>
           <span class="nearby-kicker">Ubicación</span>
           <h2>${state.location ? escapeHtml(selectedPlace.name) : "Encontrá promos cerca"}</h2>
-          <p>${state.location ? `Aprox. ${formatDistance(places[0]?.distance || 0)} de tu ubicación.` : "Activá tu ubicación para detectar shoppings y zonas cercanas."}</p>
+          <p>${state.location ? `Aprox. ${formatDistance(selectedDistance)} de tu ubicación.` : "Elegí una zona o activá tu ubicación para detectar shoppings cercanos."}</p>
         </div>
         <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : "Usar mi ubicación"}</button>
       </div>
       <div class="mini-map" aria-label="Mapa de referencia">
-        ${places.slice(0, 5).map((item, index) => `<button type="button" class="${index === 0 ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%" title="${escapeAttribute(item.place.name)}"><span>${index + 1}</span></button>`).join("")}
+        ${places.slice(0, 7).map((item, index) => `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="${item.place.name === selectedPlace.name ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%" title="${escapeAttribute(item.place.name)}"><span>${index + 1}</span></button>`).join("")}
       </div>
       <div class="place-list">
-        ${places.slice(0, 5).map((item, index) => `<div class="${index === 0 ? "active" : ""}"><strong>${escapeHtml(item.place.name)}</strong><span>${state.location ? formatDistance(item.distance) : "Zona conocida"}</span></div>`).join("")}
+        ${places.slice(0, 7).map((item) => `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="${item.place.name === selectedPlace.name ? "active" : ""}"><strong>${escapeHtml(item.place.name)}</strong><span>${state.location ? formatDistance(item.distance) : "Zona conocida"}</span></button>`).join("")}
       </div>
       ${promos.length ? `<div class="grid nearby-grid">${promos.slice(0, 20).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. Podemos ampliar el scraper con locales y pisos de cada shopping.</div>`}
     </section>
@@ -1401,7 +1411,7 @@ function getEstimatedSavings(promo, amount = null) {
   return { percent, purchaseCap, refundCap: estimated || 0, explicitRefundCap };
 }
 
-function getDetailRows(promo) {
+function getDetailRows(promo, variant = null) {
   const rawDetail = cleanSentence(promo.raw_detail || promo.validity || "");
   const rows = [
     ["Banco", promo.bank || ""],
@@ -1409,12 +1419,12 @@ function getDetailRows(promo) {
     ["Comercios/locales", getMerchantDetail(promo), "merchants"],
     ["Días", getDisplayDays(promo)],
     ["Fecha", getDisplayValidity(promo)],
-    ["Reintegro o descuento", getDisplayBenefit(promo)],
-    ["Tarjetas que aplican", formatDetailText(extractApplicableCards(promo))],
+    ["Reintegro o descuento", getDisplayBenefit(promo, variant)],
+    ["Tarjetas que aplican", formatDetailText(extractApplicableCards(promo, variant))],
     ["Tarjetas excluidas", formatDetailText(extractExcludedCards(promo))],
-    ["Topes y mínimos", formatCapsText(promo), "caps"],
+    ["Topes y mínimos", formatCapsText(promo, variant), "caps"],
     ["Reglas por nivel", promo.level_rules || "", "levels"],
-    ["Info adicional importante", extractAdditionalInfo(promo, rawDetail)],
+    ["Info adicional importante", extractAdditionalInfo(promo, rawDetail, variant)],
   ];
   return rows.filter(([, value]) => cleanSentence(value));
 }
@@ -1460,8 +1470,15 @@ function formatBrandName(value) {
     .replace(/\bSANTA VICTORIA\b/g, "Santa Victoria");
 }
 
-function extractApplicableCards(promo) {
+function extractApplicableCards(promo, variant = null) {
   const text = cleanSentence([promo.raw_detail, promo.benefit_summary].join(" "));
+  if (variant?.kind === "premium") {
+    if (/privilege|privilegio/i.test(variant.label)) return "Tarjetas Continental Privilege";
+    if (/mastercard black|visa infinite|amex platinum|personal bank|premium/i.test(text)) {
+      return "Tarjetas premium indicadas en bases: Mastercard Black, Visa Infinite o equivalentes";
+    }
+  }
+  if (variant?.kind === "base" && promo.bank === "Sudameris") return "Tarjetas de crédito Sudameris";
   const explicit = text.match(/(?:aplica exclusivamente para compras realizadas con|con|pagando con|válido con|valido con)\s+(?:tu\s+)?(?:tarjeta|tarjetas|tarjetas físicas)[^.]+/i)?.[0];
   if (explicit) {
     return cleanSentence(explicit.replace(/^(?:aplica exclusivamente para compras realizadas con|con|pagando con|válido con|valido con)\s+/i, ""));
@@ -1481,9 +1498,11 @@ function extractCapsText(text) {
   return matches ? cleanSentence([...new Set(matches)].join("; ")) : "";
 }
 
-function formatCapsText(promo) {
+function formatCapsText(promo, variant = null) {
   const text = cleanSentence(`${promo.caps_and_minimums || ""} ${promo.raw_detail || ""}`);
   if (!text || normalizeDayName(text).includes("no especificado")) return "No especificado";
+  const scoped = getVariantScopedText(promo, variant);
+  if (scoped) return scoped;
   const amounts = extractGuaraniAmounts(text);
   const parts = [];
   const purchase = text.match(/tope de compra[^.]*?Gs\.?\s*([0-9.]+)/i);
@@ -1503,7 +1522,9 @@ function formatCapsText(promo) {
   return parts.length ? parts.join(" ") : formatDetailText(text).slice(0, 240);
 }
 
-function extractAdditionalInfo(promo, rawDetail) {
+function extractAdditionalInfo(promo, rawDetail, variant = null) {
+  const scoped = getVariantScopedText(promo, variant);
+  if (scoped) return "Ver promoción original para bases completas.";
   const important = [];
   const source = cleanSentence(rawDetail);
   const withoutKnown = source
@@ -1519,6 +1540,17 @@ function extractAdditionalInfo(promo, rawDetail) {
 function formatDetailText(value) {
   let text = cleanSentence(value);
   text = text
+    .replace(/,\./g, ".")
+    .replace(/\s+\./g, ".")
+    .replace(/\btarjetas de crédito de Sudameris\b/gi, "Tarjetas de crédito Sudameris")
+    .replace(/\btarjetas de crédito Sudameris\b/gi, "Tarjetas de crédito Sudameris")
+    .replace(/\btarjetas de crédito Continental\b/gi, "Tarjetas de crédito Continental")
+    .replace(/\btarjeta de crédito visa bnf\b/gi, "Tarjeta de crédito Visa BNF")
+    .replace(/\bvisa\b/gi, "Visa")
+    .replace(/\bmastercard\b/gi, "Mastercard")
+    .replace(/\bpersonal bank\b/gi, "Personal Bank")
+    .replace(/\bamex platinum\b/gi, "Amex Platinum")
+    .replace(/\breintegro directo en extracto\b/gi, "reintegro directo en extracto")
     .replace(/^tarjetas físicas/i, "Tarjetas físicas")
     .replace(/^tope de/i, "Tope de")
     .replace(/^monto mínimo/i, "Monto mínimo")
@@ -1531,6 +1563,26 @@ function formatDetailText(value) {
     .replace(/\bblack\b/gi, "Black")
     .replace(/\bultra Black\b/g, "Ultra Black");
   return text;
+}
+
+function getVariantScopedText(promo, variant = null) {
+  if (!variant || !promo.raw_detail) return "";
+  const percent = percentNumber(variant.benefit);
+  if (!percent) return "";
+  const premiumTerms = /black|infinite|platinum|premium|privilege|privilegio|personal bank|mastercard black|visa infinite|amex platinum/i;
+  const sentences = cleanSentence(promo.raw_detail)
+    .split(".")
+    .map(formatDetailText)
+    .filter(Boolean);
+  if (!sentences.some((sentence) => premiumTerms.test(sentence))) return "";
+  const selected = sentences.filter((sentence) => {
+    const hasPercent = new RegExp(`\\b${percent}\\s*%`).test(sentence);
+    const isPremium = premiumTerms.test(sentence);
+    if (variant.kind === "premium") return hasPercent && isPremium;
+    if (variant.kind === "base") return hasPercent && !isPremium;
+    return false;
+  });
+  return selected.slice(0, 2).join(". ");
 }
 
 function parseLevelRows(promo) {
@@ -1576,8 +1628,8 @@ function renderLevelTable(promo) {
   `;
 }
 
-function renderDetailRows(promo) {
-  return getDetailRows(promo).map(([label, value, type]) => `
+function renderDetailRows(promo, variant = null) {
+  return getDetailRows(promo, variant).map(([label, value, type]) => `
     <div class="detail-row">
       <span>${escapeHtml(label)}</span>
       ${type === "levels" ? renderLevelTable(promo) : renderDetailValue(value, type)}
@@ -1652,7 +1704,7 @@ function renderCard(promo, variant = null) {
     ? `<span class="power-badge" title="Promo ueno+ POWER"><img src="${escapeAttribute(bankThemes["ueno bank"].logo)}" alt="" />ueno+ POWER</span>`
     : "";
   return `
-    <article class="promo-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""}" data-id="${promo.id}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
+    <article class="promo-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""}" data-id="${promo.id}" data-variant="${escapeAttribute(String(getPromoVariants(promo).indexOf(variant)))}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
       <div class="logo-box">${theme.logo ? `<img class="${escapeAttribute(logoClass)}" src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(getBankLabel(promo.bank))}" />` : ""}</div>
       <div class="promo-content">
         <div class="promo-card-head">
@@ -1677,15 +1729,17 @@ function renderCard(promo, variant = null) {
   `;
 }
 
-function openDetail(id) {
+function openDetail(id, variantKey = "") {
   const promo = state.promotions.find((item) => item.id === id);
   if (!promo) return;
+  const variant = getVariantByKey(promo, variantKey);
   const isFavorite = state.favorites.has(promo.id);
   const levelDetails = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   const savings = getEstimatedSavings(promo);
   els.dialogContent.innerHTML = `
     <h2>${escapeHtml(getPromoTitle(promo))}</h2>
-    <p class="benefit">${escapeHtml(getDisplayBenefit(promo))}</p>
+    ${variant?.kind === "premium" ? `<span class="premium-badge detail-premium">${escapeHtml(variant.label)}</span>` : ""}
+    <p class="benefit">${escapeHtml(getDisplayBenefit(promo, variant))}</p>
     ${savings.refundCap ? `<div class="detail-saving"><span>Ahorro máximo estimado</span><strong>${escapeHtml(formatGuarani(savings.refundCap))}</strong></div>` : ""}
     <button class="detail-favorite ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}">${isFavorite ? "♥ Guardado en favoritos" : "♡ Guardar en favoritos"}</button>
     <div class="calculator" data-calculator-id="${escapeAttribute(promo.id)}">
@@ -1697,7 +1751,7 @@ function openDetail(id) {
     <div class="detail-list">
       ${isUenoPowerPromo(promo) ? `<div class="power-detail"><strong>Promo especial:</strong> ueno+ POWER. Puede requerir desbloqueo o criterios adicionales en la app de ueno.</div>` : ""}
       ${levelDetails ? `<div><strong>Nivel UENO seleccionado:</strong> Nivel ${state.uenoLevel} · ${escapeHtml(levelDetails.percent)}${levelDetails.purchaseCap ? ` · Compra ${escapeHtml(levelDetails.purchaseCap)}` : ""}${levelDetails.refundCap ? ` · Reintegro ${escapeHtml(levelDetails.refundCap)}` : ""}</div>` : ""}
-      ${renderDetailRows(promo)}
+      ${renderDetailRows(promo, variant)}
       <div class="detail-row"><span>Fuente</span><strong>${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente${formatLastUpdated() ? ` · ${escapeHtml(formatLastUpdated())}` : ""}</strong></div>
       <div id="detailSourceLink"><a href="${escapeAttribute(promo.source_url || "#")}" target="_blank" rel="noreferrer">Ver bases y condiciones</a></div>
     </div>
@@ -1789,6 +1843,13 @@ els.results.addEventListener("click", (event) => {
     return;
   }
 
+  const placeButton = event.target.closest("[data-place-name]");
+  if (placeButton) {
+    state.activePlaceName = placeButton.dataset.placeName;
+    renderNearbyView();
+    return;
+  }
+
   const favoriteButton = event.target.closest("[data-favorite-id]");
   if (favoriteButton) {
     event.preventDefault();
@@ -1810,7 +1871,7 @@ els.results.addEventListener("click", (event) => {
   }
 
   const card = event.target.closest(".promo-card");
-  if (card) openDetail(card.dataset.id);
+  if (card) openDetail(card.dataset.id, card.dataset.variant);
 });
 
 els.results.addEventListener("submit", (event) => {

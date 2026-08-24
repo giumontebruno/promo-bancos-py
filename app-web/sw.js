@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-source-pulse";
+const CACHE_NAME = "payback-py-v20260824-premium-nearby";
 const APP_SHELL = [
   "./",
   "./index.html",
