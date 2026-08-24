@@ -1162,25 +1162,40 @@ dialog::backdrop {
 
 .mini-map button {
   align-items: center;
-  background: rgba(247, 241, 227, 0.14);
-  border: 1px solid rgba(247, 241, 227, 0.24);
+  background: var(--marker-color, rgba(247, 241, 227, 0.14));
+  border: 2px solid rgba(247, 241, 227, 0.86);
   border-radius: 999px;
-  color: var(--brand-cream);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
+  color: #fff;
   cursor: pointer;
   display: inline-flex;
-  height: 34px;
+  font-size: 11px;
+  font-weight: 950;
+  height: 36px;
   justify-content: center;
   left: var(--x);
   position: absolute;
   top: var(--y);
   transform: translate(-50%, -50%);
-  width: 34px;
+  width: 36px;
   z-index: 1;
 }
 
 .mini-map button.active {
-  background: var(--brand-cream);
-  color: var(--brand-navy-deep);
+  outline: 4px solid rgba(213, 184, 116, 0.35);
+  transform: translate(-50%, -50%) scale(1.12);
+  z-index: 2;
+}
+
+.map-marker span {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 999px;
+  display: inline-flex;
+  height: 22px;
+  justify-content: center;
+  min-width: 22px;
+  padding: 0 5px;
 }
 
 .place-list {
@@ -1215,6 +1230,21 @@ dialog::backdrop {
   color: var(--brand-cream-muted);
   font-size: 12px;
   font-weight: 850;
+}
+
+.nearby-note {
+  background: rgba(247, 241, 227, 0.06);
+  border: 1px solid rgba(247, 241, 227, 0.12);
+  border-radius: 16px;
+  color: var(--brand-cream-muted);
+  font-size: 12px;
+  font-weight: 750;
+  line-height: 1.35;
+  padding: 10px 12px;
+}
+
+.nearby-note strong {
+  color: var(--brand-cream);
 }
 
 .nearby-grid {

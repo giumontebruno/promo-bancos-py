@@ -17,6 +17,16 @@ const KNOWN_PLACES = [
   { name: "Multiplaza", lat: -25.29831, lng: -57.55011, terms: ["multiplaza", "shopping multiplaza"] },
   { name: "Villa Morra", lat: -25.29338, lng: -57.58125, terms: ["villa morra", "villamorra", "shopping villa morra", "shopping villamorra"] },
 ];
+const KNOWN_LOCAL_POINTS = [
+  ...KNOWN_PLACES,
+  { name: "CIT", lat: -25.28935, lng: -57.60074, terms: ["club internacional de tenis", "cit", "tl sports cit", "provisión cars cit", "provision cars cit", "asismed sucursal cit"] },
+  { name: "Asunción Tenis Club", lat: -25.2871, lng: -57.6087, terms: ["asuncion tenis club", "asunción tenis club"] },
+  { name: "Club Cerro Porteño", lat: -25.2979, lng: -57.6591, terms: ["cerro porteño", "cerro porteno", "club cerro porteño"] },
+  { name: "Club Olimpia", lat: -25.2912, lng: -57.6426, terms: ["club olimpia", "olimpia"] },
+  { name: "Distrito Perseverancia", lat: -25.28763, lng: -57.58251, terms: ["distrito perseverancia", "perseverancia"] },
+  { name: "Casa Rica Molas López", lat: -25.27381, lng: -57.57173, terms: ["casa rica molas", "molas lópez", "molas lopez"] },
+  { name: "Superseis Los Laureles", lat: -25.2998, lng: -57.5706, terms: ["los laureles", "superseis los laureles"] },
+];
 const CATEGORY_GROUPS = [
   ["Todas", []],
   ["Supermercados", ["super", "mayorista", "delimarket", "stock", "real", "contimarket"]],
@@ -1217,33 +1227,58 @@ function renderAlertsView() {
 }
 
 function renderNearbyView() {
-  const places = getNearbyPlaces();
-  const selectedPlace = KNOWN_PLACES.find((place) => place.name === state.activePlaceName) || places[0]?.place || KNOWN_PLACES[0];
-  const selectedDistance = places.find((item) => item.place.name === selectedPlace.name)?.distance || 0;
-  const promos = selectedPlace ? getPromotionsForPlace(selectedPlace).sort(sortByBenefitValue) : [];
+  const points = getNearbyPromoPoints();
+  const selectedPoint = points.find((item) => item.place.name === state.activePlaceName) || points[0];
+  const selectedPlace = selectedPoint?.place || KNOWN_LOCAL_POINTS[0];
+  const selectedDistance = selectedPoint?.distance || 0;
+  const promos = selectedPoint?.promos || [];
   els.statusText.textContent = state.location
     ? `Cerca de ${selectedPlace.name}`
-    : "Promos por zona";
-  els.countText.textContent = `${promos.length} promociones`;
+    : "Radar de locales";
+  els.countText.textContent = `${points.reduce((sum, item) => sum + item.promos.length, 0)} promos ubicables`;
   els.results.innerHTML = `
     <section class="nearby-panel">
       <div class="nearby-hero">
         <div>
           <span class="nearby-kicker">Ubicación</span>
-          <h2>${state.location ? escapeHtml(selectedPlace.name) : "Encontrá promos cerca"}</h2>
-          <p>${state.location ? `Aprox. ${formatDistance(selectedDistance)} de tu ubicación.` : "Elegí una zona o activá tu ubicación para detectar shoppings cercanos."}</p>
+          <h2>${state.location ? escapeHtml(selectedPlace.name) : "Promos cerca tuyo"}</h2>
+          <p>${state.location ? `Aprox. ${formatDistance(selectedDistance)} de tu ubicación.` : "Activá tu ubicación o elegí un punto del mapa para ver locales con promociones."}</p>
         </div>
         <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : "Usar mi ubicación"}</button>
       </div>
-      <div class="mini-map" aria-label="Mapa de referencia">
-        ${places.slice(0, 7).map((item, index) => `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="${item.place.name === selectedPlace.name ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%" title="${escapeAttribute(item.place.name)}"><span>${index + 1}</span></button>`).join("")}
+      <div class="mini-map local-radar" aria-label="Mapa de referencia">
+        ${points.slice(0, 14).map((item) => renderMapMarker(item, selectedPlace)).join("")}
       </div>
       <div class="place-list">
-        ${places.slice(0, 7).map((item) => `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="${item.place.name === selectedPlace.name ? "active" : ""}"><strong>${escapeHtml(item.place.name)}</strong><span>${state.location ? formatDistance(item.distance) : "Zona conocida"}</span></button>`).join("")}
+        ${points.slice(0, 10).map((item) => `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="${item.place.name === selectedPlace.name ? "active" : ""}"><strong>${escapeHtml(item.place.name)}</strong><span>${state.location ? formatDistance(item.distance) : `${item.promos.length} promos`}</span></button>`).join("")}
       </div>
-      ${promos.length ? `<div class="grid nearby-grid">${promos.slice(0, 20).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. Podemos ampliar el scraper con locales y pisos de cada shopping.</div>`}
+      ${promos.length ? `<div class="nearby-note">Mostrando promos asociadas a <strong>${escapeHtml(selectedPlace.name)}</strong>. Algunas ubicaciones son aproximadas hasta completar coordenadas por local.</div><div class="grid nearby-grid">${promos.slice(0, 20).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
     </section>
   `;
+}
+
+function renderMapMarker(item, selectedPlace) {
+  const firstPromo = item.promos[0];
+  const theme = getBankTheme(firstPromo?.bank);
+  const bankCount = new Set(item.promos.map((promo) => promo.bank)).size;
+  return `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="map-marker ${item.place.name === selectedPlace.name ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(`${item.place.name} · ${item.promos.length} promos`)}"><span>${bankCount > 1 ? item.promos.length : getBankLabel(firstPromo?.bank).slice(0, 1)}</span></button>`;
+}
+
+function getNearbyPromoPoints() {
+  const points = KNOWN_LOCAL_POINTS
+    .map((place) => {
+      const promos = getPromotionsForPlace(place);
+      return {
+        place,
+        promos,
+        distance: state.location ? distanceKm(state.location.lat, state.location.lng, place.lat, place.lng) : 0,
+      };
+    })
+    .filter((item) => item.promos.length);
+  return points.sort((a, b) => {
+    if (state.location && a.distance !== b.distance) return a.distance - b.distance;
+    return b.promos.length - a.promos.length;
+  });
 }
 
 function getNearbyPlaces() {

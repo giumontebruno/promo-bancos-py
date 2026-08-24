@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-premium-nearby";
+const CACHE_NAME = "payback-py-v20260824-local-radar";
 const APP_SHELL = [
   "./",
   "./index.html",
