@@ -17,6 +17,7 @@ STEPS = [
     ("scrapers/extract_ueno.py", False),
     ("scrapers/extract_ueno_pdf_links.py", False),
     ("scrapers/enrich_ueno_from_bases.py", False),
+    ("scrapers/build_locations.py", False),
     ("promo_backend/normalize.py", True),
 ]
 

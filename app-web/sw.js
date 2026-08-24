@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-local-radar";
+const CACHE_NAME = "payback-py-v20260824-geolocations";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -7,6 +7,7 @@ const APP_SHELL = [
   "./manifest.webmanifest",
   "./assets/logos/payback-py.svg",
   "../public/promotions.json",
+  "../public/locations.json",
 ];
 
 self.addEventListener("install", (event) => {
@@ -38,7 +39,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (url.pathname.endsWith("/public/promotions.json")) {
+  if (url.pathname.endsWith("/public/promotions.json") || url.pathname.endsWith("/public/locations.json")) {
     event.respondWith(
       fetch(event.request)
         .then((response) => {

@@ -1,5 +1,6 @@
 const DATA_URL = "../public/promotions.json";
 const MANIFEST_URL = "../public/manifest.json";
+const LOCATIONS_URL = "../public/locations.json";
 const STORAGE_KEYS = {
   user: "paybackPy.user",
   favorites: "paybackPy.favorites",
@@ -102,6 +103,8 @@ const OTHER_CITY_TERMS = [
 
 const state = {
   promotions: [],
+  locations: [],
+  locationsUpdated: "",
   activeView: "today",
   activeBank: "Todos",
   activeCategory: "Todas",
@@ -1232,6 +1235,7 @@ function renderNearbyView() {
   const selectedPlace = selectedPoint?.place || KNOWN_LOCAL_POINTS[0];
   const selectedDistance = selectedPoint?.distance || 0;
   const promos = selectedPoint?.promos || [];
+  const geocodedCount = state.locations.filter((item) => Number.isFinite(item.lat) && Number.isFinite(item.lng)).length;
   els.statusText.textContent = state.location
     ? `Cerca de ${selectedPlace.name}`
     : "Radar de locales";
@@ -1247,12 +1251,12 @@ function renderNearbyView() {
         <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : "Usar mi ubicación"}</button>
       </div>
       <div class="mini-map local-radar" aria-label="Mapa de referencia">
-        ${points.slice(0, 14).map((item) => renderMapMarker(item, selectedPlace)).join("")}
+        ${points.slice(0, 40).map((item) => renderMapMarker(item, selectedPlace)).join("")}
       </div>
       <div class="place-list">
-        ${points.slice(0, 10).map((item) => `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="${item.place.name === selectedPlace.name ? "active" : ""}"><strong>${escapeHtml(item.place.name)}</strong><span>${state.location ? formatDistance(item.distance) : `${item.promos.length} promos`}</span></button>`).join("")}
+        ${points.slice(0, 12).map((item) => `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="${item.place.name === selectedPlace.name ? "active" : ""}"><strong>${escapeHtml(item.place.name)}</strong><span>${state.location ? formatDistance(item.distance) : `${item.promos.length} promos`}</span></button>`).join("")}
       </div>
-      ${promos.length ? `<div class="nearby-note">Mostrando promos asociadas a <strong>${escapeHtml(selectedPlace.name)}</strong>. Algunas ubicaciones son aproximadas hasta completar coordenadas por local.</div><div class="grid nearby-grid">${promos.slice(0, 20).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
+      ${promos.length ? `<div class="nearby-note">Mostrando promos asociadas a <strong>${escapeHtml(selectedPlace.name)}</strong>. ${geocodedCount ? `${geocodedCount} locales tienen coordenadas reales o aproximadas por ciudad.` : "El mapa usa puntos de referencia mientras se completa la base geolocalizada."}</div><div class="grid nearby-grid">${promos.slice(0, 20).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty">Todavía no tenemos promociones geolocalizadas para esta zona. El siguiente paso es enriquecer la base con dirección, latitud y longitud por local.</div>`}
     </section>
   `;
 }
@@ -1261,11 +1265,24 @@ function renderMapMarker(item, selectedPlace) {
   const firstPromo = item.promos[0];
   const theme = getBankTheme(firstPromo?.bank);
   const bankCount = new Set(item.promos.map((promo) => promo.bank)).size;
-  return `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="map-marker ${item.place.name === selectedPlace.name ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(`${item.place.name} · ${item.promos.length} promos`)}"><span>${bankCount > 1 ? item.promos.length : getBankLabel(firstPromo?.bank).slice(0, 1)}</span></button>`;
+  const sourceLabel = item.place.geocode_source === "city_approximation" ? "zona aproximada" : "ubicación";
+  const title = `${item.place.name}${item.place.address ? ` · ${item.place.address}` : ""} · ${item.promos.length} promos · ${sourceLabel}`;
+  return `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="map-marker ${item.place.geocode_source === "city_approximation" ? "approximate" : ""} ${item.place.name === selectedPlace.name ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(title)}"><span>${bankCount > 1 ? item.promos.length : getBankLabel(firstPromo?.bank).slice(0, 1)}</span></button>`;
 }
 
 function getNearbyPromoPoints() {
-  const points = KNOWN_LOCAL_POINTS
+  const dynamicPoints = state.locations
+    .filter((place) => Number.isFinite(place.lat) && Number.isFinite(place.lng))
+    .map((place) => {
+      const promos = getPromotionsForLocation(place);
+      return {
+        place,
+        promos,
+        distance: state.location ? distanceKm(state.location.lat, state.location.lng, place.lat, place.lng) : 0,
+      };
+    })
+    .filter((item) => item.promos.length);
+  const knownPoints = KNOWN_LOCAL_POINTS
     .map((place) => {
       const promos = getPromotionsForPlace(place);
       return {
@@ -1275,7 +1292,14 @@ function getNearbyPromoPoints() {
       };
     })
     .filter((item) => item.promos.length);
-  return points.sort((a, b) => {
+  const pointsByName = new Map();
+  [...dynamicPoints, ...knownPoints].forEach((item) => {
+    const key = normalizeDayName([item.place.name, item.place.address, item.place.city].join(" "));
+    if (!pointsByName.has(key) || item.promos.length > pointsByName.get(key).promos.length) {
+      pointsByName.set(key, item);
+    }
+  });
+  return [...pointsByName.values()].sort((a, b) => {
     if (state.location && a.distance !== b.distance) return a.distance - b.distance;
     return b.promos.length - a.promos.length;
   });
@@ -1301,6 +1325,27 @@ function getPromotionsForPlace(place) {
     ].join(" "));
     return place.terms.some((term) => text.includes(normalizeDayName(term)));
   });
+}
+
+function getPromotionsForLocation(place) {
+  const merchant = normalizeDayName(place.merchant_name || place.name);
+  const category = normalizeDayName(place.category);
+  const bank = normalizeDayName(place.bank);
+  return state.promotions.filter((promo) => {
+    if (!shouldShowPromotion(promo)) return false;
+    const promoBank = normalizeDayName(promo.bank);
+    if (bank && bank !== "varios" && promoBank !== bank) return false;
+    const promoCategory = normalizeDayName(getPromoCategoryGroup(promo));
+    const promoText = normalizeDayName([
+      promo.merchant_name,
+      promo.category,
+      promo.merchant_locations_or_group,
+      promo.raw_detail,
+    ].join(" "));
+    if (merchant && promoText.includes(merchant)) return true;
+    if (category && promoCategory === normalizeDayName(category)) return true;
+    return false;
+  }).slice(0, 10);
 }
 
 function distanceKm(lat1, lng1, lat2, lng2) {
@@ -1797,9 +1842,10 @@ function openDetail(id, variantKey = "") {
 async function loadPromotions() {
   els.statusText.textContent = "Actualizando promociones...";
   els.results.innerHTML = renderSkeletons();
-  const [response, manifestResponse] = await Promise.all([
+  const [response, manifestResponse, locationsResponse] = await Promise.all([
     fetch(`${DATA_URL}?t=${Date.now()}`),
     fetch(`${MANIFEST_URL}?t=${Date.now()}`).catch(() => null),
+    fetch(`${LOCATIONS_URL}?t=${Date.now()}`).catch(() => null),
   ]);
   if (!response.ok) throw new Error("No se pudo cargar promotions.json");
   if (manifestResponse?.ok) {
@@ -1807,6 +1853,17 @@ async function loadPromotions() {
     state.lastUpdated = manifest.generated_at || "";
   }
   state.promotions = (await response.json()).filter(shouldShowPromotion);
+  if (locationsResponse?.ok) {
+    const payload = await locationsResponse.json();
+    state.locationsUpdated = payload.generated_at || "";
+    state.locations = (payload.locations || []).map((item) => ({
+      ...item,
+      name: [item.merchant_name, item.address].filter(Boolean).join(" · "),
+      lat: item.lat === null || item.lat === "" ? null : Number(item.lat),
+      lng: item.lng === null || item.lng === "" ? null : Number(item.lng),
+      terms: [item.merchant_name, item.address, item.city].filter(Boolean),
+    }));
+  }
   render();
 }
 
