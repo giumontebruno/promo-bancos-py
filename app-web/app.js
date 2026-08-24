@@ -1264,10 +1264,21 @@ function renderNearbyView() {
 function renderMapMarker(item, selectedPlace) {
   const firstPromo = item.promos[0];
   const theme = getBankTheme(firstPromo?.bank);
-  const bankCount = new Set(item.promos.map((promo) => promo.bank)).size;
+  const category = getDominantPromoCategory(item.promos);
+  const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
+  const iconPath = ICON_PATHS[iconKey] || ICON_PATHS.star;
   const sourceLabel = item.place.geocode_source === "city_approximation" ? "zona aproximada" : "ubicación";
-  const title = `${item.place.name}${item.place.address ? ` · ${item.place.address}` : ""} · ${item.promos.length} promos · ${sourceLabel}`;
-  return `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="map-marker ${item.place.geocode_source === "city_approximation" ? "approximate" : ""} ${item.place.name === selectedPlace.name ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(title)}"><span>${bankCount > 1 ? item.promos.length : getBankLabel(firstPromo?.bank).slice(0, 1)}</span></button>`;
+  const title = `${item.place.name}${item.place.address ? ` · ${item.place.address}` : ""} · ${category} · ${item.promos.length} promos · ${sourceLabel}`;
+  return `<button type="button" data-place-name="${escapeAttribute(item.place.name)}" class="map-marker ${item.place.geocode_source === "city_approximation" ? "approximate" : ""} ${item.place.name === selectedPlace.name ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(title)}" aria-label="${escapeAttribute(title)}"><span><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg></span></button>`;
+}
+
+function getDominantPromoCategory(promos) {
+  const counts = new Map();
+  promos.forEach((promo) => {
+    const category = getPromoCategoryGroup(promo);
+    counts.set(category, (counts.get(category) || 0) + 1);
+  });
+  return [...counts.entries()].sort((a, b) => b[1] - a[1] || getCategoryOrder(a[0]) - getCategoryOrder(b[0]))[0]?.[0] || "Especiales";
 }
 
 function getNearbyPromoPoints() {

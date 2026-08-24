@@ -1163,21 +1163,21 @@ dialog::backdrop {
 .mini-map button {
   align-items: center;
   background: var(--marker-color, rgba(247, 241, 227, 0.14));
-  border: 2px solid rgba(247, 241, 227, 0.86);
-  border-radius: 999px;
+  border: 1px solid rgba(247, 241, 227, 0.82);
+  border-radius: 10px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
   color: #fff;
   cursor: pointer;
   display: inline-flex;
   font-size: 10px;
   font-weight: 950;
-  height: 30px;
+  height: 32px;
   justify-content: center;
   left: var(--x);
   position: absolute;
   top: var(--y);
   transform: translate(-50%, -50%);
-  width: 30px;
+  width: 32px;
   z-index: 1;
 }
 
@@ -1193,13 +1193,22 @@ dialog::backdrop {
 
 .map-marker span {
   align-items: center;
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 999px;
+  background: rgba(2, 8, 20, 0.28);
+  border-radius: 8px;
   display: inline-flex;
-  height: 18px;
+  height: 24px;
   justify-content: center;
-  min-width: 18px;
-  padding: 0 4px;
+  width: 24px;
+}
+
+.map-marker svg {
+  fill: none;
+  height: 15px;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.4;
+  width: 15px;
 }
 
 .place-list {

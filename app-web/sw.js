@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-geolocations";
+const CACHE_NAME = "payback-py-v20260824-map-category-pins";
 const APP_SHELL = [
   "./",
   "./index.html",
