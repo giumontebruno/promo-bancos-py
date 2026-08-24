@@ -2143,11 +2143,7 @@ function formatCapsText(promo, variant = null) {
   if (scoped) return scoped;
   const universitariaCaps = getUniversitariaCaps(promo, percentNumber(getMainBenefit(promo, variant) || promo.benefit_summary));
   if (universitariaCaps.purchaseCap || universitariaCaps.refundCap) {
-    const parts = [];
-    if (universitariaCaps.purchaseCap) parts.push(`Límite de compra: ${formatGuarani(universitariaCaps.purchaseCap)}.`);
-    if (universitariaCaps.refundCap) parts.push(`Tope de reintegro/descuento: ${formatGuarani(universitariaCaps.refundCap)}.`);
-    if (universitariaCaps.modality) parts.push(`Modalidad: ${universitariaCaps.modality}.`);
-    return parts.join(" ");
+    return formatUniversitariaCapsText(universitariaCaps);
   }
   const amounts = extractGuaraniAmounts(text);
   const parts = [];
@@ -2307,7 +2303,7 @@ function formatLastUpdated() {
 
 function getUniversitariaCaps(promo, percent = null) {
   if (promo.bank !== "Coop. Universitaria") {
-    return { purchaseCap: 0, refundCap: 0, modality: "" };
+    return { purchaseCap: 0, refundCap: 0, modality: "", methods: [] };
   }
 
   const raw = cleanSentence(`${promo.raw_detail || ""} ${promo.caps_and_minimums || ""}`);
@@ -2359,7 +2355,52 @@ function getUniversitariaCaps(promo, percent = null) {
       ? "Tarjeta física"
       : "";
 
-  return { purchaseCap, refundCap, modality };
+  const uniqueCaps = percentCaps.filter((item, index, list) => (
+    item.amount && list.findIndex((other) => other.percent === item.percent && other.amount === item.amount) === index
+  ));
+  const methodCaps = uniqueCaps
+    .map((item) => ({
+      ...item,
+      modality: getUniversitariaPaymentMethod(raw, item.percent),
+      purchaseCap,
+    }))
+    .filter((item) => item.modality || item.percent === selectedPercent);
+  if (selectedPercent && refundCap && !methodCaps.some((item) => item.percent === selectedPercent)) {
+    methodCaps.unshift({
+      percent: selectedPercent,
+      amount: refundCap,
+      modality: getUniversitariaPaymentMethod(raw, selectedPercent) || modality,
+      purchaseCap,
+    });
+  }
+
+  return { purchaseCap, refundCap, modality, methods: methodCaps };
+}
+
+function getUniversitariaPaymentMethod(raw, percent) {
+  const normalized = normalizeDayName(raw);
+  if (/pago\s+qr/i.test(raw) && percent >= 20) return "Pago QR";
+  if (/(?:t\.?\s*c\.?\s*f[ií]sica|tarjeta\s+f[ií]sica|pl[aá]sticos)/i.test(raw) && percent <= 15) return "Tarjeta física";
+  if (normalized.includes("qr panal") || normalized.includes("panal/cabal/mastercard qr")) return "Pago QR";
+  return "";
+}
+
+function formatUniversitariaCapsText(caps) {
+  const methods = (caps.methods || []).filter((item) => item.modality && item.amount);
+  if (methods.length) {
+    return methods.map((item) => {
+      const percent = item.percent ? `${item.percent}%` : "beneficio";
+      const purchase = item.purchaseCap ? `Límite de compra: ${formatGuarani(item.purchaseCap)}.` : "";
+      const refund = `Tope de reintegro/descuento: ${formatGuarani(item.amount)}.`;
+      return `${item.modality} (${percent}): ${purchase} ${refund}`.replace(/\s+/g, " ").trim();
+    }).join(" ");
+  }
+
+  const parts = [];
+  if (caps.modality) parts.push(`${caps.modality}:`);
+  if (caps.purchaseCap) parts.push(`Límite de compra: ${formatGuarani(caps.purchaseCap)}.`);
+  if (caps.refundCap) parts.push(`Tope de reintegro/descuento: ${formatGuarani(caps.refundCap)}.`);
+  return parts.join(" ");
 }
 
 function inferPurchaseCap(promo, amounts) {
