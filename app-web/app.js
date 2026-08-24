@@ -157,6 +157,7 @@ const SECTION_LABELS = {
   "Disponible hoy": "Disponible hoy",
   "Mayor ahorro hoy": "Mayor ahorro hoy",
   "Cuotas sin intereses": "Cuotas sin intereses",
+  "Club Black": "Club Black",
 };
 
 const SECTION_SUBTITLES = {
@@ -169,6 +170,7 @@ const SECTION_SUBTITLES = {
   "Disponible hoy": "Promos activas para usar ahora mismo.",
   "Mayor ahorro hoy": "Ordenado por ahorro máximo estimado.",
   "Cuotas sin intereses": "Financiación separada de reintegros y descuentos.",
+  "Club Black": "Beneficios premium ordenados por descuento y reintegro.",
 };
 
 const CATEGORY_ICONS = {
@@ -715,7 +717,7 @@ function getBenefitForSelectedUenoLevel(promo, level) {
   }
 
   const escapedLevel = String(level).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const pattern = new RegExp(`nivel\\s*${escapedLevel}\\D{0,20}(\\d{1,3})\\s*%`, "i");
+  const pattern = new RegExp(`nivel\\s*${escapedLevel}\\D{0,40}(\\d{1,3})\\s*%`, "i");
   const match = rules.match(pattern);
   if (match) return `${match[1]}% ${promo.benefit_type || "reintegro"}`.trim();
 
@@ -729,7 +731,7 @@ function getSelectedUenoLevelDetails(promo, level) {
 
   const rules = normalizeDayName(promo.level_rules || "");
   const escapedLevel = String(level).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const pctMatch = rules.match(new RegExp(`nivel\\s*${escapedLevel}\\D{0,24}(\\d{1,3})\\s*%`, "i"));
+  const pctMatch = rules.match(new RegExp(`nivel\\s*${escapedLevel}\\D{0,40}(\\d{1,3})\\s*%`, "i"));
   const percent = pctMatch ? `${pctMatch[1]}%` : "";
   if (!percent) return null;
 
@@ -968,10 +970,17 @@ function matchesCategory(promo) {
 }
 
 function sectionPromotions(promos) {
+  if (state.activeCategory === PREMIUM_CATEGORY) {
+    return [["Club Black", [...promos].sort(sortPremiumPromotions), "premium"]];
+  }
+
   const todaySpecific = [];
   const everydayDiscounts = [];
   const everydayInstallments = [];
   const otherCities = [];
+  const premium = state.activeCategory === "Todas"
+    ? [...promos].filter(hasPremiumVariant).sort(sortPremiumPromotions)
+    : [];
   const selectedDay = state.activeDay === "hoy" ? getTodayInParaguay() : state.activeDay;
 
   promos.forEach((promo) => {
@@ -1000,13 +1009,30 @@ function sectionPromotions(promos) {
   otherCities.sort(sortByDayDisplayPriority);
 
   const sections = [
-    [state.activeDay === "hoy" ? getTodayLabel() : capitalize(selectedDay), todaySpecific, "featured"],
-    ["Todos los dias", everydayDiscounts],
-    ["Cuotas sin intereses todos los dias", everydayInstallments],
-    ["Otras ciudades", otherCities],
+    [state.activeDay === "hoy" ? getTodayLabel() : capitalize(selectedDay), todaySpecific, state.activeCategory === PREMIUM_CATEGORY ? "premium" : "featured"],
+    ["Club Black", premium, "premium"],
+    ["Todos los dias", everydayDiscounts, state.activeCategory === PREMIUM_CATEGORY ? "premium" : ""],
+    ["Cuotas sin intereses todos los dias", everydayInstallments, state.activeCategory === PREMIUM_CATEGORY ? "premium" : ""],
+    ["Otras ciudades", otherCities, state.activeCategory === PREMIUM_CATEGORY ? "premium" : ""],
   ];
 
   return sections.filter((section, index) => index === 0 || section[1].length);
+}
+
+function sortPremiumPromotions(a, b) {
+  const aInstallments = Number(isInstallmentsOnly(a));
+  const bInstallments = Number(isInstallmentsOnly(b));
+  if (aInstallments !== bInstallments) return aInstallments - bInstallments;
+  const aPct = getBestPremiumPercent(a);
+  const bPct = getBestPremiumPercent(b);
+  if (bPct !== aPct) return bPct - aPct;
+  return sortByBenefitValue(a, b);
+}
+
+function getBestPremiumPercent(promo) {
+  return Math.max(0, ...getPromoVariants(promo)
+    .filter((variant) => variant?.kind === "premium")
+    .map((variant) => percentNumber(variant.benefit)));
 }
 
 function isOtherCitiesOnly(promo) {
@@ -1112,9 +1138,18 @@ function render() {
         </span>
         <span class="section-count">${items.length}</span>
       </button>
-      ${isCollapsed ? "" : items.length ? `<div class="grid">${items.flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>` : `<div class="empty compact">No hay promociones exclusivas para este día con estos filtros.</div>`}
+      ${isCollapsed ? "" : items.length ? `<div class="grid">${renderSectionCards(items, mode)}</div>` : `<div class="empty compact">No hay promociones exclusivas para este día con estos filtros.</div>`}
     </section>
   `;
+  }).join("");
+}
+
+function renderSectionCards(items, mode = "") {
+  const premiumOnly = mode === "premium" || state.activeCategory === PREMIUM_CATEGORY;
+  return items.flatMap((promo) => {
+    const variants = getPromoVariants(promo);
+    const visibleVariants = premiumOnly ? variants.filter((variant) => variant?.kind === "premium") : variants;
+    return (visibleVariants.length ? visibleVariants : variants).map((variant) => renderCard(promo, variant));
   }).join("");
 }
 
@@ -1179,11 +1214,13 @@ function buildHomeSections(promos) {
     return selected;
   };
   const todayBest = takeUnique(ranked.filter((promo) => !isInstallmentsOnly(promo)), 5);
+  const premium = [...promos].filter(hasPremiumVariant).sort(sortPremiumPromotions);
   const maxSavings = takeUnique(ranked.filter((promo) => getEstimatedSavings(promo).refundCap > 0), 8);
   const installments = takeUnique(ranked.filter(isInstallmentsOnly), 8);
   const remaining = ranked.filter((promo) => !seen.has(promo.id));
   return [
     ["Hoy te conviene", todayBest, "featured"],
+    ["Club Black", premium, "premium"],
     ["Mayor ahorro hoy", maxSavings],
     ["Cuotas sin intereses", installments],
     ["Otras opciones", remaining],
