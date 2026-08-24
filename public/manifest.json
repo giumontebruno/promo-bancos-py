@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-08-21T15:48:16.099840+00:00",
-  "promotion_count": 1256,
+  "generated_at": "2026-08-24T12:30:15.285466+00:00",
+  "promotion_count": 1229,
   "banks": [
-    "Atlas",
     "BNF",
     "Continental",
     "Coop. Universitaria",
@@ -13,7 +12,6 @@
   "categories": [
     "Agencias de Viaje y Compañías Aéreas",
     "Belleza y Salud",
-    "Bienestar",
     "Cafeterías",
     "Caza y Pesca",
     "Clubes",
@@ -43,7 +41,6 @@
     "Ferreterías y Talleres del País",
     "Frigoríficos",
     "Gastronomía",
-    "Generales",
     "Heladerías",
     "Hogar",
     "Hoteles",
@@ -83,7 +80,6 @@
     "Tecnología",
     "Tiendas",
     "Varios",
-    "Vehículo",
     "Vehículos",
     "Veterinarias",
     "Viaje y Turismo",
@@ -93,12 +89,12 @@
     "Últimos días"
   ],
   "source_files": [
-    "outputs\\sudameris_beneficios_por_categoria.csv",
-    "outputs\\itau_beneficios_por_categoria.csv",
-    "outputs\\bnf_beneficios_por_categoria.csv",
-    "outputs\\continental_beneficios_por_categoria.csv",
-    "outputs\\atlas_beneficios_por_categoria.csv",
-    "outputs\\universitaria_beneficios_por_categoria.csv",
-    "outputs\\ueno_beneficios_por_categoria.csv"
+    "outputs/sudameris_beneficios_por_categoria.csv",
+    "outputs/itau_beneficios_por_categoria.csv",
+    "outputs/bnf_beneficios_por_categoria.csv",
+    "outputs/continental_beneficios_por_categoria.csv",
+    "outputs/atlas_beneficios_por_categoria.csv",
+    "outputs/universitaria_beneficios_por_categoria.csv",
+    "outputs/ueno_beneficios_por_categoria.csv"
   ]
 }

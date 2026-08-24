@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 716
+Total de beneficios/comercios: 715
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -261,7 +261,7 @@ Total de beneficios/comercios: 716
 |---|---|---|---|---|
 | Kekala | 20%; 20% de reintegro | Los sábados | Vigente hasta el 12 de junio de 2027 | San Lorenzo |
 
-## Hogar (53)
+## Hogar (54)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -305,10 +305,11 @@ Total de beneficios/comercios: 716
 | Progresar Electrodomésticos | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | los jueves | Vigente hasta el 25 de febrero del 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | Encarnación |
 | Refrinar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 26 de noviembre del 2026 | Santa Rita (Alto Paraná) |
 | Rovus Tapizado | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de noviembre del 2026 | Curuguaty |
+| San Isidro - Showroom | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 21 de agosto de 2026 hasta el 20 de febrero de 2027 | Encarnación |
 | San Rafael Hogar | 20%; hasta 18 cuotas sin intereses; 20% de descuento | Todos los días | Vigente hasta el 13 de febrero del 2027 | No especificado |
 | Show S.A. | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de marzo de 2027 | No especificado |
 | Sleep Center | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de septiembre de 2026 | Asunción |
-| Spinelli S.A | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 23 de agosto del 2026 | San Alberto (Alto Paraná) |
+| Spinelli S.A | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 23 de agosto de 2027 | San Alberto (Alto Paraná) |
 | Spinelli S.R.L | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 14 de enero del 2027 | Nueva Esperanza (Canindeyú) |
 | Sueñolar | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre del 2026 | No especificado |
 | Tu Hogar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 25 de junio de 2027 | Santa Rita (Alto Paraná) |
@@ -359,7 +360,7 @@ Total de beneficios/comercios: 716
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| Franz Di Cor | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 08 de agosto de 2026 al 07 de agosto de 2027 | Hernandarias |
+| Franz Di Cor | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 07 de agosto de 2027 | Hernandarias |
 | PDPAOLA | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de agosto de 2027 | Asunción |
 | Pandora | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de agosto de 2027 | Asunción |
 | Relojeria Diamante | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de agosto de 2027 | Nueva Esperanza (Canindeyú) |
@@ -385,13 +386,12 @@ Total de beneficios/comercios: 716
 | Librería Emanuel | 20%; 20% de reintegro | los jueves | Vigente hasta el 22 de abril del 2027 | Col. Hohenau |
 | Resma - Papelería e Insumos | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 27 de agosto de 2026 | Caaguazú |
 
-## Mueblerías (10)
+## Mueblerías (9)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
 | Anjos Colchones | 20%; hasta 12 cuotas sin intereses; 20% de descuento | todos los días | Vigente hasta el 28 de febrero de 2027 | Todo el país |
 | Baza Rattan | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de julio de 2027 | Capiatá |
-| CDP Muebles | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 13 de agosto de 2026 | Santa Rita (Alto Paraná) |
 | Innovando | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 30 de abril de 2027 | Presidente Franco |
 | Malou Mueblería | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | Loma Plata |
 | Mansion Design | 20%; Hasta 18 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 27 de mayo de 2027 | Encarnación |
@@ -451,7 +451,7 @@ Total de beneficios/comercios: 716
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre del 2026 | No especificado |
 
-## Promociones especiales (10)
+## Promociones especiales (8)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -461,9 +461,7 @@ Total de beneficios/comercios: 716
 | Las Hortensias - Cine | 50%; 50% de reintegro | Todos los días | Vigente hasta el 10 de junio del 2027 | Pilar |
 | Mango /Cortefiel / Pedro de Hierro | 25%; 25% de reintegro; 20% de reintegro | No especificado | Vigente hasta el 09 de agosto de 2026 | Asunción |
 | Puerto Liebig | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de marzo de 2027 | Asunción |
-| Tiento Multimarcas - Promo especial | 20%; 20% de reintegro | No especificado | Vigente hasta el sábado 08 de agosto de 2026 | Caaguazú |
-| UNISAL Universidad San Lorenzo | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | No especificado | No especificado |
-| UTCD | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | No especificado | Fernando de la Mora |
+| Tiendas Pilar | 30%; Hasta 12 cuotas sin intereses; 30% de reintegro | No especificado | No especificado | Todo el país |
 | Universidad Católica - Promo especial | 20%; Hasta 12 cuotas sin intereses; 10% de reintegro; 10% de descuento | todos los días | Vigente hasta el 21 de agosto de 2026 | Todo el país |
 
 ## Puma Flota (1)
@@ -472,11 +470,11 @@ Total de beneficios/comercios: 716
 |---|---|---|---|---|
 | Puma Flota | Ver descripción | No especificado | No especificado | No especificado |
 
-## Salud (29)
+## Salud (30)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| Aries | 10%; hasta 24 cuotas sin intereses; 10% de descuento | Todos los días | Vigente hasta el 20 de agosto de 2026 | Asunción |
+| Aries | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 20 de agosto de 2027 | Asunción |
 | CREA espacio para la familia | 15%; Hasta 12 cuotas sin intereses; 15% en caja | Todos los días | Vigente hasta el 30 de abril del 2026 Todos los días, en todos los laboratorios, clínicas y sanatorios del país | Asunción |
 | Caofa | 20%; 20% de reintegro | los jueves | Vigente hasta el 03 de diciembre de 2026 | Ciudad del Este |
 | Centro Auditivo | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 28 de octubre del 2026 | Asunción |
@@ -503,6 +501,7 @@ Total de beneficios/comercios: 716
 | Sanatorio Le Blanc | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de noviembre de 2026 | Ciudad del Este |
 | Smile Clínica Integral | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 08 de julio de 2027 | Encarnación |
 | Yanine Coronel Odontología | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 03 de octubre del 2026 | Coronel Oviedo |
+| Óptica Luce | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 21 de agosto de 2027 | Asunción |
 | Óptica Mylan - WR Import | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 25 de mayo de 2027 | No especificado |
 | Óptica Valemar | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 18 de junio de 2027 | No especificado |
 
@@ -720,6 +719,7 @@ _Se omitieron 130 filas en este resumen; están en el CSV._
 | Classic Motos | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | No especificado |
 | Damper Repuestos | 10%; hasta 12 cuotas sin intereses; 10% de descuento | Todos los días | Vigente hasta el 11 de febrero de 2027 | Curuguaty |
 | El Pedal | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de junio de 2027 | Coronel Bogado |
+| Euroimport | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de agosto de 2027 | Asunción |
 | Eze Equipamientos | 10%; hasta 12 cuotas sin intereses; 10% de descuento | todos los días | Vigente hasta el 18 de marzo de 2027 | San Ignacio, Misiones |
 | Ferrari Autocentro | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 19 de enero de 2026 al 18 de enero del 2027 | Ciudad del Este |
 | Ford - Tape Ruvicha | 15%; hasta 24 cuotas sin intereses; 15% de descuento | Todos los días | Vigente hasta el 14 de noviembre del 2026 | No especificado |
@@ -740,7 +740,6 @@ _Se omitieron 130 filas en este resumen; están en el CSV._
 | San Pablo Truck Center | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de enero de 2027 | Eusebio Ayala (Barrero Grande) |
 | San Thiago Repuestos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 05 de junio de 2027 | Nueva Esperanza (Canindeyú) |
 | Score Car | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 10 de abril del 2027 | Ciudad del Este |
-| Soundpro equipamientos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 3 de agosto del 2026 Las promociones aplican únicamente para compras o pagos presenciales, vía POS físico | No especificado |
 | Taller Juank | 10%; Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 11 de septiembre del 2026 | No especificado |
 | Tonina | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de noviembre de 2026 | No especificado |
 | Toyotoshi | 30%; Hasta 12 cuotas sin intereses; 30% de descuento; 20% de descuento; 10% de descuento; 5% de descuento | Todos los días | Vigente hasta el 03 de julio de 2027 | Todo el país |

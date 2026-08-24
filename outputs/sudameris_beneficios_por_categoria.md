@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 51
+Total de promociones: 52
 
 ## Combustible
 
@@ -18,6 +18,7 @@ Total de promociones: 51
 | SASPY EXPRESS | 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | • Desde el 06 de abril hasta el 30 de septiembre 2026. |
 | SUDAMERIS GO- CUOTAS | Hasta 18 cuotas sin intereses | No especificado | • Del 12 de febrero del 2026 al 31 de diciembre del 2026. |
 | TARJETAS EMPRESARIALES | Hasta 6 cuotas sin interés | Todos los días | • Todos los días. • Desde el 01 de enero hasta el 31 de diciembre de 2026. |
+| ZEAL | 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el 21 de agosto hasta el 19 de septiembre 2026. |
 | ZONA NORTE | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 
 ## Deportes y clubes

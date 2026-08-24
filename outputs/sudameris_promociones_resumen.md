@@ -2,7 +2,7 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 51
+Total: 52
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
@@ -57,3 +57,4 @@ Total: 51
 | Sudameris | ESTANCIAS | • Desde el 17 de agosto hasta el 31 de agosto 2026. | • Hasta 50% de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • + 10% adicional de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. •  | https://www.sudameris.com.py/beneficios/destacado/910/detalle |
 | Sudameris | CARO CUORE | • Desde el 17 de agosto hasta el 31 de agosto 2026. | • Hasta 50% de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • + 10% adicional de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. •  | https://www.sudameris.com.py/beneficios/destacado/911/detalle |
 | Sudameris | RAPSODIA | • Desde el 17 de agosto hasta el 31 de agosto 2026. | • Hasta 50% de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • + 10% adicional de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. •  | https://www.sudameris.com.py/beneficios/destacado/912/detalle |
+| Sudameris | ZEAL | • Desde el 21 de agosto hasta el 19 de septiembre 2026. | • 25% de descuento directo en caja pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/914/detalle |

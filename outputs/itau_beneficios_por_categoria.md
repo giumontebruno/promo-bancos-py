@@ -2,18 +2,16 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 123
+Total de beneficios: 119
 
 ## Belleza y Salud
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Asismed | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2025-04-04 hasta 2026-12-31 |
-| BELA NAILS | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-08-12 hasta 2026-08-26 |
 | El Mundo del Asado | 10 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro con todas las tarjetas de crédito + 5% con las tarjetas de crédito Personal Bank y hasta 10 cuotas sin intereses | No especificado | 2026-06-05 hasta 2026-08-31 |
 | Punto Farma | 6 Cuotas sin intereses 35 % Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses. | Todos los Martes; todos los martes | 2024-12-30 hasta 2026-12-31 |
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
-| Tippy Toe | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | Aplica los jueves | 2026-01-22 hasta 2026-08-27 |
 
 ## Cafeterías
 
@@ -46,7 +44,7 @@ Total de beneficios: 123
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Almacen De Pizzas | 2x1; Tenes 25% de ahorro con todas las tarjetas de crédito + 5% adicional con tarjetas de crédito Personal Bank (Amex Platinum y Visa Infinite). | No especificado | 2025-11-18 hasta 2026-08-31 |
+| Almacen De Pizzas | 30 % Hasta; Tenes 25% de ahorro con todas las tarjetas de crédito + 5% adicional con tarjetas de crédito Personal Bank (Amex Platinum y Visa Infinite). | No especificado | 2025-11-18 hasta 2026-08-31 |
 | FRANCESCANA | 20 %; Tenes 20% de ahorro | Aplica los jueves | 2026-07-08 hasta 2026-08-28 |
 | Juan Valdez | 25 % Hasta; Tenes 25% de reintegro + 5% adicional con AMEX PLATINUM y VISA INFINITE | Todos los lunes | 2025-12-10 hasta 2026-09-28 |
 | Pizza Hut | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses para los cumpleaños. | No especificado | 2025-09-19 hasta 2026-09-30 |
@@ -68,7 +66,6 @@ Total de beneficios: 123
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Maestro | 60 % Hasta 10 Cuotas sin intereses; Tenés hasta 50% de descuento en caja + 10% adicional vía reintegro pagando con GPAY y APPLE PAY + hasta 6 cuotas sin intereses | No especificado | 2023-10-17 hasta 2026-08-26 |
 | Tiendas Martel | 6 Cuotas sin intereses 50 % Hasta; Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-03-17 hasta 2026-08-31 |
 | Todo Costura | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-12 hasta 2026-12-31 |
 | Wrangler | 6 Cuotas sin intereses 50 % Hasta; Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-03-17 hasta 2026-08-31 |
@@ -165,7 +162,6 @@ Total de beneficios: 123
 | Timberland | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Touring y Automóvil Club Paraguayo | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-06-26 hasta 2026-12-31 |
 | VGS | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
-| VICAR S.A. | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2021-08-30 hasta 2026-12-31 |
 | Vernier | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 
 ## Viaje y Turismo
@@ -208,7 +204,7 @@ Total de beneficios: 123
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Almacen De Pizzas | 25 % Hasta; Tenés 20% de ahorro pagando con tarjeta de crédito Itaú + 5% con American Express | No especificado | 2020-03-02 hasta 2026-08-23 |
-| Feria Asunción | 10 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro mas 5% adicional pagando con Google Pay y Apple Pay y hasta 10 cuotas sin intereses. | No especificado | 2025-08-08 hasta 2026-08-23 |
-| TRINCHE | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-08-21 |
+| BELA NAILS | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-08-12 hasta 2026-08-26 |
+| Maestro | 60 % Hasta 10 Cuotas sin intereses; Tenés hasta 50% de descuento en caja + 10% adicional vía reintegro pagando con GPAY y APPLE PAY + hasta 6 cuotas sin intereses | No especificado | 2023-10-17 hasta 2026-08-26 |
+| Tippy Toe | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | Aplica los jueves | 2026-01-22 hasta 2026-08-27 |
 

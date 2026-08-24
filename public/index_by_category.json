@@ -8,15 +8,9 @@
   ],
   "Belleza y Salud": [
     "abe7a86b787fa0f7",
-    "5bc3e6144d975af2",
     "bf7e63a9a6cefa57",
     "f0b8d88ff2a85ff1",
-    "0323c816c23ff5a0",
-    "db52ff805ffb13b9"
-  ],
-  "Bienestar": [
-    "84714bfec7199316",
-    "25ac0630761a2330"
+    "0323c816c23ff5a0"
   ],
   "Cafeterías": [
     "62a72c36923d8942",
@@ -81,6 +75,7 @@
     "7a201940b9f7a069",
     "0f3c06520e621fe1",
     "adda73b6e9b84929",
+    "281f23978408e7ce",
     "7fca8ed534f6adcd"
   ],
   "Delimarket": [
@@ -103,7 +98,6 @@
     "07955249ec6490ff"
   ],
   "Educación": [
-    "d70ba6f32e9a8624",
     "f6748e7507bca66e",
     "cf87e5bc4660e379",
     "c64b8700b06eb392"
@@ -301,9 +295,6 @@
     "c0941e4a5daeb225"
   ],
   "Gastronomía": [
-    "dad8e8a3e3de5f98",
-    "bbca9c1b1ccde9ac",
-    "ff6803046a6c7441",
     "f7af2a04b44c58d1",
     "eb602f9fd55bfa28",
     "9c98a07b5b07bd58",
@@ -394,20 +385,10 @@
     "5dd6a0de03ac15f9",
     "92c7c2523e185326"
   ],
-  "Generales": [
-    "eac0369ab2c3948b",
-    "e45d6706ec738e16",
-    "24061c3af11c4ecd",
-    "c518393e58fbd72c",
-    "e34f133d048a72fe",
-    "e5e058339b15df8e",
-    "5f25d91d35d7793d"
-  ],
   "Heladerías": [
     "acc0fb84f566d4ac"
   ],
   "Hogar": [
-    "f15cf9854b37b0c4",
     "612938efa3877640",
     "7107bbfd93af0bbb",
     "baa4ff7557657b94",
@@ -448,10 +429,11 @@
     "61b7b3229591dc73",
     "5d46895882cd8316",
     "cb394969bce93aae",
+    "f52f2483a5205beb",
     "b417dff3068a5f4d",
     "5d71acdda81bdb6e",
     "c61ad13e009b8bfc",
-    "70b7fdd4ebf09e4f",
+    "afc3c25beab34107",
     "7592e4b9fda3de0d",
     "082040e2d37f9888",
     "66663e113fea54e2",
@@ -491,7 +473,6 @@
     "b5f14bdcdf7f1fff",
     "790bab08cad62bb7",
     "c4fa76931a452734",
-    "a5402ad99e66fe7d",
     "7b32da64ad015416",
     "187af41091bac104",
     "d168d9c56e2876d1"
@@ -525,7 +506,7 @@
     "9eb86cd4d77f4f91"
   ],
   "Joyerías": [
-    "21e309de0fe38845",
+    "5d10a2638a8118e0",
     "c5a499dd58ba807f",
     "551fd1fc79f0eaa3",
     "52785709e45fa1d0",
@@ -561,8 +542,6 @@
     "eb5f2f5552b15e7e"
   ],
   "Moda": [
-    "5bdbd310b2b62478",
-    "aefe80febf55cf40",
     "5c9ecaa42c9f540f",
     "d6f116af94e1bcf3",
     "efba88f20d24bbac",
@@ -573,7 +552,6 @@
   "Mueblerías": [
     "6d13e453a985508c",
     "5d3f843e71d91963",
-    "63f17d5cc751c909",
     "a42d3bfbc1856368",
     "ca71240f3681a330",
     "a62f05c153222d39",
@@ -648,16 +626,14 @@
     "56fcadf3f2b00f6d",
     "bfa509d2ab4b9214",
     "4f5d4c2862f849c0",
-    "bc0ad867bb1cefb8",
-    "7c3f05fd71ebb681",
-    "b7a2fc85ad07cf06",
+    "b36a3dd3df63437a",
     "b9bbe8f8db952912"
   ],
   "Puma Flota": [
     "15eea61e0a7c344b"
   ],
   "Salud": [
-    "f5dd4e793a6401a3",
+    "d26d77fb515c574d",
     "0dc1b55a8f9b97be",
     "eb043cd45fe17cca",
     "e7ad42ca0fce3392",
@@ -684,6 +660,7 @@
     "e6c187ad3a28108c",
     "38390130fbd5b2bb",
     "ad4c8159f16eb2a6",
+    "3b730b5e2e156da9",
     "3f855b7a16bec41f",
     "e25e5af97f462fc7",
     "8e5536cb37d65145",
@@ -741,8 +718,6 @@
     "d6c367ffeaac383a"
   ],
   "Supermercados": [
-    "405df50264da77c4",
-    "28100c1f8dcdffbe",
     "a05b63930854650d",
     "a3de2b0855afe847",
     "051836cd3100fde5",
@@ -919,7 +894,6 @@
     "7185b3e16b670118"
   ],
   "Tecnología": [
-    "e77fe8d93e9865f3",
     "a4f9f338850cd745",
     "aa50c64612e4b6a8",
     "80635aa5c66c9f35",
@@ -1297,11 +1271,7 @@
     "9240c7d4b41684d1",
     "e40a8e0a968ff8e0",
     "cff3459eab37905a",
-    "2d64a7987a4435bc",
     "b8be0bfa667e7dfe"
-  ],
-  "Vehículo": [
-    "3d01eed9be736446"
   ],
   "Vehículos": [
     "d5af13b5ac1f8e0d",
@@ -1318,6 +1288,7 @@
     "25fae548e150873a",
     "daaf83453e33dbc9",
     "39da4d2d3e089bd7",
+    "3ed4778918f63808",
     "745bcd210df35b5d",
     "a9e40ad9a88c4bd8",
     "1147229e3046e78b",
@@ -1338,7 +1309,6 @@
     "2da53309bc78ac52",
     "b24bcc9775765158",
     "c9a801ffb1813b09",
-    "e28e597f0fe5524a",
     "cb3de01ca31aba62",
     "c0b98afbe6010db2",
     "07d86bb003e033fb"
@@ -1384,9 +1354,6 @@
     "cbc5c46ff4fe5931"
   ],
   "Viajes": [
-    "81a39825effe00d9",
-    "04b47072d932b2ef",
-    "22fe69aae80494a1",
     "9906fd2ee665637d",
     "4e201b27a611ced0",
     "8b7c2849ff856866",
@@ -1411,8 +1378,8 @@
     "932ca3ebacfcf706"
   ],
   "Últimos días": [
-    "6861bf9a085e98ae",
-    "cbc08287421ee35b",
-    "bf88f3b9c905175e"
+    "6272bf9b08504d85",
+    "42e8e034c9106bd0",
+    "48b66bea089e2c04"
   ]
 }
