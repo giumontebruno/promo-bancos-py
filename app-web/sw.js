@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-nearby-address-fix";
+const CACHE_NAME = "payback-py-v20260824-universitaria-caps";
 const APP_SHELL = [
   "./",
   "./index.html",

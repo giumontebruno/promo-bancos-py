@@ -2039,8 +2039,9 @@ function getEstimatedSavings(promo, amount = null) {
   const level = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   const percent = percentNumber(level?.percent || getMainBenefit(promo) || promo.benefit_summary);
   const amounts = extractGuaraniAmounts(`${promo.caps_and_minimums || ""} ${promo.raw_detail || ""}`).map(moneyToNumber).filter(Boolean);
-  const purchaseCap = moneyToNumber(level?.purchaseCap) || inferPurchaseCap(promo, amounts);
-  const explicitRefundCap = moneyToNumber(level?.refundCap) || inferRefundCap(promo, amounts, purchaseCap, percent);
+  const universitariaCaps = getUniversitariaCaps(promo, percent);
+  const purchaseCap = moneyToNumber(level?.purchaseCap) || universitariaCaps.purchaseCap || inferPurchaseCap(promo, amounts);
+  const explicitRefundCap = moneyToNumber(level?.refundCap) || universitariaCaps.refundCap || inferRefundCap(promo, amounts, purchaseCap, percent);
   const spend = amount ? Math.max(0, Number(amount)) : purchaseCap;
   const calculated = percent && spend ? Math.round(spend * percent / 100) : 0;
   const refundCap = explicitRefundCap || calculated;
@@ -2140,6 +2141,14 @@ function formatCapsText(promo, variant = null) {
   if (!text || normalizeDayName(text).includes("no especificado")) return "No especificado";
   const scoped = getVariantScopedText(promo, variant);
   if (scoped) return scoped;
+  const universitariaCaps = getUniversitariaCaps(promo, percentNumber(getMainBenefit(promo, variant) || promo.benefit_summary));
+  if (universitariaCaps.purchaseCap || universitariaCaps.refundCap) {
+    const parts = [];
+    if (universitariaCaps.purchaseCap) parts.push(`Límite de compra: ${formatGuarani(universitariaCaps.purchaseCap)}.`);
+    if (universitariaCaps.refundCap) parts.push(`Tope de reintegro/descuento: ${formatGuarani(universitariaCaps.refundCap)}.`);
+    if (universitariaCaps.modality) parts.push(`Modalidad: ${universitariaCaps.modality}.`);
+    return parts.join(" ");
+  }
   const amounts = extractGuaraniAmounts(text);
   const parts = [];
   const purchase = text.match(/tope de compra[^.]*?Gs\.?\s*([0-9.]+)/i);
@@ -2294,6 +2303,63 @@ function formatLastUpdated() {
     month: "2-digit",
     year: "2-digit",
   }).format(value);
+}
+
+function getUniversitariaCaps(promo, percent = null) {
+  if (promo.bank !== "Coop. Universitaria") {
+    return { purchaseCap: 0, refundCap: 0, modality: "" };
+  }
+
+  const raw = cleanSentence(`${promo.raw_detail || ""} ${promo.caps_and_minimums || ""}`);
+  const normalized = normalizeDayName(raw);
+  const selectedPercent = percent
+    || percentNumber(getMainBenefit(promo) || promo.benefit_summary)
+    || percentNumber((promo.percentages || [])[0]);
+  const amounts = extractGuaraniAmounts(raw).map(moneyToNumber).filter(Boolean);
+
+  let purchaseCap = 0;
+  const explicitPurchase = raw.match(/l[ií]mite\s+de\s+compra\s+de\s+Gs\.?\s*([0-9.]+)/i)
+    || raw.match(/con\s+un\s+l[ií]mite\s+de\s+compra\s+de\s+Gs\.?\s*([0-9.]+)/i);
+  if (explicitPurchase) {
+    purchaseCap = moneyToNumber(explicitPurchase[1]);
+  } else {
+    const tablePurchase = raw.match(/l[ií]mite\s+de\s+compra[^.]{0,110}?Gs\.?\s*([0-9.]+)/i);
+    if (tablePurchase) purchaseCap = moneyToNumber(tablePurchase[1]);
+  }
+
+  const percentCaps = [];
+  for (const match of raw.matchAll(/(\d{1,3})\s*%\s*(?:=|:)\s*Gs\.?\s*([0-9.]+)/gi)) {
+    percentCaps.push({ percent: Number(match[1]), amount: moneyToNumber(match[2]) });
+  }
+  for (const match of raw.matchAll(/descuento\s+(?:de\s+hasta|del)?\s*(\d{1,3})\s*%\s*(?:=|:)\s*Gs\.?\s*([0-9.]+)/gi)) {
+    percentCaps.push({ percent: Number(match[1]), amount: moneyToNumber(match[2]) });
+  }
+
+  let refundCap = 0;
+  if (selectedPercent) {
+    refundCap = percentCaps.find((item) => item.percent === selectedPercent)?.amount || 0;
+  }
+  if (!refundCap && purchaseCap && selectedPercent) {
+    const calculated = Math.round(purchaseCap * selectedPercent / 100);
+    refundCap = amounts.find((amount) => amount === calculated) || calculated;
+  }
+  if (!purchaseCap && refundCap && selectedPercent) {
+    purchaseCap = Math.round(refundCap / (selectedPercent / 100));
+  }
+
+  if (!purchaseCap && amounts.length >= 2) {
+    const biggest = Math.max(...amounts);
+    const calculatedRefund = selectedPercent ? Math.round(biggest * selectedPercent / 100) : 0;
+    if (calculatedRefund && amounts.includes(calculatedRefund)) purchaseCap = biggest;
+  }
+
+  const modality = selectedPercent && normalized.includes("pago qr") && selectedPercent >= 20
+    ? "Pago QR"
+    : selectedPercent && normalized.includes("fisica") && selectedPercent <= 15
+      ? "Tarjeta física"
+      : "";
+
+  return { purchaseCap, refundCap, modality };
 }
 
 function inferPurchaseCap(promo, amounts) {
