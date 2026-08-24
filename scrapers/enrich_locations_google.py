@@ -94,7 +94,7 @@ def google_text_search(item):
         },
         json={
             "textQuery": query_text(item),
-            "includedRegionCodes": ["py"],
+            "regionCode": "PY",
             "locationBias": {
                 "circle": {
                     "center": {"latitude": -25.2867, "longitude": -57.6282},
@@ -107,6 +107,8 @@ def google_text_search(item):
     )
     if response.status_code == 403:
         raise RuntimeError("Google Places API denied the request. Enable Places API (New) and allow it in the backend key restrictions.")
+    if response.status_code == 400:
+        raise RuntimeError(f"Google Places API rejected the request: {response.text[:500]}")
     response.raise_for_status()
     places = response.json().get("places") or []
     if not places:

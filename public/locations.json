@@ -15,9 +15,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2771,
-      "lng": -57.6318,
-      "geocode_source": "city_approximation"
+      "lat": -25.31579,
+      "lng": -57.6091618,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ2x4jIl2oXZQRuXLq5XKj_9k",
+      "formatted_address": "Av. Dr. Fernando de la Mora y, Asunción 001234",
+      "google_name": "Petrobras",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-55ed14c9d2",
@@ -30,9 +41,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2831,
-      "lng": -57.6258,
-      "geocode_source": "city_approximation"
+      "lat": -25.321229,
+      "lng": -57.6002877,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJARHGVeOpXZQR6fqJFg1g06I",
+      "formatted_address": "Av. Médicos del Chaco &, M9HX+GV4, Alfonso Campos, Asunción 001232",
+      "google_name": "Estación 3MG Médicos del Chaco",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-6f41ecaf14",
@@ -45,9 +67,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2939,
-      "lng": -57.6282,
-      "geocode_source": "city_approximation"
+      "lat": -25.2497023,
+      "lng": -57.5524788,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJd3ZDQaalXZQRHgkNcWdiJFw",
+      "formatted_address": "QC2X+426, Tte. Gadea, Asunción 001509",
+      "google_name": "EESS PUMA GASOLIDER - Loma Pyta",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-92d1ecb37b",
@@ -60,9 +93,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2963,
-      "lng": -57.6354,
-      "geocode_source": "city_approximation"
+      "lat": -25.302209,
+      "lng": -57.63264,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJYdrgHbypXZQR-_MypEffD2E",
+      "formatted_address": "Av. José Felix Bogado Y, Asunción 001108",
+      "google_name": "Shell",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-626436c700",
@@ -75,9 +119,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2843,
-      "lng": -57.621,
-      "geocode_source": "city_approximation"
+      "lat": -25.3387357,
+      "lng": -57.5852517,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJtzDzjRqpXZQR6qk7iJ9bX_Y",
+      "formatted_address": "MC67+GV5, Av. Dr. Fernando de la Mora, Asunción 001432",
+      "google_name": "Estación Puma Energy",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-f908933b30",
@@ -90,9 +145,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2783,
-      "lng": -57.6378,
-      "geocode_source": "city_approximation"
+      "lat": -25.2879651,
+      "lng": -57.6478672,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJuUaiQBwIXZQRNO8pSutmdok",
+      "formatted_address": "Colón esq, Asunción 001014",
+      "google_name": "Gas Station",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-3a5a5ec5f8",
@@ -105,9 +171,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2879,
-      "lng": -57.633,
-      "geocode_source": "city_approximation"
+      "lat": -25.2862989,
+      "lng": -57.5889293,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJi02jb1mnXZQRt1D6GmrGL3E",
+      "formatted_address": "Av. España y, Asunción 001534",
+      "google_name": "Estación de Servicios Enex",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-1532422382",
@@ -120,9 +197,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2807,
-      "lng": -57.6342,
-      "geocode_source": "city_approximation"
+      "lat": -25.3156221,
+      "lng": -57.6084495,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJkdqpIl2oXZQRhXFHNLNJORQ",
+      "formatted_address": "Avda Fernando de la Mora y, Asunción 001234",
+      "google_name": "Barcos y Rodados S.A",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-5f7d221b45",
@@ -135,9 +223,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2831,
-      "lng": -57.6234,
-      "geocode_source": "city_approximation"
+      "lat": -25.3256179,
+      "lng": -57.6019292,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJSet5G72pXZQR5O21dzkPQ5k",
+      "formatted_address": "M9FX+R62, Av. Médicos del Chaco, Asunción 001313",
+      "google_name": "Estación Petrochaco - Médicos del Chaco",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-5f2e9ce51a",
@@ -150,9 +249,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2879,
-      "lng": -57.6366,
-      "geocode_source": "city_approximation"
+      "lat": -25.278923,
+      "lng": -57.6387698,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJPVMlUounXZQRDMEHG_ZCxLQ",
+      "formatted_address": "Pdte. Franco 215 esquina, Asunción 001013",
+      "google_name": "Estación de Servicio Shell Bahia - Centro",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-e30f8ee76a",
@@ -165,9 +275,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2951,
-      "lng": -57.633,
-      "geocode_source": "city_approximation"
+      "lat": -25.331507,
+      "lng": -57.592342,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJvYI_qz2pXZQR0XK-YkqoH1U",
+      "formatted_address": "Av. Dr. Fernando de la Mora Esq, Asunción 001424",
+      "google_name": "Shell",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-ffc0145958",
@@ -180,9 +301,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2903,
-      "lng": -57.6318,
-      "geocode_source": "city_approximation"
+      "lat": -25.2909297,
+      "lng": -57.6339957,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJwVEW5_qnXZQR7hzBa0WZxYM",
+      "formatted_address": "Tte. José María Fariña &, Paraguari, Asunción 001103",
+      "google_name": "Servicio Médico Familiar",
+      "google_types": [
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-ab2d1ce7c4",
@@ -375,9 +507,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3492,
-      "lng": -57.4396,
-      "geocode_source": "city_approximation"
+      "lat": -25.3481772,
+      "lng": -57.4619048,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJY17LcQeyXZQRQTU_U8T1LO4",
+      "formatted_address": "2, Capiatá 110208",
+      "google_name": "Petromax gas station",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-e29d426880",
@@ -390,9 +533,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3504,
-      "lng": -57.4528,
-      "geocode_source": "city_approximation"
+      "lat": -25.3606191,
+      "lng": -57.4319778,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJV5vcrTGzXZQRt2GRWviDsM4",
+      "formatted_address": "RUTA 2, Capiatá 1234",
+      "google_name": "PETROMAX \"CM GROUP ESTACIONES\" KM 24 CAPIATÁ",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-fa4b9431bc",
@@ -405,9 +559,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3636,
-      "lng": -57.4444,
-      "geocode_source": "city_approximation"
+      "lat": -25.3451841,
+      "lng": -57.4496073,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJZVXrwe6zXZQRr_iBJ4RtNc0",
+      "formatted_address": "MH32+W5C, Capiatá 110207",
+      "google_name": "Ex combatiente Sgto. Diego López Godoy",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-50c5a5a073",
@@ -420,9 +585,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3564,
-      "lng": -57.4492,
-      "geocode_source": "city_approximation"
+      "lat": -25.3740391,
+      "lng": -57.4093912,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJIULMYQazXZQRQRg8orTdrF8",
+      "formatted_address": "JHGR+96Q, Capiatá 110225",
+      "google_name": "Estación de Servicios Copeg “La Primavera S.R.L”",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-7c7420afa0",
@@ -435,9 +611,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3504,
-      "lng": -57.4384,
-      "geocode_source": "city_approximation"
+      "lat": -25.3673627,
+      "lng": -57.467043,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJv5KaAFWtXZQRD-qGVcvfSk0",
+      "formatted_address": "1111, Adan Ramírez y, Capiatá 110241",
+      "google_name": "PETROPAR SANTI COMPANY S.A.",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-342e0bceaf",
@@ -450,9 +637,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3468,
-      "lng": -57.4408,
-      "geocode_source": "city_approximation"
+      "lat": -25.3851481,
+      "lng": -57.4835916,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJTTz-DZ-tXZQRxrzHjsoTtbs",
+      "formatted_address": "JG78+WHV, Av. San Pedro, Capiatá 110244",
+      "google_name": "Petropar supplier Castilian",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-e164578985",
@@ -465,9 +663,28 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3516,
-      "lng": -57.4444,
-      "geocode_source": "city_approximation"
+      "lat": -25.385375,
+      "lng": -57.458543,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJOclVOYGyXZQR6BrOI6tsThA",
+      "formatted_address": "empalme entre las rutas I y II) y Paseo a Los Lagos, Pedro López, Capiatá 110239",
+      "google_name": "Los Lagos Resort Hotel",
+      "google_types": [
+        "hotel",
+        "campground",
+        "park",
+        "lodging",
+        "adventure_sports_center",
+        "event_venue",
+        "sports_complex",
+        "sports_activity_location",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-d1fa649123",
@@ -990,9 +1207,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3328,
-      "lng": -57.5433,
-      "geocode_source": "city_approximation"
+      "lat": -25.284094,
+      "lng": -57.5473257,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ4fGD0w6vXZQRsQzQbqk3n54",
+      "formatted_address": "Madame Lynch esq, Asunción 001403",
+      "google_name": "Petrosur Madame Lynch",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-fef146ff75",
@@ -1005,9 +1233,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.328,
-      "lng": -57.5361,
-      "geocode_source": "city_approximation"
+      "lat": -25.3428522,
+      "lng": -57.5492832,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJr-8ivrWuXZQRyltPQWhvMdk",
+      "formatted_address": "MF42+V77, 11 de Setiembre esquina, Fernando de la Mora 110316",
+      "google_name": "Petrobras",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-bca324b8ca",
@@ -1020,9 +1259,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3256,
-      "lng": -57.5457,
-      "geocode_source": "city_approximation"
+      "lat": -25.3265097,
+      "lng": -57.5602534,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJXbIZbSmpXZQRcF7UvukqJVw",
+      "formatted_address": "Fernando de la Mora 110322",
+      "google_name": "Petrosur Soldado Ovelar",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-d92529b8d8",
@@ -1035,9 +1285,18 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.328,
-      "lng": -57.5505,
-      "geocode_source": "city_approximation"
+      "lat": -25.3419651,
+      "lng": -57.5472948,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJZaJDPgCvXZQRACh9CdI4lIw",
+      "formatted_address": "1 De Mayo, &, Fernando de la Mora 110315",
+      "google_name": "Estación de Servicio",
+      "google_types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-f297c03974",
@@ -1050,9 +1309,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3196,
-      "lng": -57.5337,
-      "geocode_source": "city_approximation"
+      "lat": -25.3374345,
+      "lng": -57.5606497,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ2zyaFjGpXZQRY5yMg5qJsqs",
+      "formatted_address": "11 de Setiembre, &, Fernando de la Mora 110320",
+      "google_name": "Petropar JAT Avenida 11",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-12aee8e72d",
@@ -1065,9 +1335,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3148,
-      "lng": -57.5481,
-      "geocode_source": "city_approximation"
+      "lat": -25.3460439,
+      "lng": -57.5759355,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJfWps1j6pXZQRLbi8et-L8Rk",
+      "formatted_address": "MC3F+HJP, Fernando de la Mora 110330",
+      "google_name": "3MG - FDO. DE LA MORA - USHER RIOS",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-8f55414745",
@@ -1125,9 +1406,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3384,
-      "lng": -57.5993,
-      "geocode_source": "city_approximation"
+      "lat": -25.3436854,
+      "lng": -57.6178257,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJN_I8jbapXZQRp814hGTF_qE",
+      "formatted_address": "esq., Av Cacique Lambare & Panchito López, M94J+GVF, Av. Cacique Lambare, Lambaré 110722",
+      "google_name": "Puma Energy",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-93cb73137f",
@@ -1140,9 +1432,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3372,
-      "lng": -57.6029,
-      "geocode_source": "city_approximation"
+      "lat": -25.3563239,
+      "lng": -57.5984383,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJy3ZthHWpXZQRIjzaAfHW_m0",
+      "formatted_address": "JCV2+FJF, Francisco Acuña de Figueroa, Lambaré 110717",
+      "google_name": "ENERGY San Isidro - GRUPO CRISMA",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-4c51c5ac8c",
@@ -1155,9 +1458,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3372,
-      "lng": -57.6137,
-      "geocode_source": "city_approximation"
+      "lat": -25.3353233,
+      "lng": -57.6156192,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ048JYEuoXZQR9yIRn_8BO9g",
+      "formatted_address": "M97M+VQC, Av. República Argentina, Lambaré 110707",
+      "google_name": "Copetrol Guaraníes Lambaré - El Shah SA - Petroplus",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-0e1e992793",
@@ -1170,9 +1484,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3516,
-      "lng": -57.6053,
-      "geocode_source": "city_approximation"
+      "lat": -25.3646766,
+      "lng": -57.6001449,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJLxRRyoKpXZQR8PfzIFkum7E",
+      "formatted_address": "J9PX+4WH, Av. Defensores del Chaco, Lambaré 110731",
+      "google_name": "Petropar",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-36b3640814",
@@ -1185,9 +1510,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3384,
-      "lng": -57.6029,
-      "geocode_source": "city_approximation"
+      "lat": -25.3455731,
+      "lng": -57.590308,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJgWB4iA6pXZQR0iWRFXNjIQ0",
+      "formatted_address": "MC35+QVG, Mauricio J. Troche, Lambaré 110716",
+      "google_name": "3MG ESTACION DE SERVICIO",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-d39ff1036f",
@@ -1200,9 +1536,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3516,
-      "lng": -57.6065,
-      "geocode_source": "city_approximation"
+      "lat": -25.3563239,
+      "lng": -57.5984383,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJy3ZthHWpXZQRIjzaAfHW_m0",
+      "formatted_address": "JCV2+FJF, Francisco Acuña de Figueroa, Lambaré 110717",
+      "google_name": "ENERGY San Isidro - GRUPO CRISMA",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-9b5ed48f53",
@@ -1215,9 +1562,19 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.1637,
-      "lng": -57.4904,
-      "geocode_source": "city_approximation"
+      "lat": -25.2147311,
+      "lng": -57.4661919,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJq1JwdfilXZQRNlWZcjf7MuY",
+      "formatted_address": "QGPM+4G3, Unnamed Road, Limpio 110829",
+      "google_name": "Ko'embota Barrio Cerrado 4 Vientos",
+      "google_types": [
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-b6a7adcaad",
@@ -1230,9 +1587,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.1673,
-      "lng": -57.4856,
-      "geocode_source": "city_approximation"
+      "lat": -25.187341,
+      "lng": -57.4958424,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ6f7gbyalXZQRk1fkHqL3QAc",
+      "formatted_address": "PY03, Gral. Elizardo Aquino, Limpio 110823",
+      "google_name": "Shell",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-2e7d4fd368",
@@ -1245,9 +1613,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.1733,
-      "lng": -57.4868,
-      "geocode_source": "city_approximation"
+      "lat": -25.2000672,
+      "lng": -57.4649298,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ0_Jb5cykXZQRbgDZFqFirgg",
+      "formatted_address": "Av. San José, Limpio 110827",
+      "google_name": "Service station",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-e236a2abeb",
@@ -1260,9 +1639,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.1709,
-      "lng": -57.4772,
-      "geocode_source": "city_approximation"
+      "lat": -25.166863,
+      "lng": -57.4697936,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJZbnKdFGjXZQRiHMMkoNWNYg",
+      "formatted_address": "km 23 1, Gral. Elizardo Aquino 2, Limpio 110816",
+      "google_name": "Estación SHELL BAHIA LIMPIO III",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-b273c4ca9b",
@@ -1275,9 +1665,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.1565,
-      "lng": -57.4772,
-      "geocode_source": "city_approximation"
+      "lat": -25.1850834,
+      "lng": -57.4739225,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ2Z0khKelXZQRMZ1eRU8YWrM",
+      "formatted_address": "Prof. Rita Etelvina Gómez, Limpio 110822",
+      "google_name": "Petrochaco",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-aafd75aa95",
@@ -1290,9 +1691,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.1745,
-      "lng": -57.4916,
-      "geocode_source": "city_approximation"
+      "lat": -25.1592146,
+      "lng": -57.4743077,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJm4K3V-qjXZQRA-jxfJ7XVxs",
+      "formatted_address": "RGRG+878, Limpio 110813",
+      "google_name": "Copetrol Av. San José - Limpio",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-ee03783eb4",
@@ -1305,9 +1717,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.1745,
-      "lng": -57.4856,
-      "geocode_source": "city_approximation"
+      "lat": -25.1854339,
+      "lng": -57.4552412,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJWXdEFc67XZQRNk655XsGT1U",
+      "formatted_address": "RG7V+RWC, Limpio 110825",
+      "google_name": "3MG LIMPIO - SAN FRANCISCO SOLANO",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-24c2b48127",
@@ -1320,9 +1743,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2697,
-      "lng": -57.4784,
-      "geocode_source": "city_approximation"
+      "lat": -25.287726,
+      "lng": -57.4999535,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ_QR3e6KvXZQRYX5cjXBep4M",
+      "formatted_address": "Cap Andrés Insfrán Ruta Luque - San Lorenzo, Ntra. Sra. del Pilar, Luque 110947",
+      "google_name": "Shell",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-1fc15a1ea6",
@@ -1335,9 +1769,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2613,
-      "lng": -57.4928,
-      "geocode_source": "city_approximation"
+      "lat": -25.3481772,
+      "lng": -57.4619048,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJY17LcQeyXZQRQTU_U8T1LO4",
+      "formatted_address": "2, Capiatá 110208",
+      "google_name": "Petromax gas station",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-e07221bbc1",
@@ -1350,9 +1795,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2637,
-      "lng": -57.494,
-      "geocode_source": "city_approximation"
+      "lat": -25.2991583,
+      "lng": -57.5624212,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ1R7tGDGnXZQRCxKFrns4YDU",
+      "formatted_address": "Del Maestro 2810 esq, Asunción 001407",
+      "google_name": "Estaciones de servicio El Shah",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-d1855c045b",
@@ -1365,9 +1821,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2589,
-      "lng": -57.488,
-      "geocode_source": "city_approximation"
+      "lat": -25.2795768,
+      "lng": -57.4736746,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJyfO15eevXZQRo6HhiYh-t2s",
+      "formatted_address": "Lugar Denominado, Av. Las Residentas, Luque 110929",
+      "google_name": "Shell",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-757f045be4",
@@ -1380,9 +1847,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2661,
-      "lng": -57.4796,
-      "geocode_source": "city_approximation"
+      "lat": -25.2528125,
+      "lng": -57.5130625,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ8_UQkgylXZQRhOvOXd-0ZSo",
+      "formatted_address": "PFWP+VQ, Avenida Autopista esquina, Luque 110917",
+      "google_name": "Petrobras",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-bd91259bf7",
@@ -1395,9 +1873,18 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2601,
-      "lng": -57.4796,
-      "geocode_source": "city_approximation"
+      "lat": -25.2668767,
+      "lng": -57.4898404,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ8XmTyIuvXZQRT9L54b5Q1LM",
+      "formatted_address": "PGM6+63V, Valeriano Zeballos, Lúke 110921",
+      "google_name": "Exxe Estaciones De Servicio",
+      "google_types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-901e1bc3f4",
@@ -1410,9 +1897,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2577,
-      "lng": -57.4856,
-      "geocode_source": "city_approximation"
+      "lat": -25.2967419,
+      "lng": -57.5194886,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ4cdm_w2vXZQRaCXX64UeIDQ",
+      "formatted_address": "Av. Gral. Manuel Brítez Borges esq, Luque 110941",
+      "google_name": "Petrosur Britez Borges - ALMAX E.A.S.",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-7335178a9c",
@@ -1425,9 +1923,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2685,
-      "lng": -57.4832,
-      "geocode_source": "city_approximation"
+      "lat": -25.255351,
+      "lng": -57.4936106,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ2Tpc9cOlXZQRpWeRJCmj2zI",
+      "formatted_address": "PGV4+VH2, Cnel. Bogado, Luque 110919",
+      "google_name": "Petrochaco",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-9fbc035051",
@@ -1440,9 +1949,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2721,
-      "lng": -57.4904,
-      "geocode_source": "city_approximation"
+      "lat": -25.2869369,
+      "lng": -57.4608709,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJJeEhxyewXZQRkuv50awHnk4",
+      "formatted_address": "Av. Las Residentas esquina, Luque 110925",
+      "google_name": "Estación de Servicios PETROPAR San Andrés",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-5cfacab3c8",
@@ -1455,9 +1975,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2697,
-      "lng": -57.4892,
-      "geocode_source": "city_approximation"
+      "lat": -25.2389375,
+      "lng": -57.4321875,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ8YiDFD67XZQRxm-UntPYy-o",
+      "formatted_address": "Ruta Luque - San Bemardino \"El Mirador de Luque, 110907, Luque 110907",
+      "google_name": "Petrobras",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-216f50ec14",
@@ -1470,9 +2001,22 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2757,
-      "lng": -57.4928,
-      "geocode_source": "city_approximation"
+      "lat": -25.2537011,
+      "lng": -57.4704963,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJl79jzValXZQR57mFHsZcOVo",
+      "formatted_address": "110912 Luque, Paraguay",
+      "google_name": "Ruta Luque - San Bernardino",
+      "google_types": [
+        "bus_stop",
+        "transit_stop",
+        "transit_station",
+        "transportation_service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-decd109ba7",
@@ -1485,9 +2029,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2733,
-      "lng": -57.494,
-      "geocode_source": "city_approximation"
+      "lat": -25.2345815,
+      "lng": -57.4902848,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJX3LbilelXZQRfnSfgXs04hw",
+      "formatted_address": "QG85+5V8 Avda. Ykua Karanda'y, Lúke 110903",
+      "google_name": "Petrochaco",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-9cb9b850f5",
@@ -1500,9 +2055,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2613,
-      "lng": -57.476,
-      "geocode_source": "city_approximation"
+      "lat": -25.2000672,
+      "lng": -57.4649298,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ0_Jb5cykXZQRbgDZFqFirgg",
+      "formatted_address": "Av. San José, Limpio 110827",
+      "google_name": "Service station",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-113b043ddc",
@@ -1515,9 +2081,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2112,
-      "lng": -57.5227,
-      "geocode_source": "city_approximation"
+      "lat": -25.2173759,
+      "lng": -57.5305155,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ8wIXYkekXZQRR-ZPqHMK1IM",
+      "formatted_address": "km 17,5, Capitán Hermosilla esquina, Mariano Roque Alonso 111009",
+      "google_name": "Estación de Servicio Shell Bahia - Mariano Roque Alonso",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-8c152b33b0",
@@ -1530,9 +2107,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.216,
-      "lng": -57.5335,
-      "geocode_source": "city_approximation"
+      "lat": -25.2173759,
+      "lng": -57.5305155,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ8wIXYkekXZQRR-ZPqHMK1IM",
+      "formatted_address": "km 17,5, Capitán Hermosilla esquina, Mariano Roque Alonso 111009",
+      "google_name": "Estación de Servicio Shell Bahia - Mariano Roque Alonso",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-5fff7a8a85",
@@ -1545,9 +2133,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2064,
-      "lng": -57.5335,
-      "geocode_source": "city_approximation"
+      "lat": -25.2011874,
+      "lng": -57.525841,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJFZe1zW2kXZQR-3bIjjpoiDo",
+      "formatted_address": "QFXF+GMF, Mariano Roque Alonso 111004",
+      "google_name": "Copetrol ruta transchaco",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-8a9281dad6",
@@ -1560,9 +2159,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.2088,
-      "lng": -57.5311,
-      "geocode_source": "city_approximation"
+      "lat": -25.209799,
+      "lng": -57.5209956,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ_04GOgClXZQR4x08ivD_BRQ",
+      "formatted_address": "QFRH+3JJ, General Vicente Barrios, Mariano Roque Alonso 111008",
+      "google_name": "Estación de servicio",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-d63eb80090",
@@ -1635,9 +2245,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3889,
-      "lng": -57.5393,
-      "geocode_source": "city_approximation"
+      "lat": -25.3903285,
+      "lng": -57.5261089,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJsZsW1hqtXZQREz8ecqo8QB0",
+      "formatted_address": "Manuel Ortiz Guerrero 1713, Ñemby 111218",
+      "google_name": "3MG ÑEMBY- GRUPO PETROCHACO",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-09884ff8a4",
@@ -1650,9 +2271,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.4021,
-      "lng": -57.5273,
-      "geocode_source": "city_approximation"
+      "lat": -25.4017037,
+      "lng": -57.5436365,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJdYvtE32sXZQRnWcfz63aeWY",
+      "formatted_address": "Acceso Sur 168, esquina, Ñemby 111216",
+      "google_name": "Estación De Servicios Calle Florida",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-015c2203fe",
@@ -1665,9 +2297,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.4021,
-      "lng": -57.5273,
-      "geocode_source": "city_approximation"
+      "lat": -25.3880907,
+      "lng": -57.5477104,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJfSFEB3SsXZQR95WMR92RLHU",
+      "formatted_address": "JF62+QW7, Acceso Sur, Ñemby 111207",
+      "google_name": "Copetrol Estrella",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-b4f7eca8f4",
@@ -1680,9 +2323,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3865,
-      "lng": -57.5429,
-      "geocode_source": "city_approximation"
+      "lat": -25.3903285,
+      "lng": -57.5261089,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJsZsW1hqtXZQREz8ecqo8QB0",
+      "formatted_address": "Manuel Ortiz Guerrero 1713, Ñemby 111218",
+      "google_name": "3MG ÑEMBY- GRUPO PETROCHACO",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-d946ae271e",
@@ -1695,9 +2349,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3997,
-      "lng": -57.5393,
-      "geocode_source": "city_approximation"
+      "lat": -25.4276991,
+      "lng": -57.5345132,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJcZgMCOStXZQR2GJUfECZZWg",
+      "formatted_address": "Av. Teniente Fariña, Ñemby 111226",
+      "google_name": "3MG - ÑEMBY PULP Cañadita",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-3ca869c632",
@@ -1725,9 +2390,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.4225,
-      "lng": -57.5427,
-      "geocode_source": "city_approximation"
+      "lat": -25.3980792,
+      "lng": -57.5779556,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJEbmvr72rXZQR0t8JBErmkjs",
+      "formatted_address": "JC2C+QR7, Av. San Antonio, San Antonio 111301",
+      "google_name": "Service Station Petropar",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-e6e5c45636",
@@ -1740,9 +2416,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.4177,
-      "lng": -57.5547,
-      "geocode_source": "city_approximation"
+      "lat": -25.4092274,
+      "lng": -57.5467565,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJXQCNooasXZQRdR2oH-z-yI4",
+      "formatted_address": "HFR3+875, Cadete de Boquerón, San Antonio 111213",
+      "google_name": "Estación de Servicio Copetrol",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-79701399a4",
@@ -1755,9 +2442,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3313,
-      "lng": -57.5172,
-      "geocode_source": "city_approximation"
+      "lat": -25.3637104,
+      "lng": -57.4966539,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJiwxUQTetXZQRXCzZiNoTYvY",
+      "formatted_address": "JGP3+G9X, San Lorenzo 111455",
+      "google_name": "FUELPAR TTE. MOLAS",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-f2a28f1e89",
@@ -1770,9 +2468,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3433,
-      "lng": -57.5112,
-      "geocode_source": "city_approximation"
+      "lat": -25.3759741,
+      "lng": -57.5107122,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJY3YlA0qtXZQRqbT2KUjkfso",
+      "formatted_address": "JFFQ+GHG, Juan Pablo Ocampos, San Lorenzo 111469",
+      "google_name": "Estación de servicios Puma Catedral",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-e77cbde7bd",
@@ -1785,9 +2494,19 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3361,
-      "lng": -57.4992,
-      "geocode_source": "city_approximation"
+      "lat": -25.3235019,
+      "lng": -57.5197252,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ019Y9O-uXZQRHN8L4rW3m2s",
+      "formatted_address": "Av. Mariscal López y, San Lorenzo 111421",
+      "google_name": "Pinedo Shopping",
+      "google_types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-910d3436f0",
@@ -1800,9 +2519,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3433,
-      "lng": -57.5004,
-      "geocode_source": "city_approximation"
+      "lat": -25.3294372,
+      "lng": -57.5443751,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJyzhrKdCuXZQRi5YBSxj0Dhs",
+      "formatted_address": "Avenida Mcal. José F. Estigarribia, San Lorenzo 110314",
+      "google_name": "Puma Grupo Fabiola Km8",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-c7773be4fa",
@@ -1815,9 +2545,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3469,
-      "lng": -57.5076,
-      "geocode_source": "city_approximation"
+      "lat": -25.4017037,
+      "lng": -57.5436365,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJdYvtE32sXZQRnWcfz63aeWY",
+      "formatted_address": "Acceso Sur 168, esquina, Ñemby 111216",
+      "google_name": "Estación De Servicios Calle Florida",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-582d06c999",
@@ -1830,9 +2571,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3385,
-      "lng": -57.5172,
-      "geocode_source": "city_approximation"
+      "lat": -25.3796253,
+      "lng": -57.5194198,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJAVSjJ0asXZQRNVUoLiDVf-4",
+      "formatted_address": "JFCJ+46W, Ave Manuel Ortiz Guerrero, San Lorenzo 111460",
+      "google_name": "Compasa station Services",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-3a9ab9deb6",
@@ -1845,9 +2597,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3337,
-      "lng": -57.504,
-      "geocode_source": "city_approximation"
+      "lat": -25.3702385,
+      "lng": -57.4918375,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJZ8JYuritXZQRLxw2ko6LBQ4",
+      "formatted_address": "JGH5+W73, Ave Del La Victoria Tape Guazu, San Lorenzo 111463",
+      "google_name": "Petropar La Victoria",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-7e2373c48f",
@@ -1860,9 +2623,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3385,
-      "lng": -57.5148,
-      "geocode_source": "city_approximation"
+      "lat": -25.346154,
+      "lng": -57.5031073,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJdW7aTamvXZQRwVjY1biKuX8",
+      "formatted_address": "Tte Benitez 990, San Lorenzo 111430",
+      "google_name": "Petrochaco - San Lorenzo Centro",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-afbaf831d3",
@@ -1875,9 +2649,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3349,
-      "lng": -57.5112,
-      "geocode_source": "city_approximation"
+      "lat": -25.3754511,
+      "lng": -57.5148828,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJt2DgLHStXZQRKVmXZgEv-VA",
+      "formatted_address": "Unnamed Road, JFFP+R29, San Lorenzo 111460",
+      "google_name": "Petropar - Juan Pablo Ocampo",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-62a93f4cc2",
@@ -1890,9 +2675,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3421,
-      "lng": -57.5088,
-      "geocode_source": "city_approximation"
+      "lat": -25.332827,
+      "lng": -57.5141496,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ82xCXhCvXZQRTHwzmbEqZBc",
+      "formatted_address": "Av. Mariscal López esq, San Lorenzo 1114",
+      "google_name": "Estación de Servicios Enex",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-3997d33619",
@@ -1905,9 +2701,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3337,
-      "lng": -57.5148,
-      "geocode_source": "city_approximation"
+      "lat": -25.3979166,
+      "lng": -57.4834289,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJy-cfJz6tXZQR0hWfPQVItew",
+      "formatted_address": "JG28+RJP, San Lorenzo 111477",
+      "google_name": "Petrochaco - Avenida San Pedro",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-f0e1bad52a",
@@ -1920,9 +2727,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3469,
-      "lng": -57.5112,
-      "geocode_source": "city_approximation"
+      "lat": -25.3502112,
+      "lng": -57.5154662,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJfWFMrYOuXZQRQRYGTFTkHM0",
+      "formatted_address": "10 de Agosto, e y, San Lorenzo 111431",
+      "google_name": "Regional Education Center \"Saturio Ríos\"",
+      "google_types": [
+        "school",
+        "educational_institution",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-b9a59f1f3c",
@@ -1935,9 +2753,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.358,
-      "lng": -57.5939,
-      "geocode_source": "city_approximation"
+      "lat": -25.3503233,
+      "lng": -57.5911719,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJK1b9RWKpXZQRzKN5VItnhEY",
+      "formatted_address": "Av. Defensores del Chaco, Villa Elisa 111504",
+      "google_name": "Estación de Servicio ENERGY Villa Elisa",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-5bb47298bb",
@@ -1950,9 +2779,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3712,
-      "lng": -57.5999,
-      "geocode_source": "city_approximation"
+      "lat": -25.3836429,
+      "lng": -57.5841978,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJrwCM5MSrXZQR_6hwBW0qGMk",
+      "formatted_address": "JC88+J8Q, Av. Enrique Von Poleski, Villa Elisa 111515",
+      "google_name": "Estación Puma Energy",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-7b718ee1d0",
@@ -1965,9 +2805,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.376,
-      "lng": -57.5951,
-      "geocode_source": "city_approximation"
+      "lat": -25.3681667,
+      "lng": -57.5864602,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ-zKVHhOpXZQRiOTu_9qFrnQ",
+      "formatted_address": "Von Poleski esq, Villa Elisa 111506",
+      "google_name": "EESS COMPASA MyD Villa Elisa",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-2940eebf0b",
@@ -1980,9 +2831,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3688,
-      "lng": -57.5915,
-      "geocode_source": "city_approximation"
+      "lat": -25.3503233,
+      "lng": -57.5911719,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJK1b9RWKpXZQRzKN5VItnhEY",
+      "formatted_address": "Av. Defensores del Chaco, Villa Elisa 111504",
+      "google_name": "Estación de Servicio ENERGY Villa Elisa",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-697c85f108",
@@ -1995,9 +2857,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3772,
-      "lng": -57.5939,
-      "geocode_source": "city_approximation"
+      "lat": -25.3683971,
+      "lng": -57.5787875,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJodvqTGCpXZQRk-IzxQJzdSU",
+      "formatted_address": "JCJC+JFW, Av. Americo Picco, Villa Elisa 111510",
+      "google_name": "COPETROL",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-0224fbea41",
@@ -2010,9 +2883,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3748,
-      "lng": -57.5987,
-      "geocode_source": "city_approximation"
+      "lat": -25.3503233,
+      "lng": -57.5911719,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJK1b9RWKpXZQRzKN5VItnhEY",
+      "formatted_address": "Av. Defensores del Chaco, Villa Elisa 111504",
+      "google_name": "Estación de Servicio ENERGY Villa Elisa",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-df5c7c887f",
@@ -2025,9 +2909,20 @@
       "department": "Central",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
-      "lat": -25.3664,
-      "lng": -57.5879,
-      "geocode_source": "city_approximation"
+      "lat": -25.3710799,
+      "lng": -57.5840829,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJSRWdydqrXZQRQMXcEEhnkII",
+      "formatted_address": "JCH8+H97, Villa Elisa 111510",
+      "google_name": "3MG VON POLESKY",
+      "google_types": [
+        "gas_station",
+        "service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-d0d02bb497",
@@ -2115,9 +3010,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2963,
-      "lng": -57.621,
-      "geocode_source": "city_approximation"
+      "lat": -25.3096647,
+      "lng": -57.6391908,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJmzEQMLypXZQRSse6Ep-pluk",
+      "formatted_address": "Asunción 001107",
+      "google_name": "Farmacia Catedral Suc. 21 proyectadas",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-9d905fa012",
@@ -2130,9 +3037,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2879,
-      "lng": -57.6318,
-      "geocode_source": "city_approximation"
+      "lat": -25.258441,
+      "lng": -57.5864381,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJDZSRDQ6nXZQRXbs7vsUxNYc",
+      "formatted_address": "Avda. Gral. José Artigas e/Sqto. Esteban Martínez, Asunción 001532",
+      "google_name": "Punto Farma - Av. Artigas",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-6017f67227",
@@ -2145,9 +3064,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2891,
-      "lng": -57.6222,
-      "geocode_source": "city_approximation"
+      "lat": -25.2731971,
+      "lng": -57.6061606,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ39rxh-2nXZQRoOmnrwa2ICE",
+      "formatted_address": "Avda. Mcal. F, Enrique Solano López y, Asunción 9757",
+      "google_name": "Farmacias Catedral Suc. Artigas 2",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-7abffb4ec4",
@@ -2160,9 +3091,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2795,
-      "lng": -57.6318,
-      "geocode_source": "city_approximation"
+      "lat": -25.276479,
+      "lng": -57.5484815,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJAQbOMP-lXZQREuKkPjJ9zTE",
+      "formatted_address": "Av. Aviadores del Chaco 3803, Asunción 001401",
+      "google_name": "Farmacias Catedral Suc Aviadores",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-57f674abdd",
@@ -2175,9 +3118,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2963,
-      "lng": -57.6234,
-      "geocode_source": "city_approximation"
+      "lat": -25.2989128,
+      "lng": -57.6455278,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJTUcCl5EJXZQRNxuW5PHgk7U",
+      "formatted_address": "Nuestra Señora de la Asuncion Esq, Cnel. Juan Centurion y, Asunción 001104",
+      "google_name": "Farmacia Catedral Suc Barrio Obrero 1",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-98c3bf65c6",
@@ -2190,9 +3145,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2903,
-      "lng": -57.6222,
-      "geocode_source": "city_approximation"
+      "lat": -25.2946914,
+      "lng": -57.6291811,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJuW3xr-OnXZQRk35rL9MRmO0",
+      "formatted_address": "Brasil 1092, Asunción 001221",
+      "google_name": "Distribuidora Daniel's",
+      "google_types": [
+        "health",
+        "manufacturer",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-37429eb59a",
@@ -2205,9 +3171,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2771,
-      "lng": -57.6342,
-      "geocode_source": "city_approximation"
+      "lat": -25.2856304,
+      "lng": -57.5739576,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJz3tfaKCoXZQRiUuUlbIT998",
+      "formatted_address": "Sta. Ana 1473, Asunción 001529",
+      "google_name": "Catedral Drugstore",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-e6944d9ec7",
@@ -2220,9 +3198,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2963,
-      "lng": -57.6306,
-      "geocode_source": "city_approximation"
+      "lat": -25.2865334,
+      "lng": -57.6017391,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJAcVdK1SnXZQRmc_apbD81eE",
+      "formatted_address": "Av. Brasilia 588, Asunción 001207",
+      "google_name": "Punto Farma",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-5302263ace",
@@ -2235,9 +3225,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2903,
-      "lng": -57.6282,
-      "geocode_source": "city_approximation"
+      "lat": -25.2862596,
+      "lng": -57.584118,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJb2WleSemXZQRC0lOs1Waq50",
+      "formatted_address": "Av. España, Asunción 001411",
+      "google_name": "Farmacia Vicente Scavone - Suc. España",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-f750407a32",
@@ -2250,9 +3252,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2879,
-      "lng": -57.6306,
-      "geocode_source": "city_approximation"
+      "lat": -25.2826077,
+      "lng": -57.6338627,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJs8BFGPKnXZQR0hmPw4A450U",
+      "formatted_address": "Palma, Asunción 001101",
+      "google_name": "Farmacia Catedral Suc. Centro",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-36d65dabb1",
@@ -2265,9 +3279,22 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2915,
-      "lng": -57.6294,
-      "geocode_source": "city_approximation"
+      "lat": -25.2790301,
+      "lng": -57.644654,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJy5f0biAIXZQRN3C-jIXtBZ4",
+      "formatted_address": "Gral. Díaz esq, Asunción 001011",
+      "google_name": "Farmacia Catedral Suc. Don Bosco",
+      "google_types": [
+        "pharmacy",
+        "drugstore",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-bd81aafe30",
@@ -2280,9 +3307,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2915,
-      "lng": -57.6246,
-      "geocode_source": "city_approximation"
+      "lat": -25.2882901,
+      "lng": -57.602932,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJjzgK4JmnXZQR5XeBuGhhiKA",
+      "formatted_address": "Av. España, Asunción 5464",
+      "google_name": "Farmacias Catedral Suc. España",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-5b070008d8",
@@ -2295,9 +3334,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2771,
-      "lng": -57.633,
-      "geocode_source": "city_approximation"
+      "lat": -25.3126716,
+      "lng": -57.6311157,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJhVjfsCqpXZQRMz7aR5ahaBI",
+      "formatted_address": "Teniente Aguirre 2298, Asunción 001109",
+      "google_name": "Farmacia Catedral Suc. Felix Bogado",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-4b85f143fd",
@@ -2310,9 +3361,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2891,
-      "lng": -57.6222,
-      "geocode_source": "city_approximation"
+      "lat": -25.3005949,
+      "lng": -57.6134351,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJRekAGHGoXZQRXoXeCDd3bz4",
+      "formatted_address": "Avda. Gral Santos, Teodoro S. Mongelós esq, Asunción 001226",
+      "google_name": "Farmacia Catedral General Santos Teodoro S. Mongelos",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-44e05b37b3",
@@ -2325,9 +3388,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2915,
-      "lng": -57.6354,
-      "geocode_source": "city_approximation"
+      "lat": -25.3005949,
+      "lng": -57.6134351,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJRekAGHGoXZQRXoXeCDd3bz4",
+      "formatted_address": "Avda. Gral Santos, Teodoro S. Mongelós esq, Asunción 001226",
+      "google_name": "Farmacia Catedral General Santos Teodoro S. Mongelos",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-7cc41fd724",
@@ -2340,9 +3415,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2915,
-      "lng": -57.6282,
-      "geocode_source": "city_approximation"
+      "lat": -25.3076531,
+      "lng": -57.6090343,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ29c7DjipXZQRX0KDK5M2-_c",
+      "formatted_address": "Av. Bruno Guggiari, Asunción 001235",
+      "google_name": "Farmacia Catedral Suc. Guggiari",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-6a576b4267",
@@ -2355,9 +3442,20 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2879,
-      "lng": -57.6198,
-      "geocode_source": "city_approximation"
+      "lat": -25.2915262,
+      "lng": -57.6253894,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJpyXuyuanXZQR3nvk1T55PBM",
+      "formatted_address": "Constitucion, Asunción 001220",
+      "google_name": "IPS Edif. Caja Central",
+      "google_types": [
+        "local_government_office",
+        "government_office",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-719b14353f",
@@ -2370,9 +3468,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2963,
-      "lng": -57.6366,
-      "geocode_source": "city_approximation"
+      "lat": -25.2709484,
+      "lng": -57.5645684,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJGTx3yN2nXZQRfXizp14J2ss",
+      "formatted_address": "Julio Correa esq, Asunción 9488",
+      "google_name": "Farmacias Catedral Suc. Julio Correa",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-53f864567d",
@@ -2385,9 +3495,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2963,
-      "lng": -57.6342,
-      "geocode_source": "city_approximation"
+      "lat": -25.2919351,
+      "lng": -57.5654001,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJu4CH1_OpXZQRzzUOwYC11JA",
+      "formatted_address": "Lillo casi 2349 e, Nicanor Torales y, Asunción 001409",
+      "google_name": "Farmacia Catedral Suc. Lillo 1",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-995a6f05f5",
@@ -2400,9 +3522,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2939,
-      "lng": -57.6318,
-      "geocode_source": "city_approximation"
+      "lat": -25.2928479,
+      "lng": -57.5583561,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJs-XzJLKoXZQRAfN9ybchK9A",
+      "formatted_address": "Eusebio Lillo Robles, Asunción 001409",
+      "google_name": "Punto Farma - Eusebio Lillo Robles",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-7c5b42d7ef",
@@ -2415,9 +3549,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2927,
-      "lng": -57.6378,
-      "geocode_source": "city_approximation"
+      "lat": -25.2496315,
+      "lng": -57.5523413,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJn0VnZNilXZQRWmH61_4jZ-8",
+      "formatted_address": "RutaTranschaco, Asunción 001509",
+      "google_name": "Farmacia Catedral Suc. Loma Pyta 1",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-50a0ba4223",
@@ -2430,9 +3576,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2963,
-      "lng": -57.6186,
-      "geocode_source": "city_approximation"
+      "lat": -25.2888115,
+      "lng": -57.6534549,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJJy6ePBoIXZQRz7jMtp-rXAE",
+      "formatted_address": "Avda. Carlos A. López 933, entre Dr.Paiva y, Asunción 1008",
+      "google_name": "Farmacenter Sajonia",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-a611676a8b",
@@ -2445,9 +3603,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2867,
-      "lng": -57.6186,
-      "geocode_source": "city_approximation"
+      "lat": -25.263288,
+      "lng": -57.5892729,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJTda7gC6nXZQRPHlhuDh7Ilg",
+      "formatted_address": "Capitán José Domingo Lombardo, Asunción 2235",
+      "google_name": "Farmacias Catedral Suc. Lombardo",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-14d87c91fe",
@@ -2460,9 +3630,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2891,
-      "lng": -57.6366,
-      "geocode_source": "city_approximation"
+      "lat": -25.3039637,
+      "lng": -57.6100449,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJuW0S_2-oXZQR9iW8eoKOsb4",
+      "formatted_address": "Av. Eusebio Ayala 1329 casi, Asunción 001228",
+      "google_name": "Farmacenter",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-42fd6745d8",
@@ -2475,9 +3657,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2783,
-      "lng": -57.6198,
-      "geocode_source": "city_approximation"
+      "lat": -25.289008,
+      "lng": -57.6213708,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJCwITUzenXZQRj-sQ6-piHvU",
+      "formatted_address": "Eligio Ayala esquina, Asunción 001218",
+      "google_name": "FARMAOLIVA ELIGIO AYALA",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-91edd46175",
@@ -2490,9 +3684,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2807,
-      "lng": -57.6198,
-      "geocode_source": "city_approximation"
+      "lat": -25.2987317,
+      "lng": -57.5828724,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJNTs7wpCoXZQRHbNQCzulUNE",
+      "formatted_address": "Dr. Toribio Pacheco, Asunción 001412",
+      "google_name": "Catedral Drugstore",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-fe4ab277ca",
@@ -2505,9 +3711,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2855,
-      "lng": -57.6342,
-      "geocode_source": "city_approximation"
+      "lat": -25.2980772,
+      "lng": -57.6258006,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJN1FwjdapXZQRcmUDFmG9s1o",
+      "formatted_address": "Av. Perú 1190, Asunción 001221",
+      "google_name": "Farmacia Silvana",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "medium",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-de558038aa",
@@ -2520,9 +3738,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2807,
-      "lng": -57.6378,
-      "geocode_source": "city_approximation"
+      "lat": -25.319785,
+      "lng": -57.5929823,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJBQa0dQCpXZQRooAGwqLXfLY",
+      "formatted_address": "MCJ4+4R2, Asunción 001423",
+      "google_name": "Farmacia Catedral Suc. Rca. Argentina 2",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-3c5119fea5",
@@ -2535,9 +3765,21 @@
       "department": "Capital",
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf",
-      "lat": -25.2903,
-      "lng": -57.6246,
-      "geocode_source": "city_approximation"
+      "lat": -25.2995022,
+      "lng": -57.624389,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJ71z8b6epXZQRQ6TCjB7dHBE",
+      "formatted_address": "Rodríguez de Francia 1654, entre Battilana y, Asunción 001223",
+      "google_name": "Farmacia Amigo Rodríguez de Francia",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "review",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-ca27386c44",
@@ -14224,5 +15466,7 @@
       "lng": null,
       "geocode_source": ""
     }
-  ]
+  ],
+  "google_enriched_locations": 110,
+  "google_enrichment_focus": "Asunción y Gran Asunción"
 }
