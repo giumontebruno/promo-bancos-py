@@ -1326,11 +1326,8 @@ function renderNearbyView() {
   const selectedPlace = selectedPoint?.place || KNOWN_LOCAL_POINTS[0];
   const selectedDistance = selectedPoint?.distance || 0;
   const promos = selectedPoint?.promos || [];
-  const bankCount = selectedPoint?.banks?.length || 0;
-  const geocodedCount = state.locations.filter((item) => Number.isFinite(item.lat) && Number.isFinite(item.lng)).length;
   const mapsUrl = selectedPoint ? getMapsUrl(selectedPlace) : "";
   const selectedTheme = getBankTheme(getPointPrimaryPromo(selectedPoint)?.bank);
-  const activeFilterText = getNearbyActiveFilterText();
   if (!points.length) {
     els.statusText.textContent = "Radar de locales";
     els.countText.textContent = "0 ubicaciones";
@@ -1340,7 +1337,7 @@ function renderNearbyView() {
           <div>
             <span class="nearby-kicker">Cerca</span>
             <h2>Sin locales para este filtro</h2>
-            <p>Filtro aplicado: ${escapeHtml(activeFilterText)}.</p>
+            <p>No encontramos locales geolocalizados para la combinacion seleccionada.</p>
           </div>
           <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : state.location ? "Actualizar ubicación" : "Usar mi ubicación"}</button>
         </div>
@@ -1369,7 +1366,7 @@ function renderNearbyView() {
       <div class="place-list">
         ${points.slice(0, 14).map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
       </div>
-      ${promos.length ? `<div class="nearby-note">Filtro aplicado: <strong>${escapeHtml(activeFilterText)}</strong>. ${bankCount > 1 ? `Hay beneficios de ${bankCount} bancos para comparar.` : "El color del punto corresponde al banco con el mayor beneficio detectado."} ${geocodedCount ? `${geocodedCount} locales tienen coordenadas en la base.` : ""}</div>${renderNearbyPromoGroups(promos)}` : `<div class="empty">No encontramos locales geolocalizados para el filtro actual: ${escapeHtml(activeFilterText)}.</div>`}
+      ${promos.length ? renderNearbyPromoGroups(promos) : `<div class="empty">No encontramos locales geolocalizados para el filtro actual.</div>`}
     </section>
   `;
   hydrateNearbyMap(points, selectedPlace);
@@ -1890,7 +1887,19 @@ function isReliableMapLocation(place) {
   const source = place?.geocode_source || "";
   const confidence = place?.google_confidence || "";
   return Boolean(Number.isFinite(place?.lat) && Number.isFinite(place?.lng)
+    && !isGenericLocationMatchedToMall(place)
     && source !== "city_approximation" && source !== "" && (confidence !== "review" || isBrandedFuelLocation(place)));
+}
+
+function isGenericLocationMatchedToMall(place) {
+  const merchant = normalizeDayName(place?.merchant_name || "");
+  const googleName = normalizeDayName(place?.google_name || place?.name || "");
+  const genericMerchants = ["farmacias", "mayoristas", "supermercados", "estaciones de servicio", "frigorificos"];
+  const mallNames = ["shopping", "delsol", "del sol", "park 14"];
+  const types = Array.isArray(place?.google_types) ? place.google_types.map(normalizeDayName) : [];
+  return genericMerchants.includes(merchant)
+    && types.includes("shopping_mall")
+    && mallNames.some((name) => googleName.includes(name));
 }
 
 function isBrandedFuelLocation(place) {
@@ -2287,6 +2296,7 @@ function formatCapsText(promo, variant = null) {
   if (!text || normalizeDayName(text).includes("no especificado")) return "No especificado";
   const scoped = getVariantScopedText(promo, variant);
   if (scoped) return scoped;
+  if (promo.bank === "BNF") return formatBnfCapsText(text);
   const universitariaCaps = getUniversitariaCaps(promo, percentNumber(getMainBenefit(promo, variant) || promo.benefit_summary));
   if (universitariaCaps.purchaseCap || universitariaCaps.refundCap) {
     return formatUniversitariaCapsText(universitariaCaps);
@@ -2308,6 +2318,18 @@ function formatCapsText(promo, variant = null) {
     parts[0] = parts[0].replace("Tope de compra:", "Tope mensual de compra:");
   }
   return parts.length ? parts.join(" ") : formatDetailText(text).slice(0, 240);
+}
+
+function formatBnfCapsText(text) {
+  const amounts = extractGuaraniAmounts(text);
+  const parts = [];
+  if (amounts[0]) parts.push(`Tope mensual de compra: ${amounts[0]}.`);
+  if (amounts.length > 2) parts.push(`Otros topes indicados en bases: ${amounts.slice(1, -1).join("; ")}.`);
+  if (amounts.length > 1) parts.push(`Tope de reintegro: ${amounts[amounts.length - 1]}.`);
+  if (/no se multiplicar[aá]\s+por\s+sucursal/i.test(text)) {
+    parts.push("El tope aplica por marca/comercio adherido y no se multiplica por sucursal.");
+  }
+  return parts.length ? parts.join(" ") : formatDetailText(text).slice(0, 220);
 }
 
 function extractAdditionalInfo(promo, rawDetail, variant = null) {
