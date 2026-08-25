@@ -115,6 +115,7 @@ const state = {
   uenoLevel: 5,
   location: null,
   locationStatus: "idle",
+  nearbyAutoLocationTried: false,
   activePlaceName: "",
   user: loadStoredJson(STORAGE_KEYS.user, null),
   favorites: new Set(loadStoredJson(STORAGE_KEYS.favorites, [])),
@@ -2041,6 +2042,12 @@ async function requestLocation() {
   }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 300000 });
 }
 
+async function requestNearbyLocationAutomatically() {
+  if (state.activeView !== "nearby" || state.location || state.locationStatus === "loading" || state.nearbyAutoLocationTried) return;
+  state.nearbyAutoLocationTried = true;
+  requestLocation();
+}
+
 async function exploreNearbyManually() {
   state.locationStatus = "loading";
   render();
@@ -2824,6 +2831,7 @@ els.bottomNav.addEventListener("click", (event) => {
     }, 60);
   }
   if (view === "nearby") {
+    requestNearbyLocationAutomatically();
     window.setTimeout(() => {
       document.querySelector(".map-stage, .nearby-panel")?.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 60);
