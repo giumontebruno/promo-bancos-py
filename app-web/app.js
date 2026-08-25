@@ -823,6 +823,16 @@ function getVariantByKey(promo, key) {
   return variants.find((variant, index) => String(index) === String(key) || variant?.label === key) || variants[0] || null;
 }
 
+function getVariantKey(promo, variant) {
+  if (!variant) return "";
+  const variants = getPromoVariants(promo);
+  const index = variants.findIndex((item) => (
+    item === variant
+    || (item?.kind === variant.kind && item?.label === variant.label && item?.benefit === variant.benefit)
+  ));
+  return index >= 0 ? String(index) : variant.label || "";
+}
+
 function hasPremiumVariant(promo) {
   return getPromoVariants(promo).some((variant) => variant?.kind === "premium");
 }
@@ -1366,7 +1376,7 @@ function renderNearbyView() {
       <div class="place-list">
         ${points.slice(0, 14).map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
       </div>
-      ${promos.length ? renderNearbyPromoGroups(promos) : `<div class="empty">No encontramos locales geolocalizados para el filtro actual.</div>`}
+      ${promos.length ? renderNearbyPromoGroups(promos, selectedPoint?.place) : `<div class="empty">No encontramos locales geolocalizados para el filtro actual.</div>`}
     </section>
   `;
   hydrateNearbyMap(points, selectedPlace);
@@ -1381,7 +1391,7 @@ function getNearbyActiveFilterText() {
   return parts.length ? parts.join(" · ") : "Todos los bancos y categorías";
 }
 
-function renderNearbyPromoGroups(promos) {
+function renderNearbyPromoGroups(promos, place = null) {
   const groups = groupNearbyPromos(promos);
   return groups.map(([title, subtitle, items, tone]) => `
     <section class="nearby-promo-group ${tone}">
@@ -1392,7 +1402,7 @@ function renderNearbyPromoGroups(promos) {
         </div>
         <span>${items.length}</span>
       </div>
-      <div class="grid nearby-grid">${items.slice(0, 8).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(promo, variant))).join("")}</div>
+      <div class="grid nearby-grid">${items.slice(0, 8).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(withNearbyPlaceContext(promo, place), variant))).join("")}</div>
     </section>
   `).join("");
 }
@@ -1496,7 +1506,7 @@ function renderNearbyPlacePromos(item) {
       const variants = getPromoVariants(promo).filter(Boolean);
       const visibleVariants = variants.filter((variant) => variant.kind !== "premium").slice(0, 1);
       return (visibleVariants.length ? visibleVariants : [variants[0] || null])
-        .map((variant) => renderCard(promo, variant));
+        .map((variant) => renderCard(withNearbyPlaceContext(promo, item.place), variant));
     })
     .join("");
   const moreCount = Math.max(0, item.promos.length - 4);
@@ -1513,6 +1523,35 @@ function renderNearbyPlacePromos(item) {
 
 function getPlaceDisplayName(place) {
   return place?.google_name || place?.name || place?.merchant_name || "Ubicación";
+}
+
+function withNearbyPlaceContext(promo, place) {
+  if (!promo || !place) return promo;
+  const localName = getNearbyLocalName(place);
+  if (!localName || isGenericNearbyName(localName)) return promo;
+  const address = formatPlaceAddress(place);
+  return {
+    ...promo,
+    merchant_name: localName,
+    merchant_locations_or_group: address || localName,
+    _sourceMerchantName: promo.merchant_name,
+    _nearbyPlaceId: place.id || getPlaceGroupKey(place),
+    _nearbyPlaceName: localName,
+    _nearbyPlaceAddress: address,
+  };
+}
+
+function getNearbyLocalName(place) {
+  const googleName = cleanSentence(place.google_name || place.name || "");
+  const merchantName = cleanSentence(place.merchant_name || "");
+  if (googleName && !isGenericNearbyName(googleName)) return googleName;
+  if (merchantName && !isGenericNearbyName(merchantName)) return merchantName;
+  return "";
+}
+
+function isGenericNearbyName(value) {
+  const normalized = normalizeDayName(value);
+  return ["farmacias", "mayoristas", "supermercados", "estaciones de servicio", "frigorificos", "combustible"].includes(normalized);
 }
 
 function formatPlaceAddress(place) {
@@ -2616,7 +2655,7 @@ function renderCard(promo, variant = null) {
     ? `<span class="power-badge" title="Promo ueno+ POWER"><img src="${escapeAttribute(bankThemes["ueno bank"].logo)}" alt="" />ueno+ POWER</span>`
     : "";
   return `
-    <article class="promo-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""}" data-id="${promo.id}" data-variant="${escapeAttribute(String(getPromoVariants(promo).indexOf(variant)))}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
+    <article class="promo-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""}" data-id="${promo.id}" data-variant="${escapeAttribute(getVariantKey(promo, variant))}" data-place-id="${escapeAttribute(promo._nearbyPlaceId || "")}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
       <div class="logo-box">${theme.logo ? `<img class="${escapeAttribute(logoClass)}" src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(getBankLabel(promo.bank))}" />` : ""}</div>
       <div class="promo-content">
         <div class="promo-card-head">
@@ -2641,8 +2680,10 @@ function renderCard(promo, variant = null) {
   `;
 }
 
-function openDetail(id, variantKey = "") {
-  const promo = state.promotions.find((item) => item.id === id);
+function openDetail(id, variantKey = "", placeId = "") {
+  const basePromo = state.promotions.find((item) => item.id === id);
+  const place = placeId ? state.locations.find((item) => (item.id || getPlaceGroupKey(item)) === placeId) : null;
+  const promo = place ? withNearbyPlaceContext(basePromo, place) : basePromo;
   if (!promo) return;
   const variant = getVariantByKey(promo, variantKey);
   const isFavorite = state.favorites.has(promo.id);
@@ -2775,7 +2816,7 @@ els.results.addEventListener("click", (event) => {
 
   const card = event.target.closest(".promo-card");
   if (card) {
-    openDetail(card.dataset.id, card.dataset.variant);
+    openDetail(card.dataset.id, card.dataset.variant, card.dataset.placeId);
     return;
   }
 
