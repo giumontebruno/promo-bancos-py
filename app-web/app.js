@@ -213,6 +213,7 @@ const ICON_PATHS = {
   star: '<path d="M12 4l2.4 5 5.6.8-4 3.9.9 5.5-4.9-2.6-4.9 2.6.9-5.5-4-3.9 5.6-.8L12 4z"/>',
   crown: '<path d="M5 18h14"/><path d="M6 15l1-8 5 4 5-4 1 8H6z"/><path d="M9 21h6"/>',
   target: '<circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>',
+  mapPin: '<path d="M12 21s6-5.2 6-11a6 6 0 1 0-12 0c0 5.8 6 11 6 11z"/><circle cx="12" cy="10" r="2"/>',
 };
 
 const els = {
@@ -1336,7 +1337,6 @@ function renderNearbyView() {
   const selectedPlace = selectedPoint?.place || KNOWN_LOCAL_POINTS[0];
   const selectedDistance = selectedPoint?.distance || 0;
   const promos = selectedPoint?.promos || [];
-  const mapsUrl = selectedPoint ? getMapsUrl(selectedPlace) : "";
   const selectedTheme = getBankTheme(getPointPrimaryPromo(selectedPoint)?.bank);
   if (!points.length) {
     els.statusText.textContent = "Radar de locales";
@@ -1361,15 +1361,11 @@ function renderNearbyView() {
   els.results.innerHTML = `
     <section class="nearby-panel">
       <div class="map-stage">
-        <div class="map-toolbar">
-          <div>
-            <span class="nearby-kicker">Cerca</span>
-            <strong>${state.location ? "Tu zona" : "Explorar promos"}</strong>
-            <small>${state.location ? "Locales con beneficios cercanos" : "Mapa de locales con beneficios"}</small>
-          </div>
-          ${mapsUrl ? `<a class="maps-link compact top" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer">Ir con Maps</a>` : ""}
-        </div>
         ${state.location ? `<button type="button" class="map-user-center" data-map-action="center-user" aria-label="Centrar en mi ubicación" title="Mi ubicación">${renderIcon("target")}</button>` : ""}
+        <div class="map-zoom-controls" aria-label="Controles del mapa">
+          <button type="button" data-map-action="zoom-in" aria-label="Acercar mapa">+</button>
+          <button type="button" data-map-action="zoom-out" aria-label="Alejar mapa">−</button>
+        </div>
         <div id="nearbyMap" class="leaflet-map" aria-label="Mapa de locales con promociones"></div>
       </div>
       ${renderNearbySelectedPlace(selectedPoint, selectedTheme)}
@@ -1484,12 +1480,16 @@ function renderNearbyPlaceButton(item, selectedPoint) {
 function renderNearbySelectedPlace(item, theme) {
   if (!item) return "";
   const address = formatPlaceAddress(item.place);
+  const mapsUrl = getMapsUrl(item.place);
   return `
     <section class="selected-place-panel" style="--sheet-accent:${theme.main};">
       <div class="selected-place-head">
         <div class="map-place-main">
           <strong>${escapeHtml(getPlaceDisplayName(item.place))}</strong>
-          ${address ? `<small>${escapeHtml(address)}</small>` : ""}
+          <div class="place-address-row">
+            ${address ? `<small>${escapeHtml(address)}</small>` : ""}
+            ${mapsUrl ? `<a class="maps-link compact place-maps-link" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer" aria-label="Abrir ruta en Google Maps">${renderIcon("mapPin")}Maps</a>` : ""}
+          </div>
           <span>${formatPlaceSheetMeta(item, item.distance)}</span>
         </div>
         ${renderPlaceBankBadges(item)}
@@ -1670,6 +1670,19 @@ function centerNearbyMapOnUser() {
   }
 }
 
+function zoomNearbyMap(direction) {
+  const delta = direction === "in" ? 1 : -1;
+  if (nearbyMapState.googleMap) {
+    const currentZoom = nearbyMapState.googleMap.getZoom() || 15;
+    nearbyMapState.googleMap.setZoom(Math.max(3, Math.min(20, currentZoom + delta)));
+    return;
+  }
+  if (nearbyMapState.map) {
+    if (direction === "in") nearbyMapState.map.zoomIn();
+    else nearbyMapState.map.zoomOut();
+  }
+}
+
 function getMapStart(selectedPlace) {
   return selectedPlace && Number.isFinite(selectedPlace.lat) && Number.isFinite(selectedPlace.lng)
     ? { lat: selectedPlace.lat, lng: selectedPlace.lng }
@@ -1688,6 +1701,7 @@ function renderGoogleNearbyMap(points, selectedPlace) {
     fullscreenControl: false,
     mapTypeControl: false,
     streetViewControl: false,
+    zoomControl: false,
     styles: [
       { elementType: "geometry", stylers: [{ color: "#071629" }] },
       { elementType: "labels.text.fill", stylers: [{ color: "#d7e2ef" }] },
@@ -1773,7 +1787,6 @@ function renderLeafletNearbyMap(points, selectedPlace) {
   window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
   }).addTo(map);
-  window.L.control.zoom({ position: "bottomright" }).addTo(map);
 
   getMapVisiblePoints(points).forEach((item) => {
     const primaryPromo = getPointPrimaryPromo(item);
@@ -2813,6 +2826,8 @@ els.results.addEventListener("click", (event) => {
   const mapAction = event.target.closest("[data-map-action]");
   if (mapAction) {
     if (mapAction.dataset.mapAction === "center-user") centerNearbyMapOnUser();
+    if (mapAction.dataset.mapAction === "zoom-in") zoomNearbyMap("in");
+    if (mapAction.dataset.mapAction === "zoom-out") zoomNearbyMap("out");
     return;
   }
 

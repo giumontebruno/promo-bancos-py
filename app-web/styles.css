@@ -1314,22 +1314,7 @@ dialog::backdrop {
 }
 
 .map-toolbar {
-  align-items: center;
-  backdrop-filter: blur(16px);
-  background: rgba(2, 8, 20, 0.68);
-  border: 1px solid rgba(247, 241, 227, 0.16);
-  border-radius: 18px;
-  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.24);
-  display: flex;
-  gap: 12px;
-  justify-content: space-between;
-  left: 12px;
-  max-width: calc(100% - 72px);
-  position: absolute;
-  top: 12px;
-  z-index: 3;
-  padding: 8px 10px;
-  animation: floatPanelIn 0.48s var(--ease-luxe) both;
+  display: none;
 }
 
 .map-toolbar strong,
@@ -1390,6 +1375,41 @@ dialog::backdrop {
   height: 17px;
   margin: 0;
   width: 17px;
+}
+
+.map-zoom-controls {
+  display: grid;
+  gap: 7px;
+  position: absolute;
+  right: 12px;
+  top: 56px;
+  z-index: 4;
+}
+
+.map-zoom-controls button {
+  align-items: center;
+  backdrop-filter: blur(16px);
+  background: rgba(2, 8, 20, 0.78);
+  border: 1px solid rgba(247, 241, 227, 0.22);
+  border-radius: 14px;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.24);
+  color: var(--brand-cream);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 20px;
+  font-weight: 850;
+  height: 36px;
+  justify-content: center;
+  line-height: 1;
+  padding: 0;
+  transition: background 0.22s ease, box-shadow 0.22s ease, transform 0.22s var(--ease-luxe);
+  width: 36px;
+}
+
+.map-zoom-controls button:hover {
+  background: rgba(247, 241, 227, 0.14);
+  box-shadow: 0 14px 28px rgba(213, 184, 116, 0.16);
+  transform: translateY(-1px);
 }
 
 .mini-map button,
@@ -1534,6 +1554,14 @@ dialog::backdrop {
   min-width: 0;
 }
 
+.place-address-row {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  margin-top: 2px;
+  min-width: 0;
+}
+
 .selected-place-panel strong {
   color: var(--brand-cream);
   display: block;
@@ -1548,7 +1576,6 @@ dialog::backdrop {
   display: block;
   font-size: 9px;
   font-weight: 700;
-  margin-top: 1px;
   max-width: 340px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1811,15 +1838,18 @@ dialog::backdrop {
 .maps-link {
   align-items: center;
   background: var(--brand-cream);
+  border: 1px solid rgba(247, 241, 227, 0.3);
   border-radius: 16px;
   color: var(--brand-navy-deep);
   display: inline-flex;
   font-size: 13px;
   font-weight: 950;
+  gap: 5px;
   justify-content: center;
   min-height: 42px;
   padding: 10px 14px;
   text-decoration: none;
+  transition: box-shadow 0.22s ease, transform 0.22s var(--ease-luxe);
 }
 
 .maps-link.compact {
@@ -1829,11 +1859,25 @@ dialog::backdrop {
   padding: 6px 10px;
 }
 
-.maps-link.top {
-  background: rgba(247, 241, 227, 0.92);
-  border: 1px solid rgba(247, 241, 227, 0.28);
+.place-maps-link {
+  background: linear-gradient(135deg, rgba(247, 241, 227, 0.96), rgba(213, 184, 116, 0.92));
   border-radius: 13px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 0 0 3px color-mix(in srgb, var(--sheet-accent, #d5b874) 14%, transparent);
+  color: #020814;
+  min-height: 28px;
+  padding: 5px 9px;
+}
+
+.place-maps-link .chip-icon {
+  height: 13px;
+  margin: 0;
+  stroke-width: 2.5;
+  width: 13px;
+}
+
+.maps-link:hover {
+  box-shadow: 0 14px 26px rgba(213, 184, 116, 0.18);
+  transform: translateY(-1px);
 }
 
 .nearby-note {

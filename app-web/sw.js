@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260825-luxe-motion";
+const CACHE_NAME = "payback-py-v20260825-clean-map-controls";
 const APP_SHELL = [
   "./",
   "./index.html",
