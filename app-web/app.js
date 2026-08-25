@@ -1323,7 +1323,7 @@ function renderNearbyView() {
             <h2>Promos cerca tuyo</h2>
             <p>Activá tu ubicación y cargamos solamente los locales cercanos con promociones.</p>
           </div>
-          <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : "Usar mi ubicación"}</button>
+          <button type="button" class="location-button ${state.locationStatus === "loading" ? "is-loading" : ""}" data-location-action="detect">${state.locationStatus === "loading" ? `<span class="locating-orbit" aria-hidden="true"></span>Buscando...` : "Usar mi ubicación"}</button>
         </div>
         <button type="button" class="location-button secondary" data-location-action="explore">Explorar mapa sin ubicación</button>
         <div class="empty compact">El mapa no carga locales hasta que autorices tu ubicación. Así la app entra rápido y no se cuelga.</div>
@@ -1349,7 +1349,7 @@ function renderNearbyView() {
             <h2>Sin locales para este filtro</h2>
             <p>No encontramos locales geolocalizados para la combinacion seleccionada.</p>
           </div>
-          <button type="button" class="location-button" data-location-action="detect">${state.locationStatus === "loading" ? "Buscando..." : state.location ? "Actualizar ubicación" : "Usar mi ubicación"}</button>
+          <button type="button" class="location-button ${state.locationStatus === "loading" ? "is-loading" : ""}" data-location-action="detect">${state.locationStatus === "loading" ? `<span class="locating-orbit" aria-hidden="true"></span>Buscando...` : state.location ? "Actualizar ubicación" : "Usar mi ubicación"}</button>
         </div>
         <div class="empty compact">Probá con otro banco, otra categoría o volvé a Todas para ampliar el mapa.</div>
       </section>
