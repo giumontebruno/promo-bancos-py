@@ -1595,6 +1595,57 @@ dialog::backdrop {
   gap: 7px;
 }
 
+.place-promo-section {
+  display: grid;
+  gap: 7px;
+}
+
+.place-promo-section + .place-promo-section {
+  border-top: 1px solid rgba(247, 241, 227, 0.1);
+  padding-top: 8px;
+}
+
+.place-promo-section-title {
+  align-items: center;
+  display: grid;
+  gap: 1px 8px;
+  grid-template-columns: 1fr auto;
+  padding: 0 2px;
+}
+
+.place-promo-section-title strong {
+  color: var(--brand-cream);
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.place-promo-section-title small {
+  color: var(--brand-cream-muted);
+  font-size: 10px;
+  font-weight: 750;
+  grid-column: 1 / -1;
+}
+
+.place-promo-section-title span {
+  align-items: center;
+  background: rgba(247, 241, 227, 0.1);
+  border: 1px solid rgba(247, 241, 227, 0.12);
+  border-radius: 999px;
+  color: var(--brand-cream);
+  display: inline-flex;
+  font-size: 10px;
+  font-weight: 950;
+  grid-column: 2;
+  grid-row: 1;
+  justify-content: center;
+  min-width: 22px;
+  padding: 2px 6px;
+}
+
+.place-promo-section.today .place-promo-section-title strong {
+  color: var(--brand-gold);
+}
+
 .place-promo-cards .promo-card {
   border-radius: 18px;
   grid-template-columns: 58px 1fr;

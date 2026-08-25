@@ -1500,23 +1500,35 @@ function renderNearbySelectedPlace(item, theme) {
 }
 
 function renderNearbyPlacePromos(item) {
-  const cards = item.promos
-    .slice(0, 4)
-    .flatMap((promo) => {
+  const groups = groupNearbyPromos(item.promos);
+  const rendered = groups.map(([title, subtitle, promos, tone]) => {
+    const visible = promos.slice(0, 4);
+    const cards = visible.flatMap((promo) => {
       const variants = getPromoVariants(promo).filter(Boolean);
       const visibleVariants = variants.filter((variant) => variant.kind !== "premium").slice(0, 1);
       return (visibleVariants.length ? visibleVariants : [variants[0] || null])
         .map((variant) => renderCard(withNearbyPlaceContext(promo, item.place), variant));
-    })
-    .join("");
-  const moreCount = Math.max(0, item.promos.length - 4);
+    }).join("");
+    return `
+      <section class="place-promo-section ${tone}">
+        <div class="place-promo-section-title">
+          <strong>${escapeHtml(title)}</strong>
+          <small>${escapeHtml(subtitle)}</small>
+          <span>${promos.length}</span>
+        </div>
+        <div class="place-promo-cards">${cards}</div>
+      </section>
+    `;
+  }).join("");
+  const visibleCount = groups.reduce((total, [, , promos]) => total + Math.min(promos.length, 4), 0);
+  const moreCount = Math.max(0, item.promos.length - visibleCount);
   return `
     <div class="place-promo-drawer">
       <div class="place-promo-header">
         <span>Promos en este local</span>
         ${moreCount ? `<small>+${moreCount} más abajo</small>` : ""}
       </div>
-      <div class="place-promo-cards">${cards}</div>
+      ${rendered}
     </div>
   `;
 }
