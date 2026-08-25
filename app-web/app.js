@@ -101,6 +101,7 @@ const OTHER_CITY_TERMS = [
   "canindeyu",
   "concepcion",
 ];
+const FUEL_BRANDS = ["petropar", "copetrol", "enex", "puma", "puma energy", "3mg", "petrobras", "petrochaco", "petromax", "compasa", "shell"];
 
 const state = {
   promotions: [],
@@ -1882,14 +1883,27 @@ function isPreciseNearbyPoint(point) {
   const source = point?.place?.geocode_source || "";
   const confidence = point?.place?.google_confidence || "";
   return Boolean(point && Number.isFinite(point.place?.lat) && Number.isFinite(point.place?.lng)
-    && source !== "city_approximation" && source !== "" && confidence !== "review");
+    && source !== "city_approximation" && source !== "" && (confidence !== "review" || isBrandedFuelLocation(point.place)));
 }
 
 function isReliableMapLocation(place) {
   const source = place?.geocode_source || "";
   const confidence = place?.google_confidence || "";
   return Boolean(Number.isFinite(place?.lat) && Number.isFinite(place?.lng)
-    && source !== "city_approximation" && source !== "" && confidence !== "review");
+    && source !== "city_approximation" && source !== "" && (confidence !== "review" || isBrandedFuelLocation(place)));
+}
+
+function isBrandedFuelLocation(place) {
+  const text = normalizeDayName([
+    place?.google_name,
+    place?.merchant_name,
+    place?.name,
+    place?.category,
+    place?.source_category,
+    Array.isArray(place?.google_types) ? place.google_types.join(" ") : "",
+  ].filter(Boolean).join(" "));
+  const isFuel = text.includes("combustible") || text.includes("estacion de servicio") || text.includes("gas_station");
+  return isFuel && FUEL_BRANDS.some((brand) => text.includes(normalizeDayName(brand)));
 }
 
 function preferBetterPlace(current, next) {
@@ -1973,16 +1987,28 @@ function getPromotionsForLocation(place, promoIndex) {
     });
   }
   if (!candidates.length) return [];
+  const detectedFuelBrands = getFuelBrandsFromPlace(place);
   const exactMerchantMatches = candidates.filter((promo) => {
     const promoText = normalizeDayName([
       promo.merchant_name,
       promo.merchant_locations_or_group,
     ].join(" "));
-    return merchantTerms.some((term) => promoText.includes(term) || term.includes(promoText));
+    return merchantTerms.some((term) => promoText.includes(term) || term.includes(promoText))
+      || detectedFuelBrands.some((brand) => promoText.includes(brand));
   });
   const sameBankFallback = candidates.filter((promo) => normalizeDayName(promo.bank) === bank);
   const matches = exactMerchantMatches.length ? exactMerchantMatches : sameBankFallback;
   return matches.filter((promo) => state.activeCategory !== PREMIUM_CATEGORY || hasPremiumVariant(promo)).slice(0, 8);
+}
+
+function getFuelBrandsFromPlace(place) {
+  const text = normalizeDayName([
+    place?.google_name,
+    place?.merchant_name,
+    place?.name,
+    place?.address,
+  ].filter(Boolean).join(" "));
+  return FUEL_BRANDS.map(normalizeDayName).filter((brand) => text.includes(brand));
 }
 
 function distanceKm(lat1, lng1, lat2, lng2) {
