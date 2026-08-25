@@ -1274,7 +1274,9 @@ dialog::backdrop {
 }
 
 .map-user-center .chip-icon {
+  display: block;
   height: 17px;
+  margin: 0;
   width: 17px;
 }
 

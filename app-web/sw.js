@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260824-nearby-bottom-panel";
+const CACHE_NAME = "payback-py-v20260824-center-location-button";
 const APP_SHELL = [
   "./",
   "./index.html",
