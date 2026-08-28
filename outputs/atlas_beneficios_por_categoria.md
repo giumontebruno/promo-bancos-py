@@ -2,13 +2,12 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 22
+Total de beneficios: 24
 
 ## Bienestar
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Martiderm | 20% de descuento; 3 cuotas sin intereses | Último jueves del mes | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Válido en los locales adheridos. Beneficios exclusivos para consumo personal.  |
 | Prepaga Joven | 20% de reintegro; En tiendas adheridas: | Todos los días | Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 d |
 
 ## Educación
@@ -43,12 +42,20 @@ Total de beneficios: 22
 |---|---|---|---|
 | Renová tu Hogar | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 
+## Joyas
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Denoir | 20% de descuento; +10% de reintegro; 6 cuotas sin intereses | Del 27 al 29 de agosto | Tope de compra acumulado por cuenta de tarjeta para el reintegro Gs. 1.000.000 para TC Visa Infinite, MasterCard Black, Visa Signature, Visa Clásica y Visa Oro. Promo válida en la tienda Joyería Armele y Denoir en el Sho |
+
 ## Moda
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| H&M | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 para compras realizadas a través del POS de la Red Infonet Válido para las sucursales de Paseo La Galería, Distrito Perseverancia y su E- com |
+| H&M | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet .Válido para las sucursales de Paseo La Galería, Distrito Perseverancia y su E-  |
+| Shopping Day | 10 cuotas sin intereses | Del 28 al 30 de agosto | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Beneficios exclusivos para consumo personal. Vigente los días 28/08/2026 al 30 |
 | Shopping Mariscal | 20% de descuento; Hasta 3 cuotas sin intereses | Todos los Miércoles | El descuento se realiza en caja. Aplica para tiendas adheridas a la promoción y pagos realizados a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a  |
+| delSol - Shopping Day | 50% de descuento; +10% de reintegro; 12 cuotas sin intereses | Del 28 al 30 de agosto | Hasta 50% de descuento en caja. Tope de compra acumulado por cuenta de tarjeta Gs. 3.000.000 en el conjunto de locales adheridos. La cantidad de cuotas debe ser solicitado en caja para compras a partir de Gs. 200.000 y t |
 
 ## Supermercados
 

@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 52
+Total de promociones: 56
 
 ## Combustible
 
@@ -15,7 +15,9 @@ Total de promociones: 52
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | 6 cuotas sin interés | Todos los días | • Todos los días hasta el 31 de diciembre del 2026. |
+| CECCONELLO | 10%; 20%; Hasta 10 cuotas sin interés | No especificado | • Viernes y sábado. • 28 y 29 de agosto 2026. |
 | SASPY EXPRESS | 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | • Desde el 06 de abril hasta el 30 de septiembre 2026. |
+| SHOPPING DAY - AGOSTO | Hasta 12 cuotas sin interés | No especificado | • Desde el 28 al 30 de agosto de 2026. |
 | SUDAMERIS GO- CUOTAS | Hasta 18 cuotas sin intereses | No especificado | • Del 12 de febrero del 2026 al 31 de diciembre del 2026. |
 | TARJETAS EMPRESARIALES | Hasta 6 cuotas sin interés | Todos los días | • Todos los días. • Desde el 01 de enero hasta el 31 de diciembre de 2026. |
 | ZEAL | 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el 21 de agosto hasta el 19 de septiembre 2026. |
@@ -62,6 +64,7 @@ Total de promociones: 52
 | LE BISTRO DE LA ROTONDE – DISTRITO PERSEVERANCIA | 20%; 25% | lunes a miércoles | • De lunes a miércoles. • Desde el 06 de julio hasta el 30 de septiembre 2026. |
 | RESTAURANTES FAMILIA PARU - LA CUADRITA | 20%; 25% | No especificado | • Desde el 01 de enero hasta el 31 de diciembre de 2026. |
 | SERENDIPITY - LA HORNALLA - CANTINA COLEGIOS | 15% | Lunes a viernes | • Lunes a viernes. • Desde el 20 de abril hasta el 30 de noviembre 2026. |
+| SHOPPING DAY – DISTRITO PERSEVERANCIA | 20% | No especificado | • Desde el 28 al 30 de agosto 2026. |
 
 ## Hogar
 
@@ -86,6 +89,7 @@ Total de promociones: 52
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| CHEF’S KITCHEN | 20%; 25% | No especificado | • Viernes y sábado. • Desde el 28 de agosto hasta el 30 de setiembre 2026. |
 | PLUB | 20% | No especificado | • Último viernes de cada mes. • Desde el 01 de agosto 2026 hasta el 31 de octubre de 2026. |
 | ZONA CENTRAL - ASUNCIÓN Y GRAN ASUNCIÓN | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 | ZONA ESTE | en tu zona • Reintegros directos en el extracto, sin canje de puntos CIUDAD DEL ESTE HERNANDARIAS VILLARRICA CORONEL OVIEDO CAAZAPÁ SANTA RITA NARANJAL J. EULOGIO ESTIGARRIBIA SANT | No especificado | No especificado |

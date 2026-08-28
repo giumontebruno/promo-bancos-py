@@ -2,7 +2,7 @@
 
 Fuente: https://www.universitaria.coop/promociones
 
-Total de promociones: 76
+Total de promociones: 75
 
 ## Electrodomésticos
 
@@ -65,7 +65,6 @@ Total de promociones: 76
 
 | Comercio/Promoción | Beneficio | Día | Vigencia |
 |---|---|---|---|
-| HIGHLANDS Lagoon Lifestyle | Todos los días | Todos los días | Vigencia Desde el 24 de agosto de 2025 hasta el 24 de agosto de 2026 |
 | LA MATILDE | 5% de descuento | Todos los Días | Vigencia Desde el 13 de julio de 2026 hasta el 31 de julio de 2027 |
 | La Ponde S.A. | Todos los Días | Todos los Días | Vigencia Desde el 24 de abril de 2026 hasta el 24 de abril de 2027 |
 | Las Lomas Country | 10% de descuento | Todos los días | Vigencia Desde el 08 de setiembre de 2025 hasta el 08 de setiembre de 2026 |

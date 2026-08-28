@@ -2,10 +2,12 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 52
+Total: 56
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
+| Sudameris | SHOPPING DAY – DISTRITO PERSEVERANCIA | • Desde el 28 al 30 de agosto 2026. | • 20% de reintegro pagando con tarjetas de crédito. | https://www.sudameris.com.py/beneficios/destacado/915/detalle |
+| Sudameris | SHOPPING DAY - AGOSTO | • Desde el 28 al 30 de agosto de 2026. | • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/710/detalle |
 | Sudameris | DONACIÓN TECHO 2026 EN DISTRITO PERSEVERANCIA |  | : Hasta en 8 cuotas sin interés. ¡Colaborá hoy y sé parte del cambio! | https://www.sudameris.com.py/beneficios/destacado/901/detalle |
 | Sudameris | DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES | : Del 03/08 al 31/12/2026. |  | https://www.sudameris.com.py/beneficios/destacado/902/detalle |
 | Sudameris | LUISITO | • Todos los martes. • Desde el 26 de mayo hasta el 30 de noviembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/875/detalle |
@@ -20,6 +22,7 @@ Total: 52
 | Sudameris | PLUB | • Último viernes de cada mes. • Desde el 01 de agosto 2026 hasta el 31 de octubre de 2026. | • 20% de reintegro directo con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/360/detalle |
 | Sudameris | TARJETAS EMPRESARIALES | • Todos los días. • Desde el 01 de enero hasta el 31 de diciembre de 2026. | • Hasta 6 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/742/detalle |
 | Sudameris | ZONA CENTRAL - ASUNCIÓN Y GRAN ASUNCIÓN | • Verificar según aplicación de promoción (ver cuadro más abajo). | en tu zona | https://www.sudameris.com.py/beneficios/destacado/647/detalle |
+| Sudameris | CHEF’S KITCHEN | • Viernes y sábado. • Desde el 28 de agosto hasta el 30 de setiembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito. • 25% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite. | https://www.sudameris.com.py/beneficios/destacado/738/detalle |
 | Sudameris | ENEX Y APP MI ENEX | • Desde el 01 de julio hasta el 30 de septiembre 2026. • Solo el primer lunes de cada mes. • 6 de julio. • 3 de agosto. • 7 de septiembre. | • 10% de reintegro en estaciones físicas pagando con tarjetas de crédito de Sudameris. • 20% de reintegro a través de la app Mi Enex, pagando con tarjetas de crédito de Sudameris | https://www.sudameris.com.py/beneficios/destacado/307/detalle |
 | Sudameris | YOUNIQUE | • Todos los martes y miércoles. • Del 02 de junio al 31 de agosto 2026. | • 25% de descuento en caja pagando con tarjetas de crédito Clásicas, Oro, Platinum, Signature, Privilege de Sudameris. • 30% de descuento en caja pagando con tarjetas de crédito MasterCard Black y Visa Infinite de Sudame | https://www.sudameris.com.py/beneficios/destacado/315/detalle |
 | Sudameris | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | • Todos los días hasta el 31 de diciembre del 2026. | • 6 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/494/detalle |
@@ -46,6 +49,7 @@ Total: 52
 | Sudameris | LINCOLN | • Todos los días. • Desde el 01 de agosto hasta el 30 de septiembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/797/detalle |
 | Sudameris | SUDAMERIS GO- CUOTAS | : • Del 12 de febrero del 2026 al 31 de diciembre del 2026. | : • Hasta 18 cuotas sin intereses. | https://www.sudameris.com.py/beneficios/destacado/820/detalle |
 | Sudameris | CLUB SOCIAL ÁREA 4 - CIUDAD DEL ESTE | • Todos los días. • Desde el 11 de febrero hasta el 31 de diciembre 2026.. | • 10% de reintegro en el extracto y exclusivamente a compras realizadas con Tarjetas de Crédito MasterCard y Visa, para pagos vía débito automático de las cuotas sociales del club. Tope de compra mensual: Gs. 300.000 por | https://www.sudameris.com.py/beneficios/destacado/826/detalle |
+| Sudameris | CECCONELLO | • Viernes y sábado. • 28 y 29 de agosto 2026. | • 20% de descuento en caja pagando con tarjetas de crédito de Sudameris. • + 10% de reintegro en extracto pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/836/detalle |
 | Sudameris | FRIGOMAS | • Viernes. • Desde el 07 de agosto al 25 de septiembre 2026. | • 25% de reintegro directo pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/846/detalle |
 | Sudameris | SASPY EXPRESS | • Desde el 06 de abril hasta el 30 de septiembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. COMPRAS EN EL EXTERIOR – 6 CUOTAS SIN INTERÉS | https://www.sudameris.com.py/beneficios/destacado/849/detalle |
 | Sudameris | SERENDIPITY - LA HORNALLA - CANTINA COLEGIOS | • Lunes a viernes. • Desde el 20 de abril hasta el 30 de noviembre 2026. | • 15% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/858/detalle |

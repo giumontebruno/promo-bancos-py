@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T13:27:19.794553+00:00",
-  "promotion_count": 1252,
+  "generated_at": "2026-08-28T19:45:56.285089+00:00",
+  "promotion_count": 1289,
   "banks": [
     "Atlas",
     "BNF",
@@ -14,7 +14,6 @@
     "Agencias de Viaje y Compañías Aéreas",
     "Belleza y Salud",
     "Bienestar",
-    "Cafeterías",
     "Caza y Pesca",
     "Clubes",
     "Clubes sociales",
@@ -22,7 +21,6 @@
     "Construcción",
     "Contimarket",
     "Cuotas y tarjetas",
-    "Delimarket",
     "Deportes",
     "Deportes y clubes",
     "Educación",
@@ -45,6 +43,8 @@
     "Frigoríficos",
     "Gastronomía",
     "Generales",
+    "Gonzalez Gimenez",
+    "H&M",
     "Heladerías",
     "Hogar",
     "Hoteles",
@@ -53,6 +53,7 @@
     "Inmobiliarias",
     "Inmuebles",
     "Instituciones Educativas",
+    "Joyas",
     "Joyerías",
     "Jugueterías",
     "Laboratorios",
@@ -78,7 +79,6 @@
     "Shoppings",
     "Sin categoría",
     "Stock & Superseis",
-    "Super Real",
     "Supermercados",
     "Teatro",
     "Tecnología",
@@ -94,12 +94,12 @@
     "Últimos días"
   ],
   "source_files": [
-    "outputs\\sudameris_beneficios_por_categoria.csv",
-    "outputs\\itau_beneficios_por_categoria.csv",
-    "outputs\\bnf_beneficios_por_categoria.csv",
-    "outputs\\continental_beneficios_por_categoria.csv",
-    "outputs\\atlas_beneficios_por_categoria.csv",
-    "outputs\\universitaria_beneficios_por_categoria.csv",
-    "outputs\\ueno_beneficios_por_categoria.csv"
+    "outputs/sudameris_beneficios_por_categoria.csv",
+    "outputs/itau_beneficios_por_categoria.csv",
+    "outputs/bnf_beneficios_por_categoria.csv",
+    "outputs/continental_beneficios_por_categoria.csv",
+    "outputs/atlas_beneficios_por_categoria.csv",
+    "outputs/universitaria_beneficios_por_categoria.csv",
+    "outputs/ueno_beneficios_por_categoria.csv"
   ]
 }
