@@ -311,7 +311,7 @@ Total de beneficios/comercios: 730
 | Progresar Electrodomésticos | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | los jueves | Vigente hasta el 25 de febrero del 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | Encarnación |
 | Refrinar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 26 de noviembre del 2026 | Santa Rita (Alto Paraná) |
 | Rovus Tapizado | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de noviembre del 2026 | Curuguaty |
-| San Isidro - Showroom | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 21 de agosto de 2026 hasta el 20 de febrero de 2027 | Encarnación |
+| San Isidro - Showroom | Hasta 12 cuotas sin intereses; 25% de descuento | todos los días | Vigente hasta el 20 de febrero de 2027 | Encarnación |
 | San Rafael Hogar | 20%; hasta 18 cuotas sin intereses; 20% de descuento | Todos los días | Vigente hasta el 13 de febrero del 2027 | No especificado |
 | Show S.A. | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de marzo de 2027 | No especificado |
 | Sleep Center | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de septiembre de 2026 | Asunción |
@@ -739,7 +739,7 @@ _Se omitieron 131 filas en este resumen; están en el CSV._
 | Garden | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 13 de abril de 2027 | No especificado |
 | Grupo Casa J. Gomez - Cubiertas | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 08 de enero del 2027 | Fernando de la Mora |
 | Grupo Faustino | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 02 de enero del 2027 | Nueva Esperanza (Canindeyú) |
-| Importadora Avenida | 20%; hasta 12 cuotas sin intereses; 20% de descuento | Todos los días | Vigente hasta el 10 de octubre de 2026 | Asunción |
+| Importadora Avenida | 20%; Hasta 12 cuotas sin intereses; 20% de descuento | Todos los días | Vigente hasta el 10 de agosto de 2027 | Asunción |
 | Jepuru Car | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 19 de marzo hasta el 19 de septiembre de 2026 | Asunción |
 | Mincar Servicio Automotriz | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de marzo de 2027 | Nueva Esperanza (Canindeyú) |
 | Motorplaza | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de marzo de 2027 | Asunción |

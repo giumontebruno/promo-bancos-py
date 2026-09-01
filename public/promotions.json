@@ -2,6 +2,54 @@
   {
     "bank": "Atlas",
     "category": "Bienestar",
+    "merchant_name": "Martiderm",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de descuento; 3 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "jueves"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Último jueves del mes",
+    "validity": "La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Válido en los locales adheridos. Beneficios exclusivos para consumo personal. Vigente todos los últimos jueves de cada mes hasta el 31/12 del 2026. Se excluyen tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Shopping Pinedo y Shoping Mariano.",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Válido en los locales adheridos. Beneficios exclusivos para consumo personal. Vigente todos los últimos jueves de cada mes hasta el 31/12 del 2026. Se excluyen tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Shopping Pinedo y Shoping Mariano.",
+    "id": "84714bfec7199316"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Bienestar",
+    "merchant_name": "Nueva Americana",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de descuento; +5% de descuento; 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "5%",
+      "25%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "17 y 18 de septiembre",
+    "validity": "El descuento se realiza en caja. Un total de 25% de descuento para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, y 20% para tarjetas de crédito Clásica y Oro. La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica solo en tiendas físicas. Beneficio exclusivo para consumo personal. Vigente las fechas 17 y 18 de septiembre del 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito +5% de descuento con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol El descuento se realiza en caja. Un total de 25% de descuento para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, y 20% para tarjetas de crédito Clásica y Oro. La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica solo en tiendas físicas. Beneficio exclusivo para consumo personal. Vigente las fechas 17 y 18 de septiembre del 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+    "id": "f335e4839708ba7a"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Bienestar",
     "merchant_name": "Prepaga Joven",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% de reintegro; En tiendas adheridas:",
@@ -31,6 +79,30 @@
   },
   {
     "bank": "Atlas",
+    "category": "Bienestar",
+    "merchant_name": "Shopping Mariscal Miércoles Plus",
+    "merchant_locations_or_group": "Asunción",
+    "benefit_summary": "20% de descuento; +20% de reintegro; 3 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "miércoles"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "23 de septiembre",
+    "validity": "Tope de compra por cuenta de tarjeta para el reinetgro Gs. 5.000.000. Promo válida en tiendas adheridas al Miércoles de Beneficio en el Shopping Mariscal y para compras realizadas a través del POS de la Red Infonet. Reintegro válido solo pagando con QR. Se excluyen las tarjetas prepago, corporativas, gourmet card, gift card, afinidad Shopping Mariscal, Shopping Mariano, Shopping Pinedo. Promoción exclusiva para consumo personal. Vigente el 23 de septiembre del 2026.",
+    "caps_and_minimums": "Gs. 5.000.000 para todas las tarjetas de crédito.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/Tiendas%20adheridas%20Mi%C3%A9rcoles%20Plus.pdf",
+    "raw_detail": "con tarjetas de crédito +20% de reintegro pagando con QR Tope de compra por cuenta de tarjeta para el reinetgro Gs. 5.000.000. Promo válida en tiendas adheridas al Miércoles de Beneficio en el Shopping Mariscal y para compras realizadas a través del POS de la Red Infonet. Reintegro válido solo pagando con QR. Se excluyen las tarjetas prepago, corporativas, gourmet card, gift card, afinidad Shopping Mariscal, Shopping Mariano, Shopping Pinedo. Promoción exclusiva para consumo personal. Vigente el 23 de septiembre del 2026.",
+    "id": "122065fe5453ebae"
+  },
+  {
+    "bank": "Atlas",
     "category": "Educación",
     "merchant_name": "Universidades",
     "merchant_locations_or_group": "",
@@ -56,6 +128,30 @@
     "source_url": "https://www.bancoatlas.com.py/web/beneficios",
     "raw_detail": "con tarjetas de crédito La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para consumo personal. Vigente hasta el 31 de diciembre de 2026. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
     "id": "d70ba6f32e9a8624"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Gastronomía",
+    "merchant_name": "AgroShopping",
+    "merchant_locations_or_group": "Asunción",
+    "benefit_summary": "20% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "martes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los Martes",
+    "validity": "Tope de compra por cuenta de tarjeta Gs. 500.000. Promo válida para compras realizadas a través del POS de la red infonet en stands adheridos. Vigente todos los martes, del 1 de septiembre al 29 de diciembre del 2026. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas prepaga, corporativa, gourmet card, gift card, afinidad Shopping Mariscal, Shoping Pinedo y Shopping Mariano.",
+    "caps_and_minimums": "Gs. 500.000 para todas las tarjetas de crédito.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito En stands adheridos del Agroshopping Tope de compra por cuenta de tarjeta Gs. 500.000. Promo válida para compras realizadas a través del POS de la red infonet en stands adheridos. Vigente todos los martes, del 1 de septiembre al 29 de diciembre del 2026. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas prepaga, corporativa, gourmet card, gift card, afinidad Shopping Mariscal, Shoping Pinedo y Shopping Mariano.",
+    "id": "fcd65dd8706deecf"
   },
   {
     "bank": "Atlas",
@@ -157,7 +253,7 @@
     ],
     "month_days": [],
     "ordinal_weekdays": [],
-    "day_text": "Sábados",
+    "day_text": "Todos los Sábados",
     "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 800.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro en el conjunto de locales adheridos a la promo Spa y Peluquerías. Aplica para compras realizadas a través del POS de la Red Infonet. Vigente todos los sábados hasta el 26 de diciembre de 2026. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
     "caps_and_minimums": "Gs. 800.000 para tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol.; Gs. 500.000 para tarjetas de crédito Clásica y Oro.",
     "level_rules": "",
@@ -215,6 +311,28 @@
     "source_url": "https://www.bancoatlas.com.py/web/Estaciones%20de%20servicio.pdf",
     "raw_detail": "con todas las tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Mínimo de compra Gs. 200.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 700.000 para tarjetas de crédito Clásica y Oro en el conjunto de estaciones adheridas a la promoción a través del POS de la Red Infonet y para estaciones Petrobras exclusivamente pagos realizados a través de la App Petrobras Premmia. Vigente todos los martes hasta el 29 de diciembre de 2026. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
     "id": "ef717e05cba0a400"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Generales",
+    "merchant_name": "Florerías",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Del 18 al 21 septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000. Vigente del 18 al 21 de septiembre del 2026. Válido en florerías adheridas. Se excluye las tarjetas prepago, corporativas, gourmet card, gift card, shopping Mariscal, Shopping Pinedo y Shopping Mariano. Beneficio exclusivo para consumo personal",
+    "caps_and_minimums": "Gs. 1.500.000 para todas las tarjetas de crédito.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito En florerías adheridas Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000. Vigente del 18 al 21 de septiembre del 2026. Válido en florerías adheridas. Se excluye las tarjetas prepago, corporativas, gourmet card, gift card, shopping Mariscal, Shopping Pinedo y Shopping Mariano. Beneficio exclusivo para consumo personal",
+    "id": "fafe89549fe24c65"
   },
   {
     "bank": "Atlas",
@@ -326,6 +444,29 @@
   },
   {
     "bank": "Atlas",
+    "category": "Generales",
+    "merchant_name": "oBoticário",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro; 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "26 y 27 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 1.500.000 con todas las tarjetas en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "422ac4a5932cc1a6"
+  },
+  {
+    "bank": "Atlas",
     "category": "Hogar",
     "merchant_name": "Renová tu Hogar",
     "merchant_locations_or_group": "",
@@ -354,26 +495,94 @@
   },
   {
     "bank": "Atlas",
-    "category": "Joyas",
-    "merchant_name": "Denoir",
+    "category": "Hogar",
+    "merchant_name": "Sara Comercial",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20% de descuento; +10% de reintegro; 6 cuotas sin intereses",
+    "benefit_summary": "30% de reintegro; Hasta 12 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "20%",
-      "10%"
+      "30%"
     ],
     "promotion_days": [],
     "month_days": [],
     "ordinal_weekdays": [],
-    "day_text": "Del 27 al 29 de agosto",
-    "validity": "Tope de compra acumulado por cuenta de tarjeta para el reintegro Gs. 1.000.000 para TC Visa Infinite, MasterCard Black, Visa Signature, Visa Clásica y Visa Oro. Promo válida en la tienda Joyería Armele y Denoir en el Shopping Mariscal. La cantidad de cuotas debe ser solicitada al momento de la compra para transacciones a partir de Gs. 500.000 y realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card, Shopping Mariscal, Shopping Pinedo, Shopping Mariano.",
-    "caps_and_minimums": "Gs. 1.000.000 para todas las tarjetas de crédito",
+    "day_text": "21 al 25 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, MasterCard Black y Visa Signature y Gs. 1.000.000 para tarjetas de crédito Visa Clásica y Visa Oro. Promo vigente del 21 al 25 de septiembre del 2026, válida en el E-Commerce de Sara Comercial. La cantidad de cuotas debe ser solicitada al momento de la compra para transacciones a partir de Gs. 1.000.000 . Beneficio exlusivo para consumo personal. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card, Shopping Mariscal, Shopping Pinedo, Shopping Mariano.",
+    "caps_and_minimums": "Gs. 2.000.000 para tarjetas Visa Infinite, MasterCard Black y Visa Signature.; Gs. 1.000.000 para tarjetas Visa Clásica y Visa Oro.",
     "level_rules": "",
     "special_flags": [],
     "source_url": "https://www.bancoatlas.com.py/web/beneficios",
-    "raw_detail": "en caja +10% de reintegro con tarjetas de crédito Tope de compra acumulado por cuenta de tarjeta para el reintegro Gs. 1.000.000 para TC Visa Infinite, MasterCard Black, Visa Signature, Visa Clásica y Visa Oro. Promo válida en la tienda Joyería Armele y Denoir en el Shopping Mariscal. La cantidad de cuotas debe ser solicitada al momento de la compra para transacciones a partir de Gs. 500.000 y realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card, Shopping Mariscal, Shopping Pinedo, Shopping Mariano.",
-    "id": "46b7c30c0233919e"
+    "raw_detail": "con tarjetas de crédito Exclusivo para compras en www.saracomercial.com Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, MasterCard Black y Visa Signature y Gs. 1.000.000 para tarjetas de crédito Visa Clásica y Visa Oro. Promo vigente del 21 al 25 de septiembre del 2026, válida en el E-Commerce de Sara Comercial. La cantidad de cuotas debe ser solicitada al momento de la compra para transacciones a partir de Gs. 1.000.000 . Beneficio exlusivo para consumo personal. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card, Shopping Mariscal, Shopping Pinedo, Shopping Mariano.",
+    "id": "483a189dd34aae31"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Moda",
+    "merchant_name": "Champs Elysées",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro; 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "26 y 27 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 1.500.000 con todas las tarjetas en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con todas las tarjetas +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "1beb833307367702"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Moda",
+    "merchant_name": "Cortefiel",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro; 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "26 y 27 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 2.500.000 con todas las tarjeta en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "62e1d81c004889ed"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Moda",
+    "merchant_name": "Forever 21",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro; 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "26 y 27 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 1.000.000 con todas las tarjetas de crédito",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "a5b569e0bd681174"
   },
   {
     "bank": "Atlas",
@@ -406,22 +615,94 @@
   {
     "bank": "Atlas",
     "category": "Moda",
-    "merchant_name": "Shopping Day",
+    "merchant_name": "ISDIN",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10 cuotas sin intereses",
+    "benefit_summary": "20% de reintegro; +5% de reintegro; 12 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
-    "percentages": [],
+    "percentages": [
+      "20%",
+      "5%"
+    ],
     "promotion_days": [],
     "month_days": [],
     "ordinal_weekdays": [],
-    "day_text": "Del 28 al 30 de agosto",
-    "validity": "La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Beneficios exclusivos para consumo personal. Vigente los días 28/08/2026 al 30/08/2026. Se excluyen tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Shopping Pinedo y Shoping Mariano.",
-    "caps_and_minimums": "Shopping Mariscal, Shopping Mariano, Shopping Villa Morra, Paseo La Galería, Shopping Pinedo, Shopping Multiplaza, Shopping San Lorenzo, Shopping Paris (CDE), Shopping Century Plaza, Fuente Shopping de Salema, Lago Shopping de Salemma (CDE), Mall Excelsior, Paseo 1811, Plaza Norte, Plaza Madero, Paseo Villa Alegra y Paseo Alameda.",
+    "day_text": "26 y 27 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 1.500.000 con todas las tarjetas en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées",
     "level_rules": "",
     "special_flags": [],
     "source_url": "https://www.bancoatlas.com.py/web/beneficios",
-    "raw_detail": "con tarjetas de crédito En shoppings adheridos La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Beneficios exclusivos para consumo personal. Vigente los días 28/08/2026 al 30/08/2026. Se excluyen tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Shopping Pinedo y Shoping Mariano.",
-    "id": "c207b9dbbba4f400"
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "45b35a21946b5677"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Moda",
+    "merchant_name": "Jack & Jones",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5%; Hasta 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "26 y 27 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’s Secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 2.500.000 para todas las tarjetas en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito +5% con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’s Secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "a1e6abee230ec91e"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Moda",
+    "merchant_name": "Mango",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro; 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "26 y 27 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "4d47e27cd8267674"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Moda",
+    "merchant_name": "Pedro del Hierro",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro; 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "26 y 27 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 2.500.000 con todas las tarjeta en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "2e9d5691f6386db4"
   },
   {
     "bank": "Atlas",
@@ -450,25 +731,125 @@
   {
     "bank": "Atlas",
     "category": "Moda",
-    "merchant_name": "delSol - Shopping Day",
+    "merchant_name": "Shopping Mariscal Días M",
     "merchant_locations_or_group": "",
-    "benefit_summary": "50% de descuento; +10% de reintegro; 12 cuotas sin intereses",
+    "benefit_summary": "20% de reintegro; +5% de reintegro; 10 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "50%",
-      "10%"
+      "20%",
+      "5%"
     ],
     "promotion_days": [],
     "month_days": [],
     "ordinal_weekdays": [],
-    "day_text": "Del 28 al 30 de agosto",
-    "validity": "Hasta 50% de descuento en caja. Tope de compra acumulado por cuenta de tarjeta Gs. 3.000.000 en el conjunto de locales adheridos. La cantidad de cuotas debe ser solicitado en caja para compras a partir de Gs. 200.000 y transaciones reaizadas a traveés del POS de la red Infonet. Beneficio exclusivo para tarjetas afinidad delSol Atlas. Vigente del 28/08/2026 al 30/08/2026. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card, afinidad Shopping Mariscal, Pinedo y Mariano. Beneficio exclusivo para consumo personal.",
-    "caps_and_minimums": "Gs. 3.000.000 para tarjetas de crédito delSol Atlas.",
+    "day_text": "Del 11 al 13 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 10.000.000. La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la Red Infonet. Promoción vigente del 11 al 13 de septiembre del 2026, válida en locales adheridos del Shopping Mariscal. Se excluyen las tarjetas prepaga, corporativa, gourmet card, gift card, Shopping Mariscal, Shopping Mariano y Shopping Pinedo. Beneficio exclusivo para consumo personal.",
+    "caps_and_minimums": "Gs. 10.000.000 para todas las tarjetas de crédito",
     "level_rules": "",
     "special_flags": [],
     "source_url": "https://www.bancoatlas.com.py/web/beneficios",
-    "raw_detail": "en tiendas adheridas delSol +10% de reintegro con tarjetas de crédito delSol Atlas Hasta 50% de descuento en caja. Tope de compra acumulado por cuenta de tarjeta Gs. 3.000.000 en el conjunto de locales adheridos. La cantidad de cuotas debe ser solicitado en caja para compras a partir de Gs. 200.000 y transaciones reaizadas a traveés del POS de la red Infonet. Beneficio exclusivo para tarjetas afinidad delSol Atlas. Vigente del 28/08/2026 al 30/08/2026. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card, afinidad Shopping Mariscal, Pinedo y Mariano. Beneficio exclusivo para consumo personal.",
-    "id": "65e7bb8962a4aa1d"
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Visa Infinite, Visa Signature y Masterard Black Tope de compra acumulado por cuenta de tarjeta Gs. 10.000.000. La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la Red Infonet. Promoción vigente del 11 al 13 de septiembre del 2026, válida en locales adheridos del Shopping Mariscal. Se excluyen las tarjetas prepaga, corporativa, gourmet card, gift card, Shopping Mariscal, Shopping Mariano y Shopping Pinedo. Beneficio exclusivo para consumo personal.",
+    "id": "fbe6da30c612fd78"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Moda",
+    "merchant_name": "Springfield",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro; 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "26 y 27 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’s Secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 2.500.000 para todas las tarjetas en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’s Secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "c3345bfae8124155"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Moda",
+    "merchant_name": "women'secret",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro; 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "26 y 27 de septiembre",
+    "validity": "Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 2.500.000 con todas las tarjeta en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente el 26 y 27 de septiembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "b5f2bfea9a81f447"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Supermercados",
+    "merchant_name": "BOX Mayorista",
+    "merchant_locations_or_group": "Ciudad del Este; Hernandarias; Minga Guazú; Presidente Franco; Santa Rita; Juan León Mallorquín; Naranjal",
+    "benefit_summary": "20% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [
+      {
+        "ordinal": 3,
+        "day": "lunes"
+      }
+    ],
+    "day_text": "Tercer Lunes del mes",
+    "validity": "Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para todas las tarjetas de crédito. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Vigente el tercer Lunes de cada mes. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+    "caps_and_minimums": "Gs. 1.000.000 para todas las tarjetas de crédito.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito En sucursales: Minga Guazú y San José CDE Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para todas las tarjetas de crédito. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Vigente el tercer Lunes de cada mes. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+    "id": "2cfb9cd8678d662c"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Supermercados",
+    "merchant_name": "Biggie",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; +5% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [],
+    "month_days": [
+      15
+    ],
+    "ordinal_weekdays": [],
+    "day_text": "15 de cada mes",
+    "validity": "Monto mínimo de compra Gs. 50.000. Tope de compra acumulado por cuenta de tarjeta Gs. 800.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 400.000 para tarjetas de crédito Clásica, Oro y Bancard Check. Aplica para compras realizadas a través del POS de la Red Infonet. No incluye delivery o compras a través del E-Commerce. Vigente el 15 de agosto del 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card, gift card, Shopping Mariano, Shopping Mariscal y Shopping Pinedo.",
+    "caps_and_minimums": "Gs. 800.000 con tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black; Gs. 400.000 con tarjetas de crédito Clásica, Oro y Bancard Check; Mínimo de compra Gs. 50.000.-",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito +5% de reintegro con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol Monto mínimo de compra Gs. 50.000. Tope de compra acumulado por cuenta de tarjeta Gs. 800.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 400.000 para tarjetas de crédito Clásica, Oro y Bancard Check. Aplica para compras realizadas a través del POS de la Red Infonet. No incluye delivery o compras a través del E-Commerce. Vigente el 15 de agosto del 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card, gift card, Shopping Mariano, Shopping Mariscal y Shopping Pinedo.",
+    "id": "7643f925cffccac1"
   },
   {
     "bank": "Atlas",
@@ -498,6 +879,30 @@
   {
     "bank": "Atlas",
     "category": "Supermercados",
+    "merchant_name": "Gran Vía",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "miércoles"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Tercer miércoles del mes",
+    "validity": "Tope de compra acumulado en comercios adheridos a la promoción de “Supermercados zona Este” Gs. 1.000.000 por cuneta de tarjeta, para compras a través del POS de la Red Infonet. Vigente el tercer miércoles del mes hasta el 16 de diciembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "caps_and_minimums": "Gs. 1.000.000 para todas las tarjetas de crédito.",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+    "raw_detail": "con tarjetas de crédito En sucursales: KM4, Remansito, Centro, San José, Hernandarias y Parana Country Tope de compra acumulado en comercios adheridos a la promoción de “Supermercados zona Este” Gs. 1.000.000 por cuneta de tarjeta, para compras a través del POS de la Red Infonet. Vigente el tercer miércoles del mes hasta el 16 de diciembre de 2026. Beneficios exclusivos para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card y gift card.",
+    "id": "cb2d47ca1945e0e8"
+  },
+  {
+    "bank": "Atlas",
+    "category": "Supermercados",
     "merchant_name": "Supermercados",
     "merchant_locations_or_group": "",
     "benefit_summary": "15% de reintegro; +5% de reintegro",
@@ -511,7 +916,7 @@
     ],
     "month_days": [],
     "ordinal_weekdays": [],
-    "day_text": "Todos los viernes",
+    "day_text": "Todos los Viernes",
     "validity": "Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tarjetas Visa Oro y Visa Clásica. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
     "caps_and_minimums": "Gs. 1.000.000 con tarjetas de crédito Visa Infinite, Signature y Mastercard Black.; Gs. 700.000 con tarjetas de crédito Visa Clásica y Oro.; Mínimo de compra Gs. 200.000.",
     "level_rules": "",
@@ -4917,11 +5322,11 @@
     "ordinal_weekdays": [],
     "day_text": "Los sábados",
     "validity": "Vigente hasta el 24 de octubre de 2026",
-    "caps_and_minimums": "Límite de compra mensual de hasta Gs; Gs. 2.000.000; Gs. 1.000.000",
+    "caps_and_minimums": "Límite de compra mensual de hasta Gs; Gs. 2.000.000; Gs. 1.000.000; Gs. 500.000",
     "level_rules": "",
     "special_flags": [],
     "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
-    "raw_detail": "Los sábados y domingos, en Hamburguesería Du Maykon. - 35% de reintegro con Privilege Continental . Límite de compra mensual de hasta Gs. 2.000.000 por cuenta de tarjeta, por rubro. - 25% de reintegro con Black e Infinite . Límite de compra mensual de hasta Gs. 1.000.000 por cuenta de tarjeta, por rubro. Vigente hasta el 24 de octubre de 2026. Además: - 20% de reintegro con Dinelco, Clásica y Oro . Límite de compra mensual de hasta Gs. 1.000.000 por cuenta de tarjeta. Exclusivo en POS Dinelco. Vigente hasta el 21 de agosto de 2027. Válido pagando con tarjetas de crédito Continental. Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR. No aplica para pagos online, a través de links de pago o POS virtuales. (*) No participan las tarjetas Prepagas, Gourmet Card ni Cabal. No acumulable con otras promociones. ( ) El Banco Continental S.A.E.C.A. se reserva el derecho de modificar o dar por finalizada la continuidad de esta u otra promoción en cualquier momento, de manera unilateral, sin incurrir en reclamo alguno por parte del cliente. ( *) Beneficio exclusivo para clientes del Banco Continental y para uso personal de los mismos. ( ) Para beneficiarse de la promoción, la factura del producto o servicio adquirido deberá ser emitida a nombre del titular o adicional de la tarjeta con la cual se abonó el pago.",
+    "raw_detail": "Los sábados y domingos, en Hamburguesería Du Maykon. - 35% de reintegro con Privilege Continental . Límite de compra mensual de hasta Gs. 2.000.000 por cuenta de tarjeta, por rubro. - 25% de reintegro con Black e Infinite . Límite de compra mensual de hasta Gs. 1.000.000 por cuenta de tarjeta, por rubro. Vigente hasta el 24 de octubre de 2026. Además: - 20% de reintegro con Dinelco, Clásica y Oro . Límite de compra mensual de hasta Gs. 500.000 por cuenta de tarjeta. Exclusivo en POS Dinelco. Vigente hasta el 21 de agosto de 2027. Válido pagando con tarjetas de crédito Continental. Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR. No aplica para pagos online, a través de links de pago o POS virtuales. (*) No participan las tarjetas Prepagas, Gourmet Card ni Cabal. No acumulable con otras promociones. ( ) El Banco Continental S.A.E.C.A. se reserva el derecho de modificar o dar por finalizada la continuidad de esta u otra promoción en cualquier momento, de manera unilateral, sin incurrir en reclamo alguno por parte del cliente. ( *) Beneficio exclusivo para clientes del Banco Continental y para uso personal de los mismos. ( ) Para beneficiarse de la promoción, la factura del producto o servicio adquirido deberá ser emitida a nombre del titular o adicional de la tarjeta con la cual se abonó el pago.",
     "id": "55197855d5650725"
   },
   {
@@ -6844,9 +7249,11 @@
     "category": "Hogar",
     "merchant_name": "San Isidro - Showroom",
     "merchant_locations_or_group": "Encarnación",
-    "benefit_summary": "Hasta 12 cuotas sin intereses",
+    "benefit_summary": "Hasta 12 cuotas sin intereses; 25% de descuento",
     "benefit_type": "cuotas_sin_intereses",
-    "percentages": [],
+    "percentages": [
+      "25%"
+    ],
     "promotion_days": [
       "lunes",
       "martes",
@@ -6858,14 +7265,14 @@
     ],
     "month_days": [],
     "ordinal_weekdays": [],
-    "day_text": "Todos los días",
-    "validity": "Vigente desde el 21 de agosto de 2026 hasta el 20 de febrero de 2027",
+    "day_text": "todos los días",
+    "validity": "Vigente hasta el 20 de febrero de 2027",
     "caps_and_minimums": "Límite de compra mensual de hasta Gs; Gs. 50.000.000",
     "level_rules": "",
     "special_flags": [],
     "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
-    "raw_detail": "Todos los días, en San Isidro - Showroom - Hasta 12 cuotas sin intereses. Límite de compra mensual de hasta Gs. 50.000.000 por cuenta de tarjeta. Válido pagando con tarjetas de crédito Continental. Exclusivo en POS Dinelco. Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR. No aplica para pagos online, a través de links de pago o POS virtuales. Vigente desde el 21 de agosto de 2026 hasta el 20 de febrero de 2027. (*) No participan las tarjetas Prepagas, Gourmet Card ni Cabal. No acumulable con otras promociones. ( ) El Banco Continental S.A.E.C.A. se reserva el derecho de modificar o dar por finalizada la continuidad de esta u otra promoción en cualquier momento, de manera unilateral, sin incurrir en reclamo alguno por parte del cliente. ( *) Beneficio exclusivo para clientes del Banco Continental y para uso personal de los mismos. ( ) Para beneficiarse de la promoción, la factura del producto o servicio adquirido deberá ser emitida a nombre del titular o adicional de la tarjeta con la cual se abonó el pago.",
-    "id": "f52f2483a5205beb"
+    "raw_detail": "Los miércoles y jueves, en San Isidro - Showroom. - 25% de descuento en caja. Además, todos los días: - Hasta 12 cuotas sin intereses. Límite de compra mensual de hasta Gs. 50.000.000 por cuenta de tarjeta. Válido pagando con tarjetas de crédito Continental. Exclusivo en POS Dinelco. Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR. No aplica para pagos online, a través de links de pago o POS virtuales. Vigente hasta el 20 de febrero de 2027. (*) No participan las tarjetas Prepagas, Gourmet Card ni Cabal. No acumulable con otras promociones. ( ) El Banco Continental S.A.E.C.A. se reserva el derecho de modificar o dar por finalizada la continuidad de esta u otra promoción en cualquier momento, de manera unilateral, sin incurrir en reclamo alguno por parte del cliente. ( *) Beneficio exclusivo para clientes del Banco Continental y para uso personal de los mismos. ( ) Para beneficiarse de la promoción, la factura del producto o servicio adquirido deberá ser emitida a nombre del titular o adicional de la tarjeta con la cual se abonó el pago.",
+    "id": "0ab79ca8becb25e3"
   },
   {
     "bank": "Continental",
@@ -11472,18 +11879,18 @@
       "10%"
     ],
     "promotion_days": [
-      "domingo",
-      "sábado"
+      "sábado",
+      "domingo"
     ],
     "month_days": [],
     "ordinal_weekdays": [
       {
         "ordinal": 1,
-        "day": "domingo"
+        "day": "sábado"
       },
       {
         "ordinal": 1,
-        "day": "sábado"
+        "day": "domingo"
       }
     ],
     "day_text": "Primer sábado y domingo de cada mes, en Fortis Mayorista - 10% de reintegro en el extracto, pagando exclusivamente con las tarjetas de crédito Dinelco Continental",
@@ -20006,7 +20413,7 @@
     "category": "Vehículos",
     "merchant_name": "Importadora Avenida",
     "merchant_locations_or_group": "Asunción",
-    "benefit_summary": "20%; hasta 12 cuotas sin intereses; 20% de descuento",
+    "benefit_summary": "20%; Hasta 12 cuotas sin intereses; 20% de descuento",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
       "20%"
@@ -20023,13 +20430,13 @@
     "month_days": [],
     "ordinal_weekdays": [],
     "day_text": "Todos los días",
-    "validity": "Vigente hasta el 10 de octubre de 2026",
-    "caps_and_minimums": "Límite de compra mensual de Gs; Gs. 50.000.000",
+    "validity": "Vigente hasta el 10 de agosto de 2027",
+    "caps_and_minimums": "Límite de compra mensual de hasta Gs; Gs. 50.000.000",
     "level_rules": "",
     "special_flags": [],
     "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
-    "raw_detail": "Todos los días, en Importadora Avenida - 20% de descuento en caja y hasta 12 cuotas sin intereses, pagando con las tarjetas de crédito Continental, exclusivamente a través del POS Dinelco. Límite de compra mensual de Gs. 50.000.000 por cuenta de tarjeta. Aplica únicamente para compras o pagos presenciales, vía POS físico. No aplica para pagos online, a través links de pagos o POS virtuales. Vigente hasta el 10 de octubre de 2026. (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal. No acumulable con otras promociones. ( ) El Banco Continental S.A.E.C.A. se reserva el derecho de modificar o dar por finalizada la continuidad de esta u otra promoción en cualquier momento, de manera unilateral, sin incurrir en reclamo alguno por parte del cliente. ( *) Beneficio exclusivo para clientes del Banco Continental y para uso personal de los mismos. ( ) Para beneficiarse de la promoción, la factura del producto o servicio adquirido deberá ser emitida a nombre del titular o adicional de la tarjeta con la cual se abonó el pago.",
-    "id": "729e7e85f8873977"
+    "raw_detail": "Todos los días, en Importadora Avenida. - 20% de descuento en caja. - Hasta 12 cuotas sin intereses. Límite de compra mensual de hasta Gs. 50.000.000 por cuenta de tarjeta. Válido pagando con tarjetas de crédito Continental. Exclusivo en POS Dinelco. Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR. No aplica para servicios ni para pagos online, a través de links de pago o POS virtuales. Vigente hasta el 10 de agosto de 2027. (*) No participan las tarjetas Prepagas, Gourmet Card ni Cabal. No acumulable con otras promociones. ( ) El Banco Continental S.A.E.C.A. se reserva el derecho de modificar o dar por finalizada la continuidad de esta u otra promoción en cualquier momento, de manera unilateral, sin incurrir en reclamo alguno por parte del cliente. ( *) Beneficio exclusivo para clientes del Banco Continental y para uso personal de los mismos. ( ) Para beneficiarse de la promoción, la factura del producto adquirido deberá ser emitida a nombre del titular o adicional de la tarjeta con la cual se abonó el pago.",
+    "id": "c92e2fc64b7103b5"
   },
   {
     "bank": "Continental",
@@ -22798,32 +23205,6 @@
   {
     "bank": "Itaú",
     "category": "Belleza y Salud",
-    "merchant_name": "Fuschia",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "25% Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "25%",
-      "20%",
-      "5%"
-    ],
-    "promotion_days": [
-      "miércoles"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "Aplica los miércoles",
-    "validity": "2023-06-02 hasta 2026-09-02",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=14410&c=10",
-    "raw_detail": "El 2 septiembre 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. Aplica los miércoles.",
-    "id": "2571c556a99a63bd"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Belleza y Salud",
     "merchant_name": "MYLAN",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses; Tenes hasta 6 cuotas sin intereses.",
@@ -22921,6 +23302,28 @@
   {
     "bank": "Itaú",
     "category": "Gastronomía",
+    "merchant_name": "Festa",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20%; Tenes 20% de ahorro.",
+    "benefit_type": "beneficio",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "No especificado",
+    "validity": "2026-01-01 hasta 2026-09-30",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16931&c=31457",
+    "raw_detail": "Hasta el 30 de septiembre de 2026. Pagando con tus tarjetas de crédito de Itaú. Tenes 20% de ahorro.",
+    "id": "dc80676040775714"
+  },
+  {
+    "bank": "Itaú",
+    "category": "Gastronomía",
     "merchant_name": "Juan Valdez",
     "merchant_locations_or_group": "",
     "benefit_summary": "25% Hasta; Tenes 25% de reintegro + 5% adicional con AMEX PLATINUM y VISA INFINITE",
@@ -22967,57 +23370,6 @@
   },
   {
     "bank": "Itaú",
-    "category": "Gastronomía",
-    "merchant_name": "TREFFEN",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "tarjeta de crédito; Tenes 20% de ahorro",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "LUNES A JUEVES",
-    "validity": "2026-07-01 hasta 2026-09-03",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=17020&c=32014",
-    "raw_detail": "Del Lunes 13 de Julio al Jueves 3 de Septiembre 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. LA PROMOCION APLICA DE LUNES A JUEVES.",
-    "id": "3ea8c7e0bccde5af"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Gonzalez Gimenez",
-    "merchant_name": "Gonzalez Gimenez",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20% Hasta 15 Cuotas sin intereses; Tenes 15% de reintegro con todas las tarjetas + 5% reintegro con PERSONAL BANK y hasta 15 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "20%",
-      "15%",
-      "5%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2025-05-13 hasta 2026-08-28",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16254&c=1028",
-    "raw_detail": "El 28 de agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 15% de reintegro con todas las tarjetas + 5% reintegro con PERSONAL BANK y hasta 15 cuotas sin intereses.",
-    "id": "5dad53ecf3fdc061"
-  },
-  {
-    "bank": "Itaú",
     "category": "H&M",
     "merchant_name": "H&M",
     "merchant_locations_or_group": "",
@@ -23050,13 +23402,33 @@
     "month_days": [],
     "ordinal_weekdays": [],
     "day_text": "No especificado",
-    "validity": "2026-02-02 hasta 2026-09-15",
+    "validity": "2026-08-03 hasta 2026-09-05",
     "caps_and_minimums": "",
     "level_rules": "",
     "special_flags": [],
     "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16735&c=1430",
-    "raw_detail": "Del 3 de agosto al 15 septiembre de junio 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 25% de ahorro y hasta 10 cuotas sin intereses.",
-    "id": "e9150106c5868257"
+    "raw_detail": "Del 3 de agosto al 5 septiembre 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 25% de ahorro y hasta 10 cuotas sin intereses.",
+    "id": "b513d8514ab12f34"
+  },
+  {
+    "bank": "Itaú",
+    "category": "Hogar",
+    "merchant_name": "EXPRESIONES GALERIA DE ARTE",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses.",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "No especificado",
+    "validity": "2026-09-01 hasta 2026-10-31",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=17039&c=1517",
+    "raw_detail": "Del 1 de septiembre al 31 de octubre 2026. Pagando con tus tarjetas de crédito Itaú. Tenes hasta 10 cuotas sin intereses.",
+    "id": "31ed9c70b18d5951"
   },
   {
     "bank": "Itaú",
@@ -23255,7 +23627,7 @@
     "category": "Shell",
     "merchant_name": "Shell",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20% de REINTEGRO con tu tarjeta de Crédito ORO y PREMIUM.",
+    "benefit_summary": "20% de reintegro con tu tarjeta de Crédito clásica",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -23270,9 +23642,9 @@
     "caps_and_minimums": "",
     "level_rules": "",
     "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16918&c=31291",
-    "raw_detail": "Tanque lleno, todos los lunes. Del 23 de febrero al 30 de septiembre de 2026. 20% de REINTEGRO con tu tarjeta de Crédito ORO y PREMIUM (VISA PLATINUM, INTERVENTAJAS PLATINUM, AADVANTAGE PLATINUM, VISA PLATINUM CENTENARIO, LATAM PLATINUM, MC BLACK). Tope de compra Gs. 800.000 por mes, por cliente (titular + adicional). No aplica a PERSONAL BANK. Consultar Estaciones Adheridas en la página www.itau.com.py/Paginas/sobreitau_informes",
-    "id": "45150e821c8556d4"
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291",
+    "raw_detail": "Tanque lleno, todos los lunes. Del 23 de febrero al 30 de septiembre de 2026. 20% de REINTEGRO con tu tarjeta de Crédito clásica. Tope de compra Gs. 300.000 por mes, por cliente (titular + adicional). No aplica PERSONAL BANK. Consultar Estaciones Adheridas en www.itau.com.py/Paginas/sobreitau_informes.",
+    "id": "245d64602db70626"
   },
   {
     "bank": "Itaú",
@@ -23321,6 +23693,30 @@
     "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16585&c=1464",
     "raw_detail": "Desde el 7 de marzo hasta el 30 de septiembre de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 15% de reintegro. Aplica todos los sábados. Tope de compra mensual por cuenta/tarjeta en rubro supermercados. LEER BASES Y CONDICIONES. Aplica para consumo familiar.",
     "id": "4c0c98907971091b"
+  },
+  {
+    "bank": "Itaú",
+    "category": "Super Real",
+    "merchant_name": "Super Real",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "15% de ahorro.",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "15%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Aplica los LUNES",
+    "validity": "2025-10-06 hasta 2026-09-30",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=15535&c=31460",
+    "raw_detail": "Desde el 2 de marzo hasta el 30 de septiembre de 2026. Pagando con tus tarjetas de crédito Itaú. Tenés 15% de reintegro. Aplica los LUNES. Aplica en consumo familiar. Tope de compra por cuenta/tarjeta en rubro supermercados. LEER BASES Y CONDICIONES.",
+    "id": "d6c367ffeaac383a"
   },
   {
     "bank": "Itaú",
@@ -23394,30 +23790,6 @@
     "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16584&c=30064",
     "raw_detail": "Desde el 7 de marzo hasta el 30 de septiembre de 2026. Pagando con tus tarjetas de crédito PREMIUM Itaú. Tenes 20% de reintegro. Aplica todos los sábados. Tope de compra para tarjetas VISA PLATINUM, INTERVENTAJAS PLATINUM, AADVANTAGE PLATINUM, VISA PLATINUM CENTENARIO, LATAM PLATINUM, MC BLACK de Gs. 1.500.000 mensual por cuenta/tarjeta en rubro supermercados. Tope de compra para tarjetas VISA INFINITE y AMEX PLATINUM de Gs. 3.000.000 mensual por cuenta/tarjeta en rubro supermercados. Aplica para consumo familiar.",
     "id": "98035059a53c1862"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Supermercados",
-    "merchant_name": "Super Real",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "15% de ahorro.",
-    "benefit_type": "reintegro",
-    "percentages": [
-      "15%"
-    ],
-    "promotion_days": [
-      "lunes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "Aplica los LUNES",
-    "validity": "2025-10-06 hasta 2026-09-30",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=15535&c=31460",
-    "raw_detail": "Desde el 2 de marzo hasta el 30 de septiembre de 2026. Pagando con tus tarjetas de crédito Itaú. Tenés 15% de reintegro. Aplica los LUNES. Aplica en consumo familiar. Tope de compra por cuenta/tarjeta en rubro supermercados. LEER BASES Y CONDICIONES.",
-    "id": "bd9293b83306ecfd"
   },
   {
     "bank": "Itaú",
@@ -24165,7 +24537,7 @@
     "category": "Varios",
     "merchant_name": "Shell",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20% de reintegro con tu tarjeta de Crédito clásica",
+    "benefit_summary": "20% de REINTEGRO con tu tarjeta de Crédito ORO y PREMIUM.",
     "benefit_type": "reintegro",
     "percentages": [
       "20%"
@@ -24180,9 +24552,9 @@
     "caps_and_minimums": "",
     "level_rules": "",
     "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291",
-    "raw_detail": "Tanque lleno, todos los lunes. Del 23 de febrero al 30 de septiembre de 2026. 20% de REINTEGRO con tu tarjeta de Crédito clásica. Tope de compra Gs. 300.000 por mes, por cliente (titular + adicional). No aplica PERSONAL BANK. Consultar Estaciones Adheridas en www.itau.com.py/Paginas/sobreitau_informes.",
-    "id": "742af6dd7201afb4"
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16918&c=31291",
+    "raw_detail": "Tanque lleno, todos los lunes. Del 23 de febrero al 30 de septiembre de 2026. 20% de REINTEGRO con tu tarjeta de Crédito ORO y PREMIUM (VISA PLATINUM, INTERVENTAJAS PLATINUM, AADVANTAGE PLATINUM, VISA PLATINUM CENTENARIO, LATAM PLATINUM, MC BLACK). Tope de compra Gs. 800.000 por mes, por cliente (titular + adicional). No aplica a PERSONAL BANK. Consultar Estaciones Adheridas en la página www.itau.com.py/Paginas/sobreitau_informes",
+    "id": "f17e6f4a44baa90b"
   },
   {
     "bank": "Itaú",
@@ -24519,50 +24891,6 @@
   {
     "bank": "Itaú",
     "category": "Viaje y Turismo",
-    "merchant_name": "Assist Card",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 35% Hasta; Tenes hasta 35% de ahorro y hasta 10 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "35%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2025-02-18 hasta 2026-09-06",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16087&c=31164",
-    "raw_detail": "Del 1 al 6 de septiembre 2026. Pagando con tus tarjetas de crédito Itaú. Tenes hasta 35% de ahorro y hasta 10 cuotas sin intereses. Aplica para no capitados.",
-    "id": "c2549e50543794dc"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Viaje y Turismo",
-    "merchant_name": "Assist Card",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "50% Hasta 10 Cuotas sin intereses; Hasta 50% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "50%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2025-06-08 hasta 2026-09-06",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16370&c=31164",
-    "raw_detail": "Del 1 al 6 de septiembre 2026. Pagando con tus tarjetas de crédito Itaú. Tenes hasta 50% de ahorro y hasta 10 cuotas sin intereses. Aplica para capitados.",
-    "id": "efad794e6323986a"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Viaje y Turismo",
     "merchant_name": "Aventura Viajes",
     "merchant_locations_or_group": "",
     "benefit_summary": "12 Cuotas sin intereses; hasta 12 cuotas sin intereses",
@@ -24599,6 +24927,26 @@
     "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16056&c=30416",
     "raw_detail": "Hasta el 30 de septiembre de 2026. Pagando con tus tarjetas The Platinum Card de American Express y VISA infinite tenes hasta 12 cuotas sin intereses. Pagando con tus tarjetas de crédito Itaú tenes hasta 10 cuotas sin intereses. Aplica a agencias adheridas a la promoción.",
     "id": "7e471bef60acf055"
+  },
+  {
+    "bank": "Itaú",
+    "category": "Viaje y Turismo",
+    "merchant_name": "Boarding Pass",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "18 Cuotas sin intereses; Tenés hasta 18 cuotas sin intereses.",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "No especificado",
+    "validity": "2024-09-28 hasta 2026-09-05",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "special_flags": [],
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=15731&c=1344",
+    "raw_detail": "Del 28 de agosto al 5 de septiembre de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes hasta 18 cuotas sin intereses.",
+    "id": "e3dab3c5452d113d"
   },
   {
     "bank": "Itaú",
@@ -25043,571 +25391,59 @@
   {
     "bank": "Itaú",
     "category": "Últimos días",
-    "merchant_name": "5 DIAS",
+    "merchant_name": "Biggie",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses; Tenas hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2021-09-24 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=12813&c=30610",
-    "raw_detail": "Del 10 de julio al 31 de agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenas hasta 10 cuotas sin intereses.",
-    "id": "99b33e2792403a2b"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "ASOCIACION BRANGUS DEL PARAGUAY",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses; Hasta 10 Cuotas sin intereses con tarjetas de crédito Itaú",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2026-06-04 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=17008&c=32004",
-    "raw_detail": "Del 2 de junio al 31 de agosto 2026. Pagando con tus tarjetas de crédito Itaú. Tenes hasta 10 cuotas sin intereses.",
-    "id": "395ac983179f21bf"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Almacen De Pizzas",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "30% Hasta; Tenes 25% de ahorro con todas las tarjetas de crédito + 5% adicional con tarjetas de crédito Personal Bank (Amex Platinum y Visa Infinite).",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "30%",
-      "25%",
-      "5%"
-    ],
-    "promotion_days": [
-      "lunes",
-      "domingo"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2025-11-18 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16780&c=30022",
-    "raw_detail": "Del domingo 23 al lunes 31 agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 25% de ahorro con todas las tarjetas de crédito + 5% adicional con tarjetas de crédito Personal Bank (Amex Platinum y Visa Infinite). Aplica a local y Pedidos Ya. LEER BASES Y CONDICIONES.",
-    "id": "2bddc3d0c15513af"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Almarreina",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20%; Tenes 20% de ahorro",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves",
-      "viernes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "LUNES A VIERNES; Martes a viernes",
-    "validity": "2026-05-22 hasta 2026-08-28",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16995&c=30239",
-    "raw_detail": "Del 22 de Mayo al 28 de Agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. APLICA DE LUNES A VIERNES. LEER BASES Y CONDICIONES.",
-    "id": "9334b561ca332c80"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Aphrodite",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "30% Hasta 6 Cuotas sin intereses; Tenés 25% de ahorro +5% GPAY y APPLE PAY y hasta 6 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "30%",
-      "25%",
-      "5%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2023-06-13 hasta 2026-08-30",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=14432&c=1264",
-    "raw_detail": "Del 28 al 30 de agosto del 2026. Pagando con tus tarjetas de crédito Itaú. Tenés 25% de ahorro +5% GPAY y APPLE PAY y hasta 6 cuotas sin intereses.",
-    "id": "1b6b62d4b4f7eba1"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "BRISTOL EXPRESS",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "12 Cuotas sin intereses 12%; 12% de ahorro y hasta 12 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "12%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2025-08-14 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16521&c=32035",
-    "raw_detail": "Del 28 al 31 de agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 12% de ahorro y hasta 12 cuotas sin intereses. Aplica a BRISTOL EXPRESS.",
-    "id": "cea0accab8c88685"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Boarding Pass",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "18 Cuotas sin intereses; Tenés hasta 18 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2024-09-28 hasta 2026-08-30",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=15731&c=1344",
-    "raw_detail": "Del 28 al 30 de agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes hasta 18 cuotas sin intereses.",
-    "id": "7e9611a65957cf22"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "CAFE PILAR",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20%; Tenes 20% de ahorro",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves",
-      "viernes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "LUNES A VIERNES; Martes a viernes",
-    "validity": "2026-05-22 hasta 2026-08-28",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16995&c=31993",
-    "raw_detail": "Del 22 de Mayo al 28 de Agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. APLICA DE LUNES A VIERNES. LEER BASES Y CONDICIONES.",
-    "id": "ee20f814d04215a7"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "CENTRO DE MATERIALES",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 40%; Tenes 40% de ahorro con Tarjeta de Crédito y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "40%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2026-04-27 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16980&c=31948",
-    "raw_detail": "Del 18 al 31 agosto 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 40% de ahorro y hasta 10 cuotas sin intereses. Aplica en productos INCEPA.",
-    "id": "cd03238ad616c838"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "CONTROL UNION",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses; Tenes 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2026-06-09 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=17011&c=32007",
-    "raw_detail": "Hasta el 31 de agosto 2026. Pagando con tarjetas de crédito Itaú. Tenes 10 cuotas sin intereses.",
-    "id": "a23a89e06ac3d6bf"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Compumarket",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "15 Cuotas sin intereses; hasta 15 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2024-12-09 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=15970&c=1034",
-    "raw_detail": "Del 10 de agosto al 31 de agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes hasta 15 cuotas sin intereses.",
-    "id": "1ec669fc74cf5993"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "El Cafetero",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20%; Tenes 20% de ahorro",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves",
-      "viernes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "LUNES A VIERNES; Martes a viernes",
-    "validity": "2026-05-22 hasta 2026-08-28",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16995&c=31561",
-    "raw_detail": "Del 22 de Mayo al 28 de Agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. APLICA DE LUNES A VIERNES. LEER BASES Y CONDICIONES.",
-    "id": "5e043a3d6c0cb7d4"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "El Café de aca",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20%; Tenes 20% de ahorro",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves",
-      "viernes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "LUNES A VIERNES; Martes a viernes",
-    "validity": "2026-05-22 hasta 2026-08-28",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16995&c=30593",
-    "raw_detail": "Del 22 de Mayo al 28 de Agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. APLICA DE LUNES A VIERNES. LEER BASES Y CONDICIONES.",
-    "id": "876ca4e6a251d11d"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "El Mundo del Asado",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 25% Hasta; Tenes 20% de ahorro con todas las tarjetas de crédito + 5% con las tarjetas de crédito Personal Bank y hasta 10 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "25%",
-      "20%",
-      "5%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2026-06-05 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=17009&c=30355",
-    "raw_detail": "Del 8 de junio al 31 de agosto 2026. Pagando con tarjetas de crédito Itaú. Tenes 20% de ahorro con todas las tarjetas de crédito + 5% con las tarjetas de crédito Personal Bank y hasta 10 cuotas sin intereses. Consultar al comercio las condiciones del descuento.",
-    "id": "6c324d58e2953a5d"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "FRANCESCANA",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20%; Tenes 20% de ahorro",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [
-      "jueves",
-      "viernes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "Aplica los jueves",
-    "validity": "2026-07-08 hasta 2026-08-28",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=17024&c=32022",
-    "raw_detail": "Del 9 de julio al 28 de agosto 2026. Pagando con tus tarjetas de credito Itau. Tenes 20% de ahorro. Aplica los jueves y viernes.",
-    "id": "bb94242a86fca985"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Havanna",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20%; Tenes 20% de ahorro",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves",
-      "viernes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "LUNES A VIERNES; Martes a viernes",
-    "validity": "2026-05-22 hasta 2026-08-28",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16995&c=1571",
-    "raw_detail": "Del 22 de Mayo al 28 de Agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. APLICA DE LUNES A VIERNES. LEER BASES Y CONDICIONES.",
-    "id": "15dcd30298f2bece"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Juan Valdez",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "30% Hasta; 20% off",
+    "benefit_summary": "15% de ahorro.",
     "benefit_type": "reintegro",
     "percentages": [
-      "30%",
-      "20%"
+      "15%"
     ],
-    "promotion_days": [],
+    "promotion_days": [
+      "viernes"
+    ],
     "month_days": [],
     "ordinal_weekdays": [],
     "day_text": "No especificado",
-    "validity": "2026-04-14 hasta 2026-08-31",
+    "validity": "2025-01-31 hasta 2026-09-04",
     "caps_and_minimums": "",
     "level_rules": "",
     "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=11488&c=30008",
-    "raw_detail": "Del 28 al 31 de agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de reintegro. Pagando con tus tarjetas de crédito VISA INFINITE y AMEX PLATINUM. Tenes 30% de reintegro. Aplica exclusivamente al local AYMAC. Tope de compra Gs 150.000.",
-    "id": "75482ec0c0554dd0"
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=15488&c=30290",
+    "raw_detail": "El viernes 4 de septiembre de 2026. Pagando con tus tarjetas de crédito Itaú. Tenés 15% de reintegro. Aplica en consumo familiar. No aplica a delivery. Aplica a pagos QR. Tope de compra por cuenta/tarjeta en rubro supermercados. LEER BASES Y CONDICIONES.",
+    "id": "ad2fc281a783c59d"
   },
   {
     "bank": "Itaú",
     "category": "Últimos días",
-    "merchant_name": "Kafea",
+    "merchant_name": "Fuschia",
     "merchant_locations_or_group": "",
-    "benefit_summary": "20%; Tenes 20% de ahorro",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves",
-      "viernes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "LUNES A VIERNES; Martes a viernes",
-    "validity": "2026-05-22 hasta 2026-08-28",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16995&c=31808",
-    "raw_detail": "Del 22 de Mayo al 28 de Agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. APLICA DE LUNES A VIERNES. LEER BASES Y CONDICIONES.",
-    "id": "0e6f655998598363"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "La Lilia Cafe",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20%; Tenes 20% de ahorro",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves",
-      "viernes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "LUNES A VIERNES; Martes a viernes",
-    "validity": "2026-05-22 hasta 2026-08-28",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16995&c=30420",
-    "raw_detail": "Del 22 de Mayo al 28 de Agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. APLICA DE LUNES A VIERNES. LEER BASES Y CONDICIONES.",
-    "id": "fc556e7873dc9ae8"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Loccitane",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "30% Hasta 6 Cuotas sin intereses; Tenés 25% de ahorro +5% GPAY y APPLE PAY y hasta 6 cuotas sin intereses.",
+    "benefit_summary": "25% Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "30%",
       "25%",
+      "20%",
       "5%"
     ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2023-06-13 hasta 2026-08-30",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=14432&c=30197",
-    "raw_detail": "Del 28 al 30 de agosto del 2026. Pagando con tus tarjetas de crédito Itaú. Tenés 25% de ahorro +5% GPAY y APPLE PAY y hasta 6 cuotas sin intereses.",
-    "id": "61eba4e3ca9b0ced"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Medialunas Calentitas",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20%; Tenes 20% de ahorro",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "20%"
-    ],
     "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves",
-      "viernes"
+      "miércoles"
     ],
     "month_days": [],
     "ordinal_weekdays": [],
-    "day_text": "LUNES A VIERNES; Martes a viernes",
-    "validity": "2026-05-22 hasta 2026-08-28",
+    "day_text": "Aplica los miércoles",
+    "validity": "2023-06-02 hasta 2026-09-02",
     "caps_and_minimums": "",
     "level_rules": "",
     "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16995&c=30435",
-    "raw_detail": "Del 22 de Mayo al 28 de Agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. APLICA DE LUNES A VIERNES. LEER BASES Y CONDICIONES.",
-    "id": "802d49747c46e7e0"
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=14410&c=10",
+    "raw_detail": "El 2 septiembre 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. Aplica los miércoles.",
+    "id": "b79171e5e5c92b99"
   },
   {
     "bank": "Itaú",
     "category": "Últimos días",
-    "merchant_name": "Mi portal Coca Cola",
+    "merchant_name": "Mesoestetic",
     "merchant_locations_or_group": "",
-    "benefit_summary": "25% de ahorro.",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "25%"
-    ],
-    "promotion_days": [
-      "domingo"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "Aplica los domingos",
-    "validity": "2025-10-19 hasta 2026-08-30",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16428&c=31719",
-    "raw_detail": "Hasta el 30 de Agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 25% de ahorro. Válidos para compras desde el portal web de Coca Cola. Aplica los domingos. Tope de compra de 1.000.000 Gs durante el periodo de la promoción. La promo no aplica a retornables y que no es acumulable con otras promociones.",
-    "id": "8291df019ccce1e2"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "MontBlanc",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 10% Hasta; Tenes 5% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "10%",
-      "5%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2026-04-09 hasta 2026-08-30",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16970&c=30042",
-    "raw_detail": "Del 28 al 30 de agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 5% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses.",
-    "id": "6e78df0501c99814"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "NESPRESSO",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "25% Hasta 10 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional con VISA INFINITE y AMEX PLATINUM y 10 cuotas sin intereses.",
+    "benefit_summary": "6 Cuotas sin intereses 25% Hasta; Tenes 20% de reintegro + 5% pagando con tu VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses.",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
       "25%",
@@ -25618,112 +25454,20 @@
     "month_days": [],
     "ordinal_weekdays": [],
     "day_text": "No especificado",
-    "validity": "2026-06-15 hasta 2026-08-30",
+    "validity": "2025-11-12 hasta 2026-09-04",
     "caps_and_minimums": "",
     "level_rules": "",
     "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=17012&c=31994",
-    "raw_detail": "De 28 al 30 de agosto 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro + 5% adicional con VISA INFINITE y AMEX PLATINUM y 10 cuotas sin intereses.",
-    "id": "7d56869515aae24d"
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16752&c=31195",
+    "raw_detail": "Del 2 al 4 de septiembre de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de reintegro + 5% pagando con tu VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses.",
+    "id": "b1cc6f5b35acd850"
   },
   {
     "bank": "Itaú",
     "category": "Últimos días",
-    "merchant_name": "Nueva Americana",
+    "merchant_name": "TREFFEN",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 25% Hasta; Tenes 20% de ahorro + 5% con AMEX PLATINUM y VISA INFINITE y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "25%",
-      "20%",
-      "5%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2025-09-25 hasta 2026-08-29",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16660&c=1044",
-    "raw_detail": "Del 28 al 29 de agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro + 5% con AMEX PLATINUM y VISA INFINITE y hasta 10 cuotas sin intereses.",
-    "id": "6ce3c03df5a400be"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Owoki",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 20% Hasta; 20% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "20%",
-      "15%",
-      "5%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2025-12-01 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16797&c=1302",
-    "raw_detail": "Del 9 de julio al 31 de agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 15% de ahorro + 5% pagando con VISA INFINITE Y AMEX PLATINUM y hasta 10 cuotas sin intereses.",
-    "id": "b87ffd50ce81f5a2"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "PIK",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20% 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2026-07-21 hasta 2026-08-29",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16184&c=31574",
-    "raw_detail": "Tenés 20% de reintegro + 6 cuotas sin intereses a través del pos de Pik. Pagando con tus tarjetas de crédito Itaú. Del 25 al 29 de agosto de 2026. Consultá el tope de compra con el comercio",
-    "id": "7d92d5896900503a"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Punto Farma",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "5 Pago con Amex; Tenes +5% tarjetas de crédito AMEX",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "5%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2026-02-13 hasta 2026-08-28",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16811&c=20004",
-    "raw_detail": "El 28 de agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes +5% tarjetas de crédito AMEX. Aplica a la línea de NO FARMA. No aplica a medicamentos.",
-    "id": "59f8a72eb19c4834"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Quattro D",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20%; Tenes 20% de ahorro",
+    "benefit_summary": "tarjeta de crédito; Tenes 20% de ahorro",
     "benefit_type": "beneficio",
     "percentages": [
       "20%"
@@ -25732,133 +25476,18 @@
       "lunes",
       "martes",
       "miércoles",
-      "jueves",
-      "viernes"
+      "jueves"
     ],
     "month_days": [],
     "ordinal_weekdays": [],
-    "day_text": "LUNES A VIERNES; Martes a viernes",
-    "validity": "2026-05-22 hasta 2026-08-28",
+    "day_text": "LUNES A JUEVES",
+    "validity": "2026-07-01 hasta 2026-09-03",
     "caps_and_minimums": "",
     "level_rules": "",
     "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16995&c=30010",
-    "raw_detail": "Del 22 de Mayo al 28 de Agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. APLICA DE LUNES A VIERNES. LEER BASES Y CONDICIONES.",
-    "id": "da9b13a4d5401fdb"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Tecnocentro",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10 Cuotas sin intereses 45% Hasta; Tenes hasta 45% de descuento y hasta 10 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "45%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2026-01-08 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16181&c=1483",
-    "raw_detail": "Del 10 al 31 de agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes hasta 45% de descuento y hasta 10 cuotas sin intereses.",
-    "id": "d9541ff5a405ba76"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Tienda Móvil",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "18 Cuotas sin intereses; hasta 18 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2025-01-24 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16044&c=1576",
-    "raw_detail": "Del 24 al 31 de agosto de 2026. Pagando con tus tarjetas de crédito Itau. Tenés hasta 18 cuotas sin intereses.",
-    "id": "2d4f9e714b0ff0a5"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Tiendas Martel",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 50% Hasta; Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "50%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2026-03-17 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16710&c=30119",
-    "raw_detail": "Del 17 al 31 de agosto 2026. Pagando con tus tarjetas de crédito Itaú. Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses.",
-    "id": "f6a704848e8de63b"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Waffle Roga",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20%; Tenes 20% de ahorro",
-    "benefit_type": "beneficio",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves",
-      "viernes"
-    ],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "LUNES A VIERNES; Martes a viernes",
-    "validity": "2026-05-22 hasta 2026-08-28",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16995&c=30786",
-    "raw_detail": "Del 22 de Mayo al 28 de Agosto de 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. APLICA DE LUNES A VIERNES. LEER BASES Y CONDICIONES.",
-    "id": "05acbcac4fec2555"
-  },
-  {
-    "bank": "Itaú",
-    "category": "Últimos días",
-    "merchant_name": "Wrangler",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "6 Cuotas sin intereses 50% Hasta; Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "50%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2026-03-17 hasta 2026-08-31",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16710&c=30120",
-    "raw_detail": "Del 17 al 31 de agosto 2026. Pagando con tus tarjetas de crédito Itaú. Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses.",
-    "id": "2880ab824aa55226"
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=17020&c=32014",
+    "raw_detail": "Del Lunes 13 de Julio al Jueves 3 de Septiembre 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro. LA PROMOCION APLICA DE LUNES A JUEVES.",
+    "id": "c2f583862e722c13"
   },
   {
     "bank": "Sudameris",
@@ -25972,28 +25601,24 @@
   {
     "bank": "Sudameris",
     "category": "Cuotas y tarjetas",
-    "merchant_name": "CECCONELLO",
+    "merchant_name": "HYDROCLEAN",
     "merchant_locations_or_group": "",
-    "benefit_summary": "10%; 20%; Hasta 10 cuotas sin interés",
+    "benefit_summary": "20%; Hasta 12 cuotas sin interés",
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [
-      "10%",
       "20%"
     ],
-    "promotion_days": [
-      "viernes",
-      "sábado"
-    ],
+    "promotion_days": [],
     "month_days": [],
     "ordinal_weekdays": [],
     "day_text": "No especificado",
-    "validity": "• Viernes y sábado. • 28 y 29 de agosto 2026.",
+    "validity": "• Desde el 01 al 25 de septiembre 2026.",
     "caps_and_minimums": "",
     "level_rules": "",
     "special_flags": [],
-    "source_url": "https://www.sudameris.com.py/beneficios/destacado/836/detalle",
-    "raw_detail": "• 20% de descuento en caja pagando con tarjetas de crédito de Sudameris. • + 10% de reintegro en extracto pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés.",
-    "id": "c1819c748d4f159c"
+    "source_url": "https://www.sudameris.com.py/beneficios/destacado/885/detalle",
+    "raw_detail": "• 20% de descuento en caja, pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés.",
+    "id": "55bbdfd9bf76b4e9"
   },
   {
     "bank": "Sudameris",
@@ -26024,26 +25649,6 @@
     "source_url": "https://www.sudameris.com.py/beneficios/destacado/849/detalle",
     "raw_detail": "• 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. COMPRAS EN EL EXTERIOR – 6 CUOTAS SIN INTERÉS",
     "id": "7a201940b9f7a069"
-  },
-  {
-    "bank": "Sudameris",
-    "category": "Cuotas y tarjetas",
-    "merchant_name": "SHOPPING DAY - AGOSTO",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "Hasta 12 cuotas sin interés",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "• Desde el 28 al 30 de agosto de 2026.",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.sudameris.com.py/beneficios/destacado/710/detalle",
-    "raw_detail": "• Hasta 12 cuotas sin interés.",
-    "id": "5cc91ef670a14aac"
   },
   {
     "bank": "Sudameris",
@@ -26726,28 +26331,6 @@
   },
   {
     "bank": "Sudameris",
-    "category": "Gastronomía",
-    "merchant_name": "SHOPPING DAY – DISTRITO PERSEVERANCIA",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "20%",
-    "benefit_type": "reintegro",
-    "percentages": [
-      "20%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "• Desde el 28 al 30 de agosto 2026.",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.sudameris.com.py/beneficios/destacado/915/detalle",
-    "raw_detail": "• 20% de reintegro pagando con tarjetas de crédito.",
-    "id": "c4f81ade5f752169"
-  },
-  {
-    "bank": "Sudameris",
     "category": "Hogar",
     "merchant_name": "LINCOLN",
     "merchant_locations_or_group": "",
@@ -26831,121 +26414,6 @@
   {
     "bank": "Sudameris",
     "category": "Moda",
-    "merchant_name": "ADOLFO DOMINGUEZ",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10%; 50%; Hasta 10 cuotas sin interés",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "10%",
-      "50%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "• Desde el 17 de agosto hasta el 31 de agosto 2026.",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.sudameris.com.py/beneficios/destacado/909/detalle",
-    "raw_detail": "• Hasta 50% de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • + 10% adicional de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés.",
-    "id": "5c9ecaa42c9f540f"
-  },
-  {
-    "bank": "Sudameris",
-    "category": "Moda",
-    "merchant_name": "BABY COTTONS",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10%; 50%; Hasta 10 cuotas sin interés",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "10%",
-      "50%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "• Desde el 17 de agosto hasta el 31 de agosto 2026.",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.sudameris.com.py/beneficios/destacado/908/detalle",
-    "raw_detail": "• Hasta 50% de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • +10% adicional de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés.",
-    "id": "d6f116af94e1bcf3"
-  },
-  {
-    "bank": "Sudameris",
-    "category": "Moda",
-    "merchant_name": "CARO CUORE",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10%; 50%; Hasta 10 cuotas sin interés",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "10%",
-      "50%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "• Desde el 17 de agosto hasta el 31 de agosto 2026.",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.sudameris.com.py/beneficios/destacado/911/detalle",
-    "raw_detail": "• Hasta 50% de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • + 10% adicional de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés.",
-    "id": "efba88f20d24bbac"
-  },
-  {
-    "bank": "Sudameris",
-    "category": "Moda",
-    "merchant_name": "ESTANCIAS",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10%; 50%; Hasta 10 cuotas sin interés",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "10%",
-      "50%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "• Desde el 17 de agosto hasta el 31 de agosto 2026.",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.sudameris.com.py/beneficios/destacado/910/detalle",
-    "raw_detail": "• Hasta 50% de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • + 10% adicional de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés.",
-    "id": "6e8b2b929fa1c6c8"
-  },
-  {
-    "bank": "Sudameris",
-    "category": "Moda",
-    "merchant_name": "RAPSODIA",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "10%; 50%; Hasta 10 cuotas sin interés",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [
-      "10%",
-      "50%"
-    ],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "• Desde el 17 de agosto hasta el 31 de agosto 2026.",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.sudameris.com.py/beneficios/destacado/912/detalle",
-    "raw_detail": "• Hasta 50% de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • + 10% adicional de descuento en caja en productos seleccionados pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés.",
-    "id": "ad1b6f114a5c6f33"
-  },
-  {
-    "bank": "Sudameris",
-    "category": "Moda",
     "merchant_name": "YOUNIQUE",
     "merchant_locations_or_group": "",
     "benefit_summary": "25%; 30%; Hasta 12 cuotas sin interés",
@@ -26961,13 +26429,13 @@
     "month_days": [],
     "ordinal_weekdays": [],
     "day_text": "Todos los martes",
-    "validity": "• Todos los martes y miércoles. • Del 02 de junio al 31 de agosto 2026.",
+    "validity": "• Todos los martes y miércoles. • Del 01 de setiembre hasta el 31 de octubre 2026.",
     "caps_and_minimums": "",
     "level_rules": "",
     "special_flags": [],
     "source_url": "https://www.sudameris.com.py/beneficios/destacado/315/detalle",
     "raw_detail": "• 25% de descuento en caja pagando con tarjetas de crédito Clásicas, Oro, Platinum, Signature, Privilege de Sudameris. • 30% de descuento en caja pagando con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 12 cuotas sin interés.",
-    "id": "b87a00e0fa028841"
+    "id": "4c0bc847f272e127"
   },
   {
     "bank": "Sudameris",
@@ -27269,26 +26737,6 @@
     "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle",
     "raw_detail": "• 20% de descuento en caja con tarjetas de crédito de Sudameris. • 25% de descuento en caja con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 12 cuotas sin intereses (Aplica exclusivamente para pagos de alojamiento).",
     "id": "94baa749ea2b36db"
-  },
-  {
-    "bank": "Sudameris",
-    "category": "Viajes y turismo",
-    "merchant_name": "Travel Hub Agosto – DTP Travel Group",
-    "merchant_locations_or_group": "",
-    "benefit_summary": "Hasta 18 cuotas sin intereses; Gs. 2.000.000; Gs. 12.000.000; Gs. 2.000.000; Gs. 12.000.000; USD 150",
-    "benefit_type": "cuotas_sin_intereses",
-    "percentages": [],
-    "promotion_days": [],
-    "month_days": [],
-    "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "• Periodo de compra: Desde el 24 hasta el 28 de agosto del 2026 o hasta agotar cupos disponibles, lo que ocurra primero.",
-    "caps_and_minimums": "",
-    "level_rules": "",
-    "special_flags": [],
-    "source_url": "https://www.sudameris.com.py/beneficios/destacado/913/detalle",
-    "raw_detail": "• Reintegro único de Gs. 2.000.000 por compra desde Gs. 12.000.000 en adelante. • Bono único de USD 150 para la compra de paquetes de viaje seleccionados por DTP Travel Group, que incluyan vuelo + alojamiento + traslados. • Hasta 18 cuotas sin intereses.",
-    "id": "3ce4c0e749d94338"
   },
   {
     "bank": "ueno bank",
@@ -28193,13 +27641,13 @@
     "month_days": [],
     "ordinal_weekdays": [],
     "day_text": "No especificado",
-    "validity": "Vigencia Desde el 1 de agosto de 2026",
-    "caps_and_minimums": "tope máximo y reglas particulares (consultar ANEXO I); tope de compra y el límite mensual de reintegro aplicables a cada promoción estarán determinados por el nivel del cliente (consultar ANEXO I) al momento de realizar la compra y durante toda la vigencia de la promoción; límites podrán ser modificados en cualquier momento, conforme al criterio exclusivo de ueno bank S; Tope de Vigencia de Acción del usuario upys upys upys Se mantienen con 1 Mantener cuenta activa 100 100 Ir al detalle cuenta activa; hasta Gs. 50.000.000 CDA activo; hasta Gs. 200.000.000 varía según el monto de dinero Mayor a Gs; hasta Gs. 2.000.000 Entre Gs; Hasta el 31 de agosto de 2026, los clientes suman 1 upy cada Gs. 70.000 cobrados desde la app de ueno o con uPOS; Hasta el 31 de agosto de 2026, los clientes suman 50 upys por cada pago igual o mayor a Gs. 300.000 realizado a través de upay con tarjeta de crédito de ueno; Hasta el 30 de septiembre de 2026, los clientes suman 250 upys por cada pago igual o mayor a Gs. 1.000.000 realizado con tarjeta de crédito de ueno; Hasta el 31 de agosto de 2026, los clientes suman 50 upys por cada pago igual o mayor a Gs. 180.000 realizado a través de upay con tarjeta de crédito o débito de ueno; Hasta el 31 de diciembre de 2026, los clientes suman 250 upys por cada pago igual o mayor a Gs. 600.000 realizado con tarjeta de crédito de ueno; Hasta el 31 de octubre de 202",
+    "validity": "Vigencia Desde el 1 de septiembre de 2026",
+    "caps_and_minimums": "tope máximo y reglas particulares (consultar ANEXO I); tope de compra y el límite mensual de reintegro aplicables a cada promoción estarán determinados por el nivel del cliente (consultar ANEXO I) al momento de realizar la compra y durante toda la vigencia de la promoción; límites podrán ser modificados en cualquier momento, conforme al criterio exclusivo de ueno bank S; Tope de Vigencia de Acción del usuario upys upys upys Se mantienen con 1 Mantener cuenta activa 100 100 Ir al detalle cuenta activa; hasta Gs. 50.000.000 CDA activo; hasta Gs. 200.000.000 varía según el monto de dinero Mayor a Gs; hasta Gs. 2.000.000 Entre Gs; Hasta el 30 de septiembre de 2026, los clientes suman 1 upy cada Gs. 70.000 cobrados desde la app de ueno o con uPOS; Hasta el 30 de septiembre de 2026, los clientes suman 50 upys por cada pago igual o mayor a Gs. 300.000 realizado a través de upay con tarjeta de crédito de ueno; Hasta el 30 de septiembre de 2026, los clientes suman 250 upys por cada pago igual o mayor a Gs. 1.000.000 realizado con tarjeta de crédito de ueno; Hasta el 30 de septiembre de 2026, los clientes suman 50 upys por cada pago igual o mayor a Gs. 150.000 realizado a través de upay con tarjeta de débito o crédito de ueno; Hasta el 31 de diciembre de 2026, los clientes suman 250 upys por cada pago igual o mayor a Gs. 600.000 realizado con tarjeta de crédito de ueno; Hasta el 31 de oc",
     "level_rules": "Nivel 1: al tener una cuenta activa en ueno bank; Nivel 2: Si tiene entre 3; Nivel 3: Si tiene entre 6; Nivel 4: Si tiene entre 8; Nivel 5: Desde 10; Nivel 5 en un plazo máximo de 48 horas hábiles desde la activación de la tarjeta; Nivel 1 1 2; Nivel 2 3; Nivel 3 6; Nivel 4 8; Nivel 5 10; Nivel 5 en las primeras 48hs hábiles posteriores a su activación; nivel 5",
     "special_flags": [],
     "source_url": "https://www.ueno.com.py/tyc-beneficios-ueno/",
-    "raw_detail": "Monchis ¡Sumá upys con tus pedidos! Enco amgopsratos sau pmarátsir2 d0e 0G s . 5 0 . 0 0 p0o.r Hasta 1.000 l+a2 p0ri0medruar caonmteap d eri lac m iqouen sea . lreesa lpicoers Ver bases y condiciones ↩Volver al inicio Información legal beneficios ueno+ - ueno - Banco Digital Saltar al contenido principal ueno bank La nueva banca digital Descargar Your browser does not support iframes. Información legal beneficios ueno+ Descargar pdf Términos y condiciones Programa de Beneficios ueno+ Vigencia Desde el 1 de agosto de 2026 y por tiempo indefinido, sujeto a modificación o cancelación por parte de ueno bank S.A. en cualquier momento y sin previo aviso. Sobre el programa ueno+ es un programa de ueno bank S.A., diseñado para reconocer la lealtad de sus clientes mediante la utilización de productos y servicios ofrecidos por la entidad. A través de este programa, los clientes acumulan “upys”, que les permiten alcanzar distintos niveles dentro del programa y acceder a beneficios en comercios adheridos, entre otros incentivos para aquellos clientes que demuestren un uso frecuente y sostenido de los servicios de ueno bank S.A., conforme a las condiciones establecidas en el programa. Participantes Pueden participar todas las personas físicas que: ● Sean clientes y tengan al menos un producto activo en ueno bank. ● Hayan realizado alguna acción que sume upys, según el listado del ANEXO I. El programa ueno+ se activa automáticamente dentro de las 72 horas posteriores a la creación de la cuenta del cliente en ueno bank. Sumatoria de upys I. Definición Los upys se generan al realizar determinadas acciones relacionadas a productos y servicios de ueno bank. Cada acción otorga una cantidad específica de upys, con un tope máximo y reglas particulares (consultar ANEXO I). II. Acreditación La acreditación de upys puede demorar hasta 72 horas hábiles luego de realizada la acción respectiva. El cliente puede consultar su puntaje y su nivel en la app de ueno bank S.A., en la sección de ‘‘Beneficios ueno+’’. III. Vigencia La vigencia de los upys varía según la acción por la que fueron sumados: Términos y condiciones | Programa de Beneficios ueno+ | 1 de agosto de 2026 ● Los upys obtenidos por acciones transaccionales con un medio de pago de ueno bank (por ejemplo: pagar con tarjeta de crédito, etc.) vencen a los 31 días consecutivos desde su acreditación. ● Los upys obtenidos por la activación de productos o servicios de ueno bank se mantendrán vigentes mientras el producto o servicio permanezca activo y conforme a las condiciones vigentes del programa ueno+. ● Los upys generados por mantener dinero en la cuenta o por inversiones en Certificados de Depósito de Ahorro (CDA) no vencen mientras el producto o servicio siga activo. Estos upys varían según el monto que tengas invertido o el promedio de dinero en cuenta de los últimos 30 días. Niveles de beneficios I. Definición ueno+ tiene 5 niveles. El cliente tendrá asignado un nivel dependiendo de la cantidad de upys acumulados: ● Nivel 1: al tener una cuenta activa en ueno bank. ● Nivel 2: Si tiene entre 3.000 y 5.999 upys. ● Nivel 3: Si tiene entre 6.000 y 7.999 upys. ● Nivel 4: Si tiene entre 8.000 y 9.999 upys. ● Nivel 5: Desde 10.000 upys en adelante. Cada uno de los niveles refleja el nivel de fidelidad del cliente y determina los beneficios a los que puede acceder. Una vez que el cliente alcanza los upys necesarios, sube de nivel automáticamente. Por el contrario, si los upys no son suficientes para mantenerlo, desciende automáticamente al nivel respectivo de dicha cantidad de upys. Los clientes que activen una tarjeta de crédito Mastercard Black acceden directamente al Nivel 5 en un plazo máximo de 48 horas hábiles desde la activación de la tarjeta. El cliente deberá asegurarse de revisar el nivel en el que se encuentra antes de ejecutar alguna compra que suponga un beneficio. II. Revisión de niveles El nivel se actualiza en tiempo real. Si el total de upys no alcanza para mantener un nivel, desci",
-    "id": "be789809fecf3729"
+    "raw_detail": "Monchis ¡Sumá upys con tus pedidos! Enco amgopsratos sau pmarátsir2 d0e 0G s . 5 0 . 0 0 p0o.r Hasta 1.000 l+a2 p0ri0medruar caonmteap d eri lac m iqouen sea . lreesa lpicoers Ver bases y condiciones ↩Volver al inicio Información legal beneficios ueno+ - ueno - Banco Digital Saltar al contenido principal ueno bank La nueva banca digital Descargar Your browser does not support iframes. Información legal beneficios ueno+ Descargar pdf Términos y condiciones Programa de Beneficios ueno+ Vigencia Desde el 1 de septiembre de 2026 y por tiempo indefinido, sujeto a modificación o cancelación por parte de ueno bank S.A. en cualquier momento y sin previo aviso. Sobre el programa ueno+ es un programa de ueno bank S.A., diseñado para reconocer la lealtad de sus clientes mediante la utilización de productos y servicios ofrecidos por la entidad. A través de este programa, los clientes acumulan “upys”, que les permiten alcanzar distintos niveles dentro del programa y acceder a beneficios en comercios adheridos, entre otros incentivos para aquellos clientes que demuestren un uso frecuente y sostenido de los servicios de ueno bank S.A., conforme a las condiciones establecidas en el programa. Participantes Pueden participar todas las personas físicas que: ● Sean clientes y tengan al menos un producto activo en ueno bank. ● Hayan realizado alguna acción que sume upys, según el listado del ANEXO I. El programa ueno+ se activa automáticamente dentro de las 72 horas posteriores a la creación de la cuenta del cliente en ueno bank. Sumatoria de upys I. Definición Los upys se generan al realizar determinadas acciones relacionadas a productos y servicios de ueno bank. Cada acción otorga una cantidad específica de upys, con un tope máximo y reglas particulares (consultar ANEXO I). II. Acreditación La acreditación de upys puede demorar hasta 72 horas hábiles luego de realizada la acción respectiva. El cliente puede consultar su puntaje y su nivel en la app de ueno bank S.A., en la sección de ‘‘Beneficios ueno+’’. III. Vigencia La vigencia de los upys varía según la acción por la que fueron sumados: Términos y condiciones | Programa de Beneficios ueno+ | 1 de septiembre de 2026 ● Los upys obtenidos por acciones transaccionales con un medio de pago de ueno bank (por ejemplo: pagar con tarjeta de crédito, etc.) vencen a los 31 días consecutivos desde su acreditación. ● Los upys obtenidos por la activación de productos o servicios de ueno bank se mantendrán vigentes mientras el producto o servicio permanezca activo y conforme a las condiciones vigentes del programa ueno+. ● Los upys generados por mantener dinero en la cuenta o por inversiones en Certificados de Depósito de Ahorro (CDA) no vencen mientras el producto o servicio siga activo. Estos upys varían según el monto que tengas invertido o el promedio de dinero en cuenta de los últimos 30 días. Niveles de beneficios I. Definición ueno+ tiene 5 niveles. El cliente tendrá asignado un nivel dependiendo de la cantidad de upys acumulados: ● Nivel 1: al tener una cuenta activa en ueno bank. ● Nivel 2: Si tiene entre 3.000 y 5.999 upys. ● Nivel 3: Si tiene entre 6.000 y 7.999 upys. ● Nivel 4: Si tiene entre 8.000 y 9.999 upys. ● Nivel 5: Desde 10.000 upys en adelante. Cada uno de los niveles refleja el nivel de fidelidad del cliente y determina los beneficios a los que puede acceder. Una vez que el cliente alcanza los upys necesarios, sube de nivel automáticamente. Por el contrario, si los upys no son suficientes para mantenerlo, desciende automáticamente al nivel respectivo de dicha cantidad de upys. Los clientes que activen una tarjeta de crédito Mastercard Black acceden directamente al Nivel 5 en un plazo máximo de 48 horas hábiles desde la activación de la tarjeta. El cliente deberá asegurarse de revisar el nivel en el que se encuentra antes de ejecutar alguna compra que suponga un beneficio. II. Revisión de niveles El nivel se actualiza en tiempo real. Si el total de upys no alcanza para mantener un nive",
+    "id": "1f5a29c00e6aad3e"
   },
   {
     "bank": "ueno bank",

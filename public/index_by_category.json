@@ -9,13 +9,15 @@
   "Belleza y Salud": [
     "abe7a86b787fa0f7",
     "6f658fe302d61808",
-    "2571c556a99a63bd",
     "ff0e72a1f92e420a",
     "f0b8d88ff2a85ff1",
     "0323c816c23ff5a0"
   ],
   "Bienestar": [
-    "25ac0630761a2330"
+    "84714bfec7199316",
+    "f335e4839708ba7a",
+    "25ac0630761a2330",
+    "122065fe5453ebae"
   ],
   "Caza y Pesca": [
     "27c1171e0af98bca"
@@ -69,9 +71,8 @@
   ],
   "Cuotas y tarjetas": [
     "9898767b60dd8ac2",
-    "c1819c748d4f159c",
+    "55bbdfd9bf76b4e9",
     "7a201940b9f7a069",
-    "5cc91ef670a14aac",
     "0f3c06520e621fe1",
     "adda73b6e9b84929",
     "281f23978408e7ce",
@@ -175,7 +176,7 @@
   "Especiales": [
     "9ef33ea8e4228bab",
     "56ac25abaa7798fa",
-    "be789809fecf3729",
+    "1f5a29c00e6aad3e",
     "e18d240aa280aab0",
     "c7c35a1e97ea4ef3",
     "f798d3b436c569cb"
@@ -293,6 +294,7 @@
     "c0941e4a5daeb225"
   ],
   "Gastronomía": [
+    "fcd65dd8706deecf",
     "dad8e8a3e3de5f98",
     "bbca9c1b1ccde9ac",
     "ff6803046a6c7441",
@@ -341,9 +343,9 @@
     "1987bff56fc6bd58",
     "754345c7fc066341",
     "5e8d6f33c2cb43f9",
+    "dc80676040775714",
     "5a610e5bd685f8eb",
     "b31c50d430032da8",
-    "3ea8c7e0bccde5af",
     "ae7ef2743f69f8d3",
     "2b5d792d71c1b34c",
     "c541978058f267ba",
@@ -355,7 +357,6 @@
     "1aeef1fb2d56e0e9",
     "0bb1da1cfb2ab0f1",
     "80f09161c24d14fc",
-    "c4f81ade5f752169",
     "4179bd380e56fcac",
     "fec3f7018563dbbd",
     "f9c4ed2e1f8aef87",
@@ -391,13 +392,12 @@
     "eac0369ab2c3948b",
     "e45d6706ec738e16",
     "ef717e05cba0a400",
+    "fafe89549fe24c65",
     "c518393e58fbd72c",
     "e34f133d048a72fe",
     "e5e058339b15df8e",
-    "5f25d91d35d7793d"
-  ],
-  "Gonzalez Gimenez": [
-    "5dad53ecf3fdc061"
+    "5f25d91d35d7793d",
+    "422ac4a5932cc1a6"
   ],
   "H&M": [
     "1a131968c8880934"
@@ -407,6 +407,7 @@
   ],
   "Hogar": [
     "f15cf9854b37b0c4",
+    "483a189dd34aae31",
     "612938efa3877640",
     "7107bbfd93af0bbb",
     "baa4ff7557657b94",
@@ -449,7 +450,7 @@
     "61b7b3229591dc73",
     "5d46895882cd8316",
     "cb394969bce93aae",
-    "f52f2483a5205beb",
+    "0ab79ca8becb25e3",
     "b417dff3068a5f4d",
     "5d71acdda81bdb6e",
     "c61ad13e009b8bfc",
@@ -463,7 +464,8 @@
     "92d7c4c7147c3ed0",
     "d39cb77be129abda",
     "10e504f2c07f0c9d",
-    "e9150106c5868257",
+    "b513d8514ab12f34",
+    "31ed9c70b18d5951",
     "63ab7798b614f938",
     "f49c3349fb90e388",
     "c5d6654ec52e5212",
@@ -522,9 +524,6 @@
     "849b1cb38f34545c",
     "9eb86cd4d77f4f91"
   ],
-  "Joyas": [
-    "46b7c30c0233919e"
-  ],
   "Joyerías": [
     "5d10a2638a8118e0",
     "c5a499dd58ba807f",
@@ -562,16 +561,19 @@
     "eb5f2f5552b15e7e"
   ],
   "Moda": [
+    "1beb833307367702",
+    "62e1d81c004889ed",
+    "a5b569e0bd681174",
     "fecd1bf4951a2de9",
-    "c207b9dbbba4f400",
+    "45b35a21946b5677",
+    "a1e6abee230ec91e",
+    "4d47e27cd8267674",
+    "2e9d5691f6386db4",
     "aefe80febf55cf40",
-    "65e7bb8962a4aa1d",
-    "5c9ecaa42c9f540f",
-    "d6f116af94e1bcf3",
-    "efba88f20d24bbac",
-    "6e8b2b929fa1c6c8",
-    "ad1b6f114a5c6f33",
-    "b87a00e0fa028841"
+    "fbe6da30c612fd78",
+    "c3345bfae8124155",
+    "b5f2bfea9a81f447",
+    "4c0bc847f272e127"
   ],
   "Mueblerías": [
     "6d13e453a985508c",
@@ -710,7 +712,7 @@
     "52018510cede8419"
   ],
   "Shell": [
-    "45150e821c8556d4"
+    "245d64602db70626"
   ],
   "Shopping": [
     "f2f89a549098490d",
@@ -743,8 +745,14 @@
     "7d88cc745f7b4029",
     "4c0c98907971091b"
   ],
+  "Super Real": [
+    "d6c367ffeaac383a"
+  ],
   "Supermercados": [
+    "2cfb9cd8678d662c",
+    "7643f925cffccac1",
     "405df50264da77c4",
+    "cb2d47ca1945e0e8",
     "28100c1f8dcdffbe",
     "a05b63930854650d",
     "a3de2b0855afe847",
@@ -871,7 +879,6 @@
     "36c333abaf98351d",
     "7c871f73bfc8fc10",
     "98035059a53c1862",
-    "bd9293b83306ecfd",
     "4d002b503294076f",
     "451c9913e2558be2",
     "c1cd11ef0944f1b5",
@@ -1293,7 +1300,7 @@
     "1bc0de3ea20fe412",
     "25fd890fd0e39859",
     "b8ea70e53bed907f",
-    "742af6dd7201afb4",
+    "f17e6f4a44baa90b",
     "02aff17aa83896d2",
     "d68b31fae45052e1",
     "9240c7d4b41684d1",
@@ -1329,7 +1336,7 @@
     "3556a6e2dd0d5412",
     "54152a5b5cce760e",
     "1dee5a9f7ce209cf",
-    "729e7e85f8873977",
+    "c92e2fc64b7103b5",
     "b8babfa9cbfbe459",
     "8f0c0990694d262c",
     "4944802b26c9d9a2",
@@ -1361,10 +1368,9 @@
     "43d1b329e94a78bf",
     "9ee4965f0607e3f4",
     "37a645339c1121a1",
-    "c2549e50543794dc",
-    "efad794e6323986a",
     "b33904d308485e32",
     "7e471bef60acf055",
+    "e3dab3c5452d113d",
     "cf5400097b84f956",
     "8b9cb059649c63b9",
     "1283ec699c78f621",
@@ -1402,8 +1408,7 @@
     "060864a92e631902",
     "aa6be9dce5bb2b26",
     "c4d5cc3015cf7c35",
-    "94baa749ea2b36db",
-    "3ce4c0e749d94338"
+    "94baa749ea2b36db"
   ],
   "Ópticas": [
     "cf742a67a8f0a269",
@@ -1415,39 +1420,9 @@
     "932ca3ebacfcf706"
   ],
   "Últimos días": [
-    "99b33e2792403a2b",
-    "395ac983179f21bf",
-    "2bddc3d0c15513af",
-    "9334b561ca332c80",
-    "1b6b62d4b4f7eba1",
-    "cea0accab8c88685",
-    "7e9611a65957cf22",
-    "ee20f814d04215a7",
-    "cd03238ad616c838",
-    "a23a89e06ac3d6bf",
-    "1ec669fc74cf5993",
-    "5e043a3d6c0cb7d4",
-    "876ca4e6a251d11d",
-    "6c324d58e2953a5d",
-    "bb94242a86fca985",
-    "15dcd30298f2bece",
-    "75482ec0c0554dd0",
-    "0e6f655998598363",
-    "fc556e7873dc9ae8",
-    "61eba4e3ca9b0ced",
-    "802d49747c46e7e0",
-    "8291df019ccce1e2",
-    "6e78df0501c99814",
-    "7d56869515aae24d",
-    "6ce3c03df5a400be",
-    "b87ffd50ce81f5a2",
-    "7d92d5896900503a",
-    "59f8a72eb19c4834",
-    "da9b13a4d5401fdb",
-    "d9541ff5a405ba76",
-    "2d4f9e714b0ff0a5",
-    "f6a704848e8de63b",
-    "05acbcac4fec2555",
-    "2880ab824aa55226"
+    "ad2fc281a783c59d",
+    "b79171e5e5c92b99",
+    "b1cc6f5b35acd850",
+    "c2f583862e722c13"
   ]
 }

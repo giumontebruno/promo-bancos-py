@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 56
+Total de promociones: 48
 
 ## Combustible
 
@@ -15,9 +15,8 @@ Total de promociones: 56
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | 6 cuotas sin interés | Todos los días | • Todos los días hasta el 31 de diciembre del 2026. |
-| CECCONELLO | 10%; 20%; Hasta 10 cuotas sin interés | No especificado | • Viernes y sábado. • 28 y 29 de agosto 2026. |
+| HYDROCLEAN | 20%; Hasta 12 cuotas sin interés | No especificado | • Desde el 01 al 25 de septiembre 2026. |
 | SASPY EXPRESS | 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | • Desde el 06 de abril hasta el 30 de septiembre 2026. |
-| SHOPPING DAY - AGOSTO | Hasta 12 cuotas sin interés | No especificado | • Desde el 28 al 30 de agosto de 2026. |
 | SUDAMERIS GO- CUOTAS | Hasta 18 cuotas sin intereses | No especificado | • Del 12 de febrero del 2026 al 31 de diciembre del 2026. |
 | TARJETAS EMPRESARIALES | Hasta 6 cuotas sin interés | Todos los días | • Todos los días. • Desde el 01 de enero hasta el 31 de diciembre de 2026. |
 | ZEAL | 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el 21 de agosto hasta el 19 de septiembre 2026. |
@@ -64,7 +63,6 @@ Total de promociones: 56
 | LE BISTRO DE LA ROTONDE – DISTRITO PERSEVERANCIA | 20%; 25% | lunes a miércoles | • De lunes a miércoles. • Desde el 06 de julio hasta el 30 de septiembre 2026. |
 | RESTAURANTES FAMILIA PARU - LA CUADRITA | 20%; 25% | No especificado | • Desde el 01 de enero hasta el 31 de diciembre de 2026. |
 | SERENDIPITY - LA HORNALLA - CANTINA COLEGIOS | 15% | Lunes a viernes | • Lunes a viernes. • Desde el 20 de abril hasta el 30 de noviembre 2026. |
-| SHOPPING DAY – DISTRITO PERSEVERANCIA | 20% | No especificado | • Desde el 28 al 30 de agosto 2026. |
 
 ## Hogar
 
@@ -78,12 +76,7 @@ Total de promociones: 56
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| ADOLFO DOMINGUEZ | 10%; 50%; Hasta 10 cuotas sin interés | No especificado | • Desde el 17 de agosto hasta el 31 de agosto 2026. |
-| BABY COTTONS | 10%; 50%; Hasta 10 cuotas sin interés | No especificado | • Desde el 17 de agosto hasta el 31 de agosto 2026. |
-| CARO CUORE | 10%; 50%; Hasta 10 cuotas sin interés | No especificado | • Desde el 17 de agosto hasta el 31 de agosto 2026. |
-| ESTANCIAS | 10%; 50%; Hasta 10 cuotas sin interés | No especificado | • Desde el 17 de agosto hasta el 31 de agosto 2026. |
-| RAPSODIA | 10%; 50%; Hasta 10 cuotas sin interés | No especificado | • Desde el 17 de agosto hasta el 31 de agosto 2026. |
-| YOUNIQUE | 25%; 30%; Hasta 12 cuotas sin interés | Todos los martes | • Todos los martes y miércoles. • Del 02 de junio al 31 de agosto 2026. |
+| YOUNIQUE | 25%; 30%; Hasta 12 cuotas sin interés | Todos los martes | • Todos los martes y miércoles. • Del 01 de setiembre hasta el 31 de octubre 2026. |
 
 ## Otros
 
@@ -111,5 +104,4 @@ Total de promociones: 56
 | DISFRUTÁ DEL RESORT YACHT Y GOLF CLUB | 10%; 25% | Todos los días | • Todos los días • Desde el 12 hasta el 31 de diciembre de 2025. |
 | DTP TRAVEL GROUP | Upgrade de Entradas – Charter F1 São Paulo VIGENCIA •La Promoción tendrá vigencia desde enero de 2026 hasta octubre del 2026. | No especificado | •La Promoción tendrá |
 | TATANO POSADA BOUTIQUE | 20%; 25%; Hasta 12 cuotas sin intereses | Martes a domingo | • Martes a domingo. • Desde el 07 de abril 2026 hasta el 31 de diciembre 2026. |
-| Travel Hub Agosto – DTP Travel Group | Hasta 18 cuotas sin intereses; Gs. 2.000.000; Gs. 12.000.000; Gs. 2.000.000; Gs. 12.000.000; USD 150 | No especificado | • Periodo de compra: Desde el 24 hasta el 28 de agosto del 2026 o hasta agotar cupos disponibles, lo que ocurra primero. |
 
