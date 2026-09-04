@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 104
+Total de beneficios: 106
 
 ## Belleza y Salud
 
@@ -38,9 +38,9 @@ Total de beneficios: 104
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Corporacion Mercantil | 25 % 10 Cuotas sin intereses; 25% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-08-03 hasta 2026-09-05 |
 | EXPRESIONES GALERIA DE ARTE | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-09-01 hasta 2026-10-31 |
 | Essen | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
+| Gayatri | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-04-01 hasta 2026-09-23 |
 | Kekas Design | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-08-04 hasta 2026-09-15 |
 | Luminotecnia | 10 Cuotas sin intereses 15 %; 15% de ahorro y hasta 10 cuotas sin intereses. | Aplica los sábados | 2026-01-10 hasta 2026-12-26 |
 | Luminotecnia | 6 Cuotas sin intereses; hasta 6 cuotas sin intereses. | No especificado | 2026-01-06 hasta 2026-12-31 |
@@ -59,12 +59,6 @@ Total de beneficios: 104
 |---|---|---|---|
 | AVENTURA PARK | 10 % 10 Cuotas sin intereses; Tenés 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2018-01-01 hasta 2026-09-30 |
 | Estoy Jugueteria | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2025-06-06 hasta 2026-12-25 |
-
-## Shell
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Shell | 20 %; 20% de reintegro con tu tarjeta de Crédito clásica | todos los lunes | 2026-01-05 hasta 2026-09-28 |
 
 ## Stock & Superseis
 
@@ -91,6 +85,7 @@ Total de beneficios: 104
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| APRENDIENDO A QUERER-ME | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-11-19 |
 | CIRKO MARISKO | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-06-02 hasta 2026-09-12 |
 | FACUNDO ARANA SOBRE LA MARCHA | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-01 hasta 2026-09-15 |
 | HABLANDO HUEVADAS | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-09-30 |
@@ -124,6 +119,7 @@ Total de beneficios: 104
 | Indio Termos | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | JOSEPH COIFFURE | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Lomas Padel | 20 %; Tenes 20% de ahorro con APPLE PAY o GOOGLE PAY (billeteras). | No especificado | 2024-04-15 hasta 2026-12-27 |
+| Mi portal Coca Cola | 25 %; 25% de ahorro. | Aplica los domingos | 2025-10-19 hasta 2026-09-27 |
 | New Balance | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Nice | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Pampero | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
@@ -132,6 +128,7 @@ Total de beneficios: 104
 | RAICES REAL ESTATE | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses. | No especificado | 2026-05-25 hasta 2026-09-20 |
 | Rondina | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Sallustro | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
+| Shell | 20 %; 20% de reintegro con tu tarjeta de Crédito clásica | todos los lunes | 2026-01-05 hasta 2026-09-28 |
 | Shell | 20 %; 20% de REINTEGRO con tu tarjeta de Crédito ORO y PREMIUM. | todos los lunes | 2026-01-05 hasta 2026-09-28 |
 | Sport House | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | TL Sports & Outdoors | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
@@ -155,7 +152,6 @@ Total de beneficios: 104
 | Aries Travel | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Aventura Viajes | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Bespoke | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
-| Boarding Pass | 18 Cuotas sin intereses; Tenés hasta 18 cuotas sin intereses. | No especificado | 2024-09-28 hasta 2026-09-05 |
 | Boarding Pass | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | CMP Travel | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Consorcio | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
@@ -183,8 +179,9 @@ Total de beneficios: 104
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| APAC GOETHE | 20 %; Tenes 20% de reintegro | No especificado | 2026-05-11 hasta 2026-09-06 |
 | Biggie | 15 %; 15% de ahorro. | No especificado | 2025-01-31 hasta 2026-09-04 |
-| Fuschia | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses | Aplica los miércoles | 2023-06-02 hasta 2026-09-02 |
+| Boarding Pass | 18 Cuotas sin intereses; Tenés hasta 18 cuotas sin intereses. | No especificado | 2024-09-28 hasta 2026-09-05 |
+| Corporacion Mercantil | 25 % 10 Cuotas sin intereses; 25% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-08-03 hasta 2026-09-05 |
 | Mesoestetic | 6 Cuotas sin intereses 25 % Hasta; Tenes 20% de reintegro + 5% pagando con tu VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | No especificado | 2025-11-12 hasta 2026-09-04 |
-| TREFFEN | tarjeta de crédito; Tenes 20% de ahorro | LUNES A JUEVES | 2026-07-01 hasta 2026-09-03 |
 
