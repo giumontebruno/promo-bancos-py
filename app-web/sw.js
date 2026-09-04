@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260825-clean-map-controls";
+const CACHE_NAME = "payback-py-v20260904-google-map-key";
 const APP_SHELL = [
   "./",
   "./index.html",
