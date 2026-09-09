@@ -1,0 +1,47 @@
+name: Match official branches with Google Maps
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Maximum branch lookups (1-300)
+        default: '60'
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: promotion-data
+  cancel-in-progress: false
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Validate request budget
+        env:
+          LIMIT: ${{ inputs.limit }}
+        run: python -c "import os; n=int(os.environ['LIMIT']); assert 1 <= n <= 300"
+      - name: Match branches
+        id: match
+        continue-on-error: true
+        env:
+          GOOGLE_MAPS_BACKEND_API_KEY: ${{ secrets.GOOGLE_MAPS_BACKEND_API_KEY }}
+          GOOGLE_LOCATION_LIMIT: ${{ inputs.limit }}
+        run: python scrapers/enrich_locations_google.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: location-audit
+          path: |
+            outputs/google_enrichment_report.json
+            outputs/google_locations_metro_review.json
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Update reviewed branch coordinates'
+          file_pattern: 'public/locations.json outputs/google_*.json'
+      - if: steps.match.outcome == 'failure'
+        run: exit 1

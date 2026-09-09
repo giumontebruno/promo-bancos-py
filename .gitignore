@@ -6,3 +6,9 @@ venv/
 work/
 outputs/*.zip
 outputs/*.png
+node_modules/
+dist/
+.env.*
+!.env.example
+output/playwright/
+.playwright-cli/

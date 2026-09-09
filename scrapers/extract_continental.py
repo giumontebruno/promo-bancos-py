@@ -81,12 +81,13 @@ def extract_topes(text):
 
 
 def main():
-    if WORK_JSON.exists():
-        data = json.loads(WORK_JSON.read_text(encoding="utf-8-sig"))
-    else:
-        data = requests.get(API, timeout=30).json()
-        WORK_JSON.parent.mkdir(exist_ok=True)
-        WORK_JSON.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    response = requests.get(API, timeout=30)
+    response.raise_for_status()
+    data = response.json()
+    if not isinstance(data, list) or not data:
+        raise RuntimeError("Continental returned no merchants; preserving the previous export.")
+    WORK_JSON.parent.mkdir(exist_ok=True)
+    WORK_JSON.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
 
     rows = []
     for item in data:

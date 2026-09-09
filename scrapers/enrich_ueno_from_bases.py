@@ -67,13 +67,10 @@ def fetch_pdf_text(url):
 def fetch_text(url):
     WORK_DIR.mkdir(parents=True, exist_ok=True)
     path = WORK_DIR / safe_name(url, ".html")
-    if path.exists():
-        html = path.read_text(encoding="utf-8", errors="ignore")
-    else:
-        response = requests.get(url, timeout=25, headers={"User-Agent": "Mozilla/5.0"})
-        response.raise_for_status()
-        html = response.text
-        path.write_text(html, encoding="utf-8")
+    response = requests.get(url, timeout=25, headers={"User-Agent": "Mozilla/5.0"})
+    response.raise_for_status()
+    html = response.text
+    path.write_text(html, encoding="utf-8")
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup(["script", "style", "nav", "footer", "header"]):
         tag.decompose()

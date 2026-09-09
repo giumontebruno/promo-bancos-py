@@ -1,0 +1,26 @@
+name: Daily favorite notifications
+on:
+  workflow_dispatch:
+  schedule:
+    # 08:00 America/Asuncion. GitHub scheduling is best effort.
+    - cron: '0 11 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: favorite-notifications
+  cancel-in-progress: false
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Send opt-in favorite digest
+        env:
+          PAYBACK_NOTIFICATIONS_URL: ${{ secrets.PAYBACK_NOTIFICATIONS_URL }}
+          PAYBACK_NOTIFICATIONS_CRON_TOKEN: ${{ secrets.PAYBACK_NOTIFICATIONS_CRON_TOKEN }}
+        run: python scripts/dispatch_notifications.py

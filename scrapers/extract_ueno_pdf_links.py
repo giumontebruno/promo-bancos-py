@@ -4,7 +4,7 @@ from pathlib import Path
 from pypdf import PdfReader
 
 
-PDF_PATH = Path("work/ueno_beneficios_agosto2026.pdf")
+PDF_PATH = Path("work/ueno_beneficios_current.pdf")
 OUT = Path("work/ueno_pdf_links.csv")
 
 

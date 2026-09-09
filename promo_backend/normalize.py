@@ -2,8 +2,14 @@ import csv
 import hashlib
 import json
 import re
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
+
+try:
+    from .quality import deduplicate, quality_report, favorite_aliases
+except ImportError:
+    from quality import deduplicate, quality_report, favorite_aliases
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -144,12 +150,12 @@ def detect_ordinal_weekdays(*texts):
 
 def detect_benefit_type(text):
     text = clean(text).lower()
-    if "cuota" in text and "sin inter" in text:
-        return "cuotas_sin_intereses"
     if "reintegro" in text:
         return "reintegro"
     if "descuento" in text:
         return "descuento"
+    if "cuota" in text and "sin inter" in text:
+        return "cuotas_sin_intereses"
     return "beneficio"
 
 
@@ -223,7 +229,7 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
             ],
         )
     )
-    full_detail = clean(" ".join(filter(None, [detail, base_detail])))
+    full_detail = clean(" ".join(dict.fromkeys(filter(None, [detail, base_detail]))))
 
     normalized = {
         "bank": bank,
@@ -232,17 +238,19 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "merchant_locations_or_group": group_override if group_override is not None else merchants or location,
         "benefit_summary": benefit,
         "benefit_type": detect_benefit_type(" ".join([benefit, levels, full_detail])),
-        "percentages": detect_percentages(" ".join([benefit, levels, full_detail])),
+        "percentages": detect_percentages(" ".join([benefit, levels])),
         "promotion_days": detect_days(day_text, validity, full_detail),
         "month_days": detect_month_days(day_text, validity, full_detail),
         "ordinal_weekdays": detect_ordinal_weekdays(day_text, validity, full_detail),
         "day_text": day_text or "No especificado",
         "validity": validity,
+        "source_period_end": first(row, "Fin del período fuente"),
         "caps_and_minimums": caps,
         "level_rules": levels,
+        "level_benefits": json.loads(row.get("Niveles estructurados") or "[]"),
         "special_flags": detect_special_flags(bank, benefit, levels, caps, validity, day_text, full_detail),
         "source_url": source_url,
-        "raw_detail": full_detail[:4000],
+        "raw_detail": full_detail,
     }
     normalized["id"] = row_id(normalized)
     return normalized
@@ -336,12 +344,23 @@ def normalize_source_row(bank, row):
 
 def load_promotions():
     promotions = []
+    status_path = PUBLIC / "source_status.json"
+    statuses = json.loads(status_path.read_text(encoding="utf-8")) if status_path.exists() else {}
     for bank, path in SOURCE_FILES:
         if not path.exists():
             continue
+        checked_at = statuses.get(bank, {}).get("checked_at")
+        meta_path = OUTPUTS / (path.name.replace('_beneficios_por_categoria.csv', '_source_meta.json'))
+        if meta_path.exists():
+            checked_at = json.loads(meta_path.read_text(encoding="utf-8")).get("checked_at", checked_at)
+        last_source_commit = subprocess.run(["git", "log", "-1", "--format=%cI", "--", str(path.relative_to(ROOT))], cwd=ROOT, capture_output=True, text=True).stdout.strip()
         with path.open(encoding="utf-8-sig", newline="") as f:
             for row in csv.DictReader(f):
-                promotions.extend(normalize_source_row(bank, row))
+                items = normalize_source_row(bank, row)
+                for item in items:
+                    item["source_checked_at"] = checked_at
+                    item["source_file_updated_at"] = last_source_commit or None
+                promotions.extend(items)
     promotions.sort(key=lambda r: (r["bank"], r["category"], r["merchant_name"]))
     return promotions
 
@@ -385,7 +404,16 @@ def main():
     PUBLIC.mkdir(exist_ok=True)
     DATA.mkdir(exist_ok=True)
 
-    promotions = load_promotions()
+    source_promotions = load_promotions()
+    promotions, aliases = deduplicate(source_promotions)
+    previous_path = PUBLIC / 'promotions.json'
+    previous = json.loads(previous_path.read_text(encoding='utf-8')) if previous_path.exists() else []
+    committed = subprocess.run(['git', 'show', 'HEAD:public/promotions.json'], cwd=ROOT, capture_output=True, encoding='utf-8')
+    if committed.returncode == 0:
+        previous.extend(json.loads(committed.stdout))
+    old_manifest_path = PUBLIC / 'manifest.json'
+    old_manifest = json.loads(old_manifest_path.read_text(encoding='utf-8')) if old_manifest_path.exists() else {}
+    aliases = favorite_aliases(previous, promotions, {**old_manifest.get('favorite_aliases', {}), **aliases})
     now = datetime.now(timezone.utc).isoformat()
     categories = sorted({p["category"] for p in promotions if p["category"]})
     banks = sorted({p["bank"] for p in promotions if p["bank"]})
@@ -403,10 +431,14 @@ def main():
         "banks": banks,
         "categories": categories,
         "source_files": [str(path.relative_to(ROOT)) for _, path in SOURCE_FILES],
+        "favorite_aliases": aliases,
+        "schema_version": 2,
     }
 
     (PUBLIC / "promotions.json").write_text(json.dumps(promotions, ensure_ascii=False, indent=2), encoding="utf-8")
     (PUBLIC / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    report = {"generated_at": now, **quality_report(promotions, len(source_promotions), aliases)}
+    (OUTPUTS / "promotions_quality_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     (PUBLIC / "index_by_day.json").write_text(json.dumps(by_day, ensure_ascii=False, indent=2), encoding="utf-8")
     (PUBLIC / "index_by_category.json").write_text(json.dumps(by_category, ensure_ascii=False, indent=2), encoding="utf-8")
     write_csv(PUBLIC / "promotions.csv", promotions)

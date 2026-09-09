@@ -272,6 +272,14 @@ def write_csv(locations):
 
 def main():
     locations = seed_locations() + build_bnf_locations()
+    ueno_branches = ROOT / "outputs/ueno_branch_sources.json"
+    if ueno_branches.exists():
+        locations.extend(json.loads(ueno_branches.read_text(encoding="utf-8")))
+    previous = json.loads(OUT_JSON.read_text(encoding="utf-8")) if OUT_JSON.exists() else {}
+    previous_by_key = {
+        (item.get("bank"), slug(item.get("merchant_name")), slug(item.get("address")), slug(item.get("city"))): item
+        for item in previous.get("locations", [])
+    }
     seen = set()
     unique = []
     for item in locations:
@@ -279,13 +287,24 @@ def main():
         if key in seen:
             continue
         seen.add(key)
+        old = previous_by_key.get(key)
+        if old and old.get("geocode_source") not in {"", "city_approximation"}:
+            for field in ("id", "lat", "lng", "geocode_source", "place_id", "formatted_address",
+                          "google_name", "google_types", "google_confidence", "location_verified_at", "needs_review"):
+                if field in old:
+                    item[field] = old[field]
         unique.append(item)
+    # Rebuilding BNF must not erase branches collected from other banks.
+    for key, item in previous_by_key.items():
+        replaced_ueno = item.get("id", "").startswith("loc-ueno-") and ueno_branches.exists()
+        if key not in seen and item.get("bank") != "BNF" and not replaced_ueno:
+            unique.append(item)
+            seen.add(key)
     geocode_locations(unique)
-    apply_city_approximations(unique)
     unique.sort(key=sort_key)
     payload = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
-        "provider": "BNF PDF tables + cached OpenStreetMap Nominatim geocoding",
+        "provider": "Official bank branch lists + reviewed location matches",
         "total_locations": len(unique),
         "geocoded_locations": sum(1 for item in unique if item["lat"] is not None and item["lng"] is not None),
         "locations": unique,

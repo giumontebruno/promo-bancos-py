@@ -1,6 +1,10 @@
 import csv
+import calendar
 import re
+from datetime import datetime
 from pathlib import Path
+from urllib.parse import urljoin
+from bs4 import BeautifulSoup
 
 import pdfplumber
 import requests
@@ -8,7 +12,8 @@ import requests
 
 PDF_URL = "https://www.ueno.com.py/wp-content/uploads/2026/08/BENEFICIOS-ueno-agosto2026.pdf"
 POWER_PDF_URL = "https://www.ueno.com.py/wp-content/uploads/2026/04/ueno-POWER-AGO-2026.pdf"
-PDF_PATH = Path("work/ueno_beneficios_agosto2026.pdf")
+PDF_PATH = Path("work/ueno_beneficios_current.pdf")
+SOURCE_PERIOD = ""
 OUT_CSV = Path("outputs/ueno_beneficios_por_categoria.csv")
 OUT_MD = Path("outputs/ueno_beneficios_por_categoria.md")
 
@@ -102,11 +107,29 @@ def clean(text):
 
 
 def download():
+    global PDF_URL, SOURCE_PERIOD
     PDF_PATH.parent.mkdir(exist_ok=True)
-    if not PDF_PATH.exists():
-        response = requests.get(PDF_URL, timeout=30)
-        response.raise_for_status()
-        PDF_PATH.write_bytes(response.content)
+    page = requests.get("https://www.ueno.com.py/alianzas-ueno/", timeout=35)
+    page.raise_for_status()
+    links = [urljoin(page.url, a["href"]) for a in BeautifulSoup(page.text, "html.parser").select("a[href]")
+             if re.search(r"BENEFICIOS.*\.pdf", a["href"], re.I)]
+    if not links:
+        raise RuntimeError("UENO monthly PDF link not found. Previous export preserved.")
+    PDF_URL = links[0]
+    match = re.search(r"/uploads/(20\d{2})/(\d{2})/", PDF_URL)
+    if not match:
+        raise RuntimeError("UENO monthly PDF period could not be determined.")
+    year, month = map(int, match.groups())
+    SOURCE_PERIOD = f"{year}-{month:02d}-{calendar.monthrange(year, month)[1]}"
+    # Page-number overrides are valid only for the document they were reviewed against.
+    if "agosto2026" not in PDF_URL.lower():
+        for overrides in (PAGE_LOCAL_OVERRIDES, PAGE_LEVEL_OVERRIDES, PAGE_TOPES_OVERRIDES, PAGE_LIMIT_RESET_OVERRIDES):
+            overrides.clear()
+    response = requests.get(PDF_URL, timeout=90)
+    response.raise_for_status()
+    if not response.content.startswith(b"%PDF"):
+        raise RuntimeError("UENO monthly source did not return a PDF.")
+    PDF_PATH.write_bytes(response.content)
 
 
 def detect_category(text, page_no):
@@ -148,7 +171,7 @@ def extract_vigencia(text):
         m = re.search(pattern, text, flags=re.I)
         if m:
             return clean(m.group(0))
-    return "Del 01 al 31 de agosto de 2026"
+    return f"Hasta {SOURCE_PERIOD}" if SOURCE_PERIOD else "Ver bases y condiciones"
 
 
 def extract_topes(text):
@@ -247,10 +270,11 @@ def main():
                     "Detalle": text,
                     "Bases / PDF URL": PDF_URL,
                     "Página PDF": idx,
+                    "Fin del período fuente": SOURCE_PERIOD,
                 })(extract_level_benefit(text, idx))
             )
 
-    for day, subcategory, merchants in POWER_PROMOS:
+    for day, subcategory, merchants in (POWER_PROMOS if "agosto2026" in PDF_URL.lower() else []):
         for merchant in merchants:
             rows.append(
                 {
@@ -269,6 +293,7 @@ def main():
                     "Detalle": f"ueno+ POWER AGO 2026. Rubro {subcategory}. 10% de reintegro base + hasta 40% de reintegro adicional si se mantiene saldo promedio en cuenta durante los últimos 31 días. Aplica para todos los niveles, en el día asignado al rubro gastronómico, con tarjeta de crédito ueno bank en compras presenciales. No aplica delivery ni plataformas de terceros.",
                     "Bases / PDF URL": POWER_PDF_URL,
                     "Página PDF": "ueno+ POWER",
+                    "Fin del período fuente": "2026-08-31",
                 }
             )
 

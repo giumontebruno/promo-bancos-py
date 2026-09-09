@@ -9,6 +9,9 @@ on:
       - "public/**"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Refresh promotions database", "Match official branches with Google Maps"]
+    types: [completed]
 
 permissions:
   contents: read
@@ -32,10 +35,21 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Validate and build app
+        run: |
+          npm ci
+          npm test
+          npm run build
+
       - name: Upload static app
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: "dist/client"
 
       - name: Deploy to GitHub Pages
         id: deployment
