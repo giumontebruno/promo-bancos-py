@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T13:17:38.135686+00:00",
-  "input_count": 1224,
-  "promotion_count": 1224,
+  "generated_at": "2026-09-09T13:30:16.188579+00:00",
+  "input_count": 1232,
+  "promotion_count": 1232,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -172,21 +172,31 @@
     "8b7c2849ff856866": "76b34b116971e525",
     "9f3cee897a1f24f8": "487c44f9e5c33e4d",
     "2444851d95863760": "f8baf057115da3e8",
-    "db53f884f56dc8ba": "895d90e2a3be8cc2"
+    "db53f884f56dc8ba": "895d90e2a3be8cc2",
+    "122065fe5453ebae": "f1847cff9f4b5eb8",
+    "ef717e05cba0a400": "685470c83082810a",
+    "b3743089e049f22f": "2d3c0e786fe5817d",
+    "4ab36f4f04a033f0": "8cf92c85d5a98a05",
+    "0c59506d2bbd88a5": "12d099990a0b6d0a",
+    "29dd8f6612dfa0b2": "5a566479a8eb6ae5",
+    "384c2e6ac9152ce8": "5da5e3d5a31ac215",
+    "ef9e46de3a875299": "323908f590a05735",
+    "92c229f4f7dc932a": "33d0b3c9d7b1f1a9",
+    "55a95388dc4831de": "3b3c1e7971db9ce8"
   },
   "by_bank": {
-    "Atlas": 41,
+    "Atlas": 42,
     "BNF": 5,
-    "Continental": 727,
-    "Coop. Universitaria": 75,
-    "Itaú": 106,
+    "Continental": 734,
+    "Coop. Universitaria": 77,
+    "Itaú": 104,
     "Sudameris": 48,
     "ueno bank": 222
   },
   "issue_counts": {
-    "validity_unconfirmed": 83,
-    "limits_unconfirmed": 74,
-    "multiple_purchase_limits": 274,
+    "validity_unconfirmed": 84,
+    "limits_unconfirmed": 76,
+    "multiple_purchase_limits": 277,
     "multiple_refund_limits": 89
   },
   "review_queue": [
@@ -209,13 +219,13 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "122065fe5453ebae",
+      "id": "f1847cff9f4b5eb8",
       "bank": "Atlas",
       "merchant": "Shopping Mariscal Miércoles Plus",
       "issues": [
         "validity_unconfirmed"
       ],
-      "source_url": "https://www.bancoatlas.com.py/web/Tiendas%20adheridas%20Mi%C3%A9rcoles%20Plus.pdf"
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
       "id": "d70ba6f32e9a8624",
@@ -433,6 +443,16 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "46290055d2126c08",
+      "bank": "Atlas",
+      "merchant": "iStore - iPhone 18",
+      "issues": [
+        "validity_unconfirmed",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/Bases%20y%20condiciones%20Pre%20venta%20iStore.pdf"
     },
     {
       "id": "3d01eed9be736446",
@@ -1333,6 +1353,15 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
+      "id": "3a333fde24fc5f59",
+      "bank": "Continental",
+      "merchant": "Go Park",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
       "id": "e29268e84a59586a",
       "bank": "Continental",
       "merchant": "Intercolegial - Las Almenas",
@@ -1790,6 +1819,15 @@
       "id": "aa28a1333acd5efd",
       "bank": "Continental",
       "merchant": "Fiori Florería",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "ff9e6c1567790383",
+      "bank": "Continental",
+      "merchant": "Flash Importados",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -2794,6 +2832,15 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1700670082.pdf"
     },
     {
+      "id": "efcaf801c0743ac5",
+      "bank": "Coop. Universitaria",
+      "merchant": "VETERINARIA PLANES PET",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.universitaria.coop/assets_front/img/promos/1788800583.pdf"
+    },
+    {
       "id": "21d418b9714bd04d",
       "bank": "Coop. Universitaria",
       "merchant": "Areté Supermercados",
@@ -2919,6 +2966,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1776972720.pdf"
+    },
+    {
+      "id": "245d64602db70626",
+      "bank": "Itaú",
+      "merchant": "Shell",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291"
     },
     {
       "id": "98035059a53c1862",

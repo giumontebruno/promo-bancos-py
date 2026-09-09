@@ -10,6 +10,7 @@
     "abe7a86b787fa0f7",
     "6f658fe302d61808",
     "ff0e72a1f92e420a",
+    "0384580047dfe962",
     "f0b8d88ff2a85ff1",
     "0323c816c23ff5a0"
   ],
@@ -17,10 +18,16 @@
     "84714bfec7199316",
     "f335e4839708ba7a",
     "25ac0630761a2330",
-    "122065fe5453ebae"
+    "f1847cff9f4b5eb8"
+  ],
+  "Bodegas": [
+    "638706b63d39a0a0",
+    "1c74300e664ee48b",
+    "a6688802cc4b46bf"
   ],
   "Caza y Pesca": [
-    "27c1171e0af98bca"
+    "27c1171e0af98bca",
+    "91b02da57eb943cd"
   ],
   "Clubes": [
     "ed683d928f6181f3",
@@ -72,6 +79,7 @@
   ],
   "Cuotas y tarjetas": [
     "9898767b60dd8ac2",
+    "4acc21c553fffa78",
     "55bbdfd9bf76b4e9",
     "7a201940b9f7a069",
     "0f3c06520e621fe1",
@@ -115,7 +123,8 @@
     "6b4ca1264186c72f",
     "496b7481d2894476",
     "140922ea257563d8",
-    "b3743089e049f22f",
+    "2d3c0e786fe5817d",
+    "43c878df02e24352",
     "f0caf74a5aadb0b0",
     "30fb585a33a32f1e",
     "641c025f9eb7873f",
@@ -123,10 +132,11 @@
     "3729791356bbc7b2",
     "d9693c1e514d5c26",
     "75de31bddc14378e",
-    "4ab36f4f04a033f0",
+    "8cf92c85d5a98a05",
     "109c3493f3d498ed",
     "b7e587636cffbf3a",
     "7be734a4cb712c07",
+    "84cbdedc3ef6ae1d",
     "fca2dfb3faf6a44f",
     "221507fd784b91cb",
     "f3d671bb8b497f44",
@@ -172,7 +182,6 @@
   ],
   "Entretenimiento y experiencias": [
     "87b8f157c3aefeda",
-    "ac147ce20b27b151",
     "35306a49768a9da9"
   ],
   "Especiales": [
@@ -247,10 +256,12 @@
     "223ca085023c1add",
     "cba2fcd2da336291",
     "7773a24bc9ac448b",
+    "b1681a6e03a8bbcc",
     "74a77b721494b8db",
     "4d89fb48bdbb13bb",
     "0adc9b79689d817a",
     "b9f5921b978e3591",
+    "a2523b9cfb64c047",
     "0a6b1ca680429cdb",
     "8cec91dc3acd2223",
     "a3dce4f040b90150",
@@ -265,7 +276,7 @@
     "f563655c979fabf3",
     "0df41c6aa8662059",
     "acc5a7759c9e08c0",
-    "0c59506d2bbd88a5",
+    "12d099990a0b6d0a",
     "501f2bcf19799440",
     "d9f8703610ccb8f8",
     "3cb2a6f4e38db166",
@@ -286,6 +297,7 @@
     "bd98bd12dbe9d1be",
     "777cdbff89e32204",
     "4b41b43f5fd966b5",
+    "632fdc5ef7caea50",
     "32f6fb096b1697bc",
     "08daa8e8d787a65b"
   ],
@@ -304,12 +316,10 @@
     "eb602f9fd55bfa28",
     "9c98a07b5b07bd58",
     "afe0fbc474f37d00",
-    "01abaddb8e670785",
     "afaf020415098a19",
     "ccf8ae37534458fb",
     "20f1a740b6927a10",
     "3ae3f7d0ef1d47dd",
-    "3007419675cf93b2",
     "d315ab83bd0950cf",
     "9d607fc404e033c6",
     "cfee075ab22a3732",
@@ -363,7 +373,7 @@
   "Generales": [
     "eac0369ab2c3948b",
     "e45d6706ec738e16",
-    "ef717e05cba0a400",
+    "685470c83082810a",
     "fafe89549fe24c65",
     "c518393e58fbd72c",
     "e34f133d048a72fe",
@@ -410,6 +420,7 @@
     "bcbf41bd14dd01c6",
     "dd823e542cf4830d",
     "52f76221d328e3ce",
+    "1ca29c251885aa71",
     "69d64b1781188e82",
     "aabb73bf9b910d7d",
     "9850af53af5be85b",
@@ -429,6 +440,7 @@
     "afc3c25beab34107",
     "7592e4b9fda3de0d",
     "082040e2d37f9888",
+    "3b7dd98fa6665be9",
     "66663e113fea54e2",
     "fab26a324cd3bae5",
     "9d18785e82542131",
@@ -436,6 +448,7 @@
     "92d7c4c7147c3ed0",
     "d39cb77be129abda",
     "10e504f2c07f0c9d",
+    "24b9a23c20822f37",
     "31ed9c70b18d5951",
     "63ab7798b614f938",
     "7b27bda94637f59b",
@@ -467,6 +480,7 @@
     "b5f14bdcdf7f1fff",
     "790bab08cad62bb7",
     "c4fa76931a452734",
+    "54bda69e54c07e36",
     "187af41091bac104"
   ],
   "Industrial": [
@@ -620,14 +634,11 @@
   ],
   "Promociones especiales": [
     "2e383eb6286806c4",
-    "db2782a3042c58b4",
+    "3a333fde24fc5f59",
     "e29268e84a59586a",
     "d30842bcc08c972e",
     "56fcadf3f2b00f6d",
     "4f5d4c2862f849c0",
-    "ee1f59d9cc8ea7fd",
-    "7c9ad11679dac21f",
-    "5af63b55f9eb4efd",
     "7c3f05fd71ebb681",
     "85d08e18fb2d4b29"
   ],
@@ -640,7 +651,6 @@
     "eb043cd45fe17cca",
     "e7ad42ca0fce3392",
     "d0f3f7674784b0e8",
-    "046db68d5ed56051",
     "872e9de57a58c127",
     "fe5a24d1482acf57",
     "57aa192ba8c81a57",
@@ -700,7 +710,11 @@
   ],
   "Servicios": [
     "86cf4f8a53d556f0",
-    "52018510cede8419"
+    "52018510cede8419",
+    "efcaf801c0743ac5"
+  ],
+  "Shell": [
+    "245d64602db70626"
   ],
   "Shoppings": [
     "6e5af6ba6bb5d67c"
@@ -713,9 +727,6 @@
   "Stock & Superseis": [
     "7d88cc745f7b4029",
     "4c0c98907971091b"
-  ],
-  "Super Real": [
-    "d6c367ffeaac383a"
   ],
   "Supermercados": [
     "2cfb9cd8678d662c",
@@ -733,7 +744,7 @@
     "f2cddc35e504dc5f",
     "b8a95231326f2ec5",
     "0979f3f2a937ee87",
-    "29dd8f6612dfa0b2",
+    "5a566479a8eb6ae5",
     "47b963bbd946a4a8",
     "eed3e1f291c2e32b",
     "80e7107683646c2b",
@@ -745,6 +756,7 @@
     "e5147c0c64abd517",
     "a18f702714f1c756",
     "7f34f7cf936d4483",
+    "a8a06ae5b05ddcf9",
     "7c16d1382b860cc8",
     "25e28165f24c6588",
     "ddf8f2b4f76ee001",
@@ -766,11 +778,11 @@
     "e10e19b1e2e38959",
     "1dd082b6d28ad3e9",
     "b3bc640cb7423452",
-    "384c2e6ac9152ce8",
+    "5da5e3d5a31ac215",
     "f00db0064b14378c",
     "172d81ed5723f001",
     "d0673be9ad638c50",
-    "ef9e46de3a875299",
+    "323908f590a05735",
     "76fca0b37a2f7c2b",
     "25ee08239b31a46b",
     "2437ec93a62f2668",
@@ -830,12 +842,13 @@
     "0325c3e63ca0ab93",
     "ec0b5f3f2cccbc13",
     "5080e39c523dbdad",
+    "054c71ff7494b7bb",
     "3f934cbc87ed4533",
     "2714e6eeb09f82d8",
     "465a9717a63b58ad",
     "8506f1ded1407f96",
     "9dedf88b18aee11a",
-    "92c229f4f7dc932a",
+    "33d0b3c9d7b1f1a9",
     "68a6d8ba21799751",
     "fd18de432a608146",
     "21d418b9714bd04d",
@@ -845,10 +858,12 @@
     "9561f85ec2a6a795",
     "9bc8378923423917",
     "07ccdb612a757c62",
+    "cf508c048b067ae7",
     "cc02a6c7d9fef503",
     "36c333abaf98351d",
     "7c871f73bfc8fc10",
     "98035059a53c1862",
+    "bd9293b83306ecfd",
     "4d002b503294076f",
     "451c9913e2558be2",
     "c1cd11ef0944f1b5",
@@ -876,7 +891,6 @@
   ],
   "Teatro": [
     "40da645d3696d520",
-    "d826ba2dd9cbf303",
     "d3fe815960a4d8cd",
     "bad1df67f7d5c170",
     "11f6a7bbdaa49995",
@@ -884,6 +898,7 @@
   ],
   "Tecnología": [
     "e77fe8d93e9865f3",
+    "46290055d2126c08",
     "a4f9f338850cd745",
     "80635aa5c66c9f35",
     "5a248bdf71a643c8"
@@ -917,7 +932,6 @@
     "4e4a0e17c4bf4b7d",
     "ff0756763498bddf",
     "cc27e5f6e467958c",
-    "5a46958bfda5a355",
     "28686c05a1134f76",
     "2a896e1fdd618f43",
     "9f8846df0e30fac9",
@@ -964,6 +978,7 @@
     "37792cb1d88e84a5",
     "aa28a1333acd5efd",
     "2091839cf521dd8a",
+    "ff9e6c1567790383",
     "7b0e37844a69fa8f",
     "84b82bbe9faa53e0",
     "37d5ad2178fee2c5",
@@ -1016,7 +1031,7 @@
     "5edbc3e390804365",
     "eee031f87b6ad642",
     "95260183bc3ff53c",
-    "55a95388dc4831de",
+    "3b3c1e7971db9ce8",
     "1e39abe59adfb826",
     "b017f51a579a207c",
     "4e148818ab4f4126",
@@ -1235,6 +1250,7 @@
     "4c169eab4a65eb9e",
     "c3581ec8b4367783",
     "323788c0b1e3a879",
+    "7fe333d42265979b",
     "fdc3aca4a3793c48",
     "593f2cb79c71f451",
     "ed3b3d43dd602020",
@@ -1254,8 +1270,6 @@
     "1bc0de3ea20fe412",
     "25fd890fd0e39859",
     "b8ea70e53bed907f",
-    "742af6dd7201afb4",
-    "f17e6f4a44baa90b",
     "02aff17aa83896d2",
     "d68b31fae45052e1",
     "9240c7d4b41684d1",
@@ -1375,10 +1389,6 @@
     "932ca3ebacfcf706"
   ],
   "Últimos días": [
-    "6728e6567f05d8f9",
-    "ad2fc281a783c59d",
-    "981e896295b6401c",
-    "853ca54a42d0f5b0",
-    "b1cc6f5b35acd850"
+    "ece8d8eba5164c2c"
   ]
 }

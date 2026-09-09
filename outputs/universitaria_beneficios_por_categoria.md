@@ -2,7 +2,7 @@
 
 Fuente: https://www.universitaria.coop/promociones
 
-Total de promociones: 75
+Total de promociones: 77
 
 ## Electrodomésticos
 
@@ -129,6 +129,7 @@ Total de promociones: 75
 |---|---|---|---|
 | CUSAT | 25% de descuento | Todos los días | Vigencia Desde el 8 de marzo de 2019, con renovación automática |
 | DG Control y Servicios / Control de Plagas | 25% de descuento | Todos los días | Vigencia Desde el 11 de febrero de 2020, con renovación automática |
+| VETERINARIA PLANES PET | DE HASTA 20% DE DESCUENTO | Todos los días | Vigencia Desde el 05 de agosto de 2026 hasta el 05 de febrero de 2027 |
 
 ## Supermercados
 
@@ -142,6 +143,7 @@ Total de promociones: 75
 | Molino Caaguazú | Todos los Sábados | Todos los Sábados | Vigencia Desde el 04 de julio de 2026 hasta el 26 de setiembre de 2026 |
 | REAL | Todos los Lunes | Todos los Lunes | Vigencia Desde el 06 de julio de 2026 hasta el 28 de septiembre de 2026 |
 | S6 / STOCK / DELI MARKET | MASTERCARD QR 25%; PAGO CON TC FISICA con las 3 marcas 20% | Todos los Viernes | Vigencia Desde el 17 de julio de 2026 hasta el 25 de setiembre de 2026 |
+| SUPERMERCADO GÉMINIS | PANAL QR 20%; CABAL QR 20%; MASTERCARD QR 20%; PAGO CON TC FISICA con las 3 marcas 10% | Todos los martes | Vigencia Desde el 01 de septiembre 2026 hasta el 27 de octubre de 2026 |
 | Supermercado Metro | Todos los Martes | Todos los Martes | Vigencia Desde el 07 de julio de 2026 hasta el 29 de setiembre de 2026 |
 
 ## Tiendas

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T10:11:12-03:00",
+  "generated_at": "2026-09-09T13:30:11+00:00",
   "provider": "Official bank branch lists + reviewed location matches",
   "total_locations": 1743,
   "geocoded_locations": 518,
@@ -32975,5 +32975,5 @@
   ],
   "google_enriched_locations": 492,
   "google_enrichment_focus": "Asunción y Gran Asunción",
-  "locations_updated_at": "2026-09-09T13:25:06+00:00"
+  "locations_updated_at": "2026-09-09T13:30:12+00:00"
 }

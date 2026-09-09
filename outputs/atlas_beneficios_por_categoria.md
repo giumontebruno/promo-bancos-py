@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 41
+Total de beneficios: 42
 
 ## Bienestar
 
@@ -81,6 +81,7 @@ Total de beneficios: 41
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Tecnología a tu alcance | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
+| iStore - iPhone 18 | 18 cuotas sin intereses; Con beneficios exclusivos | Del 1 al 18 de septiembre | Pre-registro del 1 al 9 de septiembre. Preventa: Del 9 al 12, beneficio exclusivo con Tarjetas de Crédito delSol Atlas; del 13 al 18, con Tarjetas de Crédito Atlas habilitadas. Cuotas aplicables a compras desde Gs. 5.000 |
 
 ## Vehículo
 

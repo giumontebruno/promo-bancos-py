@@ -15,6 +15,7 @@ Total de promociones: 48
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | 6 cuotas sin interés | Todos los días | • Todos los días hasta el 31 de diciembre del 2026. |
+| COLEGIO SAN ANDRÉS | Hasta 15 cuotas sin interés | No especificado | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. |
 | HYDROCLEAN | 20%; Hasta 12 cuotas sin interés | No especificado | • Desde el 01 al 25 de septiembre 2026. |
 | SASPY EXPRESS | 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | • Desde el 06 de abril hasta el 30 de septiembre 2026. |
 | SUDAMERIS GO- CUOTAS | Hasta 18 cuotas sin intereses | No especificado | • Del 12 de febrero del 2026 al 31 de diciembre del 2026. |
@@ -36,7 +37,6 @@ Total de promociones: 48
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES | ¡Disfrutá de Distrito Perseverancia todo el año! Aprovechá hasta 12 cuotas sin interés en locales adheridos. Vigencia: Del 03/08 al 31/12/2026. | No especificado | Del 03/08 al 31/12/2026. |
-| DONACIÓN TECHO 2026 EN DISTRITO PERSEVERANCIA | 8 cuotas sin interés | No especificado | Periodo de campaña: Del 31 de julio al 5 de septiembre de 2026. |
 | PROMOCIÓN MCLAREN MASTERCARD F1 TEAM | Gs. 500.000 | No especificado | de la promoción y acumulá cupones digitales automáticamente para los sorteos, según las |
 
 ## Farmacias
