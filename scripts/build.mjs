@@ -4,7 +4,7 @@ await mkdir('dist/server', { recursive: true });
 await build({ entryPoints: ['server/index.js'], bundle: true, format: 'esm', platform: 'browser', target: 'es2022', outfile: 'dist/server/index.js' });
 await cp('app-web', 'dist/client/app-web', { recursive: true });
 await cp('public', 'dist/client/public', { recursive: true });
-await writeFile('dist/client/index.html', '<!doctype html><html lang="es"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/app-web/"><title>Payback PY</title><a href="/app-web/">Payback PY</a></html>');
+await writeFile('dist/client/index.html', '<!doctype html><html lang="es"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=https://giumontebruno.github.io/promo-bancos-py/app-web/"><title>Payback PY</title><a href="https://giumontebruno.github.io/promo-bancos-py/app-web/">Payback PY</a></html>');
 await mkdir('dist/.openai', { recursive: true });
 await cp('.openai/hosting.json', 'dist/.openai/hosting.json');
 await cp('drizzle', 'dist/.openai/drizzle', { recursive: true });

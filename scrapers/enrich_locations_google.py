@@ -117,10 +117,10 @@ def google_text_search(item):
         },
         timeout=25,
     )
-    if response.status_code == 403:
-        raise RuntimeError("Google Places API denied the request. Enable Places API (New) and allow it in the backend key restrictions.")
-    if response.status_code == 400:
-        raise RuntimeError(f"Google Places API rejected the request: {response.text[:500]}")
+    if response.status_code in {400, 403}:
+        message = response.json().get('error', {}).get('message', 'Request rejected')
+        message = re.sub(r'AIza[0-9A-Za-z_-]{35}', '[redacted]', message.replace(GOOGLE_KEY, '[redacted]'))
+        raise RuntimeError(f'Google Places HTTP {response.status_code}: {message[:600]}')
     response.raise_for_status()
     places = response.json().get("places") or []
     if not places:
@@ -270,8 +270,10 @@ def main():
         attempted += 1
         try:
             result = enrich_one(item, cache)
-        except (RuntimeError, requests.RequestException):
+        except (RuntimeError, requests.RequestException) as error:
             print("Google location request failed. Check API enablement, billing and backend key restrictions.")
+            if isinstance(error, RuntimeError):
+                print(str(error))
             failed = True
             break
         apply_result(item, result)
