@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 42
+Total de beneficios: 43
 
 ## Bienestar
 
@@ -56,6 +56,7 @@ Total de beneficios: 42
 | Champs Elysées | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en  |
 | Cortefiel | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 | Forever 21 | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de G |
+| Forever 21 Primavera | 60% de descuento; 12 cuotas sin intereses | Del 7 al 30 de septiembre | Descuento de hasta 60% realizado en caja válido presentando su CI y Tarjeta del titular que cumpla las condiciones expresadas en las bases y condiciones de la tienda adjuntas en el PDF. La cantidad de cuotas se solicita  |
 | H&M | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet .Válido para las sucursales de Paseo La Galería, Distrito Perseverancia y su E-  |
 | ISDIN | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en  |
 | Jack & Jones | 20% de reintegro; +5%; Hasta 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’s Secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red In |

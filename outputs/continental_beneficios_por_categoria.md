@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 734
+Total de beneficios/comercios: 739
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -90,7 +90,7 @@ Total de beneficios/comercios: 734
 | Infobanc S.A | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 04 de diciembre del 2026 | Nueva Esperanza (Canindeyú) |
 | One 2 One | 20%; Hasta 12 cuotas sin intereses; 20% de descuento; 15% de descuento | Todos los días | Vigente hasta el 09 de abril de 2027 | Asunción |
 
-## Electrónica (34)
+## Electrónica (36)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -112,7 +112,9 @@ Total de beneficios/comercios: 734
 | Electro 10 | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de febrero de 2027 | Katueté (Canindeyú) |
 | Electromax | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de septiembre de 2026 | No especificado |
 | Ferbotec | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de abril de 2027 | Coronel Oviedo |
+| Gadget | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 09 de septiembre de 2027 | Bella Vista Sur |
 | Iphone Boutique | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 07 de marzo de 2027 | Asunción |
+| LG Importados | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de marzo de 2027 | Salto del Guairá |
 | Mac Store | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 25 de mayo de 2027 | Asunción |
 | Madrid Center | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de noviembre del 2026 | Ciudad del Este |
 | Mega Electrónicos - Importadora Americas | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 25 de agosto del 2027 | Ciudad del Este |
@@ -425,7 +427,7 @@ Total de beneficios/comercios: 734
 |---|---|---|---|---|
 | Municipalidades | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de junio de 2027 | No especificado |
 
-## Peluquerías y Spas (15)
+## Peluquerías y Spas (16)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -436,6 +438,7 @@ Total de beneficios/comercios: 734
 | Clínica de la Belleza | 10% de descuento | Todos los días | Vigente hasta el 02 de diciembre del 2026 | San Ignacio, Misiones |
 | Jennifer Valdez Make Up & Hair | 10%; 10% de reintegro | los sábados | Vigente hasta el 19 de septiembre de 2026 | San Juan Bautista |
 | Joseph - Coronel Oviedo | 35%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 16 de enero de 2027 | Coronel Oviedo |
+| LCC Spa Urbano | 35%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 16 de enero de 2027 | Coronel Oviedo |
 | Liana Hair Club | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 08 de abril de 2027 | San Ignacio, Misiones |
 | Maison Mint | 20%; 20% de reintegro; 25% de reintegro; 35% de reintegro | los sábados | Vigente hasta el 03 de febrero del 2027 | No especificado |
 | Majestik | 15%; Hasta 6 cuotas sin intereses; 15% de descuento | todos los días | Vigente hasta el 17 de octubre de 2026 | Asunción |
@@ -689,7 +692,7 @@ _Se omitieron 35 filas en este resumen; están en el CSV._
 | Comercial El Lorito | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | Loma Plata |
 | Crocs | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 01 de julio de 2027 | No especificado |
 | Cuna Bella | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 13 de mayo de 2027 | Asunción |
-| DV Cueros | 20%; 20% de reintegro | los jueves | Vigente hasta el 03 de septiembre de 2026 | San Ignacio, Misiones |
+| DV Cueros | 20%; 20% de reintegro | Los jueves | Vigente hasta el 09 de septiembre de 2027 | San Ignacio, Misiones |
 | De Marie | Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
 | Deport Center | 30%; Hasta 12 cuotas sin intereses; 30% de reintegro | todos los días | Vigente hasta el 22 de julio de 2027 | Encarnación |
 | Dermash | 25% de reintegro; 20% de reintegro | los jueves | No especificado | Asunción |
@@ -719,7 +722,7 @@ _Se omitieron 35 filas en este resumen; están en el CSV._
 
 _Se omitieron 131 filas en este resumen; están en el CSV._
 
-## Vehículos (37)
+## Vehículos (38)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -735,6 +738,7 @@ _Se omitieron 131 filas en este resumen; están en el CSV._
 | Chacomer S.A.E | hasta 18 cuotas sin intereses; 10% de reintegro; 10% de descuento | todos los días | Vigente hasta el 15 de octubre del 2026 | No especificado |
 | Classic Motos | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | No especificado |
 | Damper Repuestos | 10%; hasta 12 cuotas sin intereses; 10% de descuento | Todos los días | Vigente hasta el 11 de febrero de 2027 | Curuguaty |
+| Dido Bike | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de marzo de 2027 | Naranjal |
 | El Pedal | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de junio de 2027 | Coronel Bogado |
 | Euroimport | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de agosto de 2027 | Asunción |
 | Eze Equipamientos | 10%; hasta 12 cuotas sin intereses; 10% de descuento | todos los días | Vigente hasta el 18 de marzo de 2027 | San Ignacio, Misiones |
@@ -761,7 +765,7 @@ _Se omitieron 131 filas en este resumen; están en el CSV._
 | Tonina | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de noviembre de 2026 | No especificado |
 | Toyotoshi | 30%; Hasta 12 cuotas sin intereses; 30% de descuento; 20% de descuento; 10% de descuento; 5% de descuento | Todos los días | Vigente hasta el 03 de julio de 2027 | Todo el país |
 
-## Veterinarias (5)
+## Veterinarias (6)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -770,4 +774,5 @@ _Se omitieron 131 filas en este resumen; están en el CSV._
 | Rogavet | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de junio de 2027 | Asunción |
 | Rural Makro | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 25 de noviembre de 2026 | No especificado |
 | Tiempo de Mascota | 20%; 20% de reintegro | los jueves | Vigente hasta el 17 de diciembre del 2026 | Asunción |
+| Vets Hospital Veterinario | 10%; 10% de reintegro | Los jueves | Vigente hasta el 08 de marzo de 2027 | No especificado |
 
