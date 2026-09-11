@@ -54,7 +54,10 @@
         "establishment"
       ],
       "google_confidence": "review",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-11T12:46:33.047717+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJAWONQQC0XZQR3RZ4M_SpOOQ"
     },
     {
       "id": "loc-00fe8fcd3b",
@@ -32975,5 +32978,5 @@
   ],
   "google_enriched_locations": 492,
   "google_enrichment_focus": "Asunción y Gran Asunción",
-  "locations_updated_at": "2026-09-11T12:13:14+00:00"
+  "locations_updated_at": "2026-09-11T12:46:33+00:00"
 }

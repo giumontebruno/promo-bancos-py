@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "id": "loc-dc698e8288",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "Estaciones de Servicio",
+    "address": "13 de Noviembre c/ Crescencio González",
+    "city": "Areguá",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf",
+    "lat": -25.3309884,
+    "lng": -57.4017835,
+    "geocode_source": "google_places_text_search",
+    "place_id": "ChIJg4Q9aNmzXZQRZcm5ZKIid68",
+    "formatted_address": "MH9X+J74, Areguá 110121",
+    "google_name": "Petropar Areguá",
+    "google_types": [
+      "gas_station",
+      "service",
+      "point_of_interest",
+      "establishment"
+    ],
+    "google_confidence": "review",
+    "location_verified_at": "2026-08-24T17:43:35-03:00",
+    "google_last_attempt_at": "2026-09-11T12:46:33.047717+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_candidate_place_id": "ChIJAWONQQC0XZQR3RZ4M_SpOOQ"
+  }
+]
