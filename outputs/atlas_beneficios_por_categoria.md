@@ -82,7 +82,7 @@ Total de beneficios: 43
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Tecnología a tu alcance | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
-| iStore - iPhone 18 | 18 cuotas sin intereses; Con beneficios exclusivos | Del 1 al 18 de septiembre | Pre-registro del 1 al 9 de septiembre. Preventa: Del 9 al 12, beneficio exclusivo con Tarjetas de Crédito delSol Atlas; del 13 al 18, con Tarjetas de Crédito Atlas habilitadas. Cuotas aplicables a compras desde Gs. 5.000 |
+| iStore - iPhone 18 | 18 cuotas sin intereses; Con beneficios exclusivos | Del 9 al 18 de septiembre | Preventa: Del 9 al 12, beneficio exclusivo con Tarjetas de Crédito delSol Atlas; del 13 al 18, con Tarjetas de Crédito Atlas habilitadas. Cuotas aplicables a compras desde Gs. 5.000.000. Voucher de USD 50 exclusivo para  |
 
 ## Vehículo
 
@@ -94,6 +94,6 @@ Total de beneficios: 43
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Atlas Viajes | 18 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita al momento de la compra, hasta 18 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Utilización de puntos Atlas Más sujeta a disponibilidad del client |
-| Planeá tus próximas vacaciones | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para c |
+| Atlas Viajes | 18 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita al momento de la compra, hasta 18 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet. Utilización de puntos Atlas Más sujeta a disponibilidad  |
+| Planeá tus próximas vacaciones | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 

@@ -1,42 +1,42 @@
 {
-  "completed_at": "2026-09-10T12:16:23.922902+00:00",
+  "completed_at": "2026-09-11T12:13:18.712052+00:00",
   "failed_sources": [
     "scrapers/enrich_locations_google.py"
   ],
   "sources": {
     "Sudameris": {
       "status": "fetched",
-      "checked_at": "2026-09-10T12:10:28.624369+00:00",
-      "records": 48
+      "checked_at": "2026-09-11T12:08:21.170655+00:00",
+      "records": 49
     },
     "Itaú": {
       "status": "fetched",
-      "checked_at": "2026-09-10T12:11:27.112955+00:00",
+      "checked_at": "2026-09-11T12:09:15.383142+00:00",
       "records": 105
     },
     "BNF": {
       "status": "fetched",
-      "checked_at": "2026-09-10T12:11:53.453433+00:00",
+      "checked_at": "2026-09-11T12:09:39.508443+00:00",
       "records": 5
     },
     "Continental": {
       "status": "fetched",
-      "checked_at": "2026-09-10T12:11:56.840519+00:00",
-      "records": 739
+      "checked_at": "2026-09-11T12:09:42.644235+00:00",
+      "records": 743
     },
     "Atlas": {
       "status": "fetched",
-      "checked_at": "2026-09-10T12:12:03.174320+00:00",
+      "checked_at": "2026-09-11T12:10:01.006431+00:00",
       "records": 43
     },
     "Coop. Universitaria": {
       "status": "fetched",
-      "checked_at": "2026-09-10T12:14:26.668362+00:00",
+      "checked_at": "2026-09-11T12:11:32.317023+00:00",
       "records": 77
     },
     "ueno bank": {
       "status": "fetched",
-      "checked_at": "2026-09-10T12:16:11.347469+00:00",
+      "checked_at": "2026-09-11T12:13:07.091271+00:00",
       "records": 231
     }
   }

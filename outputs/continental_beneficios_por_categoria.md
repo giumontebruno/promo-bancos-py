@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 739
+Total de beneficios/comercios: 743
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -142,8 +142,8 @@ Total de beneficios/comercios: 739
 | Energy | 20%; 20% de reintegro; 25% de reintegro | los viernes | Vigente hasta el 12 de marzo de 2027 | No especificado |
 | Grupo Laso - Estaciones de Servicio | 10%; 10% de reintegro | Los viernes | Vigente hasta el 06 de agosto de 2027 | No especificado |
 | HN - Petróleos | 20%; 20% de reintegro | los viernes | Vigente hasta el 23 de abril de 2027 | No especificado |
-| Petrobras | 20%; 25% de reintegro; 20% de reintegro | Los viernes | Vigente hasta el 04 de septiembre de 2026 | No especificado |
-| Petrobras - Privilege | 25% de reintegro | los viernes | Vigente hasta el 04 de septiembre de 2026 | No especificado |
+| Petrobras | 20%; 25% de reintegro; 20% de reintegro | Los viernes | Vigente hasta el 10 de septiembre de 2027 | No especificado |
+| Petrobras - Privilege | 25% de reintegro | los viernes | Vigente hasta el 10 de septiembre de 2027 | No especificado |
 | Petrochaco | 20%; 20% de reintegro | Los viernes | Vigente hasta el 20 de noviembre de 2026 | Todo el país |
 | Petromax | 20%; 20% de reintegro | los viernes | Vigente hasta 25 de septiembre del 2026 | Todo el país |
 | Petropar - Curuguaty | 10%; 10% de reintegro | los viernes | Vigente hasta el 29 de enero de 2027 | Curuguaty |
@@ -619,6 +619,7 @@ Total de beneficios/comercios: 739
 | Super Favesa - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 02 de noviembre de 2026 | Coronel Oviedo |
 | Super Total - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 25 de agosto de 2027 | Ayolas - Misiones |
 | Supermercado 7 de Agosto - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 24 de septiembre de 2026 | Tomás R. Pereira |
+| Supermercado Area 6 - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 08 de septiembre de 2027 | Hernandarias |
 | Supermercado Boquerón - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 12 de noviembre de 2026 | Filadelfia |
 | Supermercado Campo 9 - Miércoles de Supermercados | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 13 de noviembre de 2026 | Campo 9 |
 | Supermercado Cardoso - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 21 de abril de 2027 | Santa Rita (Alto Paraná) |
@@ -631,11 +632,10 @@ Total de beneficios/comercios: 739
 | Supermercado Emanuel - Miércoles de supermercados | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 03 de marzo de 2027 | Katueté (Canindeyú) |
 | Supermercado Everest - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 28 de abril de 2027 | Presidente Franco |
 | Supermercado Gran Avenida | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 31 de marzo de 2027 | Concepción |
-| Supermercado Grefran - Miércoles de Supermercados | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 16 de septiembre de 2026 | Curuguaty |
 
 _Se omitieron 35 filas en este resumen; están en el CSV._
 
-## Tiendas (211)
+## Tiendas (214)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -664,7 +664,7 @@ _Se omitieron 35 filas en este resumen; están en el CSV._
 | Balboa | Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Barista Róga | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre del 2026 | Asunción |
 | Belvi Studio | 20%; 20% de reintegro | Los jueves | Vigente hasta el 19 de febrero de 2027 | Naranjal |
-| Benditta Collection | 15%; hasta 12 cuotas sin intereses; 10% de reintegro; 15% de descuento | todos los días | Vigente hasta el 03 de septiembre del 2026 | No especificado |
+| Benditta Collection | 25%; Hasta 12 cuotas sin intereses; 10% de reintegro; 15% de descuento | todos los días | Vigente hasta el 09 de marzo de 2027 | Encarnación |
 | Bertoni | 20%; hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 15 abril de 2027 | Asunción |
 | Birkenstock | 25% de reintegro; 20% de reintegro | los jueves | Vigente hasta el 13 de noviembre de 2026 | No especificado |
 | Body Club | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 15 de abril de 2027 | Asunción |
@@ -699,7 +699,7 @@ _Se omitieron 35 filas en este resumen; están en el CSV._
 | Deysi Boutique | 20%; 20% de reintegro | los jueves | Vigente hasta el 29 del octubre del 2026 | Obligado, Itapúa |
 | Dilara Boutique | 20%; hasta 6 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 15 de abril de 2027 | Encarnación |
 | Discovery Foot Wear | 30%; Hasta 12 cuotas sin intereses; 30% de descuento | todos los días | Vigente hasta el 30 de mayo de 2027 | Asunción |
-| Dudalina | 15%; hasta 12 cuotas sin intereses; 10% de reintegro; 15% de descuento | todos los días | Vigente hasta el 03 de septiembre del 2026 | No especificado |
+| Dudalina | 25%; Hasta 12 cuotas sin intereses; 10% de reintegro; 15% de descuento | todos los días | Vigente hasta el 09 de marzo de 2027 | No especificado |
 | Dynamite Store | 10%; Hasta 12 cuotas sin intereses; 10% de descuento | todos los días | Vigente hasta el 19 de septiembre de 2026 | Asunción |
 | El Juguetero | 20%; hasta 12 cuotas sin intereses; 20% de descuento | todos los días | Vigente hasta el 19 de mayo de 2027 | San Ignacio, Misiones |
 | El Mundo del Cotillón | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 20 de agosto de 2027 | Encarnación |
@@ -720,9 +720,9 @@ _Se omitieron 35 filas en este resumen; están en el CSV._
 | Furla | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de agosto de 2027 | Asunción |
 | GH1S | 25% de reintegro | los jueves | Vigente hasta el 20 de noviembre del 2026 | No especificado |
 
-_Se omitieron 131 filas en este resumen; están en el CSV._
+_Se omitieron 134 filas en este resumen; están en el CSV._
 
-## Vehículos (38)
+## Vehículos (39)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -745,10 +745,11 @@ _Se omitieron 131 filas en este resumen; están en el CSV._
 | Ferrari Autocentro | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 19 de enero de 2026 al 18 de enero del 2027 | Ciudad del Este |
 | Ford - Tape Ruvicha | 15%; hasta 24 cuotas sin intereses; 15% de descuento | Todos los días | Vigente hasta el 14 de noviembre del 2026 | No especificado |
 | Full Equipo | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de octubre del 2026 | Asunción |
-| GM Centro S.A | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de septiembre de 2026 | Mariano Roque Alonso |
+| GM Centro S.A | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de septiembre de 2027 | Mariano Roque Alonso |
 | Garden | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 13 de abril de 2027 | No especificado |
 | Grupo Casa J. Gomez - Cubiertas | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 08 de enero del 2027 | Fernando de la Mora |
 | Grupo Faustino | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 02 de enero del 2027 | Nueva Esperanza (Canindeyú) |
+| Ideal Repuestos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de marzo de 2027 | San Cristóbal (Alto Paraná) |
 | Importadora Avenida | 20%; Hasta 12 cuotas sin intereses; 20% de descuento | Todos los días | Vigente hasta el 10 de agosto de 2027 | Asunción |
 | Jepuru Car | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 19 de marzo hasta el 19 de septiembre de 2026 | Asunción |
 | Mincar Servicio Automotriz | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de marzo de 2027 | Nueva Esperanza (Canindeyú) |
@@ -769,7 +770,7 @@ _Se omitieron 131 filas en este resumen; están en el CSV._
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| For Pets | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 06 de septiembre de 2026 | Asunción |
+| For Pets | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 11 de septiembre de 2027 | Asunción |
 | La Casa del Veterinario | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 21 de abril de 2027 | Fernando de la Mora |
 | Rogavet | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de junio de 2027 | Asunción |
 | Rural Makro | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 25 de noviembre de 2026 | No especificado |

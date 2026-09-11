@@ -2,7 +2,7 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 48
+Total: 49
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
@@ -49,6 +49,7 @@ Total: 48
 | Sudameris | SASPY EXPRESS | • Desde el 06 de abril hasta el 30 de septiembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. COMPRAS EN EL EXTERIOR – 6 CUOTAS SIN INTERÉS | https://www.sudameris.com.py/beneficios/destacado/849/detalle |
 | Sudameris | SERENDIPITY - LA HORNALLA - CANTINA COLEGIOS | • Lunes a viernes. • Desde el 20 de abril hasta el 30 de noviembre 2026. | • 15% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/858/detalle |
 | Sudameris | LIVE FITNESS | • Todos los días. • Desde el 27 de abril hasta el 31 de diciembre 2026. | • Membresía trimestral: 10% de descuento en caja y hasta 3 cuotas sin intereses. • Membresía semestral: 15% de descuento en caja y hasta 6 cuotas sin intereses. • Membresía anual: 20% de descuento en caja y hasta 12 cuot | https://www.sudameris.com.py/beneficios/destacado/861/detalle |
+| Sudameris | MANTECA SESSIONS | • Sábado 12 de septiembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. • 25% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/878/detalle |
 | Sudameris | HYDROCLEAN | • Desde el 01 al 25 de septiembre 2026. | • 20% de descuento en caja, pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/885/detalle |
 | Sudameris | LE BISTRO DE LA ROTONDE – DISTRITO PERSEVERANCIA | • De lunes a miércoles. • Desde el 06 de julio hasta el 30 de septiembre 2026. | • 20% de reintegro directo en extracto, con tarjetas de crédito de Sudameris. • 25% de reintegro directo en extracto, con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/897/detalle |
 | Sudameris | PARANA HOGAR / COLCHONES | • Todos los viernes. • Desde el 03 de agosto hasta el 31 de octubre 2026. | • 30% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin intereses. | https://www.sudameris.com.py/beneficios/destacado/903/detalle |

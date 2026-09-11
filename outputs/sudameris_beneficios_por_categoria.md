@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 48
+Total de promociones: 49
 
 ## Combustible
 
@@ -83,6 +83,7 @@ Total de promociones: 48
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | CHEF’S KITCHEN | 20%; 25% | No especificado | • Viernes y sábado. • Desde el 28 de agosto hasta el 30 de setiembre 2026. |
+| MANTECA SESSIONS | 20%; 25% | No especificado | • Sábado 12 de septiembre 2026. |
 | PLUB | 20% | No especificado | • Último viernes de cada mes. • Desde el 01 de agosto 2026 hasta el 31 de octubre de 2026. |
 | ZONA CENTRAL - ASUNCIÓN Y GRAN ASUNCIÓN | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 | ZONA ESTE | en tu zona • Reintegros directos en el extracto, sin canje de puntos CIUDAD DEL ESTE HERNANDARIAS VILLARRICA CORONEL OVIEDO CAAZAPÁ SANTA RITA NARANJAL J. EULOGIO ESTIGARRIBIA SANT | No especificado | No especificado |

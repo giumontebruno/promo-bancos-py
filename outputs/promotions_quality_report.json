@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T12:16:23.781886+00:00",
-  "input_count": 1248,
-  "promotion_count": 1248,
+  "generated_at": "2026-09-11T12:13:18.563001+00:00",
+  "input_count": 1253,
+  "promotion_count": 1253,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -302,21 +302,32 @@
     "798aa9f63b909b3e": "63b545adc5687353",
     "8c56434889a889d6": "757a598c176b7748",
     "a9c34d1b516aca72": "3ce67acb3ec01993",
-    "50e3c38785816190": "a6c9bbd5bafd3ae0"
+    "50e3c38785816190": "a6c9bbd5bafd3ae0",
+    "46290055d2126c08": "9effdec2f8016f2a",
+    "04b47072d932b2ef": "633452f9de63982d",
+    "22fe69aae80494a1": "2e28ed4834e893f1",
+    "1319b70743e83968": "a4535180277e226e",
+    "4a1da33239ac9796": "1342c43e226a7553",
+    "054c71ff7494b7bb": "6dc59a416f05f716",
+    "4e4a0e17c4bf4b7d": "25a386fc655daf47",
+    "af8ca5e105933263": "2f23d00188011747",
+    "9f79b14b33c4d97a": "df117547e7958d25",
+    "b82cf61286fdbf11": "cec955a4d0ae4df6",
+    "2e5bc639691a1c71": "cf84cb67d3c2281b"
   },
   "by_bank": {
     "Atlas": 43,
     "BNF": 5,
-    "Continental": 739,
+    "Continental": 743,
     "Coop. Universitaria": 77,
     "Itaú": 105,
-    "Sudameris": 48,
+    "Sudameris": 49,
     "ueno bank": 231
   },
   "issue_counts": {
-    "validity_unconfirmed": 84,
+    "validity_unconfirmed": 85,
     "limits_unconfirmed": 76,
-    "multiple_purchase_limits": 279,
+    "multiple_purchase_limits": 280,
     "multiple_refund_limits": 89
   },
   "review_queue": [
@@ -565,7 +576,7 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "46290055d2126c08",
+      "id": "9effdec2f8016f2a",
       "bank": "Atlas",
       "merchant": "iStore - iPhone 18",
       "issues": [
@@ -1727,7 +1738,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "4e4a0e17c4bf4b7d",
+      "id": "25a386fc655daf47",
       "bank": "Continental",
       "merchant": "Benditta Collection",
       "issues": [
@@ -1909,7 +1920,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "af8ca5e105933263",
+      "id": "2f23d00188011747",
       "bank": "Continental",
       "merchant": "Dudalina",
       "issues": [
@@ -2150,6 +2161,15 @@
       "id": "2840c04268a26881",
       "bank": "Continental",
       "merchant": "ML Multimarcas",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "4f11054d687ec5ce",
+      "bank": "Continental",
+      "merchant": "Mango /Cortefiel / Pedro de Hierro",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -2484,7 +2504,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "b82cf61286fdbf11",
+      "id": "cec955a4d0ae4df6",
       "bank": "Continental",
       "merchant": "For Pets",
       "issues": [
@@ -3203,6 +3223,15 @@
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/738/detalle"
+    },
+    {
+      "id": "fdfef93731ba0c6c",
+      "bank": "Sudameris",
+      "merchant": "MANTECA SESSIONS",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/878/detalle"
     },
     {
       "id": "fb152a7d1fb1b1f3",
