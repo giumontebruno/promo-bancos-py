@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 743
+Total de beneficios/comercios: 744
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -56,7 +56,7 @@ Total de beneficios/comercios: 743
 | PY Vidrios | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de julio de 2027 | Nueva Esperanza (Canindeyú) |
 | Pandolfo | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de marzo de 2027 | Todo el país |
 | Petersen | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 29 de enero de 2027 | No especificado |
-| Proyec S.A.E | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de septiembre de 2026 | Asunción |
+| Proyec S.A.E | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de octubre de 2026 | Asunción |
 | Rackpar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de marzo de 2027 | Ypané |
 | Universo Emprendimientos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de diciembre de 2026 | Pedro Juan Caballero |
 
@@ -110,7 +110,7 @@ Total de beneficios/comercios: 743
 | Don Negro Comercial | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 30 de abril de 2027 | Asunción |
 | Electrik Cell | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de agosto de 2027 | Katueté (Canindeyú) |
 | Electro 10 | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de febrero de 2027 | Katueté (Canindeyú) |
-| Electromax | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de septiembre de 2026 | No especificado |
+| Electromax | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de septiembre de 2027 | No especificado |
 | Ferbotec | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de abril de 2027 | Coronel Oviedo |
 | Gadget | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 09 de septiembre de 2027 | Bella Vista Sur |
 | Iphone Boutique | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 07 de marzo de 2027 | Asunción |
@@ -236,7 +236,7 @@ Total de beneficios/comercios: 743
 | Bacon - Smash Burguer - Panceta - Pocket Pizza | 20%; 35% de reintegro; 25% de reintegro; 20% de reintegro | los sábados | Vigente hasta el 24 de octubre de 2026 | No especificado |
 | Bernardino Hamburguesas | 35%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 24 de octubre de 2026 | Asunción |
 | Billy Smash | 35%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 24 de octubre del 2026 | Asunción |
-| Brebaje Bar Parrilla | 20%; 20% de reintegro; 25% de reintegro; 35% de reintegro | los sábados | Vigente hasta el 12 de septiembre de 2026 | Caaguazú |
+| Brebaje Bar Parrilla | 20%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 24 de octubre de 2026 | Caaguazú |
 | Calle 75 | 20%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 24 de octubre de 2026 | Asunción |
 | Churrasquería García | 20%; 20% de reintegro; 25% de reintegro; 35% de reintegro | los sábados | Vigente hasta el 19 de diciembre de 2026 | Pirapó (Itapúa) |
 | Costa Colón | 35%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 24 de octubre del 2026 | Asunción |
@@ -455,7 +455,7 @@ Total de beneficios/comercios: 743
 | 360 Sneaker Store - Privilege | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Birkenstock - Privilege | 25% de reintegro | los jueves | Vigente hasta el 13 de noviembre de 2026 | No especificado |
 | Bodega Boutique - Privilege | 25% de reintegro | Los viernes | Vigente hasta el 25 de septiembre de 2026 | Asunción |
-| Brebaje Bar Parrilla - Privilege | 35%; 35% de reintegro | los sábados | Vigente hasta el 24 de octubre de 2026 | Caaguazú |
+| Brebaje Bar Parrilla - Privilege | 35%; 35% de reintegro | Los sábados | No especificado | Caaguazú |
 | Champs Elysées - Privilege | hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre de 2026 | No especificado |
 | De Marie | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
 | El Negro Suplementos - Privilege | 35%; Hasta 12 cuotas sin intereses; 15% de reintegro; 35% de descuento | todos los días | Vigente hasta el 17 de junio de 2027 | Asunción |
@@ -722,7 +722,7 @@ _Se omitieron 35 filas en este resumen; están en el CSV._
 
 _Se omitieron 134 filas en este resumen; están en el CSV._
 
-## Vehículos (39)
+## Vehículos (40)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -737,6 +737,7 @@ _Se omitieron 134 filas en este resumen; están en el CSV._
 | Chacomer | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de noviembre del 2026 | No especificado |
 | Chacomer S.A.E | hasta 18 cuotas sin intereses; 10% de reintegro; 10% de descuento | todos los días | Vigente hasta el 15 de octubre del 2026 | No especificado |
 | Classic Motos | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | No especificado |
+| DIM Sport | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Asunción |
 | Damper Repuestos | 10%; hasta 12 cuotas sin intereses; 10% de descuento | Todos los días | Vigente hasta el 11 de febrero de 2027 | Curuguaty |
 | Dido Bike | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de marzo de 2027 | Naranjal |
 | El Pedal | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de junio de 2027 | Coronel Bogado |
@@ -762,7 +763,7 @@ _Se omitieron 134 filas en este resumen; están en el CSV._
 | San Pablo Truck Center | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de enero de 2027 | Eusebio Ayala (Barrero Grande) |
 | San Thiago Repuestos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 05 de junio de 2027 | Nueva Esperanza (Canindeyú) |
 | Score Car | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 10 de abril del 2027 | Ciudad del Este |
-| Taller Juank | 10%; Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 11 de septiembre del 2026 | No especificado |
+| Taller Juank | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 11 de septiembre de 2027 | Encarnación |
 | Tonina | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de noviembre de 2026 | No especificado |
 | Toyotoshi | 30%; Hasta 12 cuotas sin intereses; 30% de descuento; 20% de descuento; 10% de descuento; 5% de descuento | Todos los días | Vigente hasta el 03 de julio de 2027 | Todo el país |
 

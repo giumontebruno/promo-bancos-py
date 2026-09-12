@@ -82,7 +82,7 @@ Total de beneficios: 43
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Tecnología a tu alcance | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
-| iStore - iPhone 18 | 18 cuotas sin intereses; Con beneficios exclusivos | Del 9 al 18 de septiembre | Preventa: Del 9 al 12, beneficio exclusivo con Tarjetas de Crédito delSol Atlas; del 13 al 18, con Tarjetas de Crédito Atlas habilitadas. Cuotas aplicables a compras desde Gs. 5.000.000. Voucher de USD 50 exclusivo para  |
+| iStore - iPhone 18 | 18 cuotas sin intereses; Con beneficios exclusivos en la sucursal de delSol | Del 9 al 18 de septiembre | Preventa: Del 9 al 12, beneficio exclusivo con Tarjetas de Crédito delSol Atlas; del 13 al 18, con Tarjetas de Crédito Atlas habilitadas. Cuotas aplicables a compras desde Gs. 5.000.000. Voucher de USD 50 exclusivo para  |
 
 ## Vehículo
 

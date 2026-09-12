@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T12:13:18.563001+00:00",
-  "input_count": 1253,
-  "promotion_count": 1253,
+  "generated_at": "2026-09-12T11:39:21.843313+00:00",
+  "input_count": 1258,
+  "promotion_count": 1258,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -313,19 +313,26 @@
     "af8ca5e105933263": "2f23d00188011747",
     "9f79b14b33c4d97a": "df117547e7958d25",
     "b82cf61286fdbf11": "cec955a4d0ae4df6",
-    "2e5bc639691a1c71": "cf84cb67d3c2281b"
+    "2e5bc639691a1c71": "cf84cb67d3c2281b",
+    "fbe6da30c612fd78": "98b7b0c53c5a18ef",
+    "597d4471164d6ac4": "dd34697835bdff48",
+    "b7e587636cffbf3a": "49a9b4cb7a075742",
+    "d315ab83bd0950cf": "9dfe5b3f07b66f6a",
+    "d3a43aa7ca45beb2": "711977858060fc9a",
+    "99168bd0b6958355": "5466f51d47bd761e",
+    "cb3de01ca31aba62": "65de826637ac09ea"
   },
   "by_bank": {
     "Atlas": 43,
     "BNF": 5,
-    "Continental": 743,
+    "Continental": 744,
     "Coop. Universitaria": 77,
-    "Itaú": 105,
+    "Itaú": 109,
     "Sudameris": 49,
     "ueno bank": 231
   },
   "issue_counts": {
-    "validity_unconfirmed": 85,
+    "validity_unconfirmed": 86,
     "limits_unconfirmed": 76,
     "multiple_purchase_limits": 280,
     "multiple_refund_limits": 89
@@ -852,7 +859,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "d315ab83bd0950cf",
+      "id": "9dfe5b3f07b66f6a",
       "bank": "Continental",
       "merchant": "Brebaje Bar Parrilla",
       "issues": [
@@ -1363,6 +1370,15 @@
       "merchant": "360 Sneaker Store - Privilege",
       "issues": [
         "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "711977858060fc9a",
+      "bank": "Continental",
+      "merchant": "Brebaje Bar Parrilla - Privilege",
+      "issues": [
+        "validity_unconfirmed"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },

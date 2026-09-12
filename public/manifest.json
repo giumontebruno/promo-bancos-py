@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T12:13:18.563001+00:00",
-  "promotion_count": 1253,
+  "generated_at": "2026-09-12T11:39:21.843313+00:00",
+  "promotion_count": 1258,
   "banks": [
     "Atlas",
     "BNF",
@@ -70,6 +70,7 @@
     "Privilege",
     "Promociones especiales",
     "Puma Flota",
+    "STRADIVARIUS",
     "Salud",
     "Salud y belleza",
     "Seguros",
@@ -410,7 +411,14 @@
     "af8ca5e105933263": "2f23d00188011747",
     "9f79b14b33c4d97a": "df117547e7958d25",
     "b82cf61286fdbf11": "cec955a4d0ae4df6",
-    "2e5bc639691a1c71": "cf84cb67d3c2281b"
+    "2e5bc639691a1c71": "cf84cb67d3c2281b",
+    "fbe6da30c612fd78": "98b7b0c53c5a18ef",
+    "597d4471164d6ac4": "dd34697835bdff48",
+    "b7e587636cffbf3a": "49a9b4cb7a075742",
+    "d315ab83bd0950cf": "9dfe5b3f07b66f6a",
+    "d3a43aa7ca45beb2": "711977858060fc9a",
+    "99168bd0b6958355": "5466f51d47bd761e",
+    "cb3de01ca31aba62": "65de826637ac09ea"
   },
   "schema_version": 2
 }
