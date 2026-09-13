@@ -588,7 +588,6 @@
   ],
   "Otros": [
     "b1e94739c8421644",
-    "fdfef93731ba0c6c",
     "4dec50f0d62ae74e",
     "fb152a7d1fb1b1f3",
     "55df6f300643c480",
@@ -650,9 +649,6 @@
   ],
   "Puma Flota": [
     "15eea61e0a7c344b"
-  ],
-  "STRADIVARIUS": [
-    "a4e11908e8f0e261"
   ],
   "Salud": [
     "d26d77fb515c574d",
@@ -722,6 +718,9 @@
     "52018510cede8419",
     "efcaf801c0743ac5"
   ],
+  "Shell": [
+    "245d64602db70626"
+  ],
   "Shoppings": [
     "6e5af6ba6bb5d67c"
   ],
@@ -733,6 +732,9 @@
   "Stock & Superseis": [
     "7d88cc745f7b4029",
     "4c0c98907971091b"
+  ],
+  "Super Real": [
+    "d6c367ffeaac383a"
   ],
   "Supermercados": [
     "2cfb9cd8678d662c",
@@ -869,7 +871,6 @@
     "36c333abaf98351d",
     "7c871f73bfc8fc10",
     "98035059a53c1862",
-    "bd9293b83306ecfd",
     "4d002b503294076f",
     "451c9913e2558be2",
     "c1cd11ef0944f1b5",
@@ -1287,7 +1288,6 @@
     "1bc0de3ea20fe412",
     "25fd890fd0e39859",
     "b8ea70e53bed907f",
-    "742af6dd7201afb4",
     "02aff17aa83896d2",
     "d68b31fae45052e1",
     "9240c7d4b41684d1",
@@ -1411,7 +1411,6 @@
     "932ca3ebacfcf706"
   ],
   "Últimos días": [
-    "ece8d8eba5164c2c",
     "6a5f1c6281a786a5",
     "1f15d33cd35a9d3a",
     "0f94c6cdd9fdcd94",

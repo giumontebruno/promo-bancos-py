@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 109
+Total de beneficios: 107
 
 ## Belleza y Salud
 
@@ -64,11 +64,11 @@ Total de beneficios: 109
 | AVENTURA PARK | 10 % 10 Cuotas sin intereses; Tenés 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2018-01-01 hasta 2026-09-30 |
 | Estoy Jugueteria | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2025-06-06 hasta 2026-12-25 |
 
-## STRADIVARIUS
+## Shell
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| STRADIVARIUS | 20 % 10 Cuotas sin intereses; Tenes 20% de reintegro y hasta 10 cuotas sin intereses | No especificado | 2026-09-10 hasta 2026-09-12 |
+| Shell | 20 %; 20% de reintegro con tu tarjeta de Crédito clásica | todos los lunes | 2026-01-05 hasta 2026-09-28 |
 
 ## Stock & Superseis
 
@@ -77,6 +77,12 @@ Total de beneficios: 109
 | Stock | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-09-30 |
 | SuperSeis | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-09-30 |
 
+## Super Real
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Super Real | 15 %; 15% de ahorro. | Aplica los LUNES | 2025-10-06 hasta 2026-09-30 |
+
 ## Supermercados
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -84,7 +90,6 @@ Total de beneficios: 109
 | Areté | 15 %; Tenes 15% de ahorro. | Aplica los domingos | 2026-01-04 hasta 2026-09-30 |
 | CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-10-06 |
 | Delimarket | 20 %; 20% de reintegro | todos los sábados | 2025-09-06 hasta 2026-09-30 |
-| Super Real | 15 %; 15% de ahorro. | Aplica los LUNES | 2025-10-06 hasta 2026-09-30 |
 
 ## Teatro
 
@@ -132,7 +137,6 @@ Total de beneficios: 109
 | RAICES REAL ESTATE | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses. | No especificado | 2026-05-25 hasta 2026-09-20 |
 | Rondina | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Sallustro | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
-| Shell | 20 %; 20% de reintegro con tu tarjeta de Crédito clásica | todos los lunes | 2026-01-05 hasta 2026-09-28 |
 | Sport House | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | TL Sports & Outdoors | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Timberland | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
@@ -182,7 +186,6 @@ Total de beneficios: 109
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| CIRKO MARISKO | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-06-02 hasta 2026-09-12 |
 | COYOTE | 25 % Hasta; Tenes 20% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses. | No especificado | 2026-09-04 hasta 2026-09-15 |
 | FACUNDO ARANA SOBRE LA MARCHA | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-01 hasta 2026-09-15 |
 | Feria Asunción | 10 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro más 5% adicional pagando con Google Pay y Apple Pay y hasta 10 cuotas sin intereses. | No especificado | 2025-08-08 hasta 2026-09-13 |

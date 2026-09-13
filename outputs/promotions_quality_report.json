@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T11:39:21.843313+00:00",
-  "input_count": 1258,
-  "promotion_count": 1258,
+  "generated_at": "2026-09-13T12:44:43.105653+00:00",
+  "input_count": 1255,
+  "promotion_count": 1255,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -327,12 +327,12 @@
     "BNF": 5,
     "Continental": 744,
     "Coop. Universitaria": 77,
-    "Itaú": 109,
-    "Sudameris": 49,
+    "Itaú": 107,
+    "Sudameris": 48,
     "ueno bank": 231
   },
   "issue_counts": {
-    "validity_unconfirmed": 86,
+    "validity_unconfirmed": 85,
     "limits_unconfirmed": 76,
     "multiple_purchase_limits": 280,
     "multiple_refund_limits": 89
@@ -3142,6 +3142,15 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1776972720.pdf"
     },
     {
+      "id": "245d64602db70626",
+      "bank": "Itaú",
+      "merchant": "Shell",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291"
+    },
+    {
       "id": "98035059a53c1862",
       "bank": "Itaú",
       "merchant": "Delimarket",
@@ -3149,15 +3158,6 @@
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16584&c=30064"
-    },
-    {
-      "id": "742af6dd7201afb4",
-      "bank": "Itaú",
-      "merchant": "Shell",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291"
     },
     {
       "id": "7fca8ed534f6adcd",
@@ -3239,15 +3239,6 @@
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/738/detalle"
-    },
-    {
-      "id": "fdfef93731ba0c6c",
-      "bank": "Sudameris",
-      "merchant": "MANTECA SESSIONS",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/878/detalle"
     },
     {
       "id": "fb152a7d1fb1b1f3",

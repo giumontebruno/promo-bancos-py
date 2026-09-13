@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T11:38:54+00:00",
+  "generated_at": "2026-09-13T12:44:15+00:00",
   "provider": "Official bank branch lists + reviewed location matches",
   "total_locations": 1743,
   "geocoded_locations": 518,
@@ -55,7 +55,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:55.245183+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:16.381778+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJAWONQQC0XZQR3RZ4M_SpOOQ"
     },
@@ -370,9 +370,9 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:55.676810+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:16.824711+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJPVMlUounXZQRDMEHG_ZCxLQ"
+      "google_candidate_place_id": "ChIJ54LqOgCpXZQRPOdeCyAJBMo"
     },
     {
       "id": "loc-e30f8ee76a",
@@ -425,7 +425,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:56.089733+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:17.265120+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJwVEW5_qnXZQR7hzBa0WZxYM"
     },
@@ -506,7 +506,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:56.476653+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:17.673219+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJZVXrwe6zXZQRr_iBJ4RtNc0"
     },
@@ -535,7 +535,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:56.852740+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:18.170031+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJIULMYQazXZQRQRg8orTdrF8"
     },
@@ -702,7 +702,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:57.235917+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:18.536429+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJXbIZbSmpXZQRcF7UvukqJVw"
     },
@@ -755,7 +755,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:57.631847+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:19.006639+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ1R7tGDGnXZQRCxKFrns4YDU"
     },
@@ -784,7 +784,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:57.986805+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:19.493516+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJfWps1j6pXZQRLbi8et-L8Rk"
     },
@@ -891,7 +891,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:58.375053+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:19.893433+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJy3ZthHWpXZQRIjzaAfHW_m0"
     },
@@ -1154,7 +1154,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:58.750555+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:20.279355+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJm4K3V-qjXZQRA-jxfJ7XVxs"
     },
@@ -1210,9 +1210,9 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:59.106579+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:20.650425+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJ_QR3e6KvXZQRYX5cjXBep4M"
+      "google_candidate_place_id": "ChIJP-7Ui4-vXZQRBsZnKWx0wVI"
     },
     {
       "id": "loc-1fc15a1ea6",
@@ -1317,7 +1317,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:59.497650+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:21.050793+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ8_UQkgylXZQRhOvOXd-0ZSo"
     },
@@ -1554,7 +1554,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:38:59.949346+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:21.479364+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ8wIXYkekXZQRR-ZPqHMK1IM"
     },
@@ -1583,7 +1583,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:00.324749+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:21.897081+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ8wIXYkekXZQRR-ZPqHMK1IM"
     },
@@ -1612,7 +1612,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:00.725108+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:22.300201+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJFZe1zW2kXZQR-3bIjjpoiDo"
     },
@@ -1720,7 +1720,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:01.127213+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:22.679876+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJfSFEB3SsXZQR95WMR92RLHU"
     },
@@ -1829,7 +1829,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:01.568891+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:23.120826+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJS9XcajkVXJQRU_G3QWXELY8"
     },
@@ -1936,7 +1936,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:01.917003+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:23.481322+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJiwxUQTetXZQRXCzZiNoTYvY"
     },
@@ -2042,7 +2042,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:02.347775+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:23.899875+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJdYvtE32sXZQRnWcfz63aeWY"
     },
@@ -2149,7 +2149,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:02.736395+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:24.373103+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJt2DgLHStXZQRKVmXZgEv-VA"
     },
@@ -2230,7 +2230,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:03.098649+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:24.785449+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJfWFMrYOuXZQRQRYGTFTkHM0"
     },
@@ -2337,7 +2337,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:03.481792+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:25.235142+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJK1b9RWKpXZQRzKN5VItnhEY"
     },
@@ -2392,7 +2392,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:03.853624+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:25.604331+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJK1b9RWKpXZQRzKN5VItnhEY"
     },
@@ -2421,7 +2421,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:04.229456+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:26.008685+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJSRWdydqrXZQRQMXcEEhnkII"
     },
@@ -2632,7 +2632,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:04.621059+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:26.420172+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJBQa0dQCpXZQRooAGwqLXfLY"
     },
@@ -2689,7 +2689,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:04.964148+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:26.788692+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJbwOvVh6xXZQRJ4eSyyCd9y0"
     },
@@ -2719,7 +2719,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:05.342745+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:27.208107+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJmzEQMLypXZQRSse6Ep-pluk"
     },
@@ -2856,9 +2856,9 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:05.740519+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:27.624411+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJuW3xr-OnXZQRk35rL9MRmO0"
+      "google_candidate_place_id": "ChIJLai9mb6nXZQR-dUhXqlTOIg"
     },
     {
       "id": "loc-37429eb59a",
@@ -2886,9 +2886,9 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:06.120637+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:27.992747+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJb2WleSemXZQRC0lOs1Waq50"
+      "google_candidate_place_id": "ChIJJVwT_SqmXZQRfHhFtr7ttPU"
     },
     {
       "id": "loc-e6944d9ec7",
@@ -3052,7 +3052,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:06.527091+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:28.382435+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJhVjfsCqpXZQRMz7aR5ahaBI"
     },
@@ -3459,7 +3459,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:06.867374+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:28.738733+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ2-Ggj3WpXZQRZRUTRfiXtg4"
     },
@@ -3489,7 +3489,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:07.267492+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:29.117309+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ2-Ggj3WpXZQRZRUTRfiXtg4"
     },
@@ -3519,7 +3519,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:07.647656+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:29.552817+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJh6-8fjmmXZQRNqK4P3Oo3oQ"
     },
@@ -3603,7 +3603,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:08.044549+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:29.982026+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJSQMVoJmoXZQRzt0Cz-_zLgE"
     },
@@ -3741,7 +3741,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:08.438456+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:30.403389+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJj8cP46anXZQRwLI62s-ss8A"
     },
@@ -3798,9 +3798,9 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:08.845847+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:30.808336+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJz3tfaKCoXZQRiUuUlbIT998"
+      "google_candidate_place_id": "ChIJ70T8UiqmXZQR2JUnrOoaiso"
     },
     {
       "id": "loc-e314866941",
@@ -4044,7 +4044,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:09.258780+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:31.214394+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ70T8UiqmXZQR2JUnrOoaiso"
     },
@@ -4236,7 +4236,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:09.611224+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:31.583280+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJh6-8fjmmXZQRNqK4P3Oo3oQ"
     },
@@ -4990,7 +4990,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:09.977208+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:32.017232+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ0-F4MwCnXZQRZc8eZCf4Psg"
     },
@@ -5101,7 +5101,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:10.346038+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:32.381066+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJhciPnfOnXZQRfPwPObbgEGQ"
     },
@@ -5131,7 +5131,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:10.702163+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:32.763095+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJh6-8fjmmXZQRNqK4P3Oo3oQ"
     },
@@ -5161,7 +5161,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:11.046824+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:33.120140+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJV65SWOioXZQRMDZv9Egx4YU"
     },
@@ -5218,7 +5218,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:11.393032+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:33.493404+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJJX5HEgCpXZQRfoApGqN0xZg"
     },
@@ -5383,7 +5383,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:11.760295+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:33.901439+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJoy2kxOWnXZQRuLDk51sJKGk"
     },
@@ -5521,7 +5521,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:12.112647+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:34.273239+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJjaLIlXioXZQRBhtxTSO1FBQ"
     },
@@ -5796,7 +5796,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:12.510028+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:34.664233+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ6XI9yyezXZQRwKp5Yagdvbg"
     },
@@ -6148,7 +6148,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:12.888577+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:35.046452+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJsV4-8MWtXZQR12vk8TQumYY"
     },
@@ -6178,7 +6178,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:13.279306+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:35.470449+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJgxZQWSqpXZQRZrgJ_a6esAg"
     },
@@ -6289,7 +6289,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:13.640956+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:35.831055+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJdZ70lYOvXZQRRAkI3bPjoHU"
     },
@@ -6454,7 +6454,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:14.024525+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:36.219096+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJy5f0biAIXZQRN3C-jIXtBZ4"
     },
@@ -6892,7 +6892,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:14.378665+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:36.570334+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJI6KEbR5JXJQRejVIw7Zj2hU"
     },
@@ -7003,7 +7003,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:14.763058+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:36.974294+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ8a31DABNXJQR2EvQj34vTas"
     },
@@ -7169,7 +7169,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:15.125669+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:37.340245+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ71jVOEqoXZQRtYfkzf7ojA4"
     },
@@ -7385,7 +7385,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:15.499689+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:37.739438+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJAUbPMs-pXZQRSYt2_uBR1AQ"
     },
@@ -7496,7 +7496,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:15.924357+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:38.202457+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ77OQSF6jXZQRMR7oTEzGgq0"
     },
@@ -7526,7 +7526,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:16.292916+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:38.581454+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJWXAYXVqjXZQRzUKC92fe1UE"
     },
@@ -7556,7 +7556,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:16.633500+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:38.913407+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ77OQSF6jXZQRMR7oTEzGgq0"
     },
@@ -7748,9 +7748,9 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:17.029999+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:39.309567+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJG1ZvnSOvXZQRQip13jJW4ZE"
+      "google_candidate_place_id": "ChIJWfhdsfyvXZQRvGmBbxURoNA"
     },
     {
       "id": "loc-7205fee660",
@@ -7803,7 +7803,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:17.410999+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:39.670859+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJgyz1eACvXZQRXlFRP3Ya0DE"
     },
@@ -7860,7 +7860,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
-      "google_last_attempt_at": "2026-09-12T11:39:17.773507+00:00",
+      "google_last_attempt_at": "2026-09-13T12:44:40.032777+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJUV4dRYmvXZQRmuoxLmtwywM"
     },
@@ -33161,5 +33161,5 @@
   ],
   "google_enriched_locations": 492,
   "google_enrichment_focus": "Asunción y Gran Asunción",
-  "locations_updated_at": "2026-09-12T11:39:17+00:00"
+  "locations_updated_at": "2026-09-13T12:44:40+00:00"
 }
