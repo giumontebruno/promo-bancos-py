@@ -236,3 +236,4 @@ dialog::backdrop { background: #08090cc7; }
   .map-stage { height: 360px; min-height: 320px; }
 }
 @media (prefers-reduced-motion: reduce) { .promo-card:hover { transform: none; } }
+:is(.controls, #refreshButton)[hidden] { display: none !important; }

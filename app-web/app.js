@@ -1142,6 +1142,9 @@ function renderIcon(name) {
 
 function render() {
   state.promotions = state.promotions.filter(isActivePromotion);
+  const personalView = state.activeView === "alerts" || state.activeView === "favorites";
+  document.querySelector(".controls").hidden = personalView;
+  els.refreshButton.hidden = personalView;
   renderTabs();
   renderBottomNav();
 
@@ -1155,14 +1158,14 @@ function render() {
   }
 
   const base = state.promotions
-    .filter(matchesBank)
-    .filter(matchesCategory)
-    .filter(matchesQuery)
+    .filter((promo) => personalView || matchesBank(promo))
+    .filter((promo) => personalView || matchesCategory(promo))
+    .filter((promo) => personalView || matchesQuery(promo))
     .filter(matchesActiveView)
     .filter((promo) => state.query.trim() ? true : matchesSelectedDay(promo))
     .sort(sortByDayDisplayPriority);
 
-  const hasQuery = Boolean(state.query.trim());
+  const hasQuery = !personalView && Boolean(state.query.trim());
   els.statusText.textContent = state.activeView === "favorites"
     ? "Tus promociones guardadas"
     : hasQuery
@@ -1198,10 +1201,10 @@ function render() {
 }
 
 function renderSectionCards(items, mode = "") {
-  const premiumOnly = mode === "premium" || state.activeCategory === PREMIUM_CATEGORY;
+  const premiumOnly = mode === "premium" || (state.activeView !== "favorites" && state.activeCategory === PREMIUM_CATEGORY);
   return items.flatMap((promo) => {
     const variants = getPromoVariants(promo);
-    const visibleVariants = premiumOnly
+    const visibleVariants = state.activeView === "favorites" ? variants : premiumOnly
       ? variants.filter((variant) => variant?.kind === "premium")
       : variants.filter((variant) => variant?.kind !== "premium");
     return (visibleVariants.length ? visibleVariants : variants).map((variant) => renderCard(promo, variant));
@@ -1216,6 +1219,7 @@ function shouldCollapseSection(title, mode, index) {
 }
 
 function buildResultSections(promos) {
+  if (state.activeView === "favorites") return [["Tus favoritos", promos, "favorites"]];
   if (state.query.trim()) return buildSearchSections(promos);
   if (state.activeView === "today" && state.activeBank === "Todos" && state.activeCategory === "Todas") {
     return buildHomeSections(promos);
@@ -3064,6 +3068,9 @@ els.bottomNav.addEventListener("click", (event) => {
     state.activeDay = "hoy";
   }
   render();
+  if (view === "alerts" || view === "favorites") {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   if (view === "search") {
     els.searchInput.focus({ preventScroll: true });
     window.setTimeout(() => {
