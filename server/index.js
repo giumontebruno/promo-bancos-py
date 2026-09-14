@@ -1,5 +1,6 @@
 import { buildPushPayload } from '@block65/webcrypto-web-push';
 import { isDue, notificationBenefit, todayParts } from './schedule.js';
+import { handleBeta, betaIdentity } from './beta.js';
 
 const APP_URL = 'https://giumontebruno.github.io/promo-bancos-py/app-web/';
 const DATA_URL = new URL('../public/promotions.json', APP_URL).href;
@@ -19,6 +20,7 @@ export function validSubscription(subscription) {
 
 async function handle(request, env) {
   const url = new URL(request.url);
+  if (url.pathname.startsWith('/api/beta/')) return handleBeta(request, env);
   if (url.pathname === '/api/push/config' && request.method === 'GET') {
     return json({ enabled: Boolean(env.DB && env.VAPID_PUBLIC_KEY && env.VAPID_PRIVATE_KEY), publicKey: env.VAPID_PUBLIC_KEY || null });
   }
@@ -46,10 +48,13 @@ async function handle(request, env) {
       || body.favorites.some(id => typeof id !== 'string' || !/^[a-f0-9-]{16,40}$/.test(id))) return json({ error: 'Suscripción inválida' }, 400);
     const level = Number(body.uenoLevel || 1);
     if (!Number.isInteger(level) || level < 1 || level > 5) return json({ error: 'Nivel inválido' }, 400);
-    await env.DB.prepare(`INSERT INTO devices (id, token_hash, subscription, favorites, ueno_level, updated_at)
-      VALUES (?, ?, ?, ?, ?, ?) ON CONFLICT(token_hash) DO UPDATE SET subscription=excluded.subscription,
-      favorites=excluded.favorites, ueno_level=excluded.ueno_level, updated_at=excluded.updated_at`)
-      .bind(crypto.randomUUID(), tokenHash, JSON.stringify(body.subscription), JSON.stringify([...new Set(body.favorites)]), level, new Date().toISOString()).run();
+    const accountToken = request.headers.get('X-Account-Token');
+    const account = accountToken ? await betaIdentity(request, env, accountToken) : null;
+    if (accountToken && !account) return json({ error: 'Sesión de beta vencida' }, 401);
+    await env.DB.prepare(`INSERT INTO devices (id, token_hash, subscription, favorites, ueno_level, updated_at, account_id)
+      VALUES (?, ?, ?, ?, ?, ?, ?) ON CONFLICT(token_hash) DO UPDATE SET subscription=excluded.subscription,
+      favorites=excluded.favorites, ueno_level=excluded.ueno_level, updated_at=excluded.updated_at, account_id=excluded.account_id`)
+      .bind(crypto.randomUUID(), tokenHash, JSON.stringify(body.subscription), JSON.stringify([...new Set(body.favorites)]), level, new Date().toISOString(), account?.id || null).run();
     return json({ ok: true });
   }
   if (url.pathname === '/api/push/dispatch' && request.method === 'POST') {
@@ -66,6 +71,13 @@ async function handle(request, env) {
     const { results } = await env.DB.prepare('SELECT * FROM devices WHERE id > ? ORDER BY id LIMIT 20').bind(cursor).all();
     let sent = 0, failed = 0;
     for (const device of results) {
+      if (device.account_id) {
+        const account = await env.DB.prepare('SELECT ueno_level FROM beta_accounts WHERE id=?').bind(device.account_id).first();
+        if (!account) continue;
+        const saved = await env.DB.prepare('SELECT promo_id FROM beta_favorites WHERE account_id=?').bind(device.account_id).all();
+        device.favorites = JSON.stringify(saved.results.map(r => r.promo_id));
+        device.ueno_level = account.ueno_level;
+      }
       const favorites = new Set(JSON.parse(device.favorites).map(id => aliases[id] || id));
       const due = promotions.filter(p => favorites.has(p.id) && isDue(p)).map(p => ({ promo: p, benefit: notificationBenefit(p, device.ueno_level) })).filter(p => p.benefit);
       if (!due.length) continue;
@@ -105,7 +117,7 @@ export default {
     const allowed = !origin || origin === ownOrigin || origin === 'https://giumontebruno.github.io';
     if (!allowed) return json({ error: 'Origen no permitido' }, 403);
     const headers = { 'Access-Control-Allow-Origin': origin || ownOrigin, 'Vary': 'Origin',
-      'Access-Control-Allow-Methods': 'GET, PUT, DELETE, POST, OPTIONS', 'Access-Control-Allow-Headers': 'Authorization, Content-Type' };
+      'Access-Control-Allow-Methods': 'GET, PUT, DELETE, POST, OPTIONS', 'Access-Control-Allow-Headers': 'Authorization, Content-Type, X-Account-Token' };
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers });
     try {
       const result = await handle(request, env);

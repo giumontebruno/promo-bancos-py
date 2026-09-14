@@ -33,8 +33,9 @@
     const registration = await registrationReady();
     const subscription = await registration.pushManager.getSubscription();
     if (!subscription) { localStorage.removeItem(ENABLED_KEY); return; }
+    const accountToken = await root.PaybackBeta?.accessToken();
     const response = await fetch((await endpoint()) + '/api/push/device', {
-      method: 'PUT', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + token() },
+      method: 'PUT', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + token(), ...(accountToken ? { 'X-Account-Token': 'Bearer ' + accountToken } : {}) },
       body: JSON.stringify({ subscription: subscription.toJSON(), favorites: [...favorites].slice(0, 100), uenoLevel }),
       signal: AbortSignal.timeout(15000),
     });

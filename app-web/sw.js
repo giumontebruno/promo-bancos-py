@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-v20260914-mobile";
+const CACHE_NAME = "payback-py-beta-1";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,6 +6,7 @@ const APP_SHELL = [
   "./app.js",
   "./benefit-rules.js",
   "./push-client.js",
+  "./beta-bundle.js",
   "./premium.css",
   "./config.js",
   "./manifest.webmanifest",

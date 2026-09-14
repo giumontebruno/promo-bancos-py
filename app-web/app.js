@@ -1308,7 +1308,7 @@ function renderBottomNav() {
 }
 
 function renderAlertsView() {
-  els.statusText.textContent = state.user?.name ? `Perfil: ${state.user.name}` : "Perfil local";
+  els.statusText.textContent = window.PaybackBeta?.current ? `Beta: ${PaybackBeta.current.email}` : state.user?.name ? `Perfil: ${state.user.name}` : "Perfil local";
   els.countText.textContent = `${state.favorites.size} favoritos`;
   els.results.innerHTML = `
     <section class="profile-panel">
@@ -1316,10 +1316,11 @@ function renderAlertsView() {
         <span class="profile-logo"><img src="./assets/logos/payback-py.svg" alt="" /></span>
         <div>
           <h2>${state.user?.name ? `Hola, ${escapeHtml(state.user.name)}` : "Activá tu perfil Payback"}</h2>
-          <p>Guardamos tus favoritos y preferencias en este teléfono.</p>
+          <p>${window.PaybackBeta?.current ? "Tus favoritos están vinculados a tu cuenta beta." : "Guardamos tus favoritos y preferencias en este teléfono."}</p>
         </div>
       </div>
       ${renderFavoriteAlerts()}
+      <button type="button" class="notification-action" data-beta-open>Cuenta beta y comentarios</button>
       <form id="profileForm" class="profile-form">
         <label>
           Nombre
@@ -1335,7 +1336,7 @@ function renderAlertsView() {
         </label>
         <button type="submit">Guardar perfil</button>
       </form>
-      <div class="profile-note">${PaybackPush.enabled() ? "Tus favoritos se sincronizan con los avisos de este dispositivo." : "Tus favoritos están guardados en este dispositivo."}</div>
+      <div class="profile-note">${window.PaybackBeta?.current ? "Favoritos de tu cuenta. El nombre y las preferencias de visualización son locales." : PaybackPush.enabled() ? "Tus favoritos se sincronizan con los avisos de este dispositivo." : "Tus favoritos están guardados en este dispositivo."}</div>
     </section>
   `;
 }
@@ -2221,6 +2222,13 @@ async function loadLocations() {
 
 function toggleFavorite(id) {
   if (!id) return;
+  if (window.PaybackBeta?.current) {
+    PaybackBeta.favorite(id, !state.favorites.has(id)).catch(error => {
+      state.pushMessage = error.message;
+      els.statusText.textContent = error.message;
+    });
+    return;
+  }
   if (state.favorites.has(id)) {
     state.favorites.delete(id);
   } else {
@@ -2798,12 +2806,14 @@ function openDetail(id, variantKey = "", placeId = "") {
   const place = placeId ? state.locations.find((item) => (item.id || getPlaceGroupKey(item)) === placeId) : null;
   const promo = place ? withNearbyPlaceContext(basePromo, place) : basePromo;
   if (!promo) return;
+  window.PaybackBeta?.event('promo_open');
   const variant = getVariantByKey(promo, variantKey);
   const isFavorite = state.favorites.has(promo.id);
   const levelDetails = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   const savings = getEstimatedSavings(promo, null, variant);
   els.dialogContent.innerHTML = `
     <h2>${escapeHtml(getPromoTitle(promo))}</h2>
+    <button type="button" class="detail-inline-action" data-beta-report-id="${escapeAttribute(promo.id)}">Reportar datos incorrectos</button>
     ${variant?.kind === "premium" ? `<span class="premium-badge detail-premium">${escapeHtml(variant.label)}</span>` : ""}
     <p class="benefit">${escapeHtml(getDisplayBenefit(promo, variant))}</p>
     ${savings.refundCap ? `<div class="detail-saving"><span>Ahorro máximo estimado</span><strong>${escapeHtml(formatGuarani(savings.refundCap))}</strong></div>` : ""}
@@ -2837,7 +2847,7 @@ async function loadPromotions() {
     const manifest = await manifestResponse.json();
     state.lastUpdated = manifest.generated_at || "";
     state.favorites = new Set([...state.favorites].map(id => manifest.favorite_aliases?.[id] || id));
-    saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
+    if (!window.PaybackBeta?.current) saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
   }
   state.promotions = uniquePromos((await response.json()).filter(shouldShowPromotion));
   syncFavoriteAlerts();
@@ -2902,6 +2912,10 @@ els.dayTabs.addEventListener("click", (event) => {
 els.uenoLevelPanel.addEventListener("click", (event) => {
   const level = Number(event.target.closest("button")?.dataset?.level);
   if (!level) return;
+  if (window.PaybackBeta?.current) {
+    PaybackBeta.level(level).catch(error => { els.statusText.textContent = error.message; });
+    return;
+  }
   state.uenoLevel = level;
   saveStoredJson("paybackPy.uenoLevel", level);
   syncFavoriteAlerts();
@@ -3069,6 +3083,13 @@ els.closeDialog.addEventListener("click", () => els.dialog.close());
 els.refreshButton.addEventListener("click", () => loadPromotions().catch((error) => {
   els.statusText.textContent = error.message;
 }));
+
+window.addEventListener('beta-account', event => {
+  state.favorites = new Set(event.detail ? event.detail.favorites : loadStoredJson(STORAGE_KEYS.favorites, []));
+  state.uenoLevel = event.detail ? event.detail.uenoLevel : loadStoredJson('paybackPy.uenoLevel', 1);
+  syncFavoriteAlerts();
+  render();
+});
 
 loadPromotions().catch((error) => {
   els.statusText.textContent = error.message;

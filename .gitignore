@@ -8,6 +8,7 @@ outputs/*.zip
 outputs/*.png
 node_modules/
 dist/
+app-web/beta-bundle.js
 .env.*
 !.env.example
 output/playwright/

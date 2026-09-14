@@ -8,6 +8,13 @@
       "when": 1788958005687,
       "tag": "0000_flat_rocket_raccoon",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1789403042435,
+      "tag": "0001_friendly_punisher",
+      "breakpoints": true
     }
   ]
 }

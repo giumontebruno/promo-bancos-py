@@ -1,6 +1,7 @@
 import { build } from 'esbuild';
 import { cp, mkdir, readFile, writeFile } from 'node:fs/promises';
 await mkdir('dist/server', { recursive: true });
+await build({ entryPoints: ['app-web/beta-client.js'], bundle: true, format: 'iife', platform: 'browser', target: 'es2022', outfile: 'app-web/beta-bundle.js', minify: true });
 await build({ entryPoints: ['server/index.js'], bundle: true, format: 'esm', platform: 'browser', target: 'es2022', outfile: 'dist/server/index.js' });
 await cp('app-web', 'dist/client/app-web', { recursive: true });
 await cp('public', 'dist/client/public', { recursive: true });

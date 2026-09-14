@@ -205,6 +205,17 @@ dialog::backdrop { background: #08090cc7; }
   .bank-tabs button { gap: 4px; }
   .bank-dot { width: 5px; height: 5px; flex-basis: 5px; }
 }
+.beta-dialog label { display: grid; gap: 7px; margin: 12px 0; font-size: 14px; }
+.beta-dialog .check-row { display: flex; align-items: flex-start; }
+.beta-dialog input:not([type=checkbox]), .beta-dialog textarea, .beta-dialog select { width: 100%; min-width: 0; box-sizing: border-box; background: #17191c; color: #f4f5f6; border: 1px solid #42474e; border-radius: 6px; padding: 10px; font: inherit; }
+.beta-dialog p { font-size: 14px; line-height: 1.5; color: #b9bec6; }
+.beta-dialog button:not(.close-button) { background: #23262a; border: 1px solid #ff5964; border-radius: 6px; color: #f4f5f6; padding: 10px 12px; cursor: pointer; }
+.beta-dialog button:disabled { opacity: .6; cursor: wait; }
+.beta-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.beta-table { max-width: 100%; overflow-x: auto; }
+.beta-table table { border-collapse: collapse; font-size: 12px; }
+.beta-table td, .beta-table th { padding: 9px; border-bottom: 1px solid #42474e; text-align: left; }
+.beta-report { padding: 12px 0; border-bottom: 1px solid #42474e; overflow-wrap: anywhere; }
 /* Prevent intrinsic map and branch content widths from enlarging the page. */
 .results, .nearby-panel, .selected-place-panel, .place-list, .place-list-item { min-width: 0; max-width: 100%; }
 .nearby-panel { grid-template-columns: minmax(0, 1fr); }
