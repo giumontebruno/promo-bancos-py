@@ -205,4 +205,23 @@ dialog::backdrop { background: #08090cc7; }
   .bank-tabs button { gap: 4px; }
   .bank-dot { width: 5px; height: 5px; flex-basis: 5px; }
 }
+/* Prevent intrinsic map and branch content widths from enlarging the page. */
+.results, .nearby-panel, .selected-place-panel, .place-list, .place-list-item { min-width: 0; max-width: 100%; }
+.nearby-panel { grid-template-columns: minmax(0, 1fr); }
+.map-stage { width: 100%; min-width: 0; max-width: 100%; contain: inline-size; }
+.leaflet-map { width: 100%; max-width: 100%; }
+.selected-place-head { flex-wrap: wrap; }
+.map-bank-badges { flex-wrap: wrap; max-width: 100%; }
+.place-list button { min-width: 0; max-width: 100%; }
+.bank-tabs button, .category-tabs button { overflow-wrap: normal; word-break: normal; }
+.location-button, .location-button.is-loading { background: #ff5964; color: #18191c; border-radius: 8px; box-shadow: none; }
+.location-button.secondary { background: #23262a; color: #ff8890; border-color: #ff5964; }
+.location-button:hover { box-shadow: 0 0 0 3px #ff596426; }
+@media (max-width: 440px) {
+  .category-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bank-tabs { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .bank-tabs button { white-space: nowrap; }
+  .nearby-hero { flex-wrap: wrap; }
+  .map-stage { height: 360px; min-height: 320px; }
+}
 @media (prefers-reduced-motion: reduce) { .promo-card:hover { transform: none; } }
