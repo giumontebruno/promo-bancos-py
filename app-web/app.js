@@ -1111,7 +1111,7 @@ function isExclusiveToDay(promo, day) {
 
 function renderTabs() {
   els.bankTabs.innerHTML = BANKS.map((bank) => (
-    `<button class="${state.activeBank === bank ? "active" : ""}" data-bank="${bank}" style="${getBankTabStyle(bank)}">${escapeHtml(getBankLabel(bank))}</button>`
+    `<button class="${state.activeBank === bank ? "active" : ""}" aria-pressed="${state.activeBank === bank}" data-bank="${bank}" style="${getBankTabStyle(bank)}">${bank !== "Todos" ? '<span class="bank-dot" aria-hidden="true"></span>' : ""}${escapeHtml(getBankLabel(bank))}</button>`
   )).join("");
 
   const categories = getCategories();
@@ -1744,12 +1744,12 @@ function renderGoogleNearbyMap(points, selectedPlace) {
     streetViewControl: false,
     zoomControl: false,
     styles: [
-      { elementType: "geometry", stylers: [{ color: "#071629" }] },
-      { elementType: "labels.text.fill", stylers: [{ color: "#d7e2ef" }] },
-      { elementType: "labels.text.stroke", stylers: [{ color: "#071629" }] },
-      { featureType: "road", elementType: "geometry", stylers: [{ color: "#1f3449" }] },
+      { elementType: "geometry", stylers: [{ color: "#202326" }] },
+      { elementType: "labels.text.fill", stylers: [{ color: "#d5d8dc" }] },
+      { elementType: "labels.text.stroke", stylers: [{ color: "#202326" }] },
+      { featureType: "road", elementType: "geometry", stylers: [{ color: "#42474c" }] },
       { featureType: "road", elementType: "labels.icon", stylers: [{ visibility: "off" }] },
-      { featureType: "water", elementType: "geometry", stylers: [{ color: "#06101f" }] },
+      { featureType: "water", elementType: "geometry", stylers: [{ color: "#173844" }] },
       { featureType: "poi", stylers: [{ visibility: "off" }] },
     ],
   });
@@ -2737,6 +2737,18 @@ function formatGuarani(value) {
   return `Gs. ${number.toLocaleString("es-PY")}`;
 }
 
+function getMerchantLogo(promo) {
+  const name = normalizeDayName(promo._sourceMerchantName || promo.merchant_name || "");
+  const brands = [
+    [/^shell(?:\s|$)/, "shell.svg", "Shell"],
+    [/^farmacenter(?:\s|$)/, "farmacenter.svg", "Farmacenter"],
+    [/^(?:deli\s?market)(?:\s|$)/, "delimarket.png", "Delimarket"],
+    [/^(?:farmacias?\s+)?catedral(?:\s|$)/, "catedral.svg", "Farmacias Catedral"],
+  ];
+  const match = brands.find(([pattern]) => pattern.test(name));
+  return match ? { src: `./assets/merchants/${match[1]}`, label: match[2] } : null;
+}
+
 function renderCard(promo, variant = null) {
   const theme = getBankTheme(promo.bank);
   const benefitLines = getBenefitLines(promo, variant);
@@ -2748,18 +2760,19 @@ function renderCard(promo, variant = null) {
   const savings = getEstimatedSavings(promo, null, variant);
   const savingsLabel = savings.refundCap ? `Ahorro max. ${formatGuarani(savings.refundCap)}` : "";
   const logoClass = `bank-logo-${normalizeDayName(promo.bank).replace(/[^a-z0-9]+/g, "-")}`;
+  const merchantLogo = getMerchantLogo(promo);
   const premiumBadge = isPremium ? `<span class="premium-badge">${escapeHtml(variant.label)}</span>` : "";
   const powerBadge = isPowerPromo
     ? `<span class="power-badge" title="Promo ueno+ POWER"><img src="${escapeAttribute(bankThemes["ueno bank"].logo)}" alt="" />ueno+ POWER</span>`
     : "";
   return `
     <article tabindex="0" aria-label="${escapeAttribute(getPromoTitle(promo))}" class="promo-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""}" data-id="${promo.id}" data-variant="${escapeAttribute(getVariantKey(promo, variant))}" data-place-id="${escapeAttribute(promo._nearbyPlaceId || "")}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
-      <div class="logo-box">${theme.logo ? `<img class="${escapeAttribute(logoClass)}" src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(getBankLabel(promo.bank))}" />` : ""}</div>
+      <div class="logo-box">${merchantLogo ? `<img class="merchant-logo" src="${escapeAttribute(merchantLogo.src)}" alt="${escapeAttribute(merchantLogo.label)}" loading="lazy" />` : theme.logo ? `<img class="${escapeAttribute(logoClass)}" src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(getBankLabel(promo.bank))}" loading="lazy" />` : ""}</div>
       <div class="promo-content">
         <div class="promo-card-head">
           <div>
-            <div class="benefit-lines primary-benefit">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
             <h3 class="store-name">${renderCategoryIcon(categoryGroup)}<span>${escapeHtml(getPromoTitle(promo))}</span></h3>
+            <div class="benefit-lines primary-benefit">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
           </div>
           <div class="card-actions">
             ${premiumBadge || powerBadge}

@@ -143,4 +143,66 @@ dialog::backdrop { background: #040a08b8; backdrop-filter: blur(5px); }
   .dialog-card { padding: 14px; }
   .card-actions { flex-direction: column-reverse; align-items: end; }
 }
+/* Approved dark direction. Brand accents remain specific to each bank. */
+:root { --brand-cream: #f4f5f6; --brand-cream-muted: #b9bec6; --brand-line: #373b40; --brand-accent: #ff5964; background: #17191c; }
+body { background: #17191c; }
+:focus-visible { outline-color: #ff8890; }
+.app-shell { max-width: 1120px; }
+.icon-button, .search-box, .level-panel { background: #23262a; border-color: #373b40; }
+.filter-label, .eyebrow, .meta, #countText { color: #b9bec6; }
+.filter-group { border-color: #373b40; }
+.category-tabs button, .day-tabs button, .level-panel button { background: #23262a; border-color: #373b40; color: #e5e7eb; }
+.category-tabs button.active, .day-tabs button.active, .level-panel button.active { background: #ff5964; border-color: #ff5964; color: #18191c; }
+.bank-tabs button { display: flex; align-items: center; justify-content: center; gap: 6px; background: #23262a; border-color: #43474c; color: #f4f5f6; }
+.bank-dot { width: 7px; height: 7px; flex: 0 0 7px; border-radius: 50%; background: var(--tab-fill); }
+.bank-tabs button.active { background: var(--tab-fill); color: var(--tab-text); outline: 2px solid #f4f5f6; box-shadow: 0 0 0 5px #17191c; }
+.bank-tabs button.active .bank-dot { background: currentColor; }
+.section-count { background: #30343a; color: #e5e7eb; }
+.section-toggle::after { background: #373b40; }
+.collapsed .section-toggle { border-color: #373b40; }
+.promo-card { background: #23262a; border-color: #373b40; }
+.promo-card:hover { background: #2a2e33; border-color: var(--bank-main); }
+.logo-box img { object-fit: contain; }
+.logo-box img.merchant-logo { border-radius: 0; object-fit: contain; }
+.store-name { color: #f4f5f6; }
+.benefit-lines.primary-benefit { margin: 5px 0 6px; }
+.benefit-lines.primary-benefit span { background: transparent; border: 0; padding: 0 8px 0 0; color: #f4f5f6; font-size: 19px; line-height: 1.3; }
+.savings-line { color: #d9dde2; }
+.premium-card { background: #1b1b1c; border-color: #716347; }
+.premium-badge { background: #d8c18c; color: #211e17; }
+.bottom-nav { background: #23262af5; border-color: #42474e; }
+.bottom-nav button { color: #b9bec6; }
+.bottom-nav button.active { background: #ff5964; color: #18191c; }
+dialog, .dialog-card { background: #23262a; border-color: #42474e; }
+dialog::backdrop { background: #08090cc7; }
+.detail-row { border-color: #3a3e44; }
+.detail-row > span { color: #b9bec6; }
+.detail-row strong { color: #e5e7eb; }
+.detail-saving, .calculator, .close-button, .empty { background: #1c1f23; border-color: #41464e; }
+.favorite-alerts { border-color: #373b40; }
+.favorite-alerts p { color: #b9bec6; }
+.notification-action, .location-button { background: #ff5964; border-color: #ff5964; color: #18191c; }
+.map-stage { border-color: #42474e; background: #202326; }
+.nearby-hero, .nearby-place-sheet, .selected-place-panel { background: #23262a; border-color: #42474e; border-radius: 8px; box-shadow: none; }
+.place-list button { background: #23262a; border-color: #373b40; color: #f4f5f6; border-radius: 8px; }
+.place-list button.active { background: #30343a; border-color: #ff8890; }
+.map-user-center, .map-zoom-controls button { background: #23262a; color: #f4f5f6; border-color: #4a5059; display: grid; place-items: center; padding: 0; }
+.place-maps-link { background: #ff5964; color: #18191c; border-color: #ff5964; }
+@media (min-width: 900px) {
+  .app-shell { display: block; }
+  .controls { position: static; }
+  .bank-tabs { grid-template-columns: repeat(8, minmax(0, 1fr)); }
+  .category-tabs { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .filter-strip { display: grid; grid-template-columns: 1fr; gap: 14px; }
+  .summary { margin: 22px 0 12px; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .nearby-panel .grid { grid-template-columns: 1fr; }
+  .map-stage { height: 460px; }
+  .full-brand-logo { width: 280px; }
+}
+@media (max-width: 640px) {
+  .benefit-lines.primary-benefit span { font-size: 18px; }
+  .bank-tabs button { gap: 4px; }
+  .bank-dot { width: 5px; height: 5px; flex-basis: 5px; }
+}
 @media (prefers-reduced-motion: reduce) { .promo-card:hover { transform: none; } }
