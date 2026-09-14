@@ -200,6 +200,9 @@ def seed_locations():
 
 
 def build_bnf_locations():
+    verified = ROOT / 'outputs/bnf_branch_sources.json'
+    if verified.exists():
+        return json.loads(verified.read_text(encoding='utf-8'))
     locations = []
     for promo in extract_bnf.PROMOS:
         pdf_path = extract_bnf.download_pdf(promo["pdf"])
@@ -280,6 +283,9 @@ def main():
         (item.get("bank"), slug(item.get("merchant_name")), slug(item.get("address")), slug(item.get("city"))): item
         for item in previous.get("locations", [])
     }
+    previous_by_address = {}
+    for old in previous.get('locations', []):
+        previous_by_address.setdefault((old.get('bank'), slug(old.get('address')), slug(old.get('city'))), []).append(old)
     seen = set()
     unique = []
     for item in locations:
@@ -288,9 +294,19 @@ def main():
             continue
         seen.add(key)
         old = previous_by_key.get(key)
+        if not old:
+            from enrich_locations_google import match_score
+            possibilities = previous_by_address.get((item['bank'], slug(item['address']), slug(item['city'])), [])
+            verified = [candidate for candidate in possibilities if candidate.get('google_confidence') == 'high'
+                and match_score(item, {'displayName': {'text': candidate.get('google_name')},
+                    'formattedAddress': candidate.get('formatted_address'),
+                    'location': {'latitude': candidate.get('lat'), 'longitude': candidate.get('lng')}}) >= 90]
+            if len(verified) == 1:
+                old = verified[0]
         if old and old.get("geocode_source") not in {"", "city_approximation"}:
             for field in ("id", "lat", "lng", "geocode_source", "place_id", "formatted_address",
-                          "google_name", "google_types", "google_confidence", "location_verified_at", "needs_review"):
+                          "google_name", "google_types", "google_confidence", "location_verified_at", "needs_review",
+                          "google_last_attempt_at", "google_enrichment_status", "google_candidate_place_id", "google_candidate"):
                 if field in old:
                     item[field] = old[field]
         unique.append(item)

@@ -226,10 +226,13 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
             [
                 first(row, "Texto bases y condiciones"),
                 first(row, "Texto PDF bases"),
+                first(row, "Texto bases"),
             ],
         )
     )
     full_detail = clean(" ".join(dict.fromkeys(filter(None, [detail, base_detail]))))
+    validity_section = re.search(r'vigencia\s*:\s*(.*?)(?=beneficio\s*:|condiciones\s*:|$)', full_detail, re.I)
+    scheduling = [day_text, validity, validity_section[1] if validity_section else ""]
 
     normalized = {
         "bank": bank,
@@ -237,11 +240,11 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "merchant_name": merchant_override or merchant or merchants or category,
         "merchant_locations_or_group": group_override if group_override is not None else merchants or location,
         "benefit_summary": benefit,
-        "benefit_type": detect_benefit_type(" ".join([benefit, levels, full_detail])),
+        "benefit_type": detect_benefit_type(benefit) if detect_benefit_type(benefit) != "beneficio" else detect_benefit_type(" ".join([benefit, levels, full_detail])),
         "percentages": detect_percentages(" ".join([benefit, levels])),
-        "promotion_days": detect_days(day_text, validity, full_detail),
-        "month_days": detect_month_days(day_text, validity, full_detail),
-        "ordinal_weekdays": detect_ordinal_weekdays(day_text, validity, full_detail),
+        "promotion_days": detect_days(*scheduling),
+        "month_days": detect_month_days(*scheduling),
+        "ordinal_weekdays": detect_ordinal_weekdays(*scheduling),
         "day_text": day_text or "No especificado",
         "validity": validity,
         "source_period_end": first(row, "Fin del período fuente"),
@@ -251,6 +254,9 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "special_flags": detect_special_flags(bank, benefit, levels, caps, validity, day_text, full_detail),
         "source_url": source_url,
         "raw_detail": full_detail,
+        "source_warning": first(row, "Advertencia de fuente"),
+        "verified_cards": first(row, "Tarjetas verificadas"),
+        "original_source_text": first(row, "Texto original de la fuente"),
     }
     normalized["id"] = row_id(normalized)
     return normalized

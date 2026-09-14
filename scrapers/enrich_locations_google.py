@@ -65,6 +65,8 @@ def is_metro_location(item):
 
 
 def should_enrich(item):
+    if item.get('online_only') or not item.get('address') or norm(item.get('address')).startswith('app '):
+        return False
     if not is_metro_location(item):
         return False
     source = item.get("geocode_source") or ""
@@ -237,6 +239,7 @@ def apply_result(item, result):
         item["google_enrichment_status"] = "needs_review"
         item["google_confidence"] = "review"
         item["google_candidate_place_id"] = result.get("place_id", "")
+        item['google_candidate'] = {key: result.get(key) for key in ('google_name', 'formatted_address', 'lat', 'lng', 'checked_at')}
         return item
     item["lat"] = result["lat"]
     item["lng"] = result["lng"]
@@ -262,7 +265,16 @@ def main():
     attempted = 0
     reviewed = []
     failed = False
+    # Rotate across banks so a large annex cannot monopolize every daily batch.
+    buckets = {}
     for item in locations:
+        if should_enrich(item):
+            buckets.setdefault(item.get('bank', ''), []).append(item)
+    for values in buckets.values():
+        values.sort(key=lambda item: (bool(item.get('google_last_attempt_at')), norm(item.get('merchant_name')) in GENERIC_MERCHANTS))
+    candidates = [values[index] for index in range(max(map(len, buckets.values()), default=0))
+                  for values in buckets.values() if index < len(values)]
+    for item in candidates:
         if not should_enrich(item):
             continue
         if attempted >= LIMIT:
@@ -290,7 +302,7 @@ def main():
     payload["locations_updated_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
     save_json(LOCATIONS_JSON, payload)
     save_json(CACHE_PATH, cache)
-    save_json(METRO_OUTPUT, reviewed[:100])
+    save_json(METRO_OUTPUT, [item for item in locations if item.get('google_enrichment_status') == 'needs_review'])
     save_json(ROOT / "outputs/google_enrichment_report.json", {"attempted": attempted, "matched": enriched,
               "review_count": len(reviewed), "request_failed": failed,
               "updated_at": datetime.now(timezone.utc).isoformat()})

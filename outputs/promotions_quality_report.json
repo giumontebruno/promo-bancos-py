@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T12:13:18.563001+00:00",
-  "input_count": 1253,
-  "promotion_count": 1253,
+  "generated_at": "2026-09-14T15:14:05.590276+00:00",
+  "input_count": 1323,
+  "promotion_count": 1323,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -317,7 +317,7 @@
   },
   "by_bank": {
     "Atlas": 43,
-    "BNF": 5,
+    "BNF": 75,
     "Continental": 743,
     "Coop. Universitaria": 77,
     "Itaú": 105,
@@ -325,8 +325,9 @@
     "ueno bank": 231
   },
   "issue_counts": {
-    "validity_unconfirmed": 85,
-    "limits_unconfirmed": 76,
+    "validity_unconfirmed": 80,
+    "limits_unconfirmed": 71,
+    "source_amount_conflict": 4,
     "multiple_purchase_limits": 280,
     "multiple_refund_limits": 89
   },
@@ -595,54 +596,40 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "02bae3cf228d830e",
+      "id": "549617f2f3d66237-e30f29f6",
       "bank": "BNF",
-      "merchant": "Estaciones de Servicio",
+      "merchant": "Aho Aho Comercial",
       "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
+        "source_amount_conflict"
       ],
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_AGOSTO_2026_fd2e476e47.pdf"
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_SEP_2026_5bc6ee5563.pdf"
     },
     {
-      "id": "cc150d8996caad4a",
+      "id": "510f77e0da58b0a8-1b587369",
       "bank": "BNF",
-      "merchant": "Farmacias",
+      "merchant": "BOX Mayorista",
       "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
+        "source_amount_conflict"
       ],
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_AGOSTO_2026_297be5ea2b.pdf"
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_SEP_2026_5bc6ee5563.pdf"
     },
     {
-      "id": "c0941e4a5daeb225",
+      "id": "c9f9385bd8d262c3-fb1cbcdf",
       "bank": "BNF",
-      "merchant": "Frigoríficos",
+      "merchant": "Casa Grütter",
       "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
+        "source_amount_conflict"
       ],
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_AGOSTO_33175dc92c.pdf"
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_SEP_2026_5bc6ee5563.pdf"
     },
     {
-      "id": "27b100a3985f856c",
+      "id": "843c5cd116fbd0dd-7185b469",
       "bank": "BNF",
-      "merchant": "Mayoristas",
+      "merchant": "Supermás",
       "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
+        "source_amount_conflict"
       ],
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_AGOSTO_fb99dd53e5.pdf"
-    },
-    {
-      "id": "a05b63930854650d",
-      "bank": "BNF",
-      "merchant": "Supermercados",
-      "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_AGOSTO_2e7bd73fa2.pdf"
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_SEP_2026_5bc6ee5563.pdf"
     },
     {
       "id": "8188adbc6f4144a1",

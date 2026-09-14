@@ -568,6 +568,18 @@ function cleanSentence(value) {
     .trim();
 }
 
+function normalizeDisplayName(value) {
+  const name = cleanSentence(value);
+  if (!name || name !== name.toLocaleUpperCase("es-PY") || !/[A-ZÁÉÍÓÚÑ]/.test(name)) return name;
+  const acronyms = new Set(["3MG", "BNF", "CIT", "CDE", "PY", "UENO", "SA", "SRL"]);
+  return name
+    .toLocaleLowerCase("es-PY")
+    .replace(/(^|[\s/(-])([\p{L}\p{N}])/gu, (_, prefix, letter) => `${prefix}${letter.toLocaleUpperCase("es-PY")}`)
+    .split(" ")
+    .map((word) => acronyms.has(word.toLocaleUpperCase("es-PY")) ? word.toLocaleUpperCase("es-PY") : word)
+    .join(" ");
+}
+
 function inferDayRange(text) {
   const normalized = normalizeDayName(text);
   const ranges = [
@@ -881,7 +893,7 @@ function percentNear(text, needles) {
 }
 
 function getPromoTitle(promo) {
-  return promo.merchant_name || promo.category || "Promoción";
+  return normalizeDisplayName(promo.merchant_name || promo.category || "Promoción");
 }
 
 function appliesToSelectedDay(promo, selectedDay) {
@@ -2751,6 +2763,8 @@ function renderCard(promo, variant = null) {
           </div>
         </div>
         ${savingsLabel ? `<div class="savings-line">${escapeHtml(savingsLabel)}</div>` : ""}
+        ${promo.verified_cards ? `<p class="eligible-card-label">${escapeHtml(promo.verified_cards.replace(/^Tarjetas de crédito\s+/i, ""))}</p>` : ""}
+        ${promo.source_warning ? `<p class="source-warning-label">Tope pendiente de aclaración del banco</p>` : ""}
         ${levelDetails ? renderUenoLevelCaps(levelDetails) : ""}
         <p class="bank-card-line">${escapeHtml(getBankLabel(promo.bank))} · ${escapeHtml(categoryGroup)}</p>
         <div class="meta">

@@ -81,6 +81,9 @@ input[type=search] { font-size: 14px; padding: 13px 0; }
 .bottom-nav button.active { background: #dce8df; box-shadow: none; }
 dialog { background: #172120; border-color: #465750; border-radius: 12px; max-width: 580px; width: calc(100% - 24px); max-height: calc(100dvh - 36px); }
 dialog::backdrop { background: #040a08b8; backdrop-filter: blur(5px); }
+.eligible-card-label, .source-warning-label { margin: 4px 0; font-size: 12px; line-height: 1.4; }
+.eligible-card-label { color: var(--text, #f4f4f4); }
+.source-warning-label { color: #f1c879; }
 .dialog-card { background: #172120; padding: 20px; }
 #dialogContent h2 { font-size: 23px; line-height: 1.25; padding-right: 28px; overflow-wrap: anywhere; }
 .detail-row { border-color: #36483d; padding: 14px 0; gap: 7px; }
@@ -113,6 +116,7 @@ dialog::backdrop { background: #040a08b8; backdrop-filter: blur(5px); }
   .summary { grid-column: 2; margin-top: 0; }
   .results { grid-column: 2; }
   .category-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bank-tabs { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .full-brand-logo { width: 270px; }
 }
 @media (max-width: 640px) {

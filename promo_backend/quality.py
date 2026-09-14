@@ -110,6 +110,11 @@ def normalize_terms(promo):
     raw = text(promo.get("raw_detail"))
     limits = extract_limits(raw) or extract_limits(promo.get("caps_and_minimums"))
     dates = validity_dates(promo.get("validity"))
+    validity_section = re.search(r'vigencia\s*:\s*(.*?)(?=beneficio\s*:|condiciones\s*:|$)', raw, re.I)
+    if validity_section:
+        source_dates = validity_dates(validity_section[1])
+        if source_dates['ends_on'] or source_dates['conflicting_dates']:
+            dates = source_dates
     period_end = parse_date(promo.get("source_period_end"))
     if period_end:
         dates["ends_on"] = min(filter(None, (period_end, dates["ends_on"])))
@@ -140,13 +145,19 @@ def normalize_terms(promo):
     cards = specific_cards
     additional = [part for part in additional if part not in exclusions and not part.endswith(':')
                   and not re.search(r'aplica exclusivamente.*tarjetas', part, re.I)]
-    timing = re.search(r'hasta\s+(\d+)\s+d[ií]as h[aá]biles', raw, re.I)
-    if timing:
+    timing_values = set(re.findall(r'hasta\s+(\d+)\s+d[ií]as h[aá]biles', raw, re.I))
+    if len(timing_values) == 1:
         additional = [part for part in additional if not re.search(r'd[ií]as h[aá]biles', part, re.I)]
-        additional.append(f'Acreditación del reintegro: hasta {timing[1]} días hábiles.')
+        additional.append(f'Acreditación del reintegro: hasta {next(iter(timing_values))} días hábiles.')
     if exclusions and all('qr' in key(part) and 'ueno' in key(part) for part in exclusions):
         exclusions = ['No aplica a pagos con código QR, incluidos los de la app ueno.']
     issues = []
+    if promo.get('verified_cards'):
+        cards = [promo['verified_cards']]
+    if promo.get('source_warning'):
+        limits = []
+        additional.insert(0, promo['source_warning'])
+        issues.append('source_amount_conflict')
     if not dates["ends_on"]:
         issues.append("validity_unconfirmed")
     if dates["conflicting_dates"]:
