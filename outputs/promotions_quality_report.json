@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T15:14:05.590276+00:00",
-  "input_count": 1323,
-  "promotion_count": 1323,
+  "generated_at": "2026-09-14T15:15:09.565449+00:00",
+  "input_count": 1325,
+  "promotion_count": 1325,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -313,20 +313,27 @@
     "af8ca5e105933263": "2f23d00188011747",
     "9f79b14b33c4d97a": "df117547e7958d25",
     "b82cf61286fdbf11": "cec955a4d0ae4df6",
-    "2e5bc639691a1c71": "cf84cb67d3c2281b"
+    "2e5bc639691a1c71": "cf84cb67d3c2281b",
+    "fbe6da30c612fd78": "98b7b0c53c5a18ef",
+    "597d4471164d6ac4": "dd34697835bdff48",
+    "b7e587636cffbf3a": "49a9b4cb7a075742",
+    "d315ab83bd0950cf": "9dfe5b3f07b66f6a",
+    "d3a43aa7ca45beb2": "711977858060fc9a",
+    "99168bd0b6958355": "5466f51d47bd761e",
+    "cb3de01ca31aba62": "65de826637ac09ea"
   },
   "by_bank": {
     "Atlas": 43,
     "BNF": 75,
-    "Continental": 743,
-    "Coop. Universitaria": 77,
-    "Itaú": 105,
-    "Sudameris": 49,
+    "Continental": 744,
+    "Coop. Universitaria": 78,
+    "Itaú": 106,
+    "Sudameris": 48,
     "ueno bank": 231
   },
   "issue_counts": {
     "validity_unconfirmed": 80,
-    "limits_unconfirmed": 71,
+    "limits_unconfirmed": 72,
     "source_amount_conflict": 4,
     "multiple_purchase_limits": 280,
     "multiple_refund_limits": 89
@@ -839,7 +846,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "d315ab83bd0950cf",
+      "id": "9dfe5b3f07b66f6a",
       "bank": "Continental",
       "merchant": "Brebaje Bar Parrilla",
       "issues": [
@@ -1350,6 +1357,15 @@
       "merchant": "360 Sneaker Store - Privilege",
       "issues": [
         "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "711977858060fc9a",
+      "bank": "Continental",
+      "merchant": "Brebaje Bar Parrilla - Privilege",
+      "issues": [
+        "validity_unconfirmed"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -2729,6 +2745,15 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1770319815.pdf"
     },
     {
+      "id": "b95b20e9b8aac4a7",
+      "bank": "Coop. Universitaria",
+      "merchant": "UNIVERSIDAD AMERICANA",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1789390994.pdf"
+    },
+    {
       "id": "d072831fd761091e",
       "bank": "Coop. Universitaria",
       "merchant": "Universidad Autónoma de Asunción (UAA)",
@@ -3113,6 +3138,15 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1776972720.pdf"
     },
     {
+      "id": "245d64602db70626",
+      "bank": "Itaú",
+      "merchant": "Shell",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291"
+    },
+    {
       "id": "98035059a53c1862",
       "bank": "Itaú",
       "merchant": "Delimarket",
@@ -3120,15 +3154,6 @@
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16584&c=30064"
-    },
-    {
-      "id": "742af6dd7201afb4",
-      "bank": "Itaú",
-      "merchant": "Shell",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291"
     },
     {
       "id": "7fca8ed534f6adcd",
@@ -3210,15 +3235,6 @@
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/738/detalle"
-    },
-    {
-      "id": "fdfef93731ba0c6c",
-      "bank": "Sudameris",
-      "merchant": "MANTECA SESSIONS",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/878/detalle"
     },
     {
       "id": "fb152a7d1fb1b1f3",

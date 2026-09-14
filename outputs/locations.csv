@@ -1,4 +1,6 @@
 ﻿id,bank,category,merchant_name,address,city,department,lat,lng,geocode_source,source_url
+loc-f6175593ab,BNF,Farmacias,FARMACIAS CATEDRAL,San Pedro c/ Ruta Capiatá.,Capiatá,Central,-25.4092449,-57.4821981,google_places_text_search,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
+loc-a18304d354,BNF,Farmacias,FARMACIAS CATEDRAL,"Calle 0067, Compañía 11, Luque N° 9488.",Luque,Central,-25.239425,-57.4743668,google_places_text_search,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
 loc-137862a0b6,BNF,Mayoristas,BOX Mayorista,Avda. Defensores del Chaco N° 1512 c/ Dr. Montanaro.,Asunción,Capital,-25.3249021,-57.5720697,google_places_text_search,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_SEP_2026_5bc6ee5563.pdf
 loc-f6171a3741,BNF,Mayoristas,Casa Grütter,"Av. Defensores del Chaco, Mercado Central de Abasto, Bloque D, Locales 7, 8 y 9.",Asunción,Capital,-25.3339988,-57.5775225,google_places_text_search,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_SEP_2026_5bc6ee5563.pdf
 loc-1ff6c937a7,BNF,Mayoristas,Casa Grütter,"Avda. Defensores del Chaco c/ Pycasu, Galería Santa Teresa al lado del Mercado Central de Abasto.",Asunción,Capital,-25.3339988,-57.5775225,google_places_text_search,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_SEP_2026_5bc6ee5563.pdf
@@ -636,7 +638,6 @@ loc-bnf-5ff35b8de4557004,BNF,Farmacias,FARMACIAS CATEDRAL,Km. 22 Ruta PY02 Mcal.
 loc-bnf-72ce7b73901245a4,BNF,Farmacias,FARMACIAS CATEDRAL,12 de Octubre e/ Ramón Elias y Pbro. P.J. Moreno.,Capiatá,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
 loc-bnf-b247e3ab1833a273,BNF,Farmacias,FARMACIAS CATEDRAL,"Ruta Departamental D027 Km 22,5 entre 14 de Mayo y Juana de Lara.",Capiatá,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
 loc-bnf-57f38e8c190da0a9,BNF,Farmacias,FARMACIAS CATEDRAL,Ruta 2 Mcal. Estigarribia casi Ramón Elias.,Capiatá,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
-loc-bnf-387e3dc41cf4ed60,BNF,Farmacias,FARMACIAS CATEDRAL,San Pedro c/ Ruta Capiatá.,Capiatá,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
 loc-bnf-6209f89548635939,BNF,Farmacias,FARMACIAS CATEDRAL,Ruta 1 Km. 16.,Capiatá,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
 loc-bnf-d1fc6a5f0d813fb8,BNF,Farmacias,FARMACIAS CATEDRAL,Ruta PY06 Doctor Juan León Mallorquín Km. 15.,Capitán Miranda,Itapúa,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
 loc-bnf-dc0479347e89bcc4,BNF,Farmacias,FARMACENTER,Mcal. Francisco Solano López Km. 83.,Carapeguá,Paraguarí,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
@@ -786,7 +787,6 @@ loc-bnf-581e1dc170045422,BNF,Farmacias,FARMACIA VICENTE SCAVONE,Cerro Corá y Fu
 loc-bnf-c414958eb47e7110,BNF,Farmacias,FARMACIA VICENTE SCAVONE,Britez Borges y Avda. Nanawa.,Luque,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
 loc-bnf-30b09422c5658003,BNF,Farmacias,FARMACIA VICENTE SCAVONE,Avda. Humaita esq. 14 de Mayo.,Luque,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
 loc-bnf-98a71c504c2e9d96,BNF,Farmacias,FARMACIAS CATEDRAL,Avda. Gral. Elizardo Aquino N° 999 esq. Tte. Rivas.,Luque,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
-loc-bnf-f9ccc735dd56b959,BNF,Farmacias,FARMACIAS CATEDRAL,"Calle 0067, Compañía 11, Luque N° 9488.",Luque,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
 loc-bnf-a7247b6a54c00053,BNF,Farmacias,FARMACIAS CATEDRAL,Cnel. Martínez e/ Paso Esperanza.,Luque,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
 loc-bnf-dde302d5f91c53b2,BNF,Farmacias,FARMACIAS CATEDRAL,Avda. Corrales y Ruta Luque San Bernardino.,Luque,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
 loc-bnf-83d45b851384c2a1,BNF,Farmacias,FARMACIAS CATEDRAL,Digno García esq. Santo Tomás.,Luque,Central,,,,https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf
