@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 107
+Total de beneficios: 106
 
 ## Belleza y Salud
 
@@ -188,6 +188,5 @@ Total de beneficios: 107
 |---|---|---|---|
 | COYOTE | 25 % Hasta; Tenes 20% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses. | No especificado | 2026-09-04 hasta 2026-09-15 |
 | FACUNDO ARANA SOBRE LA MARCHA | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-01 hasta 2026-09-15 |
-| Feria Asunción | 10 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro más 5% adicional pagando con Google Pay y Apple Pay y hasta 10 cuotas sin intereses. | No especificado | 2025-08-08 hasta 2026-09-13 |
 | Kekas Design | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-08-04 hasta 2026-09-15 |
 

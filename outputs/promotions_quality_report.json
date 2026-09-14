@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T12:44:43.105653+00:00",
+  "generated_at": "2026-09-14T13:53:50.674795+00:00",
   "input_count": 1255,
   "promotion_count": 1255,
   "duplicates_removed": 0,
@@ -326,14 +326,14 @@
     "Atlas": 43,
     "BNF": 5,
     "Continental": 744,
-    "Coop. Universitaria": 77,
-    "Itaú": 107,
+    "Coop. Universitaria": 78,
+    "Itaú": 106,
     "Sudameris": 48,
     "ueno bank": 231
   },
   "issue_counts": {
     "validity_unconfirmed": 85,
-    "limits_unconfirmed": 76,
+    "limits_unconfirmed": 77,
     "multiple_purchase_limits": 280,
     "multiple_refund_limits": 89
   },
@@ -2756,6 +2756,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1770319815.pdf"
+    },
+    {
+      "id": "b95b20e9b8aac4a7",
+      "bank": "Coop. Universitaria",
+      "merchant": "UNIVERSIDAD AMERICANA",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1789390994.pdf"
     },
     {
       "id": "d072831fd761091e",
