@@ -561,6 +561,8 @@ function cleanSentence(value) {
     .replace(/\bGs\b/g, "Gs.")
     .replace(/Gs\.\./g, "Gs.")
     .replace(/\bdel\s+([0-9]{4})\b/gi, "de $1")
+    .replace(/\bdicimebre\b/gi, "diciembre")
+    .replace(/\btodos los dias\b/gi, "Todos los días")
     .replace(/\s*;\s*/g, "; ")
     .replace(/\s*,\s*/g, ", ")
     .replace(/\s+/g, " ")
@@ -1572,7 +1574,7 @@ function renderNearbyPlacePromos(item) {
 }
 
 function getPlaceDisplayName(place) {
-  return place?.google_name || place?.name || place?.merchant_name || "Ubicación";
+  return normalizeDisplayName(place?.google_name || place?.name || place?.merchant_name || "Ubicación");
 }
 
 function withNearbyPlaceContext(promo, place) {
@@ -1594,8 +1596,8 @@ function withNearbyPlaceContext(promo, place) {
 function getNearbyLocalName(place) {
   const googleName = cleanSentence(place.google_name || place.name || "");
   const merchantName = cleanSentence(place.merchant_name || "");
-  if (googleName && !isGenericNearbyName(googleName)) return googleName;
-  if (merchantName && !isGenericNearbyName(merchantName)) return merchantName;
+  if (googleName && !isGenericNearbyName(googleName)) return normalizeDisplayName(googleName);
+  if (merchantName && !isGenericNearbyName(merchantName)) return normalizeDisplayName(merchantName);
   return "";
 }
 
