@@ -237,3 +237,10 @@ dialog::backdrop { background: #08090cc7; }
 }
 @media (prefers-reduced-motion: reduce) { .promo-card:hover { transform: none; } }
 :is(.controls, #refreshButton)[hidden] { display: none !important; }
+.google-signin.google-signin { display:flex; align-items:center; justify-content:center; gap:12px; min-height:44px; padding:10px 16px; border:1px solid #8e918f; border-radius:4px; background:#131314; color:#e3e3e3; font:500 14px/20px system-ui,sans-serif; letter-spacing:0; cursor:pointer; max-width:100%; }
+.google-signin img { flex:none; width:20px; height:20px; object-fit:contain; background:white; }
+.google-signin:hover { background:#242426; }
+.google-signin:focus-visible { outline:2px solid #a8c7fa; outline-offset:3px; }
+.google-signin:disabled { opacity:.65; cursor:wait; }
+.profile-panel .favorite-alerts { margin-top:24px; padding:20px; border:1px solid #52565d; border-radius:8px; }
+.profile-panel .profile-card h2, .profile-panel .profile-card p { overflow-wrap:anywhere; }

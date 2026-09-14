@@ -1312,24 +1312,23 @@ function renderBottomNav() {
 }
 
 function renderAlertsView() {
-  els.statusText.textContent = window.PaybackBeta?.current ? `Beta: ${PaybackBeta.current.email}` : state.user?.name ? `Perfil: ${state.user.name}` : "Perfil local";
+  const account = window.PaybackBeta?.current;
+  els.statusText.textContent = "Tu perfil";
   els.countText.textContent = `${state.favorites.size} favoritos`;
   els.results.innerHTML = `
     <section class="profile-panel">
       <div class="profile-card">
-        <span class="profile-logo"><img src="./assets/logos/payback-py.svg" alt="" /></span>
+        <span class="profile-logo">${renderIcon("heart")}</span>
         <div>
-          <h2>${state.user?.name ? `Hola, ${escapeHtml(state.user.name)}` : "Activá tu perfil Payback"}</h2>
-          <p>${window.PaybackBeta?.current ? "Tus favoritos están vinculados a tu cuenta beta." : "Guardamos tus favoritos y preferencias en este teléfono."}</p>
+          <h2>${account ? account.name ? `Hola, ${escapeHtml(account.name)}` : "Tu perfil Payback" : "Activá tu perfil Payback"}</h2>
+          <p>${account ? escapeHtml(account.email) : "Conectá tu cuenta para sincronizar tus favoritos."}</p>
         </div>
       </div>
+      ${account
+        ? '<button type="button" class="notification-action" data-beta-open>Administrar cuenta y comentarios</button>'
+        : '<button type="button" class="google-signin" data-beta-login><img src="./assets/logos/google-g-official.png" width="20" height="20" alt="">Continuar con Google</button><p class="profile-note">Ingresá con tu correo invitado. Solo usamos tu identidad básica y correo.</p>'}
       ${renderFavoriteAlerts()}
-      <button type="button" class="notification-action" data-beta-open>Cuenta beta y comentarios</button>
       <form id="profileForm" class="profile-form">
-        <label>
-          Nombre
-          <input name="name" type="text" placeholder="Tu nombre" value="${escapeAttribute(state.user?.name || "")}" />
-        </label>
         <label class="check-row">
           <input name="today" type="checkbox" ${state.alertPrefs.today ? "checked" : ""} />
           Destacar beneficios disponibles hoy
@@ -1338,9 +1337,9 @@ function renderAlertsView() {
           <input name="favorites" type="checkbox" ${state.alertPrefs.favorites ? "checked" : ""} />
           Priorizar mis comercios favoritos
         </label>
-        <button type="submit">Guardar perfil</button>
+        <button type="submit">Guardar preferencias</button>
       </form>
-      <div class="profile-note">${window.PaybackBeta?.current ? "Favoritos de tu cuenta. El nombre y las preferencias de visualización son locales." : PaybackPush.enabled() ? "Tus favoritos se sincronizan con los avisos de este dispositivo." : "Tus favoritos están guardados en este dispositivo."}</div>
+      <div class="profile-note">${account ? "Tu nombre proviene de Google. Las preferencias de visualización se guardan en este dispositivo." : "Sin iniciar sesión, tus favoritos se guardan en este dispositivo."}</div>
     </section>
   `;
 }
@@ -1348,9 +1347,9 @@ function renderAlertsView() {
 function renderFavoriteAlerts() {
   const today = state.promotions.filter(promo => state.favorites.has(promo.id) && isActivePromotion(promo) && appliesToSelectedDay(promo, "hoy"));
   return `<div class="favorite-alerts"><div><span class="filter-label">Tu agenda de beneficios</span>
-    <h2>${today.length ? `${today.length} favoritos disponibles hoy` : "Tus próximos beneficios"}</h2>
-    <p>${PaybackPush.enabled() ? "Avisos activados para este dispositivo." : "Recibí un aviso cuando tus favoritos tengan descuentos."}</p></div>
-    <button type="button" class="notification-action" data-push-action="${PaybackPush.enabled() ? "disable" : "enable"}">${PaybackPush.enabled() ? "Desactivar avisos" : "Activar avisos"}</button>
+    <h2>${today.length ? `${today.length} favoritos disponibles hoy` : "No te pierdas tus favoritos"}</h2>
+    <p>${PaybackPush.enabled() ? "Notificaciones de tus favoritos activadas en este dispositivo." : "Activá las notificaciones para recibir un recordatorio el día de las promociones que guardaste."}</p></div>
+    <button type="button" class="notification-action" data-push-action="${PaybackPush.enabled() ? "disable" : "enable"}">${PaybackPush.enabled() ? "Desactivar notificaciones" : "Activar notificaciones"}</button>
     <p class="notification-status" role="status">${escapeHtml(state.pushMessage)}</p></div>`;
 }
 
@@ -3012,13 +3011,10 @@ els.results.addEventListener("submit", (event) => {
   if (!form) return;
   event.preventDefault();
   const formData = new FormData(form);
-  const name = String(formData.get("name") || "").trim();
-  state.user = name ? { name } : null;
   state.alertPrefs = {
     today: formData.has("today"),
     favorites: formData.has("favorites"),
   };
-  saveStoredJson(STORAGE_KEYS.user, state.user);
   saveStoredJson(STORAGE_KEYS.alertPrefs, state.alertPrefs);
   render();
 });

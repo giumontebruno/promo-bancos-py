@@ -19,7 +19,21 @@ async function api(path, method = 'GET', body) {
   return data;
 }
 function changed() { window.dispatchEvent(new CustomEvent('beta-account', { detail: current })); }
-async function refresh() { current = await api('me'); changed(); }
+async function refresh() {
+  const account = await api('me');
+  const { data } = await client.auth.getSession();
+  const metadata = data.session?.user?.user_metadata || {};
+  current = { ...account, name: String(metadata.full_name || metadata.name || '').trim() };
+  changed();
+}
+function googleButton() {
+  return '<img src="./assets/logos/google-g-official.png" width="20" height="20" alt="">Continuar con Google';
+}
+async function login() {
+  if (!client) { show(); return; }
+  const { error } = await client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: new URL('./', location.href).href, scopes: 'openid email profile', queryParams: { prompt: 'select_account' } } });
+  if (error) throw new Error('No pudimos iniciar el acceso con Google. Intentá nuevamente.');
+}
 function shell(content) {
   dialog.innerHTML = `<article class="dialog-card"><button type="button" class="close-button" data-beta-close aria-label="Cerrar">×</button>${content}<p role="status" aria-live="polite"></p></article>`;
   if (!dialog.open) dialog.showModal();
@@ -27,7 +41,7 @@ function shell(content) {
 function show() {
   if (!ready) return shell(`<h2>Beta Payback PY</h2><p>${escape(initError || 'Preparando el acceso…')}</p><button data-beta-retry>Reintentar</button>`);
   if (!client) return shell('<h2>Beta por invitación</h2><p>El registro está en preparación. Tus favoritos locales siguen disponibles.</p>');
-  if (!current) return shell(`<h2>Ingresar a la beta</h2><form id="betaLogin"><button type="submit">Continuar con Google</button></form><p>Usá la cuenta de Google cuyo correo fue invitado. Solo solicitamos identidad básica y correo, sin acceso a Gmail, contactos ni Drive.</p>`);
+  if (!current) return shell(`<h2>Ingresar a la beta</h2><form id="betaLogin"><button type="submit" class="google-signin">${googleButton()}</button></form><p>Usá la cuenta de Google cuyo correo fue invitado. Solo solicitamos identidad básica y correo, sin acceso a Gmail, contactos ni Drive.</p>`);
   shell(`<h2>Tu cuenta beta</h2><p>${escape(current.email)}</p>
     <p>Favoritos sincronizados: ${current.favorites.length}. Los avisos se activan por separado en cada dispositivo.</p>
     <form id="betaPreferences"><label class="check-row"><input name="consent" type="checkbox" ${current.consent ? 'checked' : ''}>Compartir mi actividad de prueba</label>
@@ -73,8 +87,7 @@ dialog.addEventListener('submit', async e => {
   submit.disabled = true; message('Guardando…');
   try {
     if (form.id === 'betaLogin') {
-      const { error } = await client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: new URL('./', location.href).href, scopes: 'openid email profile', queryParams: { prompt: 'select_account' } } });
-      if (error) throw new Error('No pudimos iniciar el acceso con Google. Intentá nuevamente.');
+      await login();
       message('Abriendo Google…');
     } else if (form.id === 'betaPreferences') {
       await api('me', 'PUT', { consent: data.has('consent'), uenoLevel: Number(data.get('level')) });
@@ -106,7 +119,15 @@ dialog.addEventListener('click', async e => {
     }
   } catch (error) { message(error.message); }
 });
-document.addEventListener('click', e => {
+document.addEventListener('click', async e => {
+  const loginButton = e.target.closest('[data-beta-login]');
+  if (loginButton) {
+    if (busy) return;
+    busy = true; loginButton.disabled = true;
+    try { await login(); } catch (error) { show(); message(error.message); }
+    finally { busy = false; loginButton.disabled = false; }
+    return;
+  }
   const button = e.target.closest('[data-beta-open], [data-beta-report-id]');
   if (button?.hasAttribute('data-beta-open')) show();
   if (button?.hasAttribute('data-beta-report-id')) report(button.dataset.betaReportId);

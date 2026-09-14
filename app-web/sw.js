@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-beta-2-personal-views";
+const CACHE_NAME = "payback-py-beta-3-google-profile";
 const APP_SHELL = [
   "./",
   "./index.html",
