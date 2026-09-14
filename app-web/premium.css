@@ -249,3 +249,10 @@ dialog::backdrop { background: #08090cc7; }
 .profile-account-actions { display:flex; flex-wrap:wrap; gap:12px; }
 .profile-account-actions button { flex:0 1 auto; }
 .profile-session-status:empty { display:none; }
+.favorite-toggle svg, .detail-favorite svg { width:20px; height:20px; stroke-width:2.8; stroke-linecap:round; stroke-linejoin:round; flex:none; }
+.favorite-toggle.active svg, .detail-favorite.active svg { fill:currentColor; }
+.detail-favorite { display:inline-flex; align-items:center; gap:8px; }
+.share-toggle { font-size:22px; }
+.card-actions { flex-wrap:wrap; }
+.share-options { display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+.share-dialog textarea { width:100%; min-height:110px; }

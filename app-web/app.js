@@ -209,7 +209,7 @@ const ICON_PATHS = {
   users: '<path d="M16 11a4 4 0 1 0-8 0"/><path d="M4 20a8 8 0 0 1 16 0"/><path d="M18 8a3 3 0 0 1 2 5"/><path d="M6 8a3 3 0 0 0-2 5"/>',
   ticket: '<path d="M5 8h14v3a2 2 0 0 0 0 4v3H5v-3a2 2 0 0 0 0-4V8z"/><path d="M12 9v2M12 13v2M12 17v1"/>',
   plane: '<path d="M3 11l18-7-7 18-3-8-8-3z"/><path d="M11 14l4-4"/>',
-  heart: '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+  heart: '<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>',
   briefcase: '<path d="M7 8V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/><rect x="4" y="8" width="16" height="11" rx="2"/><path d="M4 13h16"/>',
   star: '<path d="M12 4l2.4 5 5.6.8-4 3.9.9 5.5-4.9-2.6-4.9 2.6.9-5.5-4-3.9 5.6-.8L12 4z"/>',
   crown: '<path d="M5 18h14"/><path d="M6 15l1-8 5 4 5-4 1 8H6z"/><path d="M9 21h6"/>',
@@ -2787,7 +2787,8 @@ function renderCard(promo, variant = null) {
           </div>
           <div class="card-actions">
             ${premiumBadge || powerBadge}
-            <button class="favorite-toggle ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}" title="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-label="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}">${isFavorite ? "♥" : "♡"}</button>
+            <button class="favorite-toggle ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}" title="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-label="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-pressed="${isFavorite}">${renderIcon("heart")}</button>
+            <button class="favorite-toggle share-toggle" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variant?.key || '')}" title="Compartir promoción" aria-label="Compartir promoción">↗</button>
           </div>
         </div>
         ${savingsLabel ? `<div class="savings-line">${escapeHtml(savingsLabel)}</div>` : ""}
@@ -2820,7 +2821,8 @@ function openDetail(id, variantKey = "", placeId = "") {
     ${variant?.kind === "premium" ? `<span class="premium-badge detail-premium">${escapeHtml(variant.label)}</span>` : ""}
     <p class="benefit">${escapeHtml(getDisplayBenefit(promo, variant))}</p>
     ${savings.refundCap ? `<div class="detail-saving"><span>Ahorro máximo estimado</span><strong>${escapeHtml(formatGuarani(savings.refundCap))}</strong></div>` : ""}
-    <button class="detail-favorite ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}">${isFavorite ? "♥ Guardado en favoritos" : "♡ Guardar en favoritos"}</button>
+    <button class="detail-favorite ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}">${renderIcon("heart")} ${isFavorite ? "Guardado en favoritos" : "Guardar en favoritos"}</button>
+    <button class="detail-inline-action" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variantKey)}">↗ Compartir promoción</button>
     <div class="calculator" data-calculator-id="${escapeAttribute(promo.id)}" data-calculator-variant="${escapeAttribute(variantKey)}">
       <label>¿Cuánto vas a gastar?
         <input type="number" inputmode="numeric" min="0" step="1000" placeholder="Ej: 500000" />
@@ -3094,7 +3096,50 @@ window.addEventListener('beta-account', event => {
   render();
 });
 
-loadPromotions().catch((error) => {
+loadPromotions().then(() => {
+  const params = new URLSearchParams(location.search);
+  const id = params.get('promo');
+  if (!id) return;
+  if (state.promotions.some(promo => promo.id === id && isActivePromotion(promo))) openDetail(id, params.get('variant') || '');
+  else els.statusText.textContent = 'La promoción compartida ya no está disponible. Explorá las promociones vigentes.';
+}).catch((error) => {
   els.statusText.textContent = error.message;
   els.results.innerHTML = `<div class="empty">No se pudieron cargar las promociones.</div>`;
 });
+
+function promotionShareData(promo, variantKey = '') {
+  const appUrl = 'https://giumontebruno.github.io/promo-bancos-py/app-web/';
+  const url = new URL(appUrl);
+  url.searchParams.set('promo', promo.id);
+  if (variantKey) url.searchParams.set('variant', variantKey);
+  return {
+    title: `${getPromoTitle(promo)} · Payback PY`,
+    text: `Mirá esta promoción que encontré en Payback PY: ${getPromoTitle(promo)}.\nAbrí e instalá la app: ${appUrl}`,
+    url: url.href,
+  };
+}
+
+document.addEventListener('click', async event => {
+  const button = event.target.closest('[data-share-id]');
+  if (!button) return;
+  event.preventDefault(); event.stopPropagation();
+  const promo = state.promotions.find(item => item.id === button.dataset.shareId);
+  if (!promo) return;
+  const data = promotionShareData(promo, button.dataset.shareVariant || '');
+  if (navigator.share) {
+    try { await navigator.share(data); return; }
+    catch (error) { if (error.name === 'AbortError') return; }
+  }
+  const shareDialog = document.createElement('dialog');
+  shareDialog.className = 'beta-dialog share-dialog';
+  const text = `${data.text}\n${data.url}`;
+  shareDialog.innerHTML = `<article class="dialog-card"><h2>Compartir promoción</h2><div class="share-options"><a target="_blank" rel="noopener noreferrer" href="https://wa.me/?text=${encodeURIComponent(text)}">WhatsApp</a><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(data.url)}">Facebook</a><button type="button" data-copy-share>Copiar mensaje y enlace</button></div><p>Para Instagram u otra app, pegá el mensaje en tu conversación.</p><textarea readonly aria-label="Mensaje para compartir">${escapeHtml(text)}</textarea><p role="status"></p><button type="button" data-close-share>Cerrar</button></article>`;
+  document.body.append(shareDialog);
+  shareDialog.addEventListener('close', () => shareDialog.remove());
+  shareDialog.querySelector('[data-close-share]').onclick = () => shareDialog.close();
+  shareDialog.querySelector('[data-copy-share]').onclick = async () => {
+    try { await navigator.clipboard.writeText(text); shareDialog.querySelector('[role=status]').textContent = 'Mensaje copiado.'; }
+    catch { shareDialog.querySelector('textarea').select(); shareDialog.querySelector('[role=status]').textContent = 'Seleccioná y copiá el mensaje.'; }
+  };
+  shareDialog.showModal();
+}, true);
