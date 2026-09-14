@@ -120,6 +120,22 @@ dialog.addEventListener('click', async e => {
   } catch (error) { message(error.message); }
 });
 document.addEventListener('click', async e => {
+  const logoutButton = e.target.closest('[data-profile-logout]');
+  if (logoutButton) {
+    if (busy) return;
+    busy = true; logoutButton.disabled = true;
+    const status = document.querySelector('.profile-session-status');
+    if (status) status.textContent = 'Cerrando sesión…';
+    try {
+      if (window.PaybackPush?.enabled()) await window.PaybackPush.disable();
+      const { error } = await client.auth.signOut();
+      if (error) throw error;
+      current = null; lastEvent.clear(); changed();
+    } catch {
+      if (status) status.textContent = 'No pudimos cerrar la sesión. Intentá nuevamente.';
+    } finally { busy = false; logoutButton.disabled = false; }
+    return;
+  }
   const loginButton = e.target.closest('[data-beta-login]');
   if (loginButton) {
     if (busy) return;

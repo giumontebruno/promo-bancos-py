@@ -27,5 +27,6 @@ test('signed-in profile uses escaped Google name and account management instead 
   const html = profile({ name: '<Google Name>', email: 'tester@example.com' });
   assert.match(html, /Hola, &lt;Google Name&gt;/);
   assert.match(html, /data-beta-open/);
+  assert.match(html, /data-profile-logout>Cerrar sesión/);
   assert.doesNotMatch(html, /data-beta-login|name="name"|Old manual name/);
 });

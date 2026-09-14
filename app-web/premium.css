@@ -244,3 +244,8 @@ dialog::backdrop { background: #08090cc7; }
 .google-signin:disabled { opacity:.65; cursor:wait; }
 .profile-panel .favorite-alerts { margin-top:24px; padding:20px; border:1px solid #52565d; border-radius:8px; }
 .profile-panel .profile-card h2, .profile-panel .profile-card p { overflow-wrap:anywhere; }
+.google-signin.google-icon-only { width:44px; height:44px; min-width:44px; padding:11px; border-radius:8px; justify-self:start; align-self:start; }
+.google-icon-only img { border-radius:50%; }
+.profile-account-actions { display:flex; flex-wrap:wrap; gap:12px; }
+.profile-account-actions button { flex:0 1 auto; }
+.profile-session-status:empty { display:none; }
