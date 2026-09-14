@@ -2339,6 +2339,8 @@ function getDetailRows(promo, variant = null) {
 function getMerchantDetail(promo) {
   const group = cleanSentence(promo.merchant_locations_or_group || promo.merchant_name || "");
   if (!group) return "";
+  const directGroup = group.match(/^(\d+)\s+locales?\s+adheridos?\s+de\s+(.+)$/i);
+  if (directGroup) return `${directGroup[1]} locales adheridos de ${normalizeDisplayName(directGroup[2])}.`;
   const count = extractMerchantCount(promo);
   const brands = extractMerchantBrands(promo);
   if (count || brands.length > 3) {
@@ -2351,7 +2353,7 @@ function getMerchantDetail(promo) {
 
 function extractMerchantCount(promo) {
   const text = cleanSentence(`${promo.merchant_locations_or_group || ""} ${promo.raw_detail || ""}`);
-  const match = text.match(/\b(\d{2,5})\s+locales?\b/i);
+  const match = text.match(/\b(\d{1,5})\s+locales?\b/i);
   return match ? Number(match[1]) : 0;
 }
 
