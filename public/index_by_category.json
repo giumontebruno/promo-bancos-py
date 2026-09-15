@@ -11,6 +11,7 @@
     "6f658fe302d61808",
     "ff0e72a1f92e420a",
     "0384580047dfe962",
+    "240599c08d391bf8",
     "f0b8d88ff2a85ff1",
     "0323c816c23ff5a0",
     "119c36433db85142"
@@ -44,14 +45,14 @@
     "2143259d1a5a0456",
     "7ed0289b2dbc933f",
     "c2b46ea72556c68c",
-    "62e8d841ff36ed9c",
-    "ba3ac7db98c9e32b",
-    "fa534f89b7019277",
-    "96d488f7e2b0de9c",
-    "c0ec7c2ae36d964a",
-    "ae029d3ffe0eb011",
-    "3f93d9ac86b3770b",
-    "4a5fb022bea5ab25"
+    "d8610bf3faa7ec9f",
+    "ffd12e9762c6b8db",
+    "837ba61bafe1b5be",
+    "070c421e316eb434",
+    "41a119aa8a6f5943",
+    "d9859bdfaefb4b01",
+    "82a1fa39a6e69e0b",
+    "7172e6bbf76e5571"
   ],
   "Construcción": [
     "dd1a30d6a2de8e8b",
@@ -276,6 +277,7 @@
     "7773a24bc9ac448b",
     "b1681a6e03a8bbcc",
     "74a77b721494b8db",
+    "31732e43ba38db4d",
     "4d89fb48bdbb13bb",
     "0adc9b79689d817a",
     "b9f5921b978e3591",
@@ -469,6 +471,7 @@
     "92d7c4c7147c3ed0",
     "d39cb77be129abda",
     "10e504f2c07f0c9d",
+    "0f7220983d807834",
     "24b9a23c20822f37",
     "31ed9c70b18d5951",
     "63ab7798b614f938",
@@ -505,6 +508,7 @@
     "187af41091bac104"
   ],
   "Industrial": [
+    "d35b55aefd9675f3",
     "e880b9dafb84d59f"
   ],
   "Inmobiliarias": [
@@ -520,7 +524,7 @@
     "947fceed031cb442",
     "7adef0465ab7b24d",
     "97cc0d40e001bec8",
-    "b95b20e9b8aac4a7",
+    "e6a469b3486fd21b",
     "d6295b4fb3e451cf",
     "d072831fd761091e",
     "4243d6e40f30dd55",
@@ -586,7 +590,6 @@
     "4d47e27cd8267674",
     "2e9d5691f6386db4",
     "aefe80febf55cf40",
-    "98b7b0c53c5a18ef",
     "c3345bfae8124155",
     "b5f2bfea9a81f447",
     "4c0bc847f272e127"
@@ -764,7 +767,7 @@
   ],
   "Supermercados": [
     "2cfb9cd8678d662c",
-    "7643f925cffccac1",
+    "dcc81d92434c7443",
     "405df50264da77c4",
     "cb2d47ca1945e0e8",
     "28100c1f8dcdffbe",
@@ -822,6 +825,7 @@
     "d022585c3f1eec67",
     "f2cddc35e504dc5f",
     "b8a95231326f2ec5",
+    "c7e19b2a78b35cd2",
     "0979f3f2a937ee87",
     "5a566479a8eb6ae5",
     "47b963bbd946a4a8",
@@ -1413,6 +1417,7 @@
     "07d86bb003e033fb"
   ],
   "Veterinarias": [
+    "9c589d42a65eb5b7",
     "cec955a4d0ae4df6",
     "7e44d1acf7e29a2c",
     "0db5736c2925957d",
@@ -1452,6 +1457,7 @@
     "6407bb8f9bcc712d",
     "390bc1b882a79c99",
     "227afc24a9ffd6c7",
+    "5e8d8131d31b3d45",
     "bb7122098e80ce9b"
   ],
   "Viajes": [

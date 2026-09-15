@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 106
+Total de beneficios: 109
 
 ## Belleza y Salud
 
@@ -12,6 +12,7 @@ Total de beneficios: 106
 | BELA NAILS | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-08-12 hasta 2026-09-30 |
 | MYLAN | 6 Cuotas sin intereses; Tenes hasta 6 cuotas sin intereses. | No especificado | 2026-08-20 hasta 2026-10-31 |
 | ODONTOS | 12 Cuotas sin intereses; Tenes 12 cuotas sin intereses | No especificado | 2026-03-27 hasta 2026-12-31 |
+| Optica Santa Lucía | 6 Cuotas sin intereses 35 % Hasta; Tenes hasta 30% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses. | No especificado | 2025-12-18 hasta 2026-09-23 |
 | Punto Farma | 6 Cuotas sin intereses 35 % Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses. | Todos los Martes; todos los martes | 2024-12-30 hasta 2026-12-31 |
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
 | Sanatorios y Clinicas | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-01 hasta 2026-09-30 |
@@ -40,6 +41,7 @@ Total de beneficios: 106
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| CENTRO DE MATERIALES | 40 % 6 Cuotas sin intereses; Tenes 40% de ahorro con Tarjeta de Crédito y hasta 6 cuotas sin intereses. | No especificado | 2026-04-27 hasta 2026-09-30 |
 | Casa Pro | 30 % Hasta 6 Cuotas sin intereses; Tenes hasta 30% de descuento en caja + hasta 6 cuotas sin intereses | No especificado | 2025-06-19 hasta 2026-12-31 |
 | EXPRESIONES GALERIA DE ARTE | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-09-01 hasta 2026-10-31 |
 | Essen | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
@@ -180,6 +182,7 @@ Total de beneficios: 106
 | Terranova | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Universo Turismo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Viamar Viajes | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
+| Volemos.com | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Zona De Embarque | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 
 ## Últimos días

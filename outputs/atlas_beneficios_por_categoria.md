@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 43
+Total de beneficios: 42
 
 ## Bienestar
 
@@ -63,7 +63,6 @@ Total de beneficios: 43
 | Mango | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 | Pedro del Hierro | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 | Shopping Mariscal | 20% de descuento; Hasta 3 cuotas sin intereses | Todos los Miércoles | El descuento se realiza en caja. Aplica para tiendas adheridas a la promoción y pagos realizados a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a  |
-| Shopping Mariscal Días M | 20% de reintegro; +5% de reintegro; 10 cuotas sin intereses | Del 11 al 13 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 10.000.000. La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la Red Infonet. Promoci |
 | Springfield | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’s Secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red In |
 | women'secret | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 

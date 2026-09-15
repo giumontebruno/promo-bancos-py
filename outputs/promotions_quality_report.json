@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-15T01:59:32.455037+00:00",
-  "input_count": 1325,
-  "promotion_count": 1325,
+  "generated_at": "2026-09-15T12:41:50.730247+00:00",
+  "input_count": 1331,
+  "promotion_count": 1331,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
     "458726a1d0c21190": "cf8ef5a71b788278",
-    "09341a54154f91ae": "ba3ac7db98c9e32b",
-    "2537dde96a29fd27": "fa534f89b7019277",
-    "bdb8286c738d1a2b": "96d488f7e2b0de9c",
-    "6dea0bc1bf9ebfaf": "c0ec7c2ae36d964a",
-    "aa114005cb0c26a9": "ae029d3ffe0eb011",
-    "919e3a0027a1f163": "4a5fb022bea5ab25",
-    "bbf7525d80cdd9ff": "3f93d9ac86b3770b",
+    "09341a54154f91ae": "ffd12e9762c6b8db",
+    "2537dde96a29fd27": "837ba61bafe1b5be",
+    "bdb8286c738d1a2b": "070c421e316eb434",
+    "6dea0bc1bf9ebfaf": "41a119aa8a6f5943",
+    "aa114005cb0c26a9": "d9859bdfaefb4b01",
+    "919e3a0027a1f163": "7172e6bbf76e5571",
+    "bbf7525d80cdd9ff": "82a1fa39a6e69e0b",
     "199b1fc13f335ed3": "599ba42baed22a99",
     "a25927796611ab5c": "6d5e3aca6cc54e6c",
     "e04977d3cf421e2a": "cedd7db32192538e",
@@ -184,7 +184,7 @@
     "92c229f4f7dc932a": "33d0b3c9d7b1f1a9",
     "55a95388dc4831de": "3b3c1e7971db9ce8",
     "9e76b1c332e69a31": "0061a1e7295921e2",
-    "e2940f3700c4f0b9": "4a5fb022bea5ab25",
+    "e2940f3700c4f0b9": "7172e6bbf76e5571",
     "1a42a2d6f004ff20": "6f3b5209350ea5fd",
     "96e5382a91af95cb": "224c152f16b31317",
     "972ba46d2397c34d": "3a81a57c245903e0",
@@ -314,25 +314,34 @@
     "9f79b14b33c4d97a": "df117547e7958d25",
     "b82cf61286fdbf11": "cec955a4d0ae4df6",
     "2e5bc639691a1c71": "cf84cb67d3c2281b",
-    "fbe6da30c612fd78": "98b7b0c53c5a18ef",
     "597d4471164d6ac4": "dd34697835bdff48",
     "b7e587636cffbf3a": "49a9b4cb7a075742",
     "d315ab83bd0950cf": "9dfe5b3f07b66f6a",
     "d3a43aa7ca45beb2": "711977858060fc9a",
     "99168bd0b6958355": "5466f51d47bd761e",
-    "cb3de01ca31aba62": "65de826637ac09ea"
+    "cb3de01ca31aba62": "65de826637ac09ea",
+    "7643f925cffccac1": "dcc81d92434c7443",
+    "b95b20e9b8aac4a7": "e6a469b3486fd21b",
+    "62e8d841ff36ed9c": "d8610bf3faa7ec9f",
+    "ba3ac7db98c9e32b": "ffd12e9762c6b8db",
+    "fa534f89b7019277": "837ba61bafe1b5be",
+    "96d488f7e2b0de9c": "070c421e316eb434",
+    "c0ec7c2ae36d964a": "41a119aa8a6f5943",
+    "ae029d3ffe0eb011": "d9859bdfaefb4b01",
+    "3f93d9ac86b3770b": "82a1fa39a6e69e0b",
+    "4a5fb022bea5ab25": "7172e6bbf76e5571"
   },
   "by_bank": {
-    "Atlas": 43,
+    "Atlas": 42,
     "BNF": 75,
-    "Continental": 744,
+    "Continental": 748,
     "Coop. Universitaria": 78,
-    "Itaú": 106,
+    "Itaú": 109,
     "Sudameris": 48,
     "ueno bank": 231
   },
   "issue_counts": {
-    "validity_unconfirmed": 80,
+    "validity_unconfirmed": 79,
     "limits_unconfirmed": 72,
     "source_amount_conflict": 4,
     "multiple_purchase_limits": 280,
@@ -541,15 +550,6 @@
       "id": "2cfb9cd8678d662c",
       "bank": "Atlas",
       "merchant": "BOX Mayorista",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "7643f925cffccac1",
-      "bank": "Atlas",
-      "merchant": "Biggie",
       "issues": [
         "validity_unconfirmed"
       ],
@@ -2745,13 +2745,13 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1770319815.pdf"
     },
     {
-      "id": "b95b20e9b8aac4a7",
+      "id": "e6a469b3486fd21b",
       "bank": "Coop. Universitaria",
       "merchant": "UNIVERSIDAD AMERICANA",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1789390994.pdf"
+      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1789401410.pdf"
     },
     {
       "id": "d072831fd761091e",
@@ -3300,84 +3300,84 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Promocion-Reintegro-DBA-CLUB-OLIMPIA-_-SEP-2026v1-1.pdf"
     },
     {
-      "id": "62e8d841ff36ed9c",
+      "id": "d8610bf3faa7ec9f",
       "bank": "ueno bank",
       "merchant": "3MG",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
     },
     {
-      "id": "ba3ac7db98c9e32b",
+      "id": "ffd12e9762c6b8db",
       "bank": "ueno bank",
       "merchant": "COPETROL",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
     },
     {
-      "id": "fa534f89b7019277",
+      "id": "837ba61bafe1b5be",
       "bank": "ueno bank",
       "merchant": "ENEX",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
     },
     {
-      "id": "96d488f7e2b0de9c",
+      "id": "070c421e316eb434",
       "bank": "ueno bank",
       "merchant": "PETROBRAS",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
     },
     {
-      "id": "c0ec7c2ae36d964a",
+      "id": "41a119aa8a6f5943",
       "bank": "ueno bank",
       "merchant": "PETROCHACO",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
     },
     {
-      "id": "ae029d3ffe0eb011",
+      "id": "d9859bdfaefb4b01",
       "bank": "ueno bank",
       "merchant": "PETROMAX",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
     },
     {
-      "id": "3f93d9ac86b3770b",
+      "id": "82a1fa39a6e69e0b",
       "bank": "ueno bank",
       "merchant": "PUMA ENERGY",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
     },
     {
-      "id": "4a5fb022bea5ab25",
+      "id": "7172e6bbf76e5571",
       "bank": "ueno bank",
       "merchant": "Petropar",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Promocion-Reintegro-Petropar-_-SEP-2026v2.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Promocion-Reintegro-Petropar-_-SEP-2026v3.pdf"
     },
     {
       "id": "599ba42baed22a99",

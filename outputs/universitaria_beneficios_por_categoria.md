@@ -76,7 +76,7 @@ Total de promociones: 78
 | AFS | Descuento exclusivo | No especificado | Vigencia Desdeel23defebrero/2018 hastael23defebrero/2019 |
 | CIAE & ASOC. | 25% de descuento; 15% de descuento | Todos los días | Vigencia Desde el 05 de setiembre de 2022 hasta el 05 de setiembre de 2023, con renovación automática |
 | UNADES | 10% de descuento | Todos los días | Vigencia Desde el 16 de setiembre de 2025 hasta el 16 de setiembre de 2026 |
-| UNIVERSIDAD AMERICANA | 7% de descuento | No especificado | Vigencia del convenio marco: Desde el 08 de septiembre 2026 hasta el 08 de julio de 2027 |
+| UNIVERSIDAD AMERICANA | Hasta 10 cuotas sin intereses | No especificado | Vigencia del convenio marco: Desde el 08 de septiembre 2026 hasta el 08 de julio de 2027 |
 | UNIVERSIDAD CATÓLICA | Hasta 20% de descuento | No especificado | Vigencia: Desde el 20 de febrero de 2026 hasta el 20 de febrero de 2027 |
 | Universidad Autónoma de Asunción (UAA) | 20% de descuento; 10% de descuento | Todos los días | Vigencia Desde el 14 de febrero de 2019 hasta el 14 de febrero de 2020, con renovación automática |
 | Universidad Autónoma del Paraguay | 15% de descuento | Todos los días | Vigencia Desde el 20 de abril de 2022 hasta el 20 de abril de 2023, con renovación automática |

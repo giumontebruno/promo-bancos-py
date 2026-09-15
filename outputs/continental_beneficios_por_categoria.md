@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 744
+Total de beneficios/comercios: 748
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -163,7 +163,7 @@ Total de beneficios/comercios: 744
 |---|---|---|---|---|
 | Teko Park | 10%; Hasta 12 cuotas sin intereses | todos los días | Vigente hasta el 24 de julio de 2027 | Encarnación |
 
-## Farmacias y Perfumerías (34)
+## Farmacias y Perfumerías (35)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -177,10 +177,11 @@ Total de beneficios/comercios: 744
 | Farmacia - Sanatorio Alemán | 20%; 20% de reintegro | los Martes | Vigente hasta el 22 de septiembre del 2026 | Obligado, Itapúa |
 | Farmacia Acuario | 20%; 20% de reintegro | Los martes | Vigente hasta el 31 de diciembre de 2026 | Capitán Meza |
 | Farmacia Americana | 40%; hasta 6 cuotas sin intereses; 15% de reintegro; 40% de descuento | todos los días | Vigente hasta el 26 de enero 2027 | No especificado |
+| Farmacia Bertochi | 20%; 20% de reintegro | Los martes | Vigente hasta el 24 de febrero de 2027 | San Cristóbal (Alto Paraná) |
 | Farmacia Ivan | 30%; 30% de reintegro | Los martes | Vigente hasta el 03 de agosto de 2027 | Col. Independencia |
 | Farmacia La Trinidad | 10%; 10% de reintegro | Los martes | Vigente hasta el 24 de agosto de 2027 | Encarnación |
 | Farmacia Ultrapharma | 15%; 15% de reintegro | Los martes | Vigente hasta el 23 de marzo de 2027 | No especificado |
-| Farmacia Vida | 20%; 20% de reintegro | los martes | Vigente hasta el 12 de agosto de 2027 | Concepción |
+| Farmacia Vida | 20%; 20% de reintegro | Los martes | Vigente hasta el 12 de agosto de 2027 | Concepción |
 | Farmacia Ypané | 30%; 30% de reintegro | los martes | Vigente hasta el 15 de septiembre del 2026 | Concepción |
 | Farmacia y Perfumería Liz | 20%; 20% de reintegro | los martes | Vigente hasta el 24 de noviembre del 2026 | Coronel Oviedo |
 | Farmacia Ñeembucú | 20%; hasta 12 cuotas sin intereses; 20% de descuento | todos los días | Vigente hasta el 02 de marzo de 2027 | Pilar |
@@ -364,10 +365,11 @@ Total de beneficios/comercios: 744
 | Estilo Sport Shop | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 27 de mayo de 2027 | Encarnación |
 | Las Palmeras Race y Pelotón Ciclismo | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 01 de julio de 2027 | Asunción |
 
-## Industrial (1)
+## Industrial (2)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
+| Agripiezas | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 15 de septiembre de 2026 hasta el 14 de marzo de 2027 | No especificado |
 | Tecnomaq PY | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de octubre de 2027 | Luque |
 
 ## Inmobiliarias (2)
@@ -548,7 +550,7 @@ Total de beneficios/comercios: 744
 | Progresar Corporation S.A. | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 18 de febrero de 2027 | No especificado |
 | Todo huerta | 10% de reintegro | los jueves | Vigente hasta el 28 de enero del 2027 | No especificado |
 
-## Supermercados (115)
+## Supermercados (116)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -560,6 +562,7 @@ Total de beneficios/comercios: 744
 | Asuncena - Grupo Maciel - Miércoles de supermercados | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 01 de septiembre de 2027 | San Juan Bautista |
 | Autoservice Santa Clara | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 30 de junio de 2027 | Coronel Bogado |
 | Autoservicio Guille - Miércoles de Supermercados | 20% | Los miércoles | Vigente hasta el 16 de diciembre de 2026 | Fram (Itapúa) |
+| B2 Casa de Carnes | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 18 de febrero de 2027 | San Cristóbal (Alto Paraná) |
 | Beef Shop - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 10 de marzo de 2027 | Asunción |
 | Biggie Express - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 08 de septiembre de 2027 | Todo el país |
 | Box Mayorista | 20%; 20% de reintegro | tercer lunes de cada mes, en Box Mayorista | Vigente hasta el 16 de diciembre del 2026 (*) No aplica para compras en patios de comida | No especificado |
@@ -631,9 +634,8 @@ Total de beneficios/comercios: 744
 | Supermercado El Cacique S.R.L - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 20 de enero de 2027 | No especificado |
 | Supermercado Emanuel - Miércoles de supermercados | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 03 de marzo de 2027 | Katueté (Canindeyú) |
 | Supermercado Everest - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 28 de abril de 2027 | Presidente Franco |
-| Supermercado Gran Avenida | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 31 de marzo de 2027 | Concepción |
 
-_Se omitieron 35 filas en este resumen; están en el CSV._
+_Se omitieron 36 filas en este resumen; están en el CSV._
 
 ## Tiendas (214)
 
@@ -767,10 +769,11 @@ _Se omitieron 134 filas en este resumen; están en el CSV._
 | Tonina | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de noviembre de 2026 | No especificado |
 | Toyotoshi | 30%; Hasta 12 cuotas sin intereses; 30% de descuento; 20% de descuento; 10% de descuento; 5% de descuento | Todos los días | Vigente hasta el 03 de julio de 2027 | Todo el país |
 
-## Veterinarias (6)
+## Veterinarias (7)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
+| Agropecuaria Paraná | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 15 de septiembre de 2026 hasta el 14 de marzo de 2027 | No especificado |
 | For Pets | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 11 de septiembre de 2027 | Asunción |
 | La Casa del Veterinario | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 21 de abril de 2027 | Fernando de la Mora |
 | Rogavet | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de junio de 2027 | Asunción |
