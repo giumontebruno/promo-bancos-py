@@ -23,7 +23,12 @@ async function refresh() {
   const account = await api('me');
   const { data } = await client.auth.getSession();
   const metadata = data.session?.user?.user_metadata || {};
-  current = { ...account, name: String(metadata.full_name || metadata.name || '').trim() };
+  let avatarUrl = '';
+  try {
+    const avatar = new URL(metadata.avatar_url || metadata.picture || '');
+    if (avatar.protocol === 'https:' && (avatar.hostname === 'googleusercontent.com' || avatar.hostname.endsWith('.googleusercontent.com'))) avatarUrl = avatar.href;
+  } catch { /* An account without a Google photo uses the profile fallback. */ }
+  current = { ...account, name: String(metadata.full_name || metadata.name || '').trim(), avatarUrl };
   changed();
 }
 function googleButton() {

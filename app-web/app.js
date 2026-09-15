@@ -197,6 +197,8 @@ const CATEGORY_ICONS = {
 };
 
 const ICON_PATHS = {
+  share: '<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98m-.01-10.98-6.82 3.98"/>',
+  user: '<path d="M20 21v-2a7 7 0 0 0-14 0v2"/><circle cx="13" cy="7" r="4"/>',
   spark: '<path d="M12 3l1.6 5.1L19 10l-5.4 1.9L12 17l-1.6-5.1L5 10l5.4-1.9L12 3z"/>',
   cart: '<path d="M5 6h2l1.4 8.2h8.3L19 8H8"/><circle cx="10" cy="18" r="1.4"/><circle cx="16" cy="18" r="1.4"/>',
   fuel: '<path d="M6 21V5a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v16"/><path d="M8 9h7"/><path d="M18 7l2 2v7a2 2 0 0 1-4 0v-4"/><path d="M4 21h15"/>',
@@ -1318,7 +1320,7 @@ function renderAlertsView() {
   els.results.innerHTML = `
     <section class="profile-panel">
       <div class="profile-card">
-        <span class="profile-logo">${renderIcon("heart")}</span>
+        <span class="profile-logo profile-avatar">${renderIcon("user")}${account?.avatarUrl ? `<img class="google-profile-photo" src="${escapeAttribute(account.avatarUrl)}" alt="Foto de perfil de Google" referrerpolicy="no-referrer" />` : ""}</span>
         <div>
           <h2>${account ? account.name ? `Hola, ${escapeHtml(account.name)}` : "Tu perfil Payback" : "Activá tu perfil Payback"}</h2>
           <p>${account ? escapeHtml(account.email) : "Conectá tu cuenta para sincronizar tus favoritos."}</p>
@@ -2788,7 +2790,7 @@ function renderCard(promo, variant = null) {
           <div class="card-actions">
             ${premiumBadge || powerBadge}
             <button class="favorite-toggle ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}" title="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-label="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-pressed="${isFavorite}">${renderIcon("heart")}</button>
-            <button class="favorite-toggle share-toggle" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variant?.key || '')}" title="Compartir promoción" aria-label="Compartir promoción">↗</button>
+            <button class="favorite-toggle share-toggle" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variant?.key || '')}" title="Compartir promoción" aria-label="Compartir promoción">${renderIcon("share")}</button>
           </div>
         </div>
         ${savingsLabel ? `<div class="savings-line">${escapeHtml(savingsLabel)}</div>` : ""}
@@ -2822,7 +2824,7 @@ function openDetail(id, variantKey = "", placeId = "") {
     <p class="benefit">${escapeHtml(getDisplayBenefit(promo, variant))}</p>
     ${savings.refundCap ? `<div class="detail-saving"><span>Ahorro máximo estimado</span><strong>${escapeHtml(formatGuarani(savings.refundCap))}</strong></div>` : ""}
     <button class="detail-favorite ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}">${renderIcon("heart")} ${isFavorite ? "Guardado en favoritos" : "Guardar en favoritos"}</button>
-    <button class="detail-inline-action" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variantKey)}">↗ Compartir promoción</button>
+    <button class="detail-inline-action detail-share" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variantKey)}">${renderIcon("share")} Compartir promoción</button>
     <div class="calculator" data-calculator-id="${escapeAttribute(promo.id)}" data-calculator-variant="${escapeAttribute(variantKey)}">
       <label>¿Cuánto vas a gastar?
         <input type="number" inputmode="numeric" min="0" step="1000" placeholder="Ej: 500000" />
@@ -3118,6 +3120,10 @@ function promotionShareData(promo, variantKey = '') {
     url: url.href,
   };
 }
+
+document.addEventListener('error', event => {
+  if (event.target instanceof HTMLImageElement && event.target.classList.contains('google-profile-photo')) event.target.remove();
+}, true);
 
 document.addEventListener('click', async event => {
   const button = event.target.closest('[data-share-id]');
