@@ -216,6 +216,13 @@ dialog::backdrop { background: #08090cc7; }
 .beta-table table { border-collapse: collapse; font-size: 12px; }
 .beta-table td, .beta-table th { padding: 9px; border-bottom: 1px solid #42474e; text-align: left; }
 .beta-report { padding: 12px 0; border-bottom: 1px solid #42474e; overflow-wrap: anywhere; }
+/* Contain page overflow without disabling horizontal gestures inside the map. */
+html, body { width: 100%; max-width: 100%; overflow-x: hidden; overscroll-behavior-x: none; }
+@supports (overflow: clip) { html, body { overflow-x: clip; } }
+.app-shell, .controls, .grid, .promo-card, .profile-panel, .profile-card { min-width: 0; max-width: 100%; }
+.grid > *, .controls > *, .promo-card > *, .profile-card > * { min-width: 0; }
+.promo-card-head { flex-wrap: wrap; }
+.selected-place-panel, .profile-panel { overflow-wrap: anywhere; }
 /* Prevent intrinsic map and branch content widths from enlarging the page. */
 .results, .nearby-panel, .selected-place-panel, .place-list, .place-list-item { min-width: 0; max-width: 100%; }
 .nearby-panel { grid-template-columns: minmax(0, 1fr); }
