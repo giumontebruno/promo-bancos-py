@@ -1225,7 +1225,7 @@ function buildResultSections(promos) {
   if (state.activeView === "favorites") return [["Tus favoritos", promos, "favorites"]];
   if (state.query.trim()) return buildSearchSections(promos);
   if (state.activeView === "today" && state.activeBank === "Todos" && state.activeCategory === "Todas") {
-    return buildHomeSections(promos);
+    return sectionPromotions(promos);
   }
   return sectionPromotions(promos);
 }
