@@ -709,6 +709,7 @@ function cleanBenefitLine(value) {
   line = line.replace(/^(\d{1,3})\s*%\s*;\s*(?=\1\s*%)/i, "");
   if (!line) return "";
   const lowerLine = line.toLowerCase();
+  if (/^(?:reintegro|descuento|beneficio)$/.test(lowerLine)) return "Consultar beneficio";
   if (
     lowerLine.includes("tope") ||
     lowerLine.includes("monto mínimo") ||
