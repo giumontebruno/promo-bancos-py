@@ -709,7 +709,6 @@ function cleanBenefitLine(value) {
   line = line.replace(/^(\d{1,3})\s*%\s*;\s*(?=\1\s*%)/i, "");
   if (!line) return "";
   const lowerLine = line.toLowerCase();
-  if (/^(?:reintegro|descuento|beneficio)$/.test(lowerLine)) return "Consultar beneficio";
   if (
     lowerLine.includes("tope") ||
     lowerLine.includes("monto mínimo") ||
@@ -827,6 +826,14 @@ function extractGuaraniAmounts(text) {
 
 function getPromoVariants(promo) {
   if (isUenoPowerPromo(promo)) return [null];
+  const additive = normalizeDayName(promo.benefit_summary || '').match(/(\d{1,2})\s*%\s*(?:de\s+)?reintegro\s*\+\s*(\d{1,2})\s*%\s*(?:para\s+)?(black\s+e\s+infinite|elite)/);
+  if (additive) {
+    const base = Number(additive[1]);
+    return [
+      {kind: 'base', label: '', benefit: `${base}% reintegro`},
+      {kind: 'premium', label: additive[3] === 'elite' ? 'Elite' : 'Black / Infinite', benefit: `${base + Number(additive[2])}% reintegro`},
+    ];
+  }
 
   const baseBenefit = getBaseBenefitForPremiumPromo(promo);
   const basePercent = percentNumber(baseBenefit);

@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-beta-11-card-alignment";
+const CACHE_NAME = "payback-py-beta-12-source-benefits";
 const APP_SHELL = [
   "./",
   "./index.html",

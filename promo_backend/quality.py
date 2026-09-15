@@ -11,6 +11,7 @@ from datetime import date
 MONTHS = {name: i for i, name in enumerate(
     "enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre".split(), 1
 )}
+MONTHS['setiembre'] = 9
 MONEY = r"(?:Gs\.?|G\.|guaran[ií]es)\s*([0-9]+(?:[. ,][0-9]{3})*)"
 
 

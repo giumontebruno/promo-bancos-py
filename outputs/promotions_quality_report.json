@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-15T12:41:50.730247+00:00",
-  "input_count": 1331,
-  "promotion_count": 1331,
+  "generated_at": "2026-09-15T14:16:21.064696+00:00",
+  "input_count": 1448,
+  "promotion_count": 1448,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -329,7 +329,8 @@
     "c0ec7c2ae36d964a": "41a119aa8a6f5943",
     "ae029d3ffe0eb011": "d9859bdfaefb4b01",
     "3f93d9ac86b3770b": "82a1fa39a6e69e0b",
-    "4a5fb022bea5ab25": "7172e6bbf76e5571"
+    "4a5fb022bea5ab25": "7172e6bbf76e5571",
+    "bd74eedbd56b4665": "86c34bb3f4e38e00"
   },
   "by_bank": {
     "Atlas": 42,
@@ -337,13 +338,13 @@
     "Continental": 748,
     "Coop. Universitaria": 78,
     "Itaú": 109,
-    "Sudameris": 48,
+    "Sudameris": 165,
     "ueno bank": 231
   },
   "issue_counts": {
-    "validity_unconfirmed": 79,
-    "limits_unconfirmed": 72,
-    "source_amount_conflict": 4,
+    "validity_unconfirmed": 58,
+    "limits_unconfirmed": 81,
+    "source_amount_conflict": 5,
     "multiple_purchase_limits": 280,
     "multiple_refund_limits": 89
   },
@@ -2570,15 +2571,6 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775478932.pdf"
     },
     {
-      "id": "5ebc364f02c7c6e2",
-      "bank": "Coop. Universitaria",
-      "merchant": "Estaciones ENERGY",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784217351.pdf"
-    },
-    {
       "id": "c51354cad24e3e65",
       "bank": "Coop. Universitaria",
       "merchant": "BELLMONT BARBERÍA",
@@ -2595,78 +2587,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1745848849.pdf"
-    },
-    {
-      "id": "a9514f32a5478b37",
-      "bank": "Coop. Universitaria",
-      "merchant": "Farmacenter",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783348467.pdf"
-    },
-    {
-      "id": "9f7e83cf8ff53c4d",
-      "bank": "Coop. Universitaria",
-      "merchant": "Farmacia Catedral",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784292469.pdf"
-    },
-    {
-      "id": "c51a7e011a3b6253",
-      "bank": "Coop. Universitaria",
-      "merchant": "Farmaoliva",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783347827.pdf"
-    },
-    {
-      "id": "5adc6fd1838d5d57",
-      "bank": "Coop. Universitaria",
-      "merchant": "Farmatotal",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783685293.pdf"
-    },
-    {
-      "id": "909cc28ebbca23b1",
-      "bank": "Coop. Universitaria",
-      "merchant": "Punto Farma",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783699874.pdf"
-    },
-    {
-      "id": "27968d3776836181",
-      "bank": "Coop. Universitaria",
-      "merchant": "BURGER KING",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-burger-king1784048891.pdf"
-    },
-    {
-      "id": "490bb70aaff15c4a",
-      "bank": "Coop. Universitaria",
-      "merchant": "POPEYES",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-popeyes1784049194.pdf"
-    },
-    {
-      "id": "f980aa0be4eda1eb",
-      "bank": "Coop. Universitaria",
-      "merchant": "SUBWAY",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-subway1784049051.pdf"
     },
     {
       "id": "5eeabcaebf3d24af",
@@ -2709,7 +2629,6 @@
       "bank": "Coop. Universitaria",
       "merchant": "Las Lomas Country",
       "issues": [
-        "validity_unconfirmed",
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1757961129.pdf"
@@ -2729,7 +2648,6 @@
       "bank": "Coop. Universitaria",
       "merchant": "CIAE & ASOC.",
       "issues": [
-        "validity_unconfirmed",
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1685026495.pdf"
@@ -2739,7 +2657,6 @@
       "bank": "Coop. Universitaria",
       "merchant": "UNADES",
       "issues": [
-        "validity_unconfirmed",
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1770319815.pdf"
@@ -3011,49 +2928,14 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1788800583.pdf"
     },
     {
-      "id": "21d418b9714bd04d",
+      "id": "02c38fab428bea5c",
       "bank": "Coop. Universitaria",
-      "merchant": "Areté Supermercados",
+      "merchant": "Hipermercado Luisito",
       "issues": [
-        "validity_unconfirmed"
+        "source_amount_conflict",
+        "limits_unconfirmed"
       ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784034280.pdf"
-    },
-    {
-      "id": "3a467cbe0ee900f5",
-      "bank": "Coop. Universitaria",
-      "merchant": "EL AHORRAZO",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783095165.pdf"
-    },
-    {
-      "id": "9561f85ec2a6a795",
-      "bank": "Coop. Universitaria",
-      "merchant": "Molino Caaguazú",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783342991.pdf"
-    },
-    {
-      "id": "07ccdb612a757c62",
-      "bank": "Coop. Universitaria",
-      "merchant": "S6 | STOCK | DELI MARKET",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784029867.pdf"
-    },
-    {
-      "id": "cc02a6c7d9fef503",
-      "bank": "Coop. Universitaria",
-      "merchant": "Supermercado Metro",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783099369.pdf"
+      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784737973.pdf"
     },
     {
       "id": "b17c26f7cc23e263",
@@ -3219,22 +3101,76 @@
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/297/detalle"
     },
     {
-      "id": "b65d8df80a17c1eb",
+      "id": "040bedaf7d6481be",
       "bank": "Sudameris",
-      "merchant": "GASTRONOMÍA 26",
+      "merchant": "Emac",
       "issues": [
-        "validity_unconfirmed"
+        "limits_unconfirmed"
       ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/636/detalle"
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-4926.pdf"
     },
     {
-      "id": "b1e94739c8421644",
+      "id": "f217e008915e261f",
       "bank": "Sudameris",
-      "merchant": "CHEF’S KITCHEN",
+      "merchant": "Farmacia San Antonio",
       "issues": [
-        "validity_unconfirmed"
+        "limits_unconfirmed"
       ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/738/detalle"
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-090926.pdf"
+    },
+    {
+      "id": "21ee4e615bac8078",
+      "bank": "Sudameris",
+      "merchant": "Malenki s Moda Infantil",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-4926.pdf"
+    },
+    {
+      "id": "862f1d44e4b8a879",
+      "bank": "Sudameris",
+      "merchant": "Mansion Design",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-4926.pdf"
+    },
+    {
+      "id": "523177d03313486a",
+      "bank": "Sudameris",
+      "merchant": "Milord",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-4926.pdf"
+    },
+    {
+      "id": "25f097b660a8ee1f",
+      "bank": "Sudameris",
+      "merchant": "STYL Optica",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-4926.pdf"
+    },
+    {
+      "id": "17c4bbfecaf4f0b0",
+      "bank": "Sudameris",
+      "merchant": "San Isidro Showroom",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-4926.pdf"
+    },
+    {
+      "id": "e16bb3c00bc064fb",
+      "bank": "Sudameris",
+      "merchant": "Totem Gym",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-4926.pdf"
     },
     {
       "id": "fb152a7d1fb1b1f3",
@@ -3244,24 +3180,6 @@
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/647/detalle"
-    },
-    {
-      "id": "55df6f300643c480",
-      "bank": "Sudameris",
-      "merchant": "ZONA ESTE",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/440/detalle"
-    },
-    {
-      "id": "252b25a931d2e349",
-      "bank": "Sudameris",
-      "merchant": "ZONA SUR",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/436/detalle"
     },
     {
       "id": "060864a92e631902",

@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUTS = ROOT / "outputs"
 PUBLIC = ROOT / "public"
 DATA = ROOT / "data"
+REVIEWED_BENEFITS = json.loads((DATA / 'reviewed_benefits.json').read_text(encoding='utf-8')) if (DATA / 'reviewed_benefits.json').exists() else []
 
 
 SOURCE_FILES = [
@@ -233,6 +234,18 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         )
     )
     full_detail = clean(" ".join(dict.fromkeys(filter(None, [detail, base_detail]))))
+    # Card captions sometimes contain only a weekday; read the actual benefit clauses.
+    if not detect_percentages(benefit) and not re.search(r'\bcuotas?\b', benefit, re.I) and detect_benefit_type(full_detail) == 'reintegro':
+        rates = re.findall(r'descuento del\s+(\d{1,2})\s*%', full_detail, re.I)
+        if not rates:
+            rates = re.findall(r'descuentos? de hasta\s+(\d{1,2})\s*%', full_detail, re.I)
+        if rates:
+            kind = 'reintegro' if 'reintegro en extracto' in full_detail.lower() else 'descuento'
+            benefit = f'Hasta {max(map(int, rates))}% de {kind}'
+        else:
+            quota = re.search(r'\b\d+\s+cuotas?\s+sin\s+inter[eé]s(?:es)?', full_detail, re.I)
+            if quota:
+                benefit = quota[0]
     validity_section = re.search(r'vigencia\s*:\s*(.*?)(?=beneficio\s*:|condiciones\s*:|$)', full_detail, re.I)
     scheduling = [day_text, validity, validity_section[1] if validity_section else ""]
 
@@ -261,6 +274,18 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "original_source_text": first(row, "Texto original de la fuente"),
     }
     normalized["id"] = row_id(normalized)
+    for review in REVIEWED_BENEFITS:
+        if review['source_url'] == source_url and review['detail_sha256'] == hashlib.sha256(full_detail.encode()).hexdigest():
+            normalized['benefit_summary'] = review['benefit_summary']
+            normalized['merchant_name'] = review.get('merchant_name', normalized['merchant_name'])
+            normalized['benefit_type'] = 'reintegro'
+            normalized['percentages'] = detect_percentages(review['benefit_summary'])
+            normalized['verified_cards'] = review['verified_cards']
+            normalized['raw_detail'] = review['note'] + ' ' + full_detail
+            normalized['source_warning'] = review['warning']
+            if review['warning']:
+                normalized['raw_detail'] += ' Advertencia: ' + review['warning']
+            break
     return normalized
 
 

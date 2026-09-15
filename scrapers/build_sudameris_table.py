@@ -1,6 +1,7 @@
 import csv
 import re
 from pathlib import Path
+from sudameris_campaigns import expand_campaign
 
 
 IN = Path("outputs/sudameris_promociones.csv")
@@ -95,6 +96,9 @@ def main():
 
     table = []
     for row in rows:
+        if row['Comercio/Promocion'] in {'GASTRONOMÍA 26', 'ZONA ESTE', 'ZONA SUR'}:
+            table.extend(expand_campaign(row))
+            continue
         table.append(
             {
                 "Categoría": category_for(row),
@@ -110,7 +114,7 @@ def main():
 
     table.sort(key=lambda r: (r["Categoría"], r["Comercio/Promoción"]))
     with OUT_CSV.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(table[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=list(dict.fromkeys(key for row in table for key in row)))
         writer.writeheader()
         writer.writerows(table)
 
