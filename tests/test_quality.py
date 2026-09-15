@@ -6,6 +6,15 @@ from promo_backend.normalize import normalize_row
 
 
 class QualityTests(unittest.TestCase):
+    def test_qr_savings_take_priority_over_financing(self):
+        for summary in ['6 Cuotas sin intereses 35% Pago con QR', 'Hasta 35% QR de ahorro y 6 cuotas sin intereses', '20% de ahorro y 6 cuotas sin intereses']:
+            promo = normalize_row('Itaú', {'Cantidad de descuento / beneficio': summary})
+            self.assertEqual(promo['benefit_type'], 'descuento')
+
+    def test_zero_interest_is_not_a_discount(self):
+        promo = normalize_row('Itaú', {'Cantidad de descuento / beneficio': '6 cuotas sin intereses. Tasa 0%'})
+        self.assertEqual(promo['benefit_type'], 'cuotas_sin_intereses')
+
     def test_financing_exclusion_does_not_turn_into_refund_benefit(self):
         promo = normalize_row('BNF', {'Cantidad de descuento / beneficio': '12 cuotas sin intereses',
             'Detalle': 'El reintegro no se acumula con compras financiadas.'})

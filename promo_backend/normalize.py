@@ -154,6 +154,8 @@ def detect_benefit_type(text):
         return "reintegro"
     if "descuento" in text:
         return "descuento"
+    if re.search(r"\b[1-9]\d?\s*%\s*(?:de\s+)?(?:ahorro|pago con qr|qr\s+de\s+ahorro)", text):
+        return "descuento"
     if "cuota" in text and "sin inter" in text:
         return "cuotas_sin_intereses"
     return "beneficio"

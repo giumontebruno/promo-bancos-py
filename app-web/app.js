@@ -613,7 +613,8 @@ function isEveryDayPromotion(promo) {
 function isInstallmentsOnly(promo) {
   const text = normalizeDayName(`${promo.benefit_summary || ""} ${promo.benefit_type || ""} ${promo.level_rules || ""}`);
   const hasInstallments = text.includes("cuota") || text.includes("sin interes") || text.includes("sin intereses");
-  const hasDiscount = text.includes("descuento") || text.includes("reintegro");
+  const hasDiscount = text.includes("descuento") || text.includes("reintegro")
+    || /\b[1-9]\d?\s*%\s*(?:de\s+)?(?:ahorro|pago con qr|qr\s+de\s+ahorro)/.test(text);
   return hasInstallments && !hasDiscount;
 }
 

@@ -59323,7 +59323,7 @@
     "merchant_name": "BELA NAILS",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -59448,7 +59448,7 @@
     "merchant_name": "Punto Farma",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 35% Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "35%"
     ],
@@ -59497,7 +59497,7 @@
     "merchant_name": "Punto Farma",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%",
       "5%"
@@ -59629,7 +59629,7 @@
     "merchant_name": "Festa",
     "merchant_locations_or_group": "",
     "benefit_summary": "20%; Tenes 20% de ahorro.",
-    "benefit_type": "beneficio",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -59885,7 +59885,7 @@
     "merchant_name": "Essen",
     "merchant_locations_or_group": "",
     "benefit_summary": "10 Cuotas sin intereses 30%; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "30%"
     ],
@@ -59928,7 +59928,7 @@
     "merchant_name": "Gayatri",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -59971,7 +59971,7 @@
     "merchant_name": "Luminotecnia",
     "merchant_locations_or_group": "",
     "benefit_summary": "10 Cuotas sin intereses 15%; 15% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "15%"
     ],
@@ -60139,7 +60139,7 @@
     "merchant_name": "Sueñolar",
     "merchant_locations_or_group": "",
     "benefit_summary": "18 Cuotas sin intereses 55% Hasta; Tenes hasta 55% de ahorro y hasta 18 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "55%"
     ],
@@ -60182,7 +60182,7 @@
     "merchant_name": "Ocre",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -60266,7 +60266,7 @@
     "merchant_name": "AVENTURA PARK",
     "merchant_locations_or_group": "",
     "benefit_summary": "10% 10 Cuotas sin intereses; Tenés 10% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "10%"
     ],
@@ -60309,7 +60309,7 @@
     "merchant_name": "Estoy Jugueteria",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -60416,7 +60416,7 @@
     "merchant_name": "Stock",
     "merchant_locations_or_group": "",
     "benefit_summary": "15% de ahorro.",
-    "benefit_type": "reintegro",
+    "benefit_type": "descuento",
     "percentages": [
       "15%"
     ],
@@ -60461,7 +60461,7 @@
     "merchant_name": "SuperSeis",
     "merchant_locations_or_group": "",
     "benefit_summary": "15% de ahorro.",
-    "benefit_type": "reintegro",
+    "benefit_type": "descuento",
     "percentages": [
       "15%"
     ],
@@ -60506,7 +60506,7 @@
     "merchant_name": "Super Real",
     "merchant_locations_or_group": "",
     "benefit_summary": "15% de ahorro.",
-    "benefit_type": "reintegro",
+    "benefit_type": "descuento",
     "percentages": [
       "15%"
     ],
@@ -60551,7 +60551,7 @@
     "merchant_name": "Areté",
     "merchant_locations_or_group": "",
     "benefit_summary": "15%; Tenes 15% de ahorro.",
-    "benefit_type": "reintegro",
+    "benefit_type": "descuento",
     "percentages": [
       "15%"
     ],
@@ -60700,7 +60700,7 @@
     "merchant_name": "APRENDIENDO A QUERER-ME",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -60743,7 +60743,7 @@
     "merchant_name": "HABLANDO HUEVADAS",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -60786,7 +60786,7 @@
     "merchant_name": "LA JENNY",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -60829,7 +60829,7 @@
     "merchant_name": "RESET UNIPERSONAL STAND UP",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -60995,7 +60995,7 @@
     "merchant_name": "American Look",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -61040,7 +61040,7 @@
     "merchant_name": "Ares",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -61126,7 +61126,7 @@
     "merchant_name": "Bertoni",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 15% Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "15%",
       "5%"
@@ -61170,7 +61170,7 @@
     "merchant_name": "Bertoni",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 20% Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%",
       "15%",
@@ -61215,7 +61215,7 @@
     "merchant_name": "Casa Corbellani",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -61258,7 +61258,7 @@
     "merchant_name": "Cat",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -61346,7 +61346,7 @@
     "merchant_name": "Crocs",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -61391,7 +61391,7 @@
     "merchant_name": "Denoir",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -61477,7 +61477,7 @@
     "merchant_name": "Fapasisa",
     "merchant_locations_or_group": "",
     "benefit_summary": "10 Cuotas sin intereses 20% Hasta; hasta 20% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -61520,7 +61520,7 @@
     "merchant_name": "Hering",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 20% Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%",
       "15%",
@@ -61565,7 +61565,7 @@
     "merchant_name": "Indio Termos",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -61610,7 +61610,7 @@
     "merchant_name": "JOSEPH COIFFURE",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -61655,7 +61655,7 @@
     "merchant_name": "Lomas Padel",
     "merchant_locations_or_group": "",
     "benefit_summary": "20%; Tenes 20% de ahorro con APPLE PAY o GOOGLE PAY (billeteras).",
-    "benefit_type": "beneficio",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -61698,7 +61698,7 @@
     "merchant_name": "Mi portal Coca Cola",
     "merchant_locations_or_group": "",
     "benefit_summary": "25% de ahorro.",
-    "benefit_type": "beneficio",
+    "benefit_type": "descuento",
     "percentages": [
       "25%"
     ],
@@ -61745,7 +61745,7 @@
     "merchant_name": "New Balance",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -61790,7 +61790,7 @@
     "merchant_name": "Nice",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -61835,7 +61835,7 @@
     "merchant_name": "Pampero",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -61880,7 +61880,7 @@
     "merchant_name": "Patrol",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -61925,7 +61925,7 @@
     "merchant_name": "Primer Martes",
     "merchant_locations_or_group": "",
     "benefit_summary": "25% Hasta 10 Cuotas sin intereses; hasta 25% de ahorro y hasta 10 cuotas sin intereses + 10% con código QR, Apple Pay, Google Pay.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "10%"
@@ -62010,7 +62010,7 @@
     "merchant_name": "Rondina",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -62055,7 +62055,7 @@
     "merchant_name": "Sallustro",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -62100,7 +62100,7 @@
     "merchant_name": "Sport House",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -62145,7 +62145,7 @@
     "merchant_name": "TL Sports & Outdoors",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -62190,7 +62190,7 @@
     "merchant_name": "Timberland",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -62276,7 +62276,7 @@
     "merchant_name": "VGS",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -62321,7 +62321,7 @@
     "merchant_name": "Vernier",
     "merchant_locations_or_group": "",
     "benefit_summary": "6 Cuotas sin intereses 25% Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -62366,7 +62366,7 @@
     "merchant_name": "Villandry",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% de ahorro.",
-    "benefit_type": "beneficio",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
@@ -63721,7 +63721,7 @@
     "merchant_name": "COYOTE",
     "merchant_locations_or_group": "",
     "benefit_summary": "25% Hasta; Tenes 20% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "25%",
       "20%",
@@ -63766,7 +63766,7 @@
     "merchant_name": "FACUNDO ARANA SOBRE LA MARCHA",
     "merchant_locations_or_group": "",
     "benefit_summary": "20% 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
-    "benefit_type": "cuotas_sin_intereses",
+    "benefit_type": "descuento",
     "percentages": [
       "20%"
     ],
