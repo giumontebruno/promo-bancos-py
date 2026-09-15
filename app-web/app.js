@@ -1328,7 +1328,7 @@ function renderAlertsView() {
       </div>
       ${account
         ? '<div class="profile-account-actions"><button type="button" class="notification-action" data-beta-open>Administrar cuenta y comentarios</button><button type="button" class="notification-action" data-profile-logout>Cerrar sesión</button></div><p class="profile-session-status" role="status"></p>'
-        : '<button type="button" class="google-signin google-icon-only" data-beta-login aria-label="Continuar con Google" title="Continuar con Google"><img src="./assets/logos/google-g-official.png" width="20" height="20" alt=""></button><p class="profile-note">Ingresá con tu correo invitado. Solo usamos tu identidad básica y correo.</p>'}
+        : '<button type="button" class="google-signin google-icon-only" data-beta-login aria-label="Continuar con Google" title="Continuar con Google"><img src="./assets/logos/google-g-official.png" width="20" height="20" alt=""></button><p class="profile-note">Ingresá con tu cuenta de Google. Solo usamos tu identidad básica y correo.</p>'}
       ${renderFavoriteAlerts()}
       <form id="profileForm" class="profile-form">
         <label class="check-row">

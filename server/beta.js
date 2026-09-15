@@ -15,7 +15,6 @@ export async function betaIdentity(request, env, token = request.headers.get('Au
   if (!user.id || !user.email_confirmed_at || !user.email) return null;
   const email = user.email.toLowerCase();
   const admin = emails(env.BETA_ADMIN_EMAILS).includes(email);
-  if (!admin && !emails(env.BETA_ALLOWED_EMAILS).includes(email)) return null;
   return { id: user.id, email, admin };
 }
 async function bodyOf(request) {
@@ -31,7 +30,7 @@ export async function handleBeta(request, env) {
   }
   if (!env.DB) return json({ error: 'Beta no disponible' }, 503);
   const user = await betaIdentity(request, env);
-  if (!user) return json({ error: 'Ingresá con un correo invitado a la beta.' }, 401);
+  if (!user) return json({ error: 'Ingresá con Google para acceder a tu cuenta.' }, 401);
   const db = env.DB;
   const now = new Date().toISOString();
   await db.prepare('INSERT OR IGNORE INTO beta_accounts (id,email,created_at) VALUES (?,?,?)').bind(user.id, user.email, now).run();

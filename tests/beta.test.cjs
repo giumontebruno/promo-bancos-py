@@ -26,7 +26,9 @@ test('beta authentication, isolated favorites, consent, reporting and admin acce
   }
   try {
     assert.equal((await call(null, 'me')).status, 401);
-    assert.equal((await call('outsider', 'me')).status, 401);
+    assert.equal((await call('outsider', 'me')).status, 200);
+    assert.equal((await (await call('outsider', 'me')).json()).admin, false);
+    assert.equal((await call('outsider', 'admin')).status, 403);
     assert.equal((await call('alice', 'admin')).status, 403);
     const id = 'a'.repeat(32);
     await call('alice', 'favorite', 'PUT', { promoId: id });

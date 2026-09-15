@@ -9,7 +9,7 @@ function message(text) { const node = dialog.querySelector('[role=status]'); if 
 async function accessToken() { return client ? (await client.auth.getSession()).data.session?.access_token : null; }
 async function api(path, method = 'GET', body) {
   const token = await accessToken();
-  if (!token) throw new Error('Ingresá con tu correo invitado.');
+  if (!token) throw new Error('Ingresá con Google.');
   const response = await fetch(service + '/api/beta/' + path, {
     method, headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
     body: body === undefined ? undefined : JSON.stringify(body), signal: AbortSignal.timeout(15000),
@@ -45,8 +45,8 @@ function shell(content) {
 }
 function show() {
   if (!ready) return shell(`<h2>Beta Payback PY</h2><p>${escape(initError || 'Preparando el acceso…')}</p><button data-beta-retry>Reintentar</button>`);
-  if (!client) return shell('<h2>Beta por invitación</h2><p>El registro está en preparación. Tus favoritos locales siguen disponibles.</p>');
-  if (!current) return shell(`<h2>Ingresar a la beta</h2><form id="betaLogin"><button type="submit" class="google-signin">${googleButton()}</button></form><p>Usá la cuenta de Google cuyo correo fue invitado. Solo solicitamos identidad básica y correo, sin acceso a Gmail, contactos ni Drive.</p>`);
+  if (!client) return shell('<h2>Beta Payback PY</h2><p>El registro está en preparación. Tus favoritos locales siguen disponibles.</p>');
+  if (!current) return shell(`<h2>Ingresar a la beta</h2><form id="betaLogin"><button type="submit" class="google-signin">${googleButton()}</button></form><p>Ingresá con tu cuenta de Google. Solo solicitamos identidad básica y correo, sin acceso a Gmail, contactos ni Drive.</p>`);
   shell(`<h2>Tu cuenta beta</h2><p>${escape(current.email)}</p>
     <p>Favoritos sincronizados: ${current.favorites.length}. Los avisos se activan por separado en cada dispositivo.</p>
     <form id="betaPreferences"><label class="check-row"><input name="consent" type="checkbox" ${current.consent ? 'checked' : ''}>Compartir mi actividad de prueba</label>
