@@ -9,6 +9,7 @@
   "Belleza y Salud": [
     "abe7a86b787fa0f7",
     "6f658fe302d61808",
+    "e57c22efee8d8fc9",
     "ff0e72a1f92e420a",
     "0384580047dfe962",
     "240599c08d391bf8",
@@ -45,13 +46,13 @@
     "2143259d1a5a0456",
     "7ed0289b2dbc933f",
     "c2b46ea72556c68c",
-    "d8610bf3faa7ec9f",
-    "ffd12e9762c6b8db",
-    "837ba61bafe1b5be",
-    "070c421e316eb434",
-    "41a119aa8a6f5943",
-    "d9859bdfaefb4b01",
-    "82a1fa39a6e69e0b",
+    "d66d02a1798ad639",
+    "2f7c53592bae47e7",
+    "381a42b4c8e9b925",
+    "69d0aa723285eeb4",
+    "01cfefca9ce84eaf",
+    "f62815381a65b6f0",
+    "a50f2484a4772590",
     "7172e6bbf76e5571"
   ],
   "Construcción": [
@@ -81,8 +82,10 @@
   ],
   "Cuotas y tarjetas": [
     "9898767b60dd8ac2",
+    "71d58be17768207f",
     "4acc21c553fffa78",
     "55bbdfd9bf76b4e9",
+    "30a1a4930519d829",
     "7a201940b9f7a069",
     "0f3c06520e621fe1",
     "adda73b6e9b84929",
@@ -186,6 +189,7 @@
   ],
   "Entretenimiento y experiencias": [
     "87b8f157c3aefeda",
+    "c786cc6e76b8b290",
     "35306a49768a9da9"
   ],
   "Especiales": [
@@ -380,6 +384,7 @@
     "5e8d6f33c2cb43f9",
     "dc80676040775714",
     "5a610e5bd685f8eb",
+    "3a044827f917318a",
     "b31c50d430032da8",
     "ae7ef2743f69f8d3",
     "9a3e4883d28e7cbe",
@@ -401,7 +406,7 @@
     "1bccae26050d8af7",
     "db98f98aeeaca7a8",
     "41a64328590b2fc8",
-    "0bb1da1cfb2ab0f1",
+    "a3e36e279d39cbf6",
     "80f09161c24d14fc",
     "050c5cac6ad08679"
   ],
@@ -572,6 +577,9 @@
     "dc7ba136144ba09b",
     "3db3813a2dff0b80",
     "35eb4d380423bd96"
+  ],
+  "Maria Castaña padres": [
+    "a8ec45d80e466f3e"
   ],
   "Mayoristas": [
     "549617f2f3d66237",
@@ -879,12 +887,8 @@
     "7d88cc745f7b4029",
     "4c0c98907971091b"
   ],
-  "Super Real": [
-    "d6c367ffeaac383a"
-  ],
   "Supermercados": [
     "2cfb9cd8678d662c",
-    "dcc81d92434c7443",
     "405df50264da77c4",
     "cb2d47ca1945e0e8",
     "28100c1f8dcdffbe",
@@ -967,9 +971,10 @@
     "fcd7004d0e299275",
     "d787fdd8e2c1eee6",
     "020aa41b0cb4769c",
+    "a54da81bbec3606e",
     "711eabce01c61d29",
     "9df426db6334ddef",
-    "a83f9a4bcc1fbfe9",
+    "d630edf0ee4490d9",
     "58206f24927dc40c",
     "2f242d3d12803799",
     "7ab71b64cd0a3197",
@@ -1034,7 +1039,7 @@
     "8f68bae36a46f755",
     "386821e1573bb1a8",
     "861711f1939249eb",
-    "59ab514280eb7cbf",
+    "19fb9d329d7892ce",
     "5714105f900859b2",
     "6b807ec15544690d",
     "af7ddfca1d616ac7",
@@ -1055,7 +1060,6 @@
     "208de4c3cf830ac5",
     "3a467cbe0ee900f5",
     "02c38fab428bea5c",
-    "9561f85ec2a6a795",
     "9bc8378923423917",
     "07ccdb612a757c62",
     "cf508c048b067ae7",
@@ -1063,6 +1067,7 @@
     "36c333abaf98351d",
     "7c871f73bfc8fc10",
     "98035059a53c1862",
+    "bd9293b83306ecfd",
     "4d002b503294076f",
     "451c9913e2558be2",
     "c1cd11ef0944f1b5",
@@ -1605,8 +1610,6 @@
     "932ca3ebacfcf706"
   ],
   "Últimos días": [
-    "6a5f1c6281a786a5",
-    "1f15d33cd35a9d3a",
-    "8fce91c8ddd9c920"
+    "2f8b3c255e4a9a8f"
   ]
 }

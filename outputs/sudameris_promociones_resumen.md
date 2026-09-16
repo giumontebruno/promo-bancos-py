@@ -2,10 +2,12 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 48
+Total: 51
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
+| Sudameris | PRIMAVERA 2026 – RUBRO FLORERÍAS | • Todos los días • Desde el 16 hasta el 21 de septiembre de 2026. | • Reintegro en extracto de tarjeta según aplicación de promoción (leer las | https://www.sudameris.com.py/beneficios/destacado/917/detalle |
+| Sudameris | McLaren Mastercard Formula 1®Team |  |  | https://www.sudameris.com.py/beneficios/destacado/918/detalle |
 | Sudameris | DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES | : Del 03/08 al 31/12/2026. |  | https://www.sudameris.com.py/beneficios/destacado/902/detalle |
 | Sudameris | LUISITO | • Todos los martes. • Desde el 26 de mayo hasta el 30 de noviembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/875/detalle |
 | Sudameris | BIGGIE EXPRESS - PRIMERO DE CADA MES | • 01 de cada mes. • Desde el 01 de julio hasta el 30 de septiembre 2026. | • 30% de reintegro directo en el extracto pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/891/detalle |
@@ -27,7 +29,7 @@ Total: 48
 | Sudameris | Estaciones de Servicio CCU | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer jueves de cada mes. • 02 de julio. • 06 de agosto. • 03 de septiembre. • 01 de octubre. • 05 de noviembre. •  |  | https://www.sudameris.com.py/beneficios/destacado/679/detalle |
 | Sudameris | MATERASSI | • Miércoles a sábado. • Desde el 19 de agosto hasta el 03 de octubre 2026. | • 30% de descuento directo en caja pagando con tarjetas de crédito de Sudameris. • 10% de reintegro directo pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/476/detalle |
 | Sudameris | DRUGSTORE ASISMED DESCUENTO EN CAJA | • Todos los martes. • Desde el 01 de julio hasta el 30 de septiembre 2026. | • 17% de descuento en caja en medicamentos importados o nacional con tratamiento de importado y varios, pagando con tarjetas de crédito de Sudameris. • 32% de descuento en caja en medicamentos de origen 100% nacional, pa | https://www.sudameris.com.py/beneficios/destacado/453/detalle |
-| Sudameris | RESTAURANTES FAMILIA PARU - LA CUADRITA | • Desde el 01 de enero hasta el 31 de diciembre de 2026. | • 20% de descuento en caja con tarjetas de crédito Visa Clásica, Oro, Signature y Platinum, MasterCard Clásica y Plus. • 25% de descuento en caja con tarjetas de crédito MasterCard Black y Visa Infinite. • Promoción cump | https://www.sudameris.com.py/beneficios/destacado/308/detalle |
+| Sudameris | RESTAURANTES FAMILIA PARU - LA CUADRITA | • Desde el 01 de enero hasta el 20 de septiembre 2026. | • 20% de descuento en caja con tarjetas de crédito Visa Clásica, Oro, Signature y Platinum, MasterCard Clásica y Plus. • 25% de descuento en caja con tarjetas de crédito MasterCard Black y Visa Infinite. • Promoción cump | https://www.sudameris.com.py/beneficios/destacado/308/detalle |
 | Sudameris | GASTRONOMÍA 26 |  |  | https://www.sudameris.com.py/beneficios/destacado/636/detalle |
 | Sudameris | ZONA SUR |  | en tu zona • Reintegros directos en el extracto, sin canje de puntos ENCARNACIÓN HOHENAU PIRAPÓ BELLA VISTA CORONEL BOGADO TRINIDAD MARÍA AUXILIADORA FRAM OBLIGADO CARMEN DEL PARANÁ CAPITÁN MIRANDA NATALIO KRESSBURGO | https://www.sudameris.com.py/beneficios/destacado/436/detalle |
 | Sudameris | ZONA NORTE | • Verificar según aplicación de promoción (ver cuadro más abajo). | en tu zona | https://www.sudameris.com.py/beneficios/destacado/650/detalle |
@@ -54,3 +56,4 @@ Total: 48
 | Sudameris | PARANA HOGAR / COLCHONES | • Todos los viernes. • Desde el 03 de agosto hasta el 31 de octubre 2026. | • 30% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin intereses. | https://www.sudameris.com.py/beneficios/destacado/903/detalle |
 | Sudameris | ZEAL | • Desde el 21 de agosto hasta el 19 de septiembre 2026. | • 25% de descuento directo en caja pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/914/detalle |
 | Sudameris | COLEGIO SAN ANDRÉS | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. | • Hasta 15 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/916/detalle |
+| Sudameris | AMANO - PRIMAVERA | • Desde el 18 hasta el 22 de septiembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. • 25% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/919/detalle |

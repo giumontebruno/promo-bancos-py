@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 109
+Total de beneficios: 110
 
 ## Belleza y Salud
 
@@ -10,6 +10,7 @@ Total de beneficios: 109
 |---|---|---|---|
 | Asismed | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2025-04-04 hasta 2026-12-31 |
 | BELA NAILS | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-08-12 hasta 2026-09-30 |
+| MASTER 1000 | tarjeta de crédito; Tenes 10% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-09-15 hasta 2026-09-30 |
 | MYLAN | 6 Cuotas sin intereses; Tenes hasta 6 cuotas sin intereses. | No especificado | 2026-08-20 hasta 2026-10-31 |
 | ODONTOS | 12 Cuotas sin intereses; Tenes 12 cuotas sin intereses | No especificado | 2026-03-27 hasta 2026-12-31 |
 | Optica Santa Lucía | 6 Cuotas sin intereses 35 % Hasta; Tenes hasta 30% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses. | No especificado | 2025-12-18 hasta 2026-09-23 |
@@ -29,6 +30,7 @@ Total de beneficios: 109
 |---|---|---|---|
 | Festa | 20 %; Tenes 20% de ahorro. | No especificado | 2026-01-01 hasta 2026-09-30 |
 | Juan Valdez | 25 % Hasta; Tenes 25% de reintegro + 5% adicional con AMEX PLATINUM y VISA INFINITE | Todos los lunes | 2025-12-10 hasta 2026-09-28 |
+| LA QUESERIA | 20 % Hasta; Tenes 15% de reintegro con todas las tarjetas de crédito. En el local del Shopping Mariscal tenes 20% de reintegro con todas las Tarjetas. | lunes a miércoles | 2026-09-15 hasta 2026-10-31 |
 | Pizza Hut | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses para los cumpleaños. | No especificado | 2025-09-19 hasta 2026-09-30 |
 
 ## H&M
@@ -59,6 +61,12 @@ Total de beneficios: 109
 | Ocre | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-09-02 hasta 2026-09-30 |
 | Todo Costura | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-12 hasta 2026-12-31 |
 
+## Maria Castaña padres
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Maria Castaña | 3 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro más 5% pagando con tus AMEX PLATINUM Y VISA INFINITE y hasta 3 cuotas sin intereses. | No especificado | 2026-02-01 hasta 2026-09-29 |
+
 ## Niños
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -79,12 +87,6 @@ Total de beneficios: 109
 | Stock | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-09-30 |
 | SuperSeis | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-09-30 |
 
-## Super Real
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Super Real | 15 %; 15% de ahorro. | Aplica los LUNES | 2025-10-06 hasta 2026-09-30 |
-
 ## Supermercados
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -92,6 +94,7 @@ Total de beneficios: 109
 | Areté | 15 %; Tenes 15% de ahorro. | Aplica los domingos | 2026-01-04 hasta 2026-09-30 |
 | CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-10-06 |
 | Delimarket | 20 %; 20% de reintegro | todos los sábados | 2025-09-06 hasta 2026-09-30 |
+| Super Real | 15 %; 15% de ahorro. | Aplica los LUNES | 2025-10-06 hasta 2026-09-30 |
 
 ## Teatro
 
@@ -189,7 +192,5 @@ Total de beneficios: 109
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| COYOTE | 25 % Hasta; Tenes 20% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses. | No especificado | 2026-09-04 hasta 2026-09-15 |
-| FACUNDO ARANA SOBRE LA MARCHA | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-01 hasta 2026-09-15 |
-| Kekas Design | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-08-04 hasta 2026-09-15 |
+| Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-11-20 hasta 2026-09-17 |
 

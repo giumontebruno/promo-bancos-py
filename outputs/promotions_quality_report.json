@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-15T14:16:21.064696+00:00",
-  "input_count": 1448,
-  "promotion_count": 1448,
+  "generated_at": "2026-09-16T12:36:42.958591+00:00",
+  "input_count": 1451,
+  "promotion_count": 1451,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
     "458726a1d0c21190": "cf8ef5a71b788278",
-    "09341a54154f91ae": "ffd12e9762c6b8db",
-    "2537dde96a29fd27": "837ba61bafe1b5be",
-    "bdb8286c738d1a2b": "070c421e316eb434",
-    "6dea0bc1bf9ebfaf": "41a119aa8a6f5943",
-    "aa114005cb0c26a9": "d9859bdfaefb4b01",
+    "09341a54154f91ae": "2f7c53592bae47e7",
+    "2537dde96a29fd27": "381a42b4c8e9b925",
+    "bdb8286c738d1a2b": "69d0aa723285eeb4",
+    "6dea0bc1bf9ebfaf": "01cfefca9ce84eaf",
+    "aa114005cb0c26a9": "f62815381a65b6f0",
     "919e3a0027a1f163": "7172e6bbf76e5571",
-    "bbf7525d80cdd9ff": "82a1fa39a6e69e0b",
+    "bbf7525d80cdd9ff": "a50f2484a4772590",
     "199b1fc13f335ed3": "599ba42baed22a99",
     "a25927796611ab5c": "6d5e3aca6cc54e6c",
     "e04977d3cf421e2a": "cedd7db32192538e",
@@ -320,29 +320,38 @@
     "d3a43aa7ca45beb2": "711977858060fc9a",
     "99168bd0b6958355": "5466f51d47bd761e",
     "cb3de01ca31aba62": "65de826637ac09ea",
-    "7643f925cffccac1": "dcc81d92434c7443",
     "b95b20e9b8aac4a7": "e6a469b3486fd21b",
-    "62e8d841ff36ed9c": "d8610bf3faa7ec9f",
-    "ba3ac7db98c9e32b": "ffd12e9762c6b8db",
-    "fa534f89b7019277": "837ba61bafe1b5be",
-    "96d488f7e2b0de9c": "070c421e316eb434",
-    "c0ec7c2ae36d964a": "41a119aa8a6f5943",
-    "ae029d3ffe0eb011": "d9859bdfaefb4b01",
-    "3f93d9ac86b3770b": "82a1fa39a6e69e0b",
+    "62e8d841ff36ed9c": "d66d02a1798ad639",
+    "ba3ac7db98c9e32b": "2f7c53592bae47e7",
+    "fa534f89b7019277": "381a42b4c8e9b925",
+    "96d488f7e2b0de9c": "69d0aa723285eeb4",
+    "c0ec7c2ae36d964a": "01cfefca9ce84eaf",
+    "ae029d3ffe0eb011": "f62815381a65b6f0",
+    "3f93d9ac86b3770b": "a50f2484a4772590",
     "4a5fb022bea5ab25": "7172e6bbf76e5571",
-    "bd74eedbd56b4665": "86c34bb3f4e38e00"
+    "bd74eedbd56b4665": "86c34bb3f4e38e00",
+    "a83f9a4bcc1fbfe9": "d630edf0ee4490d9",
+    "59ab514280eb7cbf": "19fb9d329d7892ce",
+    "0bb1da1cfb2ab0f1": "a3e36e279d39cbf6",
+    "d8610bf3faa7ec9f": "d66d02a1798ad639",
+    "ffd12e9762c6b8db": "2f7c53592bae47e7",
+    "837ba61bafe1b5be": "381a42b4c8e9b925",
+    "070c421e316eb434": "69d0aa723285eeb4",
+    "41a119aa8a6f5943": "01cfefca9ce84eaf",
+    "d9859bdfaefb4b01": "f62815381a65b6f0",
+    "82a1fa39a6e69e0b": "a50f2484a4772590"
   },
   "by_bank": {
-    "Atlas": 42,
+    "Atlas": 41,
     "BNF": 75,
-    "Continental": 748,
-    "Coop. Universitaria": 78,
-    "Itaú": 109,
-    "Sudameris": 165,
+    "Continental": 749,
+    "Coop. Universitaria": 77,
+    "Itaú": 110,
+    "Sudameris": 168,
     "ueno bank": 231
   },
   "issue_counts": {
-    "validity_unconfirmed": 58,
+    "validity_unconfirmed": 59,
     "limits_unconfirmed": 81,
     "source_amount_conflict": 5,
     "multiple_purchase_limits": 280,
@@ -3065,6 +3074,15 @@
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/451/detalle"
     },
     {
+      "id": "c786cc6e76b8b290",
+      "bank": "Sudameris",
+      "merchant": "McLaren Mastercard Formula 1®Team",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/918/detalle"
+    },
+    {
       "id": "35306a49768a9da9",
       "bank": "Sudameris",
       "merchant": "PROMOCIÓN MCLAREN MASTERCARD F1 TEAM",
@@ -3218,74 +3236,74 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Promocion-Reintegro-DBA-CLUB-OLIMPIA-_-SEP-2026v1-1.pdf"
     },
     {
-      "id": "d8610bf3faa7ec9f",
+      "id": "d66d02a1798ad639",
       "bank": "ueno bank",
       "merchant": "3MG",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf"
     },
     {
-      "id": "ffd12e9762c6b8db",
+      "id": "2f7c53592bae47e7",
       "bank": "ueno bank",
       "merchant": "COPETROL",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf"
     },
     {
-      "id": "837ba61bafe1b5be",
+      "id": "381a42b4c8e9b925",
       "bank": "ueno bank",
       "merchant": "ENEX",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf"
     },
     {
-      "id": "070c421e316eb434",
+      "id": "69d0aa723285eeb4",
       "bank": "ueno bank",
       "merchant": "PETROBRAS",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf"
     },
     {
-      "id": "41a119aa8a6f5943",
+      "id": "01cfefca9ce84eaf",
       "bank": "ueno bank",
       "merchant": "PETROCHACO",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf"
     },
     {
-      "id": "d9859bdfaefb4b01",
+      "id": "f62815381a65b6f0",
       "bank": "ueno bank",
       "merchant": "PETROMAX",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf"
     },
     {
-      "id": "82a1fa39a6e69e0b",
+      "id": "a50f2484a4772590",
       "bank": "ueno bank",
       "merchant": "PUMA ENERGY",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v2.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf"
     },
     {
       "id": "7172e6bbf76e5571",

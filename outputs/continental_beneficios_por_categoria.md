@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 748
+Total de beneficios/comercios: 749
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -550,7 +550,7 @@ Total de beneficios/comercios: 748
 | Progresar Corporation S.A. | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 18 de febrero de 2027 | No especificado |
 | Todo huerta | 10% de reintegro | los jueves | Vigente hasta el 28 de enero del 2027 | No especificado |
 
-## Supermercados (116)
+## Supermercados (117)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -587,9 +587,10 @@ Total de beneficios/comercios: 748
 | Fortis Mayorista | 10%; 10% de reintegro | Primer sábado y domingo de cada mes, en Fortis Mayorista - 10% de reintegro en el extracto, pagando exclusivamente con las tarjetas de crédito Dinelco Continental | Vigente hasta el 31 de diciembre de 2026 | No especificado |
 | Gran Vía - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 07 de octubre de 2026 | No especificado |
 | Grupo Laso - Minimarket | 20%; 20% de reintegro | Los viernes | Vigente hasta el 06 de agosto de 2027 | No especificado |
+| Géminis Super Center | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 08 de marzo de 2027 | Santa Rosa del Aguaray |
 | Hello Oven - Miércoles Supermercados | 25%; 25% de reintegro | Los miércoles | Vigente hasta el 01 de septiembre de 2027 | Asunción |
 | Hipermercado El Pueblo - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 07 de abril de 2027 | No especificado |
-| Hipermercado Luisito - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 09 de septiembre de 2026 | No especificado |
+| Hipermercado Luisito - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 15 de septiembre de 2027 | No especificado |
 | Kelita Supermarket - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 30 de junio de 2027 | Trinidad (Itapúa) |
 | Kingo Supermercados - Miércoles de Supermercados | 25%; Hasta 6 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 04 de noviembre de 2026 | No especificado |
 | LT Supermercado - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 01 de septiembre de 2027 | No especificado |
@@ -633,9 +634,8 @@ Total de beneficios/comercios: 748
 | Supermercado D y S - Miércoles de Supermercados | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 02 de diciembre de 2026 | Filadelfia |
 | Supermercado El Cacique S.R.L - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 20 de enero de 2027 | No especificado |
 | Supermercado Emanuel - Miércoles de supermercados | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 03 de marzo de 2027 | Katueté (Canindeyú) |
-| Supermercado Everest - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 28 de abril de 2027 | Presidente Franco |
 
-_Se omitieron 36 filas en este resumen; están en el CSV._
+_Se omitieron 37 filas en este resumen; están en el CSV._
 
 ## Tiendas (214)
 

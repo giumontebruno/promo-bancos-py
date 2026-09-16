@@ -2,7 +2,7 @@
 
 Fuente: https://www.universitaria.coop/promociones
 
-Total de promociones: 78
+Total de promociones: 77
 
 ## Electrodomésticos
 
@@ -141,7 +141,6 @@ Total de promociones: 78
 | Casa Paraná | Todos los Miércoles | Todos los Miércoles | Vigencia Desde el 01 de julio de 2026 hasta el 30 de septiembre de 2026 |
 | EL AHORRAZO | Todos los Domingos | Todos los Domingos | Vigencia Desde el 05 de abril de 2026 hasta el 30 de setiembre de 2026 |
 | Hipermercado Luisito | Todos los lunes | Todos los lunes | Vigencia Desde el 06 de julio de 2026 hasta el 28 de septiembre de 2026 |
-| Molino Caaguazú | Todos los Sábados | Todos los Sábados | Vigencia Desde el 04 de julio de 2026 hasta el 26 de setiembre de 2026 |
 | REAL | Todos los Lunes | Todos los Lunes | Vigencia Desde el 06 de julio de 2026 hasta el 28 de septiembre de 2026 |
 | S6 / STOCK / DELI MARKET | MASTERCARD QR 25%; PAGO CON TC FISICA con las 3 marcas 20% | Todos los Viernes | Vigencia Desde el 17 de julio de 2026 hasta el 25 de setiembre de 2026 |
 | SUPERMERCADO GÉMINIS | PANAL QR 20%; CABAL QR 20%; MASTERCARD QR 20%; PAGO CON TC FISICA con las 3 marcas 10% | Todos los martes | Vigencia Desde el 01 de septiembre 2026 hasta el 27 de octubre de 2026 |
