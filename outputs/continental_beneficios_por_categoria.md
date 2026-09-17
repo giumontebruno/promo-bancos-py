@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 749
+Total de beneficios/comercios: 753
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -64,7 +64,7 @@ Total de beneficios/comercios: 749
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| Contimarket - 25% | 25%; 25% de reintegro | No especificado | No especificado | Todo el país |
+| Contimarket - 50% | 50%; 50% de reintegro | No especificado | No especificado | Todo el país |
 | Contimarket.com | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 
 ## Deportes (10)
@@ -476,7 +476,7 @@ Total de beneficios/comercios: 749
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre del 2026 | No especificado |
 
-## Promociones especiales (8)
+## Promociones especiales (10)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -485,7 +485,9 @@ Total de beneficios/comercios: 749
 | Intercolegial - Las Almenas | 20%; 20% de reintegro | No especificado | No especificado | Asunción |
 | Koala | 50%; Hasta 12 cuotas sin intereses; 10% de reintegro; 45% de descuento | todos los días | Vigente hasta el 10 de septiembre de 2026 | Todo el país |
 | Las Hortensias - Cine | 50%; 50% de reintegro | Todos los días | Vigente hasta el 10 de junio del 2027 | Pilar |
+| Primavera - 2026 | 25%; 25% de reintegro | No especificado | Vigente hasta el 21 de septiembre de 2026 | Todo el país |
 | Puerto Liebig | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de marzo de 2027 | Asunción |
+| Tiendas Pilar | 20%; Hasta 12 cuotas sin intereses; 30% de reintegro | No especificado | No especificado | Todo el país |
 | UNISAL Universidad San Lorenzo | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | No especificado | Todo el país |
 | Ánima - Promo especial | 30%; Hasta 18 cuotas sin intereses; 30% de reintegro | todos los días | Vigente hasta el 05 de septiembre de 2026 | Asunción |
 
@@ -637,7 +639,7 @@ Total de beneficios/comercios: 749
 
 _Se omitieron 37 filas en este resumen; están en el CSV._
 
-## Tiendas (214)
+## Tiendas (216)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -722,7 +724,7 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | Furla | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de agosto de 2027 | Asunción |
 | GH1S | 25% de reintegro | los jueves | Vigente hasta el 20 de noviembre del 2026 | No especificado |
 
-_Se omitieron 134 filas en este resumen; están en el CSV._
+_Se omitieron 136 filas en este resumen; están en el CSV._
 
 ## Vehículos (40)
 

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T12:36:42.958591+00:00",
-  "input_count": 1451,
-  "promotion_count": 1451,
+  "generated_at": "2026-09-17T12:36:41.394256+00:00",
+  "input_count": 1468,
+  "promotion_count": 1468,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -339,22 +339,25 @@
     "070c421e316eb434": "69d0aa723285eeb4",
     "41a119aa8a6f5943": "01cfefca9ce84eaf",
     "d9859bdfaefb4b01": "f62815381a65b6f0",
-    "82a1fa39a6e69e0b": "a50f2484a4772590"
+    "82a1fa39a6e69e0b": "a50f2484a4772590",
+    "119c36433db85142": "8a29c04ec9bb672a",
+    "a4f9f338850cd745": "e0c24fad744b97b2",
+    "8162eaef991cc55b": "109f9c2fe433141e"
   },
   "by_bank": {
     "Atlas": 41,
     "BNF": 75,
-    "Continental": 749,
+    "Continental": 753,
     "Coop. Universitaria": 77,
-    "Itaú": 110,
-    "Sudameris": 168,
+    "Itaú": 119,
+    "Sudameris": 172,
     "ueno bank": 231
   },
   "issue_counts": {
-    "validity_unconfirmed": 59,
+    "validity_unconfirmed": 62,
     "limits_unconfirmed": 81,
     "source_amount_conflict": 5,
-    "multiple_purchase_limits": 280,
+    "multiple_purchase_limits": 284,
     "multiple_refund_limits": 89
   },
   "review_queue": [
@@ -452,6 +455,15 @@
       "id": "422ac4a5932cc1a6",
       "bank": "Atlas",
       "merchant": "oBoticário",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "05376db99bfc820a",
+      "bank": "Atlas",
+      "merchant": "Koala",
       "issues": [
         "validity_unconfirmed"
       ],
@@ -676,11 +688,12 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "95a62440aa5e167b",
+      "id": "4b3a4c3ba8a323a9",
       "bank": "Continental",
-      "merchant": "Contimarket - 25%",
+      "merchant": "Contimarket - 50%",
       "issues": [
-        "validity_unconfirmed"
+        "validity_unconfirmed",
+        "multiple_purchase_limits"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -1533,6 +1546,25 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
+      "id": "f1a05157ed6ebdee",
+      "bank": "Continental",
+      "merchant": "Primavera - 2026",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "b36a3dd3df63437a",
+      "bank": "Continental",
+      "merchant": "Tiendas Pilar",
+      "issues": [
+        "validity_unconfirmed",
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
       "id": "7c3f05fd71ebb681",
       "bank": "Continental",
       "merchant": "UNISAL Universidad San Lorenzo",
@@ -2237,6 +2269,15 @@
       "id": "870f2b3d17f8b6f7",
       "bank": "Continental",
       "merchant": "New Balance",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "3d1ca290885f92a3",
+      "bank": "Continental",
+      "merchant": "Nice",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -3135,6 +3176,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-090926.pdf"
+    },
+    {
+      "id": "ca1867769f62a4cd",
+      "bank": "Sudameris",
+      "merchant": "LIDO BAR - APERTURA LOCAL LUQUE",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/640/detalle"
     },
     {
       "id": "21ee4e615bac8078",

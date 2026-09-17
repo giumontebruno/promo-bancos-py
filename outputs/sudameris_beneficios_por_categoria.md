@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 168
+Total de promociones: 172
 
 ## Combustible
 
@@ -18,10 +18,12 @@ Total de promociones: 168
 | AMANO - PRIMAVERA | 20%; 25%; Hasta 12 cuotas sin interés | No especificado | • Desde el 18 hasta el 22 de septiembre 2026. |
 | COLEGIO SAN ANDRÉS | Hasta 15 cuotas sin interés | No especificado | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. |
 | HYDROCLEAN | 20%; Hasta 12 cuotas sin interés | No especificado | • Desde el 01 al 25 de septiembre 2026. |
+| PRIMAVERA 2026 - THE TOWN | • Reintegro en extracto de tarjeta según aplicación de promoción [leer las | No especificado | • Desde el 18 hasta el 21 de septiembre de 2026. |
 | PRIMAVERA 2026 – RUBRO FLORERÍAS | • Reintegro en extracto de tarjeta según aplicación de promoción (leer las | Todos los días | • Todos los días • Desde el 16 hasta el 21 de septiembre de 2026. |
 | SASPY EXPRESS | 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | • Desde el 06 de abril hasta el 30 de septiembre 2026. |
 | SUDAMERIS GO- CUOTAS | Hasta 18 cuotas sin intereses | No especificado | • Del 12 de febrero del 2026 al 31 de diciembre del 2026. |
 | TARJETAS EMPRESARIALES | Hasta 6 cuotas sin interés | Todos los días | • Todos los días. • Desde el 01 de enero hasta el 31 de diciembre de 2026. |
+| ULIKO STORE | 20%; Hasta 10 cuotas sin interés | No especificado | • Desde el 21 al 24 de septiembre 2026. |
 | ZEAL | 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el 21 de agosto hasta el 19 de septiembre 2026. |
 | ZONA NORTE | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 
@@ -40,6 +42,7 @@ Total de promociones: 168
 |---|---|---|---|
 | DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES | ¡Disfrutá de Distrito Perseverancia todo el año! Aprovechá hasta 12 cuotas sin interés en locales adheridos. Vigencia: Del 03/08 al 31/12/2026. | No especificado | Del 03/08 al 31/12/2026. |
 | McLaren Mastercard Formula 1®Team | Sudameris te acerca la emoción del simulador oficial del McLaren Mastercard Formula 1® Team por primera vez en Paraguay. 📍 Distrito Perseverancia 🗓️ Del 21 de septiembre hasta el 1 | No especificado | No especificado |
+| PRIMAVERA 2026 – DISTRITO PERSEVERANCIA | • Reintegro en extracto de tarjeta según aplicación de promoción [leer las | No especificado | • Desde el 18 hasta el 21 de septiembre de 2026. |
 | PROMOCIÓN MCLAREN MASTERCARD F1 TEAM | Gs. 500.000 | No especificado | de la promoción y acumulá cupones digitales automáticamente para los sorteos, según las |
 
 ## Farmacias
@@ -145,6 +148,7 @@ Total de promociones: 168
 | Javi Deportes | 20% de reintegro Hasta 10 cuotas sin interés | miércoles | Desde 2025-01-15 hasta 2027-02-24 |
 | Joyeria Dominguez | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Kyrios | 20% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2026-08-01 |
+| LIDO BAR - APERTURA LOCAL LUQUE | 20% | No especificado | • Lunes 21 de septiembre 2026. |
 | La Fabril Pizza | 20% de reintegro | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | La Guarania Gran Almacén | 25% de reintegro Hasta 12 cuotas sin interés | Último sábado de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | Le Chic | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |

@@ -46,6 +46,7 @@ Total de beneficios: 41
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Koala | 45% de descuento; +10% de reintegro; 12 cuotas sin intereses | Del 19 al 26 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 5.000.000 para tarjetas de crédito Visa Infinite, Visa Signature, Mastercard Black, Clásica y Oro. La cantidad de cuotas debe ser solicitada en caja para compras a parti |
 | Renová tu Hogar | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | Sara Comercial | 30% de reintegro; Hasta 12 cuotas sin intereses | 21 al 25 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, MasterCard Black y Visa Signature y Gs. 1.000.000 para tarjetas de crédito Visa Clásica y Visa Oro. Promo vigente del 2 |
 
@@ -72,7 +73,6 @@ Total de beneficios: 41
 |---|---|---|---|
 | BOX Mayorista | 20% de reintegro | Tercer Lunes del mes | Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para todas las tarjetas de crédito. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo persona |
 | Delimarket | 20% de reintegro; +5% de reintegro | Todos los Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito delSol Atlas Visa Signature, Gs. 1.500.000 para tarjetas de crédito delSol Atlas Visa Clásica. Aplica para compras realizadas a través |
-| Gran Vía | 20% de reintegro | Tercer miércoles del mes | Tope de compra acumulado en comercios adheridos a la promoción de “Supermercados zona Este” Gs. 1.000.000 por cuneta de tarjeta, para compras a través del POS de la Red Infonet. Vigente el tercer miércoles del mes hasta  |
 | Supermercados | 15% de reintegro; +5% de reintegro | Todos los Viernes | Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tar |
 
 ## Tecnología

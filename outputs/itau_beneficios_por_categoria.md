@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 110
+Total de beneficios: 119
 
 ## Belleza y Salud
 
@@ -16,7 +16,7 @@ Total de beneficios: 110
 | Optica Santa Lucía | 6 Cuotas sin intereses 35 % Hasta; Tenes hasta 30% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses. | No especificado | 2025-12-18 hasta 2026-09-23 |
 | Punto Farma | 6 Cuotas sin intereses 35 % Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses. | Todos los Martes; todos los martes | 2024-12-30 hasta 2026-12-31 |
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
-| Sanatorios y Clinicas | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-01 hasta 2026-09-30 |
+| Sanatorios y Clinicas | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2021-03-15 hasta 2026-12-31 |
 
 ## Entretenimiento
 
@@ -52,6 +52,7 @@ Total de beneficios: 110
 | Luminotecnia | 6 Cuotas sin intereses; hasta 6 cuotas sin intereses. | No especificado | 2026-01-06 hasta 2026-12-31 |
 | Maquicenter | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2022-12-05 hasta 2026-12-31 |
 | Olier | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2025-05-11 hasta 2026-12-31 |
+| Saccaro | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro y 10 cuotas sin intereses | No especificado | 2026-02-09 hasta 2026-09-30 |
 | Sueñolar | 18 Cuotas sin intereses 55 % Hasta; Tenes hasta 55% de ahorro y hasta 18 cuotas sin intereses. | No especificado | 2025-06-09 hasta 2026-09-30 |
 
 ## Indumentaria
@@ -109,7 +110,7 @@ Total de beneficios: 110
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Claro | 12 Cuotas sin intereses; Tenes hasta 12 cuotas sin intereses. | No especificado | 2025-07-07 hasta 2026-09-30 |
+| Claro | 12 Cuotas sin intereses; Tenes hasta 12 cuotas sin intereses. | No especificado | 2025-07-07 hasta 2026-12-31 |
 | Personal | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses. | No especificado | 2024-04-05 hasta 2026-09-30 |
 | Tigo | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-09-30 |
 
@@ -124,7 +125,7 @@ Total de beneficios: 110
 | Bertoni | 6 Cuotas sin intereses 20 % Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-03-26 hasta 2026-12-02 |
 | Casa Corbellani | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-05-10 hasta 2026-12-31 |
 | Cat | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
-| Colegios y Universidades de Py | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2022-01-25 hasta 2026-09-30 |
+| Colegios y Universidades de Py | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2022-01-25 hasta 2026-12-31 |
 | Crocs | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Denoir | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | EXA GOETHE | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses. | No especificado | 2026-03-05 hasta 2026-12-31 |
@@ -134,12 +135,19 @@ Total de beneficios: 110
 | JOSEPH COIFFURE | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Lomas Padel | 20 %; Tenes 20% de ahorro con APPLE PAY o GOOGLE PAY (billeteras). | No especificado | 2024-04-15 hasta 2026-12-27 |
 | Mi portal Coca Cola | 25 %; 25% de ahorro. | Aplica los domingos | 2025-10-19 hasta 2026-09-27 |
+| Municipalidad de Asunción | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
+| Municipalidad de Caaguazu | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
+| Municipalidad de Encarnacion | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
+| Municipalidad de Hernandarias | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
+| Municipalidad de Lambare | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
+| Municipalidad de Luque | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
+| Municipalidad de Misiones | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
+| Municipalidad de San Bernardino | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
 | New Balance | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Nice | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Pampero | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Patrol | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Primer Martes | 25 % Hasta 10 Cuotas sin intereses; hasta 25% de ahorro y hasta 10 cuotas sin intereses + 10% con código QR, Apple Pay, Google Pay. | No especificado | 2026-01-06 hasta 2026-12-01 |
-| RAICES REAL ESTATE | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses. | No especificado | 2026-05-25 hasta 2026-09-20 |
 | Rondina | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Sallustro | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Sport House | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
@@ -193,4 +201,5 @@ Total de beneficios: 110
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-11-20 hasta 2026-09-17 |
+| RAICES REAL ESTATE | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses. | No especificado | 2026-05-25 hasta 2026-09-20 |
 
