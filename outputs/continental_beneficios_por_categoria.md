@@ -304,7 +304,7 @@ Total de beneficios/comercios: 753
 | GA Iluminación & Casa (GAILUM PARAGUAY) | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 26 de septiembre del 2026 Las promociones aplican únicamente para compras o pagos presenciales, vía POS físico | Asunción |
 | Glan Living | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de julio de 2027 | Encarnación |
 | Grill West | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de septiembre del 2026 | No especificado |
-| Grupo Sauce - electrodomésticos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 17 de septiembre de 2026 Las promociones aplican únicamente para compras o pagos presenciales, vía POS físico | No especificado |
+| Grupo Sauce - electrodomésticos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 17 de septiembre de 2027 | Asunción |
 | Hoc Cell | 10%; Hasta 12 cuotas sin intereses; 10% de descuento | Todos los días | Vigente hasta el 11 de junio de 2027 | Concepción |
 | Hogar Feliz | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 04 de noviembre de 2026 | No especificado |
 | Hydro Clean | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de septiembre del 2026 | No especificado |

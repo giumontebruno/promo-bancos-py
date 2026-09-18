@@ -1,8 +1,8 @@
 ﻿Categoría,Banco,Comercio/Promoción,Cantidad de descuento / beneficio,Beneficio por niveles,Tipo de beneficio por nivel,Descuentos por nivel,Día de promoción,Vigencia,Locales / comercios detectados,Montos / topes,Reinicio de límites,Detalle,Bases / PDF URL,Página PDF,Fin del período fuente,Bases y condiciones URL,Texto bases y condiciones,Bases PDF URL,Texto PDF bases,Niveles estructurados
-Primera compra,ueno bank,primera compra,50% de reintegro,No,Revisar,No aplica,No especificado,Desde el 01 de septiembre hasta el 14 de septiembre del 2026,primera compra,monto mínimo establecido) con cualquier tarjeta de crédito emitida por ueno bank S; Tope máximo de compra de Guaraníes un millón (Gs; tope de reintegro máximo en este caso será de Guaraníes quinientos mil (Gs; Gs. 1.000.000; Gs. 500.000; Gs. 20.000,,"Bases y Condiciones
+Primera compra,ueno bank,primera compra,50% de reintegro,No,Revisar,No aplica,No especificado,Desde el 01 de septiembre hasta el 30 de septiembre del 2026,primera compra,monto mínimo establecido) con cualquier tarjeta de crédito emitida por ueno bank S; Tope máximo de compra de Guaraníes un millón (Gs; tope de reintegro máximo en este caso será de Guaraníes quinientos mil (Gs; Gs. 1.000.000; Gs. 500.000; Gs. 20.000,,"Bases y Condiciones
 Promoción Reintegro – Activa tu TC con 50% de reintegro en la primera compra
 Vigencia:
-● Desde el 01 de septiembre hasta el 14 de septiembre del 2026.
+● Desde el 01 de septiembre hasta el 30 de septiembre del 2026.
 Condiciones:
 ● Aplica única y exclusivamente a la primera compra realizada (durante la vigencia de la promoción y con
 el monto mínimo establecido) con cualquier tarjeta de crédito emitida por ueno bank S.A. dentro del
@@ -63,11 +63,11 @@ Exclusiones:
 ● Los beneficios no serán aplicables a las clientes que registren atrasos en sus pagos a partir de 30
 (treinta) días en cualquier producto activo que posean en el banco.
 ● Este beneficio no es acumulable con otros beneficios vigentes de ueno bank.
-Versión 01 | Septiembre 2026
-Ante consultas sobre las Bases & Condiciones, comunícate al contacto del Centro de Experiencia / info@ueno.com.py",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,1,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Promocion-Reintegro-PRIMERA-COMPRA-_-SEP-2026v1.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Promocion-Reintegro-PRIMERA-COMPRA-_-SEP-2026v1.pdf,"Bases y Condiciones
+Versión 02 | Septiembre 2026
+Ante consultas sobre las Bases & Condiciones, comunícate al contacto del Centro de Experiencia / info@ueno.com.py",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,1,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Promocion-Reintegro-PRIMERA-COMPRA-_-SEP-2026v2.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Promocion-Reintegro-PRIMERA-COMPRA-_-SEP-2026v2.pdf,"Bases y Condiciones
 Promoción Reintegro – Activa tu TC con 50% de reintegro en la primera compra
 Vigencia:
-● Desde el 01 de septiembre hasta el 14 de septiembre del 2026.
+● Desde el 01 de septiembre hasta el 30 de septiembre del 2026.
 Condiciones:
 ● Aplica única y exclusivamente a la primera compra realizada (durante la vigencia de la promoción y con
 el monto mínimo establecido) con cualquier tarjeta de crédito emitida por ueno bank S.A. dentro del
@@ -128,7 +128,7 @@ Exclusiones:
 ● Los beneficios no serán aplicables a las clientes que registren atrasos en sus pagos a partir de 30
 (treinta) días en cualquier producto activo que posean en el banco.
 ● Este beneficio no es acumulable con otros beneficios vigentes de ueno bank.
-Versión 01 | Septiembre 2026
+Versión 02 | Septiembre 2026
 Ante consultas sobre las Bases & Condiciones, comunícate al contacto del Centro de Experiencia / info@ueno.com.py",[]
 Supermercados,ueno bank,4PETS,40% reintegro; 30% reintegro; 25% reintegro; 15% reintegro; 10% reintegro,No,Revisar,Nivel 5: 40%; Nivel 4: 30%; Nivel 3: 25%; Nivel 2: 15%; Nivel 1: 10%,No especificado,Desde el 01 de septiembre hasta el 30 de septiembre del 2026,4PETS,Nivel 5: tope de compra  Gs. 500.000; tope de reintegro  Gs. 200.000; Nivel 4: tope de compra  Gs. 400.000; tope de reintegro  Gs. 120.000; Nivel 3: tope de compra  Gs. 300.000; tope de reintegro  Gs. 75.000; Nivel 2: tope de compra  Gs. 300.000; tope de reintegro  Gs. 45.000; Nivel 1: tope de compra  Gs. 300.000; tope de reintegro  Gs. 30.000,,"Bases y Condiciones
 Promoción Reintegro “Bolsa Supermercados”
@@ -3009,7 +3009,7 @@ aplicaciones móviles o sitios web) con promociones vigentes, salvo que se indiq
 aquellas transacciones que ya obtuvieron previamente un descuento/reintegro aplicado por el emblema de
 combustibles ENEX a través de la app móvil MI ENEX exclusiva para conductores de plataformas. En dichos
 casos, el banco no otorgará beneficios adicionales.
-",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,"Bases y Condiciones
+",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,"Bases y Condiciones
 Promoción Reintegro “Bolsa Combustibles”
 Vigencia:
 ● Desde el 01 de septiembre hasta el 30 de septiembre del 2026.
@@ -3182,7 +3182,7 @@ aplicaciones móviles o sitios web) con promociones vigentes, salvo que se indiq
 aquellas transacciones que ya obtuvieron previamente un descuento/reintegro aplicado por el emblema de
 combustibles ENEX a través de la app móvil MI ENEX exclusiva para conductores de plataformas. En dichos
 casos, el banco no otorgará beneficios adicionales.
-",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,"Bases y Condiciones
+",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,"Bases y Condiciones
 Promoción Reintegro “Bolsa Combustibles”
 Vigencia:
 ● Desde el 01 de septiembre hasta el 30 de septiembre del 2026.
@@ -3355,7 +3355,7 @@ aplicaciones móviles o sitios web) con promociones vigentes, salvo que se indiq
 aquellas transacciones que ya obtuvieron previamente un descuento/reintegro aplicado por el emblema de
 combustibles ENEX a través de la app móvil MI ENEX exclusiva para conductores de plataformas. En dichos
 casos, el banco no otorgará beneficios adicionales.
-",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,"Bases y Condiciones
+",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,"Bases y Condiciones
 Promoción Reintegro “Bolsa Combustibles”
 Vigencia:
 ● Desde el 01 de septiembre hasta el 30 de septiembre del 2026.
@@ -3528,7 +3528,7 @@ aplicaciones móviles o sitios web) con promociones vigentes, salvo que se indiq
 aquellas transacciones que ya obtuvieron previamente un descuento/reintegro aplicado por el emblema de
 combustibles ENEX a través de la app móvil MI ENEX exclusiva para conductores de plataformas. En dichos
 casos, el banco no otorgará beneficios adicionales.
-",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,"Bases y Condiciones
+",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,"Bases y Condiciones
 Promoción Reintegro “Bolsa Combustibles”
 Vigencia:
 ● Desde el 01 de septiembre hasta el 30 de septiembre del 2026.
@@ -3701,7 +3701,7 @@ aplicaciones móviles o sitios web) con promociones vigentes, salvo que se indiq
 aquellas transacciones que ya obtuvieron previamente un descuento/reintegro aplicado por el emblema de
 combustibles ENEX a través de la app móvil MI ENEX exclusiva para conductores de plataformas. En dichos
 casos, el banco no otorgará beneficios adicionales.
-",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,"Bases y Condiciones
+",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,"Bases y Condiciones
 Promoción Reintegro “Bolsa Combustibles”
 Vigencia:
 ● Desde el 01 de septiembre hasta el 30 de septiembre del 2026.
@@ -3874,7 +3874,7 @@ aplicaciones móviles o sitios web) con promociones vigentes, salvo que se indiq
 aquellas transacciones que ya obtuvieron previamente un descuento/reintegro aplicado por el emblema de
 combustibles ENEX a través de la app móvil MI ENEX exclusiva para conductores de plataformas. En dichos
 casos, el banco no otorgará beneficios adicionales.
-",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,"Bases y Condiciones
+",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,"Bases y Condiciones
 Promoción Reintegro “Bolsa Combustibles”
 Vigencia:
 ● Desde el 01 de septiembre hasta el 30 de septiembre del 2026.
@@ -4047,7 +4047,7 @@ aplicaciones móviles o sitios web) con promociones vigentes, salvo que se indiq
 aquellas transacciones que ya obtuvieron previamente un descuento/reintegro aplicado por el emblema de
 combustibles ENEX a través de la app móvil MI ENEX exclusiva para conductores de plataformas. En dichos
 casos, el banco no otorgará beneficios adicionales.
-",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v3-1.pdf,"Bases y Condiciones
+",https://www.ueno.com.py/wp-content/uploads/2026/09/BENEFICIOS-ueno-septiembre2026.pdf,5,2026-09-30,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,,https://www.ueno.com.py/wp-content/uploads/2026/08/Beneficio-de-Reintegro-COMBUSTIBLES-_-SEP-2026v4.pdf,"Bases y Condiciones
 Promoción Reintegro “Bolsa Combustibles”
 Vigencia:
 ● Desde el 01 de septiembre hasta el 30 de septiembre del 2026.

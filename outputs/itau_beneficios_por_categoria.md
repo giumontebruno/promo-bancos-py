@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 119
+Total de beneficios: 121
 
 ## Belleza y Salud
 
@@ -18,6 +18,12 @@ Total de beneficios: 119
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
 | Sanatorios y Clinicas | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2021-03-15 hasta 2026-12-31 |
 
+## Casa pro
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Casa Pro | 30 % Hasta 6 Cuotas sin intereses; Tenes hasta 30% de descuento en caja + hasta 6 cuotas sin intereses | No especificado | 2025-06-19 hasta 2026-12-31 |
+
 ## Entretenimiento
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -31,6 +37,7 @@ Total de beneficios: 119
 | Festa | 20 %; Tenes 20% de ahorro. | No especificado | 2026-01-01 hasta 2026-09-30 |
 | Juan Valdez | 25 % Hasta; Tenes 25% de reintegro + 5% adicional con AMEX PLATINUM y VISA INFINITE | Todos los lunes | 2025-12-10 hasta 2026-09-28 |
 | LA QUESERIA | 20 % Hasta; Tenes 15% de reintegro con todas las tarjetas de crédito. En el local del Shopping Mariscal tenes 20% de reintegro con todas las Tarjetas. | lunes a miércoles | 2026-09-15 hasta 2026-10-31 |
+| Maria Castaña | 3 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro más 5% pagando con tus AMEX PLATINUM Y VISA INFINITE y hasta 3 cuotas sin intereses. | No especificado | 2026-02-01 hasta 2026-09-29 |
 | Pizza Hut | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses para los cumpleaños. | No especificado | 2025-09-19 hasta 2026-09-30 |
 
 ## H&M
@@ -44,7 +51,6 @@ Total de beneficios: 119
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | CENTRO DE MATERIALES | 40 % 6 Cuotas sin intereses; Tenes 40% de ahorro con Tarjeta de Crédito y hasta 6 cuotas sin intereses. | No especificado | 2026-04-27 hasta 2026-09-30 |
-| Casa Pro | 30 % Hasta 6 Cuotas sin intereses; Tenes hasta 30% de descuento en caja + hasta 6 cuotas sin intereses | No especificado | 2025-06-19 hasta 2026-12-31 |
 | EXPRESIONES GALERIA DE ARTE | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-09-01 hasta 2026-10-31 |
 | Essen | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
 | Gayatri | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-04-01 hasta 2026-09-23 |
@@ -53,7 +59,7 @@ Total de beneficios: 119
 | Maquicenter | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2022-12-05 hasta 2026-12-31 |
 | Olier | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2025-05-11 hasta 2026-12-31 |
 | Saccaro | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro y 10 cuotas sin intereses | No especificado | 2026-02-09 hasta 2026-09-30 |
-| Sueñolar | 18 Cuotas sin intereses 55 % Hasta; Tenes hasta 55% de ahorro y hasta 18 cuotas sin intereses. | No especificado | 2025-06-09 hasta 2026-09-30 |
+| Sueñolar | 18 Cuotas sin intereses; Tenes hasta 55% de ahorro y hasta 18 cuotas sin intereses. | No especificado | 2025-06-09 hasta 2026-09-30 |
 
 ## Indumentaria
 
@@ -62,12 +68,6 @@ Total de beneficios: 119
 | Ocre | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-09-02 hasta 2026-09-30 |
 | Todo Costura | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-12 hasta 2026-12-31 |
 
-## Maria Castaña padres
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Maria Castaña | 3 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro más 5% pagando con tus AMEX PLATINUM Y VISA INFINITE y hasta 3 cuotas sin intereses. | No especificado | 2026-02-01 hasta 2026-09-29 |
-
 ## Niños
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -75,11 +75,11 @@ Total de beneficios: 119
 | AVENTURA PARK | 10 % 10 Cuotas sin intereses; Tenés 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2018-01-01 hasta 2026-09-30 |
 | Estoy Jugueteria | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2025-06-06 hasta 2026-12-25 |
 
-## Shell
+## SUEÑOLAR
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Shell | 20 %; 20% de reintegro con tu tarjeta de Crédito clásica | todos los lunes | 2026-01-05 hasta 2026-09-28 |
+| Sueñolar | 18 Cuotas sin intereses 60 % Hasta; Tenes hasta 60% de ahorro y hasta 18 cuotas sin intereses. | No especificado | 2025-03-01 hasta 2026-09-21 |
 
 ## Stock & Superseis
 
@@ -150,13 +150,13 @@ Total de beneficios: 119
 | Primer Martes | 25 % Hasta 10 Cuotas sin intereses; hasta 25% de ahorro y hasta 10 cuotas sin intereses + 10% con código QR, Apple Pay, Google Pay. | No especificado | 2026-01-06 hasta 2026-12-01 |
 | Rondina | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Sallustro | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
+| Shell | 20 %; 20% de reintegro con tu tarjeta de Crédito clásica | todos los lunes | 2026-01-05 hasta 2026-09-28 |
 | Sport House | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | TL Sports & Outdoors | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Timberland | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Touring y Automóvil Club Paraguayo | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-06-26 hasta 2026-12-31 |
 | VGS | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Vernier | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
-| Villandry | 20 %; 20% de ahorro. | No especificado | 2025-02-05 hasta 2026-09-21 |
 
 ## Viaje y Turismo
 
@@ -200,6 +200,8 @@ Total de beneficios: 119
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-11-20 hasta 2026-09-17 |
+| DG Market | 6 Cuotas sin intereses 25 % Hasta; hasta 25% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2024-09-20 hasta 2026-09-18 |
+| Fuschia | 10 Cuotas sin intereses 30 % Hasta; Tenés 20% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses | No especificado | 2024-07-04 hasta 2026-09-19 |
 | RAICES REAL ESTATE | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses. | No especificado | 2026-05-25 hasta 2026-09-20 |
+| Villandry | 20 %; 20% de ahorro. | No especificado | 2025-02-05 hasta 2026-09-21 |
 

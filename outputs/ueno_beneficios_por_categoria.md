@@ -50,7 +50,7 @@ Fuente: PDF mensual + páginas de bases y condiciones enlazadas desde el PDF.
 
 | Promoción | Locales / comercios | Descuento | Niveles | Topes / mínimos | Vigencia |
 |---|---|---|---|---|---|
-| Activá tu tarjeta - primera compra | Ver detalle / logos en PDF | Ver detalle | No especificado | monto mínimo establecido) con cualquier tarjeta de crédito emitida por ueno bank S; Tope máximo de compra de Guaraníes un millón (Gs; tope de reintegro máximo en este caso será de Guaraníes quinientos mil (Gs; Gs. 1.000. | Vigencia: ● Desde el 01 de septiembre hasta el 14 de septiembre del 2026 |
+| Activá tu tarjeta - primera compra | Ver detalle / logos en PDF | Ver detalle | No especificado | monto mínimo establecido) con cualquier tarjeta de crédito emitida por ueno bank S; Tope máximo de compra de Guaraníes un millón (Gs; tope de reintegro máximo en este caso será de Guaraníes quinientos mil (Gs; Gs. 1.000. | Vigencia: ● Desde el 01 de septiembre hasta el 30 de septiembre del 2026 |
 
 ## Supermercados
 
