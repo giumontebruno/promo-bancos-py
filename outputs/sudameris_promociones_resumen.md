@@ -2,7 +2,7 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 58
+Total: 59
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
@@ -21,6 +21,7 @@ Total: 58
 | Sudameris | DTP TRAVEL GROUP | •La Promoción tendrá |  | https://www.sudameris.com.py/beneficios/destacado/787/detalle |
 | Sudameris | ULIKO STORE | • Desde el 21 al 24 de septiembre 2026. | • 20% de reintegro directo con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/832/detalle |
 | Sudameris | TATANO POSADA BOUTIQUE | • Martes a domingo. • Desde el 07 de abril 2026 hasta el 31 de diciembre 2026. | • 20% de descuento en caja con tarjetas de crédito de Sudameris. • 25% de descuento en caja con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 12 cuotas sin intereses (Aplica exclusivamente pa | https://www.sudameris.com.py/beneficios/destacado/761/detalle |
+| Sudameris | KUBE | • Desde el 22 al 26 de septiembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito. • 25% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite. • Hasta 15 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/717/detalle |
 | Sudameris | BIGGIE FARMA | • Desde el 01 de julio hasta el 30 de septiembre 2026. • Solo el primer Jueves de cada mes: • 02 de julio. • 06 de agosto. • 03 de septiembre. | • Desde 20% de descuento en caja. • +10% de reintegro directo adicional en extracto, pagando exclusivamente con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/708/detalle |
 | Sudameris | PLUB | • Último viernes de cada mes. • Desde el 01 de agosto 2026 hasta el 31 de octubre de 2026. | • 20% de reintegro directo con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/360/detalle |
 | Sudameris | TARJETAS EMPRESARIALES | • Todos los días. • Desde el 01 de enero hasta el 31 de diciembre de 2026. | • Hasta 6 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/742/detalle |

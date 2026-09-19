@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 121
+Total de beneficios: 125
 
 ## Belleza y Salud
 
@@ -17,12 +17,6 @@ Total de beneficios: 121
 | Punto Farma | 6 Cuotas sin intereses 35 % Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses. | Todos los Martes; todos los martes | 2024-12-30 hasta 2026-12-31 |
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
 | Sanatorios y Clinicas | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2021-03-15 hasta 2026-12-31 |
-
-## Casa pro
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Casa Pro | 30 % Hasta 6 Cuotas sin intereses; Tenes hasta 30% de descuento en caja + hasta 6 cuotas sin intereses | No especificado | 2025-06-19 hasta 2026-12-31 |
 
 ## Entretenimiento
 
@@ -51,6 +45,7 @@ Total de beneficios: 121
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | CENTRO DE MATERIALES | 40 % 6 Cuotas sin intereses; Tenes 40% de ahorro con Tarjeta de Crédito y hasta 6 cuotas sin intereses. | No especificado | 2026-04-27 hasta 2026-09-30 |
+| Casa Pro | 30 % Hasta 6 Cuotas sin intereses; Tenes hasta 30% de descuento en caja + hasta 6 cuotas sin intereses | No especificado | 2025-06-19 hasta 2026-12-31 |
 | EXPRESIONES GALERIA DE ARTE | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-09-01 hasta 2026-10-31 |
 | Essen | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
 | Gayatri | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-04-01 hasta 2026-09-23 |
@@ -80,6 +75,12 @@ Total de beneficios: 121
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Sueñolar | 18 Cuotas sin intereses 60 % Hasta; Tenes hasta 60% de ahorro y hasta 18 cuotas sin intereses. | No especificado | 2025-03-01 hasta 2026-09-21 |
+
+## Sallustro Sport San Martin
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Sallustro Sport | 25 % 6 Cuotas sin intereses; Tenés 25% reintegro + 6 cuotas sin intereses | No especificado | 2023-12-22 hasta 2026-12-19 |
 
 ## Stock & Superseis
 
@@ -200,8 +201,11 @@ Total de beneficios: 121
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| DG Market | 6 Cuotas sin intereses 25 % Hasta; hasta 25% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2024-09-20 hasta 2026-09-18 |
+| Armele | 25 % Hasta 12 Cuotas sin intereses; Tenes 20% de ahorro +5% PERSONAL BANK y hasta 12 cuotas sin intereses. | No especificado | 2023-03-22 hasta 2026-09-19 |
+| Eneache | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-03-20 hasta 2026-09-20 |
+| Feria Asunción | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-07-17 hasta 2026-09-19 |
 | Fuschia | 10 Cuotas sin intereses 30 % Hasta; Tenés 20% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses | No especificado | 2024-07-04 hasta 2026-09-19 |
+| NESPRESSO | 25 % Hasta 12 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional con VISA INFINITE y AMEX PLATINUM y 10 cuotas sin intereses. | No especificado | 2026-06-15 hasta 2026-09-19 |
 | RAICES REAL ESTATE | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses. | No especificado | 2026-05-25 hasta 2026-09-20 |
-| Villandry | 20 %; 20% de ahorro. | No especificado | 2025-02-05 hasta 2026-09-21 |
+| Villandry | 20 % 6 Cuotas sin intereses; Tenés 20% de ahorro y hasta 6 cuotas sin intereses | No especificado | 2025-02-05 hasta 2026-09-21 |
 

@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 175
+Total de promociones: 176
 
 ## Combustible
 
@@ -19,6 +19,7 @@ Total de promociones: 175
 | CECCONELLO | 20%; 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el 18 al 21 de septiembre 2026. |
 | COLEGIO SAN ANDRÉS | Hasta 15 cuotas sin interés | No especificado | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. |
 | HYDROCLEAN | 20%; Hasta 12 cuotas sin interés | No especificado | • Desde el 01 al 25 de septiembre 2026. |
+| KUBE | 20%; 25%; Hasta 15 cuotas sin interés | No especificado | • Desde el 22 al 26 de septiembre 2026. |
 | PRIMAVERA 2026 - THE TOWN | • Reintegro en extracto de tarjeta según aplicación de promoción [leer las | No especificado | • Desde el 18 hasta el 21 de septiembre de 2026. |
 | PRIMAVERA 2026 – RUBRO FLORERÍAS | • Reintegro en extracto de tarjeta según aplicación de promoción (leer las | Todos los días | • Todos los días • Desde el 16 hasta el 21 de septiembre de 2026. |
 | SASPY EXPRESS | 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | • Desde el 06 de abril hasta el 30 de septiembre 2026. |

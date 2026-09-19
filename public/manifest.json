@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18T12:14:24.151295+00:00",
-  "promotion_count": 1473,
+  "generated_at": "2026-09-19T11:56:55.129569+00:00",
+  "promotion_count": 1479,
   "banks": [
     "Atlas",
     "BNF",
@@ -15,7 +15,6 @@
     "Belleza y Salud",
     "Bienestar",
     "Bodegas",
-    "Casa pro",
     "Caza y Pesca",
     "Clubes",
     "Clubes sociales",
@@ -72,6 +71,7 @@
     "Promociones especiales",
     "Puma Flota",
     "SUEÑOLAR",
+    "Sallustro Sport San Martin",
     "Salud",
     "Salud y belleza",
     "Seguros",
@@ -450,7 +450,8 @@
     "01cfefca9ce84eaf": "1520fa6042ae6e1a",
     "f62815381a65b6f0": "8150aca423ca59f1",
     "a50f2484a4772590": "d47bbc0ec1f94c12",
-    "471901cc4b40e62d": "df308c105b23f941"
+    "471901cc4b40e62d": "df308c105b23f941",
+    "9cb7d648da99c5e5": "1fdee8f273385f23"
   },
   "schema_version": 2
 }

@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 753
+Total de beneficios/comercios: 754
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -90,7 +90,7 @@ Total de beneficios/comercios: 753
 | Infobanc S.A | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 04 de diciembre del 2026 | Nueva Esperanza (Canindeyú) |
 | One 2 One | 20%; Hasta 12 cuotas sin intereses; 20% de descuento; 15% de descuento | Todos los días | Vigente hasta el 09 de abril de 2027 | Asunción |
 
-## Electrónica (36)
+## Electrónica (37)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -125,6 +125,7 @@ Total de beneficios/comercios: 753
 | New Libano Electronics | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de mayo de 2027 | Encarnación |
 | Nissei | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre del 2026 | No especificado |
 | Parana Electronicos | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 10 de noviembre del 2026 | No especificado |
+| Premier Electronics | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 17 de septiembre de 2027 | Asunción |
 | Prime Shop | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 08 de julio de 2027 | Ciudad del Este |
 | Shopping City | 20%; 20% de reintegro | los jueves | Vigente hasta el 29 de abril del 2027 | Encarnación |
 | Tecnostore | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de junio de 2027 | Asunción |
@@ -135,7 +136,7 @@ Total de beneficios/comercios: 753
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| Compasa | 20%; 20% de reintegro | los viernes | Vigente hasta el 11 de septiembre de 2026 | No especificado |
+| Compasa | 20%; 20% de reintegro | Los viernes | Vigente hasta el 17 de septiembre de 2027 | Todo el país |
 | Copetrol | 25%; 25% de reintegro; 20% de reintegro | Los viernes | Vigente hasta el 02 de octubre de 2026 | Todo el país |
 | ECOP | 15%; 15% de reintegro | los viernes | Vigente hasta el 06 de diciembre del 2026 | No especificado |
 | Enercon - Estaciones de Servicio | 20%; 20% de reintegro | los viernes | Vigente hasta el 19 de marzo de 2027 | No especificado |
