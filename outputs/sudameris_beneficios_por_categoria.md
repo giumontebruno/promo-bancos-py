@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 176
+Total de promociones: 175
 
 ## Combustible
 
@@ -27,7 +27,6 @@ Total de promociones: 176
 | TARJETAS EMPRESARIALES | Hasta 6 cuotas sin interés | Todos los días | • Todos los días. • Desde el 01 de enero hasta el 31 de diciembre de 2026. |
 | TROVARI | 20%; 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el 17 de septiembre hasta el 24 de septiembre 2026. |
 | ULIKO STORE | 20%; Hasta 10 cuotas sin interés | No especificado | • Desde el 21 al 24 de septiembre 2026. |
-| ZEAL | 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el 21 de agosto hasta el 19 de septiembre 2026. |
 | ZONA NORTE | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 
 ## Deportes y clubes
