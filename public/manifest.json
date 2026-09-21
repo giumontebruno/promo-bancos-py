@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T12:15:06.232502+00:00",
+  "generated_at": "2026-09-21T13:54:36.942466+00:00",
   "promotion_count": 1474,
   "banks": [
     "Atlas",
@@ -402,7 +402,6 @@
     "8c56434889a889d6": "757a598c176b7748",
     "a9c34d1b516aca72": "3ce67acb3ec01993",
     "50e3c38785816190": "a6c9bbd5bafd3ae0",
-    "46290055d2126c08": "9effdec2f8016f2a",
     "04b47072d932b2ef": "633452f9de63982d",
     "22fe69aae80494a1": "2e28ed4834e893f1",
     "1319b70743e83968": "a4535180277e226e",
@@ -431,7 +430,6 @@
     "bd74eedbd56b4665": "86c34bb3f4e38e00",
     "a83f9a4bcc1fbfe9": "d630edf0ee4490d9",
     "59ab514280eb7cbf": "19fb9d329d7892ce",
-    "0bb1da1cfb2ab0f1": "a3e36e279d39cbf6",
     "d8610bf3faa7ec9f": "e04a0817f34c1e1d",
     "ffd12e9762c6b8db": "e31059b815bf60cf",
     "837ba61bafe1b5be": "e71961c9b6e1952d",
@@ -451,7 +449,8 @@
     "f62815381a65b6f0": "8150aca423ca59f1",
     "a50f2484a4772590": "d47bbc0ec1f94c12",
     "471901cc4b40e62d": "df308c105b23f941",
-    "9cb7d648da99c5e5": "1fdee8f273385f23"
+    "9cb7d648da99c5e5": "1fdee8f273385f23",
+    "05376db99bfc820a": "238c7192f2f74af3"
   },
   "schema_version": 2
 }

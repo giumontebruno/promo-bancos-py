@@ -2,14 +2,13 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 41
+Total de beneficios: 42
 
 ## Bienestar
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Martiderm | 20% de descuento; 3 cuotas sin intereses | Último jueves del mes | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Válido en los locales adheridos. Beneficios exclusivos para consumo personal.  |
-| Nueva Americana | 20% de descuento; +5% de descuento; 12 cuotas sin intereses | 17 y 18 de septiembre | El descuento se realiza en caja. Un total de 25% de descuento para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, y 20% para tarjetas de crédito Clásica y Oro. La cantidad de cuotas se solicita en  |
 | Prepaga Joven | 20% de reintegro; En tiendas adheridas: | Todos los días | Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 d |
 | Shopping Mariscal Miércoles Plus | 20% de descuento; +20% de reintegro; 3 cuotas sin intereses | 23 de septiembre | Tope de compra por cuenta de tarjeta para el reinetgro Gs. 5.000.000. Promo válida en tiendas adheridas al Miércoles de Beneficio en el Shopping Mariscal y para compras realizadas a través del POS de la Red Infonet. Rein |
 
@@ -46,7 +45,7 @@ Total de beneficios: 41
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Koala | 45% de descuento; +10% de reintegro; 12 cuotas sin intereses | Del 19 al 26 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 5.000.000 para tarjetas de crédito Visa Infinite, Visa Signature, Mastercard Black, Clásica y Oro. La cantidad de cuotas debe ser solicitada en caja para compras a parti |
+| Koala | 45% de descuento; +10% de reintegro; 12 cuotas sin intereses | Del 19 al 26 de septiembre | Hasta 45% de descuento en caja en tiendas Koala y tiendas Multimarca Koala/Sueñolar. Tope de compra acumulado por cuenta de tarjeta Gs. 5.000.000 para tarjetas de crédito Visa Infinite, Visa Signature, Mastercard Black,  |
 | Renová tu Hogar | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | Sara Comercial | 30% de reintegro; Hasta 12 cuotas sin intereses | 21 al 25 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, MasterCard Black y Visa Signature y Gs. 1.000.000 para tarjetas de crédito Visa Clásica y Visa Oro. Promo vigente del 2 |
 
@@ -54,8 +53,10 @@ Total de beneficios: 41
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Cecconello | 20% de descuento; 10 cuotas sin intereses | 21 al 30 de septiembre | Descuento aplicado en caja hasta 20%. La cantidad de cuotas se solicita al momento de la compra, hasta 10 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Beneficio exclusivo para con |
 | Champs Elysées | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en  |
 | Cortefiel | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
+| Di Valentini | 15% de descuento; 10 cuotas sin intereses | 21 al 30 de septiembre | Descuento aplicado en caja hasta 15%. La cantidad de cuotas se solicita al momento de la compra, hasta 10 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Beneficio exclusivo para con |
 | Forever 21 | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de G |
 | Forever 21 Primavera | 60% de descuento; 12 cuotas sin intereses | Del 7 al 30 de septiembre | Descuento de hasta 60% realizado en caja válido presentando su CI y Tarjeta del titular que cumpla las condiciones expresadas en las bases y condiciones de la tienda adjuntas en el PDF. La cantidad de cuotas se solicita  |
 | H&M | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet .Válido para las sucursales de Paseo La Galería, Distrito Perseverancia y su E-  |
@@ -64,6 +65,7 @@ Total de beneficios: 41
 | Mango | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 | Pedro del Hierro | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 | Shopping Mariscal | 20% de descuento; Hasta 3 cuotas sin intereses | Todos los Miércoles | El descuento se realiza en caja. Aplica para tiendas adheridas a la promoción y pagos realizados a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a  |
+| Spring Deals | 20% de descuento; Hasta 12 cuotas sin intereses | 18 al 21 de septiembre | Hasta 20% de descuento en caja en locales adheridos y comunicados en www.delsol.com.py. La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas con la TC Atlas de |
 | Springfield | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’s Secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red In |
 | women'secret | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 
@@ -80,7 +82,6 @@ Total de beneficios: 41
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Tecnología a tu alcance | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
-| iStore - iPhone 18 | 18 cuotas sin intereses; Con beneficios exclusivos en la sucursal de delSol | Del 9 al 18 de septiembre | Preventa: Del 9 al 12, beneficio exclusivo con Tarjetas de Crédito delSol Atlas; del 13 al 18, con Tarjetas de Crédito Atlas habilitadas. Cuotas aplicables a compras desde Gs. 5.000.000. Voucher de USD 50 exclusivo para  |
 
 ## Vehículo
 

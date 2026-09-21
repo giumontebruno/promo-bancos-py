@@ -1,44 +1,44 @@
 {
-  "completed_at": "2026-09-20T12:15:06.418059+00:00",
+  "completed_at": "2026-09-21T13:54:37.119501+00:00",
   "failed_sources": [
     "Coop. Universitaria"
   ],
   "sources": {
     "Sudameris": {
       "status": "fetched",
-      "checked_at": "2026-09-20T12:11:29.666218+00:00",
-      "records": 175
+      "checked_at": "2026-09-21T13:51:08.363029+00:00",
+      "records": 174
     },
     "Itaú": {
       "status": "fetched",
-      "checked_at": "2026-09-20T12:12:31.944188+00:00",
+      "checked_at": "2026-09-21T13:52:10.038623+00:00",
       "records": 121
     },
     "BNF": {
       "status": "fetched",
-      "checked_at": "2026-09-20T12:12:56.126167+00:00",
+      "checked_at": "2026-09-21T13:52:34.772975+00:00",
       "records": 75
     },
     "Continental": {
       "status": "fetched",
-      "checked_at": "2026-09-20T12:12:58.811125+00:00",
+      "checked_at": "2026-09-21T13:52:37.358650+00:00",
       "records": 754
     },
     "Atlas": {
       "status": "fetched",
-      "checked_at": "2026-09-20T12:12:59.929504+00:00",
-      "records": 41
+      "checked_at": "2026-09-21T13:52:40.883172+00:00",
+      "records": 42
     },
     "Coop. Universitaria": {
       "status": "failed",
       "checked_at": "2026-09-17T12:34:35.639315+00:00",
       "records": 77,
-      "attempted_at": "2026-09-20T12:13:00.345279+00:00",
+      "attempted_at": "2026-09-21T13:52:41.248955+00:00",
       "error_type": "CalledProcessError"
     },
     "ueno bank": {
       "status": "fetched",
-      "checked_at": "2026-09-20T12:14:38.458348+00:00",
+      "checked_at": "2026-09-21T13:54:07.754867+00:00",
       "records": 231
     }
   }

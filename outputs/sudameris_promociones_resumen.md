@@ -2,7 +2,7 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 58
+Total: 57
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
@@ -36,7 +36,6 @@ Total: 58
 | Sudameris | Estaciones de Servicio CCU | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer jueves de cada mes. • 02 de julio. • 06 de agosto. • 03 de septiembre. • 01 de octubre. • 05 de noviembre. •  |  | https://www.sudameris.com.py/beneficios/destacado/679/detalle |
 | Sudameris | MATERASSI | • Miércoles a sábado. • Desde el 19 de agosto hasta el 03 de octubre 2026. | • 30% de descuento directo en caja pagando con tarjetas de crédito de Sudameris. • 10% de reintegro directo pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/476/detalle |
 | Sudameris | DRUGSTORE ASISMED DESCUENTO EN CAJA | • Todos los martes. • Desde el 01 de julio hasta el 30 de septiembre 2026. | • 17% de descuento en caja en medicamentos importados o nacional con tratamiento de importado y varios, pagando con tarjetas de crédito de Sudameris. • 32% de descuento en caja en medicamentos de origen 100% nacional, pa | https://www.sudameris.com.py/beneficios/destacado/453/detalle |
-| Sudameris | RESTAURANTES FAMILIA PARU - LA CUADRITA | • Desde el 01 de enero hasta el 20 de septiembre 2026. | • 20% de descuento en caja con tarjetas de crédito Visa Clásica, Oro, Signature y Platinum, MasterCard Clásica y Plus. • 25% de descuento en caja con tarjetas de crédito MasterCard Black y Visa Infinite. • Promoción cump | https://www.sudameris.com.py/beneficios/destacado/308/detalle |
 | Sudameris | GASTRONOMÍA 26 |  |  | https://www.sudameris.com.py/beneficios/destacado/636/detalle |
 | Sudameris | ZONA SUR |  | en tu zona • Reintegros directos en el extracto, sin canje de puntos ENCARNACIÓN HOHENAU PIRAPÓ BELLA VISTA CORONEL BOGADO TRINIDAD MARÍA AUXILIADORA FRAM OBLIGADO CARMEN DEL PARANÁ CAPITÁN MIRANDA NATALIO KRESSBURGO | https://www.sudameris.com.py/beneficios/destacado/436/detalle |
 | Sudameris | ZONA NORTE | • Verificar según aplicación de promoción (ver cuadro más abajo). | en tu zona | https://www.sudameris.com.py/beneficios/destacado/650/detalle |

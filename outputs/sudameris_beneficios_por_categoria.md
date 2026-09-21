@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 175
+Total de promociones: 174
 
 ## Combustible
 
@@ -80,7 +80,6 @@ Total de promociones: 175
 | LIDO BAR | 30% DE REINTEGRO | MARTES | Desde 2025-11-11 hasta 2026-10-31 |
 | PATIO COLONIAL | 20% DE REINTEGRO | JUEVES A DOMINGO | Desde 2026-01-01 hasta 2026-08-02 |
 | RESTAURANTE HOTEL VILLA MORRA SUITES | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | SABADOS Y DOMINGOS | Desde 2026-03-07 hasta 2026-08-02 |
-| RESTAURANTES FAMILIA PARU - LA CUADRITA | 20%; 25% | No especificado | • Desde el 01 de enero hasta el 20 de septiembre 2026. |
 | SERENDIPITY - LA HORNALLA - CANTINA COLEGIOS | 15% | Lunes a viernes | • Lunes a viernes. • Desde el 20 de abril hasta el 30 de noviembre 2026. |
 | TOTEM TOSTADORES | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | MARTES A VIERNES | Desde 2026-03-05 hasta 2026-10-02 |
 

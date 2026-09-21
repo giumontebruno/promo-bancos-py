@@ -169,6 +169,8 @@ Total de beneficios: 121
 | Alto Vuelo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Ami Tour | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Aries Travel | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
+| Assist Card | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 35% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-02-18 hasta 2026-09-30 |
+| Assist Card | 50 % Hasta 10 Cuotas sin intereses; Hasta 50% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-06-08 hasta 2026-09-30 |
 | Aventura Viajes | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Bespoke | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Boarding Pass | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
@@ -199,9 +201,7 @@ Total de beneficios: 121
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Eneache | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-03-20 hasta 2026-09-20 |
 | Gayatri | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-04-01 hasta 2026-09-23 |
 | Optica Santa Lucía | 6 Cuotas sin intereses 35 % Hasta; Tenes hasta 30% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses. | No especificado | 2025-12-18 hasta 2026-09-23 |
-| RAICES REAL ESTATE | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses. | No especificado | 2026-05-25 hasta 2026-09-20 |
 | Villandry | 20 % 6 Cuotas sin intereses; Tenés 20% de ahorro y hasta 6 cuotas sin intereses | No especificado | 2025-02-05 hasta 2026-09-21 |
 
