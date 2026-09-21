@@ -7,6 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = [
+    ('Familiar', 'familiar', ['extract_familiar', 'build_familiar_table']),
     ('Sudameris', 'sudameris', ['extract_sudameris', 'build_sudameris_table']),
     ('Itaú', 'itau', ['extract_itau']),
     ('BNF', 'bnf', ['extract_bnf']),

@@ -35,3 +35,9 @@ test('signed-in profile uses escaped Google name and account management instead 
   assert.match(html, /data-profile-logout>Cerrar sesión/);
   assert.doesNotMatch(html, /data-beta-login|name="name"|Old manual name/);
 });
+
+test('admin entry is shown only for a server-confirmed administrator', () => {
+  assert.match(profile({email:'owner@example.com',admin:true}), /href="\.\/admin.html"/);
+  assert.doesNotMatch(profile({email:'giu.montebruno@gmail.com',admin:false}), /admin.html/);
+  assert.doesNotMatch(profile(null), /admin.html/);
+});

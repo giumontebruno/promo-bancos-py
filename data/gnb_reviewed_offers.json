@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-09-21T16:22:00Z",
+  "source_url": "https://www.beneficiosbancognb.com.py/imagenes/3872_bases-y-condiciones-copetrol-julio.pdf",
+  "source_version": "V1 - 26/06/2026",
+  "starts_on": "2026-07-06",
+  "ends_on": "2026-12-28",
+  "day": "Lunes",
+  "merchants": ["Copetrol", "Copemarket"],
+  "purchase_cap": 1000000,
+  "offers": [
+    {"key":"classic-physical", "percent":15, "refund_cap":150000, "cards":"Mastercard Clásica y Oro", "payment":"Tarjeta física", "kind":"base"},
+    {"key":"classic-qr", "percent":20, "refund_cap":200000, "cards":"Mastercard Clásica y Oro", "payment":"QR desde App GNB o Copetrol Vamos en estaciones habilitadas", "kind":"base"},
+    {"key":"black-physical", "percent":25, "refund_cap":250000, "cards":"Mastercard Black, Black Premier y Metalcard Premier", "payment":"Tarjeta física", "kind":"premium"},
+    {"key":"black-qr", "percent":30, "refund_cap":300000, "cards":"Mastercard Black, Black Premier y Metalcard Premier", "payment":"QR desde App GNB o Copetrol Vamos en estaciones habilitadas", "kind":"premium"}
+  ],
+  "conditions": "No aplica a tarjetas de débito, crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable con otras promociones. No aplica a compras mediante plataformas de terceros. Tope mensual compartido por cuenta entre titular y adicionales. Reembolso en el extracto. Copemarket admite compras en tienda física y online. Copetrol Vamos aplica solamente en estaciones habilitadas según el PDF.",
+  "branches": [
+    ["KM.2", "Av. Eusebio Ayala esq. Bartolomé", "Asunción", true],
+    ["Facundo Machain", "Facundo Machain y RI 18 Pitiantuta", "Asunción", true],
+    ["Maitei", "Av. Madame L. esq. Tte. Victor Valdez", "Fernando de la Mora", true],
+    ["Ruta 1 Km.14", "Ruta Dptal D027 (Ex Ruta 1) esq. Buenos Aires", "San Lorenzo", true],
+    ["Autopista", "Av. Silvio Pettirossi y Cochabamba", "Luque", true],
+    ["Villa Morra", "Mcal. López y San Martín", "Asunción", true],
+    ["Km 6,5 C.D.E.", "Blas Garay y Monseñor Rodríguez", "Ciudad del Este", false],
+    ["Encarnación Ruta 1", "Ruta 1 Km 374 y Avda. Bernardino Caballero", "Encarnación", true],
+    ["Ferrocarril", "Av. M. López e/ México y Caballero", "Asunción", true],
+    ["25 de Mayo", "25 de Mayo esq. Choferes del Chaco - Mburicaó", "Asunción", true],
+    ["Hohenau", "Ruta 6 Km. 35", "Hohenau", true],
+    ["Bella Vista Sur", "Ruta 6 Km. 50. Paseo Bella Vista", "Bella Vista Sur", true]
+  ]
+}

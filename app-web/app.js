@@ -7,7 +7,7 @@ const STORAGE_KEYS = {
   alertPrefs: "paybackPy.alertPrefs",
 };
 const DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
-const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria"];
+const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria", "Familiar", "GNB"];
 const PREMIUM_CATEGORY = "Club Black";
 const PREMIUM_BANK_ORDER = ["Itaú", "Sudameris", "Continental", "ueno bank", "BNF", "Atlas", "Coop. Universitaria"];
 const KNOWN_PLACES = [
@@ -138,6 +138,8 @@ const nearbyMapState = {
 };
 
 const bankThemes = {
+  "GNB": { main: "#168443", soft: "#e5f5e9", card: "#f4faf5", logo: "./assets/logos/gnb-official.svg", logoBg: "#062b1a" },
+  "Familiar": { main: "#f28c28", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/familiar-official.webp", logoBg: "#ffffff" },
   "ueno bank": { main: "#2bd98e", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno-icon-official.svg", logoBg: "#062017" },
   "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau-official.svg", logoBg: "#ec7000" },
   "Continental": { main: "#082a63", soft: "#e5edf8", card: "#f4f8fe", logo: "./assets/logos/continental-official.png", logoBg: "#e7ebf0" },
@@ -641,6 +643,7 @@ function isUenoPowerPromo(promo) {
 
 function getMainBenefit(promo, variant = null) {
   if (variant?.benefit) return variant.benefit;
+  if (promo.bank === "Familiar") return promo.benefit_summary;
   if (isUenoPowerPromo(promo)) {
     return getBenefitForSelectedUenoLevel(promo, state.uenoLevel);
   }
@@ -654,6 +657,17 @@ function getMainBenefit(promo, variant = null) {
 
 function getBenefitLines(promo, variant = null) {
   const text = String(getMainBenefit(promo, variant) || promo.benefit_summary || "Ver detalle");
+  if (promo.bank === "Familiar" && !variant) {
+    const rates = [...text.matchAll(/(\d{1,2})\s*%\s*(?:de\s+)?(?:reintegro|descuento)/gi)].map(m => Number(m[1]));
+    const values = [...new Set(rates)].sort((a,b) => a-b);
+    if (values.length) {
+      const range = values.length > 1 ? `${values[0]}–${values.at(-1)}% según condiciones` : `${values[0]}% ${promo.benefit_type}`;
+      const extra = text.match(/\+\s*(\d+)\s*%\s*adicional\s+pagando\s+con\s+QR/i);
+      return [range + (extra ? ` + ${extra[1]}% con QR` : '')];
+    }
+    const quotas = [...new Set([...text.matchAll(/(\d+)\s+cuotas?\s+sin\s+inter/gi)].map(m => Number(m[1])))].sort((a,b) => a-b);
+    if (quotas.length) return [quotas.length > 1 ? `${quotas[0]}–${quotas.at(-1)} cuotas según tarjeta` : `Hasta ${quotas[0]} cuotas sin intereses`];
+  }
 
   const normalized = text
     .replace(/hasta\s+(\d+)\s+cuotas?\s+sin\s+inter[eé]s(?:es)?/gi, "$1 cuotas")
@@ -826,6 +840,7 @@ function extractGuaraniAmounts(text) {
 }
 
 function getPromoVariants(promo) {
+  if (promo.offer_kind) return [{kind:promo.offer_kind,label:promo.offer_label,benefit:promo.benefit_summary}];
   if (isUenoPowerPromo(promo)) return [null];
   const additive = normalizeDayName(promo.benefit_summary || '').match(/(\d{1,2})\s*%\s*(?:de\s+)?reintegro\s*\+\s*(\d{1,2})\s*%\s*(?:para\s+)?(black\s+e\s+infinite|elite)/);
   if (additive) {
@@ -1344,6 +1359,7 @@ function renderAlertsView() {
         ? '<div class="profile-account-actions"><button type="button" class="notification-action" data-beta-open>Administrar cuenta y comentarios</button><button type="button" class="notification-action" data-profile-logout>Cerrar sesión</button></div><p class="profile-session-status" role="status"></p>'
         : '<button type="button" class="google-signin google-icon-only" data-beta-login aria-label="Continuar con Google" title="Continuar con Google"><img src="./assets/logos/google-g-official.png" width="20" height="20" alt=""></button><p class="profile-note">Ingresá con tu cuenta de Google. Solo usamos tu identidad básica y correo.</p>'}
       ${renderFavoriteAlerts()}
+      ${account?.admin === true ? '<a class="notification-action" href="./admin.html">Panel de administración</a>' : ''}
       <form id="profileForm" class="profile-form">
         <label class="check-row">
           <input name="today" type="checkbox" ${state.alertPrefs.today ? "checked" : ""} />
@@ -2335,7 +2351,7 @@ function getEstimatedSavings(promo, amount = null, variant = null) {
   if (structuredLevel?.length === 1 && !variant) {
     const row = structuredLevel[0];
     limits = [{ kind: "purchase", amount: row.purchase_cap || 0 }, { kind: "refund", amount: row.refund_cap || 0 }];
-  } else if (variant || (promo.bank === "ueno bank" && /nivel/i.test(promo.level_rules || ""))) {
+  } else if ((variant && !promo.offer_kind) || (promo.bank === "ueno bank" && /nivel/i.test(promo.level_rules || ""))) {
     const levelBlock = (promo.caps_and_minimums || "").match(new RegExp(`nivel\\s*${state.uenoLevel}\\s*:[^;]+`, "i"))?.[0];
     limits = levelBlock && !variant ? PaybackBenefits.explicitLimits(levelBlock) : [];
   }
@@ -2356,8 +2372,8 @@ function getDetailRows(promo, variant = null) {
     ["Comercios/locales", getMerchantDetail(promo), "merchants"],
     ["Días", getDisplayDays(promo)],
     ["Fecha", getDisplayValidity(promo)],
-    ["Reintegro o descuento", getDisplayBenefit(promo, variant)],
-    ["Tarjetas que aplican", formatDetailText(!variant && promo.terms?.cards?.length ? promo.terms.cards.join("; ") : extractApplicableCards(promo, variant))],
+    ["Reintegro o descuento", promo.bank === "Familiar" ? formatDetailText(promo.benefit_summary) : getDisplayBenefit(promo, variant)],
+    ["Tarjetas que aplican", formatDetailText((!variant || promo.offer_kind) && promo.terms?.cards?.length ? promo.terms.cards.join("; ") : extractApplicableCards(promo, variant))],
     ["Tarjetas excluidas", formatDetailText(promo.terms?.exclusions?.length ? promo.terms.exclusions.join("; ") : extractExcludedCards(promo))],
     ["Topes y mínimos", formatCapsText(promo, variant), "caps"],
     ["Reglas por nivel", promo.level_rules || "", "levels"],
@@ -2446,7 +2462,7 @@ function formatCapsText(promo, variant = null) {
   ].filter(Boolean).join("\n");
   if (promo.terms) {
     const limits = promo.terms.limits || [];
-    if (variant) return "Consultá los topes específicos de esta tarjeta en las bases.";
+    if (variant && !promo.offer_kind) return "Consultá los topes específicos de esta tarjeta en las bases.";
     if (!limits.length) return "Tope no confirmado. Consultá las bases y condiciones.";
     return [...new Set(limits.map(limit => limit.evidence))].join("\n");
   }
@@ -2809,7 +2825,7 @@ function renderCard(promo, variant = null) {
           </div>
         </div>
         ${savingsLabel ? `<div class="savings-line">${escapeHtml(savingsLabel)}</div>` : ""}
-        ${promo.verified_cards ? `<p class="eligible-card-label">${escapeHtml(promo.verified_cards.replace(/^Tarjetas de crédito\s+/i, ""))}</p>` : ""}
+        ${promo.verified_cards ? `<p class="eligible-card-label">${escapeHtml(promo.bank === "Familiar" && promo.verified_cards.length > 100 ? "Tarjetas de crédito Familiar" : promo.verified_cards.replace(/^Tarjetas de crédito\s+/i, ""))}</p>` : ""}
         ${promo.source_warning ? `<p class="source-warning-label">Tope pendiente de aclaración del banco</p>` : ""}
         ${levelDetails ? renderUenoLevelCaps(levelDetails) : ""}
         <p class="bank-card-line">${escapeHtml(getBankLabel(promo.bank))} · ${escapeHtml(categoryGroup)}</p>

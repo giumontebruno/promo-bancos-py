@@ -13,14 +13,16 @@ Start with `git status --short` and `python scripts/audit_catalog.py`. For one m
 - Rendering, grouping and filters: locate function names in `app-web/app.js` before reading a bounded range.
 - Favorites/Google: `app-web/beta-client.js`, `server/beta.js`.
 - Push: `server/index.js`, `server/schedule.js`, `scripts/dispatch_notifications.py`, `.github/workflows/favorite-notifications.yml`.
-- Admin: `app-web/admin.html` and `admin-client.js`. No app navigation link. Server verifies Supabase identity and BETA_ADMIN_EMAILS; never replace this with a client-side email check.
+- Admin: `app-web/admin.html` and `admin-client.js`. Profile link only when `/api/beta/me` returns `admin: true`. Server verifies Supabase identity and BETA_ADMIN_EMAILS; never replace this with a client-side email check.
 
 ## Non-obvious invariants
 - Stable promotion IDs include source_url. Keep machine provenance stable; user-facing sources use source_page_url.
 - Reviewed overrides in `data/reviewed_benefits.json` require exact raw-detail hash. Reverify when the source changes.
 - Purchase caps are not refund caps. Preserve card/payment/product qualifiers and 'hasta'. Financing-only cards never enter today's discounts.
 - Group PDF campaigns into actual merchants; never label a shopping center as the merchant unless the source explicitly applies center-wide.
-- Familiar/GNB `*_extraction_review.json` files are staging, not published coverage. Review conditions and dates before adding catalog sources.
+- Familiar: `extract_familiar.py` captures official PDFs; `build_familiar_table.py` validates and builds published CSV. Inspect bounded counts/reasons in `familiar_source_meta.json`; do not dump the full staging JSON. Rejected records are not published coverage. GNB staging remains blocked until the official page is accessible; do not bypass an access denial or substitute a QA host.
+- Reuse cached source documents when still current. Refresh only the affected bank, not all banks, for a targeted repair. Never re-read bundled/minified files for source work.
+- GNB reviewed subset: `data/gnb_reviewed_offers.json` -> `scrapers/build_gnb_reviewed.py`. Keep card/payment variants separate with stable IDs. The direct PDF may be readable through web research even when the local network returns 403; do not claim the entire GNB catalog is covered.
 - Push `sent` means provider acceptance, not display on the phone. Never reset uncertain deliveries just to retry. Never log subscription endpoints, tokens or keys.
 - Analytics counters require consent; no search text or coordinates.
 

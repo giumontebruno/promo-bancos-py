@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T15:36:07.389193+00:00",
-  "input_count": 1538,
-  "promotion_count": 1538,
+  "generated_at": "2026-09-21T16:27:11.293859+00:00",
+  "input_count": 1787,
+  "promotion_count": 1787,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -351,13 +351,87 @@
     "a50f2484a4772590": "d47bbc0ec1f94c12",
     "471901cc4b40e62d": "df308c105b23f941",
     "9cb7d648da99c5e5": "1fdee8f273385f23",
-    "05376db99bfc820a": "238c7192f2f74af3"
+    "05376db99bfc820a": "238c7192f2f74af3",
+    "db366dff74ed8ca2": "9ce94311de0a0296",
+    "5c32ae2b53dcac84": "a5e89fc918b0a877",
+    "f8e140683c164f30": "a5e6b745144d695f",
+    "7c340cb706b25050": "bf5dd6abd3b949dd",
+    "22f723066075c8fd": "768e7d7ba849e3da",
+    "6adcccdb9e168743": "a82d7e9bb5084043",
+    "bc9faf804d39667d": "162e960447c7c5c3",
+    "1406143d130d5a85": "be2bed8b937cc162",
+    "6daf4bbd720d70d6": "df165518086348a1",
+    "4e6b9ebea1f5c376": "b959a2a95fad3dfb",
+    "d167ee66b7563cb4": "93308de960d94b9e",
+    "0695c832a9ee2a32": "6b10affbf0547942",
+    "365ea3361906e8ba": "3ea653535715ced9",
+    "b8c921015590f706": "e885223cc108afb4",
+    "054c4b6b831cfffc": "8dc681b4edcc304a",
+    "9a5a1c5c71fc2175": "beb829d775d3e855",
+    "7f85e48e7b705751": "4e447e7c69e3a6da",
+    "2e870678e357f4cd": "10220a5c2c475083",
+    "185cc0340a8acd39": "ad38953ea5f3eb4b",
+    "3bc2ae0eef3e13de": "f1243f8db37c262e",
+    "15a42a55ee1ce293": "15b38291c45fecd2",
+    "caf83591d63321e3": "a15baf85a0412127",
+    "950fd308aca74297": "583809da6b1d3c95",
+    "a02a5707e29c7b99": "d75a1a281de74375",
+    "fc6f09e3f83563d6": "491a96d9de9e8060",
+    "ed7439d44a7abaf6": "1ad8ba99c74e406c",
+    "c41fa410344db2cf": "b17cc4200ca9e38a",
+    "2b0135841f9d0efc": "ea8e9d53f5272746",
+    "2c55805b3952b1bd": "55a1debeebdbf6ad",
+    "8827f0a94a64beab": "c5c736fd4fb11b39",
+    "60e75ca090f61172": "941b64fd062f489b",
+    "748fa979be08a16a": "728785eb33a1cc4e",
+    "07db7a8ae4b184f7": "a14803dc2af7019b",
+    "3045cfd69732b360": "412a64e4366383d5",
+    "a7d060a9d788ba89": "b9eb5d1ba0e3b562",
+    "2617e45608a901c8": "7baa1491a9608b5b",
+    "f7f1bcd91f51c366": "2c880695f5d4ca16",
+    "b3cb6314d0a2ea91": "69fe6c54037d3a1c",
+    "f9c1008d896a6a97": "8b68b799b37b11cb",
+    "f1930cff27323b1f": "afcb531ab34aa4a1",
+    "db5d404ace8cb0f2": "f5c176e01674b7c6",
+    "c41a3a93f96650b7": "59201ce7d43b83ff",
+    "00da6e456ee16c96": "0d77700de1e5779a",
+    "73dc9684930ed03d": "3c1e447147c7b45f",
+    "d5bfc9b075f587c0": "eb8d8f7ac398987e",
+    "a790accebb3111c4": "2dfa951ffce8040e",
+    "91f349b848807a32": "fb43afa4000c1c3d",
+    "212092002f81a513": "4dfad796e602c8fc",
+    "1d60a055ebeffc40": "94afbee07734d632",
+    "6ce5e03b32f2d971": "729790099eb060d5",
+    "25710d2a5a5f8d61": "9419ef602866e54f",
+    "4eb8862b5fca53a6": "f5b4549db00a56d6",
+    "8ebeaec4464add00": "c57517e7b43a96b4",
+    "f203a030d6efd8bd": "2673d5a385b2aa80",
+    "f9144e6ae86223db": "1e0615b160ebd616",
+    "d067d4916b2deb62": "1b011bb1cbeffd94",
+    "d597ce05121c56c4": "0cfaa2f29831b213",
+    "563302b528cae4ef": "9530a315bc309a9c",
+    "d9273a3872c7e857": "41e225d4c853b3c2",
+    "1e517a63f46edf99": "69eb793e504fe5b6",
+    "a0b4b620d85b978f": "a4046081e0b5c813",
+    "20ffddd05c81e5dd": "7c91fb9590c201bf",
+    "f62d6cc817b26fde": "70f46d8412c9c2b6",
+    "8ae839b081e66f60": "4f66876f9125abba",
+    "ca55a4b6517d80df": "7fe9a8cd9ea5a28a",
+    "43f100782b059fc7": "24453054cabfae01",
+    "5514bb52ab2ac36a": "db9de2bd4b147f67",
+    "2dce0b97125aef02": "055c9d037c824725",
+    "3934c3bbc168d807": "00db8eb1bc1b01c4",
+    "9babe81ad77b78f0": "5a4dfc42de19d160",
+    "470a74da8764f6c2": "0376b0c49c1b2a3e",
+    "9eb751e4bd3e35df": "fa4503d855266931"
   },
   "by_bank": {
     "Atlas": 42,
     "BNF": 75,
     "Continental": 754,
     "Coop. Universitaria": 77,
+    "Familiar": 241,
+    "GNB": 8,
     "Itaú": 121,
     "Sudameris": 238,
     "ueno bank": 231
@@ -366,8 +440,8 @@
     "validity_unconfirmed": 64,
     "limits_unconfirmed": 89,
     "source_amount_conflict": 5,
-    "multiple_purchase_limits": 284,
-    "multiple_refund_limits": 89
+    "multiple_purchase_limits": 335,
+    "multiple_refund_limits": 100
   },
   "review_queue": [
     {
@@ -3086,6 +3160,564 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1776972720.pdf"
+    },
+    {
+      "id": "9ce94311de0a0296",
+      "bank": "Familiar",
+      "merchant": "AKIRA SUSHI",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-akira-sushi-bases-y-condiciones"
+    },
+    {
+      "id": "a5e6b745144d695f",
+      "bank": "Familiar",
+      "merchant": "BAR SAN MIGUEL",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-bar-san-miguel"
+    },
+    {
+      "id": "768e7d7ba849e3da",
+      "bank": "Familiar",
+      "merchant": "BISTRON",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-bistron-bases-y-condiciones"
+    },
+    {
+      "id": "a82d7e9bb5084043",
+      "bank": "Familiar",
+      "merchant": "BUCCA PASTAS",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-bucca-pastas-bases-y-condiciones"
+    },
+    {
+      "id": "be2bed8b937cc162",
+      "bank": "Familiar",
+      "merchant": "CAFETERAS",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-cafeteras-bases-y-condiciones"
+    },
+    {
+      "id": "df165518086348a1",
+      "bank": "Familiar",
+      "merchant": "CAMBÁ",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-camba"
+    },
+    {
+      "id": "b959a2a95fad3dfb",
+      "bank": "Familiar",
+      "merchant": "CAPITAO BAR KM 8",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-capitao-bar-km-8-bases-y-condiciones"
+    },
+    {
+      "id": "93308de960d94b9e",
+      "bank": "Familiar",
+      "merchant": "CARACTER SAGRADO",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-caracter-sagrado-bases-y-condiciones"
+    },
+    {
+      "id": "6b10affbf0547942",
+      "bank": "Familiar",
+      "merchant": "COLOSO",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-coloso"
+    },
+    {
+      "id": "3ea653535715ced9",
+      "bank": "Familiar",
+      "merchant": "D'ALEPO COCINA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dalepo-cocina-bases-y-condiciones"
+    },
+    {
+      "id": "8dc681b4edcc304a",
+      "bank": "Familiar",
+      "merchant": "DISTRITO BREWING CO",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-distrito-brewing-co-bases-y-condiciones"
+    },
+    {
+      "id": "beb829d775d3e855",
+      "bank": "Familiar",
+      "merchant": "DOÑA SUSANA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dona-susana-bases-y-condiciones"
+    },
+    {
+      "id": "4e447e7c69e3a6da",
+      "bank": "Familiar",
+      "merchant": "ED'S HOUSE",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-eds-house"
+    },
+    {
+      "id": "10220a5c2c475083",
+      "bank": "Familiar",
+      "merchant": "EL GUATON",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-el-guaton-bases-y-condiciones"
+    },
+    {
+      "id": "ad38953ea5f3eb4b",
+      "bank": "Familiar",
+      "merchant": "EL HARINERO",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-el-harinero-bases-y-condiciones"
+    },
+    {
+      "id": "f1243f8db37c262e",
+      "bank": "Familiar",
+      "merchant": "EL LEGADO",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-el-legado"
+    },
+    {
+      "id": "15b38291c45fecd2",
+      "bank": "Familiar",
+      "merchant": "EL VIEJO MARINO",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-el-viejo-marino"
+    },
+    {
+      "id": "a15baf85a0412127",
+      "bank": "Familiar",
+      "merchant": "GREEN PARK",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-green-park-bases-y-condiciones"
+    },
+    {
+      "id": "583809da6b1d3c95",
+      "bank": "Familiar",
+      "merchant": "GUAY",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-guay-bases-y-condiciones"
+    },
+    {
+      "id": "d75a1a281de74375",
+      "bank": "Familiar",
+      "merchant": "HIROSHIMA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-hiroshima-bases-y-condiciones"
+    },
+    {
+      "id": "491a96d9de9e8060",
+      "bank": "Familiar",
+      "merchant": "HONORIO BAR",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-honorio-bar-bases-y-condiciones"
+    },
+    {
+      "id": "ea8e9d53f5272746",
+      "bank": "Familiar",
+      "merchant": "LA CAROLINA CAFÉ BISTRO BAR",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-carolina-cafe-bistro-bar-bases-y-condiciones"
+    },
+    {
+      "id": "55a1debeebdbf6ad",
+      "bank": "Familiar",
+      "merchant": "LA FAENA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-faena-bases-y-condiciones"
+    },
+    {
+      "id": "c5c736fd4fb11b39",
+      "bank": "Familiar",
+      "merchant": "LA HUERTA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-huerta-bases-y-condiciones"
+    },
+    {
+      "id": "941b64fd062f489b",
+      "bank": "Familiar",
+      "merchant": "LA TAPERIA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-taperia"
+    },
+    {
+      "id": "728785eb33a1cc4e",
+      "bank": "Familiar",
+      "merchant": "LAS DELICIAS DEL SUR",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-las-delicias-del-sur-bases-y-condiciones"
+    },
+    {
+      "id": "b9eb5d1ba0e3b562",
+      "bank": "Familiar",
+      "merchant": "MAKO´S HELADERIA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-makos-heladeria"
+    },
+    {
+      "id": "7baa1491a9608b5b",
+      "bank": "Familiar",
+      "merchant": "MANSIÓN IRIGOYEN",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-mansion-irigoyen-bases-y-condiciones"
+    },
+    {
+      "id": "2c880695f5d4ca16",
+      "bank": "Familiar",
+      "merchant": "MARIMER",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-marimer-bases-y-condiciones"
+    },
+    {
+      "id": "8b68b799b37b11cb",
+      "bank": "Familiar",
+      "merchant": "MISTER KOMBI",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-mister-kombi-bases-y-condiciones"
+    },
+    {
+      "id": "afcb531ab34aa4a1",
+      "bank": "Familiar",
+      "merchant": "MOSCONI POOL BAR",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-mosconi-pool-bar-bases-y-condiciones"
+    },
+    {
+      "id": "f5c176e01674b7c6",
+      "bank": "Familiar",
+      "merchant": "NUESTRO CAFECITO",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-nuestro-cafecito-bases-y-condiciones"
+    },
+    {
+      "id": "59201ce7d43b83ff",
+      "bank": "Familiar",
+      "merchant": "O REI DO AÇAÍ",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-o-rei-do-acai-bases-y-condiciones"
+    },
+    {
+      "id": "0d77700de1e5779a",
+      "bank": "Familiar",
+      "merchant": "PAN Y CIRCO",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-pan-y-circo-bases-y-condiciones"
+    },
+    {
+      "id": "3c1e447147c7b45f",
+      "bank": "Familiar",
+      "merchant": "PANCIA PIENA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-pancia-piena-bases-y-condiciones"
+    },
+    {
+      "id": "eb8d8f7ac398987e",
+      "bank": "Familiar",
+      "merchant": "PIRA SUSHI",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-pira-sushi-bases-y-condiciones"
+    },
+    {
+      "id": "2dfa951ffce8040e",
+      "bank": "Familiar",
+      "merchant": "PIZZERIA GALAXIA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-pizzeria-galaxia-bases-y-condiciones"
+    },
+    {
+      "id": "4dfad796e602c8fc",
+      "bank": "Familiar",
+      "merchant": "PRIMOLI",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-primoli-bases-y-condiciones"
+    },
+    {
+      "id": "94afbee07734d632",
+      "bank": "Familiar",
+      "merchant": "QUINCHO DE NACHO",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-quincho-de-nacho-bases-y-condiciones"
+    },
+    {
+      "id": "729790099eb060d5",
+      "bank": "Familiar",
+      "merchant": "RAGUSA PIZZERIA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-ragusa-pizzeria-bases-y-condiciones"
+    },
+    {
+      "id": "9419ef602866e54f",
+      "bank": "Familiar",
+      "merchant": "SATURNO PIZZAS",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-saturno-pizzas-bases-y-condiciones"
+    },
+    {
+      "id": "f5b4549db00a56d6",
+      "bank": "Familiar",
+      "merchant": "SAX PALACE - RESTAURANTE",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-sax-palace---restaurante-bases-y-condiciones"
+    },
+    {
+      "id": "2673d5a385b2aa80",
+      "bank": "Familiar",
+      "merchant": "TAKUARE E BRASAS",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-takuare-e-brasas-bases-y-condiciones"
+    },
+    {
+      "id": "1e0615b160ebd616",
+      "bank": "Familiar",
+      "merchant": "TAKUARE E COUNTRY",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-takuare-e-country-bases-y-condiciones"
+    },
+    {
+      "id": "1b011bb1cbeffd94",
+      "bank": "Familiar",
+      "merchant": "TAKUARE E RESTO",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-takuare-e-resto-bases-y-condiciones"
+    },
+    {
+      "id": "0cfaa2f29831b213",
+      "bank": "Familiar",
+      "merchant": "TERRAZA BURGER",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-terraza-burger-bases-y-condiciones"
+    },
+    {
+      "id": "9530a315bc309a9c",
+      "bank": "Familiar",
+      "merchant": "TIA LAURA DELICIAS",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-tia-laura-delicias-bases-y-condiciones"
+    },
+    {
+      "id": "41e225d4c853b3c2",
+      "bank": "Familiar",
+      "merchant": "TUSS",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-tuss-bases-y-condiciones"
+    },
+    {
+      "id": "69eb793e504fe5b6",
+      "bank": "Familiar",
+      "merchant": "ÑA CHINA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-na-china-bases-y-condiciones"
+    },
+    {
+      "id": "f3743bb7f538ca5a",
+      "bank": "Familiar",
+      "merchant": "ARETE",
+      "issues": [
+        "multiple_refund_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-arete-bases-y-condiciones"
+    },
+    {
+      "id": "d478088629e744a0",
+      "bank": "Familiar",
+      "merchant": "BIGGIE",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-biggie-bases-y-condiciones"
+    },
+    {
+      "id": "58a79f1df099b21b",
+      "bank": "Familiar",
+      "merchant": "CASA GRUTTER",
+      "issues": [
+        "multiple_refund_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-casa-grutter-bases-y-condiciones"
+    },
+    {
+      "id": "7421d6a0bc73e0ff",
+      "bank": "Familiar",
+      "merchant": "DELIMARKET",
+      "issues": [
+        "multiple_refund_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-delimarket-bases-y-condiciones"
+    },
+    {
+      "id": "2e84222349722ea4",
+      "bank": "Familiar",
+      "merchant": "EL AHORRAZO",
+      "issues": [
+        "multiple_refund_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-el-ahorrazo-bases-y-condiciones"
+    },
+    {
+      "id": "c7e4fa59a3b08732",
+      "bank": "Familiar",
+      "merchant": "GRAN VIA",
+      "issues": [
+        "multiple_refund_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gran-via-bases-y-condiciones"
+    },
+    {
+      "id": "fba28a649cd19cc8",
+      "bank": "Familiar",
+      "merchant": "KINGO",
+      "issues": [
+        "multiple_refund_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-kingo-bases-y-condiciones"
+    },
+    {
+      "id": "e935f8341c9d0cc3",
+      "bank": "Familiar",
+      "merchant": "SANTO DOMINGO",
+      "issues": [
+        "multiple_refund_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-santo-domingo-bases-y-condiciones"
+    },
+    {
+      "id": "b5049591d6625092",
+      "bank": "Familiar",
+      "merchant": "STOCK",
+      "issues": [
+        "multiple_refund_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-stock-bases-y-condiciones"
+    },
+    {
+      "id": "67ccf44280f50397",
+      "bank": "Familiar",
+      "merchant": "SUPERMERCADO AREA 6",
+      "issues": [
+        "multiple_refund_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-supermercado-area-6-bases-y-condiciones"
+    },
+    {
+      "id": "6bdaac371ae91d39",
+      "bank": "Familiar",
+      "merchant": "SUPERMERCADO EL PAIS",
+      "issues": [
+        "multiple_refund_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-supermercado-el-pais-bases-y-condiciones"
+    },
+    {
+      "id": "657860c088e9922b",
+      "bank": "Familiar",
+      "merchant": "SUPERSEIS",
+      "issues": [
+        "multiple_refund_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-superseis-bases-y-condiciones"
+    },
+    {
+      "id": "5f052cb72e443e4a",
+      "bank": "Familiar",
+      "merchant": "COLONIAL RESTO BAR HOTEL",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-colonial-resto-bar-hotel-bases-y-condiciones"
     },
     {
       "id": "98035059a53c1862",

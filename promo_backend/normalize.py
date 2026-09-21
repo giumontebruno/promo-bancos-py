@@ -20,6 +20,8 @@ REVIEWED_BENEFITS = json.loads((DATA / 'reviewed_benefits.json').read_text(encod
 
 
 SOURCE_FILES = [
+    ("GNB", OUTPUTS / "gnb_beneficios_por_categoria.csv"),
+    ("Familiar", OUTPUTS / "familiar_beneficios_por_categoria.csv"),
     ("Sudameris", OUTPUTS / "sudameris_beneficios_por_categoria.csv"),
     ("Itaú", OUTPUTS / "itau_beneficios_por_categoria.csv"),
     ("BNF", OUTPUTS / "bnf_beneficios_por_categoria.csv"),
@@ -275,6 +277,10 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "original_source_text": first(row, "Texto original de la fuente"),
     }
     normalized["id"] = row_id(normalized)
+    if row.get('Variante'):
+        normalized['id'] = hashlib.sha1((normalized['id'] + '|' + row['Variante']).encode()).hexdigest()[:16]
+        normalized['offer_kind'] = row.get('Tipo de variante', 'base')
+        normalized['offer_label'] = row.get('Etiqueta de variante', '')
     for review in REVIEWED_BENEFITS:
         if review['source_url'] == source_url and review['detail_sha256'] == hashlib.sha256(full_detail.encode()).hexdigest():
             normalized['benefit_summary'] = review['benefit_summary']

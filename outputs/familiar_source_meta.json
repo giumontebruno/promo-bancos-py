@@ -1,0 +1,396 @@
+{
+  "checked_at": "2026-09-21T15:35:03.098284+00:00",
+  "published": 241,
+  "pending": [
+    {
+      "merchant_name": "MOPAR",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-garden-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "RESTAURANTES PLATINUM",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-restaurantes-platinum",
+      "reason": "campaign_requires_merchant_expansion"
+    },
+    {
+      "merchant_name": "BELLEZA Y SPA PLATINUM",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-belleza-y-spa-platinum",
+      "reason": "unconfirmed_cards"
+    },
+    {
+      "merchant_name": "GASTRO - PLAZA NORTE",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro-plaza-norte",
+      "reason": "campaign_requires_merchant_expansion"
+    },
+    {
+      "merchant_name": "GASTRO - SHOPPING MARIANO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro-shopping-mariano",
+      "reason": "campaign_requires_merchant_expansion"
+    },
+    {
+      "merchant_name": "JOYERIAS",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-joyerias",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "TL SPORTS-SHOPPING MARIANO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "VERDAD O CONSECUENCIA-SHOPPING MARIANO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "FARMACIA CATEDRAL-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "DALUWOK",
+      "source_url": "https://www.familiar.com.py/pdfs/promociones-y-beneficios-daluwok",
+      "reason": "missing_terms"
+    },
+    {
+      "merchant_name": "EL SOTANO BAR",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-el-sotano-bar",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "ESTACIONES DE SERVICIO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-combustible",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "VETERINARIAS",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-veterinarias",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "FARMACENTER",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-farmacenter-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "PETROPAR CAPITAN MIRANDA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-petropar-capitan-miranda-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "GIMNASIOS Y PILATES",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gimnasios-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "HOTELES",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-hoteles-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "MAR Y TIERRA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-mar-y-tierra-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "FLORERIAS",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-florerias-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "AUTOMOTOR",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-automotor-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "HIPER COLONIAS UNIDAS",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-hiper-colonias-unidas-bases-y-condiciones",
+      "reason": "unconfirmed_schedule"
+    },
+    {
+      "merchant_name": "FARMACIAS",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-farmacias-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "BODEGAS",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-bodegas-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "CONSTRUCCION",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-construccion-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "LIBRERIA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-libreria-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "FERRETERIA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-ferreteria-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "SALONES DE BELLEZA Y SPA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-salones-de-belleza-y-spa-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "TECNOLOGÍA, ELECTRÓNICA Y ELECTRODOMÉSTICOS",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-tecnologia-electronica-y-electrodomesticos-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "GASTRONOMIA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastronomia-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "TIENDAS E INDUMENTARIA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-indumentaria-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "SALUD",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-salud-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "SUPERMERCADO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-supermercado-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "ABC COLOR",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-abc-color-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "CINE LAS HORTENSIAS PILAR",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-cine-las-hortensias-pilar-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "UNIVERSIDAD COMUNERA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-universidad-comunera-bases-y-condiciones",
+      "reason": "expired_terms"
+    },
+    {
+      "merchant_name": "FARMAOLIVA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-farmaoliva-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "MAXIFARMA (MCALl.LOPEZ)",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-maxifarma--mcall-lopez--bases-y-condiciones",
+      "reason": "expired_terms"
+    },
+    {
+      "merchant_name": "ARCHI LA TIENDA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-archi-la-tienda-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "ARCHI SUPERMERCADO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-archi-supermercado-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "SUPERMERCADO HERNANDARIAS",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-supermercado-hernandarias-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "CONSOLIDADO DE PROMOCIONES",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-consolidado-de-promociones-bases-y-condiciones-septiembre-2026",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "KIA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-garden-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "CHEVROLET",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-tema-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "HIROSHIMA - ENCARNACIÓN",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-hiroshima---encarnacion-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "SUPER HERRERO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-super-herrero-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "MUNICIPALIDADES",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-municipalidades-bases-y-condiciones",
+      "reason": "unconfirmed_schedule"
+    },
+    {
+      "merchant_name": "LA MADAME CAFÉ BISTRO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-madame-cafe-bistro-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "FARMACIA YPANE",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-farmacia-ypane-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "MATAU PIZZAS",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-matau-pizzas-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "LA CANASTA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-canasta-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "CASA YASY",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-casa-yasy-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "AEROLINEAS - VIAJES",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-aerolineas---viajes-bases-y-condiciones",
+      "reason": "unconfirmed_schedule"
+    },
+    {
+      "merchant_name": "NISSAN",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-cuevas-hermanos-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "836 COCINA INTERNACIONAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-836-cocina-internacional-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "USIL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-usil-bases-y-condiciones",
+      "reason": "unconfirmed_schedule"
+    },
+    {
+      "merchant_name": "UCOM",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-ucom-bases-y-condiciones",
+      "reason": "unconfirmed_schedule"
+    },
+    {
+      "merchant_name": "HOTEL FACTORIA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-hotel-factoria-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "LAS LOMAS CASA HOTEL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-las-lomas-casa-hotel-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "CIEP",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-ciep-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "BIGGIE FARMA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-biggie-farma-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "KUBE",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-kube-bases-y-condiciones",
+      "reason": "unconfirmed_schedule"
+    },
+    {
+      "merchant_name": "BERCO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-berco-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "FLEETGUARD",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-fleetguard-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "KOMATSU",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-komatsu-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "BFGOODRICH",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-bfgoodrich-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "BMW MOTORSPORT",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-bmw-motorsport-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "MAZDA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-mazda-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "DODGE",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dodge-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "JEEP",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jeep-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "MASERATTI",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-maseratti-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "DE LA SOBERA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-de-la-sobera-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "ESPIN AUTOCENTRO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-espin-autocentro-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "GASTRO - SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro---shopping-mariscal-bases-y-condiciones",
+      "reason": "campaign_requires_merchant_expansion"
+    },
+    {
+      "merchant_name": "PROSEGUR",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-prosegur-bases-y-condiciones",
+      "reason": "unconfirmed_cards"
+    },
+    {
+      "merchant_name": "REDD'S BURGER",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-redds-burger-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "ELEVEN RESTÓ & GRILL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-eleven-resto-grill-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "+595 LOUNGE CLUB",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-595-lounge-club-bases-y-condiciones",
+      "reason": "missing_terms"
+    },
+    {
+      "merchant_name": "FERMAQ",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-fermaq-bases-y-condiciones",
+      "reason": "unconfirmed_schedule"
+    }
+  ]
+}
