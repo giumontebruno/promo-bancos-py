@@ -74,7 +74,7 @@ async function handle(request, env) {
       const checks = [];
       for (const host of ['fcm.googleapis.com', 'web.push.apple.com', 'updates.push.services.mozilla.com']) {
         try {
-          const response = await fetch(`https://${host}/`, {method:'HEAD',redirect:'error',signal:AbortSignal.timeout(10000)});
+          const response = await fetch(`https://${host}/`, {method:'HEAD',redirect:'manual',signal:AbortSignal.timeout(10000)});
           checks.push({host,status:response.status});
         } catch (error) { checks.push({host,error:safeError(error)}); }
       }
@@ -103,7 +103,10 @@ async function handle(request, env) {
       if (!due.length) continue;
       due.sort((a, b) => parseInt(b.benefit) - parseInt(a.benefit));
       const deliveryKey = `${device.id}:${todayParts().iso}`;
-      const reservation = await env.DB.prepare("INSERT OR IGNORE INTO deliveries (key, status, created_at) VALUES (?, 'sending', ?)")
+      // These legacy failures were rejected locally before any network request was sent.
+      const reservation = await env.DB.prepare(`INSERT INTO deliveries (key, status, created_at) VALUES (?, 'sending', ?)
+        ON CONFLICT(key) DO UPDATE SET status='sending',created_at=excluded.created_at
+        WHERE deliveries.status='failed:network' AND deliveries.created_at >= '2026-09-21T15:42:00Z' AND deliveries.created_at < '2026-09-21T15:43:00Z'`)
         .bind(deliveryKey, new Date().toISOString()).run();
       if (!reservation.meta.changes) continue;
       const lines = due.slice(0, 3).map(({ promo, benefit }) => `${promo.merchant_name}: ${benefit} con ${promo.bank}.`);
@@ -116,7 +119,8 @@ async function handle(request, env) {
           body: lines.join('\n'), url: APP_URL + '?view=favorites', tag: 'payback-' + todayParts().iso }, options: { ttl: 14400 } }, subscription,
         { subject: APP_URL, publicKey: env.VAPID_PUBLIC_KEY, privateKey: env.VAPID_PRIVATE_KEY });
         stage = 'network';
-        const delivered = await fetch(subscription.endpoint, { ...payload, redirect: 'error', signal: AbortSignal.timeout(15000) });
+        // This edge runtime supports manual redirects, but rejects redirect: error before sending.
+        const delivered = await fetch(subscription.endpoint, { ...payload, redirect: 'manual', signal: AbortSignal.timeout(15000) });
         stage = `provider_${delivered.status}`;
         if (delivered.status === 404 || delivered.status === 410) {
           await env.DB.prepare('DELETE FROM devices WHERE id = ?').bind(device.id).run();
