@@ -34,11 +34,14 @@ test('edge push sends once, does not follow redirects and expires revoked subscr
     sent++;
     return new Response('',{status});
   };
-  const dispatch=async()=> (await worker.fetch(new Request('https://service.test/api/push/dispatch',{method:'POST',headers:{Authorization:'Bearer test'}}),env)).json();
+  const dispatch=async(batch='')=> (await worker.fetch(new Request('https://service.test/api/push/dispatch'+(batch?'?batch='+batch:''),{method:'POST',headers:{Authorization:'Bearer test'}}),env)).json();
   try{
     assert.equal((await dispatch()).sent,1);
     assert.equal((await dispatch()).sent,0);
     assert.equal(sent,1);
+    assert.equal((await dispatch('manual-test-1')).sent,1);
+    assert.equal((await dispatch('manual-test-1')).sent,0);
+    assert.equal((await dispatch()).sent,0);
     insert('device-b');status=410;
     assert.equal((await dispatch()).sent,0);
     assert.equal(sql.prepare('SELECT id FROM devices WHERE id=?').get('device-b'),undefined);

@@ -17,7 +17,7 @@ def main():
         return
     cursor, sent, failed = '', 0, 0
     for _ in range(500):
-        response = requests.post(service + '/api/push/dispatch', params={'cursor': cursor},
+        response = requests.post(service + '/api/push/dispatch', params={'cursor': cursor, 'batch': os.environ.get('PAYBACK_PUSH_BATCH', '')},
                                  headers={'Authorization': 'Bearer ' + token}, timeout=240)
         if response.status_code != 200:
             raise RuntimeError(f'Notification service returned HTTP {response.status_code}')

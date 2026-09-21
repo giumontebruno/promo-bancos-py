@@ -2,6 +2,10 @@ name: Daily favorite notifications
 on:
   workflow_dispatch:
     inputs:
+      batch:
+        description: 'Optional unique manual resend ID; reuse the same ID on retries to prevent duplicates'
+        type: string
+        default: ''
       diagnostic:
         description: 'Check provider connectivity without sending notifications'
         type: boolean
@@ -29,4 +33,5 @@ jobs:
           PAYBACK_NOTIFICATIONS_URL: ${{ secrets.PAYBACK_NOTIFICATIONS_URL }}
           PAYBACK_NOTIFICATIONS_CRON_TOKEN: ${{ secrets.PAYBACK_NOTIFICATIONS_CRON_TOKEN }}
           PAYBACK_PUSH_DIAGNOSTIC: ${{ inputs.diagnostic }}
+          PAYBACK_PUSH_BATCH: ${{ inputs.batch }}
         run: python scripts/dispatch_notifications.py

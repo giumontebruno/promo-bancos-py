@@ -80,6 +80,8 @@ async function handle(request, env) {
       }
       return json({checks});
     }
+    const batch = url.searchParams.get('batch') || '';
+    if (batch && !/^[a-zA-Z0-9_-]{8,64}$/.test(batch)) return json({ error: 'Identificador de envio invalido' }, 400);
     const cursor = url.searchParams.get('cursor') || '';
     const response = await fetch(DATA_URL, { cache: 'no-store', signal: AbortSignal.timeout(15000) });
     if (!response.ok) return json({ error: 'No se pudo verificar el catálogo' }, 502);
@@ -102,7 +104,7 @@ async function handle(request, env) {
       const due = promotions.filter(p => favorites.has(p.id) && isDue(p)).map(p => ({ promo: p, benefit: notificationBenefit(p, device.ueno_level) })).filter(p => p.benefit);
       if (!due.length) continue;
       due.sort((a, b) => parseInt(b.benefit) - parseInt(a.benefit));
-      const deliveryKey = `${device.id}:${todayParts().iso}`;
+      const deliveryKey = `${device.id}:${todayParts().iso}${batch ? ':manual:' + batch : ''}`;
       // These legacy failures were rejected locally before any network request was sent.
       const reservation = await env.DB.prepare(`INSERT INTO deliveries (key, status, created_at) VALUES (?, 'sending', ?)
         ON CONFLICT(key) DO UPDATE SET status='sending',created_at=excluded.created_at
