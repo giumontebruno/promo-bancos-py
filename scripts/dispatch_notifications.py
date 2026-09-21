@@ -1,5 +1,6 @@
 """Send the daily opt-in favorite digest through the protected notification service."""
 import os
+import json
 import requests
 from urllib.parse import urlparse
 
@@ -9,6 +10,11 @@ def main():
     token = os.environ.get('PAYBACK_NOTIFICATIONS_CRON_TOKEN', '')
     if urlparse(service).scheme != 'https' or not token:
         raise RuntimeError('Notification service secrets are not configured')
+    if os.environ.get('PAYBACK_PUSH_DIAGNOSTIC') == 'true':
+        response = requests.post(service + '/api/push/dispatch', params={'diagnostic':'1'}, headers={'Authorization':'Bearer '+token},timeout=60)
+        response.raise_for_status()
+        print(json.dumps(response.json()))
+        return
     cursor, sent, failed = '', 0, 0
     for _ in range(500):
         response = requests.post(service + '/api/push/dispatch', params={'cursor': cursor},

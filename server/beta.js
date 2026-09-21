@@ -96,7 +96,8 @@ export async function handleBeta(request, env) {
     const reports = await db.prepare(`SELECT r.kind,r.promo_id,r.message,r.created_at,a.email FROM beta_reports r
       JOIN beta_accounts a ON a.id=r.account_id ORDER BY r.created_at DESC LIMIT 100`).all();
     const deliveries = await db.prepare('SELECT status,created_at FROM deliveries ORDER BY created_at DESC LIMIT 100').all();
-    return json({ participants: participants.results, reports: reports.results, deliveries: deliveries.results });
+    const errors = await db.prepare('SELECT area,code,created_at FROM service_errors ORDER BY created_at DESC LIMIT 100').all();
+    return json({ participants: participants.results, reports: reports.results, deliveries: deliveries.results, errors: errors.results });
   }
   return json({ error: 'Ruta no disponible' }, 404);
 }

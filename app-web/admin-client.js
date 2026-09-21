@@ -35,6 +35,7 @@ async function load() {
     $('reportRows').innerHTML = data.reports.map(r => `<article><strong>${escape(r.email)}</strong><p>${escape(r.message)}</p><small>${escape(r.kind)} | ${escape(r.created_at)}${r.promo_id ? ' | ' + escape(r.promo_id) : ''}</small></article>`).join('') || '<p>No hay comentarios.</p>';
     $('deliveryRows').innerHTML = (data.deliveries || []).map(r => `<tr><td>${escape(r.created_at)}</td><td>${escape(r.status)}</td></tr>`).join('') || '<tr><td colspan="2">Sin envios registrados.</td></tr>';
     $('content').hidden = false;
+    $('errorRows').innerHTML = (data.errors || []).map(r=>`<tr><td>${escape(r.created_at)}</td><td>${escape(r.area)}</td><td>${escape(r.code)}</td></tr>`).join('') || '<tr><td colspan="3">Sin errores registrados.</td></tr>';
     $('status').textContent = `Acceso privado: ${session.user.email}`;
   } catch(error) { $('status').textContent = error.message; }
   finally { $('refresh').disabled = false; }

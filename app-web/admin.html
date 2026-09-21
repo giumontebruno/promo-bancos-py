@@ -14,10 +14,11 @@
     <p id="status" role="status">Verificando acceso...</p>
     <div id="signin" hidden><p>Ingresa con tu cuenta de Google en Payback PY y vuelve a esta pagina.</p><a href="./?view=profile" target="_blank" rel="noopener">Abrir acceso a Payback PY</a></div>
     <div id="content" hidden>
-      <nav aria-label="Secciones"><button data-tab="people" aria-selected="true">Participantes</button><button data-tab="reports" aria-selected="false">Comentarios</button><button data-tab="deliveries" aria-selected="false">Notificaciones</button></nav>
+      <nav aria-label="Secciones"><button data-tab="people" aria-selected="true">Participantes</button><button data-tab="reports" aria-selected="false">Comentarios</button><button data-tab="deliveries" aria-selected="false">Notificaciones</button><button data-tab="errors" aria-selected="false">Errores</button></nav>
       <section id="people"><h2>Actividad de los ultimos 30 dias</h2><p>Sesiones y consultas solo de quienes aceptaron compartir actividad. No representa todos los accesos a Google.</p><div class="table-scroll"><table><thead><tr><th>Cuenta</th><th>Registro</th><th>Ultima actividad (UTC)</th><th>Sesiones</th><th>Busquedas</th><th>Promos abiertas</th></tr></thead><tbody id="peopleRows"></tbody></table></div></section>
       <section id="reports" hidden><h2>Comentarios recibidos</h2><div id="reportRows"></div></section>
       <section id="deliveries" hidden><h2>Envios de notificaciones</h2><p>Un envio aceptado no confirma que el telefono haya mostrado el aviso.</p><div class="table-scroll"><table><thead><tr><th>Fecha (UTC)</th><th>Resultado</th></tr></thead><tbody id="deliveryRows"></tbody></table></div></section>
+      <section id="errors" hidden><h2>Errores del servicio</h2><p>Registros tecnicos de los ultimos 30 dias, sin claves ni datos de pago.</p><div class="table-scroll"><table><thead><tr><th>Fecha (UTC)</th><th>Servicio</th><th>Error</th></tr></thead><tbody id="errorRows"></tbody></table></div></section>
     </div>
   </main>
   <script src="./admin-bundle.js" defer></script>

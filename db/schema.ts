@@ -16,6 +16,10 @@ export const deliveries = sqliteTable('deliveries', {
   createdAt: text('created_at').notNull(),
 });
 
+export const serviceErrors = sqliteTable('service_errors', {
+  id: text('id').primaryKey(), area: text('area').notNull(), code: text('code').notNull(), createdAt: text('created_at').notNull(),
+});
+
 export const betaAccounts = sqliteTable('beta_accounts', {
   id: text('id').primaryKey(), email: text('email').notNull(),
   consent: integer('consent').notNull().default(0),

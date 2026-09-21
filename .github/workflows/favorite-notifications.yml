@@ -1,6 +1,11 @@
 name: Daily favorite notifications
 on:
   workflow_dispatch:
+    inputs:
+      diagnostic:
+        description: 'Check provider connectivity without sending notifications'
+        type: boolean
+        default: false
   schedule:
     # 08:00 America/Asuncion. GitHub scheduling is best effort.
     - cron: '0 11 * * *'
@@ -23,4 +28,5 @@ jobs:
         env:
           PAYBACK_NOTIFICATIONS_URL: ${{ secrets.PAYBACK_NOTIFICATIONS_URL }}
           PAYBACK_NOTIFICATIONS_CRON_TOKEN: ${{ secrets.PAYBACK_NOTIFICATIONS_CRON_TOKEN }}
+          PAYBACK_PUSH_DIAGNOSTIC: ${{ inputs.diagnostic }}
         run: python scripts/dispatch_notifications.py

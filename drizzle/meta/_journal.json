@@ -15,6 +15,13 @@
       "when": 1789403042435,
       "tag": "0001_friendly_punisher",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790005476431,
+      "tag": "0002_new_stranger",
+      "breakpoints": true
     }
   ]
 }

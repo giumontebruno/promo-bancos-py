@@ -7,6 +7,16 @@ const DATA_URL = new URL('../public/promotions.json', APP_URL).href;
 const PUSH_HOSTS = ['fcm.googleapis.com', 'updates.push.services.mozilla.com', 'web.push.apple.com', 'wns.windows.com', 'notify.windows.com'];
 const json = (data, status = 200) => Response.json(data, { status, headers: { 'Cache-Control': 'no-store' } });
 const hash = async value => [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(value)))].map(n => n.toString(16).padStart(2, '0')).join('');
+const safeError = error => String(error?.message || error?.name || 'Unknown error')
+  .replace(/https?:\/\/\S+/g, '[url]').replace(/[A-Za-z0-9_+\/-]{32,}={0,2}/g, '[redacted]').slice(0, 300);
+
+async function recordError(env, area, code) {
+  try {
+    await env.DB?.prepare('INSERT INTO service_errors (id,area,code,created_at) VALUES (?,?,?,?)')
+      .bind(crypto.randomUUID(), area, code, new Date().toISOString()).run();
+    await env.DB?.prepare("DELETE FROM service_errors WHERE created_at < date('now','-30 days')").run();
+  } catch { /* Diagnostics must never replace the original response. */ }
+}
 
 export function validSubscription(subscription) {
   try {
@@ -60,6 +70,16 @@ async function handle(request, env) {
   if (url.pathname === '/api/push/dispatch' && request.method === 'POST') {
     const credential = request.headers.get('Authorization') || '';
     if (!env.CRON_TOKEN || await hash(credential) !== await hash(`Bearer ${env.CRON_TOKEN}`)) return json({ error: 'No autorizado' }, 401);
+    if (url.searchParams.get('diagnostic') === '1') {
+      const checks = [];
+      for (const host of ['fcm.googleapis.com', 'web.push.apple.com', 'updates.push.services.mozilla.com']) {
+        try {
+          const response = await fetch(`https://${host}/`, {method:'HEAD',redirect:'error',signal:AbortSignal.timeout(10000)});
+          checks.push({host,status:response.status});
+        } catch (error) { checks.push({host,error:safeError(error)}); }
+      }
+      return json({checks});
+    }
     const cursor = url.searchParams.get('cursor') || '';
     const response = await fetch(DATA_URL, { cache: 'no-store', signal: AbortSignal.timeout(15000) });
     if (!response.ok) return json({ error: 'No se pudo verificar el catálogo' }, 502);
@@ -105,8 +125,9 @@ async function handle(request, env) {
         } else if (!delivered.ok) throw new Error('Push rejected');
         else sent++;
         await env.DB.prepare("UPDATE deliveries SET status = 'sent' WHERE key = ?").bind(deliveryKey).run();
-      } catch {
+      } catch (error) {
         failed++;
+        await recordError(env, 'push', `${stage}: ${safeError(error)}`);
         // Keep uncertain deliveries reserved to avoid duplicate alerts on retries.
         await env.DB.prepare('UPDATE deliveries SET status = ? WHERE key = ?').bind(`failed:${stage}`, deliveryKey).run();
       }
@@ -130,6 +151,9 @@ export default {
       const response = new Response(result.body, result);
       for (const [name, value] of Object.entries(headers)) response.headers.set(name, value);
       return response;
-    } catch { return new Response(JSON.stringify({ error: 'No se pudo completar la operación' }), { status: 500, headers: { ...headers, 'Content-Type': 'application/json' } }); }
+    } catch {
+      await recordError(env, new URL(request.url).pathname.startsWith('/api/beta/') ? 'beta' : 'push', 'request_failed');
+      return new Response(JSON.stringify({ error: 'No se pudo completar la operación' }), { status: 500, headers: { ...headers, 'Content-Type': 'application/json' } });
+    }
   }
 };
