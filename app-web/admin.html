@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Payback PY | Administracion</title>
+  <link rel="icon" href="./assets/logos/payback-py-app-dark-192.png">
+  <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+  <header><img src="./assets/logos/payback-py-app-dark-192.png" alt="" width="40" height="40"><h1>Administracion</h1><button id="refresh">Actualizar</button></header>
+  <main>
+    <p id="status" role="status">Verificando acceso...</p>
+    <div id="signin" hidden><p>Ingresa con tu cuenta de Google en Payback PY y vuelve a esta pagina.</p><a href="./?view=profile" target="_blank" rel="noopener">Abrir acceso a Payback PY</a></div>
+    <div id="content" hidden>
+      <nav aria-label="Secciones"><button data-tab="people" aria-selected="true">Participantes</button><button data-tab="reports" aria-selected="false">Comentarios</button><button data-tab="deliveries" aria-selected="false">Notificaciones</button></nav>
+      <section id="people"><h2>Actividad de los ultimos 30 dias</h2><p>Sesiones y consultas solo de quienes aceptaron compartir actividad. No representa todos los accesos a Google.</p><div class="table-scroll"><table><thead><tr><th>Cuenta</th><th>Registro</th><th>Ultima actividad (UTC)</th><th>Sesiones</th><th>Busquedas</th><th>Promos abiertas</th></tr></thead><tbody id="peopleRows"></tbody></table></div></section>
+      <section id="reports" hidden><h2>Comentarios recibidos</h2><div id="reportRows"></div></section>
+      <section id="deliveries" hidden><h2>Envios de notificaciones</h2><p>Un envio aceptado no confirma que el telefono haya mostrado el aviso.</p><div class="table-scroll"><table><thead><tr><th>Fecha (UTC)</th><th>Resultado</th></tr></thead><tbody id="deliveryRows"></tbody></table></div></section>
+    </div>
+  </main>
+  <script src="./admin-bundle.js" defer></script>
+</body>
+</html>

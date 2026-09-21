@@ -52,7 +52,7 @@ function show() {
     <form id="betaPreferences"><label class="check-row"><input name="consent" type="checkbox" ${current.consent ? 'checked' : ''}>Compartir mi actividad de prueba</label>
     <p>El administrador podrá ver tu correo y contadores diarios de sesiones, consultas, filtros, promociones abiertas, favoritos agregados y clics en Maps. No guardamos el texto de las búsquedas ni coordenadas. Los contadores se conservan 30 días; al desactivar esta opción se borran.</p>
     <label>Nivel UENO<select name="level">${[1,2,3,4,5].map(n => `<option value="${n}" ${current.uenoLevel === n ? 'selected' : ''}>Nivel ${n}</option>`).join('')}</select></label><button>Guardar preferencias</button></form>
-    <div class="beta-actions"><button data-beta-report>Enviar comentario</button>${current.admin ? '<button data-beta-admin>Panel de pruebas</button>' : ''}<button data-beta-logout>Cerrar sesión</button><button data-beta-erase>Borrar mis datos de beta</button></div>`);
+    <div class="beta-actions"><button data-beta-report>Enviar comentario</button><button data-beta-logout>Cerrar sesión</button><button data-beta-erase>Borrar mis datos de beta</button></div>`);
 }
 function report(promoId = '') {
   if (!current) return show();
@@ -77,10 +77,29 @@ async function event(kind) {
   lastEvent.set(kind, now);
   try { await api('event', 'POST', { kind }); } catch { /* Analytics must never block the app. */ }
 }
+const favoriteWrites = new Map();
 async function favorite(promoId, selected) {
-  await api('favorite', selected ? 'PUT' : 'DELETE', { promoId });
-  await refresh();
-  if (selected) event('favorite_add');
+  if (!current) throw new Error('Ingresá con Google.');
+  const account = current.email;
+  const key = `${account}:${promoId}`;
+  const entry = favoriteWrites.get(key) || { promise: Promise.resolve(), confirmed: current.favorites.includes(promoId) };
+  current.favorites = selected ? [...new Set([...current.favorites, promoId])] : current.favorites.filter(id => id !== promoId);
+  changed();
+  const pending = entry.promise.catch(() => {}).then(async () => {
+    if (current?.email !== account) throw new Error('La sesión cambió. Volvé a intentar.');
+    await api('favorite', selected ? 'PUT' : 'DELETE', {promoId});
+    entry.confirmed = selected;
+  });
+  entry.promise = pending;
+  favoriteWrites.set(key, entry);
+  try { await pending; if (selected) event('favorite_add'); }
+  catch (error) {
+    if (current?.email === account && entry.promise === pending) {
+      current.favorites = entry.confirmed ? [...new Set([...current.favorites,promoId])] : current.favorites.filter(id => id !== promoId);
+      changed();
+    }
+    throw error;
+  } finally { if (entry.promise === pending) favoriteWrites.delete(key); }
 }
 async function level(value) {
   await api('me', 'PUT', { consent: current.consent, uenoLevel: value });
@@ -110,7 +129,6 @@ dialog.addEventListener('click', async e => {
     if (target.hasAttribute('data-beta-close')) dialog.close();
     if (target.hasAttribute('data-beta-home')) show();
     if (target.hasAttribute('data-beta-report')) report();
-    if (target.hasAttribute('data-beta-admin')) await admin();
     if (target.hasAttribute('data-beta-retry')) { await init(); show(); }
     if (target.hasAttribute('data-beta-logout')) {
       if (window.PaybackPush?.enabled()) await window.PaybackPush.disable();

@@ -96,7 +96,7 @@ def main():
 
     table = []
     for row in rows:
-        if row['Comercio/Promocion'] in {'GASTRONOMÍA 26', 'ZONA ESTE', 'ZONA SUR'}:
+        if row['Comercio/Promocion'] in {'GASTRONOMÍA 26', 'ZONA ESTE', 'ZONA SUR'} or row['Comercio/Promocion'].startswith('PRIMAVERA 2026'):
             table.extend(expand_campaign(row))
             continue
         table.append(

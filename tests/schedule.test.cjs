@@ -26,11 +26,12 @@ test('monthly and ordinal benefits only send on their applicable date', () => {
   assert.equal(isDue({ ...promo, month_days: [9] }, current), true);
   assert.equal(isDue({ ...promo, ordinal_weekdays: [{ ordinal: 2, day: 'miércoles' }] }, current), true);
 });
-test('UENO notices respect the selected level; premium ambiguity is skipped', () => {
+test('notices respect UENO level and preserve premium and QR qualifiers', () => {
   const ueno = { bank: 'ueno bank', level_rules: 'Nivel 1: 10%; Nivel 5: 40%', level_benefits: [{ level: 1, percent: 10 }, { level: 5, percent: 40 }] };
   assert.match(notificationBenefit(ueno, 1), /^10%/);
   assert.match(notificationBenefit(ueno, 5), /^40%/);
-  assert.equal(notificationBenefit({ benefit_summary: '20% reintegro y 25% con Black' }, 1), '');
+  assert.equal(notificationBenefit({ benefit_summary: '20% reintegro y 25% con Black' }, 1), '20% reintegro y 25% con Black');
+  assert.equal(notificationBenefit({ benefit_summary: 'Hasta 35% Pago con QR' }, 1), 'Hasta 35% Pago con QR');
 });
 test('only recognized HTTPS push services can receive server requests', () => {
   const keys = { p256dh: 'a'.repeat(87), auth: 'a'.repeat(22) };

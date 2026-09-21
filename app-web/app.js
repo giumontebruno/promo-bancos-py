@@ -686,10 +686,11 @@ function extractCompactBenefitLines(value) {
   const benefits = [];
   for (const match of text.matchAll(/(\d{1,3})\s*%[^|;,.]*/g)) {
     const segment = match[0].toLowerCase();
+    const qualifier = /hasta\s*$/i.test(text.slice(0, match.index)) ? 'Hasta ' : '';
     if (segment.includes("tope") || segment.includes("mínim") || segment.includes("minim")) continue;
-    if (segment.includes("reintegro")) benefits.push(`${match[1]}% reintegro`);
-    else if (segment.includes("descuento")) benefits.push(`${match[1]}% descuento`);
-    else benefits.push(`${match[1]}% ${promoBenefitWord(value)}`);
+    if (segment.includes("reintegro")) benefits.push(`${qualifier}${match[1]}% reintegro`);
+    else if (segment.includes("descuento")) benefits.push(`${qualifier}${match[1]}% descuento`);
+    else benefits.push(`${qualifier}${match[1]}% ${promoBenefitWord(value)}`);
   }
 
   const quota = text.match(/(\d+)\s+cuotas?/i);
@@ -1014,11 +1015,13 @@ function matchesQuery(promo) {
 }
 
 function matchesBank(promo) {
+  if (state.query.trim()) return true;
   if (state.activeBank === "Todos") return true;
   return promo.bank === state.activeBank;
 }
 
 function matchesCategory(promo) {
+  if (state.query.trim()) return true;
   if (state.activeCategory === "Todas") return true;
   if (state.activeCategory === PREMIUM_CATEGORY) return hasPremiumVariant(promo);
   return getPromoCategoryGroup(promo) === state.activeCategory;
@@ -1044,7 +1047,7 @@ function sectionPromotions(promos) {
       return;
     }
     const everyDay = isEveryDayPromotion(promo);
-    if (everyDay && isInstallmentsOnly(promo)) {
+    if (isInstallmentsOnly(promo)) {
       everydayInstallments.push(promo);
     } else if (everyDay) {
       everydayDiscounts.push(promo);
@@ -1131,9 +1134,11 @@ function renderTabs() {
   )).join("");
 
   const days = [["hoy", "Hoy"], ...DAYS.map((day) => [day, capitalize(day)])];
-  els.dayTabs.innerHTML = days.map(([value, label]) => (
-    `<button class="${state.activeDay === value ? "active" : ""}" title="${label}" aria-label="${label}" aria-pressed="${state.activeDay === value}" data-day="${value}">${value === "hoy" ? label : label.slice(0, 3)}</button>`
-  )).join("");
+  els.dayTabs.innerHTML = days.map(([value, label]) => {
+    const currentDay = state.activeDay === 'hoy' && value === getTodayInParaguay();
+    const active = state.activeDay === value || currentDay;
+    return `<button class="${active ? 'active' : ''}" title="${label}" aria-label="${label}" aria-pressed="${active}" ${currentDay ? 'disabled' : ''} data-day="${value}">${value === 'hoy' ? label : label.slice(0, 3)}</button>`;
+  }).join('');
 
   els.uenoLevelPanel.classList.toggle("hidden", state.activeBank !== "ueno bank");
   els.uenoLevelPanel.innerHTML = `<span class="label">Nivel ueno</span>` + [1, 2, 3, 4, 5].map((level) => (
@@ -1240,14 +1245,14 @@ function buildResultSections(promos) {
 
 function buildSearchSections(promos) {
   const today = promos
-    .filter((promo) => !isEveryDayPromotion(promo) && appliesToSelectedDay(promo, "hoy"))
+    .filter((promo) => !isEveryDayPromotion(promo) && !isInstallmentsOnly(promo) && appliesToSelectedDay(promo, "hoy"))
     .sort(sortByDayDisplayPriority);
   const premium = [...promos].filter(hasPremiumVariant).sort(sortPremiumPromotions);
   const seen = new Set(today.map((promo) => promo.id));
   const daySections = DAYS.map((day) => [
     capitalize(day),
     promos
-      .filter((promo) => !seen.has(promo.id) && !isEveryDayPromotion(promo) && appliesToSelectedDay(promo, day))
+      .filter((promo) => !seen.has(promo.id) && !isEveryDayPromotion(promo) && !isInstallmentsOnly(promo) && appliesToSelectedDay(promo, day))
       .sort(sortByDayDisplayPriority),
   ]).filter(([, items]) => items.length);
   daySections.forEach(([, items]) => items.forEach((promo) => seen.add(promo.id)));
@@ -1258,7 +1263,7 @@ function buildSearchSections(promos) {
   everydayDiscounts.forEach((promo) => seen.add(promo.id));
 
   const everydayInstallments = promos
-    .filter((promo) => !seen.has(promo.id) && isEveryDayPromotion(promo) && isInstallmentsOnly(promo))
+    .filter((promo) => !seen.has(promo.id) && isInstallmentsOnly(promo))
     .sort(sortByDayDisplayPriority);
   everydayInstallments.forEach((promo) => seen.add(promo.id));
 
@@ -1269,7 +1274,7 @@ function buildSearchSections(promos) {
     ["Club Black", premium, "premium"],
     ...daySections,
     ["Todos los dias", everydayDiscounts],
-    ["Cuotas sin intereses todos los dias", everydayInstallments],
+    ["Cuotas sin intereses", everydayInstallments],
     ["Otras opciones", remaining],
   ].filter((section, index) => index === 0 || section[1].length);
 }
@@ -2845,7 +2850,7 @@ function openDetail(id, variantKey = "", placeId = "") {
       ${levelDetails ? `<div><strong>Nivel UENO seleccionado:</strong> Nivel ${state.uenoLevel} · ${escapeHtml(levelDetails.percent)}${levelDetails.purchaseCap ? ` · Compra ${escapeHtml(levelDetails.purchaseCap)}` : ""}${levelDetails.refundCap ? ` · Reintegro ${escapeHtml(levelDetails.refundCap)}` : ""}</div>` : ""}
       ${renderDetailRows(promo, variant)}
       <div class="detail-row"><span>Fuente</span><strong>${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente${formatLastUpdated(promo) ? ` · ${escapeHtml(formatLastUpdated(promo))}` : ""}</strong></div>
-      <div id="detailSourceLink"><a href="${escapeAttribute(promo.source_url || "#")}" target="_blank" rel="noreferrer">Ver bases y condiciones</a></div>
+      <div id="detailSourceLink"><a href="${escapeAttribute(promo.source_page_url || promo.source_url || "#")}" target="_blank" rel="noreferrer">${promo.bank === 'Continental' ? 'Ver comercio y condiciones en Continental' : 'Ver bases y condiciones'}</a></div>
     </div>
   `;
   els.dialog.showModal();
@@ -2907,6 +2912,14 @@ els.bankTabs.addEventListener("click", (event) => {
   state.activeBank = bank;
   resetNearbySelection();
   render();
+});
+
+document.getElementById('homeLogo').addEventListener('click', event => {
+  event.preventDefault();
+  state.activeView = 'today'; state.activeBank = 'Todos'; state.activeCategory = 'Todas'; state.activeDay = 'hoy'; state.query = '';
+  els.searchInput.value = '';
+  resetNearbySelection(); render();
+  window.scrollTo({top:0, behavior:'smooth'});
 });
 
 els.categoryTabs.addEventListener("click", (event) => {

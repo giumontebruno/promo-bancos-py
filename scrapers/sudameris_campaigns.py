@@ -19,8 +19,17 @@ def merchant_rows(pdf_bytes, source_url, campaign):
         common = clean(pdf.pages[0].extract_text())
         for page in pdf.pages[1:]:
             for table in page.extract_tables():
+                shared = None
                 for cells in table:
                     values = [clean(cell) for cell in cells if clean(cell)]
+                    if campaign.startswith('PRIMAVERA 2026'):
+                        if len(values) == 4 and re.search(r'\d+\s*%', values[1]):
+                            shared = values[1:]
+                            values = [values[0], 'Todos los días', *shared]
+                        elif len(values) == 1 and shared:
+                            values = [values[0], 'Todos los días', *shared]
+                        elif len(values) == 2 and shared and re.fullmatch(r'[\d.]+', values[1]):
+                            values = [values[0], 'Todos los días', shared[0], values[1], shared[2]]
                     if len(values) != 5 or not re.search(r'\d+\s*%', values[2]):
                         continue
                     merchant, days, benefit, cap, validity = values
@@ -39,11 +48,13 @@ def merchant_rows(pdf_bytes, source_url, campaign):
                     name = clean(re.sub(r'\(.*\)', '', merchant))
                     category = 'Gastronomía' if 'GASTRONOM' in campaign.upper() else 'Otros'
                     location = 'Zona Este - Ciudad del Este' if campaign == 'ZONA ESTE' else 'Zona Sur - Encarnación' if campaign == 'ZONA SUR' else ''
+                    if shared:
+                        location = 'The Town' if 'THE TOWN' in campaign else 'Distrito Perseverancia' if 'DISTRITO PERSEVERANCIA' in campaign else ''
                     rows.append({
                         'Categoría': category, 'Banco': 'Sudameris', 'Comercio/Promoción': name,
-                        'Cantidad de descuento / beneficio': benefit,
+                        'Cantidad de descuento / beneficio': benefit.split('Observaciones:')[0].strip(),
                         'Día de promoción': days.replace('Vieres', 'Viernes'), 'Vigencia': validity,
-                        'Montos / topes': f'Tope de compra mensual: {cap}',
+                        'Montos / topes': f'Tope de compra durante la promoción: {cap}' if shared else f'Tope de compra mensual: {cap}',
                         'Localidad': location, 'URL': source_url,
                         'Detalle': f'{benefit}. {note[0] if note else ""} {common}',
                     })

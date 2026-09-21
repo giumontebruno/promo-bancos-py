@@ -1,5 +1,15 @@
 [
   {
+    "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783699874.pdf",
+    "detail_sha256": "7c012c132f73f525646afc59b9e4b964b229eba68bad31baaddc0bb6afeb2e3f",
+    "reviewed_on": "2026-09-21",
+    "benefit_type": "descuento",
+    "benefit_summary": "Hasta 45% de descuento con QR en productos varios; 35% en medicamentos nacionales; 30% en medicamentos importados o con tarjeta física",
+    "verified_cards": "Panal, Cabal y Mastercard crédito de Universitaria. QR desde la app Universitaria o tarjeta física.",
+    "note": "Lunes: descuento en caja. QR: hasta 45% en productos varios, 35% en medicamentos nacionales y 30% en importados y régimen importado. Tarjeta física: 30% en farma y no farma. Límite de compra: Gs. 10.000.000 por cuenta y mes. Vigencia hasta el 30/09/2026.",
+    "warning": ""
+  },
+  {
     "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783105002.pdf",
     "merchant_name": "Archie, La Tienda y Role",
     "detail_sha256": "160b40a59a2e71aeb096c246c89ff3aaa7aad4d4a8933ee7802b3364e945bc8c",

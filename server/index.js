@@ -87,22 +87,28 @@ async function handle(request, env) {
         .bind(deliveryKey, new Date().toISOString()).run();
       if (!reservation.meta.changes) continue;
       const lines = due.slice(0, 3).map(({ promo, benefit }) => `${promo.merchant_name}: ${benefit} con ${promo.bank}.`);
+      let stage = 'subscription';
       try {
         const subscription = JSON.parse(device.subscription);
         if (!validSubscription(subscription)) throw new Error('Invalid stored subscription');
+        stage = 'encryption';
         const payload = await buildPushPayload({ data: { title: 'Tus favoritos tienen beneficios hoy',
           body: lines.join('\n'), url: APP_URL + '?view=favorites', tag: 'payback-' + todayParts().iso }, options: { ttl: 14400 } }, subscription,
         { subject: APP_URL, publicKey: env.VAPID_PUBLIC_KEY, privateKey: env.VAPID_PRIVATE_KEY });
+        stage = 'network';
         const delivered = await fetch(subscription.endpoint, { ...payload, redirect: 'error', signal: AbortSignal.timeout(15000) });
+        stage = `provider_${delivered.status}`;
         if (delivered.status === 404 || delivered.status === 410) {
           await env.DB.prepare('DELETE FROM devices WHERE id = ?').bind(device.id).run();
+          await env.DB.prepare("UPDATE deliveries SET status = 'expired' WHERE key = ?").bind(deliveryKey).run();
+          continue;
         } else if (!delivered.ok) throw new Error('Push rejected');
         else sent++;
         await env.DB.prepare("UPDATE deliveries SET status = 'sent' WHERE key = ?").bind(deliveryKey).run();
       } catch {
         failed++;
         // Keep uncertain deliveries reserved to avoid duplicate alerts on retries.
-        await env.DB.prepare("UPDATE deliveries SET status = 'failed' WHERE key = ?").bind(deliveryKey).run();
+        await env.DB.prepare('UPDATE deliveries SET status = ? WHERE key = ?').bind(`failed:${stage}`, deliveryKey).run();
       }
     }
     return json({ sent, failed, cursor: results.length === 20 ? results.at(-1).id : null });

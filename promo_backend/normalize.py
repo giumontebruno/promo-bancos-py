@@ -268,6 +268,7 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "level_benefits": json.loads(row.get("Niveles estructurados") or "[]"),
         "special_flags": detect_special_flags(bank, benefit, levels, caps, validity, day_text, full_detail),
         "source_url": source_url,
+        "source_page_url": "https://www.bancontinental.com.py/club-continental/comercios" if bank == "Continental" else source_url,
         "raw_detail": full_detail,
         "source_warning": first(row, "Advertencia de fuente"),
         "verified_cards": first(row, "Tarjetas verificadas"),
@@ -278,7 +279,7 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         if review['source_url'] == source_url and review['detail_sha256'] == hashlib.sha256(full_detail.encode()).hexdigest():
             normalized['benefit_summary'] = review['benefit_summary']
             normalized['merchant_name'] = review.get('merchant_name', normalized['merchant_name'])
-            normalized['benefit_type'] = 'reintegro'
+            normalized['benefit_type'] = review.get('benefit_type', 'reintegro')
             normalized['percentages'] = detect_percentages(review['benefit_summary'])
             normalized['verified_cards'] = review['verified_cards']
             normalized['raw_detail'] = review['note'] + ' ' + full_detail

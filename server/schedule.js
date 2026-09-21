@@ -17,7 +17,7 @@ export function isDue(promo, now = new Date()) {
   return (promo.promotion_days || []).includes(today.weekday);
 }
 export function notificationBenefit(promo, level) {
-  const summary = String(promo.benefit_summary || '');
+  const summary = String(promo.benefit_summary || '').replace(/\s+/g, ' ').trim();
   if (promo.bank === 'ueno bank' && promo.level_rules) {
     const rows = promo.level_benefits?.filter(row => row.level === level) || [];
     if (rows.length === 1) return `${rows[0].percent}% de reintegro · Nivel ${level}`;
@@ -28,7 +28,8 @@ export function notificationBenefit(promo, level) {
     return '';
   }
   const percentages = [...new Set((summary.match(/\d{1,3}\s*%/g) || []).map(s => s.replace(/\s/g, '')))];
-  if (percentages.length !== 1 || Number(percentages[0].replace('%', '')) > 100) return '';
-  if (!/reintegro|descuento/i.test(summary)) return '';
-  return `${percentages[0]} de ${/reintegro/i.test(summary) ? 'reintegro' : 'descuento'}`;
+  if (!percentages.length || percentages.some(value => Number(value.replace('%', '')) > 100)) return '';
+  if (!/reintegro|descuento|ahorro|pago con qr/i.test(summary) || summary.length > 350) return '';
+  // Preserve payment and product qualifiers instead of promising the highest rate to everyone.
+  return summary;
 }

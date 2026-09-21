@@ -91,11 +91,12 @@ export async function handleBeta(request, env) {
   }
   if (path === '/api/beta/admin' && request.method === 'GET') {
     if (!user.admin) return json({ error: 'No autorizado' }, 403);
-    const participants = await db.prepare(`SELECT a.email,a.consent,e.day,e.kind,e.count FROM beta_accounts a
+    const participants = await db.prepare(`SELECT a.email,a.created_at,a.consent,e.day,e.kind,e.count FROM beta_accounts a
       LEFT JOIN beta_activity e ON e.account_id=a.id AND e.day >= date('now','-30 days') ORDER BY a.email,e.day DESC`).all();
     const reports = await db.prepare(`SELECT r.kind,r.promo_id,r.message,r.created_at,a.email FROM beta_reports r
       JOIN beta_accounts a ON a.id=r.account_id ORDER BY r.created_at DESC LIMIT 100`).all();
-    return json({ participants: participants.results, reports: reports.results });
+    const deliveries = await db.prepare('SELECT status,created_at FROM deliveries ORDER BY created_at DESC LIMIT 100').all();
+    return json({ participants: participants.results, reports: reports.results, deliveries: deliveries.results });
   }
   return json({ error: 'Ruta no disponible' }, 404);
 }
