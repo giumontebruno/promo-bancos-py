@@ -21,7 +21,7 @@
     return value;
   }
   function supported() { return 'serviceWorker' in navigator && 'PushManager' in root && 'Notification' in root; }
-  function enabled() { return localStorage.getItem(ENABLED_KEY) === 'true'; }
+  function enabled() { return supported() && Notification.permission === 'granted' && localStorage.getItem(ENABLED_KEY) === 'true'; }
   function registrationReady() {
     return new Promise((resolve, reject) => {
       const timer = setTimeout(() => reject(new Error('No pudimos preparar los avisos. Recargá la app e intentá nuevamente.')), 12000);
@@ -66,5 +66,16 @@
     await subscription?.unsubscribe();
     localStorage.removeItem(ENABLED_KEY);
   }
-  root.PaybackPush = { enable, disable, sync, enabled, supported };
+  async function test(favorites, uenoLevel) {
+    if (!enabled()) throw new Error('Activá las notificaciones en este dispositivo primero.');
+    await sync(favorites, uenoLevel);
+    const registration = await registrationReady();
+    if (!await registration.pushManager.getSubscription()) throw new Error('El registro venció. Volvé a activar las notificaciones.');
+    await registration.showNotification('Prueba de Payback PY', {
+      body: 'Este es un aviso de prueba de tus favoritos.',
+      icon: './assets/logos/payback-py-app-dark-192.png',
+      tag: 'payback-device-test', data: {url:'./?view=favorites'},
+    });
+  }
+  root.PaybackPush = { enable, disable, sync, enabled, supported, test };
 })(globalThis);

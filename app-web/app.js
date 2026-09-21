@@ -1366,6 +1366,7 @@ function renderFavoriteAlerts() {
     <h2>${today.length ? `${today.length} favoritos disponibles hoy` : "No te pierdas tus favoritos"}</h2>
     <p>${PaybackPush.enabled() ? "Notificaciones de tus favoritos activadas en este dispositivo." : "Activá las notificaciones para recibir un recordatorio el día de las promociones que guardaste."}</p></div>
     <button type="button" class="notification-action" data-push-action="${PaybackPush.enabled() ? "disable" : "enable"}">${PaybackPush.enabled() ? "Desactivar notificaciones" : "Activar notificaciones"}</button>
+    ${PaybackPush.enabled() ? '<button type="button" class="notification-action" data-push-action="test">Probar notificación</button>' : ''}
     <p class="notification-status" role="status">${escapeHtml(state.pushMessage)}</p></div>`;
 }
 
@@ -2963,8 +2964,8 @@ els.results.addEventListener("click", (event) => {
   if (pushAction) {
     pushAction.disabled = true;
     const action = pushAction.dataset.pushAction;
-    const operation = action === "enable" ? PaybackPush.enable(state.favorites, state.uenoLevel) : PaybackPush.disable();
-    operation.then(() => { state.pushMessage = action === "enable" ? "Te avisaremos los días de tus promociones." : "Avisos desactivados."; })
+    const operation = action === 'test' ? PaybackPush.test(state.favorites, state.uenoLevel) : action === "enable" ? PaybackPush.enable(state.favorites, state.uenoLevel) : PaybackPush.disable();
+    operation.then(() => { state.pushMessage = action === 'test' ? 'Prueba solicitada. Revisá el panel de notificaciones de tu dispositivo. Esta prueba verifica la visualización local, no la entrega remota.' : action === "enable" ? "Te avisaremos los días de tus promociones." : "Avisos desactivados."; })
       .catch(error => { state.pushMessage = error.message; }).finally(() => render());
     return;
   }
