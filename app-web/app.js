@@ -2117,7 +2117,6 @@ function buildNearbyPromoIndex() {
 }
 
 function matchesNearbyDay(promo) {
-  if (state.activeDay === "hoy") return true;
   return appliesToSelectedDay(promo, state.activeDay);
 }
 
