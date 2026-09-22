@@ -30,16 +30,44 @@ def build(data):
     return rows
 
 
+def build_additional(data):
+    rows = []
+    for campaign in data['campaigns']:
+        locations = campaign.get('municipalities') or [(campaign['merchant'], campaign['location'])]
+        for merchant, location in locations:
+            for offer in campaign.get('offers', [campaign]):
+                financing = 'cuotas' in offer['benefit'].lower()
+                rows.append({
+                    'Comercio': merchant,
+                    'Categoria': campaign['category'],
+                    'Beneficio': offer['benefit'],
+                    'Dia': offer.get('day', 'Todos los días'),
+                    'Vigencia': f"Desde {campaign['starts_on']} hasta {campaign['ends_on']}",
+                    'Locales': location,
+                    'Montos': 'Sin tope monetario indicado en las bases.' if financing else 'Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.',
+                    'URL detalle': campaign['source_url'],
+                    'Tarjetas verificadas': offer['cards'],
+                    'Detalle': f"{offer['benefit']}. {campaign['conditions']} {offer.get('conditions', '')}".strip(),
+                    'Variante': offer.get('variant', 'financing'),
+                    'Tipo de variante': offer.get('kind', 'base'),
+                    'Etiqueta de variante': offer.get('label', 'Cuotas'),
+                    'Porcentaje efectivo': offer.get('effective_percent', ''),
+                })
+    return rows
+
+
 def main():
     data = json.loads((ROOT / 'data/gnb_reviewed_offers.json').read_text(encoding='utf-8'))
     rows = build(data)
     restaurants = json.loads((ROOT / 'data/gnb_restaurants_reviewed.json').read_text(encoding='utf-8'))
     rows.extend(build(restaurants))
+    additional = json.loads((ROOT / 'data/gnb_additional_reviewed.json').read_text(encoding='utf-8'))
+    rows.extend(build_additional(additional))
     with (ROOT / 'outputs/gnb_beneficios_por_categoria.csv').open('w',encoding='utf-8-sig',newline='') as handle:
-        writer = csv.DictWriter(handle,fieldnames=list(rows[0]))
+        writer = csv.DictWriter(handle,fieldnames=list(dict.fromkeys(key for row in rows for key in row)))
         writer.writeheader()
         writer.writerows(rows)
-    (ROOT / 'outputs/gnb_source_meta.json').write_text(json.dumps({'checked_at':max(data['checked_at'], restaurants['checked_at']),'coverage':'Reviewed Copetrol/Copemarket and Bares y Resto PDFs; full catalog pending','records':len(rows)},indent=2),encoding='utf-8')
+    (ROOT / 'outputs/gnb_source_meta.json').write_text(json.dumps({'checked_at':additional['checked_at'],'coverage':'Reviewed Copetrol/Copemarket, Bares y Resto, Baza, Pandolfo, property tax and Farmacenter PDFs; full catalog pending','records':len(rows)},indent=2),encoding='utf-8')
     print(f'GNB: {len(rows)} reviewed offers; full catalog still pending.')
 
 

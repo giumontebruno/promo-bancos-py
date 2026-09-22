@@ -281,6 +281,8 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         normalized['id'] = hashlib.sha1((normalized['id'] + '|' + row['Variante']).encode()).hexdigest()[:16]
         normalized['offer_kind'] = row.get('Tipo de variante', 'base')
         normalized['offer_label'] = row.get('Etiqueta de variante', '')
+    if row.get('Porcentaje efectivo'):
+        normalized['effective_percent'] = float(row['Porcentaje efectivo'])
     for review in REVIEWED_BENEFITS:
         if review['source_url'] == source_url and review['detail_sha256'] == hashlib.sha256(full_detail.encode()).hexdigest():
             normalized['benefit_summary'] = review['benefit_summary']

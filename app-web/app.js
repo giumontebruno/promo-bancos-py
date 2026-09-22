@@ -2344,7 +2344,7 @@ function sortByDayDisplayPriority(a, b) {
 
 function getEstimatedSavings(promo, amount = null, variant = null) {
   const level = getSelectedUenoLevelDetails(promo, state.uenoLevel);
-  const percent = percentNumber(variant?.benefit || level?.percent || getMainBenefit(promo) || promo.benefit_summary);
+  const percent = promo.effective_percent || percentNumber(variant?.benefit || level?.percent || getMainBenefit(promo) || promo.benefit_summary);
   let limits = promo.terms?.limits || PaybackBenefits.explicitLimits(promo.raw_detail || promo.caps_and_minimums || "");
   const structuredLevel = promo.level_benefits?.filter(row => row.level === state.uenoLevel);
   if (structuredLevel?.length === 1 && !variant) {

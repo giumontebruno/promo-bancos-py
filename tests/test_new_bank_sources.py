@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from scrapers.extract_familiar import parse_cards, terms_pdf
 from scrapers.build_familiar_table import convert, date_range
-from scrapers.build_gnb_reviewed import build
+from scrapers.build_gnb_reviewed import build, build_additional
 from promo_backend.normalize import normalize_row
 
 
@@ -72,3 +72,18 @@ class FamiliarTests(unittest.TestCase):
         self.assertIn('2026-02-06', emeterio['Vigencia'])
         hon = next(row for row in rows if row['Comercio'] == 'Honorio Bar')
         self.assertIn('Encarnación', hon['Locales'])
+
+    def test_gnb_financing_merchants_and_municipalities_are_distinct(self):
+        data = json.loads((Path(__file__).resolve().parents[1] / 'data/gnb_additional_reviewed.json').read_text(encoding='utf-8'))
+        rows = build_additional(data)
+        self.assertEqual(len(rows), 19)
+        self.assertEqual(len({row['Comercio'] for row in rows}), 15)
+        self.assertTrue(all('cuotas sin intereses' in row['Beneficio'] for row in rows if row['Comercio'] != 'Farmacenter'))
+        normalized = [normalize_row('GNB', row) for row in rows]
+        self.assertEqual(len({row['id'] for row in normalized}), 19)
+        self.assertTrue(all(len(row['promotion_days']) == 7 for row in normalized if row['merchant_name'] != 'Farmacenter'))
+        pharmacy = [row for row in normalized if row['merchant_name'] == 'Farmacenter']
+        self.assertEqual(len(pharmacy), 5)
+        self.assertEqual([row.get('effective_percent') for row in pharmacy], [32, 28, 27.75, 23.5, None])
+        self.assertTrue(all(row['promotion_days'] == ['lunes'] for row in pharmacy[:4]))
+        self.assertEqual(len(pharmacy[4]['promotion_days']), 7)

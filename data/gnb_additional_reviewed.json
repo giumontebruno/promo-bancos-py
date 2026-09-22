@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-09-22",
+  "campaigns": [
+    {
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4755_bases-y-condiciones-baza.pdf",
+      "source_version": "V1 - 01/01/2026",
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "merchant": "Baza",
+      "category": "Hogar y construcción",
+      "location": "Fidel Maíz esquina Osvaldo Chávez, Capiatá",
+      "benefit": "Hasta 12 cuotas sin intereses",
+      "cards": "Tarjetas de crédito GNB Clásica, Oro, Experience, Black, Black Premier, Metalcard Premier, Platinum e Infinite",
+      "conditions": "Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones."
+    },
+    {
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4128_bases-y-condiciones-pandolfo.pdf",
+      "source_version": "V1 - 01/01/2026",
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "merchant": "Pandolfo",
+      "category": "Hogar y construcción",
+      "location": "Avda. Mariscal López c/ José Ocampos Lanzoni, Asunción; Av. Irrazábal c/ 14 de Mayo, Encarnación; Ruta 6 km 3,5, Encarnación; Dr. Juan León Mallorquín - Los Maizales, Santa Rita; Av. Mcal. López c/ Valois Rivarola, Ciudad del Este; Mcal. José Félix Estigarribia c/ Virgen de Fátima, San Lorenzo; Dr. José Gaspar Rodríguez de Francia - Calle 6 Zanja Pe, Campo 9; Ruta 7 c/ Av. Jacarandá, Nueva Esperanza; Tte. Sergio Martínez c/ Amanecer, San Ignacio; Ruta Nacional Gral. Aquino, Katueté; San José Obrero c/ Ruta 6, María Auxiliadora",
+      "benefit": "Hasta 12 cuotas sin intereses",
+      "cards": "Tarjetas de crédito GNB",
+      "conditions": "Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones."
+    },
+    {
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+      "source_version": "V1 - 01/01/2026",
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "category": "Servicios",
+      "benefit": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+      "cards": "Tarjetas de crédito GNB",
+      "conditions": "Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+      "municipalities": [
+        ["Municipalidad de Asunción", "Asunción"],
+        ["Municipalidad de Fernando de la Mora", "Fernando de la Mora"],
+        ["Municipalidad de Benjamín Aceval", "Benjamín Aceval"],
+        ["Municipalidad de Ciudad del Este", "Ciudad del Este"],
+        ["Municipalidad de Encarnación", "Encarnación"],
+        ["Municipalidad de Hernandarias", "Hernandarias"],
+        ["Municipalidad de Hohenau", "Hohenau"],
+        ["Municipalidad de Lambaré", "Lambaré"],
+        ["Municipalidad de Luque", "Luque"],
+        ["Municipalidad de Nueva Colombia", "Nueva Colombia"],
+        ["Municipalidad de San Bernardino", "San Bernardino"],
+        ["Municipalidad de Pilar", "Pilar"]
+      ]
+    },
+    {
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
+      "source_version": "V1 - 11/03/2026",
+      "starts_on": "2026-03-16",
+      "ends_on": "2026-09-28",
+      "merchant": "Farmacenter",
+      "category": "Farmacias",
+      "location": "Todas las sucursales de Farmacenter",
+      "conditions": "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja.",
+      "offers": [
+        {"variant": "perfumeria-premium", "label": "Perfumería · Black", "kind": "premium", "benefit": "35% de descuento anunciado en perfumería (20% en caja + 15% de reintegro)", "effective_percent": 32, "cards": "Mastercard Black, Black Premier y Metalcard Premier GNB", "day": "Lunes", "conditions": "Efecto combinado aproximado: 32% del precio original porque el reintegro se calcula sobre el importe ya rebajado."},
+        {"variant": "perfumeria-base", "label": "Perfumería · Clásica/Oro", "kind": "base", "benefit": "30% de descuento anunciado en perfumería (20% en caja + 10% de reintegro)", "effective_percent": 28, "cards": "Mastercard Clásica y Oro GNB", "day": "Lunes", "conditions": "Efecto combinado aproximado: 28% del precio original porque el reintegro se calcula sobre el importe ya rebajado."},
+        {"variant": "medicamentos-premium", "label": "Medicamentos · Black", "kind": "premium", "benefit": "30% de descuento anunciado en medicamentos (15% en caja + 15% de reintegro)", "effective_percent": 27.75, "cards": "Mastercard Black, Black Premier y Metalcard Premier GNB", "day": "Lunes", "conditions": "Efecto combinado aproximado: 27,75% del precio original porque el reintegro se calcula sobre el importe ya rebajado."},
+        {"variant": "medicamentos-base", "label": "Medicamentos · Clásica/Oro", "kind": "base", "benefit": "25% de descuento anunciado en medicamentos (15% en caja + 10% de reintegro)", "effective_percent": 23.5, "cards": "Mastercard Clásica y Oro GNB", "day": "Lunes", "conditions": "Efecto combinado aproximado: 23,5% del precio original porque el reintegro se calcula sobre el importe ya rebajado."},
+        {"variant": "financing", "label": "Cuotas", "kind": "base", "benefit": "Hasta 3 cuotas sin intereses", "cards": "Tarjetas de crédito Mastercard GNB", "day": "Todos los días", "conditions": "Solicitar o seleccionar la cantidad de cuotas al pagar."}
+      ]
+    }
+  ]
+}
