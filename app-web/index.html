@@ -11,9 +11,27 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/logos/payback-py-apple-touch-180.png?v=1" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="./styles.css?v=20260825-clean-map-controls" />
-    <link rel="stylesheet" href="./premium.css?v=beta-12-universitaria-review" />
+    <link rel="stylesheet" href="./premium.css?v=beta-13-login-cover" />
   </head>
-  <body>
+  <body class="auth-required">
+    <section id="authGate" class="auth-gate" aria-labelledby="authTitle">
+      <div class="auth-gate-inner">
+        <img class="auth-brand" src="./assets/logos/payback-py-wordmark.png" alt="Payback PY - Te devuelve más" />
+        <div class="auth-map" role="img" aria-label="Mapa de beneficios cercanos en Asunción"></div>
+        <div class="auth-copy">
+          <h1 id="authTitle">Tus beneficios,<br>en un solo lugar.</h1>
+          <p>Entrá para descubrir las promociones que más te convienen.</p>
+        </div>
+        <div class="auth-actions">
+          <button type="button" class="auth-primary" data-auth-login disabled>Crear cuenta</button>
+          <button type="button" class="auth-google" data-auth-login disabled><img src="./assets/logos/google-g-official.png" width="22" height="22" alt="">Continuar con Google</button>
+          <button type="button" class="auth-signin" data-auth-login disabled>Ya tengo cuenta <span aria-hidden="true">·</span> <strong>Iniciar sesión</strong></button>
+          <p id="authStatus" class="auth-status" role="status" aria-live="polite">Preparando el acceso…</p>
+          <button type="button" class="auth-retry" data-auth-retry hidden>Reintentar</button>
+        </div>
+        <p class="auth-legal">Al continuar, aceptás las <a href="./terms.html">Condiciones de uso</a><br>y la <a href="./privacy.html">Política de privacidad</a>.</p>
+      </div>
+    </section>
     <main class="app-shell">
       <header class="topbar">
         <div class="topbar-brand">
@@ -80,7 +98,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="./benefit-rules.js?v=20260909"></script>
     <script src="./push-client.js?v=beta-1"></script>
-    <script src="./beta-bundle.js?v=beta-2-default-metrics"></script>
+    <script src="./beta-bundle.js?v=beta-3-login-cover"></script>
     <script src="./app.js?v=beta-5-category-audit"></script>
     <script>
       if ("serviceWorker" in navigator) {

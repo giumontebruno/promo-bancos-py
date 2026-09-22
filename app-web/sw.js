@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-beta-24-category-audit";
+const CACHE_NAME = "payback-py-beta-25-login-cover";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -11,6 +11,7 @@ const APP_SHELL = [
   "./config.js",
   "./manifest.webmanifest",
   "./assets/logos/payback-py-wordmark.png",
+  "./assets/payback-login-map.png",
   "./assets/logos/payback-py-app-dark-192.png",
   "./assets/logos/payback-py-app-dark-512.png",
   "../public/promotions.json",

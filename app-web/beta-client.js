@@ -5,6 +5,20 @@ const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&a
 const dialog = document.createElement('dialog');
 dialog.className = 'beta-dialog';
 document.body.append(dialog);
+const authGate = document.getElementById('authGate');
+const authStatus = document.getElementById('authStatus');
+let gateMessage = '';
+function updateGate() {
+  const locked = !current;
+  document.body.classList.toggle('auth-required', locked);
+  authGate.hidden = !locked;
+  document.querySelector('.app-shell').inert = locked;
+  document.getElementById('bottomNav').inert = locked;
+  if (!locked) return;
+  authStatus.textContent = initError || (!ready ? 'Preparando el acceso…' : !client ? 'El acceso no está disponible en este momento.' : gateMessage);
+  authGate.querySelectorAll('[data-auth-login]').forEach(button => { button.disabled = !client || busy; });
+  authGate.querySelector('[data-auth-retry]').hidden = !initError;
+}
 function message(text) { const node = dialog.querySelector('[role=status]'); if (node) node.textContent = text; }
 async function accessToken() { return client ? (await client.auth.getSession()).data.session?.access_token : null; }
 async function api(path, method = 'GET', body) {
@@ -18,7 +32,7 @@ async function api(path, method = 'GET', body) {
   if (!response.ok) throw new Error(data.error || 'No pudimos guardar los cambios.');
   return data;
 }
-function changed() { window.dispatchEvent(new CustomEvent('beta-account', { detail: current })); }
+function changed() { updateGate(); window.dispatchEvent(new CustomEvent('beta-account', { detail: current })); }
 async function refresh() {
   const account = await api('me');
   const { data } = await client.auth.getSession();
@@ -35,7 +49,7 @@ function googleButton() {
   return '<img src="./assets/logos/google-g-official.png" width="20" height="20" alt="">Continuar con Google';
 }
 async function login() {
-  if (!client) { show(); return; }
+  if (!client) throw new Error('El acceso no está disponible en este momento.');
   const { error } = await client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: new URL('./', location.href).href, scopes: 'openid email profile', queryParams: { prompt: 'select_account' } } });
   if (error) throw new Error('No pudimos iniciar el acceso con Google. Intentá nuevamente.');
 }
@@ -142,6 +156,17 @@ dialog.addEventListener('click', async e => {
     }
   } catch (error) { message(error.message); }
 });
+authGate.addEventListener('click', async e => {
+  if (e.target.closest('[data-auth-retry]')) { initError = ''; gateMessage = ''; ready = false; updateGate(); await init(); return; }
+  const button = e.target.closest('[data-auth-login]');
+  if (!button || busy) return;
+  busy = true;
+  gateMessage = 'Abriendo Google…';
+  updateGate();
+  try { await login(); }
+  catch (error) { gateMessage = error.message; }
+  finally { busy = false; updateGate(); }
+});
 document.addEventListener('click', async e => {
   const logoutButton = e.target.closest('[data-profile-logout]');
   if (logoutButton) {
@@ -178,13 +203,15 @@ let searchTimer;
 document.getElementById('searchInput')?.addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => event('search'), 1500); });
 async function init() {
   try {
+    initError = '';
+    updateGate();
     const config = await fetch('./notifications-config.json', { cache: 'no-store' }).then(r => r.json());
     service = new URL(config.serviceUrl).origin;
     if (!service.startsWith('https://')) throw new Error('Servicio no disponible');
     const response = await fetch(service + '/api/beta/config', { signal: AbortSignal.timeout(10000) });
     if (!response.ok) throw new Error('El registro de beta todavía no está habilitado.');
     const auth = await response.json(); ready = true;
-    if (!auth.enabled) return;
+    if (!auth.enabled) throw new Error('El registro de beta todavía no está habilitado.');
     if (!client) {
       client = createClient(auth.url, auth.key, { auth: { flowType: 'pkce' } });
       client.auth.onAuthStateChange(() => setTimeout(async () => {
@@ -192,10 +219,16 @@ async function init() {
           if (await accessToken()) { await refresh(); event('session'); }
           else { current = null; changed(); }
           if (dialog.open) show();
-        } catch (error) { current = null; changed(); show(); message(error.message); }
+        } catch (error) { current = null; initError = error.message; changed(); if (dialog.open) message(error.message); }
       }, 0));
     }
-  } catch (error) { initError = error.message; }
+    if (await accessToken()) { await refresh(); event('session'); }
+    else updateGate();
+  } catch (error) {
+    initError = error instanceof TypeError ? 'No pudimos conectar con el acceso. Revisá tu conexión e intentá de nuevo.' : error.message;
+    updateGate();
+  }
 }
 window.PaybackBeta = { accessToken, favorite, level, event, get current() { return current; } };
+updateGate();
 init();
