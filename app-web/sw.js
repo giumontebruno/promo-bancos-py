@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-beta-22-pharmacy-category";
+const CACHE_NAME = "payback-py-beta-23-pharmacy-rate";
 const APP_SHELL = [
   "./",
   "./index.html",

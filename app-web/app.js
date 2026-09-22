@@ -669,6 +669,9 @@ function getMainBenefit(promo, variant = null) {
 
 function getBenefitLines(promo, variant = null) {
   const text = String(getMainBenefit(promo, variant) || promo.benefit_summary || "Ver detalle");
+  if (promo.bank === "Itaú" && normalizeDayName(promo.merchant_name || "") === "punto farma" && /hasta\s+35%/i.test(text)) {
+    return ["Hasta 35% descuento · QR"];
+  }
   if (promo.bank === "Coop. Universitaria" && promo.offer_kind) {
     const rate = text.match(/^(Hasta\s+)?(\d{1,3})%\s+de\s+(descuento|reintegro)(?:\s+con\s+(QR|tarjeta física))?(?:\s+en\s+(.+))?$/i);
     if (rate) {

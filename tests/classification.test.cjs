@@ -25,3 +25,13 @@ test('pharmacy merchants are shown under Farmacias even when the bank labels the
   assert.ok(puntoFarma, 'Itaú Punto Farma must remain in the catalog on Tuesdays');
   assert.equal(categoryContext.getPromoCategoryGroup(puntoFarma), 'Farmacias');
 });
+const benefitContext = {
+  getMainBenefit: promo => promo.benefit_summary,
+  normalizeDayName: value => String(value).toLowerCase(),
+};
+vm.runInNewContext(source.slice(source.indexOf('function getBenefitLines('), source.indexOf('function getDisplayBenefit(')), benefitContext);
+test('Itaú Punto Farma describes the variable QR rate as up to 35%', () => {
+  const promotions = JSON.parse(fs.readFileSync('public/promotions.json', 'utf8'));
+  const promo = promotions.find(item => item.bank === 'Itaú' && item.merchant_name === 'Punto Farma' && item.promotion_days.includes('martes'));
+  assert.equal(benefitContext.getBenefitLines(promo)[0], 'Hasta 35% descuento · QR');
+});
