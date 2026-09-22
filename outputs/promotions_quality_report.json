@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T13:40:04.658500+00:00",
-  "input_count": 2148,
-  "promotion_count": 2148,
+  "generated_at": "2026-09-22T14:34:09.003439+00:00",
+  "input_count": 2192,
+  "promotion_count": 2192,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -319,7 +319,7 @@
     "d3a43aa7ca45beb2": "711977858060fc9a",
     "99168bd0b6958355": "5466f51d47bd761e",
     "cb3de01ca31aba62": "65de826637ac09ea",
-    "b95b20e9b8aac4a7": "e6a469b3486fd21b",
+    "b95b20e9b8aac4a7": "4863af445cddb82d",
     "62e8d841ff36ed9c": "e04a0817f34c1e1d",
     "ba3ac7db98c9e32b": "e31059b815bf60cf",
     "fa534f89b7019277": "e71961c9b6e1952d",
@@ -439,13 +439,53 @@
     "aba803e8350b16fe": "e7cc3e3a0e33fec0",
     "c005fa541bf7ea37": "09ada0b26866128e",
     "4112b144dd65c0e4": "a8683657251de215",
-    "31e85026c0ff1331": "84c0dc562d5780db"
+    "31e85026c0ff1331": "84c0dc562d5780db",
+    "95a59d20b3f43651": "0780eae3fd68ea5a",
+    "5c43b5a4357f9998": "0ed5f6bae7f156f9",
+    "496b7136bd825658": "ffbccb84f5968244",
+    "2c4bd1f86974aa41": "03802e81121d48d4",
+    "87fbae214eee99ad": "4d10464290d795bd",
+    "c51354cad24e3e65": "c6439c6808e54410",
+    "e84c9e4f8de4226b": "2bbe4716ecaab2f9",
+    "3219200abf609c33": "9a412f13bd062bf2",
+    "8ba725f729db4a30": "acdefb9c1bae3993",
+    "849b1cb38f34545c": "37f9ca36ca8ed22f",
+    "c50748813afd5935": "ced9734c88a79287",
+    "5c48ba90fae7c498": "d79e933638951d44",
+    "59a40b5c218cce4f": "9fba332d169cda8c",
+    "2e401dd112aebac7": "807baf908608b744",
+    "e4e4c501c0c8c12d": "6d3e46f1399d07fb",
+    "1fc9cec4fdd97105": "5b64dcb33266eb58",
+    "5e7607b5d2ea0b87": "342e4e67313a8a06",
+    "c2993db5824bef80": "0c37f223ec4ad41c",
+    "932ca3ebacfcf706": "f61885e2591feede",
+    "e6a469b3486fd21b": "4863af445cddb82d",
+    "23f56db32a62f364": "0780eae3fd68ea5a",
+    "478cb300f269b55a": "0ed5f6bae7f156f9",
+    "3269a8a9430b9f87": "ffbccb84f5968244",
+    "64826ec53e74c8cf": "03802e81121d48d4",
+    "1559a6d1b8347fad": "4d10464290d795bd",
+    "3a4476ea7646554a": "c6439c6808e54410",
+    "731a4faf71a55446": "2bbe4716ecaab2f9",
+    "3a206cf661503842": "9a412f13bd062bf2",
+    "5fdf97640195c74b": "acdefb9c1bae3993",
+    "a251886a3a8792eb": "4863af445cddb82d",
+    "304f2140c2407cc5": "37f9ca36ca8ed22f",
+    "f2377698f2c941bd": "ced9734c88a79287",
+    "8e9c6a324aab86ba": "d79e933638951d44",
+    "5b310a67c7418462": "9fba332d169cda8c",
+    "92b5e65a97955b7a": "807baf908608b744",
+    "c8d0693b2789a77f": "6d3e46f1399d07fb",
+    "4f57f4dce6f5d0a3": "5b64dcb33266eb58",
+    "87239587f76198bd": "342e4e67313a8a06",
+    "fa76b8fac635832c": "0c37f223ec4ad41c",
+    "d44410fa36639219": "f61885e2591feede"
   },
   "by_bank": {
     "Atlas": 38,
     "BNF": 75,
     "Continental": 754,
-    "Coop. Universitaria": 77,
+    "Coop. Universitaria": 121,
     "Familiar": 241,
     "GNB": 443,
     "Itaú": 120,
@@ -453,9 +493,9 @@
     "ueno bank": 231
   },
   "issue_counts": {
-    "validity_unconfirmed": 61,
-    "limits_unconfirmed": 159,
-    "source_amount_conflict": 5,
+    "validity_unconfirmed": 60,
+    "limits_unconfirmed": 125,
+    "source_amount_conflict": 4,
     "multiple_purchase_limits": 335,
     "multiple_refund_limits": 100
   },
@@ -2656,69 +2696,6 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "95a59d20b3f43651",
-      "bank": "Coop. Universitaria",
-      "merchant": "BRISTOL",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775478054.pdf"
-    },
-    {
-      "id": "5cd24e87b3b5b4d1",
-      "bank": "Coop. Universitaria",
-      "merchant": "ELECTROBAN",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases1784915440.pdf"
-    },
-    {
-      "id": "5c43b5a4357f9998",
-      "bank": "Coop. Universitaria",
-      "merchant": "Olier",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775479168.pdf"
-    },
-    {
-      "id": "496b7136bd825658",
-      "bank": "Coop. Universitaria",
-      "merchant": "TUPI",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775479487.pdf"
-    },
-    {
-      "id": "2c4bd1f86974aa41",
-      "bank": "Coop. Universitaria",
-      "merchant": "Cellshop Importados Paraguay",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1781619937.pdf"
-    },
-    {
-      "id": "87fbae214eee99ad",
-      "bank": "Coop. Universitaria",
-      "merchant": "Nissei",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775478932.pdf"
-    },
-    {
-      "id": "c51354cad24e3e65",
-      "bank": "Coop. Universitaria",
-      "merchant": "BELLMONT BARBERÍA",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/1764702833.pdf"
-    },
-    {
       "id": "e88640079cb72988",
       "bank": "Coop. Universitaria",
       "merchant": "Sempre Bela",
@@ -2735,24 +2712,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1711050546.pdf"
-    },
-    {
-      "id": "3219200abf609c33",
-      "bank": "Coop. Universitaria",
-      "merchant": "Las Hortensias",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1711042299.pdf"
-    },
-    {
-      "id": "8ba725f729db4a30",
-      "bank": "Coop. Universitaria",
-      "merchant": "Malian",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1711042178.pdf"
     },
     {
       "id": "e007fa2cca116af3",
@@ -2773,25 +2732,6 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1757961129.pdf"
     },
     {
-      "id": "947fceed031cb442",
-      "bank": "Coop. Universitaria",
-      "merchant": "AFS",
-      "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1742386268.pdf"
-    },
-    {
-      "id": "7adef0465ab7b24d",
-      "bank": "Coop. Universitaria",
-      "merchant": "CIAE & ASOC.",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1685026495.pdf"
-    },
-    {
       "id": "97cc0d40e001bec8",
       "bank": "Coop. Universitaria",
       "merchant": "UNADES",
@@ -2799,24 +2739,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1770319815.pdf"
-    },
-    {
-      "id": "e6a469b3486fd21b",
-      "bank": "Coop. Universitaria",
-      "merchant": "UNIVERSIDAD AMERICANA",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1789401410.pdf"
-    },
-    {
-      "id": "d072831fd761091e",
-      "bank": "Coop. Universitaria",
-      "merchant": "Universidad Autónoma de Asunción (UAA)",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1707838703.pdf"
     },
     {
       "id": "4243d6e40f30dd55",
@@ -2837,24 +2759,6 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1683315759.pdf"
     },
     {
-      "id": "a9fe9c767bb1f9c3",
-      "bank": "Coop. Universitaria",
-      "merchant": "Universidad Centro Médico Bautista",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1678382123.pdf"
-    },
-    {
-      "id": "e646c40aaf23c398",
-      "bank": "Coop. Universitaria",
-      "merchant": "Universidad Columbia",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1690574022.pdf"
-    },
-    {
       "id": "dff1f9f5c2a94133",
       "bank": "Coop. Universitaria",
       "merchant": "Universidad Nihon Gakko",
@@ -2873,24 +2777,6 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1783018707.pdf"
     },
     {
-      "id": "849b1cb38f34545c",
-      "bank": "Coop. Universitaria",
-      "merchant": "Universidad San Ignacio de Loyola",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/1707839632.pdf"
-    },
-    {
-      "id": "9eb86cd4d77f4f91",
-      "bank": "Coop. Universitaria",
-      "merchant": "Universidad UCOM",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1691526203.pdf"
-    },
-    {
       "id": "4c924ca696ab8d1e",
       "bank": "Coop. Universitaria",
       "merchant": "Biogenic",
@@ -2900,15 +2786,6 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1694089925.pdf"
     },
     {
-      "id": "9f4e9f1990ec5d8b",
-      "bank": "Coop. Universitaria",
-      "merchant": "MEYERLAB",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1770835144.pdf"
-    },
-    {
       "id": "971bbf81ae377194",
       "bank": "Coop. Universitaria",
       "merchant": "AUTOPAR",
@@ -2916,24 +2793,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1712260628.pdf"
-    },
-    {
-      "id": "586102155dca6c08",
-      "bank": "Coop. Universitaria",
-      "merchant": "Avenida Autocentro",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783513098.pdf"
-    },
-    {
-      "id": "c50748813afd5935",
-      "bank": "Coop. Universitaria",
-      "merchant": "GRUPO SAJA - BAJAJ",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/1786111849.pdf"
     },
     {
       "id": "416b19539c4e2ff1",
@@ -2952,15 +2811,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1770216818.pdf"
-    },
-    {
-      "id": "eb5f2f5552b15e7e",
-      "bank": "Coop. Universitaria",
-      "merchant": "Todo Cubierta",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783514643.pdf"
     },
     {
       "id": "e4f5f2e12f77cb6b",
@@ -2991,42 +2841,22 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1762455671.pdf"
     },
     {
-      "id": "5c48ba90fae7c498",
+      "id": "d79e933638951d44",
       "bank": "Coop. Universitaria",
       "merchant": "Clinica ELGUE",
       "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
+        "validity_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1786390000.pdf"
     },
     {
-      "id": "59a40b5c218cce4f",
-      "bank": "Coop. Universitaria",
-      "merchant": "MediCoop Laboratorio | Caacupé",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783600286.pdf"
-    },
-    {
-      "id": "2e401dd112aebac7",
+      "id": "807baf908608b744",
       "bank": "Coop. Universitaria",
       "merchant": "OAMI Medicina Pre-Paga",
       "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
+        "validity_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1773837106.pdf"
-    },
-    {
-      "id": "e4e4c501c0c8c12d",
-      "bank": "Coop. Universitaria",
-      "merchant": "SANTA CLARA",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784804823.pdf"
     },
     {
       "id": "9ed9fdd68e338b51",
@@ -3067,43 +2897,6 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1788800583.pdf"
     },
     {
-      "id": "02c38fab428bea5c",
-      "bank": "Coop. Universitaria",
-      "merchant": "Hipermercado Luisito",
-      "issues": [
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784737973.pdf"
-    },
-    {
-      "id": "b17c26f7cc23e263",
-      "bank": "Coop. Universitaria",
-      "merchant": "Essen",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1778241507.pdf"
-    },
-    {
-      "id": "1fc9cec4fdd97105",
-      "bank": "Coop. Universitaria",
-      "merchant": "Ferrex",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1748537145.pdf"
-    },
-    {
-      "id": "cf742a67a8f0a269",
-      "bank": "Coop. Universitaria",
-      "merchant": "JOSE A. CARRON",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1770649913.pdf"
-    },
-    {
       "id": "9bcdb4df83ebbbc2",
       "bank": "Coop. Universitaria",
       "merchant": "Meister",
@@ -3113,50 +2906,13 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1687871721.pdf"
     },
     {
-      "id": "c2993db5824bef80",
+      "id": "0c37f223ec4ad41c",
       "bank": "Coop. Universitaria",
       "merchant": "ÓPTICA B&E - CDE",
       "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
+        "validity_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1752158977.pdf"
-    },
-    {
-      "id": "64888bf4cbc5f762",
-      "bank": "Coop. Universitaria",
-      "merchant": "ÓPTICA CARRON",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1761940310.pdf"
-    },
-    {
-      "id": "749daf3545089f31",
-      "bank": "Coop. Universitaria",
-      "merchant": "ÓPTICA VISIÓN",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/1786456992.pdf"
-    },
-    {
-      "id": "49f72015769be86e",
-      "bank": "Coop. Universitaria",
-      "merchant": "ÓPTICA jNESSI",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1786454633.pdf"
-    },
-    {
-      "id": "932ca3ebacfcf706",
-      "bank": "Coop. Universitaria",
-      "merchant": "Óptica Luce",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1776972720.pdf"
     },
     {
       "id": "9ce94311de0a0296",

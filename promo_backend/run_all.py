@@ -13,7 +13,7 @@ GROUPS = [
     ('BNF', 'bnf', ['extract_bnf']),
     ('Continental', 'continental', ['extract_continental']),
     ('Atlas', 'atlas', ['extract_atlas']),
-    ('Coop. Universitaria', 'universitaria', ['extract_universitaria']),
+    ('Coop. Universitaria', 'universitaria', ['extract_universitaria', 'review_universitaria']),
     ('ueno bank', 'ueno', ['extract_ueno', 'extract_ueno_pdf_links', 'enrich_ueno_from_bases', 'extract_ueno_tables']),
 ]
 

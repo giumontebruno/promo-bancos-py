@@ -669,6 +669,15 @@ function getMainBenefit(promo, variant = null) {
 
 function getBenefitLines(promo, variant = null) {
   const text = String(getMainBenefit(promo, variant) || promo.benefit_summary || "Ver detalle");
+  if (promo.bank === "Coop. Universitaria" && promo.offer_kind) {
+    const rate = text.match(/^(Hasta\s+)?(\d{1,3})%\s+de\s+(descuento|reintegro)(?:\s+con\s+(QR|tarjeta física))?(?:\s+en\s+(.+))?$/i);
+    if (rate) {
+      const main = `${rate[1] || ""}${rate[2]}% ${rate[3]}${rate[4] ? ` · ${rate[4]}` : ""}`;
+      return [main];
+    }
+    const installments = text.match(/^(Hasta\s+)?(\d{1,2})\s+cuotas?\s+sin\s+intereses$/i);
+    if (installments) return [`Hasta ${installments[2]} cuotas sin intereses`];
+  }
   if (promo.bank === "GNB" && /\d+%\s+descuento\s+en\s+caja\s*\+\s*\d+%\s+reintegro/i.test(text)) {
     return [text];
   }
@@ -2817,6 +2826,10 @@ function getMerchantLogo(promo) {
 function renderCard(promo, variant = null) {
   const theme = getBankTheme(promo.bank);
   const benefitLines = getBenefitLines(promo, variant);
+  const reviewedCu = promo.bank === "Coop. Universitaria" && Boolean(promo.offer_kind);
+  const benefitScope = reviewedCu
+    ? String(promo.benefit_summary || "").match(/(?:descuento|reintegro)(?:\s+con\s+(?:QR|tarjeta física))?\s+en\s+(.+)$/i)?.[1]
+    : "";
   const categoryGroup = getPromoCategoryGroup(promo);
   const isPowerPromo = isUenoPowerPromo(promo);
   const isPremium = variant?.kind === "premium";
@@ -2831,7 +2844,7 @@ function renderCard(promo, variant = null) {
     ? `<span class="power-badge" title="Promo ueno+ POWER"><img src="${escapeAttribute(bankThemes["ueno bank"].logo)}" alt="" />ueno+ POWER</span>`
     : "";
   return `
-    <article tabindex="0" aria-label="${escapeAttribute(getPromoTitle(promo))}" class="promo-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""}" data-id="${promo.id}" data-variant="${escapeAttribute(getVariantKey(promo, variant))}" data-place-id="${escapeAttribute(promo._nearbyPlaceId || "")}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
+    <article tabindex="0" aria-label="${escapeAttribute(getPromoTitle(promo))}" class="promo-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""} ${reviewedCu ? "reviewed-cu-card" : ""}" data-id="${promo.id}" data-variant="${escapeAttribute(getVariantKey(promo, variant))}" data-place-id="${escapeAttribute(promo._nearbyPlaceId || "")}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
       <div class="logo-box">${merchantLogo ? `<img class="merchant-logo" src="${escapeAttribute(merchantLogo.src)}" alt="${escapeAttribute(merchantLogo.label)}" loading="lazy" />` : theme.logo ? `<img class="${escapeAttribute(logoClass)}" src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(getBankLabel(promo.bank))}" loading="lazy" />` : ""}</div>
       <div class="promo-content">
         <div class="promo-card-head">
@@ -2845,6 +2858,7 @@ function renderCard(promo, variant = null) {
             <button class="favorite-toggle share-toggle" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variant?.key || '')}" title="Compartir promoción" aria-label="Compartir promoción">${renderIcon("share")}</button>
           </div>
         </div>
+        ${benefitScope ? `<p class="benefit-scope">${escapeHtml(benefitScope)}</p>` : ""}
         ${savingsLabel ? `<div class="savings-line">${escapeHtml(savingsLabel)}</div>` : ""}
         ${promo.verified_cards ? `<p class="eligible-card-label">${escapeHtml(promo.bank === "Familiar" && promo.verified_cards.length > 100 ? "Tarjetas de crédito Familiar" : promo.verified_cards.replace(/^Tarjetas de crédito\s+/i, ""))}</p>` : ""}
         ${promo.source_warning ? `<p class="source-warning-label">Tope pendiente de aclaración del banco</p>` : ""}
