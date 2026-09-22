@@ -442,6 +442,19 @@ def write_csv(path, rows):
             writer.writerow({k: out.get(k, "") for k in fieldnames})
 
 
+def preserve_unchanged_source_timestamps(promotions, previous):
+    previous_by_id = {item['id']: item for item in previous}
+    transient = {'source_checked_at', 'source_file_updated_at'}
+    for item in promotions:
+        old = previous_by_id.get(item['id'])
+        if not old:
+            continue
+        content = {key: value for key, value in item.items() if key not in transient}
+        old_content = {key: value for key, value in old.items() if key not in transient}
+        if content == old_content:
+            item['source_file_updated_at'] = old.get('source_file_updated_at')
+
+
 def main():
     PUBLIC.mkdir(exist_ok=True)
     DATA.mkdir(exist_ok=True)
@@ -451,8 +464,9 @@ def main():
     previous_path = PUBLIC / 'promotions.json'
     previous = json.loads(previous_path.read_text(encoding='utf-8')) if previous_path.exists() else []
     committed = subprocess.run(['git', 'show', 'HEAD:public/promotions.json'], cwd=ROOT, capture_output=True, encoding='utf-8')
-    if committed.returncode == 0:
-        previous.extend(json.loads(committed.stdout))
+    committed_previous = json.loads(committed.stdout) if committed.returncode == 0 else []
+    previous.extend(committed_previous)
+    preserve_unchanged_source_timestamps(promotions, committed_previous or previous)
     old_manifest_path = PUBLIC / 'manifest.json'
     old_manifest = json.loads(old_manifest_path.read_text(encoding='utf-8')) if old_manifest_path.exists() else {}
     aliases = favorite_aliases(previous, promotions, {**old_manifest.get('favorite_aliases', {}), **aliases})

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T12:37:02.434636+00:00",
-  "promotion_count": 1741,
+  "generated_at": "2026-09-22T12:40:32.894495+00:00",
+  "promotion_count": 1760,
   "banks": [
     "Atlas",
     "BNF",
@@ -50,6 +50,7 @@
     "H&M",
     "Heladerías",
     "Hogar",
+    "Hogar y construcción",
     "Hogar y tecnología",
     "Hoteles",
     "Indumentaria",
@@ -97,15 +98,15 @@
     "Últimos días"
   ],
   "source_files": [
-    "outputs/gnb_beneficios_por_categoria.csv",
-    "outputs/familiar_beneficios_por_categoria.csv",
-    "outputs/sudameris_beneficios_por_categoria.csv",
-    "outputs/itau_beneficios_por_categoria.csv",
-    "outputs/bnf_beneficios_por_categoria.csv",
-    "outputs/continental_beneficios_por_categoria.csv",
-    "outputs/atlas_beneficios_por_categoria.csv",
-    "outputs/universitaria_beneficios_por_categoria.csv",
-    "outputs/ueno_beneficios_por_categoria.csv"
+    "outputs\\gnb_beneficios_por_categoria.csv",
+    "outputs\\familiar_beneficios_por_categoria.csv",
+    "outputs\\sudameris_beneficios_por_categoria.csv",
+    "outputs\\itau_beneficios_por_categoria.csv",
+    "outputs\\bnf_beneficios_por_categoria.csv",
+    "outputs\\continental_beneficios_por_categoria.csv",
+    "outputs\\atlas_beneficios_por_categoria.csv",
+    "outputs\\universitaria_beneficios_por_categoria.csv",
+    "outputs\\ueno_beneficios_por_categoria.csv"
   ],
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",

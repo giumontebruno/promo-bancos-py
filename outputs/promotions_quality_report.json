@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T12:37:02.434636+00:00",
-  "input_count": 1741,
-  "promotion_count": 1741,
+  "generated_at": "2026-09-22T12:40:32.894495+00:00",
+  "input_count": 1760,
+  "promotion_count": 1760,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -433,14 +433,14 @@
     "Continental": 754,
     "Coop. Universitaria": 77,
     "Familiar": 241,
-    "GNB": 36,
+    "GNB": 55,
     "Itaú": 120,
     "Sudameris": 169,
     "ueno bank": 231
   },
   "issue_counts": {
     "validity_unconfirmed": 61,
-    "limits_unconfirmed": 80,
+    "limits_unconfirmed": 95,
     "source_amount_conflict": 5,
     "multiple_purchase_limits": 335,
     "multiple_refund_limits": 100
@@ -3701,6 +3701,141 @@
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-colonial-resto-bar-hotel-bases-y-condiciones"
+    },
+    {
+      "id": "940443839efb6932",
+      "bank": "GNB",
+      "merchant": "Farmacenter",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf"
+    },
+    {
+      "id": "71b40f8b5a89ef38",
+      "bank": "GNB",
+      "merchant": "Baza",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4755_bases-y-condiciones-baza.pdf"
+    },
+    {
+      "id": "6f29d1f28267c3e2",
+      "bank": "GNB",
+      "merchant": "Pandolfo",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4128_bases-y-condiciones-pandolfo.pdf"
+    },
+    {
+      "id": "c147d63b64792296",
+      "bank": "GNB",
+      "merchant": "Municipalidad de Asunción",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
+    },
+    {
+      "id": "f9dad6a6485cbf77",
+      "bank": "GNB",
+      "merchant": "Municipalidad de Benjamín Aceval",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
+    },
+    {
+      "id": "351ce3cea8b50a26",
+      "bank": "GNB",
+      "merchant": "Municipalidad de Ciudad del Este",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
+    },
+    {
+      "id": "a62ba9fb8a979027",
+      "bank": "GNB",
+      "merchant": "Municipalidad de Encarnación",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
+    },
+    {
+      "id": "9c915d1c21fa5575",
+      "bank": "GNB",
+      "merchant": "Municipalidad de Fernando de la Mora",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
+    },
+    {
+      "id": "97d99e7e2be943e6",
+      "bank": "GNB",
+      "merchant": "Municipalidad de Hernandarias",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
+    },
+    {
+      "id": "e6d3c2664cebe291",
+      "bank": "GNB",
+      "merchant": "Municipalidad de Hohenau",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
+    },
+    {
+      "id": "f89ea36314780032",
+      "bank": "GNB",
+      "merchant": "Municipalidad de Lambaré",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
+    },
+    {
+      "id": "e122005b9f77f919",
+      "bank": "GNB",
+      "merchant": "Municipalidad de Luque",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
+    },
+    {
+      "id": "aba803e8350b16fe",
+      "bank": "GNB",
+      "merchant": "Municipalidad de Nueva Colombia",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
+    },
+    {
+      "id": "c005fa541bf7ea37",
+      "bank": "GNB",
+      "merchant": "Municipalidad de Pilar",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
+    },
+    {
+      "id": "4112b144dd65c0e4",
+      "bank": "GNB",
+      "merchant": "Municipalidad de San Bernardino",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf"
     },
     {
       "id": "98035059a53c1862",

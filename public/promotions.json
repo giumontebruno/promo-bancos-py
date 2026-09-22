@@ -75477,7 +75477,7 @@
     "id": "46a2b35422e6aef0",
     "offer_kind": "base",
     "offer_label": "Clásica / Oro",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -75543,7 +75543,7 @@
     "id": "2dd26404191af52e",
     "offer_kind": "base",
     "offer_label": "Clásica / Oro",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -75611,7 +75611,7 @@
     "id": "1f0a6a298b1052b6",
     "offer_kind": "premium",
     "offer_label": "Black / Premier",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -75677,7 +75677,7 @@
     "id": "3465f12954488b4a",
     "offer_kind": "premium",
     "offer_label": "Black / Premier",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -75716,6 +75716,305 @@
   },
   {
     "bank": "GNB",
+    "category": "Farmacias",
+    "merchant_name": "Farmacenter",
+    "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
+    "benefit_summary": "35% de descuento anunciado en perfumería (20% en caja + 15% de reintegro)",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "35%",
+      "20%",
+      "15%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Lunes",
+    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
+    "raw_detail": "35% de descuento anunciado en perfumería (20% en caja + 15% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 32% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "source_warning": "",
+    "verified_cards": "Mastercard Black, Black Premier y Metalcard Premier GNB",
+    "original_source_text": "",
+    "id": "c6ad3302dc61e640",
+    "offer_kind": "premium",
+    "offer_label": "Perfumería · Black",
+    "effective_percent": 32.0,
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-03-16",
+      "ends_on": "2026-09-28",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+        }
+      ],
+      "cards": [
+        "Mastercard Black, Black Premier y Metalcard Premier GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Farmacias",
+    "merchant_name": "Farmacenter",
+    "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
+    "benefit_summary": "30% de descuento anunciado en perfumería (20% en caja + 10% de reintegro)",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "30%",
+      "20%",
+      "10%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Lunes",
+    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
+    "raw_detail": "30% de descuento anunciado en perfumería (20% en caja + 10% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 28% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "source_warning": "",
+    "verified_cards": "Mastercard Clásica y Oro GNB",
+    "original_source_text": "",
+    "id": "844a1adfde201a04",
+    "offer_kind": "base",
+    "offer_label": "Perfumería · Clásica/Oro",
+    "effective_percent": 28.0,
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-03-16",
+      "ends_on": "2026-09-28",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+        }
+      ],
+      "cards": [
+        "Mastercard Clásica y Oro GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Farmacias",
+    "merchant_name": "Farmacenter",
+    "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
+    "benefit_summary": "30% de descuento anunciado en medicamentos (15% en caja + 15% de reintegro)",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "30%",
+      "15%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Lunes",
+    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
+    "raw_detail": "30% de descuento anunciado en medicamentos (15% en caja + 15% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 27,75% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "source_warning": "",
+    "verified_cards": "Mastercard Black, Black Premier y Metalcard Premier GNB",
+    "original_source_text": "",
+    "id": "690683e4c8ef1327",
+    "offer_kind": "premium",
+    "offer_label": "Medicamentos · Black",
+    "effective_percent": 27.75,
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-03-16",
+      "ends_on": "2026-09-28",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+        }
+      ],
+      "cards": [
+        "Mastercard Black, Black Premier y Metalcard Premier GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Farmacias",
+    "merchant_name": "Farmacenter",
+    "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
+    "benefit_summary": "25% de descuento anunciado en medicamentos (15% en caja + 10% de reintegro)",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "25%",
+      "15%",
+      "10%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Lunes",
+    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
+    "raw_detail": "25% de descuento anunciado en medicamentos (15% en caja + 10% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 23,5% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "source_warning": "",
+    "verified_cards": "Mastercard Clásica y Oro GNB",
+    "original_source_text": "",
+    "id": "7a118bffdae503af",
+    "offer_kind": "base",
+    "offer_label": "Medicamentos · Clásica/Oro",
+    "effective_percent": 23.5,
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-03-16",
+      "ends_on": "2026-09-28",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+        }
+      ],
+      "cards": [
+        "Mastercard Clásica y Oro GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Farmacias",
+    "merchant_name": "Farmacenter",
+    "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
+    "benefit_summary": "Hasta 3 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
+    "raw_detail": "Hasta 3 cuotas sin intereses. Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Solicitar o seleccionar la cantidad de cuotas al pagar.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito Mastercard GNB",
+    "original_source_text": "",
+    "id": "940443839efb6932",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-03-16",
+      "ends_on": "2026-09-28",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito Mastercard GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
     "category": "Gastronomía",
     "merchant_name": "1688 Restó",
     "merchant_locations_or_group": "Todas las sucursales de 1688 Restó. Ciudad indicada en las bases: Asunción.",
@@ -75749,7 +76048,7 @@
     "id": "0432a1d90acc34ca",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -75821,7 +76120,7 @@
     "id": "fa6b7cd77c5e7952",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -75891,7 +76190,7 @@
     "id": "43e5154369f14234",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -75963,7 +76262,7 @@
     "id": "241f691f3523a200",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76033,7 +76332,7 @@
     "id": "38f77dc8b23b93c6",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76105,7 +76404,7 @@
     "id": "f2309db747649f80",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76175,7 +76474,7 @@
     "id": "fcf5def7e25f7a55",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76247,7 +76546,7 @@
     "id": "7b9dceca99eabe56",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76317,7 +76616,7 @@
     "id": "8ef655d8a8311b43",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76389,7 +76688,7 @@
     "id": "cd33e93e773a9c27",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76459,7 +76758,7 @@
     "id": "17a888e3a6d73f6a",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76531,7 +76830,7 @@
     "id": "c84e381ab669a970",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76601,7 +76900,7 @@
     "id": "3f41089de2801f27",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76673,7 +76972,7 @@
     "id": "804439b9c09a8714",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76743,7 +77042,7 @@
     "id": "0608ec9e81001158",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76815,7 +77114,7 @@
     "id": "6e92f437036b2f2d",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76885,7 +77184,7 @@
     "id": "174c48dfb3d4b386",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -76957,7 +77256,7 @@
     "id": "ccbc4904b47d1913",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77027,7 +77326,7 @@
     "id": "59e0a7dffe8f8ff8",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77099,7 +77398,7 @@
     "id": "479c453b0bb7752c",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77169,7 +77468,7 @@
     "id": "80374663e8d0efc5",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77241,7 +77540,7 @@
     "id": "a23325fe6229f0b4",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77311,7 +77610,7 @@
     "id": "edc589626ae3526e",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77383,7 +77682,7 @@
     "id": "eb99358b15d958e3",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77453,7 +77752,7 @@
     "id": "450e193bf1d2ecd7",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77525,7 +77824,7 @@
     "id": "7cff98280dfdfd76",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77595,7 +77894,7 @@
     "id": "0832253c20688657",
     "offer_kind": "base",
     "offer_label": "Mastercard",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77667,7 +77966,7 @@
     "id": "2fec0c28c3bd1803",
     "offer_kind": "base",
     "offer_label": "Mastercard · QR GNB",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77704,6 +78003,790 @@
   },
   {
     "bank": "GNB",
+    "category": "Hogar y construcción",
+    "merchant_name": "Baza",
+    "merchant_locations_or_group": "Fidel Maíz esquina Osvaldo Chávez, Capiatá",
+    "benefit_summary": "Hasta 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4755_bases-y-condiciones-baza.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/4755_bases-y-condiciones-baza.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB Clásica, Oro, Experience, Black, Black Premier, Metalcard Premier, Platinum e Infinite",
+    "original_source_text": "",
+    "id": "71b40f8b5a89ef38",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB Clásica, Oro, Experience, Black, Black Premier, Metalcard Premier, Platinum e Infinite"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Hogar y construcción",
+    "merchant_name": "Pandolfo",
+    "merchant_locations_or_group": "Avda. Mariscal López c/ José Ocampos Lanzoni, Asunción; Av. Irrazábal c/ 14 de Mayo, Encarnación; Ruta 6 km 3,5, Encarnación; Dr. Juan León Mallorquín - Los Maizales, Santa Rita; Av. Mcal. López c/ Valois Rivarola, Ciudad del Este; Mcal. José Félix Estigarribia c/ Virgen de Fátima, San Lorenzo; Dr. José Gaspar Rodríguez de Francia - Calle 6 Zanja Pe, Campo 9; Ruta 7 c/ Av. Jacarandá, Nueva Esperanza; Tte. Sergio Martínez c/ Amanecer, San Ignacio; Ruta Nacional Gral. Aquino, Katueté; San José Obrero c/ Ruta 6, María Auxiliadora",
+    "benefit_summary": "Hasta 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4128_bases-y-condiciones-pandolfo.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/4128_bases-y-condiciones-pandolfo.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "6f29d1f28267c3e2",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de Asunción",
+    "merchant_locations_or_group": "Asunción",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "c147d63b64792296",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de Benjamín Aceval",
+    "merchant_locations_or_group": "Benjamín Aceval",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "f9dad6a6485cbf77",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de Ciudad del Este",
+    "merchant_locations_or_group": "Ciudad del Este",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "351ce3cea8b50a26",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de Encarnación",
+    "merchant_locations_or_group": "Encarnación",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "a62ba9fb8a979027",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de Fernando de la Mora",
+    "merchant_locations_or_group": "Fernando de la Mora",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "9c915d1c21fa5575",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de Hernandarias",
+    "merchant_locations_or_group": "Hernandarias",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "97d99e7e2be943e6",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de Hohenau",
+    "merchant_locations_or_group": "Hohenau",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "e6d3c2664cebe291",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de Lambaré",
+    "merchant_locations_or_group": "Lambaré",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "f89ea36314780032",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de Luque",
+    "merchant_locations_or_group": "Luque",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "e122005b9f77f919",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de Nueva Colombia",
+    "merchant_locations_or_group": "Nueva Colombia",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "aba803e8350b16fe",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de Pilar",
+    "merchant_locations_or_group": "Pilar",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "c005fa541bf7ea37",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Servicios",
+    "merchant_name": "Municipalidad de San Bernardino",
+    "merchant_locations_or_group": "San Bernardino",
+    "benefit_summary": "Hasta 12 cuotas sin intereses para impuesto inmobiliario",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-01-05 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/imagenes/961_bases-y-condiciones-impuestos-inmobiliarios.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses para impuesto inmobiliario. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones. Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "4112b144dd65c0e4",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:25:37-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-05",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    }
+  },
+  {
+    "bank": "GNB",
     "category": "Tiendas",
     "merchant_name": "Copemarket",
     "merchant_locations_or_group": "KM.2: Av. Eusebio Ayala esq. Bartolomé, Asunción; Facundo Machain: Facundo Machain y RI 18 Pitiantuta, Asunción; Maitei: Av. Madame L. esq. Tte. Victor Valdez, Fernando de la Mora; Ruta 1 Km.14: Ruta Dptal D027 (Ex Ruta 1) esq. Buenos Aires, San Lorenzo; Autopista: Av. Silvio Pettirossi y Cochabamba, Luque; Villa Morra: Mcal. López y San Martín, Asunción; Km 6,5 C.D.E.: Blas Garay y Monseñor Rodríguez, Ciudad del Este; Encarnación Ruta 1: Ruta 1 Km 374 y Avda. Bernardino Caballero, Encarnación; Ferrocarril: Av. M. López e/ México y Caballero, Asunción; 25 de Mayo: 25 de Mayo esq. Choferes del Chaco - Mburicaó, Asunción; Hohenau: Ruta 6 Km. 35, Hohenau; Bella Vista Sur: Ruta 6 Km. 50. Paseo Bella Vista, Bella Vista Sur",
@@ -77733,7 +78816,7 @@
     "id": "31f43f8be0bf00d1",
     "offer_kind": "base",
     "offer_label": "Clásica / Oro",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77799,7 +78882,7 @@
     "id": "af38f1ddcf013b5d",
     "offer_kind": "base",
     "offer_label": "Clásica / Oro",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77867,7 +78950,7 @@
     "id": "3eddc4d7aea54807",
     "offer_kind": "premium",
     "offer_label": "Black / Premier",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,
@@ -77933,7 +79016,7 @@
     "id": "356adb153b084d5b",
     "offer_kind": "premium",
     "offer_label": "Black / Premier",
-    "source_checked_at": "2026-09-22T12:30:00Z",
+    "source_checked_at": "2026-09-22",
     "source_file_updated_at": "2026-09-22T09:25:37-03:00",
     "terms": {
       "version": 1,

@@ -2,10 +2,19 @@ import unittest
 from promo_backend.quality import validity_dates, extract_limits, deduplicate, normalize_terms, favorite_aliases
 from scrapers.enrich_locations_google import match_score
 from scrapers.enrich_locations_google import should_enrich
-from promo_backend.normalize import normalize_row
+from promo_backend.normalize import normalize_row, preserve_unchanged_source_timestamps
 
 
 class QualityTests(unittest.TestCase):
+    def test_source_update_date_changes_only_when_offer_changes(self):
+        old = {'id': 'same', 'benefit_summary': '20% reintegro', 'source_checked_at': '2026-09-20', 'source_file_updated_at': '2026-09-19'}
+        unchanged = {**old, 'source_checked_at': '2026-09-22', 'source_file_updated_at': '2026-09-22'}
+        changed = {**unchanged, 'id': 'changed', 'benefit_summary': '25% reintegro'}
+        preserve_unchanged_source_timestamps([unchanged, changed], [old, {**old, 'id': 'changed'}])
+        self.assertEqual(unchanged['source_file_updated_at'], '2026-09-19')
+        self.assertEqual(unchanged['source_checked_at'], '2026-09-22')
+        self.assertEqual(changed['source_file_updated_at'], '2026-09-22')
+
     def test_qr_savings_take_priority_over_financing(self):
         for summary in ['6 Cuotas sin intereses 35% Pago con QR', 'Hasta 35% QR de ahorro y 6 cuotas sin intereses', '20% de ahorro y 6 cuotas sin intereses']:
             promo = normalize_row('Itaú', {'Cantidad de descuento / beneficio': summary})
