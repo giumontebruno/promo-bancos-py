@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-beta-25-login-cover";
+const CACHE_NAME = "payback-py-beta-26-round-logo";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -12,8 +12,11 @@ const APP_SHELL = [
   "./manifest.webmanifest",
   "./assets/logos/payback-py-wordmark.png",
   "./assets/payback-login-map.png",
-  "./assets/logos/payback-py-app-dark-192.png",
-  "./assets/logos/payback-py-app-dark-512.png",
+  "./assets/logos/payback-py-icon-round-192.png",
+  "./assets/logos/payback-py-icon-round-512.png",
+  "./assets/logos/payback-py-launch-180.png",
+  "./assets/logos/payback-py-launch-192.png",
+  "./assets/logos/payback-py-launch-512.png",
   "../public/promotions.json",
 ];
 
@@ -73,7 +76,7 @@ self.addEventListener('push', event => {
   try { data = event.data?.json() || {}; } catch { /* A malformed push still gets a safe notification. */ }
   event.waitUntil(self.registration.showNotification(data.title || 'Payback PY', {
     body: String(data.body || 'Consultá tus beneficios de hoy.').slice(0, 600),
-    icon: './assets/logos/payback-py-app-dark-192.png',
+    icon: './assets/logos/payback-py-icon-round-192.png',
     tag: data.tag || 'payback-favorites',
     data: { url: './?view=favorites' },
   }));

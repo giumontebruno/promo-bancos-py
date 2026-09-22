@@ -2,7 +2,7 @@ import { build } from 'esbuild';
 import { cp, mkdir, readFile, writeFile } from 'node:fs/promises';
 await mkdir('dist/server', { recursive: true });
 // Embed the original artwork so the favicon's circular clipping works standalone.
-const faviconArtwork = await readFile('app-web/assets/logos/payback-py-icon-192.png');
+const faviconArtwork = await readFile('app-web/assets/logos/payback-py-icon-round-192.png');
 await writeFile('app-web/assets/logos/payback-py-favicon.svg', `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192"><defs><clipPath id="circle"><circle cx="96" cy="96" r="95"/></clipPath></defs><image width="192" height="192" clip-path="url(#circle)" href="data:image/png;base64,${faviconArtwork.toString('base64')}"/></svg>`);
 await build({ entryPoints: ['app-web/beta-client.js'], bundle: true, format: 'iife', platform: 'browser', target: 'es2022', outfile: 'app-web/beta-bundle.js', minify: true });
 await build({ entryPoints: ['app-web/admin-client.js'], bundle: true, format: 'iife', platform: 'browser', target: 'es2022', outfile: 'app-web/admin-bundle.js', minify: true });

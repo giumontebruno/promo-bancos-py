@@ -73,7 +73,7 @@
     if (!await registration.pushManager.getSubscription()) throw new Error('El registro venció. Volvé a activar las notificaciones.');
     await registration.showNotification('Prueba de Payback PY', {
       body: 'Este es un aviso de prueba de tus favoritos.',
-      icon: './assets/logos/payback-py-app-dark-192.png',
+      icon: './assets/logos/payback-py-icon-round-192.png',
       tag: 'payback-device-test', data: {url:'./?view=favorites'},
     });
   }
