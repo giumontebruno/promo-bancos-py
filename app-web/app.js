@@ -31,18 +31,18 @@ const KNOWN_LOCAL_POINTS = [
 ];
 const CATEGORY_GROUPS = [
   ["Todas", []],
-  ["Supermercados", ["super", "mayorista", "delimarket", "stock", "real", "contimarket"]],
+  ["Supermercados", ["super", "mayorista", "delimarket", "stock", "real", "contimarket", "frigorifico"]],
   ["Combustible", ["combustible", "estacion", "estaciones", "shell", "puma flota"]],
   ["Farmacias", ["farmacia", "farma", "drugstore", "perfumeria", "perfumerías"]],
-  ["Gastronomía", ["gastronomia", "gastronomía", "cafeteria", "cafeterías", "heladeria", "heladerías"]],
-  ["Tiendas", ["tienda", "tiendas", "moda", "indumentaria", "shopping", "shoppings", "joyeria", "joyerías", "joyas", "niños", "jugueteria", "jugueterías"]],
-  ["Hogar y construcción", ["hogar", "construccion", "construcción", "ferreteria", "ferreterías", "muebleria", "mueblerías", "industrial"]],
-  ["Tecnología", ["tecnologia", "tecnología", "electronica", "electrónica"]],
+  ["Gastronomía", ["gastronomia", "gastronomía", "cafeteria", "cafeterías", "heladeria", "heladerías", "fast food"]],
+  ["Tiendas", ["tienda", "tiendas", "moda", "indumentaria", "shopping", "shoppings", "joyeria", "joyerías", "joyas", "niños", "jugueteria", "jugueterías", "libreria", "bodega"]],
+  ["Hogar y construcción", ["hogar", "construccion", "construcción", "ferreteria", "ferreterías", "muebleria", "mueblerías", "muebles", "industrial"]],
+  ["Tecnología", ["tecnologia", "tecnología", "electronica", "electrónica", "electrodomesticos"]],
   ["Clubes sociales", ["clubes", "deportes y clubes", "club social", "club deportivo", "country club", "centro social", "cit", "club internacional de tenis", "asuncion tenis club", "asunción tenis club", "cerro porteño", "cerro porteno", "olimpia"]],
   ["Entretenimiento", ["entretenimiento", "eventos", "teatro", "deportes", "academia", "gym", "gimnasio", "pilates", "feria", "caza", "pesca"]],
   ["Viajes", ["viaje", "viajes", "turismo", "hoteles", "hotel", "cabaña", "cabañas", "aéreas", "aereas"]],
-  ["Salud y belleza", ["salud", "belleza", "peluqueria", "peluquerías", "spa", "spas", "veterinaria", "veterinarias"]],
-  ["Servicios", ["educacion", "educación", "seguros", "municipalidades", "juridicos", "jurídicos", "inmobiliarias", "vehículos", "vehiculos"]],
+  ["Salud y belleza", ["salud", "belleza", "bienestar", "peluqueria", "peluquerías", "spa", "spas", "veterinaria", "veterinarias", "optica", "laboratorio", "estetica"]],
+  ["Servicios", ["servicios", "educacion", "educación", "instituciones educativas", "seguros", "municipalidades", "juridicos", "jurídicos", "inmobiliarias", "inmuebles", "vehículo", "vehiculo", "mecanica"]],
   ["Especiales", ["beneficios del mes", "primera compra", "privilege", "promociones especiales", "cuotas", "tarjetas", "últimos días", "ultimos dias", "varios", "otros", "sin categoría"]],
 ];
 const METRO_AREA_TERMS = [
@@ -2323,15 +2323,16 @@ function getCategories() {
 }
 
 function getPromoCategoryGroup(promo) {
-  const normalized = normalizeDayName([
-    promo.category,
-    promo.merchant_name,
-    promo.merchant_locations_or_group,
-  ].join(" "));
-  const found = CATEGORY_GROUPS.find(([group, needles]) => (
-    group !== "Todas" && needles.some((needle) => normalized.includes(normalizeDayName(needle)))
-  ));
-  return found ? found[0] : "Especiales";
+  const merchant = normalizeDayName(promo.merchant_name);
+  if (/farma|drugstore|perfumeria/.test(merchant)) return "Farmacias";
+  const findGroup = (text) => {
+    const groups = CATEGORY_GROUPS.filter(([group]) => group !== "Todas");
+    const exact = groups.find(([, needles]) => needles.some((needle) => text === normalizeDayName(needle)));
+    return (exact || groups.find(([, needles]) => needles.some((needle) => text.includes(normalizeDayName(needle)))))?.[0];
+  };
+  const categoryGroup = findGroup(normalizeDayName(promo.category));
+  if (categoryGroup && categoryGroup !== "Especiales") return categoryGroup;
+  return findGroup(normalizeDayName([merchant, promo.merchant_locations_or_group].join(" "))) || "Especiales";
 }
 
 function getCategoryOrder(category) {
