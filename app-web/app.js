@@ -33,7 +33,7 @@ const CATEGORY_GROUPS = [
   ["Todas", []],
   ["Supermercados", ["super", "mayorista", "delimarket", "stock", "real", "contimarket"]],
   ["Combustible", ["combustible", "estacion", "estaciones", "shell", "puma flota"]],
-  ["Farmacias", ["farmacia", "farmacias", "perfumeria", "perfumerías"]],
+  ["Farmacias", ["farmacia", "farma", "drugstore", "perfumeria", "perfumerías"]],
   ["Gastronomía", ["gastronomia", "gastronomía", "cafeteria", "cafeterías", "heladeria", "heladerías"]],
   ["Tiendas", ["tienda", "tiendas", "moda", "indumentaria", "shopping", "shoppings", "joyeria", "joyerías", "joyas", "niños", "jugueteria", "jugueterías"]],
   ["Hogar y construcción", ["hogar", "construccion", "construcción", "ferreteria", "ferreterías", "muebleria", "mueblerías", "industrial"]],
@@ -2398,7 +2398,7 @@ function getDetailRows(promo, variant = null) {
   const rawDetail = cleanSentence(promo.raw_detail || promo.validity || "");
   const rows = [
     ["Banco", promo.bank || ""],
-    ["Categoría", promo.category || ""],
+    ["Categoría", getPromoCategoryGroup(promo)],
     ["Comercios/locales", getMerchantDetail(promo), "merchants"],
     ["Días", getDisplayDays(promo)],
     ["Fecha", getDisplayValidity(promo)],
