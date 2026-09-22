@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T12:24:24.237380+00:00",
-  "input_count": 1815,
-  "promotion_count": 1815,
+  "generated_at": "2026-09-22T12:37:02.434636+00:00",
+  "input_count": 1741,
+  "promotion_count": 1741,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -423,22 +423,24 @@
     "3934c3bbc168d807": "00db8eb1bc1b01c4",
     "9babe81ad77b78f0": "5a4dfc42de19d160",
     "470a74da8764f6c2": "0376b0c49c1b2a3e",
-    "9eb751e4bd3e35df": "fa4503d855266931"
+    "9eb751e4bd3e35df": "fa4503d855266931",
+    "0a6b1ca680429cdb": "880469fc426d2f2f",
+    "0e1516c9fbcec764": "a46a96bc93d3e4fd"
   },
   "by_bank": {
-    "Atlas": 42,
+    "Atlas": 38,
     "BNF": 75,
     "Continental": 754,
     "Coop. Universitaria": 77,
     "Familiar": 241,
     "GNB": 36,
-    "Itaú": 121,
-    "Sudameris": 238,
+    "Itaú": 120,
+    "Sudameris": 169,
     "ueno bank": 231
   },
   "issue_counts": {
-    "validity_unconfirmed": 64,
-    "limits_unconfirmed": 89,
+    "validity_unconfirmed": 61,
+    "limits_unconfirmed": 80,
     "source_amount_conflict": 5,
     "multiple_purchase_limits": 335,
     "multiple_refund_limits": 100
@@ -643,16 +645,6 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "6541ac1bc94c2806",
-      "bank": "Atlas",
-      "merchant": "Spring Deals",
-      "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web//Bases%20y%20Condiciones%20Soles%20Recompensa%20Sep%2026.pdf"
-    },
-    {
       "id": "c3345bfae8124155",
       "bank": "Atlas",
       "merchant": "Springfield",
@@ -665,15 +657,6 @@
       "id": "b5f2bfea9a81f447",
       "bank": "Atlas",
       "merchant": "women'secret",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "2cfb9cd8678d662c",
-      "bank": "Atlas",
-      "merchant": "BOX Mayorista",
       "issues": [
         "validity_unconfirmed"
       ],
@@ -3810,24 +3793,6 @@
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/297/detalle"
     },
     {
-      "id": "504757e911bc3bbd",
-      "bank": "Sudameris",
-      "merchant": "Alejandria",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/storage/app/uploads/public/6aa/997/635/6aa997635f945481010677.pdf"
-    },
-    {
-      "id": "eeef3dea1edd9d83",
-      "bank": "Sudameris",
-      "merchant": "Almacen de las flores la cuadrita",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/storage/app/uploads/public/6aa/997/635/6aa997635f945481010677.pdf"
-    },
-    {
       "id": "040bedaf7d6481be",
       "bank": "Sudameris",
       "merchant": "Emac",
@@ -3846,24 +3811,6 @@
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-090926.pdf"
     },
     {
-      "id": "c1ac4d3ef7f73115",
-      "bank": "Sudameris",
-      "merchant": "Fiori",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/storage/app/uploads/public/6aa/997/635/6aa997635f945481010677.pdf"
-    },
-    {
-      "id": "4048dd6d87aa37e1",
-      "bank": "Sudameris",
-      "merchant": "Floreria Franco",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/storage/app/uploads/public/6aa/997/635/6aa997635f945481010677.pdf"
-    },
-    {
       "id": "807457934426218a",
       "bank": "Sudameris",
       "merchant": "INTERCOLEGIAL TRINITY - FOODPARK",
@@ -3871,33 +3818,6 @@
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/924/detalle"
-    },
-    {
-      "id": "ca1867769f62a4cd",
-      "bank": "Sudameris",
-      "merchant": "LIDO BAR - APERTURA LOCAL LUQUE",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/640/detalle"
-    },
-    {
-      "id": "704a85995b18c5e0",
-      "bank": "Sudameris",
-      "merchant": "La Divina Flor",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/storage/app/uploads/public/6aa/997/635/6aa997635f945481010677.pdf"
-    },
-    {
-      "id": "cb5eb62a0a4dbb6d",
-      "bank": "Sudameris",
-      "merchant": "L´Atelier Floral",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/storage/app/uploads/public/6aa/997/635/6aa997635f945481010677.pdf"
     },
     {
       "id": "21ee4e615bac8078",
@@ -3927,15 +3847,6 @@
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-4926.pdf"
     },
     {
-      "id": "d913ac4d53e38cd1",
-      "bank": "Sudameris",
-      "merchant": "My Garden",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/storage/app/uploads/public/6aa/997/635/6aa997635f945481010677.pdf"
-    },
-    {
       "id": "25f097b660a8ee1f",
       "bank": "Sudameris",
       "merchant": "STYL Optica",
@@ -3961,15 +3872,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-4926.pdf"
-    },
-    {
-      "id": "e3740170bec0f8e4",
-      "bank": "Sudameris",
-      "merchant": "Vemay Flores",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/storage/app/uploads/public/6aa/997/635/6aa997635f945481010677.pdf"
     },
     {
       "id": "fb152a7d1fb1b1f3",

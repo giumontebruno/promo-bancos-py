@@ -183,7 +183,7 @@ Total de beneficios/comercios: 754
 | Farmacia La Trinidad | 10%; 10% de reintegro | Los martes | Vigente hasta el 24 de agosto de 2027 | Encarnación |
 | Farmacia Ultrapharma | 15%; 15% de reintegro | Los martes | Vigente hasta el 23 de marzo de 2027 | No especificado |
 | Farmacia Vida | 20%; 20% de reintegro | Los martes | Vigente hasta el 12 de agosto de 2027 | Concepción |
-| Farmacia Ypané | 30%; 30% de reintegro | los martes | Vigente hasta el 15 de septiembre del 2026 | Concepción |
+| Farmacia Ypané | 30%; 30% de reintegro | Los martes | Vigente hasta el 21 de septiembre de 2027 | Concepción |
 | Farmacia y Perfumería Liz | 20%; 20% de reintegro | los martes | Vigente hasta el 24 de noviembre del 2026 | Coronel Oviedo |
 | Farmacia Ñeembucú | 20%; hasta 12 cuotas sin intereses; 20% de descuento | todos los días | Vigente hasta el 02 de marzo de 2027 | Pilar |
 | Farmacias Catedral | 30%; 10% de reintegro; 20% de descuento | los martes | Vigente hasta el 29 de diciembre del 2026 | No especificado |
@@ -340,7 +340,7 @@ Total de beneficios/comercios: 754
 | Vera e Hijos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de mayo de 2027 | Caaguazú |
 | Villa Morra Garden House | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de enero de 2027 | Asunción |
 | ZR Distribuidora | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 11 de febrero de 2027 | Fernando de la Mora |
-| Ánima - Anima | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 21 de septiembre del 2026 | Asunción |
+| Ánima | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 21 de septiembre de 2027 | Asunción |
 | Ñe'ẽ Porã Tecnologia y confort | 20% de reintegro | Todos los días | Vigente hasta el 17 de octubre del 2026 | San Ignacio, Misiones |
 
 ## Hoteles (10)

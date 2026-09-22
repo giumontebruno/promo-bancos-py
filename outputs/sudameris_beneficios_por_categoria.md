@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 238
+Total de promociones: 169
 
 ## Combustible
 
@@ -16,7 +16,6 @@ Total de promociones: 238
 |---|---|---|---|
 | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | 6 cuotas sin interés | Todos los días | • Todos los días hasta el 31 de diciembre del 2026. |
 | AMANO - PRIMAVERA | 20%; 25%; Hasta 12 cuotas sin interés | No especificado | • Desde el 18 hasta el 22 de septiembre 2026. |
-| CECCONELLO | 20%; 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el 18 al 21 de septiembre 2026. |
 | COLEGIO SAN ANDRÉS | Hasta 15 cuotas sin interés | No especificado | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. |
 | HYDROCLEAN | 20%; Hasta 12 cuotas sin interés | No especificado | • Desde el 01 al 25 de septiembre 2026. |
 | KUBE | 20%; 25%; Hasta 15 cuotas sin interés | No especificado | • Desde el 22 al 26 de septiembre 2026. |
@@ -98,20 +97,10 @@ Total de promociones: 238
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| 360 | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | 360 Consultores S.A. | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
 | 50 Calces | 20% de reintegro Hasta 10 Cuotas sin interés | Viernes y sábados | Desde 2026-03-13 hasta 2027-02-27 |
-| 7 FOR AL MANKIND | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| ACADEMY | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| ADIDAS | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| ADIDAS ORIGINAL | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| ADOLFO DOMINGUEZ | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| APHRODITE | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| Alejandria | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 6 cuotas sin interés | Todos los días | Desde 2026-09-16 hasta 2026-09-21 |
-| Almacen de las flores la cuadrita | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 6 cuotas sin interés | Todos los días | Desde 2026-09-16 hasta 2026-09-21 |
 | America Chopp | 20% de reintegro | Jueves a domingo | Desde 2026-06-11 hasta 2027-02-28 |
 | America Grill | 20% de reintegro | Jueves a domingo | Desde 2026-06-11 hasta 2027-02-28 |
-| BERTONI | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Bella Casa | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Benditta Women Benditta Style For Man | 20% de descuento en caja + 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Bistro Del Centro | 20% de reintegro | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
@@ -119,17 +108,9 @@ Total de promociones: 238
 | Brown Burguer | 20% de reintegro | Jueves a sábados | Desde 2026-04-02 hasta 2027-02-27 |
 | Buono Market/Food | 30% de reintegro | viernes y sábado | Desde 2026-04-03 hasta 2027-02-28 |
 | Busca Pies | 20% de descuento en caja + 10% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-09-04 hasta 2027-02-28 |
-| CARO CUORE | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| CHAMPS ELYSEES | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | CHEF’S KITCHEN | 20%; 25% | No especificado | • Viernes y sábado. • Desde el 28 de agosto hasta el 30 de setiembre 2026. |
-| CHRONOS | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| COLE HAAN | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| COOTCHY COO | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| CROCS | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| CULTURAL REFERENCE | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Calzados Mellba | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Calzados Parana | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| Capodarte | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Casa Angela | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
 | Casa Bakunovich | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Casa Heri | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
@@ -137,21 +118,16 @@ Total de promociones: 238
 | Consur Bike | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-04-03 hasta 2026-12-31 |
 | Corazón De Melon | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábados | Desde 2025-11-14 hasta 2027-02-28 |
 | Corazón de Melon | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2025-11-14 hasta 2027-02-28 |
-| Corazón de Melón | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Corazón de Melón | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábados | Desde 2026-03-06 hasta 2027-02-28 |
 | Credipar Electrodomésticos | 15% de descuento + 10% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-05 hasta 2027-02-28 |
 | Creser Jugando | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2025-04-01 hasta 2026-02-28 |
-| DAMAT | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Deport Center | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Di Lara | 20% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Diana Apocada | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | miércoles y jueves | Desde 2026-03-04 hasta 2027-02-28 |
 | Diva | 20% de reintegro Hasta 12 cuotas sin interés | Jueves a sábado | Desde 2026-03-05 hasta 2027-02-27 |
-| Divana | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Don Rey Resto Bar | 20% de reintegro | Viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
 | Doxamed | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | jueves y viernes | Desde 2026-03-06 hasta 2027-02-28 |
 | Dudalina | 20% de descuento en caja + 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| EL MERCADILLO ALMACEN DE BOTELLAS | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| ESTOY JUGUETERIA | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Emac | 15% de descuento Hasta 12 cuotas sin interés | todos los días | Desde 2026-05-04 hasta 2027-02-28 |
 | Emporio Store | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábados | Desde 2026-04-03 hasta 2027-02-27 |
 | Emy Express | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
@@ -162,42 +138,19 @@ Total de promociones: 238
 | Farmavida | 20% de reintegro Hasta 12 cuotas sin interés | El primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 | Farmavida | 20% de reintegro Hasta 12 cuotas sin interés | El primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 | Fashion Calzados | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| Fiore | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| Fiori | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 6 cuotas sin interés | Todos los días | Desde 2026-09-16 hasta 2026-09-21 |
-| Floreria Franco | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 6 cuotas sin interés | Todos los días | Desde 2026-09-16 hasta 2026-09-21 |
 | Galway | 20% de reintegro | Viernes a Domingo | Desde 2026-03-06 hasta 2027-02-28 |
 | Glamour By Sandri | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Granel Mercado Natural | 20% de reintegro + 5% elite | Último sábado de cada mes | Inicio no confirmado (0.07.26 en el PDF). Hasta 2026-12-31 |
-| HEY DUDE | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | INTERCOLEGIAL TRINITY - FOODPARK | 20% | No especificado | • Fechas: 18, 19, 20 y 24, 25, 26, 27 de septiembre 2026. |
-| ISADORA | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| JANIE AND JACK | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| JOSEFINA | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Jakare La Tienda | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-05-08 hasta 2027-02-27 |
 | Javi Deportes | 20% de reintegro Hasta 10 cuotas sin interés | miércoles | Desde 2025-01-15 hasta 2027-02-24 |
 | Joyeria Dominguez | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| KIDS ATELIER | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| KURT GEIGER | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| Kerastase | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Kyrios | 20% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2026-08-01 |
-| L'instant Deco | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| LE PARFUM | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| LEVIS | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| LIDO BAR - APERTURA LOCAL LUQUE | 20% | No especificado | • Lunes 21 de septiembre 2026. |
-| La Divina Flor | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 6 cuotas sin interés | Todos los días | Desde 2026-09-16 hasta 2026-09-21 |
 | La Fabril Pizza | 20% de reintegro | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | La Guarania Gran Almacén | 25% de reintegro Hasta 12 cuotas sin interés | Último sábado de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | Le Chic | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| Le Parfum Niche | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Liberato | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| Live! | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| L´Atelier Floral | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 6 cuotas sin interés | Todos los días | Desde 2026-09-16 hasta 2026-09-21 |
-| MAESTRO | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| MARIA LA PAZ | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| MARKETPLACE | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| MAYBELLINE | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | MI PORTAL COCA COLA | 20% de reintegro Hasta 12 cuotas sin interés | Jueves | Desde 2025-12-18 hasta 2026-07-31 |
-| MUAR | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Malenki s Moda Infantil | 10% de descuento en caja Hasta 10 cuotas sin interés | Todos los días | Desde 2026-06-07 hasta 2026-12-31 |
 | Mansion Design | 20% de descuento en caja + 10% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Mascotas & Cia | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
@@ -206,23 +159,12 @@ Total de promociones: 238
 | Milord | Hasta 50% de descuento en caja (según edad cumplida del cliente, con tope de hasta 50%), válido para un solo uso en fecha de cumpleaños. No incluye feriados y día de los enamorados 2026. | cumpleaños | Desde 2025-04-01 hasta 2026-02-28 |
 | Mirkel | 20% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-13 hasta 2026-08-01 |
 | Morena Canela | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábados | Desde 2026-05-15 hasta 2027-02-27 |
-| My Garden | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 6 cuotas sin interés | Todos los días | Desde 2026-09-16 hasta 2026-09-21 |
 | Mátalas | 20% de reintegro | Viernes y sábado | Desde 2025-10-24 hasta 2026-02-28 |
-| NEW BALANCE | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| NIKE | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Nutrifrut | 20% de reintegro | jueves a domingo | Desde 2026-03-06 hasta 2027-02-28 |
-| OPTICA UNO | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| OPTICA VISION | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Optica Itapua | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Optica Sur | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-27 |
 | Otti Rolls | 20% de reintegro + 5% elite | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
-| PAPYRUM | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| PARADISO | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| PENTI | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| PILAR | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| PIMA COTTON BY CUNA BELLA | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | PLUB | 20% | No especificado | • Último viernes de cada mes. • Desde el 01 de agosto 2026 hasta el 31 de octubre de 2026. |
-| PUMA | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Paseo Repsur | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Patri Duar Moda Infantil | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Patymel Make Up | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | miércoles y jueves | Desde 2026-03-04 hasta 2027-02-28 |
@@ -230,21 +172,17 @@ Total de promociones: 238
 | Pharmac | 20% descuento en caja + 10% reintegro vía Hasta 12 cuotas sin interés. | El primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 | Ping Pong | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Piña Colada Boutique | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| Planet Toys | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Poly Shop | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
 | Pretty Station | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
 | Progresar electrodomésticos | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Quiero Py | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábados | Desde 2025-07-04 hasta 2027-02-27 |
-| RAPSODIA | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | ROMMY | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | Viernes y sábados | Desde 2026-09-04 hasta 2026-10-31 |
-| RONDINA | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Rajomar Calzados | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Refrisur | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Renova Padel | 20% de reintegro + 5% Elite Hasta 10 cuotas sin interés | viernes y sábados | Desde 2025-01-01 hasta 2027-02-27 |
 | Romances Boutique | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Romances Kids | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Rulo Sport | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| SAX | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | STYL Optica | 10% de descuento en caja Hasta 12 cuotas sin interés | Todos los días | Desde 2026-04-20 hasta 2026-12-31 |
 | San Isidro Showroom | 20% de descuento en caja Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-07-17 hasta 2026-12-31 |
 | Selva Negra Kafee Haus | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | Jueves a domingo | Desde 2026-05-14 hasta 2027-02-28 |
@@ -254,25 +192,18 @@ Total de promociones: 238
 | Shop Vane | 20% de reintegro | viernes | Desde 2026-03-06 hasta 2027-02-28 |
 | Supermercado La Familia | 15% de reintegro | Último sábado de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | Sweet Store | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| TOBOGAN/CHICCO | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| TODOMODA | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| TRANQUERA | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Tasty Pizza | 20% de reintegro | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Terra Nova | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
 | Tiari | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Todoluz | 20% de reintegro Hasta 12 cuotas sin interés | Viernes | Desde 2026-03-06 hasta 2027-02-28 |
 | Totem Gym | • Membresía trimestral: 20% de descuento en caja y hasta 3 cuotas sin intereses. • Membresía semestral: 25% de descuento en caja y hasta 6 cuotas sin intereses. • Membresía anual: 30% de descuento en caja y hasta 12 cuot | Todos los días | Desde 2026-05-04 hasta 2026-12-31 |
 | Tres Chic Boutique | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| UZA | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Ula Ula Kids | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Umaai Sushis y Wok | 20% de reintegro | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| VANS | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
-| Vemay Flores | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 6 cuotas sin interés | Todos los días | Desde 2026-09-16 hasta 2026-09-21 |
 | Veterinaria Itapúa | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Vets | 20% de reintegro Hasta 10 Cuotas sin interés | Viernes | Desde 2026-08-21 hasta 2026-09-25 |
 | Vinader Computación | 20% de reintegro Hasta 12 cuotas sin interés | lunes a sabados | Desde 2026-03-02 hasta 2027-02-28 |
 | Vitalmed | 20% de descuento en caja +10% de reintegro con TC Hasta 12 cuotas sin interés | El primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
-| WORLD VESTIUM | 20% de reintegro en extracto pagando con tarjetas de crédito. 25% de reintegro pagando con tarjetas de crédito MasterCard Black y Visa Infinite. Hasta 12 cuotas sin interés | Todos los días | Desde 2026-09-18 hasta 2026-09-21 |
 | Wok Dinasty | 20% de reintegro | Viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
 | ZONA CENTRAL - ASUNCIÓN Y GRAN ASUNCIÓN | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 | Zara Vision Optica | 20% de reintegro +5% Elite Hasta 12 cuotas sin interés | viernes y sábados | Desde 2026-03-20 hasta 2027-02-27 |

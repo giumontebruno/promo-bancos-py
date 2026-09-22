@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 42
+Total de beneficios: 38
 
 ## Bienestar
 
@@ -32,9 +32,7 @@ Total de beneficios: 42
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Beneficios Spa y Peluquerías | 20% de reintegro; +5% de reintegro | Todos los Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 800.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro en el conjunto de locales adheridos |
-| Biggie Farma | 20% de descuento; +10% de reintegro | Todos los Lunes | Monto mínimo de compra Gs. 50.000.Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro |
 | Estaciones de Servicio | 20% de reintegro; +5% de reintegro | Todos los Martes | Mínimo de compra Gs. 200.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 700.000 para tarjetas de crédito Clásica y Oro en  |
-| Florerías | 20% de reintegro | Del 18 al 21 septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000. Vigente del 18 al 21 de septiembre del 2026. Válido en florerías adheridas. Se excluye las tarjetas prepago, corporativas, gourmet card, gift card, shopping M |
 | Impuestos al día | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | L'uomo | 6 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 . Valida para compras realizadas a través del POS de la red Infonet. Válido para las sucursales L\\\'uomo de Shopping Vilamorra, Shopping Mul |
 | Pinedo Shopping | 20% de descuento; 3 cuotas sin intereses | Todos los viernes | El descuento se realiza en caja. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica para tiendas adheridas a la promoci |
@@ -65,7 +63,6 @@ Total de beneficios: 42
 | Mango | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 | Pedro del Hierro | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 | Shopping Mariscal | 20% de descuento; Hasta 3 cuotas sin intereses | Todos los Miércoles | El descuento se realiza en caja. Aplica para tiendas adheridas a la promoción y pagos realizados a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a  |
-| Spring Deals | 20% de descuento; Hasta 12 cuotas sin intereses | 18 al 21 de septiembre | Hasta 20% de descuento en caja en locales adheridos y comunicados en www.delsol.com.py. La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas con la TC Atlas de |
 | Springfield | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’s Secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red In |
 | women'secret | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 
@@ -73,7 +70,6 @@ Total de beneficios: 42
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| BOX Mayorista | 20% de reintegro | Tercer Lunes del mes | Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para todas las tarjetas de crédito. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo persona |
 | Delimarket | 20% de reintegro; +5% de reintegro | Todos los Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito delSol Atlas Visa Signature, Gs. 1.500.000 para tarjetas de crédito delSol Atlas Visa Clásica. Aplica para compras realizadas a través |
 | Supermercados | 15% de reintegro; +5% de reintegro | Todos los Viernes | Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tar |
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T13:54:08+00:00",
+  "generated_at": "2026-09-22T12:36:33+00:00",
   "provider": "Official bank branch lists + reviewed location matches",
   "total_locations": 1808,
   "geocoded_locations": 135,
@@ -668,7 +668,10 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "location_verified_at": "2026-09-22T12:36:33+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:33.918399+00:00",
+      "google_enrichment_status": "matched",
+      "needs_review": false
     },
     {
       "id": "loc-a18304d354",
@@ -693,12 +696,15 @@
       "google_types": [
         "pharmacy",
         "store",
-        "health",
         "point_of_interest",
+        "health",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "location_verified_at": "2026-09-22T12:36:34+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:34.814877+00:00",
+      "google_enrichment_status": "matched",
+      "needs_review": false
     },
     {
       "id": "loc-137862a0b6",
@@ -774,8 +780,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:35.714469+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJHc8zwBipXZQRYOw3KEOsQ8E",
+      "google_candidate": {
+        "google_name": "Casa Grütter Fernando de la Mora",
+        "formatted_address": "Nueva Asunción, Fernando de la Mora 110328",
+        "lat": -25.3339988,
+        "lng": -57.5775225,
+        "checked_at": "2026-09-22T12:36:35+00:00"
+      }
     },
     {
       "id": "loc-1ff6c937a7",
@@ -806,8 +822,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:36.612578+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJHc8zwBipXZQRYOw3KEOsQ8E",
+      "google_candidate": {
+        "google_name": "Casa Grütter Fernando de la Mora",
+        "formatted_address": "Nueva Asunción, Fernando de la Mora 110328",
+        "lat": -25.3339988,
+        "lng": -57.5775225,
+        "checked_at": "2026-09-22T12:36:36+00:00"
+      }
     },
     {
       "id": "loc-0c7916e643",
@@ -841,8 +867,18 @@
         "service",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:37.541729+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJTVzeU9-oXZQR6NSArE1lfU0",
+      "google_candidate": {
+        "google_name": "SUPERMAS S.A.",
+        "formatted_address": "Asunción 001428",
+        "lat": -25.3253995,
+        "lng": -57.5713844,
+        "checked_at": "2026-09-22T12:36:37+00:00"
+      }
     },
     {
       "id": "loc-91e0ad0a9e",
@@ -873,8 +909,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "high",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:38.351091+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJV4UKm4uzXZQRcw8gDe7IK7A",
+      "google_candidate": {
+        "google_name": "BOX MAYORISTA, CAPIATÁ",
+        "formatted_address": "Clavel 114 114 Capiatá km 21, ruta 1, Capiatá 110239",
+        "lat": -25.3846168,
+        "lng": -57.4704475,
+        "checked_at": "2026-09-22T12:36:38+00:00"
+      }
     },
     {
       "id": "loc-dcc7f47aa0",
@@ -905,8 +951,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "high",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:39.352844+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJV4UKm4uzXZQRcw8gDe7IK7A",
+      "google_candidate": {
+        "google_name": "BOX MAYORISTA, CAPIATÁ",
+        "formatted_address": "Clavel 114 114 Capiatá km 21, ruta 1, Capiatá 110239",
+        "lat": -25.3846168,
+        "lng": -57.4704475,
+        "checked_at": "2026-09-22T12:36:39+00:00"
+      }
     },
     {
       "id": "loc-954db3d2fa",
@@ -937,8 +993,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:40.143750+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJHc8zwBipXZQRYOw3KEOsQ8E",
+      "google_candidate": {
+        "google_name": "Casa Grütter Fernando de la Mora",
+        "formatted_address": "Nueva Asunción, Fernando de la Mora 110328",
+        "lat": -25.3339988,
+        "lng": -57.5775225,
+        "checked_at": "2026-09-22T12:36:40+00:00"
+      }
     },
     {
       "id": "loc-7398d11133",
@@ -1012,8 +1078,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:40.909101+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJOXWydH6vXZQRAIMxu38WLpk",
+      "google_candidate": {
+        "google_name": "SUPER BOX MAYORISTA LUQUE",
+        "formatted_address": "PGF7+JR6 Profesora Inés Figueredo de Almirón, Luque 110928",
+        "lat": -25.2759704,
+        "lng": -57.4854766,
+        "checked_at": "2026-09-22T12:36:40+00:00"
+      }
     },
     {
       "id": "loc-55949de43c",
@@ -1047,8 +1123,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "high",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:41.779414+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJ1WVDMNKlXZQRp87HSpibCtY",
+      "google_candidate": {
+        "google_name": "Box Mayorista",
+        "formatted_address": "RutaTranschaco, Mariano Roque Alonso 111021",
+        "lat": -25.2312731,
+        "lng": -57.5391078,
+        "checked_at": "2026-09-22T12:36:41+00:00"
+      }
     },
     {
       "id": "loc-99313f94a1",
@@ -1079,8 +1165,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:42.695050+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJncInRACtXZQRxoEtHQfLEr8",
+      "google_candidate": {
+        "google_name": "BOX Mayorista Manuel Ortiz Guerrero",
+        "formatted_address": "profesor Lombardo 1437 c, San Lorenzo 2160",
+        "lat": -25.3674232,
+        "lng": -57.5165948,
+        "checked_at": "2026-09-22T12:36:42+00:00"
+      }
     },
     {
       "id": "loc-90f28d597c",
@@ -1111,8 +1207,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "high",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:43.565375+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJU9tLi6OrXZQR0egFLJhALj4",
+      "google_candidate": {
+        "google_name": "SUPERMAS ÑEMBY",
+        "formatted_address": "JCJQ+5R9, Acceso Sur, Ñemby 111203",
+        "lat": -25.3699652,
+        "lng": -57.5595681,
+        "checked_at": "2026-09-22T12:36:43+00:00"
+      }
     },
     {
       "id": "loc-d3dcfde46e",
@@ -1139,8 +1245,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:44.556841+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJkZFjNACxXZQRFQcY6gR9nmA",
+      "google_candidate": {
+        "google_name": "Casa Parana Suc Aregua",
+        "formatted_address": "PH3H+86Q, Areguá 110112",
+        "lat": -25.2966534,
+        "lng": -57.4218857,
+        "checked_at": "2026-09-22T12:36:44+00:00"
+      }
     },
     {
       "id": "loc-68dd380226",
@@ -1171,8 +1287,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:45.410422+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJ4cCXxlGxXZQR49PlMMnb3uE",
+      "google_candidate": {
+        "google_name": "Superseis Aregua",
+        "formatted_address": "MJQ9+6RP, Areguá 110101",
+        "lat": -25.3119124,
+        "lng": -57.3804334,
+        "checked_at": "2026-09-22T12:36:45+00:00"
+      }
     },
     {
       "id": "loc-f6f09af6c0",
@@ -1203,8 +1329,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:46.154640+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJcy8SdJeoXZQRcDfHeuByliI",
+      "google_candidate": {
+        "google_name": "Real Supermarket",
+        "formatted_address": "Dr. Juan Eulogio Estigarribia, Asunción 001412",
+        "lat": -25.2971693,
+        "lng": -57.5788706,
+        "checked_at": "2026-09-22T12:36:46+00:00"
+      }
     },
     {
       "id": "loc-f268749437",
@@ -1235,8 +1371,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:46.964199+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJAZGkT2yoXZQRKQJMQYnI_Ww",
+      "google_candidate": {
+        "google_name": "Real San Vicente supermarket",
+        "formatted_address": "Av. Proceres De Mayo, Asunción 001237",
+        "lat": -25.3087363,
+        "lng": -57.6175591,
+        "checked_at": "2026-09-22T12:36:46+00:00"
+      }
     },
     {
       "id": "loc-acb35e59cb",
@@ -1308,8 +1454,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:47.766966+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJDw-UY-WnXZQRMb5YpSA4Pt8",
+      "google_candidate": {
+        "google_name": "Paraná home",
+        "formatted_address": "Antequera 661, Asunción 001219",
+        "lat": -25.2876824,
+        "lng": -57.6305528,
+        "checked_at": "2026-09-22T12:36:47+00:00"
+      }
     },
     {
       "id": "loc-3feb8a5486",
@@ -1384,8 +1540,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:48.643708+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJkc27IlepXZQR32lIwfxv3eo",
+      "google_candidate": {
+        "google_name": "Copemarket Deli",
+        "formatted_address": "PC3F+W8, Av. Gral. José de San Martín, Asunción 001408",
+        "lat": -25.2952003,
+        "lng": -57.5767152,
+        "checked_at": "2026-09-22T12:36:48+00:00"
+      }
     },
     {
       "id": "loc-9a78e3c05b",
@@ -1416,8 +1582,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:49.508250+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJUzwQ3k-pXZQRCKhRLjGeEK4",
+      "google_candidate": {
+        "google_name": "SUPERMERCADO COPE MARKET FULL FACUNDO",
+        "formatted_address": "Facundo Machain &, R.I.18 Pitiantuta, Asunción 001419",
+        "lat": -25.3114979,
+        "lng": -57.569528,
+        "checked_at": "2026-09-22T12:36:49+00:00"
+      }
     },
     {
       "id": "loc-343ac87241",
@@ -1447,8 +1623,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:50.232319+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJkc27IlepXZQR32lIwfxv3eo",
+      "google_candidate": {
+        "google_name": "Copemarket Deli",
+        "formatted_address": "PC3F+W8, Av. Gral. José de San Martín, Asunción 001408",
+        "lat": -25.2952003,
+        "lng": -57.5767152,
+        "checked_at": "2026-09-22T12:36:50+00:00"
+      }
     },
     {
       "id": "loc-cf4039575e",
@@ -1481,8 +1667,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:51.003713+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJkc27IlepXZQR32lIwfxv3eo",
+      "google_candidate": {
+        "google_name": "Copemarket Deli",
+        "formatted_address": "PC3F+W8, Av. Gral. José de San Martín, Asunción 001408",
+        "lat": -25.2952003,
+        "lng": -57.5767152,
+        "checked_at": "2026-09-22T12:36:50+00:00"
+      }
     },
     {
       "id": "loc-3884b7353e",
@@ -1619,8 +1815,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:51.790399+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJy_xKWeioXZQRFcR3ABLaRnU",
+      "google_candidate": {
+        "google_name": "Hipermercado Luisito Eusebio Ayala",
+        "formatted_address": "MCMC+WJ8, Av. Eusebio Ayala 1910, Asunción 001426",
+        "lat": -25.315403,
+        "lng": -57.578477,
+        "checked_at": "2026-09-22T12:36:51+00:00"
+      }
     },
     {
       "id": "loc-7e62631dc9",
@@ -1651,8 +1857,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:52.645548+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJ_ayH2BaoXZQR8LWMWQoskps",
+      "google_candidate": {
+        "google_name": "Hipermercado Luisito Félix Bogado",
+        "formatted_address": "Av. José Félix Bogado, Asunción 001238",
+        "lat": -25.3146693,
+        "lng": -57.629916,
+        "checked_at": "2026-09-22T12:36:52+00:00"
+      }
     },
     {
       "id": "loc-b69261f7c8",
@@ -1683,8 +1899,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:53.586364+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJvRAJyBAIXZQRmZVn6lCTTqM",
+      "google_candidate": {
+        "google_name": "Villa Sofía Supermarket",
+        "formatted_address": "Av. Carlos Antonio López 1447, Asunción 001008",
+        "lat": -25.2894837,
+        "lng": -57.6566815,
+        "checked_at": "2026-09-22T12:36:53+00:00"
+      }
     },
     {
       "id": "loc-06cc9d2280",
@@ -1715,8 +1941,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "high",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:54.468022+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJ3cEsTIepXZQRUDPUDSpyXu4",
+      "google_candidate": {
+        "google_name": "Mercado Villa Sofía",
+        "formatted_address": "M9R4+VXM, Av. Ita Ybate, Asunción 001110",
+        "lat": -25.3083114,
+        "lng": -57.6427172,
+        "checked_at": "2026-09-22T12:36:54+00:00"
+      }
     },
     {
       "id": "loc-c0d0efc47a",
@@ -1779,8 +2015,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "high",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:55.287340+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJ3QVFq4unXZQR2IYShq6vMz8",
+      "google_candidate": {
+        "google_name": "Super Mercado La Preferida",
+        "formatted_address": "José Garibaldi Esq, Asunción 001011",
+        "lat": -25.2767578,
+        "lng": -57.641037,
+        "checked_at": "2026-09-22T12:36:55+00:00"
+      }
     },
     {
       "id": "loc-360198c5e2",
@@ -1811,8 +2057,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "medium",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:56.145275+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJtXKzxJyvXZQR0A1tP3dPrD8",
+      "google_candidate": {
+        "google_name": "Gran Via",
+        "formatted_address": "Av. Mariscal López, Asunción 001404",
+        "lat": -25.3085134,
+        "lng": -57.5525948,
+        "checked_at": "2026-09-22T12:36:56+00:00"
+      }
     },
     {
       "id": "loc-b3c7a978ab",
@@ -1908,7 +2164,10 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "location_verified_at": "2026-09-22T12:36:56+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:56.934955+00:00",
+      "google_enrichment_status": "matched",
+      "needs_review": false
     },
     {
       "id": "loc-e7ef905e4b",
@@ -1983,8 +2242,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "high",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:57.728545+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJc5VilnOoXZQRXMDasD5P6jA",
+      "google_candidate": {
+        "google_name": "Superseis - Eusebio Ayala",
+        "formatted_address": "Av. Eusebio Ayala, Asunción 001226",
+        "lat": -25.3013658,
+        "lng": -57.6174629,
+        "checked_at": "2026-09-22T12:36:57+00:00"
+      }
     },
     {
       "id": "loc-1c18181680",
@@ -2147,8 +2416,18 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "high",
-      "location_verified_at": "2026-08-24T17:43:35-03:00"
+      "google_confidence": "review",
+      "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "google_last_attempt_at": "2026-09-22T12:36:58.681951+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJlX6uw5uoXZQR7MFj36-J2Xo",
+      "google_candidate": {
+        "google_name": "Superseis - Recoleta",
+        "formatted_address": "Av. Mariscal López, Asunción 001412",
+        "lat": -25.2937064,
+        "lng": -57.582845,
+        "checked_at": "2026-09-22T12:36:58+00:00"
+      }
     },
     {
       "id": "loc-df8d7d797e",
@@ -4254,18 +4533,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:08.742527+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJuYeidSexXZQRfP9quJE5DNo",
-      "google_candidate": {
-        "google_name": "3MG AREGUÁ - CAMINO A ESTACION TERRENA",
-        "formatted_address": "MJH5+3MQ, Areguá 110102",
-        "lat": -25.3222964,
-        "lng": -57.3907573,
-        "checked_at": "2026-09-21T13:54:08+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-a1b40788a11fbdb3",
@@ -4283,18 +4551,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:09.763184+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJU5HlNSixXZQRgB-j9HaPDyw",
-      "google_candidate": {
-        "google_name": "Compasa Costa Fleitas",
-        "formatted_address": "MHFG+82Q, Areguá 110119",
-        "lat": -25.3265858,
-        "lng": -57.4251093,
-        "checked_at": "2026-09-21T13:54:09+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-e75ba53eddaaefa8",
@@ -4312,18 +4569,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:10.600929+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJa5xHOTKzXZQRecTgyawQs4Y",
-      "google_candidate": {
-        "google_name": "Petrochaco Ramal Aregua",
-        "formatted_address": "MH5Q+RP4, Ruta Aregua, Areguá 110120",
-        "lat": -25.3404781,
-        "lng": -57.4106666,
-        "checked_at": "2026-09-21T13:54:10+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-b1f59d8ebbb85d61",
@@ -4341,18 +4587,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:11.383798+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJRb2vHrKxXZQRJmgzXg3Dk7Q",
-      "google_candidate": {
-        "google_name": "Estación Del Carmen Puma Energy",
-        "formatted_address": "PH3C+M23, Av. Las Residentas, Areguá 110110",
-        "lat": -25.295875,
-        "lng": -57.429944,
-        "checked_at": "2026-09-21T13:54:11+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-94676bde503618cc",
@@ -4388,18 +4623,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:12.240574+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJa-BP2h8IXZQRnS9o0Qaya8w",
-      "google_candidate": {
-        "google_name": "Health Center No.3 Domingo Savio",
-        "formatted_address": "y, Colón & Humaita, P994+7CX, Asunción 001010",
-        "lat": -25.2817562,
-        "lng": -57.6439038,
-        "checked_at": "2026-09-21T13:54:12+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-d2a337213dfbdc62",
@@ -4417,18 +4641,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:13.194757+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJ36-Ws8epXZQRirwY7m_Wwjc",
-      "google_candidate": {
-        "google_name": "Copetrol - Republicano",
-        "formatted_address": "M9H7+295, Ciudad de Chiba, Asunción 001301",
-        "lat": -25.3221272,
-        "lng": -57.6368285,
-        "checked_at": "2026-09-21T13:54:13+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-3e453a76430408bc",
@@ -4446,18 +4659,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:14.060416+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJsymnIlqnXZQR_mz6DBmrI5I",
-      "google_candidate": {
-        "google_name": "Copetrol Azara",
-        "formatted_address": "Azara 1147, Asunción 001220",
-        "lat": -25.2900269,
-        "lng": -57.6255769,
-        "checked_at": "2026-09-21T13:54:13+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-98b540316e1e34af",
@@ -4475,18 +4677,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:14.789714+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJr7I-TPWnXZQRWtXVXReC3t0",
-      "google_candidate": {
-        "google_name": "COPETROL - Colon",
-        "formatted_address": "Gral. Díaz 658, Asunción 001010",
-        "lat": -25.2803084,
-        "lng": -57.6428812,
-        "checked_at": "2026-09-21T13:54:14+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-90d56cdd46ab9ca5",
@@ -4504,18 +4695,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:15.745095+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJ1VyKcgioXZQRHiHjEu8PRYo",
-      "google_candidate": {
-        "google_name": "Copetrol - Felix Bogado",
-        "formatted_address": "Brasil, Asunción 001222",
-        "lat": -25.2999689,
-        "lng": -57.631908,
-        "checked_at": "2026-09-21T13:54:15+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-c0a60563cc49e1ae",
@@ -4533,18 +4713,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:16.471022+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
-      "google_candidate": {
-        "google_name": "Copetrol",
-        "formatted_address": "Av. República Argentina 2848, Asunción 001422",
-        "lat": -25.3161352,
-        "lng": -57.590328,
-        "checked_at": "2026-09-21T13:54:16+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-54e8eca70435f2d6",
@@ -4562,18 +4731,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:17.387970+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
-      "google_candidate": {
-        "google_name": "Copetrol",
-        "formatted_address": "Av. República Argentina 2848, Asunción 001422",
-        "lat": -25.3161352,
-        "lng": -57.590328,
-        "checked_at": "2026-09-21T13:54:17+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-0d02cd7ed142b9ed",
@@ -4591,18 +4749,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:18.213389+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJ3_F9gjypXZQR4q0Q_S-Hf6c",
-      "google_candidate": {
-        "google_name": "COPETROL S.A.",
-        "formatted_address": "MCQJ+7HG García, c/ Captán. Román, Asunción 001419",
-        "lat": -25.3118094,
-        "lng": -57.5685432,
-        "checked_at": "2026-09-21T13:54:18+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-b114f41b02ac68ee",
@@ -4620,18 +4767,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:19.026857+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJy5fMBAOpXZQRS0Mq4B_QzNw",
-      "google_candidate": {
-        "google_name": "COPETROL LA VICTORIA - LA TIENDITA DE LA COPE",
-        "formatted_address": "Av. La Victoria, Asunción 001424",
-        "lat": -25.3333532,
-        "lng": -57.5893988,
-        "checked_at": "2026-09-21T13:54:18+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-328ee12f5b007d0e",
@@ -4649,18 +4785,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:19.813363+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJr7I-TPWnXZQRWtXVXReC3t0",
-      "google_candidate": {
-        "google_name": "COPETROL - Colon",
-        "formatted_address": "Gral. Díaz 658, Asunción 001010",
-        "lat": -25.2803084,
-        "lng": -57.6428812,
-        "checked_at": "2026-09-21T13:54:19+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-5fc43d11fda92077",
@@ -4678,18 +4803,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:20.634445+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJ1aVujIioXZQRNvp0GCzXCUY",
-      "google_candidate": {
-        "google_name": "Copetrol",
-        "formatted_address": "MCX3+GVF, Asunción 001229",
-        "lat": -25.3011926,
-        "lng": -57.5953317,
-        "checked_at": "2026-09-21T13:54:20+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-2ba77f5ad1e018fe",
@@ -4707,18 +4821,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:21.365138+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJYUKIAnCoXZQRZox3JW6qcRo",
-      "google_candidate": {
-        "google_name": "Copetrol",
-        "formatted_address": "Av. Eusebio Ayala 1345, Asunción 001228",
-        "lat": -25.3038632,
-        "lng": -57.6103598,
-        "checked_at": "2026-09-21T13:54:21+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-334d183375eecc15",
@@ -4736,18 +4839,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:22.053888+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJV1W6FWmmXZQRnQFALn9bQ4I",
-      "google_candidate": {
-        "google_name": "Copetrol - Botanico",
-        "formatted_address": "PCVH+H8J, Av. Primer Presidente, Asunción 001519",
-        "lat": -25.25603,
-        "lng": -57.5717473,
-        "checked_at": "2026-09-21T13:54:21+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-a2271bf7ad2d0668",
@@ -4765,18 +4857,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:23.024868+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJqZYcHqqpXZQR-NbcMh39CHw",
-      "google_candidate": {
-        "google_name": "Copetrol",
-        "formatted_address": "PC3F+W75, Av. Gral. José de San Martín, Asunción 001408",
-        "lat": -25.2952414,
-        "lng": -57.5767527,
-        "checked_at": "2026-09-21T13:54:22+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-c686e3b51308741d",
@@ -4794,18 +4875,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:23.955612+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJOdAzBUumXZQRMStSrgQF5hg",
-      "google_candidate": {
-        "google_name": "Copetrol Artigas Candelaria",
-        "formatted_address": "PCQ2+289, Av. Gral. José Gervasio Artigas, Asunción 001516",
-        "lat": -25.2653322,
-        "lng": -57.5963448,
-        "checked_at": "2026-09-21T13:54:23+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-32f4f8afe70a8d18",
@@ -4823,18 +4893,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:24.729631+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJzWxnycyoXZQR2fKx-83z2b0",
-      "google_candidate": {
-        "google_name": "Estacion de Servicio Copetrol",
-        "formatted_address": "Av. Mariscal López, Asunción 001405",
-        "lat": -25.3068763,
-        "lng": -57.5535416,
-        "checked_at": "2026-09-21T13:54:24+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-518f20cdee7f106f",
@@ -4852,18 +4911,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:25.669468+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJjcRtLCMIXZQRfdwuCP2IAqA",
-      "google_candidate": {
-        "google_name": "Copetrol Sajonia.",
-        "formatted_address": "P89W+X26, Av. Dr. José Montero, Asunción 001003",
-        "lat": -25.280088,
-        "lng": -57.654992,
-        "checked_at": "2026-09-21T13:54:25+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-6619c68cfe35a548",
@@ -4881,18 +4929,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:26.460737+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJqZYcHqqpXZQR-NbcMh39CHw",
-      "google_candidate": {
-        "google_name": "Copetrol",
-        "formatted_address": "PC3F+W75, Av. Gral. José de San Martín, Asunción 001408",
-        "lat": -25.2952414,
-        "lng": -57.5767527,
-        "checked_at": "2026-09-21T13:54:26+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-b41cd30ea3961edf",
@@ -4910,18 +4947,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:27.304753+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJrcMm9E2vXZQRThDWqlvorXM",
-      "google_candidate": {
-        "google_name": "Estación de Servicios Copetrol S.A. - Maitei",
-        "formatted_address": "PF62+CGV, Ave Madame Elisa A. Lynch, Asunción 001403",
-        "lat": -25.2888901,
-        "lng": -57.5486943,
-        "checked_at": "2026-09-21T13:54:27+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-441013fa30e20d6e",
@@ -4939,18 +4965,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:28.266474+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJl5fzQgCpXZQRomOs-DooIck",
-      "google_candidate": {
-        "google_name": "Petrochaco - Bartolomé",
-        "formatted_address": "M9MR+6X9, Bartolome De Las Casas, Asunción 001233",
-        "lat": -25.3169714,
-        "lng": -57.6075019,
-        "checked_at": "2026-09-21T13:54:28+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-48ff72a006ecea58",
@@ -4968,18 +4983,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:29.063238+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJF0RpVIavXZQRu_Y5HsOJB-Y",
-      "google_candidate": {
-        "google_name": "Petrochaco Santa Teresa",
-        "formatted_address": "Sta. Teresa y, Fernando de la Mora 110302",
-        "lat": -25.3019962,
-        "lng": -57.5398146,
-        "checked_at": "2026-09-21T13:54:28+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-49239ba44edd8ee2",
@@ -4997,18 +5001,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:29.792915+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJ9z_12P6oXZQReIEOly1wshA",
-      "google_candidate": {
-        "google_name": "Petrochaco",
-        "formatted_address": "MCF3+3QJ, Av. Dr. Fernando de la Mora, Asunción 001424",
-        "lat": -25.3272878,
-        "lng": -57.5956159,
-        "checked_at": "2026-09-21T13:54:29+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-591d01edf4ba5513",
@@ -5026,18 +5019,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:30.610512+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJR7gCPDepXZQRExwyOjazf2c",
-      "google_candidate": {
-        "google_name": "Edificio Puma Energy Paraguay",
-        "formatted_address": "PC7F+MV8, Asunción 001411",
-        "lat": -25.285932,
-        "lng": -57.5753063,
-        "checked_at": "2026-09-21T13:54:30+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-41df62b828bafd66",
@@ -5055,18 +5037,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:31.414151+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJR7gCPDepXZQRExwyOjazf2c",
-      "google_candidate": {
-        "google_name": "Edificio Puma Energy Paraguay",
-        "formatted_address": "PC7F+MV8, Asunción 001411",
-        "lat": -25.285932,
-        "lng": -57.5753063,
-        "checked_at": "2026-09-21T13:54:31+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-277118e4f95ab504",
@@ -5084,18 +5055,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:32.203160+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJd3ZDQaalXZQRHgkNcWdiJFw",
-      "google_candidate": {
-        "google_name": "EESS PUMA GASOLIDER - Loma Pyta",
-        "formatted_address": "QC2X+426, Tte. Gadea, Asunción 001509",
-        "lat": -25.2497023,
-        "lng": -57.5524788,
-        "checked_at": "2026-09-21T13:54:32+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-7974040b30e788bc",
@@ -5113,18 +5073,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false,
-      "google_last_attempt_at": "2026-09-21T13:54:33.038220+00:00",
-      "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
-      "google_candidate_place_id": "ChIJtzDzjRqpXZQR6qk7iJ9bX_Y",
-      "google_candidate": {
-        "google_name": "Estación Puma Energy",
-        "formatted_address": "MC67+GV5, Av. Dr. Fernando de la Mora, Asunción 001432",
-        "lat": -25.3387357,
-        "lng": -57.5852517,
-        "checked_at": "2026-09-21T13:54:32+00:00"
-      }
+      "online_only": false
     },
     {
       "id": "loc-bnf-b0acfe164c30e88b",
@@ -24689,7 +24638,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:09.367091+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:34.377475+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJW6SzzlKnXZQRkEnFagYb6WA",
@@ -24698,7 +24647,7 @@
         "formatted_address": "P95G+695, Herrera, Asunción 001220",
         "lat": -25.291997,
         "lng": -57.6240032,
-        "checked_at": "2026-09-21T13:54:09+00:00"
+        "checked_at": "2026-09-22T12:36:34+00:00"
       }
     },
     {
@@ -24716,7 +24665,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:10.194160+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:35.267817+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
@@ -24725,7 +24674,7 @@
         "formatted_address": "Asunción 001103",
         "lat": -25.2988953,
         "lng": -57.6341104,
-        "checked_at": "2026-09-21T13:54:10+00:00"
+        "checked_at": "2026-09-22T12:36:35+00:00"
       }
     },
     {
@@ -24743,7 +24692,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:10.984195+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:36.102717+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ65-ExfanXZQRuQ2peR0SR-s",
@@ -24752,7 +24701,7 @@
         "formatted_address": "Piribebuy 323, Asunción 001101",
         "lat": -25.2862442,
         "lng": -57.638985,
-        "checked_at": "2026-09-21T13:54:10+00:00"
+        "checked_at": "2026-09-22T12:36:35+00:00"
       }
     },
     {
@@ -24770,7 +24719,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:11.849039+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:37.088988+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJy-nuF-mlXZQRVd0sfcGheek",
@@ -24779,7 +24728,7 @@
         "formatted_address": "PFR6+JMJ, Asunción 001509",
         "lat": -25.2584175,
         "lng": -57.5383544,
-        "checked_at": "2026-09-21T13:54:11+00:00"
+        "checked_at": "2026-09-22T12:36:36+00:00"
       }
     },
     {
@@ -24797,7 +24746,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:12.634447+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:37.929660+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJW6SzzlKnXZQRkEnFagYb6WA",
@@ -24806,7 +24755,7 @@
         "formatted_address": "P95G+695, Herrera, Asunción 001220",
         "lat": -25.291997,
         "lng": -57.6240032,
-        "checked_at": "2026-09-21T13:54:12+00:00"
+        "checked_at": "2026-09-22T12:36:37+00:00"
       }
     },
     {
@@ -24824,7 +24773,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:13.653205+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:38.790170+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJo4dmZogJXZQRt4Fw_nh-_hM",
@@ -24833,7 +24782,7 @@
         "formatted_address": "P84J+CQ7, Cap. Manuel Aranda, Asunción 001001",
         "lat": -25.2939744,
         "lng": -57.6680749,
-        "checked_at": "2026-09-21T13:54:13+00:00"
+        "checked_at": "2026-09-22T12:36:38+00:00"
       }
     },
     {
@@ -24851,7 +24800,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:14.428266+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:39.735631+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
@@ -24860,7 +24809,7 @@
         "formatted_address": "Asunción 001103",
         "lat": -25.2988953,
         "lng": -57.6341104,
-        "checked_at": "2026-09-21T13:54:14+00:00"
+        "checked_at": "2026-09-22T12:36:39+00:00"
       }
     },
     {
@@ -24878,7 +24827,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:15.152713+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:40.519724+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ92AEXCKnXZQRgAXhVB6AUeI",
@@ -24887,7 +24836,7 @@
         "formatted_address": "Asunción 001011",
         "lat": -25.2783842,
         "lng": -57.6432141,
-        "checked_at": "2026-09-21T13:54:15+00:00"
+        "checked_at": "2026-09-22T12:36:40+00:00"
       }
     },
     {
@@ -24905,7 +24854,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:16.103454+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:41.283780+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
@@ -24914,7 +24863,7 @@
         "formatted_address": "Asunción 001103",
         "lat": -25.2988953,
         "lng": -57.6341104,
-        "checked_at": "2026-09-21T13:54:15+00:00"
+        "checked_at": "2026-09-22T12:36:41+00:00"
       }
     },
     {
@@ -24932,7 +24881,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:16.842031+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:42.166672+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ0WndYACnXZQRuz7aftzNgqg",
@@ -24941,7 +24890,7 @@
         "formatted_address": "Paraguari 935, Asunción 001101",
         "lat": -25.2906471,
         "lng": -57.6341027,
-        "checked_at": "2026-09-21T13:54:16+00:00"
+        "checked_at": "2026-09-22T12:36:42+00:00"
       }
     },
     {
@@ -24959,7 +24908,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:17.815576+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:43.083029+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ3ZjSLgCpXZQREjtyn31_Zz8",
@@ -24968,7 +24917,7 @@
         "formatted_address": "M9J8+Q5F, Asunción 001301",
         "lat": -25.3179119,
         "lng": -57.6344356,
-        "checked_at": "2026-09-21T13:54:17+00:00"
+        "checked_at": "2026-09-22T12:36:42+00:00"
       }
     },
     {
@@ -24986,7 +24935,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:18.641708+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:44.115843+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJiyouPgCnXZQRTku95wq4-PU",
@@ -24995,7 +24944,7 @@
         "formatted_address": "Av. Dr. Felipe Molas López 1250, Asunción 001520",
         "lat": -25.269698,
         "lng": -57.572611,
-        "checked_at": "2026-09-21T13:54:18+00:00"
+        "checked_at": "2026-09-22T12:36:43+00:00"
       }
     },
     {
@@ -25013,7 +24962,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:19.447906+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:44.942987+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ3ZjSLgCpXZQREjtyn31_Zz8",
@@ -25022,7 +24971,7 @@
         "formatted_address": "M9J8+Q5F, Asunción 001301",
         "lat": -25.3179119,
         "lng": -57.6344356,
-        "checked_at": "2026-09-21T13:54:19+00:00"
+        "checked_at": "2026-09-22T12:36:44+00:00"
       }
     },
     {
@@ -25040,7 +24989,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:20.250646+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:45.752348+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ65-ExfanXZQRuQ2peR0SR-s",
@@ -25049,7 +24998,7 @@
         "formatted_address": "Piribebuy 323, Asunción 001101",
         "lat": -25.2862442,
         "lng": -57.638985,
-        "checked_at": "2026-09-21T13:54:20+00:00"
+        "checked_at": "2026-09-22T12:36:45+00:00"
       }
     },
     {
@@ -25067,7 +25016,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:20.990729+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:46.534707+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJW6SzzlKnXZQRkEnFagYb6WA",
@@ -25076,7 +25025,7 @@
         "formatted_address": "P95G+695, Herrera, Asunción 001220",
         "lat": -25.291997,
         "lng": -57.6240032,
-        "checked_at": "2026-09-21T13:54:20+00:00"
+        "checked_at": "2026-09-22T12:36:46+00:00"
       }
     },
     {
@@ -25094,7 +25043,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:21.709390+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:47.309650+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ92AEXCKnXZQRgAXhVB6AUeI",
@@ -25103,7 +25052,7 @@
         "formatted_address": "Asunción 001011",
         "lat": -25.2783842,
         "lng": -57.6432141,
-        "checked_at": "2026-09-21T13:54:21+00:00"
+        "checked_at": "2026-09-22T12:36:47+00:00"
       }
     },
     {
@@ -25121,7 +25070,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:22.618502+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:48.227723+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJiyouPgCnXZQRTku95wq4-PU",
@@ -25130,7 +25079,7 @@
         "formatted_address": "Av. Dr. Felipe Molas López 1250, Asunción 001520",
         "lat": -25.269698,
         "lng": -57.572611,
-        "checked_at": "2026-09-21T13:54:22+00:00"
+        "checked_at": "2026-09-22T12:36:48+00:00"
       }
     },
     {
@@ -25148,7 +25097,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:23.477769+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:49.126169+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
@@ -25157,7 +25106,7 @@
         "formatted_address": "Asunción 001103",
         "lat": -25.2988953,
         "lng": -57.6341104,
-        "checked_at": "2026-09-21T13:54:23+00:00"
+        "checked_at": "2026-09-22T12:36:49+00:00"
       }
     },
     {
@@ -25175,7 +25124,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:24.334848+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:49.865674+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJo4dmZogJXZQRt4Fw_nh-_hM",
@@ -25184,7 +25133,7 @@
         "formatted_address": "P84J+CQ7, Cap. Manuel Aranda, Asunción 001001",
         "lat": -25.2939744,
         "lng": -57.6680749,
-        "checked_at": "2026-09-21T13:54:24+00:00"
+        "checked_at": "2026-09-22T12:36:49+00:00"
       }
     },
     {
@@ -25202,7 +25151,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:25.135511+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:50.653371+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJW6SzzlKnXZQRkEnFagYb6WA",
@@ -25211,7 +25160,7 @@
         "formatted_address": "P95G+695, Herrera, Asunción 001220",
         "lat": -25.291997,
         "lng": -57.6240032,
-        "checked_at": "2026-09-21T13:54:25+00:00"
+        "checked_at": "2026-09-22T12:36:50+00:00"
       }
     },
     {
@@ -25229,7 +25178,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:26.029112+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:51.384468+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ0WndYACnXZQRuz7aftzNgqg",
@@ -25238,7 +25187,7 @@
         "formatted_address": "Paraguari 935, Asunción 001101",
         "lat": -25.2906471,
         "lng": -57.6341027,
-        "checked_at": "2026-09-21T13:54:25+00:00"
+        "checked_at": "2026-09-22T12:36:51+00:00"
       }
     },
     {
@@ -25256,7 +25205,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:26.945861+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:52.253594+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJy-nuF-mlXZQRVd0sfcGheek",
@@ -25265,7 +25214,7 @@
         "formatted_address": "PFR6+JMJ, Asunción 001509",
         "lat": -25.2584175,
         "lng": -57.5383544,
-        "checked_at": "2026-09-21T13:54:26+00:00"
+        "checked_at": "2026-09-22T12:36:52+00:00"
       }
     },
     {
@@ -25331,7 +25280,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:27.841520+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:53.058429+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJpS05e-6nXZQRz8UUTxv6T2E",
@@ -25340,7 +25289,7 @@
         "formatted_address": "Av. Mariscal López y, México 001101",
         "lat": -25.2828275,
         "lng": -57.6301436,
-        "checked_at": "2026-09-21T13:54:27+00:00"
+        "checked_at": "2026-09-22T12:36:52+00:00"
       }
     },
     {
@@ -25358,7 +25307,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:28.609981+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:54.004561+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJOdAzBUumXZQRMStSrgQF5hg",
@@ -25367,7 +25316,7 @@
         "formatted_address": "PCQ2+289, Av. Gral. José Gervasio Artigas, Asunción 001516",
         "lat": -25.2653322,
         "lng": -57.5963448,
-        "checked_at": "2026-09-21T13:54:28+00:00"
+        "checked_at": "2026-09-22T12:36:53+00:00"
       }
     },
     {
@@ -25385,7 +25334,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:29.395064+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:54.838945+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJV1W6FWmmXZQRnQFALn9bQ4I",
@@ -25394,7 +25343,7 @@
         "formatted_address": "PCVH+H8J, Av. Primer Presidente, Asunción 001519",
         "lat": -25.25603,
         "lng": -57.5717473,
-        "checked_at": "2026-09-21T13:54:29+00:00"
+        "checked_at": "2026-09-22T12:36:54+00:00"
       }
     },
     {
@@ -25412,7 +25361,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:30.131801+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:55.723914+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJr7I-TPWnXZQRWtXVXReC3t0",
@@ -25421,7 +25370,7 @@
         "formatted_address": "Gral. Díaz 658, Asunción 001010",
         "lat": -25.2803084,
         "lng": -57.6428812,
-        "checked_at": "2026-09-21T13:54:30+00:00"
+        "checked_at": "2026-09-22T12:36:55+00:00"
       }
     },
     {
@@ -25439,7 +25388,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:30.996867+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:56.530094+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJ6eSeV-OpXZQRlYG2CYV0hKo",
@@ -25448,7 +25397,7 @@
         "formatted_address": "R.I.18 Pitiantuta 1119, Asunción 001419",
         "lat": -25.3114723,
         "lng": -57.5696931,
-        "checked_at": "2026-09-21T13:54:30+00:00"
+        "checked_at": "2026-09-22T12:36:56+00:00"
       }
     },
     {
@@ -25466,7 +25415,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:31.808123+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:57.339305+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJpS05e-6nXZQRz8UUTxv6T2E",
@@ -25475,7 +25424,7 @@
         "formatted_address": "Av. Mariscal López y, México 001101",
         "lat": -25.2828275,
         "lng": -57.6301436,
-        "checked_at": "2026-09-21T13:54:31+00:00"
+        "checked_at": "2026-09-22T12:36:57+00:00"
       }
     },
     {
@@ -25493,7 +25442,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:32.604363+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:58.217876+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJkcNUFtGpXZQRG0gldzQPVko",
@@ -25502,7 +25451,7 @@
         "formatted_address": "Av. Juscelino Kubitschek y, Asunción 001228",
         "lat": -25.3040806,
         "lng": -57.6071023,
-        "checked_at": "2026-09-21T13:54:32+00:00"
+        "checked_at": "2026-09-22T12:36:58+00:00"
       }
     },
     {
@@ -25520,7 +25469,7 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "google_last_attempt_at": "2026-09-21T13:54:33.431474+00:00",
+      "google_last_attempt_at": "2026-09-22T12:36:59.094861+00:00",
       "google_enrichment_status": "needs_review",
       "google_confidence": "review",
       "google_candidate_place_id": "ChIJrcMm9E2vXZQRThDWqlvorXM",
@@ -25529,7 +25478,7 @@
         "formatted_address": "PF62+CGV, Ave Madame Elisa A. Lynch, Asunción 001403",
         "lat": -25.2888901,
         "lng": -57.5486943,
-        "checked_at": "2026-09-21T13:54:33+00:00"
+        "checked_at": "2026-09-22T12:36:58+00:00"
       }
     },
     {
@@ -33311,5 +33260,5 @@
   ],
   "google_enriched_locations": 109,
   "google_enrichment_focus": "Asunción y Gran Asunción",
-  "locations_updated_at": "2026-09-21T13:54:33+00:00"
+  "locations_updated_at": "2026-09-22T12:36:59+00:00"
 }

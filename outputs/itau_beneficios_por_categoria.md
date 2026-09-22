@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 121
+Total de beneficios: 120
 
 ## Belleza y Salud
 
@@ -16,6 +16,12 @@ Total de beneficios: 121
 | Punto Farma | 6 Cuotas sin intereses 35 % Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses. | Todos los Martes; todos los martes | 2024-12-30 hasta 2026-12-31 |
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
 | Sanatorios y Clinicas | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2021-03-15 hasta 2026-12-31 |
+
+## Casa pro
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Casa Pro | 30 % Hasta 6 Cuotas sin intereses; Tenes hasta 30% de descuento en caja + hasta 6 cuotas sin intereses | No especificado | 2025-06-19 hasta 2026-12-31 |
 
 ## Entretenimiento
 
@@ -44,7 +50,6 @@ Total de beneficios: 121
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | CENTRO DE MATERIALES | 40 % 6 Cuotas sin intereses; Tenes 40% de ahorro con Tarjeta de Crédito y hasta 6 cuotas sin intereses. | No especificado | 2026-04-27 hasta 2026-09-30 |
-| Casa Pro | 30 % Hasta 6 Cuotas sin intereses; Tenes hasta 30% de descuento en caja + hasta 6 cuotas sin intereses | No especificado | 2025-06-19 hasta 2026-12-31 |
 | EXPRESIONES GALERIA DE ARTE | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-09-01 hasta 2026-10-31 |
 | Essen | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
 | Luminotecnia | 10 Cuotas sin intereses 15 %; 15% de ahorro y hasta 10 cuotas sin intereses. | Aplica los sábados | 2026-01-10 hasta 2026-12-26 |
@@ -68,17 +73,11 @@ Total de beneficios: 121
 | AVENTURA PARK | 10 % 10 Cuotas sin intereses; Tenés 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2018-01-01 hasta 2026-09-30 |
 | Estoy Jugueteria | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2025-06-06 hasta 2026-12-25 |
 
-## SUEÑOLAR
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Sueñolar | 18 Cuotas sin intereses 60 % Hasta; Tenes hasta 60% de ahorro y hasta 18 cuotas sin intereses. | No especificado | 2025-03-01 hasta 2026-09-21 |
-
 ## Sallustro Sport San Martin
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Sallustro Sport | 25 % 6 Cuotas sin intereses; Tenés 25% reintegro + 6 cuotas sin intereses | No especificado | 2023-12-22 hasta 2026-12-19 |
+| Sallustro Sport | 25 % 6 Cuotas sin intereses; Tenés 25% reintegro + 6 cuotas sin intereses | No especificado | 2023-12-22 hasta 2026-12-20 |
 
 ## Stock & Superseis
 
@@ -144,6 +143,7 @@ Total de beneficios: 121
 | Municipalidad de San Bernardino | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
 | New Balance | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Nice | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
+| PIK | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | No especificado | 2026-07-21 hasta 2026-09-26 |
 | Pampero | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Patrol | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Primer Martes | 25 % Hasta 10 Cuotas sin intereses; hasta 25% de ahorro y hasta 10 cuotas sin intereses + 10% con código QR, Apple Pay, Google Pay. | No especificado | 2026-01-06 hasta 2026-12-01 |
@@ -203,5 +203,4 @@ Total de beneficios: 121
 |---|---|---|---|
 | Gayatri | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-04-01 hasta 2026-09-23 |
 | Optica Santa Lucía | 6 Cuotas sin intereses 35 % Hasta; Tenes hasta 30% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses. | No especificado | 2025-12-18 hasta 2026-09-23 |
-| Villandry | 20 % 6 Cuotas sin intereses; Tenés 20% de ahorro y hasta 6 cuotas sin intereses | No especificado | 2025-02-05 hasta 2026-09-21 |
 
