@@ -76868,6 +76868,120 @@
   {
     "bank": "GNB",
     "category": "Gastronomía",
+    "merchant_name": "La Ruta Gastronómica",
+    "merchant_locations_or_group": "Restaurantes adheridos a La Ruta Gastronómica según la ficha oficial de GNB",
+    "benefit_summary": "20% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Sábado, Domingo",
+    "validity": "Desde 2026-01-03 hasta 2026-11-29",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra mensual compartido por cuenta en los locales adheridos: Gs. 1.000.000. No es un tope de reintegro.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/260",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/260",
+    "raw_detail": "20% de reintegro con Tarjetas de crédito Mastercard Clásica y Oro GNB. Tope de compra mensual compartido por cuenta en los locales adheridos: Gs. 1.000.000. No es un tope de reintegro. Tope de compra mensual compartido entre todos los locales adheridos por cuenta, incluido titular y adicionales. Reintegro en el extracto o visible en movimientos de la app. Se admite el delivery propio de los locales. No aplica a plataformas de terceros como Pedidos Ya o Monchis. No acumulable con otras promociones. Consultá la ficha original para confirmar las condiciones vigentes.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito Mastercard Clásica y Oro GNB",
+    "original_source_text": "",
+    "id": "b20ffcde3e363daa",
+    "offer_kind": "base",
+    "offer_label": "Clásica / Oro",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:41:32-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-03",
+      "ends_on": "2026-11-29",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de compra mensual compartido por cuenta en los locales adheridos: Gs. 1.000.000"
+        }
+      ],
+      "cards": [
+        "Tarjetas de crédito Mastercard Clásica y Oro GNB"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Gastronomía",
+    "merchant_name": "La Ruta Gastronómica",
+    "merchant_locations_or_group": "Restaurantes adheridos a La Ruta Gastronómica según la ficha oficial de GNB",
+    "benefit_summary": "25% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "25%"
+    ],
+    "promotion_days": [
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Sábado, Domingo",
+    "validity": "Desde 2026-01-03 hasta 2026-11-29",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra mensual compartido por cuenta en los locales adheridos: Gs. 1.000.000. No es un tope de reintegro.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/260",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/260",
+    "raw_detail": "25% de reintegro con Tarjetas de crédito Mastercard Black, Black Premier y Metalcard Premier GNB. Tope de compra mensual compartido por cuenta en los locales adheridos: Gs. 1.000.000. No es un tope de reintegro. Tope de compra mensual compartido entre todos los locales adheridos por cuenta, incluido titular y adicionales. Reintegro en el extracto o visible en movimientos de la app. Se admite el delivery propio de los locales. No aplica a plataformas de terceros como Pedidos Ya o Monchis. No acumulable con otras promociones. Consultá la ficha original para confirmar las condiciones vigentes.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito Mastercard Black, Black Premier y Metalcard Premier GNB",
+    "original_source_text": "",
+    "id": "5c4e9513b13d6c16",
+    "offer_kind": "premium",
+    "offer_label": "Black / Premier",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:41:32-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-01-03",
+      "ends_on": "2026-11-29",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de compra mensual compartido por cuenta en los locales adheridos: Gs. 1.000.000"
+        }
+      ],
+      "cards": [
+        "Tarjetas de crédito Mastercard Black, Black Premier y Metalcard Premier GNB"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Gastronomía",
     "merchant_name": "Los López Bar de Río",
     "merchant_locations_or_group": "Todas las sucursales de Los López Bar de Río. Ciudad indicada en las bases: Asunción.",
     "benefit_summary": "20% de reintegro con tarjeta física, Apple Pay, Google Pay o QR (sin adicional de GNB Personas)",
@@ -79049,6 +79163,162 @@
       "additional": [
         "30% de reintegro con QR desde App GNB o Copetrol Vamos en estaciones habilitadas"
       ],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Tiendas",
+    "merchant_name": "El Pescador",
+    "merchant_locations_or_group": "El Pescador; sucursales indicadas en la ficha original de GNB",
+    "benefit_summary": "Hasta 6 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-03-18 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/607",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/607",
+    "raw_detail": "Hasta 6 cuotas sin intereses con Tarjetas de crédito GNB. El fraccionamiento debe solicitarse o seleccionarse al pagar; las cuotas se reflejan en el extracto. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable con otras promociones. Consultá la ficha original para confirmar las condiciones vigentes.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "3ec4ba7aaa3c7fb4",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:41:32-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-03-18",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Viajes",
+    "merchant_name": "GNB Travel+",
+    "merchant_locations_or_group": "Agencias de viajes del país mediante Travel Pay",
+    "benefit_summary": "Descuento de hasta Gs. 2.000.000 en paquetes de viajes; monto según oferta",
+    "benefit_type": "descuento",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-09-01 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/543",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/543",
+    "raw_detail": "Descuento de hasta Gs. 2.000.000 en paquetes de viajes; monto según oferta con Tarjetas de crédito Mastercard Clásica, Oro, Black, Black Premier y Metalcard Premier; Visa Platinum e Infinite Premier GNB mediante Travel Pay. Aplica únicamente a paquetes de viajes. El descuento varía según la oferta y no se acumula con otras promociones. Consultá la ficha original para confirmar las condiciones vigentes.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito Mastercard Clásica, Oro, Black, Black Premier y Metalcard Premier; Visa Platinum e Infinite Premier GNB mediante Travel Pay",
+    "original_source_text": "",
+    "id": "912d5d3c27cf5d5c",
+    "offer_kind": "base",
+    "offer_label": "Travel Pay",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:41:32-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-09-01",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito Mastercard Clásica, Oro, Black, Black Premier y Metalcard Premier; Visa Platinum e Infinite Premier GNB mediante Travel Pay"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "GNB",
+    "category": "Viajes",
+    "merchant_name": "GNB Travel+",
+    "merchant_locations_or_group": "Agencias de viajes del país mediante Travel Pay",
+    "benefit_summary": "Hasta 18 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-09-01 hasta 2026-12-31",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/543",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/543",
+    "raw_detail": "Hasta 18 cuotas sin intereses con Tarjetas de crédito GNB. Aplica únicamente a paquetes de viajes. El descuento varía según la oferta y no se acumula con otras promociones. Consultá la ficha original para confirmar las condiciones vigentes.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito GNB",
+    "original_source_text": "",
+    "id": "d544e6fbafa3a443",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-09-22",
+    "source_file_updated_at": "2026-09-22T09:41:32-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-09-01",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito GNB"
+      ],
+      "exclusions": [],
+      "additional": [],
       "issues": [],
       "status": "parsed"
     }

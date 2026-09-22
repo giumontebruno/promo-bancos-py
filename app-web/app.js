@@ -2866,7 +2866,7 @@ function openDetail(id, variantKey = "", placeId = "") {
       ${levelDetails ? `<div><strong>Nivel UENO seleccionado:</strong> Nivel ${state.uenoLevel} · ${escapeHtml(levelDetails.percent)}${levelDetails.purchaseCap ? ` · Compra ${escapeHtml(levelDetails.purchaseCap)}` : ""}${levelDetails.refundCap ? ` · Reintegro ${escapeHtml(levelDetails.refundCap)}` : ""}</div>` : ""}
       ${renderDetailRows(promo, variant)}
       <div class="detail-row"><span>Fuente</span><strong>${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente${formatLastUpdated(promo) ? ` · ${escapeHtml(formatLastUpdated(promo))}` : ""}</strong></div>
-      <div id="detailSourceLink"><a href="${escapeAttribute(promo.source_page_url || promo.source_url || "#")}" target="_blank" rel="noreferrer">${promo.bank === 'Continental' ? 'Ver comercio y condiciones en Continental' : 'Ver bases y condiciones'}</a></div>
+      <div id="detailSourceLink"><a href="${escapeAttribute(promo.source_page_url || promo.source_url || "#")}" target="_blank" rel="noreferrer">${promo.bank === 'Continental' ? 'Ver comercio y condiciones en Continental' : promo.bank === 'GNB' && !/\.pdf(?:[?#]|$)/i.test(promo.source_page_url || promo.source_url || '') ? 'Ver promoción y bases en GNB' : 'Ver bases y condiciones'}</a></div>
     </div>
   `;
   els.dialog.showModal();

@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from scrapers.extract_familiar import parse_cards, terms_pdf
 from scrapers.build_familiar_table import convert, date_range
-from scrapers.build_gnb_reviewed import build, build_additional
+from scrapers.build_gnb_reviewed import build, build_additional, build_page_campaigns
 from promo_backend.normalize import normalize_row
 
 
@@ -87,3 +87,16 @@ class FamiliarTests(unittest.TestCase):
         self.assertEqual([row.get('effective_percent') for row in pharmacy], [32, 28, 27.75, 23.5, None])
         self.assertTrue(all(row['promotion_days'] == ['lunes'] for row in pharmacy[:4]))
         self.assertEqual(len(pharmacy[4]['promotion_days']), 7)
+
+    def test_gnb_indexed_cards_keep_premium_separate_and_link_source_page(self):
+        data = json.loads((Path(__file__).resolve().parents[1] / 'data/gnb_page_reviewed.json').read_text(encoding='utf-8'))
+        rows = build_page_campaigns(data)
+        self.assertEqual(len(rows), 5)
+        self.assertEqual([row['Beneficio'] for row in rows[:2]], ['20% de reintegro', '25% de reintegro'])
+        self.assertEqual(rows[1]['Tipo de variante'], 'premium')
+        self.assertNotIn('Black', rows[0]['Tarjetas verificadas'])
+        self.assertIn('/categorias/260', rows[0]['URL detalle'])
+        self.assertNotIn('.pdf', rows[0]['URL detalle'])
+        self.assertEqual(rows[2]['Beneficio'], 'Hasta 6 cuotas sin intereses')
+        self.assertIn('según oferta', rows[3]['Beneficio'])
+        self.assertEqual(len({normalize_row('GNB', row)['id'] for row in rows}), 5)

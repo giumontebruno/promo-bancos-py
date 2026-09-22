@@ -56,6 +56,31 @@ def build_additional(data):
     return rows
 
 
+def build_page_campaigns(data):
+    rows = []
+    money = lambda value: f'{value:,}'.replace(',', '.')
+    for campaign in data['campaigns']:
+        cap = f"Tope de compra mensual compartido por cuenta en los locales adheridos: Gs. {money(campaign['purchase_cap'])}. No es un tope de reintegro." if campaign.get('purchase_cap') else ''
+        for offer in campaign['offers']:
+            benefit = offer.get('benefit') or f"{offer['percent']}% de reintegro"
+            rows.append({
+                'Comercio': campaign['merchant'],
+                'Categoria': campaign['category'],
+                'Beneficio': benefit,
+                'Dia': campaign['day'],
+                'Vigencia': f"Desde {campaign['starts_on']} hasta {campaign['ends_on']}",
+                'Locales': campaign['locations'],
+                'Montos': cap,
+                'URL detalle': campaign['source_url'],
+                'Tarjetas verificadas': offer['cards'],
+                'Detalle': f"{benefit} con {offer['cards']}. {cap} {campaign['conditions']} Consultá la ficha original para confirmar las condiciones vigentes.",
+                'Variante': offer['key'],
+                'Tipo de variante': offer['kind'],
+                'Etiqueta de variante': offer['label'],
+            })
+    return rows
+
+
 def main():
     data = json.loads((ROOT / 'data/gnb_reviewed_offers.json').read_text(encoding='utf-8'))
     rows = build(data)
@@ -63,11 +88,13 @@ def main():
     rows.extend(build(restaurants))
     additional = json.loads((ROOT / 'data/gnb_additional_reviewed.json').read_text(encoding='utf-8'))
     rows.extend(build_additional(additional))
+    page_campaigns = json.loads((ROOT / 'data/gnb_page_reviewed.json').read_text(encoding='utf-8'))
+    rows.extend(build_page_campaigns(page_campaigns))
     with (ROOT / 'outputs/gnb_beneficios_por_categoria.csv').open('w',encoding='utf-8-sig',newline='') as handle:
         writer = csv.DictWriter(handle,fieldnames=list(dict.fromkeys(key for row in rows for key in row)))
         writer.writeheader()
         writer.writerows(rows)
-    (ROOT / 'outputs/gnb_source_meta.json').write_text(json.dumps({'checked_at':additional['checked_at'],'coverage':'Reviewed Copetrol/Copemarket, Bares y Resto, Baza, Pandolfo, property tax and Farmacenter PDFs; full catalog pending','records':len(rows)},indent=2),encoding='utf-8')
+    (ROOT / 'outputs/gnb_source_meta.json').write_text(json.dumps({'checked_at':page_campaigns['checked_at'],'coverage':'Reviewed PDFs and indexed GNB benefit cards; full catalog pending','records':len(rows)},indent=2),encoding='utf-8')
     print(f'GNB: {len(rows)} reviewed offers; full catalog still pending.')
 
 
