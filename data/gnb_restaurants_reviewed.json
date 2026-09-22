@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-09-22T12:30:00Z",
+  "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4485_bases-y-condiciones-restaurantes-bares-y-pizzer%C3%ADas-septiembre.pdf",
+  "source_version": "V9 - 08/09/2026",
+  "starts_on": "2026-01-02",
+  "ends_on": "2026-12-31",
+  "day": "Miércoles, Jueves, Viernes, Sábado, Domingo",
+  "category": "Gastronomía",
+  "purchase_cap": 1500000,
+  "cap_scope": "mensual compartido por cuenta entre todos los comercios adheridos a Bares y Restó (incluye titular y adicionales)",
+  "refund_cap_derived": true,
+  "merchants": [
+    {"name": "1688 Restó", "city": "Asunción"},
+    {"name": "Dorsia", "city": "Asunción"},
+    {"name": "Emeterio", "city": "Asunción", "starts_on": "2026-02-06"},
+    {"name": "Jardín Urbano", "city": "Asunción"},
+    {"name": "La Cabra Sport Bar", "city": "Asunción"},
+    {"name": "Los López Bar de Río", "city": "Asunción"},
+    {"name": "OLA POKE", "city": "Asunción", "starts_on": "2026-06-30", "exception": "Excepción expresa: también aplica a pagos vía web del comercio."},
+    {"name": "Patio Colonial", "city": "Asunción"},
+    {"name": "Pira Sushi", "city": "Asunción"},
+    {"name": "Pizzería Popular", "city": "Asunción"},
+    {"name": "Pulcinella", "city": "Asunción"},
+    {"name": "Terra Alta", "city": "Asunción"},
+    {"name": "Unaghi Sushi", "city": "Asunción"},
+    {"name": "Honorio Bar", "city": "Encarnación"}
+  ],
+  "offers": [
+    {"key": "mastercard-standard", "percent": 20, "refund_cap": 300000, "cards": "Tarjetas de crédito Mastercard GNB", "payment": "tarjeta física, Apple Pay, Google Pay o QR (sin adicional de GNB Personas)", "kind": "base", "label": "Mastercard"},
+    {"key": "mastercard-gnb-qr", "percent": 25, "refund_cap": 375000, "cards": "Tarjetas de crédito Mastercard GNB", "payment": "QR desde la app Banco GNB Personas (20% base + 5% adicional)", "kind": "base", "label": "Mastercard · QR GNB"}
+  ],
+  "conditions": "Pagos en POS adheridos a Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No aplica a plataformas de terceros (Pedidos Ya, Monchis, entre otros) ni e-commerce, salvo la excepción expresa del comercio indicada en esta ficha. No acumulable con otras promociones. Aplica a todas las sucursales de cada comercio adherido. El tope de compra se comparte entre todos los comercios de esta campaña, titular y adicionales; no se multiplica por local ni por método de pago. Reintegro en el extracto al cierre o visible en movimientos de la app. El 25% total es 20% base más 5% adicional, no dos beneficios acumulables independientes."
+}

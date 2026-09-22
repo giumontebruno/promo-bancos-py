@@ -51,3 +51,24 @@ class FamiliarTests(unittest.TestCase):
         self.assertEqual(normalized[3]['offer_kind'], 'premium')
         self.assertNotIn('Clásica', normalized[3]['verified_cards'])
         self.assertEqual(normalized[0]['promotion_days'], ['lunes'])
+
+    def test_gnb_restaurants_preserve_days_shared_cap_and_exceptions(self):
+        data = json.loads((Path(__file__).resolve().parents[1] / 'data/gnb_restaurants_reviewed.json').read_text(encoding='utf-8'))
+        rows = build(data)
+        normalized = [normalize_row('GNB', row) for row in rows]
+        self.assertEqual(len(rows), 28)
+        self.assertEqual(len({row['id'] for row in normalized}), 28)
+        self.assertEqual(len({row['Comercio'] for row in rows}), 14)
+        for row in normalized:
+            self.assertEqual(row['promotion_days'], ['miércoles', 'jueves', 'viernes', 'sábado', 'domingo'])
+            self.assertEqual(row['offer_kind'], 'base')
+        self.assertIn('1.500.000', rows[0]['Montos'])
+        self.assertIn('compartido', rows[0]['Montos'])
+        self.assertIn('calculado al 25%', rows[1]['Montos'])
+        ola = next(row for row in rows if row['Comercio'] == 'OLA POKE')
+        self.assertIn('2026-06-30', ola['Vigencia'])
+        self.assertIn('también aplica a pagos vía web', ola['Detalle'])
+        emeterio = next(row for row in rows if row['Comercio'] == 'Emeterio')
+        self.assertIn('2026-02-06', emeterio['Vigencia'])
+        hon = next(row for row in rows if row['Comercio'] == 'Honorio Bar')
+        self.assertIn('Encarnación', hon['Locales'])
