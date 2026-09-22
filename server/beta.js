@@ -33,7 +33,7 @@ export async function handleBeta(request, env) {
   if (!user) return json({ error: 'Ingresá con Google para acceder a tu cuenta.' }, 401);
   const db = env.DB;
   const now = new Date().toISOString();
-  await db.prepare('INSERT OR IGNORE INTO beta_accounts (id,email,created_at) VALUES (?,?,?)').bind(user.id, user.email, now).run();
+  await db.prepare('INSERT OR IGNORE INTO beta_accounts (id,email,created_at,consent) VALUES (?,?,?,1)').bind(user.id, user.email, now).run();
   if (path === '/api/beta/me' && request.method === 'GET') {
     const account = await db.prepare('SELECT consent,ueno_level FROM beta_accounts WHERE id=?').bind(user.id).first();
     const { results } = await db.prepare('SELECT promo_id FROM beta_favorites WHERE account_id=?').bind(user.id).all();

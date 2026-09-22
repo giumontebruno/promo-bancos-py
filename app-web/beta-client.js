@@ -46,11 +46,11 @@ function shell(content) {
 function show() {
   if (!ready) return shell(`<h2>Beta Payback PY</h2><p>${escape(initError || 'Preparando el acceso…')}</p><button data-beta-retry>Reintentar</button>`);
   if (!client) return shell('<h2>Beta Payback PY</h2><p>El registro está en preparación. Tus favoritos locales siguen disponibles.</p>');
-  if (!current) return shell(`<h2>Ingresar a la beta</h2><form id="betaLogin"><button type="submit" class="google-signin">${googleButton()}</button></form><p>Ingresá con tu cuenta de Google. Solo solicitamos identidad básica y correo, sin acceso a Gmail, contactos ni Drive.</p>`);
+  if (!current) return shell(`<h2>Ingresar a la beta</h2><form id="betaLogin"><button type="submit" class="google-signin">${googleButton()}</button></form><p>Ingresá con tu cuenta de Google. Solo solicitamos identidad básica y correo, sin acceso a Gmail, contactos ni Drive.</p><p>La beta registra por defecto contadores diarios de uso asociados a tu cuenta. No guarda lo que escribís en búsquedas ni tu ubicación. Podés desactivar esta medición y borrar sus datos en tu cuenta. <a href="./privacy.html">Privacidad</a></p>`);
   shell(`<h2>Tu cuenta beta</h2><p>${escape(current.email)}</p>
     <p>Favoritos sincronizados: ${current.favorites.length}. Los avisos se activan por separado en cada dispositivo.</p>
-    <form id="betaPreferences"><label class="check-row"><input name="consent" type="checkbox" ${current.consent ? 'checked' : ''}>Compartir mi actividad de prueba</label>
-    <p>El administrador podrá ver tu correo y contadores diarios de sesiones, consultas, filtros, promociones abiertas, favoritos agregados y clics en Maps. No guardamos el texto de las búsquedas ni coordenadas. Los contadores se conservan 30 días; al desactivar esta opción se borran.</p>
+    <form id="betaPreferences"><label class="check-row"><input name="consent" type="checkbox" ${current.consent ? 'checked' : ''}>Medición básica de la beta</label>
+    <p>Activa por defecto en cuentas nuevas. El administrador puede ver tu correo y contadores diarios de sesiones, búsquedas, filtros, promociones abiertas, favoritos agregados y clics en Maps. No guardamos el texto de las búsquedas ni coordenadas. Los contadores se conservan 30 días; si desactivás la medición, se borran.</p>
     <label>Nivel UENO<select name="level">${[1,2,3,4,5].map(n => `<option value="${n}" ${current.uenoLevel === n ? 'selected' : ''}>Nivel ${n}</option>`).join('')}</select></label><button>Guardar preferencias</button></form>
     <div class="beta-actions"><button data-beta-report>Enviar comentario</button><button data-beta-logout>Cerrar sesión</button><button data-beta-erase>Borrar mis datos de beta</button></div>`);
 }
