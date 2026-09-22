@@ -309,6 +309,9 @@ function hasOpenDateRangeWithoutSpecificDay(text) {
 
 function getDisplayDays(promo) {
   const monthDays = getMonthDays(promo);
+  if (promo.last_days_of_month && monthDays.length) {
+    return `${monthDays[0]} al ${monthDays.at(-1)} y últimos ${promo.last_days_of_month} días de cada mes`;
+  }
   if (monthDays.length) return monthDays.map((day) => `${day} de cada mes`).join(", ");
 
   const ordinalRules = getOrdinalWeekdayRules(promo);
@@ -396,6 +399,7 @@ function getMonthDays(promo) {
 function getDisplayValidity(promo) {
   const text = String(promo.validity || "").trim();
   if (!text || normalizeDayName(text).includes("no especificado")) return "Ver bases";
+  if (/la ficha y el PDF difieren/i.test(text)) return cleanSentence(text);
 
   const datePatterns = [
     /del\s+[0-9]{1,2}\s+al\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
@@ -417,6 +421,13 @@ function getDisplayValidity(promo) {
 function getCardValidity(promo) {
   const validity = getDisplayValidity(promo);
   if (validity.length <= 46) return validity;
+  if (promo.terms?.ends_on) {
+    const [year, month, day] = promo.terms.ends_on.split("-").map(Number);
+    if (year && month && day) {
+      const date = new Date(year, month - 1, day);
+      return `Hasta ${new Intl.DateTimeFormat("es-PY", { day: "numeric", month: "long", year: "numeric" }).format(date)}`;
+    }
+  }
   const text = cleanSentence(`${promo.validity || ""} ${promo.raw_detail || ""}`);
   const match = text.match(/vigente[^.]*?(?:hasta|al)\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4}|[0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4})/i);
   if (match) return `Hasta ${cleanSentence(match[1])}`;
@@ -458,6 +469,7 @@ function isDisplayablePromotion(promo) {
     /\d{1,3}\s*%/.test(text) ||
     text.includes("reintegro") ||
     text.includes("descuento") ||
+    text.includes("sin costo") ||
     text.includes("cuotas sin interes") ||
     text.includes("cuotas sin intereses");
   const isOnlyPointsAction =
@@ -657,6 +669,9 @@ function getMainBenefit(promo, variant = null) {
 
 function getBenefitLines(promo, variant = null) {
   const text = String(getMainBenefit(promo, variant) || promo.benefit_summary || "Ver detalle");
+  if (promo.bank === "GNB" && /\d+%\s+descuento\s+en\s+caja\s*\+\s*\d+%\s+reintegro/i.test(text)) {
+    return [text];
+  }
   if (promo.bank === "Familiar" && !variant) {
     const rates = [...text.matchAll(/(\d{1,2})\s*%\s*(?:de\s+)?(?:reintegro|descuento)/gi)].map(m => Number(m[1]));
     const values = [...new Set(rates)].sort((a,b) => a-b);
@@ -927,8 +942,15 @@ function getPromoTitle(promo) {
 
 function appliesToSelectedDay(promo, selectedDay) {
   const monthDays = getMonthDays(promo);
-  if (monthDays.length) {
-    return selectedDay === "hoy" && monthDays.includes(getParaguayMonthDay());
+  const lastDays = Number(promo.last_days_of_month || 0);
+  if (monthDays.length || lastDays) {
+    if (selectedDay !== "hoy") return false;
+    const day = getParaguayMonthDay();
+    if (monthDays.includes(day)) return true;
+    if (lastDays <= 0) return false;
+    const today = getTodayDateOnly();
+    const monthLength = new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate();
+    return day > monthLength - lastDays;
   }
 
   const ordinalRules = getOrdinalWeekdayRules(promo);

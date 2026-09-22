@@ -15,6 +15,7 @@ function setup() {
     getPromoCategoryGroup: p => p.category,
     getMonthDays: p => p.monthDays || [],
     getParaguayMonthDay: () => 21,
+    getTodayDateOnly: () => new Date(2026, 8, 21),
     getOrdinalWeekdayRules: () => [],
     passesOrdinalDayRule: () => true,
     getTodayInParaguay: () => 'lunes',
@@ -36,6 +37,10 @@ test('nearby Hoy uses the Paraguay weekday and calendar dates', () => {
   assert.equal(c.matchesNearbyDay({ days: ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'] }), true);
   assert.equal(c.matchesNearbyDay({ monthDays: [21] }), true);
   assert.equal(c.matchesNearbyDay({ monthDays: [24] }), false);
+  assert.equal(c.matchesNearbyDay({ monthDays: [17, 18, 19, 20], last_days_of_month: 3 }), false);
+  c.getParaguayMonthDay = () => 29;
+  c.getTodayDateOnly = () => new Date(2026, 8, 29);
+  assert.equal(c.matchesNearbyDay({ monthDays: [17, 18, 19, 20], last_days_of_month: 3 }), true);
   c.state.activeDay = 'jueves';
   assert.equal(c.matchesNearbyDay({ days: ['jueves'] }), true);
   assert.equal(c.matchesNearbyDay({ days: ['lunes'] }), false);

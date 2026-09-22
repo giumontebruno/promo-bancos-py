@@ -108,6 +108,10 @@ def detect_day_ranges(*texts):
 def detect_month_days(*texts):
     haystack = " ".join(clean(t).lower() for t in texts)
     found = []
+    for match in re.finditer(r"\b(?:del?\s+)?([0-3]?\d)\s+al\s+([0-3]?\d)\s+de\s+cada\s+mes\b", haystack):
+        start, end = map(int, match.groups())
+        if 1 <= start <= end <= 31:
+            found.extend(range(start, end + 1))
     for match in re.finditer(r"\b(?:d[ií]a\s*)?([0-3]?\d)\s+de\s+cada\s+mes\b", haystack):
         day = int(match.group(1))
         if 1 <= day <= 31:
@@ -261,6 +265,7 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "percentages": detect_percentages(" ".join([benefit, levels])),
         "promotion_days": detect_days(*scheduling),
         "month_days": detect_month_days(*scheduling),
+        "last_days_of_month": int(first(row, "Últimos días del mes") or 0),
         "ordinal_weekdays": detect_ordinal_weekdays(*scheduling),
         "day_text": day_text or "No especificado",
         "validity": validity,

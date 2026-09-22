@@ -145,6 +145,7 @@ def normalize_terms(promo):
             specific_cards.append(card)
     cards = specific_cards
     additional = [part for part in additional if part not in exclusions and not part.endswith(':')
+                  and not re.fullmatch(r'(?:beneficio|condiciones|vigencia|locales)\.?', part.strip(), re.I)
                   and not re.search(r'aplica exclusivamente.*tarjetas', part, re.I)]
     timing_values = set(re.findall(r'hasta\s+(\d+)\s+d[ií]as h[aá]biles', raw, re.I))
     if len(timing_values) == 1:

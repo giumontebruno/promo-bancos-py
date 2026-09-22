@@ -1,0 +1,598 @@
+{
+  "checked_at": "2026-09-22T13:03:52.086Z",
+  "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
+  "total_source_cards": 238,
+  "already_represented_source_cards": 235,
+  "source_cards_not_yet_in_app": [
+    157,
+    297,
+    20
+  ],
+  "flagged_cards": [
+    {
+      "id": 260,
+      "name": "La Ruta Gastronómica",
+      "flags": "source_start_date_stale; merchant_group_not_geocodable"
+    },
+    {
+      "id": 408,
+      "name": "Bares & Restó",
+      "flags": "source_start_date_stale; merchant_group_not_geocodable"
+    },
+    {
+      "id": 148,
+      "name": "Copetrol",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 543,
+      "name": "GNB Travel+",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 426,
+      "name": "Universidades",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 175,
+      "name": "Cinemark",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 275,
+      "name": "Petrobras PREMMIA",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 421,
+      "name": "Colegios",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 47,
+      "name": "Areté y Festa",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 145,
+      "name": "Electrónica y electrodomésticos",
+      "flags": "source_start_date_stale; merchant_group_not_geocodable"
+    },
+    {
+      "id": 392,
+      "name": "Supermercado Súper 2",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 352,
+      "name": "Farmatotal",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 14,
+      "name": "Viajes",
+      "flags": "source_start_date_stale; merchant_group_not_geocodable"
+    },
+    {
+      "id": 327,
+      "name": "Petrochaco",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 73,
+      "name": "Impuestos Inmobiliarios - Municipalidades",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 377,
+      "name": "Supermercado Jullito",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 157,
+      "name": "Adelanto de efectivo",
+      "flags": "cash_advance_fee; source_start_date_stale"
+    },
+    {
+      "id": 161,
+      "name": "Burger King",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 526,
+      "name": "Supermercado AhorraMás",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 432,
+      "name": "Avenida Autocentro",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 297,
+      "name": "Drugstore Asismed",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 266,
+      "name": "Safebag",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 20,
+      "name": "Compras en el exterior",
+      "flags": "interest_bearing; benefit_not_quantified; source_start_date_stale"
+    },
+    {
+      "id": 387,
+      "name": "Bristol",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 264,
+      "name": "El Molinillo",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 272,
+      "name": "Centros de Enseñanzas",
+      "flags": "source_start_date_stale; merchant_group_not_geocodable"
+    },
+    {
+      "id": 52,
+      "name": "Tonina",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 451,
+      "name": "Subway",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 533,
+      "name": "Meyer Lab",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 477,
+      "name": "Malandras Grill",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 431,
+      "name": "Asado Benitez",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 141,
+      "name": "Shopping China",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 57,
+      "name": "Grupo Garden",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 287,
+      "name": "La Casita Gourmet de Yudith",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 309,
+      "name": "Chacomer",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 51,
+      "name": "Achon",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 354,
+      "name": "Amo Mi Casa",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 53,
+      "name": "Automaq",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 254,
+      "name": "Cellshop",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 189,
+      "name": "Alemania Cell",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 67,
+      "name": "La Rueda",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 535,
+      "name": "FCE",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 248,
+      "name": "Essen",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 555,
+      "name": "Farmalife",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 518,
+      "name": "Hiperfiesta",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 508,
+      "name": "Todo Cubierta",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 15,
+      "name": "Kube",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 300,
+      "name": "El Club del Sommelier",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 502,
+      "name": "De La Sobera",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 491,
+      "name": "Artemera",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 369,
+      "name": "Asismed",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 364,
+      "name": "CompuMarket",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 219,
+      "name": "Juank Servicios y Repuestos",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 368,
+      "name": "Go Fit Gym",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 342,
+      "name": "Óptica Itapúa",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 351,
+      "name": "Ferrex",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 492,
+      "name": "Jade Bistro & Eminent Bistro",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 478,
+      "name": "Inoga",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 239,
+      "name": "Chiqui Chic",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 430,
+      "name": "Librería Kawaii – Colegio Cristo Rey",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 81,
+      "name": "Tienda Personal",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 313,
+      "name": "Pandolfo",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 481,
+      "name": "Luminotecnia",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 406,
+      "name": "Clínica Arco",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 269,
+      "name": "PSA Purificadores de Agua",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 133,
+      "name": "Visuar",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 268,
+      "name": "Carestino",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 399,
+      "name": "Cafexpress",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 326,
+      "name": "Colchones Trebol",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 506,
+      "name": "Paraná Hogar",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 504,
+      "name": "Odontología 3",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 380,
+      "name": "Farmavip",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 360,
+      "name": "Hydro Clean",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 530,
+      "name": "Music Hall",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 442,
+      "name": "Oral Studio",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 441,
+      "name": "Jardín de la Paz",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 257,
+      "name": "Syrocco",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 303,
+      "name": "Nova Tire",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 45,
+      "name": "Última Hora",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 434,
+      "name": "Climarco",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 532,
+      "name": "Master Shop",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 460,
+      "name": "Alpa Muebles",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 405,
+      "name": "Claro Paraguay",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 340,
+      "name": "Taller Ruschel",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 317,
+      "name": "Moplex",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 311,
+      "name": "Fercell",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 554,
+      "name": "Puerto Liebig",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 536,
+      "name": "24.7 Materiales Eléctricos",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 404,
+      "name": "Cindy Zayas - Fotografía Familiar",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 373,
+      "name": "Fermaco",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 361,
+      "name": "Decanter Vinos Boutique",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 333,
+      "name": "Todo Compras",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 443,
+      "name": "Aqualar",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 302,
+      "name": "Ferre Garden",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 500,
+      "name": "Gadget",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 290,
+      "name": "Mercado Digital",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 529,
+      "name": "Shopping Herrajes",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 523,
+      "name": "OneRide",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 359,
+      "name": "Match",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 41,
+      "name": "Alamo",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 527,
+      "name": "Margraf",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 505,
+      "name": "Fortezza",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 435,
+      "name": "La Bella Cucina",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 412,
+      "name": "Metal Center",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 398,
+      "name": "All Office",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 395,
+      "name": "Arte Actual",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 424,
+      "name": "Solucion Lab",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 321,
+      "name": "Imag",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 516,
+      "name": "Impacto",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 512,
+      "name": "Emtop Store",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 458,
+      "name": "Wellness Clinic",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 428,
+      "name": "Ediciones Técnicas Paraguayas",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 503,
+      "name": "Prestigio Muebles",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 367,
+      "name": "Office World",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 470,
+      "name": "Sanisart",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 444,
+      "name": "COM-PAR",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 397,
+      "name": "Keeper",
+      "flags": "source_start_date_stale"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-beta-18-gnb-pages";
+const CACHE_NAME = "payback-py-beta-19-gnb-terms";
 const APP_SHELL = [
   "./",
   "./index.html",

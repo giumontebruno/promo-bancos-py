@@ -37,7 +37,7 @@
   function normalizeText(value) {
     let text = String(value || "").replace(/\s+/g, " ").trim();
     if (text && text === text.toUpperCase()) text = text.toLowerCase();
-    const brands = { visa: "Visa", mastercard: "Mastercard", bnf: "BNF", qr: "QR", pos: "POS",
+    const brands = { visa: "Visa", mastercard: "Mastercard", bnf: "BNF", gnb: "GNB", qr: "QR", pos: "POS",
       "apple pay": "Apple Pay", "google pay": "Google Pay", "personal bank": "Personal Bank" };
     for (const [name, formatted] of Object.entries(brands)) text = text.replace(new RegExp(`\\b${name}\\b`, "gi"), formatted);
     text = text.replace(/,\s*\./g, ".").replace(/(\d)\s+%/g, "$1%");

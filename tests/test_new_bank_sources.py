@@ -4,7 +4,8 @@ from pathlib import Path
 from scrapers.extract_familiar import parse_cards, terms_pdf
 from scrapers.build_familiar_table import convert, date_range
 from scrapers.build_gnb_reviewed import build, build_additional, build_page_campaigns
-from promo_backend.normalize import normalize_row
+from scrapers.build_gnb_live_offers import build_rows as build_gnb_live_rows
+from promo_backend.normalize import normalize_row, detect_month_days
 
 
 class FamiliarTests(unittest.TestCase):
@@ -100,3 +101,36 @@ class FamiliarTests(unittest.TestCase):
         self.assertEqual(rows[2]['Beneficio'], 'Hasta 6 cuotas sin intereses')
         self.assertIn('según oferta', rows[3]['Beneficio'])
         self.assertEqual(len({normalize_row('GNB', row)['id'] for row in rows}), 5)
+
+    def test_gnb_live_card_pdf_crosscheck_and_schedule(self):
+        root = Path(__file__).resolve().parents[1]
+        cards = json.loads((root / 'data/gnb_live_cards_2026-09-22.json').read_text(encoding='utf-8'))
+        documents = json.loads((root / 'data/gnb_pdf_text_2026-09-22.json').read_text(encoding='utf-8'))
+        self.assertEqual(cards['total'], len(cards['cards']))
+        self.assertEqual(cards['total'], 238)
+        self.assertEqual(len(documents['documents']), 217)
+        self.assertFalse(any(doc['error'] for doc in documents['documents'].values()))
+
+        rows, issues = build_gnb_live_rows()
+        self.assertEqual(issues, [])
+        by_card = {}
+        for row in rows:
+            card_id = int(row['URL detalle'].rsplit('/', 1)[-1])
+            by_card.setdefault(card_id, []).append(normalize_row('GNB', row))
+            self.assertNotIn('.pdf', row['URL detalle'])
+        self.assertEqual(len(by_card), 227)
+        self.assertTrue({20, 157, 297}.isdisjoint(by_card))
+        self.assertEqual(by_card[275][0]['promotion_days'], ['miércoles'])
+        self.assertEqual(by_card[392][0]['offer_kind'], 'premium')
+        self.assertEqual(by_card[392][1]['offer_kind'], 'base')
+        self.assertEqual(len(by_card[145][0]['promotion_days']), 7)
+        self.assertEqual(by_card[9][0]['validity'], 'Desde 2026-10-14 hasta 2026-10-14')
+        self.assertEqual(by_card[638][0]['month_days'], [17, 18, 19, 20])
+        self.assertEqual(by_card[638][0]['last_days_of_month'], 3)
+        self.assertEqual(len(by_card[638][1]['promotion_days']), 7)
+        self.assertEqual({(rule['ordinal'], rule['day']) for rule in by_card[631][0]['ordinal_weekdays']},
+                         {(3, 'jueves'), (3, 'viernes')})
+        self.assertIn('29 de diciembre', by_card[660][0]['validity'])
+        self.assertEqual([x['benefit_summary'] for x in by_card[639]][:2],
+                         ['25% de reintegro con QR', '20% de reintegro con tarjeta física'])
+        self.assertEqual(detect_month_days('del 1 al 10 de cada mes'), list(range(1, 11)))

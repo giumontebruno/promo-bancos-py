@@ -1,0 +1,18 @@
+{
+  "cards": 238,
+  "pdfs": 217,
+  "alerts": {
+    "pdf_card_end_date_mismatch": 2,
+    "nonstandard_sections": 2,
+    "interest_bearing": 1
+  },
+  "nonstandard_ids": [
+    157,
+    52
+  ],
+  "rate_mismatch_ids": [],
+  "date_mismatch_ids": [
+    377,
+    297
+  ]
+}

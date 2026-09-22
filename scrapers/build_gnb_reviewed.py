@@ -3,6 +3,11 @@ import csv
 import json
 from pathlib import Path
 
+try:
+    from .build_gnb_live_offers import build_rows as build_live_rows
+except ImportError:
+    from build_gnb_live_offers import build_rows as build_live_rows
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -90,12 +95,41 @@ def main():
     rows.extend(build_additional(additional))
     page_campaigns = json.loads((ROOT / 'data/gnb_page_reviewed.json').read_text(encoding='utf-8'))
     rows.extend(build_page_campaigns(page_campaigns))
+    page_by_pdf_id = {
+        '3872': 148,
+        '4485': 408,
+        '5086': 598,
+        '4128': 313,
+        '961': 73,
+    }
+    for row in rows:
+        for pdf_id, page_id in page_by_pdf_id.items():
+            if f'/imagenes/{pdf_id}_' in row['URL detalle']:
+                row['URL detalle'] = f'https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/{page_id}'
+                break
+    live_rows, issues = build_live_rows()
+    if any(issue['reason'].startswith('no_quantified_offer') for issue in issues):
+        raise ValueError(f'Unquantified GNB offers: {issues}')
+    rows.extend(live_rows)
     with (ROOT / 'outputs/gnb_beneficios_por_categoria.csv').open('w',encoding='utf-8-sig',newline='') as handle:
         writer = csv.DictWriter(handle,fieldnames=list(dict.fromkeys(key for row in rows for key in row)))
         writer.writeheader()
         writer.writerows(rows)
-    (ROOT / 'outputs/gnb_source_meta.json').write_text(json.dumps({'checked_at':page_campaigns['checked_at'],'coverage':'Reviewed PDFs and indexed GNB benefit cards; full catalog pending','records':len(rows)},indent=2),encoding='utf-8')
-    print(f'GNB: {len(rows)} reviewed offers; full catalog still pending.')
+    (ROOT / 'outputs/gnb_source_meta.json').write_text(json.dumps({
+        'checked_at': '2026-09-22',
+        'coverage': '238 official cards crossed with 217 linked PDFs',
+        'records': len(rows),
+        'excluded_cards': {
+            '20': 'Interest-bearing purchases abroad, not an interest-free benefit',
+            '157': 'Cash advance with commission, not a promotion',
+            '297': 'The linked terms ended on 2026-06-30, but the live card claims 2026-12-31',
+        },
+        'date_discrepancy_resolved_conservatively': {
+            '377': 'Jullito ends 2026-11-28 in the card and 2026-12-28 in terms; the earlier date is used',
+        },
+        'import_issues': issues,
+    }, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(f'GNB: {len(rows)} source-linked offers; {len(issues)} scheduling warnings.')
 
 
 if __name__ == '__main__':

@@ -23,4 +23,5 @@ test('minimum spend and invalid percentage do not promise savings', () => {
 });
 test('display casing preserves payment brands', () => {
   assert.equal(rules.normalizeText('TARJETAS VISA Y MASTERCARD CON APPLE PAY'), 'Tarjetas Visa y Mastercard con Apple Pay');
+  assert.equal(rules.normalizeText('GNB'), 'GNB');
 });
