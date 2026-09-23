@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 169
+Total de promociones: 168
 
 ## Combustible
 
@@ -15,7 +15,6 @@ Total de promociones: 169
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | 6 cuotas sin interés | Todos los días | • Todos los días hasta el 31 de diciembre del 2026. |
-| AMANO - PRIMAVERA | 20%; 25%; Hasta 12 cuotas sin interés | No especificado | • Desde el 18 hasta el 22 de septiembre 2026. |
 | COLEGIO SAN ANDRÉS | Hasta 15 cuotas sin interés | No especificado | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. |
 | HYDROCLEAN | 20%; Hasta 12 cuotas sin interés | No especificado | • Desde el 01 al 25 de septiembre 2026. |
 | KUBE | 20%; 25%; Hasta 15 cuotas sin interés | No especificado | • Desde el 22 al 26 de septiembre 2026. |

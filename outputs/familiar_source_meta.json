@@ -1,7 +1,12 @@
 {
-  "checked_at": "2026-09-22T12:33:04.350257+00:00",
+  "checked_at": "2026-09-23T12:43:56.034852+00:00",
   "published": 241,
   "pending": [
+    {
+      "merchant_name": "FAMILIAR DAY",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficio-familiar-day",
+      "reason": "ambiguous_dates"
+    },
     {
       "merchant_name": "MOPAR",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-garden-bases-y-condiciones",

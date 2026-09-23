@@ -1,4 +1,7 @@
 {
+  "ASSIST CARD": [
+    "556497aba35b235c"
+  ],
   "Agencias de Viaje y Compañías Aéreas": [
     "dbd3e1316f161392",
     "a2cfb5ad3fb7156d",
@@ -19,15 +22,12 @@
   "Bienestar": [
     "84714bfec7199316",
     "25ac0630761a2330",
-    "f1847cff9f4b5eb8"
+    "a40ccdea7ec7553d"
   ],
   "Bodegas": [
     "638706b63d39a0a0",
     "1c74300e664ee48b",
     "a6688802cc4b46bf"
-  ],
-  "Casa pro": [
-    "0d5d904f7babb52c"
   ],
   "Caza y Pesca": [
     "27c1171e0af98bca",
@@ -96,7 +96,6 @@
   ],
   "Cuotas y tarjetas": [
     "9898767b60dd8ac2",
-    "71d58be17768207f",
     "4acc21c553fffa78",
     "55bbdfd9bf76b4e9",
     "d9ad1618cba5070e",
@@ -675,6 +674,7 @@
     "68e5f863f0f792a1",
     "10e504f2c07f0c9d",
     "0f7220983d807834",
+    "24b9a23c20822f37",
     "31ed9c70b18d5951",
     "63ab7798b614f938",
     "c5d6654ec52e5212",
@@ -1147,8 +1147,8 @@
     "fcccb2053790b2ac"
   ],
   "Stock & Superseis": [
-    "7d88cc745f7b4029",
-    "4c0c98907971091b"
+    "8d89ae969eb7721b",
+    "b89d12700f21e3ff"
   ],
   "Supermercados": [
     "405df50264da77c4",
@@ -1256,6 +1256,7 @@
     "b91850ce221266d8",
     "57cdc7016954dac6",
     "9039ab575f39cf68",
+    "620f961c5b338b2e",
     "732df66156bfca6d",
     "e19df9b455242a74",
     "d20dd4e92748b0f6",
@@ -1281,7 +1282,7 @@
     "c1337276151a013a",
     "ed291d0c305cbac9",
     "0a1bc77b1eefdf0b",
-    "40035a2ec93a9b41",
+    "e9e1b02111926def",
     "4a507c6ff45a2ffd",
     "be482d286453986a",
     "77b6f7f57796aa8e",
@@ -1355,10 +1356,10 @@
     "84c0dc562d5780db",
     "50aace9dc3761a56",
     "5b3c1360551ea682",
-    "36c333abaf98351d",
+    "eac52f9f02c72590",
     "7c871f73bfc8fc10",
-    "98035059a53c1862",
-    "bd9293b83306ecfd",
+    "ce86dbbb0f29121c",
+    "7b6ded774bf43b25",
     "4d002b503294076f",
     "451c9913e2558be2",
     "c1cd11ef0944f1b5",
@@ -1401,6 +1402,7 @@
     "3b15fd114bd5bb67",
     "e0c24fad744b97b2",
     "80635aa5c66c9f35",
+    "dcdfc40c2f6cfeae",
     "5a248bdf71a643c8"
   ],
   "Tiendas": [
@@ -2166,7 +2168,6 @@
     "14f3e6fb6496ef52",
     "1d6643d63409f133",
     "b323081e9268f5f5",
-    "435cb9cc2b85dab7",
     "7d9bba361c7508c1",
     "9d56881fb3685f14",
     "d09f3027e8c28c60",
@@ -2275,7 +2276,6 @@
     "43d1b329e94a78bf",
     "9ee4965f0607e3f4",
     "37a645339c1121a1",
-    "08b534777c6f71af",
     "2e71f8008348bdbe",
     "b33904d308485e32",
     "7e471bef60acf055",
@@ -2354,7 +2354,10 @@
     "f61885e2591feede"
   ],
   "Últimos días": [
+    "9c4d952240502c66",
     "fefc65ae62ad708d",
-    "9f547a5c849c6e9b"
+    "ef47b049bf1bacc8",
+    "9f547a5c849c6e9b",
+    "442957bfa0957a8b"
   ]
 }

@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 754
+Total de beneficios/comercios: 755
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -553,7 +553,7 @@ Total de beneficios/comercios: 754
 | Progresar Corporation S.A. | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 18 de febrero de 2027 | No especificado |
 | Todo huerta | 10% de reintegro | los jueves | Vigente hasta el 28 de enero del 2027 | No especificado |
 
-## Supermercados (117)
+## Supermercados (118)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -614,6 +614,7 @@ Total de beneficios/comercios: 754
 | Morel Hermanos - Miércoles de Supermercados | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 19 de mayo de 2027 | Itauguá |
 | Nelore Estrellita - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 14 de febrero de 2027 | Asunción |
 | Nutritiva Store - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 19 de mayo de 2027 | Asunción |
+| Panadería La Iteña - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 08 de septiembre de 2027 | Caaguazú |
 | Porkus - Miércoles de Supermercados | 25%; 25% de reintegro | Los miércoles | Vigente hasta el 01 de septiembre de 2027 | Asunción |
 | Predileto - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 07 de octubre de 2026 | San Alberto (Alto Paraná) |
 | Pronto - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 01 de septiembre de 2027 | Col. Hohenau |
@@ -636,9 +637,8 @@ Total de beneficios/comercios: 754
 | Supermercado Coop . Yguazu - Miércoles de supermercados | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 14 de octubre de 2026 | Yguazú |
 | Supermercado D y S - Miércoles de Supermercados | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 02 de diciembre de 2026 | Filadelfia |
 | Supermercado El Cacique S.R.L - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 20 de enero de 2027 | No especificado |
-| Supermercado Emanuel - Miércoles de supermercados | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 03 de marzo de 2027 | Katueté (Canindeyú) |
 
-_Se omitieron 37 filas en este resumen; están en el CSV._
+_Se omitieron 38 filas en este resumen; están en el CSV._
 
 ## Tiendas (216)
 

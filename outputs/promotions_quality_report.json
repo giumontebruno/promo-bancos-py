@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T14:34:09.003439+00:00",
-  "input_count": 2192,
-  "promotion_count": 2192,
+  "generated_at": "2026-09-23T12:48:32.367252+00:00",
+  "input_count": 2195,
+  "promotion_count": 2195,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -173,7 +173,7 @@
     "9f3cee897a1f24f8": "487c44f9e5c33e4d",
     "2444851d95863760": "f8baf057115da3e8",
     "db53f884f56dc8ba": "895d90e2a3be8cc2",
-    "122065fe5453ebae": "f1847cff9f4b5eb8",
+    "122065fe5453ebae": "a40ccdea7ec7553d",
     "ef717e05cba0a400": "685470c83082810a",
     "b3743089e049f22f": "2d3c0e786fe5817d",
     "4ab36f4f04a033f0": "8cf92c85d5a98a05",
@@ -479,17 +479,25 @@
     "4f57f4dce6f5d0a3": "5b64dcb33266eb58",
     "87239587f76198bd": "342e4e67313a8a06",
     "fa76b8fac635832c": "0c37f223ec4ad41c",
-    "d44410fa36639219": "f61885e2591feede"
+    "d44410fa36639219": "f61885e2591feede",
+    "f1847cff9f4b5eb8": "a40ccdea7ec7553d",
+    "40035a2ec93a9b41": "e9e1b02111926def",
+    "7d88cc745f7b4029": "8d89ae969eb7721b",
+    "4c0c98907971091b": "b89d12700f21e3ff",
+    "36c333abaf98351d": "eac52f9f02c72590",
+    "98035059a53c1862": "ce86dbbb0f29121c",
+    "bd9293b83306ecfd": "7b6ded774bf43b25",
+    "08b534777c6f71af": "2e71f8008348bdbe"
   },
   "by_bank": {
     "Atlas": 38,
     "BNF": 75,
-    "Continental": 754,
+    "Continental": 755,
     "Coop. Universitaria": 121,
     "Familiar": 241,
     "GNB": 443,
-    "Itaú": 120,
-    "Sudameris": 169,
+    "Itaú": 123,
+    "Sudameris": 168,
     "ueno bank": 231
   },
   "issue_counts": {
@@ -510,13 +518,13 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "f1847cff9f4b5eb8",
+      "id": "a40ccdea7ec7553d",
       "bank": "Atlas",
       "merchant": "Shopping Mariscal Miércoles Plus",
       "issues": [
         "validity_unconfirmed"
       ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+      "source_url": "https://www.bancoatlas.com.py/web//Mi%C3%A9rcoles%20Plus%20Aniversario.JPG"
     },
     {
       "id": "d70ba6f32e9a8624",
@@ -4184,7 +4192,7 @@
       "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/570"
     },
     {
-      "id": "98035059a53c1862",
+      "id": "ce86dbbb0f29121c",
       "bank": "Itaú",
       "merchant": "Delimarket",
       "issues": [
