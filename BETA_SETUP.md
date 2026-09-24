@@ -10,6 +10,19 @@ Status: implemented locally, not activated or deployed. Authentication provider 
 4. Deploy the Worker with the generated D1 migration before publishing the frontend. The beta is disabled until configured. Existing device notification routes now require the new nullable account_id column.
 5. Run `npm run build` to generate the bundled SDK and frontend, then publish the built output. Do not publish the unbuilt app-web directory.
 
+## Supabase Data API grants
+
+Payback PY currently uses Supabase Auth only. Favorites, activity, reports and push devices are stored in D1, so the October 30, 2026 change to automatic Data API grants does not affect the current app or the SQLite migrations in `drizzle/`.
+
+If a future change creates a table in Supabase's `public` schema and accesses it through `supabase-js`, PostgREST or GraphQL, its SQL migration must include, in the same change:
+
+1. Only the explicit `GRANT` statements required by `anon`, `authenticated` and/or `service_role`. Do not grant every role by default.
+2. `ALTER TABLE public.<table> ENABLE ROW LEVEL SECURITY`.
+3. Policies that restrict each operation to the intended rows.
+4. Sequence privileges when the table uses a serial or identity sequence.
+
+Authentication tables in the managed `auth` schema are not part of this rollout. Never expose beta or administrator data directly to `anon` merely to avoid a Data API permission error.
+
 ## Implemented
 
 - Google authentication via Supabase; server verifies tokens with Auth /user and checks invitation/admin allowlists.
