@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 168
+Total de promociones: 166
 
 ## Combustible
 
@@ -90,6 +90,7 @@ Total de promociones: 168
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| ESTANCIAS - BABY COTTONS - RAPSODIA - ADOLFO DOMINGUEZ - CARO CUORE - LOFT MARKS | ESTANCIAS BABY COTTONS RAPSODIA ADOLFO DOMINGUEZ CARO CUORE LOFT MARKS | No especificado | No especificado |
 | YOUNIQUE | 25%; 30%; Hasta 12 cuotas sin interés | Todos los martes | • Todos los martes y miércoles. • Del 01 de setiembre hasta el 31 de octubre 2026. |
 
 ## Otros
@@ -103,7 +104,7 @@ Total de promociones: 168
 | Bella Casa | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Benditta Women Benditta Style For Man | 20% de descuento en caja + 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Bistro Del Centro | 20% de reintegro | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| Brave | 20% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-20 hasta 2027-02-28 |
+| Brave | 20% de reintegro Hasta 10 cuotas sin interés | Viernes a domingo | Desde 2026-03-20 hasta 2027-02-28 |
 | Brown Burguer | 20% de reintegro | Jueves a sábados | Desde 2026-04-02 hasta 2027-02-27 |
 | Buono Market/Food | 30% de reintegro | viernes y sábado | Desde 2026-04-03 hasta 2027-02-28 |
 | Busca Pies | 20% de descuento en caja + 10% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-09-04 hasta 2027-02-28 |
@@ -119,7 +120,6 @@ Total de promociones: 168
 | Corazón de Melon | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2025-11-14 hasta 2027-02-28 |
 | Corazón de Melón | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábados | Desde 2026-03-06 hasta 2027-02-28 |
 | Credipar Electrodomésticos | 15% de descuento + 10% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-05 hasta 2027-02-28 |
-| Creser Jugando | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2025-04-01 hasta 2026-02-28 |
 | Deport Center | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Di Lara | 20% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Diana Apocada | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | miércoles y jueves | Desde 2026-03-04 hasta 2027-02-28 |
@@ -144,11 +144,11 @@ Total de promociones: 168
 | Jakare La Tienda | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-05-08 hasta 2027-02-27 |
 | Javi Deportes | 20% de reintegro Hasta 10 cuotas sin interés | miércoles | Desde 2025-01-15 hasta 2027-02-24 |
 | Joyeria Dominguez | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| Kyrios | 20% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2026-08-01 |
 | La Fabril Pizza | 20% de reintegro | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | La Guarania Gran Almacén | 25% de reintegro Hasta 12 cuotas sin interés | Último sábado de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | Le Chic | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Liberato | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
+| MASARTE | 20% de reintegro | Miércoles y jueves | Desde 2026-09-30 hasta 2026-12-31 |
 | MI PORTAL COCA COLA | 20% de reintegro Hasta 12 cuotas sin interés | Jueves | Desde 2025-12-18 hasta 2026-07-31 |
 | Malenki s Moda Infantil | 10% de descuento en caja Hasta 10 cuotas sin interés | Todos los días | Desde 2026-06-07 hasta 2026-12-31 |
 | Mansion Design | 20% de descuento en caja + 10% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
@@ -156,7 +156,6 @@ Total de promociones: 168
 | Me Encanta | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Megastar | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábados | Desde 2025-08-15 hasta 2027-02-27 |
 | Milord | Hasta 50% de descuento en caja (según edad cumplida del cliente, con tope de hasta 50%), válido para un solo uso en fecha de cumpleaños. No incluye feriados y día de los enamorados 2026. | cumpleaños | Desde 2025-04-01 hasta 2026-02-28 |
-| Mirkel | 20% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-13 hasta 2026-08-01 |
 | Morena Canela | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábados | Desde 2026-05-15 hasta 2027-02-27 |
 | Mátalas | 20% de reintegro | Viernes y sábado | Desde 2025-10-24 hasta 2026-02-28 |
 | Nutrifrut | 20% de reintegro | jueves a domingo | Desde 2026-03-06 hasta 2027-02-28 |
@@ -185,7 +184,6 @@ Total de promociones: 168
 | STYL Optica | 10% de descuento en caja Hasta 12 cuotas sin interés | Todos los días | Desde 2026-04-20 hasta 2026-12-31 |
 | San Isidro Showroom | 20% de descuento en caja Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-07-17 hasta 2026-12-31 |
 | Selva Negra Kafee Haus | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | Jueves a domingo | Desde 2026-05-14 hasta 2027-02-28 |
-| Shark Suplementos | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-20 hasta 2026-06-20 |
 | Shell Combustible Grupo Laso | 15% de reintegro | Primer lunes de cada mes | Desde 2026-07-06 hasta 2026-12-31 |
 | Shop Grupo Laso | 20% de reintegro | Primer lunes de cada mes | Desde 2026-07-06 hasta 2026-12-31 |
 | Shop Vane | 20% de reintegro | viernes | Desde 2026-03-06 hasta 2027-02-28 |

@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 38
+Total de beneficios: 37
 
 ## Bienestar
 
@@ -10,7 +10,6 @@ Total de beneficios: 38
 |---|---|---|---|
 | Martiderm | 20% de descuento; 3 cuotas sin intereses | Último jueves del mes | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Válido en los locales adheridos. Beneficios exclusivos para consumo personal.  |
 | Prepaga Joven | 20% de reintegro; En tiendas adheridas: | Todos los días | Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 d |
-| Shopping Mariscal Miércoles Plus | 20% de descuento; +20% de reintegro; 3 cuotas sin intereses | 23 de septiembre | Tope de compra por cuenta de tarjeta para el reinetgro Gs. 5.000.000. Promo válida en tiendas adheridas al Miércoles de Beneficio en el Shopping Mariscal y para compras realizadas a través del POS de la Red Infonet. Rein |
 
 ## Educación
 

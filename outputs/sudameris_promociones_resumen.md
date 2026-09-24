@@ -2,7 +2,7 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 51
+Total: 52
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
@@ -57,3 +57,4 @@ Total: 51
 | Sudameris | PARANA HOGAR / COLCHONES | • Todos los viernes. • Desde el 03 de agosto hasta el 31 de octubre 2026. | • 30% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin intereses. | https://www.sudameris.com.py/beneficios/destacado/903/detalle |
 | Sudameris | COLEGIO SAN ANDRÉS | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. | • Hasta 15 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/916/detalle |
 | Sudameris | INTERCOLEGIAL TRINITY - FOODPARK | • Fechas: 18, 19, 20 y 24, 25, 26, 27 de septiembre 2026. | • 20% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/924/detalle |
+| Sudameris | ESTANCIAS - BABY COTTONS - RAPSODIA - ADOLFO DOMINGUEZ - CARO CUORE - LOFT MARKS |  |  | https://www.sudameris.com.py/beneficios/destacado/925/detalle |

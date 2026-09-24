@@ -2,9 +2,9 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 755
+Total de beneficios/comercios: 758
 
-## Agencias de Viaje y Compañías Aéreas (5)
+## Agencias de Viaje y Compañías Aéreas (6)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -13,6 +13,7 @@ Total de beneficios/comercios: 755
 | Consolid Travel | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre del 2026 | Asunción |
 | Exel Turismo | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 01 de mayo de 2027 | Asunción |
 | Lleva Viajes | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 10 de abril del 2027 | Ciudad del Este |
+| Oce | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 23 de marzo de 2027 | Asunción |
 
 ## Bodegas (3)
 
@@ -280,7 +281,7 @@ Total de beneficios/comercios: 755
 |---|---|---|---|---|
 | Kekala | 20%; 20% de reintegro | Los sábados | Vigente hasta el 12 de junio de 2027 | San Lorenzo |
 
-## Hogar (58)
+## Hogar (59)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -339,6 +340,7 @@ Total de beneficios/comercios: 755
 | Unamo | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 08 de diciembre de 2026 | Lambaré |
 | Vera e Hijos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de mayo de 2027 | Caaguazú |
 | Villa Morra Garden House | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de enero de 2027 | Asunción |
+| Vivion - Materiales Eléctricos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 23 de marzo de 2027 | Fernando de la Mora |
 | ZR Distribuidora | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 11 de febrero de 2027 | Fernando de la Mora |
 | Ánima | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 21 de septiembre de 2027 | Asunción |
 | Ñe'ẽ Porã Tecnologia y confort | 20% de reintegro | Todos los días | Vigente hasta el 17 de octubre del 2026 | San Ignacio, Misiones |
@@ -477,7 +479,7 @@ Total de beneficios/comercios: 755
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre del 2026 | No especificado |
 
-## Promociones especiales (10)
+## Promociones especiales (11)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -490,6 +492,7 @@ Total de beneficios/comercios: 755
 | Puerto Liebig | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de marzo de 2027 | Asunción |
 | Tiendas Pilar | 20%; Hasta 12 cuotas sin intereses; 30% de reintegro | No especificado | No especificado | Todo el país |
 | UNISAL Universidad San Lorenzo | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | No especificado | Todo el país |
+| Universo Electrodomésticos | Hasta 18 cuotas sin intereses | No especificado | Vigente hasta el 30 de septiembre de 2027 | Todo el país |
 | Ánima - Promo especial | 30%; Hasta 18 cuotas sin intereses; 30% de reintegro | todos los días | Vigente hasta el 05 de septiembre de 2026 | Asunción |
 
 ## Puma Flota (1)
