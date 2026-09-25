@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 166
+Total de promociones: 165
 
 ## Combustible
 
@@ -21,8 +21,6 @@ Total de promociones: 166
 | SASPY EXPRESS | 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | • Desde el 06 de abril hasta el 30 de septiembre 2026. |
 | SUDAMERIS GO- CUOTAS | Hasta 18 cuotas sin intereses | No especificado | • Del 12 de febrero del 2026 al 31 de diciembre del 2026. |
 | TARJETAS EMPRESARIALES | Hasta 6 cuotas sin interés | Todos los días | • Todos los días. • Desde el 01 de enero hasta el 31 de diciembre de 2026. |
-| TROVARI | 20%; 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el 17 de septiembre hasta el 24 de septiembre 2026. |
-| ULIKO STORE | 20%; Hasta 10 cuotas sin interés | No especificado | • Desde el 21 al 24 de septiembre 2026. |
 | ZONA NORTE | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 
 ## Deportes y clubes
@@ -149,6 +147,7 @@ Total de promociones: 166
 | Le Chic | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Liberato | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | MASARTE | 20% de reintegro | Miércoles y jueves | Desde 2026-09-30 hasta 2026-12-31 |
+| MENTES EXPERTAS – ENRIQUE ROJAS | 20% | No especificado | • Desde el 24 de septiembre 2026 (o hasta agotar stock de entradas). |
 | MI PORTAL COCA COLA | 20% de reintegro Hasta 12 cuotas sin interés | Jueves | Desde 2025-12-18 hasta 2026-07-31 |
 | Malenki s Moda Infantil | 10% de descuento en caja Hasta 10 cuotas sin interés | Todos los días | Desde 2026-06-07 hasta 2026-12-31 |
 | Mansion Design | 20% de descuento en caja + 10% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |

@@ -2,12 +2,11 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 52
+Total: 51
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
 | Sudameris | McLaren Mastercard Formula 1®Team |  |  | https://www.sudameris.com.py/beneficios/destacado/918/detalle |
-| Sudameris | TROVARI | • Desde el 17 de septiembre hasta el 24 de septiembre 2026. | • 20% de descuento en caja pagando con tarjetas de crédito de Sudameris. • 25% de descuento en caja pagando con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/922/detalle |
 | Sudameris | DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES | : Del 03/08 al 31/12/2026. |  | https://www.sudameris.com.py/beneficios/destacado/902/detalle |
 | Sudameris | LUISITO | • Todos los martes. • Desde el 26 de mayo hasta el 30 de noviembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/875/detalle |
 | Sudameris | BIGGIE EXPRESS - PRIMERO DE CADA MES | • 01 de cada mes. • Desde el 01 de julio hasta el 30 de septiembre 2026. | • 30% de reintegro directo en el extracto pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/891/detalle |
@@ -15,7 +14,6 @@ Total: 52
 | Sudameris | FARMACENTER | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer miércoles de cada mes: • 01 de julio. • 05 de agosto. • 02 de septiembre. • 07 de octubre. • 04 de noviembre. | • 20% de descuento directo en caja en todos los productos. • +10% de reintegro directo adicional en extracto, pagando exclusivamente con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/632/detalle |
 | Sudameris | PROMOCIÓN MCLAREN MASTERCARD F1 TEAM | de la promoción y acumulá cupones digitales automáticamente para los sorteos, según las |  | https://www.sudameris.com.py/beneficios/destacado/854/detalle |
 | Sudameris | DTP TRAVEL GROUP | •La Promoción tendrá |  | https://www.sudameris.com.py/beneficios/destacado/787/detalle |
-| Sudameris | ULIKO STORE | • Desde el 21 al 24 de septiembre 2026. | • 20% de reintegro directo con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/832/detalle |
 | Sudameris | TATANO POSADA BOUTIQUE | • Martes a domingo. • Desde el 07 de abril 2026 hasta el 31 de diciembre 2026. | • 20% de descuento en caja con tarjetas de crédito de Sudameris. • 25% de descuento en caja con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 12 cuotas sin intereses (Aplica exclusivamente pa | https://www.sudameris.com.py/beneficios/destacado/761/detalle |
 | Sudameris | KUBE | • Desde el 22 al 26 de septiembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito. • 25% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite. • Hasta 15 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/717/detalle |
 | Sudameris | BIGGIE FARMA | • Desde el 01 de julio hasta el 30 de septiembre 2026. • Solo el primer Jueves de cada mes: • 02 de julio. • 06 de agosto. • 03 de septiembre. | • Desde 20% de descuento en caja. • +10% de reintegro directo adicional en extracto, pagando exclusivamente con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/708/detalle |
@@ -58,3 +56,4 @@ Total: 52
 | Sudameris | COLEGIO SAN ANDRÉS | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. | • Hasta 15 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/916/detalle |
 | Sudameris | INTERCOLEGIAL TRINITY - FOODPARK | • Fechas: 18, 19, 20 y 24, 25, 26, 27 de septiembre 2026. | • 20% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/924/detalle |
 | Sudameris | ESTANCIAS - BABY COTTONS - RAPSODIA - ADOLFO DOMINGUEZ - CARO CUORE - LOFT MARKS |  |  | https://www.sudameris.com.py/beneficios/destacado/925/detalle |
+| Sudameris | MENTES EXPERTAS – ENRIQUE ROJAS | • Desde el 24 de septiembre 2026 (o hasta agotar stock de entradas). | • 20% de descuento directo en compra de entradas, pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/926/detalle |

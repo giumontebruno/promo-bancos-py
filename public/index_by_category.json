@@ -1,4 +1,7 @@
 {
+  "ASSIST CARD": [
+    "556497aba35b235c"
+  ],
   "Agencias de Viaje y Compañías Aéreas": [
     "dbd3e1316f161392",
     "a2cfb5ad3fb7156d",
@@ -18,7 +21,6 @@
     "8a29c04ec9bb672a"
   ],
   "Bienestar": [
-    "84714bfec7199316",
     "25ac0630761a2330"
   ],
   "Bodegas": [
@@ -57,13 +59,13 @@
     "2143259d1a5a0456",
     "7ed0289b2dbc933f",
     "c2b46ea72556c68c",
-    "e04a0817f34c1e1d",
-    "e31059b815bf60cf",
-    "e71961c9b6e1952d",
-    "71296c82631b5adb",
-    "1520fa6042ae6e1a",
-    "8150aca423ca59f1",
-    "d47bbc0ec1f94c12",
+    "98413b89edd668f3",
+    "a3ba83d424371a01",
+    "efcac1f131e95ec2",
+    "bd07b5b002663db4",
+    "fdd72b5b8d64925e",
+    "5f2d6b1a1e176edd",
+    "61eb9244010115fe",
     "7172e6bbf76e5571"
   ],
   "Construcción": [
@@ -88,7 +90,7 @@
     "ee161875b2561065"
   ],
   "Contimarket": [
-    "4b3a4c3ba8a323a9",
+    "ece9e6d15166dced",
     "f781ac3004b9b700"
   ],
   "Cuotas y tarjetas": [
@@ -99,8 +101,6 @@
     "7a201940b9f7a069",
     "0f3c06520e621fe1",
     "adda73b6e9b84929",
-    "eb64597147e0c45f",
-    "0d9847b60487a03e",
     "7fca8ed534f6adcd"
   ],
   "Deportes": [
@@ -566,8 +566,8 @@
     "4a56ac8dd5681dab",
     "9c6bef29f3d287c8",
     "dc80676040775714",
-    "5a610e5bd685f8eb",
     "3a044827f917318a",
+    "5792e73bd7a38617",
     "b31c50d430032da8",
     "ae7ef2743f69f8d3",
     "9a3e4883d28e7cbe",
@@ -813,9 +813,6 @@
     "3db3813a2dff0b80",
     "35eb4d380423bd96"
   ],
-  "Maria Castaña padres": [
-    "a8ec45d80e466f3e"
-  ],
   "Mayoristas": [
     "549617f2f3d66237",
     "549617f2f3d66237-e30f29f6",
@@ -930,6 +927,7 @@
     "a6c1b92462cbee6c",
     "c1179bb608db9b4b",
     "29f29959df608d40",
+    "dc9be424d3e21a3a",
     "5b268808973a0fd5",
     "4b8633aa06443a99",
     "a7808beb578e8dca",
@@ -1391,6 +1389,7 @@
     "7185b3e16b670118"
   ],
   "Tecnología": [
+    "0808a16896575fcf",
     "e77fe8d93e9865f3",
     "9b15f5cb6545e35a",
     "3198af6e42aae42c",
@@ -1400,7 +1399,9 @@
     "ec1a95b5e3e7637c",
     "3b15fd114bd5bb67",
     "e0c24fad744b97b2",
+    "ee0601537b867fdc",
     "80635aa5c66c9f35",
+    "c5c44909b61ba44b",
     "5a248bdf71a643c8"
   ],
   "Tiendas": [
@@ -1507,7 +1508,7 @@
     "29923e0089039516",
     "0d51877ce06496ff",
     "4be488d3f6b21a68",
-    "dec03a93ec7ae623",
+    "10101c6c448961cd",
     "b90c3c9126098cda",
     "c178caf3ccfc8dcb",
     "5a72fb9881508d1b",
@@ -2170,7 +2171,6 @@
     "d09f3027e8c28c60",
     "25fd890fd0e39859",
     "b8ea70e53bed907f",
-    "742af6dd7201afb4",
     "02aff17aa83896d2",
     "d68b31fae45052e1",
     "9240c7d4b41684d1",
@@ -2273,7 +2273,6 @@
     "43d1b329e94a78bf",
     "9ee4965f0607e3f4",
     "37a645339c1121a1",
-    "08b534777c6f71af",
     "2e71f8008348bdbe",
     "b33904d308485e32",
     "7e471bef60acf055",
@@ -2352,10 +2351,10 @@
     "f61885e2591feede"
   ],
   "Últimos días": [
-    "9c4d952240502c66",
+    "b7b605630d13b4b8",
     "c940ffd6a0dc09be",
     "ef47b049bf1bacc8",
     "442957bfa0957a8b",
-    "adb40f6478196f68"
+    "cd4ecc5c251b8be3"
   ]
 }

@@ -8,7 +8,6 @@ Total de beneficios: 37
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Martiderm | 20% de descuento; 3 cuotas sin intereses | Último jueves del mes | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Válido en los locales adheridos. Beneficios exclusivos para consumo personal.  |
 | Prepaga Joven | 20% de reintegro; En tiendas adheridas: | Todos los días | Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 d |
 
 ## Educación
@@ -44,7 +43,7 @@ Total de beneficios: 37
 |---|---|---|---|
 | Koala | 45% de descuento; +10% de reintegro; 12 cuotas sin intereses | Del 19 al 26 de septiembre | Hasta 45% de descuento en caja en tiendas Koala y tiendas Multimarca Koala/Sueñolar. Tope de compra acumulado por cuenta de tarjeta Gs. 5.000.000 para tarjetas de crédito Visa Infinite, Visa Signature, Mastercard Black,  |
 | Renová tu Hogar | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
-| Sara Comercial | 30% de reintegro; Hasta 12 cuotas sin intereses | 21 al 25 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, MasterCard Black y Visa Signature y Gs. 1.000.000 para tarjetas de crédito Visa Clásica y Visa Oro. Promo vigente del 2 |
+| Sara Comercial | 30% de reintegro; Hasta 12 cuotas sin intereses | 21 al 26 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, MasterCard Black y Visa Signature y Gs. 1.000.000 para tarjetas de crédito Visa Clásica y Visa Oro. Promo vigente del 2 |
 
 ## Moda
 
@@ -76,6 +75,7 @@ Total de beneficios: 37
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Pre Venta Iphone 18 | 18 cuotas sin intereses | 25 de septiembre al 10 de octubre | La cantidad de cuotas se solicita en caja a partir de Gs. 1.000.000 y transacciones realizadas a través del POS de la Red Infonet. Exclusivo para consumo personal. Se excluyen las tarjetas corporativas, gourmet card, gif |
 | Tecnología a tu alcance | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 
 ## Vehículo
