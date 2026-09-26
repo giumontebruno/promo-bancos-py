@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T12:47:56.884855+00:00",
-  "input_count": 2192,
-  "promotion_count": 2192,
+  "generated_at": "2026-09-26T12:16:24.137299+00:00",
+  "input_count": 2172,
+  "promotion_count": 2172,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -314,8 +314,6 @@
     "2e5bc639691a1c71": "cf84cb67d3c2281b",
     "597d4471164d6ac4": "dd34697835bdff48",
     "b7e587636cffbf3a": "49a9b4cb7a075742",
-    "d315ab83bd0950cf": "9dfe5b3f07b66f6a",
-    "d3a43aa7ca45beb2": "711977858060fc9a",
     "99168bd0b6958355": "5466f51d47bd761e",
     "cb3de01ca31aba62": "65de826637ac09ea",
     "b95b20e9b8aac4a7": "4863af445cddb82d",
@@ -381,7 +379,6 @@
     "2b0135841f9d0efc": "ea8e9d53f5272746",
     "2c55805b3952b1bd": "55a1debeebdbf6ad",
     "8827f0a94a64beab": "c5c736fd4fb11b39",
-    "60e75ca090f61172": "941b64fd062f489b",
     "748fa979be08a16a": "728785eb33a1cc4e",
     "07db7a8ae4b184f7": "a14803dc2af7019b",
     "3045cfd69732b360": "412a64e4366383d5",
@@ -586,31 +583,35 @@
     "979348af732806d7": "3fc2ba285acd62a5",
     "4b3a4c3ba8a323a9": "ece9e6d15166dced",
     "dec03a93ec7ae623": "10101c6c448961cd",
-    "08b534777c6f71af": "2e71f8008348bdbe",
     "e04a0817f34c1e1d": "98413b89edd668f3",
     "e31059b815bf60cf": "a3ba83d424371a01",
     "e71961c9b6e1952d": "efcac1f131e95ec2",
     "71296c82631b5adb": "bd07b5b002663db4",
     "1520fa6042ae6e1a": "fdd72b5b8d64925e",
     "8150aca423ca59f1": "5f2d6b1a1e176edd",
-    "d47bbc0ec1f94c12": "61eb9244010115fe"
+    "d47bbc0ec1f94c12": "61eb9244010115fe",
+    "3ec8d8dd03a6d3b1": "3a8375ae7cd26f82",
+    "7773a24bc9ac448b": "3ac12a628190a1dd",
+    "276dc9a59a7642ac": "372bb12a1378e963",
+    "7d898fe22a404801": "45383da9fc48266c",
+    "ecbdcb7cf235a791": "53b3249cc9856284"
   },
   "by_bank": {
-    "Atlas": 37,
+    "Atlas": 36,
     "BNF": 75,
-    "Continental": 758,
+    "Continental": 738,
     "Coop. Universitaria": 121,
-    "Familiar": 241,
+    "Familiar": 239,
     "GNB": 443,
-    "Itaú": 121,
-    "Sudameris": 165,
+    "Itaú": 126,
+    "Sudameris": 163,
     "ueno bank": 231
   },
   "issue_counts": {
-    "limits_unconfirmed": 125,
-    "validity_unconfirmed": 60,
+    "limits_unconfirmed": 121,
+    "validity_unconfirmed": 58,
     "source_amount_conflict": 4,
-    "multiple_purchase_limits": 336,
+    "multiple_purchase_limits": 329,
     "multiple_refund_limits": 100
   },
   "review_queue": [
@@ -699,15 +700,6 @@
       "id": "f15cf9854b37b0c4",
       "bank": "Atlas",
       "merchant": "Renová tu Hogar",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "483a189dd34aae31",
-      "bank": "Atlas",
-      "merchant": "Sara Comercial",
       "issues": [
         "limits_unconfirmed"
       ],
@@ -1003,15 +995,6 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "5ae3663ef11e7c0d",
-      "bank": "Continental",
-      "merchant": "Ferretería Mercantil",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
       "id": "32f6fb096b1697bc",
       "bank": "Continental",
       "merchant": "Huguito Ferretería",
@@ -1102,15 +1085,6 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "9dfe5b3f07b66f6a",
-      "bank": "Continental",
-      "merchant": "Brebaje Bar Parrilla",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
       "id": "9d607fc404e033c6",
       "bank": "Continental",
       "merchant": "Calle 75",
@@ -1174,15 +1148,6 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "c639048491078711",
-      "bank": "Continental",
-      "merchant": "KFC",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
       "id": "590d2fcabf191012",
       "bank": "Continental",
       "merchant": "Kafea",
@@ -1195,15 +1160,6 @@
       "id": "746101f65b1529bd",
       "bank": "Continental",
       "merchant": "Koggi",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "5568f23f43aa5f4d",
-      "bank": "Continental",
-      "merchant": "La Brasileña- Shopping Dubai",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -1286,15 +1242,6 @@
       "id": "5a0d3583280d2c04",
       "bank": "Continental",
       "merchant": "Pederzani",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "2dd99d84b53de190",
-      "bank": "Continental",
-      "merchant": "Pizza Hut",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -1536,15 +1483,6 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "5b32d958ffcb8eb9",
-      "bank": "Continental",
-      "merchant": "Jennifer Valdez Make Up & Hair",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
       "id": "93463828d76db505",
       "bank": "Continental",
       "merchant": "Joseph - Coronel Oviedo",
@@ -1581,15 +1519,6 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "7b42959272e15940",
-      "bank": "Continental",
-      "merchant": "Naty Arnold Studio",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
       "id": "88a13caf7999cae2",
       "bank": "Continental",
       "merchant": "Peluquerías y Spas",
@@ -1613,15 +1542,6 @@
       "merchant": "360 Sneaker Store - Privilege",
       "issues": [
         "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "711977858060fc9a",
-      "bank": "Continental",
-      "merchant": "Brebaje Bar Parrilla - Privilege",
-      "issues": [
-        "validity_unconfirmed"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -1757,15 +1677,6 @@
       "merchant": "Go Park",
       "issues": [
         "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "e29268e84a59586a",
-      "bank": "Continental",
-      "merchant": "Intercolegial - Las Almenas",
-      "issues": [
-        "validity_unconfirmed"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -1956,15 +1867,6 @@
       "id": "3f275edebc2bc3b6",
       "bank": "Continental",
       "merchant": "360 Sneaker Store",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "3302aee00ce415ec",
-      "bank": "Continental",
-      "merchant": "AB Alejandro Benítez Calzados - Luque y Villamorra",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -2746,15 +2648,6 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "d31c88a4c69e7025",
-      "bank": "Continental",
-      "merchant": "Zimmer",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
       "id": "62bbc7783aa79373",
       "bank": "Continental",
       "merchant": "Automaq",
@@ -3242,15 +3135,6 @@
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-huerta-bases-y-condiciones"
-    },
-    {
-      "id": "941b64fd062f489b",
-      "bank": "Familiar",
-      "merchant": "LA TAPERIA",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-taperia"
     },
     {
       "id": "728785eb33a1cc4e",

@@ -1,5 +1,5 @@
 {
-  "completed_at": "2026-09-25T12:47:57.170967+00:00",
+  "completed_at": "2026-09-26T12:16:24.383176+00:00",
   "failed_sources": [
     "BNF",
     "Coop. Universitaria"
@@ -7,47 +7,47 @@
   "sources": {
     "Sudameris": {
       "status": "fetched",
-      "checked_at": "2026-09-25T12:44:25.688616+00:00",
-      "records": 165
+      "checked_at": "2026-09-26T12:12:17.651131+00:00",
+      "records": 163
     },
     "Itaú": {
       "status": "fetched",
-      "checked_at": "2026-09-25T12:45:32.109068+00:00",
-      "records": 121
+      "checked_at": "2026-09-26T12:13:30.493195+00:00",
+      "records": 126
     },
     "BNF": {
       "status": "failed",
       "checked_at": "2026-09-24T12:45:01.038119+00:00",
       "records": 75,
-      "attempted_at": "2026-09-25T12:45:54.876496+00:00",
+      "attempted_at": "2026-09-26T12:13:58.824235+00:00",
       "error_type": "CalledProcessError"
     },
     "Continental": {
       "status": "fetched",
-      "checked_at": "2026-09-25T12:46:00.613912+00:00",
-      "records": 758
+      "checked_at": "2026-09-26T12:14:02.460168+00:00",
+      "records": 738
     },
     "Atlas": {
       "status": "fetched",
-      "checked_at": "2026-09-25T12:46:05.289834+00:00",
-      "records": 37
+      "checked_at": "2026-09-26T12:14:05.582329+00:00",
+      "records": 36
     },
     "Coop. Universitaria": {
       "status": "failed",
       "checked_at": "2026-09-17T12:34:35.639315+00:00",
       "records": 77,
-      "attempted_at": "2026-09-25T12:46:05.555467+00:00",
+      "attempted_at": "2026-09-26T12:14:05.998377+00:00",
       "error_type": "CalledProcessError"
     },
     "ueno bank": {
       "status": "fetched",
-      "checked_at": "2026-09-25T12:47:26.359908+00:00",
+      "checked_at": "2026-09-26T12:15:55.225326+00:00",
       "records": 231
     },
     "Familiar": {
       "status": "fetched",
-      "checked_at": "2026-09-25T12:43:55.838160+00:00",
-      "records": 241
+      "checked_at": "2026-09-26T12:11:49.449930+00:00",
+      "records": 239
     }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T12:47:56.884855+00:00",
-  "promotion_count": 2192,
+  "generated_at": "2026-09-26T12:16:24.137299+00:00",
+  "promotion_count": 2172,
   "banks": [
     "Atlas",
     "BNF",
@@ -13,8 +13,8 @@
     "ueno bank"
   ],
   "categories": [
-    "ASSIST CARD",
     "Agencias de Viaje y Compañías Aéreas",
+    "Alemania Cell",
     "Belleza y Salud",
     "Bienestar",
     "Bodegas",
@@ -419,8 +419,6 @@
     "2e5bc639691a1c71": "cf84cb67d3c2281b",
     "597d4471164d6ac4": "dd34697835bdff48",
     "b7e587636cffbf3a": "49a9b4cb7a075742",
-    "d315ab83bd0950cf": "9dfe5b3f07b66f6a",
-    "d3a43aa7ca45beb2": "711977858060fc9a",
     "99168bd0b6958355": "5466f51d47bd761e",
     "cb3de01ca31aba62": "65de826637ac09ea",
     "b95b20e9b8aac4a7": "4863af445cddb82d",
@@ -486,7 +484,6 @@
     "2b0135841f9d0efc": "ea8e9d53f5272746",
     "2c55805b3952b1bd": "55a1debeebdbf6ad",
     "8827f0a94a64beab": "c5c736fd4fb11b39",
-    "60e75ca090f61172": "941b64fd062f489b",
     "748fa979be08a16a": "728785eb33a1cc4e",
     "07db7a8ae4b184f7": "a14803dc2af7019b",
     "3045cfd69732b360": "412a64e4366383d5",
@@ -691,14 +688,18 @@
     "979348af732806d7": "3fc2ba285acd62a5",
     "4b3a4c3ba8a323a9": "ece9e6d15166dced",
     "dec03a93ec7ae623": "10101c6c448961cd",
-    "08b534777c6f71af": "2e71f8008348bdbe",
     "e04a0817f34c1e1d": "98413b89edd668f3",
     "e31059b815bf60cf": "a3ba83d424371a01",
     "e71961c9b6e1952d": "efcac1f131e95ec2",
     "71296c82631b5adb": "bd07b5b002663db4",
     "1520fa6042ae6e1a": "fdd72b5b8d64925e",
     "8150aca423ca59f1": "5f2d6b1a1e176edd",
-    "d47bbc0ec1f94c12": "61eb9244010115fe"
+    "d47bbc0ec1f94c12": "61eb9244010115fe",
+    "3ec8d8dd03a6d3b1": "3a8375ae7cd26f82",
+    "7773a24bc9ac448b": "3ac12a628190a1dd",
+    "276dc9a59a7642ac": "372bb12a1378e963",
+    "7d898fe22a404801": "45383da9fc48266c",
+    "ecbdcb7cf235a791": "53b3249cc9856284"
   },
   "schema_version": 2
 }

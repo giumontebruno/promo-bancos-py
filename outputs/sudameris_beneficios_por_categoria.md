@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 165
+Total de promociones: 163
 
 ## Combustible
 
@@ -16,7 +16,6 @@ Total de promociones: 165
 |---|---|---|---|
 | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | 6 cuotas sin interés | Todos los días | • Todos los días hasta el 31 de diciembre del 2026. |
 | COLEGIO SAN ANDRÉS | Hasta 15 cuotas sin interés | No especificado | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. |
-| HYDROCLEAN | 20%; Hasta 12 cuotas sin interés | No especificado | • Desde el 01 al 25 de septiembre 2026. |
 | KUBE | 20%; 25%; Hasta 15 cuotas sin interés | No especificado | • Desde el 22 al 26 de septiembre 2026. |
 | SASPY EXPRESS | 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | • Desde el 06 de abril hasta el 30 de septiembre 2026. |
 | SUDAMERIS GO- CUOTAS | Hasta 18 cuotas sin intereses | No especificado | • Del 12 de febrero del 2026 al 31 de diciembre del 2026. |
@@ -209,7 +208,6 @@ Total de promociones: 165
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| FRIGOMAS | 25% | No especificado | • Viernes. • Desde el 07 de agosto al 25 de septiembre 2026. |
 | LUISITO | 20% | Todos los martes | • Todos los martes. • Desde el 26 de mayo hasta el 30 de noviembre 2026. |
 | REAL SUPERMERCADOS | 20%; Hasta 12 cuotas sin interés | primer viernes; Solo el primer viernes; todos los días | • Desde el 01 de julio hasta el 30 de septiembre 2026. • Solo el primer viernes de cada mes: • 03 de julio. • 07 de agosto. • 04 de septiembre. |
 

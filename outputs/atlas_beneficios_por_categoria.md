@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 37
+Total de beneficios: 36
 
 ## Bienestar
 
@@ -43,7 +43,6 @@ Total de beneficios: 37
 |---|---|---|---|
 | Koala | 45% de descuento; +10% de reintegro; 12 cuotas sin intereses | Del 19 al 26 de septiembre | Hasta 45% de descuento en caja en tiendas Koala y tiendas Multimarca Koala/Sueñolar. Tope de compra acumulado por cuenta de tarjeta Gs. 5.000.000 para tarjetas de crédito Visa Infinite, Visa Signature, Mastercard Black,  |
 | Renová tu Hogar | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
-| Sara Comercial | 30% de reintegro; Hasta 12 cuotas sin intereses | 21 al 26 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, MasterCard Black y Visa Signature y Gs. 1.000.000 para tarjetas de crédito Visa Clásica y Visa Oro. Promo vigente del 2 |
 
 ## Moda
 

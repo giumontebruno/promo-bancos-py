@@ -2,13 +2,13 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 121
+Total de beneficios: 126
 
-## ASSIST CARD
+## Alemania Cell
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Assist Card | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 35% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-02-18 hasta 2026-09-30 |
+| Alemania Cell | 18 Cuotas sin intereses; Tenes hasta 18 cuotas sin intereses. | No especificado | 2026-09-09 hasta 2026-09-30 |
 
 ## Belleza y Salud
 
@@ -16,6 +16,8 @@ Total de beneficios: 121
 |---|---|---|---|
 | Asismed | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2025-04-04 hasta 2026-12-31 |
 | BELA NAILS | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-08-12 hasta 2026-09-30 |
+| Fuschia | 10 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses | No especificado | 2025-09-27 hasta 2026-10-29 |
+| Fuschia | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses | Aplica los sábados | 2025-09-27 hasta 2026-10-31 |
 | MASTER 1000 | tarjeta de crédito; Tenes 10% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-09-15 hasta 2026-09-30 |
 | MYLAN | 6 Cuotas sin intereses; Tenes hasta 6 cuotas sin intereses. | No especificado | 2026-08-20 hasta 2026-10-31 |
 | ODONTOS | 12 Cuotas sin intereses; Tenes 12 cuotas sin intereses | No especificado | 2026-03-27 hasta 2026-12-31 |
@@ -35,7 +37,6 @@ Total de beneficios: 121
 |---|---|---|---|
 | Festa | 20 %; Tenes 20% de ahorro. | No especificado | 2026-01-01 hasta 2026-09-30 |
 | LA QUESERIA | 20 % Hasta; Tenes 15% de reintegro con todas las tarjetas de crédito. En el local del Shopping Mariscal tenes 20% de reintegro con todas las Tarjetas. | lunes a miércoles | 2026-09-15 hasta 2026-10-31 |
-| Maria Castaña | 3 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro más 5% pagando con tus AMEX PLATINUM Y VISA INFINITE y hasta 3 cuotas sin intereses. | No especificado | 2026-02-01 hasta 2026-09-29 |
 | Pizza Hut | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses para los cumpleaños. | No especificado | 2025-09-19 hasta 2026-09-30 |
 
 ## H&M
@@ -168,6 +169,7 @@ Total de beneficios: 121
 | Alto Vuelo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Ami Tour | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Aries Travel | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
+| Assist Card | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 35% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-02-18 hasta 2026-09-30 |
 | Assist Card | 50 % Hasta 10 Cuotas sin intereses; Hasta 50% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-06-08 hasta 2026-09-30 |
 | Aventura Viajes | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Bespoke | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
@@ -199,7 +201,10 @@ Total de beneficios: 121
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Impacto Home | 25 % Hasta 10 Cuotas sin intereses; Tenes 20% de ahorro + 5% PERSONAL BANK y hasta 10 cuotas sin intereses | No especificado | 2025-06-13 hasta 2026-09-26 |
+| Itau Shopping Days | 6 Cuotas sin intereses; Tenes 6 cuotas sin interéses | No especificado | 2026-01-30 hasta 2026-09-28 |
 | Juan Valdez | 25 % Hasta; Tenes 25% de reintegro + 5% adicional con AMEX PLATINUM y VISA INFINITE | Todos los lunes | 2025-12-10 hasta 2026-09-28 |
+| Maria Castaña | 3 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro más 5% pagando con tus AMEX PLATINUM Y VISA INFINITE y hasta 3 cuotas sin intereses. | No especificado | 2026-02-01 hasta 2026-09-29 |
 | Mi portal Coca Cola | 25 %; 25% de ahorro. | Aplica los domingos | 2025-10-19 hasta 2026-09-27 |
 | Nueva Americana | 10 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro + 5% con AMEX PLATINUM y VISA INFINITE y hasta 10 cuotas sin intereses. | No especificado | 2025-09-25 hasta 2026-09-26 |
 | PIK | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | No especificado | 2026-07-21 hasta 2026-09-26 |

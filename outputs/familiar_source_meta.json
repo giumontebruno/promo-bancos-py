@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-09-25T12:43:55.420359+00:00",
-  "published": 241,
+  "checked_at": "2026-09-26T12:11:48.969560+00:00",
+  "published": 239,
   "pending": [
     {
       "merchant_name": "FAMILIAR DAY",
@@ -21,6 +21,16 @@
       "merchant_name": "BELLEZA Y SPA PLATINUM",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-belleza-y-spa-platinum",
       "reason": "unconfirmed_cards"
+    },
+    {
+      "merchant_name": "SUPER EXPRESS",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-super-express",
+      "reason": "expired_terms"
+    },
+    {
+      "merchant_name": "LA TAPERIA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-taperia",
+      "reason": "expired_terms"
     },
     {
       "merchant_name": "GASTRO - PLAZA NORTE",
