@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T12:16:24.137299+00:00",
-  "promotion_count": 2172,
+  "generated_at": "2026-09-27T12:59:55.626057+00:00",
+  "promotion_count": 2164,
   "banks": [
     "Atlas",
     "BNF",
@@ -13,6 +13,7 @@
     "ueno bank"
   ],
   "categories": [
+    "ASSIST CARD",
     "Agencias de Viaje y Compañías Aéreas",
     "Alemania Cell",
     "Belleza y Salud",
@@ -453,7 +454,6 @@
     "a50f2484a4772590": "61eb9244010115fe",
     "471901cc4b40e62d": "df308c105b23f941",
     "9cb7d648da99c5e5": "1fdee8f273385f23",
-    "05376db99bfc820a": "238c7192f2f74af3",
     "db366dff74ed8ca2": "9ce94311de0a0296",
     "5c32ae2b53dcac84": "a5e89fc918b0a877",
     "f8e140683c164f30": "a5e6b745144d695f",
@@ -514,7 +514,6 @@
     "d9273a3872c7e857": "41e225d4c853b3c2",
     "1e517a63f46edf99": "69eb793e504fe5b6",
     "a0b4b620d85b978f": "a4046081e0b5c813",
-    "20ffddd05c81e5dd": "7c91fb9590c201bf",
     "f62d6cc817b26fde": "70f46d8412c9c2b6",
     "8ae839b081e66f60": "4f66876f9125abba",
     "ca55a4b6517d80df": "7fe9a8cd9ea5a28a",
