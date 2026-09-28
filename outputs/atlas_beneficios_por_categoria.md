@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 34
+Total de beneficios: 24
 
 ## Bienestar
 
@@ -35,7 +35,6 @@ Total de beneficios: 34
 | L'uomo | 6 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 . Valida para compras realizadas a través del POS de la red Infonet. Válido para las sucursales L\\\'uomo de Shopping Vilamorra, Shopping Mul |
 | Pinedo Shopping | 20% de descuento; 3 cuotas sin intereses | Todos los viernes | El descuento se realiza en caja. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica para tiendas adheridas a la promoci |
 | delSol | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Promoción válida todos los días para tarjetas afinidad delSol en todos |
-| oBoticário | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en  |
 
 ## Hogar
 
@@ -48,19 +47,10 @@ Total de beneficios: 34
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Cecconello | 20% de descuento; 10 cuotas sin intereses | 21 al 30 de septiembre | Descuento aplicado en caja hasta 20%. La cantidad de cuotas se solicita al momento de la compra, hasta 10 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Beneficio exclusivo para con |
-| Champs Elysées | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en  |
-| Cortefiel | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 | Di Valentini | 15% de descuento; 10 cuotas sin intereses | 21 al 30 de septiembre | Descuento aplicado en caja hasta 15%. La cantidad de cuotas se solicita al momento de la compra, hasta 10 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Beneficio exclusivo para con |
-| Forever 21 | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de G |
 | Forever 21 Primavera | 60% de descuento; 12 cuotas sin intereses | Del 7 al 30 de septiembre | Descuento de hasta 60% realizado en caja válido presentando su CI y Tarjeta del titular que cumpla las condiciones expresadas en las bases y condiciones de la tienda adjuntas en el PDF. La cantidad de cuotas se solicita  |
 | H&M | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet .Válido para las sucursales de Paseo La Galería, Distrito Perseverancia y su E-  |
-| ISDIN | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para compras realizadas a través del POS de la Red Infonet. La cantidad de cuotas se solicita en  |
-| Jack & Jones | 20% de reintegro; +5%; Hasta 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’s Secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red In |
-| Mango | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
-| Pedro del Hierro | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 | Shopping Mariscal | 20% de descuento; Hasta 3 cuotas sin intereses | Todos los Miércoles | El descuento se realiza en caja. Aplica para tiendas adheridas a la promoción y pagos realizados a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a  |
-| Springfield | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’s Secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red In |
-| women'secret | 20% de reintegro; +5% de reintegro; 12 cuotas sin intereses | 26 y 27 de septiembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 en el conjunto de tiendas: Mango, Springfield, Jack & Jones, Women’secret, Pedro del Hierro y Cortefiel para compras realizadas a través del POS de la Red Info |
 
 ## Supermercados
 

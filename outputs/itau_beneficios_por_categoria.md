@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 123
+Total de beneficios: 122
 
 ## ASSIST CARD
 
@@ -189,7 +189,6 @@ Total de beneficios: 123
 | Maral Turismo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Maria Castaña | 3 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro más 5% pagando con tus AMEX PLATINUM Y VISA INFINITE y hasta 3 cuotas sin intereses. | No especificado | 2026-02-01 hasta 2026-09-29 |
 | Me Vuelo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
-| Mi portal Coca Cola | 25 %; 25% de ahorro. | Aplica los domingos | 2025-10-19 hasta 2026-09-27 |
 | Ocre | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-09-02 hasta 2026-09-30 |
 | Origen | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Palma Travel | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |

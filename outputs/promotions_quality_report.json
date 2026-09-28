@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T12:59:55.626057+00:00",
-  "input_count": 2164,
-  "promotion_count": 2164,
+  "generated_at": "2026-09-28T15:20:20.622584+00:00",
+  "input_count": 2148,
+  "promotion_count": 2148,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -595,22 +595,22 @@
     "ecbdcb7cf235a791": "53b3249cc9856284"
   },
   "by_bank": {
-    "Atlas": 34,
+    "Atlas": 24,
     "BNF": 75,
     "Continental": 738,
     "Coop. Universitaria": 121,
-    "Familiar": 238,
+    "Familiar": 234,
     "GNB": 443,
-    "Itaú": 123,
-    "Sudameris": 161,
+    "Itaú": 122,
+    "Sudameris": 160,
     "ueno bank": 231
   },
   "issue_counts": {
     "limits_unconfirmed": 120,
-    "validity_unconfirmed": 55,
+    "validity_unconfirmed": 44,
     "source_amount_conflict": 4,
     "multiple_purchase_limits": 329,
-    "multiple_refund_limits": 100
+    "multiple_refund_limits": 97
   },
   "review_queue": [
     {
@@ -677,15 +677,6 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "422ac4a5932cc1a6",
-      "bank": "Atlas",
-      "merchant": "oBoticário",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
       "id": "f15cf9854b37b0c4",
       "bank": "Atlas",
       "merchant": "Renová tu Hogar",
@@ -704,90 +695,9 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "1beb833307367702",
-      "bank": "Atlas",
-      "merchant": "Champs Elysées",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "62e1d81c004889ed",
-      "bank": "Atlas",
-      "merchant": "Cortefiel",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
       "id": "f19a5f60e7163501",
       "bank": "Atlas",
       "merchant": "Di Valentini",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "a5b569e0bd681174",
-      "bank": "Atlas",
-      "merchant": "Forever 21",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "45b35a21946b5677",
-      "bank": "Atlas",
-      "merchant": "ISDIN",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "a1e6abee230ec91e",
-      "bank": "Atlas",
-      "merchant": "Jack & Jones",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "4d47e27cd8267674",
-      "bank": "Atlas",
-      "merchant": "Mango",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "2e9d5691f6386db4",
-      "bank": "Atlas",
-      "merchant": "Pedro del Hierro",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "c3345bfae8124155",
-      "bank": "Atlas",
-      "merchant": "Springfield",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "b5f2bfea9a81f447",
-      "bank": "Atlas",
-      "merchant": "women'secret",
       "issues": [
         "validity_unconfirmed"
       ],
@@ -3386,15 +3296,6 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gran-via-bases-y-condiciones"
     },
     {
-      "id": "fba28a649cd19cc8",
-      "bank": "Familiar",
-      "merchant": "KINGO",
-      "issues": [
-        "multiple_refund_limits"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-kingo-bases-y-condiciones"
-    },
-    {
       "id": "e935f8341c9d0cc3",
       "bank": "Familiar",
       "merchant": "SANTO DOMINGO",
@@ -3411,24 +3312,6 @@
         "multiple_refund_limits"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-stock-bases-y-condiciones"
-    },
-    {
-      "id": "67ccf44280f50397",
-      "bank": "Familiar",
-      "merchant": "SUPERMERCADO AREA 6",
-      "issues": [
-        "multiple_refund_limits"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-supermercado-area-6-bases-y-condiciones"
-    },
-    {
-      "id": "6bdaac371ae91d39",
-      "bank": "Familiar",
-      "merchant": "SUPERMERCADO EL PAIS",
-      "issues": [
-        "multiple_refund_limits"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-supermercado-el-pais-bases-y-condiciones"
     },
     {
       "id": "657860c088e9922b",
@@ -4266,15 +4149,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-23926.pdf"
-    },
-    {
-      "id": "807457934426218a",
-      "bank": "Sudameris",
-      "merchant": "INTERCOLEGIAL TRINITY - FOODPARK",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/924/detalle"
     },
     {
       "id": "dc9be424d3e21a3a",

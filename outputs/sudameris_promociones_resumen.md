@@ -2,7 +2,7 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 47
+Total: 46
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
@@ -51,5 +51,4 @@ Total: 47
 | Sudameris | LE BISTRO DE LA ROTONDE – DISTRITO PERSEVERANCIA | • De lunes a miércoles. • Desde el 06 de julio hasta el 30 de septiembre 2026. | • 20% de reintegro directo en extracto, con tarjetas de crédito de Sudameris. • 25% de reintegro directo en extracto, con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/897/detalle |
 | Sudameris | PARANA HOGAR / COLCHONES | • Todos los viernes. • Desde el 03 de agosto hasta el 31 de octubre 2026. | • 30% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin intereses. | https://www.sudameris.com.py/beneficios/destacado/903/detalle |
 | Sudameris | COLEGIO SAN ANDRÉS | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. | • Hasta 15 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/916/detalle |
-| Sudameris | INTERCOLEGIAL TRINITY - FOODPARK | • Fechas: 18, 19, 20 y 24, 25, 26, 27 de septiembre 2026. | • 20% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/924/detalle |
 | Sudameris | MENTES EXPERTAS – ENRIQUE ROJAS | • Desde el 24 de septiembre 2026 (o hasta agotar stock de entradas). | • 20% de descuento directo en compra de entradas, pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/926/detalle |

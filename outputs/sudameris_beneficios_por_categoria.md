@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 161
+Total de promociones: 160
 
 ## Combustible
 
@@ -135,7 +135,6 @@ Total de promociones: 161
 | Galway | 20% de reintegro | Viernes a Domingo | Desde 2026-03-06 hasta 2027-02-28 |
 | Glamour By Sandri | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Granel Mercado Natural | 20% de reintegro + 5% elite | Último sábado de cada mes | Inicio no confirmado (0.07.26 en el PDF). Hasta 2026-12-31 |
-| INTERCOLEGIAL TRINITY - FOODPARK | 20% | No especificado | • Fechas: 18, 19, 20 y 24, 25, 26, 27 de septiembre 2026. |
 | Jakare La Tienda | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-05-08 hasta 2027-02-27 |
 | Javi Deportes | 20% de reintegro Hasta 10 cuotas sin interés | miércoles | Desde 2025-01-15 hasta 2027-02-24 |
 | Joyeria Dominguez | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
