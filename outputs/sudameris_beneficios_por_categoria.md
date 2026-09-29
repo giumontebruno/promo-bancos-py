@@ -51,7 +51,7 @@ Total de promociones: 160
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| BIGGIE EXPRESS - PRIMERO DE CADA MES | 30% | 01 de cada mes | • 01 de cada mes. • Desde el 01 de julio hasta el 30 de septiembre 2026. |
+| BIGGIE EXPRESS - PRIMERO DE CADA MES | 30% | 01 de cada mes | • 01 de cada mes. • Desde el 01 de julio hasta el 31 de diciembre 2026. |
 | CAFÉ JARDIN | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A DOMINGO | Desde 2026-08-06 hasta 2026-09-27 |
 | CAFÉ QUINTO | 25% DE REINTEGRO | MARTES | Desde 2026-08-04 hasta 2026-09-30 |
 | CHAVAL | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A SÁBADO | Desde 2026-08-06 hasta 2026-09-30 |

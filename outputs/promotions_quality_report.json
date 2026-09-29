@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T15:20:20.622584+00:00",
-  "input_count": 2148,
-  "promotion_count": 2148,
+  "generated_at": "2026-09-29T14:01:51.138903+00:00",
+  "input_count": 2145,
+  "promotion_count": 2145,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "e00046a2cb73ad01",
@@ -592,7 +592,8 @@
     "7773a24bc9ac448b": "3ac12a628190a1dd",
     "276dc9a59a7642ac": "372bb12a1378e963",
     "7d898fe22a404801": "45383da9fc48266c",
-    "ecbdcb7cf235a791": "53b3249cc9856284"
+    "ecbdcb7cf235a791": "53b3249cc9856284",
+    "ae7ef2743f69f8d3": "871d93e2ae4107d4"
   },
   "by_bank": {
     "Atlas": 24,
@@ -601,7 +602,7 @@
     "Coop. Universitaria": 121,
     "Familiar": 234,
     "GNB": 443,
-    "Itaú": 122,
+    "Itaú": 119,
     "Sudameris": 160,
     "ueno bank": 231
   },
@@ -609,7 +610,7 @@
     "limits_unconfirmed": 120,
     "validity_unconfirmed": 44,
     "source_amount_conflict": 4,
-    "multiple_purchase_limits": 329,
+    "multiple_purchase_limits": 328,
     "multiple_refund_limits": 97
   },
   "review_queue": [
@@ -4050,15 +4051,6 @@
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16584&c=30064"
-    },
-    {
-      "id": "cd4ecc5c251b8be3",
-      "bank": "Itaú",
-      "merchant": "Shell",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291"
     },
     {
       "id": "7fca8ed534f6adcd",

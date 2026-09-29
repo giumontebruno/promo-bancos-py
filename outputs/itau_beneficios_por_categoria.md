@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 122
+Total de beneficios: 119
 
 ## ASSIST CARD
 
@@ -183,8 +183,6 @@ Total de beneficios: 122
 | Gonzalez Gimenez | 15 Cuotas sin intereses 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2025-11-10 hasta 2026-09-30 |
 | HABLANDO HUEVADAS | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-09-30 |
 | Interviajes | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
-| Itau Shopping Days | 6 Cuotas sin intereses; Tenes 6 cuotas sin interéses | No especificado | 2026-01-30 hasta 2026-09-28 |
-| Juan Valdez | 25 % Hasta; Tenes 25% de reintegro + 5% adicional con AMEX PLATINUM y VISA INFINITE | Todos los lunes | 2025-12-10 hasta 2026-09-28 |
 | MASTER 1000 | tarjeta de crédito; Tenes 10% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-09-15 hasta 2026-09-30 |
 | Maral Turismo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Maria Castaña | 3 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro más 5% pagando con tus AMEX PLATINUM Y VISA INFINITE y hasta 3 cuotas sin intereses. | No especificado | 2026-02-01 hasta 2026-09-29 |
@@ -200,7 +198,6 @@ Total de beneficios: 122
 | Sensitur Viajes | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Servitravel | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Sevens Travel | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
-| Shell | 20 %; 20% de reintegro con tu tarjeta de Crédito clásica | todos los lunes | 2026-01-05 hasta 2026-09-28 |
 | Smart Travel | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
 | Sueñolar | 18 Cuotas sin intereses; Tenes hasta 55% de ahorro y hasta 18 cuotas sin intereses. | No especificado | 2025-06-09 hasta 2026-09-30 |
 | Terranova | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-09-30 |
