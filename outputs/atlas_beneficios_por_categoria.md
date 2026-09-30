@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 24
+Total de beneficios: 25
 
 ## Bienestar
 
@@ -29,6 +29,7 @@ Total de beneficios: 24
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Atlas Week delSol Shopping | 20% de reintegro; +10% de reintegro; 12 cuotas sin intereses | Del 1/10 al 4/10 | Promoción válida en locales adheridos, para transacciones realizadas a través de POS de la Red Bancard. Tope de compra Gs. 30.000.000 por cuenta de tarjeta en el conjunto de locales adheridos a la promoción. La cantidad  |
 | Beneficios Spa y Peluquerías | 20% de reintegro; +5% de reintegro | Todos los Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 800.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro en el conjunto de locales adheridos |
 | Estaciones de Servicio | 20% de reintegro; +5% de reintegro | Todos los Martes | Mínimo de compra Gs. 200.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 700.000 para tarjetas de crédito Clásica y Oro en  |
 | Impuestos al día | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |

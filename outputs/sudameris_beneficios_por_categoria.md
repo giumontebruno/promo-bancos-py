@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 160
+Total de promociones: 161
 
 ## Combustible
 
@@ -132,7 +132,6 @@ Total de promociones: 160
 | Farmavida | 20% de reintegro Hasta 12 cuotas sin interés | El primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 | Farmavida | 20% de reintegro Hasta 12 cuotas sin interés | El primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 | Fashion Calzados | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| Galway | 20% de reintegro | Viernes a Domingo | Desde 2026-03-06 hasta 2027-02-28 |
 | Glamour By Sandri | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Granel Mercado Natural | 20% de reintegro + 5% elite | Último sábado de cada mes | Inicio no confirmado (0.07.26 en el PDF). Hasta 2026-12-31 |
 | Jakare La Tienda | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-05-08 hasta 2027-02-27 |
@@ -154,6 +153,7 @@ Total de promociones: 160
 | Morena Canela | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábados | Desde 2026-05-15 hasta 2027-02-27 |
 | Mátalas | 20% de reintegro | Viernes y sábado | Desde 2025-10-24 hasta 2026-02-28 |
 | Nutrifrut | 20% de reintegro | jueves a domingo | Desde 2026-03-06 hasta 2027-02-28 |
+| OASIS PLAZA | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábados | Desde 2026-10-02 hasta 2026-11-14 |
 | Optica Itapua | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Optica Sur | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-27 |
 | Otti Rolls | 20% de reintegro + 5% elite | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
@@ -205,8 +205,9 @@ Total de promociones: 160
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| FRIGOMAS | 25% | No especificado | • Viernes. • Desde el 07 de agosto al 25 de diciembre 2026. |
 | LUISITO | 20% | Todos los martes | • Todos los martes. • Desde el 26 de mayo hasta el 30 de noviembre 2026. |
-| REAL SUPERMERCADOS | 20%; Hasta 12 cuotas sin interés | primer viernes; Solo el primer viernes; todos los días | • Desde el 01 de julio hasta el 30 de septiembre 2026. • Solo el primer viernes de cada mes: • 03 de julio. • 07 de agosto. • 04 de septiembre. |
+| REAL SUPERMERCADOS | 20%; Hasta 12 cuotas sin interés | primer viernes; Solo el primer viernes; todos los días | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer viernes de cada mes: • 03 de julio. • 07 de agosto. • 04 de septiembre. • 02 de octubre. • 06 de noviembre. • 04 de diciembre. |
 
 ## Viajes y turismo
 

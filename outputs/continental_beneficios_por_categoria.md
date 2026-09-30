@@ -568,7 +568,7 @@ Total de beneficios/comercios: 738
 | Casa Yasy - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 11 de noviembre de 2026 | Concepción |
 | Comercial Armin | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 18 de agosto de 2027 | No especificado |
 | Comercial Baratodo - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 02 de diciembre de 2026 | Capiatá |
-| Comercial Elena - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 24 de septiembre de 2026 | Coronel Oviedo |
+| Comercial Elena - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 29 de septiembre de 2027 | Coronel Oviedo |
 | Comercial Insaurralde - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 03 de marzo de 2027 | Caaguazú |
 | Comercial Liz - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 21 de octubre de 2026 | San Ignacio, Misiones |
 | Comercial Triangulo "Miércoles de supermercados" | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 28 de octubre de 2026 | Salto del Guairá |
@@ -619,7 +619,7 @@ Total de beneficios/comercios: 738
 | Stock Supermercados - Miércoles de Supermercados | 20%; Hasta 18 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 | Super Favesa - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 02 de noviembre de 2026 | Coronel Oviedo |
 | Super Total - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 25 de agosto de 2027 | Ayolas - Misiones |
-| Supermercado 7 de Agosto - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 24 de septiembre de 2026 | Tomás R. Pereira |
+| Supermercado 7 de Agosto - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 29 de septiembre de 2027 | Tomás R. Pereira |
 | Supermercado Area 6 - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 08 de septiembre de 2027 | Hernandarias |
 | Supermercado Boquerón - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 12 de noviembre de 2026 | Filadelfia |
 | Supermercado Campo 9 - Miércoles de Supermercados | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 13 de noviembre de 2026 | Campo 9 |
