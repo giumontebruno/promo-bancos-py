@@ -4,7 +4,7 @@ import json
 import re
 from datetime import date, datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
 
 import pdfplumber
 import requests
@@ -14,52 +14,58 @@ OUT_CSV = Path("outputs/bnf_beneficios_por_categoria.csv")
 OUT_MD = Path("outputs/bnf_beneficios_por_categoria.md")
 PDF_DIR = Path("work/bnf/pdfs")
 
-PROMOS = [
-    {
-        "categoria": "Mayoristas",
-        "descuento": "30% reintegro",
-        "dia": "Sábados",
-        "detalle": "Promoción en mayoristas pagando con Tarjetas de Crédito VISA BNF.",
-        "marcas": "BOX Mayorista; Aho Aho Comercial; Supermás; Casa Grütter",
-        "pdf": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_SEP_2026_5bc6ee5563.pdf",
-    },
-    {
-        "categoria": "Farmacias",
-        "descuento": "10% reintegro",
-        "dia": "No especificado en tarjeta",
-        "detalle": "Promoción en farmacias pagando con Tarjeta de Crédito VISA BNF.",
-        "marcas": "ASISMED Drugstore; Farmacias Catedral; Farmacia Vicente Scavone; Farmacenter; Farma Koke; Farmacia Santa Victoria",
-        "pdf": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_SEP_2026_3ca4b62e69.pdf",
-    },
-    {
-        "categoria": "Estaciones de Servicio",
-        "descuento": "20% reintegro",
-        "dia": "Miércoles",
-        "detalle": "Promoción en combustibles pagando con Tarjetas de Crédito BNF.",
-        "marcas": "Puma; Copetrol; Compasa; Petrochaco; 3MG",
-        "pdf": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_SEP_2026_0c00026515.pdf",
-    },
-    {
-        "categoria": "Supermercados",
-        "descuento": "30% reintegro",
-        "dia": "Jueves",
-        "detalle": "Promoción en supermercados pagando con Tarjetas de Crédito VISA BNF.",
-        "marcas": "",
-        "pdf": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_SEP_2026_d048e2b720.pdf",
-    },
-    {
-        "categoria": "Frigoríficos",
-        "descuento": "30% reintegro",
-        "dia": "Viernes",
-        "detalle": "Promoción en frigoríficos pagando con Tarjetas de Crédito VISA BNF.",
-        "marcas": "Pollos Don Juan; Cooperativa Chortitzer",
-        "pdf": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_SEP_2026_f798717e14.pdf",
-    },
-]
+BNF_BASE = "https://www.bnf.gov.py"
+BNF_APP = f"{BNF_BASE}/bnf/web/#/club-beneficios"
+BNF_API = f"{BNF_BASE}/api/club-de-beneficios?populate=deep"
+CATEGORY_NAMES = {
+    "MAYORISTAS": "Mayoristas",
+    "FARMACIAS": "Farmacias",
+    "ESTACIONES DE SERVICIO": "Estaciones de Servicio",
+    "SUPERMERCADOS": "Supermercados",
+    "FRIGORÍFICOS": "Frigoríficos",
+}
 
 
 def clean(text):
     return re.sub(r"\s+", " ", text or "").strip()
+
+
+def discover_promos():
+    client = requests.Session()
+    client.headers.update({"User-Agent": "Mozilla/5.0 (compatible; PaybackPY/1.0; promotion catalog)"})
+    app = client.get(BNF_APP, timeout=30)
+    app.raise_for_status()
+    main_match = re.search(r'<script[^>]+src=["\'](main\.[^"\']+\.js)', app.text, re.I)
+    if not main_match:
+        raise RuntimeError("BNF application bundle was not found")
+    bundle = client.get(urljoin(app.url, main_match.group(1)), timeout=40)
+    bundle.raise_for_status()
+    token_match = re.search(r'Authorization:"Bearer\s+([a-f0-9]+)"', bundle.text, re.I)
+    if not token_match:
+        raise RuntimeError("BNF public catalog credential was not found")
+    response = client.get(BNF_API, headers={"Authorization": f"Bearer {token_match.group(1)}"}, timeout=40)
+    response.raise_for_status()
+    cards = response.json()["data"]["attributes"]["lista"]
+    promos = []
+    for card in cards:
+        description = card.get("descripcion_larga") or ""
+        pdf_match = re.search(r"\((?:https?://[^/]+)?(/uploads/[^)]+\.pdf)\)", description, re.I)
+        if not pdf_match:
+            raise ValueError(f"BNF {card.get('nombre')}: official PDF link not found")
+        day_match = re.search(r"\b(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bados?|domingos?)\b", description, re.I)
+        list_items = [clean(item) for item in re.findall(r"(?m)^-\s+(.+)$", description)]
+        name = clean(card.get("nombre")).upper()
+        promos.append({
+            "categoria": CATEGORY_NAMES.get(name, clean(card.get("nombre")).title()),
+            "descuento": clean(card.get("descripcion_beneficio") or card.get("beneficio_corto")),
+            "dia": day_match.group(1).title() if day_match else "Todos los días",
+            "detalle": clean(description),
+            "marcas": "; ".join(list_items),
+            "pdf": urljoin(BNF_BASE, pdf_match.group(1)),
+        })
+    if not promos:
+        raise RuntimeError("BNF returned an empty promotion catalog")
+    return promos
 
 
 def download_pdf(url):
@@ -276,7 +282,8 @@ def extract_locales(text, rows, marcas=""):
 def main():
     rows = []
     branches = []
-    for promo in PROMOS:
+    promos = discover_promos()
+    for promo in promos:
         pdf_path = download_pdf(promo["pdf"])
         pdf_text = extract_pdf_text(pdf_path)
         current_branches = branch_records(pdf_path, promo)
@@ -285,7 +292,7 @@ def main():
 
     OUT_CSV.parent.mkdir(exist_ok=True)
     Path('outputs/bnf_branch_sources.json').write_text(json.dumps(branches, ensure_ascii=False, indent=2), encoding='utf-8')
-    Path('outputs/bnf_source_meta.json').write_text(json.dumps({'checked_at': datetime.now(timezone.utc).isoformat(), 'source_urls': [p['pdf'] for p in PROMOS]}), encoding='utf-8')
+    Path('outputs/bnf_source_meta.json').write_text(json.dumps({'checked_at': datetime.now(timezone.utc).isoformat(), 'source_urls': [p['pdf'] for p in promos]}), encoding='utf-8')
     with OUT_CSV.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         writer.writeheader()

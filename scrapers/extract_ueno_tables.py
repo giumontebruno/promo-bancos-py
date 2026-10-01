@@ -30,8 +30,28 @@ def money(value):
     return int(found[1].replace(".", "")) if found else None
 
 
+def benefit_labels(detail):
+    labels = []
+    coupon = re.search(
+        r"cup[oó]n\s+de\s+reintegro(?:\s+equivalente)?(?:\s+al?|\s+de)?\s*(Gs\.?\s*[\d.]+|\d{1,3}\s*%)",
+        detail,
+        re.I,
+    )
+    if coupon:
+        value = text(coupon.group(1))
+        labels.append(f"Cupón de reintegro de {value}")
+    for value in re.findall(r"\b(\d{1,2})\s*%", detail):
+        percent = int(value)
+        if percent <= 60:
+            labels.append(f"{percent}% reintegro")
+    quota = re.search(r"(?:hasta\s+)?\d{1,2}(?:\s*\([^)]*\))?\s+cuotas?\s+sin\s+inter[eé]s(?:es)?", detail, re.I)
+    if quota:
+        labels.append(text(quota.group(0)))
+    return list(dict.fromkeys(labels))
+
+
 def parse_tables(pages, source_url, slug):
-    levels, merchants, locations = [], [], []
+    levels, merchants, merchant_benefits, locations = [], [], {}, []
     branch_layout = None
     brand = "Petropar" if slug == "petropar" else ""
     for page_number, tables in enumerate(pages, 1):
@@ -79,11 +99,14 @@ def parse_tables(pages, source_url, slug):
                     name = re.sub(r"^A trav[eé]s de la APP\s+", "", name, flags=re.I)
                     if len(name) <= 100:
                         merchants.append(name)
-    return list({json.dumps(x, sort_keys=True): x for x in levels}.values()), list(dict.fromkeys(merchants)), locations
+                        quota = re.search(r"(?:hasta\s+)?\d{1,2}\s+cuotas?\s+sin\s+inter[eé]s(?:es)?", " ".join(row[2:]), re.I)
+                        if quota:
+                            merchant_benefits[name] = text(quota.group(0))
+    return list({json.dumps(x, sort_keys=True): x for x in levels}.values()), list(dict.fromkeys(merchants)), merchant_benefits, locations
 
 
 def main():
-    source_rows = list(csv.DictReader(monthly.OUT_CSV.open(encoding="utf-8-sig")))
+    source_rows = list(csv.DictReader(monthly.RAW_CSV.open(encoding="utf-8-sig")))
     by_page = {int(row["Página PDF"]): row for row in source_rows if str(row["Página PDF"]).isdigit()}
     result, all_locations, review = [], [], []
     for page, links in bases.page_links().items():
@@ -100,14 +123,19 @@ def main():
                 with pdfplumber.open(pdf_path) as pdf:
                     pages = [p.extract_tables() for p in pdf.pages]
                     raw = "\n".join(p.extract_text() or "" for p in pdf.pages)
-                levels, merchants, locations = parse_tables(pages, pdf_url, slug)
+                levels, merchants, merchant_benefits, locations = parse_tables(pages, pdf_url, slug)
                 all_locations.extend(locations)
                 if not merchants:
                     merchants = [slug.replace("-", " ")]
                 if slug == "clubes":
                     merchants = ["CIT - Consumos dentro del club", "CIT - Cuotas sociales"]
                 # Only an annex heading ends the terms, not a reference within a sentence.
-                detail = re.split(r"(?m)^[ \t]*ANEXO\s+[IVX]+\b[^\n]*$", raw, maxsplit=1, flags=re.I)[0]
+                detail = re.split(
+                    r"(?m)^[ \t]*ANEXO\s+[IVX]+(?:\s+(?:ADHERIDOS|MEDIOS DE PAGO|COMERCIOS|SUCURSALES))?[ \t]*$",
+                    raw,
+                    maxsplit=1,
+                    flags=re.I,
+                )[0]
                 if slug == "combustibles":
                     merchants = [brand for brand in BRANDS if brand != "PETROPAR" and re.search(r"\b" + re.escape(brand) + r"\b", detail, re.I)]
                 elif slug == "petropar":
@@ -115,19 +143,19 @@ def main():
                 rules = "; ".join(f"Nivel {r['level']}: {r['percent']}%" for r in levels)
                 caps = "; ".join(f"Nivel {r['level']}: tope de compra {r['period']} Gs. {r['purchase_cap']:,}; tope de reintegro {r['period']} Gs. {r['refund_cap']:,}".replace(",", ".")
                                  for r in levels if r["purchase_cap"] is not None and r["refund_cap"] is not None)
-                pct = list(dict.fromkeys(f"{r['percent']}% reintegro" for r in levels))
-                if not pct:
-                    pct = [m[0] for m in re.finditer(r"\d{1,2}\s*%\s+(?:de\s+)?(?:reintegro|descuento)", detail, re.I)]
-                if not pct and re.search(r"cuotas?\s+sin\s+inter[eé]s", detail, re.I):
-                    pct = ["Cuotas sin intereses"]
-                if not pct:
+                pct = list(dict.fromkeys(f"{r['percent']}% reintegro" for r in levels)) or benefit_labels(detail)
+                if slug == "raio-bemba" and not re.search(r"raio\s+bemba", detail, re.I):
+                    review.append({"source_url": pdf_url, "reason": "source_document_does_not_match_page"})
+                    continue
+                if not pct and not merchant_benefits:
                     review.append({"source_url": pdf_url, "reason": "benefit_not_extracted"})
                     continue
                 for merchant in merchants:
+                    merchant_pct = [merchant_benefits[merchant]] if merchant in merchant_benefits else pct
                     row = dict(source)
                     row.update({"Comercio/Promoción": merchant, "Locales / comercios detectados": merchant,
                         "Categoría": CATEGORIES.get(slug, source["Categoría"]),
-                        "Cantidad de descuento / beneficio": "; ".join(dict.fromkeys(pct)),
+                        "Cantidad de descuento / beneficio": "; ".join(dict.fromkeys(merchant_pct)),
                         "Descuentos por nivel": rules or "No aplica",
                         "Montos / topes": caps or bases.extract_topes(detail),
                         "Detalle": detail, "Texto PDF bases": detail, "Texto bases y condiciones": "",
@@ -135,6 +163,8 @@ def main():
                         "Vigencia": bases.extract_vigencia(detail) or source["Vigencia"],
                         "Niveles estructurados": json.dumps(levels, ensure_ascii=False),
                         "Día de promoción": monthly.extract_day(detail)})
+                    if row["Día de promoción"] == "No especificado":
+                        row["Día de promoción"] = "Todos los días"
                     if slug in {"combustibles", "petropar"}:
                         row["Día de promoción"] = "Todos los días"
                     result.append(row)

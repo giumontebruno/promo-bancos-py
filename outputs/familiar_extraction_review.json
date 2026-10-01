@@ -1,7 +1,26 @@
 {
-  "checked_at": "2026-09-30T13:34:16.817663+00:00",
+  "checked_at": "2026-10-01T12:37:30.434206+00:00",
   "pages": 21,
   "records": [
+    {
+      "bank": "Familiar",
+      "merchant_name": "HG IMPORTADOS",
+      "day_text": "Todos los miércoles",
+      "benefit_summary": "20% de reintegro en el extracto; Hasta 10 cuotas sin intereses",
+      "validity_raw": "December 31, 2026",
+      "categories": [
+        "tiendas"
+      ],
+      "regions": [
+        "Central"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-hg-importados",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas",
+      "review_status": "pending_terms_review",
+      "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6abd5bbc099a33765ba3f619_BASES Y CONDICIONES HG IMPORTADOS 2026.pdf",
+      "pdf_sha256": "82a3f884c069dc50c250615d9ed5228a6fd7c428a848f242def557166227d66d",
+      "terms_text": "BASES Y CONDICIONES PROMOCIÓN\n“HG IMPORTADOS”\n1. ALCANCE\nEsta promoción denominada “HG IMPORTADOS” en adelante LA PROMOCIÓN es\norganizada por Banco Familiar SAECA, con domicilio en Jejuí Nº324 esq. / Chile de la\nciudad de Asunción, en adelante denominado EL ORGANIZADOR. Podrán participar de LA\nPROMOCIÓN todos los clientes de tarjetas de crédito emitidas por EL ORGANIZADOR:\nVisa Clásica, Mastercard Clásica, Visa Oro, Mastercard Gold, MasterCard InterExa, Positiva\nBancardcheck, Positiva Visa y Visa Platinum. EL CLIENTE, siempre que cumpla con los\nrequisitos de participación previstos en estas Bases y Condiciones, y que fije domicilio\ndentro del territorio de la República del Paraguay. EL ORGANIZADOR asume enteramente\nla responsabilidad por la organización de la promoción. No participan las tarjetas\nempresariales, Gourmet Cards ni Movil Cards.\n2. VIGENCIA\nLA PROMOCIÓN tendrá vigencia todos los miercoles, desde el 30 de septiembre del 2026 al\n27 de enero del 2027.\n3. MECÁNICA DE LA PROMOCIÓN\nDurante la vigencia de la promoción, los clientes que realicen compras en el comercio\naliado indicado en estas bases, con las tarjetas de crédito de Banco Familiar participantes,\nrecibirán un reintegro del 20% del monto de sus compras, que será acreditado en el\nextracto de la tarjeta utilizada.\nEl límite de compras alcanzadas por la promoción es de Gs. 2.000.000 mensuales por\ntarjeta, por lo que el reintegro máximo será de Gs. 400.000 mensuales por tarjeta. Además,\nlas compras podrán fraccionarse en hasta 10 cuotas sin intereses.\nEl beneficio aplica únicamente a pagos procesados a través de la red Bancard/Infonet.\nSUCURSAL DIRECCIÓN\nHG Importados Avda. San José, Ciudad de Ciudad del Este\n4. RESPONSABILIDAD Y ALCANCE\nLas personas que intervengan en LA PROMOCIÓN, por su sola participación, aceptarán de\npleno derecho todas y cada una de las disposiciones previstas en las presentes Bases y\nCondiciones.\nLas operaciones consignadas durante la vigencia de la promoción serán consideradas\ncomo aceptadas por el tarjetahabiente si no son objetadas dentro de los 15 días\nposteriores al cierre del extracto.\n5. SOLICITUD DE BASES\nSe podrán consultar las Bases y Condiciones de LA PROMOCIÓN durante toda su vigencia,\nllamando sin costo al Centro de Atención al Cliente de Banco Familiar desde línea baja al\nnúmero 0800 11 33 22, desde celular al *3322 o ingresando a la página Web\nwww.familiar.com.py.\n6. ACEPTACIÓN DE BASES\nLa participación en LA PROMOCIÓN implica total conocimiento y aceptación de estas\nBases y Condiciones, las que por causas ajenas y de fuerza mayor no son imputables a EL\nORGANIZADOR.\nEL ORGANIZADOR se reserva el derecho de modificar o dar por finalizada LA\nPROMOCIÓN en cualquier momento, de manera unilateral, sin que ello de lugar a reclamo\no indemnización alguna."
+    },
     {
       "bank": "Familiar",
       "merchant_name": "FAMILIAR DAY",
@@ -270,7 +289,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-plaza-norte",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=2",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a71f7503a764c3888c17eca_Martes Plaza Norte.pdf",
       "pdf_sha256": "2f920cbf5d2d15837ee037a74841579591b8335964911b8cca9cbab201e8d805",
@@ -289,7 +308,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-match",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=2",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a71e54f323420191e128f00_BASES Y CONDICIONES PROMOCIÓN - Match 2026.pdf",
       "pdf_sha256": "2adc749fd0eaaf2a6008cbb65c3b323f1e9d0b0e205473200cdfd7c129cc825f",
@@ -560,7 +579,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-optica-santa-lucia",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=2",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=3",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a3bebc1ab1f707eeea7a16e_BASES Y CONDICIONES - Optica Santa Lucia.pdf",
       "pdf_sha256": "222cd30645f25030b88099a6d1ab577e98f9232dfb5f52d0f237c87efbfba7dd",
@@ -580,7 +599,7 @@
         "Itapúa"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-parana-hogar",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=2",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=3",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a3adf5fccdc4ee5baff9eda_ByC - Paraná Hogar 2026.pdf",
       "pdf_sha256": "cbbe4c11309013c0d54c0b2c938fe2c91eb26b950b2b134c644656ae843c966b",
@@ -660,9 +679,9 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro-shopping-mariano",
       "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=3",
       "review_status": "pending_terms_review",
-      "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a562b8f8e4b544e06f12e20_ByC - Gastro Mariano 2026.pdf",
-      "pdf_sha256": "286d183f6e48a70c7d3a3fafa412fdf06ca64ba1343b36fe27f07b40625e06c7",
-      "terms_text": "BASES Y CONDICIONES PROMOCIÓN\n“GASTRO - SHOPPING MARIANO”\n1. ALCANCE\nEsta promoción denominada “GASTRO - SHOPPING MARIANO” en adelante LA\nPROMOCIÓN es organizada por Banco Familiar SAECA, con domicilio en Jejuí Nº324 esq. /\nChile de la ciudad de Asunción, en adelante denominado EL ORGANIZADOR. Podrán\nparticipar de LA PROMOCIÓN todos los clientes de tarjetas de crédito emitidas por EL\nORGANIZADOR: Visa Clásica, Mastercard Clásica, Visa Oro, Mastercard Gold, MasterCard\nInterExa, Positiva Bancardcheck, Positiva Visa y Visa Platinum. EL CLIENTE, siempre que\ncumpla con los requisitos de participación previstos en estas Bases y Condiciones, y que\nfije domicilio dentro del territorio de la República del Paraguay. EL ORGANIZADOR asume\nenteramente la responsabilidad por la organización de la promoción. No participan las\ntarjetas empresariales, Gourmet Cards ni Movil Cards.\n2. VIGENCIA\nLA PROMOCIÓN tendrá vigencia de lunes a viernes, desde el 1 de abril hasta el 31 de\ndiciembre del 2026.\n3. MECÁNICA DE LA PROMOCIÓN\nLos clientes de EL BANCO con sus tarjetas de crédito Visa o MasterCard Oro/Gold, Visa o\nMastercard Clásica, Positiva Visa, Positiva Bancardcheck y Visa Platinum, que realicen\ncompras en cualquiera de las sucursales de El COMERCIO, durante la vigencia del presente\nACUERDO COMERCIAL, obtendrán los siguientes beneficios:\n3.1. Con sus tarjetas de crédito Visa Platinum EL CLIENTE obtendrá 25% de reintegro en el\nextracto. Límite de compra Gs. 2.000.000 mensual por tarjeta.\n3.2. Con sus tarjetas de crédito Visa o Mastercard Oro/Gold, Visa o Mastercard Clásica,\nPositiva Visa y Positiva Bancardcheck EL CLIENTE obtendrá 20% de reintegro en el\nextracto. Límite de compra Gs. 2.000.000 mensual por tarjeta.\nLos límites de compra se aplican en conjunto para todos los comercios adheridos a la\npromoción “Gastro Shopping Mariscal”, “Gastro Shopping Mariano” y “Gastro Plaza Norte”.\n*Beneficios aplican únicamente a pagos realizados a través de la red Bancard*\nN° LOCAL\n1 AÇAITERRA\n2 BELLINI\n3 BURGER KING\n4 CAFÉ MARTÍNEZ\n5 CORUMBÁ\n6 DON VITO\n7 EL CASTANYER\n8 FUGALINE\n9 HIJAS DE FELICIANA DE FARIÑA\n10 PIZZA HUT\n11 KFC\n12 LAS CAZUELAS\n13 MCDONALD’S\nN° LOCAL\n14 MOSTAZA\n15 OJO DEL AMO\n16 PARAISO\n17 JA-VIRÁ\n18 FUEGO GUARANI\n19 LA TARANTELLA\n4. RESPONSABILIDAD Y ALCANCE\nLas personas que intervengan en LA PROMOCIÓN, por su sola participación, aceptarán de\npleno derecho todas y cada una de las disposiciones previstas en las presentes Bases y\nCondiciones.\nLas operaciones consignadas durante la vigencia de la promoción serán consideradas como\naceptadas por el tarjetahabiente si no son objetadas dentro de los 15 días posteriores al\ncierre del extracto\n5. SOLICITUD DE BASES\nSe podrán consultar las Bases y Condiciones de LA PROMOCIÓN durante toda su vigencia,\nllamando sin costo al Centro de Atención al Cliente de Banco Familiar desde línea baja al\nnúmero 0800 11 33 22, desde celular al *3322 o ingresando a la página Web\nwww.familiar.com.py.\n6. ACEPTACIÓN DE BASES\nLa participación en LA PROMOCIÓN implica total conocimiento y aceptación de estas Bases\ny Condiciones, las que por causas ajenas y de fuerza mayor no son imputables a EL\nORGANIZADOR.\nEL ORGANIZADOR se reserva el derecho de modificar o dar por finalizada LA PROMOCIÓN\nen cualquier momento, de manera unilateral, sin que ello dé lugar a reclamo o\nindemnización alguna."
+      "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6abd5d3cec81d13c12f72b0d_ByC - Gastro Mariano 2026.pdf",
+      "pdf_sha256": "3c6c542479d2c35dc7ff546354d4e6404cade84a867ca592e56c464787e358cc",
+      "terms_text": "BASES Y CONDICIONES PROMOCIÓN\n“GASTRO - SHOPPING MARIANO”\n1. ALCANCE\nEsta promoción denominada “GASTRO - SHOPPING MARIANO” en adelante LA\nPROMOCIÓN es organizada por Banco Familiar SAECA, con domicilio en Jejuí Nº324 esq. /\nChile de la ciudad de Asunción, en adelante denominado EL ORGANIZADOR. Podrán\nparticipar de LA PROMOCIÓN todos los clientes de tarjetas de crédito emitidas por EL\nORGANIZADOR: Visa Clásica, Mastercard Clásica, Visa Oro, Mastercard Gold, MasterCard\nInterExa, Positiva Bancardcheck, Positiva Visa y Visa Platinum. EL CLIENTE, siempre que\ncumpla con los requisitos de participación previstos en estas Bases y Condiciones, y que\nfije domicilio dentro del territorio de la República del Paraguay. EL ORGANIZADOR asume\nenteramente la responsabilidad por la organización de la promoción. No participan las\ntarjetas empresariales, Gourmet Cards ni Movil Cards.\n2. VIGENCIA\nLA PROMOCIÓN tendrá vigencia de lunes a viernes, desde el 1 de abril hasta el 31 de\ndiciembre del 2026.\n3. MECÁNICA DE LA PROMOCIÓN\nLos clientes de EL BANCO con sus tarjetas de crédito Visa o MasterCard Oro/Gold, Visa o\nMastercard Clásica, Positiva Visa, Positiva Bancardcheck y Visa Platinum, que realicen\ncompras en cualquiera de las sucursales de El COMERCIO, durante la vigencia del presente\nACUERDO COMERCIAL, obtendrán los siguientes beneficios:\n3.1. Con sus tarjetas de crédito Visa Platinum EL CLIENTE obtendrá 25% de reintegro en el\nextracto. Límite de compra Gs. 2.000.000 mensual por tarjeta.\n3.2. Con sus tarjetas de crédito Visa o Mastercard Oro/Gold, Visa o Mastercard Clásica,\nPositiva Visa y Positiva Bancardcheck EL CLIENTE obtendrá 20% de reintegro en el\nextracto. Límite de compra Gs. 2.000.000 mensual por tarjeta.\nLos límites de compra se aplican en conjunto para todos los comercios adheridos a la\npromoción “Gastro Shopping Mariscal”, “Gastro Shopping Mariano” y “Gastro Plaza Norte”.\n*Beneficios aplican únicamente a pagos realizados a través de la red Bancard*\nN° LOCAL\n1 MCDONALD’S\n2 MC POSTRES\n3 BELLINI\n4 BURGER KING\n5 CAFÉ MARTÍNEZ\n6 CORUMBÁ\n7 DON VITO\n8 EL CASTANYER\n9 FUGALINE\n10 HIJAS DE FELICIANA DE FARIÑA\n11 PIZZA HUT\n12 KFC\n13 LAS CAZUELAS\nN° LOCAL\n14 AÇAITERRA\n15 MOSTAZA\n16 OJO DEL AMO\n17 PARAISO\n18 JA-VIRÁ\n19 FUEGO GUARANI\n20 LA TARANTELLA\n21 CHELATO\n22 AMANDAU\n23 BORI BORI\n24 HELENA PASTELERÍA\n25 VIVAR BAR\n26 PLANETA CHOCOLATE\n27 OPEN CANDY\n4. RESPONSABILIDAD Y ALCANCE\nLas personas que intervengan en LA PROMOCIÓN, por su sola participación, aceptarán de\npleno derecho todas y cada una de las disposiciones previstas en las presentes Bases y\nCondiciones.\nLas operaciones consignadas durante la vigencia de la promoción serán consideradas como\naceptadas por el tarjetahabiente si no son objetadas dentro de los 15 días posteriores al\ncierre del extracto\n5. SOLICITUD DE BASES\nSe podrán consultar las Bases y Condiciones de LA PROMOCIÓN durante toda su vigencia,\nllamando sin costo al Centro de Atención al Cliente de Banco Familiar desde línea baja al\nnúmero 0800 11 33 22, desde celular al *3322 o ingresando a la página Web\nwww.familiar.com.py.\n6. ACEPTACIÓN DE BASES\nLa participación en LA PROMOCIÓN implica total conocimiento y aceptación de estas Bases\ny Condiciones, las que por causas ajenas y de fuerza mayor no son imputables a EL\nORGANIZADOR.\nEL ORGANIZADOR se reserva el derecho de modificar o dar por finalizada LA PROMOCIÓN\nen cualquier momento, de manera unilateral, sin que ello dé lugar a reclamo o\nindemnización alguna."
     },
     {
       "bank": "Familiar",
@@ -849,7 +868,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=3",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=4",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a70fae65e26b120dbcb6f01_Jueves de Mariano.pdf",
       "pdf_sha256": "ebd48e92e92ebf3dcfcf13de3e8a551396e0ed5a87b830903c38ecefe2fb0ff2",
@@ -868,7 +887,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=3",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=4",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a70fae65e26b120dbcb6f01_Jueves de Mariano.pdf",
       "pdf_sha256": "ebd48e92e92ebf3dcfcf13de3e8a551396e0ed5a87b830903c38ecefe2fb0ff2",
@@ -1134,7 +1153,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=4",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=5",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a70fae65e26b120dbcb6f01_Jueves de Mariano.pdf",
       "pdf_sha256": "ebd48e92e92ebf3dcfcf13de3e8a551396e0ed5a87b830903c38ecefe2fb0ff2",
@@ -1153,7 +1172,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=4",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=5",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a70fae65e26b120dbcb6f01_Jueves de Mariano.pdf",
       "pdf_sha256": "ebd48e92e92ebf3dcfcf13de3e8a551396e0ed5a87b830903c38ecefe2fb0ff2",
@@ -1420,7 +1439,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=5",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=6",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a720327c66ff566c4824c41_Martes Mariscal.pdf",
       "pdf_sha256": "98628040e6fc481ab11232b33e038d45280455116e7716251a14623388828f27",
@@ -1439,7 +1458,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=5",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=6",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a720327c66ff566c4824c41_Martes Mariscal.pdf",
       "pdf_sha256": "98628040e6fc481ab11232b33e038d45280455116e7716251a14623388828f27",
@@ -1703,7 +1722,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=6",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=7",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a720327c66ff566c4824c41_Martes Mariscal.pdf",
       "pdf_sha256": "98628040e6fc481ab11232b33e038d45280455116e7716251a14623388828f27",
@@ -1722,7 +1741,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=6",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=7",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a720327c66ff566c4824c41_Martes Mariscal.pdf",
       "pdf_sha256": "98628040e6fc481ab11232b33e038d45280455116e7716251a14623388828f27",
@@ -1989,7 +2008,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-todo-cubiertas",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=7",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=8",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/698097ef45dd0e322c2c17f3_BASES Y CONDICIONES - TODO CUBIERTAS 2026_repaired.pdf",
       "pdf_sha256": "558f4e33810874a5170d854a086d70767c962ced962a17ce17dfee9e8613c669",
@@ -2008,7 +2027,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-farmatitu",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=7",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=8",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a4bc62cefddae7c3b787757_ByC - Farmatitu 2026.pdf",
       "pdf_sha256": "6a60b774933401d317dd6b2253c3fc00995941003a3257f6ecb1b374080309ad",
@@ -2284,7 +2303,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-automotor-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=8",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=9",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a987d93b26cc198c0cb6895_ByC - Automotores ADQ 2026.pdf",
       "pdf_sha256": "0cae58d83b195d609e10706b029cc0e762dd1b5a4947e4b2cec5a7cdbe3500a2",
@@ -2303,7 +2322,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-napoles-store-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=8",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=9",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a4510381529692d7e058802_ByC - Napoles Store 2026.pdf",
       "pdf_sha256": "b17610c360e742b5956e1d38f09e8aa53b50bb50554635b662a40130b2459723",
@@ -2569,7 +2588,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-tecnologia-electronica-y-electrodomesticos-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=9",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=10",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6ab519958306652b394a8614_Bases y Condiciones TECN. ELEC.pdf",
       "pdf_sha256": "73f5500de4ac87ff3a009b57782714426049990a98453574f68e69ab6a6b30a1",
@@ -2588,7 +2607,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastronomia-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=9",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=10",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6abbc9111bfac5967dc1d53a_ByC - Gastronomia ADQ 2026.pdf",
       "pdf_sha256": "de346f68c753ea7d0d9694ac2496a77c5049691fbbc243b1e57cef55599c3067",
@@ -2609,9 +2628,9 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-indumentaria-bases-y-condiciones",
       "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=10",
       "review_status": "pending_terms_review",
-      "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6ab51823337d3847b4912190_ByC - Tiendas e Indumentaria ADQ 2026.pdf",
-      "pdf_sha256": "2211820dfe94c431f752e28f5eb822c1cf6d66ee459770729a6074f320676be0",
-      "terms_text": "BASES Y CONDICIONES PROMOCIÓN\n“TIENDAS E INDUMENTARIA”\n1. ALCANCE\nEsta promoción denominada “INDUMENTARIA” en adelante LA PROMOCIÓN es organizada\npor Banco Familiar SAECA, con domicilio en Jejuí Nº324 esq. / Chile de la ciudad de\nAsunción, en adelante denominado EL ORGANIZADOR. Podrán participar de LA\nPROMOCIÓN todos los clientes de tarjetas de crédito emitidas por EL ORGANIZADOR: : Visa\nClásica, Mastercard Clásica, Visa Oro, Mastercard Gold, MasterCard InterExa, Positiva\nBancardcheck, Positiva Visa y Visa Platinum. EL CLIENTE, siempre que cumpla con los\nrequisitos de participación previstos en estas Bases y Condiciones, y que fije domicilio\ndentro del territorio de la República del Paraguay. EL ORGANIZADOR asume enteramente\nla responsabilidad por la organización de la promoción. No participan las Gourmet y las\nMóvil Cards.\n2. MECÁNICA DE LA PROMOCIÓN\nPor las compras realizadas con las tarjetas de crédito de Banco Familiar los miércoles, en los\ncomercios listados más abajo, durante la vigencia de la promoción, EL CLIENTE podrá\nacceder a los beneficios detallados según el día y límite de compra de cada comercio. Los\nreintegros serán aplicados en el extracto del cliente.\n*Los límites de compra se aplican en conjunto para todos los comercios del listado a\ncontinuación. Beneficios aplican únicamente a pagos realizados a través de la red Bancard.\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\nROSSANA SOSA 7 DE ENERO AL 14 DE\n20% DE REINTEGRO 500.000 GUAIRÁ\nBOUTIQUE OCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nJACK SPORT 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nEL ALMACÉN DE ARA 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMILAGRO 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nALPHA SPORT 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nEVE BIKINIS 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nAMI LE NOVEDADES 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nCALAMINI 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nTIENDA ADLIN 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMODA Y ESTILO 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n7 DE ENERO AL 14 DE\nLA REGINA IMPORT 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nANTONELLA KIDS 20% DE REINTEGRO 500.000 VILLARRICA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMENINA BOUTIQUE SUC 2 20% DE REINTEGRO 500.000 SAN LORENZO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nPRISCEL NOVEDADES 20% DE REINTEGRO 500.000 VILLARRICA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nBM COMERCIAL GUAYAIVI 20% DE REINTEGRO 500.000 SAN ESTANISLAO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nCOMERCIAL ARCO IRIS 20% DE REINTEGRO 1.000.000 SAN IGNACIO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nFIO & GIO 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nML MULTIMARCAS 20% DE REINTEGRO 500.000 CONCEPCION\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE MARIA\nCASA SCHAPOVALOFF 20% DE REINTEGRO 500.000\nOCTUBRE DEL 2026 AUXILIADORA\n7 DE ENERO AL 14 DE\nDE CAPRICHO BOUTIQUE 20% DE REINTEGRO 500.000 SAN ESTANISLAO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nROSAS Y CHOCOLATES 20% DE REINTEGRO 500.000 CORONEL OVIEDO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nBAZICO 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nUSA2 STORE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nJS JEANS 20% DE REINTEGRO 500.000 SAN ESTANISLAO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nKV SPORTS 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nNAPOLES STORE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nCOMERCIAL FERNANDO 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nSAN PEDRO BOUTIQUE 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nGUADA MULTITIENDAS 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nALASKA 20% DE REINTEGRO 1.000.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nNR NOVEDADES 20% DE REINTEGRO 500.000 ENCARNACIÓN\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE MARIA\nPH SPORT 20% DE REINTEGRO 500.000\nOCTUBRE DEL 2026 AUXILIADORA\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n7 DE ENERO AL 14 DE\nB Y M STORE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nAMERICAN CLOTHES 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nGOZOS BOUTIQUE 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nVAZZTORI & CO CHENSON 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nZA JEANS 20% DE REINTEGRO 1.000.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nBOUTIQUE DELSY DLV 20% DE REINTEGRO 500.000 CONCEPCIÓN\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nAMMY BOUTIQUE 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nTIENDA MARY 20% DE REINTEGRO 500.000 ASUNCIÓN\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nTIENDA MARY HOME 20% DE REINTEGRO 500.000 ASUNCIÓN\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nA Y L TIENDA 20% DE REINTEGRO 500.000 SANTANI\nOCTUBRE DEL 2026\nPAÑALERIA CAMPEONES Y 7 DE ENERO AL 14 DE\n20% DE REINTEGRO 500.000 CENTRAL\nPRINCESAS OCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nVIBES GROUP 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nDENTOCOR 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nSLY SHOP 20% DE REINTEGRO 500.000 ALTO PARANA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMODAS MARI 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nBOUTIQUE ME LO LLEVO 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nCENTRO DE LAS OFERTAS 20% DE REINTEGRO 500.000 SAN PEDRO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nWEST COLLECTION 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nALEXA TU TIENDA 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nCASA DAEL 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nARRIERO MBARETE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMY INFINITY COSMETICOS 20% DE REINTEGRO 1.000.000 ALTO PARANA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nESTILO SPORT SHOP SRL 20% DE REINTEGRO 1.000.000 ITAPUA\nOCTUBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n7 DE ENERO AL 14 DE\nMALDITO GLAM 1 20% DE REINTEGRO 500.000 CANINDEYÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nVARIEDADES YUMI 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nPRONOIA COSMETICOS 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\nUNIKA BOUTIQUE Y 7 DE ENERO AL 14 DE\n20% DE REINTEGRO 500.000 MISIONES\nACCESORIOS OCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nNOVEDADES CRISTIAN 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nROPERÍA ARCE 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nBACANA PY 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nATLANTA STORE 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMUNDO NOVEDADES 20% DE REINTEGRO 500.000 SAN PEDRO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMAIA BOUTIQUE 20% DE REINTEGRO 500.000 CORDILLERA\nOCTUBRE DEL 2026\n14 DE ENERO AL 14 DE\nAGARRE Y USE 20% DE REINTEGRO 500.000 SAN PEDRO\nOCTUBRE DEL 2026\nGAETE TIENDA 14 DE ENERO AL 14 DE\n20% DE REINTEGRO 500.000 ITAPÚA\nDEPORTIVA OCTUBRE DEL 2026\n21 DE ENERO AL 14 DE\nBEZALEEL DISEÑOS 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\n11 DE FEBRERO AL 14 DE\nFIOREMIA 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n11 DE FEBRERO AL 14 DE\nAZUL COMLPLEMENTOS 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n11 DE FEBRERO AL 14 DE\nCLAUDIA BOUTIQUE 20% DE REINTEGRO 500.000 SAN LORENZO\nOCTUBRE DEL 2026\n18 DE FEBRERO AL 14 DE\nATHENAS KIDS 20% DE REINTEGRO 1.000.000 VILLARRICA\nOCTUBRE DEL 2026\n25 DE FEBRERO AL 14 DE\nKATHY NOVEDADES 20% DE REINTEGRO 500.000 ALTO PARANÁ\nOCTUBRE DEL 2026\nROTELA MODA 25 DE FEBRERO AL 14 DE\n20% DE REINTEGRO 1.000.000 ALTO PARANÁ\nMASCULINA OCTUBRE DEL 2026\n4 DE MARZO AL 14 DE\nZUKHA 20% DE REINTEGRO 500.000 CONCEPCIÓN\nOCTUBRE DEL 2026\n4 DE MARZO AL 14 DE\nJS FITSHOP 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n4 DE MARZO AL 14 DE\nTEJU PARAGUAY 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n4 DE MARZO AL 14 DE\nTEJU PARAGUAY 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n4 DE MARZO AL 14 DE\nTEJU PARAGUAY 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n4 DE MARZO AL 14 DE\nTEJU PARAGUAY 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n11 DE MARZO AL 14 DE\nDEYSI BOUTIQUE 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n20% DE REINTEGRO 11 DE MARZO AL 14 DE CAAGUAZU\nMULTINOVEDADES FAF 500.000\nOCTUBRE DEL 2026\nTRAVESURAS BABY 18 DE MARZO AL 14 DE\n20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nSTORE OCTUBRE DEL 2026\n18 DE MARZO AL 14 DE\nNG DEPORTES 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n18 DE MARZO AL 14 DE\nCHOCOMIEL 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n25 DE MARZO AL 14 DE\nGRACE CLOTHES 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n25 DE MARZO AL 14 DE\nBENDITA ACCESORIOS 20% DE REINTEGRO 500.000 MISIONES\nOCTUBRE DEL 2026\n25 DE MARZO AL 14 DE\nANIME IMPORT SA 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n1 DE ABRIL AL 14 DE\nKYRIOS 20% DE REINTEGRO 1.000.000 ITAPÚA Y GUAIRÁ\nOCTUBRE DEL 2026\n20% DE REINTEGRO\n1 DE ABRIL AL 14 DE\nFIT STORE + HASTA 10 CUOTAS 500.000 GUAIRÁ\nOCTUBRE DEL 2026\nSIN INTERESES\n1 DE ABRIL AL 14 DE\nCHETOS Y CHETITOS 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n1 DE ABRIL AL 14 DE\nAL STORE ll 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n1 DE ABRIL AL 14 DE\nOLFAPIA PERFUMES 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nTAMY STORE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nCOSITAS BY VERO 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nMARIA V BOUTIQUE 20% DE REINTEGRO 500.000 MISIONES\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nAL STORE LUQUE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nGAB BOUTIQUE 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nYISSELA TIENDA MODA 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nTOOKY REGALOS 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nTIENDA FLO Y CO 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nELIZABETH MACORITTO 2 20% DE REINTEGRO 1.000.000 CENTRAL\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nLA PRIMORDIAL 20% DE REINTEGRO 500.000 MISIONES\nOCTUBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n22 DE ABRIL AL 14 DE\nBASIC FOR MEN 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n22 DE ABRIL AL 14 DE\nTHE JEANS STORE 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\n22 DE ABRIL AL 14 DE\nMODA SPORT 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\nLIVELY CLOTHING 22 DE ABRIL AL 14 DE\n20% DE REINTEGRO 500.000 CAAGUAZU\nBOUTIQUE OCTUBRE DEL 2026\n22 DE ABRIL AL 14 DE\nBEBUKIS 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\n20% DE REINTEGRO\n29 DE ABRIL AL 14 DE\nVALERIE + HASTA 10 CUOTAS 1.000.000 GUAIRÁ\nOCTUBRE DEL 2026\nSIN INTERESES\n6 DE MAYO AL 14 DE\nJIMENA ACCESORIOS 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nB Y G MUSIC 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nZAIK 20% DE REINTEGRO 500.000 GUAIRA\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nLAURA CHIC 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nLAURA SPORT 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nAZARA SHOP 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nRHINO FIT SHOP 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nAVEN BOUTIQUE 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nOX TIENDA 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n13 DE MAYO AL 14 DE\nEL JUGUETERO 20% DE REINTEGRO 500.000 MISIONES\nOCTUBRE DEL 2026\n13 DE MAYO AL 14 DE\nFOR MEN 20% DE REINTEGRO 500.000 ALTO PARANÁ\nOCTUBRE DEL 2026\n13 DE MAYO AL 14 DE\nTULIPAN MULTITIENDAS 20% DE REINTEGRO 500.000 ÑEEMUCU\nOCTUBRE DEL 2026\n13 DE MAYO AL 14 DE\nMELINA BOUTIQUE 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n13 DE MAYO AL 14 DE\nABRIL COMPLEMENTOS 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n20 DE MAYO AL 14 DE\nAUDACIA STORE 20% DE REINTEGRO 500.000 MISIONES\nOCTUBRE DEL 2026\n20 DE MAYO AL 14 DE\nMODA TOP KIDS & TEENS 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n20 DE MAYO AL 14 DE\nDC CALZADOS 20% DE REINTEGRO 1.000.000 ASUNCIÓN\nOCTUBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n27 DE MAYO AL 14 DE\nNG INDUMENTARIA 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n27 DE MAYO AL 14 DE\nCALZADOS GODSON 20% DE REINTEGRO 500.000 PARAGUARÍ\nOCTUBRE DEL 2026\n27 DE MAYO AL 14 DE\nMG TIENDA MOVIL 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n27 DE MAYO AL 14 DE\nABDIEZ 20% DE REINTEGRO 500.000 CONCEPCIÓN\nOCTUBRE DEL 2026\n3 DE JUNIO AL 14 DE\nIRIS CENTER 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n3 DE JUNIO AL 14 DE\nTIENTO MULTIMARCAS 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n3 DE JUNIO AL 14 DE\nTESSY BOUTIQUE 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n10 DE JUNIO AL 14 DE\nALBORADA SUPER STORE 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n10 DE JUNIO AL 14 DE\nSOFIA NAILS STORE 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n10 DE JUNIO AL 14 DE\nCASA GONZALITO 20% DE REINTEGRO 1.000.000 GUAIRA\nOCTUBRE DEL 2026\n10 DE JUNIO AL 14 DE\nELLA Y EL KIDS 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n17 DE JUNIO AL 14 DE\nGRIT MODA MASCULINA 20% DE REINTEGRO 500.000 GUAIRA\nOCTUBRE DEL 2026\n17 DE JUNIO AL 14 DE\nLIZA CREA 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n17 DE JUNIO AL 14 DE\nDIVA BOUTIQUE 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n24 DE JUNIO AL 14 DE\nMUNDO BEBE 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n24 DE JUNIO AL 14 DE\nPREMIER SPORTS 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n24 DE JUNIO AL 14 DE\nALMACEN SALUDABLE 20% DE REINTEGRO 500.000 SANTANI\nOCTUBRE DEL 2026\n24 DE JUNIO AL 14 DE\nADY MODAS 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n1 DE JULIO AL 14 DE OCTUBRE\nMULTITOYS 20% DE REINTEGRO 500.000 CENTRAL\nDEL 2026\n1 DE JULIO AL 14 DE OCTUBRE\nTU ESTILO SPORT 20% DE REINTEGRO 500.000 CAAGUAZÚ\nDEL 2026\n1 DE JULIO AL 14 DE OCTUBRE\nNOELIA RIOS II 20% DE REINTEGRO 500.000 CAAGUAZÚ\nDEL 2026\nALICIA ZEBALLOS 1 DE JULIO AL 14 DE OCTUBRE\n20% DE REINTEGRO 500.000 ASUNCIÓN\nBOUTIQUE DEL 2026\n1 DE JULIO AL 14 DE OCTUBRE\nALONDRA BOUTIQUE 20% DE REINTEGRO 500.000 GUAIRA\nDEL 2026\n8 DE JULIO AL 14 DE OCTUBRE\nGOOL SPORT 20% DE REINTEGRO 500.000 AMAMBAY\nDEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n8 DE JULIO AL 14 DE OCTUBRE\nSUNSET MULTIMARCAS 20% DE REINTEGRO 500.000 ITAPUA\nDEL 2026\n8 DE JULIO AL 14 DE OCTUBRE\nAG IMPORT 20% DE REINTEGRO 500.000 CAAGUAZU\nDEL 2026\n8 DE JULIO AL 14 DE OCTUBRE\nSTORE CENTER 20% DE REINTEGRO 500.000 ITAPÚA\nDEL 2026\n8 DE JULIO AL 14 DE OCTUBRE\nMV LAVA CAR 20% DE REINTEGRO 500.000 AMAMBAY\nDEL 2026\n15 DE JULIO AL 14 DE\nCASA ANANIAS 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n22 DE JULIO AL 14 DE\nMARITE BOUTIQUE 20% DE REINTEGRO 500.000 CONCEPCIÓN\nOCTUBRE DEL 2026\n22 DE JULIO AL 14 DE\nAURA CHIC 20% DE REINTEGRO 500.000 GUAIRA\nOCTUBRE DEL 2026\n29 DE JULIO AL 14 DE\nFLORENCIA BOUTIQUE 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n29 DE JULIO AL 28 DE\nMODA FASHION BOUTIQUE 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n29 DE JULIO AL 28 DE\nTIENDA 3 B 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n29 DE JULIO AL 28 DE\nSC PARFUMS 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n29 DE JULIO AL 28 DE\nMALYBBU BOUTIQUE 20% DE REINTEGRO 500.000 GUAIRA\nOCTUBRE DEL 2026\n5 DE AGOSTO AL 4 DE\nLA CASA FIT 20% DE REINTEGRO 500.000 CAAGUAZÚ\nNOVIEMBRE DEL 2026\n5 DE AGOSTO AL 4 DE\nMP SUPLEMENTOS 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n5 DE AGOSTO AL 4 DE\nDAISY ARTESANIA 20% DE REINTEGRO 500.000 CAAGUAZÚ\nNOVIEMBRE DEL 2026\n5 DE AGOSTO AL 4 DE\nROSSY MODAS 20% DE REINTEGRO 500.000 CAAZAPÁ\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nTIENDA LA IRENITA 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nZULIA 20% DE REINTEGRO 500.000 CAAGUAZÚ\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nPETIOTO TIENDA KIDS 20% DE REINTEGRO 500.000 ITAPUA\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nLUMIJO BY SANDALO 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nNANOS STORE PY 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nEL STORE 20% DE REINTEGRO 500.000 GUAIRÁ\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nGLAMOUR BY SANDRI 20% DE REINTEGRO 500.000 ITAPÚA\nNOVIEMBRE DEL 2026\n19 DE AGOSTO AL 18\nLAVORE 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n19 DE AGOSTO AL 18\nCALZADOS HERMI 20% DE REINTEGRO 1.000.000 CENTRAL\nNOVIEMBRE DEL 2026\nNURIA SANTACRUZ\n19 DE AGOSTO AL 18\nCALZADOS E 20% DE REINTEGRO 500.000 CAAGUAZU\nNOVIEMBRE DEL 2026\nINDUMENTARIA\n19 DE AGOSTO AL 18\nHERMES MARINA HOGAR 20% DE REINTEGRO 500.000 CAAGUAZU\nNOVIEMBRE DEL 2026\n19 DE AGOSTO AL 18\nVALEN BABY 20% DE REINTEGRO 500.000 CAAGUAZU\nNOVIEMBRE DEL 2026\n19 DE AGOSTO AL 18\nHORQUILLAS CO 20% DE REINTEGRO 500.000 CAAGUAZU\nNOVIEMBRE DEL 2026\n19 DE AGOSTO AL 18\nDEEP PY 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n19 DE AGOSTO AL 18\nTERMIC 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n26 DE AGOSTO AL 25 DE\nLUCAS PERFUMES 20% DE REINTEGRO 500.000 CAAGUAZÚ\nNOVIEMBRE DEL 2026\n26 DE AGOSTO AL 25 DE\nROPERIA NALDO 20% DE REINTEGRO 500.000 ALTO PARANÁ\nNOVIEMBRE DEL 2026\n26 DE AGOSTO AL 25 DE\nHG IMPORTADOS 20% DE REINTEGRO 1.000.000 ALTO PARANÁ\nNOVIEMBRE DEL 2026\n2 DE SEPTIEMBRE AL 1 DE\nVERYGREED STORE 20% DE REINTEGRO 500.000 CENTRAL\nDICIEMBRE DEL 2026\n2 DE SEPTIEMBRE AL 1 DE\nCUNA BELLA 20% DE REINTEGRO 1.000.000 CENTRAL\nDICIEMBRE DEL 2026\n2 DE SEPTIEMBRE AL 1 DE\nZONA SHOP 20% DE REINTEGRO 500.000 CENTRAL\nDICIEMBRE DEL 2026\n2 DE SEPTIEMBRE AL 1 DE\nZAG STORE 20% DE REINTEGRO 500.000 SAN PEDRO\nDICIEMBRE DEL 2026\nPROLANDER 2 DE SEPTIEMBRE AL 1 DE\n20% DE REINTEGRO 500.000 CENTRAL\nSUPLEMENTOS DICIEMBRE DEL 2026\n2 DE SEPTIEMBRE AL 1 DE\nCLAU ACCESORIOS 20% DE REINTEGRO 500.000 ALTO PARANA\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nLA TIENDITA DE NATY 20% DE REINTEGRO 500.000 SAN PEDRO\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nAJOS LA TIENDA 20% DE REINTEGRO 500.000 CAAGUAZÚ\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nSTAY FRESH 20% DE REINTEGRO 500.000 GUAIRÁ\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nFANTASSY BOUTIQUE 20% DE REINTEGRO 500.000 ITAPÚA\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nSPORT HIT S.R.L. 20% DE REINTEGRO 500.000 ALTO PARANÁ\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nLION KINGS STORE 20% DE REINTEGRO 500.000 SAN PEDRO\nDICIEMBRE DEL 2026\nTHRIFTING TIENDA 9 DE SEPTIEMBRE AL 8 DE\n20% DE REINTEGRO 500.000 CAAGUAZÚ\nAMERICANA DICIEMBRE DEL 2026\n9 DE SEPTIEMBRE AL 8 DE\nEURO REGALOS 20% DE REINTEGRO 500.000 ITAPÚA\nDICIEMBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n9 DE SEPTIEMBRE AL 8 DE\nGO TIENDA 20% DE REINTEGRO 500.000 CAAGUAZÚ\nDICIEMBRE DEL 2026\n9 DE SEPTIEMBRE AL 8 DE\nLA TIENDITA DE NATY 20% DE REINTEGRO 500.000 SAN PEDRO\nDICIEMBRE DEL 2026\n9 DE SEPTIEMBRE AL 8 DE\nVALFLOR LINGERIE 20% DE REINTEGRO 500.000 GUAIRA\nDICIEMBRE DEL 2026\n9 DE SEPTIEMBRE AL 8 DE\nBETTA 20% DE REINTEGRO 500.000 CAAGUAZU\nDICIEMBRE DEL 2026\n16 DE SEPTIEMBRE AL 8 DE\nMBARETE OVIEDO 20% DE REINTEGRO 500.000 CAAGUAZU\nDICIEMBRE DEL 2026\n23 DE SEPTIEMBRE AL 8 DE\nSU FASHION 20% DE REINTEGRO 500.000 ALTO PARANA\nDICIEMBRE DEL 2026\n30 DE SEPTIEMBRE AL 8 DE\nMBARETE DYLAN 20% DE REINTEGRO 500.000 CENTRAL\nDICIEMBRE DEL 2026\n30 DE SEPTIEMBRE AL 8 DE\nBEAUTY COSMETICS 20% DE REINTEGRO 500.000 GUAIRA\nDICIEMBRE DEL 2026\n30 DE SEPTIEMBRE AL 8 DE\nDELTA NU 2 20% DE REINTEGRO 500.000 CAAGUAZU\nDICIEMBRE DEL 2026\n30 DE SEPTIEMBRE AL 8 DE\nGLOBAL IMPORTADOS 20% DE REINTEGRO 500.000 GUAIRA\nDICIEMBRE DEL 2026\n3. RESPONSABILIDAD Y ALCANCE\nLas personas que intervengan en LA PROMOCIÓN, por su sola participación, aceptarán de\npleno derecho todas y cada una de las disposiciones previstas en las presentes Bases y\nCondiciones.\nLas operaciones consignadas durante la vigencia de la promoción serán consideradas como\naceptadas por el tarjetahabiente si no son objetadas dentro de los 15 días posteriores al\ncierre del extracto.\n4. SOLICITUD DE BASES\nSe podrán consultar las Bases y Condiciones de LA PROMOCIÓN durante toda su vigencia,\nllamando sin costo al Centro de Atención al Cliente de Banco Familiar desde línea baja al\nnúmero 0800 11 33 22, desde celular al *3322 o ingresando a la página Web\nwww.familiar.com.py.\n5. ACEPTACIÓN DE BASES\nLa participación en LA PROMOCIÓN implica total conocimiento y aceptación de estas Bases\ny Condiciones, las que por causas ajenas y de fuerza mayor no imputables a EL\nORGANIZADOR, podrán ser modificadas, con la previa aprobación de la respectiva\nautoridad de aplicación, sin que ello dé lugar a reclamo o indemnización alguna. Las\nmodificaciones que eventualmente deban realizarse no modificarán la esencia de LA\nPROMOCIÓN."
+      "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6abd6fac57ecb8695669c14e_ByC - Tiendas e Indumentaria ADQ 2026.pdf",
+      "pdf_sha256": "40da706786be0ed21a2dc6d47cf6c3cfb176b6832b0389960c79f1789daf0ad9",
+      "terms_text": "BASES Y CONDICIONES PROMOCIÓN\n“TIENDAS E INDUMENTARIA”\n1. ALCANCE\nEsta promoción denominada “INDUMENTARIA” en adelante LA PROMOCIÓN es organizada\npor Banco Familiar SAECA, con domicilio en Jejuí Nº324 esq. / Chile de la ciudad de\nAsunción, en adelante denominado EL ORGANIZADOR. Podrán participar de LA\nPROMOCIÓN todos los clientes de tarjetas de crédito emitidas por EL ORGANIZADOR: : Visa\nClásica, Mastercard Clásica, Visa Oro, Mastercard Gold, MasterCard InterExa, Positiva\nBancardcheck, Positiva Visa y Visa Platinum. EL CLIENTE, siempre que cumpla con los\nrequisitos de participación previstos en estas Bases y Condiciones, y que fije domicilio\ndentro del territorio de la República del Paraguay. EL ORGANIZADOR asume enteramente\nla responsabilidad por la organización de la promoción. No participan las Gourmet y las\nMóvil Cards.\n2. MECÁNICA DE LA PROMOCIÓN\nPor las compras realizadas con las tarjetas de crédito de Banco Familiar los miércoles, en los\ncomercios listados más abajo, durante la vigencia de la promoción, EL CLIENTE podrá\nacceder a los beneficios detallados según el día y límite de compra de cada comercio. Los\nreintegros serán aplicados en el extracto del cliente.\n*Los límites de compra se aplican en conjunto para todos los comercios del listado a\ncontinuación. Beneficios aplican únicamente a pagos realizados a través de la red Bancard.\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\nROSSANA SOSA 7 DE ENERO AL 14 DE\n20% DE REINTEGRO 500.000 GUAIRÁ\nBOUTIQUE OCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nJACK SPORT 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nEL ALMACÉN DE ARA 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMILAGRO 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nALPHA SPORT 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nEVE BIKINIS 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nAMI LE NOVEDADES 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nCALAMINI 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nTIENDA ADLIN 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMODA Y ESTILO 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n7 DE ENERO AL 14 DE\nLA REGINA IMPORT 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nANTONELLA KIDS 20% DE REINTEGRO 500.000 VILLARRICA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMENINA BOUTIQUE SUC 2 20% DE REINTEGRO 500.000 SAN LORENZO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nPRISCEL NOVEDADES 20% DE REINTEGRO 500.000 VILLARRICA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nBM COMERCIAL GUAYAIVI 20% DE REINTEGRO 500.000 SAN ESTANISLAO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nCOMERCIAL ARCO IRIS 20% DE REINTEGRO 1.000.000 SAN IGNACIO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nFIO & GIO 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nML MULTIMARCAS 20% DE REINTEGRO 500.000 CONCEPCION\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE MARIA\nCASA SCHAPOVALOFF 20% DE REINTEGRO 500.000\nOCTUBRE DEL 2026 AUXILIADORA\n7 DE ENERO AL 14 DE\nDE CAPRICHO BOUTIQUE 20% DE REINTEGRO 500.000 SAN ESTANISLAO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nROSAS Y CHOCOLATES 20% DE REINTEGRO 500.000 CORONEL OVIEDO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nBAZICO 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nUSA2 STORE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nJS JEANS 20% DE REINTEGRO 500.000 SAN ESTANISLAO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nKV SPORTS 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nNAPOLES STORE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nCOMERCIAL FERNANDO 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nSAN PEDRO BOUTIQUE 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nGUADA MULTITIENDAS 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nALASKA 20% DE REINTEGRO 1.000.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nNR NOVEDADES 20% DE REINTEGRO 500.000 ENCARNACIÓN\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE MARIA\nPH SPORT 20% DE REINTEGRO 500.000\nOCTUBRE DEL 2026 AUXILIADORA\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n7 DE ENERO AL 14 DE\nB Y M STORE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nAMERICAN CLOTHES 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nGOZOS BOUTIQUE 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nVAZZTORI & CO CHENSON 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nZA JEANS 20% DE REINTEGRO 1.000.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nBOUTIQUE DELSY DLV 20% DE REINTEGRO 500.000 CONCEPCIÓN\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nAMMY BOUTIQUE 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nTIENDA MARY 20% DE REINTEGRO 500.000 ASUNCIÓN\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nTIENDA MARY HOME 20% DE REINTEGRO 500.000 ASUNCIÓN\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nA Y L TIENDA 20% DE REINTEGRO 500.000 SANTANI\nOCTUBRE DEL 2026\nPAÑALERIA CAMPEONES Y 7 DE ENERO AL 14 DE\n20% DE REINTEGRO 500.000 CENTRAL\nPRINCESAS OCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nVIBES GROUP 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nDENTOCOR 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nSLY SHOP 20% DE REINTEGRO 500.000 ALTO PARANA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMODAS MARI 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nBOUTIQUE ME LO LLEVO 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nCENTRO DE LAS OFERTAS 20% DE REINTEGRO 500.000 SAN PEDRO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nWEST COLLECTION 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nALEXA TU TIENDA 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nCASA DAEL 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nARRIERO MBARETE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMY INFINITY COSMETICOS 20% DE REINTEGRO 1.000.000 ALTO PARANA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nESTILO SPORT SHOP SRL 20% DE REINTEGRO 1.000.000 ITAPUA\nOCTUBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n7 DE ENERO AL 14 DE\nMALDITO GLAM 1 20% DE REINTEGRO 500.000 CANINDEYÚ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nVARIEDADES YUMI 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nPRONOIA COSMETICOS 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\nUNIKA BOUTIQUE Y 7 DE ENERO AL 14 DE\n20% DE REINTEGRO 500.000 MISIONES\nACCESORIOS OCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nNOVEDADES CRISTIAN 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nROPERÍA ARCE 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nBACANA PY 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nATLANTA STORE 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMUNDO NOVEDADES 20% DE REINTEGRO 500.000 SAN PEDRO\nOCTUBRE DEL 2026\n7 DE ENERO AL 14 DE\nMAIA BOUTIQUE 20% DE REINTEGRO 500.000 CORDILLERA\nOCTUBRE DEL 2026\n14 DE ENERO AL 14 DE\nAGARRE Y USE 20% DE REINTEGRO 500.000 SAN PEDRO\nOCTUBRE DEL 2026\nGAETE TIENDA 14 DE ENERO AL 14 DE\n20% DE REINTEGRO 500.000 ITAPÚA\nDEPORTIVA OCTUBRE DEL 2026\n21 DE ENERO AL 14 DE\nBEZALEEL DISEÑOS 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\n11 DE FEBRERO AL 14 DE\nFIOREMIA 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n11 DE FEBRERO AL 14 DE\nAZUL COMLPLEMENTOS 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n11 DE FEBRERO AL 14 DE\nCLAUDIA BOUTIQUE 20% DE REINTEGRO 500.000 SAN LORENZO\nOCTUBRE DEL 2026\n18 DE FEBRERO AL 14 DE\nATHENAS KIDS 20% DE REINTEGRO 1.000.000 VILLARRICA\nOCTUBRE DEL 2026\n25 DE FEBRERO AL 14 DE\nKATHY NOVEDADES 20% DE REINTEGRO 500.000 ALTO PARANÁ\nOCTUBRE DEL 2026\nROTELA MODA 25 DE FEBRERO AL 14 DE\n20% DE REINTEGRO 1.000.000 ALTO PARANÁ\nMASCULINA OCTUBRE DEL 2026\n4 DE MARZO AL 14 DE\nZUKHA 20% DE REINTEGRO 500.000 CONCEPCIÓN\nOCTUBRE DEL 2026\n4 DE MARZO AL 14 DE\nJS FITSHOP 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n4 DE MARZO AL 14 DE\nTEJU PARAGUAY 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n4 DE MARZO AL 14 DE\nTEJU PARAGUAY 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n4 DE MARZO AL 14 DE\nTEJU PARAGUAY 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n4 DE MARZO AL 14 DE\nTEJU PARAGUAY 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n11 DE MARZO AL 14 DE\nDEYSI BOUTIQUE 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n20% DE REINTEGRO 11 DE MARZO AL 14 DE CAAGUAZU\nMULTINOVEDADES FAF 500.000\nOCTUBRE DEL 2026\nTRAVESURAS BABY 18 DE MARZO AL 14 DE\n20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nSTORE OCTUBRE DEL 2026\n18 DE MARZO AL 14 DE\nNG DEPORTES 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n18 DE MARZO AL 14 DE\nCHOCOMIEL 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n25 DE MARZO AL 14 DE\nGRACE CLOTHES 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n25 DE MARZO AL 14 DE\nBENDITA ACCESORIOS 20% DE REINTEGRO 500.000 MISIONES\nOCTUBRE DEL 2026\n25 DE MARZO AL 14 DE\nANIME IMPORT SA 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n1 DE ABRIL AL 14 DE\nKYRIOS 20% DE REINTEGRO 1.000.000 ITAPÚA Y GUAIRÁ\nOCTUBRE DEL 2026\n20% DE REINTEGRO\n1 DE ABRIL AL 14 DE\nFIT STORE + HASTA 10 CUOTAS 500.000 GUAIRÁ\nOCTUBRE DEL 2026\nSIN INTERESES\n1 DE ABRIL AL 14 DE\nCHETOS Y CHETITOS 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n1 DE ABRIL AL 14 DE\nAL STORE ll 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n1 DE ABRIL AL 14 DE\nOLFAPIA PERFUMES 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nTAMY STORE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nCOSITAS BY VERO 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nMARIA V BOUTIQUE 20% DE REINTEGRO 500.000 MISIONES\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nAL STORE LUQUE 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nGAB BOUTIQUE 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nYISSELA TIENDA MODA 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nTOOKY REGALOS 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nTIENDA FLO Y CO 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nELIZABETH MACORITTO 2 20% DE REINTEGRO 1.000.000 CENTRAL\nOCTUBRE DEL 2026\n15 DE ABRIL AL 14 DE\nLA PRIMORDIAL 20% DE REINTEGRO 500.000 MISIONES\nOCTUBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n22 DE ABRIL AL 14 DE\nBASIC FOR MEN 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n22 DE ABRIL AL 14 DE\nTHE JEANS STORE 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\n22 DE ABRIL AL 14 DE\nMODA SPORT 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\nLIVELY CLOTHING 22 DE ABRIL AL 14 DE\n20% DE REINTEGRO 500.000 CAAGUAZU\nBOUTIQUE OCTUBRE DEL 2026\n22 DE ABRIL AL 14 DE\nBEBUKIS 20% DE REINTEGRO 500.000 ÑEEMBUCÚ\nOCTUBRE DEL 2026\n20% DE REINTEGRO\n29 DE ABRIL AL 14 DE\nVALERIE + HASTA 10 CUOTAS 1.000.000 GUAIRÁ\nOCTUBRE DEL 2026\nSIN INTERESES\n6 DE MAYO AL 14 DE\nJIMENA ACCESORIOS 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nB Y G MUSIC 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nZAIK 20% DE REINTEGRO 500.000 GUAIRA\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nLAURA CHIC 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nLAURA SPORT 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nAZARA SHOP 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nRHINO FIT SHOP 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nAVEN BOUTIQUE 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n6 DE MAYO AL 14 DE\nOX TIENDA 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n13 DE MAYO AL 14 DE\nEL JUGUETERO 20% DE REINTEGRO 500.000 MISIONES\nOCTUBRE DEL 2026\n13 DE MAYO AL 14 DE\nFOR MEN 20% DE REINTEGRO 500.000 ALTO PARANÁ\nOCTUBRE DEL 2026\n13 DE MAYO AL 14 DE\nTULIPAN MULTITIENDAS 20% DE REINTEGRO 500.000 ÑEEMUCU\nOCTUBRE DEL 2026\n13 DE MAYO AL 14 DE\nMELINA BOUTIQUE 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n13 DE MAYO AL 14 DE\nABRIL COMPLEMENTOS 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n20 DE MAYO AL 14 DE\nAUDACIA STORE 20% DE REINTEGRO 500.000 MISIONES\nOCTUBRE DEL 2026\n20 DE MAYO AL 14 DE\nMODA TOP KIDS & TEENS 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n20 DE MAYO AL 14 DE\nDC CALZADOS 20% DE REINTEGRO 1.000.000 ASUNCIÓN\nOCTUBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n27 DE MAYO AL 14 DE\nNG INDUMENTARIA 20% DE REINTEGRO 500.000 ITAPUA\nOCTUBRE DEL 2026\n27 DE MAYO AL 14 DE\nCALZADOS GODSON 20% DE REINTEGRO 500.000 PARAGUARÍ\nOCTUBRE DEL 2026\n27 DE MAYO AL 14 DE\nMG TIENDA MOVIL 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n27 DE MAYO AL 14 DE\nABDIEZ 20% DE REINTEGRO 500.000 CONCEPCIÓN\nOCTUBRE DEL 2026\n3 DE JUNIO AL 14 DE\nIRIS CENTER 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n3 DE JUNIO AL 14 DE\nTIENTO MULTIMARCAS 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n3 DE JUNIO AL 14 DE\nTESSY BOUTIQUE 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n10 DE JUNIO AL 14 DE\nALBORADA SUPER STORE 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n10 DE JUNIO AL 14 DE\nSOFIA NAILS STORE 20% DE REINTEGRO 500.000 CAAGUAZU\nOCTUBRE DEL 2026\n10 DE JUNIO AL 14 DE\nCASA GONZALITO 20% DE REINTEGRO 1.000.000 GUAIRA\nOCTUBRE DEL 2026\n10 DE JUNIO AL 14 DE\nELLA Y EL KIDS 20% DE REINTEGRO 500.000 ITAPÚA\nOCTUBRE DEL 2026\n17 DE JUNIO AL 14 DE\nGRIT MODA MASCULINA 20% DE REINTEGRO 500.000 GUAIRA\nOCTUBRE DEL 2026\n17 DE JUNIO AL 14 DE\nLIZA CREA 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n17 DE JUNIO AL 14 DE\nDIVA BOUTIQUE 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n24 DE JUNIO AL 14 DE\nMUNDO BEBE 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n24 DE JUNIO AL 14 DE\nPREMIER SPORTS 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n24 DE JUNIO AL 14 DE\nALMACEN SALUDABLE 20% DE REINTEGRO 500.000 SANTANI\nOCTUBRE DEL 2026\n24 DE JUNIO AL 14 DE\nADY MODAS 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n1 DE JULIO AL 14 DE OCTUBRE\nMULTITOYS 20% DE REINTEGRO 500.000 CENTRAL\nDEL 2026\n1 DE JULIO AL 14 DE OCTUBRE\nTU ESTILO SPORT 20% DE REINTEGRO 500.000 CAAGUAZÚ\nDEL 2026\n1 DE JULIO AL 14 DE OCTUBRE\nNOELIA RIOS II 20% DE REINTEGRO 500.000 CAAGUAZÚ\nDEL 2026\nALICIA ZEBALLOS 1 DE JULIO AL 14 DE OCTUBRE\n20% DE REINTEGRO 500.000 ASUNCIÓN\nBOUTIQUE DEL 2026\n1 DE JULIO AL 14 DE OCTUBRE\nALONDRA BOUTIQUE 20% DE REINTEGRO 500.000 GUAIRA\nDEL 2026\n8 DE JULIO AL 14 DE OCTUBRE\nGOOL SPORT 20% DE REINTEGRO 500.000 AMAMBAY\nDEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n8 DE JULIO AL 14 DE OCTUBRE\nSUNSET MULTIMARCAS 20% DE REINTEGRO 500.000 ITAPUA\nDEL 2026\n8 DE JULIO AL 14 DE OCTUBRE\nAG IMPORT 20% DE REINTEGRO 500.000 CAAGUAZU\nDEL 2026\n8 DE JULIO AL 14 DE OCTUBRE\nSTORE CENTER 20% DE REINTEGRO 500.000 ITAPÚA\nDEL 2026\n8 DE JULIO AL 14 DE OCTUBRE\nMV LAVA CAR 20% DE REINTEGRO 500.000 AMAMBAY\nDEL 2026\n15 DE JULIO AL 14 DE\nCASA ANANIAS 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n22 DE JULIO AL 14 DE\nMARITE BOUTIQUE 20% DE REINTEGRO 500.000 CONCEPCIÓN\nOCTUBRE DEL 2026\n22 DE JULIO AL 14 DE\nAURA CHIC 20% DE REINTEGRO 500.000 GUAIRA\nOCTUBRE DEL 2026\n29 DE JULIO AL 14 DE\nFLORENCIA BOUTIQUE 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n29 DE JULIO AL 28 DE\nMODA FASHION BOUTIQUE 20% DE REINTEGRO 500.000 GUAIRÁ\nOCTUBRE DEL 2026\n29 DE JULIO AL 28 DE\nTIENDA 3 B 20% DE REINTEGRO 500.000 CAAGUAZÚ\nOCTUBRE DEL 2026\n29 DE JULIO AL 28 DE\nSC PARFUMS 20% DE REINTEGRO 500.000 CENTRAL\nOCTUBRE DEL 2026\n29 DE JULIO AL 28 DE\nMALYBBU BOUTIQUE 20% DE REINTEGRO 500.000 GUAIRA\nOCTUBRE DEL 2026\n5 DE AGOSTO AL 4 DE\nLA CASA FIT 20% DE REINTEGRO 500.000 CAAGUAZÚ\nNOVIEMBRE DEL 2026\n5 DE AGOSTO AL 4 DE\nMP SUPLEMENTOS 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n5 DE AGOSTO AL 4 DE\nDAISY ARTESANIA 20% DE REINTEGRO 500.000 CAAGUAZÚ\nNOVIEMBRE DEL 2026\n5 DE AGOSTO AL 4 DE\nROSSY MODAS 20% DE REINTEGRO 500.000 CAAZAPÁ\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nTIENDA LA IRENITA 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nZULIA 20% DE REINTEGRO 500.000 CAAGUAZÚ\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nPETIOTO TIENDA KIDS 20% DE REINTEGRO 500.000 ITAPUA\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nLUMIJO BY SANDALO 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nNANOS STORE PY 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nEL STORE 20% DE REINTEGRO 500.000 GUAIRÁ\nNOVIEMBRE DEL 2026\n12 DE AGOSTO AL 11 DE\nGLAMOUR BY SANDRI 20% DE REINTEGRO 500.000 ITAPÚA\nNOVIEMBRE DEL 2026\n19 DE AGOSTO AL 18\nLAVORE 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n19 DE AGOSTO AL 18\nCALZADOS HERMI 20% DE REINTEGRO 1.000.000 CENTRAL\nNOVIEMBRE DEL 2026\nNURIA SANTACRUZ\n19 DE AGOSTO AL 18\nCALZADOS E 20% DE REINTEGRO 500.000 CAAGUAZU\nNOVIEMBRE DEL 2026\nINDUMENTARIA\n19 DE AGOSTO AL 18\nHERMES MARINA HOGAR 20% DE REINTEGRO 500.000 CAAGUAZU\nNOVIEMBRE DEL 2026\n19 DE AGOSTO AL 18\nVALEN BABY 20% DE REINTEGRO 500.000 CAAGUAZU\nNOVIEMBRE DEL 2026\n19 DE AGOSTO AL 18\nHORQUILLAS CO 20% DE REINTEGRO 500.000 CAAGUAZU\nNOVIEMBRE DEL 2026\n19 DE AGOSTO AL 18\nDEEP PY 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n19 DE AGOSTO AL 18\nTERMIC 20% DE REINTEGRO 500.000 CENTRAL\nNOVIEMBRE DEL 2026\n26 DE AGOSTO AL 25 DE\nLUCAS PERFUMES 20% DE REINTEGRO 500.000 CAAGUAZÚ\nNOVIEMBRE DEL 2026\n26 DE AGOSTO AL 25 DE\nROPERIA NALDO 20% DE REINTEGRO 500.000 ALTO PARANÁ\nNOVIEMBRE DEL 2026\n26 DE AGOSTO AL 25 DE\nHG IMPORTADOS 20% DE REINTEGRO 1.000.000 ALTO PARANÁ\nNOVIEMBRE DEL 2026\n2 DE SEPTIEMBRE AL 1 DE\nVERYGREED STORE 20% DE REINTEGRO 500.000 CENTRAL\nDICIEMBRE DEL 2026\n2 DE SEPTIEMBRE AL 1 DE\nCUNA BELLA 20% DE REINTEGRO 1.000.000 CENTRAL\nDICIEMBRE DEL 2026\n2 DE SEPTIEMBRE AL 1 DE\nZONA SHOP 20% DE REINTEGRO 500.000 CENTRAL\nDICIEMBRE DEL 2026\n2 DE SEPTIEMBRE AL 1 DE\nZAG STORE 20% DE REINTEGRO 500.000 SAN PEDRO\nDICIEMBRE DEL 2026\nPROLANDER 2 DE SEPTIEMBRE AL 1 DE\n20% DE REINTEGRO 500.000 CENTRAL\nSUPLEMENTOS DICIEMBRE DEL 2026\n2 DE SEPTIEMBRE AL 1 DE\nCLAU ACCESORIOS 20% DE REINTEGRO 500.000 ALTO PARANA\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nLA TIENDITA DE NATY 20% DE REINTEGRO 500.000 SAN PEDRO\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nAJOS LA TIENDA 20% DE REINTEGRO 500.000 CAAGUAZÚ\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nSTAY FRESH 20% DE REINTEGRO 500.000 GUAIRÁ\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nFANTASSY BOUTIQUE 20% DE REINTEGRO 500.000 ITAPÚA\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nSPORT HIT S.R.L. 20% DE REINTEGRO 500.000 ALTO PARANÁ\nDICIEMBRE DEL 2026\n3 DE SEPTIEMBRE AL 1 DE\nLION KINGS STORE 20% DE REINTEGRO 500.000 SAN PEDRO\nDICIEMBRE DEL 2026\nTHRIFTING TIENDA 9 DE SEPTIEMBRE AL 8 DE\n20% DE REINTEGRO 500.000 CAAGUAZÚ\nAMERICANA DICIEMBRE DEL 2026\n9 DE SEPTIEMBRE AL 8 DE\nEURO REGALOS 20% DE REINTEGRO 500.000 ITAPÚA\nDICIEMBRE DEL 2026\nLÍMITE DE\nCOMERCIO BENEFICIO VIGENCIA DEPARTAMENTO\nCOMPRA\n9 DE SEPTIEMBRE AL 8 DE\nGO TIENDA 20% DE REINTEGRO 500.000 CAAGUAZÚ\nDICIEMBRE DEL 2026\n9 DE SEPTIEMBRE AL 8 DE\nLA TIENDITA DE NATY 20% DE REINTEGRO 500.000 SAN PEDRO\nDICIEMBRE DEL 2026\n9 DE SEPTIEMBRE AL 8 DE\nVALFLOR LINGERIE 20% DE REINTEGRO 500.000 GUAIRA\nDICIEMBRE DEL 2026\n9 DE SEPTIEMBRE AL 8 DE\nBETTA 20% DE REINTEGRO 500.000 CAAGUAZU\nDICIEMBRE DEL 2026\n16 DE SEPTIEMBRE AL 8 DE\nMBARETE OVIEDO 20% DE REINTEGRO 500.000 CAAGUAZU\nDICIEMBRE DEL 2026\n23 DE SEPTIEMBRE AL 8 DE\nSU FASHION 20% DE REINTEGRO 500.000 ALTO PARANA\nDICIEMBRE DEL 2026\n30 DE SEPTIEMBRE AL 8 DE\nMBARETE DYLAN 20% DE REINTEGRO 500.000 CENTRAL\nDICIEMBRE DEL 2026\n30 DE SEPTIEMBRE AL 8 DE\nBEAUTY COSMETICS 20% DE REINTEGRO 500.000 GUAIRA\nDICIEMBRE DEL 2026\n30 DE SEPTIEMBRE AL 8 DE\nDELTA NU 2 20% DE REINTEGRO 500.000 CAAGUAZU\nDICIEMBRE DEL 2026\n30 DE SEPTIEMBRE AL 8 DE\nGLOBAL IMPORTADOS 20% DE REINTEGRO 500.000 GUAIRA\nDICIEMBRE DEL 2026\n30 DE SEPTIEMBRE AL 30 DE\nLE PARFUM 20% DE REINTEGRO 500.000 TOTAL PAÍS\nDICIEMBRE DEL 2026\n3. RESPONSABILIDAD Y ALCANCE\nLas personas que intervengan en LA PROMOCIÓN, por su sola participación, aceptarán de\npleno derecho todas y cada una de las disposiciones previstas en las presentes Bases y\nCondiciones.\nLas operaciones consignadas durante la vigencia de la promoción serán consideradas como\naceptadas por el tarjetahabiente si no son objetadas dentro de los 15 días posteriores al\ncierre del extracto.\n4. SOLICITUD DE BASES\nSe podrán consultar las Bases y Condiciones de LA PROMOCIÓN durante toda su vigencia,\nllamando sin costo al Centro de Atención al Cliente de Banco Familiar desde línea baja al\nnúmero 0800 11 33 22, desde celular al *3322 o ingresando a la página Web\nwww.familiar.com.py.\n5. ACEPTACIÓN DE BASES\nLa participación en LA PROMOCIÓN implica total conocimiento y aceptación de estas Bases\ny Condiciones, las que por causas ajenas y de fuerza mayor no imputables a EL\nORGANIZADOR, podrán ser modificadas, con la previa aprobación de la respectiva\nautoridad de aplicación, sin que ello dé lugar a reclamo o indemnización alguna. Las\nmodificaciones que eventualmente deban realizarse no modificarán la esencia de LA\nPROMOCIÓN."
     },
     {
       "bank": "Familiar",
@@ -2861,7 +2880,7 @@
         "San Pedro"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-centro-optico-santani-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=10",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=11",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/6953eb3671cee230b81e9f89_BASES Y CONDICIONES PROMOCIÓN - Optica Santani.pdf",
       "pdf_sha256": "19a5ae1800b3ffb820007321c9257721d80d67f8f83d41f2aeac896bb64540c5",
@@ -2880,7 +2899,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-saturno-pizzas-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=10",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=11",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a95db2bba2af2d917008e83_BASES Y CONDICIONES GASTRONOMIA CENTRAL 2026 - Saturno Pizzas.pdf",
       "pdf_sha256": "a1a162e8f8d1519091c70f8dee81e8d8d9d660ec9560fcd92090ed6c80be26a3",
@@ -3152,7 +3171,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-caracter-sagrado-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=11",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=12",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a95e76a5d3fdb3b7f90c5af_ByC - Caracter Sagrado 2026.pdf",
       "pdf_sha256": "5a757e607979fef81a6c0b2c3838283cc486a3bcf6928a57e7ac0231188867bf",
@@ -3175,7 +3194,7 @@
         "Caaguazú"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-consolidado-de-promociones-bases-y-condiciones-septiembre-2026",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=11",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=12",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6ab17d8db59c0f8fca64d1e6_Familiar_TC_Consolidado_Sep.pdf",
       "pdf_sha256": "3160743b5ad1d4e6c41c23fc7db3d259d4d8de8ae05aa6aa0b8d72e3bf056db7",
@@ -3448,7 +3467,7 @@
         "Itapúa"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-bistro-del-centro-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=12",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=13",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/69cd45a7909f11ad523a9276_BASES Y CONDICIONES GASTRONOMIA SUR 2026 - Bristro del centro.pdf",
       "pdf_sha256": "de3c8500169648988111ab38104558eb7c153e3c9aaa616a615a77a85693d36b",
@@ -3467,7 +3486,7 @@
         "Itapúa"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-green-park-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=12",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=13",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a95dfa3255fbf152cd338a2_BASES Y CONDICIONES GASTRONOMIA SUR 2026 - Green Park.pdf",
       "pdf_sha256": "6e146dbf340e0edc1443767a7f2a40a16e5c6017a480e1b6adec49537856ad0f",
@@ -3733,7 +3752,7 @@
         "Guairá"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-terraza-burger-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=13",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=14",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a95dcf6c6edd622beb2a2b4_ByC - Terraza Burger 2026.pdf",
       "pdf_sha256": "c531435e4b4d06accd34eba49a1628c46b294e37109789b4c269ef715c9750f6",
@@ -3752,7 +3771,7 @@
         "Guairá"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-na-china-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=13",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=14",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a95e401680bab725e3718bd_ByC - Ña China 2026.pdf",
       "pdf_sha256": "f0bcc919c6e5582bcc05ad09efffc0bbe4be0422a242b438d0f57ad24ec7fbcc",
@@ -4026,7 +4045,7 @@
         "Concepción"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-quincho-de-nacho-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=14",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=15",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a95e53cd7ff734c5abdd250_ByC - Quincho de Nacho 2026.pdf",
       "pdf_sha256": "d0eaa1f157d8e101afc3e148ef8307be11a956a0cab458823a34592ed9244faf",
@@ -4045,7 +4064,7 @@
         "Concepción"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-santa-catalina-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=14",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=15",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/69540421c31d4fdb66ba5f17_BASES Y CONDICIONES FERRETERIA SANTA CATALINA 2026.pdf",
       "pdf_sha256": "3a0af2872d2b90a8a0afceb8a5692f46e33384413d780082ec512f54c1779668",
@@ -4339,7 +4358,7 @@
         "Concepción"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-fortis-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=15",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=16",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/695431bb4f57491741a7772e_ByC - Fortis 2026.pdf",
       "pdf_sha256": "a942bedfe6e168b65a40747cea8ffd51e03754a2767cce007e469c70c50e5bc2",
@@ -4360,7 +4379,7 @@
         "Amambay"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-shopping-china-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=15",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=16",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/69543226a93445a5ed6b1bdb_ByC - Shopping China 2026.pdf",
       "pdf_sha256": "74f9689260f0632733a63dfec7e4000e2158fbb1d8b402181e70b0b4e3846050",
@@ -4632,7 +4651,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-delimarket-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=16",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=17",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a95e9815d3fdb3b7f920030_ByC - Delimarket 2026 (20)_repaired.pdf",
       "pdf_sha256": "e5289d0a69a1f9d221f9cf187eca0ec3ce1f4d9a279635c71e110b449ebbf0f7",
@@ -4651,7 +4670,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-el-ahorrazo-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=16",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=17",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a9f1aceb5c33fd5b6c01253_ByC - El Ahorrazo 2026 (20).pdf",
       "pdf_sha256": "1d7911cb1f5af64381dcb34ab9578425dd55cf32dc15530d1f9a505999613995",
@@ -4917,7 +4936,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-optica-carron-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=17",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=18",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/6953ea6d2505f0dae207774c_BASES Y CONDICIONES - OPTICA CARRON 2026.pdf",
       "pdf_sha256": "8bf6914f53053837e7c921f366e89d398d2f8e5f86f65e342bde3d3b99dfae47",
@@ -4936,7 +4955,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-las-lomas-casa-hotel-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=17",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=18",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/69540f53fe5a48b4311fa0d9_BASES Y CONDICIONES - Las Lomas Hotel 2026.pdf",
       "pdf_sha256": "79435a2c3c7994123ac162bd9f4e3b391ad1304b387aff7ea52817cebd561b59",
@@ -5202,7 +5221,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-kube-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=18",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=19",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/6954314de387093cd55e6dec_ByC - Kube 2026.pdf",
       "pdf_sha256": "bece37c71651e57a283db51f3ecbc456e4fa454c85c147f7e3e47b410ff50107",
@@ -5221,7 +5240,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-achon-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=18",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=19",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/6954311373b0708bd9a4cbf8_Bases y Condiciones - Achon 2026.pdf",
       "pdf_sha256": "9805ecf3f86652189e812bd63c9783c37041d5b6d14e8e00a1b0fe62d741144e",
@@ -5487,7 +5506,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dodge-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=19",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=20",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/6954339541196bc32a141b8f_ByC - Garden Automotores 2026.pdf",
       "pdf_sha256": "8ad31840880e36ff6b6e67e7c416acf34377dcd81c02b60a8dc6cf716c8d1146",
@@ -5506,7 +5525,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jeep-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=19",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=20",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/6954339541196bc32a141b8f_ByC - Garden Automotores 2026.pdf",
       "pdf_sha256": "8ad31840880e36ff6b6e67e7c416acf34377dcd81c02b60a8dc6cf716c8d1146",
@@ -5784,7 +5803,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-essen-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=20",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=21",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/6954328f1925b64ce6b98e9c_ByC - Essen 2026.pdf",
       "pdf_sha256": "be887c95a29a22682d568155d36a8769d0f365b0203e060aa3df0fc2b03eef39",
@@ -5807,7 +5826,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-alex-bases-y-condiciones-5i1l4",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=20",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=21",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/696f79c3555eadf9e3d17179_ALEX 2026.pdf",
       "pdf_sha256": "8f22659b2545da37cf78a33bc795a0addf9237dac29f2b6084ff214f3477dd97",

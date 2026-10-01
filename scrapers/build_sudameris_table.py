@@ -1,5 +1,6 @@
 import csv
 import re
+import unicodedata
 from pathlib import Path
 from sudameris_campaigns import expand_campaign
 
@@ -26,6 +27,11 @@ CATEGORIES = [
 
 def clean(text):
     return re.sub(r"\s+", " ", text or "").strip().strip(":").strip()
+
+
+def campaign_key(value):
+    normalized = unicodedata.normalize("NFKD", clean(value))
+    return "".join(char for char in normalized if not unicodedata.combining(char)).upper()
 
 
 def category_for(row):
@@ -96,7 +102,8 @@ def main():
 
     table = []
     for row in rows:
-        if row['Comercio/Promocion'] in {'GASTRONOMÍA 26', 'ZONA ESTE', 'ZONA SUR'} or row['Comercio/Promocion'].startswith('PRIMAVERA 2026'):
+        campaign = campaign_key(row['Comercio/Promocion'])
+        if campaign in {'GASTRONOMIA 26', 'ZONA ESTE', 'ZONA SUR'} or campaign.startswith('PRIMAVERA 2026'):
             table.extend(expand_campaign(row))
             continue
         table.append(

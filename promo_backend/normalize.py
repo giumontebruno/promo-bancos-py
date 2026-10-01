@@ -252,6 +252,11 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
             quota = re.search(r'\b\d+\s+cuotas?\s+sin\s+inter[eé]s(?:es)?', full_detail, re.I)
             if quota:
                 benefit = quota[0]
+    benefit_type = detect_benefit_type(benefit)
+    if re.search(r"cup[oó]n\s+de\s+reintegro\s+de\s+Gs\.?", benefit, re.I) and not detect_percentages(benefit):
+        benefit_type = "beneficio"
+    elif benefit_type == "beneficio":
+        benefit_type = detect_benefit_type(" ".join([benefit, levels, full_detail]))
     validity_section = re.search(r'vigencia\s*:\s*(.*?)(?=beneficio\s*:|condiciones\s*:|$)', full_detail, re.I)
     scheduling = [day_text, validity, validity_section[1] if validity_section else ""]
 
@@ -261,7 +266,7 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "merchant_name": merchant_override or merchant or merchants or category,
         "merchant_locations_or_group": group_override if group_override is not None else merchants or location,
         "benefit_summary": benefit,
-        "benefit_type": detect_benefit_type(benefit) if detect_benefit_type(benefit) != "beneficio" else detect_benefit_type(" ".join([benefit, levels, full_detail])),
+        "benefit_type": benefit_type,
         "percentages": detect_percentages(" ".join([benefit, levels])),
         "promotion_days": detect_days(*scheduling),
         "month_days": detect_month_days(*scheduling),

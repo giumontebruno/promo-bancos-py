@@ -7,6 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = [
+    ('GNB', 'gnb', ['extract_gnb', 'build_gnb_live_catalog', 'review_gnb_cards_with_pdf', 'build_gnb_reviewed']),
     ('Familiar', 'familiar', ['extract_familiar', 'build_familiar_table']),
     ('Sudameris', 'sudameris', ['extract_sudameris', 'build_sudameris_table']),
     ('Itaú', 'itau', ['extract_itau']),
@@ -24,10 +25,14 @@ def run_step(script):
 
 
 def main():
+    requested = {value.casefold() for value in sys.argv[1:]}
+    groups = [group for group in GROUPS if not requested or group[0].casefold() in requested or group[1].casefold() in requested]
+    if requested and not groups:
+        raise SystemExit(f'Unknown promotion source: {", ".join(sys.argv[1:])}')
     status_path = ROOT / 'public/source_status.json'
     previous = json.loads(status_path.read_text(encoding='utf-8')) if status_path.exists() else {}
     status, failures = dict(previous), []
-    for bank, prefix, scripts in GROUPS:
+    for bank, prefix, scripts in groups:
         output = ROOT / 'outputs' / f'{prefix}_beneficios_por_categoria.csv'
         backups = {path: path.read_bytes() for path in (ROOT / 'outputs').glob(f'{prefix}_*') if path.is_file()}
         try:
@@ -49,11 +54,17 @@ def main():
             failures.append(bank)
             print(f'{bank}: refresh failed; previous source preserved.', flush=True)
     status_path.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding='utf-8')
-    for script in ['scrapers/build_locations.py', 'scrapers/enrich_locations_google.py']:
+    if not requested:
+        location_paths = [ROOT / 'outputs/locations.csv', ROOT / 'public/locations.json']
+        location_backups = {path: path.read_bytes() for path in location_paths if path.exists()}
         try:
-            run_step(script)
+            run_step('scrapers/build_locations.py')
+            run_step('scrapers/enrich_locations_google.py')
         except (subprocess.SubprocessError, OSError):
-            failures.append(script)
+            for path, content in location_backups.items():
+                path.write_bytes(content)
+            failures.append('location_enrichment')
+            print('Location refresh failed; previous geocoded catalog preserved.', flush=True)
     run_step('promo_backend/normalize.py')
     report = {'completed_at': datetime.now(timezone.utc).isoformat(), 'failed_sources': failures, 'sources': status}
     (ROOT / 'outputs/refresh_report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')

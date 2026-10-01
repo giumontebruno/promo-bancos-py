@@ -1,31 +1,23 @@
+"""Expose current UENO category pages to the terms enrichment pipeline."""
+
 import csv
+import json
 from pathlib import Path
 
-from pypdf import PdfReader
 
-
-PDF_PATH = Path("work/ueno_beneficios_current.pdf")
-OUT = Path("work/ueno_pdf_links.csv")
+ROOT = Path(__file__).resolve().parents[1]
+MANIFEST = ROOT / "work/ueno_monthly_sources.json"
+OUT = ROOT / "work/ueno_pdf_links.csv"
 
 
 def main():
-    reader = PdfReader(str(PDF_PATH))
-    rows = []
-    for page_idx, page in enumerate(reader.pages, start=1):
-        annots = page.get("/Annots") or []
-        for annot_ref in annots:
-            annot = annot_ref.get_object()
-            action = annot.get("/A") or {}
-            uri = action.get("/URI")
-            if uri:
-                rows.append({"Página PDF": page_idx, "URL": str(uri)})
-    with OUT.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["Página PDF", "URL"])
+    sources = json.loads(MANIFEST.read_text(encoding="utf-8"))["sources"]
+    rows = [{"Página PDF": source["index"], "URL": source["page_url"]} for source in sources]
+    with OUT.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["Página PDF", "URL"])
         writer.writeheader()
         writer.writerows(rows)
-    print(f"{len(rows)} links -> {OUT}")
-    for row in rows:
-        print(row["Página PDF"], row["URL"])
+    print(f"UENO: {len(rows)} category links -> {OUT}")
 
 
 if __name__ == "__main__":

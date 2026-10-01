@@ -32,6 +32,8 @@ def main():
     path = Path(__file__).resolve().parents[1] / 'outputs/gnb_extraction_review.json'
     path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f'GNB: {report["status"]}, {len(report["links"])} official links. No unverified cards published.')
+    if report['status'] == 'blocked_source':
+        raise SystemExit(1)
 
 
 if __name__ == '__main__':

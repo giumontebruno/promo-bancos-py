@@ -27,5 +27,5 @@ class SourceBenefitTests(unittest.TestCase):
             if p['bank'] == 'Sudameris':
                 self.assertNotIn(p['merchant_name'], ['GASTRONOMÍA 26', 'ZONA ESTE', 'ZONA SUR'])
         kaiseki = next(p for p in promos if p['merchant_name'] == 'KAISEKI')
-        self.assertEqual(kaiseki['terms']['ends_on'], '2026-10-02')
+        self.assertEqual(kaiseki['terms']['ends_on'], '2026-12-31')
         self.assertIn('martes', kaiseki['promotion_days'])

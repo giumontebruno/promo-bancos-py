@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 738
+Total de beneficios/comercios: 741
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -28,7 +28,7 @@ Total de beneficios/comercios: 738
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
 | Asociación Paraguaya de Caza y Pesca | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de agosto de 2027 | Asunción |
-| Chaco Outdoors | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 04 de septiembre de 2027 | No especificado |
+| Chaco Outdoors | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | Todos los días | Vigente hasta el 23 de septiembre de 2027 | No especificado |
 
 ## Clubes (2)
 
@@ -476,7 +476,7 @@ Total de beneficios/comercios: 738
 | Adelanto en efectivo | hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de junio de 2027 | Todo el país |
 | Bigg Running Festival | 10%; 10% de reintegro | No especificado | Vigente hasta el 10 de octubre de 2026 | Asunción |
 | Forever 21 - Primavera | 50%; 10% de reintegro; 50% de descuento | No especificado | Vigente hasta el 28 de septiembre de 2026 | Asunción |
-| Go Park | 20%; Hasta 6 cuotas sin intereses; 20% de reintegro | No especificado | Vigente hasta el 23 de septiembre de 2026 | No especificado |
+| Go Park | 20%; Hasta 6 cuotas sin intereses; 20% de reintegro | No especificado | Vigente hasta el 21 de octubre de 2026 | No especificado |
 | Koala | 50%; Hasta 12 cuotas sin intereses; 10% de reintegro; 45% de descuento | todos los días | Vigente hasta el 10 de septiembre de 2026 | Todo el país |
 | Las Hortensias - Cine | 50%; 50% de reintegro | Todos los días | Vigente hasta el 10 de junio del 2027 | Pilar |
 | Primavera - 2026 | 25%; 25% de reintegro | No especificado | Vigente hasta el 21 de septiembre de 2026 | Todo el país |
@@ -634,7 +634,7 @@ Total de beneficios/comercios: 738
 
 _Se omitieron 37 filas en este resumen; están en el CSV._
 
-## Tiendas (209)
+## Tiendas (212)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -689,6 +689,7 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | Crocs | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 01 de julio de 2027 | No especificado |
 | Cuna Bella | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 13 de mayo de 2027 | Asunción |
 | DV Cueros | 20%; 20% de reintegro | Los jueves | Vigente hasta el 09 de septiembre de 2027 | San Ignacio, Misiones |
+| Damat (Great Bazzar) | 20%; 20% de reintegro | los jueves | Vigente hasta el 14 de enero del 2027 | Asunción |
 | De Marie | Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
 | Deport Center | 30%; Hasta 12 cuotas sin intereses; 30% de reintegro | todos los días | Vigente hasta el 22 de julio de 2027 | Encarnación |
 | Dermash | 25% de reintegro; 20% de reintegro | los jueves | No especificado | Asunción |
@@ -717,9 +718,8 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | Gaete - Tienda Deportiva | 20%; 20% de reintegro | los jueves | Vigente hasta el 25 de febrero del 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | Tomás R. Pereira |
 | Ganian Petshop | 20%; 20% de reintegro | Los jueves | Vigente hasta el 08 de junio de 2027 | No especificado |
 | Gilardini | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 18 de marzo de 2027 | Asunción |
-| Giorgio Redaelli | 20%; 20% de reintegro | los jueves | Vigente hasta el 27 de mayo de 2027 | Asunción |
 
-_Se omitieron 129 filas en este resumen; están en el CSV._
+_Se omitieron 132 filas en este resumen; están en el CSV._
 
 ## Vehículos (37)
 

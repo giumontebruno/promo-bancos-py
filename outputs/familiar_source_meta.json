@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-30T13:34:16.817663+00:00",
+  "checked_at": "2026-10-01T12:37:30.434206+00:00",
   "published": 234,
   "pending": [
     {
@@ -131,6 +131,11 @@
       "merchant_name": "BODEGAS",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-bodegas-bases-y-condiciones",
       "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "UNIVERSIDAD AMERICANA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-universidad-americana-bases-y-condiciones",
+      "reason": "expired_terms"
     },
     {
       "merchant_name": "CONSTRUCCION",

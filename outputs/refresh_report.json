@@ -1,53 +1,53 @@
 {
-  "completed_at": "2026-09-30T13:38:01.960433+00:00",
-  "failed_sources": [
-    "BNF",
-    "Coop. Universitaria"
-  ],
+  "completed_at": "2026-10-01T12:55:03.671922+00:00",
+  "failed_sources": [],
   "sources": {
     "Sudameris": {
       "status": "fetched",
-      "checked_at": "2026-09-30T13:34:42.840736+00:00",
-      "records": 161
+      "checked_at": "2026-10-01T12:37:49.425772+00:00",
+      "records": 144
     },
     "Itaú": {
       "status": "fetched",
-      "checked_at": "2026-09-30T13:35:40.706951+00:00",
-      "records": 120
+      "checked_at": "2026-10-01T12:38:20.981271+00:00",
+      "records": 72
     },
     "BNF": {
-      "status": "failed",
-      "checked_at": "2026-09-24T12:45:01.038119+00:00",
-      "records": 75,
-      "attempted_at": "2026-09-30T13:35:44.081413+00:00",
-      "error_type": "CalledProcessError"
+      "status": "fetched",
+      "checked_at": "2026-10-01T12:54:57.545949+00:00",
+      "records": 77
     },
     "Continental": {
       "status": "fetched",
-      "checked_at": "2026-09-30T13:35:46.564519+00:00",
-      "records": 738
+      "checked_at": "2026-10-01T12:38:22.990968+00:00",
+      "records": 741
     },
     "Atlas": {
       "status": "fetched",
-      "checked_at": "2026-09-30T13:35:49.086564+00:00",
-      "records": 25
+      "checked_at": "2026-10-01T12:38:25.103609+00:00",
+      "records": 28
     },
     "Coop. Universitaria": {
       "status": "failed",
       "checked_at": "2026-09-17T12:34:35.639315+00:00",
       "records": 77,
-      "attempted_at": "2026-09-30T13:35:49.402550+00:00",
+      "attempted_at": "2026-10-01T12:38:26.133314+00:00",
       "error_type": "CalledProcessError"
     },
     "ueno bank": {
       "status": "fetched",
-      "checked_at": "2026-09-30T13:37:31.638441+00:00",
-      "records": 231
+      "checked_at": "2026-10-01T12:42:13.795823+00:00",
+      "records": 324
     },
     "Familiar": {
       "status": "fetched",
-      "checked_at": "2026-09-30T13:34:17.345602+00:00",
+      "checked_at": "2026-10-01T12:37:30.890458+00:00",
       "records": 234
+    },
+    "GNB": {
+      "status": "failed",
+      "attempted_at": "2026-10-01T12:34:28.148064+00:00",
+      "error_type": "CalledProcessError"
     }
   }
 }
