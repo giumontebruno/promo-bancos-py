@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-01T13:23:34.227525+00:00",
-  "published": 215,
+  "checked_at": "2026-10-01T13:36:57.035153+00:00",
+  "published": 240,
   "pending": [
     {
       "merchant_name": "FAMILIAR DAY",
@@ -13,16 +13,6 @@
       "reason": "merchant_not_in_terms"
     },
     {
-      "merchant_name": "HG IMPORTADOS DÍA DEL NINO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-hg-importados-dia-del-nino",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "CONECTOY DÍA DEL NINO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-conectoy-dia-del-nino",
-      "reason": "ambiguous_dates"
-    },
-    {
       "merchant_name": "RESTAURANTES PLATINUM",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-restaurantes-platinum",
       "reason": "campaign_requires_merchant_expansion"
@@ -31,26 +21,6 @@
       "merchant_name": "BELLEZA Y SPA PLATINUM",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-belleza-y-spa-platinum",
       "reason": "unconfirmed_cards"
-    },
-    {
-      "merchant_name": "DIA DE LA AMISTAD - BARES",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dia-de-la-amistad",
-      "reason": "expired_terms"
-    },
-    {
-      "merchant_name": "BIGGIE EXPRESS FINAL DEL MUNDIAL",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-biggie-express-final-del-mundial",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "VACACIONES DE INVIERNO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-vacaciones-de-invierno",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "BIGGIE EXPRESS MUNDIAL",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-biggie-express-mundial",
-      "reason": "ambiguous_dates"
     },
     {
       "merchant_name": "LA TAPERIA",
@@ -68,53 +38,8 @@
       "reason": "campaign_requires_merchant_expansion"
     },
     {
-      "merchant_name": "BIGGIE EXPRESS PARAGUAY HASTA 50%",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficio-biggie-50",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "DÍA DEL PADRE - TIENDAS",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dia-del-padre---tiendas",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "DÍA DEL PADRE - SHOPPING",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dia-del-padre---shopping",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "PRIMERA COMPRA OFERTA APP",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-primera-compra-oferta-app",
-      "reason": "ambiguous_dates"
-    },
-    {
       "merchant_name": "JOYERIAS",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-joyerias",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "FARMATOTAL DÍA DE LA MADRE",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-farmatotal-dia-de-la-madre",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "FARMACENTER DÍA DE LA MADRE",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-farmacenter-dia-de-la-madre",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "DÍA DE LA MADRE - SHOPPING",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dia-de-la-madre-shopping",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "DÍA DE LA MADRE - TIENDAS",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dia-de-la-madre---tiendas",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "NISSEI DISTRITO PERSEVERANCIA",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-nissei-distrito-perseverancia",
       "reason": "ambiguous_dates"
     },
     {
@@ -133,11 +58,6 @@
       "reason": "merchant_not_in_terms"
     },
     {
-      "merchant_name": "NISSEI HOT SALE",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-nissei-hot-sale",
-      "reason": "ambiguous_dates"
-    },
-    {
       "merchant_name": "DALUWOK",
       "source_url": "https://www.familiar.com.py/pdfs/promociones-y-beneficios-daluwok",
       "reason": "missing_terms"
@@ -146,21 +66,6 @@
       "merchant_name": "EL SOTANO BAR",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-el-sotano-bar",
       "reason": "merchant_not_in_terms"
-    },
-    {
-      "merchant_name": "VUELTA A CLASES EL AHORRAZO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-vuelta-a-clases-el-ahorrazo",
-      "reason": "expired_terms"
-    },
-    {
-      "merchant_name": "VUELTA A CLASES KINGO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-vuelta-a-clases-kingo",
-      "reason": "expired_terms"
-    },
-    {
-      "merchant_name": "FARMATOTAL 50% OFF",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-farmatotal-50-off",
-      "reason": "ambiguous_dates"
     },
     {
       "merchant_name": "ESTACIONES DE SERVICIO",
@@ -173,64 +78,9 @@
       "reason": "ambiguous_dates"
     },
     {
-      "merchant_name": "SUEÑOLAR",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-suenolar",
-      "reason": "expired_terms"
-    },
-    {
-      "merchant_name": "DIA DE LA PIZZA",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dia-de-la-pizza",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "DIA DE LOS ENAMORADOS",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-enamorados",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "KOALA MAYO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-koala-mayo",
-      "reason": "expired_terms"
-    },
-    {
-      "merchant_name": "VUELTA A CLASES",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-vuelta-a-clases",
-      "reason": "expired_terms"
-    },
-    {
-      "merchant_name": "HELADERIAS Y CAFETERIAS VERANO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-heladerias-y-cafeterias-verano",
-      "reason": "expired_terms"
-    },
-    {
-      "merchant_name": "HOTELES VERANO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-hoteles-verano",
-      "reason": "expired_terms"
-    },
-    {
-      "merchant_name": "BARES VERANO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-bares-verano",
-      "reason": "expired_terms"
-    },
-    {
-      "merchant_name": "VERANO FAMILIAR - ENCARNACIÓN",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-verano-encarnacion-bases-y-condiciones",
-      "reason": "expired_terms"
-    },
-    {
       "merchant_name": "FARMACENTER",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-farmacenter-bases-y-condiciones",
       "reason": "merchant_not_in_terms"
-    },
-    {
-      "merchant_name": "CONSOLIDADO VERANO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-consolidado-sanber2026",
-      "reason": "ambiguous_dates"
-    },
-    {
-      "merchant_name": "VERANO FAMILIAR - SANBER",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-verano-familiar-sanber",
-      "reason": "expired_terms"
     },
     {
       "merchant_name": "SHOPPING LION",
@@ -443,6 +293,36 @@
       "reason": "merchant_not_in_terms"
     },
     {
+      "merchant_name": "AEROLINEAS - VIAJES",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-aerolineas---viajes-bases-y-condiciones",
+      "reason": "unconfirmed_schedule"
+    },
+    {
+      "merchant_name": "NISSAN",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-cuevas-hermanos-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "836 COCINA INTERNACIONAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-836-cocina-internacional-bases-y-condiciones",
+      "reason": "ambiguous_dates"
+    },
+    {
+      "merchant_name": "USIL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-usil-bases-y-condiciones",
+      "reason": "unconfirmed_schedule"
+    },
+    {
+      "merchant_name": "UCOM",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-ucom-bases-y-condiciones",
+      "reason": "unconfirmed_schedule"
+    },
+    {
+      "merchant_name": "HOTEL FACTORIA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-hotel-factoria-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
       "merchant_name": "LAS LOMAS CASA HOTEL",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-las-lomas-casa-hotel-bases-y-condiciones",
       "reason": "merchant_not_in_terms"
@@ -493,26 +373,6 @@
       "reason": "merchant_not_in_terms"
     },
     {
-      "merchant_name": "HOTEL FACTORIA",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-hotel-factoria-bases-y-condiciones",
-      "reason": "merchant_not_in_terms"
-    },
-    {
-      "merchant_name": "REDD'S BURGER",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-redds-burger-bases-y-condiciones",
-      "reason": "merchant_not_in_terms"
-    },
-    {
-      "merchant_name": "ELEVEN RESTÓ & GRILL",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-eleven-resto-grill-bases-y-condiciones",
-      "reason": "merchant_not_in_terms"
-    },
-    {
-      "merchant_name": "+595 LOUNGE CLUB",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-595-lounge-club-bases-y-condiciones",
-      "reason": "missing_terms"
-    },
-    {
       "merchant_name": "DODGE",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dodge-bases-y-condiciones",
       "reason": "merchant_not_in_terms"
@@ -546,6 +406,21 @@
       "merchant_name": "PROSEGUR",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-prosegur-bases-y-condiciones",
       "reason": "unconfirmed_cards"
+    },
+    {
+      "merchant_name": "REDD'S BURGER",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-redds-burger-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "ELEVEN RESTÓ & GRILL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-eleven-resto-grill-bases-y-condiciones",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "+595 LOUNGE CLUB",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-595-lounge-club-bases-y-condiciones",
+      "reason": "missing_terms"
     },
     {
       "merchant_name": "FERMAQ",
