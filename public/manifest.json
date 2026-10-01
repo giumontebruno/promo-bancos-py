@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:29:37.539216+00:00",
+  "generated_at": "2026-10-01T13:33:15.543731+00:00",
   "promotion_count": 2160,
   "banks": [
     "Atlas",
@@ -98,15 +98,15 @@
     "Últimos días"
   ],
   "source_files": [
-    "outputs/gnb_beneficios_por_categoria.csv",
-    "outputs/familiar_beneficios_por_categoria.csv",
-    "outputs/sudameris_beneficios_por_categoria.csv",
-    "outputs/itau_beneficios_por_categoria.csv",
-    "outputs/bnf_beneficios_por_categoria.csv",
-    "outputs/continental_beneficios_por_categoria.csv",
-    "outputs/atlas_beneficios_por_categoria.csv",
-    "outputs/universitaria_beneficios_por_categoria.csv",
-    "outputs/ueno_beneficios_por_categoria.csv"
+    "outputs\\gnb_beneficios_por_categoria.csv",
+    "outputs\\familiar_beneficios_por_categoria.csv",
+    "outputs\\sudameris_beneficios_por_categoria.csv",
+    "outputs\\itau_beneficios_por_categoria.csv",
+    "outputs\\bnf_beneficios_por_categoria.csv",
+    "outputs\\continental_beneficios_por_categoria.csv",
+    "outputs\\atlas_beneficios_por_categoria.csv",
+    "outputs\\universitaria_beneficios_por_categoria.csv",
+    "outputs\\ueno_beneficios_por_categoria.csv"
   ],
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",

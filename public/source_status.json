@@ -1,10 +1,8 @@
 {
   "Sudameris": {
-    "status": "failed",
-    "checked_at": "2026-10-01T12:37:49.425772+00:00",
-    "records": 144,
-    "attempted_at": "2026-10-01T13:23:54.147714+00:00",
-    "error_type": "CalledProcessError"
+    "status": "fetched",
+    "checked_at": "2026-10-01T13:33:10.384347+00:00",
+    "records": 155
   },
   "Itaú": {
     "status": "fetched",

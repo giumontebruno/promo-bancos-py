@@ -6,12 +6,53 @@ from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 
 BASE = "https://www.sudameris.com.py"
 START = f"{BASE}/beneficios"
 OUT_DIR = Path("outputs")
 WORK_DIR = Path("work")
+
+
+class BrowserResponse:
+    def __init__(self, status_code, text):
+        self.status_code = status_code
+        self.text = text
+
+    def raise_for_status(self):
+        if not 200 <= self.status_code < 300:
+            raise RuntimeError(f"Sudameris HTTP {self.status_code}")
+
+
+class BrowserSession:
+    def __enter__(self):
+        self.playwright = sync_playwright().start()
+        self.browser = self.playwright.chromium.launch(channel="chrome", headless=False)
+        self.page = self.browser.new_page(viewport={"width": 1280, "height": 900})
+        return self
+
+    def __exit__(self, *_):
+        self.browser.close()
+        self.playwright.stop()
+
+    def get(self, url, timeout=30):
+        response = self.page.goto(url, wait_until="domcontentloaded", timeout=timeout * 1000)
+        return BrowserResponse(response.status if response else 599, self.page.content())
+
+
+def get(session, url):
+    last_error = None
+    for attempt in range(3):
+        try:
+            response = session.get(url, timeout=45)
+            response.raise_for_status()
+            return response
+        except (requests.RequestException, RuntimeError) as error:
+            last_error = error
+            if attempt < 2:
+                time.sleep(1.5 * (attempt + 1))
+    raise last_error
 
 
 def clean(text):
@@ -50,13 +91,8 @@ def extract_tope(text):
     return "; ".join(dict.fromkeys(clean(v) for v in hits if "Gs" in v))
 
 
-def main():
-    OUT_DIR.mkdir(exist_ok=True)
-    WORK_DIR.mkdir(exist_ok=True)
-
-    session = requests.Session()
-    session.headers.update({"User-Agent": "Mozilla/5.0"})
-    html = session.get(START, timeout=30).text
+def extract(session):
+    html = get(session, START).text
     (WORK_DIR / "sudameris_beneficios.html").write_text(html, encoding="utf-8")
     soup = BeautifulSoup(html, "html.parser")
 
@@ -67,11 +103,12 @@ def main():
         if url not in seen:
             seen.add(url)
             links.append({"title": clean(a.get_text(" ")), "url": url})
+    if not links:
+        raise ValueError("Sudameris returned no promotion links")
 
     rows = []
     for item in links:
-        resp = session.get(item["url"], timeout=30)
-        resp.raise_for_status()
+        resp = get(session, item["url"])
         detail_soup = BeautifulSoup(resp.text, "html.parser")
         description = detail_soup.select_one(".description-promo")
         raw_text = description.get_text("\n") if description else detail_soup.get_text("\n")
@@ -105,6 +142,20 @@ def main():
             }
         )
         time.sleep(0.15)
+    return rows
+
+
+def main():
+    OUT_DIR.mkdir(exist_ok=True)
+    WORK_DIR.mkdir(exist_ok=True)
+
+    session = requests.Session()
+    session.headers.update({"User-Agent": "Mozilla/5.0"})
+    try:
+        rows = extract(session)
+    except (requests.RequestException, RuntimeError, ValueError):
+        with BrowserSession() as browser_session:
+            rows = extract(browser_session)
 
     csv_path = OUT_DIR / "sudameris_promociones.csv"
     with csv_path.open("w", newline="", encoding="utf-8-sig") as f:
