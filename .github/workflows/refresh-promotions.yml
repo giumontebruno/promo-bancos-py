@@ -2,6 +2,13 @@ name: Refresh promotions database
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scrapers/**"
+      - "promo_backend/**"
+      - "requirements.txt"
+      - ".github/workflows/refresh-promotions.yml"
   schedule:
     # 04:00 America/Asuncion (UTC-3).
     - cron: "0 7 * * *"
@@ -21,27 +28,17 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Check schedule rule
-        id: schedule_rule
-        if: github.event_name == 'schedule'
-        shell: bash
-        run: |
-          echo "should_run=true" >> "$GITHUB_OUTPUT"
-
       - name: Set up Python
-        if: github.event_name == 'workflow_dispatch' || steps.schedule_rule.outputs.should_run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
-        if: github.event_name == 'workflow_dispatch' || steps.schedule_rule.outputs.should_run == 'true'
         run: pip install -r requirements.txt
 
       - name: Refresh data
         id: refresh
         continue-on-error: true
-        if: github.event_name == 'workflow_dispatch' || steps.schedule_rule.outputs.should_run == 'true'
         env:
           GOOGLE_MAPS_BACKEND_API_KEY: ${{ secrets.GOOGLE_MAPS_BACKEND_API_KEY }}
           GOOGLE_LOCATION_LIMIT: "60"
@@ -59,7 +56,6 @@ jobs:
             public/source_status.json
 
       - name: Commit updated data
-        if: github.event_name == 'workflow_dispatch' || steps.schedule_rule.outputs.should_run == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Refresh promotions database"
