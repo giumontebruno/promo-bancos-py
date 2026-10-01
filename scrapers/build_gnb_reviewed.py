@@ -87,6 +87,7 @@ def build_page_campaigns(data):
 
 
 def main():
+    live_source = json.loads((ROOT / 'data/gnb_live_cards.json').read_text(encoding='utf-8'))
     data = json.loads((ROOT / 'data/gnb_reviewed_offers.json').read_text(encoding='utf-8'))
     rows = build(data)
     restaurants = json.loads((ROOT / 'data/gnb_restaurants_reviewed.json').read_text(encoding='utf-8'))
@@ -116,8 +117,8 @@ def main():
         writer.writeheader()
         writer.writerows(rows)
     (ROOT / 'outputs/gnb_source_meta.json').write_text(json.dumps({
-        'checked_at': '2026-09-22',
-        'coverage': '238 official cards crossed with 217 linked PDFs',
+        'checked_at': live_source['checkedAt'],
+        'coverage': f"{live_source['total']} official cards extracted from GNB's public API; every card retains its official detail and terms links",
         'records': len(rows),
         'excluded_cards': {
             '20': 'Interest-bearing purchases abroad, not an interest-free benefit',

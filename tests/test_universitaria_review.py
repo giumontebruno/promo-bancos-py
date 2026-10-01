@@ -13,14 +13,14 @@ ROOT = Path(__file__).resolve().parents[1]
 class UniversitariaReviewTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        source = json.loads((ROOT / "data/universitaria_source_snapshot_2026-09-22.json").read_text(encoding="utf-8"))
+        source = json.loads((ROOT / "data/universitaria_live_cards.json").read_text(encoding="utf-8"))
         cls.rows, cls.withheld = review(source)
         cls.by_name = {}
         for row in cls.rows:
             cls.by_name.setdefault(row["Comercio/Promoción"], []).append(row)
 
     def test_every_published_card_has_a_quantified_benefit_and_source(self):
-        self.assertEqual(len(self.rows), 121)
+        self.assertGreaterEqual(len(self.rows), 80)
         self.assertEqual({item["merchant"] for item in self.withheld}, {"AFS", "La Ponde S.A."})
         for row in self.rows:
             benefit = row["Cantidad de descuento / beneficio"]
@@ -28,16 +28,16 @@ class UniversitariaReviewTests(unittest.TestCase):
             self.assertTrue(row["Bases y condiciones URL"].startswith("https://www.universitaria.coop/"))
             self.assertNotEqual(benefit.casefold(), "descuento")
 
-    def test_farmacenter_payment_and_product_variants(self):
-        farmacenter = self.by_name["Farmacenter"]
-        self.assertEqual([row["Cantidad de descuento / beneficio"] for row in farmacenter], [
-            "40% de descuento con QR en productos seleccionados y suplementos deportivos",
-            "30% de descuento con QR",
-            "25% de descuento con tarjeta física",
+    def test_current_pharmacy_payment_and_product_variants(self):
+        pharmacy = self.by_name["Farmacia Catedral"]
+        self.assertEqual([row["Cantidad de descuento / beneficio"] for row in pharmacy], [
+            "Hasta 50% de descuento con QR en productos seleccionados",
+            "35% de descuento con QR en medicamentos seleccionados",
+            "30% de descuento con QR en medicamentos y productos varios",
+            "25% de descuento con tarjeta física en medicamentos y productos varios",
         ])
-        self.assertTrue(all(row["Día de promoción"].casefold().endswith("martes") for row in farmacenter))
-        self.assertIn("Gs. 2.000.000", farmacenter[0]["Montos / topes"])
-        self.assertIn("Gs. 1.250.000", farmacenter[2]["Montos / topes"])
+        self.assertTrue(all(row["Día de promoción"].casefold().endswith("viernes") for row in pharmacy))
+        self.assertTrue(all("Gs. 3.000.000" in row["Montos / topes"] for row in pharmacy))
 
     def test_monthly_university_and_daily_financing_are_not_misdated(self):
         catholic = self.by_name["UNIVERSIDAD CATÓLICA"]

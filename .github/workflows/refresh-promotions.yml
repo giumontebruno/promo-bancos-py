@@ -46,7 +46,7 @@ jobs:
           GOOGLE_MAPS_BACKEND_API_KEY: ${{ secrets.GOOGLE_MAPS_BACKEND_API_KEY }}
           GOOGLE_LOCATION_LIMIT: "60"
           GEOCODE_LIMIT: "0"
-        run: python promo_backend/run_all.py
+        run: xvfb-run -a python promo_backend/run_all.py
 
       - name: Save source and location audit
         if: always()

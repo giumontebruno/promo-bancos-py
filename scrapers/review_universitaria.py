@@ -129,7 +129,7 @@ SPECIAL = {
 
 REVIEWED_PDF = {
     "Farmacenter": "bases-y-condiciones1783348467.pdf",
-    "Farmacia Catedral": "bases-y-condiciones1784292469.pdf",
+    "Farmacia Catedral": "bases-y-condiciones1790702549.pdf",
     "Farmaoliva": "bases-y-condiciones1783347827.pdf",
     "Punto Farma": "bases-y-condiciones1783699874.pdf",
     "UNIVERSIDAD CATÓLICA": "bases-y-condiciones1784911866.pdf",
@@ -196,9 +196,12 @@ def reviewed_rows(row):
         for index, (rate, kind, scope) in enumerate(SPECIAL[name]):
             if name not in REVIEWED_PDF and not re.search(rf"\b{rate}\s*%", row["Detalle"]):
                 return [], f"No se encontró el {rate}% revisado en el PDF"
-            purchase = 10000000 if name == "Punto Farma" else 5000000 if name in {
-                "Farmacenter", "Farmacia Catedral", "Farmaoliva"
-            } else None
+            purchase = (
+                10000000 if name == "Punto Farma"
+                else 3000000 if name == "Farmacia Catedral"
+                else 5000000 if name in {"Farmacenter", "Farmaoliva"}
+                else None
+            )
             result.append(variant(row, f"{'Hasta ' if rate in {45, 50} else ''}{rate}% de {kind} con {scope}" if scope.startswith(("QR", "tarjeta")) else f"{rate}% de {kind} en {scope}",
                                   index, scope=scope, purchase_cap=purchase,
                                   refund_cap=purchase * rate // 100 if purchase and name in {"Farmacenter", "Farmaoliva"} else None))

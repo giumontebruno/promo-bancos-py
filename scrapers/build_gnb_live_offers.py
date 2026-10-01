@@ -7,8 +7,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CARDS = ROOT / "data/gnb_live_cards_2026-09-22.json"
-REVIEW = ROOT / "outputs/gnb_card_pdf_review_2026-09-22.csv"
+CARDS = ROOT / "data/gnb_live_cards.json"
+REVIEW = ROOT / "outputs/gnb_live_card_review.csv"
 BASE_URL = "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/"
 
 EXISTING = {148, 408, 598, 313, 73, 260, 543, 607}
@@ -93,6 +93,19 @@ def day_text(summary, conditions, benefit, installments):
             found = [day for day in WEEKDAYS if day in line.casefold()]
             if found:
                 return ", ".join(found)
+    # GNB often states a shared schedule once in the card summary and then
+    # lists each card/payment variant without repeating the day.
+    summary_month_days = re.search(r"\b(?:del?\s+)?\d{1,2}\s+al\s+\d{1,2}\s+de\s+cada\s+mes", summary, re.I)
+    if summary_month_days:
+        return compact(summary_month_days.group(0))
+    if re.search(r"\btodos\s+los\s+d[ií]as\b", summary, re.I):
+        return "Todos los días"
+    summary_range = re.search(rf"\b(?:de\s+)?({DAY_PATTERN})\s+a\s+({DAY_PATTERN})\b", summary, re.I)
+    if summary_range:
+        return compact(summary_range.group(0))
+    summary_days = [day for day in WEEKDAYS if re.search(rf"\b{day}s?\b", summary, re.I)]
+    if summary_days:
+        return ", ".join(summary_days)
     if installments and "todos los días" in benefit.casefold():
         return "Todos los días"
     return "No especificado"
@@ -173,12 +186,17 @@ def build_rows():
                 if pct > 100:
                     continue
                 word = "reintegro" if "reintegro" in rate.group(0).casefold() else "descuento"
-                qr_bonus = re.search(r"\+\s*5\s*%.*?\bQR\b", bullet, re.I)
-                other_rates = [int(value) for value in re.findall(r"\b(\d{1,3})\s*%", bullet) if int(value) not in {pct, 5}]
-                if qr_bonus and other_rates and max(other_rates) < pct:
+                qr_bonus = re.search(r"\+\s*(\d{1,2})\s*%.*?\bQR\b", bullet, re.I)
+                if qr_bonus:
                     kind, label = card_label(bullet)
-                    offers.append((f"{pct}% de {word} con QR", bullet, False, kind, label, index * 10))
-                    physical = max(other_rates)
+                    bonus = int(qr_bonus.group(1))
+                    other_rates = [
+                        int(value) for value in re.findall(r"\b(\d{1,3})\s*%", bullet)
+                        if int(value) not in {pct, bonus}
+                    ]
+                    physical = max(other_rates) if other_rates and max(other_rates) < pct else pct
+                    total = max(pct, physical + bonus)
+                    offers.append((f"{total}% de {word} con QR", bullet, False, kind, label, index * 10))
                     offers.append((f"{physical}% de {word} con tarjeta física", bullet, False, kind, label, index * 10 + 1))
                     continue
                 qualifier = " con QR" if "qr" in bullet.casefold() and "tarjeta física" not in bullet.casefold() else ""
@@ -195,9 +213,9 @@ def build_rows():
                     offers.append((f"{rate.group(1)}% de {word}", summary, False, "base", "Tarjetas elegibles", 0))
         if card_id == 266:
             offers = [
-                ("50% reintegro en 1 embalaje al mes", bullets[0], False, "premium", "Black", 0),
-                ("50% reintegro en 2 embalajes al mes", bullets[1], False, "premium", "Black Premier", 1),
-                ("2 embalajes sin costo al mes", bullets[2], False, "premium", "Metalcard Premier", 2),
+                ("50% de reintegro en 1 embalaje al mes", bullets[0], False, "premium", "Black", 0),
+                ("50% de reintegro en 2 embalajes al mes", bullets[1], False, "premium", "Black Premier", 1),
+                ("100% de descuento en hasta 2 embalajes al mes (sin costo)", bullets[2], False, "premium", "Metalcard Premier", 2),
             ]
         if card_id == 297:
             offers = [
@@ -213,6 +231,15 @@ def build_rows():
 
         for variant_number, (benefit, bullet, installments, kind, label, index) in enumerate(offers):
             day = day_text(summary, conditions, bullet, installments)
+            if day == "No especificado":
+                source_schedule = compact(" ".join(card.get("lines", [])))
+                has_explicit_schedule = bool(re.search(
+                    rf"\b(?:{DAY_PATTERN}|todos\s+los\s+d[ií]as|\d{{1,2}}\s+al\s+\d{{1,2}}\s+de\s+cada\s+mes)\b",
+                    source_schedule,
+                    re.I,
+                ))
+                if card.get("category") == "Cuotas sin intereses" or not has_explicit_schedule:
+                    day = "Todos los días"
             if card_id == 662:
                 day = "Todos los días"
             if card_id == 638 and not installments:

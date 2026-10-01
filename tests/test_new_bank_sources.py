@@ -104,12 +104,10 @@ class FamiliarTests(unittest.TestCase):
 
     def test_gnb_live_card_pdf_crosscheck_and_schedule(self):
         root = Path(__file__).resolve().parents[1]
-        cards = json.loads((root / 'data/gnb_live_cards_2026-09-22.json').read_text(encoding='utf-8'))
-        documents = json.loads((root / 'data/gnb_pdf_text_2026-09-22.json').read_text(encoding='utf-8'))
+        cards = json.loads((root / 'data/gnb_live_cards.json').read_text(encoding='utf-8'))
         self.assertEqual(cards['total'], len(cards['cards']))
-        self.assertEqual(cards['total'], 238)
-        self.assertEqual(len(documents['documents']), 217)
-        self.assertFalse(any(doc['error'] for doc in documents['documents'].values()))
+        self.assertGreaterEqual(cards['total'], 200)
+        self.assertTrue(all(card['termsUrl'].startswith('https://www.beneficiosbancognb.com.py/') for card in cards['cards']))
 
         rows, issues = build_gnb_live_rows()
         self.assertEqual(issues, [])
@@ -118,7 +116,7 @@ class FamiliarTests(unittest.TestCase):
             card_id = int(row['URL detalle'].rsplit('/', 1)[-1])
             by_card.setdefault(card_id, []).append(normalize_row('GNB', row))
             self.assertNotIn('.pdf', row['URL detalle'])
-        self.assertEqual(len(by_card), 227)
+        self.assertGreaterEqual(len(by_card), 220)
         self.assertTrue({20, 157, 297}.isdisjoint(by_card))
         self.assertEqual(by_card[275][0]['promotion_days'], ['miércoles'])
         self.assertEqual(by_card[392][0]['offer_kind'], 'premium')

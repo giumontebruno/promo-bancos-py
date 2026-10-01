@@ -1,5 +1,5 @@
 {
-  "completed_at": "2026-10-01T12:55:03.671922+00:00",
+  "completed_at": "2026-10-01T13:14:07.035740+00:00",
   "failed_sources": [],
   "sources": {
     "Sudameris": {
@@ -28,11 +28,9 @@
       "records": 28
     },
     "Coop. Universitaria": {
-      "status": "failed",
-      "checked_at": "2026-09-17T12:34:35.639315+00:00",
-      "records": 77,
-      "attempted_at": "2026-10-01T12:38:26.133314+00:00",
-      "error_type": "CalledProcessError"
+      "status": "fetched",
+      "checked_at": "2026-10-01T13:14:01.989818+00:00",
+      "records": 89
     },
     "ueno bank": {
       "status": "fetched",
@@ -45,9 +43,9 @@
       "records": 234
     },
     "GNB": {
-      "status": "failed",
-      "attempted_at": "2026-10-01T12:34:28.148064+00:00",
-      "error_type": "CalledProcessError"
+      "status": "fetched",
+      "checked_at": "2026-10-01T13:11:49.213966+00:00",
+      "records": 454
     }
   }
 }

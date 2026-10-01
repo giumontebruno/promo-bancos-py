@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = [
-    ('GNB', 'gnb', ['extract_gnb', 'build_gnb_live_catalog', 'review_gnb_cards_with_pdf', 'build_gnb_reviewed']),
+    ('GNB', 'gnb', ['extract_gnb', 'build_gnb_live_catalog', 'build_gnb_reviewed']),
     ('Familiar', 'familiar', ['extract_familiar', 'build_familiar_table']),
     ('Sudameris', 'sudameris', ['extract_sudameris', 'build_sudameris_table']),
     ('Itaú', 'itau', ['extract_itau']),

@@ -13,9 +13,9 @@ from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "data/gnb_live_cards_2026-09-22.json"
-OUTPUT = ROOT / "outputs/gnb_catalogo_oficial_2026-09-22.csv"
-REPORT = ROOT / "outputs/gnb_catalogo_revision_2026-09-22.json"
+SOURCE = ROOT / "data/gnb_live_cards.json"
+OUTPUT = ROOT / "outputs/gnb_catalogo_oficial.csv"
+REPORT = ROOT / "outputs/gnb_catalogo_revision.json"
 BASE_URL = "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/"
 
 

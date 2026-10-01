@@ -1,12 +1,14 @@
 import csv
+import base64
 import html
+import json
 import re
 from pathlib import Path
 from urllib.parse import urljoin
 
 import pdfplumber
-import requests
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 
 BASE = "https://www.universitaria.coop"
@@ -14,6 +16,49 @@ START = f"{BASE}/promociones"
 OUT_CSV = Path("outputs/universitaria_beneficios_por_categoria.csv")
 OUT_MD = Path("outputs/universitaria_beneficios_por_categoria.md")
 WORK_DIR = Path("work/universitaria")
+LIVE_SNAPSHOT = Path("data/universitaria_live_cards.json")
+
+
+class BrowserResponse:
+    def __init__(self, status_code, content):
+        self.status_code = status_code
+        self.content = content
+        self.text = content.decode("utf-8", errors="replace")
+
+    def raise_for_status(self):
+        if not 200 <= self.status_code < 300:
+            raise RuntimeError(f"Universitaria HTTP {self.status_code}")
+
+
+class BrowserSession:
+    """Use the same real-browser path that visitors use through Cloudflare."""
+
+    def __enter__(self):
+        self.playwright = sync_playwright().start()
+        self.browser = self.playwright.chromium.launch(channel="chrome", headless=False)
+        self.page = self.browser.new_page(viewport={"width": 1280, "height": 900})
+        self.page.goto(START, wait_until="domcontentloaded", timeout=120_000)
+        self.page.wait_for_timeout(800)
+        return self
+
+    def __exit__(self, *_):
+        self.browser.close()
+        self.playwright.stop()
+
+    def get(self, url, timeout=30):
+        result = self.page.evaluate(
+            """async url => {
+              const response = await fetch(url);
+              const bytes = new Uint8Array(await response.arrayBuffer());
+              let binary = '';
+              for (let offset = 0; offset < bytes.length; offset += 0x8000) {
+                binary += String.fromCharCode(...bytes.subarray(offset, offset + 0x8000));
+              }
+              return {status: response.status, body: btoa(binary)};
+            }""",
+            url,
+        )
+        return BrowserResponse(result["status"], base64.b64decode(result["body"]))
 
 
 def clean(text):
@@ -149,21 +194,23 @@ def parse_category(session, category, url):
 def main():
     WORK_DIR.mkdir(parents=True, exist_ok=True)
     OUT_CSV.parent.mkdir(exist_ok=True)
-    session = requests.Session()
-    session.headers.update({"User-Agent": "Mozilla/5.0"})
+    with BrowserSession() as session:
+        start_page = fetch(session, START).text
+        (WORK_DIR / "promociones.html").write_text(start_page, encoding="utf-8")
+        links = category_links(BeautifulSoup(start_page, "html.parser"))
 
-    start_page = fetch(session, START).text
-    (WORK_DIR / "promociones.html").write_text(start_page, encoding="utf-8")
-    links = category_links(BeautifulSoup(start_page, "html.parser"))
+        rows = []
+        seen = set()
+        for category, url in links:
+            for row in parse_category(session, category, url):
+                key = (row["Categoría"], row["Comercio/Promoción"], row["Cantidad de descuento / beneficio"], row["Bases y condiciones URL"])
+                if key not in seen:
+                    seen.add(key)
+                    rows.append(row)
 
-    rows = []
-    seen = set()
-    for category, url in links:
-        for row in parse_category(session, category, url):
-            key = (row["Categoría"], row["Comercio/Promoción"], row["Cantidad de descuento / beneficio"], row["Bases y condiciones URL"])
-            if key not in seen:
-                seen.add(key)
-                rows.append(row)
+    if not rows:
+        raise ValueError("Universitaria returned no promotion cards")
+    LIVE_SNAPSHOT.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
 
     rows.sort(key=lambda r: (r["Categoría"], r["Comercio/Promoción"]))
     with OUT_CSV.open("w", encoding="utf-8-sig", newline="") as f:

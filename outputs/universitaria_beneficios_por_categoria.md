@@ -2,7 +2,7 @@
 
 Fuente: https://www.universitaria.coop/promociones
 
-Total de beneficios verificados: 121
+Total de beneficios verificados: 89
 
 ## Electrodomésticos
 
@@ -25,8 +25,8 @@ Total de beneficios verificados: 121
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
-| Estaciones ENERGY | 20% de reintegro con QR | todos los días | Vigencia Desde el 15 de julio hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784217351.pdf) |
-| Estaciones ENERGY | 10% de reintegro con tarjeta física | todos los días | Vigencia Desde el 15 de julio hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784217351.pdf) |
+| Estaciones ENERGY | 20% de reintegro con QR | todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790788096.pdf) |
+| Estaciones ENERGY | 10% de reintegro con tarjeta física | todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790788096.pdf) |
 
 ## Estética
 
@@ -39,37 +39,22 @@ Total de beneficios verificados: 121
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
-| FARMACIA ENERGY | Hasta 30% de descuento con QR | Todos los miércoles | Vigencia Desde el 01 de julio de 2026 hasta el 30 de septiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783355974.pdf) |
-| FARMACIA ENERGY | 15% de descuento con tarjeta física | Todos los miércoles | Vigencia Desde el 01 de julio de 2026 hasta el 30 de septiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783355974.pdf) |
-| Farmacenter | 40% de descuento con QR en productos seleccionados y suplementos deportivos | Todos los Martes | Vigencia Desde el 07 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783348467.pdf) |
-| Farmacenter | 30% de descuento con QR | Todos los Martes | Vigencia Desde el 07 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783348467.pdf) |
-| Farmacenter | 25% de descuento con tarjeta física | Todos los Martes | Vigencia Desde el 07 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783348467.pdf) |
-| Farmacia Catedral | Hasta 50% de descuento con QR en productos seleccionados | Todos los viernes | Vigencia Desde el 03 de julio de 2026 hasta el 25 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784292469.pdf) |
-| Farmacia Catedral | 35% de descuento con QR en medicamentos seleccionados | Todos los viernes | Vigencia Desde el 03 de julio de 2026 hasta el 25 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784292469.pdf) |
-| Farmacia Catedral | 30% de descuento con QR en medicamentos y productos varios | Todos los viernes | Vigencia Desde el 03 de julio de 2026 hasta el 25 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784292469.pdf) |
-| Farmacia Catedral | 25% de descuento con tarjeta física en medicamentos y productos varios | Todos los viernes | Vigencia Desde el 03 de julio de 2026 hasta el 25 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784292469.pdf) |
+| Farmacia Catedral | Hasta 50% de descuento con QR en productos seleccionados | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790702549.pdf) |
+| Farmacia Catedral | 35% de descuento con QR en medicamentos seleccionados | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790702549.pdf) |
+| Farmacia Catedral | 30% de descuento con QR en medicamentos y productos varios | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790702549.pdf) |
+| Farmacia Catedral | 25% de descuento con tarjeta física en medicamentos y productos varios | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790702549.pdf) |
 | Farmacumbre \| Caacupé | 15% de descuento | Todos los Domingos | Vigencia Desde el 09 de junio de 2026 hasta el 09 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783599737.pdf) |
-| Farmaoliva | 40% de descuento con QR en productos seleccionados | Todos los Miércoles | Vigencia Desde el 08 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783347827.pdf) |
-| Farmaoliva | 30% de descuento con QR en medicamentos nacionales | Todos los Miércoles | Vigencia Desde el 08 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783347827.pdf) |
-| Farmaoliva | 25% de descuento con QR en medicamentos importados | Todos los Miércoles | Vigencia Desde el 08 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783347827.pdf) |
-| Farmaoliva | 25% de descuento con tarjeta física en medicamentos y productos varios | Todos los Miércoles | Vigencia Desde el 08 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783347827.pdf) |
-| Farmatotal | Hasta 30% de descuento con QR | Todos los Jueves | Vigencia Desde el 01 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783685293.pdf) |
-| Farmatotal | 15% de descuento con tarjeta física | Todos los Jueves | Vigencia Desde el 01 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783685293.pdf) |
-| Punto Farma | Hasta 45% de descuento con QR en productos no farmacéuticos seleccionados | todos los LUNES | Vigencia Desde el 13 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783699874.pdf) |
-| Punto Farma | 35% de descuento con QR en medicamentos nacionales | todos los LUNES | Vigencia Desde el 13 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783699874.pdf) |
-| Punto Farma | 30% de descuento con QR en medicamentos importados | todos los LUNES | Vigencia Desde el 13 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783699874.pdf) |
-| Punto Farma | 30% de descuento con tarjeta física en productos de farmacia y otros | todos los LUNES | Vigencia Desde el 13 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783699874.pdf) |
 
 ## Fast Food
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
-| BURGER KING | 30% de reintegro con QR | Todos los días | Vigencia Desde el 15 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-burger-king1784048891.pdf) |
-| BURGER KING | 10% de reintegro con tarjeta física | Todos los días | Vigencia Desde el 15 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-burger-king1784048891.pdf) |
-| POPEYES | 30% de reintegro con QR | Todos los días | Vigencia Desde el 15 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-popeyes1784049194.pdf) |
-| POPEYES | 10% de reintegro con tarjeta física | Todos los días | Vigencia Desde el 15 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-popeyes1784049194.pdf) |
-| SUBWAY | 30% de reintegro con QR | Todos los días | Vigencia Desde el 15 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-subway1784049051.pdf) |
-| SUBWAY | 10% de reintegro con tarjeta física | Todos los días | Vigencia Desde el 15 de julio de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-subway1784049051.pdf) |
+| BURGER KING | 30% de reintegro con QR | Todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-burger-king1790789255.pdf) |
+| BURGER KING | 10% de reintegro con tarjeta física | Todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-burger-king1790789255.pdf) |
+| POPEYES | 30% de reintegro con QR | todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-popeyes1790788824.pdf) |
+| POPEYES | 10% de reintegro con tarjeta física | todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-popeyes1790788824.pdf) |
+| SUBWAY | 30% de reintegro con QR | todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-subway1790788594.pdf) |
+| SUBWAY | 10% de reintegro con tarjeta física | todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones-subway1790788594.pdf) |
 
 ## Hoteles
 
@@ -84,7 +69,6 @@ Total de beneficios verificados: 121
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
 | LA MATILDE | 5% de descuento | Todos los Días | Vigencia Desde el 13 de julio de 2026 hasta el 31 de julio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784914714.pdf) |
-| Las Lomas Country | 10% de descuento | Todos los días | Vigencia Desde el 08 de setiembre de 2025 hasta el 08 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1757961129.pdf) |
 
 ## Instituciones Educativas
 
@@ -164,24 +148,9 @@ Total de beneficios verificados: 121
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
-| Archi - La Tienda Archi | 20% de reintegro con QR | Todos los Viernes | Vigencia Desde el 03 de abril de 2026 hasta el 30 de septiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783105002.pdf) |
-| Archi - La Tienda Archi | 10% de reintegro con tarjeta física | Todos los Viernes | Vigencia Desde el 03 de abril de 2026 hasta el 30 de septiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783105002.pdf) |
-| Areté Supermercados | 25% de reintegro con QR | Todos los Sábados | Vigencia Desde el 18 de julio de 2026 hasta el 26 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784034280.pdf) |
-| Areté Supermercados | 20% de reintegro con tarjeta física | Todos los Sábados | Vigencia Desde el 18 de julio de 2026 hasta el 26 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784034280.pdf) |
-| Casa Paraná | 20% de reintegro con QR | Todos los Miércoles | Vigencia Desde el 01 de julio de 2026 hasta el 30 de septiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783100011.pdf) |
-| Casa Paraná | 15% de reintegro con tarjeta física | Todos los Miércoles | Vigencia Desde el 01 de julio de 2026 hasta el 30 de septiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783100011.pdf) |
-| EL AHORRAZO | 20% de reintegro con QR | Todos los Domingos | Vigencia Desde el 05 de abril de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783095165.pdf) |
-| EL AHORRAZO | 15% de reintegro con tarjeta física | Todos los Domingos | Vigencia Desde el 05 de abril de 2026 hasta el 30 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783095165.pdf) |
-| Hipermercado Luisito | 20% de reintegro con QR | Todos los lunes | Vigencia Desde el 06 de julio de 2026 hasta el 28 de septiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784737973.pdf) |
-| Hipermercado Luisito | 10% de reintegro con tarjeta física | Todos los lunes | Vigencia Desde el 06 de julio de 2026 hasta el 28 de septiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784737973.pdf) |
-| REAL | 20% de reintegro con QR | Todos los Lunes | Vigencia Desde el 06 de julio de 2026 hasta el 28 de septiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783098561.pdf) |
-| REAL | 10% de reintegro con tarjeta física | Todos los Lunes | Vigencia Desde el 06 de julio de 2026 hasta el 28 de septiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783098561.pdf) |
-| S6 \| STOCK \| DELI MARKET | 25% de reintegro con QR | Todos los Viernes | Vigencia Desde el 17 de julio de 2026 hasta el 25 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784029867.pdf) |
-| S6 \| STOCK \| DELI MARKET | 20% de reintegro con tarjeta física | Todos los Viernes | Vigencia Desde el 17 de julio de 2026 hasta el 25 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784029867.pdf) |
 | SUPERMERCADO GÉMINIS | 20% de reintegro con QR | Todos los martes | Vigencia Desde el 01 de septiembre 2026 hasta el 27 de octubre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1788884198.pdf) |
 | SUPERMERCADO GÉMINIS | 10% de reintegro con tarjeta física | Todos los martes | Vigencia Desde el 01 de septiembre 2026 hasta el 27 de octubre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1788884198.pdf) |
-| Supermercado Metro | 20% de reintegro con QR | Todos los Martes | Vigencia Desde el 07 de julio de 2026 hasta el 29 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783099369.pdf) |
-| Supermercado Metro | 10% de reintegro con tarjeta física | Todos los Martes | Vigencia Desde el 07 de julio de 2026 hasta el 29 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783099369.pdf) |
+| SUPERSEIS / STOCK / DELIMARKET | MASTERCARD QR 20%; PAGO CON TC FISICA con las 3 marcas 10% | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 25 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf) |
 
 ## Tiendas
 
@@ -213,4 +182,3 @@ Total de beneficios verificados: 121
 | ÓPTICA VISIÓN | 15% de descuento en monturas solares | Todos los Días | Vigencia Desde el 14 de abril de 2026 hasta el 14 de abril de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1786456992.pdf) |
 | ÓPTICA jNESSI | 15% de descuento en armazones y lentes de sol | todos los días | Vigencia Desde el 20 de noviembre de 2025 hasta el 20 de noviembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1786454633.pdf) |
 | ÓPTICA jNESSI | 5% de descuento en cristales | todos los días | Vigencia Desde el 20 de noviembre de 2025 hasta el 20 de noviembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1786454633.pdf) |
-| Óptica Luce | 30% de descuento en artículos ópticos | Todos los Días | Vigencia Desde el 23 de marzo de 2026 hasta el 23 de septiembre de 2026 Condiciones PROMOCIÓN FRECUENCIA LÍMITE DE COMPRA TOPE DE DESCUENTO Descuento del 30% Todos los días N/A N/A en todo | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1776972720.pdf) |
