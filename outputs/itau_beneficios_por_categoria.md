@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 72
+Total de beneficios: 76
 
 ## Belleza y Salud
 
@@ -16,17 +16,17 @@ Total de beneficios: 72
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
 | Sanatorios y Clinicas | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2021-03-15 hasta 2026-12-31 |
 
+## CompuMarket
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Compumarket | 18 Cuotas sin intereses; Hasta 18 cuotas sin intereses. | No especificado | 2024-01-15 hasta 2026-10-08 |
+
 ## Entretenimiento
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Cines Itaú | 2x1; 2 x 1 | No especificado | 2021-07-23 hasta 2026-12-31 |
-
-## Fuschia
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Fuschia | 10 Cuotas sin intereses 25 % Hasta; Tenés 20% de ahorro +5% pagando via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2024-11-07 hasta 2026-10-04 |
 
 ## Gastronomía
 
@@ -57,6 +57,7 @@ Total de beneficios: 72
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Bazzar | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-12-27 hasta 2026-10-17 |
 | Todo Costura | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-12 hasta 2026-12-31 |
 
 ## Niños
@@ -121,6 +122,7 @@ Total de beneficios: 72
 | Indio Termos | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | JOSEPH COIFFURE | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Lomas Padel | 20 %; Tenes 20% de ahorro con APPLE PAY o GOOGLE PAY (billeteras). | No especificado | 2024-04-15 hasta 2026-12-27 |
+| Mi portal Coca Cola | 25 %; 25% de ahorro. | Aplica los domingos | 2025-10-19 hasta 2026-11-29 |
 | Municipalidad de Asunción | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
 | Municipalidad de Caaguazu | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
 | Municipalidad de Encarnacion | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
@@ -155,4 +157,6 @@ Total de beneficios: 72
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Biggie | 15 %; 15% de ahorro. | No especificado | 2025-01-31 hasta 2026-10-02 |
+| Florencia | 20 % 10 Cuotas sin intereses; Tenes 20% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-02 hasta 2026-10-04 |
+| Fuschia | 10 Cuotas sin intereses 25 % Hasta; Tenés 20% de ahorro +5% pagando via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2024-11-07 hasta 2026-10-04 |
 

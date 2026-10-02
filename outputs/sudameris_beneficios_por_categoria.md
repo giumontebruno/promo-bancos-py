@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 155
+Total de promociones: 154
 
 ## Combustible
 
@@ -33,7 +33,6 @@ Total de promociones: 155
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES | ¡Disfrutá de Distrito Perseverancia todo el año! Aprovechá hasta 12 cuotas sin interés en locales adheridos. Vigencia: Del 03/08 al 31/12/2026. | No especificado | Del 03/08 al 31/12/2026. |
-| McLaren Mastercard Formula 1®Team | Sudameris te acerca la emoción del simulador oficial del McLaren Mastercard Formula 1® Team por primera vez en Paraguay. 📍 Distrito Perseverancia 🗓️ Del 21 de septiembre hasta el 1 | No especificado | No especificado |
 | PROMOCIÓN MCLAREN MASTERCARD F1 TEAM | Gs. 500.000 | No especificado | de la promoción y acumulá cupones digitales automáticamente para los sorteos, según las |
 
 ## Farmacias
@@ -49,18 +48,18 @@ Total de promociones: 155
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | BIGGIE EXPRESS - PRIMERO DE CADA MES | 30% | 01 de cada mes | • 01 de cada mes. • Desde el 01 de julio hasta el 31 de diciembre 2026. |
-| CAFÉ JARDIN | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A DOMINGO | Desde 2026-08-06 hasta 2026-09-27 |
-| CAFÉ QUINTO | 25% DE REINTEGRO | MARTES | Desde 2026-08-04 hasta 2026-09-30 |
-| CHAVAL | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A SÁBADO | Desde 2026-08-06 hasta 2026-09-30 |
+| CAFÉ JARDIN | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A DOMINGO | Desde 2026-08-06 hasta 2026-12-31 |
+| CAFÉ QUINTO | 25% DE REINTEGRO | MARTES | Desde 2026-08-04 hasta 2026-12-29 |
+| CHAVAL | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A SÁBADO | Desde 2026-08-06 hasta 2026-12-31 |
 | CLUB CENTRO SOCIAL ENCARNACIÓN | 10%; 20%; Hasta 12 Cuotas sin interés | No especificado | • Hasta el 15 de enero 2027. |
 | CLUB CONCEPCIÓN | 10%; 20%; Hasta 12 cuotas sin interés | Todos los días | • Todos los días desde el 9 de setiembre al 31 de agosto del 2028 • Todos los días desde el 31 de octubre al 31 de agosto del 2028 del débito automático del club |
 | CLUB DEPORTIVO PUERTO SAJONIA (CDPS). | 10%; 20%; Hasta 36 cuotas sin interés; Tope de compra mensual Gs. 350.000; Tope de compra mensual Gs. 150.000; Tope mensual de compra Gs. 500.000; Gs. 350.000; Gs. 150.000; Gs. 500.000 | Todos los días | • Todos los días. • Desde el 01 de octubre 2026 hasta el 31 de julio de 2028. |
 | CLUB NAUTICO SAN BERNARDINO | 10%; 20%; 12 cuotas sin intereses; Tope de pago mensual: Gs. 500.000; Tope de compra mensual: Gs. 3.000.000; Tope de compra mensual: Gs. 500.000; Gs. 500.000; Gs. 3.000.000 | No especificado | • Hasta el 31 de octubre del 2026 |
 | CLUB SOCIAL ÁREA 1 (CDE) | 10%; 20%; hasta 12 cuotas sin intereses; Tope de compra mensual: Gs. 440.000; Tope de compra mensual: Gs. 50.000; Tope de compra mensual: Gs. 300.000; Gs. 440.000; Gs. 50.000; Gs. 300.000 | Todos los días; todos los días | • Todos los días. • Hasta el 30 de junio de 2028. |
 | CONCEPTS LA CUADRITA | 20%; 25%; Hasta 10 cuotas sin intereses | Miércoles a viernes | • Miércoles a viernes. • Desde el 04 de marzo hasta el 09 de octubre 2026. |
-| DE LA PEQUE | 20% DE REINTEGRO | JUEVES A SÁBADO | Desde 2026-08-06 hasta 2026-09-26 |
-| GROSSO | 20% DE REINTEGRO | MARTES A JUEVES | Desde 2026-08-04 hasta 2026-10-01 |
-| JARDÍN URBANO | 20% DE REINTEGRO | JUEVES A DOMINGO | Desde 2026-08-06 hasta 2026-09-27 |
+| DE LA PEQUE | 20% DE REINTEGRO | JUEVES A SÁBADO | Desde 2026-08-06 hasta 2026-12-26 |
+| GROSSO | 20% DE REINTEGRO | MARTES A JUEVES | Desde 2026-08-04 hasta 2026-12-31 |
+| JARDÍN URBANO | 20% DE REINTEGRO | JUEVES A DOMINGO | Desde 2026-08-06 hasta 2026-12-31 |
 | KAISEKI | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | LUNES A VIERNES | Desde 2025-08-03 hasta 2026-12-31 |
 | LA CANDELARIA | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | LUNES A VIERNES | Desde 2026-08-10 hasta 2026-10-30 |
 | LA PANERA ROSA | 20% DE REINTEGRO | SÁBADOS | Desde 2025-01-01 hasta 2026-08-05 |

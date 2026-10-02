@@ -2,7 +2,7 @@
 
 Fuente: https://www.universitaria.coop/promociones
 
-Total de beneficios verificados: 89
+Total de beneficios verificados: 72
 
 ## Electrodomésticos
 
@@ -39,6 +39,7 @@ Total de beneficios verificados: 89
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
+| FARMACENTER | MASTERCARD QR 25% | TODOS LOS MARTES | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1790877906.pdf) |
 | Farmacia Catedral | Hasta 50% de descuento con QR en productos seleccionados | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790702549.pdf) |
 | Farmacia Catedral | 35% de descuento con QR en medicamentos seleccionados | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790702549.pdf) |
 | Farmacia Catedral | 30% de descuento con QR en medicamentos y productos varios | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790702549.pdf) |
@@ -74,26 +75,8 @@ Total de beneficios verificados: 89
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
-| CIAE & ASOC. | 25% de descuento en programa Detective Financiero Kid IV | Todos los días | Vigencia Desde el 05 de setiembre de 2022 hasta el 05 de setiembre de 2023, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1685026495.pdf) |
-| CIAE & ASOC. | 15% de descuento en otros cursos participantes; la tasa varía entre 10% y 15% | Todos los días | Vigencia Desde el 05 de setiembre de 2022 hasta el 05 de setiembre de 2023, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1685026495.pdf) |
-| UNADES | 10% de descuento | Todos los días | Vigencia Desde el 16 de setiembre de 2025 hasta el 16 de setiembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1770319815.pdf) |
-| UNIVERSIDAD AMERICANA | Hasta 10 cuotas sin intereses | Durante el período de inscripción | Vigencia del convenio marco: Desde el 08 de septiembre 2026 hasta el 08 de julio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1789401410.pdf) |
 | UNIVERSIDAD CATÓLICA | 10% de descuento en cuotas | del 1 al 5 de cada mes | Vigencia: Desde el 20 de febrero de 2026 hasta el 20 de febrero de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784911866.pdf) |
 | UNIVERSIDAD CATÓLICA | Hasta 10 cuotas sin intereses | del 1 al 5 de cada mes | Vigencia: Desde el 20 de febrero de 2026 hasta el 20 de febrero de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784911866.pdf) |
-| Universidad Autónoma de Asunción (UAA) | 20% de descuento en pago anticipado de un año académico o programas de posgrado | Todos los días | Vigencia Desde el 14 de febrero de 2019 hasta el 14 de febrero de 2020, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1707838703.pdf) |
-| Universidad Autónoma de Asunción (UAA) | 10% de descuento en pago anticipado de un semestre | Todos los días | Vigencia Desde el 14 de febrero de 2019 hasta el 14 de febrero de 2020, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1707838703.pdf) |
-| Universidad Autónoma del Paraguay | 15% de descuento | Todos los días | Vigencia Desde el 20 de abril de 2022 hasta el 20 de abril de 2023, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1707854695.pdf) |
-| Universidad Central | 30% de descuento | Todos los días | Vigencia Desde el 22 de enero de 2018 hasta el 22 de enero de 2019, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1683315759.pdf) |
-| Universidad Centro Médico Bautista | 10% de descuento en cuotas mensuales de grado, excepto Medicina | Todos los días | Vigencia Desde el 17 de febrero de 2023 hasta el 17 de febrero de 2024, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1678382123.pdf) |
-| Universidad Centro Médico Bautista | 15% de descuento en semestre de grado, cuotas de posgrado o cursos internacionales | Todos los días | Vigencia Desde el 17 de febrero de 2023 hasta el 17 de febrero de 2024, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1678382123.pdf) |
-| Universidad Centro Médico Bautista | 20% de descuento en dos semestres de grado o programa completo de posgrado | Todos los días | Vigencia Desde el 17 de febrero de 2023 hasta el 17 de febrero de 2024, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1678382123.pdf) |
-| Universidad Columbia | 10% de descuento en cuotas de Derecho pagadas antes del vencimiento | Todos los días | Vigencia Desde el 07 de marzo de 2018 hasta el 07 de marzo de 2024, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1690574022.pdf) |
-| Universidad Columbia | 15% de descuento en cuotas de otras carreras habilitadas pagadas antes del vencimiento | Todos los días | Vigencia Desde el 07 de marzo de 2018 hasta el 07 de marzo de 2024, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1690574022.pdf) |
-| Universidad Nihon Gakko | 30% de descuento | Todos los días | Vigencia Desde el 27 de abril de 2022 hasta el 27 de abril de 2023, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1707854651.pdf) |
-| Universidad Politecnica y Artistica del Paraguay (UPAP) | 25% de descuento | Todos los días | Vigencia Desde el 25 de marzo de 2026 hasta el 25 de marzo de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1783018707.pdf) |
-| Universidad San Ignacio de Loyola | 10% de descuento en cuotas | Todos los días | Vigencia Desde el 19 de marzo 2018 hasta el 19 de marzo de 2019, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/1707839632.pdf) |
-| Universidad UCOM | 10% de descuento en diplomados y carreras de grado | Todos los días | Vigencia Desde el 25 de julio de 2023 hasta el 25 de julio de 2024, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1691526203.pdf) |
-| Universidad UCOM | 5% de descuento en programas de posgrado | Todos los días | Vigencia Desde el 25 de julio de 2023 hasta el 25 de julio de 2024, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1691526203.pdf) |
 
 ## Laboratorios
 

@@ -1,7 +1,17 @@
 {
-  "checked_at": "2026-10-01T14:24:18.297318+00:00",
+  "checked_at": "2026-10-02T13:48:11.360806+00:00",
   "published": 240,
   "pending": [
+    {
+      "merchant_name": "CECOTEC-SHOPPING MARIANO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "JOSEPH COIFFURE-SHOPPING MARIANO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
+      "reason": "merchant_not_in_terms"
+    },
     {
       "merchant_name": "FAMILIAR DAY",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficio-familiar-day",

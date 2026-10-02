@@ -72,7 +72,7 @@ Fuente: PDF mensual + páginas de bases y condiciones enlazadas desde el PDF.
 
 | Promoción | Locales / comercios | Descuento | Niveles | Topes / mínimos | Vigencia |
 |---|---|---|---|---|---|
-| Beneficio de Reintegro SUPERMERCADOS / OCT 2026 | CADENA REAL; CADENA REAL (Aplica únicamente por el sitio; DELIMARKET; GRAN VÍA; IRENE SUPERMERCADOS; LA CRIOLLA; SUPERMERCADO MARIA'S; MOLINO CAAGUAZÚ; PLUB; PORKUS CARNICERÍA; PRONTO SUPERMERCADO; SALEMMA; STOCK; STOCK  | Ver detalle | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope máximo de compra fijado para cada nivel de cliente; tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs. 300.000; Gs.; Gs. 500.000; Gs. 200.000; Gs. 400 | Vigencia: ● Desde el 01 de octubre hasta el 31 de octubre del 2026 |
+| Beneficio de Reintegro SUPERMERCADOS / OCT 2026 | CADENA REAL; CADENA REAL (Aplica únicamente por el sitio; DELIMARKET; GRAN VÍA; IRENE SUPERMERCADOS; LA CRIOLLA (Aplica a las sucursal de; Lambaré y San Miguel) SUPERMERCADO MARIA'S; MOLINO CAAGUAZÚ; PLUB; PORKUS CARNICE | Ver detalle | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope máximo de compra fijado para cada nivel de cliente; tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs. 300.000; Gs.; Gs. 500.000; Gs. 200.000; Gs. 400 | Vigencia: ● Desde el 01 de octubre hasta el 31 de octubre del 2026 |
 
 ## Tiendas
 

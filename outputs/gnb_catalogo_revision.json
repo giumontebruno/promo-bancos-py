@@ -1,12 +1,17 @@
 {
-  "checked_at": "2026-10-01T14:22:20.091959+00:00",
+  "checked_at": "2026-10-02T13:44:30.917927+00:00",
   "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
-  "total_source_cards": 238,
-  "already_represented_source_cards": 235,
+  "total_source_cards": 242,
+  "already_represented_source_cards": 234,
   "source_cards_not_yet_in_app": [
+    534,
+    675,
+    674,
     297,
+    673,
     20,
-    157
+    157,
+    478
   ],
   "flagged_cards": [
     {
@@ -507,6 +512,11 @@
     {
       "id": 470,
       "name": "Sanisart",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 478,
+      "name": "Inoga",
       "flags": "source_start_date_stale"
     },
     {

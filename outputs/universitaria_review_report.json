@@ -1,16 +1,16 @@
 {
-  "source_cards": 63,
-  "published_variants": 89,
+  "source_cards": 52,
+  "published_variants": 72,
   "withheld": [
+    {
+      "merchant": "PUNTOFARMA",
+      "source": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790878039.pdf",
+      "reason": "El título no identifica una tasa o cantidad de cuotas verificable"
+    },
     {
       "merchant": "La Ponde S.A.",
       "source": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784210039.pdf",
       "reason": "Precio preferencial de lotes sin precio de referencia ni tasa de descuento"
-    },
-    {
-      "merchant": "AFS",
-      "source": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1742386268.pdf",
-      "reason": "Financiación sujeta a intereses vigentes; no indica descuento verificable"
     }
   ]
 }

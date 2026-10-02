@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-01T14:22:20.091959+00:00",
-  "coverage": "238 official cards extracted from GNB's public API; every card retains its official detail and terms links",
-  "records": 456,
+  "checked_at": "2026-10-02T13:44:30.917927+00:00",
+  "coverage": "242 official cards extracted from GNB's public API; every card retains its official detail and terms links",
+  "records": 463,
   "excluded_cards": {
     "20": "Interest-bearing purchases abroad, not an interest-free benefit",
     "157": "Cash advance with commission, not a promotion",
@@ -10,5 +10,11 @@
   "date_discrepancy_resolved_conservatively": {
     "377": "Jullito ends 2026-11-28 in the card and 2026-12-28 in terms; the earlier date is used"
   },
-  "import_issues": []
+  "import_issues": [
+    {
+      "id": 673,
+      "name": "Intercolegial Alpha College – Cantina",
+      "reason": "day_unknown_0"
+    }
+  ]
 }

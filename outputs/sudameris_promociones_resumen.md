@@ -2,11 +2,10 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 42
+Total: 41
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
-| Sudameris | McLaren Mastercard Formula 1®Team |  |  | https://www.sudameris.com.py/beneficios/destacado/918/detalle |
 | Sudameris | DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES | : Del 03/08 al 31/12/2026. |  | https://www.sudameris.com.py/beneficios/destacado/902/detalle |
 | Sudameris | LUISITO | • Todos los martes. • Desde el 26 de mayo hasta el 30 de noviembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/875/detalle |
 | Sudameris | BIGGIE EXPRESS - PRIMERO DE CADA MES | • 01 de cada mes. • Desde el 01 de julio hasta el 31 de diciembre 2026. | • 30% de reintegro directo en el extracto pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/891/detalle |
