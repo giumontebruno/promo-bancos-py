@@ -2,7 +2,7 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 41
+Total: 42
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
@@ -18,6 +18,7 @@ Total: 41
 | Sudameris | TARJETAS EMPRESARIALES | • Todos los días. • Desde el 01 de enero hasta el 31 de diciembre de 2026. | • Hasta 6 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/742/detalle |
 | Sudameris | ZONA CENTRAL - ASUNCIÓN Y GRAN ASUNCIÓN | • Verificar según aplicación de promoción (ver cuadro más abajo). | en tu zona | https://www.sudameris.com.py/beneficios/destacado/647/detalle |
 | Sudameris | CHEF’S KITCHEN | • Viernes y sábado. • Desde el 28 de agosto hasta el 26 de diciembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito. • 25% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite. | https://www.sudameris.com.py/beneficios/destacado/738/detalle |
+| Sudameris | ENEX Y APP MI ENEX | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer lunes de cada mes. • 6 de julio. • 3 de agosto. • 7 de septiembre. • 5 de octubre. • 2 de noviembre. • 7 de d |  | https://www.sudameris.com.py/beneficios/destacado/307/detalle |
 | Sudameris | YOUNIQUE | • Todos los martes y miércoles. • Del 01 de setiembre hasta el 31 de octubre 2026. | • 25% de descuento en caja pagando con tarjetas de crédito Clásicas, Oro, Platinum, Signature, Privilege de Sudameris. • 30% de descuento en caja pagando con tarjetas de crédito MasterCard Black y Visa Infinite de Sudame | https://www.sudameris.com.py/beneficios/destacado/315/detalle |
 | Sudameris | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | • Todos los días hasta el 31 de diciembre del 2026. | • 6 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/494/detalle |
 | Sudameris | FARMACIA CATEDRAL | • Todos los lunes. • Desde el 1 de julio hasta el 31 de diciembre 2026. | Todos los Lunes: • Hasta 25% de descuento directo en caja en todos los productos. • 25% de descuento en caja en medicamentos nacionales y preparados magistrales • 20% de descuento en caja en medicamentos importados/ medi | https://www.sudameris.com.py/beneficios/destacado/270/detalle |

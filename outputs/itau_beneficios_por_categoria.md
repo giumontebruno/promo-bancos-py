@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 76
+Total de beneficios: 75
 
 ## Belleza y Salud
 
@@ -84,7 +84,6 @@ Total de beneficios: 76
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Areté | 15 %; Tenes 15% de ahorro. | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
-| CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-10-06 |
 | Delimarket | 20 %; 20% de reintegro | todos los sábados | 2025-09-06 hasta 2026-12-31 |
 | Super Real | 15 %; 15% de ahorro. | Aplica los LUNES | 2025-10-06 hasta 2026-12-31 |
 
@@ -156,7 +155,7 @@ Total de beneficios: 76
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Biggie | 15 %; 15% de ahorro. | No especificado | 2025-01-31 hasta 2026-10-02 |
+| CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-10-06 |
 | Florencia | 20 % 10 Cuotas sin intereses; Tenes 20% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-02 hasta 2026-10-04 |
 | Fuschia | 10 Cuotas sin intereses 25 % Hasta; Tenés 20% de ahorro +5% pagando via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2024-11-07 hasta 2026-10-04 |
 

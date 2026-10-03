@@ -1,11 +1,12 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 154
+Total de promociones: 155
 
 ## Combustible
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| ENEX Y APP MI ENEX | ESTACIONES DE SERVICIOS ENEX Y APP MI ENEX VIGENCIA • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer lunes de cada mes. • 6 de julio. • 3 de agosto. • 7 de se | primer lunes; Solo el primer lunes | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer lunes de cada mes. • 6 de julio. • 3 de agosto. • 7 de septiembre. • 5 de octubre. • 2 de noviembre. • 7 de diciembre. |
 | Estaciones de Servicio CCU | ECOP - Estaciones de Servicio CCU VIGENCIA • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer jueves de cada mes. • 02 de julio. • 06 de agosto. • 03 de septiem | primer jueves; Solo el primer jueves | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer jueves de cada mes. • 02 de julio. • 06 de agosto. • 03 de septiembre. • 01 de octubre. • 05 de noviembre. • 03 de diciembre. PETROBRAS - Estaciones  |
 
 ## Cuotas y tarjetas

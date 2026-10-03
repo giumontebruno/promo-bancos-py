@@ -14,8 +14,8 @@ Fuente: PDF mensual + páginas de bases y condiciones enlazadas desde el PDF.
 
 | Promoción | Locales / comercios | Descuento | Niveles | Topes / mínimos | Vigencia |
 |---|---|---|---|---|---|
-| Beneficio de Reintegro COMBUSTIBLES / OCT 2026 | Combustibles | Ver detalle | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope de compra se renovará semanalmente según el nivel de cliente; tope de compra de tu nivel un miércoles, podrás volver a usarlo a partir de su renovación; TOPE DE COMPRA REINTEGRO MÁXIMO % DE REINTEGRO CLIENTE SEMANAL | Vigencia: ● Desde el 01 de octubre hasta el 31 de octubre del 2026 |
 | Beneficio de Reintegro PETROPAR / OCT 2026 | PETROPAR ABAÍ ALFONSO ABAÍ AVENIDA COSTANERA Y JOSÉ DE ANTEQUERA, BARRIO SAN; PETROPAR ANTEQUERA ROQUE ANTEQUERA RUTA N°5 BERNARDINO; ARROYITO PETROPAR ARROYOS Y RUTA III GENERAL ELIZARDO ARROYOS Y; ESTEROS AVDA. FRANCIS | Ver detalle | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope de compra/reintegro estará limitado a cada cliente conforme su nivel, durante la vigencia de la promoción; Gs.; Gs. 600.000; Gs. 240.000; Gs. 500.000; Gs. 150.000; Gs. 300.000; Gs. 75.000; Gs. 200.000; Gs. 30.000; G | Vigencia: ● Desde el 01 de octubre hasta el 31 de octubre del 2026 |
+| Beneficio de Reintegro COMBUSTIBLES / OCT 2026 | Combustibles | Ver detalle | nivel 5 40% Gs; nivel 4 30% Gs; nivel 3 25% Gs; nivel 2 15% Gs; nivel 1 10% Gs | tope de compra se renovará semanalmente según el nivel de cliente; tope de compra de tu nivel un miércoles, podrás volver a usarlo a partir de su renovación; TOPE DE COMPRA REINTEGRO MÁXIMO % DE REINTEGRO CLIENTE SEMANAL | Vigencia: ● Desde el 01 de octubre hasta el 31 de octubre del 2026 |
 
 ## Cuotas sin intereses
 
@@ -108,6 +108,7 @@ Fuente: PDF mensual + páginas de bases y condiciones enlazadas desde el PDF.
 | Beneficio de Reintegro PRIMERA COMPRA / OCT 2026 | Primera Compra | 50% de reintegro | No especificado | monto mínimo establecido) con cualquier tarjeta de crédito emitida por ueno bank S; Tope máximo de compra de Guaraníes un millón (Gs; tope de reintegro máximo en este caso será de Guaraníes quinientos mil (Gs; Gs. 1.000. | Vigencia: ● Desde el 01 de octubre hasta el 31 de octubre del 2026 |
 | Beneficio de Reintegro Campaña "Tu combo Ahorro 20%" / OCT 2026 | Combo 20 | Ver detalle | No especificado | tope de compra/reintegro del Beneficio 1 asignado por cliente, se aplicará de forma conjunta considerando todos los pagos realizados en las plataformas adheridas conforme al “Anexo del Beneficio 1” a la presente promoció | Vigencia: Exclusivamente del 01 de octubre del 2026 |
 | Beneficio de Reintegro Campaña "Tu combo Ahorro 30%" / OCT 2026 | Combo 30 | Ver detalle | No especificado | tope de compra/reintegro del Beneficio 1 asignado por cliente, se aplicará de forma conjunta considerando todos los pagos realizados en las plataformas adheridas conforme al “Anexo del Beneficio 1” a la presente promoció | Vigencia: Exclusivamente del 01 de octubre del 2026 |
+| Campaña dirigida “BONIFICACION de upys AHORRO A PLAZO” / OCT 2026 | Upys Ahorro Plazo | Ver detalle | No especificado | mínimo de 90 días entre el 02 de octubre de 2026 hasta el 05 de octubre del 2026 recibirán 1000 (mil) upys extras por cada Gs. 1.000.000 (un millón),, a través de la aplicación móvil de ueno bank S; Gs. 1.000.000 | Vigencia: ● Campaña válida exclusivamente desde el 02 de octubre del 2026 |
 
 ## Viajes
 

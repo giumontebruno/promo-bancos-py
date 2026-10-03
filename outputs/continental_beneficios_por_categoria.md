@@ -147,7 +147,7 @@ Total de beneficios/comercios: 742
 | Petrobras | 20%; 25% de reintegro; 20% de reintegro | Los viernes | Vigente hasta el 10 de septiembre de 2027 | No especificado |
 | Petrobras - Privilege | 25% de reintegro | los viernes | Vigente hasta el 10 de septiembre de 2027 | No especificado |
 | Petrochaco | 20%; 20% de reintegro | Los viernes | Vigente hasta el 20 de noviembre de 2026 | Todo el país |
-| Petromax | 20%; 20% de reintegro | los viernes | Vigente hasta 25 de septiembre del 2026 | Todo el país |
+| Petromax | 20%; 20% de reintegro | los viernes | Vigente hasta el 01 de octubre del 2027 | Todo el país |
 | Petropar - Curuguaty | 10%; 10% de reintegro | los viernes | Vigente hasta el 29 de enero de 2027 | Curuguaty |
 | Petrosur | 20%; 20% de reintegro | Los viernes | Vigente hasta el 13 de noviembre de 2026 | Todo el país |
 | Puma Energy | 15%; 15% de reintegro | los viernes | Vigente hasta el 30 de abril del 2027 | No especificado |

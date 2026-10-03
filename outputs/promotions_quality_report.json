@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-02T13:55:15.403862+00:00",
+  "generated_at": "2026-10-03T12:33:53.691852+00:00",
   "input_count": 2186,
   "promotion_count": 2186,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
-    "09341a54154f91ae": "c57f6737e9d5066f",
-    "2537dde96a29fd27": "00cec77a8fafd105",
-    "bdb8286c738d1a2b": "88833a4e32662633",
-    "6dea0bc1bf9ebfaf": "762fde443a1a3805",
-    "aa114005cb0c26a9": "ceff6c4b715e19a5",
+    "09341a54154f91ae": "5f3d3ce3b69df6c6",
+    "2537dde96a29fd27": "8f427f08e6fd7127",
+    "bdb8286c738d1a2b": "da298e2432cac3b4",
+    "6dea0bc1bf9ebfaf": "2ccd0fa81c487a51",
+    "aa114005cb0c26a9": "eff4789bc0a3ccdc",
     "919e3a0027a1f163": "609657535743699a",
-    "bbf7525d80cdd9ff": "49fb3772ee074229",
+    "bbf7525d80cdd9ff": "70517035fa775b7e",
     "199b1fc13f335ed3": "9d9dd6af29e2f228",
     "a25927796611ab5c": "4f82106932b48277",
     "e04977d3cf421e2a": "5bb5ecec8d886a5b",
@@ -81,35 +81,35 @@
     "b7e587636cffbf3a": "49a9b4cb7a075742",
     "99168bd0b6958355": "5466f51d47bd761e",
     "cb3de01ca31aba62": "65de826637ac09ea",
-    "62e8d841ff36ed9c": "261fee9e8effd7b6",
-    "ba3ac7db98c9e32b": "c57f6737e9d5066f",
-    "fa534f89b7019277": "00cec77a8fafd105",
-    "96d488f7e2b0de9c": "88833a4e32662633",
-    "c0ec7c2ae36d964a": "762fde443a1a3805",
-    "ae029d3ffe0eb011": "ceff6c4b715e19a5",
-    "3f93d9ac86b3770b": "49fb3772ee074229",
+    "62e8d841ff36ed9c": "a89917720a819e0b",
+    "ba3ac7db98c9e32b": "5f3d3ce3b69df6c6",
+    "fa534f89b7019277": "8f427f08e6fd7127",
+    "96d488f7e2b0de9c": "da298e2432cac3b4",
+    "c0ec7c2ae36d964a": "2ccd0fa81c487a51",
+    "ae029d3ffe0eb011": "eff4789bc0a3ccdc",
+    "3f93d9ac86b3770b": "70517035fa775b7e",
     "4a5fb022bea5ab25": "609657535743699a",
     "bd74eedbd56b4665": "242a05fb09b0e875",
     "a83f9a4bcc1fbfe9": "d630edf0ee4490d9",
     "59ab514280eb7cbf": "19fb9d329d7892ce",
-    "d8610bf3faa7ec9f": "261fee9e8effd7b6",
-    "ffd12e9762c6b8db": "c57f6737e9d5066f",
-    "837ba61bafe1b5be": "00cec77a8fafd105",
-    "070c421e316eb434": "88833a4e32662633",
-    "41a119aa8a6f5943": "762fde443a1a3805",
-    "d9859bdfaefb4b01": "ceff6c4b715e19a5",
-    "82a1fa39a6e69e0b": "49fb3772ee074229",
+    "d8610bf3faa7ec9f": "a89917720a819e0b",
+    "ffd12e9762c6b8db": "5f3d3ce3b69df6c6",
+    "837ba61bafe1b5be": "8f427f08e6fd7127",
+    "070c421e316eb434": "da298e2432cac3b4",
+    "41a119aa8a6f5943": "2ccd0fa81c487a51",
+    "d9859bdfaefb4b01": "eff4789bc0a3ccdc",
+    "82a1fa39a6e69e0b": "70517035fa775b7e",
     "119c36433db85142": "8a29c04ec9bb672a",
     "a4f9f338850cd745": "e0c24fad744b97b2",
     "8162eaef991cc55b": "109f9c2fe433141e",
     "23edada849b0a2de": "97a1f39b9a1a360a",
-    "d66d02a1798ad639": "261fee9e8effd7b6",
-    "2f7c53592bae47e7": "c57f6737e9d5066f",
-    "381a42b4c8e9b925": "00cec77a8fafd105",
-    "69d0aa723285eeb4": "88833a4e32662633",
-    "01cfefca9ce84eaf": "762fde443a1a3805",
-    "f62815381a65b6f0": "ceff6c4b715e19a5",
-    "a50f2484a4772590": "49fb3772ee074229",
+    "d66d02a1798ad639": "a89917720a819e0b",
+    "2f7c53592bae47e7": "5f3d3ce3b69df6c6",
+    "381a42b4c8e9b925": "8f427f08e6fd7127",
+    "69d0aa723285eeb4": "da298e2432cac3b4",
+    "01cfefca9ce84eaf": "2ccd0fa81c487a51",
+    "f62815381a65b6f0": "eff4789bc0a3ccdc",
+    "a50f2484a4772590": "70517035fa775b7e",
     "9cb7d648da99c5e5": "1fdee8f273385f23",
     "db366dff74ed8ca2": "9ce94311de0a0296",
     "5c32ae2b53dcac84": "a5e89fc918b0a877",
@@ -327,13 +327,13 @@
     "dfbdbff9feb24988": "f7d577f6c1fe3f21",
     "979348af732806d7": "4b458778fe6e5660",
     "dec03a93ec7ae623": "10101c6c448961cd",
-    "e04a0817f34c1e1d": "261fee9e8effd7b6",
-    "e31059b815bf60cf": "c57f6737e9d5066f",
-    "e71961c9b6e1952d": "00cec77a8fafd105",
-    "71296c82631b5adb": "88833a4e32662633",
-    "1520fa6042ae6e1a": "762fde443a1a3805",
-    "8150aca423ca59f1": "ceff6c4b715e19a5",
-    "d47bbc0ec1f94c12": "49fb3772ee074229",
+    "e04a0817f34c1e1d": "a89917720a819e0b",
+    "e31059b815bf60cf": "5f3d3ce3b69df6c6",
+    "e71961c9b6e1952d": "8f427f08e6fd7127",
+    "71296c82631b5adb": "da298e2432cac3b4",
+    "1520fa6042ae6e1a": "2ccd0fa81c487a51",
+    "8150aca423ca59f1": "eff4789bc0a3ccdc",
+    "d47bbc0ec1f94c12": "70517035fa775b7e",
     "3ec8d8dd03a6d3b1": "3a8375ae7cd26f82",
     "7773a24bc9ac448b": "3ac12a628190a1dd",
     "276dc9a59a7642ac": "372bb12a1378e963",
@@ -453,13 +453,13 @@
     "b1e94739c8421644": "32895a05ab517bae",
     "e00046a2cb73ad01": "3d0750c855e68124",
     "cf8ef5a71b788278": "cde2865dba869485",
-    "98413b89edd668f3": "261fee9e8effd7b6",
-    "a3ba83d424371a01": "c57f6737e9d5066f",
-    "efcac1f131e95ec2": "00cec77a8fafd105",
-    "bd07b5b002663db4": "88833a4e32662633",
-    "fdd72b5b8d64925e": "762fde443a1a3805",
-    "5f2d6b1a1e176edd": "ceff6c4b715e19a5",
-    "61eb9244010115fe": "49fb3772ee074229",
+    "98413b89edd668f3": "a89917720a819e0b",
+    "a3ba83d424371a01": "5f3d3ce3b69df6c6",
+    "efcac1f131e95ec2": "8f427f08e6fd7127",
+    "bd07b5b002663db4": "da298e2432cac3b4",
+    "fdd72b5b8d64925e": "2ccd0fa81c487a51",
+    "5f2d6b1a1e176edd": "eff4789bc0a3ccdc",
+    "61eb9244010115fe": "70517035fa775b7e",
     "7172e6bbf76e5571": "609657535743699a",
     "599ba42baed22a99": "9d9dd6af29e2f228",
     "6d5e3aca6cc54e6c": "4f82106932b48277",
@@ -714,7 +714,15 @@
     "7c33633289c213c9": "0aac760a9b8a4bd9",
     "7c71fa78162f301b": "753384e542c83886",
     "773a1799f67406c5": "ba563916f9a085f1",
-    "713c601c45e0a8f8": "85d80ad4b67e6a94"
+    "713c601c45e0a8f8": "85d80ad4b67e6a94",
+    "03ed7773b8f2c38d": "ba633ad18527c189",
+    "261fee9e8effd7b6": "a89917720a819e0b",
+    "c57f6737e9d5066f": "5f3d3ce3b69df6c6",
+    "00cec77a8fafd105": "8f427f08e6fd7127",
+    "88833a4e32662633": "da298e2432cac3b4",
+    "762fde443a1a3805": "2ccd0fa81c487a51",
+    "ceff6c4b715e19a5": "eff4789bc0a3ccdc",
+    "49fb3772ee074229": "70517035fa775b7e"
   },
   "by_bank": {
     "Atlas": 35,
@@ -723,8 +731,8 @@
     "Coop. Universitaria": 72,
     "Familiar": 240,
     "GNB": 463,
-    "Itaú": 76,
-    "Sudameris": 154,
+    "Itaú": 75,
+    "Sudameris": 155,
     "ueno bank": 327
   },
   "issue_counts": {
@@ -4264,74 +4272,74 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-ueno-CLUB-OLIMPIA-_-OCT-2026v1.pdf"
     },
     {
-      "id": "261fee9e8effd7b6",
+      "id": "a89917720a819e0b",
       "bank": "ueno bank",
       "merchant": "3MG",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v2.pdf"
     },
     {
-      "id": "c57f6737e9d5066f",
+      "id": "5f3d3ce3b69df6c6",
       "bank": "ueno bank",
       "merchant": "COPETROL",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v2.pdf"
     },
     {
-      "id": "00cec77a8fafd105",
+      "id": "8f427f08e6fd7127",
       "bank": "ueno bank",
       "merchant": "ENEX",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v2.pdf"
     },
     {
-      "id": "88833a4e32662633",
+      "id": "da298e2432cac3b4",
       "bank": "ueno bank",
       "merchant": "PETROBRAS",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v2.pdf"
     },
     {
-      "id": "762fde443a1a3805",
+      "id": "2ccd0fa81c487a51",
       "bank": "ueno bank",
       "merchant": "PETROCHACO",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v2.pdf"
     },
     {
-      "id": "ceff6c4b715e19a5",
+      "id": "eff4789bc0a3ccdc",
       "bank": "ueno bank",
       "merchant": "PETROMAX",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v2.pdf"
     },
     {
-      "id": "49fb3772ee074229",
+      "id": "70517035fa775b7e",
       "bank": "ueno bank",
       "merchant": "PUMA ENERGY",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v2.pdf"
     },
     {
       "id": "609657535743699a",
