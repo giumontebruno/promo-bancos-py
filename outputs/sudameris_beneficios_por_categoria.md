@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 155
+Total de promociones: 154
 
 ## Combustible
 
@@ -74,7 +74,6 @@ Total de promociones: 155
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| MATERASSI | 10%; 30%; Hasta 12 cuotas sin interés | Miércoles a sábado | • Miércoles a sábado. • Desde el 19 de agosto hasta el 03 de octubre 2026. |
 | PARANA HOGAR / COLCHONES | 30%; Hasta 12 cuotas sin intereses | Todos los viernes | • Todos los viernes. • Desde el 03 de agosto hasta el 31 de octubre 2026. |
 
 ## Moda

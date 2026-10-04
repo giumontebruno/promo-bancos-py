@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-03T12:33:53.691852+00:00",
-  "input_count": 2186,
-  "promotion_count": 2186,
+  "generated_at": "2026-10-04T13:15:39.197631+00:00",
+  "input_count": 2185,
+  "promotion_count": 2185,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -732,7 +732,7 @@
     "Familiar": 240,
     "GNB": 463,
     "Itaú": 75,
-    "Sudameris": 155,
+    "Sudameris": 154,
     "ueno bank": 327
   },
   "issue_counts": {

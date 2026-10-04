@@ -2,7 +2,7 @@
 
 Extraidas desde https://www.sudameris.com.py/beneficios
 
-Total: 42
+Total: 41
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
@@ -24,7 +24,6 @@ Total: 42
 | Sudameris | FARMACIA CATEDRAL | • Todos los lunes. • Desde el 1 de julio hasta el 31 de diciembre 2026. | Todos los Lunes: • Hasta 25% de descuento directo en caja en todos los productos. • 25% de descuento en caja en medicamentos nacionales y preparados magistrales • 20% de descuento en caja en medicamentos importados/ medi | https://www.sudameris.com.py/beneficios/destacado/270/detalle |
 | Sudameris | REAL SUPERMERCADOS | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer viernes de cada mes: • 03 de julio. • 07 de agosto. • 04 de septiembre. • 02 de octubre. • 06 de noviembre. • | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés válido todos los días en las secciones de: • Electrodomésticos. • Artículos de jardín. • Artículos de decoración. | https://www.sudameris.com.py/beneficios/destacado/483/detalle |
 | Sudameris | Estaciones de Servicio CCU | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer jueves de cada mes. • 02 de julio. • 06 de agosto. • 03 de septiembre. • 01 de octubre. • 05 de noviembre. •  |  | https://www.sudameris.com.py/beneficios/destacado/679/detalle |
-| Sudameris | MATERASSI | • Miércoles a sábado. • Desde el 19 de agosto hasta el 03 de octubre 2026. | • 30% de descuento directo en caja pagando con tarjetas de crédito de Sudameris. • 10% de reintegro directo pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/476/detalle |
 | Sudameris | GASTRONOMIA 26 |  |  | https://www.sudameris.com.py/beneficios/destacado/636/detalle |
 | Sudameris | ZONA SUR |  | en tu zona • Reintegros directos en el extracto, sin canje de puntos ENCARNACIÓN HOHENAU PIRAPÓ BELLA VISTA CORONEL BOGADO TRINIDAD MARÍA AUXILIADORA FRAM OBLIGADO CARMEN DEL PARANÁ CAPITÁN MIRANDA NATALIO KRESSBURGO | https://www.sudameris.com.py/beneficios/destacado/436/detalle |
 | Sudameris | ZONA NORTE | • Verificar según aplicación de promoción (ver cuadro más abajo). | en tu zona | https://www.sudameris.com.py/beneficios/destacado/650/detalle |
