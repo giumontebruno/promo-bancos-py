@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T13:15:39.197631+00:00",
-  "input_count": 2185,
-  "promotion_count": 2185,
+  "generated_at": "2026-10-05T15:59:20.372559+00:00",
+  "input_count": 2219,
+  "promotion_count": 2219,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -11,7 +11,7 @@
     "bdb8286c738d1a2b": "da298e2432cac3b4",
     "6dea0bc1bf9ebfaf": "2ccd0fa81c487a51",
     "aa114005cb0c26a9": "eff4789bc0a3ccdc",
-    "919e3a0027a1f163": "609657535743699a",
+    "919e3a0027a1f163": "cfb79f07d5fb529d",
     "bbf7525d80cdd9ff": "70517035fa775b7e",
     "199b1fc13f335ed3": "9d9dd6af29e2f228",
     "a25927796611ab5c": "4f82106932b48277",
@@ -65,7 +65,7 @@
     "92c229f4f7dc932a": "33d0b3c9d7b1f1a9",
     "55a95388dc4831de": "3b3c1e7971db9ce8",
     "9e76b1c332e69a31": "0061a1e7295921e2",
-    "e2940f3700c4f0b9": "609657535743699a",
+    "e2940f3700c4f0b9": "cfb79f07d5fb529d",
     "db5bdce97599c2f7": "8e371e19c67ae939",
     "00f4863fbd4b05c1": "ae0cb16f45f4a664",
     "04b47072d932b2ef": "633452f9de63982d",
@@ -88,7 +88,7 @@
     "c0ec7c2ae36d964a": "2ccd0fa81c487a51",
     "ae029d3ffe0eb011": "eff4789bc0a3ccdc",
     "3f93d9ac86b3770b": "70517035fa775b7e",
-    "4a5fb022bea5ab25": "609657535743699a",
+    "4a5fb022bea5ab25": "cfb79f07d5fb529d",
     "bd74eedbd56b4665": "242a05fb09b0e875",
     "a83f9a4bcc1fbfe9": "d630edf0ee4490d9",
     "59ab514280eb7cbf": "19fb9d329d7892ce",
@@ -442,7 +442,6 @@
     "861b724bea0dec8b": "f7d577f6c1fe3f21",
     "3fc2ba285acd62a5": "4b458778fe6e5660",
     "c1cd11ef0944f1b5": "1da5fc52ee571bac",
-    "d4de2b8af627ee46": "92ea866c3d13ef63",
     "91b02da57eb943cd": "7a929a949ff06f97",
     "3a333fde24fc5f59": "bdc669cc7e8e675c",
     "5edbc3e390804365": "d9edac2b2f08c402",
@@ -460,7 +459,7 @@
     "fdd72b5b8d64925e": "2ccd0fa81c487a51",
     "5f2d6b1a1e176edd": "eff4789bc0a3ccdc",
     "61eb9244010115fe": "70517035fa775b7e",
-    "7172e6bbf76e5571": "609657535743699a",
+    "7172e6bbf76e5571": "cfb79f07d5fb529d",
     "599ba42baed22a99": "9d9dd6af29e2f228",
     "6d5e3aca6cc54e6c": "4f82106932b48277",
     "cedd7db32192538e": "5bb5ecec8d886a5b",
@@ -722,21 +721,24 @@
     "88833a4e32662633": "da298e2432cac3b4",
     "762fde443a1a3805": "2ccd0fa81c487a51",
     "ceff6c4b715e19a5": "eff4789bc0a3ccdc",
-    "49fb3772ee074229": "70517035fa775b7e"
+    "49fb3772ee074229": "70517035fa775b7e",
+    "eb8d4d0c7f39fa64": "0f163fd773f66f02",
+    "4500ec771475870f": "2c600f207db238ee",
+    "609657535743699a": "cfb79f07d5fb529d"
   },
   "by_bank": {
-    "Atlas": 35,
+    "Atlas": 34,
     "BNF": 77,
     "Continental": 742,
     "Coop. Universitaria": 72,
     "Familiar": 240,
     "GNB": 463,
-    "Itaú": 75,
+    "Itaú": 110,
     "Sudameris": 154,
     "ueno bank": 327
   },
   "issue_counts": {
-    "validity_unconfirmed": 50,
+    "validity_unconfirmed": 49,
     "limits_unconfirmed": 179,
     "multiple_purchase_limits": 331,
     "multiple_refund_limits": 102
@@ -796,15 +798,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/Locales%20gastron%C3%B3micos%20adheridos.jpg"
-    },
-    {
-      "id": "92ea866c3d13ef63",
-      "bank": "Atlas",
-      "merchant": "Atlas Week delSol Shopping",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web//Bajada_Digital_AtlasWeek_SpringSummer_Adheridos-02.png"
     },
     {
       "id": "eac0369ab2c3948b",
@@ -4074,7 +4067,7 @@
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16584&c=30064"
     },
     {
-      "id": "4500ec771475870f",
+      "id": "2c600f207db238ee",
       "bank": "Itaú",
       "merchant": "Shell",
       "issues": [
@@ -4342,14 +4335,14 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v2.pdf"
     },
     {
-      "id": "609657535743699a",
+      "id": "cfb79f07d5fb529d",
       "bank": "ueno bank",
       "merchant": "Petropar",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-Petropar-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-Petropar-_-OCT-2026v2.pdf"
     },
     {
       "id": "7fda66518e08207d",

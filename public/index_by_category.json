@@ -7,6 +7,9 @@
     "54729daf4a4a53b6",
     "ddbbf399483a015e"
   ],
+  "Alemania Cell": [
+    "f076091d25ad49b9"
+  ],
   "Belleza y Salud": [
     "abe7a86b787fa0f7",
     "4c69b3b5410c9c8e",
@@ -65,7 +68,7 @@
     "2ccd0fa81c487a51",
     "eff4789bc0a3ccdc",
     "70517035fa775b7e",
-    "609657535743699a"
+    "cfb79f07d5fb529d"
   ],
   "CompuMarket": [
     "f6e00ba485772b6e"
@@ -473,7 +476,7 @@
     "fc165a0512ae0f85"
   ],
   "Farmacias y Perfumerías": [
-    "eb8d4d0c7f39fa64",
+    "0f163fd773f66f02",
     "3680acd5686f26b7",
     "ffe70ac8df9ea760",
     "744d4a470bcbad68",
@@ -719,7 +722,6 @@
     "0590cdd04ee5909d"
   ],
   "Generales": [
-    "92ea866c3d13ef63",
     "eac0369ab2c3948b",
     "e45d6706ec738e16",
     "685470c83082810a",
@@ -802,6 +804,7 @@
     "2b2605726bc80209",
     "845acbdf1c114502",
     "9a3f5446b1075025",
+    "bccf3a686093b8af",
     "245c2e1c109ba3aa"
   ],
   "Hogar y construcción": [
@@ -1482,7 +1485,9 @@
     "ec1a95b5e3e7637c",
     "3b15fd114bd5bb67",
     "e0c24fad744b97b2",
-    "df6f73b548a4fb53"
+    "657822b86cbc5ab9",
+    "df6f73b548a4fb53",
+    "ee3b8e30abbd808a"
   ],
   "Tiendas": [
     "3f275edebc2bc3b6",
@@ -2201,7 +2206,7 @@
     "d09f3027e8c28c60",
     "25fd890fd0e39859",
     "b8ea70e53bed907f",
-    "4500ec771475870f",
+    "2c600f207db238ee",
     "02aff17aa83896d2",
     "d68b31fae45052e1",
     "9240c7d4b41684d1",
@@ -2294,7 +2299,40 @@
     "4aa078f8bced8cc2"
   ],
   "Viaje y Turismo": [
-    "bbaa11d3f81cd689"
+    "e388e4f22aea84e1",
+    "76c9062d1e9e82e2",
+    "ceab80572584f92e",
+    "8b788297da63e580",
+    "9dced7d7d6387b95",
+    "7c2a563d5c0fe435",
+    "c648b816d150a7eb",
+    "b938851c64e6d3a6",
+    "f20639070879df87",
+    "16d0efb54eeeca99",
+    "d949ad28dcc6220a",
+    "0517e1c3a7686cb5",
+    "d68de75ccf7f1e20",
+    "aa56b76788b13fce",
+    "9cdaed891c6957a6",
+    "cec4665d647ba6e0",
+    "06bd09223c591398",
+    "bbaa11d3f81cd689",
+    "f603e2c3681aaeb5",
+    "74d05bacb52dffb1",
+    "fc113e2b41c3225e",
+    "ef66437c0f75b787",
+    "b36f8bc58615a95d",
+    "07b1f43d18b8a033",
+    "bfebdcce5772d9f6",
+    "dd40e733fcfa7f60",
+    "0ee912fcf521404c",
+    "3c486b7d97331ed2",
+    "f98d701bf6ba9619",
+    "908b0be3bb2620cf",
+    "89e9224f71358762",
+    "80beebf5984b43e5",
+    "12f0dfe44db848d0",
+    "9ad828152bcc764e"
   ],
   "Viajes": [
     "633452f9de63982d",
@@ -2346,8 +2384,6 @@
     "924ba0241cdcd5e5"
   ],
   "Últimos días": [
-    "f981d05a0e2093f0",
-    "124504bf05316795",
-    "d1495e5a843d8c27"
+    "f981d05a0e2093f0"
   ]
 }

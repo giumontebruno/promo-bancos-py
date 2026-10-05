@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-04T13:09:11.484836+00:00",
+  "checked_at": "2026-10-05T15:51:20.658222+00:00",
   "published": 240,
   "pending": [
     {
@@ -11,11 +11,6 @@
       "merchant_name": "JOSEPH COIFFURE-SHOPPING MARIANO",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
       "reason": "merchant_not_in_terms"
-    },
-    {
-      "merchant_name": "FAMILIAR DAY",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficio-familiar-day",
-      "reason": "ambiguous_dates"
     },
     {
       "merchant_name": "MOPAR",

@@ -28,7 +28,7 @@ Total de beneficios/comercios: 742
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
 | Asociación Paraguaya de Caza y Pesca | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de agosto de 2027 | Asunción |
-| Chaco Outdoors | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | Todos los días | Vigente hasta el 23 de septiembre de 2027 | No especificado |
+| Chaco Outdoors | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 23 de septiembre de 2027 | No especificado |
 
 ## Clubes (2)
 
@@ -169,7 +169,7 @@ Total de beneficios/comercios: 742
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| Biggie Farma | 30%; 10% de reintegro; 20% de reintegro; 20% de descuento | los martes | Vigente hasta el 29 de septiembre del 2026 | No especificado |
+| Biggie Farma | 30%; 10% de reintegro; 20% de reintegro; 20% de descuento | los martes | Vigente hasta el 05 de septiembre del 2027 | No especificado |
 | Drugstore - Asismed | 10% de reintegro; 32% de descuento; 17% de descuento | Los martes | Vigente hasta el 29 de junio de 2027 | Asunción |
 | Farma Lorena | 20%; 20% de reintegro | Los martes | Vigente hasta el 12 de agosto de 2027 | Concepción |
 | Farma San Juan | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de agosto de 2027 | San Juan Bautista |
