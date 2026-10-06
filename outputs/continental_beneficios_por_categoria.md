@@ -456,8 +456,8 @@ Total de beneficios/comercios: 742
 | El Negro Suplementos - Privilege | 35%; Hasta 12 cuotas sin intereses; 15% de reintegro; 35% de descuento | todos los días | Vigente hasta el 17 de junio de 2027 | Asunción |
 | Energy - Privilege | 25% de reintegro | los viernes | Vigente hasta el 12 de marzo de 2027 | No especificado |
 | ISDIN - Privilege | hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre de 2026 | No especificado |
-| Meta Kids - Privilege | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
-| Meta Sports - Privilege | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
+| Meta Kids - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
+| Meta Sports - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Nike - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
 | O Boticário - Privilege | hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre del 2026 | No especificado |
 | Privilege - Peluquerías y Spa | 35%; 35% de reintegro | los sábados | Vigente hasta el 16 de enero del 2027 | No especificado |
@@ -644,7 +644,7 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | AL Store | 20%; 20% de reintegro | Los jueves | Vigente hasta el 17 de junio de 2027 | No especificado |
 | Active | 20%; 20% de reintegro | Los jueves | Vigente hasta el 19 de febrero de 2027 | Naranjal |
 | Acuario Comercial | 10%; 20% de reintegro | Los jueves | Vigente hasta el 06 de noviembre de 2026 | Concepción |
-| Adidas | 20%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
+| Adidas | 20%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Agugu Bebés | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de agosto de 2027 | Asunción |
 | Alborada Super Store | 20%; 20% de reintegro | Los jueves | Vigente hasta el 15 de julio de 2027 | No especificado |
 | Alex Vidrios | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de enero de 2027 | Ma. Auxiliadora (Itapúa) |
