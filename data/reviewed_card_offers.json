@@ -1,0 +1,149 @@
+[
+  {
+    "bank": "Continental",
+    "merchant_name": "Moet Hennesy",
+    "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+    "detail_sha256": "9da0e18be38f249d8cd023d937e18caf3a32ced013417dd555a4e60eb61ff6e1",
+    "reviewed_at": "2026-10-07T17:41:32.692211+00:00",
+    "offers": [
+      {
+        "key": "base",
+        "offer_kind": "base",
+        "offer_label": "Dinelco, Clásica, Oro, Black e Infinite",
+        "verified_cards": "Tarjetas de crédito Dinelco, Clásica, Oro, Black e Infinite",
+        "benefit_summary": "20% de reintegro",
+        "benefit_type": "reintegro",
+        "raw_detail": "20% de reintegro, con Dinelco, Clásica, Oro, Black e Infinite. Límite de compra mensual de hasta Gs. 2.000.000 por cuenta de tarjeta. Válido pagando con tarjetas de crédito Continental. Exclusivo en POS Dinelco. Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR. No aplica para pagos online, a través de links de pago o POS virtuales. Vigente hasta el 14 de agosto de 2027. (*) No participan las tarjetas Prepagas, Gourmet Card ni Cabal. No acumulable con otras promociones. ( ) El Banco Continental S.A.E.C.A. se reserva el derecho de modificar o dar por finalizada la continuidad de esta u otra promoción en cualquier momento, de manera unilateral, sin incurrir en reclamo alguno por parte del cliente. ( *) Beneficio exclusivo para clientes del Banco Continental y para uso personal de los mismos. ( ) Para beneficiarse de la promoción, la factura del producto o servicio adquirido deberá ser emitida a nombre del titular o adicional de la tarjeta con la cual se abonó el pago."
+      },
+      {
+        "key": "premium",
+        "offer_kind": "premium",
+        "offer_label": "Privilege Continental",
+        "verified_cards": "Tarjetas de crédito Privilege Continental",
+        "benefit_summary": "25% de reintegro",
+        "benefit_type": "reintegro",
+        "raw_detail": "25% de reintegro, con Privilege Continental. Límite de compra mensual de hasta Gs. 2.000.000 por cuenta de tarjeta. Válido pagando con tarjetas de crédito Continental. Exclusivo en POS Dinelco. Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR. No aplica para pagos online, a través de links de pago o POS virtuales. Vigente hasta el 14 de agosto de 2027. (*) No participan las tarjetas Prepagas, Gourmet Card ni Cabal. No acumulable con otras promociones. ( ) El Banco Continental S.A.E.C.A. se reserva el derecho de modificar o dar por finalizada la continuidad de esta u otra promoción en cualquier momento, de manera unilateral, sin incurrir en reclamo alguno por parte del cliente. ( *) Beneficio exclusivo para clientes del Banco Continental y para uso personal de los mismos. ( ) Para beneficiarse de la promoción, la factura del producto o servicio adquirido deberá ser emitida a nombre del titular o adicional de la tarjeta con la cual se abonó el pago."
+      }
+    ]
+  },
+  {
+    "bank": "Itaú",
+    "merchant_name": "Fuschia",
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16657&c=10",
+    "detail_sha256": "94154eb1a746eacd2b4d1212f6100c6ddcbe1ed339154308d5feb389252922bb",
+    "reviewed_at": "2026-10-07T17:41:32.693208+00:00",
+    "offers": [
+      {
+        "key": "base-wallet",
+        "offer_kind": "base",
+        "offer_label": "DERMAGE",
+        "verified_cards": "Tarjetas de crédito Itaú. Adicional vía Google Pay o Apple Pay.",
+        "benefit_summary": "30% de ahorro + 10% adicional pagando vía Google Pay o Apple Pay; Hasta 10 cuotas sin intereses",
+        "benefit_type": "descuento",
+        "effective_percent": 30,
+        "raw_detail": "Del 1 al 29 de octubre 2026. Pagando con tus tarjetas de crédito de Itaú. Tenes 30% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses. Aplica los días jueves. Aplica en la góndola DERMAGE.",
+        "promotion_days": [
+          "jueves"
+        ],
+        "day_text": "Jueves en góndola DERMAGE",
+        "validity": "Desde 2026-10-01 hasta 2026-10-29"
+      }
+    ]
+  },
+  {
+    "bank": "Itaú",
+    "merchant_name": "Fuschia",
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16662&c=10",
+    "detail_sha256": "35b2cb4200085cf3c1ec1573942d664e832dd94ade8d2e8437b353ad9929bedd",
+    "reviewed_at": "2026-10-07T17:41:32.693208+00:00",
+    "offers": [
+      {
+        "key": "base-wallet",
+        "offer_kind": "base",
+        "offer_label": "Palma",
+        "verified_cards": "Tarjetas de crédito Itaú. Adicional con Visa vía Google Pay o Apple Pay.",
+        "benefit_summary": "20% de ahorro + 5% adicional pagando con Visa vía Google Pay o Apple Pay; Hasta 6 cuotas sin intereses",
+        "benefit_type": "descuento",
+        "effective_percent": 20,
+        "raw_detail": "Del 3 al 31 de octubre 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. Aplica los sábados en sucursal Palma.",
+        "promotion_days": [
+          "sábado"
+        ],
+        "day_text": "Sábados en sucursal Palma",
+        "validity": "Desde 2026-10-03 hasta 2026-10-31"
+      }
+    ]
+  },
+  {
+    "bank": "Sudameris",
+    "merchant_name": "CONCEPTS LA CUADRITA",
+    "source_url": "https://www.sudameris.com.py/beneficios/destacado/443/detalle",
+    "detail_sha256": "f57c9872eb5a9574747ac4a9fac6d03e98d7b4b632be92e55d9a0d602066f41f",
+    "reviewed_at": "2026-10-07T17:41:32.693208+00:00",
+    "offers": [
+      {
+        "key": "base",
+        "offer_kind": "base",
+        "offer_label": "Tarjetas de crédito de Sudameris",
+        "verified_cards": "Tarjetas de crédito de Sudameris",
+        "benefit_summary": "20% de reintegro",
+        "benefit_type": "reintegro",
+        "raw_detail": "20% de reintegro directo en extracto pagando con Tarjetas de crédito de Sudameris."
+      },
+      {
+        "key": "premium",
+        "offer_kind": "premium",
+        "offer_label": "Tarjetas de crédito Mastercard Black y Visa Infinite de Sudameris",
+        "verified_cards": "Tarjetas de crédito Mastercard Black y Visa Infinite de Sudameris",
+        "benefit_summary": "25% de reintegro",
+        "benefit_type": "reintegro",
+        "raw_detail": "25% de reintegro directo en extracto pagando con Tarjetas de crédito Mastercard Black y Visa Infinite de Sudameris."
+      },
+      {
+        "key": "installments",
+        "offer_kind": "base",
+        "offer_label": "Cuotas",
+        "verified_cards": "Tarjetas de crédito de Sudameris",
+        "benefit_summary": "Hasta 10 cuotas sin intereses",
+        "benefit_type": "cuotas_sin_intereses",
+        "raw_detail": "Hasta 10 cuotas sin intereses"
+      }
+    ]
+  },
+  {
+    "bank": "Sudameris",
+    "merchant_name": "TATANO POSADA BOUTIQUE",
+    "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle",
+    "detail_sha256": "976dd5bd2d81682525bace3c95d0326b9a3f64743d4334c7c074d4e1d83aef1a",
+    "reviewed_at": "2026-10-07T17:41:32.694205+00:00",
+    "offers": [
+      {
+        "key": "base",
+        "offer_kind": "base",
+        "offer_label": "Tarjetas de crédito de Sudameris",
+        "verified_cards": "Tarjetas de crédito de Sudameris",
+        "benefit_summary": "20% de descuento",
+        "benefit_type": "descuento",
+        "raw_detail": "20% de descuento en caja pagando con Tarjetas de crédito de Sudameris."
+      },
+      {
+        "key": "premium",
+        "offer_kind": "premium",
+        "offer_label": "Tarjetas de crédito Mastercard Black y Visa Infinite de Sudameris",
+        "verified_cards": "Tarjetas de crédito Mastercard Black y Visa Infinite de Sudameris",
+        "benefit_summary": "25% de descuento",
+        "benefit_type": "descuento",
+        "raw_detail": "25% de descuento en caja pagando con Tarjetas de crédito Mastercard Black y Visa Infinite de Sudameris."
+      },
+      {
+        "key": "installments",
+        "offer_kind": "base",
+        "offer_label": "Cuotas",
+        "verified_cards": "Tarjetas de crédito de Sudameris",
+        "benefit_summary": "Hasta 12 cuotas sin intereses (Aplica exclusivamente para pagos de alojamiento).",
+        "benefit_type": "cuotas_sin_intereses",
+        "raw_detail": "Hasta 12 cuotas sin intereses (Aplica exclusivamente para pagos de alojamiento)."
+      }
+    ]
+  }
+]

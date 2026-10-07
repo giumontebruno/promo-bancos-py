@@ -17,6 +17,7 @@ export function isDue(promo, now = new Date()) {
   return (promo.promotion_days || []).includes(today.weekday);
 }
 export function notificationBenefit(promo, level) {
+  if (promo.source_warning) return ''; // Do not notify disputed benefits as confirmed offers.
   const summary = String(promo.benefit_summary || '').replace(/\s+/g, ' ').trim();
   if (promo.bank === 'ueno bank' && promo.level_rules) {
     const rows = promo.level_benefits?.filter(row => row.level === level) || [];
@@ -31,5 +32,33 @@ export function notificationBenefit(promo, level) {
   if (!percentages.length || percentages.some(value => Number(value.replace('%', '')) > 100)) return '';
   if (!/reintegro|descuento|ahorro|pago con qr/i.test(summary) || summary.length > 350) return '';
   // Preserve payment and product qualifiers instead of promising the highest rate to everyone.
-  return summary;
+  return promo.campaign_id && promo.verified_cards ? `${summary} (${promo.verified_cards})` : summary;
 }
+
+export function favoriteNotifications(promotions, savedIds, aliases = {}, level = 1, now = new Date()) {
+  const favoriteKey = promo => promo.campaign_id || promo.id;
+  const keys = new Map(promotions.map(promo => [promo.id, favoriteKey(promo)]));
+  const favorites = new Set(savedIds.map(original => {
+    let id = original;
+    const seen = new Set();
+    while (aliases[id] && !seen.has(id)) {
+      seen.add(id);
+      id = aliases[id];
+    }
+    return keys.get(id) || id;
+  }));
+  const campaigns = new Map();
+  for (const promo of promotions) {
+    const key = favoriteKey(promo);
+    if (!favorites.has(key) || !isDue(promo, now)) continue;
+    const benefit = notificationBenefit(promo, level);
+    if (!benefit) continue;
+    const entry = campaigns.get(key) || { promo, benefits: new Set() };
+    entry.benefits.add(benefit);
+    campaigns.set(key, entry);
+  }
+  // Group only offers due today and keep every card/payment qualifier. A campaign
+  // gets one line even when several variants are eligible on the same date.
+  return [...campaigns.values()].map(({ promo, benefits }) => ({ promo, benefit: [...benefits].join(' / ') }));
+}
+

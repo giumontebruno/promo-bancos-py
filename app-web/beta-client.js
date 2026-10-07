@@ -92,24 +92,28 @@ async function event(kind) {
   try { await api('event', 'POST', { kind }); } catch { /* Analytics must never block the app. */ }
 }
 const favoriteWrites = new Map();
-async function favorite(promoId, selected) {
+async function favorite(promoId, selected, relatedIds = []) {
   if (!current) throw new Error('Ingresá con Google.');
   const account = current.email;
   const key = `${account}:${promoId}`;
-  const entry = favoriteWrites.get(key) || { promise: Promise.resolve(), confirmed: current.favorites.includes(promoId) };
-  current.favorites = selected ? [...new Set([...current.favorites, promoId])] : current.favorites.filter(id => id !== promoId);
+  const equivalent = new Set([promoId, ...relatedIds]);
+  const entry = favoriteWrites.get(key) || { promise: Promise.resolve(), confirmedIds: current.favorites.filter(id => equivalent.has(id)), relatedIds: new Set() };
+  relatedIds.forEach(id => entry.relatedIds.add(id));
+  entry.relatedIds.forEach(id => equivalent.add(id));
+  const remaining = current.favorites.filter(id => !equivalent.has(id));
+  current.favorites = selected ? [...remaining, promoId] : remaining;
   changed();
   const pending = entry.promise.catch(() => {}).then(async () => {
     if (current?.email !== account) throw new Error('La sesión cambió. Volvé a intentar.');
-    await api('favorite', selected ? 'PUT' : 'DELETE', {promoId});
-    entry.confirmed = selected;
+    await api('favorite', selected ? 'PUT' : 'DELETE', {promoId, relatedIds: [...entry.relatedIds]});
+    entry.confirmedIds = selected ? [promoId] : [];
   });
   entry.promise = pending;
   favoriteWrites.set(key, entry);
   try { await pending; if (selected) event('favorite_add'); }
   catch (error) {
     if (current?.email === account && entry.promise === pending) {
-      current.favorites = entry.confirmed ? [...new Set([...current.favorites,promoId])] : current.favorites.filter(id => id !== promoId);
+      current.favorites = [...current.favorites.filter(id => !equivalent.has(id)), ...entry.confirmedIds];
       changed();
     }
     throw error;
@@ -232,3 +236,4 @@ async function init() {
 window.PaybackBeta = { accessToken, favorite, level, event, get current() { return current; } };
 updateGate();
 init();
+

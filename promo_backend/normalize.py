@@ -19,6 +19,9 @@ DATA = ROOT / "data"
 REVIEWED_BENEFITS = json.loads((DATA / 'reviewed_benefits.json').read_text(encoding='utf-8')) if (DATA / 'reviewed_benefits.json').exists() else []
 
 
+REVIEWED_CARD_OFFERS = json.loads((DATA / 'reviewed_card_offers.json').read_text(encoding='utf-8'))
+
+
 SOURCE_FILES = [
     ("GNB", OUTPUTS / "gnb_beneficios_por_categoria.csv"),
     ("Familiar", OUTPUTS / "familiar_beneficios_por_categoria.csv"),
@@ -152,7 +155,7 @@ def detect_ordinal_weekdays(*texts):
         for raw, normalized in DAY_ALIASES.items():
             if re.search(rf"\b{re.escape(raw)}\b", day_text):
                 rules.append({"ordinal": ordinal, "day": normalized})
-    return [dict(t) for t in {tuple(rule.items()) for rule in rules}]
+    return [dict(t) for t in dict.fromkeys(tuple(rule.items()) for rule in rules)]
 
 
 def detect_benefit_type(text):
@@ -286,8 +289,14 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "verified_cards": first(row, "Tarjetas verificadas"),
         "original_source_text": first(row, "Texto original de la fuente"),
     }
+    for field, column in [('variant_review_reason', 'Revisión de variantes'), ('original_source_text', 'Texto original de la fuente')]:
+        if first(row, column):
+            normalized[field] = first(row, column)
+    normalized["benefit_type"] = row.get("Tipo de beneficio verificado") or normalized["benefit_type"]
     normalized["id"] = row_id(normalized)
     if row.get('Variante'):
+        if bank == 'Familiar':
+            normalized['campaign_id'] = normalized['id']
         normalized['id'] = hashlib.sha1((normalized['id'] + '|' + row['Variante']).encode()).hexdigest()[:16]
         normalized['offer_kind'] = row.get('Tipo de variante', 'base')
         normalized['offer_label'] = row.get('Etiqueta de variante', '')
@@ -347,9 +356,30 @@ def infer_ueno_category(category, merchant, group):
     return "Especiales"
 
 
+def reviewed_card_offers(promo):
+    for review in REVIEWED_CARD_OFFERS:
+        if any(promo.get(key) != review[key] for key in ('bank', 'merchant_name', 'source_url')):
+            continue
+        if hashlib.sha256(promo['raw_detail'].encode()).hexdigest() != review['detail_sha256']:
+            promo['source_warning'] = 'La fuente cambió desde la revisión de tarjetas; confirmar tasas y condiciones con el banco.'
+            return [promo]
+        offers = []
+        for verified in review['offers']:
+            item = dict(promo)
+            item.update({key: value for key, value in verified.items() if key != 'key'})
+            item['campaign_id'] = promo['id']
+            item['id'] = hashlib.sha1((promo['id'] + '|' + verified['key']).encode()).hexdigest()[:16]
+            item['original_source_text'] = promo['raw_detail']
+            item['source_reviewed_at'] = review['reviewed_at']
+            item['percentages'] = detect_percentages(item['benefit_summary'])
+            offers.append(item)
+        return offers
+    return [promo]
+
+
 def normalize_source_row(bank, row):
     if bank != "ueno bank":
-        return [normalize_row(bank, row)]
+        return reviewed_card_offers(normalize_row(bank, row))
     if should_skip_ueno_row(row):
         return []
     original_category = first(row, "Categoría", "Categoria", "category") or "Sin categoría"
@@ -514,3 +544,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

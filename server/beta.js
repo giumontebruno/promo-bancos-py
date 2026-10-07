@@ -58,13 +58,20 @@ export async function handleBeta(request, env) {
   }
   if (path === '/api/beta/favorite' && ['PUT', 'DELETE'].includes(request.method)) {
     const body = await bodyOf(request);
-    if (!/^[a-f0-9-]{16,40}$/.test(body.promoId || '')) return json({ error: 'Promoción inválida' }, 400);
+    const validId = id => typeof id === 'string' && /^[a-f0-9-]{16,40}$/.test(id);
+    const relatedIds = body.relatedIds ?? [];
+    if (!validId(body.promoId) || !Array.isArray(relatedIds) || relatedIds.length > 100 || relatedIds.some(id => !validId(id))) return json({ error: 'Promoción inválida' }, 400);
+    // The client supplies former/variant IDs for this favorite. Scope every change
+    // to the authenticated account and consolidate the campaign in one transaction.
+    const removeIds = [...new Set([body.promoId, ...relatedIds])].filter(id => request.method === 'DELETE' || id !== body.promoId);
+    const statements = removeIds.length ? [db.prepare(`DELETE FROM beta_favorites WHERE account_id=? AND promo_id IN (${removeIds.map(() => '?').join(',')})`).bind(user.id, ...removeIds)] : [];
     if (request.method === 'PUT') {
-      const result = await db.prepare(`INSERT OR IGNORE INTO beta_favorites(id,account_id,promo_id)
+      statements.push(db.prepare(`INSERT OR IGNORE INTO beta_favorites(id,account_id,promo_id)
         SELECT ?,?,? WHERE (SELECT COUNT(*) FROM beta_favorites WHERE account_id=?) < 100`)
-        .bind(crypto.randomUUID(), user.id, body.promoId, user.id).run();
+        .bind(crypto.randomUUID(), user.id, body.promoId, user.id));
+      const result = (await db.batch(statements)).at(-1);
       if (!result.meta.changes && !await db.prepare('SELECT id FROM beta_favorites WHERE account_id=? AND promo_id=?').bind(user.id, body.promoId).first()) return json({ error: 'Podés guardar hasta 100 favoritos.' }, 409);
-    } else await db.prepare('DELETE FROM beta_favorites WHERE account_id=? AND promo_id=?').bind(user.id, body.promoId).run();
+    } else await db.batch(statements);
     return json({ ok: true });
   }
   if (path === '/api/beta/event' && request.method === 'POST') {
@@ -101,3 +108,4 @@ export async function handleBeta(request, env) {
   }
   return json({ error: 'Ruta no disponible' }, 404);
 }
+

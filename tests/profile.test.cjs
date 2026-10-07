@@ -3,7 +3,9 @@ const assert = require('node:assert/strict');
 const { readFileSync } = require('node:fs');
 const vm = require('node:vm');
 const source = readFileSync('app-web/app.js', 'utf8');
-const render = source.slice(source.indexOf('function renderAlertsView()'), source.indexOf('function syncFavoriteAlerts()'));
+const favoriteStart = source.indexOf('function favoriteKey(');
+const favorite = source.slice(favoriteStart, source.indexOf('\nfunction ', favoriteStart + 1));
+const render = favorite + source.slice(source.indexOf('function renderAlertsView()'), source.indexOf('function syncFavoriteAlerts()'));
 function profile(account) {
   const context = {
     window: { PaybackBeta: { current: account } },

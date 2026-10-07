@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-10-07T17:48:21.479939+00:00",
+  "sources": [
+    {
+      "merchant": "COLOSO",
+      "url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a96de9480428d93b933149c_ByC - Coloso 2026.pdf",
+      "sha256": "163c0f2b814a8badb63d5a20fb43228bcd3a29a612545327dfed811f425a0866",
+      "matches_snapshot": true
+    },
+    {
+      "merchant": "OPTICA SANTA LUCIA",
+      "url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a3bebc1ab1f707eeea7a16e_BASES Y CONDICIONES - Optica Santa Lucia.pdf",
+      "sha256": "222cd30645f25030b88099a6d1ab577e98f9232dfb5f52d0f237c87efbfba7dd",
+      "matches_snapshot": true
+    },
+    {
+      "merchant": "DENOIR-SHOPPING MARISCAL",
+      "url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a720327c66ff566c4824c41_Martes Mariscal.pdf",
+      "sha256": "98628040e6fc481ab11232b33e038d45280455116e7716251a14623388828f27",
+      "matches_snapshot": true
+    },
+    {
+      "merchant": "FARMATITU",
+      "url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a4bc62cefddae7c3b787757_ByC - Farmatitu 2026.pdf",
+      "sha256": "6a60b774933401d317dd6b2253c3fc00995941003a3257f6ecb1b374080309ad",
+      "matches_snapshot": true
+    },
+    {
+      "merchant": "LAS HORTENSIAS HOTEL",
+      "url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/695432f6b81e4bd9c93c7815_ByC - Las Hortensias Hotel 2026.pdf",
+      "sha256": "073dc1e19c0fa08345538b04aa62f07e24594df2a71bc6247d4de18f0e127f37",
+      "matches_snapshot": true
+    },
+    {
+      "merchant": "FARMACIA ZULMI",
+      "url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a9ff65d949239f951872365_ByC - Farmacia Zulmi 2026.pdf",
+      "sha256": "cdafb4ba4ace630440da7ad24bf78437410f16c26c790c7382ebc48e01e95e31",
+      "matches_snapshot": true
+    },
+    {
+      "merchant": "ESSEN",
+      "url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/6954328f1925b64ce6b98e9c_ByC - Essen 2026.pdf",
+      "sha256": "be887c95a29a22682d568155d36a8769d0f365b0203e060aa3df0fc2b03eef39",
+      "matches_snapshot": true
+    },
+    {
+      "url": "https://www.sudameris.com.py/beneficios/destacado/443/detalle",
+      "sha256": "9f5b4dadfba6a73e4c4d3841f521fdaabf91403b9cdf8801652d25c7b49f15e6"
+    },
+    {
+      "url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle",
+      "sha256": "40f478298255f2f14b95e47374180cd87250e025b7b9596ba1e979dd0ec14074"
+    },
+    {
+      "url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "status": 200,
+      "sha256": "0c552efcc55b66edf18b6d90607598009ac22dd5ea73638f17a9ffc6938e1268"
+    },
+    {
+      "url": "https://www.itau.com.py/beneficios2/Detalle?b=16662&c=10",
+      "status": 200,
+      "sha256": "ae7202b158346437fa3c0efd6a815d30144a8d87cb99fd601d4b064172cc4adc"
+    },
+    {
+      "url": "https://www.itau.com.py/beneficios2/Detalle?b=16657&c=10",
+      "status": 200,
+      "sha256": "0a16a1a8e75bb8d252f89ebabdb158a41fd2c696007ee06ca19685d78767a78f"
+    },
+    {
+      "url": "https://www.familiar.com.py/promociones-tarjetas",
+      "status": 200,
+      "sha256": "33364fd2b82e4b521713bb5fe8b27b215674619f5e59589c3bbcb4f9ef0bddd9"
+    },
+    {
+      "url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=3",
+      "status": 200,
+      "sha256": "526c3ef5f63863ab6859d3d6d74fb58924cb7073a7b98c0b10771a6384c1167b"
+    },
+    {
+      "url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=13",
+      "status": 200,
+      "sha256": "507f767e4720f0905a775273b544f66a57e82154767fe88703740c0393af7d35"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a96de9480428d93b933149c_ByC - Coloso 2026.pdf",
+      "status": 200,
+      "sha256": "163c0f2b814a8badb63d5a20fb43228bcd3a29a612545327dfed811f425a0866"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a71f7503a764c3888c17eca_Martes Plaza Norte.pdf",
+      "status": 200,
+      "sha256": "2f920cbf5d2d15837ee037a74841579591b8335964911b8cca9cbab201e8d805"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a3adf5fccdc4ee5baff9eda_ByC - Paraná Hogar 2026.pdf",
+      "status": 200,
+      "sha256": "cbbe4c11309013c0d54c0b2c938fe2c91eb26b950b2b134c644656ae843c966b"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/695432f6b81e4bd9c93c7815_ByC - Las Hortensias Hotel 2026.pdf",
+      "status": 200,
+      "sha256": "073dc1e19c0fa08345538b04aa62f07e24594df2a71bc6247d4de18f0e127f37"
+    }
+  ]
+}

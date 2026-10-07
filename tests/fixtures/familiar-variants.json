@@ -1,0 +1,288 @@
+[
+  {
+    "bank": "Familiar",
+    "merchant_name": "DON TOWN",
+    "benefit_summary": "25% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "25%"
+    ],
+    "promotion_days": [
+      "jueves",
+      "viernes"
+    ],
+    "verified_cards": "Visa Platinum",
+    "id": "d5a594f1e58d9a85",
+    "campaign_id": "9764331fbf573291",
+    "offer_kind": "premium",
+    "offer_label": "Visa Platinum",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-10-01",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 800000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Límite de compra Gs. 800.000 mensual por tarjeta"
+        }
+      ],
+      "cards": [
+        "Visa Platinum"
+      ],
+      "exclusions": [
+        "No aplica a las tarjetas empresariales, Gourmet Cards ni Movil Cards"
+      ],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Familiar",
+    "merchant_name": "DON TOWN",
+    "benefit_summary": "20% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "jueves",
+      "viernes"
+    ],
+    "verified_cards": "Visa o Mastercard Oro/Gold, Visa o Mastercard Clásica, Positiva Visa y Positiva Bancardcheck",
+    "id": "593fceb672704c06",
+    "campaign_id": "9764331fbf573291",
+    "offer_kind": "base",
+    "offer_label": "Visa o Mastercard Oro/Gold, Visa o Mastercard Clásica, Positiva Visa y Positiva Bancardcheck",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-10-01",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 600000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Límite de compra Gs. 600.000 mensual por tarjeta"
+        }
+      ],
+      "cards": [
+        "Visa o Mastercard Oro/Gold, Visa o Mastercard Clásica, Positiva Visa y Positiva Bancardcheck"
+      ],
+      "exclusions": [
+        "No aplica a las tarjetas empresariales, Gourmet Cards ni Movil Cards"
+      ],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Familiar",
+    "merchant_name": "PARANÁ HOGAR",
+    "benefit_summary": "30% (Treinta) de reintegro en el extracto",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "30%"
+    ],
+    "promotion_days": [
+      "miércoles"
+    ],
+    "verified_cards": "Visa o MasterCard Clásica, Positiva Visa, Positiva BancardCheck, Visa o MasterCard Oro/Gold y Visa Platinum",
+    "id": "b923290b7b2b419d",
+    "campaign_id": "20b36436f74e2cce",
+    "offer_kind": "base",
+    "offer_label": "Visa o MasterCard Clásica, Positiva Visa, Positiva BancardCheck, Visa o MasterCard Oro/Gold y Visa Platinum",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-06-24",
+      "ends_on": "2026-12-30",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 10000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope máximo de compra mensual por tarjeta de crédito es de Gs. 10.000.000 y el tope"
+        },
+        {
+          "kind": "refund",
+          "amount": 3000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Máximo de reintegro mensual por tarjeta de crédito es de Gs. 3.000.000 en el extracto"
+        }
+      ],
+      "cards": [
+        "Visa o MasterCard Clásica, Positiva Visa, Positiva BancardCheck, Visa o MasterCard Oro/Gold y Visa Platinum"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Familiar",
+    "merchant_name": "PARANÁ HOGAR",
+    "benefit_summary": "Hasta 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "verified_cards": "Visa o Mastercard Clásica, Positiva Visa y Positiva BancardCheck",
+    "id": "77e40f00709c8e92",
+    "campaign_id": "20b36436f74e2cce",
+    "offer_kind": "base",
+    "offer_label": "Visa o Mastercard Clásica, Positiva Visa y Positiva BancardCheck",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-06-24",
+      "ends_on": "2026-12-30",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Visa o Mastercard Clásica, Positiva Visa y Positiva BancardCheck"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Familiar",
+    "merchant_name": "PARANÁ HOGAR",
+    "benefit_summary": "Hasta 24 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "verified_cards": "Visa o MasterCard Oro/Gold, y Visa Platinum",
+    "id": "5a27f39270441e0d",
+    "campaign_id": "20b36436f74e2cce",
+    "offer_kind": "base",
+    "offer_label": "Visa o MasterCard Oro/Gold, y Visa Platinum",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-06-24",
+      "ends_on": "2026-12-30",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Visa o MasterCard Oro/Gold, y Visa Platinum"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Familiar",
+    "merchant_name": "CEROGRADO-PLAZA NORTE",
+    "benefit_summary": "20% de reintegro + 5% adicional pagando con QR desde la aplicación de Banco Familiar; Hasta 10 cuotas sin intereses",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [
+      "martes"
+    ],
+    "verified_cards": "Tarjetas Oro y Clásicas",
+    "id": "3e0a1e2936899380",
+    "campaign_id": "ea35de1c16a48beb",
+    "offer_kind": "base",
+    "offer_label": "Tarjetas Oro y Clásicas",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-04-07",
+      "ends_on": "2026-12-01",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 10000000,
+          "currency": "PYG",
+          "period": null,
+          "evidence": "Límite de compra por tarjeta, por mes: Gs. 10.000.000"
+        }
+      ],
+      "cards": [
+        "Tarjetas Oro y Clásicas"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Tarjetas Oro y Clásicas: 20% de reintegro en el extracto + 5% adicional pagando con QR desde la aplicación de Banco Familiar, además hasta 10 cuotas sin intereses",
+        "Beneficios aplican únicamente a pagos realizados a través de la red Bancard/Infonet"
+      ],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Familiar",
+    "merchant_name": "CEROGRADO-PLAZA NORTE",
+    "benefit_summary": "25% de reintegro + 5% adicional pagando con QR desde la aplicación de Banco Familiar; Hasta 10 cuotas sin intereses",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "25%",
+      "5%"
+    ],
+    "promotion_days": [
+      "martes"
+    ],
+    "verified_cards": "Tarjetas Platinum",
+    "id": "fba15bc27b3f48f7",
+    "campaign_id": "ea35de1c16a48beb",
+    "offer_kind": "premium",
+    "offer_label": "Tarjetas Platinum",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-04-07",
+      "ends_on": "2026-12-01",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 10000000,
+          "currency": "PYG",
+          "period": null,
+          "evidence": "Límite de compra por tarjeta, por mes: Gs. 10.000.000"
+        }
+      ],
+      "cards": [
+        "Tarjetas Platinum"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Tarjetas Platinum: 25% de reintegro en el extracto + 5% adicional pagando con QR desde la aplicación de Banco Familiar, además hasta 10 cuotas sin intereses",
+        "Beneficios aplican únicamente a pagos realizados a través de la red Bancard/Infonet"
+      ],
+      "issues": [],
+      "status": "parsed"
+    }
+  }
+]

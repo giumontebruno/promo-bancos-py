@@ -1,0 +1,262 @@
+[
+  {
+    "bank": "Continental",
+    "category": "Bodegas",
+    "merchant_name": "Moet Hennesy",
+    "merchant_locations_or_group": "Asunción",
+    "benefit_summary": "25% de reintegro; 20% de reintegro",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "25%",
+      "20%"
+    ],
+    "promotion_days": [
+      "sábado"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Los sábados",
+    "validity": "Vigente hasta el 14 de agosto de 2027",
+    "source_period_end": "",
+    "caps_and_minimums": "Límite de compra mensual de hasta Gs; Gs. 2.000.000",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+    "source_page_url": "https://www.bancontinental.com.py/club-continental/comercios",
+    "raw_detail": "Los sábados, en Moët Hennessy. - 25% de reintegro, con Privilege Continental. - 20% de reintegro, con Dinelco, Clásica, Oro, Black e Infinite. Límite de compra mensual de hasta Gs. 2.000.000 por cuenta de tarjeta. Válido pagando con tarjetas de crédito Continental. Exclusivo en POS Dinelco. Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR. No aplica para pagos online, a través de links de pago o POS virtuales. Vigente hasta el 14 de agosto de 2027. (*) No participan las tarjetas Prepagas, Gourmet Card ni Cabal. No acumulable con otras promociones. ( ) El Banco Continental S.A.E.C.A. se reserva el derecho de modificar o dar por finalizada la continuidad de esta u otra promoción en cualquier momento, de manera unilateral, sin incurrir en reclamo alguno por parte del cliente. ( *) Beneficio exclusivo para clientes del Banco Continental y para uso personal de los mismos. ( ) Para beneficiarse de la promoción, la factura del producto o servicio adquirido deberá ser emitida a nombre del titular o adicional de la tarjeta con la cual se abonó el pago.",
+    "source_warning": "",
+    "verified_cards": "",
+    "original_source_text": "",
+    "id": "a6688802cc4b46bf",
+    "source_checked_at": "2026-10-07T14:27:16.746327+00:00",
+    "source_file_updated_at": "2026-09-22T12:37:04Z",
+    "terms": {
+      "version": 1,
+      "starts_on": null,
+      "ends_on": "2027-08-14",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 2000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Límite de compra mensual de hasta Gs. 2.000.000 por cuenta de tarjeta"
+        }
+      ],
+      "cards": [
+        "Tarjetas de crédito Continental"
+      ],
+      "exclusions": [
+        "No aplica para pagos online, a través de links de pago o POS virtuales"
+      ],
+      "additional": [
+        "Exclusivo en POS Dinelco",
+        "Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR"
+      ],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Itaú",
+    "category": "Belleza y Salud",
+    "merchant_name": "Fuschia",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "10 Cuotas sin intereses 40% Hasta; Tenes 30% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses",
+    "benefit_type": "descuento",
+    "percentages": [
+      "40%",
+      "30%",
+      "10%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "No especificado",
+    "validity": "2025-09-27 hasta 2026-10-29",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16657&c=10",
+    "source_page_url": "https://www.itau.com.py/beneficios2/Detalle?b=16657&c=10",
+    "raw_detail": "Del 1 al 29 de octubre 2026. Pagando con tus tarjetas de crédito de Itaú. Tenes 30% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses. Aplica los días jueves. Aplica en la góndola DERMAGE.",
+    "source_warning": "",
+    "verified_cards": "",
+    "original_source_text": "",
+    "id": "4c69b3b5410c9c8e",
+    "source_checked_at": "2026-10-07T14:26:41.508541+00:00",
+    "source_file_updated_at": "2026-09-25T12:47:59Z",
+    "terms": {
+      "version": 1,
+      "starts_on": null,
+      "ends_on": "2026-10-29",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito de Itaú"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Itaú",
+    "category": "Belleza y Salud",
+    "merchant_name": "Fuschia",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "25% Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses",
+    "benefit_type": "descuento",
+    "percentages": [
+      "25%",
+      "20%",
+      "5%"
+    ],
+    "promotion_days": [
+      "sábado"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Aplica los sábados",
+    "validity": "2025-09-27 hasta 2026-10-31",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16662&c=10",
+    "source_page_url": "https://www.itau.com.py/beneficios2/Detalle?b=16662&c=10",
+    "raw_detail": "Del 3 al 31 de octubre 2026. Pagando con tus tarjetas de crédito Itaú. Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. Aplica los sábados en sucursal Palma.",
+    "source_warning": "",
+    "verified_cards": "",
+    "original_source_text": "",
+    "id": "139f6f292f3647cc",
+    "source_checked_at": "2026-10-07T14:26:41.508541+00:00",
+    "source_file_updated_at": "2026-09-25T12:47:59Z",
+    "terms": {
+      "version": 1,
+      "starts_on": null,
+      "ends_on": "2026-10-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito Itaú"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Sudameris",
+    "category": "Gastronomía",
+    "merchant_name": "CONCEPTS LA CUADRITA",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20%; 25%; Hasta 10 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "25%"
+    ],
+    "promotion_days": [
+      "miércoles",
+      "jueves",
+      "viernes"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Miércoles a viernes",
+    "validity": "• Miércoles a viernes. • Desde el 04 de marzo hasta el 31 de diciembre 2026.",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.sudameris.com.py/beneficios/destacado/443/detalle",
+    "source_page_url": "https://www.sudameris.com.py/beneficios/destacado/443/detalle",
+    "raw_detail": "• 20% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. • 25% de reintegro directo en extracto pagando con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 10 cuotas sin intereses",
+    "source_warning": "",
+    "verified_cards": "",
+    "original_source_text": "",
+    "id": "959edab9e74272ef",
+    "source_checked_at": "2026-10-07T14:25:36.123702+00:00",
+    "source_file_updated_at": "2026-10-06T14:13:39Z",
+    "terms": {
+      "version": 1,
+      "starts_on": null,
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito Mastercard Black y Visa Infinite de Sudameris"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Sudameris",
+    "category": "Viajes y turismo",
+    "merchant_name": "TATANO POSADA BOUTIQUE",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20%; 25%; Hasta 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "20%",
+      "25%"
+    ],
+    "promotion_days": [
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Martes a domingo",
+    "validity": "• Martes a domingo. • Desde el 07 de abril 2026 hasta el 31 de diciembre 2026.",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle",
+    "source_page_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle",
+    "raw_detail": "• 20% de descuento en caja con tarjetas de crédito de Sudameris. • 25% de descuento en caja con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 12 cuotas sin intereses (Aplica exclusivamente para pagos de alojamiento).",
+    "source_warning": "",
+    "verified_cards": "",
+    "original_source_text": "",
+    "id": "94baa749ea2b36db",
+    "source_checked_at": "2026-10-07T14:25:36.123702+00:00",
+    "source_file_updated_at": "2026-09-22T12:37:04Z",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-04-07",
+      "ends_on": "2026-12-31",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito Mastercard Black y Visa Infinite de Sudameris"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  }
+]

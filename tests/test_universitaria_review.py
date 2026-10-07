@@ -52,7 +52,11 @@ class UniversitariaReviewTests(unittest.TestCase):
     def test_saved_output_matches_review_and_has_distinct_variants(self):
         with (ROOT / "outputs/universitaria_beneficios_por_categoria.csv").open(encoding="utf-8-sig", newline="") as handle:
             saved = list(csv.DictReader(handle))
-        self.assertEqual(len(saved), len(self.rows))
+        # The daily refresh has its own source capture; the 2026-09 fixture above
+        # is deliberately fixed and need not equal today's published catalog.
+        report = json.loads((ROOT / "outputs/universitaria_review_report.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(saved), report["published_variants"])
+        self.assertTrue(all(row["Bases y condiciones URL"].startswith("https://www.universitaria.coop/") for row in saved))
         variants = [row["Variante"] for row in saved if row["Variante"]]
         self.assertEqual(len(variants), len(set(variants)))
         self.assertFalse(any(re.search(r"^todos los|^en productos seleccionados$", row["Cantidad de descuento / beneficio"], re.I)
