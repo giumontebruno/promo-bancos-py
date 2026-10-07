@@ -67,7 +67,7 @@ Total de beneficios/comercios: 744
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| Contimarket - 25% | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
+| Contimarket - 25% | 50%; 50% de reintegro | No especificado | No especificado | Todo el país |
 | Contimarket.com | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 
 ## Deportes (10)

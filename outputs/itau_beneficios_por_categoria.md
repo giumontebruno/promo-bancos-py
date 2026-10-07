@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 119
+Total de beneficios: 121
 
 ## Alemania Cell
 
@@ -108,6 +108,7 @@ Total de beneficios: 119
 |---|---|---|---|
 | APRENDIENDO A QUERER-ME | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-11-19 |
 | LA JENNY | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-11-29 |
+| PASSLINE | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2026-10-07 hasta 2026-12-31 |
 | RESET UNIPERSONAL STAND UP | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-10-23 |
 
 ## Tecnología
@@ -206,5 +207,6 @@ Total de beneficios: 119
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Laguna Blanca | 6 Cuotas sin intereses 30 %; 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-11-18 hasta 2026-10-10 |
+| Sara Comercial | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2025-01-22 hasta 2026-10-10 |
 | Tienda Móvil | 18 Cuotas sin intereses; hasta 18 cuotas sin intereses | No especificado | 2025-01-24 hasta 2026-10-10 |
 
