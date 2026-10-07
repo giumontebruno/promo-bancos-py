@@ -670,6 +670,7 @@ function getMainBenefit(promo, variant = null) {
 
 function getBenefitLines(promo, variant = null) {
   const text = String(getMainBenefit(promo, variant) || promo.benefit_summary || "Ver detalle");
+  if (promo.bank === 'Itaú' && promo.effective_percent && /Google Pay|Apple Pay/i.test(text)) return [text];
   if (promo.bank === "Itaú" && normalizeDayName(promo.merchant_name || "") === "punto farma" && /hasta\s+35%/i.test(text)) {
     return ["Hasta 35% descuento · QR"];
   }
@@ -2406,6 +2407,7 @@ function sortByDayDisplayPriority(a, b) {
 function getEstimatedSavings(promo, amount = null, variant = null) {
   const level = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   const percent = promo.effective_percent || percentNumber(variant?.benefit || level?.percent || getMainBenefit(promo) || promo.benefit_summary);
+  if (promo.source_warning) return { percent, purchaseCap: 0, refundCap: 0, explicitRefundCap: 0, minimum: 0, capped: false, belowMinimum: false, unconfirmed: true };
   let unconfirmedVariantCaps = false;
   let limits = promo.terms?.limits || PaybackBenefits.explicitLimits(promo.raw_detail || promo.caps_and_minimums || "");
   const structuredLevel = promo.level_benefits?.filter(row => row.level === state.uenoLevel);

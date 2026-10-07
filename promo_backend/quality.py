@@ -192,7 +192,11 @@ def deduplicate(promotions):
                 aliases[promo["id"]] = seen[fingerprint]
             continue
         if promo["id"] in ids:
-            promo["id"] += "-" + fingerprint[:8]
+            # Keep legacy collision IDs stable when extending the dedup key.
+            legacy = hashlib.sha256(json.dumps([key(promo.get(f)) for f in fields[:9]],
+                                               ensure_ascii=False).encode()).hexdigest()
+            candidate = promo["id"] + "-" + legacy[:8]
+            promo["id"] = candidate if candidate not in ids else candidate + "-" + fingerprint[:8]
         ids.add(promo["id"])
         seen[fingerprint] = promo["id"]
         promo["terms"] = normalize_terms(promo)

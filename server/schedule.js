@@ -17,6 +17,7 @@ export function isDue(promo, now = new Date()) {
   return (promo.promotion_days || []).includes(today.weekday);
 }
 export function notificationBenefit(promo, level) {
+  if (promo.source_warning) return ''; // Do not notify disputed benefits as confirmed offers.
   const summary = String(promo.benefit_summary || '').replace(/\s+/g, ' ').trim();
   if (promo.bank === 'ueno bank' && promo.level_rules) {
     const rows = promo.level_benefits?.filter(row => row.level === level) || [];

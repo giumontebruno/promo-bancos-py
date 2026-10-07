@@ -1,6 +1,8 @@
 import unittest
 
-from promo_backend.quality import favorite_aliases
+from promo_backend.quality import favorite_aliases, deduplicate, key
+import hashlib
+import json
 
 
 class FavoriteCampaignTests(unittest.TestCase):
@@ -24,6 +26,15 @@ class FavoriteCampaignTests(unittest.TestCase):
     def test_two_distinct_campaigns_still_remain_ambiguous(self):
         alternatives = [self.current[0], {**self.current[1], 'campaign_id': 'other-campaign'}]
         self.assertEqual(favorite_aliases([{**self.old, 'id': 'old'}], alternatives), {})
+
+    def test_dedup_schema_extension_keeps_legacy_collision_ids(self):
+        first = {**self.old, 'bank': 'BNF', 'benefit_summary': '20% de descuento', 'source_url': 'https://example.invalid'}
+        second = {**first, 'benefit_summary': '30% de descuento'}
+        fields = ('bank', 'merchant_name', 'merchant_locations_or_group', 'benefit_summary',
+                  'day_text', 'validity', 'caps_and_minimums', 'level_rules', 'raw_detail')
+        legacy = hashlib.sha256(json.dumps([key(second.get(f)) for f in fields], ensure_ascii=False).encode()).hexdigest()[:8]
+        rows, _ = deduplicate([first, second])
+        self.assertEqual(rows[1]['id'], 'campaign-' + legacy)
 
     def test_other_banks_keep_legacy_one_to_one_aliasing(self):
         old = {**self.old, 'bank': 'Other', 'id': 'old'}

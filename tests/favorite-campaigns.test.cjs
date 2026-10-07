@@ -82,3 +82,9 @@ test('failed or rapid account changes restore the original equivalent favorite I
   await Promise.allSettled([first, second, third]);
   assert.deepEqual([...ctx.current.favorites], variants.map(p => p.id));
 });
+
+test('source conflicts are withheld from automated discount notifications', async () => {
+  const { favoriteNotifications } = await import('../server/schedule.js');
+  const conflicted = variants.map(p => ({...p,source_warning:'PDF and listing disagree'}));
+  assert.deepEqual(favoriteNotifications(conflicted,[campaign],{},1,new Date('2026-10-08T15:00:00Z')),[]);
+});

@@ -1,6 +1,6 @@
 {
   "checked_at": "2026-10-07T14:25:05.964432+00:00",
-  "published": 242,
+  "published": 416,
   "pending": [
     {
       "merchant_name": "CECOTEC-SHOPPING MARIANO",
@@ -26,6 +26,12 @@
       "merchant_name": "BELLEZA Y SPA PLATINUM",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-belleza-y-spa-platinum",
       "reason": "unconfirmed_cards"
+    },
+    {
+      "merchant_name": "OPTICA SANTA LUCIA",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-optica-santa-lucia",
+      "reason": "complex_monetary_and_installment_variants",
+      "retained_unsplit": true
     },
     {
       "merchant_name": "GASTRO - PLAZA NORTE",

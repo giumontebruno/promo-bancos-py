@@ -54,3 +54,36 @@ test('unstructured card variants never imply an unlimited refund',()=>{
   assert.equal(savings.unconfirmed,true);
   assert.match(source,/if \(savings.unconfirmed\)/);
 });
+
+const reviews=JSON.parse(fs.readFileSync('data/reviewed_card_offers.json','utf8'));
+const reviewedOffers=(bank,merchant)=>reviews.filter(r=>r.bank===bank&&r.merchant_name===merchant).flatMap(r=>r.offers.map(o=>({...o,bank:r.bank,merchant_name:r.merchant_name,terms:{limits:context.PaybackBenefits.explicitLimits(o.raw_detail)}})));
+test('Moet scoped variants retain the shared 2m purchase limit',()=>{
+  const offers=reviewedOffers('Continental','Moet Hennesy');
+  assert.equal(offers.length,2);
+  for(const promo of offers){
+    const variant=context.getPromoVariants(promo)[0];
+    const savings=context.getEstimatedSavings(promo,3000000,variant);
+    assert.equal(savings.purchaseCap,2000000);
+    assert.equal(savings.refundCap,variant.kind==='premium'?500000:400000);
+    assert.equal(savings.capped,true);
+  }
+});
+test('Sudameris ordinary and premium discounts stay separate from financing',()=>{
+  for(const merchant of ['CONCEPTS LA CUADRITA','TATANO POSADA BOUTIQUE']){
+    const offers=reviewedOffers('Sudameris',merchant);
+    assert.equal(offers.length,3);
+    assert.deepEqual(offers.filter(p=>!context.isInstallmentsOnly(p)).map(p=>context.getPromoVariants(p)[0].benefit),merchant.startsWith('CONCEPTS')?['20% de reintegro','25% de reintegro']:['20% de descuento','25% de descuento']);
+    assert.equal(offers.filter(context.isInstallmentsOnly).length,1);
+  }
+});
+test('Itau wallet bonus is explicit but excluded from unconditional savings',()=>{
+  for(const promo of reviewedOffers('Itaú','Fuschia')){
+    const variant=context.getPromoVariants(promo)[0];
+    assert.match(context.getBenefitLines(promo,variant)[0],/Google Pay o Apple Pay/);
+    assert.equal(context.getEstimatedSavings(promo,1000000,variant).refundCap,promo.effective_percent*10000);
+  }
+});
+test('source conflicts suppress numeric estimates until verified',()=>{
+  const promo={bank:'Familiar',benefit_summary:'25% de reintegro',source_warning:'Listado y PDF difieren'};
+  assert.equal(context.getEstimatedSavings(promo,1000000).unconfirmed,true);
+});

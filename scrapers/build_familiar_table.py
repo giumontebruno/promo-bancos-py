@@ -109,6 +109,12 @@ def convert(row):
         'Tarjetas verificadas': cards[1].strip(' .'),
         'Detalle': ' '.join([mechanics] + [re.sub(r'^No participan', 'No aplica a', e, flags=re.I) for e in exclusions]),
         'Texto original de la fuente': text,
+        'Advertencia de fuente': (
+            'El listado oficial y el PDF difieren: listado «' + row.get('benefit_summary', '') +
+            '». Se muestran las cláusulas del PDF; confirmar condiciones con Banco Familiar.'
+            if set(re.findall(r'\d+\s*%', row.get('benefit_summary', '').replace(' ', ''))) !=
+               set(re.findall(r'\d+\s*%', '; '.join(benefit).replace(' ', ''))) else ''
+        ),
     }
 
 
