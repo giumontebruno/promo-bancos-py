@@ -120,6 +120,7 @@ const state = {
   activePlaceName: "",
   user: loadStoredJson(STORAGE_KEYS.user, null),
   favorites: new Set(loadStoredJson(STORAGE_KEYS.favorites, [])),
+  favoriteAliases: {},
   alertPrefs: loadStoredJson(STORAGE_KEYS.alertPrefs, { today: true, favorites: true }),
   collapsedSections: new Set(["Todos los dias", "Cuotas sin intereses todos los dias", "Otras ciudades"]),
   expandedSections: new Set(),
@@ -684,8 +685,8 @@ function getBenefitLines(promo, variant = null) {
   if (promo.bank === "GNB" && /\d+%\s+descuento\s+en\s+caja\s*\+\s*\d+%\s+reintegro/i.test(text)) {
     return [text];
   }
-  if (promo.bank === "Familiar" && !variant) {
-    const rates = [...text.matchAll(/(\d{1,2})\s*%\s*(?:de\s+)?(?:reintegro|descuento)/gi)].map(m => Number(m[1]));
+  if (promo.bank === "Familiar" && (!variant || promo.offer_kind)) {
+    const rates = [...text.matchAll(/(\d{1,2})\s*%\s*(?:\([^)]*\)\s*)?(?:de\s+)?(?:reintegro|descuento)/gi)].map(m => Number(m[1]));
     const values = [...new Set(rates)].sort((a,b) => a-b);
     if (values.length) {
       const range = values.length > 1 ? `${values[0]}–${values.at(-1)}% según condiciones` : `${values[0]}% ${promo.benefit_type}`;
@@ -1360,9 +1361,31 @@ function buildHomeSections(promos) {
   ].filter((section) => section[1].length);
 }
 
+function favoriteKey(promo) {
+  return promo.campaign_id || promo.id;
+}
+
+function canonicalFavoriteId(id) {
+  const seen = new Set();
+  while (state.favoriteAliases?.[id] && !seen.has(id)) {
+    seen.add(id);
+    id = state.favoriteAliases[id];
+  }
+  const promo = state.promotions.find(item => item.id === id);
+  return promo ? favoriteKey(promo) : id;
+}
+
+function normalizeFavoriteIds(ids) {
+  return new Set([...ids].map(canonicalFavoriteId));
+}
+
+function isFavoritePromotion(promo) {
+  return state.favorites.has(favoriteKey(promo));
+}
+
 function matchesActiveView(promo) {
   if (state.activeView !== "favorites") return true;
-  return state.favorites.has(promo.id);
+  return isFavoritePromotion(promo);
 }
 
 function matchesSelectedDay(promo) {
@@ -1411,9 +1434,9 @@ function renderAlertsView() {
 }
 
 function renderFavoriteAlerts() {
-  const today = state.promotions.filter(promo => state.favorites.has(promo.id) && isActivePromotion(promo) && appliesToSelectedDay(promo, "hoy"));
+  const today = new Set(state.promotions.filter(promo => isFavoritePromotion(promo) && isActivePromotion(promo) && appliesToSelectedDay(promo, "hoy")).map(favoriteKey));
   return `<div class="favorite-alerts"><div><span class="filter-label">Tu agenda de beneficios</span>
-    <h2>${today.length ? `${today.length} favoritos disponibles hoy` : "No te pierdas tus favoritos"}</h2>
+    <h2>${today.size ? `${today.size} favoritos disponibles hoy` : "No te pierdas tus favoritos"}</h2>
     <p>${PaybackPush.enabled() ? "Notificaciones de tus favoritos activadas en este dispositivo." : "Activá las notificaciones para recibir un recordatorio el día de las promociones que guardaste."}</p></div>
     <button type="button" class="notification-action" data-push-action="${PaybackPush.enabled() ? "disable" : "enable"}">${PaybackPush.enabled() ? "Desactivar notificaciones" : "Activar notificaciones"}</button>
     ${PaybackPush.enabled() ? '<button type="button" class="notification-action" data-push-action="test">Probar notificación</button>' : ''}
@@ -2291,8 +2314,11 @@ async function loadLocations() {
 
 function toggleFavorite(id) {
   if (!id) return;
+  id = canonicalFavoriteId(id);
+  state.favorites = normalizeFavoriteIds(state.favorites);
   if (window.PaybackBeta?.current) {
-    PaybackBeta.favorite(id, !state.favorites.has(id)).catch(error => {
+    const relatedIds = PaybackBeta.current.favorites.filter(saved => canonicalFavoriteId(saved) === id && saved !== id);
+    PaybackBeta.favorite(id, !state.favorites.has(id), relatedIds).catch(error => {
       state.pushMessage = error.message;
       els.statusText.textContent = error.message;
     });
@@ -2380,6 +2406,7 @@ function sortByDayDisplayPriority(a, b) {
 function getEstimatedSavings(promo, amount = null, variant = null) {
   const level = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   const percent = promo.effective_percent || percentNumber(variant?.benefit || level?.percent || getMainBenefit(promo) || promo.benefit_summary);
+  let unconfirmedVariantCaps = false;
   let limits = promo.terms?.limits || PaybackBenefits.explicitLimits(promo.raw_detail || promo.caps_and_minimums || "");
   const structuredLevel = promo.level_benefits?.filter(row => row.level === state.uenoLevel);
   if (structuredLevel?.length === 1 && !variant) {
@@ -2388,12 +2415,15 @@ function getEstimatedSavings(promo, amount = null, variant = null) {
   } else if ((variant && !promo.offer_kind) || (promo.bank === "ueno bank" && /nivel/i.test(promo.level_rules || ""))) {
     const levelBlock = (promo.caps_and_minimums || "").match(new RegExp(`nivel\\s*${state.uenoLevel}\\s*:[^;]+`, "i"))?.[0];
     limits = levelBlock && !variant ? PaybackBenefits.explicitLimits(levelBlock) : [];
+    unconfirmedVariantCaps = Boolean(variant && !promo.offer_kind);
   }
+  if (unconfirmedVariantCaps) return { percent, purchaseCap: 0, refundCap: 0, explicitRefundCap: 0, minimum: 0, capped: false, belowMinimum: false, unconfirmed: true };
   const purchaseCap = PaybackBenefits.uniqueLimit(limits, "purchase");
   const explicitRefundCap = PaybackBenefits.uniqueLimit(limits, "refund");
   const minimum = PaybackBenefits.uniqueLimit(limits, "minimum");
   const calculated = PaybackBenefits.calculate({ percent, purchaseCap, refundCap: explicitRefundCap, minimum, amount });
-  const max = purchaseCap ? calculated.estimated : explicitRefundCap;
+  const hasMonetaryBenefit = Number.isFinite(Number(percent)) && Number(percent) > 0 && Number(percent) <= 100;
+  const max = hasMonetaryBenefit ? (purchaseCap ? calculated.estimated : explicitRefundCap) : 0;
   return { percent, purchaseCap, refundCap: amount == null ? max : calculated.estimated, explicitRefundCap,
     minimum, capped: calculated.capped, belowMinimum: calculated.belowMinimum };
 }
@@ -2837,10 +2867,11 @@ function renderCard(promo, variant = null) {
   const categoryGroup = getPromoCategoryGroup(promo);
   const isPowerPromo = isUenoPowerPromo(promo);
   const isPremium = variant?.kind === "premium";
-  const isFavorite = state.favorites.has(promo.id);
+  const isFavorite = isFavoritePromotion(promo);
   const levelDetails = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   const savings = getEstimatedSavings(promo, null, variant);
-  const savingsLabel = savings.refundCap ? `Ahorro max. ${formatGuarani(savings.refundCap)}` : "";
+  const conditionalQr = promo.bank === "Familiar" && /\+\s*\d+%\s*adicional pagando con QR/i.test(promo.benefit_summary || "");
+  const savingsLabel = savings.refundCap ? `${conditionalQr ? "Ahorro base max." : "Ahorro max."} ${formatGuarani(savings.refundCap)}` : "";
   const logoClass = `bank-logo-${normalizeDayName(promo.bank).replace(/[^a-z0-9]+/g, "-")}`;
   const merchantLogo = getMerchantLogo(promo);
   const premiumBadge = isPremium ? `<span class="premium-badge">${escapeHtml(variant.label)}</span>` : "";
@@ -2864,7 +2895,7 @@ function renderCard(promo, variant = null) {
         </div>
         ${benefitScope ? `<p class="benefit-scope">${escapeHtml(benefitScope)}</p>` : ""}
         ${savingsLabel ? `<div class="savings-line">${escapeHtml(savingsLabel)}</div>` : ""}
-        ${promo.verified_cards ? `<p class="eligible-card-label">${escapeHtml(promo.bank === "Familiar" && promo.verified_cards.length > 100 ? "Tarjetas de crédito Familiar" : promo.verified_cards.replace(/^Tarjetas de crédito\s+/i, ""))}</p>` : ""}
+        ${promo.verified_cards ? `<p class="eligible-card-label">${escapeHtml(promo.bank === "Familiar" && !promo.offer_kind && promo.verified_cards.length > 100 ? "Tarjetas de crédito Familiar" : promo.verified_cards.replace(/^Tarjetas de crédito\s+/i, ""))}</p>` : ""}
         ${promo.source_warning ? `<p class="source-warning-label">Tope pendiente de aclaración del banco</p>` : ""}
         ${levelDetails ? renderUenoLevelCaps(levelDetails) : ""}
         <p class="bank-card-line">${escapeHtml(getBankLabel(promo.bank))} · ${escapeHtml(categoryGroup)}</p>
@@ -2884,7 +2915,7 @@ function openDetail(id, variantKey = "", placeId = "") {
   if (!promo) return;
   window.PaybackBeta?.event('promo_open');
   const variant = getVariantByKey(promo, variantKey);
-  const isFavorite = state.favorites.has(promo.id);
+  const isFavorite = isFavoritePromotion(promo);
   const levelDetails = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   const savings = getEstimatedSavings(promo, null, variant);
   els.dialogContent.innerHTML = `
@@ -2923,10 +2954,11 @@ async function loadPromotions() {
   if (manifestResponse?.ok) {
     const manifest = await manifestResponse.json();
     state.lastUpdated = manifest.generated_at || "";
-    state.favorites = new Set([...state.favorites].map(id => manifest.favorite_aliases?.[id] || id));
-    if (!window.PaybackBeta?.current) saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
+    state.favoriteAliases = manifest.favorite_aliases || {};
   }
   state.promotions = uniquePromos((await response.json()).filter(shouldShowPromotion));
+  state.favorites = normalizeFavoriteIds(state.favorites);
+  if (!window.PaybackBeta?.current) saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
   syncFavoriteAlerts();
   render();
 }
@@ -3131,6 +3163,7 @@ els.dialogContent.addEventListener("input", (event) => {
   }
   const variant = getVariantByKey(promo, wrapper.dataset.calculatorVariant);
   const savings = getEstimatedSavings(promo, amount, variant);
+  if (savings.unconfirmed) { output.textContent = "El tope de esta tarjeta no está confirmado. Consultá las bases antes de estimar el ahorro."; return; }
   if (savings.belowMinimum) { output.textContent = `La compra mínima es ${formatGuarani(savings.minimum)}.`; return; }
   const capText = savings.capped
     ? " porque alcanzaste el tope."
@@ -3170,7 +3203,7 @@ els.refreshButton.addEventListener("click", () => loadPromotions().catch((error)
 }));
 
 window.addEventListener('beta-account', event => {
-  state.favorites = new Set(event.detail ? event.detail.favorites : loadStoredJson(STORAGE_KEYS.favorites, []));
+  state.favorites = normalizeFavoriteIds(event.detail ? event.detail.favorites : loadStoredJson(STORAGE_KEYS.favorites, []));
   state.uenoLevel = event.detail ? event.detail.uenoLevel : loadStoredJson('paybackPy.uenoLevel', 1);
   syncFavoriteAlerts();
   render();
@@ -3227,3 +3260,4 @@ document.addEventListener('click', async event => {
   };
   shareDialog.showModal();
 }, true);
+

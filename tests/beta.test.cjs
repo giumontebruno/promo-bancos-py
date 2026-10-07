@@ -63,3 +63,37 @@ test('beta is disabled without provider configuration', async () => {
   assert.equal(validEvent({ kind: 'directions', latitude: -25 }), false);
   assert.equal(validEvent({ kind: 'unknown' }), false);
 });
+
+test('campaign favorite consolidation is atomic, account-scoped and preserves the 100 favorite limit', async () => {
+  const { handleBeta } = await beta;
+  const originalFetch = global.fetch;
+  global.fetch = async (_url, options) => {
+    const id = options.headers.Authorization.replace('Bearer ', '');
+    return Response.json({ id, email: id + '@test.invalid', email_confirmed_at: '2026-01-01' });
+  };
+  const env = { DB: database(), SUPABASE_URL: 'https://auth.test.invalid', SUPABASE_PUBLISHABLE_KEY: 'public' };
+  const call = (user, method, body) => handleBeta(new Request('https://app.test/api/beta/favorite', { method, headers: { Authorization: 'Bearer ' + user }, body: JSON.stringify(body) }), env);
+  const ids = async user => (await env.DB.prepare('SELECT promo_id FROM beta_favorites WHERE account_id=? ORDER BY promo_id').bind(user).all()).results.map(row => row.promo_id);
+  const campaign = 'a'.repeat(16), first = 'b'.repeat(16), second = 'c'.repeat(16);
+  try {
+    await call('alice', 'PUT', { promoId: first });
+    await call('alice', 'PUT', { promoId: second });
+    await call('bob', 'PUT', { promoId: first });
+    assert.equal((await call('alice', 'PUT', { promoId: campaign, relatedIds: [first, second] })).status, 200);
+    assert.deepEqual(await ids('alice'), [campaign]);
+    assert.deepEqual(await ids('bob'), [first]);
+    await call('alice', 'PUT', { promoId: first });
+    await call('alice', 'DELETE', { promoId: campaign, relatedIds: [first, second] });
+    assert.deepEqual(await ids('alice'), []);
+    assert.deepEqual(await ids('bob'), [first]);
+    assert.equal((await call('bob', 'DELETE', { promoId: first, relatedIds: ['invalid'] })).status, 400);
+    assert.equal((await call('bob', 'DELETE', { promoId: first, relatedIds: Array(101).fill(second) })).status, 400);
+    assert.deepEqual(await ids('bob'), [first]);
+    for (let n = 0; n < 100; n++) await env.DB.prepare('INSERT INTO beta_favorites(id,account_id,promo_id) VALUES (?,?,?)').bind('full-' + n, 'alice', n.toString(16).padStart(16, '0')).run();
+    assert.equal((await call('alice', 'PUT', { promoId: campaign })).status, 409);
+    assert.equal((await call('alice', 'PUT', { promoId: campaign, relatedIds: ['0'.repeat(16)] })).status, 200);
+    assert.equal((await ids('alice')).length, 100);
+    assert.ok((await ids('alice')).includes(campaign));
+  } finally { global.fetch = originalFetch; }
+});
+

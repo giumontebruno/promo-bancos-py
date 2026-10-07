@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from promo_backend.normalize import detect_days, detect_month_days, detect_ordinal_weekdays
+from scrapers.familiar_offers import split_offers
 
 MONTHS = {name: index + 1 for index, name in enumerate('enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre'.split())}
 
@@ -116,13 +117,21 @@ def main():
     rows, pending = [], []
     for record in source['records']:
         try:
-            rows.append(convert(record))
+            converted = convert(record)
         except ValueError as error:
             pending.append({'merchant_name': record['merchant_name'], 'source_url': record['source_url'], 'reason': str(error)})
+            continue
+        try:
+            rows.extend(split_offers(converted))
+        except ValueError as error:
+            # Preserve already verified coverage while surfacing unresolved segmentation.
+            converted['Revisión de variantes'] = str(error)
+            rows.append(converted)
+            pending.append({'merchant_name': record['merchant_name'], 'source_url': record['source_url'], 'reason': str(error), 'retained_unsplit': True})
     if not rows:
         raise ValueError('No verified Familiar records; previous catalog preserved')
     with (ROOT / 'outputs/familiar_beneficios_por_categoria.csv').open('w', encoding='utf-8-sig', newline='') as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(handle, fieldnames=list(dict.fromkeys(key for row in rows for key in row)))
         writer.writeheader()
         writer.writerows(rows)
     report = {'checked_at': source['checked_at'], 'published': len(rows), 'pending': pending}
@@ -132,3 +141,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

@@ -284,10 +284,14 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "raw_detail": full_detail,
         "source_warning": first(row, "Advertencia de fuente"),
         "verified_cards": first(row, "Tarjetas verificadas"),
+        "variant_review_reason": first(row, "Revisión de variantes"),
         "original_source_text": first(row, "Texto original de la fuente"),
     }
+    normalized["benefit_type"] = row.get("Tipo de beneficio verificado") or normalized["benefit_type"]
     normalized["id"] = row_id(normalized)
     if row.get('Variante'):
+        if bank == 'Familiar':
+            normalized['campaign_id'] = normalized['id']
         normalized['id'] = hashlib.sha1((normalized['id'] + '|' + row['Variante']).encode()).hexdigest()[:16]
         normalized['offer_kind'] = row.get('Tipo de variante', 'base')
         normalized['offer_label'] = row.get('Etiqueta de variante', '')
@@ -514,3 +518,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

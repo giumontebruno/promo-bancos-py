@@ -1,5 +1,5 @@
 import { buildPushPayload } from '@block65/webcrypto-web-push';
-import { isDue, notificationBenefit, todayParts } from './schedule.js';
+import { favoriteNotifications, todayParts } from './schedule.js';
 import { handleBeta, betaIdentity } from './beta.js';
 
 const APP_URL = 'https://giumontebruno.github.io/promo-bancos-py/app-web/';
@@ -100,8 +100,7 @@ async function handle(request, env) {
         device.favorites = JSON.stringify(saved.results.map(r => r.promo_id));
         device.ueno_level = account.ueno_level;
       }
-      const favorites = new Set(JSON.parse(device.favorites).map(id => aliases[id] || id));
-      const due = promotions.filter(p => favorites.has(p.id) && isDue(p)).map(p => ({ promo: p, benefit: notificationBenefit(p, device.ueno_level) })).filter(p => p.benefit);
+      const due = favoriteNotifications(promotions, JSON.parse(device.favorites), aliases, device.ueno_level);
       if (!due.length) continue;
       due.sort((a, b) => parseInt(b.benefit) - parseInt(a.benefit));
       const deliveryKey = `${device.id}:${todayParts().iso}${batch ? ':manual:' + batch : ''}`;
@@ -163,3 +162,4 @@ export default {
     }
   }
 };
+

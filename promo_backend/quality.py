@@ -181,7 +181,8 @@ def normalize_terms(promo):
 def deduplicate(promotions):
     unique, seen, ids, aliases = [], {}, set(), {}
     fields = ("bank", "merchant_name", "merchant_locations_or_group", "benefit_summary",
-              "day_text", "validity", "caps_and_minimums", "level_rules", "raw_detail")
+              "day_text", "validity", "caps_and_minimums", "level_rules", "raw_detail",
+              "verified_cards", "offer_kind", "offer_label")
     for original in promotions:
         promo = dict(original)
         fingerprint = hashlib.sha256(json.dumps([key(promo.get(f)) for f in fields],
@@ -215,13 +216,15 @@ def favorite_aliases(previous, current, existing=None):
         return tuple(key(promo.get(field)) for field in ('bank', 'merchant_name', 'category'))
     candidates = {}
     for promo in current:
-        candidates.setdefault(identity(promo), []).append(promo['id'])
-    ids = {p['id'] for p in current}
+        candidates.setdefault(identity(promo), set()).add(promo.get('campaign_id') or promo['id'])
+    # Campaign favorites outlive a split into several independently scheduled offers.
+    ids = {value for p in current for value in (p['id'], p.get('campaign_id')) if value}
     aliases = dict(existing or {})
     for promo in previous:
         matches = candidates.get(identity(promo), [])
-        if promo['id'] not in ids and len(matches) == 1:
-            aliases[promo['id']] = matches[0]
+        for old_id in {promo['id'], promo.get('campaign_id')} - {None, ''}:
+            if old_id not in ids and len(matches) == 1:
+                aliases[old_id] = next(iter(matches))
     for original, target in list(aliases.items()):
         seen = {original}
         while target in aliases and target not in seen:
@@ -232,3 +235,4 @@ def favorite_aliases(previous, current, existing=None):
         else:
             aliases.pop(original, None)
     return aliases
+
