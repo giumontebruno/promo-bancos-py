@@ -1,11 +1,12 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 154
+Total de promociones: 160
 
 ## Combustible
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| COPETROL Y COPEMARKET 2026 | 20% | 15 de cada mes; Todos los días | • 15 de cada mes. • Desde el 01 de julio hasta el 31 de diciembre 2026. |
 | ENEX Y APP MI ENEX | ESTACIONES DE SERVICIOS ENEX Y APP MI ENEX VIGENCIA • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer lunes de cada mes. • 6 de julio. • 3 de agosto. • 7 de se | primer lunes; Solo el primer lunes | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer lunes de cada mes. • 6 de julio. • 3 de agosto. • 7 de septiembre. • 5 de octubre. • 2 de noviembre. • 7 de diciembre. |
 | Estaciones de Servicio CCU | ECOP - Estaciones de Servicio CCU VIGENCIA • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer jueves de cada mes. • 02 de julio. • 06 de agosto. • 03 de septiem | primer jueves; Solo el primer jueves | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer jueves de cada mes. • 02 de julio. • 06 de agosto. • 03 de septiembre. • 01 de octubre. • 05 de noviembre. • 03 de diciembre. PETROBRAS - Estaciones  |
 
@@ -14,6 +15,7 @@ Total de promociones: 154
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | 6 cuotas sin interés | Todos los días | • Todos los días hasta el 31 de diciembre del 2026. |
+| CECCONELLO | 20%; Hasta 10 cuotas sin interés | No especificado | • Desde el 07 al 17 de octubre 2026. |
 | COLEGIO SAN ANDRÉS | Hasta 15 cuotas sin interés | No especificado | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. |
 | SASPY EXPRESS | 15%; 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | Desde el 01 de octubre hasta el 31 de diciembre 2026. |
 | SUDAMERIS GO- CUOTAS | Hasta 18 cuotas sin intereses | No especificado | • Del 12 de febrero del 2026 al 31 de diciembre del 2026. |
@@ -34,6 +36,7 @@ Total de promociones: 154
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES | ¡Disfrutá de Distrito Perseverancia todo el año! Aprovechá hasta 12 cuotas sin interés en locales adheridos. Vigencia: Del 03/08 al 31/12/2026. | No especificado | Del 03/08 al 31/12/2026. |
+| McLaren Mastercard Formula 1®Team | Sudameris te acerca la emoción del simulador oficial del McLaren Mastercard Formula 1® Team por primera vez en Paraguay. 📍 Distrito Perseverancia 🗓️ Del 21 de septiembre hasta el 1 | No especificado | No especificado |
 | PROMOCIÓN MCLAREN MASTERCARD F1 TEAM | Gs. 500.000 | No especificado | de la promoción y acumulá cupones digitales automáticamente para los sorteos, según las |
 
 ## Farmacias
@@ -41,6 +44,7 @@ Total de promociones: 154
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | BIGGIE FARMA | 10%; 20%; Hasta 12 cuotas sin interés | primer Jueves; Solo el primer Jueves | • Desde el 01 de julio hasta el 01 de octubre 2026. • Solo el primer Jueves de cada mes: • 02 de julio. • 06 de agosto. • 03 de septiembre. • 01 de octubre. |
+| DRUGSTORE ASISMED DESCUENTO EN CAJA | 10%; 100%; 17%; 32%; Hasta 12 cuotas sin intereses | Todos los martes | • Todos los martes. • Desde el 01 de julio hasta el 31 de diciembre 2026. |
 | FARMACENTER | 10%; 20%; Hasta 12 cuotas sin interés | primer miércoles; Solo el primer miércoles | • Desde el 01 de julio hasta el 31 de diciembre 2026. • Solo el primer miércoles de cada mes: • 01 de julio. • 05 de agosto. • 02 de septiembre. • 07 de octubre. • 04 de noviembre. • 02 de diciembre. |
 | FARMACIA CATEDRAL | 10%; 20%; 25%; Hasta 12 cuotas sin interés | Todos los lunes; Todos los Lunes | • Todos los lunes. • Desde el 1 de julio hasta el 31 de diciembre 2026. |
 
@@ -57,7 +61,7 @@ Total de promociones: 154
 | CLUB DEPORTIVO PUERTO SAJONIA (CDPS). | 10%; 20%; Hasta 36 cuotas sin interés; Tope de compra mensual Gs. 350.000; Tope de compra mensual Gs. 150.000; Tope mensual de compra Gs. 500.000; Gs. 350.000; Gs. 150.000; Gs. 500.000 | Todos los días | • Todos los días. • Desde el 01 de octubre 2026 hasta el 31 de julio de 2028. |
 | CLUB NAUTICO SAN BERNARDINO | 10%; 20%; 12 cuotas sin intereses; Tope de pago mensual: Gs. 500.000; Tope de compra mensual: Gs. 3.000.000; Tope de compra mensual: Gs. 500.000; Gs. 500.000; Gs. 3.000.000 | No especificado | • Hasta el 31 de octubre del 2026 |
 | CLUB SOCIAL ÁREA 1 (CDE) | 10%; 20%; hasta 12 cuotas sin intereses; Tope de compra mensual: Gs. 440.000; Tope de compra mensual: Gs. 50.000; Tope de compra mensual: Gs. 300.000; Gs. 440.000; Gs. 50.000; Gs. 300.000 | Todos los días; todos los días | • Todos los días. • Hasta el 30 de junio de 2028. |
-| CONCEPTS LA CUADRITA | 20%; 25%; Hasta 10 cuotas sin intereses | Miércoles a viernes | • Miércoles a viernes. • Desde el 04 de marzo hasta el 09 de octubre 2026. |
+| CONCEPTS LA CUADRITA | 20%; 25%; Hasta 10 cuotas sin intereses | Miércoles a viernes | • Miércoles a viernes. • Desde el 04 de marzo hasta el 31 de diciembre 2026. |
 | DE LA PEQUE | 20% DE REINTEGRO | JUEVES A SÁBADO | Desde 2026-08-06 hasta 2026-12-26 |
 | GROSSO | 20% DE REINTEGRO | MARTES A JUEVES | Desde 2026-08-04 hasta 2026-12-31 |
 | JARDÍN URBANO | 20% DE REINTEGRO | JUEVES A DOMINGO | Desde 2026-08-06 hasta 2026-12-31 |
@@ -74,12 +78,14 @@ Total de promociones: 154
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| MATERASSI | 10%; 30%; Hasta 12 cuotas sin interés | Miércoles a sábado | • Miércoles a sábado. • Desde el 19 de agosto hasta el 31 de diciembre 2026. |
 | PARANA HOGAR / COLCHONES | 30%; Hasta 12 cuotas sin intereses | Todos los viernes | • Todos los viernes. • Desde el 03 de agosto hasta el 31 de octubre 2026. |
 
 ## Moda
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| ADOLFO DOMINGUEZ | 20%; Hasta 10 cuotas sin interés | No especificado | • Desde el 07 y 08 de octubre 2026. |
 | YOUNIQUE | 25%; 30%; Hasta 12 cuotas sin interés | Todos los martes | • Todos los martes y miércoles. • Del 01 de setiembre hasta el 31 de octubre 2026. |
 
 ## Otros

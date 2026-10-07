@@ -12,12 +12,14 @@
   ],
   "Belleza y Salud": [
     "abe7a86b787fa0f7",
+    "a0d29a6196d74ed5",
     "4c69b3b5410c9c8e",
     "139f6f292f3647cc",
     "0384580047dfe962",
     "f0b8d88ff2a85ff1",
     "0323c816c23ff5a0",
-    "8a29c04ec9bb672a"
+    "8a29c04ec9bb672a",
+    "d399a9da48c46774"
   ],
   "Bienestar": [
     "532a4f732d61c330",
@@ -29,6 +31,7 @@
   "Bodegas": [
     "638706b63d39a0a0",
     "1c74300e664ee48b",
+    "1b2581bbb4fc3148",
     "a6688802cc4b46bf"
   ],
   "Caza y Pesca": [
@@ -59,6 +62,7 @@
     "9490270a6a10ec8c",
     "93cd91613e6b079d",
     "f5fe03cb71609b93",
+    "4199ab495a51eef9",
     "01d09343d5139084",
     "c2b46ea72556c68c",
     "a89917720a819e0b",
@@ -253,6 +257,7 @@
   ],
   "Cuotas y tarjetas": [
     "9898767b60dd8ac2",
+    "c5aff1b9334bee70",
     "4acc21c553fffa78",
     "11eeb1e1fc123148",
     "0f3c06520e621fe1",
@@ -364,6 +369,7 @@
   ],
   "Entretenimiento y experiencias": [
     "87b8f157c3aefeda",
+    "c786cc6e76b8b290",
     "35306a49768a9da9"
   ],
   "Especiales": [
@@ -467,6 +473,7 @@
     "399eb9b0de73a795",
     "a7d1509ab24dd910",
     "239dccd08e07136f",
+    "87e1b25b97ae381f",
     "69e6096277c0ccc6",
     "ebeec6561832b10e",
     "f5b1e6f516a6b16b",
@@ -598,6 +605,7 @@
     "3ea653535715ced9",
     "e885223cc108afb4",
     "8dc681b4edcc304a",
+    "9764331fbf573291",
     "beb829d775d3e855",
     "4e447e7c69e3a6da",
     "10220a5c2c475083",
@@ -613,6 +621,7 @@
     "ea8e9d53f5272746",
     "55a1debeebdbf6ad",
     "c5c736fd4fb11b39",
+    "e4b3489ca80a1396",
     "728785eb33a1cc4e",
     "a14803dc2af7019b",
     "412a64e4366383d5",
@@ -701,7 +710,7 @@
     "e3e814bfab76d967",
     "4daba2e6127d66b8",
     "1f96522f374dafb4",
-    "1b7f3aa0f3f3dc42",
+    "959edab9e74272ef",
     "a8640f695e6666cb",
     "e5ccf83e338869e1",
     "33ce97745f1a32b4",
@@ -805,6 +814,7 @@
     "845acbdf1c114502",
     "9a3f5446b1075025",
     "bccf3a686093b8af",
+    "f40804ca9707f103",
     "245c2e1c109ba3aa"
   ],
   "Hogar y construcción": [
@@ -871,9 +881,15 @@
   ],
   "Indumentaria": [
     "b5f14bdcdf7f1fff",
-    "790bab08cad62bb7",
+    "9160dcea2abd7186",
     "c4fa76931a452734",
     "75994d0c97d7ebc7",
+    "e91fa4ea30c42ef2",
+    "e4bb428b79c7f855",
+    "0a8d962ad6d0615b",
+    "52c1e730d20ff8d7",
+    "cf270cc861624882",
+    "5579087145d8061e",
     "187af41091bac104"
   ],
   "Industrial": [
@@ -947,6 +963,7 @@
     "fecd1bf4951a2de9",
     "54a6094822faf46d",
     "9719137a3d56ccbb",
+    "bb7dc1875728a926",
     "4c0bc847f272e127"
   ],
   "Mueblerías": [
@@ -1122,7 +1139,7 @@
     "2cdad7f49a7e44ca",
     "fa1a675dba59a4b5",
     "bdc669cc7e8e675c",
-    "d30842bcc08c972e",
+    "940b44ec1dd40641",
     "56fcadf3f2b00f6d",
     "f1a05157ed6ebdee",
     "4f5d4c2862f849c0",
@@ -1407,7 +1424,7 @@
     "6b807ec15544690d",
     "af7ddfca1d616ac7",
     "51000cb729bdb772",
-    "3dae4249cf36d101",
+    "046270a8a7f95cde",
     "0325c3e63ca0ab93",
     "ec0b5f3f2cccbc13",
     "5080e39c523dbdad",
@@ -1486,7 +1503,6 @@
     "3b15fd114bd5bb67",
     "e0c24fad744b97b2",
     "657822b86cbc5ab9",
-    "df6f73b548a4fb53",
     "ee3b8e30abbd808a"
   ],
   "Tiendas": [
@@ -1533,7 +1549,7 @@
     "0d02271a4cda923a",
     "0520175555d2a335",
     "e37dd09e25a81a2d",
-    "e8751168f8d6fe88",
+    "c2f411c737cf8fd1",
     "378553642f719a6b",
     "f3bfb9e48ac0b25b",
     "0403a0df26b8bcf4",
@@ -1664,6 +1680,7 @@
     "4296d10c06b8b29a",
     "4b289c705a8f02eb",
     "f5bd6d2185571a5c",
+    "c9903cf6b00a6fb5",
     "908153a9cd461128",
     "dfb9993a396d6417",
     "261213eceba0714a",
@@ -2190,7 +2207,6 @@
     "d2aca0ad7f174134",
     "98d303c2e15bdaa6",
     "59ff84e78e68505e",
-    "e8bce6ed9d484ec9",
     "1703b94ad35f2de9",
     "1eec6725fff6f020",
     "518f53877868169c",
@@ -2386,6 +2402,7 @@
     "924ba0241cdcd5e5"
   ],
   "Últimos días": [
-    "f981d05a0e2093f0"
+    "5e9e83932faddcaf",
+    "4c7b7ed82ebda7c1"
   ]
 }

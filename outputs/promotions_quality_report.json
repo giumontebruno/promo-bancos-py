@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06T14:13:37.185436+00:00",
-  "input_count": 2221,
-  "promotion_count": 2221,
+  "generated_at": "2026-10-07T14:32:12.697361+00:00",
+  "input_count": 2238,
+  "promotion_count": 2238,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -725,23 +725,27 @@
     "eb8d4d0c7f39fa64": "0f163fd773f66f02",
     "4500ec771475870f": "2c600f207db238ee",
     "609657535743699a": "cfb79f07d5fb529d",
-    "faffa4f8f35e4813": "dd1a8f168632e17b"
+    "faffa4f8f35e4813": "dd1a8f168632e17b",
+    "790bab08cad62bb7": "9160dcea2abd7186",
+    "d30842bcc08c972e": "940b44ec1dd40641",
+    "3dae4249cf36d101": "046270a8a7f95cde",
+    "1b7f3aa0f3f3dc42": "959edab9e74272ef"
   },
   "by_bank": {
     "Atlas": 34,
     "BNF": 77,
-    "Continental": 742,
+    "Continental": 744,
     "Coop. Universitaria": 72,
-    "Familiar": 240,
+    "Familiar": 242,
     "GNB": 463,
-    "Itaú": 112,
-    "Sudameris": 154,
+    "Itaú": 119,
+    "Sudameris": 160,
     "ueno bank": 327
   },
   "issue_counts": {
-    "validity_unconfirmed": 49,
+    "validity_unconfirmed": 51,
     "limits_unconfirmed": 179,
-    "multiple_purchase_limits": 331,
+    "multiple_purchase_limits": 333,
     "multiple_refund_limits": 102
   },
   "review_queue": [
@@ -1496,7 +1500,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "790bab08cad62bb7",
+      "id": "9160dcea2abd7186",
       "bank": "Continental",
       "merchant": "Estilo Sport Shop",
       "issues": [
@@ -1739,7 +1743,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "d30842bcc08c972e",
+      "id": "940b44ec1dd40641",
       "bank": "Continental",
       "merchant": "Koala",
       "issues": [
@@ -3033,6 +3037,15 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-distrito-brewing-co-bases-y-condiciones"
     },
     {
+      "id": "9764331fbf573291",
+      "bank": "Familiar",
+      "merchant": "DON TOWN",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-dontown"
+    },
+    {
       "id": "beb829d775d3e855",
       "bank": "Familiar",
       "merchant": "DOÑA SUSANA",
@@ -3148,6 +3161,15 @@
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-huerta-bases-y-condiciones"
+    },
+    {
+      "id": "e4b3489ca80a1396",
+      "bank": "Familiar",
+      "merchant": "LA TAPERIA",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-taperia"
     },
     {
       "id": "728785eb33a1cc4e",
@@ -4104,6 +4126,15 @@
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/451/detalle"
     },
     {
+      "id": "c786cc6e76b8b290",
+      "bank": "Sudameris",
+      "merchant": "McLaren Mastercard Formula 1®Team",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/918/detalle"
+    },
+    {
       "id": "35306a49768a9da9",
       "bank": "Sudameris",
       "merchant": "PROMOCIÓN MCLAREN MASTERCARD F1 TEAM",
@@ -4138,6 +4169,15 @@
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/297/detalle"
+    },
+    {
+      "id": "bb7dc1875728a926",
+      "bank": "Sudameris",
+      "merchant": "ADOLFO DOMINGUEZ",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/929/detalle"
     },
     {
       "id": "7d97147f11b6ce04",

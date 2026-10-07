@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-06T14:07:11.583249+00:00",
-  "published": 240,
+  "checked_at": "2026-10-07T14:25:05.964432+00:00",
+  "published": 242,
   "pending": [
     {
       "merchant_name": "CECOTEC-SHOPPING MARIANO",
@@ -28,11 +28,6 @@
       "reason": "unconfirmed_cards"
     },
     {
-      "merchant_name": "LA TAPERIA",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-taperia",
-      "reason": "expired_terms"
-    },
-    {
       "merchant_name": "GASTRO - PLAZA NORTE",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro-plaza-norte",
       "reason": "campaign_requires_merchant_expansion"
@@ -45,7 +40,7 @@
     {
       "merchant_name": "JOYERIAS",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-joyerias",
-      "reason": "ambiguous_dates"
+      "reason": "missing_year"
     },
     {
       "merchant_name": "TL SPORTS-SHOPPING MARIANO",
