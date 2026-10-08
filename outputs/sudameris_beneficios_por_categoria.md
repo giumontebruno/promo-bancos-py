@@ -26,6 +26,7 @@ Total de promociones: 160
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| CLUB CENTRO SOCIAL ENCARNACIÓN | 10%; Hasta 12 Cuotas sin interés | No especificado | • Hasta el 15 de enero 2027. |
 | CLUB DEPORTIVO ALEMÁN (DTA) | 10%; 20%; Hasta 12 cuotas sin intereses; Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 500.000.; Gs. 500.000. | todos los días | No especificado |
 | CLUB PORVENIR GUAIREÑO | 10%; Hasta 12 cuotas sin interés | Todos los días | No especificado |
 | CLUB SOCIAL ÁREA 4 - CIUDAD DEL ESTE | 10%; Hasta 12 cuotas sin interés; Tope de compra mensual: Gs. 300.000; Gs. 300.000 | Todos los días | • Todos los días. • Desde el 11 de febrero hasta el 31 de diciembre 2026.. |
@@ -56,7 +57,6 @@ Total de promociones: 160
 | CAFÉ JARDIN | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A DOMINGO | Desde 2026-08-06 hasta 2026-12-31 |
 | CAFÉ QUINTO | 25% DE REINTEGRO | MARTES | Desde 2026-08-04 hasta 2026-12-29 |
 | CHAVAL | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A SÁBADO | Desde 2026-08-06 hasta 2026-12-31 |
-| CLUB CENTRO SOCIAL ENCARNACIÓN | 10%; 20%; Hasta 12 Cuotas sin interés | No especificado | • Hasta el 15 de enero 2027. |
 | CLUB CONCEPCIÓN | 10%; 20%; Hasta 12 cuotas sin interés | Todos los días | • Todos los días desde el 9 de setiembre al 31 de agosto del 2028 • Todos los días desde el 31 de octubre al 31 de agosto del 2028 del débito automático del club |
 | CLUB DEPORTIVO PUERTO SAJONIA (CDPS). | 10%; 20%; Hasta 36 cuotas sin interés; Tope de compra mensual Gs. 350.000; Tope de compra mensual Gs. 150.000; Tope mensual de compra Gs. 500.000; Gs. 350.000; Gs. 150.000; Gs. 500.000 | Todos los días | • Todos los días. • Desde el 01 de octubre 2026 hasta el 31 de julio de 2028. |
 | CLUB NAUTICO SAN BERNARDINO | 10%; 20%; 12 cuotas sin intereses; Tope de pago mensual: Gs. 500.000; Tope de compra mensual: Gs. 3.000.000; Tope de compra mensual: Gs. 500.000; Gs. 500.000; Gs. 3.000.000 | No especificado | • Hasta el 31 de octubre del 2026 |

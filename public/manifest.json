@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T18:14:11.640918+00:00",
-  "promotion_count": 2419,
+  "generated_at": "2026-10-08T14:39:45.928042+00:00",
+  "promotion_count": 2421,
   "banks": [
     "Atlas",
     "BNF",
@@ -25,6 +25,7 @@
     "CompuMarket",
     "Construcción",
     "Contimarket",
+    "Courier",
     "Cuotas sin intereses",
     "Cuotas y tarjetas",
     "Deportes",
@@ -836,7 +837,23 @@
     "d30842bcc08c972e": "940b44ec1dd40641",
     "3dae4249cf36d101": "046270a8a7f95cde",
     "1b7f3aa0f3f3dc42": "959edab9e74272ef",
-    "820f8f6f97bf831c": "95a62440aa5e167b"
+    "820f8f6f97bf831c": "95a62440aa5e167b",
+    "39813547af091893": "2c227f01034cc837",
+    "befcc0278ea0ee60": "d4f55af7e7f78fe5",
+    "f158208addeb6ad0": "4ddd0894bb6e9d5f",
+    "16cd97801f06413d": "135608cc25c5d792",
+    "c28a3bb177192071": "adda4a5927ee2822",
+    "e6293579c961b391": "0b517efdcc46ad28",
+    "4b241e7c006596e9": "8ef192b6eb2354e0",
+    "0520175555d2a335": "d430449f6e414b7e",
+    "7b0e37844a69fa8f": "a72242c70ffcef03",
+    "84b82bbe9faa53e0": "f8266f2c4692c755",
+    "983d4a17b0ab7d1d": "4bb14df4458f5663",
+    "30d03300cc9cdc92": "b01f60f98170c3c0",
+    "908153a9cd461128": "51739b3a1d97ac5e",
+    "ce1264710a1ea914": "ccc53466c6137e31",
+    "c093c1c6b797fbb0": "ce566c15de24273e",
+    "4aa078f8bced8cc2": "1f8d0c6bab81edb8"
   },
   "schema_version": 2
 }

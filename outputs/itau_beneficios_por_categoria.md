@@ -15,7 +15,6 @@ Total de beneficios: 121
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Asismed | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2025-04-04 hasta 2026-12-31 |
-| Champs Elysees | 35 % Hasta 6 Cuotas sin intereses; Tenes 25% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2024-04-04 hasta 2026-10-11 |
 | Fuschia | 10 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses | No especificado | 2025-09-27 hasta 2026-10-29 |
 | Fuschia | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses | Aplica los sábados | 2025-09-27 hasta 2026-10-31 |
 | ODONTOS | 12 Cuotas sin intereses; Tenes 12 cuotas sin intereses | No especificado | 2026-03-27 hasta 2026-12-31 |
@@ -67,12 +66,6 @@ Total de beneficios: 121
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Bazzar | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-12-27 hasta 2026-10-17 |
-| Cortefiel | 10 Cuotas sin intereses 45 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
-| Forever 21 | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
-| Jack & Jones | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
-| Mango | 10 Cuotas sin intereses 45 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
-| Pedro del Hierro | 10 Cuotas sin intereses 45 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
-| Springfield | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
 | Todo Costura | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-12 hasta 2026-12-31 |
 
 ## Niños
@@ -206,7 +199,14 @@ Total de beneficios: 121
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Champs Elysees | 35 % Hasta 6 Cuotas sin intereses; Tenes 25% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2024-04-04 hasta 2026-10-11 |
+| Cortefiel | 10 Cuotas sin intereses 45 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
+| Forever 21 | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
+| Jack & Jones | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
 | Laguna Blanca | 6 Cuotas sin intereses 30 %; 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-11-18 hasta 2026-10-10 |
+| Mango | 10 Cuotas sin intereses 45 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
+| Pedro del Hierro | 10 Cuotas sin intereses 45 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
 | Sara Comercial | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2025-01-22 hasta 2026-10-10 |
+| Springfield | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
 | Tienda Móvil | 18 Cuotas sin intereses; hasta 18 cuotas sin intereses | No especificado | 2025-01-24 hasta 2026-10-10 |
 

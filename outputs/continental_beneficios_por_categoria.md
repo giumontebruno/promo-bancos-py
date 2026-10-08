@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 744
+Total de beneficios/comercios: 746
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -69,6 +69,12 @@ Total de beneficios/comercios: 744
 |---|---|---|---|---|
 | Contimarket - 25% | 50%; 50% de reintegro | No especificado | No especificado | Todo el país |
 | Contimarket.com | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
+
+## Courier (1)
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
+|---|---|---|---|---|
+| Parway Cargo | 15%; 15% de reintegro | Los jueves | Vigente hasta el 30 de septiembre de 2027 | No especificado |
 
 ## Deportes (10)
 
@@ -139,7 +145,7 @@ Total de beneficios/comercios: 744
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
 | Compasa | 20%; 20% de reintegro | Los viernes | Vigente hasta el 17 de septiembre de 2027 | Todo el país |
-| Copetrol | 25%; 25% de reintegro; 20% de reintegro | Los viernes | Vigente hasta el 02 de octubre de 2026 | Todo el país |
+| Copetrol | 25%; 25% de reintegro; 20% de reintegro | Los viernes | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 | ECOP | 15%; 15% de reintegro | los viernes | Vigente hasta el 06 de diciembre del 2026 | No especificado |
 | Enercon - Estaciones de Servicio | 20%; 20% de reintegro | los viernes | Vigente hasta el 19 de marzo de 2027 | No especificado |
 | Energy | 20%; 20% de reintegro; 25% de reintegro | los viernes | Vigente hasta el 12 de marzo de 2027 | No especificado |
@@ -276,7 +282,7 @@ Total de beneficios/comercios: 744
 |---|---|---|---|---|
 | Kekala | 20%; 20% de reintegro | Los sábados | Vigente hasta el 12 de junio de 2027 | San Lorenzo |
 
-## Hogar (58)
+## Hogar (59)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -288,6 +294,7 @@ Total de beneficios/comercios: 744
 | ByG Muebles y Electrodomésticos | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 25 de agosto de 2027 | Katueté (Canindeyú) |
 | CDP Muebles | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 19 de agosto de 2027 | Santa Rita (Alto Paraná) |
 | Casa Mariela | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de mayo de 2027 | Encarnación |
+| Casa Vera | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de octubre de 2026 | Caaguazú |
 | Classic Home | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de agosto de 2027 | Asunción |
 | Comercial Cerrito | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de noviembre de 2026 | Pilar |
 | Comercial Santo Domingo | hasta 12 cuotas sin intereses; 25% de descuento | todos los días | Vigente hasta el 10 de marzo de 2027 | Caaguazú |
@@ -452,23 +459,23 @@ Total de beneficios/comercios: 744
 | 360 Sneaker Store - Privilege | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Birkenstock - Privilege | 25% de reintegro | los jueves | Vigente hasta el 13 de noviembre de 2026 | No especificado |
 | Bodega Boutique - Privilege | 25% de reintegro | Los viernes | Vigente hasta el 25 de septiembre de 2026 | Asunción |
-| Champs Elysées - Privilege | hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre de 2026 | No especificado |
+| Champs Elysées - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | De Marie | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
 | El Negro Suplementos - Privilege | 35%; Hasta 12 cuotas sin intereses; 15% de reintegro; 35% de descuento | todos los días | Vigente hasta el 17 de junio de 2027 | Asunción |
 | Energy - Privilege | 25% de reintegro | los viernes | Vigente hasta el 12 de marzo de 2027 | No especificado |
-| ISDIN - Privilege | hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre de 2026 | No especificado |
+| ISDIN - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | Meta Kids - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Meta Sports - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Nike - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
-| O Boticário - Privilege | hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre del 2026 | No especificado |
+| O Boticário - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | Privilege - Peluquerías y Spa | 35%; 35% de reintegro | los sábados | Vigente hasta el 16 de enero del 2027 | No especificado |
 | Privilege - Restaurantes | 35%; 35% de reintegro | los sábados | Vigente hasta el 24 de octubre del 2026 | No especificado |
 | Promo cumpleaños - Privilege | 50% | No especificado | Vigente desde el 27 de agosto hasta el 26 de noviembre de 2026 | Todo el país |
 | Rookie - Privilege | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
-| Springfield - Privilege | hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre del 2026 | No especificado |
+| Springfield - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | Top Tenis - Privilege | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 28 de mayo de 2027 | Asunción |
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
-| Women'Secret - Privilege | hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre del 2026 | No especificado |
+| Women'Secret - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 
 ## Promociones especiales (12)
 
@@ -674,13 +681,12 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | Casa Bakunovich | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 22 de diciembre del 2026 | Encarnación |
 | Casa China | 15%; 15% de reintegro | Los jueves | Vigente hasta el 08 de junio de 2027 | Katueté (Canindeyú) |
 | Casa Heri Calzados | 20%; 20% de reintegro | los jueves | Vigente hasta el 21 de enero de 2027 | Encarnación |
-| Casa Miró | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 01 de octubre de 2026 | Encarnación |
+| Casa Miró | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 30 de septiembre de 2027 | Encarnación |
 | Casa Omnia | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 20 de mayo de 2027 | Asunción |
-| Casa Vera | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de octubre de 2026 | Caaguazú |
 | Casa de Campo | 20%; 20% de reintegro | los jueves | Vigente hasta el 12 de noviembre del 2026 | Fernando de la Mora |
 | CellShop | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 18 de febrero de 2027 | No especificado |
 | Centric Shopping Pilar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de abril de 2027 | Pilar |
-| Champs Elysées | 20%; hasta 12 cuotas sin intereses; 20% de reintegro; 25% de reintegro | todos los días | No especificado | No especificado |
+| Champs Elysées | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | Chetos & Chetitos | 20%; 20% de reintegro | los jueves | Vigente hasta el 29 de abril del 2027 | Col. Hohenau |
 | Claudia Silva Boutique | 10%; Hasta 12 cuotas sin intereses; 10% de descuento | todos los días | Vigente hasta el 27 de agosto de 2027 | Pilar |
 | Click Box | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 15 de diciembre de 2026 | No especificado |
@@ -711,14 +717,15 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | Fiori Florería | 15%; hasta 6 cuotas sin intereses; 15% de reintegro | todos los días | Vigente hasta el 21 de diciembre de 2026 | Asunción |
 | Fitway | 25%; 25% de reintegro; 20% de reintegro | los jueves | Vigente hasta el 25 de marzo de 2027 | Asunción |
 | Flash Importados | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 02 de septiembre de 2027 | Ciudad del Este |
-| Forever 21 | 20%; hasta 12 cuotas sin intereses; 20% de reintegro; 25% de reintegro | todos los días | No especificado | No especificado |
-| Forever 21 - Privilege | 25%; hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 01 de octubre del 2026 | No especificado |
+| Forever 21 | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
+| Forever 21 - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 | Freesia Cosméticos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de noviembre de 2026 | Concepción |
 | Furla | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de agosto de 2027 | Asunción |
 | GH1S | 25% de reintegro | los jueves | Vigente hasta el 20 de noviembre del 2026 | No especificado |
 | Gaete - Tienda Deportiva | 20%; 20% de reintegro | los jueves | Vigente hasta el 25 de febrero del 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | Tomás R. Pereira |
 | Ganian Petshop | 20%; 20% de reintegro | Los jueves | Vigente hasta el 08 de junio de 2027 | No especificado |
 | Gilardini | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 18 de marzo de 2027 | Asunción |
+| Giorgio Redaelli | 20%; 20% de reintegro | los jueves | Vigente hasta el 27 de mayo de 2027 | Asunción |
 
 _Se omitieron 134 filas en este resumen; están en el CSV._
 
@@ -774,5 +781,5 @@ _Se omitieron 134 filas en este resumen; están en el CSV._
 | Rogavet | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de junio de 2027 | Asunción |
 | Rural Makro | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 25 de noviembre de 2026 | No especificado |
 | Tiempo de Mascota | 20%; 20% de reintegro | los jueves | Vigente hasta el 17 de diciembre del 2026 | Asunción |
-| Vets Hospital Veterinario | 10%; 10% de reintegro | Los jueves | Vigente hasta el 08 de marzo de 2027 | No especificado |
+| Vets Hospital Veterinario | 10%; 10% de reintegro | Los jueves | Vigente hasta el 07 de octubre de 2027 | No especificado |
 

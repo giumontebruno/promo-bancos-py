@@ -25,8 +25,8 @@ Total de beneficios verificados: 72
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
-| Estaciones ENERGY | 20% de reintegro con QR | todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790788096.pdf) |
-| Estaciones ENERGY | 10% de reintegro con tarjeta física | todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790788096.pdf) |
+| Estaciones ENERGY | 20% de reintegro con QR | todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1791460732.pdf) |
+| Estaciones ENERGY | 10% de reintegro con tarjeta física | todos los miércoles | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1791460732.pdf) |
 
 ## Estética
 

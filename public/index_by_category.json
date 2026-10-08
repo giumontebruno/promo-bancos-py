@@ -12,7 +12,6 @@
   ],
   "Belleza y Salud": [
     "abe7a86b787fa0f7",
-    "a0d29a6196d74ed5",
     "fedb8e709e847829",
     "16b79dc2e6e1712e",
     "0384580047dfe962",
@@ -103,6 +102,9 @@
   "Contimarket": [
     "95a62440aa5e167b",
     "f781ac3004b9b700"
+  ],
+  "Courier": [
+    "793ed927b018ba70"
   ],
   "Cuotas sin intereses": [
     "d515db69f1517a9c",
@@ -278,6 +280,7 @@
     "ea7ddcff1e41049a"
   ],
   "Deportes y clubes": [
+    "5e2765c8f4e3a445",
     "b6f68760bbba26e1",
     "204ec611b9cd5baf",
     "2a12b5aaa265821a",
@@ -393,8 +396,8 @@
     "5d607b94e0d18d2c"
   ],
   "Estaciones De Servicio": [
-    "0a149e95405d30e1",
-    "5d0501b1e807a0bc"
+    "e7db1aca0eee1394",
+    "89a8861e350af09e"
   ],
   "Estaciones de Servicio": [
     "d34d7a1008686a34",
@@ -405,7 +408,7 @@
   ],
   "Estaciones de Servicios": [
     "1fdee8f273385f23",
-    "39813547af091893",
+    "2c227f01034cc837",
     "b16921d914e3735b",
     "eb843f74c4a4ed54",
     "cce9eaf28783c4c4",
@@ -776,7 +779,6 @@
     "3b9d7240e72fa28c",
     "ebe23ded84b3aac2",
     "429364a6f0ca746a",
-    "2b5d792d71c1b34c",
     "c541978058f267ba",
     "e3e814bfab76d967",
     "4daba2e6127d66b8",
@@ -829,6 +831,7 @@
     "ba4e9f94bbf439ab",
     "b16d9d1e2bfe784e",
     "e10b10054a20476d",
+    "1b34fe318a243e59",
     "dda6f1e8ecad6fc3",
     "cd55be625f5c0a60",
     "bc07717dc7d4d71d",
@@ -971,12 +974,6 @@
     "9160dcea2abd7186",
     "c4fa76931a452734",
     "75994d0c97d7ebc7",
-    "e91fa4ea30c42ef2",
-    "e4bb428b79c7f855",
-    "0a8d962ad6d0615b",
-    "52c1e730d20ff8d7",
-    "cf270cc861624882",
-    "5579087145d8061e",
     "187af41091bac104"
   ],
   "Industrial": [
@@ -1203,23 +1200,23 @@
     "f0d3bfafe65a9133",
     "413edc823de6bd48",
     "28855d10b14e82ca",
-    "befcc0278ea0ee60",
+    "d4f55af7e7f78fe5",
     "3b8cb57a4ca4a5b4",
     "228c159c02534b8c",
     "cb40b107d1860f6e",
-    "f158208addeb6ad0",
+    "4ddd0894bb6e9d5f",
     "701febeccb608839",
     "e2f6d9f0d87783f2",
     "1767f2430f60c73c",
-    "16cd97801f06413d",
+    "135608cc25c5d792",
     "45435928f9079964",
     "55298db8d5f3e9d3",
     "d9e168b11860b831",
     "c8533b5667097cd6",
-    "c28a3bb177192071",
+    "adda4a5927ee2822",
     "3d255f9017cc8f90",
     "317418ba0f24469d",
-    "e6293579c961b391"
+    "0b517efdcc46ad28"
   ],
   "Promociones especiales": [
     "2e383eb6286806c4",
@@ -1631,13 +1628,12 @@
     "1e17a176298f1978",
     "a1b0d9ab461d5d0b",
     "7371e15f9674b19b",
-    "4b241e7c006596e9",
+    "8ef192b6eb2354e0",
     "36b7fc96f93dd26f",
-    "ebfe2bfa6bf84284",
     "50e34986420bf777",
     "21b404208349274d",
     "0d02271a4cda923a",
-    "0520175555d2a335",
+    "d430449f6e414b7e",
     "e37dd09e25a81a2d",
     "c2f411c737cf8fd1",
     "378553642f719a6b",
@@ -1668,8 +1664,8 @@
     "aa28a1333acd5efd",
     "2091839cf521dd8a",
     "ff9e6c1567790383",
-    "7b0e37844a69fa8f",
-    "84b82bbe9faa53e0",
+    "a72242c70ffcef03",
+    "f8266f2c4692c755",
     "37d5ad2178fee2c5",
     "469d028741470c48",
     "0aed1f38942def02",
@@ -1682,13 +1678,13 @@
     "37838d6f410c4cad",
     "fc27ef4e43390902",
     "b0e4a2a91d0e633b",
-    "983d4a17b0ab7d1d",
+    "4bb14df4458f5663",
     "674fdc05052280da",
     "65d53193ec1359b1",
     "aeb7d58da564da7e",
     "71556f147d1ef6af",
-    "1832be54c8d40551",
-    "bdaecceebfd9e893",
+    "ce5868ec792be380",
+    "ce5868ec792be380-c361bd6c",
     "a972183a3b739e6f",
     "af17ccca12c75b42",
     "0c4631bdb1ae2773",
@@ -1698,6 +1694,7 @@
     "4be488d3f6b21a68",
     "88453a00f74f76d2",
     "10101c6c448961cd",
+    "11ef35b80125d53c",
     "b90c3c9126098cda",
     "c178caf3ccfc8dcb",
     "5a72fb9881508d1b",
@@ -1746,7 +1743,7 @@
     "3d1ca290885f92a3",
     "520ccace3093703a",
     "6883432e5671315d",
-    "30d03300cc9cdc92",
+    "b01f60f98170c3c0",
     "ae7005e50cef2124",
     "6b882b65a1a466d0",
     "cb9f51fffd7eaf6a",
@@ -1771,14 +1768,14 @@
     "4b289c705a8f02eb",
     "f5bd6d2185571a5c",
     "c9903cf6b00a6fb5",
-    "908153a9cd461128",
+    "51739b3a1d97ac5e",
     "dfb9993a396d6417",
     "261213eceba0714a",
     "8d5017af4645973f",
     "ccf2937f8566ce7e",
     "648bdf66df9e969a",
     "7dad699cfa8d6835",
-    "ce1264710a1ea914",
+    "ccc53466c6137e31",
     "c36582b156393f4a",
     "0babaa10d4f1e4f2",
     "175efc5042d3971b",
@@ -1803,7 +1800,7 @@
     "40ed05f303e88655",
     "7604b0c23d24ff16",
     "129fc3bafb7534e9",
-    "c093c1c6b797fbb0",
+    "ce566c15de24273e",
     "63aafbabb9122515",
     "0b2e9790606f9a4d",
     "494d1f3bc09a9517",
@@ -2479,7 +2476,7 @@
     "0db5736c2925957d",
     "85461b37bf9cadc3",
     "1ff3196f6e0ee20e",
-    "4aa078f8bced8cc2"
+    "1f8d0c6bab81edb8"
   ],
   "Viaje y Turismo": [
     "e388e4f22aea84e1",
@@ -2582,8 +2579,15 @@
     "924ba0241cdcd5e5"
   ],
   "Últimos días": [
+    "57e764674ad45304",
+    "e30077bff3825287",
+    "4b353ccbd96d7535",
+    "51903040e1a3117f",
     "5e9e83932faddcaf",
+    "5634746d075da613",
+    "a578b25a2c447b9e",
     "d593e529e5a0e312",
+    "74d2050367b91377",
     "4c7b7ed82ebda7c1"
   ]
 }
