@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-08T14:30:19.405891+00:00",
+  "checked_at": "2026-10-09T14:17:13.326893+00:00",
   "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
   "total_source_cards": 242,
   "already_represented_source_cards": 239,
@@ -72,6 +72,11 @@
     {
       "id": 47,
       "name": "Areté y Festa",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 290,
+      "name": "Mercado Digital",
       "flags": "source_start_date_stale"
     },
     {
@@ -333,11 +338,6 @@
       "id": 272,
       "name": "Centros de Enseñanzas",
       "flags": "source_start_date_stale; merchant_group_not_geocodable"
-    },
-    {
-      "id": 290,
-      "name": "Mercado Digital",
-      "flags": "source_start_date_stale"
     },
     {
       "id": 302,

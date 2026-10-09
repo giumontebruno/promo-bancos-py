@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08T14:39:45.928042+00:00",
-  "promotion_count": 2421,
+  "generated_at": "2026-10-09T14:29:07.071446+00:00",
+  "promotion_count": 2431,
   "banks": [
     "Atlas",
     "BNF",
@@ -22,7 +22,6 @@
     "Clubes",
     "Clubes sociales",
     "Combustible",
-    "CompuMarket",
     "Construcción",
     "Contimarket",
     "Courier",
@@ -88,6 +87,7 @@
     "Supermercados",
     "Teatro",
     "Tecnología",
+    "Tienda Movil",
     "Tiendas",
     "Varios",
     "Vehículo",
@@ -690,7 +690,6 @@
     "224143fd45d98745": "e297d9af4ae6b34e",
     "4602c220aa0ae019": "960590e6530169c1",
     "b8d15fd44bc61b37": "c7d26de7cd8cae1c",
-    "b6b43b45cdd4f0ca": "ec1a95b5e3e7637c",
     "ab89c66a81eff63b": "3b15fd114bd5bb67",
     "fc00f45c81c6a826": "89dca0c74a782d02",
     "d43126021d75353f": "7f9737c417c2eacf",

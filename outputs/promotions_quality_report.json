@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08T14:39:45.928042+00:00",
-  "input_count": 2421,
-  "promotion_count": 2421,
+  "generated_at": "2026-10-09T14:29:07.071446+00:00",
+  "input_count": 2431,
+  "promotion_count": 2431,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -583,7 +583,6 @@
     "224143fd45d98745": "e297d9af4ae6b34e",
     "4602c220aa0ae019": "960590e6530169c1",
     "b8d15fd44bc61b37": "c7d26de7cd8cae1c",
-    "b6b43b45cdd4f0ca": "ec1a95b5e3e7637c",
     "ab89c66a81eff63b": "3b15fd114bd5bb67",
     "fc00f45c81c6a826": "89dca0c74a782d02",
     "d43126021d75353f": "7f9737c417c2eacf",
@@ -751,20 +750,21 @@
   "by_bank": {
     "Atlas": 34,
     "BNF": 77,
-    "Continental": 747,
+    "Continental": 748,
     "Coop. Universitaria": 72,
     "Familiar": 416,
-    "GNB": 463,
-    "Itaú": 121,
+    "GNB": 465,
+    "Itaú": 123,
     "Sudameris": 164,
-    "ueno bank": 327
+    "ueno bank": 332
   },
   "issue_counts": {
     "validity_unconfirmed": 44,
-    "limits_unconfirmed": 189,
+    "limits_unconfirmed": 193,
     "multiple_purchase_limits": 282,
     "source_amount_conflict": 12,
-    "multiple_refund_limits": 102
+    "multiple_refund_limits": 102,
+    "conflicting_dates": 3
   },
   "review_queue": [
     {
@@ -5366,6 +5366,45 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Cupones-ueno-DI-VALENTINI-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "6e7a792718162762",
+      "bank": "ueno bank",
+      "merchant": "diau potencia tc",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-Potencia-tu-Tarjeta-de-Credito-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "c7ebd7e1416eca2b",
+      "bank": "ueno bank",
+      "merchant": "diau potencia td",
+      "issues": [
+        "conflicting_dates",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-Potencia-tu-Tarjeta-de-Debito-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "5a3d9e325e3a4734",
+      "bank": "ueno bank",
+      "merchant": "diau50 tc",
+      "issues": [
+        "conflicting_dates",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-50-con-tu-Tarjeta-de-Credito-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "de000fc1cfde7a58",
+      "bank": "ueno bank",
+      "merchant": "diau50 td",
+      "issues": [
+        "conflicting_dates",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-50-con-tu-Tarjeta-de-Debito-_-OCT-2026v2.pdf"
     },
     {
       "id": "841e105c47e3d428",

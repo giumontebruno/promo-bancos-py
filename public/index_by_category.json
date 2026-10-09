@@ -74,9 +74,6 @@
     "70517035fa775b7e",
     "cfb79f07d5fb529d"
   ],
-  "CompuMarket": [
-    "f6e00ba485772b6e"
-  ],
   "Construcción": [
     "dd1a30d6a2de8e8b",
     "4c515710a6e881bb",
@@ -541,6 +538,7 @@
     "caa5ec6c6deaa031"
   ],
   "Ferreterías": [
+    "98d713a58933067c",
     "b5eb70e6897abd01",
     "408ed0785ca4aa64",
     "73a51878d7c6075f",
@@ -1586,11 +1584,16 @@
     "e297d9af4ae6b34e",
     "960590e6530169c1",
     "c7d26de7cd8cae1c",
-    "ec1a95b5e3e7637c",
+    "5b4b6e765c9502a9",
+    "8bb4ebbbd15d0976",
+    "afaca31a89fe1aaf",
     "3b15fd114bd5bb67",
     "e0c24fad744b97b2",
     "657822b86cbc5ab9",
     "ee3b8e30abbd808a"
+  ],
+  "Tienda Movil": [
+    "098298115d2e9f9b"
   ],
   "Tiendas": [
     "3f275edebc2bc3b6",
@@ -2323,6 +2326,7 @@
     "13d5ea158ed356b7",
     "e7cd9e04af483f4a",
     "d4c9c25bb5c52ad7",
+    "c88ea1b999c3ab0a",
     "81c71b3f27c4adbb",
     "49d2388b15841490",
     "f862ed087907a8fa",
@@ -2332,6 +2336,10 @@
     "21b9e7bd199c8a63",
     "4bd86f394493d35a",
     "963a4fc7b88c4d1f",
+    "6e7a792718162762",
+    "c7ebd7e1416eca2b",
+    "5a3d9e325e3a4734",
+    "de000fc1cfde7a58",
     "841e105c47e3d428",
     "a7cf3b1089ff0e9f",
     "4203a178f4fa86b4",
@@ -2585,6 +2593,8 @@
     "51903040e1a3117f",
     "5e9e83932faddcaf",
     "5634746d075da613",
+    "33c802dff3d24262",
+    "411facb0fc1c4916",
     "a578b25a2c447b9e",
     "d593e529e5a0e312",
     "74d2050367b91377",
