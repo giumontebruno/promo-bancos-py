@@ -23,9 +23,9 @@ Fuente: PDF mensual + páginas de bases y condiciones enlazadas desde el PDF.
 |---|---|---|---|---|---|
 | Cuotas sin intereses UMARKET / OCT 2026 | Umarket Cuotas | Hasta 18 cuotas sin intereses | No especificado | Ver bases y condiciones | Vigencia: ● Desde el 01 de octubre hasta el 31 de octubre del 2026 |
 | Cuotas sin intereses ALULA HOTEL CON ALMA / OCT 2026 | Cuotas Alula | Hasta 12 cuotas sin intereses | No especificado | Ver bases y condiciones | Vigencia: ● Desde el 01 de octubre hasta el 31 de octubre del 2026 |
-| Cuotas sin intereses en aliados adheridos / OCT 2026 | AEROPOSTALE; AF PEAK LAB; ÁFRICA DESIGN BY ARLET; AH CORTES & GRABADOS; AIREA; ALMA CARIOCA; ALTEZA PERFUMERIA; AMERICA SHOP; AMERICAN LOOK; ASISMED Sucursal CIT; ATLANTIC EXPRESS; AUTOCLICK; AUTOMAQ; AUTOMOTOR; BACO; BE | Hasta 12 cuotas sin intereses | No especificado | Ver bases y condiciones | Vigencia: ● Desde el 01 de octubre hasta el 31 de octubre del 2026 |
 | Cuotas sin intereses RAKIURA / OCT 2026 | Rakiura Cuotas | Ver detalle | No especificado | límite de crédito de su tarjeta por el importe equivalente al valor de la transacción; límite de la línea de crédito del cliente y éste realizar cualquier transacción bajo un concepto de servicio diferente (como cuotas d | Vigencia: ● Desde el 19 de mayo del 2026 |
 | Cuotas sin intereses ueno black / OCT 2026 | cuotas sin | Ver detalle | No especificado | Ver bases y condiciones | Vigencia: ● Desde el 01 de octubre hasta el 31 de octubre del 2026 |
+| Cuotas sin intereses en aliados adheridos / OCT 2026 | AEROPOSTALE; AF PEAK LAB; ÁFRICA DESIGN BY ARLET; AH CORTES & GRABADOS; AIREA; ALMA CARIOCA; ALTEZA PERFUMERIA; AMERICA SHOP; AMERICAN LOOK; ASISMED Sucursal CIT; ATLANTIC EXPRESS; AUTOCLICK; AUTOMAQ; AUTOMOTOR; BACO; BE | Hasta 12 cuotas sin intereses | No especificado | Ver bases y condiciones | Vigencia: ● Desde el 01 de octubre hasta el 31 de octubre del 2026 |
 
 ## Entretenimiento
 
@@ -112,8 +112,10 @@ Fuente: PDF mensual + páginas de bases y condiciones enlazadas desde el PDF.
 | Beneficio ueno+ Campaña dirigida “Bienvenido al nivel 5” / OCT 2026 | y bolsas de | 40% de reintegro | nivel 5” / OCT 2026 - ueno - Banco Digital Saltar al contenido principal ueno bank La nueva banca digital Descargar Your browser does not support iframes; nivel 5” / OCT 2026 Descargar pdf Bases y Condiciones Beneficio R | Ver bases y condiciones | Vigencia: ● La presente Campaña tendrá vigencia desde el 08 de octubre de 2026 |
 | Beneficio de Reintegro Día U: Potenciá tu Tarjeta de Crédito / OCT 2026 | Diau Potencia Tc | 50% de reintegro | No especificado | TOPE DE COMPRA REINTEGRO CONDICIONES BENEFICIO DIA DEL BENEFICIO REINTEGRO (Gs; Gs.; Gs. 500.000; Gs. 250.000 | Vigencia: ● Del 08 de octubre de 2026 |
 | Beneficio de Reintegro Día U: Potenciá tu Tarjeta de Débito / OCT 2026 | Diau Potencia Td | 50% de reintegro | No especificado | TOPE DE COMPRA REINTEGRO CONDICIONES BENEFICIO DIA DEL BENEFICIO REINTEGRO (Gs; Gs.; Gs. 500.000; Gs. 250.000 | Vigencia: ● Del 08 de octubre de 2026 |
-| Beneficio de Reintegro Día U: 50% con tu Tarjeta de Crédito / OCT 2026 | Diau50 Tc | 50% de reintegro | No especificado | TOPE DE COMPRA (Gs; Gs.; Gs. 500.000; Gs. 250.000 | Vigencia: ● Del 08 de octubre de 2026 |
-| Beneficio de Reintegro Día U: 50% con tu Tarjeta de Débito / OCT 2026 | Diau50 Td | 50% de reintegro | No especificado | TOPE DE COMPRA (Gs; Gs.; Gs. 500.000; Gs. 250.000 | Vigencia: ● Del 08 de octubre de 2026 |
+| Beneficio de Reintegro ELEFANTE NEGRO / OCT 2026 | Elefante Negro | Hasta 12 cuotas sin intereses | nivel 5 20% Gs; nivel 4 20% Gs; nivel 3 20% Gs; nivel 2 20% Gs; nivel 1 20% Gs | Gs.; Gs. 1.300.000; Gs. 260.000; Gs. 1.100.000; Gs. 220.000; Gs. 900.000; Gs. 180.000; Gs. 700.000; Gs. 140.000; Gs. 500.000; Gs. 100.000 | Vigencia: ● Desde el 10 de octubre hasta el 31 de octubre del 2026 |
+| Beneficio de Reintegro Campaña "Algo grande te espera" / OCT 2026 | Algo Grande | 50% de reintegro | No especificado | tope de compra de Gs; mínimo de Gs. 50.000.000 y/o USD; mínimo Gs. 50.000.000 en una o más transacciones); hasta Gs. 500.000); Gs. 50.000.000; Gs. 250.000; Gs. 1.000.000; Gs. 500.000.; Gs. 500.000 | Vigencia: ● Campaña válida exclusivamente el día 09 de octubre del 2026 |
+| Beneficio de Reintegro Día U: 50% con tu Tarjeta de Débito / OCT 2026 | Diau50 Td | 50% de reintegro | No especificado | TOPE DE COMPRA (Gs; Gs.; Gs. 500.000; Gs. 250.000 | Vigencia: ● Los días 08 de octubre, 09 de octubre de 2026 |
+| Beneficio de Reintegro Día U: 50% con tu Tarjeta de Crédito / OCT 2026 | Diau50 Tc | 50% de reintegro | No especificado | TOPE DE COMPRA (Gs; Gs.; Gs. 500.000; Gs. 250.000 | Vigencia: ● Los días 08 de octubre, 09 de octubre de 2026 |
 
 ## Viajes
 

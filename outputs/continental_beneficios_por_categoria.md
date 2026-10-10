@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 747
+Total de beneficios/comercios: 749
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -70,10 +70,11 @@ Total de beneficios/comercios: 747
 | Contimarket - 25% | 50%; 50% de reintegro | No especificado | No especificado | Todo el país |
 | Contimarket.com | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 
-## Courier (1)
+## Courier (2)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
+| Global Box | 20%; Hasta 6 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 28 de noviembre de 2026 | Todo el país |
 | Parway Cargo | 15%; 15% de reintegro | Los jueves | Vigente hasta el 30 de septiembre de 2027 | No especificado |
 
 ## Deportes (10)
@@ -233,7 +234,7 @@ Total de beneficios/comercios: 747
 |---|---|---|---|---|
 | Fereterías y Talleres del País | Hasta 18 cuotas sin intereses; Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de agosto de 2027 | Todo el país |
 
-## Gastronomía (39)
+## Gastronomía (40)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -245,6 +246,7 @@ Total de beneficios/comercios: 747
 | Bacon - Smash Burguer - Panceta - Pocket Pizza | 20%; 35% de reintegro; 25% de reintegro; 20% de reintegro | los sábados | Vigente hasta el 24 de octubre de 2026 | No especificado |
 | Bernardino Hamburguesas | 35%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 24 de octubre de 2026 | Asunción |
 | Billy Smash | 35%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 24 de octubre del 2026 | Asunción |
+| Bocatta | 35%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 24 de octubre del 2026 | No especificado |
 | Calle 75 | 20%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 24 de octubre de 2026 | Asunción |
 | Churrasquería García | 20%; 20% de reintegro; 25% de reintegro; 35% de reintegro | los sábados | Vigente hasta el 19 de diciembre de 2026 | Pirapó (Itapúa) |
 | Costa Colón | 35%; 35% de reintegro; 25% de reintegro; 20% de reintegro | Los sábados | Vigente hasta el 24 de octubre del 2026 | Asunción |
@@ -653,7 +655,7 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | AL Store | 20%; 20% de reintegro | Los jueves | Vigente hasta el 17 de junio de 2027 | No especificado |
 | Active | 20%; 20% de reintegro | Los jueves | Vigente hasta el 19 de febrero de 2027 | Naranjal |
 | Acuario Comercial | 10%; 20% de reintegro | Los jueves | Vigente hasta el 06 de noviembre de 2026 | Concepción |
-| Adidas | 20%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
+| Adidas | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Agugu Bebés | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de agosto de 2027 | Asunción |
 | Alborada Super Store | 20%; 20% de reintegro | Los jueves | Vigente hasta el 15 de julio de 2027 | No especificado |
 | Alex Vidrios | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de enero de 2027 | Ma. Auxiliadora (Itapúa) |
