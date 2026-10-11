@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 123
+Total de beneficios: 121
 
 ## Alemania Cell
 
@@ -131,7 +131,6 @@ Total de beneficios: 123
 | Hering | 6 Cuotas sin intereses 20 % Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-03-26 hasta 2026-12-02 |
 | Indio Termos | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | JOSEPH COIFFURE | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
-| Laguna Blanca | 6 Cuotas sin intereses 30 %; 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-11-18 hasta 2026-10-14 |
 | Lomas Padel | 20 %; Tenes 20% de ahorro con APPLE PAY o GOOGLE PAY (billeteras). | No especificado | 2024-04-15 hasta 2026-12-27 |
 | Mi portal Coca Cola | 25 %; 25% de ahorro. | Aplica los domingos | 2025-10-19 hasta 2026-11-29 |
 | Municipalidad de Asunción | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
@@ -204,11 +203,10 @@ Total de beneficios: 123
 | Cortefiel | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
 | Forever 21 | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
 | Jack & Jones | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
+| Laguna Blanca | 6 Cuotas sin intereses 30 %; 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-11-18 hasta 2026-10-14 |
 | Mango | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
 | PRUNE | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-12-29 hasta 2026-10-11 |
 | Pedro del Hierro | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
-| Pilar | 10 Cuotas sin intereses 70 % Hasta; Tenés hasta 60% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-01-06 hasta 2026-10-10 |
-| Sara Comercial | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2025-01-22 hasta 2026-10-10 |
+| Sara Comercial | 15 % 10 Cuotas sin intereses; Tenés 15% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2024-09-02 hasta 2026-10-12 |
 | Springfield | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
-| Tienda Móvil | 18 Cuotas sin intereses; hasta 18 cuotas sin intereses | No especificado | 2025-01-24 hasta 2026-10-10 |
 

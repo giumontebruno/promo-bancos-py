@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T13:39:42.145599+00:00",
-  "input_count": 2440,
-  "promotion_count": 2440,
+  "generated_at": "2026-10-11T14:02:56.715207+00:00",
+  "input_count": 2437,
+  "promotion_count": 2437,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -882,21 +882,22 @@
     "640977aa7514476d": "05527c80ea01851d",
     "290c968a0a704741": "e6ce1a6309672dfd",
     "5a3d9e325e3a4734": "bac8fb9825f2b08a",
-    "de000fc1cfde7a58": "88f455625fe74a49"
+    "de000fc1cfde7a58": "88f455625fe74a49",
+    "d593e529e5a0e312": "0226a2c7a8a20ddd"
   },
   "by_bank": {
-    "Atlas": 34,
+    "Atlas": 33,
     "BNF": 77,
     "Continental": 750,
     "Coop. Universitaria": 72,
     "Familiar": 416,
     "GNB": 468,
-    "Itaú": 123,
+    "Itaú": 121,
     "Sudameris": 164,
     "ueno bank": 336
   },
   "issue_counts": {
-    "validity_unconfirmed": 44,
+    "validity_unconfirmed": 43,
     "limits_unconfirmed": 193,
     "multiple_purchase_limits": 285,
     "source_amount_conflict": 12,
@@ -1066,15 +1067,6 @@
         "validity_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg"
-    },
-    {
-      "id": "0808a16896575fcf",
-      "bank": "Atlas",
-      "merchant": "Pre Venta Iphone 18",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
       "id": "e77fe8d93e9865f3",

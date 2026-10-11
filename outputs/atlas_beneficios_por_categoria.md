@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 34
+Total de beneficios: 33
 
 ## Bienestar
 
@@ -72,7 +72,6 @@ Total de beneficios: 34
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Pre Venta Iphone 18 | 18 cuotas sin intereses | 25 de septiembre al 10 de octubre | La cantidad de cuotas se solicita en caja a partir de Gs. 1.000.000 y transacciones realizadas a través del POS de la Red Infonet. Exclusivo para consumo personal. Se excluyen las tarjetas corporativas, gourmet card, gif |
 | Tecnología a tu alcance | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 
 ## Vehículo
