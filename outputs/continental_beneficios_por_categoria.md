@@ -38,7 +38,7 @@ Total de beneficios/comercios: 749
 | Asunción Tenis Club | 50%; hasta 24 cuotas sin intereses; 50% de descuento | Todos los días | Vigente hasta el 25 de diciembre del 2026 | Asunción |
 | San Bernardino Country Club | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de julio de 2027 | San Bernardino |
 
-## Construcción (20)
+## Construcción (21)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -54,6 +54,7 @@ Total de beneficios/comercios: 749
 | H. Petersen | Hasta 36 cuotas sin intereses | Todos los días | Vigente hasta el 11 de agosto de 2027 | Limpio |
 | Ipale | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 26 de septiembre de 2027 | Asunción |
 | Konstruir - Kdos Import | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de marzo de 2027 | Ciudad del Este |
+| Master Shop | 30%; 30% de reintegro | Los jueves | Vigente hasta el 26 de agosto de 2027 | Todo el país |
 | Mercoeste | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | No especificado |
 | Ogara Construcciones | 20%; 20% de reintegro | todos los días | Vigente hasta el 08 de abril de 2027 | Encarnación |
 | PY Vidrios | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de julio de 2027 | Nueva Esperanza (Canindeyú) |
@@ -645,7 +646,7 @@ Total de beneficios/comercios: 749
 
 _Se omitieron 37 filas en este resumen; están en el CSV._
 
-## Tiendas (214)
+## Tiendas (213)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -730,7 +731,7 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | Gilardini | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 18 de marzo de 2027 | Asunción |
 | Giorgio Redaelli | 20%; 20% de reintegro | los jueves | Vigente hasta el 27 de mayo de 2027 | Asunción |
 
-_Se omitieron 134 filas en este resumen; están en el CSV._
+_Se omitieron 133 filas en este resumen; están en el CSV._
 
 ## Vehículos (37)
 

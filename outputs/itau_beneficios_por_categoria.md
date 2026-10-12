@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 121
+Total de beneficios: 115
 
 ## Alemania Cell
 
@@ -86,6 +86,7 @@ Total de beneficios: 121
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Areté | 15 %; Tenes 15% de ahorro. | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
+| CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-12-01 |
 | Delimarket | 20 %; 20% de reintegro | todos los sábados | 2025-09-06 hasta 2026-12-31 |
 | Super Real | 15 %; 15% de ahorro. | Aplica los LUNES | 2025-10-06 hasta 2026-12-31 |
 
@@ -105,12 +106,6 @@ Total de beneficios: 121
 | Claro | 12 Cuotas sin intereses; Tenes hasta 12 cuotas sin intereses. | No especificado | 2025-07-07 hasta 2026-12-31 |
 | Personal | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses. | No especificado | 2024-04-05 hasta 2026-12-31 |
 | Tigo | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
-
-## Tienda Movil
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Tienda Móvil | 15 Cuotas sin intereses; hasta 15 cuotas sin intereses. | No especificado | 2026-02-01 hasta 2026-10-11 |
 
 ## Varios
 
@@ -146,6 +141,8 @@ Total de beneficios: 121
 | Pampero | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Patrol | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Primer Martes | 25 % Hasta 10 Cuotas sin intereses; hasta 25% de ahorro y hasta 10 cuotas sin intereses + 10% con código QR, Apple Pay, Google Pay. | No especificado | 2026-01-06 hasta 2026-12-01 |
+| Pulsak | 25 % 6 Cuotas sin intereses; Tenes 25% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-10-12 hasta 2026-10-31 |
+| Pulsak | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Rondina | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Sallustro | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Shell | 20 %; 20% de reintegro con tu tarjeta de Crédito clásica | todos los lunes | 2026-01-05 hasta 2026-12-31 |
@@ -199,14 +196,6 @@ Total de beneficios: 121
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Champs Elysees | 35 % Hasta 6 Cuotas sin intereses; Tenes 25% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2024-04-04 hasta 2026-10-11 |
-| Cortefiel | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
-| Forever 21 | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
-| Jack & Jones | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
 | Laguna Blanca | 6 Cuotas sin intereses 30 %; 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-11-18 hasta 2026-10-14 |
-| Mango | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
-| PRUNE | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-12-29 hasta 2026-10-11 |
-| Pedro del Hierro | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-11 |
 | Sara Comercial | 15 % 10 Cuotas sin intereses; Tenés 15% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2024-09-02 hasta 2026-10-12 |
-| Springfield | 6 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% via GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2018-12-04 hasta 2026-10-11 |
 
