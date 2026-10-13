@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T16:48:35.260390+00:00",
-  "promotion_count": 2431,
+  "generated_at": "2026-10-13T15:04:53.926479+00:00",
+  "promotion_count": 2428,
   "banks": [
     "Atlas",
     "BNF",
@@ -989,7 +989,6 @@
     "290c968a0a704741": "e6ce1a6309672dfd",
     "5a3d9e325e3a4734": "bac8fb9825f2b08a",
     "de000fc1cfde7a58": "88f455625fe74a49",
-    "d593e529e5a0e312": "0226a2c7a8a20ddd",
     "4f11054d687ec5ce": "1a870bf57962e178",
     "a89917720a819e0b": "5bde3619037e55a7",
     "5f3d3ce3b69df6c6": "4ecca2c47b79f7fc",
@@ -997,7 +996,17 @@
     "da298e2432cac3b4": "2db84f3a03026003",
     "2ccd0fa81c487a51": "07276e9eac015752",
     "eff4789bc0a3ccdc": "efc8fd0ffcd06d91",
-    "70517035fa775b7e": "b71d341f0b1ab79b"
+    "70517035fa775b7e": "b71d341f0b1ab79b",
+    "744d4a470bcbad68": "cc59831fbff6177b",
+    "d35b55aefd9675f3": "87ea1db149f97530",
+    "09dccd4dfa64e1c8": "d4606869a88485c9",
+    "e19df9b455242a74": "af3611520c6ea386",
+    "38a5bbec60e02a1a": "263d77382febe941",
+    "47ad3e2cb80d9338": "d5640007b9fce7c2",
+    "af17ccca12c75b42": "d69ace7204e34c0a",
+    "9c589d42a65eb5b7": "1372d0567009ca17",
+    "0590cdd04ee5909d": "cb26e4151062f81d",
+    "25a49f9c411792ab": "e08a3d53d0175830"
   },
   "schema_version": 2
 }

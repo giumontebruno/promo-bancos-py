@@ -9,6 +9,7 @@ Total de beneficios: 115
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Alemania Cell | 15 Cuotas sin intereses; Hasta 15 cuotas sin intereses. | No especificado | 2025-10-01 hasta 2026-10-15 |
+| Alemania Cell | 18 Cuotas sin intereses; Tenes hasta 18 cuotas sin intereses. | No especificado | 2026-09-09 hasta 2026-10-31 |
 
 ## Belleza y Salud
 
@@ -197,5 +198,4 @@ Total de beneficios: 115
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Laguna Blanca | 6 Cuotas sin intereses 30 %; 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-11-18 hasta 2026-10-14 |
-| Sara Comercial | 15 % 10 Cuotas sin intereses; Tenés 15% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2024-09-02 hasta 2026-10-12 |
 

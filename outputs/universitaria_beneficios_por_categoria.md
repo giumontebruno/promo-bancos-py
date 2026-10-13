@@ -2,7 +2,7 @@
 
 Fuente: https://www.universitaria.coop/promociones
 
-Total de beneficios verificados: 72
+Total de beneficios verificados: 71
 
 ## Electrodomésticos
 
@@ -61,7 +61,6 @@ Total de beneficios verificados: 72
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
-| Hotel Cabaña Don Oscar | 20% de descuento | Todos los días | Vigencia Desde el 02 de octubre de 2019 hasta el 02 de octubre de 2020, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/1711050546.pdf) |
 | Las Hortensias | 10% de descuento en alojamiento | Todos los días | Vigencia Desde el 25 de octubre de 2019 hasta el 25 de octubre de 2020, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1711042299.pdf) |
 | Malian | 10% de descuento en alojamiento | Todos los días | Vigencia Desde el 02 de abril de 2018 hasta el 02 de abril de 2019, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1711042178.pdf) |
 

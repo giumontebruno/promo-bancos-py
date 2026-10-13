@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 33
+Total de beneficios: 34
 
 ## Bienestar
 
@@ -12,7 +12,6 @@ Total de beneficios: 33
 | Mariscal Miércoles Plus | 20% de descuento; +10% de reintegro; 3 cuotas sin intereses | 21 de octubre | Tope de compra por cuenta de tarjeta para el reinetgro Gs. 5.000.000. Promo válida el 21/10/2026 en tiendas adheridas al Miércoles de Beneficio en el Shopping Mariscal y para compras realizadas a través del POS de la Red |
 | Martiderm | 20% de descuento; 3 cuotas sin intereses | Último jueves del mes | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Válido en los locales adheridos. Beneficios exclusivos para consumo personal.  |
 | Prepaga Joven | 20% de reintegro; En tiendas adheridas: | Todos los días | Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 d |
-| delSol Shopping - Cheques delSol | 40% de bonificación; 30% de bonificación; 12 cuotas sin intereses | 17 de octubre | Tope de compra acumulado por cuenta de tarjeta Gs. 70.000.000 para tarjetas de crédito delSol Atlas Signature, Gs. 30.000.000 para tarjetas de crédito delSol Atlas Clásica. La cantidad de cuotas se solicita en la App del |
 
 ## Educación
 
@@ -39,7 +38,9 @@ Total de beneficios: 33
 | Impuestos al día | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | L'uomo | 6 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 200.000 . Valida para compras realizadas a través del POS de la red Infonet. Válido para las sucursales L\\\'uomo de Shopping Vilamorra, Shopping Mul |
 | Pinedo Shopping | 20% de descuento; 3 cuotas sin intereses | Todos los viernes | El descuento se realiza en caja. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica para tiendas adheridas a la promoci |
+| Preventa Cheques delSol | 45% de bonificación; 12 cuotas sin intereses | 16 de octubre | Vigente el 16 de octubre de 2026. Tope de compra acumulado por cuenta de tarjeta: Gs. 70.000.000 para Tarjetas de Crédito delSol Atlas Signature, compartido con la promoción de Cheques delSol del 17 de octubre de 2026. L |
 | delSol | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Promoción válida todos los días para tarjetas afinidad delSol en todos |
+| delSol Shopping - Cheques delSol | 40% de bonificación; 30% de bonificación; 12 cuotas sin intereses | 17 de octubre | Vigente el 17 de octubre de 2026. Tope de compra acumulado por cuenta de tarjeta, compartido con la preventa de cheques del 16/10: Gs. 70.000.000 para Tarjetas de Crédito delSol Atlas Signature y Gs. 30.000.000 para Tarj |
 
 ## Hogar
 
