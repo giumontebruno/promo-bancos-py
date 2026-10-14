@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T15:04:53.926479+00:00",
-  "input_count": 2428,
-  "promotion_count": 2428,
+  "generated_at": "2026-10-14T12:57:25.007133+00:00",
+  "input_count": 2430,
+  "promotion_count": 2430,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -900,7 +900,24 @@
     "af17ccca12c75b42": "d69ace7204e34c0a",
     "9c589d42a65eb5b7": "1372d0567009ca17",
     "0590cdd04ee5909d": "cb26e4151062f81d",
-    "25a49f9c411792ab": "e08a3d53d0175830"
+    "25a49f9c411792ab": "02adb77b9b4a6e7e",
+    "7cdfadee6aa36999": "9c87255f975ad2ad",
+    "d787fdd8e2c1eee6": "84dc0f9f67e6ce32",
+    "172d81ed5723f001": "5f82de08cf0a51e9",
+    "ea417a345b704d66": "18381bec95c1205a",
+    "af4aa9f887face8d": "39389637533bf279",
+    "ff0756763498bddf": "9d4f993fe46576c7",
+    "e9433eaf2e923d71": "5d4984bec1520bce",
+    "a9dab26fd7ba3ea6": "b424cf5c1011ae41",
+    "c01ba0fd421ec3f2": "34bd51fbee9bc720",
+    "f30ce08ad460f48a": "420922d1e45627ef",
+    "c1fb8c1ad83a746b": "bf6b51d3a2e6e28c",
+    "9ebaf0cfd6a558b9": "fbe69c42d795e5a0",
+    "1732f306b4e5d7b3": "1928384664214765",
+    "7f8844ae93bcae0d": "a225a20ff90154df",
+    "e08a3d53d0175830": "02adb77b9b4a6e7e",
+    "80934217fcbba28a": "3667809392747f65",
+    "5a79a69c20a0313c": "7eefded1aa6a9437"
   },
   "by_bank": {
     "Atlas": 34,
@@ -909,13 +926,13 @@
     "Coop. Universitaria": 71,
     "Familiar": 416,
     "GNB": 470,
-    "Itaú": 115,
+    "Itaú": 116,
     "Sudameris": 164,
-    "ueno bank": 344
+    "ueno bank": 345
   },
   "issue_counts": {
-    "validity_unconfirmed": 42,
-    "limits_unconfirmed": 200,
+    "validity_unconfirmed": 41,
+    "limits_unconfirmed": 201,
     "multiple_purchase_limits": 281,
     "source_amount_conflict": 12,
     "multiple_refund_limits": 103,
@@ -995,13 +1012,13 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "7cdfadee6aa36999",
+      "id": "9c87255f975ad2ad",
       "bank": "Atlas",
       "merchant": "Preventa Cheques delSol",
       "issues": [
         "validity_unconfirmed"
       ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+      "source_url": "https://www.delsol.com.py/eventos/the-signature-exclusive-reward"
     },
     {
       "id": "5f25d91d35d7793d",
@@ -1252,6 +1269,15 @@
       "id": "08daa8e8d787a65b",
       "bank": "Continental",
       "merchant": "Lincoln",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "a19971ee5c0feee1",
+      "bank": "Continental",
+      "merchant": "Fiori Florería",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -2152,7 +2178,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "ff0756763498bddf",
+      "id": "9d4f993fe46576c7",
       "bank": "Continental",
       "merchant": "Bertoni",
       "issues": [
@@ -2306,15 +2332,6 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "e9433eaf2e923d71",
-      "bank": "Continental",
-      "merchant": "Deysi Boutique",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
       "id": "2e47dbb8b3990b3e",
       "bank": "Continental",
       "merchant": "Dilara Boutique",
@@ -2354,15 +2371,6 @@
       "id": "63a6ae43b2131ccc",
       "bank": "Continental",
       "merchant": "FC Lab",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "aa28a1333acd5efd",
-      "bank": "Continental",
-      "merchant": "Fiori Florería",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -5494,58 +5502,67 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Cupones-ueno-DI-VALENTINI-_-OCT-2026v1.pdf"
     },
     {
-      "id": "c01ba0fd421ec3f2",
+      "id": "34bd51fbee9bc720",
       "bank": "ueno bank",
       "merchant": "diau black",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-exclusivo-ueno-Black-_-OCT-2026v2.docx.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-exclusivo-ueno-Black-_-OCT-2026v3.docx-1.pdf"
     },
     {
-      "id": "f30ce08ad460f48a",
+      "id": "420922d1e45627ef",
       "bank": "ueno bank",
       "merchant": "diau black cda",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Abri-tu-CDA-y-desbloquea-Dia-u-exclusivo-ueno-Black-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Abri-tu-CDA-y-desbloquea-Dia-u-exclusivo-ueno-Black-_-OCT-2026v3.docx.pdf"
     },
     {
-      "id": "c1fb8c1ad83a746b",
+      "id": "bf6b51d3a2e6e28c",
       "bank": "ueno bank",
       "merchant": "diau jueves15 tc",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TC-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TC-_-OCT-2026v2.docx.pdf"
     },
     {
-      "id": "9ebaf0cfd6a558b9",
+      "id": "fbe69c42d795e5a0",
       "bank": "ueno bank",
       "merchant": "diau jueves15 tc cda",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-CDA-desbloquea-Dia-u-_-TC-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-CDA-desbloquea-Dia-u-_-TC-_-OCT-2026v2.docx.pdf"
     },
     {
-      "id": "1732f306b4e5d7b3",
+      "id": "afd40c1ac4ef46b5",
+      "bank": "ueno bank",
+      "merchant": "diau jueves15 tc td",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TC-y-TD-_-OCT-2026v1.docx.pdf"
+    },
+    {
+      "id": "1928384664214765",
       "bank": "ueno bank",
       "merchant": "diau jueves15 td",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TD-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TD-_-OCT-2026v2.docx.pdf"
     },
     {
-      "id": "7f8844ae93bcae0d",
+      "id": "a225a20ff90154df",
       "bank": "ueno bank",
       "merchant": "diau jueves15 td cda",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-CDA-desbloquea-Dia-u-_-TD-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-CDA-desbloquea-Dia-u-_-TD-_-OCT-2026v2.docx.pdf"
     },
     {
       "id": "6e7a792718162762",
@@ -5641,13 +5658,13 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Cupones-ueno-KINGO-_-OCT-2026v1.pdf"
     },
     {
-      "id": "e08a3d53d0175830",
+      "id": "02adb77b9b4a6e7e",
       "bank": "ueno bank",
       "merchant": "kingo ahorrazo",
       "issues": [
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-KINGO-Y-AHORRAZO-_-OCT-2026v2.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-KINGO-Y-AHORRAZO-_-OCT-2026v3-1.pdf"
     },
     {
       "id": "665c6d689abc7a61",
@@ -5695,22 +5712,22 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-ueno-Compra-mas-en-PLUB-_-OCT-2026v1.pdf"
     },
     {
-      "id": "80934217fcbba28a",
+      "id": "3667809392747f65",
       "bank": "ueno bank",
       "merchant": "reintegro diau tc",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-_-TC-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-_-TC-_-OCT-2026v2.docx.pdf"
     },
     {
-      "id": "5a79a69c20a0313c",
+      "id": "7eefded1aa6a9437",
       "bank": "ueno bank",
       "merchant": "reintegro diau td",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-_-TD-_-OCT-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-_-TD-_-OCT-2026v2.docx.pdf"
     },
     {
       "id": "45d7bbf7de3e1705",

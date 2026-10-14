@@ -233,6 +233,12 @@ Total de beneficios/comercios: 736
 |---|---|---|---|---|
 | Fereterías y Talleres del País | Hasta 18 cuotas sin intereses; Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de agosto de 2027 | Todo el país |
 
+## Florerías (1)
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
+|---|---|---|---|---|
+| Fiori Florería | 15%; Hasta 6 cuotas sin intereses; 15% de reintegro | todos los días | Vigente hasta el 21 de diciembre de 2026 | Asunción |
+
 ## Gastronomía (40)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
@@ -581,7 +587,7 @@ Total de beneficios/comercios: 736
 | El Amanecer - Miércoles de Supermercados | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 25 de agosto de 2027 | San Juan Bautista |
 | Emanuel Supermercado - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 30 de diciembre de 2026 | Bella Vista |
 | Fortis Mayorista | 10%; 10% de reintegro | Primer sábado y domingo de cada mes, en Fortis Mayorista - 10% de reintegro en el extracto, pagando exclusivamente con las tarjetas de crédito Dinelco Continental | Vigente hasta el 31 de diciembre de 2026 | No especificado |
-| Gran Vía - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 07 de octubre de 2026 | No especificado |
+| Gran Vía - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 13 de octubre de 2027 | Todo el país |
 | Grupo Laso - Minimarket | 20%; 20% de reintegro | Los viernes | Vigente hasta el 06 de agosto de 2027 | No especificado |
 | Géminis Super Center | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 08 de marzo de 2027 | Santa Rosa del Aguaray |
 | Hello Oven - Miércoles Supermercados | 25%; 25% de reintegro | Los miércoles | Vigente hasta el 01 de septiembre de 2027 | Asunción |
@@ -597,7 +603,7 @@ Total de beneficios/comercios: 736
 | La Familia Villalba - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 02 de diciembre de 2026 | Encarnación |
 | La Preferida - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 08 de septiembre de 2027 | Asunción |
 | La Sirenita - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 25 de noviembre de 2026 | Encarnación |
-| Linalu Supermercado - "Miércoles de supermercados" | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 07 de octubre de 2026 | Pilar |
+| Linalu Supermercado - "Miércoles de supermercados" | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 13 de enero de 2027 | Pilar |
 | Los Hermanitos - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 21 de julio de 2027 | Encarnación |
 | Maxi Hipermercado - Miércoles de Supermercado | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 02 de septiembre de 2027 | Pedro Juan Caballero |
 | Mercadito Agrosah - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 23 de diciembre de 2026 | Fernando de la Mora |
@@ -612,8 +618,8 @@ Total de beneficios/comercios: 736
 | Predileto - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 13 de octubre de 2027 | San Alberto (Alto Paraná) |
 | Pronto - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 01 de septiembre de 2027 | Col. Hohenau |
 | Pryca - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 10 de marzo de 2027 | No especificado |
-| Real - Miércoles de Supermercados | 25%; 25% de reintegro | Los miércoles | Vigente hasta el 07 de octubre de 2026 | No especificado |
-| Real Online - Miércoles de Supermercados | 30%; 30% de reintegro | Los miércoles | Vigente hasta el 07 de octubre de 2026 | No especificado |
+| Real - Miércoles de Supermercados | 25%; 25% de reintegro | Los miércoles | Vigente hasta el 13 de abril de 2027 | No especificado |
+| Real Online - Miércoles de Supermercados | 30%; 30% de reintegro | Los miércoles | Vigente hasta el 13 de abril de 2027 | No especificado |
 | Rubencito - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 19 de mayo de 2027 | No especificado |
 | San Cayetano Comercial - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 21 de octubre de 2026 | Luque |
 | Stock Supermercados - Miércoles de Supermercados | 20%; Hasta 18 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
@@ -634,7 +640,7 @@ Total de beneficios/comercios: 736
 
 _Se omitieron 37 filas en este resumen; están en el CSV._
 
-## Tiendas (212)
+## Tiendas (211)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -662,7 +668,7 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | Barista Róga | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre del 2026 | Asunción |
 | Belvi Studio | 20%; 20% de reintegro | Los jueves | Vigente hasta el 19 de febrero de 2027 | Naranjal |
 | Benditta Collection | 25%; Hasta 12 cuotas sin intereses; 10% de reintegro; 15% de descuento | todos los días | Vigente hasta el 09 de marzo de 2027 | Encarnación |
-| Bertoni | 20%; hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 15 abril de 2027 | Asunción |
+| Bertoni | 20%; hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 15 octubre de 2026 | Asunción |
 | Birkenstock | 25% de reintegro; 20% de reintegro | los jueves | Vigente hasta el 13 de noviembre de 2026 | No especificado |
 | Body Club | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 15 de abril de 2027 | Asunción |
 | Body Sculpt | hasta 12 cuotas sin intereses; 20% en caja | todos los días | Vigente hasta el 04 de febrero del 2027 | No especificado |
@@ -692,7 +698,7 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | De Marie | Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
 | Deport Center | 30%; Hasta 12 cuotas sin intereses; 30% de reintegro | todos los días | Vigente hasta el 22 de julio de 2027 | Encarnación |
 | Dermash | 25% de reintegro; 20% de reintegro | los jueves | No especificado | Asunción |
-| Deysi Boutique | 20%; 20% de reintegro | los jueves | Vigente hasta el 29 del octubre del 2026 | Obligado, Itapúa |
+| Deysi Boutique | 20%; 20% de reintegro | Los jueves | Vigente hasta el 29 de octubre de 2026 | Obligado, Itapúa |
 | Dilara Boutique | 20%; hasta 6 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 15 de abril de 2027 | Encarnación |
 | Discovery Foot Wear | 30%; Hasta 12 cuotas sin intereses; 30% de descuento | todos los días | Vigente hasta el 30 de mayo de 2027 | Asunción |
 | Dudalina | 25%; Hasta 12 cuotas sin intereses; 10% de reintegro; 15% de descuento | todos los días | Vigente hasta el 09 de marzo de 2027 | No especificado |
@@ -701,12 +707,11 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | El Negro Suplementos | 35%; Hasta 12 cuotas sin intereses; 15% de reintegro; 10% de reintegro; 35% de descuento | todos los días | Vigente hasta el 17 de junio de 2027 | Asunción |
 | Elefante Negro | 25% de reintegro | los jueves | Vigente hasta 03 de junio de 2027 | Asunción |
 | Elizabeth Macoritto - Vestidos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 05 de marzo del 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | Asunción |
-| Eneache | 20%; 20% de reintegro | los jueves | Vigente hasta el 08 de abril de 2027 | Asunción |
+| Eneache | 20%; 20% de reintegro | Los jueves | Vigente hasta el 08 de abril de 2027 | Asunción |
 | Enerbike | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de julio de 2027 | Asunción |
 | Essen | Hasta 12 cuotas sin intereses; 30% de descuento; 10% de descuento | Todos los días | Vigente hasta el 05 de junio de 2027 | No especificado |
 | FC Lab | Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Facha Facha | 20%; 20% de reintegro | los jueves | Vigente hasta el 11 de marzo de 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | Encarnación |
-| Fiori Florería | 15%; hasta 6 cuotas sin intereses; 15% de reintegro | todos los días | Vigente hasta el 21 de diciembre de 2026 | Asunción |
 | Fitway | 25%; 25% de reintegro; 20% de reintegro | los jueves | Vigente hasta el 25 de marzo de 2027 | Asunción |
 | Flash Importados | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 02 de septiembre de 2027 | Ciudad del Este |
 | Forever 21 | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
@@ -718,8 +723,9 @@ _Se omitieron 37 filas en este resumen; están en el CSV._
 | Ganian Petshop | 20%; 20% de reintegro | Los jueves | Vigente hasta el 08 de junio de 2027 | No especificado |
 | Gilardini | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 18 de marzo de 2027 | Asunción |
 | Giorgio Redaelli | 20%; 20% de reintegro | los jueves | Vigente hasta el 27 de mayo de 2027 | Asunción |
+| Glamore Shoes | 20%; 25% de reintegro; 20% de reintegro | Los jueves | Vigente hasta el 05 de febrero de 2027 | Asunción |
 
-_Se omitieron 132 filas en este resumen; están en el CSV._
+_Se omitieron 131 filas en este resumen; están en el CSV._
 
 ## Vehículos (37)
 

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T15:04:53.926479+00:00",
-  "promotion_count": 2428,
+  "generated_at": "2026-10-14T12:57:25.007133+00:00",
+  "promotion_count": 2430,
   "banks": [
     "Atlas",
     "BNF",
@@ -46,6 +46,7 @@
     "Fast Food",
     "Ferreterías",
     "Ferreterías y Talleres del País",
+    "Florerías",
     "Frigorificos",
     "Gastronomía",
     "Generales",
@@ -1006,7 +1007,24 @@
     "af17ccca12c75b42": "d69ace7204e34c0a",
     "9c589d42a65eb5b7": "1372d0567009ca17",
     "0590cdd04ee5909d": "cb26e4151062f81d",
-    "25a49f9c411792ab": "e08a3d53d0175830"
+    "25a49f9c411792ab": "02adb77b9b4a6e7e",
+    "7cdfadee6aa36999": "9c87255f975ad2ad",
+    "d787fdd8e2c1eee6": "84dc0f9f67e6ce32",
+    "172d81ed5723f001": "5f82de08cf0a51e9",
+    "ea417a345b704d66": "18381bec95c1205a",
+    "af4aa9f887face8d": "39389637533bf279",
+    "ff0756763498bddf": "9d4f993fe46576c7",
+    "e9433eaf2e923d71": "5d4984bec1520bce",
+    "a9dab26fd7ba3ea6": "b424cf5c1011ae41",
+    "c01ba0fd421ec3f2": "34bd51fbee9bc720",
+    "f30ce08ad460f48a": "420922d1e45627ef",
+    "c1fb8c1ad83a746b": "bf6b51d3a2e6e28c",
+    "9ebaf0cfd6a558b9": "fbe69c42d795e5a0",
+    "1732f306b4e5d7b3": "1928384664214765",
+    "7f8844ae93bcae0d": "a225a20ff90154df",
+    "e08a3d53d0175830": "02adb77b9b4a6e7e",
+    "80934217fcbba28a": "3667809392747f65",
+    "5a79a69c20a0313c": "7eefded1aa6a9437"
   },
   "schema_version": 2
 }

@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 115
+Total de beneficios: 116
 
 ## Alemania Cell
 
@@ -60,7 +60,6 @@ Total de beneficios: 115
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Bazzar | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-12-27 hasta 2026-10-17 |
 | Todo Costura | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-12 hasta 2026-12-31 |
 
 ## Niños
@@ -197,5 +196,7 @@ Total de beneficios: 115
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Bazzar | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-12-27 hasta 2026-10-17 |
+| Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-11-20 hasta 2026-10-15 |
 | Laguna Blanca | 6 Cuotas sin intereses 30 %; 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-11-18 hasta 2026-10-14 |
 
