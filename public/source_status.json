@@ -3,47 +3,49 @@
     "status": "failed",
     "checked_at": "2026-10-08T14:33:07.837064+00:00",
     "records": 160,
-    "attempted_at": "2026-10-14T12:50:08.336700+00:00",
+    "attempted_at": "2026-10-15T12:37:15.121918+00:00",
     "error_type": "CalledProcessError"
   },
   "Itaú": {
     "status": "fetched",
-    "checked_at": "2026-10-14T12:51:06.900038+00:00",
+    "checked_at": "2026-10-15T12:38:20.678864+00:00",
     "records": 116
   },
   "BNF": {
     "status": "fetched",
-    "checked_at": "2026-10-14T12:51:40.252059+00:00",
+    "checked_at": "2026-10-15T12:38:56.896746+00:00",
     "records": 77
   },
   "Continental": {
     "status": "fetched",
-    "checked_at": "2026-10-14T12:51:42.784346+00:00",
-    "records": 736
+    "checked_at": "2026-10-15T12:39:00.433984+00:00",
+    "records": 737
   },
   "Atlas": {
     "status": "fetched",
-    "checked_at": "2026-10-14T12:51:44.854224+00:00",
-    "records": 34
+    "checked_at": "2026-10-15T12:39:04.361162+00:00",
+    "records": 44
   },
   "Coop. Universitaria": {
     "status": "fetched",
-    "checked_at": "2026-10-14T12:52:30.291310+00:00",
+    "checked_at": "2026-10-15T12:40:24.167400+00:00",
     "records": 71
   },
   "ueno bank": {
-    "status": "fetched",
+    "status": "failed",
     "checked_at": "2026-10-14T12:56:55.145689+00:00",
-    "records": 345
+    "records": 345,
+    "attempted_at": "2026-10-15T12:40:41.686697+00:00",
+    "error_type": "CalledProcessError"
   },
   "Familiar": {
     "status": "fetched",
-    "checked_at": "2026-10-14T12:49:55.185687+00:00",
+    "checked_at": "2026-10-15T12:37:01.411995+00:00",
     "records": 416
   },
   "GNB": {
     "status": "fetched",
-    "checked_at": "2026-10-14T12:47:55.152022+00:00",
+    "checked_at": "2026-10-15T12:34:17.309033+00:00",
     "records": 470
   }
 }

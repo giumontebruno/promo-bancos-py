@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T12:57:25.007133+00:00",
-  "input_count": 2430,
-  "promotion_count": 2430,
+  "generated_at": "2026-10-15T12:41:12.025974+00:00",
+  "input_count": 2441,
+  "promotion_count": 2441,
   "duplicates_removed": 0,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -917,12 +917,19 @@
     "7f8844ae93bcae0d": "a225a20ff90154df",
     "e08a3d53d0175830": "02adb77b9b4a6e7e",
     "80934217fcbba28a": "3667809392747f65",
-    "5a79a69c20a0313c": "7eefded1aa6a9437"
+    "5a79a69c20a0313c": "7eefded1aa6a9437",
+    "ff6803046a6c7441": "44a125c738b02b4a",
+    "1b2581bbb4fc3148": "ccbfd4930fcdc0e5",
+    "e4eeb0b11c594080": "4fa6c84d17e4a77d",
+    "4d46397f34ed73ca": "ce2c037510752187",
+    "74f5c64a2e8d7e0b": "61dbed5f234d4d60",
+    "fc1b5fc7c90e2fb6": "308101a16b5b6a6f",
+    "c9903cf6b00a6fb5": "9601dd503c1812a4"
   },
   "by_bank": {
-    "Atlas": 34,
+    "Atlas": 44,
     "BNF": 77,
-    "Continental": 737,
+    "Continental": 738,
     "Coop. Universitaria": 71,
     "Familiar": 416,
     "GNB": 470,
@@ -931,9 +938,9 @@
     "ueno bank": 345
   },
   "issue_counts": {
-    "validity_unconfirmed": 41,
+    "validity_unconfirmed": 52,
     "limits_unconfirmed": 201,
-    "multiple_purchase_limits": 281,
+    "multiple_purchase_limits": 283,
     "source_amount_conflict": 12,
     "multiple_refund_limits": 103,
     "conflicting_dates": 1
@@ -949,18 +956,27 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "ad745a8946768998",
+      "id": "84714bfec7199316",
       "bank": "Atlas",
-      "merchant": "Mariscal Miércoles Plus",
+      "merchant": "Martiderm",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "fd8cedfb36f09b95",
+      "bank": "Atlas",
+      "merchant": "Miércoles Plus",
       "issues": [
         "validity_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web//Tiendas%20adheridas%20Mi%C3%A9rcoles%20Plus.pdf"
     },
     {
-      "id": "84714bfec7199316",
+      "id": "85e0e1efcba1e532",
       "bank": "Atlas",
-      "merchant": "Martiderm",
+      "merchant": "Nueva Americana",
       "issues": [
         "validity_unconfirmed"
       ],
@@ -1040,6 +1056,15 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
+      "id": "137d14b61964f0ac",
+      "bank": "Atlas",
+      "merchant": "oBoticário",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
       "id": "f15cf9854b37b0c4",
       "bank": "Atlas",
       "merchant": "Renová tu Hogar",
@@ -1067,6 +1092,24 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
+      "id": "0c2e5a63be06817d",
+      "bank": "Atlas",
+      "merchant": "Champs Elysées",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "b853202e7d83d141",
+      "bank": "Atlas",
+      "merchant": "Cortefiel",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
       "id": "f19a5f60e7163501",
       "bank": "Atlas",
       "merchant": "Di Valentini",
@@ -1076,9 +1119,63 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "54a6094822faf46d",
+      "id": "2f6e2aaa890504e2",
       "bank": "Atlas",
-      "merchant": "Mariscal - Días M",
+      "merchant": "Forever 21",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "bd367a5e119cae1f",
+      "bank": "Atlas",
+      "merchant": "ISDIN",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "b6be0f65d5c0a132",
+      "bank": "Atlas",
+      "merchant": "Jack & Jones",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "394649c9bbe57010",
+      "bank": "Atlas",
+      "merchant": "Mango",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "0257982426bda4b9",
+      "bank": "Atlas",
+      "merchant": "Pedro del Hierro",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "49a719bd38acea68",
+      "bank": "Atlas",
+      "merchant": "Springfield",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "48f8b5bbd541db28",
+      "bank": "Atlas",
+      "merchant": "women'secret",
       "issues": [
         "validity_unconfirmed"
       ],
@@ -1817,7 +1914,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "e4eeb0b11c594080",
+      "id": "4fa6c84d17e4a77d",
       "bank": "Continental",
       "merchant": "Unik Beauty Spa",
       "issues": [
@@ -1973,6 +2070,25 @@
       "id": "940b44ec1dd40641",
       "bank": "Continental",
       "merchant": "Koala",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "209249b4a2a288b8",
+      "bank": "Continental",
+      "merchant": "La Almenas - Las Almenitas - Las Colinas - Campoalto - Torrefuerte",
+      "issues": [
+        "validity_unconfirmed",
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "651c8eb87295144c",
+      "bank": "Continental",
+      "merchant": "Nissei - Promo Aniversario",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -2530,9 +2646,9 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "c18eb48fb24d8e16",
+      "id": "890f575f5835fae5",
       "bank": "Continental",
-      "merchant": "La Coqueta",
+      "merchant": "La Coqueta Shopping",
       "issues": [
         "multiple_purchase_limits"
       ],

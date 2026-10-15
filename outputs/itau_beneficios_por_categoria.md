@@ -54,7 +54,7 @@ Total de beneficios: 116
 | Luminotecnia | 6 Cuotas sin intereses; hasta 6 cuotas sin intereses. | No especificado | 2026-01-06 hasta 2026-12-31 |
 | Maquicenter | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2022-12-05 hasta 2026-12-31 |
 | Olier | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2025-05-11 hasta 2026-12-31 |
-| Pilar | 10 Cuotas sin intereses 60 % Hasta; Tenes 55% de ahorro + 5% pagando con APPLE PAY y GPAY y hasta 10 cuotas sin intereses. | No especificado | 2026-07-22 hasta 2026-10-18 |
+| Sara Comercial | 10 Cuotas sin intereses 15 %; Tenés 15% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2024-01-26 hasta 2026-11-16 |
 
 ## Indumentaria
 
@@ -197,6 +197,6 @@ Total de beneficios: 116
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Bazzar | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-12-27 hasta 2026-10-17 |
-| Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-11-20 hasta 2026-10-15 |
-| Laguna Blanca | 6 Cuotas sin intereses 30 %; 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-11-18 hasta 2026-10-14 |
+| Pilar | 10 Cuotas sin intereses 60 % Hasta; Tenes 55% de ahorro + 5% pagando con APPLE PAY y GPAY y hasta 10 cuotas sin intereses. | No especificado | 2026-07-22 hasta 2026-10-18 |
+| Pilar | 10 Cuotas sin intereses 70 % Hasta; Tenés hasta 60% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-08-13 hasta 2026-10-16 |
 

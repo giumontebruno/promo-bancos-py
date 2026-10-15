@@ -1,7 +1,12 @@
 {
-  "checked_at": "2026-10-14T12:49:54.530951+00:00",
+  "checked_at": "2026-10-15T12:37:00.730809+00:00",
   "published": 416,
   "pending": [
+    {
+      "merchant_name": "GASTRO MALL EXCELSIOR",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro-mall-excelsior",
+      "reason": "merchant_not_in_terms"
+    },
     {
       "merchant_name": "CECOTEC-SHOPPING MARIANO",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",

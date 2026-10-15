@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14T12:57:25.007133+00:00",
-  "promotion_count": 2430,
+  "generated_at": "2026-10-15T12:41:12.025974+00:00",
+  "promotion_count": 2441,
   "banks": [
     "Atlas",
     "BNF",
@@ -1024,7 +1024,14 @@
     "7f8844ae93bcae0d": "a225a20ff90154df",
     "e08a3d53d0175830": "02adb77b9b4a6e7e",
     "80934217fcbba28a": "3667809392747f65",
-    "5a79a69c20a0313c": "7eefded1aa6a9437"
+    "5a79a69c20a0313c": "7eefded1aa6a9437",
+    "ff6803046a6c7441": "44a125c738b02b4a",
+    "1b2581bbb4fc3148": "ccbfd4930fcdc0e5",
+    "e4eeb0b11c594080": "4fa6c84d17e4a77d",
+    "4d46397f34ed73ca": "ce2c037510752187",
+    "74f5c64a2e8d7e0b": "61dbed5f234d4d60",
+    "fc1b5fc7c90e2fb6": "308101a16b5b6a6f",
+    "c9903cf6b00a6fb5": "9601dd503c1812a4"
   },
   "schema_version": 2
 }
