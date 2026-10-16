@@ -1,23 +1,27 @@
 {
-  "checked_at": "2026-10-15T12:34:16.609021+00:00",
+  "checked_at": "2026-10-16T12:14:01.549003+00:00",
   "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
-  "total_source_cards": 245,
+  "total_source_cards": 249,
   "already_represented_source_cards": 242,
   "source_cards_not_yet_in_app": [
+    680,
+    483,
+    682,
+    681,
     297,
     20,
     157
   ],
   "flagged_cards": [
     {
-      "id": 175,
-      "name": "Cinemark",
-      "flags": "source_start_date_stale"
-    },
-    {
       "id": 260,
       "name": "La Ruta Gastronómica",
       "flags": "source_start_date_stale; merchant_group_not_geocodable"
+    },
+    {
+      "id": 175,
+      "name": "Cinemark",
+      "flags": "source_start_date_stale"
     },
     {
       "id": 408,

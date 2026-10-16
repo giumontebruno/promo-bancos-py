@@ -2,13 +2,12 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 116
+Total de beneficios: 119
 
 ## Alemania Cell
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Alemania Cell | 15 Cuotas sin intereses; Hasta 15 cuotas sin intereses. | No especificado | 2025-10-01 hasta 2026-10-15 |
 | Alemania Cell | 18 Cuotas sin intereses; Tenes hasta 18 cuotas sin intereses. | No especificado | 2026-09-09 hasta 2026-10-31 |
 
 ## Belleza y Salud
@@ -55,6 +54,7 @@ Total de beneficios: 116
 | Maquicenter | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2022-12-05 hasta 2026-12-31 |
 | Olier | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2025-05-11 hasta 2026-12-31 |
 | Sara Comercial | 10 Cuotas sin intereses 15 %; Tenés 15% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2024-01-26 hasta 2026-11-16 |
+| Sierra Decor | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro y 10 cuotas sin intereses | No especificado | 2026-02-09 hasta 2026-10-31 |
 
 ## Indumentaria
 
@@ -136,6 +136,7 @@ Total de beneficios: 116
 | Municipalidad de Luque | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
 | Municipalidad de Misiones | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
 | Municipalidad de San Bernardino | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
+| NESTLE COFFEE HOUSE | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro con todas las tarjetas de crédito, 25% de reintegro para tarjetas Personal Bank + 6 cuotas sin intereses | No especificado | 2026-10-21 hasta 2026-10-23 |
 | New Balance | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Nice | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Pampero | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
@@ -196,7 +197,9 @@ Total de beneficios: 116
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| BURGER FEST | tarjeta de crédito; Tenes 20% de reintegro | No especificado | 2026-10-17 hasta 2026-10-18 |
 | Bazzar | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-12-27 hasta 2026-10-17 |
+| PIK | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | No especificado | 2026-07-21 hasta 2026-10-17 |
 | Pilar | 10 Cuotas sin intereses 60 % Hasta; Tenes 55% de ahorro + 5% pagando con APPLE PAY y GPAY y hasta 10 cuotas sin intereses. | No especificado | 2026-07-22 hasta 2026-10-18 |
-| Pilar | 10 Cuotas sin intereses 70 % Hasta; Tenés hasta 60% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-08-13 hasta 2026-10-16 |
+| Pilar | 10 Cuotas sin intereses 70 % Hasta; Tenés hasta 60% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-08-13 hasta 2026-10-17 |
 
