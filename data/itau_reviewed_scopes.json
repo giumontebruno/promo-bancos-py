@@ -550,5 +550,71 @@
         "Revisión de variantes": "Segmentación revisada del detalle y bases oficiales por tarjeta y tope; sin sumar descuento en caja al reintegro. Inicio tomado del detalle explícito «Del 23 de febrero al 31 de diciembre de 2026»; metadata original indica 2026-01-05 y se conserva como evidencia."
       }
     ]
+  },
+  "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447": {
+    "sha256": "0595ae290aab0270870fd3b76c8d7e68ad43395568f9d836417c3dfbc6512e17",
+    "reviewed_on": "2026-10-17",
+    "variants": [
+      {
+        "Variante": "reviewed-card-1",
+        "Etiqueta de variante": "AMEX Platinum / Visa Infinite",
+        "Vigencia": "Desde 2026-10-18 hasta 2026-10-25",
+        "Día de promoción": "domingos 18 y 25 de octubre de 2026",
+        "Cantidad de descuento / beneficio": "20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank.",
+        "Tarjetas verificadas": "AMEX Platinum / Visa Infinite",
+        "Porcentaje efectivo": "20",
+        "Tipo de beneficio verificado": "reintegro",
+        "Detalle": "18 y 25 de octubre de 2026. Local Areté Perón solamente. Tarjetas de crédito Itaú AMEX Platinum / Visa Infinite. 20% de reintegro + 5 puntos porcentuales con PERSONAL BANK. Tope de compra Gs. 3.000.000 para AMEX Platinum / Visa Infinite. Período de acumulación no especificado en las bases. POS Bancard; no tarjetas prepagas. No acumulable con otras promociones.",
+        "Bases y condiciones": "* Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. Tope de compra de Gs. 3.000.000 para AMEX PLATINUM/VISA INFINITE. Tope de compra de Gs. 1.500.000 para TC PREMIUM. Tope de compra de Gs. 500.000 para TC ORO. Tope de compra de Gs. 300.000 para TC CLASICAS.",
+        "Montos / topes": "Tope de compra Gs. 3.000.000 para AMEX Platinum / Visa Infinite. Período de acumulación no especificado en las bases.",
+        "Topes revisados por variante": "yes",
+        "Revisión de variantes": "Detalle y bases oficiales leídos 17/10/2026; 25% requiere Personal Bank; fechas y sucursal limitadas; topes separados por tarjeta."
+      },
+      {
+        "Variante": "reviewed-card-2",
+        "Etiqueta de variante": "Premium (excepto AMEX Platinum / Visa Infinite)",
+        "Vigencia": "Desde 2026-10-18 hasta 2026-10-25",
+        "Día de promoción": "domingos 18 y 25 de octubre de 2026",
+        "Cantidad de descuento / beneficio": "20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank.",
+        "Tarjetas verificadas": "Premium (excepto AMEX Platinum / Visa Infinite)",
+        "Porcentaje efectivo": "20",
+        "Tipo de beneficio verificado": "reintegro",
+        "Detalle": "18 y 25 de octubre de 2026. Local Areté Perón solamente. Tarjetas de crédito Itaú Premium (excepto AMEX Platinum / Visa Infinite). 20% de reintegro + 5 puntos porcentuales con PERSONAL BANK. Tope de compra Gs. 1.500.000 para Premium (excepto AMEX Platinum / Visa Infinite). Período de acumulación no especificado en las bases. POS Bancard; no tarjetas prepagas. No acumulable con otras promociones.",
+        "Bases y condiciones": "* Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. Tope de compra de Gs. 3.000.000 para AMEX PLATINUM/VISA INFINITE. Tope de compra de Gs. 1.500.000 para TC PREMIUM. Tope de compra de Gs. 500.000 para TC ORO. Tope de compra de Gs. 300.000 para TC CLASICAS.",
+        "Montos / topes": "Tope de compra Gs. 1.500.000 para Premium (excepto AMEX Platinum / Visa Infinite). Período de acumulación no especificado en las bases.",
+        "Topes revisados por variante": "yes",
+        "Revisión de variantes": "Detalle y bases oficiales leídos 17/10/2026; 25% requiere Personal Bank; fechas y sucursal limitadas; topes separados por tarjeta."
+      },
+      {
+        "Variante": "reviewed-card-3",
+        "Etiqueta de variante": "Oro",
+        "Vigencia": "Desde 2026-10-18 hasta 2026-10-25",
+        "Día de promoción": "domingos 18 y 25 de octubre de 2026",
+        "Cantidad de descuento / beneficio": "20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank.",
+        "Tarjetas verificadas": "Oro",
+        "Porcentaje efectivo": "20",
+        "Tipo de beneficio verificado": "reintegro",
+        "Detalle": "18 y 25 de octubre de 2026. Local Areté Perón solamente. Tarjetas de crédito Itaú Oro. 20% de reintegro + 5 puntos porcentuales con PERSONAL BANK. Tope de compra Gs. 500.000 para Oro. Período de acumulación no especificado en las bases. POS Bancard; no tarjetas prepagas. No acumulable con otras promociones.",
+        "Bases y condiciones": "* Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. Tope de compra de Gs. 3.000.000 para AMEX PLATINUM/VISA INFINITE. Tope de compra de Gs. 1.500.000 para TC PREMIUM. Tope de compra de Gs. 500.000 para TC ORO. Tope de compra de Gs. 300.000 para TC CLASICAS.",
+        "Montos / topes": "Tope de compra Gs. 500.000 para Oro. Período de acumulación no especificado en las bases.",
+        "Topes revisados por variante": "yes",
+        "Revisión de variantes": "Detalle y bases oficiales leídos 17/10/2026; 25% requiere Personal Bank; fechas y sucursal limitadas; topes separados por tarjeta."
+      },
+      {
+        "Variante": "reviewed-card-4",
+        "Etiqueta de variante": "Clásicas",
+        "Vigencia": "Desde 2026-10-18 hasta 2026-10-25",
+        "Día de promoción": "domingos 18 y 25 de octubre de 2026",
+        "Cantidad de descuento / beneficio": "20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank.",
+        "Tarjetas verificadas": "Clásicas",
+        "Porcentaje efectivo": "20",
+        "Tipo de beneficio verificado": "reintegro",
+        "Detalle": "18 y 25 de octubre de 2026. Local Areté Perón solamente. Tarjetas de crédito Itaú Clásicas. 20% de reintegro + 5 puntos porcentuales con PERSONAL BANK. Tope de compra Gs. 300.000 para Clásicas. Período de acumulación no especificado en las bases. POS Bancard; no tarjetas prepagas. No acumulable con otras promociones.",
+        "Bases y condiciones": "* Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. Tope de compra de Gs. 3.000.000 para AMEX PLATINUM/VISA INFINITE. Tope de compra de Gs. 1.500.000 para TC PREMIUM. Tope de compra de Gs. 500.000 para TC ORO. Tope de compra de Gs. 300.000 para TC CLASICAS.",
+        "Montos / topes": "Tope de compra Gs. 300.000 para Clásicas. Período de acumulación no especificado en las bases.",
+        "Topes revisados por variante": "yes",
+        "Revisión de variantes": "Detalle y bases oficiales leídos 17/10/2026; 25% requiere Personal Bank; fechas y sucursal limitadas; topes separados por tarjeta."
+      }
+    ]
   }
 }

@@ -50,3 +50,13 @@ test('public endpoints reject foreign origins and unauthorized dispatch', async 
 test('source verification pending does not trigger alerts even with bounded dates', () => {
   assert.equal(isDue({ ...promo, source_verification: 'unconfirmed' }, current), false);
 });
+
+test('reviewed Arete Peron offer only alerts on October 18 and 25', () => {
+  const rows = JSON.parse(require('node:fs').readFileSync('public/promotions.json', 'utf8'))
+    .filter(p => p.source_url === 'https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447' && p.source_verification === 'official_document');
+  assert.equal(rows.length, 4);
+  for (const offer of rows) {
+    for (const day of [17, 19, 24, 26]) assert.equal(isDue(offer, new Date(`2026-10-${day}T15:00:00Z`)), false);
+    for (const day of [18, 25]) assert.equal(isDue(offer, new Date(`2026-10-${day}T15:00:00Z`)), true);
+  }
+});

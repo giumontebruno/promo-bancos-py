@@ -1365,6 +1365,13 @@
       "candidate_place_id": "ChIJ2ZmArbytXZQRTHi37Bl5zXY",
       "additional_sources": [],
       "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-bnf-068a47c9899e334b",
+      "status": "pending",
+      "reason": "Google result is TED-Wepa ATM (types atm/finance), not a verified fuel-station establishment. Address similarity alone does not confirm the merchant.",
+      "reviewed_on": "2026-10-17",
+      "evidence_sha256": "11cbe232ac238e6a97196ad9cbf2a815e64a1132677cbf19b5b7e4ee6df22422"
     }
   ]
 }

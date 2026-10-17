@@ -138837,42 +138837,253 @@
     "category": "Supermercados",
     "merchant_name": "Areté",
     "merchant_locations_or_group": "",
-    "benefit_summary": "25% Hasta; hasta 25% de ahorro",
-    "benefit_type": "descuento",
+    "benefit_summary": "20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank.",
+    "benefit_type": "reintegro",
     "percentages": [
-      "25%"
+      "20%"
     ],
-    "promotion_days": [],
+    "promotion_days": [
+      "domingo"
+    ],
     "month_days": [],
     "last_days_of_month": 0,
     "ordinal_weekdays": [],
-    "day_text": "No especificado",
-    "validity": "2025-01-04 hasta 2026-10-25",
+    "day_text": "domingos 18 y 25 de octubre de 2026",
+    "validity": "Desde 2026-10-18 hasta 2026-10-25",
     "source_period_end": "",
-    "caps_and_minimums": "",
+    "caps_and_minimums": "Tope de compra Gs. 3.000.000 para AMEX Platinum / Visa Infinite. Período de acumulación no especificado en las bases.",
     "level_rules": "",
     "level_benefits": [],
     "special_flags": [],
     "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
     "source_page_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
-    "raw_detail": "El 18 y 25 de octubre de 2026. Pagando con tus tarjetas de crédito Itaú. Tenés 20% de reintegro + 5% con PERSONAL BANK. Aplica a local en PERON. LEER BASES Y CONDICIONES.",
+    "raw_detail": "18 y 25 de octubre de 2026. Local Areté Perón solamente. Tarjetas de crédito Itaú AMEX Platinum / Visa Infinite. 20% de reintegro + 5 puntos porcentuales con PERSONAL BANK. Tope de compra Gs. 3.000.000 para AMEX Platinum / Visa Infinite. Período de acumulación no especificado en las bases. POS Bancard; no tarjetas prepagas. No acumulable con otras promociones.",
     "source_warning": "",
-    "verified_cards": "",
-    "original_source_text": "",
-    "id": "c176e59f30f3f0d2",
+    "verified_cards": "AMEX Platinum / Visa Infinite",
+    "original_source_text": "Detalle: El 18 y 25 de octubre de 2026. Pagando con tus tarjetas de crédito Itaú. Tenés 20% de reintegro + 5% con PERSONAL BANK. Aplica a local en PERON. LEER BASES Y CONDICIONES. Bases y condiciones: * Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. Tope de compra de Gs. 3.000.000 para AMEX PLATINUM/VISA INFINITE. Tope de compra de Gs. 1.500.000 para TC PREMIUM. Tope de compra de Gs. 500.000 para TC ORO. Tope de compra de Gs. 300.000 para TC CLASICAS. Cantidad de descuento / beneficio: 25 % Hasta; hasta 25% de ahorro Vigencia: 2025-01-04 hasta 2026-10-25 Medios de pago: tarjeta de crédito",
+    "limits_reviewed_for_variant": true,
+    "source_verification": "official_document",
+    "variant_review_reason": "Detalle y bases oficiales leídos 17/10/2026; 25% requiere Personal Bank; fechas y sucursal limitadas; topes separados por tarjeta.",
+    "id": "970c88096544f355",
+    "campaign_id": "c176e59f30f3f0d2",
+    "offer_kind": "base",
+    "offer_label": "AMEX Platinum / Visa Infinite",
+    "effective_percent": 20.0,
     "source_checked_at": "2026-10-17T02:07:38.378271+00:00",
-    "source_file_updated_at": "2026-10-17T00:08:51-03:00",
+    "source_file_updated_at": "2026-10-17T03:25:11Z",
     "terms": {
       "version": 1,
-      "starts_on": null,
+      "starts_on": "2026-10-18",
       "ends_on": "2026-10-25",
       "conflicting_dates": false,
-      "limits": [],
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 3000000,
+          "currency": "PYG",
+          "period": null,
+          "evidence": "Tope de compra Gs. 3.000.000 para AMEX Platinum / Visa Infinite"
+        }
+      ],
       "cards": [
-        "Tarjetas de crédito Itaú"
+        "AMEX Platinum / Visa Infinite"
       ],
       "exclusions": [],
-      "additional": [],
+      "additional": [
+        "POS Bancard"
+      ],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Itaú",
+    "category": "Supermercados",
+    "merchant_name": "Areté",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank.",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "domingo"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "domingos 18 y 25 de octubre de 2026",
+    "validity": "Desde 2026-10-18 hasta 2026-10-25",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra Gs. 1.500.000 para Premium (excepto AMEX Platinum / Visa Infinite). Período de acumulación no especificado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
+    "source_page_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
+    "raw_detail": "18 y 25 de octubre de 2026. Local Areté Perón solamente. Tarjetas de crédito Itaú Premium (excepto AMEX Platinum / Visa Infinite). 20% de reintegro + 5 puntos porcentuales con PERSONAL BANK. Tope de compra Gs. 1.500.000 para Premium (excepto AMEX Platinum / Visa Infinite). Período de acumulación no especificado en las bases. POS Bancard; no tarjetas prepagas. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Premium (excepto AMEX Platinum / Visa Infinite)",
+    "original_source_text": "Detalle: El 18 y 25 de octubre de 2026. Pagando con tus tarjetas de crédito Itaú. Tenés 20% de reintegro + 5% con PERSONAL BANK. Aplica a local en PERON. LEER BASES Y CONDICIONES. Bases y condiciones: * Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. Tope de compra de Gs. 3.000.000 para AMEX PLATINUM/VISA INFINITE. Tope de compra de Gs. 1.500.000 para TC PREMIUM. Tope de compra de Gs. 500.000 para TC ORO. Tope de compra de Gs. 300.000 para TC CLASICAS. Cantidad de descuento / beneficio: 25 % Hasta; hasta 25% de ahorro Vigencia: 2025-01-04 hasta 2026-10-25 Medios de pago: tarjeta de crédito",
+    "limits_reviewed_for_variant": true,
+    "source_verification": "official_document",
+    "variant_review_reason": "Detalle y bases oficiales leídos 17/10/2026; 25% requiere Personal Bank; fechas y sucursal limitadas; topes separados por tarjeta.",
+    "id": "a649c6831a4e7858",
+    "campaign_id": "c176e59f30f3f0d2",
+    "offer_kind": "base",
+    "offer_label": "Premium (excepto AMEX Platinum / Visa Infinite)",
+    "effective_percent": 20.0,
+    "source_checked_at": "2026-10-17T02:07:38.378271+00:00",
+    "source_file_updated_at": "2026-10-17T03:25:11Z",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-10-18",
+      "ends_on": "2026-10-25",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1500000,
+          "currency": "PYG",
+          "period": null,
+          "evidence": "Tope de compra Gs. 1.500.000 para Premium (excepto AMEX Platinum / Visa Infinite)"
+        }
+      ],
+      "cards": [
+        "Premium (excepto AMEX Platinum / Visa Infinite)"
+      ],
+      "exclusions": [],
+      "additional": [
+        "POS Bancard"
+      ],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Itaú",
+    "category": "Supermercados",
+    "merchant_name": "Areté",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank.",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "domingo"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "domingos 18 y 25 de octubre de 2026",
+    "validity": "Desde 2026-10-18 hasta 2026-10-25",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra Gs. 500.000 para Oro. Período de acumulación no especificado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
+    "source_page_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
+    "raw_detail": "18 y 25 de octubre de 2026. Local Areté Perón solamente. Tarjetas de crédito Itaú Oro. 20% de reintegro + 5 puntos porcentuales con PERSONAL BANK. Tope de compra Gs. 500.000 para Oro. Período de acumulación no especificado en las bases. POS Bancard; no tarjetas prepagas. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Oro",
+    "original_source_text": "Detalle: El 18 y 25 de octubre de 2026. Pagando con tus tarjetas de crédito Itaú. Tenés 20% de reintegro + 5% con PERSONAL BANK. Aplica a local en PERON. LEER BASES Y CONDICIONES. Bases y condiciones: * Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. Tope de compra de Gs. 3.000.000 para AMEX PLATINUM/VISA INFINITE. Tope de compra de Gs. 1.500.000 para TC PREMIUM. Tope de compra de Gs. 500.000 para TC ORO. Tope de compra de Gs. 300.000 para TC CLASICAS. Cantidad de descuento / beneficio: 25 % Hasta; hasta 25% de ahorro Vigencia: 2025-01-04 hasta 2026-10-25 Medios de pago: tarjeta de crédito",
+    "limits_reviewed_for_variant": true,
+    "source_verification": "official_document",
+    "variant_review_reason": "Detalle y bases oficiales leídos 17/10/2026; 25% requiere Personal Bank; fechas y sucursal limitadas; topes separados por tarjeta.",
+    "id": "7607ac3e58590edd",
+    "campaign_id": "c176e59f30f3f0d2",
+    "offer_kind": "base",
+    "offer_label": "Oro",
+    "effective_percent": 20.0,
+    "source_checked_at": "2026-10-17T02:07:38.378271+00:00",
+    "source_file_updated_at": "2026-10-17T03:25:11Z",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-10-18",
+      "ends_on": "2026-10-25",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 500000,
+          "currency": "PYG",
+          "period": null,
+          "evidence": "Tope de compra Gs. 500.000 para Oro"
+        }
+      ],
+      "cards": [
+        "Oro"
+      ],
+      "exclusions": [],
+      "additional": [
+        "POS Bancard"
+      ],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Itaú",
+    "category": "Supermercados",
+    "merchant_name": "Areté",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank.",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "domingo"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "domingos 18 y 25 de octubre de 2026",
+    "validity": "Desde 2026-10-18 hasta 2026-10-25",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra Gs. 300.000 para Clásicas. Período de acumulación no especificado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
+    "source_page_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
+    "raw_detail": "18 y 25 de octubre de 2026. Local Areté Perón solamente. Tarjetas de crédito Itaú Clásicas. 20% de reintegro + 5 puntos porcentuales con PERSONAL BANK. Tope de compra Gs. 300.000 para Clásicas. Período de acumulación no especificado en las bases. POS Bancard; no tarjetas prepagas. No acumulable con otras promociones.",
+    "source_warning": "",
+    "verified_cards": "Clásicas",
+    "original_source_text": "Detalle: El 18 y 25 de octubre de 2026. Pagando con tus tarjetas de crédito Itaú. Tenés 20% de reintegro + 5% con PERSONAL BANK. Aplica a local en PERON. LEER BASES Y CONDICIONES. Bases y condiciones: * Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. Tope de compra de Gs. 3.000.000 para AMEX PLATINUM/VISA INFINITE. Tope de compra de Gs. 1.500.000 para TC PREMIUM. Tope de compra de Gs. 500.000 para TC ORO. Tope de compra de Gs. 300.000 para TC CLASICAS. Cantidad de descuento / beneficio: 25 % Hasta; hasta 25% de ahorro Vigencia: 2025-01-04 hasta 2026-10-25 Medios de pago: tarjeta de crédito",
+    "limits_reviewed_for_variant": true,
+    "source_verification": "official_document",
+    "variant_review_reason": "Detalle y bases oficiales leídos 17/10/2026; 25% requiere Personal Bank; fechas y sucursal limitadas; topes separados por tarjeta.",
+    "id": "b78d56e9a993438d",
+    "campaign_id": "c176e59f30f3f0d2",
+    "offer_kind": "base",
+    "offer_label": "Clásicas",
+    "effective_percent": 20.0,
+    "source_checked_at": "2026-10-17T02:07:38.378271+00:00",
+    "source_file_updated_at": "2026-10-17T03:25:11Z",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-10-18",
+      "ends_on": "2026-10-25",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 300000,
+          "currency": "PYG",
+          "period": null,
+          "evidence": "Tope de compra Gs. 300.000 para Clásicas"
+        }
+      ],
+      "cards": [
+        "Clásicas"
+      ],
+      "exclusions": [],
+      "additional": [
+        "POS Bancard"
+      ],
       "issues": [],
       "status": "parsed"
     }
@@ -196913,5 +197124,151 @@
       ],
       "status": "needs_review"
     }
+  },
+  {
+    "bank": "Atlas",
+    "category": "Generales",
+    "merchant_name": "Preventa Cheques delSol",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "45% de bonificación; 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [
+      "45%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "16 de octubre",
+    "validity": "Desde 2026-10-16 hasta 2026-10-16",
+    "source_period_end": "",
+    "caps_and_minimums": "Gs. 70.000.000 para tarjetas de crédito Signature delSol. Tope compartido con la promo de cheques del 17/10.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.delsol.com.py/eventos/the-signature-exclusive-reward",
+    "source_page_url": "https://www.delsol.com.py/eventos/the-signature-exclusive-reward",
+    "raw_detail": "con tarjetas de crédito Signature delSol Usa los cheques hasta el 19 de octubre Vigente el 16 de octubre de 2026. Tope de compra acumulado por cuenta de tarjeta: Gs. 70.000.000 para Tarjetas de Crédito delSol Atlas Signature, compartido con la promoción de Cheques delSol del 17 de octubre de 2026. La cantidad de cuotas se solicita en la App del Sol al momento de la compra del cheque, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000. No acumulable con otras promociones. Bonificación exclusiva para tarjetas de afinidad Signature delSol Atlas. Beneficios exclusivos para consumo personal.",
+    "source_warning": "",
+    "verified_cards": "",
+    "original_source_text": "",
+    "id": "f53faf9454ed34f8",
+    "source_checked_at": "2026-10-17T01:38:28.467913+00:00",
+    "source_file_updated_at": "2026-10-16T12:25:38Z",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-10-16",
+      "ends_on": "2026-10-16",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 70000000,
+          "currency": "PYG",
+          "period": null,
+          "evidence": "Tope de compra acumulado por cuenta de tarjeta: Gs. 70.000.000 para Tarjetas de Crédito delSol Atlas Signature, compartido con la promoción de Cheques delSol del 17 de octubre de 2026"
+        }
+      ],
+      "cards": [
+        "Tarjetas de crédito Signature delSol Usa los cheques hasta el 19 de octubre Vigente el 16 de octubre de 2026",
+        "Tarjetas de Crédito delSol Atlas Signature, compartido con la promoción de Cheques delSol del 17 de octubre de 2026"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    },
+    "archived": true
+  },
+  {
+    "bank": "Itaú",
+    "category": "Últimos días",
+    "merchant_name": "Club Centenario",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20%; Tenes 20% de ahorro",
+    "benefit_type": "descuento",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "No especificado",
+    "validity": "2019-04-06 hasta 2026-10-16",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=11015&c=31486",
+    "source_page_url": "https://www.itau.com.py/beneficios2/Detalle?b=11015&c=31486",
+    "raw_detail": "OKTOBERFEST 2026 Del 2 al 16 de octubre 2026. Pagando con tus tarjetas ITAU CENTENARIO. Tenes 20% de ahorro.",
+    "source_warning": "",
+    "verified_cards": "",
+    "original_source_text": "",
+    "id": "801f161cf1b91e58",
+    "source_checked_at": "2026-10-17T02:07:38.378271+00:00",
+    "source_file_updated_at": "2026-10-16T12:25:38Z",
+    "terms": {
+      "version": 1,
+      "starts_on": null,
+      "ends_on": "2026-10-16",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    },
+    "archived": true
+  },
+  {
+    "bank": "Itaú",
+    "category": "Últimos días",
+    "merchant_name": "Coolook",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "15% 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
+    "benefit_type": "descuento",
+    "percentages": [
+      "15%",
+      "20%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "No especificado",
+    "validity": "2025-05-12 hasta 2026-10-16",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16253&c=31569",
+    "source_page_url": "https://www.itau.com.py/beneficios2/Detalle?b=16253&c=31569",
+    "raw_detail": "Del 15 al 16 de octubre de 2026. Pagando con tus tarjetas de crédito Itaú PERSONAL BANK. Tenes 20% de ahorro y hasta 10 cuotas sin intereses.",
+    "source_warning": "",
+    "verified_cards": "",
+    "original_source_text": "",
+    "id": "9f8c03cc93f7335b",
+    "source_checked_at": "2026-10-17T02:07:38.378271+00:00",
+    "source_file_updated_at": "2026-10-16T12:25:38Z",
+    "terms": {
+      "version": 1,
+      "starts_on": null,
+      "ends_on": "2026-10-16",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito Itaú PERSONAL BANK"
+      ],
+      "exclusions": [],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    },
+    "archived": true
   }
 ]

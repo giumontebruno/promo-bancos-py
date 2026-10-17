@@ -7687,10 +7687,13 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
+      "google_confidence": "review",
+      "google_enrichment_status": "needs_review",
       "needs_review": false,
-      "location_verified_at": "2026-10-17T03:24:57+00:00"
+      "location_verified_at": "2026-10-17T03:24:57+00:00",
+      "location_review_status": "pending",
+      "location_review_reason": "Google result is TED-Wepa ATM (types atm/finance), not a verified fuel-station establishment. Address similarity alone does not confirm the merchant.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-bnf-ff71757b5de76076",

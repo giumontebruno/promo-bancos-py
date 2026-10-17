@@ -3,7 +3,7 @@ import hashlib
 import json
 import re
 import subprocess
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 try:
@@ -503,6 +503,19 @@ def preserve_unchanged_source_timestamps(promotions, previous):
             item['source_file_updated_at'] = old.get('source_file_updated_at')
 
 
+def retain_expired_history(promotions, previous, today=None):
+    # Keep ended offers addressable for favorite aliases without reactivating them.
+    today = today or datetime.now(timezone(timedelta(hours=-3))).date().isoformat()
+    ids = {item['id'] for item in promotions}
+    for item in previous:
+        terms = item.get('terms') or {}
+        end = terms.get('ends_on')
+        if item['id'] not in ids and end and end < today and not terms.get('conflicting_dates'):
+            promotions.append({**item, 'archived': True})
+            ids.add(item['id'])
+    return promotions
+
+
 def main():
     PUBLIC.mkdir(exist_ok=True)
     DATA.mkdir(exist_ok=True)
@@ -527,6 +540,7 @@ def main():
     committed = subprocess.run(['git', 'show', 'HEAD:public/promotions.json'], cwd=ROOT, capture_output=True, encoding='utf-8')
     committed_previous = json.loads(committed.stdout) if committed.returncode == 0 else []
     previous.extend(committed_previous)
+    retain_expired_history(promotions, previous)
     preserve_unchanged_source_timestamps(promotions, committed_previous or previous)
     old_manifest_path = PUBLIC / 'manifest.json'
     old_manifest = json.loads(old_manifest_path.read_text(encoding='utf-8')) if old_manifest_path.exists() else {}

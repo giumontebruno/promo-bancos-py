@@ -22,3 +22,13 @@ class FavoriteMigrationAuditTests(unittest.TestCase):
                     self.assertNotIn(target,seen,original)
                     seen.add(target);target=aliases[target]
                 self.assertIn(target,ids,original)
+
+    def test_expired_removed_offer_keeps_alias_without_becoming_current(self):
+        from promo_backend.normalize import retain_expired_history
+        old = {'id': 'ended', 'bank': 'Atlas', 'merchant_name': 'Offer', 'category': 'General', 'terms': {'ends_on': '2026-10-16', 'conflicting_dates': False}}
+        future = {**old, 'id': 'missing-future', 'terms': {'ends_on': '2026-12-31'}}
+        current = retain_expired_history([], [old, old, future], today='2026-10-17')
+        self.assertEqual(len(current), 1)
+        self.assertTrue(current[0]['archived'])
+        self.assertEqual(current[0]['terms']['ends_on'], '2026-10-16')
+        self.assertEqual(favorite_aliases([old], current, {'legacy': 'ended'}), {'legacy': 'ended'})

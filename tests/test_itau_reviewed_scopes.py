@@ -39,7 +39,7 @@ class ItauReviewedScopeTests(unittest.TestCase):
                 self.assertTrue(terms['ends_on'])
                 self.assertFalse(terms['conflicting_dates'])
                 count+=1
-        self.assertEqual(count,30)
+        self.assertEqual(count,34)
 
     def test_salemma_does_not_add_cash_discount_to_rebate(self):
         review=next(r for u,r in self.reviews.items() if 'b=15536&' in u)
