@@ -1,0 +1,192 @@
+[
+  {
+    "index": 24,
+    "merchant": "CHEF’S KITCHEN",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7bcbf5eb0b312676553/cheff.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/chefs-kitchen",
+    "sha256": "285fb758d20d52d863c02da02a28951a2e03f4c56ba604cb55dffc5c89b4deea",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 25,
+    "merchant": "PLUB",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7ba0283932901899591/PLUB2.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/plub",
+    "sha256": "20247451146e4533639d8df06eb1bb475c513409729dcf1e717d88258213c668",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 26,
+    "merchant": "DTP TRAVEL GROUP",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b84c1fdef552280193/f1.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/dtp-travel-group",
+    "sha256": "47d1988915ad2e345fc45a06616945ad6af898a0aa906848af96990862742acf",
+    "pages": 3,
+    "status": "downloaded"
+  },
+  {
+    "index": 27,
+    "merchant": "PROMOCIÓN MCLAREN MASTERCARD F1 TEAM",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b6d49f3ba465064324/Mclaren.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/promocion-mclaren-mastercard-f1-team",
+    "sha256": "9c04e614d7a7cae77f5b1b7374dc6ca9c47b531aafb496a57933c0249e7c89fc",
+    "pages": 9,
+    "status": "downloaded"
+  },
+  {
+    "index": 28,
+    "merchant": "Biggie Express",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b2b07d84a998700363/Biggie%20Express.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/biggie-express",
+    "sha256": "da3a85a094e65d8b4759c5511e7949c116ab77ab1c6c46217006aad5466725ec",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 29,
+    "merchant": "Distrito Perseverancia",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/distrito-perseverancia",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "pages": 2,
+    "status": "downloaded"
+  },
+  {
+    "index": 30,
+    "merchant": "GASTRONOMIA 26",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7a93816c51982829209/gastronimia.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/gastronomia",
+    "status": "already_reviewed"
+  },
+  {
+    "index": 31,
+    "merchant": "TARJETAS EMPRESARIALES",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7a772671d8885990040/tarjetas-empresariales.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/tarjetas-empresariales",
+    "sha256": "da6790f095e2ba8279c9f1b16e7126db4e096efb1e545dd16b92b4d9688b3aa2",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 32,
+    "merchant": "ZONA SUR",
+    "pdf": "",
+    "page": "https://www.sudameris.com.py/personas/beneficios/zona-sur",
+    "status": "no_pdf"
+  },
+  {
+    "index": 33,
+    "merchant": "ZONA ESTE",
+    "pdf": "",
+    "page": "https://www.sudameris.com.py/personas/beneficios/zona-este",
+    "status": "no_pdf"
+  },
+  {
+    "index": 34,
+    "merchant": "ZONA NORTE",
+    "pdf": "",
+    "page": "https://www.sudameris.com.py/personas/beneficios/zona-norte",
+    "status": "no_pdf"
+  },
+  {
+    "index": 35,
+    "merchant": "CLUB PORVENIR GUAIREÑO",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a5a22d9a31d1427523551/byc%20guairen%CC%83o.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/club-porvenir-guaireno",
+    "sha256": "7941f321a46e2a515bc56facd963aa6e31ffaa2e72a9f219d4ea631ffec04d9d",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 36,
+    "merchant": "LIVE FITNESS",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6aad779b60237447943742/live%20fitness.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/live-fitness",
+    "sha256": "29fb3626602bb15803a2e4ce7691a0cc521caaf6446d160fdfcdd5aff7feb2dd",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 37,
+    "merchant": "CLUB CONCEPCIÓN",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a5943193c798336930671/bc-clubconcepcion-1902.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/club-concepcion",
+    "sha256": "a5ae659aee38a7a32a690462e016f8ccad08839a0412265a7d54b4b56321f81f",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 38,
+    "merchant": "TATANO POSADA BOUTIQUE",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b8fe5fcef278339900/tatano%20posadas.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/tatano-posada-boutique",
+    "sha256": "6c6cf5aa4b02b8bf401862c1b837438cb5a194ffb4316b7f13d7ebee6b07c5bf",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 39,
+    "merchant": "ENEX Y APP MI ENEX",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/enex-y-app-mi-enex",
+    "sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+    "pages": 3,
+    "status": "downloaded"
+  },
+  {
+    "index": 40,
+    "merchant": "12 cuotas sin interés",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a5795c51477d763648664/bc-rubros12csi-20126.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/12-cuota-sin-interes",
+    "sha256": "7d0ea65acd2548d2283efd1a093748295563f393f466fecf4e73ede775bcd38f",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 41,
+    "merchant": "Catedral",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a57905e2f151885832210/byc%20catedral.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/catedral",
+    "sha256": "996e8a18c3a1d12585dd8ae2c97f913d65fab23da31ce61e425f554f8e95c0ef",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 42,
+    "merchant": "LUISITO",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a578654301b5024504743/ByC%20Luisito%202026.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/luisito",
+    "sha256": "08ab159652502de2bcec591ef5fed6ea4260a6e2447abba15595f1b28e7e6341",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 43,
+    "merchant": "Copemarket",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b54487772656136628/bc-copemarket-julio26v2.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/copemarket",
+    "sha256": "c159618fda931644ace7525ef648d2e02f029d80bba85bab7b924190fc8a1d09",
+    "pages": 2,
+    "status": "downloaded"
+  },
+  {
+    "index": 44,
+    "merchant": "FARMACENTER",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a578c739e91b249405103/byc%20farmacenter.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/farmacenter",
+    "sha256": "82be10e2f3388eed2b2131d323f73f5496cc4cfaf49fb37a28a1714181f81bfb",
+    "pages": 1,
+    "status": "downloaded"
+  },
+  {
+    "index": 45,
+    "merchant": "Copetrol",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/copetrol",
+    "sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "pages": 3,
+    "status": "downloaded"
+  }
+]

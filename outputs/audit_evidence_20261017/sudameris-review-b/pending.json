@@ -1,0 +1,66 @@
+[
+  {
+    "index": 26,
+    "merchant": "DTP TRAVEL GROUP",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b84c1fdef552280193/f1.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/dtp-travel-group",
+    "sha256": "47d1988915ad2e345fc45a06616945ad6af898a0aa906848af96990862742acf",
+    "pages": 3,
+    "status": "downloaded",
+    "reason": "Sorteo de upgrade, no descuento ni financiación. Enero a octubre2026 sin día exacto; no convertir a promoción de ahorro."
+  },
+  {
+    "index": 27,
+    "merchant": "PROMOCIÓN MCLAREN MASTERCARD F1 TEAM",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b6d49f3ba465064324/Mclaren.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/promocion-mclaren-mastercard-f1-team",
+    "sha256": "9c04e614d7a7cae77f5b1b7374dc6ca9c47b531aafb496a57933c0249e7c89fc",
+    "pages": 9,
+    "status": "downloaded",
+    "reason": "Sorteo, no descuento. PDF9p leído:10/04–06/11/2026; viajes sorteados25/08 y01/09, merchandising posterior. Mantener fuera del catálogo de ahorro."
+  },
+  {
+    "index": 29,
+    "merchant": "Distrito Perseverancia",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/distrito-perseverancia",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "pages": 2,
+    "status": "downloaded",
+    "reason": "Documento2p leído; página1 es imagen revisada visualmente. Hasta12cuotas03/08–31/12/2026 en60 marcas de página2 dentro del Distrito. Requiere expansión por comercio, no crear Distrito como comercio."
+  },
+  {
+    "index": 32,
+    "merchant": "ZONA SUR",
+    "pdf": "",
+    "page": "https://www.sudameris.com.py/personas/beneficios/zona-sur",
+    "status": "no_pdf",
+    "reason": "Página oficial sin PDF enlazado. No declarar vencida."
+  },
+  {
+    "index": 33,
+    "merchant": "ZONA ESTE",
+    "pdf": "",
+    "page": "https://www.sudameris.com.py/personas/beneficios/zona-este",
+    "status": "no_pdf",
+    "reason": "Página oficial sin PDF enlazado. No declarar vencida."
+  },
+  {
+    "index": 34,
+    "merchant": "ZONA NORTE",
+    "pdf": "",
+    "page": "https://www.sudameris.com.py/personas/beneficios/zona-norte",
+    "status": "no_pdf",
+    "reason": "Página oficial sin PDF enlazado. No declarar vencida."
+  },
+  {
+    "index": 37,
+    "merchant": "CLUB CONCEPCIÓN",
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a5943193c798336930671/bc-clubconcepcion-1902.pdf",
+    "page": "https://www.sudameris.com.py/personas/beneficios/club-concepcion",
+    "sha256": "a5ae659aee38a7a32a690462e016f8ccad08839a0412265a7d54b4b56321f81f",
+    "pages": 1,
+    "status": "downloaded",
+    "reason": "PDF leído: fin31/08/2028; inicios09/09 restaurante y31/10 débito no especifican año. No inventar año. Requiere aclaración oficial; preservar3topes y beneficios separados."
+  }
+]

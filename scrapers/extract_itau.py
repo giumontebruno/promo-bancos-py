@@ -3,10 +3,15 @@ import html
 import re
 import time
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse, parse_qs
 
 import requests
 from bs4 import BeautifulSoup
+
+try:
+    from scrapers.itau_reviewed_scopes import reviewed_scopes
+except ModuleNotFoundError:
+    from itau_reviewed_scopes import reviewed_scopes
 
 
 BASE = "https://www.itau.com.py"
@@ -14,7 +19,6 @@ START = f"{BASE}/beneficios"
 OUT_CSV = Path("outputs/itau_beneficios_por_categoria.csv")
 OUT_MD = Path("outputs/itau_beneficios_por_categoria.md")
 WORK_DIR = Path("work/itau")
-MAIN_CATEGORY_IDS = {"7", "13", "39", "3", "14", "8", "9", "17", "42", "16", "51", "50"}
 
 
 def clean(text):
@@ -52,16 +56,7 @@ def card_summary(card):
     return name, discount
 
 
-def main():
-    WORK_DIR.mkdir(parents=True, exist_ok=True)
-    OUT_CSV.parent.mkdir(exist_ok=True)
-    session = requests.Session()
-    session.headers.update({"User-Agent": "Mozilla/5.0"})
-
-    start_html = session.get(START, timeout=30).text
-    (WORK_DIR / "beneficios.html").write_text(start_html, encoding="utf-8")
-    soup = BeautifulSoup(start_html, "html.parser")
-
+def discover_categories(soup):
     categories = []
     seen_categories = set()
     for a in soup.select('a[href^="/beneficios2/categoria/"]'):
@@ -71,22 +66,58 @@ def main():
         m_name = re.search(r"\('(.+?)'\)", category)
         category = clean(m_name.group(1) if m_name else a.get_text(" "))
         if m and m.group(1) not in seen_categories:
-            if m.group(1) not in MAIN_CATEGORY_IDS:
-                continue
             seen_categories.add(m.group(1))
             categories.append({"id": m.group(1), "name": category, "url": urljoin(BASE, href)})
+
+    if not categories:
+        raise ValueError("Itaú: no official categories found; preserving previous export")
+    return categories
+
+
+def fetch(session, url, timeout=30):
+    response = session.get(url, timeout=timeout)
+    response.raise_for_status()
+    return response.text
+
+
+def cached_fetch(session, url, timeout=30):
+    if url == START:
+        path = WORK_DIR / 'beneficios.html'
+    elif '/categoria/' in url:
+        path = WORK_DIR / ('categoria_' + url.rsplit('/', 1)[1] + '.html')
+    else:
+        query = parse_qs(urlparse(url).query)
+        path = WORK_DIR / f"detail_{query['b'][0]}_{query['c'][0]}.html"
+    return path.read_text(encoding='utf-8')
+
+
+def main(use_cache=False):
+    WORK_DIR.mkdir(parents=True, exist_ok=True)
+    OUT_CSV.parent.mkdir(exist_ok=True)
+    session = requests.Session()
+    session.headers.update({"User-Agent": "Mozilla/5.0"})
+
+    get = cached_fetch if use_cache else fetch
+    start_html = get(session, START)
+    (WORK_DIR / "beneficios.html").write_text(start_html, encoding="utf-8")
+    soup = BeautifulSoup(start_html, "html.parser")
+
+    categories = discover_categories(soup)
 
     rows = []
     seen_details = set()
     for cat in categories:
-        page = session.get(cat["url"], timeout=30).text
+        page = get(session, cat["url"])
         (WORK_DIR / f"categoria_{cat['id']}.html").write_text(page, encoding="utf-8")
         cat_soup = BeautifulSoup(page, "html.parser")
-        for card in cat_soup.select("a.item-oferta"):
+        category_cards = cat_soup.select("a.item-oferta")
+        if not category_cards:
+            raise ValueError(f"Itaú: empty or inaccessible category {cat['url']}; preserving previous export")
+        for card in category_cards:
             onclick = card.get("onclick", "")
             m = re.search(r"buscar\('([^']+)','([^']+)','([^']*)'\)", onclick)
             if not m:
-                continue
+                raise ValueError(f"Itaú: unrecognized benefit card in {cat['url']}; preserving previous export")
             b, c, onclick_name = m.groups()
             key = (b, c)
             if key in seen_details:
@@ -94,7 +125,8 @@ def main():
             seen_details.add(key)
             name, card_discount = card_summary(card)
             detail_url = f"{BASE}/beneficios2/Detalle?b={b}&c={c}"
-            detail = session.get(detail_url, timeout=10).text
+            detail = get(session, detail_url, timeout=30)
+            (WORK_DIR / f"detail_{b}_{c}.html").write_text(detail, encoding="utf-8")
             detail_soup = BeautifulSoup(detail, "html.parser")
             title = clean((detail_soup.find("h2") or {}).get_text(" ") if detail_soup.find("h2") else name or onclick_name)
             detail_category = clean((detail_soup.select_one(".col-md-3 span") or {}).get_text(" ") if detail_soup.select_one(".col-md-3 span") else cat["name"])
@@ -104,6 +136,8 @@ def main():
             vigencia = text_after_label(detail_soup, "vigencia")
             payment = text_after_label(detail_soup, "medios de pago")
             bases = text_after_label(detail_soup, "bases y condiciones")
+            if not detail_soup.find("h2") or not (benefit or payment or bases):
+                raise ValueError(f"Itaú: incomplete benefit detail {detail_url}; preserving previous export")
             full_text = clean(detail_soup.get_text(" ", strip=True))
             discount = clean("; ".join(v for v in [badges or card_discount, benefit] if v))
 
@@ -124,9 +158,13 @@ def main():
             )
             time.sleep(0.02)
 
+    if not rows:
+        raise ValueError("Itaú: empty catalog; preserving previous export")
+    rows = [variant for row in rows for variant in reviewed_scopes(row)]
+    fields = list(dict.fromkeys(key for row in rows for key in row))
     rows.sort(key=lambda r: (r["Categoría"], r["Comercio/Promoción"]))
     with OUT_CSV.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(rows)
 

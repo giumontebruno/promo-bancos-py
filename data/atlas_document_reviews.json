@@ -1,0 +1,10 @@
+{
+  "Miércoles Plus": {
+    "document_url": "https://www.bancoatlas.com.py/web//Tiendas%20adheridas%20Mi%C3%A9rcoles%20Plus.pdf",
+    "document_sha256": "49f4102e2f4e0a1a60a172e3c664cd5703d261f8a197fd088071fbd5322f8802",
+    "detail_sha256": "1551fc02ebf55bd970db03c757cee0d0bb77a1a1e49a05811d4957f7cdde0b76",
+    "benefit_summary": "Hasta 20% de descuento en caja + 10% de reintegro pagando con QR; cuotas según local adherido",
+    "note": "Según el PDF de locales adheridos del 21 de octubre: Nike, Academy y Verónica Torre ofrecen 10% de descuento en caja + 10% de reintegro pagando con QR y hasta 3 cuotas sin intereses. Prüne y Nueva Americana ofrecen 20% en caja + 10% de reintegro pagando con QR y hasta 12 cuotas sin intereses. El grupo principal de tiendas enumeradas en el PDF ofrece 20% en caja + 10% de reintegro pagando con QR y hasta 3 cuotas sin intereses. Consultar el listado completo: la promoción no abarca todos los locales del shopping. El reintegro bancario es del 10% pagando con QR; el descuento en caja es un beneficio diferente y no se suma como una tasa única de reintegro.",
+    "effective_percent": 10
+  }
+}

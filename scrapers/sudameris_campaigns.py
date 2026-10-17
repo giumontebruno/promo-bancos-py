@@ -1,7 +1,7 @@
 """Read merchant rows from campaign PDFs instead of publishing campaign banners."""
 import io
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 
 import pdfplumber
 import requests
@@ -64,7 +64,7 @@ def merchant_rows(pdf_bytes, source_url, campaign):
 
 
 def expand_campaign(row):
-    detail = requests.get(row['URL'], timeout=30)
+    detail = requests.get(row.get('URL fuente actual') or row['URL'], timeout=30)
     detail.raise_for_status()
     soup = BeautifulSoup(detail.text, 'html.parser')
     urls = [urljoin(row['URL'], a['href']) for a in soup.select('a[href$=".pdf"]')]
@@ -72,4 +72,10 @@ def expand_campaign(row):
         raise ValueError('Campaign has no PDF: ' + row['Comercio/Promocion'])
     response = requests.get(urls[0], timeout=45)
     response.raise_for_status()
-    return merchant_rows(response.content, urls[0], row['Comercio/Promocion'])
+    identity = row.get('Bases URL identidad', '').split(';')[0].strip() or urls[0]
+    result = merchant_rows(response.content, identity, row['Comercio/Promocion'])
+    for item in result:
+        item['URL fuente actual'] = urls[0]
+        item['Estado verificacion'] = 'official_document'
+        item['Fecha verificacion fuente'] = datetime.now(timezone.utc).isoformat()
+    return result

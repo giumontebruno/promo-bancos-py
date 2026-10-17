@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+    "http_status": 200,
+    "sha256": "093e39e04b8b47ce8ee51e5ffbaeacfdd624adb84b6f6d841a9d3aa9f895b294",
+    "matches_cached": true
+  },
+  {
+    "url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+    "http_status": 200,
+    "sha256": "4aa0a21ace8f499a999d431d9052fa18b67908b2bda45e56bd54f901676bd3d2",
+    "matches_cached": true
+  },
+  {
+    "url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "http_status": 200,
+    "sha256": "546859d5df9af74a6810a41695c83ba3de6edf644c6cda58a645c45b57709c10",
+    "matches_cached": true
+  },
+  {
+    "url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+    "http_status": 200,
+    "sha256": "8bb72081fda0ab6e2635ca4c7cfcf639ebbcd5cccd83b2fc7eba4623f08723af",
+    "matches_cached": true
+  },
+  {
+    "url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf",
+    "http_status": 200,
+    "sha256": "45db31037468b0f1138bedf784f481c081c0b408a21b49bc8643128fe7cde510",
+    "matches_cached": true
+  }
+]

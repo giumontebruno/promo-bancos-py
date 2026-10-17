@@ -164,6 +164,7 @@ def variant(row, benefit, index, *, day=None, scope="", purchase_cap=None, refun
         CARDS + ".",
         out["Montos / topes"],
     ]))
+    out["Texto fuente original"] = row["Detalle"]
     out["Tarjetas verificadas"] = CARDS
     merchant_key = re.sub(r"[^a-z0-9]+", "-", row["Comercio/Promoción"].casefold()).strip("-")
     out["Variante"] = f"cu-{Path(urlparse(row['Bases y condiciones URL']).path).stem}-{merchant_key}-{index}"
@@ -181,7 +182,14 @@ def reviewed_rows(row):
         return [], "Cambió el PDF oficial; requiere nueva lectura de la tabla"
 
     if name in PAYMENT_TABLES:
-        qr, physical, kind, purchase = PAYMENT_TABLES[name]
+        qr, physical, kind, _previous_purchase = PAYMENT_TABLES[name]
+        # Read the current document's explicit prose, never reuse an old cap.
+        amounts = set(re.findall(r"l[ií]mite de compra de Gs\.\s*([\d.]+)", row["Detalle"], re.I))
+        if len(amounts) != 1:
+            return [], "Límite de compra del PDF actual no es inequívoco"
+        purchase = int(next(iter(amounts)).replace(".", ""))
+        if not purchase:
+            return [], "Límite de compra del PDF actual no es positivo"
         if not all(re.search(rf"\b{rate}\s*%", row["Detalle"]) for rate in (qr, physical)):
             return [], "La tabla del PDF ya no coincide con las tasas revisadas"
         return [
@@ -283,7 +291,7 @@ def main():
     with SOURCE.open(encoding="utf-8-sig", newline="") as handle:
         original = list(csv.DictReader(handle))
     if any(row.get("Variante") for row in original):
-        original = json.loads(SNAPSHOT.read_text(encoding="utf-8"))
+        original = json.loads((ROOT / "data/universitaria_live_cards.json").read_text(encoding="utf-8"))
     rows, withheld = review(original)
     if not rows:
         raise ValueError("Universitaria review produced no publishable benefits")

@@ -1,6 +1,9 @@
 import csv
 import html
+import hashlib
+import json
 import re
+from datetime import date
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -28,12 +31,42 @@ FIELDNAMES = [
     "Logo URL",
     "URL detalle",
     "URL categoría",
+    "Porcentaje efectivo",
+    "Estado verificacion",
+    "Texto original de la fuente",
 ]
 
 
 def clean(text):
     return re.sub(r"\s+", " ", html.unescape(str(text or ""))).strip()
 
+
+
+def normalized_validity(value):
+    """Expand only explicit dated Atlas clauses; never infer an omitted year."""
+    value = clean(value)
+    months = {name: i for i, name in enumerate(("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"), 1)}
+    numeric = re.search(r"(?:del\s+)?(\d{1,2})/(\d{1,2})\s+al\s+(\d{1,2})/(\d{1,2})\s+del?\s+(20\d{2})", value, re.I)
+    exact_numeric = re.search(r"(?:vigente|v[aá]lida)\s+(?:el d[ií]a|el)\s+(\d{1,2})/(\d{1,2})/(20\d{2})", value, re.I)
+    single_numeric = re.search(r"hasta\s+el\s+(\d{1,2})/(\d{1,2})\s+del?\s+(20\d{2})", value, re.I)
+    exact = re.search(r"(?:vigente|v[aá]lida)\s+(?:las fechas|el d[ií]a|el)\s+(\d{1,2})(?:\s+y\s+(\d{1,2}))?\s+de\s+(" + '|'.join(months) + r")\s+del?\s+(20\d{2})", value, re.I)
+    try:
+        if numeric:
+            d1,m1,d2,m2,y=map(int,numeric.groups()); start=date(y,m1,d1); end=date(y,m2,d2)
+        elif exact_numeric:
+            d,m,y=map(int,exact_numeric.groups()); start=end=date(y,m,d)
+        elif single_numeric:
+            d,m,y=map(int,single_numeric.groups()); return 'Hasta ' + date(y,m,d).isoformat()
+        elif exact:
+            d1,d2,m,y=exact.groups(); start=date(int(y),months[m.lower()],int(d1)); end=date(int(y),months[m.lower()],int(d2 or d1))
+            # A range is safe only for adjacent explicitly listed dates.
+            if (end-start).days not in (0,1): return value
+        else:
+            return value
+    except ValueError:
+        return value
+    if end < start: return value
+    return f'Desde {start.isoformat()} hasta {end.isoformat()}'
 
 def attrs(card):
     out = {}
@@ -86,7 +119,7 @@ def parse_page(session, url, page_no):
             "Comercio/Promoción": name,
             "Cantidad de descuento / beneficio": "; ".join(dict.fromkeys(benefit_parts)) or "Ver detalle",
             "Día de promoción": data.get("dias") or data.get("dias_filtro") or "No especificado",
-            "Vigencia": data.get("terminos") or "No especificado",
+            "Vigencia": normalized_validity(data.get("terminos")) or "No especificado",
             "Localidad": cities,
             "Montos / topes": data.get("topes", "").replace("||", "; "),
             "Medios de pago": data.get("desc"),
@@ -98,6 +131,26 @@ def parse_page(session, url, page_no):
         })
     return rows
 
+
+
+def apply_document_reviews(rows, session):
+    reviews = json.loads(Path('data/atlas_document_reviews.json').read_text(encoding='utf-8'))
+    for row in rows:
+        review = reviews.get(row['Comercio/Promoción'])
+        if not review: continue
+        original = row['Detalle']
+        response = session.get(review['document_url'], timeout=30)
+        response.raise_for_status()
+        if hashlib.sha256(original.encode()).hexdigest() != review['detail_sha256'] or hashlib.sha256(response.content).hexdigest() != review['document_sha256']:
+            row['Estado verificacion'] = 'unconfirmed'
+            continue
+        row['Texto original de la fuente'] = original
+        row['Detalle'] = original + ' ' + review['note']
+        row['Cantidad de descuento / beneficio'] = review['benefit_summary']
+        if review.get('effective_percent') is not None:
+            row['Porcentaje efectivo'] = str(review['effective_percent'])
+        row['Estado verificacion'] = 'official_document'
+    return rows
 
 def main():
     WORK_DIR.mkdir(parents=True, exist_ok=True)
@@ -118,6 +171,7 @@ def main():
                 seen.add(key)
                 rows.append(row)
 
+    rows = apply_document_reviews(rows, session)
     rows.sort(key=lambda r: (r["Categoría"], r["Comercio/Promoción"]))
     if not rows:
         print("WARNING: Atlas returned 0 active benefits. Keeping existing Atlas output files.")

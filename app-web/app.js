@@ -436,13 +436,12 @@ function getCardValidity(promo) {
 }
 
 function isActivePromotion(promo) {
+  if (promo.source_verification === "unconfirmed") return false;
   if (promo.terms?.conflicting_dates) return false;
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Asuncion" }).format(new Date());
   if (promo.terms?.starts_on && promo.terms.starts_on > today) return false;
-  if (promo.terms?.ends_on) return promo.terms.ends_on >= today;
-  const endDate = getPromotionEndDate(promo);
-  if (!endDate) return true;
-  return endDate >= getTodayDateOnly();
+  // Use the validated purchase window; unrelated dates in raw terms cannot revive it.
+  return Boolean(promo.terms?.ends_on && promo.terms.ends_on >= today);
 }
 
 function shouldShowPromotion(promo) {
@@ -1505,7 +1504,7 @@ function renderNearbyView() {
       </div>
       ${renderNearbySelectedPlace(selectedPoint, selectedTheme)}
       <div class="place-list">
-        ${points.slice(0, 14).map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
+        ${points.map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
       </div>
       ${promos.length ? renderNearbyPromoGroups(promos, selectedPoint?.place) : `<div class="empty">No encontramos locales geolocalizados para el filtro actual.</div>`}
     </section>
@@ -1974,12 +1973,7 @@ function getDominantPromoCategory(promos) {
 }
 
 function getMapVisiblePoints(points) {
-  if (!state.location) return points.slice(0, 18);
-  const precise = points.filter(isPreciseNearbyPoint);
-  const source = precise.length >= 8 ? precise : points;
-  const close = source.filter((item) => item.distance <= 2.5).slice(0, 22);
-  if (close.length >= 6) return close;
-  return source.slice(0, 18);
+  return points.filter((point) => isReliableMapLocation(point.place));
 }
 
 function getPointPrimaryPromo(point) {
@@ -2000,7 +1994,7 @@ function getPlaceGroupKey(place) {
   if (!place) return "";
   if (place.place_id) return `google:${place.place_id}`;
   if (Number.isFinite(place.lat) && Number.isFinite(place.lng)) {
-    return `${place.lat.toFixed(5)},${place.lng.toFixed(5)}`;
+    return `${normalizeDayName(place.merchant_name || place.name || "")}|${place.lat.toFixed(5)},${place.lng.toFixed(5)}`;
   }
   return normalizeDayName([place.name, place.address, place.city].filter(Boolean).join("|"));
 }
@@ -2069,11 +2063,7 @@ function getNearbyPromoPoints() {
     if (state.location && a.distance !== b.distance) return a.distance - b.distance;
     return getBestPromoScore(b.primaryPromo) - getBestPromoScore(a.primaryPromo) || b.banks.length - a.banks.length;
   });
-  if (state.location) {
-    const precise = sorted.filter(isPreciseNearbyPoint);
-    if (precise.length >= 8) return precise.slice(0, 70);
-  }
-  return sorted.slice(0, state.location ? 70 : 30);
+  return sorted;
 }
 
 function isPreciseNearbyPoint(point) {
@@ -2087,6 +2077,7 @@ function isReliableMapLocation(place) {
   const source = place?.geocode_source || "";
   const confidence = place?.google_confidence || "";
   return Boolean(Number.isFinite(place?.lat) && Number.isFinite(place?.lng)
+    && Math.abs(place.lat) <= 90 && Math.abs(place.lng) <= 180 && !place.online_only
     && !isGenericLocationMatchedToMall(place)
     && source !== "city_approximation" && source !== "" && confidence !== "review"
     && place.google_enrichment_status !== "needs_review");
@@ -2184,7 +2175,7 @@ function getPromotionsForLocation(place, promoIndex) {
     place.merchant_name,
     place.name,
   ].map((value) => normalizeDayName(value)).filter((value) => value && !["estaciones de servicio", "farmacias", "mayoristas", "supermercados"].includes(value));
-  const category = normalizeDayName(place.category);
+  const category = normalizeDayName(getPromoCategoryGroup(place));
   const bank = normalizeDayName(place.bank);
   const candidates = [];
   if (bank && bank !== "varios" && category) {
@@ -2419,7 +2410,9 @@ function getEstimatedSavings(promo, amount = null, variant = null) {
     limits = levelBlock && !variant ? PaybackBenefits.explicitLimits(levelBlock) : [];
     unconfirmedVariantCaps = Boolean(variant && !promo.offer_kind);
   }
-  if (unconfirmedVariantCaps) return { percent, purchaseCap: 0, refundCap: 0, explicitRefundCap: 0, minimum: 0, capped: false, belowMinimum: false, unconfirmed: true };
+  const ambiguousLimits = ["purchase", "refund", "minimum"].some(kind =>
+    new Set(limits.filter(limit => limit.kind === kind).map(limit => limit.amount)).size > 1);
+  if (unconfirmedVariantCaps || ambiguousLimits) return { percent, purchaseCap: 0, refundCap: 0, explicitRefundCap: 0, minimum: 0, capped: false, belowMinimum: false, unconfirmed: true };
   const purchaseCap = PaybackBenefits.uniqueLimit(limits, "purchase");
   const explicitRefundCap = PaybackBenefits.uniqueLimit(limits, "refund");
   const minimum = PaybackBenefits.uniqueLimit(limits, "minimum");

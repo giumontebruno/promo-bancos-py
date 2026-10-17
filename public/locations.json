@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16T12:25:05+00:00",
+  "generated_at": "2026-10-16T23:04:34-03:00",
   "provider": "Official bank branch lists + reviewed location matches",
-  "total_locations": 1748,
+  "total_locations": 1841,
   "geocoded_locations": 127,
   "locations": [
     {
@@ -749,7 +749,10 @@
         "lat": -25.3249021,
         "lng": -57.5720697,
         "checked_at": "2026-09-14T15:18:24+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-f6171a3741",
@@ -791,7 +794,10 @@
         "lat": -25.3339988,
         "lng": -57.5775225,
         "checked_at": "2026-09-22T12:36:35+00:00"
-      }
+      },
+      "location_review_status": "rejected",
+      "location_review_reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Mercado de Abasto Bloque D en Asunción.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-1ff6c937a7",
@@ -833,7 +839,10 @@
         "lat": -25.3339988,
         "lng": -57.5775225,
         "checked_at": "2026-09-22T12:36:36+00:00"
-      }
+      },
+      "location_review_status": "rejected",
+      "location_review_reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Galería Santa Teresa junto al Mercado de Abasto.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-0c7916e643",
@@ -878,7 +887,10 @@
         "lat": -25.3253995,
         "lng": -57.5713844,
         "checked_at": "2026-09-22T12:36:37+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-91e0ad0a9e",
@@ -920,7 +932,10 @@
         "lat": -25.3846168,
         "lng": -57.4704475,
         "checked_at": "2026-09-22T12:36:38+00:00"
-      }
+      },
+      "location_review_status": "rejected",
+      "location_review_reason": "La fuente indica Ruta PY02 y Madrigal; el candidato indica Ruta 1 y Clavel. No es la misma dirección.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-dcc7f47aa0",
@@ -962,7 +977,10 @@
         "lat": -25.3846168,
         "lng": -57.4704475,
         "checked_at": "2026-09-22T12:36:39+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-954db3d2fa",
@@ -993,10 +1011,10 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "review",
+      "google_confidence": "high",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
       "google_last_attempt_at": "2026-09-22T12:36:40.143750+00:00",
-      "google_enrichment_status": "needs_review",
+      "google_enrichment_status": "reviewed_verified",
       "google_candidate_place_id": "ChIJHc8zwBipXZQRYOw3KEOsQ8E",
       "google_candidate": {
         "google_name": "Casa Grütter Fernando de la Mora",
@@ -1004,7 +1022,10 @@
         "lat": -25.3339988,
         "lng": -57.5775225,
         "checked_at": "2026-09-22T12:36:40+00:00"
-      }
+      },
+      "location_review_status": "confirmed",
+      "location_review_reason": "Nombre y calle Nueva Asunción/Fernando coinciden; la web oficial del comercio confirma esquina Defensores del Chaco. El place_id del candidato coincide con ficha pública Waze.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-7398d11133",
@@ -1046,7 +1067,10 @@
         "lat": -25.271454,
         "lng": -57.49035,
         "checked_at": "2026-09-14T15:18:25+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-9871905a5c",
@@ -1089,7 +1113,10 @@
         "lat": -25.2759704,
         "lng": -57.4854766,
         "checked_at": "2026-09-22T12:36:40+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-55949de43c",
@@ -1134,7 +1161,10 @@
         "lat": -25.2312731,
         "lng": -57.5391078,
         "checked_at": "2026-09-22T12:36:41+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-99313f94a1",
@@ -1176,7 +1206,10 @@
         "lat": -25.3674232,
         "lng": -57.5165948,
         "checked_at": "2026-09-22T12:36:42+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-90f28d597c",
@@ -1218,7 +1251,10 @@
         "lat": -25.3699652,
         "lng": -57.5595681,
         "checked_at": "2026-09-22T12:36:43+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-d3dcfde46e",
@@ -1256,7 +1292,10 @@
         "lat": -25.2966534,
         "lng": -57.4218857,
         "checked_at": "2026-09-22T12:36:44+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-68dd380226",
@@ -1298,7 +1337,10 @@
         "lat": -25.3119124,
         "lng": -57.3804334,
         "checked_at": "2026-09-22T12:36:45+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-f6f09af6c0",
@@ -1340,7 +1382,10 @@
         "lat": -25.2971693,
         "lng": -57.5788706,
         "checked_at": "2026-09-22T12:36:46+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-f268749437",
@@ -1382,7 +1427,10 @@
         "lat": -25.3087363,
         "lng": -57.6175591,
         "checked_at": "2026-09-22T12:36:46+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-acb35e59cb",
@@ -1423,7 +1471,10 @@
         "lat": -25.3239925,
         "lng": -57.6273226,
         "checked_at": "2026-09-14T15:18:26+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-3ee05c96c4",
@@ -1454,10 +1505,10 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "review",
+      "google_confidence": "high",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
       "google_last_attempt_at": "2026-09-22T12:36:47.766966+00:00",
-      "google_enrichment_status": "needs_review",
+      "google_enrichment_status": "reviewed_verified",
       "google_candidate_place_id": "ChIJDw-UY-WnXZQRMb5YpSA4Pt8",
       "google_candidate": {
         "google_name": "Paraná home",
@@ -1465,7 +1516,10 @@
         "lat": -25.2876824,
         "lng": -57.6305528,
         "checked_at": "2026-09-22T12:36:47+00:00"
-      }
+      },
+      "location_review_status": "confirmed",
+      "location_review_reason": "Casa Paraná: coincidencia de dirección numerada Antequera661, ciudad Asunción y nombre; coordenadas del candidato existente. Dirección oficial BNF identifica inequívocamente local.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-bfbbdae736",
@@ -1529,7 +1583,10 @@
         "lat": -25.315403,
         "lng": -57.578477,
         "checked_at": "2026-09-22T12:36:51+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-7e62631dc9",
@@ -1571,7 +1628,10 @@
         "lat": -25.3146693,
         "lng": -57.629916,
         "checked_at": "2026-09-22T12:36:52+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b69261f7c8",
@@ -1613,7 +1673,10 @@
         "lat": -25.2894837,
         "lng": -57.6566815,
         "checked_at": "2026-09-22T12:36:53+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-06cc9d2280",
@@ -1655,7 +1718,10 @@
         "lat": -25.3083114,
         "lng": -57.6427172,
         "checked_at": "2026-09-22T12:36:54+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-c0d0efc47a",
@@ -1729,7 +1795,10 @@
         "lat": -25.2767578,
         "lng": -57.641037,
         "checked_at": "2026-09-22T12:36:55+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-360198c5e2",
@@ -1771,7 +1840,10 @@
         "lat": -25.3085134,
         "lng": -57.5525948,
         "checked_at": "2026-09-22T12:36:56+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b3c7a978ab",
@@ -1813,7 +1885,10 @@
         "lat": -25.3081601,
         "lng": -57.5967149,
         "checked_at": "2026-09-14T15:18:29+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-bba38ccaba",
@@ -1956,7 +2031,10 @@
         "lat": -25.3013658,
         "lng": -57.6174629,
         "checked_at": "2026-09-22T12:36:57+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-1c18181680",
@@ -2130,7 +2208,10 @@
         "lat": -25.2937064,
         "lng": -57.582845,
         "checked_at": "2026-09-22T12:36:58+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-df8d7d797e",
@@ -2171,7 +2252,10 @@
         "lat": -25.2777384,
         "lng": -57.5544213,
         "checked_at": "2026-09-23T12:48:02+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-6aef0c4443",
@@ -2248,7 +2332,10 @@
         "lat": -25.2777384,
         "lng": -57.5544213,
         "checked_at": "2026-09-14T15:18:30+00:00"
-      }
+      },
+      "location_review_status": "rejected",
+      "location_review_reason": "La sucursal oficial es Primer Presidente/Gabriel Casaccia; el candidato es Aviadores del Chaco.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b1552f4f08",
@@ -2290,7 +2377,10 @@
         "lat": -25.2777384,
         "lng": -57.5544213,
         "checked_at": "2026-09-14T15:18:31+00:00"
-      }
+      },
+      "location_review_status": "rejected",
+      "location_review_reason": "La sucursal oficial es Molas López/Veteranos del70; el candidato es Aviadores del Chaco.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-3de9455b62",
@@ -2332,7 +2422,10 @@
         "lat": -25.3502433,
         "lng": -57.4477089,
         "checked_at": "2026-09-14T15:18:32+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b2f8bfe6f6",
@@ -2374,7 +2467,10 @@
         "lat": -25.3502433,
         "lng": -57.4477089,
         "checked_at": "2026-09-14T15:18:32+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-5a4c86cfcf",
@@ -2412,7 +2508,10 @@
         "lat": -25.3917396,
         "lng": -57.4694255,
         "checked_at": "2026-09-23T12:48:04+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-6decf1b909",
@@ -2450,7 +2549,10 @@
         "lat": -25.3840546,
         "lng": -57.4625076,
         "checked_at": "2026-09-14T15:18:33+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-e5d3c37809",
@@ -2527,7 +2629,10 @@
         "lat": -25.3278468,
         "lng": -57.5474224,
         "checked_at": "2026-09-14T15:18:34+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-484ef58909",
@@ -2569,7 +2674,10 @@
         "lat": -25.3466961,
         "lng": -57.574971,
         "checked_at": "2026-09-23T12:48:06+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-2f87a9e8f8",
@@ -2612,7 +2720,10 @@
         "lat": -25.3393839,
         "lng": -57.5832067,
         "checked_at": "2026-09-14T15:18:35+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-831474a3ee",
@@ -2654,7 +2765,10 @@
         "lat": -25.3126704,
         "lng": -57.5421227,
         "checked_at": "2026-09-14T15:18:35+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-e49a9c971e",
@@ -2691,7 +2805,10 @@
         "lat": -25.346854,
         "lng": -57.5495876,
         "checked_at": "2026-09-23T12:48:07+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-cd8a9041ff",
@@ -2733,7 +2850,10 @@
         "lat": -25.3156903,
         "lng": -57.5275784,
         "checked_at": "2026-09-23T12:48:08+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-a63b80079c",
@@ -2775,7 +2895,10 @@
         "lat": -25.3156903,
         "lng": -57.5275784,
         "checked_at": "2026-09-23T12:48:08+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-d3da5ade02",
@@ -2817,7 +2940,10 @@
         "lat": -25.3983893,
         "lng": -57.357028,
         "checked_at": "2026-09-23T12:48:09+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-0aa09d9579",
@@ -2861,7 +2987,10 @@
         "lat": -25.3405778,
         "lng": -57.6002817,
         "checked_at": "2026-09-23T12:48:10+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-71256fced5",
@@ -2921,7 +3050,10 @@
         "lat": -25.3345913,
         "lng": -57.6249111,
         "checked_at": "2026-09-23T12:48:11+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b6d4af643d",
@@ -2962,7 +3094,10 @@
         "lat": -25.3589597,
         "lng": -57.6276744,
         "checked_at": "2026-09-23T12:48:12+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-a6b35be538",
@@ -3035,7 +3170,10 @@
         "lat": -25.2271288,
         "lng": -57.4767241,
         "checked_at": "2026-09-23T12:48:13+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-d167678861",
@@ -3077,7 +3215,10 @@
         "lat": -25.2661457,
         "lng": -57.4844837,
         "checked_at": "2026-09-23T12:48:15+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-4efbe762b7",
@@ -3119,7 +3260,10 @@
         "lat": -25.2652759,
         "lng": -57.5060238,
         "checked_at": "2026-09-23T12:48:16+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-ec07bf6363",
@@ -3161,7 +3305,10 @@
         "lat": -25.234487,
         "lng": -57.47545,
         "checked_at": "2026-09-23T12:48:16+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b20bca7cd3",
@@ -3203,7 +3350,10 @@
         "lat": -25.2652759,
         "lng": -57.5060238,
         "checked_at": "2026-09-23T12:48:17+00:00"
-      }
+      },
+      "location_review_status": "rejected",
+      "location_review_reason": "La sucursal oficial es José Ortiz/Sargento Espinola; el candidato es General Aquino/Tte.Rivas.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-f145fb49f4",
@@ -3245,7 +3395,10 @@
         "lat": -25.2809795,
         "lng": -57.5344426,
         "checked_at": "2026-09-23T12:48:18+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-edd72826c4",
@@ -3286,7 +3439,10 @@
         "lat": -25.2546827,
         "lng": -57.5003681,
         "checked_at": "2026-09-23T12:48:19+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-1b2a3aa07d",
@@ -3328,7 +3484,10 @@
         "lat": -25.2805841,
         "lng": -57.5258219,
         "checked_at": "2026-09-14T15:18:36+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-98ea4004ee",
@@ -3392,7 +3551,10 @@
         "lat": -25.2625244,
         "lng": -57.4899483,
         "checked_at": "2026-09-23T12:48:20+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-814d34382c",
@@ -3434,7 +3596,10 @@
         "lat": -25.2625244,
         "lng": -57.4899483,
         "checked_at": "2026-09-14T15:18:37+00:00"
-      }
+      },
+      "location_review_status": "rejected",
+      "location_review_reason": "La sucursal oficial es Silvio Pettirossi/Torokay; el candidato es Valois Rivarola.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-4b797c1a50",
@@ -3476,7 +3641,10 @@
         "lat": -25.237051,
         "lng": -57.5396194,
         "checked_at": "2026-09-14T15:18:38+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-6fcd7f8ac0",
@@ -3518,7 +3686,10 @@
         "lat": -25.2387517,
         "lng": -57.5422655,
         "checked_at": "2026-09-14T15:18:39+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-4b102534f8",
@@ -3551,10 +3722,10 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "review",
+      "google_confidence": "high",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
       "google_last_attempt_at": "2026-09-23T12:48:21.233558+00:00",
-      "google_enrichment_status": "needs_review",
+      "google_enrichment_status": "reviewed_verified",
       "google_candidate_place_id": "ChIJP5jkixqrXZQRwLMBrcDTxHY",
       "google_candidate": {
         "google_name": "Casa Paraná - San Antonio",
@@ -3562,7 +3733,10 @@
         "lat": -25.4178679,
         "lng": -57.5719314,
         "checked_at": "2026-09-23T12:48:21+00:00"
-      }
+      },
+      "location_review_status": "confirmed",
+      "location_review_reason": "Casa Paraná: coincidencia de dirección numerada Av.San Antonio273 y ciudad; coordenadas del candidato existente. Fuente oficial del comercio también publica dirección273.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-764efbaf44",
@@ -3604,7 +3778,10 @@
         "lat": -25.3917396,
         "lng": -57.4694255,
         "checked_at": "2026-09-23T12:48:22+00:00"
-      }
+      },
+      "location_review_status": "rejected",
+      "location_review_reason": "La sucursal oficial es Ruta2 km15 San Lorenzo; candidato Ruta1 km20 Capiatá.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-ca8d6bc0c3",
@@ -3642,7 +3819,10 @@
         "lat": -25.3641298,
         "lng": -57.5308095,
         "checked_at": "2026-09-23T12:48:22+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-63404e3d2c",
@@ -3684,7 +3864,10 @@
         "lat": -25.3188667,
         "lng": -57.5182266,
         "checked_at": "2026-09-23T12:48:23+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b91f72bbd9",
@@ -3726,7 +3909,10 @@
         "lat": -25.3428897,
         "lng": -57.5018865,
         "checked_at": "2026-09-23T12:48:24+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-fb111ec029",
@@ -3768,7 +3954,10 @@
         "lat": -25.3628725,
         "lng": -57.5915236,
         "checked_at": "2026-09-23T12:48:25+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-893818650c",
@@ -3842,7 +4031,10 @@
         "lat": -25.3934203,
         "lng": -57.5473369,
         "checked_at": "2026-09-23T12:48:26+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-abd3ce0439",
@@ -3884,7 +4076,10 @@
         "lat": -25.3944556,
         "lng": -57.542697,
         "checked_at": "2026-09-24T12:46:25+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-f7350a5549",
@@ -3927,7 +4122,10 @@
         "lat": -25.3890146,
         "lng": -57.5243286,
         "checked_at": "2026-09-24T12:46:26+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-37eab9b40f",
@@ -3969,7 +4167,10 @@
         "lat": -25.3954616,
         "lng": -57.5454823,
         "checked_at": "2026-09-24T12:46:27+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-46cfa4c7bb",
@@ -4011,7 +4212,10 @@
         "lat": -25.3934509,
         "lng": -57.5440193,
         "checked_at": "2026-09-24T12:46:28+00:00"
-      }
+      },
+      "location_review_status": "pending",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-6f6c2250dc",
@@ -4508,9 +4712,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:06.494495+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJuYeidSexXZQRfP9quJE5DNo",
       "google_candidate": {
         "google_name": "3MG AREGUÁ - CAMINO A ESTACION TERRENA",
@@ -4537,9 +4741,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:07.267370+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJU5HlNSixXZQRgB-j9HaPDyw",
       "google_candidate": {
         "google_name": "Compasa Costa Fleitas",
@@ -4566,9 +4770,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:08.131362+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJa5xHOTKzXZQRecTgyawQs4Y",
       "google_candidate": {
         "google_name": "Petrochaco Ramal Aregua",
@@ -4595,9 +4799,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:08.838786+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJRb2vHrKxXZQRJmgzXg3Dk7Q",
       "google_candidate": {
         "google_name": "Estación Del Carmen Puma Energy",
@@ -4642,9 +4846,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:09.657852+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ04MTpVKoXZQRLXuvZFuFwPA",
       "google_candidate": {
         "google_name": "3MG S.A.C.I.A. - Distribuidora de Combustibles",
@@ -4671,9 +4875,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:10.418321+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ36-Ws8epXZQRirwY7m_Wwjc",
       "google_candidate": {
         "google_name": "Copetrol - Republicano",
@@ -4700,9 +4904,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:11.196298+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJsymnIlqnXZQR_mz6DBmrI5I",
       "google_candidate": {
         "google_name": "Copetrol Azara",
@@ -4729,9 +4933,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:11.903386+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -4758,9 +4962,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:12.615681+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ1VyKcgioXZQRHiHjEu8PRYo",
       "google_candidate": {
         "google_name": "Copetrol - Felix Bogado",
@@ -4787,9 +4991,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:13.365321+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -4816,9 +5020,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:14.085596+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -4845,9 +5049,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:14.776603+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJwX5ELM6lXZQRR0g0rIF_O24",
       "google_candidate": {
         "google_name": "Estación de Servicios COPETROL",
@@ -4874,9 +5078,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:15.539870+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJy5fMBAOpXZQRS0Mq4B_QzNw",
       "google_candidate": {
         "google_name": "COPETROL LA VICTORIA - LA TIENDITA DE LA COPE",
@@ -4903,9 +5107,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:16.233061+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJr7I-TPWnXZQRWtXVXReC3t0",
       "google_candidate": {
         "google_name": "COPETROL - Colon",
@@ -4932,9 +5136,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:16.941018+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ1aVujIioXZQRNvp0GCzXCUY",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -4961,9 +5165,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:17.632243+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ9da1mL6pXZQRFcaje5iikL8",
       "google_candidate": {
         "google_name": "Copetrol Kubitschek",
@@ -4990,9 +5194,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:18.307989+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJV1W6FWmmXZQRnQFALn9bQ4I",
       "google_candidate": {
         "google_name": "Copetrol - Botanico",
@@ -5019,9 +5223,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:19.090628+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJzWxnycyoXZQR2fKx-83z2b0",
       "google_candidate": {
         "google_name": "Estacion de Servicio Copetrol",
@@ -5048,9 +5252,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:19.885740+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJOdAzBUumXZQRMStSrgQF5hg",
       "google_candidate": {
         "google_name": "Copetrol Artigas Candelaria",
@@ -5077,9 +5281,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:20.642626+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJzWxnycyoXZQR2fKx-83z2b0",
       "google_candidate": {
         "google_name": "Estacion de Servicio Copetrol",
@@ -5106,9 +5310,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:21.419093+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJjcRtLCMIXZQRfdwuCP2IAqA",
       "google_candidate": {
         "google_name": "Copetrol Sajonia.",
@@ -5135,9 +5339,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:22.142593+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJqZYcHqqpXZQR-NbcMh39CHw",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -5164,9 +5368,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:22.916841+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJrcMm9E2vXZQRThDWqlvorXM",
       "google_candidate": {
         "google_name": "Estación de Servicios Copetrol S.A. - Maitei",
@@ -5193,9 +5397,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:23.667002+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ9z_12P6oXZQReIEOly1wshA",
       "google_candidate": {
         "google_name": "Petrochaco",
@@ -5222,9 +5426,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:24.369739+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJF0RpVIavXZQRu_Y5HsOJB-Y",
       "google_candidate": {
         "google_name": "Petrochaco Santa Teresa",
@@ -5251,9 +5455,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:25.113032+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ9z_12P6oXZQReIEOly1wshA",
       "google_candidate": {
         "google_name": "Petrochaco",
@@ -5280,9 +5484,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:25.868772+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJu3YNhlioXZQR7-R1qxeJUcc",
       "google_candidate": {
         "google_name": "Estación Puma Energy",
@@ -5309,9 +5513,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:26.691903+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJu3YNhlioXZQR7-R1qxeJUcc",
       "google_candidate": {
         "google_name": "Estación Puma Energy",
@@ -5338,9 +5542,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:27.417259+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJd3ZDQaalXZQRHgkNcWdiJFw",
       "google_candidate": {
         "google_name": "EESS PUMA GASOLIDER - Loma Pyta",
@@ -5367,9 +5571,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:28.172896+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJtzDzjRqpXZQR6qk7iJ9bX_Y",
       "google_candidate": {
         "google_name": "Estación Puma Energy",
@@ -20554,6 +20758,1773 @@
       "online_only": false
     },
     {
+      "id": "loc-sudameris-080c20c4f674bc48",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "25 DE MAYO",
+      "merchant_brand": "COPETROL",
+      "address": "AVDA. 25 DE MAYO ESQ. CHOFERES DEL CHACO",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-65f39542f218cc2d",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - BOTANICO",
+      "merchant_brand": "COPETROL",
+      "address": "AV. 1° PRESIDENTE E/ YRENDAGUE",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-504e5bb08445c2b1",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - COLON",
+      "merchant_brand": "COPETROL",
+      "address": "COLON E/ GRAL DIAZ",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-2f18dfdfa378458a",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - FACUNDO",
+      "merchant_brand": "COPETROL",
+      "address": "FACUNDO MACHAIN E/ RI18",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-054aaf89d84be4e5",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - FERROCARRIL",
+      "merchant_brand": "COPETROL",
+      "address": "AV MCAL LOPEZ E/ MEXICO",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-024e155c338fc8f4",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - MAITEI",
+      "merchant_brand": "COPETROL",
+      "address": "AV. M.LINCH Y TTE. VICTOR VALDEZ",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-a09f1f79eb0c76ce",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - MCAL. LÓPEZ",
+      "merchant_brand": "COPETROL",
+      "address": "AVDA. MCAL. LÓPEZ Y MADAME LYNCH",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-ff50d276e1866e07",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL -KM2",
+      "merchant_brand": "COPETROL",
+      "address": "AV. EUSEBIO AYALA E/ BARTOLOME",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-5de3c69ebda66bbd",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL -VILLA MORRA",
+      "merchant_brand": "COPETROL",
+      "address": "AV. MCAL. LOPEZ Y SAN MARTIN",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-bc54e9eb351fe831",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ROJAS, WENCESLAO (EUSEBIO AYALA)",
+      "merchant_brand": "COPETROL",
+      "address": "EUSEBIO AYALA Y BERNARDINO CABALLERO",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-f2de95f141f666fc",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ROJAS, WENCESLAO (LILLO)",
+      "merchant_brand": "COPETROL",
+      "address": "EUSEBIO LILLO Y CAPITÁN EMETERIO MIRANDA",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-6274eb28d87a7ddc",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX ARROYOS Y ESTEROS",
+      "merchant_brand": "ENEX",
+      "address": "Ruta 3 Elizardo Aquino km 68",
+      "city": "Arroyos y Esteros",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-9ffd47ac672d184b",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX 1ER.PDTE.",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Primer presidente esq. Marcelo Onieva",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-4885f7880a649b76",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX ACCESO SUR",
+      "merchant_brand": "ENEX",
+      "address": "Acceso sur esq. Perpetuo socorro",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-955697dedb9fe31b",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX ARTIGAS",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Artigas esq. Solano Lopez",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-87c630c92c444c9f",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX B.CABALLERO",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Bernardino Caballero esq. Teodoro S Mongelos",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-a71a70801317efea",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX BRASILIA",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Mariscal Lopez esq. Brasilia",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-8334dc988fc18a18",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX BRUNO GUGGIARI",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Fernando de la Mora esq. Bruno Guggiari",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-eb707ccbbf47e976",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX FELIX BOGADO",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Felix Bogado esq. Madrinas del Chaco",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-ecd44ee34c83c069",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX HERRERA",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Perú esq. Herrera",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-7d327739a5ae26c7",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX LILLO",
+      "merchant_brand": "ENEX",
+      "address": "Lillo esq. Concejal Vargas",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-6af8b34648e90092",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX MANUEL DEL CASTILLO",
+      "merchant_brand": "ENEX",
+      "address": "Avda. República Argentina esq. Manuel del Castillo",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-5a6ffe9e79c346e4",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX SACRAMENTO",
+      "merchant_brand": "ENEX",
+      "address": "Avda. España esq. Avda. Sacramento",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-09cbfd4597deca70",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX TACUARY",
+      "merchant_brand": "ENEX",
+      "address": "Tacuary esq. 2da proyectada",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-48894571f14f1ff7",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX VILLA AURELIA",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Mariscal Lopez esq. Tte. Casco",
+      "city": "Asunción",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-2d03b3299a70439c",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "DM S.R.L.",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA 6, KM. 50",
+      "city": "B. VISTA SUR",
+      "department": "ITAPÚA",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-b5c397608e8b78d9",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - CDE KM.6,5",
+      "merchant_brand": "COPETROL",
+      "address": "BLAS GARAY Y MONSEÑOR RODRIGUEZ",
+      "city": "C. DEL ESTE",
+      "department": "ALTO PARANÁ",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-e55181a7e8f04283",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "GONZALEZ RECALDE, ANGEL CELESTINO",
+      "merchant_brand": "COPETROL",
+      "address": "SAN BLAS (RUTA 7, KM. 5)",
+      "city": "C. DEL ESTE",
+      "department": "ALTO PARANÁ",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-8a5e79259a4bb518",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX CDE AREA 4",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Choferes del Chaco esq. Comuneros",
+      "city": "CDE",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-281feb916b44d5fb",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX CAPIATA",
+      "merchant_brand": "ENEX",
+      "address": "Ruta 2 km 25",
+      "city": "Capiata",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-8a587c1cc9d78b98",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - ENC RUTA 1",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA 1 KM 374 - AVDA. BERNARDINO CABALLERO",
+      "city": "ENCARNACIÓN",
+      "department": "ITAPÚA",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-8e82834bb987cbbb",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - IRRAZABAL",
+      "merchant_brand": "COPETROL",
+      "address": "AVDA. IRRAZABAL ESQ CURUPAYTY",
+      "city": "ENCARNACIÓN",
+      "department": "ITAPÚA",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-41e4381af9efcde0",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX ENCARNACION",
+      "merchant_brand": "ENEX",
+      "address": "Ruta 6, ruta Juan Leon Mallorquin km 2,5",
+      "city": "Encarnación",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-1e2e305c93a1c510",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - MUNDO",
+      "merchant_brand": "COPETROL",
+      "address": "AV. MCAL. LOPEZ E INGAVI",
+      "city": "F. DE LA MORA",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-2b9103a2d16a5be1",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "SCHWEISS RUIZ, EDGAR RODOLFO",
+      "merchant_brand": "COPETROL",
+      "address": "MADAME LYNCH Y BERNARDINO CABALLERO",
+      "city": "F. DE LA MORA",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-be41d5c3195f34c4",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX DEFENSORES",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Defensores del Chaco esq. Facundo Candia",
+      "city": "Fernando de la Mora",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-e1bbd6c2ee0c9569",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX LEOPARDI",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Marsical Estigarribia esq. Juan Leopardi",
+      "city": "Fernando de la Mora",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-d91f8605e12e3a92",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX SANTA TERESA",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Santa Teresa esq. Tacuary",
+      "city": "Fernando de la Mora",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-5bfe828f58af051e",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX GUARAMBARE",
+      "merchant_brand": "ENEX",
+      "address": "Ruta 1 km 14 - Acceso Sur",
+      "city": "Guarambare",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-fe785e1337e8edf3",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "DM S.R.L. (HOHENAU)",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA 6, KM. 35",
+      "city": "HOHENAU",
+      "department": "ITAPÚA",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-65e0533235c0b21b",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ITAUGUA II",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA MCAL. JOSÉ FÉLIX ESTIGARRIBIA C/ GRAL. DELGADO",
+      "city": "ITAUGUÁ",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-f565baddaa6d87c9",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "LIMPIO 2 (desde el 01.04.2026)",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA III Gral. Aquino Km 21,5",
+      "city": "LIMPIO",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-c766ccc3bc4f60ee",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - AUTOPISTA",
+      "merchant_brand": "COPETROL",
+      "address": "AV.SILVIO PETTIROSSI Y COCHABAMBA",
+      "city": "LUQUE",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-3e85ff634b80c6de",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - LUQUE 2",
+      "merchant_brand": "COPETROL",
+      "address": "AV CORRALES E/ CAMBORIU",
+      "city": "LUQUE",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-ee043412b4ae2e21",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "SAGRADA FAMILIA S.R.L. (4TO BARRIO)",
+      "merchant_brand": "COPETROL",
+      "address": "LIBERTADOR DE AMÉRICA Y FELIPE GONZALEZ",
+      "city": "LUQUE",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-c88e12022eb16c81",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "SAGRADA FAMILIA S.R.L. (FLORESTA)",
+      "merchant_brand": "COPETROL",
+      "address": "CAPITÁN ANDRÉS INSFRAN Y FLORESTA",
+      "city": "LUQUE",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-6d6379cad460b27d",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "SCHWEISS RUIZ, EDGAR RODOLFO (LUQUE)",
+      "merchant_brand": "COPETROL",
+      "address": "GRAL. MANUEL BRITEZ BORGES Y LA VICTORIA",
+      "city": "LUQUE",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-b2eeb41408cd2306",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX LIMPIO",
+      "merchant_brand": "ENEX",
+      "address": "Avda. San José esq. 29 de septiembre",
+      "city": "Limpio",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-9911b5f761798560",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX LIMPIO RUTA 3",
+      "merchant_brand": "ENEX",
+      "address": "Ruta 3 km 24",
+      "city": "Limpio",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-f1aa16eaa960eb15",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX LUQUE",
+      "merchant_brand": "ENEX",
+      "address": "Campo via esq. Republica de Colombia",
+      "city": "Luque",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-de454d3166946715",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX LUQUE CENTRO",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Gral Aquino esq. Alberdi",
+      "city": "Luque",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-dc9c8cf755ef6aa1",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX LUQUE CIT",
+      "merchant_brand": "ENEX",
+      "address": "Ybyturusu esq. Abdón Caballero",
+      "city": "Luque",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-d022ea1861c9c906",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL- MARIANO",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA TRANSCHACO E/ CNEL IRRAZABAL",
+      "city": "MRA",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-38c55e4efe531f37",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - PARAGUARÍ",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA I KM. 65 DESVÍO VILLARRICA",
+      "city": "PARAGUARÍ",
+      "department": "PARAGUARÍ",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-cde5781b5fb196f3",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - SANBER",
+      "merchant_brand": "COPETROL",
+      "address": "AV GUILLERMO MAUMAN KM 45,5 (Acceso desde ruta 2)",
+      "city": "S. BERNARDINO",
+      "department": "CORDILLERA",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-0f6b6fd815f0b1a8",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - KM.11",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA PY02 KM11 C/ AVELINO M.",
+      "city": "S. LORENZO",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-77d2a471f2272209",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - RUTA 1 KM14",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA PY01 E/ BUENOS AIRES",
+      "city": "S. LORENZO",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-32213799167bca51",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "SAGRADA FAMILIA S.R.L.",
+      "merchant_brand": "COPETROL",
+      "address": "GRAL. EUGENIO ALEJANDRINO GARAY",
+      "city": "S. LORENZO",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-77f3fc75f7002c09",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "VIENTOS DEL CHACO S.A.",
+      "merchant_brand": "COPETROL",
+      "address": "AVDA. GASPAR RODRIGUEZ DE FRANCIA Y 14 DE MAYO",
+      "city": "S. LORENZO",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-9166935e72b49e47",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ARKON GROUP S.A. (SANTA RITA)",
+      "merchant_brand": "COPETROL",
+      "address": "DESVÍO A CRUCE CERRO LARGO (RUTA 6, KM. 47)",
+      "city": "S. RITA",
+      "department": "ALTO PARANÁ",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-97957330f37b43a4",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "TACUARA",
+      "merchant_brand": "COPETROL",
+      "address": "DESVÍO A TACUARA SANTANI KM 175",
+      "city": "SANTANÍ",
+      "department": "SAN PEDRO",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-8b6eef590f6d5706",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX SAN ANTONIO",
+      "merchant_brand": "ENEX",
+      "address": "Avda. San Antonio c/ Rio Parapiti",
+      "city": "San Antonio",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-1e240f2b37ce4673",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX SB CENTRO",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Marsical Lopez esq. Guillermo Neumann",
+      "city": "San Bernardino",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-89582ce09da80617",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "NEUMATEC S.A.",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA PARAGUARÍ - VILLARRICA Y RUTA 8, DR. BLAS GARAY",
+      "city": "VILLARRICA",
+      "department": "GUAIRÁ",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-84ed404f3a664b00",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX VON POLESKI",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Von Poleski esq. Villa Florida",
+      "city": "Villa Elisa",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-3f9664df27daba03",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - YPACARAI",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA PY02 KM 37",
+      "city": "YPACARAI",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-796240ef56d1753c",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "COPETROL - ÑEMBY",
+      "merchant_brand": "COPETROL",
+      "address": "RUTA 1 ESQ. EDUARDO VASCONSELLOS",
+      "city": "ÑEMBY",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+      "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-ce8838616ba3f9b3",
+      "bank": "Sudameris",
+      "category": "Combustible",
+      "merchant_name": "ENEX ÑEMBY",
+      "merchant_brand": "ENEX",
+      "address": "Avda. Manuel Ortiz Guerrero esq. Avda. De la Victoria",
+      "city": "Ñemby",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+      "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-3d3800bf424dd40d",
+      "bank": "Sudameris",
+      "category": "Combustibles",
+      "merchant_name": "ECOP Capitán Meza 2",
+      "merchant_brand": "ECOP",
+      "address": "PYG07 y ruta desvío a Ciudad Capitán Meza",
+      "city": "Capitán Meza",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+      "source_sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-bb1c1ba0036e4a5e",
+      "bank": "Sudameris",
+      "category": "Combustibles",
+      "merchant_name": "ECOP Capitán Miranda 2",
+      "merchant_brand": "ECOP",
+      "address": "Capitán Miranda - Itapúa Ruta VI km 22",
+      "city": "Capitán Miranda",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+      "source_sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-6fc0682a41d27cad",
+      "bank": "Sudameris",
+      "category": "Combustibles",
+      "merchant_name": "ECOP 7 de Agosto 2",
+      "merchant_brand": "ECOP",
+      "address": "7 de Agosto - Itapúa",
+      "city": "Carlos A. López",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+      "source_sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-4c129d27db0baa26",
+      "bank": "Sudameris",
+      "category": "Combustibles",
+      "merchant_name": "ECOP Edelira 2",
+      "merchant_brand": "ECOP",
+      "address": "Edelira km 60 - Itapúa calle Primera Línea",
+      "city": "Edelira",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+      "source_sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-3f1f53051491358a",
+      "bank": "Sudameris",
+      "category": "Combustibles",
+      "merchant_name": "ECOP Ma. Auxiliadora 2",
+      "merchant_brand": "ECOP",
+      "address": "Tomás Romero Pereira - Itapúa Ruta VI km 118",
+      "city": "Ma. Auxiliadora",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+      "source_sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-a6c45c6d76d2ece2",
+      "bank": "Sudameris",
+      "category": "Combustibles",
+      "merchant_name": "ECOP Obligado",
+      "merchant_brand": "ECOP",
+      "address": "Av. Gaspar R. de Francia c/ Av. Oswaldo Tischler",
+      "city": "Obligado",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+      "source_sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-c2e911b952c6248a",
+      "bank": "Sudameris",
+      "category": "Combustibles",
+      "merchant_name": "ECOP Santa Inés 2",
+      "merchant_brand": "ECOP",
+      "address": "Distrito de San Rafael del Paraná - Itapúa",
+      "city": "San Rafael del Paraná",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+      "source_sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-654be739f1460bd7",
+      "bank": "Sudameris",
+      "category": "Combustibles",
+      "merchant_name": "ECOP Central Coop. Col. Unidas",
+      "merchant_brand": "ECOP",
+      "address": "Ruta 6ta km 212 Avda. Albano Birnfeld",
+      "city": "Santa Rita",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+      "source_sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-e53a052d17e5162d",
+      "bank": "Sudameris",
+      "category": "Combustibles",
+      "merchant_name": "ECOP Santa Rita",
+      "merchant_brand": "ECOP",
+      "address": "Ruta 6ta km 212 Avda. Albano Birnfeld",
+      "city": "Santa Rita",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+      "source_sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-b8f14cf1e17baa25",
+      "bank": "Sudameris",
+      "category": "Combustibles",
+      "merchant_name": "ECOP Vacay 2",
+      "merchant_brand": "ECOP",
+      "address": "Bella Vista - Itapúa Ruta Graneros - Vacay km 33",
+      "city": "Vacay",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+      "source_sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-a556cea98d86ab7c",
+      "bank": "Sudameris",
+      "category": "Combustibles",
+      "merchant_name": "ECOP Yatytay 2",
+      "merchant_brand": "ECOP",
+      "address": "Yatytay - Itapúa",
+      "city": "Yatytay",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+      "source_sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-d5ec40647ebbfbc6",
+      "bank": "Sudameris",
+      "category": "Farmacias",
+      "merchant_name": "Drugstore Bahía",
+      "merchant_brand": "Drugstore Asismed",
+      "address": "Concepción Leyes de Chávez casi Av. Gral. José G. Artigas",
+      "city": "",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7f2ec87e46573496448/Drugstore.pdf",
+      "source_sha256": "b8ec1f5fc30ba10a978379478ef2d00529942f3673ff4b4224604d9719eb78b7",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-5825ec3e54634d59",
+      "bank": "Sudameris",
+      "category": "Farmacias",
+      "merchant_name": "Drugstore La Costa",
+      "merchant_brand": "Drugstore Asismed",
+      "address": "Av. Gral. José G. Artigas casi Concepción Leyes de Chávez",
+      "city": "",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7f2ec87e46573496448/Drugstore.pdf",
+      "source_sha256": "b8ec1f5fc30ba10a978379478ef2d00529942f3673ff4b4224604d9719eb78b7",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-7f00b35262e0c335",
+      "bank": "Sudameris",
+      "category": "Farmacias",
+      "merchant_name": "Drugstore Madame Lynch",
+      "merchant_brand": "Drugstore Asismed",
+      "address": "Av. Madame Elisa Lynch casi Soriano González",
+      "city": "",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7f2ec87e46573496448/Drugstore.pdf",
+      "source_sha256": "b8ec1f5fc30ba10a978379478ef2d00529942f3673ff4b4224604d9719eb78b7",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-46487f3387ccdd8b",
+      "bank": "Sudameris",
+      "category": "Farmacias",
+      "merchant_name": "Drugstore Mariscal López",
+      "merchant_brand": "Drugstore Asismed",
+      "address": "Av. Mariscal López casi Perú",
+      "city": "",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7f2ec87e46573496448/Drugstore.pdf",
+      "source_sha256": "b8ec1f5fc30ba10a978379478ef2d00529942f3673ff4b4224604d9719eb78b7",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-ab23265cb5f781ab",
+      "bank": "Sudameris",
+      "category": "Farmacias",
+      "merchant_name": "Drugstore Santa Julia",
+      "merchant_brand": "Drugstore Asismed",
+      "address": "Nicasio Insaurralde y Diago de Silva y Velázquez",
+      "city": "",
+      "department": "",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7f2ec87e46573496448/Drugstore.pdf",
+      "source_sha256": "b8ec1f5fc30ba10a978379478ef2d00529942f3673ff4b4224604d9719eb78b7",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-b269627c9ebbc51a",
+      "bank": "Sudameris",
+      "category": "Supermercados",
+      "merchant_name": "COPEMARKET - 25 DE MAYO",
+      "merchant_brand": "COPEMARKET",
+      "address": "AV. 25 DE MAYO C/ CHOFERES DEL CHACO",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b54487772656136628/bc-copemarket-julio26v2.pdf",
+      "source_sha256": "c159618fda931644ace7525ef648d2e02f029d80bba85bab7b924190fc8a1d09",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-1f646968b403e517",
+      "bank": "Sudameris",
+      "category": "Supermercados",
+      "merchant_name": "COPEMARKET DELI -VILLA MORRA",
+      "merchant_brand": "COPEMARKET",
+      "address": "AV. MCAL. LOPEZ Y SAN MARTIN",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b54487772656136628/bc-copemarket-julio26v2.pdf",
+      "source_sha256": "c159618fda931644ace7525ef648d2e02f029d80bba85bab7b924190fc8a1d09",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-fc9151ad69abb430",
+      "bank": "Sudameris",
+      "category": "Supermercados",
+      "merchant_name": "COPEMARKET FULL - FACUNDO",
+      "merchant_brand": "COPEMARKET",
+      "address": "FACUNDO MACHAIN E/ RI18 PITIANTUTA",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b54487772656136628/bc-copemarket-julio26v2.pdf",
+      "source_sha256": "c159618fda931644ace7525ef648d2e02f029d80bba85bab7b924190fc8a1d09",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-5b84707a1f55e34b",
+      "bank": "Sudameris",
+      "category": "Supermercados",
+      "merchant_name": "COPEMARKET FULL - FERROCARRIL",
+      "merchant_brand": "COPEMARKET",
+      "address": "AV MCAL LOPEZ E/ MEXICO",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b54487772656136628/bc-copemarket-julio26v2.pdf",
+      "source_sha256": "c159618fda931644ace7525ef648d2e02f029d80bba85bab7b924190fc8a1d09",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-9d40c38082479540",
+      "bank": "Sudameris",
+      "category": "Supermercados",
+      "merchant_name": "COPEMARKET FULL - MAITEI",
+      "merchant_brand": "COPEMARKET",
+      "address": "AV. M.LYNCH Y TTE. VICTOR VALDEZ",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b54487772656136628/bc-copemarket-julio26v2.pdf",
+      "source_sha256": "c159618fda931644ace7525ef648d2e02f029d80bba85bab7b924190fc8a1d09",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-8d3c5d1b1a027d11",
+      "bank": "Sudameris",
+      "category": "Supermercados",
+      "merchant_name": "COPEMARKET FULL -KM2",
+      "merchant_brand": "COPEMARKET",
+      "address": "Av. EUSEBIO AYALA E/ BARTOLOMÉ DE LAS CASAS",
+      "city": "ASUNCIÓN",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b54487772656136628/bc-copemarket-julio26v2.pdf",
+      "source_sha256": "c159618fda931644ace7525ef648d2e02f029d80bba85bab7b924190fc8a1d09",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-080bd5ed1bae7b11",
+      "bank": "Sudameris",
+      "category": "Supermercados",
+      "merchant_name": "COPEMARKET FULL - AUTOPISTA",
+      "merchant_brand": "COPEMARKET",
+      "address": "AV.SILVIO PETTIROSSI Y COCHABAMBA",
+      "city": "LUQUE",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b54487772656136628/bc-copemarket-julio26v2.pdf",
+      "source_sha256": "c159618fda931644ace7525ef648d2e02f029d80bba85bab7b924190fc8a1d09",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
+      "id": "loc-sudameris-b7ba224badcb538c",
+      "bank": "Sudameris",
+      "category": "Supermercados",
+      "merchant_name": "COPEMARKET FULL - ECOMMERCE",
+      "merchant_brand": "COPEMARKET",
+      "address": "www.copefull.com.py",
+      "city": "LUQUE",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b54487772656136628/bc-copemarket-julio26v2.pdf",
+      "source_sha256": "c159618fda931644ace7525ef648d2e02f029d80bba85bab7b924190fc8a1d09",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": true,
+      "branch_scope": "online"
+    },
+    {
+      "id": "loc-sudameris-18a6f4d671c39eb8",
+      "bank": "Sudameris",
+      "category": "Supermercados",
+      "merchant_name": "COPEMARKET FULL - RUTA 1 KM14",
+      "merchant_brand": "COPEMARKET",
+      "address": "RUTA PY01 E/ BUENOS AIRES",
+      "city": "S. LORENZO",
+      "department": "CENTRAL",
+      "country": "Paraguay",
+      "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b54487772656136628/bc-copemarket-julio26v2.pdf",
+      "source_sha256": "c159618fda931644ace7525ef648d2e02f029d80bba85bab7b924190fc8a1d09",
+      "source_page": 2,
+      "lat": null,
+      "lng": null,
+      "geocode_source": "",
+      "online_only": false,
+      "branch_scope": "physical"
+    },
+    {
       "id": "loc-ueno-162ac38dc6",
       "bank": "ueno bank",
       "category": "Combustible",
@@ -24424,9 +26395,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:06.934090+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJaxhuP_GnXZQRW_X2Jc1vZbM",
       "google_candidate": {
         "google_name": "Petropar – Sede Administrativa",
@@ -24451,9 +26422,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:07.702266+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
       "google_candidate": {
         "google_name": "Petropar Grupo Sacco S.A.",
@@ -24478,9 +26449,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:08.490446+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ65-ExfanXZQRuQ2peR0SR-s",
       "google_candidate": {
         "google_name": "Petropar Grupo Bahía Alberdi",
@@ -24505,9 +26476,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:09.270297+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJy-nuF-mlXZQRVd0sfcGheek",
       "google_candidate": {
         "google_name": "Service Station Petropar wildebeest Guasu",
@@ -24532,9 +26503,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:10.056687+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJW6SzzlKnXZQRkEnFagYb6WA",
       "google_candidate": {
         "google_name": "Petropar Grupo Bahía Curupayty",
@@ -24559,9 +26530,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:10.845340+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJo4dmZogJXZQRt4Fw_nh-_hM",
       "google_candidate": {
         "google_name": "PETROPAR SAJONIA",
@@ -24586,9 +26557,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:11.572104+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
       "google_candidate": {
         "google_name": "Petropar Grupo Sacco S.A.",
@@ -24613,9 +26584,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:12.243067+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ92AEXCKnXZQRgAXhVB6AUeI",
       "google_candidate": {
         "google_name": "Petropar Empeñarol",
@@ -24640,9 +26611,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:12.983226+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
       "google_candidate": {
         "google_name": "Petropar Grupo Sacco S.A.",
@@ -24667,9 +26638,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:13.748420+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ0WndYACnXZQRuz7aftzNgqg",
       "google_candidate": {
         "google_name": "Sacco Petropar Tte. Fariña",
@@ -24694,9 +26665,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:14.426980+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ3ZjSLgCpXZQREjtyn31_Zz8",
       "google_candidate": {
         "google_name": "Petropar SACCO Japón",
@@ -24721,9 +26692,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:15.191306+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJiyouPgCnXZQRTku95wq4-PU",
       "google_candidate": {
         "google_name": "Petropar Molas Lopez",
@@ -24748,9 +26719,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:15.901573+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ3ZjSLgCpXZQREjtyn31_Zz8",
       "google_candidate": {
         "google_name": "Petropar SACCO Japón",
@@ -24775,9 +26746,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:16.565282+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ65-ExfanXZQRuQ2peR0SR-s",
       "google_candidate": {
         "google_name": "Petropar Grupo Bahía Alberdi",
@@ -24802,9 +26773,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:17.276381+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJW6SzzlKnXZQRkEnFagYb6WA",
       "google_candidate": {
         "google_name": "Petropar Grupo Bahía Curupayty",
@@ -24829,9 +26800,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:17.972562+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ92AEXCKnXZQRgAXhVB6AUeI",
       "google_candidate": {
         "google_name": "Petropar Empeñarol",
@@ -24856,9 +26827,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:18.719422+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJiyouPgCnXZQRTku95wq4-PU",
       "google_candidate": {
         "google_name": "Petropar Molas Lopez",
@@ -24883,9 +26854,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:19.550289+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJoU2k7DGqXZQRHfO5DtnKS5U",
       "google_candidate": {
         "google_name": "PETROPAR - Petroleos del Paraguay",
@@ -24910,9 +26881,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:20.246786+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJo4dmZogJXZQRt4Fw_nh-_hM",
       "google_candidate": {
         "google_name": "PETROPAR SAJONIA",
@@ -24937,9 +26908,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:21.058169+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJNXsJEuapXZQRs-Ry4iA9j18",
       "google_candidate": {
         "google_name": "La Estación Manantial Petropar",
@@ -24964,9 +26935,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:21.782889+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ0WndYACnXZQRuz7aftzNgqg",
       "google_candidate": {
         "google_name": "Sacco Petropar Tte. Fariña",
@@ -24991,9 +26962,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:22.570724+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJy-nuF-mlXZQRVd0sfcGheek",
       "google_candidate": {
         "google_name": "Service Station Petropar wildebeest Guasu",
@@ -25066,9 +27037,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:23.288225+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ1aVujIioXZQRNvp0GCzXCUY",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -25093,9 +27064,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:24.004216+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJOdAzBUumXZQRMStSrgQF5hg",
       "google_candidate": {
         "google_name": "Copetrol Artigas Candelaria",
@@ -25120,9 +27091,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:24.743427+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJPT7B0juvXZQRUKQsiuQx-TU",
       "google_candidate": {
         "google_name": "Copetrol Santa Teresa",
@@ -25147,9 +27118,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:25.443474+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJsymnIlqnXZQR_mz6DBmrI5I",
       "google_candidate": {
         "google_name": "Copetrol Azara",
@@ -25174,9 +27145,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:26.266152+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ1VyKcgioXZQRHiHjEu8PRYo",
       "google_candidate": {
         "google_name": "Copetrol - Felix Bogado",
@@ -25201,9 +27172,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:27.028571+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJscRMHwCpXZQR4ntk7nqxrnU",
       "google_candidate": {
         "google_name": "Copetrol avenida Pitiantuta y Asunción",
@@ -25228,9 +27199,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:27.759300+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ1VyKcgioXZQRHiHjEu8PRYo",
       "google_candidate": {
         "google_name": "Copetrol - Felix Bogado",
@@ -25255,9 +27226,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-16T12:25:28.545016+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJsymnIlqnXZQR_mz6DBmrI5I",
       "google_candidate": {
         "google_name": "Copetrol Azara",
@@ -32739,8 +34710,5 @@
       "lng": null,
       "geocode_source": ""
     }
-  ],
-  "google_enriched_locations": 101,
-  "google_enrichment_focus": "Asunción y Gran Asunción",
-  "locations_updated_at": "2026-10-16T12:25:28+00:00"
+  ]
 }

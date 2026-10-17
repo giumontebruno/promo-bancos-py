@@ -109,13 +109,16 @@ def extract_limits(value):
 
 def normalize_terms(promo):
     raw = text(promo.get("raw_detail"))
-    limits = extract_limits(raw) or extract_limits(promo.get("caps_and_minimums"))
+    limits = (extract_limits(promo.get("caps_and_minimums")) if promo.get("limits_reviewed_for_variant")
+              else extract_limits(raw) or extract_limits(promo.get("caps_and_minimums")))
     dates = validity_dates(promo.get("validity"))
     validity_section = re.search(r'vigencia\s*:\s*(.*?)(?=beneficio\s*:|condiciones\s*:|$)', raw, re.I)
     if validity_section:
         source_dates = validity_dates(validity_section[1])
         if source_dates['ends_on'] or source_dates['conflicting_dates']:
             dates = source_dates
+    if promo.get("source_purchase_validity"):
+        dates = validity_dates(promo["source_purchase_validity"])
     period_end = parse_date(promo.get("source_period_end"))
     if period_end:
         dates["ends_on"] = min(filter(None, (period_end, dates["ends_on"])))
@@ -154,6 +157,8 @@ def normalize_terms(promo):
     if exclusions and all('qr' in key(part) and 'ueno' in key(part) for part in exclusions):
         exclusions = ['No aplica a pagos con código QR, incluidos los de la app ueno.']
     issues = []
+    if promo.get("source_verification") == "unconfirmed":
+        issues.append("source_verification_pending")
     if promo.get('verified_cards'):
         cards = [promo['verified_cards']]
     if promo.get('source_warning'):
@@ -221,11 +226,20 @@ def favorite_aliases(previous, current, existing=None):
     candidates = {}
     for promo in current:
         candidates.setdefault(identity(promo), set()).add(promo.get('campaign_id') or promo['id'])
+    # Match unchanged benefit/card/source before a broad merchant-level migration.
+    # Cap wording or collision suffix changes must not orphan a specific card benefit.
+    def benefit_identity(promo):
+        return tuple(key(promo.get(field)) for field in
+                     ('bank', 'merchant_name', 'source_url', 'validity', 'day_text', 'benefit_summary', 'verified_cards'))
+    exact = {}
+    for promo in current:
+        exact.setdefault(benefit_identity(promo), set()).add(promo.get('campaign_id') or promo['id'])
     # Campaign favorites outlive a split into several independently scheduled offers.
     ids = {value for p in current for value in (p['id'], p.get('campaign_id')) if value}
     aliases = dict(existing or {})
     for promo in previous:
-        matches = candidates.get(identity(promo), [])
+        exact_matches = exact.get(benefit_identity(promo), [])
+        matches = exact_matches if len(exact_matches) == 1 else candidates.get(identity(promo), [])
         for old_id in {promo['id'], promo.get('campaign_id')} - {None, ''}:
             if old_id not in ids and len(matches) == 1:
                 aliases[old_id] = next(iter(matches))

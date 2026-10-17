@@ -1,0 +1,1370 @@
+{
+  "scope": "68 existing coordinate candidates; excludes60 candidates without coordinates",
+  "reviews": [
+    {
+      "id": "loc-137862a0b6",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "73bba4add503ff165496f9d88a8eab0abf4ae8dc7f0b81c8da3d51f0ae6e793d",
+      "official_address": "Avda. Defensores del Chaco N° 1512 c/ Dr. Montanaro.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "BOX SUPERMAYORISTA ABASTO",
+        "formatted_address": "MCGH+25M, Unnamed Road, Asunción 001428",
+        "lat": -25.3249021,
+        "lng": -57.5720697,
+        "checked_at": "2026-09-14T15:18:24+00:00"
+      },
+      "candidate_place_id": "ChIJf0TXmuypXZQR8q1b8T_-YsE",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-f6171a3741",
+      "status": "rejected",
+      "reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Mercado de Abasto Bloque D en Asunción.",
+      "evidence_sha256": "241b1155bcf5c9001ccab8d773a655d1577487c9584223562f311a577f89e148",
+      "official_address": "Av. Defensores del Chaco, Mercado Central de Abasto, Bloque D, Locales 7, 8 y 9.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Casa Grütter Fernando de la Mora",
+        "formatted_address": "Nueva Asunción, Fernando de la Mora 110328",
+        "lat": -25.3339988,
+        "lng": -57.5775225,
+        "checked_at": "2026-09-22T12:36:35+00:00"
+      },
+      "candidate_place_id": "ChIJHc8zwBipXZQRYOw3KEOsQ8E",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-1ff6c937a7",
+      "status": "rejected",
+      "reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Galería Santa Teresa junto al Mercado de Abasto.",
+      "evidence_sha256": "18f073ced8d26edda3da9d0beb3a299bc2c1ff25b44f04309037508065736085",
+      "official_address": "Avda. Defensores del Chaco c/ Pycasu, Galería Santa Teresa al lado del Mercado Central de Abasto.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Casa Grütter Fernando de la Mora",
+        "formatted_address": "Nueva Asunción, Fernando de la Mora 110328",
+        "lat": -25.3339988,
+        "lng": -57.5775225,
+        "checked_at": "2026-09-22T12:36:36+00:00"
+      },
+      "candidate_place_id": "ChIJHc8zwBipXZQRYOw3KEOsQ8E",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-0c7916e643",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "3e782c1aead8eb2aa73db8d03e16c57420c8a764c0b6cc96eb8ee5e383a08691",
+      "official_address": "Avda. Defensores del Chaco - Galería Santa Teresa Bloque C, Mercado Central de Abasto.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "SUPERMAS S.A.",
+        "formatted_address": "Asunción 001428",
+        "lat": -25.3253995,
+        "lng": -57.5713844,
+        "checked_at": "2026-09-22T12:36:37+00:00"
+      },
+      "candidate_place_id": "ChIJTVzeU9-oXZQR6NSArE1lfU0",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-91e0ad0a9e",
+      "status": "rejected",
+      "reason": "La fuente indica Ruta PY02 y Madrigal; el candidato indica Ruta 1 y Clavel. No es la misma dirección.",
+      "evidence_sha256": "31baf1b036ecd318e28c07e496201165e2ed02ea5067288b39e6fffb773baf77",
+      "official_address": "Ruta PY02, Avda. José Félix Estigarribia c/ Madrigal.",
+      "official_city": "Capiatá",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "BOX MAYORISTA, CAPIATÁ",
+        "formatted_address": "Clavel 114 114 Capiatá km 21, ruta 1, Capiatá 110239",
+        "lat": -25.3846168,
+        "lng": -57.4704475,
+        "checked_at": "2026-09-22T12:36:38+00:00"
+      },
+      "candidate_place_id": "ChIJV4UKm4uzXZQRcw8gDe7IK7A",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-dcc7f47aa0",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "c4b4e17089d5b55818b0d0f680ce64ae5c59d0d9b4af7e1d1343012363cb669c",
+      "official_address": "Ruta PY01 Km. 19.",
+      "official_city": "Capiatá",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "BOX MAYORISTA, CAPIATÁ",
+        "formatted_address": "Clavel 114 114 Capiatá km 21, ruta 1, Capiatá 110239",
+        "lat": -25.3846168,
+        "lng": -57.4704475,
+        "checked_at": "2026-09-22T12:36:39+00:00"
+      },
+      "candidate_place_id": "ChIJV4UKm4uzXZQRcw8gDe7IK7A",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-954db3d2fa",
+      "status": "confirmed",
+      "reason": "Nombre y calle Nueva Asunción/Fernando coinciden; la web oficial del comercio confirma esquina Defensores del Chaco. El place_id del candidato coincide con ficha pública Waze.",
+      "evidence_sha256": "ff6fb12ded3cb2c4b247b6a6f9046cbc114c6ce9400202e2de87ec651dc87799",
+      "official_address": "Avda. Defensores del Chaco y Nueva Asunción.",
+      "official_city": "Fernando de la Mora",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Casa Grütter Fernando de la Mora",
+        "formatted_address": "Nueva Asunción, Fernando de la Mora 110328",
+        "lat": -25.3339988,
+        "lng": -57.5775225,
+        "checked_at": "2026-09-22T12:36:40+00:00"
+      },
+      "candidate_place_id": "ChIJHc8zwBipXZQRYOw3KEOsQ8E",
+      "additional_sources": [
+        "https://casagrutter.com.py/",
+        "https://www.waze.com/es-419/live-map/directions/py/central/fernando-de-la-mora/casa-grutter-fernando-de-la-mora?to=place.ChIJHc8zwBipXZQRYOw3KEOsQ8E"
+      ],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-7398d11133",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "2bb347452afafdd32e9c51d1a6a32e54a6139ef4e19729cb59ef4099bd5ba8cb",
+      "official_address": "Javier Bogarín N° 264 c/ Sportivo Luqueño.",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "AHÓ AHÓ",
+        "formatted_address": "Sportivo Luqueño, Luque 110930",
+        "lat": -25.271454,
+        "lng": -57.49035,
+        "checked_at": "2026-09-14T15:18:25+00:00"
+      },
+      "candidate_place_id": "ChIJe-r9LYyvXZQRSm6oTnRTS44",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-9871905a5c",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "4bc5b909df600241a6d08ed9207fba429868a9d8f90f48b9865f15abb4fb5f81",
+      "official_address": "Avda. Coronel Martínez y Profesora Inés Figueredo.",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "SUPER BOX MAYORISTA LUQUE",
+        "formatted_address": "PGF7+JR6 Profesora Inés Figueredo de Almirón, Luque 110928",
+        "lat": -25.2759704,
+        "lng": -57.4854766,
+        "checked_at": "2026-09-22T12:36:40+00:00"
+      },
+      "candidate_place_id": "ChIJOXWydH6vXZQRAIMxu38WLpk",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-55949de43c",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "6bf507a6f55240dae0578af8e428eb3ecf895281d57495bc07924f9e95f5e122",
+      "official_address": "Ruta Transchaco Km. 14 y Avda. Eusebio Ayala.",
+      "official_city": "Mariano Roque Alonso",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Box Mayorista",
+        "formatted_address": "RutaTranschaco, Mariano Roque Alonso 111021",
+        "lat": -25.2312731,
+        "lng": -57.5391078,
+        "checked_at": "2026-09-22T12:36:41+00:00"
+      },
+      "candidate_place_id": "ChIJ1WVDMNKlXZQRp87HSpibCtY",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-99313f94a1",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "0b44da075772c2f2e22a5380c9d4e8792b1dafd16bd4a1aa6cdd8f88aa1181c2",
+      "official_address": "Avda. Manuel Ortiz Guerrero c/ Sacramento.",
+      "official_city": "San Lorenzo",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "BOX Mayorista Manuel Ortiz Guerrero",
+        "formatted_address": "profesor Lombardo 1437 c, San Lorenzo 2160",
+        "lat": -25.3674232,
+        "lng": -57.5165948,
+        "checked_at": "2026-09-22T12:36:42+00:00"
+      },
+      "candidate_place_id": "ChIJncInRACtXZQRxoEtHQfLEr8",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-90f28d597c",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "d5e5ca26ed9397659658a03963d2a0b2f7a66dddcf8826d344387dcb7d5b8ca3",
+      "official_address": "Acceso Sur c/ José Asunción Flores.",
+      "official_city": "Ñemby",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "SUPERMAS ÑEMBY",
+        "formatted_address": "JCJQ+5R9, Acceso Sur, Ñemby 111203",
+        "lat": -25.3699652,
+        "lng": -57.5595681,
+        "checked_at": "2026-09-22T12:36:43+00:00"
+      },
+      "candidate_place_id": "ChIJU9tLi6OrXZQR0egFLJhALj4",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-d3dcfde46e",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "22163f504869262cc857674637e5f72b1b29ba276d19b77fab671350d97a9a76",
+      "official_address": "Avda. Las Residentas N° 413 c/ Fausto Aranda.",
+      "official_city": "Areguá",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Casa Parana Suc Aregua",
+        "formatted_address": "PH3H+86Q, Areguá 110112",
+        "lat": -25.2966534,
+        "lng": -57.4218857,
+        "checked_at": "2026-09-22T12:36:44+00:00"
+      },
+      "candidate_place_id": "ChIJkZFjNACxXZQRFQcY6gR9nmA",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-68dd380226",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "88a308127796259a45a5361e1ab354eb5aec05f4a6673a5342a3a744f126bb09",
+      "official_address": "Ruta Areguá Patiño e/ EEUU y Carlos A. López.",
+      "official_city": "Areguá",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 3,
+      "candidate": {
+        "google_name": "Superseis Aregua",
+        "formatted_address": "MJQ9+6RP, Areguá 110101",
+        "lat": -25.3119124,
+        "lng": -57.3804334,
+        "checked_at": "2026-09-22T12:36:45+00:00"
+      },
+      "candidate_place_id": "ChIJ4cCXxlGxXZQR49PlMMnb3uE",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-f6f09af6c0",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "17e4f42c35ec48c2848f4a73695780bafa34543c07f177647156725e16547476",
+      "official_address": "J. Eulogio Estigarribia esq. Cruz del Defensor.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Real Supermarket",
+        "formatted_address": "Dr. Juan Eulogio Estigarribia, Asunción 001412",
+        "lat": -25.2971693,
+        "lng": -57.5788706,
+        "checked_at": "2026-09-22T12:36:46+00:00"
+      },
+      "candidate_place_id": "ChIJcy8SdJeoXZQRcDfHeuByliI",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-f268749437",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "bc8bacb0e6dd9a609268ec4f3d667dc1261e6a3a85b34dcc4e4e0bc366351439",
+      "official_address": "Próceres de Mayo e/ Sebastián Elcano y Centenario.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Real San Vicente supermarket",
+        "formatted_address": "Av. Proceres De Mayo, Asunción 001237",
+        "lat": -25.3087363,
+        "lng": -57.6175591,
+        "checked_at": "2026-09-22T12:36:46+00:00"
+      },
+      "candidate_place_id": "ChIJAZGkT2yoXZQRKQJMQYnI_Ww",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-acb35e59cb",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "2818a19babcc6be40ac722e97fbd2e09bde9bc046e6201aabe84f2bbf53064d7",
+      "official_address": "Avda. Félix Bogado esq. 18 de Julio.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Supermercado Real Félix Bogado",
+        "formatted_address": "Asunción 001240",
+        "lat": -25.3239925,
+        "lng": -57.6273226,
+        "checked_at": "2026-09-14T15:18:26+00:00"
+      },
+      "candidate_place_id": "ChIJy-rAd2ipXZQRHv76ReIFstk",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-3ee05c96c4",
+      "status": "confirmed",
+      "reason": "Casa Paraná: coincidencia de dirección numerada Antequera661, ciudad Asunción y nombre; coordenadas del candidato existente. Dirección oficial BNF identifica inequívocamente local.",
+      "evidence_sha256": "443f751176fdcf20a7a1ed19dae3a8a7e742586aeef1cda8a8622d4510b541e0",
+      "official_address": "Antequera 661 e/ Azara y Herrera.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Paraná home",
+        "formatted_address": "Antequera 661, Asunción 001219",
+        "lat": -25.2876824,
+        "lng": -57.6305528,
+        "checked_at": "2026-09-22T12:36:47+00:00"
+      },
+      "candidate_place_id": "ChIJDw-UY-WnXZQRMb5YpSA4Pt8",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-7d3964d10f",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "22ce23eb1bcb23fc6d636c1aa39bd668338a642b06f7d0123a0559e96d6b6a21",
+      "official_address": "Eusebio Ayala 4090 c/ Boquerón.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Hipermercado Luisito Eusebio Ayala",
+        "formatted_address": "MCMC+WJ8, Av. Eusebio Ayala 1910, Asunción 001426",
+        "lat": -25.315403,
+        "lng": -57.578477,
+        "checked_at": "2026-09-22T12:36:51+00:00"
+      },
+      "candidate_place_id": "ChIJy_xKWeioXZQRFcR3ABLaRnU",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-7e62631dc9",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "16b3902adbafc50118001d91f1db4aad59323927480c399cddbe0192ecc8183e",
+      "official_address": "Félix Bogado c/ Campo Vía.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Hipermercado Luisito Félix Bogado",
+        "formatted_address": "Av. José Félix Bogado, Asunción 001238",
+        "lat": -25.3146693,
+        "lng": -57.629916,
+        "checked_at": "2026-09-22T12:36:52+00:00"
+      },
+      "candidate_place_id": "ChIJ_ayH2BaoXZQR8LWMWQoskps",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-b69261f7c8",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "432fc834d96e4ef1373fda33b0dcd4fad44cfc36f00425b17e5c52c438a19eb9",
+      "official_address": "Barrio Sajonia, Avda. Carlos Antonio López esq. Díaz de Solís.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 4,
+      "candidate": {
+        "google_name": "Villa Sofía Supermarket",
+        "formatted_address": "Av. Carlos Antonio López 1447, Asunción 001008",
+        "lat": -25.2894837,
+        "lng": -57.6566815,
+        "checked_at": "2026-09-22T12:36:53+00:00"
+      },
+      "candidate_place_id": "ChIJvRAJyBAIXZQRmZVn6lCTTqM",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-06cc9d2280",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "0103efcf046355e468ef738644c82d9d6337e6b68b759853e602fd99161dcd10",
+      "official_address": "Barrio Obrero, Av. Ita Ybate (21 Proyectadas) e/ Tacuari y Parapiti.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Mercado Villa Sofía",
+        "formatted_address": "M9R4+VXM, Av. Ita Ybate, Asunción 001110",
+        "lat": -25.3083114,
+        "lng": -57.6427172,
+        "checked_at": "2026-09-22T12:36:54+00:00"
+      },
+      "candidate_place_id": "ChIJ3cEsTIepXZQRUDPUDSpyXu4",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-3136d2f100",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "1792aa25790fafe2b9074f6a06f4cc5fd358cf87fb6b216c999737289e805172",
+      "official_address": "Garibaldi 156 c/ Presidente Franco.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Super Mercado La Preferida",
+        "formatted_address": "José Garibaldi Esq, Asunción 001011",
+        "lat": -25.2767578,
+        "lng": -57.641037,
+        "checked_at": "2026-09-22T12:36:55+00:00"
+      },
+      "candidate_place_id": "ChIJ3QVFq4unXZQR2IYShq6vMz8",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-360198c5e2",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "1c7aadfa045366fd9c7211637d1e05583c2f267378aa02c9c6791d4c1fd89414",
+      "official_address": "Avda. Mcal. López c/ Madame Lynch – Royal Plaza.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Gran Via",
+        "formatted_address": "Av. Mariscal López, Asunción 001404",
+        "lat": -25.3085134,
+        "lng": -57.5525948,
+        "checked_at": "2026-09-22T12:36:56+00:00"
+      },
+      "candidate_place_id": "ChIJtXKzxJyvXZQR0A1tP3dPrD8",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-b3c7a978ab",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "1be622e9da7416a4e69109e14b8c6d73aad98366310bd983638d3b94a2c3547e",
+      "official_address": "Avda. Eusebio Ayala y Choferes del Chaco.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Supermarket Gran Vía",
+        "formatted_address": "&, Asunción 001230",
+        "lat": -25.3081601,
+        "lng": -57.5967149,
+        "checked_at": "2026-09-14T15:18:29+00:00"
+      },
+      "candidate_place_id": "ChIJf1ASW4qoXZQRDR2bBhZX4Zw",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-4497357d28",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "be2a98dec6ef7485165758712bcdc5b64f29f14e920ef952dde68af569ad68b2",
+      "official_address": "Avda. Eusebio Ayala y Vice Pte. Sanchez.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 3,
+      "candidate": {
+        "google_name": "Superseis - Eusebio Ayala",
+        "formatted_address": "Av. Eusebio Ayala, Asunción 001226",
+        "lat": -25.3013658,
+        "lng": -57.6174629,
+        "checked_at": "2026-09-22T12:36:57+00:00"
+      },
+      "candidate_place_id": "ChIJc5VilnOoXZQRXMDasD5P6jA",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-a919284897",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "2b28111f22af7a0c5962c31b35e08af5b117f1aaa434bc17bca63ec4fa4a4da0",
+      "official_address": "Mcal. López esq. Juan S Bogarin.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 3,
+      "candidate": {
+        "google_name": "Superseis - Recoleta",
+        "formatted_address": "Av. Mariscal López, Asunción 001412",
+        "lat": -25.2937064,
+        "lng": -57.582845,
+        "checked_at": "2026-09-22T12:36:58+00:00"
+      },
+      "candidate_place_id": "ChIJlX6uw5uoXZQR7MFj36-J2Xo",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-df8d7d797e",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "86d836074e4915e26db55c7689f1a89aa49842bfeb73152682bb94e90b0e3424",
+      "official_address": "Avda. Aviadores del Chaco y Eloy Páez.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 4,
+      "candidate": {
+        "google_name": "Superseis express moiety",
+        "formatted_address": "Av. Aviadores del Chaco 3215, Asunción 001524",
+        "lat": -25.2777384,
+        "lng": -57.5544213,
+        "checked_at": "2026-09-23T12:48:02+00:00"
+      },
+      "candidate_place_id": "ChIJs6SvI9anXZQRQSRil9aDYnA",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-2b0a24d4d5",
+      "status": "rejected",
+      "reason": "La sucursal oficial es Primer Presidente/Gabriel Casaccia; el candidato es Aviadores del Chaco.",
+      "evidence_sha256": "cb60f7c13bd0ec3fcac0b4fd84b99a2729fd47e829c2ed94777b862cd77ecf34",
+      "official_address": "Avda. Primer Presidente esq. Gabriel Casaccia.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 4,
+      "candidate": {
+        "google_name": "Superseis express moiety",
+        "formatted_address": "Av. Aviadores del Chaco 3215, Asunción 001524",
+        "lat": -25.2777384,
+        "lng": -57.5544213,
+        "checked_at": "2026-09-14T15:18:30+00:00"
+      },
+      "candidate_place_id": "ChIJs6SvI9anXZQRQSRil9aDYnA",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-b1552f4f08",
+      "status": "rejected",
+      "reason": "La sucursal oficial es Molas López/Veteranos del70; el candidato es Aviadores del Chaco.",
+      "evidence_sha256": "b1cb2149c792a88f64d1798a7b1ec5ccca49dceafde7a1055ea837df946b0ccb",
+      "official_address": "Avda. Molas López esq. Veteranos del 70.",
+      "official_city": "Asunción",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 4,
+      "candidate": {
+        "google_name": "Superseis express moiety",
+        "formatted_address": "Av. Aviadores del Chaco 3215, Asunción 001524",
+        "lat": -25.2777384,
+        "lng": -57.5544213,
+        "checked_at": "2026-09-14T15:18:31+00:00"
+      },
+      "candidate_place_id": "ChIJs6SvI9anXZQRQSRil9aDYnA",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-3de9455b62",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "31d94c8fe06ddf87ec3bdf513fe5022a0c426a357736df80e071d6d3c327ebc4",
+      "official_address": "Ruta Departamental D027 c/ San Roque González.",
+      "official_city": "Capiatá",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Real supermarket Capiatá 2",
+        "formatted_address": "Mariscal Francisco Solano López, Kapi'atã 110207",
+        "lat": -25.3502433,
+        "lng": -57.4477089,
+        "checked_at": "2026-09-14T15:18:32+00:00"
+      },
+      "candidate_place_id": "ChIJYeM64xCyXZQRnXXqYsM3fk4",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-b2f8bfe6f6",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "3f76996168967601c7030fa6ccaea2521231ac77eb83a3d95b8a1a9c2ac891f1",
+      "official_address": "Ruta PY02 c/ Prof. Carlos A. Rachit.",
+      "official_city": "Capiatá",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Real supermarket Capiatá 2",
+        "formatted_address": "Mariscal Francisco Solano López, Kapi'atã 110207",
+        "lat": -25.3502433,
+        "lng": -57.4477089,
+        "checked_at": "2026-09-14T15:18:32+00:00"
+      },
+      "candidate_place_id": "ChIJYeM64xCyXZQRnXXqYsM3fk4",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-5a4c86cfcf",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "8479798b09e4ab19f5eb0c7e4f2dbbf168bc8fdc8a04539e7f9b4ed1e530c36f",
+      "official_address": "Ruta 1 km 20 c/ Ruta Thompson.",
+      "official_city": "Capiatá",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Casa Parana - Capiata",
+        "formatted_address": "Km 20 c, Ruta Capiata - Thompson - Ypane, Capiatá 110245",
+        "lat": -25.3917396,
+        "lng": -57.4694255,
+        "checked_at": "2026-09-23T12:48:04+00:00"
+      },
+      "candidate_place_id": "ChIJ8WXCNQCtXZQROLMEyTc8YoM",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-6decf1b909",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "5d76f27834b743a12968c10a3c0a5d7f6f30d7f6bc1aa2000777a111f6dd3b26",
+      "official_address": "Avda. Dr. Pedro López esq. Bernardino Caballero.",
+      "official_city": "Capiatá",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Hipermercado Luisito Capiatá",
+        "formatted_address": "JG8P+9XH, Capiatá 110239",
+        "lat": -25.3840546,
+        "lng": -57.4625076,
+        "checked_at": "2026-09-14T15:18:33+00:00"
+      },
+      "candidate_place_id": "ChIJueBaxomzXZQRZplJVa2Glgg",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-049363d081",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "6dd8eaaa397ebaee9c14cb66ebda060ff4eaf4dcf8631674be2eb2293902b3d8",
+      "official_address": "Ruta Mcal. Estigarribia esq. Corrales.",
+      "official_city": "Fernando de la Mora",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Supermarket Real Fernando",
+        "formatted_address": "Fernando de la Mora 110318",
+        "lat": -25.3278468,
+        "lng": -57.5474224,
+        "checked_at": "2026-09-14T15:18:34+00:00"
+      },
+      "candidate_place_id": "ChIJrcWo1dOuXZQRq-7M1O4N7Ms",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-484ef58909",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "22b5eff87b065f2cc2d3b44ceded05035282584e75ad5cacc1fbc642d6fbcbbd",
+      "official_address": "Acceso Sur PY01 c/ Usher Ríos.",
+      "official_city": "Fernando de la Mora",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Supermarket Real South Access",
+        "formatted_address": "Acceso Sur 001, Fernando de la Mora 110330",
+        "lat": -25.3466961,
+        "lng": -57.574971,
+        "checked_at": "2026-09-23T12:48:06+00:00"
+      },
+      "candidate_place_id": "ChIJY2HD5T-pXZQRwECAIx-tah0",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-2f87a9e8f8",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "b7f0d01ac031016354bc7c4a1ab6f4b029be6376f6a1c5048f738bd10d82e4b9",
+      "official_address": "Dr. Ceferino Ruíz esq. Algodonal.",
+      "official_city": "Fernando de la Mora",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Luisito",
+        "formatted_address": "MC68+6PV, Acceso Sur, Fernando de la Mora 110329",
+        "lat": -25.3393839,
+        "lng": -57.5832067,
+        "checked_at": "2026-09-14T15:18:35+00:00"
+      },
+      "candidate_place_id": "ChIJJZ0qnBCpXZQRukNyeiPk2cc",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-831474a3ee",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "53caff3754299902ffe8dfc9f8538cfdffd55f70bf71c1c60604676cdf69a65e",
+      "official_address": "Luis Alberto del Paraná y Jacaranda.",
+      "official_city": "Fernando de la Mora",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Supermercado Los Jardines - Fernando de la Mora",
+        "formatted_address": "Jacaranda esq, Fernando de la Mora 110304",
+        "lat": -25.3126704,
+        "lng": -57.5421227,
+        "checked_at": "2026-09-14T15:18:35+00:00"
+      },
+      "candidate_place_id": "ChIJsf07UC-vXZQRQ1t2v8W1EEk",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-e49a9c971e",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "34fd2d0057450780c9a13600751a8176c3acff067140e9b100d4d7a63f99a4ed",
+      "official_address": "Juan Leopardi c/Teniente Enciso.",
+      "official_city": "Fernando de la Mora",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Supermercado Los Jardines - Suc Leopardi",
+        "formatted_address": "Juan Leopardi casi, Fernando de la Mora 110316",
+        "lat": -25.346854,
+        "lng": -57.5495876,
+        "checked_at": "2026-09-23T12:48:07+00:00"
+      },
+      "candidate_place_id": "ChIJFxatBY6vXZQRyMNgDifMn84",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-cd8a9041ff",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "ab4688808a9b8ce73d5717d787c68499fdc390d1b1c23a6e3953fc36875c1d0e",
+      "official_address": "Calle Coronel Cazal e/ Avda. Mcal. López.",
+      "official_city": "Fernando de la Mora",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 3,
+      "candidate": {
+        "google_name": "Superseis - Fernando de la mora",
+        "formatted_address": "Av. Mariscal López, San Lorenzo 110310",
+        "lat": -25.3156903,
+        "lng": -57.5275784,
+        "checked_at": "2026-09-23T12:48:08+00:00"
+      },
+      "candidate_place_id": "ChIJdyMyyB-vXZQRZaHXXCeRjFY",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-a63b80079c",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "da28cd2d7386d882313327e0b61747bdefc83b195a268b3ccfb8fb997804dfb6",
+      "official_address": "Avda. Mcal. López esq. Acaray.",
+      "official_city": "Fernando de la Mora",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 3,
+      "candidate": {
+        "google_name": "Superseis - Fernando de la mora",
+        "formatted_address": "Av. Mariscal López, San Lorenzo 110310",
+        "lat": -25.3156903,
+        "lng": -57.5275784,
+        "checked_at": "2026-09-23T12:48:08+00:00"
+      },
+      "candidate_place_id": "ChIJdyMyyB-vXZQRZaHXXCeRjFY",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-d3da5ade02",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "593987ad994bdca34039104e9ec581457edbfe437d116690e16325dae184fae7",
+      "official_address": "Avda. Marcial Samaniego, a 700 mts. de Ruta PY02.",
+      "official_city": "Itauguá",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 3,
+      "candidate": {
+        "google_name": "Hipermercado Luisito - Itauguá",
+        "formatted_address": "JJ2V+J5X Estacionamiento, Itauguá 110611",
+        "lat": -25.3983893,
+        "lng": -57.357028,
+        "checked_at": "2026-09-23T12:48:09+00:00"
+      },
+      "candidate_place_id": "ChIJj3VDy1m1XZQRT1ceXksrLdA",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-0aa09d9579",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "67375c48092201bc419fb762b07da0bf4304065ce1971441b32b6e4f116377fc",
+      "official_address": "Avda. Cacique Lambaré e/ Iturbe y Vencedores del Chaco.",
+      "official_city": "Lambaré",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Casa Paraná - Lambaré",
+        "formatted_address": "Av. Cacique Lambare N° 3425, Lambaré 110718",
+        "lat": -25.3405778,
+        "lng": -57.6002817,
+        "checked_at": "2026-09-23T12:48:10+00:00"
+      },
+      "candidate_place_id": "ChIJhzORtqmpXZQRC3j2QyiBHqQ",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-ad018dbfa8",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "f1be0f2c4b2a3dc77826fa0a435142c91986270149d458e711d09ee924945f7c",
+      "official_address": "Luis Maria Argaña esq. Porvenir.",
+      "official_city": "Lambaré",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 4,
+      "candidate": {
+        "google_name": "Superseis Sirio",
+        "formatted_address": "M98G+42, Las Palmas y, Lambaré 110705",
+        "lat": -25.3345913,
+        "lng": -57.6249111,
+        "checked_at": "2026-09-23T12:48:11+00:00"
+      },
+      "candidate_place_id": "ChIJHdM47empXZQRMeLhckpsEfQ",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-b6d4af643d",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "27daa86a92b0dae902d30c2ce0750705223798f3eeffdcab1045c9039b811b1e",
+      "official_address": "Avda. del Yatch c/ Manuel Gondra.",
+      "official_city": "Lambaré",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 4,
+      "candidate": {
+        "google_name": "Superseis Express Avenida del Yacht",
+        "formatted_address": "J9RC+9XQ, Lambaré 110727",
+        "lat": -25.3589597,
+        "lng": -57.6276744,
+        "checked_at": "2026-09-23T12:48:12+00:00"
+      },
+      "candidate_place_id": "ChIJ5VqZPqupXZQRjWcLygSDUN8",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-83fe514784",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "24770e21738f0386a80fd94db5beab781bf328788bb1dd4e0af21a650a9e8171",
+      "official_address": "Ruta Luque Limpio – Mora Cue.",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Casa Paraná - Luque",
+        "formatted_address": "QGFF+958, Ruta Luque - Limpio, Luque 110905",
+        "lat": -25.2271288,
+        "lng": -57.4767241,
+        "checked_at": "2026-09-23T12:48:13+00:00"
+      },
+      "candidate_place_id": "ChIJiWUleAClXZQR-ZwPVkRG5io",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-d167678861",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "7420158c267c06d86de8e393147772d30f2c67c8f10bf45584e81c2cded8f165",
+      "official_address": "Avda. Corrales esq. Tte. Rojas Silva.",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 3,
+      "candidate": {
+        "google_name": "Hipermercado Luisito Luque",
+        "formatted_address": "PGM8+G6R, Av. Corrales, Luque 110921",
+        "lat": -25.2661457,
+        "lng": -57.4844837,
+        "checked_at": "2026-09-23T12:48:15+00:00"
+      },
+      "candidate_place_id": "ChIJ_9iwwPSvXZQRcSqn7t-c1Xw",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-4efbe762b7",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "be1fefe0ed40f2a40b1c7d6469c785995d18051fde6fce9b552816d60f62f584",
+      "official_address": "Av. General Aquino y Julio Rivas.",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Los Jardines",
+        "formatted_address": "Avenida General Aquino &, Tte. Rivas, Luque 110934",
+        "lat": -25.2652759,
+        "lng": -57.5060238,
+        "checked_at": "2026-09-23T12:48:16+00:00"
+      },
+      "candidate_place_id": "ChIJez3bpX-lXZQR4FDsj8tSknk",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-ec07bf6363",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "c89bcb62659d37c5e4a1629e0925a5979a14947d1e4b68c1f9608729584a360b",
+      "official_address": "Ruta Luque Limpio C.R. González.",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Los Jardines Express",
+        "formatted_address": "Ruta Luque - Limpio, Luque 110904",
+        "lat": -25.234487,
+        "lng": -57.47545,
+        "checked_at": "2026-09-23T12:48:16+00:00"
+      },
+      "candidate_place_id": "ChIJB0FT7TmlXZQRFowc81SWjuM",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-b20bca7cd3",
+      "status": "rejected",
+      "reason": "La sucursal oficial es José Ortiz/Sargento Espinola; el candidato es General Aquino/Tte.Rivas.",
+      "evidence_sha256": "67924dcddfc856e97ccefb71ef3fc64f526e5ecdaeffeab4b753a161bd22a59a",
+      "official_address": "Jose Ortiz c/ Sargento Espinola.",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Los Jardines",
+        "formatted_address": "Avenida General Aquino &, Tte. Rivas, Luque 110934",
+        "lat": -25.2652759,
+        "lng": -57.5060238,
+        "checked_at": "2026-09-23T12:48:17+00:00"
+      },
+      "candidate_place_id": "ChIJez3bpX-lXZQR4FDsj8tSknk",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-f145fb49f4",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "65c6cd8c1938f82e2d620a024c9705e49ce9e4b1c0674cd7011ba3b34d481d4d",
+      "official_address": "Gral. Elizardo Aquino c/ Adrian Jara",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Los Jardines Supermercado",
+        "formatted_address": "Avenida, Gral. Elizardo Aquino esquina, Lúke 110938",
+        "lat": -25.2809795,
+        "lng": -57.5344426,
+        "checked_at": "2026-09-23T12:48:18+00:00"
+      },
+      "candidate_place_id": "ChIJnZ5MEV2vXZQRcZNTbCOtqUU",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-edd72826c4",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "31f8e23475262e723e330828cb8a0c41bbe7931dcc9e88b7f954ead1b1a2bd1b",
+      "official_address": "Sucursal Luque, América e/ 12 de Octubre y Karandayty.",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Villa Sofia - Luque",
+        "formatted_address": "PFVX+WXX, America, Luque 110917",
+        "lat": -25.2546827,
+        "lng": -57.5003681,
+        "checked_at": "2026-09-23T12:48:19+00:00"
+      },
+      "candidate_place_id": "ChIJc-S9YQClXZQRGqt_0k7Qhuc",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-1b2a3aa07d",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "55945e62b8b32584920719e5444e282959481159ef7875a74070f6031705141f",
+      "official_address": "Ruta Gral. Aquino N° 2.400 esq. Nanawa.",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Gran Vía",
+        "formatted_address": "PF9F+QM7, Av. Nanawa, Luque 110937",
+        "lat": -25.2805841,
+        "lng": -57.5258219,
+        "checked_at": "2026-09-14T15:18:36+00:00"
+      },
+      "candidate_place_id": "ChIJneyrY2avXZQRun9_oqatsjI",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-5cca3cc840",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "ee2d66f768554679e34689def466f0d931abd56e6968a5177c55b7aaa411b4d5",
+      "official_address": "Avda. Capitán Rivarola e/ P.Garcia y F. Yegros.",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 4,
+      "candidate": {
+        "google_name": "Superseis",
+        "formatted_address": "C. Valois Rivarola, Luque 110920",
+        "lat": -25.2625244,
+        "lng": -57.4899483,
+        "checked_at": "2026-09-23T12:48:20+00:00"
+      },
+      "candidate_place_id": "ChIJFewK62GlXZQR7YujTPwBNqA",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-814d34382c",
+      "status": "rejected",
+      "reason": "La sucursal oficial es Silvio Pettirossi/Torokay; el candidato es Valois Rivarola.",
+      "evidence_sha256": "95edb44117aaa7700147a50058a02f164f223d4deedfb5aed517e504dc7133c0",
+      "official_address": "Autopista Silvio Pettirossi y Torokay.",
+      "official_city": "Luque",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 4,
+      "candidate": {
+        "google_name": "Superseis",
+        "formatted_address": "C. Valois Rivarola, Luque 110920",
+        "lat": -25.2625244,
+        "lng": -57.4899483,
+        "checked_at": "2026-09-14T15:18:37+00:00"
+      },
+      "candidate_place_id": "ChIJFewK62GlXZQR7YujTPwBNqA",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-4b797c1a50",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "4cecec724a014d55120c0b6adf284f2e7e5b8bb7f4dd006a6df7f1d823e89edd",
+      "official_address": "Ruta Transchaco esq. Augusto Roa Bastos.",
+      "official_city": "Mariano Roque Alonso",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 3,
+      "candidate": {
+        "google_name": "Luisito",
+        "formatted_address": "QF76+527, Avenida Mcal. José F. Estigarribia, Asunción 001506",
+        "lat": -25.237051,
+        "lng": -57.5396194,
+        "checked_at": "2026-09-14T15:18:38+00:00"
+      },
+      "candidate_place_id": "ChIJJdQZrs2lXZQREk5TifjnHxw",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-6fcd7f8ac0",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "d258c821c5da59c93e9c7676a5ab9601199ae7fde1f0895d2cb79d196e472eab",
+      "official_address": "Ruta Transchaco y Capitán Alianza. – Shopping El Portal.",
+      "official_city": "Mariano Roque Alonso.",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 4,
+      "candidate": {
+        "google_name": "Superseis - Portal",
+        "formatted_address": "QF65+F3X, Don Aurelio González, Asunción 001507",
+        "lat": -25.2387517,
+        "lng": -57.5422655,
+        "checked_at": "2026-09-14T15:18:39+00:00"
+      },
+      "candidate_place_id": "ChIJcV1UCdKlXZQRahjdalAX1sM",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-4b102534f8",
+      "status": "confirmed",
+      "reason": "Casa Paraná: coincidencia de dirección numerada Av.San Antonio273 y ciudad; coordenadas del candidato existente. Fuente oficial del comercio también publica dirección273.",
+      "evidence_sha256": "f5262c31e28478fca50a35fde5cddaafa226aee4c6de075d2181e55e3f5a1429",
+      "official_address": "Avda. San Antonio N° 273 esq/ Rio Apa.",
+      "official_city": "San Antonio",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Casa Paraná - San Antonio",
+        "formatted_address": "Av. San Antonio n° 273 esquina, San Antonio 2650",
+        "lat": -25.4178679,
+        "lng": -57.5719314,
+        "checked_at": "2026-09-23T12:48:21+00:00"
+      },
+      "candidate_place_id": "ChIJP5jkixqrXZQRwLMBrcDTxHY",
+      "additional_sources": [
+        "https://www.facebook.com/CasaParanaPy/videos/nuestro-dispenser-de-agua-con-usb-te-ofrece-la-libertad-de-disfrutar-de-agua-fre/1783613618771488/"
+      ],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-764efbaf44",
+      "status": "rejected",
+      "reason": "La sucursal oficial es Ruta2 km15 San Lorenzo; candidato Ruta1 km20 Capiatá.",
+      "evidence_sha256": "6e91b1bb40c0e7cd37c72452de0c7f7c06014da4160c9ceb7e7acfd33a12cdfe",
+      "official_address": "Ruta Mariscal José Felix Estigarribia Km 15.",
+      "official_city": "San Lorenzo",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Casa Parana - Capiata",
+        "formatted_address": "Km 20 c, Ruta Capiata - Thompson - Ypane, Capiatá 110245",
+        "lat": -25.3917396,
+        "lng": -57.4694255,
+        "checked_at": "2026-09-23T12:48:22+00:00"
+      },
+      "candidate_place_id": "ChIJ8WXCNQCtXZQROLMEyTc8YoM",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-ca8d6bc0c3",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "e4f389953048d09442a08dd0c7f85e1cc6ac2dc4c41ea1276b161470ff2146cd",
+      "official_address": "Avda. Brasil c/ Nicanor Ríos.",
+      "official_city": "San Lorenzo",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 3,
+      "candidate": {
+        "google_name": "Hipermercado Luisito - San Lorenzo",
+        "formatted_address": "Brasil esq, San Lorenzo 111445",
+        "lat": -25.3641298,
+        "lng": -57.5308095,
+        "checked_at": "2026-09-23T12:48:22+00:00"
+      },
+      "candidate_place_id": "ChIJkY71MjKtXZQRI6DvhYeOGCM",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-63404e3d2c",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "c1b5c704e0ba429c087e995f0604aa28a471ebd521befda0203fba7529cf27a0",
+      "official_address": "Laguna Grande y Rio Paraguay I.",
+      "official_city": "San Lorenzo",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 2,
+      "candidate": {
+        "google_name": "Supermercado Los Jardines - Laguna Grande",
+        "formatted_address": "Avda. Laguna Grande esq, Rio Paraguay 2160, Fernando de la Mora 110311",
+        "lat": -25.3188667,
+        "lng": -57.5182266,
+        "checked_at": "2026-09-23T12:48:23+00:00"
+      },
+      "candidate_place_id": "ChIJy_WpouCvXZQRPOkTIB_PmZE",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-b91f72bbd9",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "491d7b10f5d50819c23b09906bbb58af155daf4670cc6b800a2f1c75ef68f508",
+      "official_address": "Intersección Ruta 1 y Ruta 2.",
+      "official_city": "San Lorenzo",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 4,
+      "candidate": {
+        "google_name": "Superseis San Lorenzo",
+        "formatted_address": "Julia Miranda Cueto, San Lorenzo 111429",
+        "lat": -25.3428897,
+        "lng": -57.5018865,
+        "checked_at": "2026-09-23T12:48:24+00:00"
+      },
+      "candidate_place_id": "ChIJ16bPg3uuXZQREcpgzVfCMJ4",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-fb111ec029",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "5e8e34d944a7cf0ffb18050f6abd5cf74ede1f0c4686c0cf2d9803e69188c5c5",
+      "official_address": "Avda. Von Polesky esq. Estados Unidos.",
+      "official_city": "Villa Elisa",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 3,
+      "candidate": {
+        "google_name": "Hipermercado Luisito Villa Elisa",
+        "formatted_address": "111507, Av. Enrique Von Poleski 5467, Villa Elisa 111507",
+        "lat": -25.3628725,
+        "lng": -57.5915236,
+        "checked_at": "2026-09-23T12:48:25+00:00"
+      },
+      "candidate_place_id": "ChIJ25zPF5SpXZQRxzNQc-8SKrw",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-f6dd0ee780",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "3831b7ce02611d1e6d0f4a788657b8a19f557e550283f9cd6e0a90fa99e50be6",
+      "official_address": "lndependencia Nacional e/ Santa Rosa y 9 de Agosto.",
+      "official_city": "Ñemby",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Real Supermarket",
+        "formatted_address": "Independencia Nacional casi, Ñemby 111214",
+        "lat": -25.3934203,
+        "lng": -57.5473369,
+        "checked_at": "2026-09-23T12:48:26+00:00"
+      },
+      "candidate_place_id": "ChIJSZg0U3esXZQR-f7snCfEJqw",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-abd3ce0439",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "a11935b9cec9dc93377da8bf0a81f047340db5c3397d35e9b94ce0d71bec2177",
+      "official_address": "Bernardino Caballero e/ Luis Ma. Argaña y Primer Presidente.",
+      "official_city": "Ñemby",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Real Supermarket",
+        "formatted_address": "Bernardino Caballero entre, Primera Junta Municipal y, Ñemby 111207",
+        "lat": -25.3944556,
+        "lng": -57.542697,
+        "checked_at": "2026-09-24T12:46:25+00:00"
+      },
+      "candidate_place_id": "ChIJtwsliY2tXZQRCcmw8rFUnEQ",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-f7350a5549",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "b48385676e523d8596df930b9fb1f6365e9dd1f45165226132b331fb3214d806",
+      "official_address": "Manuel Ortiz Guerrero c/ De la Victoria.",
+      "official_city": "Ñemby",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 3,
+      "candidate": {
+        "google_name": "Luisito hypermarket Ñemby",
+        "formatted_address": "JF6G+97V, Ave Manuel Ortiz Guerrero, Ñemby 111219",
+        "lat": -25.3890146,
+        "lng": -57.5243286,
+        "checked_at": "2026-09-24T12:46:26+00:00"
+      },
+      "candidate_place_id": "ChIJq8v1Q1usXZQRDyjgPWpPokA",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-37eab9b40f",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "5954c5e0c8930c792bc125d10d467ea655ee208940e1572ce653d9bfaa84834d",
+      "official_address": "Ruta Acceso Sur esq. Avda. Santa Rosa.",
+      "official_city": "Ñemby",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 5,
+      "candidate": {
+        "google_name": "Gran Via Supermarket",
+        "formatted_address": "Acceso Sur esq, Avda 111214",
+        "lat": -25.3954616,
+        "lng": -57.5454823,
+        "checked_at": "2026-09-24T12:46:27+00:00"
+      },
+      "candidate_place_id": "ChIJH03UrHusXZQRlOw5MGo7e_U",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "loc-46cfa4c7bb",
+      "status": "pending",
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence_sha256": "59aa86c08d4ef16c329fc16a691193e294f506cf834d580fd599c5af52fb5781",
+      "official_address": "Gral. Bernardino Caballero y Acceso Sur.",
+      "official_city": "Ñemby",
+      "official_source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "official_source_page": 4,
+      "candidate": {
+        "google_name": "Superseis Ñemby",
+        "formatted_address": "JF44+J99, Ñemby 111207",
+        "lat": -25.3934509,
+        "lng": -57.5440193,
+        "checked_at": "2026-09-24T12:46:28+00:00"
+      },
+      "candidate_place_id": "ChIJ2ZmArbytXZQRTHi37Bl5zXY",
+      "additional_sources": [],
+      "reviewed_on": "2026-10-17"
+    }
+  ]
+}

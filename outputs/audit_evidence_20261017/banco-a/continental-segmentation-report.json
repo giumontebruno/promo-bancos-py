@@ -1,0 +1,268 @@
+{
+  "source": "work/continental_comercios.json (official pipeline cache)",
+  "input_rows": 741,
+  "output_rows": 827,
+  "segmented_source_rows": 44,
+  "variants": 130,
+  "missing_requested": [],
+  "unknown_end": 0,
+  "conflicting_dates": 0,
+  "examples": [
+    {
+      "merchant": "836 Cocina Internacional",
+      "variant": "scope-1",
+      "validity": "Vigente hasta el 24 de octubre del 2026",
+      "cards": "Privilege Continental",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-10-24",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 2000000,
+            "currency": "PYG",
+            "period": "mensual",
+            "evidence": "Límite de compra mensual de hasta Gs. 2.000.000 por cuenta de tarjeta, por rubro"
+          }
+        ],
+        "cards": [
+          "Privilege Continental"
+        ],
+        "exclusions": [
+          "No aplica para pagos online, a través de links de pago o POS virtuales"
+        ],
+        "additional": [
+          "Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR",
+          "No aplica para pagos online, a través de links de pago o POS virtuales. (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal"
+        ],
+        "issues": [],
+        "status": "parsed"
+      }
+    },
+    {
+      "merchant": "836 Cocina Internacional",
+      "variant": "scope-2",
+      "validity": "Vigente hasta el 24 de octubre del 2026",
+      "cards": "Black e Infinite",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-10-24",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": "mensual",
+            "evidence": "Límite de compra mensual de hasta Gs. 1.000.000 por cuenta de tarjeta, por rubro"
+          }
+        ],
+        "cards": [
+          "Black e Infinite"
+        ],
+        "exclusions": [
+          "No aplica para pagos online, a través de links de pago o POS virtuales"
+        ],
+        "additional": [
+          "Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR",
+          "No aplica para pagos online, a través de links de pago o POS virtuales. (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal"
+        ],
+        "issues": [],
+        "status": "parsed"
+      }
+    },
+    {
+      "merchant": "836 Cocina Internacional",
+      "variant": "scope-3",
+      "validity": "Vigente hasta el 10 de julio de 2027",
+      "cards": "Dinelco, Clásica y Oro",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2027-07-10",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 500000,
+            "currency": "PYG",
+            "period": "mensual",
+            "evidence": "Límite de compra mensual de hasta Gs. 500.000 por cuenta de tarjeta"
+          }
+        ],
+        "cards": [
+          "Dinelco, Clásica y Oro"
+        ],
+        "exclusions": [
+          "No aplica para pagos online, a través de links de pago o POS virtuales"
+        ],
+        "additional": [
+          "Exclusivo en POS Dinelco",
+          "Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR",
+          "No aplica para pagos online, a través de links de pago o POS virtuales. (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal"
+        ],
+        "issues": [],
+        "status": "parsed"
+      }
+    },
+    {
+      "merchant": "Koala",
+      "variant": "scope-1",
+      "validity": "Desde el 29 de octubre de 2026 hasta el 31 de octubre de 2026",
+      "cards": "Tarjetas de crédito Continental",
+      "terms": {
+        "version": 1,
+        "starts_on": "2026-10-29",
+        "ends_on": "2026-10-31",
+        "conflicting_dates": false,
+        "limits": [],
+        "cards": [
+          "Tarjetas de crédito Continental"
+        ],
+        "exclusions": [
+          "No aplica para pagos online, a través de links de pago o POS virtuales"
+        ],
+        "additional": [
+          "Exclusivo en POS Dinelco",
+          "Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR",
+          "No aplica para pagos online, a través de links de pago o POS virtuales. (*) No participan las tarjetas Prepagas, Gourmet Card ni Cabal"
+        ],
+        "issues": [
+          "limits_unconfirmed"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "merchant": "Koala",
+      "variant": "scope-2",
+      "validity": "Desde el 29 de octubre de 2026 hasta el 31 de octubre de 2026",
+      "cards": "Tarjetas de crédito Continental",
+      "terms": {
+        "version": 1,
+        "starts_on": "2026-10-29",
+        "ends_on": "2026-10-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 5000000,
+            "currency": "PYG",
+            "period": "mensual",
+            "evidence": "Límite de compra mensual de hasta Gs. 5.000.000 por cuenta de tarjeta"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Continental"
+        ],
+        "exclusions": [
+          "No aplica para pagos online, a través de links de pago o POS virtuales"
+        ],
+        "additional": [
+          "Exclusivo en POS Dinelco",
+          "Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR",
+          "No aplica para pagos online, a través de links de pago o POS virtuales. (*) No participan las tarjetas Prepagas, Gourmet Card ni Cabal"
+        ],
+        "issues": [],
+        "status": "parsed"
+      }
+    },
+    {
+      "merchant": "Koala",
+      "variant": "scope-3",
+      "validity": "Vigente hasta el 31 de agosto de 2027",
+      "cards": "Tarjetas de crédito Continental",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2027-08-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 50000000,
+            "currency": "PYG",
+            "period": "mensual",
+            "evidence": "Límite de compra mensual de hasta Gs. 50.000.000 por cuenta de tarjeta"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Continental"
+        ],
+        "exclusions": [
+          "No aplica para pagos online, a través de links de pago o POS virtuales"
+        ],
+        "additional": [
+          "Exclusivo en POS Dinelco",
+          "Aplica únicamente para compras o pagos presenciales vía POS físico, con tarjeta física o QR",
+          "No aplica para pagos online, a través de links de pago o POS virtuales. (*) No participan las tarjetas Prepagas, Gourmet Card ni Cabal"
+        ],
+        "issues": [],
+        "status": "parsed"
+      }
+    },
+    {
+      "merchant": "CREA espacio para la familia",
+      "variant": "scope-1",
+      "validity": "Vigente hasta el 30 de abril del 2026",
+      "cards": "Tarjetas de crédito Continental",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-04-30",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": "mensual",
+            "evidence": "Límite de compra mensual de hasta Gs. 1.000.000 por cuenta de TC"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Continental"
+        ],
+        "exclusions": [],
+        "additional": [
+          "Exclusivamente a través del POS Dinelco"
+        ],
+        "issues": [],
+        "status": "parsed"
+      }
+    },
+    {
+      "merchant": "CREA espacio para la familia",
+      "variant": "scope-2",
+      "validity": "Vigente hasta el 31 de diciembre del 2026",
+      "cards": "Tarjetas de crédito Continental",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 50000000,
+            "currency": "PYG",
+            "period": "mensual",
+            "evidence": "Limite de compra mensual de hasta Gs. 50.000.000 por cuenta de tarjeta"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Continental"
+        ],
+        "exclusions": [],
+        "additional": [
+          "Exclusivamente a través del POS Dinelco"
+        ],
+        "issues": [],
+        "status": "parsed"
+      }
+    }
+  ]
+}

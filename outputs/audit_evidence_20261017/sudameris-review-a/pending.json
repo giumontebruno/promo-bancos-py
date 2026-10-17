@@ -1,0 +1,34 @@
+[
+  {
+    "index": 4,
+    "merchant": "Saspy Express",
+    "reason": "CSV sin PDF de bases; no se verificaron condiciones completas. No marcado confirmado."
+  },
+  {
+    "index": 8,
+    "merchant": "Club Sajonia recurrente",
+    "reason": "PDF enlazado sólo Bierfest; restaurantes, cuotas sociales y membresías de ficha requieren otro documento."
+  },
+  {
+    "index": 15,
+    "merchant": "Oktoberfest Club Alemán 10/10/2026",
+    "reason": "Ficha mezcla evento puntual; PDF sólo convenio recurrente, no verifica evento."
+  },
+  {
+    "indices": [
+      14,
+      15,
+      16,
+      22
+    ],
+    "reason": "PDF no explicita fecha inicial para algunas prestaciones generales; start vacío preservado. Vigencia final explícita."
+  },
+  {
+    "index": 21,
+    "reason": "Tope mensual compra Gs.1.500.000 no delimita si afecta cuotas; no inventar alcance."
+  },
+  {
+    "index": 8,
+    "reason": "Cuerpo vigencia13–30/10/2026, pie V1 12/10/2025. Guardada divergencia, fecha de cuerpo usada."
+  }
+]

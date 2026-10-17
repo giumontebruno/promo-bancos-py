@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T12:25:34.793350+00:00",
-  "input_count": 2451,
-  "promotion_count": 2451,
-  "duplicates_removed": 0,
+  "generated_at": "2026-10-17T02:10:12.425298+00:00",
+  "input_count": 3097,
+  "promotion_count": 3096,
+  "duplicates_removed": 1,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -77,7 +77,7 @@
     "af8ca5e105933263": "2f23d00188011747",
     "9f79b14b33c4d97a": "df117547e7958d25",
     "b82cf61286fdbf11": "cec955a4d0ae4df6",
-    "597d4471164d6ac4": "dd34697835bdff48",
+    "597d4471164d6ac4": "ed50ff90a1710f28",
     "b7e587636cffbf3a": "49a9b4cb7a075742",
     "99168bd0b6958355": "5466f51d47bd761e",
     "cb3de01ca31aba62": "65de826637ac09ea",
@@ -201,7 +201,7 @@
     "5c48ba90fae7c498": "d79e933638951d44",
     "59a40b5c218cce4f": "9fba332d169cda8c",
     "2e401dd112aebac7": "807baf908608b744",
-    "e4e4c501c0c8c12d": "6d3e46f1399d07fb",
+    "e4e4c501c0c8c12d": "46b95e1d04e82602",
     "1fc9cec4fdd97105": "5b64dcb33266eb58",
     "5e7607b5d2ea0b87": "342e4e67313a8a06",
     "c2993db5824bef80": "0c37f223ec4ad41c",
@@ -218,13 +218,11 @@
     "8e9c6a324aab86ba": "d79e933638951d44",
     "5b310a67c7418462": "9fba332d169cda8c",
     "92b5e65a97955b7a": "807baf908608b744",
-    "c8d0693b2789a77f": "6d3e46f1399d07fb",
+    "c8d0693b2789a77f": "46b95e1d04e82602",
     "4f57f4dce6f5d0a3": "5b64dcb33266eb58",
     "87239587f76198bd": "342e4e67313a8a06",
     "fa76b8fac635832c": "0c37f223ec4ad41c",
     "40035a2ec93a9b41": "e9e1b02111926def",
-    "7d88cc745f7b4029": "8d89ae969eb7721b",
-    "4c0c98907971091b": "b89d12700f21e3ff",
     "36c333abaf98351d": "eac52f9f02c72590",
     "98035059a53c1862": "ce86dbbb0f29121c",
     "bd9293b83306ecfd": "7b6ded774bf43b25",
@@ -441,15 +439,12 @@
     "263818db5dd0f5ce": "6839ec6c4dc3fd8b",
     "861b724bea0dec8b": "f7d577f6c1fe3f21",
     "3fc2ba285acd62a5": "4b458778fe6e5660",
-    "c1cd11ef0944f1b5": "1da5fc52ee571bac",
     "91b02da57eb943cd": "7a929a949ff06f97",
     "3a333fde24fc5f59": "bdc669cc7e8e675c",
     "5edbc3e390804365": "d9edac2b2f08c402",
     "7a201940b9f7a069": "11eeb1e1fc123148",
     "2431d7b694ba470f": "239dccd08e07136f",
-    "7b607fc73f93826f": "4daba2e6127d66b8",
     "1aeef1fb2d56e0e9": "8f4a1c5309c12c51",
-    "b1e94739c8421644": "32895a05ab517bae",
     "e00046a2cb73ad01": "3d0750c855e68124",
     "cf8ef5a71b788278": "cde2865dba869485",
     "98413b89edd668f3": "5bde3619037e55a7",
@@ -728,7 +723,6 @@
     "790bab08cad62bb7": "9160dcea2abd7186",
     "d30842bcc08c972e": "940b44ec1dd40641",
     "3dae4249cf36d101": "046270a8a7f95cde",
-    "1b7f3aa0f3f3dc42": "959edab9e74272ef",
     "820f8f6f97bf831c": "95a62440aa5e167b",
     "39813547af091893": "2c227f01034cc837",
     "befcc0278ea0ee60": "d4f55af7e7f78fe5",
@@ -881,8 +875,8 @@
     "434ef11852bd8e46": "e4ce29f78b096122",
     "640977aa7514476d": "05527c80ea01851d",
     "290c968a0a704741": "e6ce1a6309672dfd",
-    "5a3d9e325e3a4734": "bac8fb9825f2b08a",
-    "de000fc1cfde7a58": "88f455625fe74a49",
+    "5a3d9e325e3a4734": "bf5dcca844ab7a8d",
+    "de000fc1cfde7a58": "9928d02d188c257e",
     "4f11054d687ec5ce": "1a870bf57962e178",
     "a89917720a819e0b": "5bde3619037e55a7",
     "5f3d3ce3b69df6c6": "4ecca2c47b79f7fc",
@@ -901,7 +895,7 @@
     "9c589d42a65eb5b7": "1372d0567009ca17",
     "0590cdd04ee5909d": "cb26e4151062f81d",
     "25a49f9c411792ab": "02adb77b9b4a6e7e",
-    "7cdfadee6aa36999": "9c87255f975ad2ad",
+    "7cdfadee6aa36999": "f53faf9454ed34f8",
     "d787fdd8e2c1eee6": "84dc0f9f67e6ce32",
     "172d81ed5723f001": "5f82de08cf0a51e9",
     "ea417a345b704d66": "18381bec95c1205a",
@@ -909,15 +903,15 @@
     "ff0756763498bddf": "9d4f993fe46576c7",
     "e9433eaf2e923d71": "5d4984bec1520bce",
     "a9dab26fd7ba3ea6": "b424cf5c1011ae41",
-    "c01ba0fd421ec3f2": "773aeba39e9d5251",
-    "f30ce08ad460f48a": "8b9affb2edab466e",
-    "c1fb8c1ad83a746b": "a7c1664de027e656",
-    "9ebaf0cfd6a558b9": "fbe69c42d795e5a0",
-    "1732f306b4e5d7b3": "5b2fd4ec2f6fac94",
-    "7f8844ae93bcae0d": "a225a20ff90154df",
+    "c01ba0fd421ec3f2": "e44e1ba6bea3c36b",
+    "f30ce08ad460f48a": "574f457250d0b189",
+    "c1fb8c1ad83a746b": "3676f57e1bfd0cd8",
+    "9ebaf0cfd6a558b9": "4e3968c3c0db4f53",
+    "1732f306b4e5d7b3": "eba7667b19703220",
+    "7f8844ae93bcae0d": "c9ebedebe1f69ee1",
     "e08a3d53d0175830": "02adb77b9b4a6e7e",
-    "80934217fcbba28a": "97f33df7b7ba7416",
-    "5a79a69c20a0313c": "d7bb42dc7d243de2",
+    "80934217fcbba28a": "9b58afc41d93a7d7",
+    "5a79a69c20a0313c": "f833957e1290b180",
     "ff6803046a6c7441": "44a125c738b02b4a",
     "1b2581bbb4fc3148": "ccbfd4930fcdc0e5",
     "e4eeb0b11c594080": "4fa6c84d17e4a77d",
@@ -929,69 +923,118 @@
     "a4e58296300f8c8e": "10729b6dcfd5fe88",
     "f076091d25ad49b9": "fdfb436d3c24970a",
     "cfb79f07d5fb529d": "e5a63b46d354c9b9",
-    "34bd51fbee9bc720": "773aeba39e9d5251",
-    "420922d1e45627ef": "8b9affb2edab466e",
-    "bf6b51d3a2e6e28c": "a7c1664de027e656",
-    "1928384664214765": "5b2fd4ec2f6fac94",
-    "3667809392747f65": "97f33df7b7ba7416",
-    "7eefded1aa6a9437": "d7bb42dc7d243de2"
+    "34bd51fbee9bc720": "e44e1ba6bea3c36b",
+    "420922d1e45627ef": "574f457250d0b189",
+    "bf6b51d3a2e6e28c": "3676f57e1bfd0cd8",
+    "1928384664214765": "eba7667b19703220",
+    "3667809392747f65": "9b58afc41d93a7d7",
+    "7eefded1aa6a9437": "f833957e1290b180",
+    "3a94cf2178e4c4a6": "7fca8ed534f6adcd",
+    "0aa5ef03921f5b4f": "35306a49768a9da9",
+    "868e0a46288a0f21": "c0e02b85e76567e9",
+    "4d78717af936a4fb": "d20f177ab8d36791",
+    "496f2f44c6bd85b0": "c4d5cc3015cf7c35",
+    "dd34697835bdff48": "ed50ff90a1710f28",
+    "10e504f2c07f0c9d": "00aaedd89864d544",
+    "f3bfb9e48ac0b25b": "c704e68318535368",
+    "95260183bc3ff53c": "6300bf11c4d6a392",
+    "d3201f05a55b56ae": "4e4c939fd6d0dc0f",
+    "c92e2fc64b7103b5": "461ad72e9fa72707",
+    "6d3e46f1399d07fb": "46b95e1d04e82602",
+    "ed53c672dc809af8": "11fbcb699d5f5af2",
+    "532a4f732d61c330": "4170fdc63d3858cd",
+    "84714bfec7199316": "d8ee4544307fa120",
+    "85e0e1efcba1e532": "6deacdfe20941943",
+    "e34f133d048a72fe": "60a553c089031097",
+    "9c87255f975ad2ad": "f53faf9454ed34f8",
+    "80781ff02d6eccb3": "7504d6a61472f7c3",
+    "137d14b61964f0ac": "f33ae1339564bcaf",
+    "0c2e5a63be06817d": "8d361d640884c0e9",
+    "b853202e7d83d141": "069fd5a1cbc00a62",
+    "2f6e2aaa890504e2": "101376e6827c14e1",
+    "bd367a5e119cae1f": "f06e4bba4fa3eee4",
+    "b6be0f65d5c0a132": "0c41f152052ec83a",
+    "394649c9bbe57010": "4954945f12cae4f1",
+    "0257982426bda4b9": "a05712dd33e6d78a",
+    "49a719bd38acea68": "8ca258c90804d203",
+    "48f8b5bbd541db28": "1192ac8724e8d428",
+    "9633c7e3d2184402": "5448cdf0a07b3231",
+    "58ed69d35a5394d3": "3caf8c1002c4856b",
+    "a7859eae4439c72b": "277785e9e0a1169e",
+    "773aeba39e9d5251": "e44e1ba6bea3c36b",
+    "8b9affb2edab466e": "574f457250d0b189",
+    "a7c1664de027e656": "3676f57e1bfd0cd8",
+    "fbe69c42d795e5a0": "4e3968c3c0db4f53",
+    "afd40c1ac4ef46b5": "054053f77c2d6a9f",
+    "5b2fd4ec2f6fac94": "eba7667b19703220",
+    "a225a20ff90154df": "c9ebedebe1f69ee1",
+    "6e7a792718162762": "307ace2dc9c823d1",
+    "c7ebd7e1416eca2b": "b059ee4dc7ba895e",
+    "bac8fb9825f2b08a": "bf5dcca844ab7a8d",
+    "88f455625fe74a49": "9928d02d188c257e",
+    "b8543ef607cf316d": "72ded5a8877cdedb",
+    "97f33df7b7ba7416": "9b58afc41d93a7d7",
+    "d7bb42dc7d243de2": "f833957e1290b180",
+    "0d7f95303d2b8d96": "959edab9e74272ef",
+    "b1f9621c7477431d": "959edab9e74272ef",
+    "c45f20a1bbe1e36d": "959edab9e74272ef",
+    "4d23a08a56886272": "94baa749ea2b36db",
+    "7778895696ab588d": "94baa749ea2b36db",
+    "e3c0e5c68ee4e852": "94baa749ea2b36db",
+    "896de7bffb9bce58-10a93e87": "896de7bffb9bce58-1fc80634",
+    "41f18a27d2ea14dc-b95cfeb3": "41f18a27d2ea14dc-7b402b51",
+    "56557a2992fc18dd-91bce014": "56557a2992fc18dd-18ff8063",
+    "9653ad5fd2878c32-1a998e31": "9653ad5fd2878c32-4ba11692",
+    "38a248136902a06b-5b51eec9": "38a248136902a06b-bd6fab39",
+    "56cd290bb43547ba-8ad76bda": "56cd290bb43547ba-b33583cc",
+    "92c124e841aedb17-26641542": "92c124e841aedb17-5a446b6a",
+    "8dd27327e7d895d5-ab6730d9": "8dd27327e7d895d5-c29e4cc6",
+    "53f3400657b41e35-ef448872": "53f3400657b41e35-519d1e31",
+    "715a378779a05757-163a14a4": "715a378779a05757-8ffef06a",
+    "16e3d50d528cb959-30a78c8f": "16e3d50d528cb959-fe35a3a1",
+    "e7e3adbc5c2e066a-7f2a8193": "e7e3adbc5c2e066a-dc389505",
+    "c8cf9116b5b7be08-de8ca47c": "c8cf9116b5b7be08-f3690628",
+    "de04d2b0dd06ae42-a5817f05": "de04d2b0dd06ae42-b1dab444",
+    "37b656d604c86282-17cfbd28": "37b656d604c86282-6a29065d",
+    "8aeac92c0c41f161-3cfa05ef": "8aeac92c0c41f161-73643034",
+    "53301f2102787ec4-c5190c7c": "53301f2102787ec4-5c71c1d9",
+    "9a2f15344977f3e5-4790bc65": "9a2f15344977f3e5-5129d309",
+    "2e765ad628e2a9a3-46f82c07": "2e765ad628e2a9a3-19d68ad2",
+    "2765dd349f2a0729-92d18d5b": "2765dd349f2a0729-25a27bb5",
+    "0b1ce18d8fed3eed-153c9b5f": "0b1ce18d8fed3eed-b9f7741e",
+    "c363775cad9ae67b-cee23f3b": "c363775cad9ae67b-1a3ce080",
+    "e371de5c6fe93496-f5a947a5": "e371de5c6fe93496-c02d2a18",
+    "862ac4bf1f1c5ba7-83dc77f6": "862ac4bf1f1c5ba7-00ebd175",
+    "c503e64f22e2d641-ee2825b4": "c503e64f22e2d641-5fddc8a9",
+    "c4493ca61fca5f45-1ba4987c": "c4493ca61fca5f45-09eeddfd",
+    "c9c3fecfaf9686cc-ee69bcca": "c9c3fecfaf9686cc-63349d42",
+    "88a468afc49ca7f2-ddc73f42": "88a468afc49ca7f2-eaab6316",
+    "3ba2db538d4d96b9-c9b0c4ea": "3ba2db538d4d96b9-686aec29",
+    "df43987c78ab0694-346fab0d": "df43987c78ab0694-18b827ac",
+    "8d89ae969eb7721b": "6b361360013e9390",
+    "b89d12700f21e3ff": "b5d5c2bf0deba0dd",
+    "fd8cedfb36f09b95": "57b016cd047fb17d"
   },
   "by_bank": {
     "Atlas": 43,
     "BNF": 77,
-    "Continental": 739,
+    "Continental": 828,
     "Coop. Universitaria": 71,
     "Familiar": 416,
-    "GNB": 476,
-    "Itaú": 119,
-    "Sudameris": 164,
-    "ueno bank": 346
+    "GNB": 477,
+    "Itaú": 547,
+    "Sudameris": 282,
+    "ueno bank": 355
   },
   "issue_counts": {
-    "validity_unconfirmed": 52,
-    "limits_unconfirmed": 202,
-    "multiple_purchase_limits": 284,
-    "source_amount_conflict": 12,
+    "limits_unconfirmed": 218,
+    "validity_unconfirmed": 31,
+    "multiple_purchase_limits": 242,
+    "source_amount_conflict": 15,
     "multiple_refund_limits": 103,
-    "conflicting_dates": 1
+    "source_verification_pending": 127
   },
   "review_queue": [
-    {
-      "id": "532a4f732d61c330",
-      "bank": "Atlas",
-      "merchant": "Feria de Viajes",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "84714bfec7199316",
-      "bank": "Atlas",
-      "merchant": "Martiderm",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "fd8cedfb36f09b95",
-      "bank": "Atlas",
-      "merchant": "Miércoles Plus",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web//Tiendas%20adheridas%20Mi%C3%A9rcoles%20Plus.pdf"
-    },
-    {
-      "id": "85e0e1efcba1e532",
-      "bank": "Atlas",
-      "merchant": "Nueva Americana",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
     {
       "id": "d70ba6f32e9a8624",
       "bank": "Atlas",
@@ -1029,24 +1072,6 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "e34f133d048a72fe",
-      "bank": "Atlas",
-      "merchant": "L'uomo",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "9c87255f975ad2ad",
-      "bank": "Atlas",
-      "merchant": "Preventa Cheques delSol",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.delsol.com.py/eventos/the-signature-exclusive-reward"
-    },
-    {
       "id": "5f25d91d35d7793d",
       "bank": "Atlas",
       "merchant": "delSol",
@@ -1056,21 +1081,11 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "80781ff02d6eccb3",
+      "id": "7504d6a61472f7c3",
       "bank": "Atlas",
       "merchant": "delSol Shopping - Cheques delSol",
       "issues": [
-        "validity_unconfirmed",
         "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "137d14b61964f0ac",
-      "bank": "Atlas",
-      "merchant": "oBoticário",
-      "issues": [
-        "validity_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
@@ -1102,90 +1117,9 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "0c2e5a63be06817d",
-      "bank": "Atlas",
-      "merchant": "Champs Elysées",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "b853202e7d83d141",
-      "bank": "Atlas",
-      "merchant": "Cortefiel",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
       "id": "f19a5f60e7163501",
       "bank": "Atlas",
       "merchant": "Di Valentini",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "2f6e2aaa890504e2",
-      "bank": "Atlas",
-      "merchant": "Forever 21",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "bd367a5e119cae1f",
-      "bank": "Atlas",
-      "merchant": "ISDIN",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "b6be0f65d5c0a132",
-      "bank": "Atlas",
-      "merchant": "Jack & Jones",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "394649c9bbe57010",
-      "bank": "Atlas",
-      "merchant": "Mango",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "0257982426bda4b9",
-      "bank": "Atlas",
-      "merchant": "Pedro del Hierro",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "49a719bd38acea68",
-      "bank": "Atlas",
-      "merchant": "Springfield",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "48f8b5bbd541db28",
-      "bank": "Atlas",
-      "merchant": "women'secret",
       "issues": [
         "validity_unconfirmed"
       ],
@@ -1391,153 +1325,9 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "f7af2a04b44c58d1",
-      "bank": "Continental",
-      "merchant": "836 Cocina Internacional",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "eb602f9fd55bfa28",
-      "bank": "Continental",
-      "merchant": "Acuarela Churrasquería",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "9c98a07b5b07bd58",
-      "bank": "Continental",
-      "merchant": "Agro Masa",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "afe0fbc474f37d00",
-      "bank": "Continental",
-      "merchant": "Almarreina",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "afaf020415098a19",
-      "bank": "Continental",
-      "merchant": "Amilcar",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
       "id": "ccf8ae37534458fb",
       "bank": "Continental",
       "merchant": "Bacon - Smash Burguer - Panceta - Pocket Pizza",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "20f1a740b6927a10",
-      "bank": "Continental",
-      "merchant": "Bernardino Hamburguesas",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "3ae3f7d0ef1d47dd",
-      "bank": "Continental",
-      "merchant": "Billy Smash",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "f3536d2194350f62",
-      "bank": "Continental",
-      "merchant": "Bocatta",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "9d607fc404e033c6",
-      "bank": "Continental",
-      "merchant": "Calle 75",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "cfee075ab22a3732",
-      "bank": "Continental",
-      "merchant": "Churrasquería García",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "0090235b90d5e7c0",
-      "bank": "Continental",
-      "merchant": "Costa Colón",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "fdb516b83e2cbf0d",
-      "bank": "Continental",
-      "merchant": "De Las Sierras - Restaurante",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "80dbcb86fe86d2df",
-      "bank": "Continental",
-      "merchant": "El Viejo Marino",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "9136582a0159f234",
-      "bank": "Continental",
-      "merchant": "Game Core",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "55197855d5650725",
-      "bank": "Continental",
-      "merchant": "Hamburguesería Du Maykon",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "590d2fcabf191012",
-      "bank": "Continental",
-      "merchant": "Kafea",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -1553,120 +1343,11 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "1829b2d22bc40be5",
-      "bank": "Continental",
-      "merchant": "La Candelaria - Restaurant",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "62e4916f51c2524b",
-      "bank": "Continental",
-      "merchant": "La Negrita",
-      "issues": [
-        "validity_unconfirmed",
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "c252baff8f8ddcb8",
-      "bank": "Continental",
-      "merchant": "La Nutry",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "d916d688f268088d",
-      "bank": "Continental",
-      "merchant": "Malandras Grill",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "69003497ecda2eea",
-      "bank": "Continental",
-      "merchant": "Molas 1901",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "b4ef7d75dfa249fe",
-      "bank": "Continental",
-      "merchant": "Nelore Estrellita",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "51d31fead0bfc458",
+      "id": "14e72742b4f336cf",
       "bank": "Continental",
       "merchant": "Parador Campo 9",
       "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "34764556a2947d60",
-      "bank": "Continental",
-      "merchant": "Paulista Grill Churrasquería",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "5a0d3583280d2c04",
-      "bank": "Continental",
-      "merchant": "Pederzani",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "b203d75c06ac1133",
-      "bank": "Continental",
-      "merchant": "Plaza Tamarindo",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "b72818d4b48ec923",
-      "bank": "Continental",
-      "merchant": "Real Costanera Restaurante - Encarnación",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "80465446e5bb4d0b",
-      "bank": "Continental",
-      "merchant": "Real Restaurante - Luque",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "40de7f85eea4ee9e",
-      "bank": "Continental",
-      "merchant": "Restaurante - Soho Savoy Hotel",
-      "issues": [
-        "multiple_purchase_limits"
+        "limits_unconfirmed"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -1681,45 +1362,9 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "4f33a6a96e1ffc51",
-      "bank": "Continental",
-      "merchant": "Sabores del Pacífico",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "7bd89b041ec46629",
-      "bank": "Continental",
-      "merchant": "Takuare'e Restó",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
       "id": "1987bff56fc6bd58",
       "bank": "Continental",
       "merchant": "Unaghi Sushi Bar",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "754345c7fc066341",
-      "bank": "Continental",
-      "merchant": "Warlons",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "5e8d6f33c2cb43f9",
-      "bank": "Continental",
-      "merchant": "Ña Virginia",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -1780,7 +1425,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "10e504f2c07f0c9d",
+      "id": "00aaedd89864d544",
       "bank": "Continental",
       "merchant": "Ñe'ẽ Porã Tecnologia y confort",
       "issues": [
@@ -1861,54 +1506,9 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "27047f20441f5e51",
-      "bank": "Continental",
-      "merchant": "1811 Salon",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "1fad50a3d2ec7cc5",
-      "bank": "Continental",
-      "merchant": "Bomo",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "93463828d76db505",
-      "bank": "Continental",
-      "merchant": "Joseph - Coronel Oviedo",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "974d456550e37950",
-      "bank": "Continental",
-      "merchant": "LCC Spa Urbano",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
       "id": "5ff968734e254b00",
       "bank": "Continental",
       "merchant": "Maison Mint",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "7f7b37c7d2b534e4",
-      "bank": "Continental",
-      "merchant": "Mel Peluquería & Barbería",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -1927,15 +1527,6 @@
       "id": "5a572da44468d9c8",
       "bank": "Continental",
       "merchant": "Soham",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "4fa6c84d17e4a77d",
-      "bank": "Continental",
-      "merchant": "Unik Beauty Spa",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -2086,21 +1677,11 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "940b44ec1dd40641",
+      "id": "80375147c8d94271",
       "bank": "Continental",
       "merchant": "Koala",
       "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "209249b4a2a288b8",
-      "bank": "Continental",
-      "merchant": "La Almenas - Las Almenitas - Las Colinas - Campoalto - Torrefuerte",
-      "issues": [
-        "validity_unconfirmed",
-        "multiple_purchase_limits"
+        "limits_unconfirmed"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -2120,15 +1701,6 @@
       "issues": [
         "validity_unconfirmed",
         "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "0dc1b55a8f9b97be",
-      "bank": "Continental",
-      "merchant": "CREA espacio para la familia",
-      "issues": [
-        "multiple_purchase_limits"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -2404,7 +1976,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "f3bfb9e48ac0b25b",
+      "id": "c704e68318535368",
       "bank": "Continental",
       "merchant": "Coco Fit",
       "issues": [
@@ -4020,55 +3592,123 @@
       "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/570"
     },
     {
-      "id": "ce86dbbb0f29121c",
+      "id": "41d4e33bbd542505",
       "bank": "Itaú",
-      "merchant": "Delimarket",
+      "merchant": "Benditta Collection",
       "issues": [
+        "source_verification_pending",
         "multiple_purchase_limits"
       ],
-      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16584&c=30064"
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=30226"
     },
     {
-      "id": "2c600f207db238ee",
+      "id": "bc9a584869875323",
       "bank": "Itaú",
-      "merchant": "Shell",
+      "merchant": "Benditta Style For Men",
       "issues": [
+        "source_verification_pending",
         "multiple_purchase_limits"
       ],
-      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291"
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=30369"
+    },
+    {
+      "id": "023be8d4c4a7836b",
+      "bank": "Itaú",
+      "merchant": "Dudalina",
+      "issues": [
+        "source_verification_pending",
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=1040"
+    },
+    {
+      "id": "c493b48b66656db6",
+      "bank": "Sudameris",
+      "merchant": "CLUB PORVENIR GUAIREÑO",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/451/detalle"
+    },
+    {
+      "id": "762141cf4886d54e",
+      "bank": "Sudameris",
+      "merchant": "Club Concepción",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/522/detalle"
+    },
+    {
+      "id": "a0f965384142ce21",
+      "bank": "Sudameris",
+      "merchant": "Club Concepción",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/522/detalle"
+    },
+    {
+      "id": "e8f7a36685c6de74",
+      "bank": "Sudameris",
+      "merchant": "Club Náutico San Bernardino - Cuotas sociales",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/142/detalle"
+    },
+    {
+      "id": "4199ab495a51eef9",
+      "bank": "Sudameris",
+      "merchant": "COPETROL Y COPEMARKET 2026",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/609/detalle"
+    },
+    {
+      "id": "9898767b60dd8ac2",
+      "bank": "Sudameris",
+      "merchant": "6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/494/detalle"
+    },
+    {
+      "id": "11eeb1e1fc123148",
+      "bank": "Sudameris",
+      "merchant": "SASPY EXPRESS",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/928/detalle"
     },
     {
       "id": "7fca8ed534f6adcd",
       "bank": "Sudameris",
       "merchant": "ZONA NORTE",
       "issues": [
+        "source_verification_pending",
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/650/detalle"
     },
     {
-      "id": "b6f68760bbba26e1",
+      "id": "87b8f157c3aefeda",
       "bank": "Sudameris",
-      "merchant": "CLUB DEPORTIVO ALEMÁN (DTA)",
+      "merchant": "DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES",
       "issues": [
-        "validity_unconfirmed"
+        "source_verification_pending"
       ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/403/detalle"
-    },
-    {
-      "id": "204ec611b9cd5baf",
-      "bank": "Sudameris",
-      "merchant": "CLUB PORVENIR GUAIREÑO",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/451/detalle"
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/902/detalle"
     },
     {
       "id": "c786cc6e76b8b290",
       "bank": "Sudameris",
       "merchant": "McLaren Mastercard Formula 1®Team",
       "issues": [
+        "source_verification_pending",
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/918/detalle"
@@ -4078,61 +3718,571 @@
       "bank": "Sudameris",
       "merchant": "PROMOCIÓN MCLAREN MASTERCARD F1 TEAM",
       "issues": [
+        "source_verification_pending",
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/854/detalle"
+    },
+    {
+      "id": "239dccd08e07136f",
+      "bank": "Sudameris",
+      "merchant": "BIGGIE FARMA",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/708/detalle"
+    },
+    {
+      "id": "ebeec6561832b10e",
+      "bank": "Sudameris",
+      "merchant": "FARMACIA CATEDRAL",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/270/detalle"
+    },
+    {
+      "id": "871d93e2ae4107d4",
+      "bank": "Sudameris",
+      "merchant": "BIGGIE EXPRESS - PRIMERO DE CADA MES",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/891/detalle"
     },
     {
       "id": "e3e814bfab76d967",
       "bank": "Sudameris",
       "merchant": "CLUB DEPORTIVO PUERTO SAJONIA (CDPS).",
       "issues": [
+        "source_verification_pending",
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/927/detalle"
-    },
-    {
-      "id": "4daba2e6127d66b8",
-      "bank": "Sudameris",
-      "merchant": "CLUB NAUTICO SAN BERNARDINO",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/142/detalle"
     },
     {
       "id": "1f96522f374dafb4",
       "bank": "Sudameris",
       "merchant": "CLUB SOCIAL ÁREA 1 (CDE)",
       "issues": [
+        "source_verification_pending",
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/297/detalle"
+    },
+    {
+      "id": "8f4a1c5309c12c51",
+      "bank": "Sudameris",
+      "merchant": "LE BISTRO DE LA ROTONDE – DISTRITO PERSEVERANCIA",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/897/detalle"
+    },
+    {
+      "id": "80f09161c24d14fc",
+      "bank": "Sudameris",
+      "merchant": "SERENDIPITY - LA HORNALLA - CANTINA COLEGIOS",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/858/detalle"
+    },
+    {
+      "id": "245c2e1c109ba3aa",
+      "bank": "Sudameris",
+      "merchant": "PARANA HOGAR / COLCHONES",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/903/detalle"
+    },
+    {
+      "id": "4d0aa0869bb68b3a",
+      "bank": "Sudameris",
+      "merchant": "TATANO POSADA BOUTIQUE",
+      "issues": [
+        "source_amount_conflict"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle"
+    },
+    {
+      "id": "378501e8ef3215f3",
+      "bank": "Sudameris",
+      "merchant": "TATANO POSADA BOUTIQUE",
+      "issues": [
+        "source_amount_conflict"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle"
+    },
+    {
+      "id": "51b1c74aebb5b201",
+      "bank": "Sudameris",
+      "merchant": "TATANO POSADA BOUTIQUE",
+      "issues": [
+        "source_amount_conflict"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle"
     },
     {
       "id": "bb7dc1875728a926",
       "bank": "Sudameris",
       "merchant": "ADOLFO DOMINGUEZ",
       "issues": [
+        "source_verification_pending",
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/929/detalle"
+    },
+    {
+      "id": "5dc44d3b9cb7ba72",
+      "bank": "Sudameris",
+      "merchant": "12 cuotas sin interés",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/12-cuota-sin-interes"
+    },
+    {
+      "id": "4ef4e179e31d5ef0",
+      "bank": "Sudameris",
+      "merchant": "360 Consultores S.A.",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "2aced28c7a17465f",
+      "bank": "Sudameris",
+      "merchant": "50 Calces",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "d43b99b47bdee831",
+      "bank": "Sudameris",
+      "merchant": "America Chopp",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "45614c314abe1d56",
+      "bank": "Sudameris",
+      "merchant": "America Grill",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "db427fdb57c1ccca",
+      "bank": "Sudameris",
+      "merchant": "Bella Casa",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "56b52c5574d55d24",
+      "bank": "Sudameris",
+      "merchant": "Benditta Women Benditta Style For Man",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "642614cbc204faf2",
+      "bank": "Sudameris",
+      "merchant": "Bistro Del Centro",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "23fcaaa8f31231bb",
+      "bank": "Sudameris",
+      "merchant": "Brave",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "f67559bcfcfb3795",
+      "bank": "Sudameris",
+      "merchant": "Brown Burguer",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "e9cd6f785973dd8f",
+      "bank": "Sudameris",
+      "merchant": "Buono Market/Food",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "274d91a6161ae4da",
+      "bank": "Sudameris",
+      "merchant": "Busca Pies",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "25daada4d6a0c0fe",
+      "bank": "Sudameris",
+      "merchant": "Calzados Mellba",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "c5860f6a35f869e2",
+      "bank": "Sudameris",
+      "merchant": "Calzados Parana",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "8f3dd7e58af2f7b6",
+      "bank": "Sudameris",
+      "merchant": "Casa Angela",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "2ccc13c2191bcebc",
+      "bank": "Sudameris",
+      "merchant": "Casa Bakunovich",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "f70b95da82d84eb2",
+      "bank": "Sudameris",
+      "merchant": "Casa Heri",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "200cc84c9efa9c93",
+      "bank": "Sudameris",
+      "merchant": "Cindy & Co",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "770f1430c0f61e44",
+      "bank": "Sudameris",
+      "merchant": "Consur Bike",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "880f7252c25247bd",
+      "bank": "Sudameris",
+      "merchant": "Corazón De Melon",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "ffdf28df7c573784",
+      "bank": "Sudameris",
+      "merchant": "Corazón de Melon",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "98b715eb381c6a3d",
+      "bank": "Sudameris",
+      "merchant": "Corazón de Melón",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "64853f4d1e2006ad",
+      "bank": "Sudameris",
+      "merchant": "Credipar Electrodomésticos",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "b3e101329b0e5ec3",
+      "bank": "Sudameris",
+      "merchant": "Deport Center",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "a9f39e9418048faf",
+      "bank": "Sudameris",
+      "merchant": "Di Lara",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "b93c91c9b38d4dfb",
+      "bank": "Sudameris",
+      "merchant": "Diana Apocada",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "4f0b45d35343b580",
+      "bank": "Sudameris",
+      "merchant": "Diva",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "ead13dc672839d43",
+      "bank": "Sudameris",
+      "merchant": "Don Rey Resto Bar",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "349ca8ea324a9ef4",
+      "bank": "Sudameris",
+      "merchant": "Doxamed",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "79e294b755c3f8f1",
+      "bank": "Sudameris",
+      "merchant": "Dudalina",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
     },
     {
       "id": "7d97147f11b6ce04",
       "bank": "Sudameris",
       "merchant": "Emac",
       "issues": [
+        "source_verification_pending",
         "limits_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "8e874232e06aded7",
+      "bank": "Sudameris",
+      "merchant": "Emporio Store",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "4f3687de7050fad8",
+      "bank": "Sudameris",
+      "merchant": "Emy Express",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "a094d9023930858b",
+      "bank": "Sudameris",
+      "merchant": "Estilo Sport",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "2d254a9c50d16182",
+      "bank": "Sudameris",
+      "merchant": "Estilosa Boutique",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "72c89620b7e50ec2",
+      "bank": "Sudameris",
+      "merchant": "FARMAVIP",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
     },
     {
       "id": "f0cab0a0ed35d66e",
       "bank": "Sudameris",
       "merchant": "Farmacia San Antonio",
       "issues": [
+        "source_verification_pending",
         "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "eb1dae41ff6105f2",
+      "bank": "Sudameris",
+      "merchant": "Farmavida",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "f82660c6fdc1904f",
+      "bank": "Sudameris",
+      "merchant": "Farmavida",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "fcb5174bb5910030",
+      "bank": "Sudameris",
+      "merchant": "Fashion Calzados",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "948c3e15927134c4",
+      "bank": "Sudameris",
+      "merchant": "Glamour By Sandri",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "242a05fb09b0e875",
+      "bank": "Sudameris",
+      "merchant": "Granel Mercado Natural",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "f2b3b0ca03aa6ef3",
+      "bank": "Sudameris",
+      "merchant": "Jakare La Tienda",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "06d4ee112db0fa34",
+      "bank": "Sudameris",
+      "merchant": "Javi Deportes",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "10834c3c0bc597f1",
+      "bank": "Sudameris",
+      "merchant": "Joyeria Dominguez",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "79c7afc0a93b776b",
+      "bank": "Sudameris",
+      "merchant": "La Fabril Pizza",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "97750d9baeaff60c",
+      "bank": "Sudameris",
+      "merchant": "La Guarania Gran Almacén",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "40fc70a022c863af",
+      "bank": "Sudameris",
+      "merchant": "Le Chic",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "94464064c7bdb6a3",
+      "bank": "Sudameris",
+      "merchant": "Liberato",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "28ce6ec36e86ec26",
+      "bank": "Sudameris",
+      "merchant": "MASARTE",
+      "issues": [
+        "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
     },
@@ -4141,15 +4291,26 @@
       "bank": "Sudameris",
       "merchant": "MENTES EXPERTAS – ENRIQUE ROJAS",
       "issues": [
+        "source_verification_pending",
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/926/detalle"
+    },
+    {
+      "id": "89cb0dd26ea3b126",
+      "bank": "Sudameris",
+      "merchant": "MI PORTAL COCA COLA",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
     },
     {
       "id": "4b52f5164c91d912",
       "bank": "Sudameris",
       "merchant": "Malenki s Moda Infantil",
       "issues": [
+        "source_verification_pending",
         "limits_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
@@ -4159,16 +4320,270 @@
       "bank": "Sudameris",
       "merchant": "Mansion Design",
       "issues": [
+        "source_verification_pending",
         "limits_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "462fc268991c01a6",
+      "bank": "Sudameris",
+      "merchant": "Mascotas & Cia",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "858b85ed23395ad3",
+      "bank": "Sudameris",
+      "merchant": "Me Encanta",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "25ff7554d4d45970",
+      "bank": "Sudameris",
+      "merchant": "Megastar",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
     },
     {
       "id": "c6e218385c80e7e0",
       "bank": "Sudameris",
       "merchant": "Milord",
       "issues": [
+        "source_verification_pending",
         "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "443db066b702eb9b",
+      "bank": "Sudameris",
+      "merchant": "Morena Canela",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "d55863707a70706c",
+      "bank": "Sudameris",
+      "merchant": "Mátalas",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "e7f28da66bc87d9e",
+      "bank": "Sudameris",
+      "merchant": "Nutrifrut",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "e376a8c4030c2dd3",
+      "bank": "Sudameris",
+      "merchant": "OASIS PLAZA",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "dbb552f8dd476709",
+      "bank": "Sudameris",
+      "merchant": "Optica Itapua",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "75e9707127b3ae62",
+      "bank": "Sudameris",
+      "merchant": "Optica Sur",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "d3f84de957cd4eea",
+      "bank": "Sudameris",
+      "merchant": "Otti Rolls",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "fce5c7eefb8b9690",
+      "bank": "Sudameris",
+      "merchant": "Paseo Repsur",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "ebc6f342f128271f",
+      "bank": "Sudameris",
+      "merchant": "Patri Duar Moda Infantil",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "e37bba8d0f2bb452",
+      "bank": "Sudameris",
+      "merchant": "Patymel Make Up",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "5221bc83fce7ff0a",
+      "bank": "Sudameris",
+      "merchant": "Petits Moda Infantil",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "4284d01eb1730d9e",
+      "bank": "Sudameris",
+      "merchant": "Pharmac",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "4a339bb7188ea79b",
+      "bank": "Sudameris",
+      "merchant": "Ping Pong",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "71092a06dcaa9e37",
+      "bank": "Sudameris",
+      "merchant": "Piña Colada Boutique",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "6085ae350732a4de",
+      "bank": "Sudameris",
+      "merchant": "Poly Shop",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "a1aaafcfc05b810e",
+      "bank": "Sudameris",
+      "merchant": "Pretty Station",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "8b0191035a80ff7b",
+      "bank": "Sudameris",
+      "merchant": "Progresar electrodomésticos",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "de1f0ed2fc21bdb0",
+      "bank": "Sudameris",
+      "merchant": "Quiero Py",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "aa3cc089b21db1dd",
+      "bank": "Sudameris",
+      "merchant": "ROMMY",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "ef425db801c08684",
+      "bank": "Sudameris",
+      "merchant": "Rajomar Calzados",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "640009384a8a7fa7",
+      "bank": "Sudameris",
+      "merchant": "Refrisur",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "dff2aa37afb9bc00",
+      "bank": "Sudameris",
+      "merchant": "Renova Padel",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "d6f774bc6aa87163",
+      "bank": "Sudameris",
+      "merchant": "Romances Boutique",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "e042b4cab3180e88",
+      "bank": "Sudameris",
+      "merchant": "Romances Kids",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "7311f1c2d9987310",
+      "bank": "Sudameris",
+      "merchant": "Rulo Sport",
+      "issues": [
+        "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
     },
@@ -4177,6 +4592,7 @@
       "bank": "Sudameris",
       "merchant": "STYL Optica",
       "issues": [
+        "source_verification_pending",
         "limits_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
@@ -4186,7 +4602,98 @@
       "bank": "Sudameris",
       "merchant": "San Isidro Showroom",
       "issues": [
+        "source_verification_pending",
         "limits_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "cae47ba24820d883",
+      "bank": "Sudameris",
+      "merchant": "Selva Negra Kafee Haus",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "98fcb50e77715b42",
+      "bank": "Sudameris",
+      "merchant": "Shell Combustible Grupo Laso",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "901d2fd74bd9b64a",
+      "bank": "Sudameris",
+      "merchant": "Shop Grupo Laso",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "472c095317d3d5b0",
+      "bank": "Sudameris",
+      "merchant": "Shop Vane",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "faea1ea44cb565b9",
+      "bank": "Sudameris",
+      "merchant": "Supermercado La Familia",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "ad3121ab877d6574",
+      "bank": "Sudameris",
+      "merchant": "Sweet Store",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "93b98a210cf96bd4",
+      "bank": "Sudameris",
+      "merchant": "Tasty Pizza",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "f77952c3d0790e41",
+      "bank": "Sudameris",
+      "merchant": "Terra Nova",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "73a1f5692fe7affd",
+      "bank": "Sudameris",
+      "merchant": "Tiari",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "7acf614f38863308",
+      "bank": "Sudameris",
+      "merchant": "Todoluz",
+      "issues": [
+        "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
     },
@@ -4195,24 +4702,117 @@
       "bank": "Sudameris",
       "merchant": "Totem Gym",
       "issues": [
+        "source_verification_pending",
         "limits_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "37fd3e0a2de5a764",
+      "bank": "Sudameris",
+      "merchant": "Tres Chic Boutique",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "77d5374c3fcf2b16",
+      "bank": "Sudameris",
+      "merchant": "Ula Ula Kids",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "bceb47373b88ce19",
+      "bank": "Sudameris",
+      "merchant": "Umaai Sushis y Wok",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "31c1782b8f0f049d",
+      "bank": "Sudameris",
+      "merchant": "Veterinaria Itapúa",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "db8eb686ea477e14",
+      "bank": "Sudameris",
+      "merchant": "Vets",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "9953335c42affa25",
+      "bank": "Sudameris",
+      "merchant": "Vinader Computación",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "b05e6950406d8fa7",
+      "bank": "Sudameris",
+      "merchant": "Vitalmed",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "6839ec6c4dc3fd8b",
+      "bank": "Sudameris",
+      "merchant": "Wok Dinasty",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
     },
     {
       "id": "fb152a7d1fb1b1f3",
       "bank": "Sudameris",
       "merchant": "ZONA CENTRAL - ASUNCIÓN Y GRAN ASUNCIÓN",
       "issues": [
+        "source_verification_pending",
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/647/detalle"
+    },
+    {
+      "id": "f7d577f6c1fe3f21",
+      "bank": "Sudameris",
+      "merchant": "Zara Vision Optica",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
+    },
+    {
+      "id": "4b458778fe6e5660",
+      "bank": "Sudameris",
+      "merchant": "Óptica Trinidad",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
     },
     {
       "id": "060864a92e631902",
       "bank": "Sudameris",
       "merchant": "12 CUOTAS SIN INTERÉS - 2026",
       "issues": [
+        "source_verification_pending",
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/147/detalle"
@@ -4222,6 +4822,7 @@
       "bank": "Sudameris",
       "merchant": "DTP TRAVEL GROUP",
       "issues": [
+        "source_verification_pending",
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/787/detalle"
@@ -5618,6 +6219,33 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-Campana-_Tu-combo-Ahorro-30_-_-OCT-2026v1.pdf"
     },
     {
+      "id": "b10285a2e05d8799",
+      "bank": "ueno bank",
+      "merchant": "combo ahorro 20",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-_Tu-combo-de-ahorro-20_-_-OCT-2026v1.docx.pdf"
+    },
+    {
+      "id": "29d0f955883ae143",
+      "bank": "ueno bank",
+      "merchant": "combo ahorro 30",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-_Tu-combo-de-ahorro-30_-_-OCT-2026v1.docx.pdf"
+    },
+    {
+      "id": "aa2532cbbf68b403",
+      "bank": "ueno bank",
+      "merchant": "constru shopping 2",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-ueno-CONSTRUSHOPPING-_-OCT-2026v1.pdf"
+    },
+    {
       "id": "4bd86f394493d35a",
       "bank": "ueno bank",
       "merchant": "conto",
@@ -5626,6 +6254,15 @@
         "multiple_refund_limits"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Promocion-Reintegro-CONTO-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "277785e9e0a1169e",
+      "bank": "ueno bank",
+      "merchant": "desbloquea diau dom18",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-Domingo-18-_-OCT-2026v2.docx.pdf"
     },
     {
       "id": "963a4fc7b88c4d1f",
@@ -5637,7 +6274,7 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Cupones-ueno-DI-VALENTINI-_-OCT-2026v1.pdf"
     },
     {
-      "id": "773aeba39e9d5251",
+      "id": "e44e1ba6bea3c36b",
       "bank": "ueno bank",
       "merchant": "diau black",
       "issues": [
@@ -5646,7 +6283,7 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-OCT-2026v4.docx.pdf"
     },
     {
-      "id": "8b9affb2edab466e",
+      "id": "574f457250d0b189",
       "bank": "ueno bank",
       "merchant": "diau black cda",
       "issues": [
@@ -5655,7 +6292,7 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Abri-tu-CDA-y-desbloquea-Dia-u-_-OCT-2026v4.docx.pdf"
     },
     {
-      "id": "a7c1664de027e656",
+      "id": "3676f57e1bfd0cd8",
       "bank": "ueno bank",
       "merchant": "diau jueves15 tc",
       "issues": [
@@ -5664,7 +6301,7 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TC-_-OCT-2026v5.docx.pdf"
     },
     {
-      "id": "fbe69c42d795e5a0",
+      "id": "4e3968c3c0db4f53",
       "bank": "ueno bank",
       "merchant": "diau jueves15 tc cda",
       "issues": [
@@ -5673,7 +6310,7 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-CDA-desbloquea-Dia-u-_-TC-_-OCT-2026v2.docx.pdf"
     },
     {
-      "id": "afd40c1ac4ef46b5",
+      "id": "054053f77c2d6a9f",
       "bank": "ueno bank",
       "merchant": "diau jueves15 tc td",
       "issues": [
@@ -5682,7 +6319,7 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TC-y-TD-_-OCT-2026v1.docx.pdf"
     },
     {
-      "id": "5b2fd4ec2f6fac94",
+      "id": "eba7667b19703220",
       "bank": "ueno bank",
       "merchant": "diau jueves15 td",
       "issues": [
@@ -5691,7 +6328,7 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TD-_-OCT-2026v3.docx.pdf"
     },
     {
-      "id": "a225a20ff90154df",
+      "id": "c9ebedebe1f69ee1",
       "bank": "ueno bank",
       "merchant": "diau jueves15 td cda",
       "issues": [
@@ -5700,7 +6337,7 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-CDA-desbloquea-Dia-u-_-TD-_-OCT-2026v2.docx.pdf"
     },
     {
-      "id": "6e7a792718162762",
+      "id": "307ace2dc9c823d1",
       "bank": "ueno bank",
       "merchant": "diau potencia tc",
       "issues": [
@@ -5709,17 +6346,16 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-Potencia-tu-Tarjeta-de-Credito-_-OCT-2026v1.pdf"
     },
     {
-      "id": "c7ebd7e1416eca2b",
+      "id": "b059ee4dc7ba895e",
       "bank": "ueno bank",
       "merchant": "diau potencia td",
       "issues": [
-        "conflicting_dates",
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-Potencia-tu-Tarjeta-de-Debito-_-OCT-2026v1.pdf"
     },
     {
-      "id": "bac8fb9825f2b08a",
+      "id": "bf5dcca844ab7a8d",
       "bank": "ueno bank",
       "merchant": "diau50 tc",
       "issues": [
@@ -5728,7 +6364,7 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-50-con-tu-Tarjeta-de-Credito-_-OCT-2026v4-1.pdf"
     },
     {
-      "id": "88f455625fe74a49",
+      "id": "9928d02d188c257e",
       "bank": "ueno bank",
       "merchant": "diau50 td",
       "issues": [
@@ -5829,6 +6465,15 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Cupones-ueno-MONCHIS-_-OCT-2026v1.pdf"
     },
     {
+      "id": "dc1bb39f676822d8",
+      "bank": "ueno bank",
+      "merchant": "nissei 20",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-ueno-NISSEI-_-Cupon-20-de-reintegro-_-OCT-2026v1.pdf"
+    },
+    {
       "id": "eaf2f978a48339f4",
       "bank": "ueno bank",
       "merchant": "penina",
@@ -5856,7 +6501,16 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-ueno-Compra-mas-en-PLUB-_-OCT-2026v1.pdf"
     },
     {
-      "id": "97f33df7b7ba7416",
+      "id": "72ded5a8877cdedb",
+      "bank": "ueno bank",
+      "merchant": "reintegro diau dom18",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-Domingo-18-_-OCT-2026v2.docx.pdf"
+    },
+    {
+      "id": "9b58afc41d93a7d7",
       "bank": "ueno bank",
       "merchant": "reintegro diau tc",
       "issues": [
@@ -5865,13 +6519,40 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-_-TC-_-OCT-2026v3.docx.pdf"
     },
     {
-      "id": "d7bb42dc7d243de2",
+      "id": "f833957e1290b180",
       "bank": "ueno bank",
       "merchant": "reintegro diau td",
       "issues": [
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-_-TD-_-OCT-2026v3.docx.pdf"
+    },
+    {
+      "id": "f5586be40d5172dc",
+      "bank": "ueno bank",
+      "merchant": "ubox 100",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-ueno-ubox-_-Cupon-100-de-reintegro-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "b7d4c392d0a5b58f",
+      "bank": "ueno bank",
+      "merchant": "ubox 25",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-ueno-ubox-_-Cupon-25-de-reintegro-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "f2fc0c4175f4dd8f",
+      "bank": "ueno bank",
+      "merchant": "ubox 50",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-ueno-ubox-_-Cupon-50-de-reintegro-_-OCT-2026v1.pdf"
     },
     {
       "id": "45d7bbf7de3e1705",

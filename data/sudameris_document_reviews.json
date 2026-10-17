@@ -1,0 +1,2634 @@
+[
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ad238969b346325834826/B%26C-VEREDEADA-17-10-26.pdf",
+    "sha256": "aa71feaa984ec65699dc966d926637c6e447c2cb6cc397772fd4e0e59f757453",
+    "merchant": "Veredeada Chaval",
+    "category": "Gastronomía",
+    "start": "2026-10-17",
+    "end": "2026-10-17",
+    "day": "Sábado",
+    "cap": "Tope de compra durante la promoción por cuenta de tarjeta de crédito: Gs. 600.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro",
+        "Tarjetas de crédito Mastercard y Visa Sudameris; Black e Infinite tienen 25%"
+      ],
+      [
+        "premium",
+        "25% de reintegro",
+        "Tarjetas de crédito Mastercard Black y Visa Infinite Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito MasterCard y Visa Sudameris. Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. ",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of complete one-page official PDF; SHA256 guards document version."
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ad0f3e186b0e392533103/B%26C-KUBE-19-10-26.pdf",
+    "sha256": "3c9e753ac12d8429fca48c7c52abfced8261018997c05d6ae4a179203962158c",
+    "merchant": "Kube - Octubre 2026",
+    "category": "Hogar",
+    "start": "2026-10-19",
+    "end": "2026-10-24",
+    "day": "Todos los días",
+    "cap": "Tope de compra durante la promoción por cuenta de tarjeta de crédito: Gs. 5.000.000.",
+    "extra": "Solicitar fraccionamiento en cuotas al momento de la compra en caja.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro",
+        "Tarjetas de crédito Mastercard y Visa Sudameris; Black e Infinite tienen 25%"
+      ],
+      [
+        "premium",
+        "25% de reintegro",
+        "Tarjetas de crédito Mastercard Black y Visa Infinite Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 15 cuotas sin interés",
+        "Tarjetas de crédito Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito MasterCard y Visa Sudameris. Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. Solicitar fraccionamiento en cuotas al momento de la compra en caja.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of complete one-page official PDF; SHA256 guards document version.",
+    "offer_overrides": {
+      "financing": {
+        "cap": ""
+      }
+    }
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ad0efa34ca4d016036253/B%26C-MUSICHALL-19-10-26.pdf",
+    "sha256": "c88be4a1f233c8d1d9f3abeaf20cacea14db6435ffe5cd57f4116fcfdc624a5b",
+    "merchant": "Music Hall - Promo Aniversario",
+    "category": "Tecnología",
+    "start": "2026-10-19",
+    "end": "2026-10-24",
+    "day": "Todos los días",
+    "cap": "",
+    "extra": "Solicitar fraccionamiento en cuotas al momento de la compra en caja. Para equipos de audio el descuento es 5%.",
+    "offers": [
+      [
+        "base",
+        "15% de descuento en caja (excepto equipos de audio)",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "audio",
+        "5% de descuento en equipos de audio",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin intereses",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito MasterCard y Visa Sudameris. Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. Solicitar fraccionamiento en cuotas al momento de la compra en caja. Para equipos de audio el descuento es 5%.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of complete one-page official PDF; SHA256 guards document version.",
+    "offer_overrides": {
+      "financing": {
+        "cap": ""
+      }
+    }
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ad0e43ed04ed473525282/B%26C-DAVINCI-21-09-26.pdf",
+    "sha256": "0cd6c4155a00fe0f577759b5290b96e71c425cb69f637a370094e357090d0e22",
+    "merchant": "Universidad Leonardo Da Vinci - Diplomados",
+    "category": "Educación",
+    "start": "2026-09-21",
+    "end": "2027-05-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "base",
+        "20% de descuento en caja para inscripción al diplomado",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin intereses",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing-travel",
+        "Hasta 12 cuotas sin intereses en pasaje en aerolíneas o agencias de Paraguay, modalidad presencial",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing-lodging",
+        "Hasta 6 cuotas sin intereses en alojamiento en el exterior, modalidad presencial",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Inscripción presencial y homeclass. Solicitar cuotas en caja al comprar. No acumulable. Excluye subredes/plataformas Pagopar, Paypal, Pedidos Ya, Monchis y procesadoras Bepsa/Upay.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 3
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ad0ccafbbd5d083026668/San%20Andr%C3%A9s.pdf",
+    "sha256": "50d4b58dc1a19a59ce682b3a18eaa823647a50906670b294bd831d207fff402a",
+    "merchant": "Colegio San Andrés",
+    "category": "Educación",
+    "start": "2026-09-07",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 15 cuotas sin intereses",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Exclusivamente pagos en caja y librería del colegio.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 5
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6acd4399384f2428515903/B%26C-CASALORENZO-12.10.26.pdf",
+    "sha256": "9fac1586a1f58f93320b84f9c7d25c230dc2c1aa71d3c7a17166ddeae62c31e0",
+    "merchant": "Casa Lorenzo",
+    "category": "Gastronomía",
+    "start": "2026-10-10",
+    "end": "2026-10-31",
+    "day": "Martes a jueves",
+    "cap": "Tope de compra por cuenta de tarjeta de crédito: Gs. 3.000.000.",
+    "offers": [
+      [
+        "premium",
+        "20% de reintegro directo",
+        "Tarjetas de crédito Mastercard Black y Visa Infinite Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. No acumulable.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 6
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6acd431409ca6623805935/B%26C-KESSEL-12.10.26.pdf",
+    "sha256": "41de74164461524c7b6eea015a5fe0d9c4306f4ac8440d4265d13f6d34dcb60c",
+    "merchant": "Kessel",
+    "category": "Gastronomía",
+    "start": "2026-10-10",
+    "end": "2026-10-31",
+    "day": "Jueves a sábado",
+    "cap": "Tope de compra por cuenta de tarjeta de crédito: Gs. 2.000.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro directo",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "premium",
+        "25% de reintegro directo",
+        "Tarjetas de crédito Mastercard Black y Visa Infinite Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Sólo Kessel (Malutín & Lilio) y Kessel Sky Bar. EXCLUYE Kessel San Bernardino. No acumulable.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 7
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6acd419f0f233629052160/B%26C-BIERFEST-ENTRADAS-12.10.26.pdf",
+    "sha256": "332e8cc58a8b0187def80b3b1e23d67828c9c31afec2485109040af8223929a6",
+    "merchant": "Bierfest - Club Sajonia - Mesas y entradas",
+    "category": "Entretenimiento",
+    "start": "2026-10-13",
+    "end": "2026-10-30",
+    "day": "Todos los días",
+    "cap": "Tope de compra por cuenta de tarjeta de crédito: Gs. 1.000.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro en mesas y entradas",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Hasta agotar stock. El cuerpo expresa 2026; pie de versión dice V1 12/10/2025 (inconsistencia editorial). Este PDF no respalda beneficios recurrentes del Club Sajonia.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 8
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac80096afcfe903193578/seren.pdf",
+    "sha256": "a37298abf9df68523eae9c18934c489a5260ff5aa4dc6967fc1644ede0b1f026",
+    "merchant": "Serendipity - Cantinas de colegios",
+    "category": "Gastronomía",
+    "start": "2026-04-20",
+    "end": "2026-11-30",
+    "day": "Lunes a viernes",
+    "cap": "Tope de compra mensual conjunto entre todos los colegios participantes por cuenta: Gs. 800.000.",
+    "offers": [
+      [
+        "base",
+        "15% de reintegro directo",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Sólo cantinas Goethe, Campoalto, Las Almenas y Las Almenitas.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 9
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7fe4eba0fc730255483/FRIGOMA.pdf",
+    "sha256": "1d2b9e62eb57cd1d68cebed19a89b60bcb756baf701dff625ba24b743faef5b5",
+    "merchant": "Frigomas - Paseo Miraflores",
+    "category": "Supermercados",
+    "start": "2026-08-07",
+    "end": "2026-12-25",
+    "day": "Viernes",
+    "cap": "Tope de compra durante toda la vigencia por cuenta: Gs. 800.000.",
+    "offers": [
+      [
+        "base",
+        "25% de reintegro directo",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Sólo local Paseo Miraflores sobre Julio Correa. Excluye página web.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 10
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7fd2b5e5f8285593120/Cecconello.pdf",
+    "sha256": "c884d567a3e439fecd7bb58a1220ee0e1484a68f37343159b4108219f43f23a2",
+    "merchant": "Cecconello",
+    "category": "Moda",
+    "start": "2026-10-07",
+    "end": "2026-10-17",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "base",
+        "20% de descuento en caja",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 10 cuotas sin intereses",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. ",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 11
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7fc598cfed723650949/Club%20Social%20%C3%81rea%204%20-%20Ciudad%20Del%20Este.pdf",
+    "sha256": "49fb204d46db511391feebc65b8ab8644aa9c32fe7509de624d290e8d51c9277",
+    "merchant": "Club Social Área 4 - Ciudad del Este",
+    "category": "Clubes",
+    "start": "2026-02-11",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "Tope de compra mensual por cuenta: Gs. 300.000 para débito automático.",
+    "offers": [
+      [
+        "base",
+        "10% de reintegro exclusivamente en cuotas sociales vía débito automático",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin intereses",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Condición general POS Infonet con plástico físico, QR o billeteras digitales. Excluye T-Pago; el reintegro exige débito automático.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 12,
+    "offer_overrides": {
+      "financing": {
+        "cap": ""
+      }
+    }
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7fb3e54f71229797754/Go.pdf",
+    "sha256": "244174e2a3f6839362b8b3584129c38b47ecbff9abe16a88f11ff2d8a22e5c39",
+    "merchant": "Sudameris GO",
+    "category": "Compras",
+    "start": "2026-02-12",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 18 cuotas sin intereses",
+        "Tarjetas de crédito Mastercard y Visa Sudameris y tarjetas Sudameris con logo Regional participantes"
+      ]
+    ],
+    "conditions": "Compras por www.sudamerisgo.com.py, POS Bancard en sucursal y T-Pago. QR por Sudameris App sólo cuentas titulares, no adicionales. Excluye POS de otras procesadoras. Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. ",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 13
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7fa895ef71407719080/encarr.pdf",
+    "sha256": "352603c1649e451dfcf8b03ccf65e9a5d4f2b7f46bbec5c6304db1f0d527ccb6",
+    "merchant": "Club Social de Encarnación",
+    "category": "Clubes",
+    "start": "",
+    "end": "2027-01-15",
+    "day": "Todos los días",
+    "cap": "Tope de compra mensual por cuenta para débito automático: Gs. 200.000.",
+    "offers": [
+      [
+        "base",
+        "10% de reintegro en cuotas sociales exclusivamente vía débito automático",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés para cuotas sociales de ingreso, atrasadas o adelantadas en cajas del club",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. ",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 14,
+    "offer_overrides": {
+      "financing": {
+        "cap": ""
+      }
+    }
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7f9859bcf3205350665/bc-dta-2026-13326.pdf",
+    "sha256": "793f3e40485e346066ffe80053ff1b0e80d7976d5a679bd18ac7dd0c6ed08bfb",
+    "merchant": "Club Deportivo Alemán (DTA) - Cuotas sociales",
+    "category": "Clubes",
+    "start": "",
+    "end": "2028-12-31",
+    "day": "Todos los días",
+    "cap": "Tope de compra mensual por cuenta: Gs. 500.000 para cuotas sociales.",
+    "offers": [
+      [
+        "base",
+        "10% de reintegro en cuotas sociales por débito automático",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin intereses en cuotas sociales en caja del Club",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Este PDF no incluye Oktoberfest del 10/10/2026.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 15,
+    "offer_overrides": {
+      "financing": {
+        "cap": ""
+      }
+    }
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7f9859bcf3205350665/bc-dta-2026-13326.pdf",
+    "sha256": "793f3e40485e346066ffe80053ff1b0e80d7976d5a679bd18ac7dd0c6ed08bfb",
+    "merchant": "Club Deportivo Alemán (DTA) - Locales gastronómicos",
+    "category": "Gastronomía",
+    "start": "",
+    "end": "2028-12-31",
+    "day": "Todos los días",
+    "cap": "Tope de compra mensual por cuenta: Gs. 500.000 para gastronomía.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro en todos los locales gastronómicos dentro del club",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. ",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 15
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7f77f8f04e399412432/B%26C-CNSB-19.1.26%201.pdf",
+    "sha256": "a9ca936a6996807de90a8f805528d0e22583672a24c0b251c519fd06e72ed860",
+    "merchant": "Club Náutico San Bernardino - Cuotas sociales",
+    "category": "Clubes",
+    "start": "",
+    "end": "2026-10-31",
+    "day": "Todos los días",
+    "cap": "Tope de pago mensual por cuenta: Gs. 500.000.",
+    "offers": [
+      [
+        "base",
+        "10% de reintegro en cuota social por débito automático",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "12 cuotas sin intereses para pagos en caja dentro del Club",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. ",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 16,
+    "offer_overrides": {
+      "financing": {
+        "cap": ""
+      }
+    }
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7f77f8f04e399412432/B%26C-CNSB-19.1.26%201.pdf",
+    "sha256": "a9ca936a6996807de90a8f805528d0e22583672a24c0b251c519fd06e72ed860",
+    "merchant": "Club Náutico San Bernardino - Combustibles",
+    "category": "Combustibles",
+    "start": "",
+    "end": "2026-10-31",
+    "day": "Todos los días",
+    "cap": "Tope de compra mensual por cuenta: Gs. 500.000.",
+    "offers": [
+      [
+        "base",
+        "10% de reintegro en combustibles dentro del club",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. ",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 16
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7f77f8f04e399412432/B%26C-CNSB-19.1.26%201.pdf",
+    "sha256": "a9ca936a6996807de90a8f805528d0e22583672a24c0b251c519fd06e72ed860",
+    "merchant": "Restaurantes CNSB",
+    "category": "Gastronomía",
+    "start": "2025-01-01",
+    "end": "2026-10-31",
+    "day": "Todos los días",
+    "cap": "Tope de compra mensual por cuenta: Gs. 3.000.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Vigencia específica de la fila del comercio en página 2; no extender a fecha general del club.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 16
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7f77f8f04e399412432/B%26C-CNSB-19.1.26%201.pdf",
+    "sha256": "a9ca936a6996807de90a8f805528d0e22583672a24c0b251c519fd06e72ed860",
+    "merchant": "El Burguero - CNSB",
+    "category": "Gastronomía",
+    "start": "2025-12-06",
+    "end": "2026-03-31",
+    "day": "Todos los días",
+    "cap": "Tope de compra mensual por cuenta: Gs. 800.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Vigencia específica de la fila del comercio en página 2; no extender a fecha general del club.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 16
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7f77f8f04e399412432/B%26C-CNSB-19.1.26%201.pdf",
+    "sha256": "a9ca936a6996807de90a8f805528d0e22583672a24c0b251c519fd06e72ed860",
+    "merchant": "Asadito Aquino - CNSB",
+    "category": "Gastronomía",
+    "start": "2025-01-01",
+    "end": "2026-03-31",
+    "day": "Todos los días",
+    "cap": "Tope de compra mensual por cuenta: Gs. 800.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Vigencia específica de la fila del comercio en página 2; no extender a fecha general del club.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 16
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7f77f8f04e399412432/B%26C-CNSB-19.1.26%201.pdf",
+    "sha256": "a9ca936a6996807de90a8f805528d0e22583672a24c0b251c519fd06e72ed860",
+    "merchant": "La Casita Gourmet de Yudith - CNSB",
+    "category": "Gastronomía",
+    "start": "2026-01-02",
+    "end": "2026-03-31",
+    "day": "Todos los días",
+    "cap": "Tope de compra mensual por cuenta: Gs. 800.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Vigencia específica de la fila del comercio en página 2; no extender a fecha general del club.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 16
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7f77f8f04e399412432/B%26C-CNSB-19.1.26%201.pdf",
+    "sha256": "a9ca936a6996807de90a8f805528d0e22583672a24c0b251c519fd06e72ed860",
+    "merchant": "Catas Nómadas - CNSB",
+    "category": "Gastronomía",
+    "start": "2026-01-23",
+    "end": "2026-02-15",
+    "day": "Todos los días",
+    "cap": "Tope de compra mensual por cuenta: Gs. 800.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Vigencia específica de la fila del comercio en página 2; no extender a fecha general del club.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 16
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7f44c55a91437664552/la%20cuadrita.pdf",
+    "sha256": "aaad22a575c03c9fbad18488c4a11bf41cb6f704c0cf405ea57e3382574477f4",
+    "merchant": "Concepts - La Cuadrita",
+    "category": "Compras",
+    "start": "2026-03-04",
+    "end": "2026-12-31",
+    "day": "Miércoles a viernes",
+    "cap": "Tope de compra mensual por cuenta: Gs. 600.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro directo",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "premium",
+        "25% de reintegro directo",
+        "Tarjetas de crédito Mastercard Black y Visa Infinite Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 10 cuotas sin intereses",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. ",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 17
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7f2ec87e46573496448/Drugstore.pdf",
+    "sha256": "b8ec1f5fc30ba10a978379478ef2d00529942f3673ff4b4224604d9719eb78b7",
+    "merchant": "Drugstore Asismed",
+    "category": "Farmacias",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "day": "Martes",
+    "cap": "Tope de compra durante la promoción por cuenta para reintegro: Gs. 800.000.",
+    "offers": [
+      [
+        "base",
+        "17% de descuento en caja en medicamentos importados o nacionales con tratamiento de importado y varios",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "national",
+        "32% de descuento en caja en medicamentos de origen 100% nacional",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "refund",
+        "10% de reintegro adicional en extracto",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin intereses",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Sólo cinco sucursales del anexo. Cuotas deben solicitarse al comprar por POS. No acumulable/combinable con otras promociones. Excluye subredes/plataformas que no sean Infonet (Pagopar, etc.). No sumar porcentajes de descuento y reintegro.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 18,
+    "branches": [
+      [
+        "Drugstore Mariscal López",
+        "Av. Mariscal López casi Perú"
+      ],
+      [
+        "Drugstore La Costa",
+        "Av. Gral. José G. Artigas casi Concepción Leyes de Chávez"
+      ],
+      [
+        "Drugstore Bahía",
+        "Concepción Leyes de Chávez casi Av. Gral. José G. Artigas"
+      ],
+      [
+        "Drugstore Santa Julia",
+        "Nicasio Insaurralde y Diago de Silva y Velázquez"
+      ],
+      [
+        "Drugstore Madame Lynch",
+        "Av. Madame Elisa Lynch casi Soriano González"
+      ]
+    ],
+    "offer_overrides": {
+      "financing": {
+        "cap": ""
+      }
+    }
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7ee7f25009494560248/Matterassi.pdf",
+    "sha256": "e442db88086bb6e31b637e26e31e025497b9f3c797bc98acb8e719df19384e75",
+    "merchant": "Materassi",
+    "category": "Hogar",
+    "start": "2026-08-19",
+    "end": "2026-12-31",
+    "day": "Miércoles a sábado",
+    "cap": "Tope de compra mensual por cuenta: Gs. 10.000.000.",
+    "offers": [
+      [
+        "base",
+        "30% de descuento directo en caja",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "refund",
+        "10% de reintegro directo",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin intereses",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. No sumar descuento y reintegro como porcentaje único.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 19
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7ed0fcd36a266484101/bc-estacionesccu-ecop-060726.pdf",
+    "sha256": "6fd00eab409753e7ce899418d75e3a7fb4634cbbfcff53312e493095b2314921",
+    "merchant": "ECOP - Estaciones de Servicio CCU",
+    "category": "Combustibles",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "day": "Primer jueves de cada mes: 02/07, 06/08, 03/09, 01/10, 05/11 y 03/12 de 2026",
+    "cap": "Tope de compra mensual por cuenta: Gs. 1.000.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro directo",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Exclusivamente las 11 estaciones físicas del anexo; no todos los jueves.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 20,
+    "branches": [
+      [
+        "ECOP Obligado",
+        "Av. Gaspar R. de Francia c/ Av. Oswaldo Tischler",
+        "Obligado"
+      ],
+      [
+        "ECOP Central Coop. Col. Unidas",
+        "Ruta 6ta km 212 Avda. Albano Birnfeld",
+        "Santa Rita"
+      ],
+      [
+        "ECOP Santa Rita",
+        "Ruta 6ta km 212 Avda. Albano Birnfeld",
+        "Santa Rita"
+      ],
+      [
+        "ECOP Santa Inés 2",
+        "Distrito de San Rafael del Paraná - Itapúa",
+        "San Rafael del Paraná"
+      ],
+      [
+        "ECOP Capitán Meza 2",
+        "PYG07 y ruta desvío a Ciudad Capitán Meza",
+        "Capitán Meza"
+      ],
+      [
+        "ECOP Capitán Miranda 2",
+        "Capitán Miranda - Itapúa Ruta VI km 22",
+        "Capitán Miranda"
+      ],
+      [
+        "ECOP Edelira 2",
+        "Edelira km 60 - Itapúa calle Primera Línea",
+        "Edelira"
+      ],
+      [
+        "ECOP Ma. Auxiliadora 2",
+        "Tomás Romero Pereira - Itapúa Ruta VI km 118",
+        "Ma. Auxiliadora"
+      ],
+      [
+        "ECOP Vacay 2",
+        "Bella Vista - Itapúa Ruta Graneros - Vacay km 33",
+        "Vacay"
+      ],
+      [
+        "ECOP Yatytay 2",
+        "Yatytay - Itapúa",
+        "Yatytay"
+      ],
+      [
+        "ECOP 7 de Agosto 2",
+        "7 de Agosto - Itapúa",
+        "Carlos A. López"
+      ]
+    ]
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7eb69943a2938274356/Real-super.pdf",
+    "sha256": "7e63d1362b64eff3ce8f593a9352c14da8d65c096b691f546e3267f05d60eae1",
+    "merchant": "Real Supermercados",
+    "category": "Supermercados",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "day": "Primer viernes de cada mes: 03/07, 07/08, 04/09, 02/10, 06/11 y 04/12 de 2026",
+    "cap": "Tope de compra mensual por cuenta: Gs. 1.500.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro directo",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Cuotas tienen días y secciones diferentes, ver registro separado.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 21
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7eb69943a2938274356/Real-super.pdf",
+    "sha256": "7e63d1362b64eff3ce8f593a9352c14da8d65c096b691f546e3267f05d60eae1",
+    "merchant": "Real Supermercados - Cuotas",
+    "category": "Supermercados",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés en electrodomésticos, artículos de jardín y decoración",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. El PDF enuncia tope mensual de compra Gs. 1.500.000 sin especificar su alcance a financiación; no inferir ausencia de límite.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 21
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7c4da3ef40853260977/exterior.pdf",
+    "sha256": "f90a1cb0ff1bb02200ae5898b1688543b86fb60de3bd08e6100285f2436b2ace",
+    "merchant": "Compras en el Exterior",
+    "category": "Viajes",
+    "start": "",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 6 cuotas sin intereses",
+        "Tarjetas de crédito Mastercard y Visa Sudameris y tarjetas Sudameris con logo Regional participantes"
+      ]
+    ],
+    "conditions": "Exclusivamente compras presenciales u online en el exterior/fuera de Paraguay. Solicitar financiación a oficial o canales del banco tras 48 horas hábiles de la compra; hasta 6 cuotas por compra. Excluye compras en territorio nacional. Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. ",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 22
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7c118d7a91200547827/YOUNIQU.pdf",
+    "sha256": "c57f6a90e93fdee9f19a341bd16662ea83a95699604fa75f6ff6cfcf0f89561f",
+    "merchant": "Younique",
+    "category": "Moda",
+    "start": "2026-09-01",
+    "end": "2026-10-31",
+    "day": "Martes y miércoles",
+    "cap": "",
+    "offers": [
+      [
+        "base",
+        "25% de descuento en caja",
+        "Tarjetas de crédito Clásicas, Oro, Platinum, Signature y Privilege Sudameris"
+      ],
+      [
+        "premium",
+        "30% de descuento en caja",
+        "Tarjetas de crédito Mastercard Black y Visa Infinite Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin intereses",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Pago exclusivamente vía POS Bancard (Red Infonet). No aplica a otras procesadoras (Dinelco, Cabal, etc.). Se excluyen prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. Bases sujetas a modificación; verificar versión vigente antes de comprar. Beneficios se aplican en caja.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Visual review of every page of official PDF rendered locally; exact PDF SHA256 guards document version.",
+    "source_row_index": 23
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7bcbf5eb0b312676553/cheff.pdf",
+    "sha256": "285fb758d20d52d863c02da02a28951a2e03f4c56ba604cb55dffc5c89b4deea",
+    "merchant": "CHEF’S KITCHEN",
+    "category": "Gastronomía",
+    "start": "2026-08-28",
+    "end": "2026-12-26",
+    "day": "Viernes y sábado",
+    "cap": "Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 1.000.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "premium",
+        "25% de reintegro",
+        "Tarjetas de crédito Mastercard Black y Visa Infinite Sudameris"
+      ]
+    ],
+    "conditions": "• El reintegro aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. • Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. • No acumulable con otras promociones. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 24,
+    "original_conditions": "\n• Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 1.000.000.\n• El reintegro aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A.\n• Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nEmpresariales.\n• No acumulable con otras promociones.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\nV2. 30/09/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7ba0283932901899591/PLUB2.pdf",
+    "sha256": "20247451146e4533639d8df06eb1bb475c513409729dcf1e717d88258213c668",
+    "merchant": "PLUB",
+    "category": "Gastronomía",
+    "start": "2026-08-01",
+    "end": "2026-10-31",
+    "day": "Último viernes de cada mes",
+    "cap": "Tope de compra por cuenta de tarjeta de crédito: Gs. 1.500.000 (periodicidad no especificada).",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "• Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. • Promoción válida única y exclusivamente para compras realizadas vía POS/VPOS de Bancard (Red Infonet). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. • No aplica a compras vía otras procesadoras (Dinelco, Cabal, etc), sub redes y/o plataformas que no sean Infonet (Pagopar, Paypal, etc.). • No acumulable/combinable con otras promociones.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 25,
+    "original_conditions": "\n• Tope de compra por cuenta de tarjeta de crédito: Gs. 1.500.000.\n• Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A.\n• Promoción válida única y exclusivamente para compras realizadas vía POS/VPOS de Bancard (Red Infonet).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nEmpresariales.\n• No aplica a compras vía otras procesadoras (Dinelco, Cabal, etc), sub redes y/o plataformas que no sean Infonet\n(Pagopar, Paypal, etc.).\n• No acumulable/combinable con otras promociones.\nV1. – 01/08/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b2b07d84a998700363/Biggie%20Express.pdf",
+    "sha256": "da3a85a094e65d8b4759c5511e7949c116ab77ab1c6c46217006aad5466725ec",
+    "merchant": "Biggie Express",
+    "category": "Supermercados",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "day": "01 de cada mes",
+    "cap": "Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 700.000.",
+    "offers": [
+      [
+        "base",
+        "30% de reintegro",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "• Monto mínimo de compra para aplicación de promoción de reintegro Gs. 50.000. • Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A, en todos los locales de BIGGIE EXPRESS. • Promoción válida única y exclusivamente para compras realizadas vía red Infonet (Bancard), pagando con tarjetas de crédito de Sudameris. • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. • No aplica a compras vía web o delivery, solo válido para compras en locales físicos de Biggie Express. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc). • Se excluyen de la promoción las compras realizadas en plataformas ajenas a BIGGIE S.A. (Monchis, Pedidos Ya, Pedile a Charly, Gu, entre otros). • No acumulable/combinable con otras promociones.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 28,
+    "minimum_purchase_pyg": 50000,
+    "original_conditions": "\n• Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 700.000.\n• Monto mínimo de compra para aplicación de promoción de reintegro Gs. 50.000.\n• Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A, en todos los\nlocales de BIGGIE EXPRESS.\n• Promoción válida única y exclusivamente para compras realizadas vía red Infonet (Bancard), pagando con tarjetas de\ncrédito de Sudameris.\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nEmpresariales.\n• No aplica a compras vía web o delivery, solo válido para compras en locales físicos de Biggie Express.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\n• Se excluyen de la promoción las compras realizadas en plataformas ajenas a BIGGIE S.A. (Monchis, Pedidos Ya, Pedile\na Charly, Gu, entre otros).\n• No acumulable/combinable con otras promociones.\nV3. – 05/10/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7a772671d8885990040/tarjetas-empresariales.pdf",
+    "sha256": "da6790f095e2ba8279c9f1b16e7126db4e096efb1e545dd16b92b4d9688b3aa2",
+    "merchant": "TARJETAS EMPRESARIALES",
+    "category": "Otros",
+    "start": "2026-01-01",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 6 cuotas sin interés",
+        "Tarjetas de crédito Mastercard Plus Business y Mastercard Black Corporate con cierre mensual"
+      ]
+    ],
+    "conditions": "• Aplica exclusivamente a tarjetas empresariales con cierre mensual. • Aplica únicamente en los siguientes rubros: agencias de viajes, hoteles, aerolíneas, talleres, repuestos y accesorios de autos y artículos de electrónica. • Aplica a compras realizadas con tarjetas de crédito MasterCard Plus Business y MasterCard Black Corporate. • Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. • El fraccionamiento de la compra se debe solicitar al momento de la compra. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales con cierre semestral. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 31,
+    "original_conditions": "\n• Aplica exclusivamente a tarjetas empresariales con cierre mensual.\n• Aplica únicamente en los siguientes rubros: agencias de viajes, hoteles, aerolíneas, talleres, repuestos y\naccesorios de autos y artículos de electrónica.\n• Aplica a compras realizadas con tarjetas de crédito MasterCard Plus Business y MasterCard Black Corporate.\n• Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo\ncon el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso,\ny el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento\nvigente durante el día de la compra reclamada.\n• El fraccionamiento de la compra se debe solicitar al momento de la compra.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card,\nProductivas y Empresariales con cierre semestral.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\nV1. – 01/11/2025\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a5a22d9a31d1427523551/byc%20guairen%CC%83o.pdf",
+    "sha256": "7941f321a46e2a515bc56facd963aa6e31ffaa2e72a9f219d4ea631ffec04d9d",
+    "merchant": "CLUB PORVENIR GUAIREÑO",
+    "category": "Clubes",
+    "start": "2024-05-21",
+    "end": "2027-03-15",
+    "day": "Todos los días",
+    "cap": "Tope de pago mensual por cuenta de tarjeta de crédito: Gs. 120.000.",
+    "offers": [
+      [
+        "base",
+        "10% de reintegro en débitos automáticos del Club",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "• Promoción válida única y exclusivamente con compras realizadas vía POS, QR Bancard (Red Infonet) • Aplica única y exclusivamente a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. y con las tarjetas de crédito Sudameris con logo de Regional participantes de la promoción. • Los reintegros son acreditados de manera automática en el extracto del cliente en máximo 48hs hábiles luego de la compra. • Las bases y condiciones están sujetas a modificaciones de acuerdo con posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. Exclusiones: • Se excluyen tarjetas de débito y crédito prepagas, Bancard Check, corporativas/empresariales, gourmet card, móvil card y productivas • La promoción no aplica a compras realizadas con POS de otras procesadoras. • No aplica el beneficio para pagos a través de T-Pago.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 35,
+    "original_conditions": "\n• Tope de pago mensual durante la promoción Gs. 120.000 por cuenta de tarjeta de crédito.\n• Promoción válida única y exclusivamente con compras realizadas vía POS, QR Bancard (Red\nInfonet)\n• Aplica única y exclusivamente a compras realizadas con tarjetas de crédito MasterCard y Visa\nde Sudameris Bank S.A.E.C.A. y con las tarjetas de crédito Sudameris con logo de Regional\nparticipantes de la promoción.\n• Los reintegros son acreditados de manera automática en el extracto del cliente en\nmáximo 48hs hábiles luego de la compra.\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con posibles\nvariaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho\nde aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la\nversión actualizada de las Bases y condiciones antes de realizar la transacción.\nExclusiones:\n• Se excluyen tarjetas de débito y crédito prepagas, Bancard Check, corporativas/empresariales,\ngourmet card, móvil card y productivas\n• La promoción no aplica a compras realizadas con POS de otras procesadoras.\n• No aplica el beneficio para pagos a través de T-Pago.",
+    "offer_overrides": {
+      "base": {
+        "conditions": "• Promoción válida única y exclusivamente con compras realizadas vía POS, QR Bancard (Red Infonet) • Aplica única y exclusivamente a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. y con las tarjetas de crédito Sudameris con logo de Regional participantes de la promoción. • Los reintegros son acreditados de manera automática en el extracto del cliente en máximo 48hs hábiles luego de la compra. • Las bases y condiciones están sujetas a modificaciones de acuerdo con posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. Exclusiones: • Se excluyen tarjetas de débito y crédito prepagas, Bancard Check, corporativas/empresariales, gourmet card, móvil card y productivas • La promoción no aplica a compras realizadas con POS de otras procesadoras. • No aplica el beneficio para pagos a través de T-Pago.",
+        "cards": "Tarjetas de crédito Mastercard y Visa Sudameris y tarjetas Sudameris con logo Regional participantes"
+      },
+      "financing": {
+        "conditions": "• Promoción válida única y exclusivamente con compras realizadas vía POS, QR Bancard (Red Infonet) • Aplica única y exclusivamente a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. y con las tarjetas de crédito Sudameris con logo de Regional participantes de la promoción. • Los reintegros son acreditados de manera automática en el extracto del cliente en máximo 48hs hábiles luego de la compra. • Las bases y condiciones están sujetas a modificaciones de acuerdo con posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. Exclusiones: • Se excluyen tarjetas de débito y crédito prepagas, Bancard Check, corporativas/empresariales, gourmet card, móvil card y productivas • La promoción no aplica a compras realizadas con POS de otras procesadoras. • No aplica el beneficio para pagos a través de T-Pago.",
+        "cards": "Tarjetas de crédito Mastercard y Visa Sudameris y tarjetas Sudameris con logo Regional participantes",
+        "cap": ""
+      }
+    }
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6aad779b60237447943742/live%20fitness.pdf",
+    "sha256": "29fb3626602bb15803a2e4ce7691a0cc521caaf6446d160fdfcdd5aff7feb2dd",
+    "merchant": "LIVE FITNESS",
+    "category": "Salud y belleza",
+    "start": "2026-04-27",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "trimestral",
+        "10% de descuento en caja en membresía trimestral",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "semestral",
+        "15% de descuento en caja en membresía semestral",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "anual",
+        "20% de descuento en caja en membresía anual",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing_trimestral",
+        "Hasta 3 cuotas sin intereses en membresía trimestral",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing_semestral",
+        "Hasta 6 cuotas sin intereses en membresía semestral",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing_anual",
+        "Hasta 12 cuotas sin intereses en membresía anual",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "• Aplica a compras realizadas exclusivamente con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. • Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 36,
+    "original_conditions": "\n• Aplica a compras realizadas exclusivamente con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A.\n• Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nEmpresariales.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\nV1. – 27/04/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b8fe5fcef278339900/tatano%20posadas.pdf",
+    "sha256": "6c6cf5aa4b02b8bf401862c1b837438cb5a194ffb4316b7f13d7ebee6b07c5bf",
+    "merchant": "TATANO POSADA BOUTIQUE",
+    "category": "Hoteles y gastronomía",
+    "start": "2026-04-07",
+    "end": "2026-12-31",
+    "day": "Martes, miércoles, jueves, viernes, sábado y domingo",
+    "cap": "",
+    "offers": [
+      [
+        "base",
+        "20% de descuento en caja en restaurante y alojamiento",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "premium",
+        "25% de descuento en caja en restaurante y alojamiento",
+        "Tarjetas de crédito Mastercard Black y Visa Infinite Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin intereses exclusivamente en alojamiento",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "• Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. • Promoción válida para: restaurante y alojamiento. • Las cuotas sin intereses solamente se aplican para pagos de alojamiento. • Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, Bancard Check, de débito, Gourmet Card, Móvil Card, Productivas y Empresariales. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 38,
+    "original_conditions": "\n• Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A.\n• Promoción válida para: restaurante y alojamiento.\n• Las cuotas sin intereses solamente se aplican para pagos de alojamiento.\n• Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, Bancard Check, de débito, Gourmet Card, Móvil Card, Productivas y\nEmpresariales.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\nV1. – 07/04/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+    "sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+    "merchant": "ENEX Y APP MI ENEX",
+    "category": "Combustible",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "day": "Primer lunes de cada mes",
+    "cap": "Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 600.000.",
+    "offers": [
+      [
+        "physical",
+        "10% de reintegro en estaciones físicas adheridas",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "app",
+        "20% de reintegro a través de la app Mi Enex en estaciones adheridas",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "• Aplica a compras realizadas únicamente con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. • Promoción válida única y exclusivamente para compras realizadas desde la aplicación Sudameris a través del POS de Bancard (Red Infonet), en estaciones de servicios “ENEX” y la App “MiEnex”, adheridas a la promoción (Ver listado abajo) • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. • No acumulable con otras promociones. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc), y/o subredes (PagoPar, etc). • No acumulable con otras promociones. No aplica a compras registradas bajo “ENEX SEGMENTACIÓN”.",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 39,
+    "branch_evidence_pages": [
+      2,
+      3
+    ],
+    "original_conditions": "\n• Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 600.000.\n• Aplica a compras realizadas únicamente con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A.\n• Promoción válida única y exclusivamente para compras realizadas desde la aplicación Sudameris a través del POS de Bancard\n(Red Infonet), en estaciones de servicios “ENEX” y la App “MiEnex”, adheridas a la promoción (Ver listado abajo)\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio,\npor lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la\nversión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el\ndía de la compra reclamada.\n• No acumulable con otras promociones.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nEmpresariales.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc), y/o subredes (PagoPar, etc).\n• No acumulable con otras promociones. No aplica a compras registradas bajo “ENEX SEGMENTACIÓN”.\nhttps://www.sudameris.com.py/beneficios\n\nPAGE 2\n2\nESTACIONES DE SERVICIOS ENEX Y APP MI ENEX\nESTACIONES DE SERVICIOS FÍSICAS\nEstaciones Dirección Localidad\nENEX LUQUE CIT Ybyturusu esq. Abdón Caballero Luque\nENEX LUQUE CENTRO Avda. Gral Aquino esq. Alberdi Luque\nENEX LIMPIO Avda. San José esq. 29 de septiembre Limpio\nENEX HERRERA Avda. Perú esq. Herrera Asunción\nENEX MANUEL DEL CASTILLO Avda. República Argentina esq. Manuel del Castillo Asunción\nENEX LILLO Lillo esq. Concejal Vargas Asunción\nENEX GUARAMBARE Ruta 1 km 14 - Acceso Sur Guarambare\nENEX VON POLESKI Avda. Von Poleski esq. Villa Florida Villa Elisa\nENEX LEOPARDI Avda. Marsical Estigarribia esq. Juan Leopardi Fernando de la Mora\nENEX SANTA TERESA Avda. Santa Teresa esq. Tacuary Fernando de la Mora\nENEX LIMPIO RUTA 3 Ruta 3 km 24 Limpio\nENEX SB CENTRO Avda. Marsical Lopez esq. Guillermo Neumann San Bernardino\nENEX ARROYOS Y ESTEROS Ruta 3 Elizardo Aquino km 68 Arroyos y Esteros\nENEX SAN ANTONIO Avda. San Antonio c/ Rio Parapiti San Antonio\nENEX SACRAMENTO Avda. España esq. Avda. Sacramento Asunción\nENEX BRASILIA Avda. Mariscal Lopez esq. Brasilia Asunción\nENEX ARTIGAS Avda. Artigas esq. Solano Lopez Asunción\nENEX FELIX BOGADO Avda. Felix Bogado esq. Madrinas del Chaco Asunción\nENEX BRUNO GUGGIARI Avda. Fernando de la Mora esq. Bruno Guggiari Asunción\nENEX VILLA AURELIA Avda. Mariscal Lopez esq. Tte. Casco Asunción\nENEX ÑEMBY Avda. Manuel Ortiz Guerrero esq. Avda. De la Victoria Ñemby\nENEX CDE AREA 4 Avda. Choferes del Chaco esq. Comuneros CDE\nENEX ACCESO SUR Acceso sur esq. Perpetuo socorro Asunción\nENEX 1ER.PDTE. Avda. Primer presidente esq. Marcelo Onieva Asunción\nENEX B.CABALLERO Avda. Bernardino Caballero esq. Teodoro S Mongelos Asunción\nENEX DEFENSORES Avda. Defensores del Chaco esq. Facundo Candia Fernando de la Mora\nENEX TACUARY Tacuary esq. 2da proyectada Asunción\nENEX CAPIATA Ruta 2 km 25 Capiata\nENEX ENCARNACION Ruta 6, ruta Juan Leon Mallorquin km 2,5 Encarnación\nENEX LUQUE Campo via esq. Republica de Colombia Luque\nhttps://www.sudameris.com.py/beneficios\n\nPAGE 3\n3\nESTACIONES DE SERVICIOS ENEX Y MI APP ENEX\nESTACIONES DE SERVICIOS - MI APP ENEX\nEstaciones MiEnex (APP) Dirección Localidad\nMI APP ENEX 1ER PDTE Avda. Primer presidente esq. Marcelo Onieva Asunción\nMI APP ENEX HERRERA Avda. Perú esq. Herrera Asunción\nMI APP ENEX LILLO Lillo esq. Concejal Vargas Asunción\nMI APP ENEX-DEFENSORES Avda. Defensores del Chaco esq. Facundo Candia Fernando de la Mora\nMI APP ENEX-VON POLESKI Avda. Von Poleski esq. Villa Florida Villa Elisa\nMI APP ENEX-LUQUE CIT Ybyturusu esq. Abdón Caballero Luque\nMI APP ENEX-LUQUE CENTRO Avda. Gral Aquino esq. Alberdi Luque\nMI APP ENEX-ACCESO SUR Acceso sur esq. Perpetuo socorro Asunción\nMI APP ENEX-B.CABALLERO Avda. Bernardino Caballero esq. Teodoro S Mongelos Asunción\nMI APP ENEX - M.DEL CASTILLO Avda. República Argentina esq. Manuel del Castillo Asunción\nMI APP ENEX-TACUARY Tacuary esq. 2da proyectada Asunción\nMI APP ENEX-STA.TERESA Avda. Santa Teresa esq. Tacuary Fernando de la Mora\nMI APP ENEX-GUARAMBARE Ruta 1 km 14 - Acceso Sur Guarambare\nMI APP ENEX - SAN BERNARDINO Avda. Marsical Lopez esq. Guillermo Neumann San Bernardino\nMI APP ENEX - CAPIATA R2 Ruta 2 km 25 Capiata\nMI APP ENEX-ARROYOS Ruta 3 Elizardo Aquino km 68 Arroyos y Esteros\nMI APP ENEX-BRASILIA Avda. Mariscal Lopez esq. Brasilia Asunción\nMI APP ENEX-LEOPARDI Avda. Marsical Estigarribia esq. Juan Leopardi Fernando de la Mora\nMI APP ENEX-SACRAMENTO Avda. España esq. Avda. Sacramento Asunción\nMI APP ENEX - FELIX BOGADO Avda. Felix Bogado esq. Madrinas del Chaco Asunción\nMI APP ENEX-LIMPIO R3 Ruta 3 km 24 Limpio\nMI APP ENEX-SAN ANTONIO Avda. San Antonio c/ Rio Parapiti San Antonio\nMI APP ENEX - BRUNO GUGGIARI Avda. Fernando de la Mora esq. Bruno Guggiari Asunción\nMI APP ENEX - ARTIGAS Avda. Artigas esq. Solano Lopez Asunción\nMI APP ENEX - ÑEMBY MANUEL ORTIZ Avda. Manuel Ortiz Guerrero esq. Avda. De la Victoria\nÑemby\nMI APP ENEX VILLA AURELIA Avda. Mariscal Lopez esq. Tte. Casco\nAsunción\nENEX CDE AREA 4 APP Avda. Choferes del Chaco esq. Comuneros\nCDE\nMI APP ENEX -ENCARNACION Ruta 6, ruta Juan Leon Mallorquin km 2,5\nEncarnación\nMI APP ENEX - LIMPIO PIQUETE Avda. San José esq. 29 de septiembre\nLimpio\nV7. – 02/10/2026\nhttps://www.sudameris.com.py/beneficios",
+    "branch_evidence": "\n2\nESTACIONES DE SERVICIOS ENEX Y APP MI ENEX\nESTACIONES DE SERVICIOS FÍSICAS\nEstaciones Dirección Localidad\nENEX LUQUE CIT Ybyturusu esq. Abdón Caballero Luque\nENEX LUQUE CENTRO Avda. Gral Aquino esq. Alberdi Luque\nENEX LIMPIO Avda. San José esq. 29 de septiembre Limpio\nENEX HERRERA Avda. Perú esq. Herrera Asunción\nENEX MANUEL DEL CASTILLO Avda. República Argentina esq. Manuel del Castillo Asunción\nENEX LILLO Lillo esq. Concejal Vargas Asunción\nENEX GUARAMBARE Ruta 1 km 14 - Acceso Sur Guarambare\nENEX VON POLESKI Avda. Von Poleski esq. Villa Florida Villa Elisa\nENEX LEOPARDI Avda. Marsical Estigarribia esq. Juan Leopardi Fernando de la Mora\nENEX SANTA TERESA Avda. Santa Teresa esq. Tacuary Fernando de la Mora\nENEX LIMPIO RUTA 3 Ruta 3 km 24 Limpio\nENEX SB CENTRO Avda. Marsical Lopez esq. Guillermo Neumann San Bernardino\nENEX ARROYOS Y ESTEROS Ruta 3 Elizardo Aquino km 68 Arroyos y Esteros\nENEX SAN ANTONIO Avda. San Antonio c/ Rio Parapiti San Antonio\nENEX SACRAMENTO Avda. España esq. Avda. Sacramento Asunción\nENEX BRASILIA Avda. Mariscal Lopez esq. Brasilia Asunción\nENEX ARTIGAS Avda. Artigas esq. Solano Lopez Asunción\nENEX FELIX BOGADO Avda. Felix Bogado esq. Madrinas del Chaco Asunción\nENEX BRUNO GUGGIARI Avda. Fernando de la Mora esq. Bruno Guggiari Asunción\nENEX VILLA AURELIA Avda. Mariscal Lopez esq. Tte. Casco Asunción\nENEX ÑEMBY Avda. Manuel Ortiz Guerrero esq. Avda. De la Victoria Ñemby\nENEX CDE AREA 4 Avda. Choferes del Chaco esq. Comuneros CDE\nENEX ACCESO SUR Acceso sur esq. Perpetuo socorro Asunción\nENEX 1ER.PDTE. Avda. Primer presidente esq. Marcelo Onieva Asunción\nENEX B.CABALLERO Avda. Bernardino Caballero esq. Teodoro S Mongelos Asunción\nENEX DEFENSORES Avda. Defensores del Chaco esq. Facundo Candia Fernando de la Mora\nENEX TACUARY Tacuary esq. 2da proyectada Asunción\nENEX CAPIATA Ruta 2 km 25 Capiata\nENEX ENCARNACION Ruta 6, ruta Juan Leon Mallorquin km 2,5 Encarnación\nENEX LUQUE Campo via esq. Republica de Colombia Luque\nhttps://www.sudameris.com.py/beneficios\n\nPAGE 3\n3\nESTACIONES DE SERVICIOS ENEX Y MI APP ENEX\nESTACIONES DE SERVICIOS - MI APP ENEX\nEstaciones MiEnex (APP) Dirección Localidad\nMI APP ENEX 1ER PDTE Avda. Primer presidente esq. Marcelo Onieva Asunción\nMI APP ENEX HERRERA Avda. Perú esq. Herrera Asunción\nMI APP ENEX LILLO Lillo esq. Concejal Vargas Asunción\nMI APP ENEX-DEFENSORES Avda. Defensores del Chaco esq. Facundo Candia Fernando de la Mora\nMI APP ENEX-VON POLESKI Avda. Von Poleski esq. Villa Florida Villa Elisa\nMI APP ENEX-LUQUE CIT Ybyturusu esq. Abdón Caballero Luque\nMI APP ENEX-LUQUE CENTRO Avda. Gral Aquino esq. Alberdi Luque\nMI APP ENEX-ACCESO SUR Acceso sur esq. Perpetuo socorro Asunción\nMI APP ENEX-B.CABALLERO Avda. Bernardino Caballero esq. Teodoro S Mongelos Asunción\nMI APP ENEX - M.DEL CASTILLO Avda. República Argentina esq. Manuel del Castillo Asunción\nMI APP ENEX-TACUARY Tacuary esq. 2da proyectada Asunción\nMI APP ENEX-STA.TERESA Avda. Santa Teresa esq. Tacuary Fernando de la Mora\nMI APP ENEX-GUARAMBARE Ruta 1 km 14 - Acceso Sur Guarambare\nMI APP ENEX - SAN BERNARDINO Avda. Marsical Lopez esq. Guillermo Neumann San Bernardino\nMI APP ENEX - CAPIATA R2 Ruta 2 km 25 Capiata\nMI APP ENEX-ARROYOS Ruta 3 Elizardo Aquino km 68 Arroyos y Esteros\nMI APP ENEX-BRASILIA Avda. Mariscal Lopez esq. Brasilia Asunción\nMI APP ENEX-LEOPARDI Avda. Marsical Estigarribia esq. Juan Leopardi Fernando de la Mora\nMI APP ENEX-SACRAMENTO Avda. España esq. Avda. Sacramento Asunción\nMI APP ENEX - FELIX BOGADO Avda. Felix Bogado esq. Madrinas del Chaco Asunción\nMI APP ENEX-LIMPIO R3 Ruta 3 km 24 Limpio\nMI APP ENEX-SAN ANTONIO Avda. San Antonio c/ Rio Parapiti San Antonio\nMI APP ENEX - BRUNO GUGGIARI Avda. Fernando de la Mora esq. Bruno Guggiari Asunción\nMI APP ENEX - ARTIGAS Avda. Artigas esq. Solano Lopez Asunción\nMI APP ENEX - ÑEMBY MANUEL ORTIZ Avda. Manuel Ortiz Guerrero esq. Avda. De la Victoria\nÑemby\nMI APP ENEX VILLA AURELIA Avda. Mariscal Lopez esq. Tte. Casco\nAsunción\nENEX CDE AREA 4 APP Avda. Choferes del Chaco esq. Comuneros\nCDE\nMI APP ENEX -ENCARNACION Ruta 6, ruta Juan Leon Mallorquin km 2,5\nEncarnación\nMI APP ENEX - LIMPIO PIQUETE Avda. San José esq. 29 de septiembre\nLimpio\nV7. – 02/10/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a5795c51477d763648664/bc-rubros12csi-20126.pdf",
+    "sha256": "7d0ea65acd2548d2283efd1a093748295563f393f466fecf4e73ede775bcd38f",
+    "merchant": "12 cuotas sin interés",
+    "category": "Otros",
+    "start": "2026-01-01",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "Sin tope de compra mensual.",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés en rubros adheridos",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "• Aplica en los rubros: Bicicleterías; Clubes; Colegios y Universidades; Ecommerce; Electrónica; Hogar; Impuestos municipales; Joyerías y Relojerías; Ópticas; Salud y Belleza; Talleres; Viajes y Hoteles. • Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. • Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. • El pago de impuestos municipales aplica únicamente a pagos realizados de manera presencial en caja del municipio correspondiente • El fraccionamiento en cuotas se debe solicitar al momento de la compra en caja del comercio. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 40,
+    "original_conditions": "\n• Tope de compra mensual por cuenta de tarjeta de crédito: Sin Tope.\n• Aplica en los rubros: Bicicleterías; Clubes; Colegios y Universidades; Ecommerce; Electrónica; Hogar; Impuestos\nmunicipales; Joyerías y Relojerías; Ópticas; Salud y Belleza; Talleres; Viajes y Hoteles.\n• Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A.\n• Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\n• El pago de impuestos municipales aplica únicamente a pagos realizados de manera presencial en caja del municipio\ncorrespondiente\n• El fraccionamiento en cuotas se debe solicitar al momento de la compra en caja del comercio.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nEmpresariales.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\nV1. – 20/01/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a57905e2f151885832210/byc%20catedral.pdf",
+    "sha256": "996e8a18c3a1d12585dd8ae2c97f913d65fab23da31ce61e425f554f8e95c0ef",
+    "merchant": "Catedral",
+    "category": "Farmacias",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "day": "Lunes",
+    "cap": "",
+    "offers": [
+      [
+        "general",
+        "Hasta 25% de descuento en caja en todos los productos",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "national",
+        "25% de descuento en caja en medicamentos nacionales y preparados magistrales",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "imported",
+        "20% de descuento en caja en medicamentos importados o nacionales con tratamientos importados",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "refund",
+        "10% de reintegro adicional solo el último lunes de cada mes",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "• El reintegro aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. • Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 41,
+    "offer_overrides": {
+      "refund": {
+        "day": "Último lunes de cada mes",
+        "cap": "Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 1.000.000."
+      }
+    },
+    "original_conditions": "\n• Para reintegro: Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 1.000.000.\n• El reintegro aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A.\n• Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nEmpresariales.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\nV1. –01/07/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a578654301b5024504743/ByC%20Luisito%202026.pdf",
+    "sha256": "08ab159652502de2bcec591ef5fed6ea4260a6e2447abba15595f1b28e7e6341",
+    "merchant": "LUISITO",
+    "category": "Supermercados",
+    "start": "2026-05-26",
+    "end": "2026-11-30",
+    "day": "Martes",
+    "cap": "Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 1.000.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "• Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. • Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 42,
+    "original_conditions": "\n• Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 1.000.000.\n• Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A.\n• Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nEmpresariales.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\nV1. – 26/05/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b54487772656136628/bc-copemarket-julio26v2.pdf",
+    "sha256": "c159618fda931644ace7525ef648d2e02f029d80bba85bab7b924190fc8a1d09",
+    "merchant": "Copemarket",
+    "category": "Supermercados",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 500.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro en locales adheridos",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "premium",
+        "25% de reintegro en locales adheridos",
+        "Tarjetas de crédito Mastercard Black y Visa Infinite Sudameris"
+      ]
+    ],
+    "conditions": "• Aplica a compras realizadas únicamente con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A, en los comercios más abajo establecidos (ver cuadros más abajo). • Promoción válida única y exclusivamente para compras realizadas vía POS/V-POS de la Red Infonet (Bancard), para pagos con tarjeta de crédito presente (plástico físico), QR y/o billeteras digitales en los locales adheridos a la promoción (Ver listado abajo). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 43,
+    "branch_evidence_pages": [
+      2
+    ],
+    "source_note": "Página 2 conserva encabezado COPEMARKET 2025, pero página 1 vigencia2026 y pie V2 07/10/2026; no inferir vencimiento por encabezado de lista.",
+    "original_conditions": "\n• Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 500.000.\n• Aplica a compras realizadas únicamente con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A, en los\ncomercios más abajo establecidos (ver cuadros más abajo).\n• Promoción válida única y exclusivamente para compras realizadas vía POS/V-POS de la Red Infonet (Bancard), para\npagos con tarjeta de crédito presente (plástico físico), QR y/o billeteras digitales en los locales adheridos a la promoción\n(Ver listado abajo).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nEmpresariales/Corporativas.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\nhttps://www.sudameris.com.py/beneficios\n\nPAGE 2\n2\nCOPEMARKET 2025\nLOCALES ADHERIDOS\nLOCALES DIRECCIÓN CIUDAD DEPARTAMENTO\nCOPEMARKET - 25 DE MAYO AV. 25 DE MAYO C/ CHOFERES DEL CHACO ASUNCIÓN CENTRAL\nCOPEMARKET DELI -VILLA MORRA AV. MCAL. LOPEZ Y SAN MARTIN ASUNCIÓN CENTRAL\nCOPEMARKET FULL - FACUNDO FACUNDO MACHAIN E/ RI18 PITIANTUTA ASUNCIÓN CENTRAL\nCOPEMARKET FULL - FERROCARRIL AV MCAL LOPEZ E/ MEXICO ASUNCIÓN CENTRAL\nCOPEMARKET FULL - MAITEI AV. M.LYNCH Y TTE. VICTOR VALDEZ ASUNCIÓN CENTRAL\nCOPEMARKET FULL -KM2 Av. EUSEBIO AYALA E/ BARTOLOMÉ DE LAS CASAS ASUNCIÓN CENTRAL\nCOPEMARKET FULL - AUTOPISTA AV.SILVIO PETTIROSSI Y COCHABAMBA LUQUE CENTRAL\nCOPEMARKET FULL - ECOMMERCE www.copefull.com.py LUQUE CENTRAL\nCOPEMARKET FULL - RUTA 1 KM14 RUTA PY01 E/ BUENOS AIRES S. LORENZO CENTRAL\nV2. – 07/10/2026\nhttps://www.sudameris.com.py/beneficios",
+    "branch_evidence": "\n2\nCOPEMARKET 2025\nLOCALES ADHERIDOS\nLOCALES DIRECCIÓN CIUDAD DEPARTAMENTO\nCOPEMARKET - 25 DE MAYO AV. 25 DE MAYO C/ CHOFERES DEL CHACO ASUNCIÓN CENTRAL\nCOPEMARKET DELI -VILLA MORRA AV. MCAL. LOPEZ Y SAN MARTIN ASUNCIÓN CENTRAL\nCOPEMARKET FULL - FACUNDO FACUNDO MACHAIN E/ RI18 PITIANTUTA ASUNCIÓN CENTRAL\nCOPEMARKET FULL - FERROCARRIL AV MCAL LOPEZ E/ MEXICO ASUNCIÓN CENTRAL\nCOPEMARKET FULL - MAITEI AV. M.LYNCH Y TTE. VICTOR VALDEZ ASUNCIÓN CENTRAL\nCOPEMARKET FULL -KM2 Av. EUSEBIO AYALA E/ BARTOLOMÉ DE LAS CASAS ASUNCIÓN CENTRAL\nCOPEMARKET FULL - AUTOPISTA AV.SILVIO PETTIROSSI Y COCHABAMBA LUQUE CENTRAL\nCOPEMARKET FULL - ECOMMERCE www.copefull.com.py LUQUE CENTRAL\nCOPEMARKET FULL - RUTA 1 KM14 RUTA PY01 E/ BUENOS AIRES S. LORENZO CENTRAL\nV2. – 07/10/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a578c739e91b249405103/byc%20farmacenter.pdf",
+    "sha256": "82be10e2f3388eed2b2131d323f73f5496cc4cfaf49fb37a28a1714181f81bfb",
+    "merchant": "FARMACENTER",
+    "category": "Farmacias",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "day": "Primer miércoles de cada mes",
+    "cap": "",
+    "offers": [
+      [
+        "discount",
+        "20% de descuento en caja en todos los productos",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "refund",
+        "10% de reintegro adicional",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "• El reintegro aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. • Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 44,
+    "offer_overrides": {
+      "refund": {
+        "cap": "Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 1.000.000."
+      }
+    },
+    "original_conditions": "\n• Para reintegro: Tope de compra mensual por cuenta de tarjeta de crédito: Gs. 1.000.000.\n• El reintegro aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A.\n• Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nEmpresariales.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\nV1. –01/07/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "merchant": "Copetrol",
+    "category": "Combustible",
+    "start": "2026-07-01",
+    "end": "2026-12-31",
+    "day": "15 de cada mes",
+    "cap": "Tope de compra mensual único compartido entre estaciones físicas y APP por cuenta de tarjeta de crédito: Gs. 600.000.",
+    "offers": [
+      [
+        "base",
+        "20% de reintegro en estaciones y App VAMOS adheridas",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "• Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. • Promoción válida única y exclusivamente para compras realizadas vía POS/V-POS de la Red Infonet (Bancard), para pagos con tarjeta de crédito presente (plástico físico), QR y/o billeteras digitales en Estaciones de Servicios “COPETROL” y la App “VAMOS”, adheridas a la promoción (Ver listado abajo). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales/Corporativas. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official PDF text reviewed with pdfplumber; image-only content visually reviewed where noted.",
+    "source_index": 45,
+    "branch_evidence_pages": [
+      2,
+      3
+    ],
+    "original_conditions": "\n• Tope de compra mensual único (Estaciones Físicas y APP) por cuenta de tarjeta de crédito: Gs. 600.000.\n• Aplica a compras realizadas con tarjetas de crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A.\n• Promoción válida única y exclusivamente para compras realizadas vía POS/V-POS de la Red Infonet (Bancard), para\npagos con tarjeta de crédito presente (plástico físico), QR y/o billeteras digitales en Estaciones de Servicios “COPETROL”\ny la App “VAMOS”, adheridas a la promoción (Ver listado abajo).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nEmpresariales/Corporativas.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\nhttps://www.sudameris.com.py/beneficios\n\nPAGE 2\n2\nCOPETROL 2026\nESTACIONES DE SERVICIOS FÍSICAS\nESTACIONES FÍSICAS DIRECCIÓN CIUDAD DEPARTAMENTO\nCOPETROL - CDE KM.6,5 BLAS GARAY Y MONSEÑOR RODRIGUEZ C. DEL ESTE ALTO PARANÁ\nGONZALEZ RECALDE, ANGEL CELESTINO SAN BLAS (RUTA 7, KM. 5) C. DEL ESTE ALTO PARANÁ\nARKON GROUP S.A. (SANTA RITA) DESVÍO A CRUCE CERRO LARGO (RUTA 6, KM. 47) S. RITA ALTO PARANÁ\n25 DE MAYO AVDA. 25 DE MAYO ESQ. CHOFERES DEL CHACO ASUNCIÓN CENTRAL\nCOPETROL - BOTANICO AV. 1° PRESIDENTE E/ YRENDAGUE ASUNCIÓN CENTRAL\nCOPETROL - COLON COLON E/ GRAL DIAZ ASUNCIÓN CENTRAL\nCOPETROL - FACUNDO FACUNDO MACHAIN E/ RI18 ASUNCIÓN CENTRAL\nCOPETROL - FERROCARRIL AV MCAL LOPEZ E/ MEXICO ASUNCIÓN CENTRAL\nCOPETROL - MAITEI AV. M.LINCH Y TTE. VICTOR VALDEZ ASUNCIÓN CENTRAL\nCOPETROL - MCAL. LÓPEZ AVDA. MCAL. LÓPEZ Y MADAME LYNCH ASUNCIÓN CENTRAL\nCOPETROL -KM2 AV. EUSEBIO AYALA E/ BARTOLOME ASUNCIÓN CENTRAL\nCOPETROL -VILLA MORRA AV. MCAL. LOPEZ Y SAN MARTIN ASUNCIÓN CENTRAL\nROJAS, WENCESLAO (EUSEBIO AYALA) EUSEBIO AYALA Y BERNARDINO CABALLERO ASUNCIÓN CENTRAL\nROJAS, WENCESLAO (LILLO) EUSEBIO LILLO Y CAPITÁN EMETERIO MIRANDA ASUNCIÓN CENTRAL\nCOPETROL - MUNDO AV. MCAL. LOPEZ E INGAVI F. DE LA MORA CENTRAL\nSCHWEISS RUIZ, EDGAR RODOLFO MADAME LYNCH Y BERNARDINO CABALLERO F. DE LA MORA CENTRAL\nITAUGUA II RUTA MCAL. JOSÉ FÉLIX ESTIGARRIBIA C/ GRAL. DELGADO ITAUGUÁ CENTRAL\nCOPETROL - AUTOPISTA AV.SILVIO PETTIROSSI Y COCHABAMBA LUQUE CENTRAL\nCOPETROL - LUQUE 2 AV CORRALES E/ CAMBORIU LUQUE CENTRAL\nSAGRADA FAMILIA S.R.L. (4TO BARRIO) LIBERTADOR DE AMÉRICA Y FELIPE GONZALEZ LUQUE CENTRAL\nSAGRADA FAMILIA S.R.L. (FLORESTA) CAPITÁN ANDRÉS INSFRAN Y FLORESTA LUQUE CENTRAL\nSCHWEISS RUIZ, EDGAR RODOLFO (LUQUE) GRAL. MANUEL BRITEZ BORGES Y LA VICTORIA LUQUE CENTRAL\nCOPETROL- MARIANO RUTA TRANSCHACO E/ CNEL IRRAZABAL MRA CENTRAL\nCOPETROL - ÑEMBY RUTA 1 ESQ. EDUARDO VASCONSELLOS ÑEMBY CENTRAL\nCOPETROL - KM.11 RUTA PY02 KM11 C/ AVELINO M. S. LORENZO CENTRAL\nCOPETROL - RUTA 1 KM14 RUTA PY01 E/ BUENOS AIRES S. LORENZO CENTRAL\nSAGRADA FAMILIA S.R.L. GRAL. EUGENIO ALEJANDRINO GARAY S. LORENZO CENTRAL\nVIENTOS DEL CHACO S.A. AVDA. GASPAR RODRIGUEZ DE FRANCIA Y 14 DE MAYO S. LORENZO CENTRAL\nCOPETROL - YPACARAI RUTA PY02 KM 37 YPACARAI CENTRAL\nCOPETROL - SANBER AV GUILLERMO MAUMAN KM 45,5 (Acceso desde ruta 2) S. BERNARDINO CORDILLERA\nNEUMATEC S.A. RUTA PARAGUARÍ - VILLARRICA Y RUTA 8, DR. BLAS GARAY VILLARRICA GUAIRÁ\nDM S.R.L. RUTA 6, KM. 50 B. VISTA SUR ITAPÚA\nCOPETROL - ENC RUTA 1 RUTA 1 KM 374 - AVDA. BERNARDINO CABALLERO ENCARNACIÓN ITAPÚA\nCOPETROL - IRRAZABAL AVDA. IRRAZABAL ESQ CURUPAYTY ENCARNACIÓN ITAPÚA\nDM S.R.L. (HOHENAU) RUTA 6, KM. 35 HOHENAU ITAPÚA\nCOPETROL - PARAGUARÍ RUTA I KM. 65 DESVÍO VILLARRICA PARAGUARÍ PARAGUARÍ\nTACUARA DESVÍO A TACUARA SANTANI KM 175 SANTANÍ SAN PEDRO\nLIMPIO 2 (desde el 01.04.2026) RUTA III Gral. Aquino Km 21,5 LIMPIO CENTRAL\nhttps://www.sudameris.com.py/beneficios\n\nPAGE 3\n3\nCOPETROL 2026\nAPP COPETROL VAMOS\nAPP COPETROL DIRECCIÓN CIUDAD DEPARTAMENTO\nCOPETROL - CDE KM.6,5 BLAS GARAY Y MONSEÑOR RODRIGUEZ C. DEL ESTE ALTO PARANÁ\n25 DE MAYO AVDA. 25 DE MAYO ESQ. CHOFERES DEL CHACO ASUNCIÓN CENTRAL\nCOPETROL - BOTANICO AV. 1° PRESIDENTE E/ YRENDAGUE ASUNCIÓN CENTRAL\nCOPETROL - COLON COLON E/ GRAL DIAZ ASUNCIÓN CENTRAL\nCOPETROL - FACUNDO FACUNDO MACHAIN E/ RI18 ASUNCIÓN CENTRAL\nCOPETROL - FERROCARRIL AV MCAL LOPEZ E/ MEXICO ASUNCIÓN CENTRAL\nCOPETROL - MAITEI AV. M.LINCH Y TTE. VICTOR VALDEZ ASUNCIÓN CENTRAL\nCOPETROL - MCAL. LÓPEZ AVDA. MCAL. LÓPEZ Y MADAME LYNCH ASUNCIÓN CENTRAL\nCOPETROL -KM2 AV. EUSEBIO AYALA E/ BARTOLOME ASUNCIÓN CENTRAL\nCOPETROL -VILLA MORRA AV. MCAL. LOPEZ Y SAN MARTIN ASUNCIÓN CENTRAL\nCOPETROL - MUNDO AV. MCAL. LOPEZ E INGAVI F. DE LA MORA CENTRAL\nSCHWEISS RUIZ, EDGAR RODOLFO MADAME LYNCH Y BERNARDINO CABALLERO F. DE LA MORA CENTRAL\nITAUGUA II RUTA MCAL. JOSÉ FÉLIX ESTIGARRIBIA C/ GRAL. DELGADO ITAUGUA CENTRAL\nCOPETROL - AUTOPISTA AV.SILVIO PETTIROSSI Y COCHABAMBA LUQUE CENTRAL\nCOPETROL - LUQUE 2 AV CORRALES E/ CAMBORIU LUQUE CENTRAL\nSCHWEISS RUIZ, EDGAR RODOLFO GRAL. MANUEL BRITEZ BORGES Y LA VICTORIA LUQUE CENTRAL\nCOPETROL- MARIANO RUTA TRANSCHACO E/ CNEL IRRAZABAL MRA CENTRAL\nCOPETROL - ÑEMBY RUTA 1 ESQ. EDUARDO VASCONSELLOS ÑEMBY CENTRAL\nCOPETROL - KM.11 RUTA PY02 KM11 C/ AVELINO M. S. LORENZO CENTRAL\nCOPETROL - RUTA 1 KM14 RUTA PY01 E/ BUENOS AIRES S. LORENZO CENTRAL\nCOPETROL - YPACARAI RUTA PY02 KM 37 YPACARAI CENTRAL\nCOPETROL - SANBER AV GUILLERMO MAUMAN KM 45,5 (acceso desde ruta 2) S. BERNARDINO CORDILLERA\nCOPETROL - ENC RUTA 1 RUTA 1 KM 374 - AVDA. BERNARDINO CABALLERO ENCARNACIÓN ITAPÚA\nCOPETROL - IRRAZABAL AVDA. IRRAZABAL ESQ CURUPAYTY ENCARNACIÓN ITAPÚA\nCOPETROL - PARAGUARÍ RUTA I KM. 65 DESVÍO VILLARRICA PARAGUARÍ PARAGUARÍ\nTACUARA DESVÍO A TACUARA SANTANI KM 175 SANTANÍ SAN PEDRO\nLIMPIO 2 (desde el 01.04.2026) RUTA III Gral. Aquino Km 21,5 LIMPIO CENTRAL\nV2. – 07/10/2026\nhttps://www.sudameris.com.py/beneficios",
+    "branch_evidence": "\n2\nCOPETROL 2026\nESTACIONES DE SERVICIOS FÍSICAS\nESTACIONES FÍSICAS DIRECCIÓN CIUDAD DEPARTAMENTO\nCOPETROL - CDE KM.6,5 BLAS GARAY Y MONSEÑOR RODRIGUEZ C. DEL ESTE ALTO PARANÁ\nGONZALEZ RECALDE, ANGEL CELESTINO SAN BLAS (RUTA 7, KM. 5) C. DEL ESTE ALTO PARANÁ\nARKON GROUP S.A. (SANTA RITA) DESVÍO A CRUCE CERRO LARGO (RUTA 6, KM. 47) S. RITA ALTO PARANÁ\n25 DE MAYO AVDA. 25 DE MAYO ESQ. CHOFERES DEL CHACO ASUNCIÓN CENTRAL\nCOPETROL - BOTANICO AV. 1° PRESIDENTE E/ YRENDAGUE ASUNCIÓN CENTRAL\nCOPETROL - COLON COLON E/ GRAL DIAZ ASUNCIÓN CENTRAL\nCOPETROL - FACUNDO FACUNDO MACHAIN E/ RI18 ASUNCIÓN CENTRAL\nCOPETROL - FERROCARRIL AV MCAL LOPEZ E/ MEXICO ASUNCIÓN CENTRAL\nCOPETROL - MAITEI AV. M.LINCH Y TTE. VICTOR VALDEZ ASUNCIÓN CENTRAL\nCOPETROL - MCAL. LÓPEZ AVDA. MCAL. LÓPEZ Y MADAME LYNCH ASUNCIÓN CENTRAL\nCOPETROL -KM2 AV. EUSEBIO AYALA E/ BARTOLOME ASUNCIÓN CENTRAL\nCOPETROL -VILLA MORRA AV. MCAL. LOPEZ Y SAN MARTIN ASUNCIÓN CENTRAL\nROJAS, WENCESLAO (EUSEBIO AYALA) EUSEBIO AYALA Y BERNARDINO CABALLERO ASUNCIÓN CENTRAL\nROJAS, WENCESLAO (LILLO) EUSEBIO LILLO Y CAPITÁN EMETERIO MIRANDA ASUNCIÓN CENTRAL\nCOPETROL - MUNDO AV. MCAL. LOPEZ E INGAVI F. DE LA MORA CENTRAL\nSCHWEISS RUIZ, EDGAR RODOLFO MADAME LYNCH Y BERNARDINO CABALLERO F. DE LA MORA CENTRAL\nITAUGUA II RUTA MCAL. JOSÉ FÉLIX ESTIGARRIBIA C/ GRAL. DELGADO ITAUGUÁ CENTRAL\nCOPETROL - AUTOPISTA AV.SILVIO PETTIROSSI Y COCHABAMBA LUQUE CENTRAL\nCOPETROL - LUQUE 2 AV CORRALES E/ CAMBORIU LUQUE CENTRAL\nSAGRADA FAMILIA S.R.L. (4TO BARRIO) LIBERTADOR DE AMÉRICA Y FELIPE GONZALEZ LUQUE CENTRAL\nSAGRADA FAMILIA S.R.L. (FLORESTA) CAPITÁN ANDRÉS INSFRAN Y FLORESTA LUQUE CENTRAL\nSCHWEISS RUIZ, EDGAR RODOLFO (LUQUE) GRAL. MANUEL BRITEZ BORGES Y LA VICTORIA LUQUE CENTRAL\nCOPETROL- MARIANO RUTA TRANSCHACO E/ CNEL IRRAZABAL MRA CENTRAL\nCOPETROL - ÑEMBY RUTA 1 ESQ. EDUARDO VASCONSELLOS ÑEMBY CENTRAL\nCOPETROL - KM.11 RUTA PY02 KM11 C/ AVELINO M. S. LORENZO CENTRAL\nCOPETROL - RUTA 1 KM14 RUTA PY01 E/ BUENOS AIRES S. LORENZO CENTRAL\nSAGRADA FAMILIA S.R.L. GRAL. EUGENIO ALEJANDRINO GARAY S. LORENZO CENTRAL\nVIENTOS DEL CHACO S.A. AVDA. GASPAR RODRIGUEZ DE FRANCIA Y 14 DE MAYO S. LORENZO CENTRAL\nCOPETROL - YPACARAI RUTA PY02 KM 37 YPACARAI CENTRAL\nCOPETROL - SANBER AV GUILLERMO MAUMAN KM 45,5 (Acceso desde ruta 2) S. BERNARDINO CORDILLERA\nNEUMATEC S.A. RUTA PARAGUARÍ - VILLARRICA Y RUTA 8, DR. BLAS GARAY VILLARRICA GUAIRÁ\nDM S.R.L. RUTA 6, KM. 50 B. VISTA SUR ITAPÚA\nCOPETROL - ENC RUTA 1 RUTA 1 KM 374 - AVDA. BERNARDINO CABALLERO ENCARNACIÓN ITAPÚA\nCOPETROL - IRRAZABAL AVDA. IRRAZABAL ESQ CURUPAYTY ENCARNACIÓN ITAPÚA\nDM S.R.L. (HOHENAU) RUTA 6, KM. 35 HOHENAU ITAPÚA\nCOPETROL - PARAGUARÍ RUTA I KM. 65 DESVÍO VILLARRICA PARAGUARÍ PARAGUARÍ\nTACUARA DESVÍO A TACUARA SANTANI KM 175 SANTANÍ SAN PEDRO\nLIMPIO 2 (desde el 01.04.2026) RUTA III Gral. Aquino Km 21,5 LIMPIO CENTRAL\nhttps://www.sudameris.com.py/beneficios\n\nPAGE 3\n3\nCOPETROL 2026\nAPP COPETROL VAMOS\nAPP COPETROL DIRECCIÓN CIUDAD DEPARTAMENTO\nCOPETROL - CDE KM.6,5 BLAS GARAY Y MONSEÑOR RODRIGUEZ C. DEL ESTE ALTO PARANÁ\n25 DE MAYO AVDA. 25 DE MAYO ESQ. CHOFERES DEL CHACO ASUNCIÓN CENTRAL\nCOPETROL - BOTANICO AV. 1° PRESIDENTE E/ YRENDAGUE ASUNCIÓN CENTRAL\nCOPETROL - COLON COLON E/ GRAL DIAZ ASUNCIÓN CENTRAL\nCOPETROL - FACUNDO FACUNDO MACHAIN E/ RI18 ASUNCIÓN CENTRAL\nCOPETROL - FERROCARRIL AV MCAL LOPEZ E/ MEXICO ASUNCIÓN CENTRAL\nCOPETROL - MAITEI AV. M.LINCH Y TTE. VICTOR VALDEZ ASUNCIÓN CENTRAL\nCOPETROL - MCAL. LÓPEZ AVDA. MCAL. LÓPEZ Y MADAME LYNCH ASUNCIÓN CENTRAL\nCOPETROL -KM2 AV. EUSEBIO AYALA E/ BARTOLOME ASUNCIÓN CENTRAL\nCOPETROL -VILLA MORRA AV. MCAL. LOPEZ Y SAN MARTIN ASUNCIÓN CENTRAL\nCOPETROL - MUNDO AV. MCAL. LOPEZ E INGAVI F. DE LA MORA CENTRAL\nSCHWEISS RUIZ, EDGAR RODOLFO MADAME LYNCH Y BERNARDINO CABALLERO F. DE LA MORA CENTRAL\nITAUGUA II RUTA MCAL. JOSÉ FÉLIX ESTIGARRIBIA C/ GRAL. DELGADO ITAUGUA CENTRAL\nCOPETROL - AUTOPISTA AV.SILVIO PETTIROSSI Y COCHABAMBA LUQUE CENTRAL\nCOPETROL - LUQUE 2 AV CORRALES E/ CAMBORIU LUQUE CENTRAL\nSCHWEISS RUIZ, EDGAR RODOLFO GRAL. MANUEL BRITEZ BORGES Y LA VICTORIA LUQUE CENTRAL\nCOPETROL- MARIANO RUTA TRANSCHACO E/ CNEL IRRAZABAL MRA CENTRAL\nCOPETROL - ÑEMBY RUTA 1 ESQ. EDUARDO VASCONSELLOS ÑEMBY CENTRAL\nCOPETROL - KM.11 RUTA PY02 KM11 C/ AVELINO M. S. LORENZO CENTRAL\nCOPETROL - RUTA 1 KM14 RUTA PY01 E/ BUENOS AIRES S. LORENZO CENTRAL\nCOPETROL - YPACARAI RUTA PY02 KM 37 YPACARAI CENTRAL\nCOPETROL - SANBER AV GUILLERMO MAUMAN KM 45,5 (acceso desde ruta 2) S. BERNARDINO CORDILLERA\nCOPETROL - ENC RUTA 1 RUTA 1 KM 374 - AVDA. BERNARDINO CABALLERO ENCARNACIÓN ITAPÚA\nCOPETROL - IRRAZABAL AVDA. IRRAZABAL ESQ CURUPAYTY ENCARNACIÓN ITAPÚA\nCOPETROL - PARAGUARÍ RUTA I KM. 65 DESVÍO VILLARRICA PARAGUARÍ PARAGUARÍ\nTACUARA DESVÍO A TACUARA SANTANI KM 175 SANTANÍ SAN PEDRO\nLIMPIO 2 (desde el 01.04.2026) RUTA III Gral. Aquino Km 21,5 LIMPIO CENTRAL\nV2. – 07/10/2026\nhttps://www.sudameris.com.py/beneficios"
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "DAMAT",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "PENTI",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "PANCO",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "PUMA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "PIMA COTTON BY CUNA BELLA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "NIKE",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "ADIDAS",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "ADIDAS ORIGINAL",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "ACADEMY",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "VANS",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "360",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "APHRODITE",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "UZA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "OPTICA VISION",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "WORLD VESTIUM",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "RONDINA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "BERTONI",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "CHAMPS ELYSEES",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "LEVIS",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "SAISHA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "MARIA LA PAZ",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "COOTCHY COO",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "ESTOY JUGUETERIA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "HEY DUDE",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "CROCS",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "COLE HAAN",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "NEW BALANCE",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "TODOMODA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "ISADORA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "THE VITAMIN SHOPPE",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "CULTURAL REFERENCE",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "DISTRITO STORE",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "MARKETPLACE",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "EL LECTOR",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "CHRONOS",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "LE PARFUM",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "MAESTRO",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "PAPYRUM",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "PARADISO",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "EL MERCADILLO ALMACEN DE BOTELLAS",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "JOSEFINA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "SUEÑOLAR",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "PILAR",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "MAYBELLINE",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "PRUNE",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "TOBOGAN/CHICCO",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "TRANQUERA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "MUAR",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "NISSEI",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "ADOLFO DOMINGUEZ",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "RAPSODIA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "CARO CUORE",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "OPTICA UNO",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "FILA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "QUIKSILVER",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "NEW ERA",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "SAX",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+    "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007",
+    "merchant": "JANIE AND JACK",
+    "category": "Comercios",
+    "start": "2026-08-03",
+    "end": "2026-12-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés exclusivamente en el local de Distrito Perseverancia",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": "Exclusivamente en tiendas participantes dentro de Distrito Perseverancia. Pago vía POS Bancard (Red Infonet). Solicitar el fraccionamiento en cuotas al momento de la compra en caja. Excluye tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes o plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. No aplica a compras en páginas web del comercio.",
+    "branch": "Distrito Perseverancia",
+    "reviewed_at": "2026-10-17",
+    "review_method": "Both official PDF pages visually reviewed; page1 image-only. Page2 lists58 merchants (29percolumn). V1 03/08/2026.",
+    "source_index": 29
+  },
+  {
+    "pdf": "https://www.sudameris.com.py/descargas/documentos/6a5943193c798336930671/bc-clubconcepcion-1902.pdf",
+    "sha256": "a5ae659aee38a7a32a690462e016f8ccad08839a0412265a7d54b4b56321f81f",
+    "merchant": "Club Concepción",
+    "category": "Clubes",
+    "start": "",
+    "end": "2028-08-31",
+    "day": "Todos los días",
+    "cap": "",
+    "offers": [
+      [
+        "restaurant",
+        "20% de reintegro en el restaurante del club",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "autodebit",
+        "10% de reintegro exclusivo para pagos vía débito automático",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      [
+        "financing",
+        "Hasta 12 cuotas sin interés",
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ]
+    ],
+    "conditions": " • Aplica exclusivamente compras con tarjetas de Crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A. • Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet). • Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el comercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente deberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción. • Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente durante el día de la compra reclamada. EXCLUSIONES • Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Corporativas/Empresariales. • No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).",
+    "original_conditions": "PAGE 1\n1\nCLUB CONCEPCIÓN\nVIGENCIA\n• Todos los días desde el 9 de septiembre al 31 de agosto del 2028.\n• Todos los días desde el 31 de octubre al 31 de agosto del 2028 del débito automático del club.\nBENEFICIOS\n• 20% de reintegro en el restaurante del club, pagando con tarjetas de crédito de Sudameris.\n• Hasta 12 cuotas sin interés.\n• 10% de reintegro exclusivo para pagos vía débito automático con tarjetas de crédito de Sudameris.\nCONDICIONES\n• Tope de compra mensual por cuenta de tarjeta GS 300.000 para el restaurante del club.\n• Tope de pago mensual por cuenta de TC: GS 570.000 para el débito automático.\n• Tope de pago mensual para el pago adelantado de las 12 cuotas sociales 4.800.000 Gs\n• Aplica exclusivamente compras con tarjetas de Crédito MasterCard y Visa de Sudameris Bank S.A.E.C.A.\n• Promoción válida única y exclusivamente para compras realizadas vía POS de Bancard (Red Infonet).\n• Las bases y condiciones están sujetas a modificaciones de acuerdo con las posibles variaciones del acuerdo con el\ncomercio, por lo que el Banco se reserva el derecho de aplicar dichas modificaciones, sin previo aviso, y el cliente\ndeberá verificar la versión actualizada de las Bases y condiciones antes de realizar la transacción.\n• Los reclamos se tomarán como válidos sobre el último documento actualizado y debe ser el documento vigente\ndurante el día de la compra reclamada.\nEXCLUSIONES\n• Se excluyen del beneficio las tarjetas prepagas, de débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y\nCorporativas/Empresariales.\n• No aplica a compras a través de otras procesadoras (Dinelco, Cabal, etc).\nV3. 19/02/2026\nhttps://www.sudameris.com.py/beneficios",
+    "offer_overrides": {
+      "restaurant": {
+        "cap": "Tope de compra mensual por cuenta de tarjeta: Gs. 300.000.",
+        "extra": "Inicio indicado como 9 de septiembre sin año; fin31/08/2028 explícito."
+      },
+      "autodebit": {
+        "cap": "Tope de pago mensual por cuenta de tarjeta: Gs. 570.000.",
+        "extra": "Inicio indicado como31 de octubre sin año; fin31/08/2028 explícito."
+      },
+      "financing": {
+        "cap": "Tope de pago mensual para el pago adelantado de las12 cuotas sociales: Gs. 4.800.000.",
+        "extra": "No extender este tope al restaurante ni al débito automático."
+      }
+    },
+    "reviewed_at": "2026-10-17",
+    "review_method": "Complete official one-page PDF visually reviewed. V3 19/02/2026. Start-year absent retained empty; explicit end2028-08-31.",
+    "source_index": 37
+  }
+]

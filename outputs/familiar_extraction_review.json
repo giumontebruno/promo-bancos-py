@@ -1,7 +1,29 @@
 {
-  "checked_at": "2026-10-16T12:16:48.274262+00:00",
+  "checked_at": "2026-10-17T01:37:17.847598+00:00",
   "pages": 22,
   "records": [
+    {
+      "bank": "Familiar",
+      "merchant_name": "EXPERIENZA PY - AMERICA SHOP",
+      "day_text": "Del 16 de Octubre al 18 de Octubre",
+      "benefit_summary": "30% de reintegro en el extracto",
+      "validity_raw": "October 22, 2026",
+      "categories": [
+        "hogar-y-tecnologia",
+        "tiendas",
+        "destacados",
+        "otros"
+      ],
+      "regions": [
+        "Itapúa"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-experienza-py---america-shop",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas",
+      "review_status": "pending_terms_review",
+      "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6ad26498e87bb73bcf0e42f0_BASES Y CONDICIONES EXPERIENZA PY - AMERICA SHOP 2026.pdf",
+      "pdf_sha256": "e6cf8dc4bed193408088d5c8ca926dbf16489054c5fe60f72e246e20cb3d2169",
+      "terms_text": "BASES Y CONDICIONES PROMOCIÓN\n“EXPERIENZA PY - AMERICA SHOP”\n1. ALCANCE\nEsta promoción denominada “America Shop” en adelante LA PROMOCIÓN es organizada\npor Banco Familiar SAECA, con domicilio en Jejuí Nº324 esq/ Chile de la ciudad de Asunción,\nen adelante denominado EL ORGANIZADOR. Podrán participar de LA PROMOCIÓN todos\nlos clientes de tarjetas de crédito emitidas por EL ORGANIZADOR: Visa Clásica, Mastercard\nClásica, Visa Oro, Mastercard Gold, MasterCard InterExa, Positiva Bancardcheck, Positiva\nVisa, Visa Platinum. EL CLIENTE, siempre que cumpla con los requisitos de participación\nprevistos en estas Bases y Condiciones, y que fije domicilio dentro del territorio de la\nRepública del Paraguay. EL ORGANIZADOR asume enteramente la responsabilidad por la\norganización de la promoción. No participan las Gourmet y las Movil Cards.\n2. VIGENCIA\nLA PROMOCIÓN tendrá vigencia desde el 16 de octubre hasta el 18 de octubre del 2026.\n3. MECÁNICA DE LA PROMOCIÓN\nLos clientes de EL BANCO con sus tarjetas de crédito Visa o MasterCard Oro/Gold, Visa o\nMastercard Clásica, Positiva Visa, Positiva Bancardcheck y Visa Platinum, que realicen\ncompras en cualquiera de las sucursales de El COMERCIO, obtendrán 30% (quince) de\nreintegro en el extracto, durante la vigencia de LA PROMOCION.\nEl tope máximo de compra mensual por tarjeta es de Gs. 2.000.000. Tope de reintegro es de\nGs. 300.000 mensual.\n*Beneficios aplican únicamente a pagos realizados a través de la red Bancard*\nSUCURSAL DIRECCION\nAmerica Shop Salón de Eventos de AguaVista, Itapua\n4. RESPONSABILIDAD Y ALCANCE\nLas personas que intervengan en LA PROMOCIÓN, por su sola participación, aceptarán de\npleno derecho todas y cada una de las disposiciones previstas en las presentes Bases y\nCondiciones.\nLas operaciones consignadas durante la vigencia de la promoción serán consideradas como\naceptadas por el tarjetahabiente si no son objetadas dentro de los 15 días posteriores al\ncierre del extracto.\n5. SOLICITUD DE BASES\nSe podrán consultar las Bases y Condiciones de LA PROMOCIÓN durante toda su vigencia,\nllamando sin costo al Centro de Atención al Cliente de Banco Familiar desde línea baja al\nnúmero 0800 11 33 22, desde celular al *3322 o ingresando a la página Web\nwww.familiar.com.py.\n6. ACEPTACIÓN DE BASES\nLa participación en LA PROMOCIÓN implica total conocimiento y aceptación de estas Bases\ny Condiciones, las que por causas ajenas y de fuerza mayor no imputables a EL\nORGANIZADOR, podrán ser modificadas, con la previa aprobación de la respectiva\nautoridad de aplicación, sin que ello dé lugar a reclamo o indemnización alguna. Las\nmodificaciones que eventualmente deban realizarse no modificarán la esencia de LA\nPROMOCIÓN."
+    },
     {
       "bank": "Familiar",
       "merchant_name": "GASTRO MALL EXCELSIOR",
@@ -286,7 +308,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-plaza-norte",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=2",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a71f7503a764c3888c17eca_Martes Plaza Norte.pdf",
       "pdf_sha256": "2f920cbf5d2d15837ee037a74841579591b8335964911b8cca9cbab201e8d805",
@@ -574,7 +596,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=2",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=3",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a720327c66ff566c4824c41_Martes Mariscal.pdf",
       "pdf_sha256": "98628040e6fc481ab11232b33e038d45280455116e7716251a14623388828f27",
@@ -865,7 +887,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=3",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=4",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a70fae65e26b120dbcb6f01_Jueves de Mariano.pdf",
       "pdf_sha256": "ebd48e92e92ebf3dcfcf13de3e8a551396e0ed5a87b830903c38ecefe2fb0ff2",
@@ -1150,7 +1172,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=4",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=5",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a70fae65e26b120dbcb6f01_Jueves de Mariano.pdf",
       "pdf_sha256": "ebd48e92e92ebf3dcfcf13de3e8a551396e0ed5a87b830903c38ecefe2fb0ff2",
@@ -1436,7 +1458,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=5",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=6",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a720327c66ff566c4824c41_Martes Mariscal.pdf",
       "pdf_sha256": "98628040e6fc481ab11232b33e038d45280455116e7716251a14623388828f27",
@@ -1719,7 +1741,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=6",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=7",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a720327c66ff566c4824c41_Martes Mariscal.pdf",
       "pdf_sha256": "98628040e6fc481ab11232b33e038d45280455116e7716251a14623388828f27",
@@ -2005,7 +2027,7 @@
         "Cordillera"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-popeyes",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=7",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=8",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6998a1210fb3b6c2d518c384_ByC - Popeyes 2026.pdf",
       "pdf_sha256": "7c7c9c3a358782202b02c1ea383761ee6090d7bf8f48249423e75ab669f2f809",
@@ -2300,7 +2322,7 @@
         "Cordillera"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-mar-y-tierra-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=8",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=9",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a95e6d09f88eaa3cb0ec5c1_ByC - El Pescador 2026.pdf",
       "pdf_sha256": "354d18147764fda26dcd51059f0580d67b89872b78d4fe32276849e5767fd86d",
@@ -2585,7 +2607,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-construccion-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=9",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=10",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6ac00e1144fe963f1ae07740_ByC - Construccion ADQ 2026.pdf",
       "pdf_sha256": "8faac06f80fc2223241c9863bc292a8d46639fd227d39cea4d1b0351f7a0b0ea",
@@ -2877,7 +2899,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-pancia-piena-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=10",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=11",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a95df73cba7d9787e7a32e4_BASES Y CONDICIONES GASTRONOMIA CENTRAL 2026 - Pancia Piena.pdf",
       "pdf_sha256": "84326c302e3a64c10e7296aa3498b1303b3164622d182955a7f7f4933bc79fb2",
@@ -3167,7 +3189,7 @@
         "Itapúa"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-petromax-kokue-poty-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=11",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=12",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a3c19ccc768cb53afd7ec0b_BASES Y CONDICIONES PROMOCIÓN - PETROMAX KOKUE POTY.pdf",
       "pdf_sha256": "00965e88621bc37ca5bb62d735c757aaf72c1a7d439e1f8c2b06368bc926c595",
@@ -3372,7 +3394,7 @@
       "bank": "Familiar",
       "merchant_name": "COPETROL",
       "day_text": "Todos los Martes",
-      "benefit_summary": "Todos los martes; 20% de reintegro en el extracto",
+      "benefit_summary": "20% de reintegro en el extracto",
       "validity_raw": "December 31, 2026",
       "categories": [
         "combustible-estaciones-de-servicio",
@@ -3462,7 +3484,7 @@
         "San Pedro"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-maxifarma-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=12",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=13",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/69a6cb938452bc7b7d70f088_Bases y Condiciones - Maxifarma 2026.pdf",
       "pdf_sha256": "cf407d8e1f7f82da9b6003ffdcdd6a1c9d983e192092fb59e38d2da1b09aa359",
@@ -3748,7 +3770,7 @@
         "Itapúa"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-milord-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=13",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=14",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/695432e620da4aeb9aa01278_ByC - Milord Hotel 2026.pdf",
       "pdf_sha256": "3cfce6be3b5e89a7771039d9fc440b37732c270dadd1c04e7b7899bd89a3c953",
@@ -4033,7 +4055,7 @@
         "Cordillera"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-alta-gracia-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=14",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=15",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a9ffa6db9d62c1a54c1c808_BASES Y CONDICIONES  - Alta Gracia.pdf",
       "pdf_sha256": "b360a7ae189a33942789ce41c4db9077e97db978e397e69240b392495b9b4142",
@@ -4326,7 +4348,7 @@
         "Concepción"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-la-nortena-vip-comercial-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=15",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=16",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/6954320c8505845a74543129_ByC - La Norteña VIP 2026.pdf",
       "pdf_sha256": "d0fb7ffcbe7d815bd15cbeca96ec475e392b446462fa95b046aa9d5579555174",
@@ -4644,7 +4666,7 @@
         "Alto Paraná"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-anjos-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=16",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=17",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6993655844a7a2cd74a3c961_ByC - Anjos 2026.pdf",
       "pdf_sha256": "f4195e619d725854347adacf64f2177d8034a740f2a109c4319902f9cbb91269",
@@ -4932,7 +4954,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-las-doma-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=17",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=18",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/69547f8e17451915a04b91ef_ByC - Las Doma 2026.pdf",
       "pdf_sha256": "876d9d19f80a408eb08c8ab18953c7356a328da962bdf12d11abbce836b4b88d",
@@ -5217,7 +5239,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-forever-21-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=18",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=19",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6aa9f63bd12962018745a310_ByC - Forever 21 2026.pdf",
       "pdf_sha256": "2bca4dd14b935a3e36d4218c7341781c7d2d1bddebd200c2f99005a6e5290c3d",
@@ -5502,7 +5524,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-automaq-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=19",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=20",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67e0b1970b8b4f570a8f9677/695e6a645b65abb9ca5bd3aa_BASES Y CONDICIONES - AUTOMAQ 2026.pdf",
       "pdf_sha256": "ec8c85256bc8b61a100b466b20bdadb1f7e640b9193a96f91feb38889abb6b16",
@@ -5787,7 +5809,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-maseratti-bases-y-condiciones",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=20",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=21",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a2059da6d577d0a6f09c071_BASES Y CONDICIONES MASERATTI 2026.pdf",
       "pdf_sha256": "9c0351cac4328ee5e99bbe49a83f71c43adfa59e2d859ea7bbc0b3fcc55fa05e",
@@ -6088,7 +6110,7 @@
         "Central"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-alex-bases-y-condiciones-5i1l4",
-      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=21",
+      "listing_url": "https://www.familiar.com.py/promociones-tarjetas?236ef13f_page=22",
       "review_status": "pending_terms_review",
       "pdf_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/696f79c3555eadf9e3d17179_ALEX 2026.pdf",
       "pdf_sha256": "8f22659b2545da37cf78a33bc795a0addf9237dac29f2b6084ff214f3477dd97",

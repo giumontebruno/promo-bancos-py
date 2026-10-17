@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-17T01:51:27.491566+00:00",
+  "campaigns": 46,
+  "failures": [
+    {
+      "campaign": "ZONA SUR",
+      "url": "https://www.sudameris.com.py/personas/beneficios/zona-sur",
+      "reason": "Campaign has no PDF: ZONA SUR"
+    },
+    {
+      "campaign": "ZONA ESTE",
+      "url": "https://www.sudameris.com.py/personas/beneficios/zona-este",
+      "reason": "Campaign has no PDF: ZONA ESTE"
+    },
+    {
+      "campaign": "ZONA NORTE",
+      "url": "https://www.sudameris.com.py/personas/beneficios/zona-norte",
+      "reason": "Campaign has no PDF: ZONA NORTE"
+    }
+  ],
+  "retained_unconfirmed": 124
+}

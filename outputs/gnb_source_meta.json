@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-16T12:14:01.549003+00:00",
-  "coverage": "249 official cards extracted from GNB's public API; every card retains its official detail and terms links",
-  "records": 476,
+  "checked_at": "2026-10-17T01:34:38.347187+00:00",
+  "coverage": "250 official cards extracted from GNB's public API; every card retains its official detail and terms links",
+  "records": 477,
   "excluded_cards": {
     "20": "Interest-bearing purchases abroad, not an interest-free benefit",
     "157": "Cash advance with commission, not a promotion",
@@ -10,11 +10,5 @@
   "date_discrepancy_resolved_conservatively": {
     "377": "Jullito ends 2026-11-28 in the card and 2026-12-28 in terms; the earlier date is used"
   },
-  "import_issues": [
-    {
-      "id": 677,
-      "name": "Interescolar Colegio Salesianito - Cantina",
-      "reason": "day_unknown_0"
-    }
-  ]
+  "import_issues": []
 }

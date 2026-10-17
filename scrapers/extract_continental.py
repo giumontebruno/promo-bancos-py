@@ -80,14 +80,100 @@ def extract_topes(text):
     return "; ".join(dict.fromkeys(hits)) or "No especificado"
 
 
-def main():
-    response = requests.get(API, timeout=30)
-    response.raise_for_status()
-    data = response.json()
-    if not isinstance(data, list) or not data:
-        raise RuntimeError("Continental returned no merchants; preserving the previous export.")
-    WORK_JSON.parent.mkdir(exist_ok=True)
-    WORK_JSON.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+DATE = r'\d{1,2}\s+(?:de\s+)?\w+\s+del?\s+\d{4}'
+EXPIRY = re.compile(r'Vigente hasta\s+(?:el\s+)?(' + DATE + r')', re.I)
+BENEFIT = re.compile(r'-\s*(?=(?:Hasta\s+)?\d+\s*(?:%|cuotas))', re.I)
+
+
+def scoped_segments(text):
+    """Split explicit scopes only; never borrow a later expiry for an earlier benefit."""
+    expiries = list(EXPIRY.finditer(text))
+    forward = re.search(r'Vigente desde el\s+(' + DATE + r')\s+al\s+(' + DATE + r')\s*:', text, re.I)
+    school = re.findall(r'-\s*(\d+)% de reintegro del (\d+) al (\d+) de (\w+) de (\d{4})\.', text, re.I)
+    if len(school) == 3:
+        prefix = text[:text.index('-')]
+        cap = re.search(r'Límite de compra de hasta.*?(?=Además)', text)[0]
+        finance = text[text.index('Además'):]
+        common = finance[finance.index('Válido pagando'):]
+        common = re.sub(r'Vigente del.*?\.', '', common)
+        result = []
+        for pct, start, end, month, year in school:
+            validity = f'Desde el {start} de {month} de {year} hasta el {end} de {month} de {year}'
+            result.append((f'{prefix} {pct}% de reintegro. {cap} {common}', validity, 'Todos los días'))
+        result.append((prefix + finance, f'Desde el {school[0][1]} de {school[0][3]} de {school[0][4]} hasta el {school[-1][2]} de {school[-1][3]} de {school[-1][4]}', 'Todos los días'))
+        return result
+    if len(expiries) < 2 and not forward:
+        return []
+    chunks = []
+    cursor = 0
+    for expiry in expiries:
+        chunks.append((text[cursor:expiry.start()], expiry[0]))
+        cursor = expiry.end()
+    common = text[cursor:].lstrip('. ')
+    if forward:
+        rest = text[forward.end():]
+        cut = re.search(r'Las promociones aplican', rest, re.I)
+        if not cut:
+            raise ValueError('Unrecognized forward-date Continental scope')
+        chunks.append((rest[:cut.start()], forward[0].rstrip(':')))
+        common = rest[cut.start():]
+    # Some sources list card-specific caps after all dated benefits.
+    cap_pattern = re.compile(r'-\s*Reintegros del (\d+)%\s+(.*?)(?=\s*-\s*Reintegros del|Las promociones|Locales adheridos|\(\*|$)', re.I)
+    caps = {m[1]: m[2].strip() for m in cap_pattern.finditer(common)}
+    common = cap_pattern.sub('', common)
+    common = re.sub(r'Límites de compras:\s*', '', common)
+    initial = text[:BENEFIT.search(text).start()]
+    result = []
+    for chunk, validity in chunks:
+        markers = list(BENEFIT.finditer(chunk))
+        if not markers:
+            raise ValueError('Missing benefit in Continental date scope')
+        context = chunk[:markers[0].start()].strip(' ._-')
+        # Leading schedule persists only when the later block has no own schedule.
+        has_day = re.search(r'lunes|martes|miércoles|jueves|viernes|sábado|domingo|días|del \d+ al', context, re.I)
+        context = context if has_day else initial + ' ' + context
+        context = re.sub(r'^Además[, :]*', '', context, flags=re.I)
+        for i, marker in enumerate(markers):
+            benefit = chunk[marker.end():markers[i+1].start() if i+1 < len(markers) else len(chunk)].strip(' ._')
+            percent = re.match(r'(?:Hasta\s+)?(\d+)%', benefit, re.I)
+            cap = caps.get(percent[1], '') if percent else ''
+            detail = clean(f'{context} {benefit}. {validity}. {cap} {common}')
+            day = context
+            interval = re.search(r'Del (\d+) al (\d+) de (\w+)', context, re.I)
+            if interval:
+                year = re.search(r'\d{4}', validity)[0]
+                validity = f'Desde el {interval[1]} de {interval[3]} de {year} hasta el {interval[2]} de {interval[3]} de {year}'
+            result.append((detail, validity, day))
+    return result
+
+
+def segment_row(row):
+    scopes = scoped_segments(row['Detalle'])
+    if not scopes:
+        return [row]
+    result = []
+    for i, (detail, validity, day) in enumerate(scopes):
+        validity = re.sub(r'(\d) (enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)', r'\1 de \2', validity, flags=re.I)
+        card = re.search(r'Privilege Continental|(?:Mastercard )?Black (?:e|y)(?: Visa)? Infinite|Dinelco, Clásica y Oro|\bOro\b', detail)
+        result.append({**row, 'Detalle': detail, 'Vigencia': validity,
+            'Día de promoción': day, 'Cantidad de descuento / beneficio': ('Hasta ' if re.search(r'\bHasta \d+%', detail, re.I) else '') + extract_discount({}, detail),
+            'Montos / topes': extract_topes(detail), 'Variante': f'scope-{i+1}',
+            'Tarjetas verificadas': card[0] if card else 'Tarjetas de crédito Continental',
+            'Tipo de beneficio verificado': 'descuento' if re.search(r'\d+% en caja', detail) else '',
+            'Vigencia de identidad campaña': row['Vigencia'],
+            'Texto original de la fuente': row['Detalle']})
+    return result
+
+
+def main(data=None):
+    if data is None:
+        response = requests.get(API, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        if not isinstance(data, list) or not data:
+            raise RuntimeError("Continental returned no merchants; preserving previous export.")
+        WORK_JSON.parent.mkdir(exist_ok=True)
+        WORK_JSON.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
 
     rows = []
     for item in data:
@@ -111,10 +197,12 @@ def main():
             }
         )
 
+    rows = [segment for row in rows for segment in segment_row(row)]
+    fields = list(dict.fromkeys(key for row in rows for key in row))
     rows.sort(key=lambda r: (r["Categoría"], r["Comercio/Promoción"]))
     OUT_CSV.parent.mkdir(exist_ok=True)
     with OUT_CSV.open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(rows)
 

@@ -1,4 +1,6 @@
 import csv
+import json
+import unicodedata
 import re
 import time
 from pathlib import Path
@@ -10,7 +12,7 @@ from playwright.sync_api import sync_playwright
 
 
 BASE = "https://www.sudameris.com.py"
-START = f"{BASE}/beneficios"
+START = f"{BASE}/personas/beneficios"
 OUT_DIR = Path("outputs")
 WORK_DIR = Path("work")
 
@@ -91,57 +93,84 @@ def extract_tope(text):
     return "; ".join(dict.fromkeys(clean(v) for v in hits if "Gs" in v))
 
 
-def extract(session):
-    html = get(session, START).text
-    (WORK_DIR / "sudameris_beneficios.html").write_text(html, encoding="utf-8")
-    soup = BeautifulSoup(html, "html.parser")
+def campaign_identity(title):
+    value = ''.join(c for c in unicodedata.normalize('NFKD', title.upper()) if not unicodedata.combining(c))
+    value = re.sub(r'[^A-Z0-9]+', ' ', value).strip()
+    return 'GASTRONOMIA' if value == 'GASTRONOMIA 26' else value
 
-    links = []
+
+def read_api(response):
+    # Browser fallback wraps API JSON in a <pre> element.
+    text = response.text
+    if text.lstrip().startswith('<'):
+        pre = BeautifulSoup(text, 'html.parser').find('pre')
+        if not pre:
+            raise ValueError('Sudameris API did not return JSON')
+        text = pre.get_text()
+    data = json.loads(text)
+    if not isinstance(data.get('data'), list) or not isinstance(data.get('has_more'), bool):
+        raise ValueError('Unexpected Sudameris pagination schema')
+    return data
+
+
+def current_offers(session):
     seen = set()
-    for a in soup.select('a.link[href*="/beneficios/"][href$="/detalle"]'):
-        url = urljoin(BASE, a.get("href"))
-        if url not in seen:
-            seen.add(url)
-            links.append({"title": clean(a.get_text(" ")), "url": url})
-    if not links:
-        raise ValueError("Sudameris returned no promotion links")
+    offers = []
+    for page in range(1, 101):
+        batch = read_api(get(session, f'{BASE}/api/benefits?category=all&city=all&page={page}'))
+        if batch.get('current_page') != page:
+            raise ValueError('Sudameris returned an unexpected page')
+        if batch['has_more'] and not batch['data']:
+            raise ValueError('Sudameris returned an empty intermediate page')
+        for item in batch['data']:
+            if item['id'] in seen:
+                raise ValueError('Sudameris repeated a promotion across pages')
+            if not item['url'].startswith(BASE + '/personas/beneficios/'):
+                raise ValueError('Unexpected Sudameris detail URL')
+            seen.add(item['id'])
+            offers.append(item)
+        if not batch['has_more']:
+            if not offers:
+                raise ValueError('Sudameris returned no promotions')
+            return offers
+    raise ValueError('Sudameris pagination limit exceeded')
 
+
+def extract(session):
+    previous_path = OUT_DIR / 'sudameris_promociones.csv'
+    previous = list(csv.DictReader(previous_path.open(encoding='utf-8-sig', newline=''))) if previous_path.exists() else []
+    by_title = {}
+    for old in previous:
+        by_title.setdefault(campaign_identity(old['Comercio/Promocion']), []).append(old)
     rows = []
-    for item in links:
-        resp = get(session, item["url"])
-        detail_soup = BeautifulSoup(resp.text, "html.parser")
-        description = detail_soup.select_one(".description-promo")
-        raw_text = description.get_text("\n") if description else detail_soup.get_text("\n")
-        text = clean(raw_text)
-        title = clean((detail_soup.find(["h1", "h2", "h3", "h4"]) or {}).get_text(" ") if detail_soup.find(["h1", "h2", "h3", "h4"]) else item["title"])
-        vigencia = section_after(raw_text, "VIGENCIA")
-        beneficios = section_after(raw_text, "BENEFICIOS?")
+    for item in current_offers(session):
+        soup = BeautifulSoup(get(session, item['url']).text, 'html.parser')
+        description = soup.select_one('.benefit-description[data-raw-description]')
+        if description is None and not soup.find('h1'):
+            raise ValueError('Sudameris detail missing content: ' + item['url'])
+        raw_text = description.get_text(' ', strip=True) if description else ' '.join(item.get('short_description_lines', []))
+        print('Read official campaign:', item['title'], flush=True)
+        bases = [urljoin(BASE, a['href']) for a in soup.select('a[href]')
+                 if '.pdf' in a['href'].lower() and 'bases' in a.get_text(' ', strip=True).lower()]
+        candidates = by_title.get(campaign_identity(item['title']), [])
+        old = candidates[0] if len(candidates) == 1 else {}
+        vigencia = clean(item.get('validity_text', ''))
+        beneficios = clean(' '.join(item.get('short_description_lines', [])))
         desde, hasta = extract_dates(vigencia)
-        combined = f"{vigencia} {beneficios}"
-        bases = [
-            urljoin(BASE, a.get("href"))
-            for a in detail_soup.select('a[href$=".pdf"], a[href*=".pdf?"]')
-            if "Bases" in clean(a.get_text(" "))
-        ]
-
-        rows.append(
-            {
-                "Banco": "Sudameris",
-                "Comercio/Promocion": title or item["title"],
-                "Resumen cuadro": item["title"],
-                "Vigencia": vigencia,
-                "Desde": desde,
-                "Hasta": hasta,
-                "Beneficios": beneficios,
-                "% detectado": extract_percent(combined),
-                "Tope detectado": extract_tope(combined),
-                "Cuotas detectadas": extract_cuotas(combined),
-                "Bases y condiciones URL": "; ".join(dict.fromkeys(bases)),
-                "URL": item["url"],
-                "Texto completo": text,
-            }
-        )
-        time.sleep(0.15)
+        rows.append({
+            'Banco': 'Sudameris',
+            'Comercio/Promocion': old.get('Comercio/Promocion', item['title']),
+            'Resumen cuadro': item['title'], 'Vigencia': vigencia,
+            'Desde': desde, 'Hasta': hasta, 'Beneficios': beneficios,
+            '% detectado': extract_percent(beneficios),
+            'Tope detectado': extract_tope(raw_text),
+            'Cuotas detectadas': extract_cuotas(beneficios),
+            'Bases y condiciones URL': '; '.join(dict.fromkeys(bases)),
+            'URL': old.get('URL', item['url']),
+            'URL fuente actual': item['url'],
+            'Bases URL identidad': old.get('Bases URL identidad') or old.get('Bases y condiciones URL', ''),
+            'Texto completo': clean(raw_text),
+        })
     return rows
 
 
@@ -153,7 +182,7 @@ def main():
     session.headers.update({"User-Agent": "Mozilla/5.0"})
     try:
         rows = extract(session)
-    except (requests.RequestException, RuntimeError, ValueError):
+    except (requests.RequestException, RuntimeError):
         with BrowserSession() as browser_session:
             rows = extract(browser_session)
 

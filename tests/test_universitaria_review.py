@@ -4,7 +4,7 @@ import re
 import unittest
 from pathlib import Path
 
-from scrapers.review_universitaria import review
+from scrapers.review_universitaria import review, reviewed_rows
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,19 +14,44 @@ class UniversitariaReviewTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         source = json.loads((ROOT / "data/universitaria_live_cards.json").read_text(encoding="utf-8"))
+        cls.source = source
         cls.rows, cls.withheld = review(source)
         cls.by_name = {}
         for row in cls.rows:
             cls.by_name.setdefault(row["Comercio/Promoción"], []).append(row)
 
     def test_every_published_card_has_a_quantified_benefit_and_source(self):
-        self.assertGreaterEqual(len(self.rows), 80)
-        self.assertEqual({item["merchant"] for item in self.withheld}, {"AFS", "La Ponde S.A."})
+        # The current capture has 52 cards; reconcile each to variants or a
+        # documented withheld reason instead of imposing September's count.
+        source_pairs = {(r["Comercio/Promoción"], r["Bases y condiciones URL"]) for r in self.source}
+        published_pairs = {(r["Comercio/Promoción"], r["Bases y condiciones URL"]) for r in self.rows}
+        withheld_pairs = {(r["merchant"], r["source"]) for r in self.withheld}
+        self.assertEqual(source_pairs, published_pairs | withheld_pairs)
+        self.assertFalse(published_pairs & withheld_pairs)
+        self.assertTrue(all(r["reason"] for r in self.withheld))
+        self.assertEqual(len(self.rows), sum(len(reviewed_rows(r)[0]) for r in self.source))
         for row in self.rows:
             benefit = row["Cantidad de descuento / beneficio"]
             self.assertRegex(benefit, r"\d{1,3}\s*%|\d{1,2}\s+cuotas")
             self.assertTrue(row["Bases y condiciones URL"].startswith("https://www.universitaria.coop/"))
             self.assertNotEqual(benefit.casefold(), "descuento")
+
+    def test_current_payment_caps_are_read_from_official_document(self):
+        for name, purchase, qr, physical in [
+            ("BURGER KING", "200.000", "60.000", "20.000"),
+            ("POPEYES", "200.000", "60.000", "20.000"),
+            ("SUBWAY", "200.000", "60.000", "20.000"),
+            ("Estaciones ENERGY", "300.000", "60.000", "30.000"),
+        ]:
+            rows = self.by_name[name]
+            self.assertEqual(len(rows), 2)
+            for row, refund in zip(rows, [qr, physical]):
+                self.assertIn("compra mensual por cuenta: Gs. " + purchase, row["Montos / topes"])
+                self.assertIn("descuento: Gs. " + refund, row["Montos / topes"])
+                self.assertIn("No aplica", row["Texto fuente original"])
+        source = next(r for r in self.source if r["Comercio/Promoción"] == "BURGER KING")
+        changed = dict(source, Detalle="QR 30% tarjeta física 10%; consultar condiciones")
+        self.assertEqual(reviewed_rows(changed)[0], [])
 
     def test_current_pharmacy_payment_and_product_variants(self):
         pharmacy = self.by_name["Farmacia Catedral"]

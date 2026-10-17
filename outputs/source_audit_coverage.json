@@ -1,0 +1,120 @@
+{
+  "as_of": "2026-10-16",
+  "total": 3096,
+  "note": "Catalog date classification is not independent confirmation of official terms. Source fetched status is not document review.",
+  "banks": {
+    "Atlas": {
+      "total": 43,
+      "future_start_in_catalog": 14,
+      "source_pipeline": 42,
+      "within_catalog_dates": 23,
+      "official_document": 1,
+      "unknown_end": 6,
+      "extraction": {
+        "status": "fetched",
+        "checked_at": "2026-10-17T01:38:28.467913+00:00",
+        "records": 43
+      }
+    },
+    "BNF": {
+      "total": 77,
+      "within_catalog_dates": 77,
+      "source_pipeline": 77,
+      "extraction": {
+        "status": "fetched",
+        "checked_at": "2026-10-17T01:38:22.198999+00:00",
+        "records": 77
+      }
+    },
+    "Continental": {
+      "total": 828,
+      "within_catalog_dates": 802,
+      "source_pipeline": 828,
+      "unknown_end": 11,
+      "past_end_in_catalog": 11,
+      "future_start_in_catalog": 4,
+      "extraction": {
+        "status": "fetched",
+        "checked_at": "2026-10-17T01:38:23.531285+00:00",
+        "records": 827
+      }
+    },
+    "Coop. Universitaria": {
+      "total": 71,
+      "within_catalog_dates": 54,
+      "source_pipeline": 71,
+      "past_end_in_catalog": 11,
+      "unknown_end": 6,
+      "extraction": {
+        "status": "fetched",
+        "checked_at": "2026-10-17T01:38:59.649599+00:00",
+        "records": 71
+      }
+    },
+    "Familiar": {
+      "total": 416,
+      "within_catalog_dates": 415,
+      "source_pipeline": 416,
+      "future_start_in_catalog": 1,
+      "extraction": {
+        "status": "fetched",
+        "checked_at": "2026-10-17T01:37:18.673545+00:00",
+        "records": 416
+      }
+    },
+    "GNB": {
+      "total": 477,
+      "within_catalog_dates": 470,
+      "source_pipeline": 477,
+      "past_end_in_catalog": 6,
+      "future_start_in_catalog": 1,
+      "extraction": {
+        "status": "fetched",
+        "checked_at": "2026-10-17T01:34:39.145255+00:00",
+        "records": 477
+      }
+    },
+    "Itaú": {
+      "total": 547,
+      "within_catalog_dates": 547,
+      "source_pipeline": 514,
+      "official_document": 30,
+      "unconfirmed": 3,
+      "extraction": {
+        "status": "partial",
+        "checked_at": "2026-10-17T02:07:38.378271+00:00",
+        "records": 548,
+        "pending_records": 3,
+        "attempted_at": "2026-10-17T02:10:03.977749+00:00"
+      }
+    },
+    "Sudameris": {
+      "total": 282,
+      "within_catalog_dates": 255,
+      "official_document": 158,
+      "unconfirmed": 124,
+      "unknown_end": 8,
+      "past_end_in_catalog": 11,
+      "future_start_in_catalog": 8,
+      "extraction": {
+        "status": "partial",
+        "checked_at": "2026-10-08T14:33:07.837064+00:00",
+        "records": 282,
+        "attempted_at": "2026-10-17T02:10:04.070624+00:00",
+        "pending_records": 124
+      }
+    },
+    "ueno bank": {
+      "total": 355,
+      "within_catalog_dates": 338,
+      "source_pipeline": 355,
+      "past_end_in_catalog": 15,
+      "future_start_in_catalog": 2,
+      "extraction": {
+        "status": "fetched",
+        "checked_at": "2026-10-17T01:44:52.739543+00:00",
+        "records": 355
+      }
+    }
+  }
+}

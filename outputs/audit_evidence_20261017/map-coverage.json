@@ -1,0 +1,112 @@
+{
+  "source_generated_at": "2026-10-16T23:04:34-03:00",
+  "total": 1841,
+  "status_counts": {
+    "eligible_coordinates": 61,
+    "requires_review": 65,
+    "online_only": 2,
+    "missing_or_invalid_coordinates": 1713
+  },
+  "by_bank": {
+    "BNF": {
+      "total": 988,
+      "eligible_coordinates": 42,
+      "requires_review": 65,
+      "online_only": 1,
+      "missing_or_invalid_coordinates": 880
+    },
+    "Varios": {
+      "total": 13,
+      "eligible_coordinates": 13
+    },
+    "ueno bank": {
+      "total": 747,
+      "eligible_coordinates": 6,
+      "missing_or_invalid_coordinates": 741
+    },
+    "Sudameris": {
+      "total": 93,
+      "missing_or_invalid_coordinates": 92,
+      "online_only": 1
+    }
+  },
+  "duplicate_ids": {},
+  "duplicate_branch_groups": {},
+  "shared_coordinate_groups": {
+    "-25.30694,-57.60218": [
+      {
+        "id": "loc-bnf-c4ad7a33085b0a01",
+        "merchant": "COPETROL"
+      },
+      {
+        "id": "loc-ueno-e8fda31436",
+        "merchant": "Copetrol KM.2"
+      }
+    ],
+    "-25.28556,-57.61939": [
+      {
+        "id": "loc-bnf-0a75a89c1dc2abaf",
+        "merchant": "COPETROL"
+      },
+      {
+        "id": "loc-ueno-73268466fb",
+        "merchant": "Copetrol San José"
+      }
+    ],
+    "-25.25828,-57.47566": [
+      {
+        "id": "loc-bnf-c4e565952222f609",
+        "merchant": "PETROCHACO"
+      },
+      {
+        "id": "loc-bnf-2f67a8549abfca52",
+        "merchant": "PETROCHACO"
+      }
+    ],
+    "-25.33400,-57.57752": [
+      {
+        "id": "loc-f6171a3741",
+        "merchant": "Casa Grütter"
+      },
+      {
+        "id": "loc-1ff6c937a7",
+        "merchant": "Casa Grütter"
+      },
+      {
+        "id": "loc-954db3d2fa",
+        "merchant": "Casa Grütter"
+      }
+    ],
+    "-25.38462,-57.47045": [
+      {
+        "id": "loc-91e0ad0a9e",
+        "merchant": "BOX Mayorista"
+      },
+      {
+        "id": "loc-dcc7f47aa0",
+        "merchant": "BOX Mayorista"
+      }
+    ],
+    "-25.35024,-57.44771": [
+      {
+        "id": "loc-3de9455b62",
+        "merchant": "Cadena Real"
+      },
+      {
+        "id": "loc-b2f8bfe6f6",
+        "merchant": "Cadena Real"
+      }
+    ],
+    "-25.31569,-57.52758": [
+      {
+        "id": "loc-cd8a9041ff",
+        "merchant": "Superseis"
+      },
+      {
+        "id": "loc-a63b80079c",
+        "merchant": "Superseis"
+      }
+    ]
+  },
+  "note": "Eligible coordinates are not proof of an active promotion or branch applicability. Shared coordinates are review candidates, not automatic duplicates."
+}

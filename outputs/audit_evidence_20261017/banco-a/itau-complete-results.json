@@ -1,0 +1,693 @@
+{
+  "source_categories": 32,
+  "category_cards_including_duplicates": 566,
+  "category_structure_failures": [],
+  "csv_rows": 532,
+  "normalized_preview_records": 532,
+  "new_detail_urls_compared_with_initial_public": 406,
+  "date_states": {
+    "within_dates": 532
+  },
+  "issues": {
+    "multiple_purchase_limits": 17
+  },
+  "pending_records": [
+    {
+      "id": "38b11e10d3d94d87",
+      "merchant_name": "Salemma",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=15536&c=31461",
+      "validity": "2024-07-23 hasta 2026-12-31",
+      "benefit_summary": "20% Hasta; Hasta 20% de ahorro.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 3000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra de Gs. 3.000.000 para AMEX PLATINUM/Visa INFINITE"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra de Gs. 1.500.000 para TC PREMIUM"
+          },
+          {
+            "kind": "purchase",
+            "amount": 500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra de Gs. 500.000 para TC ORO"
+          },
+          {
+            "kind": "purchase",
+            "amount": 300000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra de Gs. 300.000 para TC CLASICAS"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "9543b6bdefa008e9",
+      "merchant_name": "Akira Sushi",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16016&c=30943",
+      "validity": "2026-03-28 hasta 2026-12-31",
+      "benefit_summary": "25% Hasta; 20% de reintegro en el extracto.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.000.000 para tarjetas naranja"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.500.000 para tarjetas personal bank"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "4cd09bb65ef9c5e1",
+      "merchant_name": "BROTZEIT",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16016&c=32010",
+      "validity": "2026-03-28 hasta 2026-12-31",
+      "benefit_summary": "25% Hasta; 20% de reintegro en el extracto.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.000.000 para tarjetas naranja"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.500.000 para tarjetas personal bank"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "41d4e33bbd542505",
+      "merchant_name": "Benditta Collection",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=30226",
+      "validity": "2025-06-12 hasta 2026-12-31",
+      "benefit_summary": "20% 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra de Gs. 1.000.000. por cliente/rubro/cuenta/mes"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1250000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra de PERSONAL BANK Gs. 1.250.000. por cliente/rubro/cuenta/mes."
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "bc9a584869875323",
+      "merchant_name": "Benditta Style For Men",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=30369",
+      "validity": "2025-06-12 hasta 2026-12-31",
+      "benefit_summary": "20% 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra de Gs. 1.000.000. por cliente/rubro/cuenta/mes"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1250000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra de PERSONAL BANK Gs. 1.250.000. por cliente/rubro/cuenta/mes."
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "023be8d4c4a7836b",
+      "merchant_name": "Dudalina",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=1040",
+      "validity": "2025-06-12 hasta 2026-12-31",
+      "benefit_summary": "20% 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra de Gs. 1.000.000. por cliente/rubro/cuenta/mes"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1250000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra de PERSONAL BANK Gs. 1.250.000. por cliente/rubro/cuenta/mes."
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "d57bef2a6aa3892e",
+      "merchant_name": "FUSION ALTITUD",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16016&c=32003",
+      "validity": "2026-03-28 hasta 2026-12-31",
+      "benefit_summary": "25% Hasta; 20% de reintegro en el extracto.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.000.000 para tarjetas naranja"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.500.000 para tarjetas personal bank"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "833c0948cad642dc",
+      "merchant_name": "FUSION PIZZA & TERRAZA",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16016&c=30945",
+      "validity": "2026-03-28 hasta 2026-12-31",
+      "benefit_summary": "25% Hasta; 20% de reintegro en el extracto.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.000.000 para tarjetas naranja"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.500.000 para tarjetas personal bank"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "8c75e94373a78b88",
+      "merchant_name": "Galaxia Pizzeria",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16016&c=30956",
+      "validity": "2026-03-28 hasta 2026-12-31",
+      "benefit_summary": "25% Hasta; 20% de reintegro en el extracto.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.000.000 para tarjetas naranja"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.500.000 para tarjetas personal bank"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "8a9d620a34958d99",
+      "merchant_name": "LA GUARANIA",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16016&c=31937",
+      "validity": "2026-03-28 hasta 2026-12-31",
+      "benefit_summary": "25% Hasta; 20% de reintegro en el extracto.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.000.000 para tarjetas naranja"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.500.000 para tarjetas personal bank"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "c1b8e3a446e3b7d8",
+      "merchant_name": "La Sandwichería",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16016&c=31803",
+      "validity": "2026-03-28 hasta 2026-12-31",
+      "benefit_summary": "25% Hasta; 20% de reintegro en el extracto.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.000.000 para tarjetas naranja"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.500.000 para tarjetas personal bank"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "3d1a899ce34060ab",
+      "merchant_name": "Matalas",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16016&c=31802",
+      "validity": "2026-03-28 hasta 2026-12-31",
+      "benefit_summary": "25% Hasta; 20% de reintegro en el extracto.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.000.000 para tarjetas naranja"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.500.000 para tarjetas personal bank"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "dab699cec54aa520",
+      "merchant_name": "Sun rooftop",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16016&c=31075",
+      "validity": "2026-03-28 hasta 2026-12-31",
+      "benefit_summary": "25% Hasta; 20% de reintegro en el extracto.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.000.000 para tarjetas naranja"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.500.000 para tarjetas personal bank"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "f19bb847be1f576f",
+      "merchant_name": "Ñande Gourmet",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16016&c=31191",
+      "validity": "2026-03-28 hasta 2026-12-31",
+      "benefit_summary": "25% Hasta; 20% de reintegro en el extracto.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.000.000 para tarjetas naranja"
+          },
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra Gs. 1.500.000 para tarjetas personal bank"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "20a1c9ede564ec37",
+      "merchant_name": "Cooperativa Neuland",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16717&c=31804",
+      "validity": "2026-01-19 hasta 2026-12-29",
+      "benefit_summary": "10 Cuotas sin intereses 20%; 20% de reintegro y hasta 10 cuotas sin intereses.",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-29",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra para tarjetas NARANJA en el rubro Gs. 1.500.000 por mes, por tarjeta"
+          },
+          {
+            "kind": "purchase",
+            "amount": 4000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra para tarjetas PERSONAL BANK en el rubro Gs. 4.000.000 por mes, por tarjeta"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "ce86dbbb0f29121c",
+      "merchant_name": "Delimarket",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16584&c=30064",
+      "validity": "2025-09-06 hasta 2026-12-31",
+      "benefit_summary": "20% de reintegro",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 1500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra para tarjetas Visa PLATINUM, INTERVENTAJAS PLATINUM, AADVANTAGE PLATINUM, Visa PLATINUM CENTENARIO, LATAM PLATINUM, MC BLACK de Gs. 1.500.000"
+          },
+          {
+            "kind": "purchase",
+            "amount": 3000000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra para tarjetas Visa INFINITE y AMEX PLATINUM de Gs. 3.000.000"
+          }
+        ],
+        "cards": [
+          "Tarjetas de crédito PREMIUM Itaú"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "2c600f207db238ee",
+      "merchant_name": "Shell",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291",
+      "validity": "2026-01-05 hasta 2026-12-31",
+      "benefit_summary": "20% de reintegro con tu tarjeta de Crédito clásica",
+      "state": "within_dates",
+      "terms": {
+        "version": 1,
+        "starts_on": null,
+        "ends_on": "2026-12-31",
+        "conflicting_dates": false,
+        "limits": [
+          {
+            "kind": "purchase",
+            "amount": 150000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra para tarjeta CLASICA es Gs. 150.000 por mes, por cliente (titular + adicional)"
+          },
+          {
+            "kind": "purchase",
+            "amount": 500000,
+            "currency": "PYG",
+            "period": null,
+            "evidence": "Tope de compra de la ORO y PREMIUM es Gs. 500.000 por mes, por cliente (titular + adicional)"
+          }
+        ],
+        "cards": [
+          "Tarjeta de Crédito CLASICA, ORO y PREMIUM (Visa PLATINUM, INTERVENTAJAS PLATINUM, AADVANTAGE PLATINUM, Visa PLATINUM CENTENARIO, LATAM PLATINUM, MC BLACK)"
+        ],
+        "exclusions": [],
+        "additional": [],
+        "issues": [
+          "multiple_purchase_limits"
+        ],
+        "status": "needs_review"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "input_rows": 532,
+  "output_rows": 548,
+  "reviewed_sources": 17,
+  "resolved_sources": 14,
+  "variants": 30,
+  "pending_sources": 3,
+  "tests_passed": 6,
+  "unknown_ends": 0,
+  "date_conflicts": 0,
+  "multiple_purchase_caps": 0,
+  "identity_preserved": true,
+  "pending": [
+    {
+      "merchant": "Benditta Collection",
+      "url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=30226",
+      "reason": "Contradicción en la misma página oficial: el detalle indica «20% de ahorro en caja + 10% de reintegro + 5% de ahorro con PERSONAL BANK»; el campo beneficio indica «20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK». No se confirma el porcentaje ni se expande por tarjetas."
+    },
+    {
+      "merchant": "Benditta Style For Men",
+      "url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=30369",
+      "reason": "Contradicción en la misma página oficial: el detalle indica «20% de ahorro en caja + 10% de reintegro + 5% de ahorro con PERSONAL BANK»; el campo beneficio indica «20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK». No se confirma el porcentaje ni se expande por tarjetas."
+    },
+    {
+      "merchant": "Dudalina",
+      "url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=1040",
+      "reason": "Contradicción en la misma página oficial: el detalle indica «20% de ahorro en caja + 10% de reintegro + 5% de ahorro con PERSONAL BANK»; el campo beneficio indica «20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK». No se confirma el porcentaje ni se expande por tarjetas."
+    }
+  ],
+  "notes": [
+    "Salemma: descuento en caja y reintegro no se suman.",
+    "BROTZEIT martes-viernes; otros nueve gastronómicos martes-sábados.",
+    "Delimarket y Shell usan inicio explícito en detalle; metadata discrepante permanece en evidencia original y nota.",
+    "Cada revisión está protegida por hash exacto; fuente cambiada se conserva unconfirmed."
+  ]
+}

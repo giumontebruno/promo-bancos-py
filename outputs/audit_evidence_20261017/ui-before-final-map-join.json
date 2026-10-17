@@ -1,0 +1,30 @@
+[
+  {
+    "width": 390,
+    "overflow": false,
+    "javascript_errors": [],
+    "kaiseki_search": true,
+    "search_reset": true,
+    "map_without_gps": {
+      "points": 40,
+      "markers": 40,
+      "expected": 40
+    },
+    "map_with_gps_all_reliable_points": true,
+    "map_provider": "stub; no external map charges"
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "javascript_errors": [],
+    "kaiseki_search": true,
+    "search_reset": true,
+    "map_without_gps": {
+      "points": 40,
+      "markers": 40,
+      "expected": 40
+    },
+    "map_with_gps_all_reliable_points": true,
+    "map_provider": "stub; no external map charges"
+  }
+]

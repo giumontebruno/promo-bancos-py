@@ -1,0 +1,182 @@
+[
+  {
+    "id": "a7859eae4439c72b",
+    "merchant_name": "desbloquea diau dom18",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-Domingo-18-_-OCT-2026v2.docx.pdf",
+    "validity": "Vigencia: ● Exclusivamente el 16 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-18 hasta 2026-10-18",
+      "day": "2026-10-18 de 14:00 a 16:00 h (Paraguay)",
+      "evidence": "compras realizadas con tarjeta de crédito y/o débito MasterCard emitidas por ueno bank exclusivamente el 18 de octubre 2026 de 14:00 h hasta 16:00 h (cuyos topes se encuentran descritos en el cuadro “Beneficio de la Campaña”). "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "773aeba39e9d5251",
+    "merchant_name": "diau black",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-OCT-2026v4.docx.pdf",
+    "validity": "desde el 12 de octubre de 2026 hasta el 14 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-15 hasta 2026-10-15",
+      "day": "2026-10-15",
+      "evidence": "compras realizadas en todos los comercios del país con tarjeta de crédito y/o débito MasterCard emitidas por ueno bank exclusivamente el 15 de octubre 2026 (desde las 00:00 h hasta las 23:59h) (cuyos topes se encuentran descritos en el cuadro “Beneficio de la Campaña”). "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "8b9affb2edab466e",
+    "merchant_name": "diau black cda",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Abri-tu-CDA-y-desbloquea-Dia-u-_-OCT-2026v4.docx.pdf",
+    "validity": "desde el 12 de octubre de 2026 hasta el 14 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-15 hasta 2026-10-15",
+      "day": "2026-10-15",
+      "evidence": "compras realizadas con tarjeta de crédito y/o débito MasterCard emitidas por ueno bank exclusivamente el 15 de octubre 2026 (desde las 00:00 h hasta las 23:59h). "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "a7c1664de027e656",
+    "merchant_name": "diau jueves15 tc",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TC-_-OCT-2026v5.docx.pdf",
+    "validity": "Desde el 12 de octubre de 2026 hasta el 31 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-15 hasta 2026-10-15",
+      "day": "2026-10-15 de 12:00 a 14:00 h (Paraguay)",
+      "evidence": "exclusivamente a las compras efectuadas el día 15 de octubre de 2026, en el horario de 12:00 a 14:00 hs. "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "fbe69c42d795e5a0",
+    "merchant_name": "diau jueves15 tc cda",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-CDA-desbloquea-Dia-u-_-TC-_-OCT-2026v2.docx.pdf",
+    "validity": "desde el 12 de octubre de 2026 hasta el 14 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-15 hasta 2026-10-15",
+      "day": "2026-10-15 de 12:00 a 14:00 h (Paraguay)",
+      "evidence": "exclusivamente a las compras efectuadas el día 15 de octubre de 2026, en el horario de 12:00 a 14:00 hs. "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "afd40c1ac4ef46b5",
+    "merchant_name": "diau jueves15 tc td",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TC-y-TD-_-OCT-2026v1.docx.pdf",
+    "validity": "Desde el 12 de octubre de 2026 hasta el 31 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-15 hasta 2026-10-15",
+      "day": "2026-10-15 de 12:00 a 14:00 h (Paraguay)",
+      "evidence": "exclusivamente a las compras efectuadas el día 15 de octubre de 2026, en el horario de 12:00 a 14:00 hs. "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "5b2fd4ec2f6fac94",
+    "merchant_name": "diau jueves15 td",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TD-_-OCT-2026v3.docx.pdf",
+    "validity": "Desde el 12 de octubre de 2026 hasta el 31 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-15 hasta 2026-10-15",
+      "day": "2026-10-15 de 12:00 a 14:00 h (Paraguay)",
+      "evidence": "exclusivamente a las compras efectuadas el día 15 de octubre de 2026, en el horario de 12:00 a 14:00 hs. "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "a225a20ff90154df",
+    "merchant_name": "diau jueves15 td cda",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-CDA-desbloquea-Dia-u-_-TD-_-OCT-2026v2.docx.pdf",
+    "validity": "desde el 12 de octubre de 2026 hasta el 14 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-15 hasta 2026-10-15",
+      "day": "2026-10-15 de 12:00 a 14:00 h (Paraguay)",
+      "evidence": "compras realizadas con tarjeta de débito MasterCard emitidas por ueno bank exclusivamente el 15 de octubre 2026 de 12:00 del mediodía a 14:00 h. "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "6e7a792718162762",
+    "merchant_name": "diau potencia tc",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-Potencia-tu-Tarjeta-de-Credito-_-OCT-2026v1.pdf",
+    "validity": "Vigencia: ● Del 08 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-10 hasta 2026-10-10",
+      "day": "2026-10-10 de 12:00 a 14:00 h (Paraguay)",
+      "evidence": "compras realizadas con tarjeta de crédito MasterCard emitidas por ueno bank exclusivamente el 10 de octubre 2026 de 12:00 pm (del mediodía) a 14:00 h. "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "c7ebd7e1416eca2b",
+    "merchant_name": "diau potencia td",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-Potencia-tu-Tarjeta-de-Debito-_-OCT-2026v1.pdf",
+    "validity": "Vigencia: ● Del 08 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-10 hasta 2026-10-10",
+      "day": "2026-10-10 de 12:00 a 14:00 h (Paraguay)",
+      "evidence": "compras realizadas con tarjeta de débito MasterCard emitidas por ueno bank exclusivamente el 10 de octubre 2026 de 12:00 del mediodía a 14:00 h. "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "bac8fb9825f2b08a",
+    "merchant_name": "diau50 tc",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-50-con-tu-Tarjeta-de-Credito-_-OCT-2026v4-1.pdf",
+    "validity": "Vigencia: ● Los días 08 de octubre, 09 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-10 hasta 2026-10-10",
+      "day": "2026-10-10 de 12:00 a 14:00 h (Paraguay)",
+      "evidence": "compras realizadas con tarjeta de crédito MasterCard emitidas por ueno bank exclusivamente el 10 de octubre 2026 de 12:00 del mediodía a 14:00 h. "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "88f455625fe74a49",
+    "merchant_name": "diau50 td",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-50-con-tu-Tarjeta-de-Debito-_-OCT-2026v5.pdf",
+    "validity": "Vigencia: ● Los días 08 de octubre, 09 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-10 hasta 2026-10-10",
+      "day": "2026-10-10 de 12:00 a 14:00 h (Paraguay)",
+      "evidence": "compras realizadas con tarjeta de débito MasterCard emitidas por ueno bank exclusivamente el 10 de octubre 2026 de 12:00 del mediodía a 14:00 h. "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "b8543ef607cf316d",
+    "merchant_name": "reintegro diau dom18",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-Domingo-18-_-OCT-2026v2.docx.pdf",
+    "validity": "Vigencia: ● Exclusivamente el 16 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-18 hasta 2026-10-18",
+      "day": "2026-10-18 de 14:00 a 16:00 h (Paraguay)",
+      "evidence": "compras realizadas con tarjeta de crédito y/o débito MasterCard emitidas por ueno bank exclusivamente el 18 de octubre 2026 de 14:00 h hasta 16:00 h (cuyos topes se encuentran descritos en el cuadro “Beneficio de la Campaña”) "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "97f33df7b7ba7416",
+    "merchant_name": "reintegro diau tc",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-_-TC-_-OCT-2026v3.docx.pdf",
+    "validity": "Desde el 12 de octubre de 2026 hasta el 31 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-15 hasta 2026-10-15",
+      "day": "2026-10-15 de 12:00 a 14:00 h (Paraguay)",
+      "evidence": "exclusivamente a las compras efectuadas el día 15 de octubre de 2026, en el horario de 12:00 a 14:00 hs. "
+    },
+    "pdf_sha256": null
+  },
+  {
+    "id": "d7bb42dc7d243de2",
+    "merchant_name": "reintegro diau td",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-_-TD-_-OCT-2026v3.docx.pdf",
+    "validity": "Desde el 12 de octubre de 2026 hasta el 31 de octubre de 2026",
+    "correct_purchase_window": {
+      "validity": "Desde 2026-10-15 hasta 2026-10-15",
+      "day": "2026-10-15 de 12:00 a 14:00 h (Paraguay)",
+      "evidence": "exclusivamente a las compras efectuadas el día 15 de octubre de 2026, en el horario de 12:00 a 14:00 hs. "
+    },
+    "pdf_sha256": null
+  }
+]

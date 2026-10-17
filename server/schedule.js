@@ -7,6 +7,7 @@ export function todayParts(now = new Date()) {
 export function isDue(promo, now = new Date()) {
   const today = todayParts(now);
   const terms = promo.terms || {};
+  if (promo.source_verification === "unconfirmed") return false;
   if (!terms.ends_on || terms.conflicting_dates || terms.ends_on < today.iso || (terms.starts_on && terms.starts_on > today.iso)) return false;
   if (promo.month_days?.length) return promo.month_days.includes(today.day);
   if (promo.ordinal_weekdays?.length) {

@@ -43,6 +43,11 @@ def main():
             if not rows:
                 raise ValueError('Empty source output')
             status[bank] = {'status': 'fetched', 'checked_at': datetime.now(timezone.utc).isoformat(), 'records': len(rows)}
+            pending = sum(row.get('Estado verificacion') == 'unconfirmed' for row in rows)
+            if pending:
+                status[bank].update(status='partial', attempted_at=status[bank]['checked_at'], checked_at=previous.get(bank, {}).get('checked_at'), pending_records=pending)
+                failures.append(bank)
+                print(f'{bank}: {pending} records retained pending official document review.', flush=True)
         except (subprocess.SubprocessError, ValueError, OSError) as error:
             for path, content in backups.items():
                 path.write_bytes(content)

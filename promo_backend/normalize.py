@@ -283,18 +283,26 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "level_benefits": json.loads(row.get("Niveles estructurados") or "[]"),
         "special_flags": detect_special_flags(bank, benefit, levels, caps, validity, day_text, full_detail),
         "source_url": source_url,
-        "source_page_url": "https://www.bancontinental.com.py/club-continental/comercios" if bank == "Continental" else source_url,
+        "source_page_url": "https://www.bancontinental.com.py/club-continental/comercios" if bank == "Continental" else first(row, "URL fuente actual") or source_url,
         "raw_detail": full_detail,
         "source_warning": first(row, "Advertencia de fuente"),
         "verified_cards": first(row, "Tarjetas verificadas"),
         "original_source_text": first(row, "Texto original de la fuente"),
     }
+    if first(row, "Vigencia de compras verificada"):
+        normalized["source_purchase_validity"] = first(row, "Vigencia de compras verificada")
+    if row.get("Topes revisados por variante") == "yes":
+        normalized["limits_reviewed_for_variant"] = True
+    if first(row, "Estado verificacion"):
+        normalized["source_verification"] = first(row, "Estado verificacion")
     for field, column in [('variant_review_reason', 'Revisión de variantes'), ('original_source_text', 'Texto original de la fuente')]:
         if first(row, column):
             normalized[field] = first(row, column)
     normalized["benefit_type"] = row.get("Tipo de beneficio verificado") or normalized["benefit_type"]
     normalized["id"] = row_id(normalized)
     if row.get('Variante'):
+        if row.get('Vigencia de identidad campaña'):
+            normalized['campaign_id'] = row_id({**normalized, 'validity': row['Vigencia de identidad campaña']})
         if bank == 'Familiar':
             normalized['campaign_id'] = normalized['id']
         normalized['id'] = hashlib.sha1((normalized['id'] + '|' + row['Variante']).encode()).hexdigest()[:16]
@@ -440,7 +448,7 @@ def load_promotions():
             for row in csv.DictReader(f):
                 items = normalize_source_row(bank, row)
                 for item in items:
-                    item["source_checked_at"] = checked_at
+                    item["source_checked_at"] = row.get("Fecha verificacion fuente") or checked_at
                     item["source_file_updated_at"] = last_source_commit or None
                 promotions.extend(items)
     promotions.sort(key=lambda r: (r["bank"], r["category"], r["merchant_name"]))
@@ -501,6 +509,19 @@ def main():
 
     source_promotions = load_promotions()
     promotions, aliases = deduplicate(source_promotions)
+    # Preserve reviewed campaign subscriptions through multi-benefit splits.
+    identity_path = DATA / 'reviewed_campaign_identities.json'
+    if identity_path.exists():
+        identities = json.loads(identity_path.read_text(encoding='utf-8'))
+        for promo in promotions:
+            if promo.get('offer_kind') and promo.get('source_verification') == 'official_document':
+                identity = next((r for r in identities if r['bank'] == promo['bank'] and r['source_url'] == promo['source_url']), None)
+                if identity:
+                    promo['campaign_id'] = identity['campaign_id']
+        present_campaigns = {p.get('campaign_id') for p in promotions}
+        for identity in identities:
+            if identity['campaign_id'] in present_campaigns:
+                aliases.update({old_id: identity['campaign_id'] for old_id in identity['legacy_ids']})
     previous_path = PUBLIC / 'promotions.json'
     previous = json.loads(previous_path.read_text(encoding='utf-8')) if previous_path.exists() else []
     committed = subprocess.run(['git', 'show', 'HEAD:public/promotions.json'], cwd=ROOT, capture_output=True, encoding='utf-8')

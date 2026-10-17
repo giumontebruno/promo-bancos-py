@@ -1,0 +1,32 @@
+{
+  "baseline_total": 2451,
+  "current_total": 3096,
+  "added": 789,
+  "archived": 144,
+  "added_by_bank": {
+    "Itaú": 432,
+    "Sudameris": 146,
+    "Continental": 139,
+    "Atlas": 17,
+    "ueno bank": 22,
+    "BNF": 30,
+    "Coop. Universitaria": 1,
+    "GNB": 2
+  },
+  "archived_by_bank": {
+    "Atlas": 17,
+    "BNF": 30,
+    "Continental": 50,
+    "Coop. Universitaria": 1,
+    "GNB": 1,
+    "Itaú": 4,
+    "Sudameris": 28,
+    "ueno bank": 13
+  },
+  "kaiseki_id_preserved": true,
+  "source_verification": {
+    "existing_source_pipeline": 2780,
+    "official_document": 189,
+    "unconfirmed": 127
+  }
+}

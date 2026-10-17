@@ -1,0 +1,61 @@
+{
+  "checked": 7,
+  "resolved": [
+    {
+      "old_id": "fd8cedfb36f09b95",
+      "new_id": "57b016cd047fb17d",
+      "merchant_name": "Miércoles Plus",
+      "starts_on": "2026-10-21",
+      "ends_on": "2026-10-21",
+      "source_page": "https://www.bancoatlas.com.py/web/beneficios?page=2",
+      "pdf_url": "https://www.bancoatlas.com.py/web//Tiendas%20adheridas%20Mi%C3%A9rcoles%20Plus.pdf",
+      "evidence": "Official HTML explicitly says21/10/2026. Official PDF one page confirms21October and merchant-specific discount/installment exceptions. Hash-guarded document review preserves source.",
+      "source_verification": "official_document"
+    }
+  ],
+  "pending": [
+    {
+      "id": "5f25d91d35d7793d",
+      "merchant_name": "delSol",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "validity": "La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Promoción válida todos los días para tarjetas afinidad delSol en todos los locales comerciales de delSol Shopping. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gif card y las que no son afinidad delSol.",
+      "reason": "Official current page omits a dated end/year; no linked terms PDF. Supermercados links a merchant-list image without dates."
+    },
+    {
+      "id": "e55296617ce9ac58",
+      "merchant_name": "SUEÑOLAR",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "validity": "La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 y transacciones realizadas a través del POS de la red Infonet. Válido todos los días hasta el 31 de diciembre en las tiendas Sueñolar y tiendas multimarca Sueñolar y Koala. Se excluyen las tarjetas prepaga, corporativa, gourmet card, gift card, afinidad Shopping Mariscal, Shopping Pinedo, Shopping Mariano.",
+      "reason": "Official current page omits a dated end/year; no linked terms PDF. Supermercados links a merchant-list image without dates."
+    },
+    {
+      "id": "de776f2917e6630f",
+      "merchant_name": "Cecconello",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "validity": "Descuento aplicado en caja hasta 20%. La cantidad de cuotas se solicita al momento de la compra, hasta 10 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card, gift card y las afinidades Mariscal, Pinedo y Mariano.",
+      "reason": "Official current page omits a dated end/year; no linked terms PDF. Supermercados links a merchant-list image without dates."
+    },
+    {
+      "id": "f19a5f60e7163501",
+      "merchant_name": "Di Valentini",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "validity": "Descuento aplicado en caja hasta 15%. La cantidad de cuotas se solicita al momento de la compra, hasta 10 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Beneficio exclusivo para consumo personal. Se excluyen tarjetas de crédito prepagas, corporativas, gourmet card, gift card y las afinidades Mariscal, Pinedo y Mariano.",
+      "reason": "Official current page omits a dated end/year; no linked terms PDF. Supermercados links a merchant-list image without dates."
+    },
+    {
+      "id": "2cfb9cd8678d662c",
+      "merchant_name": "BOX Mayorista",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "validity": "Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para todas las tarjetas de crédito. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Vigente el tercer Lunes de cada mes. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+      "reason": "Official current page omits a dated end/year; no linked terms PDF. Supermercados links a merchant-list image without dates."
+    },
+    {
+      "id": "28100c1f8dcdffbe",
+      "merchant_name": "Supermercados",
+      "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg",
+      "validity": "Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tarjetas Visa Oro y Visa Clásica. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo personal. Se excluyen las tarjetas prepagas, corporativas, gourmet card, gift card y las afinidades Shopping Mariscal, Pinedo y Mariano.",
+      "reason": "Official current page omits a dated end/year; no linked terms PDF. Supermercados links a merchant-list image without dates."
+    }
+  ],
+  "inaccessible_sources": []
+}

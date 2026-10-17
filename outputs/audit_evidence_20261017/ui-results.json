@@ -1,0 +1,116 @@
+[
+  {
+    "width": 390,
+    "overflow": false,
+    "javascript_errors": [],
+    "kaiseki_search": true,
+    "search_reset": true,
+    "map_without_gps": {
+      "points": 46,
+      "markers": 46,
+      "expected": 46,
+      "old_truncation_pins": 18,
+      "newly_verified_candidates": 1
+    },
+    "map_with_gps": {
+      "old_truncation_pins": 7,
+      "markers": 46
+    },
+    "weekly_points": [
+      {
+        "day": "lunes",
+        "points": 43,
+        "newly_verified_candidates": 0
+      },
+      {
+        "day": "martes",
+        "points": 43,
+        "newly_verified_candidates": 0
+      },
+      {
+        "day": "mi\u00e9rcoles",
+        "points": 45,
+        "newly_verified_candidates": 1
+      },
+      {
+        "day": "jueves",
+        "points": 47,
+        "newly_verified_candidates": 2
+      },
+      {
+        "day": "viernes",
+        "points": 46,
+        "newly_verified_candidates": 1
+      },
+      {
+        "day": "s\u00e1bado",
+        "points": 45,
+        "newly_verified_candidates": 1
+      },
+      {
+        "day": "domingo",
+        "points": 43,
+        "newly_verified_candidates": 0
+      }
+    ],
+    "map_with_gps_all_reliable_points": true,
+    "map_provider": "stub; no external map charges"
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "javascript_errors": [],
+    "kaiseki_search": true,
+    "search_reset": true,
+    "map_without_gps": {
+      "points": 46,
+      "markers": 46,
+      "expected": 46,
+      "old_truncation_pins": 18,
+      "newly_verified_candidates": 1
+    },
+    "map_with_gps": {
+      "old_truncation_pins": 7,
+      "markers": 46
+    },
+    "weekly_points": [
+      {
+        "day": "lunes",
+        "points": 43,
+        "newly_verified_candidates": 0
+      },
+      {
+        "day": "martes",
+        "points": 43,
+        "newly_verified_candidates": 0
+      },
+      {
+        "day": "mi\u00e9rcoles",
+        "points": 45,
+        "newly_verified_candidates": 1
+      },
+      {
+        "day": "jueves",
+        "points": 47,
+        "newly_verified_candidates": 2
+      },
+      {
+        "day": "viernes",
+        "points": 46,
+        "newly_verified_candidates": 1
+      },
+      {
+        "day": "s\u00e1bado",
+        "points": 45,
+        "newly_verified_candidates": 1
+      },
+      {
+        "day": "domingo",
+        "points": 43,
+        "newly_verified_candidates": 0
+      }
+    ],
+    "map_with_gps_all_reliable_points": true,
+    "map_provider": "stub; no external map charges"
+  }
+]

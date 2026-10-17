@@ -4,7 +4,7 @@ import hashlib
 import json
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -105,6 +105,38 @@ def parse_tables(pages, source_url, slug):
     return list({json.dumps(x, sort_keys=True): x for x in levels}.values()), list(dict.fromkeys(merchants)), merchant_benefits, locations
 
 
+def purchase_window(detail):
+    """Only a date explicitly restricting purchases overrides campaign funding dates."""
+    value = text(detail)
+    months = {name: i for i, name in enumerate(
+        "enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre".split(), 1)}
+    date_pattern = r"(\d{1,2}) de (\w+) (?:de )?(\d{4})"
+    patterns = [
+        r"exclusivamente a las compras efectuadas el d[ií]a " + date_pattern,
+        r"compras realizadas[^●]{0,220}?exclusivamente el " + date_pattern,
+    ]
+    found = []
+    for pattern in patterns:
+        for match in re.finditer(pattern, value, re.I):
+            day, month, year = match.groups()
+            try:
+                actual = date(int(year), months[month.casefold()], int(day)).isoformat()
+            except (KeyError, ValueError):
+                continue
+            following = value[match.end():match.end()+140]
+            times = re.findall(r"\b\d{1,2}:\d{2}\b", following)
+            hours = " a ".join(times[:2]) if len(times) >= 2 else ""
+            found.append((actual, hours, match.group(0) + following.split("●")[0]))
+    dates = {item[0] for item in found}
+    if len(dates) != 1:
+        return None
+    actual = next(iter(dates))
+    hours = next((item[1] for item in found if item[1]), "")
+    return {"validity": f"Desde {actual} hasta {actual}",
+            "day": actual + (f" de {hours} h (Paraguay)" if hours else ""),
+            "evidence": found[0][2]}
+
+
 def main():
     source_rows = list(csv.DictReader(monthly.RAW_CSV.open(encoding="utf-8-sig")))
     by_page = {int(row["Página PDF"]): row for row in source_rows if str(row["Página PDF"]).isdigit()}
@@ -117,7 +149,11 @@ def main():
             if "/beneficio-byc/" not in url:
                 continue
             slug = urlparse(url).path.rstrip("/").split("/")[-1]
-            html, pdf_urls, _ = bases.fetch_text(url)
+            if "--cached" in sys.argv:
+                html = (bases.WORK_DIR / bases.safe_name(url, ".html")).read_text(encoding="utf-8")
+                pdf_urls = bases.extract_pdf_links(html)
+            else:
+                html, pdf_urls, _ = bases.fetch_text(url)
             for pdf_url in pdf_urls:
                 pdf_path = bases.PDF_DIR / bases.safe_name(pdf_url, ".pdf")
                 with pdfplumber.open(pdf_path) as pdf:
@@ -167,6 +203,12 @@ def main():
                         row["Día de promoción"] = "Todos los días"
                     if slug in {"combustibles", "petropar"}:
                         row["Día de promoción"] = "Todos los días"
+                    window = purchase_window(detail)
+                    if window:
+                        row["Vigencia"] = window["validity"]
+                        row["Vigencia de compras verificada"] = window["validity"]
+                        row["Día de promoción"] = window["day"]
+                        row["Evidencia ventana de compras"] = window["evidence"]
                     result.append(row)
     if not result:
         raise RuntimeError("No UENO terms parsed; previous source preserved.")

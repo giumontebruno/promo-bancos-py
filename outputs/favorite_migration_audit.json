@@ -1,0 +1,1210 @@
+{
+  "archived_records": 144,
+  "saved_key_checks": 150,
+  "statuses": {
+    "alias": 76,
+    "preserved": 74
+  },
+  "details": [
+    {
+      "old_id": "532a4f732d61c330",
+      "bank": "Atlas",
+      "merchant": "Feria de Viajes",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "4170fdc63d3858cd",
+      "status": "alias"
+    },
+    {
+      "old_id": "84714bfec7199316",
+      "bank": "Atlas",
+      "merchant": "Martiderm",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "d8ee4544307fa120",
+      "status": "alias"
+    },
+    {
+      "old_id": "fd8cedfb36f09b95",
+      "bank": "Atlas",
+      "merchant": "Miércoles Plus",
+      "source_url": "https://www.bancoatlas.com.py/web//Tiendas%20adheridas%20Mi%C3%A9rcoles%20Plus.pdf",
+      "target": "57b016cd047fb17d",
+      "status": "alias"
+    },
+    {
+      "old_id": "85e0e1efcba1e532",
+      "bank": "Atlas",
+      "merchant": "Nueva Americana",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "6deacdfe20941943",
+      "status": "alias"
+    },
+    {
+      "old_id": "e34f133d048a72fe",
+      "bank": "Atlas",
+      "merchant": "L'uomo",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "60a553c089031097",
+      "status": "alias"
+    },
+    {
+      "old_id": "9c87255f975ad2ad",
+      "bank": "Atlas",
+      "merchant": "Preventa Cheques delSol",
+      "source_url": "https://www.delsol.com.py/eventos/the-signature-exclusive-reward",
+      "target": "f53faf9454ed34f8",
+      "status": "alias"
+    },
+    {
+      "old_id": "80781ff02d6eccb3",
+      "bank": "Atlas",
+      "merchant": "delSol Shopping - Cheques delSol",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "7504d6a61472f7c3",
+      "status": "alias"
+    },
+    {
+      "old_id": "137d14b61964f0ac",
+      "bank": "Atlas",
+      "merchant": "oBoticário",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "f33ae1339564bcaf",
+      "status": "alias"
+    },
+    {
+      "old_id": "0c2e5a63be06817d",
+      "bank": "Atlas",
+      "merchant": "Champs Elysées",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "8d361d640884c0e9",
+      "status": "alias"
+    },
+    {
+      "old_id": "b853202e7d83d141",
+      "bank": "Atlas",
+      "merchant": "Cortefiel",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "069fd5a1cbc00a62",
+      "status": "alias"
+    },
+    {
+      "old_id": "2f6e2aaa890504e2",
+      "bank": "Atlas",
+      "merchant": "Forever 21",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "101376e6827c14e1",
+      "status": "alias"
+    },
+    {
+      "old_id": "bd367a5e119cae1f",
+      "bank": "Atlas",
+      "merchant": "ISDIN",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "f06e4bba4fa3eee4",
+      "status": "alias"
+    },
+    {
+      "old_id": "b6be0f65d5c0a132",
+      "bank": "Atlas",
+      "merchant": "Jack & Jones",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "0c41f152052ec83a",
+      "status": "alias"
+    },
+    {
+      "old_id": "394649c9bbe57010",
+      "bank": "Atlas",
+      "merchant": "Mango",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "4954945f12cae4f1",
+      "status": "alias"
+    },
+    {
+      "old_id": "0257982426bda4b9",
+      "bank": "Atlas",
+      "merchant": "Pedro del Hierro",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "a05712dd33e6d78a",
+      "status": "alias"
+    },
+    {
+      "old_id": "49a719bd38acea68",
+      "bank": "Atlas",
+      "merchant": "Springfield",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "8ca258c90804d203",
+      "status": "alias"
+    },
+    {
+      "old_id": "48f8b5bbd541db28",
+      "bank": "Atlas",
+      "merchant": "women'secret",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "target": "1192ac8724e8d428",
+      "status": "alias"
+    },
+    {
+      "old_id": "896de7bffb9bce58-10a93e87",
+      "bank": "BNF",
+      "merchant": "COOPERATIVA CHORTITZER",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf",
+      "target": "896de7bffb9bce58-1fc80634",
+      "status": "alias"
+    },
+    {
+      "old_id": "41f18a27d2ea14dc-b95cfeb3",
+      "bank": "BNF",
+      "merchant": "POLLOS DON JUAN",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf",
+      "target": "41f18a27d2ea14dc-7b402b51",
+      "status": "alias"
+    },
+    {
+      "old_id": "56557a2992fc18dd-91bce014",
+      "bank": "BNF",
+      "merchant": "Aho Aho Comercial",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "target": "56557a2992fc18dd-18ff8063",
+      "status": "alias"
+    },
+    {
+      "old_id": "9653ad5fd2878c32-1a998e31",
+      "bank": "BNF",
+      "merchant": "BOX Mayorista",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "target": "9653ad5fd2878c32-4ba11692",
+      "status": "alias"
+    },
+    {
+      "old_id": "38a248136902a06b-5b51eec9",
+      "bank": "BNF",
+      "merchant": "Casa Grütter",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "target": "38a248136902a06b-bd6fab39",
+      "status": "alias"
+    },
+    {
+      "old_id": "56cd290bb43547ba-8ad76bda",
+      "bank": "BNF",
+      "merchant": "El Ahorrazo",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "target": "56cd290bb43547ba-b33583cc",
+      "status": "alias"
+    },
+    {
+      "old_id": "92c124e841aedb17-26641542",
+      "bank": "BNF",
+      "merchant": "Supermás",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
+      "target": "92c124e841aedb17-5a446b6a",
+      "status": "alias"
+    },
+    {
+      "old_id": "8dd27327e7d895d5-ab6730d9",
+      "bank": "BNF",
+      "merchant": "A Punto Market",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "8dd27327e7d895d5-c29e4cc6",
+      "status": "alias"
+    },
+    {
+      "old_id": "53f3400657b41e35-ef448872",
+      "bank": "BNF",
+      "merchant": "A Punto Tienda del Asadero",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "53f3400657b41e35-519d1e31",
+      "status": "alias"
+    },
+    {
+      "old_id": "715a378779a05757-163a14a4",
+      "bank": "BNF",
+      "merchant": "Cadena Real",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "715a378779a05757-8ffef06a",
+      "status": "alias"
+    },
+    {
+      "old_id": "16e3d50d528cb959-30a78c8f",
+      "bank": "BNF",
+      "merchant": "Casa Paraná",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "16e3d50d528cb959-fe35a3a1",
+      "status": "alias"
+    },
+    {
+      "old_id": "e7e3adbc5c2e066a-7f2a8193",
+      "bank": "BNF",
+      "merchant": "Casa Yasy",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "e7e3adbc5c2e066a-dc389505",
+      "status": "alias"
+    },
+    {
+      "old_id": "c8cf9116b5b7be08-de8ca47c",
+      "bank": "BNF",
+      "merchant": "Comercial Armin",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "c8cf9116b5b7be08-f3690628",
+      "status": "alias"
+    },
+    {
+      "old_id": "de04d2b0dd06ae42-a5817f05",
+      "bank": "BNF",
+      "merchant": "Comercial Elena",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "de04d2b0dd06ae42-b1dab444",
+      "status": "alias"
+    },
+    {
+      "old_id": "37b656d604c86282-17cfbd28",
+      "bank": "BNF",
+      "merchant": "Delimarket",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "37b656d604c86282-6a29065d",
+      "status": "alias"
+    },
+    {
+      "old_id": "8aeac92c0c41f161-3cfa05ef",
+      "bank": "BNF",
+      "merchant": "Hipermercados Luisito",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "8aeac92c0c41f161-73643034",
+      "status": "alias"
+    },
+    {
+      "old_id": "53301f2102787ec4-c5190c7c",
+      "bank": "BNF",
+      "merchant": "Kingo Supermercados",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "53301f2102787ec4-5c71c1d9",
+      "status": "alias"
+    },
+    {
+      "old_id": "9a2f15344977f3e5-4790bc65",
+      "bank": "BNF",
+      "merchant": "Los Jardines Supermercado",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "9a2f15344977f3e5-5129d309",
+      "status": "alias"
+    },
+    {
+      "old_id": "2e765ad628e2a9a3-46f82c07",
+      "bank": "BNF",
+      "merchant": "Mercado Villa Sofía",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "2e765ad628e2a9a3-19d68ad2",
+      "status": "alias"
+    },
+    {
+      "old_id": "2765dd349f2a0729-92d18d5b",
+      "bank": "BNF",
+      "merchant": "Multi Carnes Supermercado",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "2765dd349f2a0729-25a27bb5",
+      "status": "alias"
+    },
+    {
+      "old_id": "0b1ce18d8fed3eed-153c9b5f",
+      "bank": "BNF",
+      "merchant": "PLUB",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "0b1ce18d8fed3eed-b9f7741e",
+      "status": "alias"
+    },
+    {
+      "old_id": "c363775cad9ae67b-cee23f3b",
+      "bank": "BNF",
+      "merchant": "Super Santa Rosa",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "c363775cad9ae67b-1a3ce080",
+      "status": "alias"
+    },
+    {
+      "old_id": "e371de5c6fe93496-f5a947a5",
+      "bank": "BNF",
+      "merchant": "Supermercado Cardoso",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "e371de5c6fe93496-c02d2a18",
+      "status": "alias"
+    },
+    {
+      "old_id": "862ac4bf1f1c5ba7-83dc77f6",
+      "bank": "BNF",
+      "merchant": "Supermercado Gran Avenida",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "862ac4bf1f1c5ba7-00ebd175",
+      "status": "alias"
+    },
+    {
+      "old_id": "c503e64f22e2d641-ee2825b4",
+      "bank": "BNF",
+      "merchant": "Supermercado La Preferida",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "c503e64f22e2d641-5fddc8a9",
+      "status": "alias"
+    },
+    {
+      "old_id": "c4493ca61fca5f45-1ba4987c",
+      "bank": "BNF",
+      "merchant": "Supermercado S&M",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "c4493ca61fca5f45-09eeddfd",
+      "status": "alias"
+    },
+    {
+      "old_id": "c9c3fecfaf9686cc-ee69bcca",
+      "bank": "BNF",
+      "merchant": "Supermercados Gran Vía",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "c9c3fecfaf9686cc-63349d42",
+      "status": "alias"
+    },
+    {
+      "old_id": "88a468afc49ca7f2-ddc73f42",
+      "bank": "BNF",
+      "merchant": "Superseis",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "88a468afc49ca7f2-eaab6316",
+      "status": "alias"
+    },
+    {
+      "old_id": "3ba2db538d4d96b9-c9b0c4ea",
+      "bank": "BNF",
+      "merchant": "Superseis Express",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "3ba2db538d4d96b9-686aec29",
+      "status": "alias"
+    },
+    {
+      "old_id": "df43987c78ab0694-346fab0d",
+      "bank": "BNF",
+      "merchant": "Supersies",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
+      "target": "df43987c78ab0694-18b827ac",
+      "status": "alias"
+    },
+    {
+      "old_id": "dd34697835bdff48",
+      "bank": "Continental",
+      "merchant": "Proyec S.A.E",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "ed50ff90a1710f28",
+      "status": "alias"
+    },
+    {
+      "old_id": "0f163fd773f66f02",
+      "bank": "Continental",
+      "merchant": "Biggie Farma",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "0f163fd773f66f02",
+      "status": "preserved"
+    },
+    {
+      "old_id": "f7af2a04b44c58d1",
+      "bank": "Continental",
+      "merchant": "836 Cocina Internacional",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "f7af2a04b44c58d1",
+      "status": "preserved"
+    },
+    {
+      "old_id": "eb602f9fd55bfa28",
+      "bank": "Continental",
+      "merchant": "Acuarela Churrasquería",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "eb602f9fd55bfa28",
+      "status": "preserved"
+    },
+    {
+      "old_id": "9c98a07b5b07bd58",
+      "bank": "Continental",
+      "merchant": "Agro Masa",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "9c98a07b5b07bd58",
+      "status": "preserved"
+    },
+    {
+      "old_id": "afe0fbc474f37d00",
+      "bank": "Continental",
+      "merchant": "Almarreina",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "afe0fbc474f37d00",
+      "status": "preserved"
+    },
+    {
+      "old_id": "afaf020415098a19",
+      "bank": "Continental",
+      "merchant": "Amilcar",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "afaf020415098a19",
+      "status": "preserved"
+    },
+    {
+      "old_id": "20f1a740b6927a10",
+      "bank": "Continental",
+      "merchant": "Bernardino Hamburguesas",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "20f1a740b6927a10",
+      "status": "preserved"
+    },
+    {
+      "old_id": "3ae3f7d0ef1d47dd",
+      "bank": "Continental",
+      "merchant": "Billy Smash",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "3ae3f7d0ef1d47dd",
+      "status": "preserved"
+    },
+    {
+      "old_id": "f3536d2194350f62",
+      "bank": "Continental",
+      "merchant": "Bocatta",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "f3536d2194350f62",
+      "status": "preserved"
+    },
+    {
+      "old_id": "9d607fc404e033c6",
+      "bank": "Continental",
+      "merchant": "Calle 75",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "9d607fc404e033c6",
+      "status": "preserved"
+    },
+    {
+      "old_id": "cfee075ab22a3732",
+      "bank": "Continental",
+      "merchant": "Churrasquería García",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "cfee075ab22a3732",
+      "status": "preserved"
+    },
+    {
+      "old_id": "0090235b90d5e7c0",
+      "bank": "Continental",
+      "merchant": "Costa Colón",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "0090235b90d5e7c0",
+      "status": "preserved"
+    },
+    {
+      "old_id": "fdb516b83e2cbf0d",
+      "bank": "Continental",
+      "merchant": "De Las Sierras - Restaurante",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "fdb516b83e2cbf0d",
+      "status": "preserved"
+    },
+    {
+      "old_id": "80dbcb86fe86d2df",
+      "bank": "Continental",
+      "merchant": "El Viejo Marino",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "80dbcb86fe86d2df",
+      "status": "preserved"
+    },
+    {
+      "old_id": "9136582a0159f234",
+      "bank": "Continental",
+      "merchant": "Game Core",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "9136582a0159f234",
+      "status": "preserved"
+    },
+    {
+      "old_id": "55197855d5650725",
+      "bank": "Continental",
+      "merchant": "Hamburguesería Du Maykon",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "55197855d5650725",
+      "status": "preserved"
+    },
+    {
+      "old_id": "590d2fcabf191012",
+      "bank": "Continental",
+      "merchant": "Kafea",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "590d2fcabf191012",
+      "status": "preserved"
+    },
+    {
+      "old_id": "1829b2d22bc40be5",
+      "bank": "Continental",
+      "merchant": "La Candelaria - Restaurant",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "1829b2d22bc40be5",
+      "status": "preserved"
+    },
+    {
+      "old_id": "62e4916f51c2524b",
+      "bank": "Continental",
+      "merchant": "La Negrita",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "62e4916f51c2524b",
+      "status": "preserved"
+    },
+    {
+      "old_id": "c252baff8f8ddcb8",
+      "bank": "Continental",
+      "merchant": "La Nutry",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "c252baff8f8ddcb8",
+      "status": "preserved"
+    },
+    {
+      "old_id": "d916d688f268088d",
+      "bank": "Continental",
+      "merchant": "Malandras Grill",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "d916d688f268088d",
+      "status": "preserved"
+    },
+    {
+      "old_id": "69003497ecda2eea",
+      "bank": "Continental",
+      "merchant": "Molas 1901",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "69003497ecda2eea",
+      "status": "preserved"
+    },
+    {
+      "old_id": "b4ef7d75dfa249fe",
+      "bank": "Continental",
+      "merchant": "Nelore Estrellita",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "b4ef7d75dfa249fe",
+      "status": "preserved"
+    },
+    {
+      "old_id": "51d31fead0bfc458",
+      "bank": "Continental",
+      "merchant": "Parador Campo 9",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "51d31fead0bfc458",
+      "status": "preserved"
+    },
+    {
+      "old_id": "34764556a2947d60",
+      "bank": "Continental",
+      "merchant": "Paulista Grill Churrasquería",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "34764556a2947d60",
+      "status": "preserved"
+    },
+    {
+      "old_id": "5a0d3583280d2c04",
+      "bank": "Continental",
+      "merchant": "Pederzani",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "5a0d3583280d2c04",
+      "status": "preserved"
+    },
+    {
+      "old_id": "b203d75c06ac1133",
+      "bank": "Continental",
+      "merchant": "Plaza Tamarindo",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "b203d75c06ac1133",
+      "status": "preserved"
+    },
+    {
+      "old_id": "b72818d4b48ec923",
+      "bank": "Continental",
+      "merchant": "Real Costanera Restaurante - Encarnación",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "b72818d4b48ec923",
+      "status": "preserved"
+    },
+    {
+      "old_id": "80465446e5bb4d0b",
+      "bank": "Continental",
+      "merchant": "Real Restaurante - Luque",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "80465446e5bb4d0b",
+      "status": "preserved"
+    },
+    {
+      "old_id": "40de7f85eea4ee9e",
+      "bank": "Continental",
+      "merchant": "Restaurante - Soho Savoy Hotel",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "40de7f85eea4ee9e",
+      "status": "preserved"
+    },
+    {
+      "old_id": "4f33a6a96e1ffc51",
+      "bank": "Continental",
+      "merchant": "Sabores del Pacífico",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "4f33a6a96e1ffc51",
+      "status": "preserved"
+    },
+    {
+      "old_id": "7bd89b041ec46629",
+      "bank": "Continental",
+      "merchant": "Takuare'e Restó",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "7bd89b041ec46629",
+      "status": "preserved"
+    },
+    {
+      "old_id": "754345c7fc066341",
+      "bank": "Continental",
+      "merchant": "Warlons",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "754345c7fc066341",
+      "status": "preserved"
+    },
+    {
+      "old_id": "5e8d6f33c2cb43f9",
+      "bank": "Continental",
+      "merchant": "Ña Virginia",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "5e8d6f33c2cb43f9",
+      "status": "preserved"
+    },
+    {
+      "old_id": "10e504f2c07f0c9d",
+      "bank": "Continental",
+      "merchant": "Ñe'ẽ Porã Tecnologia y confort",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "00aaedd89864d544",
+      "status": "alias"
+    },
+    {
+      "old_id": "27047f20441f5e51",
+      "bank": "Continental",
+      "merchant": "1811 Salon",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "27047f20441f5e51",
+      "status": "preserved"
+    },
+    {
+      "old_id": "1fad50a3d2ec7cc5",
+      "bank": "Continental",
+      "merchant": "Bomo",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "1fad50a3d2ec7cc5",
+      "status": "preserved"
+    },
+    {
+      "old_id": "93463828d76db505",
+      "bank": "Continental",
+      "merchant": "Joseph - Coronel Oviedo",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "93463828d76db505",
+      "status": "preserved"
+    },
+    {
+      "old_id": "974d456550e37950",
+      "bank": "Continental",
+      "merchant": "LCC Spa Urbano",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "974d456550e37950",
+      "status": "preserved"
+    },
+    {
+      "old_id": "7f7b37c7d2b534e4",
+      "bank": "Continental",
+      "merchant": "Mel Peluquería & Barbería",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "7f7b37c7d2b534e4",
+      "status": "preserved"
+    },
+    {
+      "old_id": "4fa6c84d17e4a77d",
+      "bank": "Continental",
+      "merchant": "Unik Beauty Spa",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "4fa6c84d17e4a77d",
+      "status": "preserved"
+    },
+    {
+      "old_id": "940b44ec1dd40641",
+      "bank": "Continental",
+      "merchant": "Koala",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "940b44ec1dd40641",
+      "status": "preserved"
+    },
+    {
+      "old_id": "209249b4a2a288b8",
+      "bank": "Continental",
+      "merchant": "La Almenas - Las Almenitas - Las Colinas - Campoalto - Torrefuerte",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "209249b4a2a288b8",
+      "status": "preserved"
+    },
+    {
+      "old_id": "0dc1b55a8f9b97be",
+      "bank": "Continental",
+      "merchant": "CREA espacio para la familia",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "0dc1b55a8f9b97be",
+      "status": "preserved"
+    },
+    {
+      "old_id": "20d528114f416357",
+      "bank": "Continental",
+      "merchant": "El Ahorrazo Supermayorista",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "20d528114f416357",
+      "status": "preserved"
+    },
+    {
+      "old_id": "f3bfb9e48ac0b25b",
+      "bank": "Continental",
+      "merchant": "Coco Fit",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "c704e68318535368",
+      "status": "alias"
+    },
+    {
+      "old_id": "95260183bc3ff53c",
+      "bank": "Continental",
+      "merchant": "Marijoa Tejidos",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "6300bf11c4d6a392",
+      "status": "alias"
+    },
+    {
+      "old_id": "d3201f05a55b56ae",
+      "bank": "Continental",
+      "merchant": "Penina - Galan",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "4e4c939fd6d0dc0f",
+      "status": "alias"
+    },
+    {
+      "old_id": "c92e2fc64b7103b5",
+      "bank": "Continental",
+      "merchant": "Importadora Avenida",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "target": "461ad72e9fa72707",
+      "status": "alias"
+    },
+    {
+      "old_id": "6d3e46f1399d07fb",
+      "bank": "Coop. Universitaria",
+      "merchant": "SANTA CLARA",
+      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784804823.pdf",
+      "target": "46b95e1d04e82602",
+      "status": "alias"
+    },
+    {
+      "old_id": "ed53c672dc809af8",
+      "bank": "GNB",
+      "merchant": "Interescolar Colegio Salesianito - Cantina",
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/677",
+      "target": "11fbcb699d5f5af2",
+      "status": "alias"
+    },
+    {
+      "old_id": "8d89ae969eb7721b",
+      "bank": "Itaú",
+      "merchant": "Stock",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16585&c=1457",
+      "target": "6b361360013e9390",
+      "status": "alias"
+    },
+    {
+      "old_id": "b89d12700f21e3ff",
+      "bank": "Itaú",
+      "merchant": "SuperSeis",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16585&c=1464",
+      "target": "b5d5c2bf0deba0dd",
+      "status": "alias"
+    },
+    {
+      "old_id": "ce86dbbb0f29121c",
+      "bank": "Itaú",
+      "merchant": "Delimarket",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16584&c=30064",
+      "target": "ce86dbbb0f29121c",
+      "status": "preserved"
+    },
+    {
+      "old_id": "2c600f207db238ee",
+      "bank": "Itaú",
+      "merchant": "Shell",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291",
+      "target": "2c600f207db238ee",
+      "status": "preserved"
+    },
+    {
+      "old_id": "01d09343d5139084",
+      "bank": "Sudameris",
+      "merchant": "ENEX Y APP MI ENEX",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/307/detalle",
+      "target": "01d09343d5139084",
+      "status": "preserved"
+    },
+    {
+      "old_id": "c2b46ea72556c68c",
+      "bank": "Sudameris",
+      "merchant": "Estaciones de Servicio CCU",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/679/detalle",
+      "target": "c2b46ea72556c68c",
+      "status": "preserved"
+    },
+    {
+      "old_id": "c5aff1b9334bee70",
+      "bank": "Sudameris",
+      "merchant": "CECCONELLO",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/836/detalle",
+      "target": "c5aff1b9334bee70",
+      "status": "preserved"
+    },
+    {
+      "old_id": "4acc21c553fffa78",
+      "bank": "Sudameris",
+      "merchant": "COLEGIO SAN ANDRÉS",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/916/detalle",
+      "target": "4acc21c553fffa78",
+      "status": "preserved"
+    },
+    {
+      "old_id": "0f3c06520e621fe1",
+      "bank": "Sudameris",
+      "merchant": "SUDAMERIS GO- CUOTAS",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/820/detalle",
+      "target": "0f3c06520e621fe1",
+      "status": "preserved"
+    },
+    {
+      "old_id": "adda73b6e9b84929",
+      "bank": "Sudameris",
+      "merchant": "TARJETAS EMPRESARIALES",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/742/detalle",
+      "target": "adda73b6e9b84929",
+      "status": "preserved"
+    },
+    {
+      "old_id": "5e2765c8f4e3a445",
+      "bank": "Sudameris",
+      "merchant": "CLUB CENTRO SOCIAL ENCARNACIÓN",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/477/detalle",
+      "target": "5e2765c8f4e3a445",
+      "status": "preserved"
+    },
+    {
+      "old_id": "b6f68760bbba26e1",
+      "bank": "Sudameris",
+      "merchant": "CLUB DEPORTIVO ALEMÁN (DTA)",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/403/detalle",
+      "target": "b6f68760bbba26e1",
+      "status": "preserved"
+    },
+    {
+      "old_id": "204ec611b9cd5baf",
+      "bank": "Sudameris",
+      "merchant": "CLUB PORVENIR GUAIREÑO",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/451/detalle",
+      "target": "204ec611b9cd5baf",
+      "status": "preserved"
+    },
+    {
+      "old_id": "2a12b5aaa265821a",
+      "bank": "Sudameris",
+      "merchant": "CLUB SOCIAL ÁREA 4 - CIUDAD DEL ESTE",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/826/detalle",
+      "target": "2a12b5aaa265821a",
+      "status": "preserved"
+    },
+    {
+      "old_id": "07955249ec6490ff",
+      "bank": "Sudameris",
+      "merchant": "LIVE FITNESS",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/861/detalle",
+      "target": "07955249ec6490ff",
+      "status": "preserved"
+    },
+    {
+      "old_id": "87e1b25b97ae381f",
+      "bank": "Sudameris",
+      "merchant": "DRUGSTORE ASISMED DESCUENTO EN CAJA",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/453/detalle",
+      "target": "87e1b25b97ae381f",
+      "status": "preserved"
+    },
+    {
+      "old_id": "69e6096277c0ccc6",
+      "bank": "Sudameris",
+      "merchant": "FARMACENTER",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/632/detalle",
+      "target": "69e6096277c0ccc6",
+      "status": "preserved"
+    },
+    {
+      "old_id": "c541978058f267ba",
+      "bank": "Sudameris",
+      "merchant": "CLUB CONCEPCIÓN",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/522/detalle",
+      "target": "c541978058f267ba",
+      "status": "preserved"
+    },
+    {
+      "old_id": "4daba2e6127d66b8",
+      "bank": "Sudameris",
+      "merchant": "CLUB NAUTICO SAN BERNARDINO",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/142/detalle",
+      "target": "4daba2e6127d66b8",
+      "status": "preserved"
+    },
+    {
+      "old_id": "c45f20a1bbe1e36d",
+      "bank": "Sudameris",
+      "merchant": "CONCEPTS LA CUADRITA",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/443/detalle",
+      "target": "959edab9e74272ef",
+      "status": "alias"
+    },
+    {
+      "old_id": "959edab9e74272ef",
+      "bank": "Sudameris",
+      "merchant": "CONCEPTS LA CUADRITA",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/443/detalle",
+      "target": "959edab9e74272ef",
+      "status": "preserved"
+    },
+    {
+      "old_id": "0d7f95303d2b8d96",
+      "bank": "Sudameris",
+      "merchant": "CONCEPTS LA CUADRITA",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/443/detalle",
+      "target": "959edab9e74272ef",
+      "status": "alias"
+    },
+    {
+      "old_id": "959edab9e74272ef",
+      "bank": "Sudameris",
+      "merchant": "CONCEPTS LA CUADRITA",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/443/detalle",
+      "target": "959edab9e74272ef",
+      "status": "preserved"
+    },
+    {
+      "old_id": "b1f9621c7477431d",
+      "bank": "Sudameris",
+      "merchant": "CONCEPTS LA CUADRITA",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/443/detalle",
+      "target": "959edab9e74272ef",
+      "status": "alias"
+    },
+    {
+      "old_id": "959edab9e74272ef",
+      "bank": "Sudameris",
+      "merchant": "CONCEPTS LA CUADRITA",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/443/detalle",
+      "target": "959edab9e74272ef",
+      "status": "preserved"
+    },
+    {
+      "old_id": "f40804ca9707f103",
+      "bank": "Sudameris",
+      "merchant": "MATERASSI",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/476/detalle",
+      "target": "f40804ca9707f103",
+      "status": "preserved"
+    },
+    {
+      "old_id": "4c0bc847f272e127",
+      "bank": "Sudameris",
+      "merchant": "YOUNIQUE",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/315/detalle",
+      "target": "4c0bc847f272e127",
+      "status": "preserved"
+    },
+    {
+      "old_id": "32895a05ab517bae",
+      "bank": "Sudameris",
+      "merchant": "CHEF’S KITCHEN",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/738/detalle",
+      "target": "32895a05ab517bae",
+      "status": "preserved"
+    },
+    {
+      "old_id": "4dec50f0d62ae74e",
+      "bank": "Sudameris",
+      "merchant": "PLUB",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/360/detalle",
+      "target": "4dec50f0d62ae74e",
+      "status": "preserved"
+    },
+    {
+      "old_id": "44240aaaad43072b",
+      "bank": "Sudameris",
+      "merchant": "FRIGOMAS",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/846/detalle",
+      "target": "44240aaaad43072b",
+      "status": "preserved"
+    },
+    {
+      "old_id": "451c9913e2558be2",
+      "bank": "Sudameris",
+      "merchant": "LUISITO",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/875/detalle",
+      "target": "451c9913e2558be2",
+      "status": "preserved"
+    },
+    {
+      "old_id": "1da5fc52ee571bac",
+      "bank": "Sudameris",
+      "merchant": "REAL SUPERMERCADOS",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/483/detalle",
+      "target": "1da5fc52ee571bac",
+      "status": "preserved"
+    },
+    {
+      "old_id": "e3c0e5c68ee4e852",
+      "bank": "Sudameris",
+      "merchant": "TATANO POSADA BOUTIQUE",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle",
+      "target": "94baa749ea2b36db",
+      "status": "alias"
+    },
+    {
+      "old_id": "94baa749ea2b36db",
+      "bank": "Sudameris",
+      "merchant": "TATANO POSADA BOUTIQUE",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle",
+      "target": "94baa749ea2b36db",
+      "status": "preserved"
+    },
+    {
+      "old_id": "7778895696ab588d",
+      "bank": "Sudameris",
+      "merchant": "TATANO POSADA BOUTIQUE",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle",
+      "target": "94baa749ea2b36db",
+      "status": "alias"
+    },
+    {
+      "old_id": "94baa749ea2b36db",
+      "bank": "Sudameris",
+      "merchant": "TATANO POSADA BOUTIQUE",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle",
+      "target": "94baa749ea2b36db",
+      "status": "preserved"
+    },
+    {
+      "old_id": "4d23a08a56886272",
+      "bank": "Sudameris",
+      "merchant": "TATANO POSADA BOUTIQUE",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle",
+      "target": "94baa749ea2b36db",
+      "status": "alias"
+    },
+    {
+      "old_id": "94baa749ea2b36db",
+      "bank": "Sudameris",
+      "merchant": "TATANO POSADA BOUTIQUE",
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/761/detalle",
+      "target": "94baa749ea2b36db",
+      "status": "preserved"
+    },
+    {
+      "old_id": "773aeba39e9d5251",
+      "bank": "ueno bank",
+      "merchant": "diau black",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-OCT-2026v4.docx.pdf",
+      "target": "e44e1ba6bea3c36b",
+      "status": "alias"
+    },
+    {
+      "old_id": "8b9affb2edab466e",
+      "bank": "ueno bank",
+      "merchant": "diau black cda",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Abri-tu-CDA-y-desbloquea-Dia-u-_-OCT-2026v4.docx.pdf",
+      "target": "574f457250d0b189",
+      "status": "alias"
+    },
+    {
+      "old_id": "a7c1664de027e656",
+      "bank": "ueno bank",
+      "merchant": "diau jueves15 tc",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TC-_-OCT-2026v5.docx.pdf",
+      "target": "3676f57e1bfd0cd8",
+      "status": "alias"
+    },
+    {
+      "old_id": "fbe69c42d795e5a0",
+      "bank": "ueno bank",
+      "merchant": "diau jueves15 tc cda",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-CDA-desbloquea-Dia-u-_-TC-_-OCT-2026v2.docx.pdf",
+      "target": "4e3968c3c0db4f53",
+      "status": "alias"
+    },
+    {
+      "old_id": "afd40c1ac4ef46b5",
+      "bank": "ueno bank",
+      "merchant": "diau jueves15 tc td",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TC-y-TD-_-OCT-2026v1.docx.pdf",
+      "target": "054053f77c2d6a9f",
+      "status": "alias"
+    },
+    {
+      "old_id": "5b2fd4ec2f6fac94",
+      "bank": "ueno bank",
+      "merchant": "diau jueves15 td",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-_-TD-_-OCT-2026v3.docx.pdf",
+      "target": "eba7667b19703220",
+      "status": "alias"
+    },
+    {
+      "old_id": "a225a20ff90154df",
+      "bank": "ueno bank",
+      "merchant": "diau jueves15 td cda",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-CDA-desbloquea-Dia-u-_-TD-_-OCT-2026v2.docx.pdf",
+      "target": "c9ebedebe1f69ee1",
+      "status": "alias"
+    },
+    {
+      "old_id": "6e7a792718162762",
+      "bank": "ueno bank",
+      "merchant": "diau potencia tc",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-Potencia-tu-Tarjeta-de-Credito-_-OCT-2026v1.pdf",
+      "target": "307ace2dc9c823d1",
+      "status": "alias"
+    },
+    {
+      "old_id": "c7ebd7e1416eca2b",
+      "bank": "ueno bank",
+      "merchant": "diau potencia td",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-Potencia-tu-Tarjeta-de-Debito-_-OCT-2026v1.pdf",
+      "target": "b059ee4dc7ba895e",
+      "status": "alias"
+    },
+    {
+      "old_id": "bac8fb9825f2b08a",
+      "bank": "ueno bank",
+      "merchant": "diau50 tc",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-50-con-tu-Tarjeta-de-Credito-_-OCT-2026v4-1.pdf",
+      "target": "bf5dcca844ab7a8d",
+      "status": "alias"
+    },
+    {
+      "old_id": "88f455625fe74a49",
+      "bank": "ueno bank",
+      "merchant": "diau50 td",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Dia-U_-50-con-tu-Tarjeta-de-Debito-_-OCT-2026v5.pdf",
+      "target": "9928d02d188c257e",
+      "status": "alias"
+    },
+    {
+      "old_id": "97f33df7b7ba7416",
+      "bank": "ueno bank",
+      "merchant": "reintegro diau tc",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-_-TC-_-OCT-2026v3.docx.pdf",
+      "target": "9b58afc41d93a7d7",
+      "status": "alias"
+    },
+    {
+      "old_id": "d7bb42dc7d243de2",
+      "bank": "ueno bank",
+      "merchant": "reintegro diau td",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-_-TD-_-OCT-2026v3.docx.pdf",
+      "target": "f833957e1290b180",
+      "status": "alias"
+    }
+  ]
+}

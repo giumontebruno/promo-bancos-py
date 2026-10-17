@@ -1,6 +1,7 @@
 """Build GNB app offers from matched live cards and readable official terms."""
 
 import csv
+from datetime import date, timedelta
 import json
 import re
 from pathlib import Path
@@ -109,6 +110,38 @@ def day_text(summary, conditions, benefit, installments):
     if installments and "todos los días" in benefit.casefold():
         return "Todos los días"
     return "No especificado"
+
+
+def dated_weekday_schedule(card):
+    """Use a recurring schedule only if it exactly equals explicit dated windows."""
+    months = {name: i for i, name in enumerate(('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'), 1)}
+    months['setiembre'] = 9
+    windows = []
+    pattern = rf"^Del ({DAY_PATTERN}) (\d{{1,2}}) al ({DAY_PATTERN}) (\d{{1,2}}) de (\w+) del? (\d{{4}})\.?$"
+    for line in card.get('lines', []):
+        match = re.fullmatch(pattern, compact(line), re.I)
+        if not match:
+            continue
+        left, first, right, last, month, year = match.groups()
+        try:
+            start = date(int(year), months[month.casefold()], int(first))
+            end = date(int(year), months[month.casefold()], int(last))
+        except (KeyError, ValueError):
+            return None
+        if start > end or WEEKDAYS[start.weekday()] != left.casefold() or WEEKDAYS[end.weekday()] != right.casefold():
+            return None
+        windows.append((start, end))
+    if not windows:
+        return None
+    start, end = min(x[0] for x in windows), max(x[1] for x in windows)
+    if start.isoformat() != card.get('startDate') or end.isoformat() != card.get('endDate'):
+        return None
+    explicit = {a + timedelta(days=i) for a,b in windows for i in range((b-a).days+1)}
+    weekdays = {d.weekday() for d in explicit}
+    recurring = {start + timedelta(days=i) for i in range((end-start).days+1) if (start+timedelta(days=i)).weekday() in weekdays}
+    if explicit != recurring:
+        return None
+    return ', '.join(WEEKDAYS[n] for n in sorted(weekdays)), f'Desde {start.isoformat()} hasta {end.isoformat()}'
 
 
 def card_label(bullet):
@@ -231,6 +264,9 @@ def build_rows():
 
         for variant_number, (benefit, bullet, installments, kind, label, index) in enumerate(offers):
             day = day_text(summary, conditions, bullet, installments)
+            dated = dated_weekday_schedule(card)
+            if dated and day == 'No especificado':
+                day, validity = dated
             if day == "No especificado":
                 source_schedule = compact(" ".join(card.get("lines", [])))
                 has_explicit_schedule = bool(re.search(

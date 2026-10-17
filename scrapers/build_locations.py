@@ -1,3 +1,4 @@
+import argparse
 import hashlib
 import json
 import os
@@ -274,10 +275,16 @@ def write_csv(locations):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Build locations from downloaded official branch lists")
+    parser.add_argument("--skip-geocoding", action="store_true", help="Do not read geocoding cache or make geocoding requests")
+    args = parser.parse_args()
     locations = seed_locations() + build_bnf_locations()
     ueno_branches = ROOT / "outputs/ueno_branch_sources.json"
     if ueno_branches.exists():
         locations.extend(json.loads(ueno_branches.read_text(encoding="utf-8")))
+    reviewed_branches = ROOT / "data/sudameris_reviewed_branches.json"
+    if reviewed_branches.exists():
+        locations.extend(json.loads(reviewed_branches.read_text(encoding="utf-8")))
     previous = json.loads(OUT_JSON.read_text(encoding="utf-8")) if OUT_JSON.exists() else {}
     previous_by_key = {
         (item.get("bank"), slug(item.get("merchant_name")), slug(item.get("address")), slug(item.get("city"))): item
@@ -303,7 +310,10 @@ def main():
                     'location': {'latitude': candidate.get('lat'), 'longitude': candidate.get('lng')}}) >= 90]
             if len(verified) == 1:
                 old = verified[0]
-        if old and old.get("geocode_source") not in {"", "city_approximation"}:
+        # Stable identity does not depend on whether a branch has coordinates.
+        if old and old.get("id"):
+            item["id"] = old["id"]
+        if old:
             for field in ("id", "lat", "lng", "geocode_source", "place_id", "formatted_address",
                           "google_name", "google_types", "google_confidence", "location_verified_at", "needs_review",
                           "google_last_attempt_at", "google_enrichment_status", "google_candidate_place_id", "google_candidate"):
@@ -316,7 +326,12 @@ def main():
         if key not in seen and item.get("bank") != "BNF" and not replaced_ueno:
             unique.append(item)
             seen.add(key)
-    geocode_locations(unique)
+    if not args.skip_geocoding:
+        geocode_locations(unique)
+    candidate_reviews = ROOT / "data/location_candidate_reviews.json"
+    if candidate_reviews.exists():
+        from location_reviews import apply_reviews
+        apply_reviews(unique, json.loads(candidate_reviews.read_text(encoding="utf-8")))
     unique.sort(key=sort_key)
     payload = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),

@@ -46,3 +46,7 @@ test('public endpoints reject foreign origins and unauthorized dispatch', async 
   const dispatch = await worker.fetch(new Request('https://payback.test/api/push/dispatch', { method: 'POST' }), { DB: {}, CRON_TOKEN: 'test' });
   assert.equal(dispatch.status, 401);
 });
+
+test('source verification pending does not trigger alerts even with bounded dates', () => {
+  assert.equal(isDue({ ...promo, source_verification: 'unconfirmed' }, current), false);
+});

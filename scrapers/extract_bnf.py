@@ -72,10 +72,13 @@ def download_pdf(url):
     PDF_DIR.mkdir(parents=True, exist_ok=True)
     name = Path(urlparse(url).path).name
     path = PDF_DIR / name
-    if not path.exists():
-        response = requests.get(url, timeout=30)
-        response.raise_for_status()
-        path.write_bytes(response.content)
+    # A bank can replace the document without changing its URL.
+    # Never certify an indefinitely cached PDF as freshly checked.
+    response = requests.get(url, timeout=30)
+    response.raise_for_status()
+    if not response.content.lstrip().startswith(b"%PDF-"):
+        raise ValueError("Official BNF source did not return a PDF: " + url)
+    path.write_bytes(response.content)
     return path
 
 
@@ -171,7 +174,11 @@ def benefit_rows(promo, text, branches):
                     continue
                 if premium_only and has_classic and not has_premium:
                     continue
-                limits.append(f'Tope de {kind} mensual: Gs. {amount[1]}.')
+                # Preserve the official shared account/category scope, not just its amount.
+                if len(amounts) == 1:
+                    limits.append(clause)
+                else:
+                    limits.append(f'Tope de {kind}: Gs. {amount[1]}. {scope}')
         additional = [x for x in clauses if not re.search(r'tope de (?:compra|reintegro)', x, re.I)]
         warning = ''
         if premium_only and '600.000 (guaraníes trescientos setenta y cinco mil)' in conditions:

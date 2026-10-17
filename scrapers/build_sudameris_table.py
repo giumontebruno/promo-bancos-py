@@ -1,4 +1,8 @@
 import csv
+import json
+import hashlib
+import requests
+from datetime import datetime, timezone
 import re
 import unicodedata
 from pathlib import Path
@@ -96,15 +100,80 @@ def extract_discount(row):
     return benefit[:180] if benefit else "No especificado"
 
 
+
+def reviewed_document_rows(row):
+    path = Path('data/sudameris_document_reviews.json')
+    if not path.exists():
+        return None
+    reviews = json.loads(path.read_text(encoding='utf-8'))
+    links = [url.strip() for url in row.get('Bases y condiciones URL', '').split(';')]
+    matching = [item for item in reviews if item['pdf'] in links]
+    if not matching:
+        return None
+    verified_hashes = {}
+    result = []
+    for review in matching:
+        if review['pdf'] not in verified_hashes:
+            response = requests.get(review['pdf'], timeout=45)
+            response.raise_for_status()
+            verified_hashes[review['pdf']] = hashlib.sha256(response.content).hexdigest()
+        if verified_hashes[review['pdf']] != review['sha256']:
+            raise ValueError('Reviewed PDF changed: ' + review['pdf'])
+        for key, benefit, cards in review['offers']:
+            scoped = {**review, **review.get('offer_overrides', {}).get(key, {})}
+            cards = scoped.get('cards', cards)
+            cap = scoped.get('cap', '')
+            validity = (f"Desde {scoped['start']} hasta {scoped['end']}" if scoped.get('start')
+                        else f"Hasta {scoped['end']}")
+            result.append({
+                'Categoría': scoped['category'], 'Banco': 'Sudameris',
+                'Comercio/Promoción': scoped['merchant'],
+                'Cantidad de descuento / beneficio': benefit,
+                'Día de promoción': scoped['day'], 'Vigencia': validity,
+                'Montos / topes': cap, 'URL': row['URL'],
+                'URL fuente actual': review['pdf'], 'Estado verificacion': 'official_document',
+                'Fecha verificacion fuente': datetime.now(timezone.utc).isoformat(),
+                'Tarjetas verificadas': cards, 'Variante': key,
+                'Tipo de variante': 'financing' if key.startswith('financing') else key,
+                'Etiqueta de variante': key, 'Topes revisados por variante': 'yes',
+                'Detalle': f"{benefit}. {cards}. {cap} {scoped['conditions']} {scoped.get('extra', '')}",
+                'Texto original de la fuente': review.get('original_conditions', review['conditions']),
+            })
+    return result
+
+
 def main():
     with IN.open(encoding="utf-8-sig", newline="") as f:
         rows = list(csv.DictReader(f))
 
+    previous_rows = list(csv.DictReader(OUT_CSV.open(encoding='utf-8-sig', newline=''))) if OUT_CSV.exists() else []
     table = []
+    failures = []
     for row in rows:
         campaign = campaign_key(row['Comercio/Promocion'])
-        if campaign in {'GASTRONOMIA 26', 'ZONA ESTE', 'ZONA SUR'} or campaign.startswith('PRIMAVERA 2026'):
-            table.extend(expand_campaign(row))
+        if campaign in {'GASTRONOMIA', 'GASTRONOMIA 26', 'ZONA ESTE', 'ZONA SUR', 'ZONA NORTE'} or campaign.startswith('PRIMAVERA 2026'):
+            try:
+                table.extend(expand_campaign(row))
+            except (requests.RequestException, ValueError) as error:
+                failures.append({'campaign': row['Comercio/Promocion'], 'url': row.get('URL fuente actual') or row['URL'], 'reason': str(error)})
+            continue
+        try:
+            verified = reviewed_document_rows(row)
+        except (requests.RequestException, ValueError) as error:
+            failures.append({'campaign': row['Comercio/Promocion'], 'url': row.get('URL fuente actual') or row['URL'], 'reason': str(error)})
+            verified = None
+        if verified:
+            table.extend(verified)
+            continue
+        prior = [p for p in previous_rows if p['URL'] == row['URL']]
+        if len(prior) == 1:
+            retained = dict(prior[0])
+            retained['URL fuente actual'] = row.get('URL fuente actual', row['URL'])
+            retained['Estado verificacion'] = 'unconfirmed'
+            table.append(retained)
+            continue
+        if not row.get('% detectado') and not row.get('Cuotas detectadas'):
+            failures.append({'campaign': row['Comercio/Promocion'], 'url': row.get('URL fuente actual') or row['URL'], 'reason': 'No quantified benefit on official page; retained in staging only'})
             continue
         table.append(
             {
@@ -114,10 +183,24 @@ def main():
                 "Cantidad de descuento / beneficio": extract_discount(row),
                 "Día de promoción": extract_day(row),
                 "Vigencia": extract_vigencia(row),
-                "Detalle": clean(row["Beneficios"]) or clean(row["Texto completo"]),
+                "Detalle": clean(row["Texto completo"]) or clean(row["Beneficios"]),
+                "URL fuente actual": row.get("URL fuente actual", row["URL"]),
+                "Estado verificacion": "unconfirmed",
                 "URL": row["URL"],
             }
         )
+
+    # Missing from the new website is uncertainty, not evidence of expiry.
+    if OUT_CSV.exists():
+        previous = list(csv.DictReader(OUT_CSV.open(encoding='utf-8-sig', newline='')))
+        identities = {(r['URL'], r['Comercio/Promoción']) for r in table}
+        verified_urls = {r['URL'] for r in table if r.get('Estado verificacion') == 'official_document' and r.get('Variante')}
+        for old in previous:
+            if (old['URL'], old['Comercio/Promoción']) not in identities and old['URL'] not in verified_urls:
+                old['Estado verificacion'] = 'unconfirmed'
+                table.append(old)
+
+    Path('outputs/sudameris_migration_report.json').write_text(json.dumps({'checked_at': datetime.now(timezone.utc).isoformat(), 'campaigns': len(rows), 'failures': failures, 'retained_unconfirmed': sum(r.get('Estado verificacion') == 'unconfirmed' for r in table)}, ensure_ascii=False, indent=2), encoding='utf-8')
 
     table.sort(key=lambda r: (r["Categoría"], r["Comercio/Promoción"]))
     with OUT_CSV.open("w", encoding="utf-8-sig", newline="") as f:
