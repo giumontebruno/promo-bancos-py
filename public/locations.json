@@ -8004,10 +8004,13 @@
         "service",
         "establishment"
       ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
+      "google_confidence": "review",
+      "google_enrichment_status": "needs_review",
       "needs_review": false,
-      "location_verified_at": "2026-10-17T03:46:30+00:00"
+      "location_verified_at": "2026-10-17T03:46:30+00:00",
+      "location_review_status": "pending",
+      "location_review_reason": "Official source specifies Acceso Sur km 32; Google result says km 30. Exact branch remains unconfirmed.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-bnf-8872b27ddfeb524e",
@@ -22385,10 +22388,13 @@
         "service",
         "establishment"
       ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
+      "google_confidence": "review",
+      "google_enrichment_status": "needs_review",
       "needs_review": false,
-      "location_verified_at": "2026-10-17T03:46:40+00:00"
+      "location_verified_at": "2026-10-17T03:46:40+00:00",
+      "location_review_status": "pending",
+      "location_review_reason": "Google result is Saspy Locker (courier/shipping), not the fuel-station establishment. Confirm the exact Copetrol branch before displaying.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-sudameris-3e85ff634b80c6de",

@@ -1372,6 +1372,20 @@
       "reason": "Google result is TED-Wepa ATM (types atm/finance), not a verified fuel-station establishment. Address similarity alone does not confirm the merchant.",
       "reviewed_on": "2026-10-17",
       "evidence_sha256": "11cbe232ac238e6a97196ad9cbf2a815e64a1132677cbf19b5b7e4ee6df22422"
+    },
+    {
+      "id": "loc-bnf-1052cc7e6eefa545",
+      "status": "pending",
+      "reason": "Official source specifies Acceso Sur km 32; Google result says km 30. Exact branch remains unconfirmed.",
+      "reviewed_on": "2026-10-17",
+      "evidence_sha256": "05dc3346b19ab293fa2cddb2aca36823ef6fe7bc626bdfe09f6844a0a8c5f5cd"
+    },
+    {
+      "id": "loc-sudameris-c766ccc3bc4f60ee",
+      "status": "pending",
+      "reason": "Google result is Saspy Locker (courier/shipping), not the fuel-station establishment. Confirm the exact Copetrol branch before displaying.",
+      "reviewed_on": "2026-10-17",
+      "evidence_sha256": "3c403eceb28eaf054b5b0c7d1db29e84a441c9ccc34220646ccd5a25eecd1b2d"
     }
   ]
 }
