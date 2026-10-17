@@ -9,17 +9,17 @@ Total de beneficios verificados: 71
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
 | BRISTOL | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775478054.pdf) |
-| Olier | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775479168.pdf) |
-| TUPI | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775479487.pdf) |
 | ELECTROBAN | 5% de descuento en productos HD Play | Todos los días | Vigencia Desde el 04 de junio de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases1784915440.pdf) |
 | ELECTROBAN | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 04 de junio de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases1784915440.pdf) |
+| Olier | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775479168.pdf) |
+| TUPI | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775479487.pdf) |
 
 ## Electrónica
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
-| Nissei | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775478932.pdf) |
 | Cellshop Importados Paraguay | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 10 de junio de 2026 hasta el 10 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1781619937.pdf) |
+| Nissei | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775478932.pdf) |
 
 ## Estaciones De Servicio
 
@@ -39,12 +39,12 @@ Total de beneficios verificados: 71
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
+| FARMACENTER | MASTERCARD QR 25% | TODOS LOS MARTES | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1790877906.pdf) |
 | Farmacia Catedral | Hasta 50% de descuento con QR en productos seleccionados | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790702549.pdf) |
 | Farmacia Catedral | 35% de descuento con QR en medicamentos seleccionados | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790702549.pdf) |
 | Farmacia Catedral | 30% de descuento con QR en medicamentos y productos varios | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790702549.pdf) |
 | Farmacia Catedral | 25% de descuento con tarjeta física en medicamentos y productos varios | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790702549.pdf) |
 | Farmacumbre \| Caacupé | 15% de descuento | Todos los Domingos | Vigencia Desde el 09 de junio de 2026 hasta el 09 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783599737.pdf) |
-| FARMACENTER | MASTERCARD QR 25% | TODOS LOS MARTES | Vigencia Desde el 01 de octubre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1790877906.pdf) |
 
 ## Fast Food
 
@@ -61,8 +61,8 @@ Total de beneficios verificados: 71
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
-| Malian | 10% de descuento en alojamiento | Todos los días | Vigencia Desde el 02 de abril de 2018 hasta el 02 de abril de 2019, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1711042178.pdf) |
 | Las Hortensias | 10% de descuento en alojamiento | Todos los días | Vigencia Desde el 25 de octubre de 2019 hasta el 25 de octubre de 2020, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1711042299.pdf) |
+| Malian | 10% de descuento en alojamiento | Todos los días | Vigencia Desde el 02 de abril de 2018 hasta el 02 de abril de 2019, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1711042178.pdf) |
 
 ## Inmuebles
 
@@ -89,16 +89,16 @@ Total de beneficios verificados: 71
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
-| NEUMATEC | 10% de descuento | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1781007551.pdf) |
 | AUTOPAR | 35% de descuento | Todos los días | Vigencia Desde el 02 de mayo de 2018 hasta el 02 de mayo 2019, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1712260628.pdf) |
+| Avenida Autocentro | 20% de descuento | Todos los días | Vigencia Desde el 09 de junio de 2026 hasta el 09 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783513098.pdf) |
+| Avenida Autocentro | Hasta 6 cuotas sin intereses | Todos los días | Vigencia Desde el 09 de junio de 2026 hasta el 09 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783513098.pdf) |
+| GRUPO SAJA - BAJAJ | 10% de descuento en modelos participantes | Todos los Días | Vigencia Desde el 08 de julio de 2026 hasta el 08 de julio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1786111849.pdf) |
+| NEUMATEC | 10% de descuento | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1781007551.pdf) |
 | SCORECAR | 10% de descuento todos los días | todos los días | Vigencia Desde el 9 de diciembre de 2025 hasta el 9 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1770216818.pdf) |
 | Todo Cubierta | 5% de descuento en cubiertas | Lunes, martes y jueves | Vigencia Desde el 01 de mayo de 2026 hasta el 01 de mayo de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783514643.pdf) |
 | Todo Cubierta | 10% de descuento en cubiertas | Miércoles y viernes | Vigencia Desde el 01 de mayo de 2026 hasta el 01 de mayo de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783514643.pdf) |
 | Todo Cubierta | 20% de descuento en alineación, balanceo y rotación | Todos los días | Vigencia Desde el 01 de mayo de 2026 hasta el 01 de mayo de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783514643.pdf) |
 | Todo Cubierta | Hasta 6 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de mayo de 2026 hasta el 01 de mayo de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783514643.pdf) |
-| Avenida Autocentro | 20% de descuento | Todos los días | Vigencia Desde el 09 de junio de 2026 hasta el 09 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783513098.pdf) |
-| Avenida Autocentro | Hasta 6 cuotas sin intereses | Todos los días | Vigencia Desde el 09 de junio de 2026 hasta el 09 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783513098.pdf) |
-| GRUPO SAJA - BAJAJ | 10% de descuento en modelos participantes | Todos los Días | Vigencia Desde el 08 de julio de 2026 hasta el 08 de julio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1786111849.pdf) |
 
 ## Muebles
 
@@ -112,11 +112,11 @@ Total de beneficios verificados: 71
 |---|---|---|---|---|
 | ASISMED | Hasta 10% de descuento | Todos los días | Vigencia Desde el 28 de abril de 2023 hasta el 28 de abril de de 2024, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1685129991.pdf) |
 | CLIO COBERTURA ODONTOLÓGICA | 15% de descuento | Todos los días | Vigencia Desde el 27 de octubre de 2025 hasta el 27 de octubre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1762455671.pdf) |
-| OAMI Medicina Pre-Paga | 10% de descuento en planes para nuevos ingresantes | Todos los días | Vigencia Desde el 26 de febrero de 2025, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1773837106.pdf) |
-| Servicio Médico Migone | 10% de Descuento | Todos los días | Vigencia Desde el 14 de agosto de 2024 hasta el 14 de agosto de 2026, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1755780512.pdf) |
-| MediCoop Laboratorio \| Caacupé | 15% de descuento en análisis clínicos | Todos los días | Vigencia Desde el 09 de junio de 2026 hasta el 09 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783600286.pdf) |
-| SANTA CLARA | 10% de descuento en planes nuevos con débito automático | Todos los Días | Vigencia Desde el 01 de septiembre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1792171030.pdf) |
 | Clinica ELGUE | Hasta 40% de descuento en odontología | Todos los Días | Vigencia Desde el 03 de agosto de 2026, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1786390000.pdf) |
+| MediCoop Laboratorio \| Caacupé | 15% de descuento en análisis clínicos | Todos los días | Vigencia Desde el 09 de junio de 2026 hasta el 09 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783600286.pdf) |
+| OAMI Medicina Pre-Paga | 10% de descuento en planes para nuevos ingresantes | Todos los días | Vigencia Desde el 26 de febrero de 2025, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1773837106.pdf) |
+| SANTA CLARA | 10% de descuento en planes nuevos con débito automático | Todos los Días | Vigencia Desde el 01 de septiembre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1792171030.pdf) |
+| Servicio Médico Migone | 10% de Descuento | Todos los días | Vigencia Desde el 14 de agosto de 2024 hasta el 14 de agosto de 2026, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1755780512.pdf) |
 
 ## Servicios
 
@@ -159,8 +159,8 @@ Total de beneficios verificados: 71
 | ÓPTICA B&E - CDE | 10% de descuento en armazones y cristales | Todos los días | Vigencia Desde 02 de octubre de 2019, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/1752158977.pdf) |
 | ÓPTICA CARRON | 20% de descuento en armazones con cristales o armazones de sol | Todos los días | Vigencia Desde el 21 de octubre de 2025 hasta el 21 de octubre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1761940310.pdf) |
 | ÓPTICA CARRON | 15% de descuento en cristales solamente | Todos los días | Vigencia Desde el 21 de octubre de 2025 hasta el 21 de octubre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1761940310.pdf) |
-| ÓPTICA jNESSI | 15% de descuento en armazones y lentes de sol | todos los días | Vigencia Desde el 20 de noviembre de 2025 hasta el 20 de noviembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1786454633.pdf) |
-| ÓPTICA jNESSI | 5% de descuento en cristales | todos los días | Vigencia Desde el 20 de noviembre de 2025 hasta el 20 de noviembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1786454633.pdf) |
 | ÓPTICA VISIÓN | 20% de descuento en anteojos ópticos | Todos los Días | Vigencia Desde el 14 de abril de 2026 hasta el 14 de abril de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1786456992.pdf) |
 | ÓPTICA VISIÓN | 15% de descuento en lentes de contacto | Todos los Días | Vigencia Desde el 14 de abril de 2026 hasta el 14 de abril de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1786456992.pdf) |
 | ÓPTICA VISIÓN | 15% de descuento en monturas solares | Todos los Días | Vigencia Desde el 14 de abril de 2026 hasta el 14 de abril de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1786456992.pdf) |
+| ÓPTICA jNESSI | 15% de descuento en armazones y lentes de sol | todos los días | Vigencia Desde el 20 de noviembre de 2025 hasta el 20 de noviembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1786454633.pdf) |
+| ÓPTICA jNESSI | 5% de descuento en cristales | todos los días | Vigencia Desde el 20 de noviembre de 2025 hasta el 20 de noviembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1786454633.pdf) |

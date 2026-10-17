@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 548
+Total de beneficios: 547
 
 ## Alemania Cell
 
@@ -554,6 +554,7 @@ Total de beneficios: 548
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Areté | 15 %; Tenes 15% de ahorro. | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
+| Areté | 25 % Hasta; hasta 25% de ahorro | No especificado | 2025-01-04 hasta 2026-10-25 |
 | CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-12-01 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
@@ -707,8 +708,6 @@ Total de beneficios: 548
 | CERVEBAR | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
 | Cardon | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
 | Cinntre | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Club Centenario | 20 %; Tenes 20% de ahorro | No especificado | 2019-04-06 hasta 2026-10-16 |
-| Coolook | 15 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-05-12 hasta 2026-10-16 |
 | EDICIÓN LIMITADA REGALOS | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
 | Fuschia | 10 Cuotas sin intereses 20 %; Tenés 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-07-04 hasta 2026-10-17 |
 | La sederia | 20 % Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-17 |

@@ -42,7 +42,10 @@
       "lat": -25.3249021,
       "lng": -57.5720697,
       "checked_at": "2026-09-14T15:18:24+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-f6171a3741",
@@ -84,7 +87,10 @@
       "lat": -25.3339988,
       "lng": -57.5775225,
       "checked_at": "2026-09-22T12:36:35+00:00"
-    }
+    },
+    "location_review_status": "rejected",
+    "location_review_reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Mercado de Abasto Bloque D en Asunción.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-1ff6c937a7",
@@ -126,7 +132,10 @@
       "lat": -25.3339988,
       "lng": -57.5775225,
       "checked_at": "2026-09-22T12:36:36+00:00"
-    }
+    },
+    "location_review_status": "rejected",
+    "location_review_reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Galería Santa Teresa junto al Mercado de Abasto.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-0c7916e643",
@@ -171,7 +180,10 @@
       "lat": -25.3253995,
       "lng": -57.5713844,
       "checked_at": "2026-09-22T12:36:37+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-91e0ad0a9e",
@@ -213,7 +225,10 @@
       "lat": -25.3846168,
       "lng": -57.4704475,
       "checked_at": "2026-09-22T12:36:38+00:00"
-    }
+    },
+    "location_review_status": "rejected",
+    "location_review_reason": "La fuente indica Ruta PY02 y Madrigal; el candidato indica Ruta 1 y Clavel. No es la misma dirección.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-dcc7f47aa0",
@@ -255,49 +270,10 @@
       "lat": -25.3846168,
       "lng": -57.4704475,
       "checked_at": "2026-09-22T12:36:39+00:00"
-    }
-  },
-  {
-    "id": "loc-954db3d2fa",
-    "bank": "BNF",
-    "category": "Mayoristas",
-    "source_category": "Mayoristas",
-    "merchant_name": "Casa Grütter",
-    "merchant_brand": "Casa Grütter",
-    "address": "Avda. Defensores del Chaco y Nueva Asunción.",
-    "city": "Fernando de la Mora",
-    "department": "Central",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
-    "source_page": 2,
-    "lat": -25.3339988,
-    "lng": -57.5775225,
-    "geocode_source": "google_places_text_search",
-    "online_only": false,
-    "place_id": "ChIJHc8zwBipXZQRYOw3KEOsQ8E",
-    "formatted_address": "Nueva Asunción, Fernando de la Mora 110328",
-    "google_name": "Casa Grütter Fernando de la Mora",
-    "google_types": [
-      "supermarket",
-      "grocery_store",
-      "food_store",
-      "store",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "google_confidence": "review",
-    "location_verified_at": "2026-08-24T17:43:35-03:00",
-    "google_last_attempt_at": "2026-09-22T12:36:40.143750+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJHc8zwBipXZQRYOw3KEOsQ8E",
-    "google_candidate": {
-      "google_name": "Casa Grütter Fernando de la Mora",
-      "formatted_address": "Nueva Asunción, Fernando de la Mora 110328",
-      "lat": -25.3339988,
-      "lng": -57.5775225,
-      "checked_at": "2026-09-22T12:36:40+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-7398d11133",
@@ -339,7 +315,10 @@
       "lat": -25.271454,
       "lng": -57.49035,
       "checked_at": "2026-09-14T15:18:25+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-9871905a5c",
@@ -382,7 +361,10 @@
       "lat": -25.2759704,
       "lng": -57.4854766,
       "checked_at": "2026-09-22T12:36:40+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-55949de43c",
@@ -427,7 +409,10 @@
       "lat": -25.2312731,
       "lng": -57.5391078,
       "checked_at": "2026-09-22T12:36:41+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-99313f94a1",
@@ -469,7 +454,10 @@
       "lat": -25.3674232,
       "lng": -57.5165948,
       "checked_at": "2026-09-22T12:36:42+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-90f28d597c",
@@ -511,7 +499,10 @@
       "lat": -25.3699652,
       "lng": -57.5595681,
       "checked_at": "2026-09-22T12:36:43+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-d3dcfde46e",
@@ -549,7 +540,10 @@
       "lat": -25.2966534,
       "lng": -57.4218857,
       "checked_at": "2026-09-22T12:36:44+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-68dd380226",
@@ -591,7 +585,10 @@
       "lat": -25.3119124,
       "lng": -57.3804334,
       "checked_at": "2026-09-22T12:36:45+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-f6f09af6c0",
@@ -633,7 +630,10 @@
       "lat": -25.2971693,
       "lng": -57.5788706,
       "checked_at": "2026-09-22T12:36:46+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-f268749437",
@@ -675,7 +675,10 @@
       "lat": -25.3087363,
       "lng": -57.6175591,
       "checked_at": "2026-09-22T12:36:46+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-acb35e59cb",
@@ -716,49 +719,10 @@
       "lat": -25.3239925,
       "lng": -57.6273226,
       "checked_at": "2026-09-14T15:18:26+00:00"
-    }
-  },
-  {
-    "id": "loc-3ee05c96c4",
-    "bank": "BNF",
-    "category": "Supermercados",
-    "source_category": "Supermercados",
-    "merchant_name": "Casa Paraná",
-    "merchant_brand": "Casa Paraná",
-    "address": "Antequera 661 e/ Azara y Herrera.",
-    "city": "Asunción",
-    "department": "Capital",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
-    "source_page": 2,
-    "lat": -25.2876824,
-    "lng": -57.6305528,
-    "geocode_source": "google_places_text_search",
-    "online_only": false,
-    "place_id": "ChIJDw-UY-WnXZQRMb5YpSA4Pt8",
-    "formatted_address": "Antequera 661, Asunción 001219",
-    "google_name": "Paraná home",
-    "google_types": [
-      "supermarket",
-      "grocery_store",
-      "food_store",
-      "food",
-      "store",
-      "point_of_interest",
-      "establishment"
-    ],
-    "google_confidence": "review",
-    "location_verified_at": "2026-08-24T17:43:35-03:00",
-    "google_last_attempt_at": "2026-09-22T12:36:47.766966+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJDw-UY-WnXZQRMb5YpSA4Pt8",
-    "google_candidate": {
-      "google_name": "Paraná home",
-      "formatted_address": "Antequera 661, Asunción 001219",
-      "lat": -25.2876824,
-      "lng": -57.6305528,
-      "checked_at": "2026-09-22T12:36:47+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-7d3964d10f",
@@ -800,7 +764,10 @@
       "lat": -25.315403,
       "lng": -57.578477,
       "checked_at": "2026-09-22T12:36:51+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-7e62631dc9",
@@ -842,7 +809,10 @@
       "lat": -25.3146693,
       "lng": -57.629916,
       "checked_at": "2026-09-22T12:36:52+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-b69261f7c8",
@@ -884,7 +854,10 @@
       "lat": -25.2894837,
       "lng": -57.6566815,
       "checked_at": "2026-09-22T12:36:53+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-06cc9d2280",
@@ -926,7 +899,10 @@
       "lat": -25.3083114,
       "lng": -57.6427172,
       "checked_at": "2026-09-22T12:36:54+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-3136d2f100",
@@ -968,7 +944,10 @@
       "lat": -25.2767578,
       "lng": -57.641037,
       "checked_at": "2026-09-22T12:36:55+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-360198c5e2",
@@ -1010,7 +989,10 @@
       "lat": -25.3085134,
       "lng": -57.5525948,
       "checked_at": "2026-09-22T12:36:56+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-b3c7a978ab",
@@ -1052,7 +1034,10 @@
       "lat": -25.3081601,
       "lng": -57.5967149,
       "checked_at": "2026-09-14T15:18:29+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-4497357d28",
@@ -1094,7 +1079,10 @@
       "lat": -25.3013658,
       "lng": -57.6174629,
       "checked_at": "2026-09-22T12:36:57+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-a919284897",
@@ -1136,7 +1124,10 @@
       "lat": -25.2937064,
       "lng": -57.582845,
       "checked_at": "2026-09-22T12:36:58+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-df8d7d797e",
@@ -1177,7 +1168,10 @@
       "lat": -25.2777384,
       "lng": -57.5544213,
       "checked_at": "2026-09-23T12:48:02+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-2b0a24d4d5",
@@ -1219,7 +1213,10 @@
       "lat": -25.2777384,
       "lng": -57.5544213,
       "checked_at": "2026-09-14T15:18:30+00:00"
-    }
+    },
+    "location_review_status": "rejected",
+    "location_review_reason": "La sucursal oficial es Primer Presidente/Gabriel Casaccia; el candidato es Aviadores del Chaco.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-b1552f4f08",
@@ -1261,7 +1258,10 @@
       "lat": -25.2777384,
       "lng": -57.5544213,
       "checked_at": "2026-09-14T15:18:31+00:00"
-    }
+    },
+    "location_review_status": "rejected",
+    "location_review_reason": "La sucursal oficial es Molas López/Veteranos del70; el candidato es Aviadores del Chaco.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-3de9455b62",
@@ -1303,7 +1303,10 @@
       "lat": -25.3502433,
       "lng": -57.4477089,
       "checked_at": "2026-09-14T15:18:32+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-b2f8bfe6f6",
@@ -1345,7 +1348,10 @@
       "lat": -25.3502433,
       "lng": -57.4477089,
       "checked_at": "2026-09-14T15:18:32+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-5a4c86cfcf",
@@ -1383,7 +1389,10 @@
       "lat": -25.3917396,
       "lng": -57.4694255,
       "checked_at": "2026-09-23T12:48:04+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-6decf1b909",
@@ -1421,7 +1430,10 @@
       "lat": -25.3840546,
       "lng": -57.4625076,
       "checked_at": "2026-09-14T15:18:33+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-049363d081",
@@ -1463,7 +1475,10 @@
       "lat": -25.3278468,
       "lng": -57.5474224,
       "checked_at": "2026-09-14T15:18:34+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-484ef58909",
@@ -1505,7 +1520,10 @@
       "lat": -25.3466961,
       "lng": -57.574971,
       "checked_at": "2026-09-23T12:48:06+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-2f87a9e8f8",
@@ -1548,7 +1566,10 @@
       "lat": -25.3393839,
       "lng": -57.5832067,
       "checked_at": "2026-09-14T15:18:35+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-831474a3ee",
@@ -1590,7 +1611,10 @@
       "lat": -25.3126704,
       "lng": -57.5421227,
       "checked_at": "2026-09-14T15:18:35+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-e49a9c971e",
@@ -1627,7 +1651,10 @@
       "lat": -25.346854,
       "lng": -57.5495876,
       "checked_at": "2026-09-23T12:48:07+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-cd8a9041ff",
@@ -1669,7 +1696,10 @@
       "lat": -25.3156903,
       "lng": -57.5275784,
       "checked_at": "2026-09-23T12:48:08+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-a63b80079c",
@@ -1711,7 +1741,10 @@
       "lat": -25.3156903,
       "lng": -57.5275784,
       "checked_at": "2026-09-23T12:48:08+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-d3da5ade02",
@@ -1753,7 +1786,10 @@
       "lat": -25.3983893,
       "lng": -57.357028,
       "checked_at": "2026-09-23T12:48:09+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-0aa09d9579",
@@ -1797,7 +1833,10 @@
       "lat": -25.3405778,
       "lng": -57.6002817,
       "checked_at": "2026-09-23T12:48:10+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-ad018dbfa8",
@@ -1835,7 +1874,10 @@
       "lat": -25.3345913,
       "lng": -57.6249111,
       "checked_at": "2026-09-23T12:48:11+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-b6d4af643d",
@@ -1876,7 +1918,10 @@
       "lat": -25.3589597,
       "lng": -57.6276744,
       "checked_at": "2026-09-23T12:48:12+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-83fe514784",
@@ -1914,7 +1959,10 @@
       "lat": -25.2271288,
       "lng": -57.4767241,
       "checked_at": "2026-09-23T12:48:13+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-d167678861",
@@ -1956,7 +2004,10 @@
       "lat": -25.2661457,
       "lng": -57.4844837,
       "checked_at": "2026-09-23T12:48:15+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-4efbe762b7",
@@ -1998,7 +2049,10 @@
       "lat": -25.2652759,
       "lng": -57.5060238,
       "checked_at": "2026-09-23T12:48:16+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-ec07bf6363",
@@ -2040,7 +2094,10 @@
       "lat": -25.234487,
       "lng": -57.47545,
       "checked_at": "2026-09-23T12:48:16+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-b20bca7cd3",
@@ -2082,7 +2139,10 @@
       "lat": -25.2652759,
       "lng": -57.5060238,
       "checked_at": "2026-09-23T12:48:17+00:00"
-    }
+    },
+    "location_review_status": "rejected",
+    "location_review_reason": "La sucursal oficial es José Ortiz/Sargento Espinola; el candidato es General Aquino/Tte.Rivas.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-f145fb49f4",
@@ -2124,7 +2184,10 @@
       "lat": -25.2809795,
       "lng": -57.5344426,
       "checked_at": "2026-09-23T12:48:18+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-edd72826c4",
@@ -2165,7 +2228,10 @@
       "lat": -25.2546827,
       "lng": -57.5003681,
       "checked_at": "2026-09-23T12:48:19+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-1b2a3aa07d",
@@ -2207,7 +2273,10 @@
       "lat": -25.2805841,
       "lng": -57.5258219,
       "checked_at": "2026-09-14T15:18:36+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-5cca3cc840",
@@ -2249,7 +2318,10 @@
       "lat": -25.2625244,
       "lng": -57.4899483,
       "checked_at": "2026-09-23T12:48:20+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-814d34382c",
@@ -2291,7 +2363,10 @@
       "lat": -25.2625244,
       "lng": -57.4899483,
       "checked_at": "2026-09-14T15:18:37+00:00"
-    }
+    },
+    "location_review_status": "rejected",
+    "location_review_reason": "La sucursal oficial es Silvio Pettirossi/Torokay; el candidato es Valois Rivarola.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-4b797c1a50",
@@ -2333,7 +2408,10 @@
       "lat": -25.237051,
       "lng": -57.5396194,
       "checked_at": "2026-09-14T15:18:38+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-6fcd7f8ac0",
@@ -2375,51 +2453,10 @@
       "lat": -25.2387517,
       "lng": -57.5422655,
       "checked_at": "2026-09-14T15:18:39+00:00"
-    }
-  },
-  {
-    "id": "loc-4b102534f8",
-    "bank": "BNF",
-    "category": "Supermercados",
-    "source_category": "Supermercados",
-    "merchant_name": "Casa Paraná",
-    "merchant_brand": "Casa Paraná",
-    "address": "Avda. San Antonio N° 273 esq/ Rio Apa.",
-    "city": "San Antonio",
-    "department": "Central",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
-    "source_page": 2,
-    "lat": -25.4178679,
-    "lng": -57.5719314,
-    "geocode_source": "google_places_text_search",
-    "online_only": false,
-    "place_id": "ChIJP5jkixqrXZQRwLMBrcDTxHY",
-    "formatted_address": "Av. San Antonio n° 273 esquina, San Antonio 2650",
-    "google_name": "Casa Paraná - San Antonio",
-    "google_types": [
-      "supermarket",
-      "grocery_store",
-      "home_goods_store",
-      "food_store",
-      "store",
-      "food",
-      "service",
-      "point_of_interest",
-      "establishment"
-    ],
-    "google_confidence": "review",
-    "location_verified_at": "2026-08-24T17:43:35-03:00",
-    "google_last_attempt_at": "2026-09-23T12:48:21.233558+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJP5jkixqrXZQRwLMBrcDTxHY",
-    "google_candidate": {
-      "google_name": "Casa Paraná - San Antonio",
-      "formatted_address": "Av. San Antonio n° 273 esquina, San Antonio 2650",
-      "lat": -25.4178679,
-      "lng": -57.5719314,
-      "checked_at": "2026-09-23T12:48:21+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-764efbaf44",
@@ -2461,7 +2498,10 @@
       "lat": -25.3917396,
       "lng": -57.4694255,
       "checked_at": "2026-09-23T12:48:22+00:00"
-    }
+    },
+    "location_review_status": "rejected",
+    "location_review_reason": "La sucursal oficial es Ruta2 km15 San Lorenzo; candidato Ruta1 km20 Capiatá.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-ca8d6bc0c3",
@@ -2499,7 +2539,10 @@
       "lat": -25.3641298,
       "lng": -57.5308095,
       "checked_at": "2026-09-23T12:48:22+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-63404e3d2c",
@@ -2541,7 +2584,10 @@
       "lat": -25.3188667,
       "lng": -57.5182266,
       "checked_at": "2026-09-23T12:48:23+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-b91f72bbd9",
@@ -2583,7 +2629,10 @@
       "lat": -25.3428897,
       "lng": -57.5018865,
       "checked_at": "2026-09-23T12:48:24+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-fb111ec029",
@@ -2625,7 +2674,10 @@
       "lat": -25.3628725,
       "lng": -57.5915236,
       "checked_at": "2026-09-23T12:48:25+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-f6dd0ee780",
@@ -2667,7 +2719,10 @@
       "lat": -25.3934203,
       "lng": -57.5473369,
       "checked_at": "2026-09-23T12:48:26+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-abd3ce0439",
@@ -2709,7 +2764,10 @@
       "lat": -25.3944556,
       "lng": -57.542697,
       "checked_at": "2026-09-24T12:46:25+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-f7350a5549",
@@ -2752,7 +2810,10 @@
       "lat": -25.3890146,
       "lng": -57.5243286,
       "checked_at": "2026-09-24T12:46:26+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-37eab9b40f",
@@ -2794,7 +2855,10 @@
       "lat": -25.3954616,
       "lng": -57.5454823,
       "checked_at": "2026-09-24T12:46:27+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-46cfa4c7bb",
@@ -2836,7 +2900,10 @@
       "lat": -25.3934509,
       "lng": -57.5440193,
       "checked_at": "2026-09-24T12:46:28+00:00"
-    }
+    },
+    "location_review_status": "pending",
+    "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+    "location_reviewed_on": "2026-10-17"
   },
   {
     "id": "loc-bnf-b02f6b7f0cb24cfb",
@@ -2855,9 +2922,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:06.494495+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJuYeidSexXZQRfP9quJE5DNo",
     "google_candidate": {
       "google_name": "3MG AREGUÁ - CAMINO A ESTACION TERRENA",
@@ -2884,9 +2951,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:07.267370+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJU5HlNSixXZQRgB-j9HaPDyw",
     "google_candidate": {
       "google_name": "Compasa Costa Fleitas",
@@ -2913,9 +2980,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:08.131362+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJa5xHOTKzXZQRecTgyawQs4Y",
     "google_candidate": {
       "google_name": "Petrochaco Ramal Aregua",
@@ -2942,9 +3009,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:08.838786+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJRb2vHrKxXZQRJmgzXg3Dk7Q",
     "google_candidate": {
       "google_name": "Estación Del Carmen Puma Energy",
@@ -2971,9 +3038,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:09.657852+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ04MTpVKoXZQRLXuvZFuFwPA",
     "google_candidate": {
       "google_name": "3MG S.A.C.I.A. - Distribuidora de Combustibles",
@@ -3000,9 +3067,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:10.418321+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ36-Ws8epXZQRirwY7m_Wwjc",
     "google_candidate": {
       "google_name": "Copetrol - Republicano",
@@ -3029,9 +3096,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:11.196298+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJsymnIlqnXZQR_mz6DBmrI5I",
     "google_candidate": {
       "google_name": "Copetrol Azara",
@@ -3058,9 +3125,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:11.903386+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
     "google_candidate": {
       "google_name": "Copetrol",
@@ -3087,9 +3154,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:12.615681+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ1VyKcgioXZQRHiHjEu8PRYo",
     "google_candidate": {
       "google_name": "Copetrol - Felix Bogado",
@@ -3116,9 +3183,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:13.365321+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
     "google_candidate": {
       "google_name": "Copetrol",
@@ -3145,9 +3212,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:14.085596+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
     "google_candidate": {
       "google_name": "Copetrol",
@@ -3174,9 +3241,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:14.776603+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJwX5ELM6lXZQRR0g0rIF_O24",
     "google_candidate": {
       "google_name": "Estación de Servicios COPETROL",
@@ -3203,9 +3270,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:15.539870+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJy5fMBAOpXZQRS0Mq4B_QzNw",
     "google_candidate": {
       "google_name": "COPETROL LA VICTORIA - LA TIENDITA DE LA COPE",
@@ -3232,9 +3299,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:16.233061+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJr7I-TPWnXZQRWtXVXReC3t0",
     "google_candidate": {
       "google_name": "COPETROL - Colon",
@@ -3261,9 +3328,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:16.941018+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ1aVujIioXZQRNvp0GCzXCUY",
     "google_candidate": {
       "google_name": "Copetrol",
@@ -3290,9 +3357,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:17.632243+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ9da1mL6pXZQRFcaje5iikL8",
     "google_candidate": {
       "google_name": "Copetrol Kubitschek",
@@ -3319,9 +3386,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:18.307989+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJV1W6FWmmXZQRnQFALn9bQ4I",
     "google_candidate": {
       "google_name": "Copetrol - Botanico",
@@ -3348,9 +3415,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:19.090628+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJzWxnycyoXZQR2fKx-83z2b0",
     "google_candidate": {
       "google_name": "Estacion de Servicio Copetrol",
@@ -3377,9 +3444,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:19.885740+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJOdAzBUumXZQRMStSrgQF5hg",
     "google_candidate": {
       "google_name": "Copetrol Artigas Candelaria",
@@ -3406,9 +3473,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:20.642626+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJzWxnycyoXZQR2fKx-83z2b0",
     "google_candidate": {
       "google_name": "Estacion de Servicio Copetrol",
@@ -3435,9 +3502,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:21.419093+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJjcRtLCMIXZQRfdwuCP2IAqA",
     "google_candidate": {
       "google_name": "Copetrol Sajonia.",
@@ -3464,9 +3531,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:22.142593+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJqZYcHqqpXZQR-NbcMh39CHw",
     "google_candidate": {
       "google_name": "Copetrol",
@@ -3493,9 +3560,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:22.916841+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJrcMm9E2vXZQRThDWqlvorXM",
     "google_candidate": {
       "google_name": "Estación de Servicios Copetrol S.A. - Maitei",
@@ -3522,9 +3589,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:23.667002+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ9z_12P6oXZQReIEOly1wshA",
     "google_candidate": {
       "google_name": "Petrochaco",
@@ -3551,9 +3618,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:24.369739+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJF0RpVIavXZQRu_Y5HsOJB-Y",
     "google_candidate": {
       "google_name": "Petrochaco Santa Teresa",
@@ -3580,9 +3647,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:25.113032+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ9z_12P6oXZQReIEOly1wshA",
     "google_candidate": {
       "google_name": "Petrochaco",
@@ -3609,9 +3676,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:25.868772+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJu3YNhlioXZQR7-R1qxeJUcc",
     "google_candidate": {
       "google_name": "Estación Puma Energy",
@@ -3638,9 +3705,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:26.691903+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJu3YNhlioXZQR7-R1qxeJUcc",
     "google_candidate": {
       "google_name": "Estación Puma Energy",
@@ -3667,9 +3734,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:27.417259+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJd3ZDQaalXZQRHgkNcWdiJFw",
     "google_candidate": {
       "google_name": "EESS PUMA GASOLIDER - Loma Pyta",
@@ -3696,9 +3763,9 @@
     "lng": null,
     "geocode_source": "",
     "online_only": false,
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:28.172896+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJtzDzjRqpXZQR6qk7iJ9bX_Y",
     "google_candidate": {
       "google_name": "Estación Puma Energy",
@@ -3706,6 +3773,1157 @@
       "lat": -25.3387357,
       "lng": -57.5852517,
       "checked_at": "2026-10-16T12:25:28+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-b0acfe164c30e88b",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "PUMA ENERGY",
+    "merchant_brand": "PUMA ENERGY",
+    "address": "Avenida Colón y Milano.",
+    "city": "Asunción",
+    "department": "Capital",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 3,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:37.165538+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJuUaiQBwIXZQRNO8pSutmdok",
+    "google_candidate": {
+      "google_name": "Gas Station",
+      "formatted_address": "Colón esq, Asunción 001014",
+      "lat": -25.2879651,
+      "lng": -57.6478672,
+      "checked_at": "2026-10-17T03:24:37+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-e83339f38abe3407",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "PUMA ENERGY",
+    "merchant_brand": "PUMA ENERGY",
+    "address": "Avda. España y Sacramento",
+    "city": "Asunción",
+    "department": "Capital",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 3,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:38.342055+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJm4NYPyimXZQRaDoBMWE_ZE0",
+    "google_candidate": {
+      "google_name": "Estación Puma Energy",
+      "formatted_address": "Av. España, Asunción 001412",
+      "lat": -25.2867039,
+      "lng": -57.588904,
+      "checked_at": "2026-10-17T03:24:38+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-e2ba5db008950268",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "COMPASA",
+    "merchant_brand": "COMPASA",
+    "address": "Calle San Pedro y Mcal. López.",
+    "city": "Capiatá",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 6,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:39.834980+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJI2C5JQCtXZQRTl-QVo7MoR8",
+    "google_candidate": {
+      "google_name": "Compasa",
+      "formatted_address": "JG78+9CP, Av. San Pedro, San Lorenzo 110244",
+      "lat": -25.3865326,
+      "lng": -57.4839318,
+      "checked_at": "2026-10-17T03:24:39+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-019a7eac710f1257",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "PETROCHACO",
+    "merchant_brand": "PETROCHACO",
+    "address": "Avda. Doctor López esq. Los Lagos.",
+    "city": "Capiatá",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 11,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:41.148913+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJOclVOYGyXZQR6BrOI6tsThA",
+    "google_candidate": {
+      "google_name": "Los Lagos Resort Hotel",
+      "formatted_address": "empalme entre las rutas I y II) y Paseo a Los Lagos, Pedro López, Capiatá 110239",
+      "lat": -25.385375,
+      "lng": -57.458543,
+      "checked_at": "2026-10-17T03:24:41+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-b4befb73a4a0de6f",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "PUMA ENERGY",
+    "merchant_brand": "PUMA ENERGY",
+    "address": "Ruta 1 Km. 20,5.",
+    "city": "Capiatá",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 3,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:42.295422+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJocczOmOtXZQRlTo-z1yDuV0",
+    "google_candidate": {
+      "google_name": "Puma ENERGY",
+      "formatted_address": "JG3M+Q9P, Capiatá 110235",
+      "lat": -25.3955426,
+      "lng": -57.4665565,
+      "checked_at": "2026-10-17T03:24:42+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-f5c0be758a61122f",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "PUMA ENERGY",
+    "merchant_brand": "PUMA ENERGY",
+    "address": "Ruta 2 Mcal. Estigarribia Km. 20.",
+    "city": "Capiatá",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 3,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:43.553719+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJocczOmOtXZQRlTo-z1yDuV0",
+    "google_candidate": {
+      "google_name": "Puma ENERGY",
+      "formatted_address": "JG3M+Q9P, Capiatá 110235",
+      "lat": -25.3955426,
+      "lng": -57.4665565,
+      "checked_at": "2026-10-17T03:24:43+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-ceed142c6c581b49",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "PUMA ENERGY",
+    "merchant_brand": "PUMA ENERGY",
+    "address": "Diego Lopez c/ Curupayty.",
+    "city": "Capiatá",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 3,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:44.822118+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJocczOmOtXZQRlTo-z1yDuV0",
+    "google_candidate": {
+      "google_name": "Puma ENERGY",
+      "formatted_address": "JG3M+Q9P, Capiatá 110235",
+      "lat": -25.3955426,
+      "lng": -57.4665565,
+      "checked_at": "2026-10-17T03:24:44+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-4a146006d943f150",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "PUMA ENERGY",
+    "merchant_brand": "PUMA ENERGY",
+    "address": "Avenida Primavera c/ Emilio Gab. Km. 20.",
+    "city": "Capiatá",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 3,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:45.973957+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJocczOmOtXZQRlTo-z1yDuV0",
+    "google_candidate": {
+      "google_name": "Puma ENERGY",
+      "formatted_address": "JG3M+Q9P, Capiatá 110235",
+      "lat": -25.3955426,
+      "lng": -57.4665565,
+      "checked_at": "2026-10-17T03:24:45+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-f9de40db2b9e6683",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "PUMA ENERGY",
+    "merchant_brand": "PUMA ENERGY",
+    "address": "Adán Ramírez, Barrio Loma Cavel.",
+    "city": "Capiatá",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 3,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:47.169231+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJocczOmOtXZQRlTo-z1yDuV0",
+    "google_candidate": {
+      "google_name": "Puma ENERGY",
+      "formatted_address": "JG3M+Q9P, Capiatá 110235",
+      "lat": -25.3955426,
+      "lng": -57.4665565,
+      "checked_at": "2026-10-17T03:24:47+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-fec4bb9acbcca71a",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "3MG",
+    "merchant_brand": "3MG",
+    "address": "Fortín Toledo esq. Herminio Giménez.",
+    "city": "Fernando de la Mora",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 13,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:48.480492+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJfWps1j6pXZQRLbi8et-L8Rk",
+    "google_candidate": {
+      "google_name": "",
+      "formatted_address": "MC3F+HJP, Fernando de la Mora 110330, Paraguay",
+      "lat": -25.3460439,
+      "lng": -57.5759355,
+      "checked_at": "2026-10-17T03:24:48+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-53e11d4968e0b24a",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "3MG",
+    "merchant_brand": "3MG",
+    "address": "Usher Ríos esq. Ceferino Ruiz.",
+    "city": "Fernando de la Mora",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 13,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:49.587573+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJfWps1j6pXZQRLbi8et-L8Rk",
+    "google_candidate": {
+      "google_name": "3MG - FDO. DE LA MORA - USHER RIOS",
+      "formatted_address": "MC3F+HJP, Fernando de la Mora 110330",
+      "lat": -25.3460439,
+      "lng": -57.5759355,
+      "checked_at": "2026-10-17T03:24:49+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-ed109513d4431eb1",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "COMPASA",
+    "merchant_brand": "COMPASA",
+    "address": "Soldado Ovelar esq. Ceferino Ruiz.",
+    "city": "Fernando de la Mora",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 6,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:50.655113+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJmZli2RWpXZQRWIWEPE_QIos",
+    "google_candidate": {
+      "google_name": "EESS COMPASA",
+      "formatted_address": "MC4C+HVM, Fernando de la Mora 110329",
+      "lat": -25.3435294,
+      "lng": -57.5778219,
+      "checked_at": "2026-10-17T03:24:50+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-f00f26285741ac90",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "COPETROL",
+    "merchant_brand": "COPETROL",
+    "address": "Pitiantuta y Asunción.",
+    "city": "Fernando de la Mora",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 7,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:51.757404+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJscRMHwCpXZQR4ntk7nqxrnU",
+    "google_candidate": {
+      "google_name": "Copetrol avenida Pitiantuta y Asunción",
+      "formatted_address": "MC7V+FR6, Fernando de la Mora 110320",
+      "lat": -25.3363415,
+      "lng": -57.5555086,
+      "checked_at": "2026-10-17T03:24:51+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-18feb75da25bb9c0",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "COPETROL",
+    "merchant_brand": "COPETROL",
+    "address": "Avda. Santa Teresa y Delfín Chamorro.",
+    "city": "Fernando de la Mora",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 7,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:52.812948+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJPT7B0juvXZQRUKQsiuQx-TU",
+    "google_candidate": {
+      "google_name": "Copetrol Santa Teresa",
+      "formatted_address": "MFX6+294, Delfin Chamorro, Fernando de la Mora 110302",
+      "lat": -25.3025414,
+      "lng": -57.5390883,
+      "checked_at": "2026-10-17T03:24:52+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-81a0f28e473aaa1d",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "COPETROL",
+    "merchant_brand": "COPETROL",
+    "address": "11 de Setiembre e/ 15 de Agosto y 16 de Julio.",
+    "city": "Fernando de la Mora",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 7,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:53.881760+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+    "google_candidate": {
+      "google_name": "Copetrol Fernando De La Mora",
+      "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+      "lat": -25.3363055,
+      "lng": -57.5634724,
+      "checked_at": "2026-10-17T03:24:53+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-6d6107b901e3cd48",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "COPETROL",
+    "merchant_brand": "COPETROL",
+    "address": "Avda. 10 de Julio esq. Ypané.",
+    "city": "Fernando de la Mora",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 8,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:54.995745+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+    "google_candidate": {
+      "google_name": "Copetrol Fernando De La Mora",
+      "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+      "lat": -25.3363055,
+      "lng": -57.5634724,
+      "checked_at": "2026-10-17T03:24:54+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-86ef9b8910b70d47",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "COPETROL",
+    "merchant_brand": "COPETROL",
+    "address": "Av. Leopardi c/ Ayolas.",
+    "city": "Fernando de la Mora",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 8,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:56.124841+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJt8kNIbauXZQRAPY8Lep1aUI",
+    "google_candidate": {
+      "google_name": "Copetrol Leopardi",
+      "formatted_address": "MF53+MJ4, Juan Leopardi, Fernando de la Mora 110315",
+      "lat": -25.3408747,
+      "lng": -57.5459337,
+      "checked_at": "2026-10-17T03:24:56+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-ff71757b5de76076",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "COPETROL",
+    "merchant_brand": "COPETROL",
+    "address": "Mcal. Lopez esq. Ingavi.",
+    "city": "Fernando de la Mora",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 8,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:58.238473+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJiQxZ1emuXZQR1_BQZM3p10Q",
+    "google_candidate": {
+      "google_name": "Copetrol",
+      "formatted_address": "Ingavi esquina, Fernando de la Mora 110313",
+      "lat": -25.3288926,
+      "lng": -57.5304986,
+      "checked_at": "2026-10-17T03:24:58+00:00"
+    }
+  },
+  {
+    "id": "loc-bnf-35e03a346de6ab5f",
+    "bank": "BNF",
+    "category": "Combustible",
+    "source_category": "Estaciones de Servicio",
+    "merchant_name": "COPETROL",
+    "merchant_brand": "COPETROL",
+    "address": "Mcal. Estigarribia. Comandante Rafael Franco.",
+    "city": "Fernando de la Mora",
+    "department": "Central",
+    "country": "Paraguay",
+    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+    "source_page": 8,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "google_last_attempt_at": "2026-10-17T03:24:59.225104+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+    "google_candidate": {
+      "google_name": "Copetrol Fernando De La Mora",
+      "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+      "lat": -25.3363055,
+      "lng": -57.5634724,
+      "checked_at": "2026-10-17T03:24:59+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-080c20c4f674bc48",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "25 DE MAYO",
+    "merchant_brand": "COPETROL",
+    "address": "AVDA. 25 DE MAYO ESQ. CHOFERES DEL CHACO",
+    "city": "ASUNCIÓN",
+    "department": "CENTRAL",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:37.932134+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJazOF6MepXZQRkLkfQlGmv_8",
+    "google_candidate": {
+      "google_name": "Edificio 25 de Mayo",
+      "formatted_address": "25 de Mayo 3961, Asunción 001229",
+      "lat": -25.3005187,
+      "lng": -57.5966305,
+      "checked_at": "2026-10-17T03:24:37+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-65f39542f218cc2d",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "COPETROL - BOTANICO",
+    "merchant_brand": "COPETROL",
+    "address": "AV. 1° PRESIDENTE E/ YRENDAGUE",
+    "city": "ASUNCIÓN",
+    "department": "CENTRAL",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:39.330288+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJV1W6FWmmXZQRnQFALn9bQ4I",
+    "google_candidate": {
+      "google_name": "Copetrol - Botanico",
+      "formatted_address": "PCVH+H8J, Av. Primer Presidente, Asunción 001519",
+      "lat": -25.25603,
+      "lng": -57.5717473,
+      "checked_at": "2026-10-17T03:24:39+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-504e5bb08445c2b1",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "COPETROL - COLON",
+    "merchant_brand": "COPETROL",
+    "address": "COLON E/ GRAL DIAZ",
+    "city": "ASUNCIÓN",
+    "department": "CENTRAL",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:40.770004+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJr7I-TPWnXZQRWtXVXReC3t0",
+    "google_candidate": {
+      "google_name": "COPETROL - Colon",
+      "formatted_address": "Gral. Díaz 658, Asunción 001010",
+      "lat": -25.2803084,
+      "lng": -57.6428812,
+      "checked_at": "2026-10-17T03:24:40+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-2f18dfdfa378458a",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "COPETROL - FACUNDO",
+    "merchant_brand": "COPETROL",
+    "address": "FACUNDO MACHAIN E/ RI18",
+    "city": "ASUNCIÓN",
+    "department": "CENTRAL",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:41.871911+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJ9TzXU1epXZQRAdW0gXiNWp8",
+    "google_candidate": {
+      "google_name": "Edificio Corporativo Copetrol",
+      "formatted_address": "MCQJ+7G5, Facundo Machain, Asunción 001419",
+      "lat": -25.3118748,
+      "lng": -57.5686447,
+      "checked_at": "2026-10-17T03:24:41+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-054aaf89d84be4e5",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "COPETROL - FERROCARRIL",
+    "merchant_brand": "COPETROL",
+    "address": "AV MCAL LOPEZ E/ MEXICO",
+    "city": "ASUNCIÓN",
+    "department": "CENTRAL",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:42.977688+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJpS05e-6nXZQRz8UUTxv6T2E",
+    "google_candidate": {
+      "google_name": "Copetrol Ferrocarril",
+      "formatted_address": "Av. Mariscal López y, México 001101",
+      "lat": -25.2828275,
+      "lng": -57.6301436,
+      "checked_at": "2026-10-17T03:24:42+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-024e155c338fc8f4",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "COPETROL - MAITEI",
+    "merchant_brand": "COPETROL",
+    "address": "AV. M.LINCH Y TTE. VICTOR VALDEZ",
+    "city": "ASUNCIÓN",
+    "department": "CENTRAL",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:44.328366+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJrcMm9E2vXZQRThDWqlvorXM",
+    "google_candidate": {
+      "google_name": "Estación de Servicios Copetrol S.A. - Maitei",
+      "formatted_address": "PF62+CGV, Ave Madame Elisa A. Lynch, Asunción 001403",
+      "lat": -25.2888901,
+      "lng": -57.5486943,
+      "checked_at": "2026-10-17T03:24:44+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-a09f1f79eb0c76ce",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "COPETROL - MCAL. LÓPEZ",
+    "merchant_brand": "COPETROL",
+    "address": "AVDA. MCAL. LÓPEZ Y MADAME LYNCH",
+    "city": "ASUNCIÓN",
+    "department": "CENTRAL",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:45.583686+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJpS05e-6nXZQRz8UUTxv6T2E",
+    "google_candidate": {
+      "google_name": "Copetrol Ferrocarril",
+      "formatted_address": "Av. Mariscal López y, México 001101",
+      "lat": -25.2828275,
+      "lng": -57.6301436,
+      "checked_at": "2026-10-17T03:24:45+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-ff50d276e1866e07",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "COPETROL -KM2",
+    "merchant_brand": "COPETROL",
+    "address": "AV. EUSEBIO AYALA E/ BARTOLOME",
+    "city": "ASUNCIÓN",
+    "department": "CENTRAL",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:46.643915+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJgS_K22OoXZQRjccL1_-DnqE",
+    "google_candidate": {
+      "google_name": "Copetrol - Gestión de Servicios Bartolome",
+      "formatted_address": "Esquina, Avenida Eusebio Ayala, &, Asunción 001231",
+      "lat": -25.3069377,
+      "lng": -57.6021812,
+      "checked_at": "2026-10-17T03:24:46+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-5de3c69ebda66bbd",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "COPETROL -VILLA MORRA",
+    "merchant_brand": "COPETROL",
+    "address": "AV. MCAL. LOPEZ Y SAN MARTIN",
+    "city": "ASUNCIÓN",
+    "department": "CENTRAL",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:47.851764+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJqZYcHqqpXZQR-NbcMh39CHw",
+    "google_candidate": {
+      "google_name": "Copetrol",
+      "formatted_address": "PC3F+W75, Av. Gral. José de San Martín, Asunción 001408",
+      "lat": -25.2952414,
+      "lng": -57.5767527,
+      "checked_at": "2026-10-17T03:24:47+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-bc54e9eb351fe831",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "ROJAS, WENCESLAO (EUSEBIO AYALA)",
+    "merchant_brand": "COPETROL",
+    "address": "EUSEBIO AYALA Y BERNARDINO CABALLERO",
+    "city": "ASUNCIÓN",
+    "department": "CENTRAL",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:49.201193+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJ5w6voOinXZQRl_nr2nacFsU",
+    "google_candidate": {
+      "google_name": "FLACSO Paraguay",
+      "formatted_address": "Eligio Ayala 965, Asunción 001218",
+      "lat": -25.2861621,
+      "lng": -57.6260402,
+      "checked_at": "2026-10-17T03:24:49+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-f2de95f141f666fc",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "ROJAS, WENCESLAO (LILLO)",
+    "merchant_brand": "COPETROL",
+    "address": "EUSEBIO LILLO Y CAPITÁN EMETERIO MIRANDA",
+    "city": "ASUNCIÓN",
+    "department": "CENTRAL",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf",
+    "source_sha256": "4c0b03efc667b86dfaf3f3ded641dbc741dd664abab83e84b15b2683f549b2b5",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:50.291296+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJM5NNz36nXZQRZkl3MloDYXY",
+    "google_candidate": {
+      "google_name": "Mc. Ross Rosalino",
+      "formatted_address": "Narciso R. Colmán 1952, Asunción 001527",
+      "lat": -25.281516,
+      "lng": -57.5634387,
+      "checked_at": "2026-10-17T03:24:50+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-9ffd47ac672d184b",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "ENEX 1ER.PDTE.",
+    "merchant_brand": "ENEX",
+    "address": "Avda. Primer presidente esq. Marcelo Onieva",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+    "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:51.401806+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJV9gwcBOlXZQRqt48Z_8YSmk",
+    "google_candidate": {
+      "google_name": "Estación de Servicios Enex",
+      "formatted_address": "Avenida Primer Presidente, &, Asunción 001522",
+      "lat": -25.2672382,
+      "lng": -57.5506715,
+      "checked_at": "2026-10-17T03:24:51+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-4885f7880a649b76",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "ENEX ACCESO SUR",
+    "merchant_brand": "ENEX",
+    "address": "Acceso sur esq. Perpetuo socorro",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+    "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:52.443970+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJtwqg7j-nXZQRkJUNRKVhRD8",
+    "google_candidate": {
+      "google_name": "Estación de Servicios Enex",
+      "formatted_address": "Av. Perú, Asunción 001224",
+      "lat": -25.2933254,
+      "lng": -57.6218534,
+      "checked_at": "2026-10-17T03:24:52+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-955697dedb9fe31b",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "ENEX ARTIGAS",
+    "merchant_brand": "ENEX",
+    "address": "Avda. Artigas esq. Solano Lopez",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+    "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:53.486939+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJ_TZKPPSnXZQRfMMsYfxyJsw",
+    "google_candidate": {
+      "google_name": "Estación de Servicios Enex",
+      "formatted_address": "Av. Gral. José Gervasio Artigas esq, Asunción 0000",
+      "lat": -25.2731786,
+      "lng": -57.6063492,
+      "checked_at": "2026-10-17T03:24:53+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-87c630c92c444c9f",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "ENEX B.CABALLERO",
+    "merchant_brand": "ENEX",
+    "address": "Avda. Bernardino Caballero esq. Teodoro S Mongelos",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+    "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:54.622152+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJl_vWR0qpXZQR7BaTxLFjfAs",
+    "google_candidate": {
+      "google_name": "Enex Gabana Teodoro S. Mongelos",
+      "formatted_address": "M9WR+X6V, Teodoro S. Mongelós, Asunción 001228",
+      "lat": -25.3025008,
+      "lng": -57.6094653,
+      "checked_at": "2026-10-17T03:24:54+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-a71a70801317efea",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "ENEX BRASILIA",
+    "merchant_brand": "ENEX",
+    "address": "Avda. Mariscal Lopez esq. Brasilia",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+    "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:55.744386+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJob9ersWpXZQR-ZFxtwFI76c",
+    "google_candidate": {
+      "google_name": "Estación de Servicios Enex",
+      "formatted_address": "Av. Brasilia, Asunción 001207",
+      "lat": -25.2921774,
+      "lng": -57.6028687,
+      "checked_at": "2026-10-17T03:24:55+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-8334dc988fc18a18",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "ENEX BRUNO GUGGIARI",
+    "merchant_brand": "ENEX",
+    "address": "Avda. Fernando de la Mora esq. Bruno Guggiari",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+    "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:56.883730+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJdZzzFFupXZQRvj2xVnTTCE0",
+    "google_candidate": {
+      "google_name": "Estacion de Servicios Enex",
+      "formatted_address": "M9PQ+WFC, Av. Bruno Guggiari, Asunción 001235",
+      "lat": -25.312792,
+      "lng": -57.6114591,
+      "checked_at": "2026-10-17T03:24:56+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-eb707ccbbf47e976",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "ENEX FELIX BOGADO",
+    "merchant_brand": "ENEX",
+    "address": "Avda. Felix Bogado esq. Madrinas del Chaco",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+    "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:57.882703+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJKVDdAwCpXZQRadEb8PUmohE",
+    "google_candidate": {
+      "google_name": "Estación de Servicio Enex - Avda. Félix Bogado",
+      "formatted_address": "M9MC+388, Madrinas de la Guerra del Chaco, Asunción 001240",
+      "lat": -25.3173342,
+      "lng": -57.6291667,
+      "checked_at": "2026-10-17T03:24:57+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-ecd44ee34c83c069",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "ENEX HERRERA",
+    "merchant_brand": "ENEX",
+    "address": "Avda. Perú esq. Herrera",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+    "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:58.894348+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJtwqg7j-nXZQRkJUNRKVhRD8",
+    "google_candidate": {
+      "google_name": "Estación de Servicios Enex",
+      "formatted_address": "Av. Perú, Asunción 001224",
+      "lat": -25.2933254,
+      "lng": -57.6218534,
+      "checked_at": "2026-10-17T03:24:58+00:00"
+    }
+  },
+  {
+    "id": "loc-sudameris-7d327739a5ae26c7",
+    "bank": "Sudameris",
+    "category": "Combustible",
+    "merchant_name": "ENEX LILLO",
+    "merchant_brand": "ENEX",
+    "address": "Lillo esq. Concejal Vargas",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac78b208ee27674653988/Enex-31-DIC-26.pdf",
+    "source_sha256": "e74eda0a1a09fc12bac67c573691d23869edcc70408d52202d2951dbfdf8e37a",
+    "source_page": 2,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "online_only": false,
+    "branch_scope": "physical",
+    "google_last_attempt_at": "2026-10-17T03:24:59.864515+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJ-0OnEC-pXZQR8Mkn4bXsGHQ",
+    "google_candidate": {
+      "google_name": "Estación de Servicios Enex",
+      "formatted_address": "Eusebio Lillo esq, Concejal Vargas, Asunción 1410",
+      "lat": -25.2929816,
+      "lng": -57.5553567,
+      "checked_at": "2026-10-17T03:24:59+00:00"
     }
   },
   {
@@ -3723,9 +4941,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:06.934090+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJaxhuP_GnXZQRW_X2Jc1vZbM",
     "google_candidate": {
       "google_name": "Petropar – Sede Administrativa",
@@ -3750,9 +4968,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:07.702266+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
     "google_candidate": {
       "google_name": "Petropar Grupo Sacco S.A.",
@@ -3777,9 +4995,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:08.490446+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ65-ExfanXZQRuQ2peR0SR-s",
     "google_candidate": {
       "google_name": "Petropar Grupo Bahía Alberdi",
@@ -3804,9 +5022,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:09.270297+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJy-nuF-mlXZQRVd0sfcGheek",
     "google_candidate": {
       "google_name": "Service Station Petropar wildebeest Guasu",
@@ -3831,9 +5049,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:10.056687+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJW6SzzlKnXZQRkEnFagYb6WA",
     "google_candidate": {
       "google_name": "Petropar Grupo Bahía Curupayty",
@@ -3858,9 +5076,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:10.845340+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJo4dmZogJXZQRt4Fw_nh-_hM",
     "google_candidate": {
       "google_name": "PETROPAR SAJONIA",
@@ -3885,9 +5103,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:11.572104+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
     "google_candidate": {
       "google_name": "Petropar Grupo Sacco S.A.",
@@ -3912,9 +5130,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:12.243067+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ92AEXCKnXZQRgAXhVB6AUeI",
     "google_candidate": {
       "google_name": "Petropar Empeñarol",
@@ -3939,9 +5157,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:12.983226+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
     "google_candidate": {
       "google_name": "Petropar Grupo Sacco S.A.",
@@ -3966,9 +5184,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:13.748420+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ0WndYACnXZQRuz7aftzNgqg",
     "google_candidate": {
       "google_name": "Sacco Petropar Tte. Fariña",
@@ -3993,9 +5211,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:14.426980+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ3ZjSLgCpXZQREjtyn31_Zz8",
     "google_candidate": {
       "google_name": "Petropar SACCO Japón",
@@ -4020,9 +5238,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:15.191306+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJiyouPgCnXZQRTku95wq4-PU",
     "google_candidate": {
       "google_name": "Petropar Molas Lopez",
@@ -4047,9 +5265,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:15.901573+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ3ZjSLgCpXZQREjtyn31_Zz8",
     "google_candidate": {
       "google_name": "Petropar SACCO Japón",
@@ -4074,9 +5292,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:16.565282+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ65-ExfanXZQRuQ2peR0SR-s",
     "google_candidate": {
       "google_name": "Petropar Grupo Bahía Alberdi",
@@ -4101,9 +5319,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:17.276381+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJW6SzzlKnXZQRkEnFagYb6WA",
     "google_candidate": {
       "google_name": "Petropar Grupo Bahía Curupayty",
@@ -4128,9 +5346,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:17.972562+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ92AEXCKnXZQRgAXhVB6AUeI",
     "google_candidate": {
       "google_name": "Petropar Empeñarol",
@@ -4155,9 +5373,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:18.719422+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJiyouPgCnXZQRTku95wq4-PU",
     "google_candidate": {
       "google_name": "Petropar Molas Lopez",
@@ -4182,9 +5400,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:19.550289+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJoU2k7DGqXZQRHfO5DtnKS5U",
     "google_candidate": {
       "google_name": "PETROPAR - Petroleos del Paraguay",
@@ -4209,9 +5427,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:20.246786+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJo4dmZogJXZQRt4Fw_nh-_hM",
     "google_candidate": {
       "google_name": "PETROPAR SAJONIA",
@@ -4236,9 +5454,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:21.058169+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJNXsJEuapXZQRs-Ry4iA9j18",
     "google_candidate": {
       "google_name": "La Estación Manantial Petropar",
@@ -4263,9 +5481,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:21.782889+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ0WndYACnXZQRuz7aftzNgqg",
     "google_candidate": {
       "google_name": "Sacco Petropar Tte. Fariña",
@@ -4290,9 +5508,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:22.570724+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJy-nuF-mlXZQRVd0sfcGheek",
     "google_candidate": {
       "google_name": "Service Station Petropar wildebeest Guasu",
@@ -4317,9 +5535,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:23.288225+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ1aVujIioXZQRNvp0GCzXCUY",
     "google_candidate": {
       "google_name": "Copetrol",
@@ -4344,9 +5562,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:24.004216+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJOdAzBUumXZQRMStSrgQF5hg",
     "google_candidate": {
       "google_name": "Copetrol Artigas Candelaria",
@@ -4371,9 +5589,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:24.743427+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJPT7B0juvXZQRUKQsiuQx-TU",
     "google_candidate": {
       "google_name": "Copetrol Santa Teresa",
@@ -4398,9 +5616,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:25.443474+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJsymnIlqnXZQR_mz6DBmrI5I",
     "google_candidate": {
       "google_name": "Copetrol Azara",
@@ -4425,9 +5643,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:26.266152+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ1VyKcgioXZQRHiHjEu8PRYo",
     "google_candidate": {
       "google_name": "Copetrol - Felix Bogado",
@@ -4452,9 +5670,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:27.028571+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJscRMHwCpXZQR4ntk7nqxrnU",
     "google_candidate": {
       "google_name": "Copetrol avenida Pitiantuta y Asunción",
@@ -4479,9 +5697,9 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:27.759300+00:00",
     "google_enrichment_status": "needs_review",
-    "google_confidence": "review",
     "google_candidate_place_id": "ChIJ1VyKcgioXZQRHiHjEu8PRYo",
     "google_candidate": {
       "google_name": "Copetrol - Felix Bogado",
@@ -4506,7 +5724,88 @@
     "lat": null,
     "lng": null,
     "geocode_source": "",
+    "google_confidence": "review",
     "google_last_attempt_at": "2026-10-16T12:25:28.545016+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_candidate_place_id": "ChIJsymnIlqnXZQR_mz6DBmrI5I",
+    "google_candidate": {
+      "google_name": "Copetrol Azara",
+      "formatted_address": "Azara 1147, Asunción 001220",
+      "lat": -25.2900269,
+      "lng": -57.6255769,
+      "checked_at": "2026-10-16T12:25:28+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-4679c05031",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Asunción",
+    "address": "Fernando de la Mora esq. Gral. Santos",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 8,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:37.552690+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJrX0vJmyoXZQRCbJQde81TPI",
+    "google_candidate": {
+      "google_name": "COPETROL",
+      "formatted_address": "M9RM+HMP, Av Gral Máximo Santos, Nuestra Señora Santa María de la Asunción 001236",
+      "lat": -25.3085339,
+      "lng": -57.6157963,
+      "checked_at": "2026-10-17T03:24:37+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-8e01652232",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Asunción",
+    "address": "La Victoria esq. Joasy'y",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 8,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:38.923524+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJy5fMBAOpXZQRS0Mq4B_QzNw",
+    "google_candidate": {
+      "google_name": "COPETROL LA VICTORIA - LA TIENDITA DE LA COPE",
+      "formatted_address": "Av. La Victoria, Asunción 001424",
+      "lat": -25.3333532,
+      "lng": -57.5893988,
+      "checked_at": "2026-10-17T03:24:38+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-9aaaa7c3d6",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Asunción",
+    "address": "Rca. Argentina c/ Indio Francisco",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 8,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:40.234233+00:00",
     "google_enrichment_status": "needs_review",
     "google_confidence": "review",
     "google_candidate_place_id": "ChIJsymnIlqnXZQR_mz6DBmrI5I",
@@ -4515,7 +5814,466 @@
       "formatted_address": "Azara 1147, Asunción 001220",
       "lat": -25.2900269,
       "lng": -57.6255769,
-      "checked_at": "2026-10-16T12:25:28+00:00"
+      "checked_at": "2026-10-17T03:24:40+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-9efb186e6b",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Asunción",
+    "address": "Pilar esq. Lapacho",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 8,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:41.492133+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
+    "google_candidate": {
+      "google_name": "Copetrol",
+      "formatted_address": "Av. República Argentina 2848, Asunción 001422",
+      "lat": -25.3161352,
+      "lng": -57.590328,
+      "checked_at": "2026-10-17T03:24:41+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-2b4dc01876",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Asunción",
+    "address": "Rca. Dominicana esq. Libertad",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 8,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:42.636428+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJz-MZINKnXZQR1yOrERi0ei8",
+    "google_candidate": {
+      "google_name": "EESS Copetrol",
+      "formatted_address": "P98W+X89, Rca. Dominicana, Asunción 001204",
+      "lat": -25.2825918,
+      "lng": -57.6041258,
+      "checked_at": "2026-10-17T03:24:42+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-df91a2e742",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Asunción",
+    "address": "Avda. Eusebio Ayala esq. Gral. Bernardino Caballero",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 8,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:43.946250+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJYUKIAnCoXZQRZox3JW6qcRo",
+    "google_candidate": {
+      "google_name": "Copetrol",
+      "formatted_address": "Av. Eusebio Ayala 1345, Asunción 001228",
+      "lat": -25.3038632,
+      "lng": -57.6103598,
+      "checked_at": "2026-10-17T03:24:43+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-02b6d86cbb",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Asunción",
+    "address": "Eusebio Lillo esq. Capitán Emeterio Miranda",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 8,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:45.190987+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJiYG7y7GoXZQR8vD_f1O7Cyc",
+    "google_candidate": {
+      "google_name": "Copetrol",
+      "formatted_address": "Eusebio Lilio Eusebio Lillo esquina Emeterio Miranda, Asunción 001407",
+      "lat": -25.2929781,
+      "lng": -57.5615254,
+      "checked_at": "2026-10-17T03:24:45+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-23942b706b",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Botánico",
+    "address": "Av. 1er. Presidente esq. Yrendague",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 14,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:46.298534+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJV1W6FWmmXZQRnQFALn9bQ4I",
+    "google_candidate": {
+      "google_name": "Copetrol - Botanico",
+      "formatted_address": "PCVH+H8J, Av. Primer Presidente, Asunción 001519",
+      "lat": -25.25603,
+      "lng": -57.5717473,
+      "checked_at": "2026-10-17T03:24:46+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-1f4980cd9a",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Colón",
+    "address": "Av. Colón esq. Gral. Díaz",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 14,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:47.489930+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJr7I-TPWnXZQRWtXVXReC3t0",
+    "google_candidate": {
+      "google_name": "COPETROL - Colon",
+      "formatted_address": "Gral. Díaz 658, Asunción 001010",
+      "lat": -25.2803084,
+      "lng": -57.6428812,
+      "checked_at": "2026-10-17T03:24:47+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-d10347cdac",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Facundo Machain",
+    "address": "Facundo Machain y RI 18 Pitiantuta",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 14,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:48.815817+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJ6eSeV-OpXZQRlYG2CYV0hKo",
+    "google_candidate": {
+      "google_name": "COPETROL",
+      "formatted_address": "R.I.18 Pitiantuta 1119, Asunción 001419",
+      "lat": -25.3114723,
+      "lng": -57.5696931,
+      "checked_at": "2026-10-17T03:24:48+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-f1e5f46154",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Ferrocarril",
+    "address": "Av. Mcal. Lopez e/ Caballero y Mexico",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 14,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:49.947658+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJpS05e-6nXZQRz8UUTxv6T2E",
+    "google_candidate": {
+      "google_name": "Copetrol Ferrocarril",
+      "formatted_address": "Av. Mariscal López y, México 001101",
+      "lat": -25.2828275,
+      "lng": -57.6301436,
+      "checked_at": "2026-10-17T03:24:49+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-8ed5cf50b5",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Jose A. Flores",
+    "address": "Av. Kubistchek y JAF",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 14,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:51.030584+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJkcNUFtGpXZQRG0gldzQPVko",
+    "google_candidate": {
+      "google_name": "TED-Wepa - Copetrol José A. Flores",
+      "formatted_address": "Av. Juscelino Kubitschek y, Asunción 001228",
+      "lat": -25.3040806,
+      "lng": -57.6071023,
+      "checked_at": "2026-10-17T03:24:50+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-e7752ab840",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Maitei",
+    "address": "Av. Madame L. esq. Tte. Victor Valdez",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 14,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:52.072027+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJrcMm9E2vXZQRThDWqlvorXM",
+    "google_candidate": {
+      "google_name": "Estación de Servicios Copetrol S.A. - Maitei",
+      "formatted_address": "PF62+CGV, Ave Madame Elisa A. Lynch, Asunción 001403",
+      "lat": -25.2888901,
+      "lng": -57.5486943,
+      "checked_at": "2026-10-17T03:24:51+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-314548489a",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Mcal.Lopez",
+    "address": "Av. Mcal. López esq. Madame Lynch",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 14,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:53.147444+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJpS05e-6nXZQRz8UUTxv6T2E",
+    "google_candidate": {
+      "google_name": "Copetrol Ferrocarril",
+      "formatted_address": "Av. Mariscal López y, México 001101",
+      "lat": -25.2828275,
+      "lng": -57.6301436,
+      "checked_at": "2026-10-17T03:24:53+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-089c99de7e",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol República Argentina",
+    "address": "Av. República Argentina casi Indio Francisco",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 14,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:54.239887+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
+    "google_candidate": {
+      "google_name": "Copetrol",
+      "formatted_address": "Av. República Argentina 2848, Asunción 001422",
+      "lat": -25.3161352,
+      "lng": -57.590328,
+      "checked_at": "2026-10-17T03:24:54+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-5b97b06ae4",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Sajonia",
+    "address": "Dr. Paiva c/ Dr. Montero",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 14,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:55.372116+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJjcRtLCMIXZQRfdwuCP2IAqA",
+    "google_candidate": {
+      "google_name": "Copetrol Sajonia.",
+      "formatted_address": "P89W+X26, Av. Dr. José Montero, Asunción 001003",
+      "lat": -25.280088,
+      "lng": -57.654992,
+      "checked_at": "2026-10-17T03:24:55+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-f715cc1c82",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "Copetrol Villa Morra",
+    "address": "Mcal. Lopez y San Martin",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "COPETROL",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 14,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:56.483011+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJqZYcHqqpXZQR-NbcMh39CHw",
+    "google_candidate": {
+      "google_name": "Copetrol",
+      "formatted_address": "PC3F+W75, Av. Gral. José de San Martín, Asunción 001408",
+      "lat": -25.2952414,
+      "lng": -57.5767527,
+      "checked_at": "2026-10-17T03:24:56+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-69ef086ac0",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "ENEX ACCESO SUR",
+    "address": "Acceso sur esq. Perpetuo socorro",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "ENEX",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 16,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:57.540810+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJtwqg7j-nXZQRkJUNRKVhRD8",
+    "google_candidate": {
+      "google_name": "Estación de Servicios Enex",
+      "formatted_address": "Av. Perú, Asunción 001224",
+      "lat": -25.2933254,
+      "lng": -57.6218534,
+      "checked_at": "2026-10-17T03:24:57+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-844d53d559",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "ENEX ARTIGAS",
+    "address": "Avda. Artigas esq. Solano López",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "ENEX",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 16,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:58.550407+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJ_TZKPPSnXZQRfMMsYfxyJsw",
+    "google_candidate": {
+      "google_name": "Estación de Servicios Enex",
+      "formatted_address": "Av. Gral. José Gervasio Artigas esq, Asunción 0000",
+      "lat": -25.2731786,
+      "lng": -57.6063492,
+      "checked_at": "2026-10-17T03:24:58+00:00"
+    }
+  },
+  {
+    "id": "loc-ueno-6ba56dc834",
+    "bank": "ueno bank",
+    "category": "Combustible",
+    "merchant_name": "ENEX B.CABALLERO",
+    "address": "Avda. Bernardino Caballero esq. Teodoro S Mongelos",
+    "city": "Asunción",
+    "department": "",
+    "country": "Paraguay",
+    "merchant_brand": "ENEX",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+    "source_page": 16,
+    "lat": null,
+    "lng": null,
+    "geocode_source": "",
+    "google_last_attempt_at": "2026-10-17T03:24:59.534584+00:00",
+    "google_enrichment_status": "needs_review",
+    "google_confidence": "review",
+    "google_candidate_place_id": "ChIJl_vWR0qpXZQR7BaTxLFjfAs",
+    "google_candidate": {
+      "google_name": "Enex Gabana Teodoro S. Mongelos",
+      "formatted_address": "M9WR+X6V, Teodoro S. Mongelós, Asunción 001228",
+      "lat": -25.3025008,
+      "lng": -57.6094653,
+      "checked_at": "2026-10-17T03:24:59+00:00"
     }
   }
 ]
