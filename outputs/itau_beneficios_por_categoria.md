@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 547
+Total de beneficios: 550
 
 ## Alemania Cell
 
@@ -554,7 +554,10 @@ Total de beneficios: 547
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Areté | 15 %; Tenes 15% de ahorro. | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
-| Areté | 25 % Hasta; hasta 25% de ahorro | No especificado | 2025-01-04 hasta 2026-10-25 |
+| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingos 18 y 25 de octubre de 2026 | Desde 2026-10-18 hasta 2026-10-25 |
+| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingos 18 y 25 de octubre de 2026 | Desde 2026-10-18 hasta 2026-10-25 |
+| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingos 18 y 25 de octubre de 2026 | Desde 2026-10-18 hasta 2026-10-25 |
+| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingos 18 y 25 de octubre de 2026 | Desde 2026-10-18 hasta 2026-10-25 |
 | CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-12-01 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
