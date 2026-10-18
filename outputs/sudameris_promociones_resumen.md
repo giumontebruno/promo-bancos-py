@@ -2,11 +2,10 @@
 
 Extraidas desde https://www.sudameris.com.py/personas/beneficios
 
-Total: 46
+Total: 44
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
-| Sudameris | Veredeada Chaval | • Sábado 17 de octubre de 2026. | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. • 25% de reintegro directo con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. | https://www.sudameris.com.py/personas/beneficios/veredeada-chaval |
 | Sudameris | Kube – Octubre 2026 | •Desde el 19 al 24 de octubre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito. • 25% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite. • Hasta 15 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/kube-octubre-2026 |
 | Sudameris | Music hall | • Del 19 al 24 octubre de 2026. | • 15% de descuento en caja pagando con tarjeta de crédito Sudameris. • Hasta 12 cuotas sin intereses pagando con tarjeta de crédito Sudameris. | https://www.sudameris.com.py/personas/beneficios/music-hall |
 | Sudameris | Universidad Leonardo Da Vinci - Diplomados | Desde el 21 de septiembre 2026 hasta el 31 de mayo de 2027. | Para la inscripción al diplomado (Aplica para modalidad presencial y homeclass) : • 20% de descuento en caja pagando con tarjetas de crédito Sudameris. • Hasta 12 cuotas sin intereses pagando con tarjetas de crédito Suda | https://www.sudameris.com.py/personas/beneficios/universidad-leonardo-da-vinci-diplomados |
@@ -17,7 +16,6 @@ Total: 46
 | Sudameris | Club Sajonia | • Desde el 13 de octubre al 30 de octubre 2026 (o hasta agotar stock). | ENTRADAS - BIERFEST - CLUB SAJONIA VIGENCIA • Desde el 13 de octubre al 30 de octubre 2026 (o hasta agotar stock). BENEFICIO • 20% de reintegro para compra de mesas y entradas, pagando con tarjetas de crédito de Sudameri | https://www.sudameris.com.py/personas/beneficios/club-sajonia |
 | Sudameris | Serendipity | • Desde el 20 de abril hasta el 30 de noviembre 2026. | CANTINA COLEGIOS: GOETHE, CAMPOALTO, LAS ALMENAS Y LAS ALMENITAS • Lunes a viernes. • 15% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/personas/beneficios/serendipity-la-hornalla-cantina-colegios |
 | Sudameris | FRIGOMAS | • Desde el 07 de agosto al 25 de diciembre 2026. | • Viernes. • 25% de reintegro directo pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/beneficios/destacado/846/detalle |
-| Sudameris | CECCONELLO | • Desde el 07 al 17 de octubre 2026. | • 20% de descuento en caja pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/836/detalle |
 | Sudameris | CLUB SOCIAL ÁREA 4 - CIUDAD DEL ESTE | • Desde el 11 de febrero hasta el 31 de diciembre 2026.. | • 10% de reintegro en el extracto y exclusivamente a compras realizadas con Tarjetas de Crédito MasterCard y Visa, para pagos vía débito automático de las cuotas sociales del club. Tope de compra mensual: Gs. 300.000 por | https://www.sudameris.com.py/beneficios/destacado/826/detalle |
 | Sudameris | SUDAMERIS GO- CUOTAS | • Del 12 de febrero del 2026 al 31 de diciembre del 2026. | • Hasta 18 cuotas sin intereses. | https://www.sudameris.com.py/beneficios/destacado/820/detalle |
 | Sudameris | CLUB CENTRO SOCIAL ENCARNACIÓN | • Hasta el 15 de enero 2027. | • 10% de reintegro en el extracto exclusivamente vía debito automático en el pago de las cuotas sociales para compras realizadas con Tarjetas de Crédito MasterCard y Visa del banco Sudameris. • Hasta 12 Cuotas sin interé | https://www.sudameris.com.py/beneficios/destacado/477/detalle |

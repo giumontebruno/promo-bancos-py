@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T11:42:56.040070+00:00",
-  "input_count": 3098,
+  "generated_at": "2026-10-18T12:12:17.402370+00:00",
+  "input_count": 3092,
   "promotion_count": 3100,
-  "duplicates_removed": -2,
+  "duplicates_removed": -8,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1013,7 +1013,8 @@
     "df43987c78ab0694-346fab0d": "df43987c78ab0694-18b827ac",
     "8d89ae969eb7721b": "6b361360013e9390",
     "b89d12700f21e3ff": "b5d5c2bf0deba0dd",
-    "fd8cedfb36f09b95": "57b016cd047fb17d"
+    "fd8cedfb36f09b95": "57b016cd047fb17d",
+    "c5aff1b9334bee70": "5e4640be03e0e97b"
   },
   "by_bank": {
     "Atlas": 43,
@@ -1032,7 +1033,7 @@
     "multiple_purchase_limits": 242,
     "source_amount_conflict": 15,
     "multiple_refund_limits": 103,
-    "source_verification_pending": 127
+    "source_verification_pending": 131
   },
   "review_queue": [
     {
@@ -1077,15 +1078,6 @@
       "merchant": "delSol",
       "issues": [
         "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "7504d6a61472f7c3",
-      "bank": "Atlas",
-      "merchant": "delSol Shopping - Cheques delSol",
-      "issues": [
-        "limits_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
@@ -3789,6 +3781,24 @@
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/858/detalle"
     },
     {
+      "id": "949ed89812ec648e",
+      "bank": "Sudameris",
+      "merchant": "Veredeada Chaval",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/veredeada-chaval"
+    },
+    {
+      "id": "ac47d7b73ca27eaa",
+      "bank": "Sudameris",
+      "merchant": "Veredeada Chaval",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/veredeada-chaval"
+    },
+    {
       "id": "245c2e1c109ba3aa",
       "bank": "Sudameris",
       "merchant": "PARANA HOGAR / COLCHONES",
@@ -3833,6 +3843,24 @@
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/929/detalle"
+    },
+    {
+      "id": "4cd6c9eab496f456",
+      "bank": "Sudameris",
+      "merchant": "Cecconello",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/836/detalle"
+    },
+    {
+      "id": "5e4640be03e0e97b",
+      "bank": "Sudameris",
+      "merchant": "Cecconello",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/beneficios/destacado/836/detalle"
     },
     {
       "id": "5dc44d3b9cb7ba72",
@@ -6650,6 +6678,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-VIAJES-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "7504d6a61472f7c3",
+      "bank": "Atlas",
+      "merchant": "delSol Shopping - Cheques delSol",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     }
   ]
 }

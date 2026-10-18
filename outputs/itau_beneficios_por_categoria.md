@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 550
+Total de beneficios: 545
 
 ## Alemania Cell
 
@@ -706,24 +706,19 @@ Total de beneficios: 550
 | Aphrodite | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
 | BEZETA | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
 | BURGER FEST | tarjeta de crédito; Tenes 20% de reintegro | No especificado | 2026-10-17 hasta 2026-10-18 |
-| Bazzar | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-12-27 hasta 2026-10-17 |
 | CAROLA GIMENEZ | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
 | CERVEBAR | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
 | Cardon | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
 | Cinntre | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
 | EDICIÓN LIMITADA REGALOS | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Fuschia | 10 Cuotas sin intereses 20 %; Tenés 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-07-04 hasta 2026-10-17 |
-| La sederia | 20 % Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-09 hasta 2026-10-17 |
 | MACEIO | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
 | NENUFARES Y LOTOS | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
 | NESPRESSO | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
 | OPTICA SUR | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
 | Optica Vision | 6 Cuotas sin intereses 30 % Hasta; Tenes hasta 30% de ahorro en productos seleccionados y hasta 6 cuotas sin intereses | No especificado | 2026-02-10 hasta 2026-10-18 |
 | PANCHOS VIP | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
-| PIK | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | No especificado | 2026-07-21 hasta 2026-10-17 |
 | PROVECCHIO | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
 | Pilar | 10 Cuotas sin intereses 60 % Hasta; Tenes 55% de ahorro + 5% pagando con APPLE PAY y GPAY y hasta 10 cuotas sin intereses. | No especificado | 2026-07-22 hasta 2026-10-18 |
-| Pilar | 10 Cuotas sin intereses 70 % Hasta; Tenés hasta 60% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses. | No especificado | 2026-08-13 hasta 2026-10-17 |
 | REVES | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
 | SHAKER | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
 | Teko | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
