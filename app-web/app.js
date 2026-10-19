@@ -238,14 +238,30 @@ const els = {
   closeDialog: document.querySelector("#closeDialog"),
 };
 
+// Bound pure text memoization by both entry count and retained characters.
+const normalizedTextCache = new Map();
+let normalizedTextCacheSize = 0;
 function normalizeDayName(value) {
-  return String(value || "")
+  const text = String(value || "");
+  if (normalizedTextCache.has(text)) return normalizedTextCache.get(text);
+  const normalized = text
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace("miercoles", "miércoles")
     .replace("sabado", "sábado")
     .trim();
+  const size = text.length + normalized.length;
+  if (size <= 100000) {
+    while (normalizedTextCache.size >= 16000 || normalizedTextCacheSize + size > 2000000) {
+      const oldest = normalizedTextCache.keys().next().value;
+      normalizedTextCacheSize -= oldest.length + normalizedTextCache.get(oldest).length;
+      normalizedTextCache.delete(oldest);
+    }
+    normalizedTextCache.set(text, normalized);
+    normalizedTextCacheSize += size;
+  }
+  return normalized;
 }
 
 function loadStoredJson(key, fallback) {
@@ -261,8 +277,16 @@ function saveStoredJson(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
 }
 
+// Reuse formatter instances, not their output: dates still advance at Paraguay midnight.
+const dateTimeFormatters = new Map();
+function getDateTimeFormatter(locale, options) {
+  const key = JSON.stringify([locale, options]);
+  if (!dateTimeFormatters.has(key)) dateTimeFormatters.set(key, new Intl.DateTimeFormat(locale, options));
+  return dateTimeFormatters.get(key);
+}
+
 function getTodayInParaguay() {
-  const text = new Intl.DateTimeFormat("es-PY", {
+  const text = getDateTimeFormatter("es-PY", {
     weekday: "long",
     timeZone: "America/Asuncion",
   }).format(new Date());
@@ -270,7 +294,7 @@ function getTodayInParaguay() {
 }
 
 function getTodayLabel() {
-  const parts = new Intl.DateTimeFormat("es-PY", {
+  const parts = getDateTimeFormatter("es-PY", {
     day: "numeric",
     month: "long",
     timeZone: "America/Asuncion",
@@ -426,7 +450,7 @@ function getCardValidity(promo) {
     const [year, month, day] = promo.terms.ends_on.split("-").map(Number);
     if (year && month && day) {
       const date = new Date(year, month - 1, day);
-      return `Hasta ${new Intl.DateTimeFormat("es-PY", { day: "numeric", month: "long", year: "numeric" }).format(date)}`;
+      return `Hasta ${getDateTimeFormatter("es-PY", { day: "numeric", month: "long", year: "numeric" }).format(date)}`;
     }
   }
   const text = cleanSentence(`${promo.validity || ""} ${promo.raw_detail || ""}`);
@@ -438,7 +462,7 @@ function getCardValidity(promo) {
 function isActivePromotion(promo) {
   if (promo.source_verification === "unconfirmed") return false;
   if (promo.terms?.conflicting_dates) return false;
-  const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Asuncion" }).format(new Date());
+  const today = getDateTimeFormatter("en-CA", { timeZone: "America/Asuncion" }).format(new Date());
   if (promo.terms?.starts_on && promo.terms.starts_on > today) return false;
   // Use the validated purchase window; unrelated dates in raw terms cannot revive it.
   return Boolean(promo.terms?.ends_on && promo.terms.ends_on >= today);
@@ -544,7 +568,7 @@ function parseDateText(value) {
 }
 
 function getTodayDateOnly() {
-  const parts = new Intl.DateTimeFormat("en-CA", {
+  const parts = getDateTimeFormatter("en-CA", {
     timeZone: "America/Asuncion",
     year: "numeric",
     month: "2-digit",
@@ -979,7 +1003,7 @@ function appliesToSelectedDay(promo, selectedDay) {
 function isTodayOrdinalWeekday(rule) {
   const today = getTodayInParaguay();
   if (rule.day !== today) return false;
-  const parts = new Intl.DateTimeFormat("en-CA", {
+  const parts = getDateTimeFormatter("en-CA", {
     timeZone: "America/Asuncion",
     year: "numeric",
     month: "2-digit",
@@ -992,7 +1016,7 @@ function isTodayOrdinalWeekday(rule) {
 }
 
 function getParaguayMonthDay() {
-  const parts = new Intl.DateTimeFormat("en-CA", {
+  const parts = getDateTimeFormatter("en-CA", {
     day: "2-digit",
     timeZone: "America/Asuncion",
   }).formatToParts(new Date());
@@ -1006,7 +1030,7 @@ function passesOrdinalDayRule(promo, day) {
   if (!onlyFirst) return true;
 
   const now = new Date();
-  const paraguayParts = new Intl.DateTimeFormat("en-CA", {
+  const paraguayParts = getDateTimeFormatter("en-CA", {
     timeZone: "America/Asuncion",
     year: "numeric",
     month: "2-digit",
@@ -1027,7 +1051,7 @@ function getOrdinalDayOfMonthDate(year, month, day, ordinal) {
   const lastDate = new Date(Date.UTC(year, month, 0, 12, 0, 0)).getUTCDate();
   for (let date = 1; date <= lastDate; date += 1) {
     const candidate = new Date(Date.UTC(year, month - 1, date, 12, 0, 0));
-    const candidateDay = new Intl.DateTimeFormat("es-PY", {
+    const candidateDay = getDateTimeFormatter("es-PY", {
       weekday: "long",
       timeZone: "America/Asuncion",
     }).format(candidate);
@@ -1040,7 +1064,7 @@ function getOrdinalDayOfMonthDate(year, month, day, ordinal) {
 function getFirstDayOfMonthDateLegacy(year, month, day) {
   for (let date = 1; date <= 7; date += 1) {
     const candidate = new Date(Date.UTC(year, month - 1, date, 12, 0, 0));
-    const candidateDay = new Intl.DateTimeFormat("es-PY", {
+    const candidateDay = getDateTimeFormatter("es-PY", {
       weekday: "long",
       timeZone: "America/Asuncion",
     }).format(candidate);
@@ -1131,11 +1155,13 @@ function sortPremiumPromotions(a, b) {
   const aBank = getPremiumBankPriority(a.bank);
   const bBank = getPremiumBankPriority(b.bank);
   if (aBank !== bBank) return aBank - bBank;
-  const aInstallments = Number(isInstallmentsOnly(a));
-  const bInstallments = Number(isInstallmentsOnly(b));
+  const aInfo = getSortInfo(a);
+  const aInstallments = aInfo.installments;
+  const bInfo = getSortInfo(b);
+  const bInstallments = bInfo.installments;
   if (aInstallments !== bInstallments) return aInstallments - bInstallments;
-  const aPct = getBestPremiumPercent(a);
-  const bPct = getBestPremiumPercent(b);
+  const aPct = aInfo.premium ?? (aInfo.premium = getBestPremiumPercent(a));
+  const bPct = bInfo.premium ?? (bInfo.premium = getBestPremiumPercent(b));
   if (bPct !== aPct) return bPct - aPct;
   return sortByBenefitValue(a, b);
 }
@@ -1206,7 +1232,33 @@ function renderIcon(name) {
   return `<svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true">${ICON_PATHS[name] || ICON_PATHS.star}</svg>`;
 }
 
-function render() {
+// Only reuse the last unqueried list while typing. Every other UI/data action
+// invalidates it, and a Paraguay date change prevents restoring expired results.
+let searchResetSnapshot = null;
+const SEARCH_SNAPSHOT_ELEMENTS = ['results', 'statusText', 'countText', 'bankTabs', 'categoryTabs', 'dayTabs'];
+function render(searchUpdate = false) {
+  clearTimeout(searchRenderTimer);
+  searchRenderTimer = 0;
+  if (!searchUpdate) searchResetSnapshot = null;
+  const snapshotDay = getDateTimeFormatter('en-CA', {timeZone: 'America/Asuncion'}).format(new Date());
+  const listView = state.activeView === 'today' || state.activeView === 'search';
+  if (searchUpdate && !state.query.trim() && listView && searchResetSnapshot?.day === snapshotDay && searchResetSnapshot.view === state.activeView) {
+    SEARCH_SNAPSHOT_ELEMENTS.forEach(key => { els[key].innerHTML = searchResetSnapshot.html[key]; });
+    return;
+  }
+  sortInfoCache = new WeakMap();
+  try {
+    renderResults();
+    if (!state.query.trim() && listView) {
+      searchResetSnapshot = {day: snapshotDay, view: state.activeView,
+        html: Object.fromEntries(SEARCH_SNAPSHOT_ELEMENTS.map(key => [key, els[key].innerHTML]))};
+    }
+  } finally {
+    sortInfoCache = null;
+  }
+}
+
+function renderResults() {
   state.promotions = state.promotions.filter(isActivePromotion);
   const personalView = state.activeView === "alerts" || state.activeView === "favorites";
   document.querySelector(".controls").hidden = personalView;
@@ -2377,20 +2429,32 @@ function sortPromotions(a, b) {
   return String(a.merchant_name || "").localeCompare(String(b.merchant_name || ""), "es");
 }
 
+// Sorting revisits each offer many times. Keep derived values only for this render,
+// so changing Ueno level, benefit data or filters cannot reuse stale calculations.
+let sortInfoCache = null;
+function getSortInfo(promo) {
+  if (sortInfoCache?.has(promo)) return sortInfoCache.get(promo);
+  const info = { savings: getEstimatedSavings(promo), installments: Number(isInstallmentsOnly(promo)) };
+  sortInfoCache?.set(promo, info);
+  return info;
+}
+
 function sortByBenefitValue(a, b) {
-  const aSavings = getEstimatedSavings(a);
-  const bSavings = getEstimatedSavings(b);
+  const aInfo = getSortInfo(a);
+  const bInfo = getSortInfo(b);
+  const aSavings = aInfo.savings;
+  const bSavings = bInfo.savings;
   if (bSavings.refundCap !== aSavings.refundCap) return bSavings.refundCap - aSavings.refundCap;
   if (bSavings.percent !== aSavings.percent) return bSavings.percent - aSavings.percent;
-  if (Number(isInstallmentsOnly(a)) !== Number(isInstallmentsOnly(b))) {
-    return Number(isInstallmentsOnly(a)) - Number(isInstallmentsOnly(b));
+  if (aInfo.installments !== bInfo.installments) {
+    return aInfo.installments - bInfo.installments;
   }
   return sortPromotions(a, b);
 }
 
 function sortByDayDisplayPriority(a, b) {
-  const aInstallmentsOnly = Number(isInstallmentsOnly(a));
-  const bInstallmentsOnly = Number(isInstallmentsOnly(b));
+  const aInstallmentsOnly = getSortInfo(a).installments;
+  const bInstallmentsOnly = getSortInfo(b).installments;
   if (aInstallmentsOnly !== bInstallmentsOnly) return aInstallmentsOnly - bInstallmentsOnly;
   return sortByBenefitValue(a, b);
 }
@@ -2701,7 +2765,7 @@ function formatLastUpdated(promo = null) {
   const timestamp = promo?.source_checked_at || promo?.source_file_updated_at || state.lastUpdated;
   const value = timestamp ? new Date(timestamp) : null;
   if (!value || Number.isNaN(value.getTime())) return "";
-  return new Intl.DateTimeFormat("es-PY", {
+  return getDateTimeFormatter("es-PY", {
     timeZone: "America/Asuncion",
     day: "2-digit",
     month: "2-digit",
@@ -3034,11 +3098,31 @@ els.uenoLevelPanel.addEventListener("click", (event) => {
   render();
 });
 
+let searchRenderTimer = 0;
+let searchCompositionActive = false;
+function scheduleSearchRender() {
+  clearTimeout(searchRenderTimer);
+  // Let the browser paint the typed value; coalesce results while typing rapidly.
+  searchRenderTimer = setTimeout(() => {
+    searchRenderTimer = 0;
+    render(true);
+  }, 120);
+}
+
+els.searchInput.addEventListener("compositionstart", () => {
+  searchCompositionActive = true;
+  clearTimeout(searchRenderTimer);
+});
+els.searchInput.addEventListener("compositionend", (event) => {
+  searchCompositionActive = false;
+  state.query = event.target.value;
+  scheduleSearchRender();
+});
 els.searchInput.addEventListener("input", (event) => {
   state.query = event.target.value;
   resetNearbySelection();
   if (state.activeView === "alerts") state.activeView = "search";
-  render();
+  if (!event.isComposing && !searchCompositionActive) scheduleSearchRender();
 });
 
 els.results.addEventListener("click", (event) => {

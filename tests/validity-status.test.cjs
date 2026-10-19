@@ -5,6 +5,7 @@ const vm = require('node:vm');
 const source = fs.readFileSync('app-web/app.js', 'utf8');
 function active(promo) {
   const context = { Intl, Date, getPromotionEndDate: () => null, getTodayDateOnly: () => new Date() };
+  vm.runInNewContext(source.slice(source.indexOf('const dateTimeFormatters ='), source.indexOf('function getTodayInParaguay(')), context);
   vm.runInNewContext(source.slice(source.indexOf('function isActivePromotion('), source.indexOf('function shouldShowPromotion(')), context);
   return context.isActivePromotion(promo);
 }
