@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 545
+Total de beneficios: 519
 
 ## Alemania Cell
 
@@ -95,12 +95,6 @@ Total de beneficios: 545
 | Juan Valdez | 20 %; 20% ahorro. | Aplica jueves | 2026-01-01 hasta 2026-12-31 |
 | Spa Centenario | 20 %; 20% de ahorro | Aplica lunes | 2024-01-01 hasta 2026-10-31 |
 | Talleyrand | 20 %; Tenés 20% de reintegro | lunes a sábado | 2026-10-12 hasta 2026-12-31 |
-
-## CompuMarket
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Compumarket | 18 Cuotas sin intereses; Hasta 18 cuotas sin intereses. | No especificado | 2024-01-15 hasta 2026-10-18 |
 
 ## Concepción
 
@@ -549,6 +543,13 @@ Total de beneficios: 545
 | Under Armour | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% adicional pagando con Google Pay y Apple Pay y hasta 6 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-12-03 |
 | Veronica Torres | 6 Cuotas sin intereses 15 % Hasta; 10% de ahorro mas 5% adicional pagando con QR, Google Pay y Gpay y hasta 6 cuotas sin intereses. | No especificado | 2025-08-07 hasta 2026-12-03 |
 
+## Stock & Superseis
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Stock | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
+| SuperSeis | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
+
 ## Supermercados
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -561,9 +562,7 @@ Total de beneficios: 545
 | CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-12-01 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
-| Stock | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
 | Super Real | 15 %; 15% de ahorro. | Aplica los LUNES | 2025-10-06 hasta 2026-12-31 |
-| SuperSeis | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
 
 ## Teatro
 
@@ -637,6 +636,7 @@ Total de beneficios: 545
 | Touring y Automóvil Club Paraguayo | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-06-26 hasta 2026-12-31 |
 | VGS | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Vernier | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
+| WASH AND GO | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% para tarjetas de crédito Personal Bank + hasta 6 cuotas sin intereses. | No especificado | 2026-10-13 hasta 2026-11-04 |
 
 ## Viaje y Turismo
 
@@ -697,35 +697,4 @@ Total de beneficios: 545
 | Todocenter | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
 | UG Hogar | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses | Aplica LUNES; LUNES A VIERNES | 2023-04-28 hasta 2026-12-31 |
 | Valerie | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES | 2024-02-02 hasta 2026-12-31 |
-
-## Últimos días
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| AMERICA SHOP | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Aphrodite | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| BEZETA | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| BURGER FEST | tarjeta de crédito; Tenes 20% de reintegro | No especificado | 2026-10-17 hasta 2026-10-18 |
-| CAROLA GIMENEZ | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| CERVEBAR | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Cardon | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Cinntre | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| EDICIÓN LIMITADA REGALOS | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| MACEIO | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
-| NENUFARES Y LOTOS | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| NESPRESSO | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
-| OPTICA SUR | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Optica Vision | 6 Cuotas sin intereses 30 % Hasta; Tenes hasta 30% de ahorro en productos seleccionados y hasta 6 cuotas sin intereses | No especificado | 2026-02-10 hasta 2026-10-18 |
-| PANCHOS VIP | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
-| PROVECCHIO | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Pilar | 10 Cuotas sin intereses 60 % Hasta; Tenes 55% de ahorro + 5% pagando con APPLE PAY y GPAY y hasta 10 cuotas sin intereses. | No especificado | 2026-07-22 hasta 2026-10-18 |
-| REVES | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| SHAKER | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Teko | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Tiari | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Ulaula | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Unica Moda | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| VERTEC GREEN | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2026-10-16 hasta 2026-10-18 |
-| VIZCONDE | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
-| Ñande Gourmet | 25 % Hasta; Tenes 20% de reintegro + 5% pagando con PERSONAL BANK. | No especificado | 2026-10-16 hasta 2026-10-18 |
 

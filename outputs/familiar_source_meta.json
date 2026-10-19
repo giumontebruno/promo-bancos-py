@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-10-18T12:02:20.232067+00:00",
+  "checked_at": "2026-10-19T14:34:48.933463+00:00",
   "published": 416,
   "pending": [
     {
       "merchant_name": "EXPERIENZA PY - AMERICA SHOP",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-experienza-py---america-shop",
-      "reason": "unconfirmed_schedule"
+      "reason": "expired_terms"
     },
     {
       "merchant_name": "GASTRO MALL EXCELSIOR",

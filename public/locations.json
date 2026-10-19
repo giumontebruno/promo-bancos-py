@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T12:11:47+00:00",
+  "generated_at": "2026-10-19T14:45:50+00:00",
   "provider": "Official bank branch lists + reviewed location matches",
   "total_locations": 1841,
-  "geocoded_locations": 133,
+  "geocoded_locations": 136,
   "locations": [
     {
       "id": "loc-bnf-b503118f81afab11",
@@ -742,6 +742,68 @@
       "location_verified_at": "2026-09-14T15:20:20+00:00",
       "needs_review": false,
       "google_last_attempt_at": "2026-09-14T15:20:21.036030+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
+      "id": "loc-bnf-5ef5980fc07ad2db",
+      "bank": "BNF",
+      "category": "Combustible",
+      "source_category": "Estaciones de Servicio",
+      "merchant_name": "COPETROL",
+      "merchant_brand": "COPETROL",
+      "address": "Mcal. Estigarribia y Patricio Colmán - Ruta II km 14.",
+      "city": "San Lorenzo",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+      "source_page": 9,
+      "lat": -25.3424995,
+      "lng": -57.4941024,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJA9wn2XCuXZQRWwRUfqe8xl0",
+      "formatted_address": "RUTA MCAL. JOSE F. ESTIGARRIBIA y Patricio Colman - KM 14, PY02, San Lorenzo 111429",
+      "google_name": "KM14 Copetrol ROUTE 2",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-18T12:12:10+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-18T12:12:10.912489+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
+      "id": "loc-bnf-7d610a07dc2b7724",
+      "bank": "BNF",
+      "category": "Combustible",
+      "source_category": "Estaciones de Servicio",
+      "merchant_name": "COPETROL",
+      "merchant_brand": "COPETROL",
+      "address": "Avda. De los Agrónomos Km 11 c/ Avelino Martinez.",
+      "city": "San Lorenzo",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+      "source_page": 9,
+      "lat": -25.3567456,
+      "lng": -57.5492379,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJt4usdqyuXZQRvOGoMyvHkiY",
+      "formatted_address": "Av. Avelino Martínez, San Lorenzo 111435",
+      "google_name": "Copetrol Monzón Surtidor c/Lavadero y Shop",
+      "google_types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-18T12:12:11+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-18T12:12:11.727734+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -9642,9 +9704,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:48.009038+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJC-ku9ZSlXZQR-WhkwPSwr7A",
       "google_candidate": {
         "google_name": "Petrochaco - Luque Yka’a",
@@ -9671,9 +9733,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:48.848234+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJGSr5YOivXZQRXfFW8zP1Y5g",
       "google_candidate": {
         "google_name": "Petrochaco",
@@ -9700,9 +9762,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:49.793268+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJC-ku9ZSlXZQR-WhkwPSwr7A",
       "google_candidate": {
         "google_name": "Petrochaco - Luque Yka’a",
@@ -9729,9 +9791,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:50.681343+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJP-7Ui4-vXZQRBsZnKWx0wVI",
       "google_candidate": {
         "google_name": "Puma Energy San Rafael",
@@ -9758,9 +9820,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:51.720939+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJDdTbZd2vXZQR0GxLNLI4ix8",
       "google_candidate": {
         "google_name": "Estación Puma Energy",
@@ -9787,9 +9849,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:52.575317+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJAQAw2KGvXZQREO0ftPCIrlw",
       "google_candidate": {
         "google_name": "Estación de Servicio Puma Energy",
@@ -9816,9 +9878,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:53.497519+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJDdTbZd2vXZQR0GxLNLI4ix8",
       "google_candidate": {
         "google_name": "Estación Puma Energy",
@@ -9845,9 +9907,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:54.386870+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJX43nVgClXZQRPwTz2REJGgs",
       "google_candidate": {
         "google_name": "Puma Energy - Aeropuerto",
@@ -9874,9 +9936,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:55.155820+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJu4sr9YqvXZQRLX44eQka0-o",
       "google_candidate": {
         "google_name": "Puma Energy",
@@ -9903,9 +9965,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:55.930943+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ67WeEeOlXZQRL23faz5Isfk",
       "google_candidate": {
         "google_name": "3MG EDUVIGIS DIAZ",
@@ -9932,9 +9994,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:56.721132+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJFZe1zW2kXZQR-3bIjjpoiDo",
       "google_candidate": {
         "google_name": "Copetrol ruta transchaco",
@@ -9961,9 +10023,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:57.552739+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJaQNzqjekXZQRvrwuuY9ORRg",
       "google_candidate": {
         "google_name": "Estación de Servicio - COPETROL- Mariano - Tte Irrazabal",
@@ -9990,9 +10052,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:58.425874+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ6XN_JgCjXZQRkOtei45V2rQ",
       "google_candidate": {
         "google_name": "PETROCHACO",
@@ -10019,9 +10081,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:59.380825+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ6XN_JgCjXZQRkOtei45V2rQ",
       "google_candidate": {
         "google_name": "PETROCHACO",
@@ -10048,9 +10110,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:00.253158+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJczSJiDakXZQRbQXJSbNBpYc",
       "google_candidate": {
         "google_name": "EESS PUMA TERA VELOZ - Mariano Roque Alonso - Grupo Fabiola",
@@ -10311,9 +10373,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:01.084071+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJpWB9RsQVXJQRMWVEr9_gLBg",
       "google_candidate": {
         "google_name": "Petrochaco-Potrero",
@@ -10340,9 +10402,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:01.912528+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJq3MVaytTXJQRvDHqTQ4NYo4",
       "google_candidate": {
         "google_name": "Estación Puma Gasolider",
@@ -10603,9 +10665,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:02.698162+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ_wbldSKrXZQRAqwLlpzp7X0",
       "google_candidate": {
         "google_name": "Petrochaco",
@@ -10632,9 +10694,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:03.671059+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJJUrShIS1XZQRpXGBmIr0Y0M",
       "google_candidate": {
         "google_name": "",
@@ -10931,9 +10993,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:04.530363+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJKXHD-c2vXZQRAKmREcQlv0Q",
       "google_candidate": {
         "google_name": "3MG - SAN LORENZO - YBERÁ Grupo PETROCHACO",
@@ -10960,9 +11022,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:05.405257+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJW4PE5x2tXZQRGgN-Dc--j9o",
       "google_candidate": {
         "google_name": "Estaciòn de Servicios Compasa",
@@ -10989,9 +11051,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:06.588259+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJQ-yuX9utXZQR5D9KTX-A-uM",
       "google_candidate": {
         "google_name": "EESS COMPASA",
@@ -11018,9 +11080,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:07.399825+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ4Rvnsd6tXZQR5PENo5E-eQ8",
       "google_candidate": {
         "google_name": "Copetrol ex ruta 1 km 15",
@@ -11047,9 +11109,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:08.141994+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJnyaMtomuXZQRkKj17dUxjf4",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -11076,9 +11138,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:08.984938+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJnyaMtomuXZQRkKj17dUxjf4",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -11105,9 +11167,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:09.882858+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJA9wn2XCuXZQRWwRUfqe8xl0",
       "google_candidate": {
         "google_name": "KM14 Copetrol ROUTE 2",
@@ -11116,68 +11178,6 @@
         "lng": -57.4941024,
         "checked_at": "2026-10-18T12:12:09+00:00"
       }
-    },
-    {
-      "id": "loc-bnf-5ef5980fc07ad2db",
-      "bank": "BNF",
-      "category": "Combustible",
-      "source_category": "Estaciones de Servicio",
-      "merchant_name": "COPETROL",
-      "merchant_brand": "COPETROL",
-      "address": "Mcal. Estigarribia y Patricio Colmán - Ruta II km 14.",
-      "city": "San Lorenzo",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
-      "source_page": 9,
-      "lat": -25.3424995,
-      "lng": -57.4941024,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-18T12:12:10.912489+00:00",
-      "place_id": "ChIJA9wn2XCuXZQRWwRUfqe8xl0",
-      "formatted_address": "RUTA MCAL. JOSE F. ESTIGARRIBIA y Patricio Colman - KM 14, PY02, San Lorenzo 111429",
-      "google_name": "KM14 Copetrol ROUTE 2",
-      "google_types": [
-        "gas_station",
-        "point_of_interest",
-        "service",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-18T12:12:10+00:00"
-    },
-    {
-      "id": "loc-bnf-7d610a07dc2b7724",
-      "bank": "BNF",
-      "category": "Combustible",
-      "source_category": "Estaciones de Servicio",
-      "merchant_name": "COPETROL",
-      "merchant_brand": "COPETROL",
-      "address": "Avda. De los Agrónomos Km 11 c/ Avelino Martinez.",
-      "city": "San Lorenzo",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
-      "source_page": 9,
-      "lat": -25.3567456,
-      "lng": -57.5492379,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-18T12:12:11.727734+00:00",
-      "place_id": "ChIJt4usdqyuXZQRvOGoMyvHkiY",
-      "formatted_address": "Av. Avelino Martínez, San Lorenzo 111435",
-      "google_name": "Copetrol Monzón Surtidor c/Lavadero y Shop",
-      "google_types": [
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-18T12:12:11+00:00"
     },
     {
       "id": "loc-bnf-39ce3d895d3cec42",
@@ -11196,9 +11196,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:12.433342+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJZ83Lvi6sXZQRNMOEdA0ERhQ",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -11225,9 +11225,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:13.240742+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJA9wn2XCuXZQRWwRUfqe8xl0",
       "google_candidate": {
         "google_name": "KM14 Copetrol ROUTE 2",
@@ -11253,7 +11253,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:45:51.045949+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJj0M4cc-tXZQRGqYHtfu1baM",
+      "google_candidate": {
+        "google_name": "Copetrol",
+        "formatted_address": "JGP2+MW7, Teniente Molas, San Lorenzo 111455",
+        "lat": -25.3633293,
+        "lng": -57.4976899,
+        "checked_at": "2026-10-19T14:45:50+00:00"
+      }
     },
     {
       "id": "loc-bnf-fe388b2305988ca8",
@@ -11268,10 +11279,24 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
       "source_page": 9,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3239677,
+      "lng": -57.510993,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:45:51.969591+00:00",
+      "place_id": "ChIJ8_XdS7CvXZQROwdXrU3rj10",
+      "formatted_address": "MFGQ+CJ6, Avda. Laguna Grande, San Lorenzo 111406",
+      "google_name": "Copetrol",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-19T14:45:51+00:00"
     },
     {
       "id": "loc-bnf-f9dbef6bfe48c37b",
@@ -11289,7 +11314,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:45:52.854740+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJfzBPxi2vXZQRlJuebj5UpP8",
+      "google_candidate": {
+        "google_name": "COPETROL",
+        "formatted_address": "MFPM+W5Q, Jacarandá, San Lorenzo 111405",
+        "lat": -25.3126556,
+        "lng": -57.5170185,
+        "checked_at": "2026-10-19T14:45:52+00:00"
+      }
     },
     {
       "id": "loc-bnf-4d62fca3b465234c",
@@ -11307,7 +11343,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:45:53.955597+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJA9wn2XCuXZQRWwRUfqe8xl0",
+      "google_candidate": {
+        "google_name": "KM14 Copetrol ROUTE 2",
+        "formatted_address": "RUTA MCAL. JOSE F. ESTIGARRIBIA y Patricio Colman - KM 14, PY02, San Lorenzo 111429",
+        "lat": -25.3424995,
+        "lng": -57.4941024,
+        "checked_at": "2026-10-19T14:45:53+00:00"
+      }
     },
     {
       "id": "loc-bnf-7ea7b0a5067d7a15",
@@ -11325,7 +11372,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:45:54.982145+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJfSFEB3SsXZQR95WMR92RLHU",
+      "google_candidate": {
+        "google_name": "Copetrol Estrella",
+        "formatted_address": "JF62+QW7, Acceso Sur, Ñemby 111207",
+        "lat": -25.3880907,
+        "lng": -57.5477104,
+        "checked_at": "2026-10-19T14:45:54+00:00"
+      }
     },
     {
       "id": "loc-bnf-fbd485906338f201",
@@ -11343,7 +11401,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:45:55.845369+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJnyaMtomuXZQRkKj17dUxjf4",
+      "google_candidate": {
+        "google_name": "Copetrol",
+        "formatted_address": "Gaspar R De Francia, San Lorenzo 111423",
+        "lat": -25.3391864,
+        "lng": -57.5096714,
+        "checked_at": "2026-10-19T14:45:55+00:00"
+      }
     },
     {
       "id": "loc-bnf-cd4ef9f8a15ca946",
@@ -11358,10 +11427,27 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
       "source_page": 9,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3208162,
+      "lng": -57.5080962,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:45:56.726222+00:00",
+      "place_id": "ChIJ6whUAPiuXZQRx5y9KquJUr4",
+      "formatted_address": "Ave Gral Eugenio A. Garay, San Lorenzo 111410",
+      "google_name": "Copetrol sagrada familia",
+      "google_types": [
+        "gas_station",
+        "parking_lot",
+        "parking",
+        "transportation_service",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-19T14:45:56+00:00"
     },
     {
       "id": "loc-bnf-6f42edc6cb3011fa",
@@ -11379,7 +11465,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:45:57.500968+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJdW7aTamvXZQRwVjY1biKuX8",
+      "google_candidate": {
+        "google_name": "Petrochaco - San Lorenzo Centro",
+        "formatted_address": "Tte Benitez 990, San Lorenzo 111430",
+        "lat": -25.346154,
+        "lng": -57.5031073,
+        "checked_at": "2026-10-19T14:45:57+00:00"
+      }
     },
     {
       "id": "loc-bnf-d22aefd4adb61065",
@@ -11397,7 +11494,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:45:58.353307+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJDxypMTetXZQR45ZPwaiKlEg",
+      "google_candidate": {
+        "google_name": "Petrochaco - Reducto",
+        "formatted_address": "JGC2+22, San Lorenzo 111470",
+        "lat": -25.3800367,
+        "lng": -57.4997579,
+        "checked_at": "2026-10-19T14:45:58+00:00"
+      }
     },
     {
       "id": "loc-bnf-d79b61a5bc39bfbe",
@@ -11415,7 +11523,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:45:59.103491+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJkw0iteGtXZQR4G0T1aUYDGE",
+      "google_candidate": {
+        "google_name": "Petrochaco",
+        "formatted_address": "JGV6+PGX, San Lorenzo 111454",
+        "lat": -25.3556331,
+        "lng": -57.4886545,
+        "checked_at": "2026-10-19T14:45:58+00:00"
+      }
     },
     {
       "id": "loc-bnf-14fb57b64cfe7fde",
@@ -11433,7 +11552,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:45:59.844193+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJy-cfJz6tXZQR0hWfPQVItew",
+      "google_candidate": {
+        "google_name": "Petrochaco - Avenida San Pedro",
+        "formatted_address": "JG28+RJP, San Lorenzo 111477",
+        "lat": -25.3979166,
+        "lng": -57.4834289,
+        "checked_at": "2026-10-19T14:45:59+00:00"
+      }
     },
     {
       "id": "loc-bnf-1d561b06f75ce4e2",
@@ -11451,7 +11581,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:00.659006+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJWWIOw8WtXZQRTk5KFbhujtc",
+      "google_candidate": {
+        "google_name": "Puma Service Station Tayazuapè",
+        "formatted_address": "Teniente Molas, &, San Lorenzo 111455",
+        "lat": -25.3641407,
+        "lng": -57.4950187,
+        "checked_at": "2026-10-19T14:46:00+00:00"
+      }
     },
     {
       "id": "loc-bnf-880b75779a1f9713",
@@ -11469,7 +11610,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:01.483924+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJY3YlA0qtXZQRqbT2KUjkfso",
+      "google_candidate": {
+        "google_name": "Estación de servicios Puma Catedral",
+        "formatted_address": "JFFQ+GHG, Juan Pablo Ocampos, San Lorenzo 111469",
+        "lat": -25.3759741,
+        "lng": -57.5107122,
+        "checked_at": "2026-10-19T14:46:01+00:00"
+      }
     },
     {
       "id": "loc-bnf-ee85c6b28f1633d5",
@@ -11487,7 +11639,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:02.364781+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ0WZSRQCvXZQRgFp3uW6ugaE",
+      "google_candidate": {
+        "google_name": "Estación Puma - Pinedo",
+        "formatted_address": "MFGH+7Q2, San Lorenzo 111420",
+        "lat": -25.3243608,
+        "lng": -57.5206023,
+        "checked_at": "2026-10-19T14:46:02+00:00"
+      }
     },
     {
       "id": "loc-bnf-77bd46e9994d8053",
@@ -11505,7 +11668,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:03.151242+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJyzhrKdCuXZQRi5YBSxj0Dhs",
+      "google_candidate": {
+        "google_name": "Puma Grupo Fabiola Km8",
+        "formatted_address": "Avenida Mcal. José F. Estigarribia, San Lorenzo 110314",
+        "lat": -25.3294372,
+        "lng": -57.5443751,
+        "checked_at": "2026-10-19T14:46:03+00:00"
+      }
     },
     {
       "id": "loc-bnf-7fa2f2e9f8d9a994",
@@ -11811,7 +11985,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:03.938629+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJCWNpSeipXZQRD-EU9nuW7V0",
+      "google_candidate": {
+        "google_name": "3MG AMERICO PICCO",
+        "formatted_address": "JCQF+JM9, Villa Elisa 111508",
+        "lat": -25.3609539,
+        "lng": -57.5757784,
+        "checked_at": "2026-10-19T14:46:03+00:00"
+      }
     },
     {
       "id": "loc-bnf-ff440833f2215175",
@@ -11829,7 +12014,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:04.853051+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJe5FO44KpXZQRDYpJNiGUyvQ",
+      "google_candidate": {
+        "google_name": "3MG SANTANIANA VILLA ELISA",
+        "formatted_address": "MC2C+F22, Villa Elisa 111502",
+        "lat": -25.3488699,
+        "lng": -57.5799743,
+        "checked_at": "2026-10-19T14:46:04+00:00"
+      }
     },
     {
       "id": "loc-bnf-85eb3d912c218b52",
@@ -11847,7 +12043,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:05.714968+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJSRWdydqrXZQRQMXcEEhnkII",
+      "google_candidate": {
+        "google_name": "3MG VON POLESKY",
+        "formatted_address": "JCH8+H97, Villa Elisa 111510",
+        "lat": -25.3710799,
+        "lng": -57.5840829,
+        "checked_at": "2026-10-19T14:46:05+00:00"
+      }
     },
     {
       "id": "loc-bnf-19b41d053291208c",
@@ -11862,10 +12069,24 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
       "source_page": 6,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3681667,
+      "lng": -57.5864602,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:06.582512+00:00",
+      "place_id": "ChIJ-zKVHhOpXZQRiOTu_9qFrnQ",
+      "formatted_address": "Von Poleski esq, Villa Elisa 111506",
+      "google_name": "EESS COMPASA MyD Villa Elisa",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-19T14:46:06+00:00"
     },
     {
       "id": "loc-bnf-ead5f2da46ccea78",
@@ -11883,7 +12104,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:07.409735+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJV7pnWXupXZQRajcyhRdq1a4",
+      "google_candidate": {
+        "google_name": "Copetrol - Von Poleski",
+        "formatted_address": "JCM6+9PG, Av. Enrique Von Poleski, Villa Elisa 111506",
+        "lat": -25.366568,
+        "lng": -57.588359,
+        "checked_at": "2026-10-19T14:46:07+00:00"
+      }
     },
     {
       "id": "loc-bnf-ceda0266c616f910",
@@ -11901,7 +12133,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:08.259574+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJLUdcUBSpXZQRSPIIlGW20no",
+      "google_candidate": {
+        "google_name": "Copetrol",
+        "formatted_address": "Boquerón, Villa Elisa 111502",
+        "lat": -25.3456415,
+        "lng": -57.579377,
+        "checked_at": "2026-10-19T14:46:08+00:00"
+      }
     },
     {
       "id": "loc-bnf-47509e718c2de6ee",
@@ -11919,7 +12162,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:09.438897+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ37fQArCpXZQRF7TmqLcYvis",
+      "google_candidate": {
+        "google_name": "Petrochaco - Villa Elisa",
+        "formatted_address": "MC38+GJ9, Villa Elisa 111501",
+        "lat": -25.3462001,
+        "lng": -57.5834019,
+        "checked_at": "2026-10-19T14:46:09+00:00"
+      }
     },
     {
       "id": "loc-bnf-5b94caf29bf6d830",
@@ -11937,7 +12191,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:10.253894+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJrwCM5MSrXZQR_6hwBW0qGMk",
+      "google_candidate": {
+        "google_name": "Estación Puma Energy",
+        "formatted_address": "JC88+J8Q, Av. Enrique Von Poleski, Villa Elisa 111515",
+        "lat": -25.3836429,
+        "lng": -57.5841978,
+        "checked_at": "2026-10-19T14:46:10+00:00"
+      }
     },
     {
       "id": "loc-bnf-acc360c5a8de7851",
@@ -11955,7 +12220,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:11.001078+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJrwCM5MSrXZQR_6hwBW0qGMk",
+      "google_candidate": {
+        "google_name": "Estación Puma Energy",
+        "formatted_address": "JC88+J8Q, Av. Enrique Von Poleski, Villa Elisa 111515",
+        "lat": -25.3836429,
+        "lng": -57.5841978,
+        "checked_at": "2026-10-19T14:46:10+00:00"
+      }
     },
     {
       "id": "loc-bnf-d171ed0498fed68b",
@@ -12171,7 +12447,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:12.079071+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "EjpSdXRhIFZpbGxldGEgJiBDYWxsZSBQYXJhZ3VheSwgMTExNjA1IE5hcmFuamFpc3ksIFBhcmFndWF5ImYiZAoUChIJw1JFEa5TXJQR70lQ09NtXosSFAoSCcNSRRGuU1yUEe9JUNPTbV6LGhQKEgmjk9NxrlNclBGvRtMYYKeJpBoUChIJKZGT2bJTXJQRWBsltblO3QQiCg25js7wFY_1t90",
+      "google_candidate": {
+        "google_name": "",
+        "formatted_address": "Ruta Villeta & Calle Paraguay, 111605 Naranjaisy, Paraguay",
+        "lat": -25.4898503,
+        "lng": -57.5146609,
+        "checked_at": "2026-10-19T14:46:11+00:00"
+      }
     },
     {
       "id": "loc-bnf-2ea4fd71203fc1e6",
@@ -12189,7 +12476,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:12.848610+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJs6Fhh3FUXJQRK48NES7oCqI",
+      "google_candidate": {
+        "google_name": "Copetrol",
+        "formatted_address": "FCRQ+V4C, Mcal. López, Villeta 111601",
+        "lat": -25.5078198,
+        "lng": -57.5622278,
+        "checked_at": "2026-10-19T14:46:12+00:00"
+      }
     },
     {
       "id": "loc-bnf-702b4e3895d73a4e",
@@ -12207,7 +12505,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:13.631824+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJGfzJHRJTXJQRzNSGLAWW8CI",
+      "google_candidate": {
+        "google_name": "Petrochaco",
+        "formatted_address": "FCQX+Q5G, Villeta 111602",
+        "lat": -25.5105713,
+        "lng": -57.5520465,
+        "checked_at": "2026-10-19T14:46:13+00:00"
+      }
     },
     {
       "id": "loc-bnf-b11742d4cb53c38a",
@@ -12297,7 +12606,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:14.352460+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJHWwlKVk1XJQRdMRxqcTQqfk",
+      "google_candidate": {
+        "google_name": "Copetrol Ypacarai",
+        "formatted_address": "2, Ypacaraí 111702",
+        "lat": -25.3948245,
+        "lng": -57.2790978,
+        "checked_at": "2026-10-19T14:46:14+00:00"
+      }
     },
     {
       "id": "loc-bnf-029de1226ea2c2d0",
@@ -12315,7 +12635,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:15.160261+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ09IkgV81XJQRiRbg6jeOq-4",
+      "google_candidate": {
+        "google_name": "Puma Energy YPACARAI",
+        "formatted_address": "2 2, Ypacaraí 111702",
+        "lat": -25.3990515,
+        "lng": -57.2815978,
+        "checked_at": "2026-10-19T14:46:15+00:00"
+      }
     },
     {
       "id": "loc-bnf-4d6842b90262770f",
@@ -12333,7 +12664,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-19T14:46:16.017278+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ09IkgV81XJQRiRbg6jeOq-4",
+      "google_candidate": {
+        "google_name": "Puma Energy YPACARAI",
+        "formatted_address": "2 2, Ypacaraí 111702",
+        "lat": -25.3990515,
+        "lng": -57.2815978,
+        "checked_at": "2026-10-19T14:46:15+00:00"
+      }
     },
     {
       "id": "loc-bnf-c4344386223b46c0",
@@ -30549,9 +30891,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:48.460299+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJN1G_EQUIXZQR7MXKpGxma4Q",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -30576,9 +30918,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:49.362459+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ03RrjnioXZQRWJQpW0sa54U",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -30603,9 +30945,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:50.296644+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJoWanRrapXZQRUlVEtIKnSN8",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -30630,9 +30972,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:51.160674+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJU1HcqIOpXZQR0iOksX8YKvE",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -30657,9 +30999,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:52.117471+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ-c4tl6ulXZQRju5fsSH-XPA",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -30684,9 +31026,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:52.968475+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJKVDdAwCpXZQRadEb8PUmohE",
       "google_candidate": {
         "google_name": "Estación de Servicio Enex - Avda. Félix Bogado",
@@ -30711,9 +31053,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:53.941009+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ4ZoN9eanXZQR6897IGxGCT0",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -30738,9 +31080,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:54.749701+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJKcuxw0SmXZQRXmh1ji_uak8",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -30765,9 +31107,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:55.533137+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJNZCMii2mXZQR69_FtRSNnrg",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -30792,9 +31134,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:56.320586+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJaftc68unXZQReV273p1Bkn0",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -30819,9 +31161,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:57.176680+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJm6Ve7PilXZQRAFq24PFT8pw",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -31054,9 +31396,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:58.006720+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJgzZtVGOtXZQRWnd2dR-rRWU",
       "google_candidate": {
         "google_name": "Estación Petropar",
@@ -31081,9 +31423,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:58.933439+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJKZstFQCzXZQRfaElaBjLSu4",
       "google_candidate": {
         "google_name": "EESS PETROPAR Álamo",
@@ -31108,9 +31450,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:11:59.843646+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJHYwJBQCzXZQRn9e6mwnSKxw",
       "google_candidate": {
         "google_name": "Petropar CM GROUP Capiatá km 22",
@@ -31135,9 +31477,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:00.675122+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJDTTDkX6yXZQRbatqqhB4ZAM",
       "google_candidate": {
         "google_name": "PETROSUR Service Station",
@@ -31162,9 +31504,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:01.496535+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJb3ZM5QWzXZQROHZZo2DYUUk",
       "google_candidate": {
         "google_name": "EESS Petropar - Mboi'y",
@@ -31189,9 +31531,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:02.340003+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJO_lSmWuyXZQRGPfuqBSRe9E",
       "google_candidate": {
         "google_name": "Petropar",
@@ -31728,9 +32070,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:03.060751+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJeeKg24yzXZQR4Kf3cIdx84M",
       "google_candidate": {
         "google_name": "Enex Capiatá Km 27",
@@ -31755,9 +32097,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:04.173889+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJdY8l_wmuXZQR-W-yv0N0fl0",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -31782,9 +32124,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:04.985880+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ89JCPwCtXZQRREvyzTPtNLM",
       "google_candidate": {
         "google_name": "Petrobras Fortis Capiata",
@@ -31809,9 +32151,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:05.880835+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ_xvnj0-yXZQRz2wYZljdLqs",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -32604,9 +32946,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:06.968918+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJRa22WtuuXZQRSXH9TEwrLkw",
       "google_candidate": {
         "google_name": "Petropar 3 de Mayo",
@@ -32631,9 +32973,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:07.788709+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ6abzLQCvXZQRWes28_MgzTo",
       "google_candidate": {
         "google_name": "PETROPAR Benítez&Asoc. Mcal. López",
@@ -32658,9 +33000,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:08.522850+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ81T6AQCpXZQRfM869_1JH6o",
       "google_candidate": {
         "google_name": "Petropar Grupo Bahía - Fernando de la Mora",
@@ -32685,9 +33027,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:09.475526+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJgZ-thTevXZQRGcmEAIkKWJo",
       "google_candidate": {
         "google_name": "PETROPAR Tecnifrost S.A.",
@@ -32712,9 +33054,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:10.286373+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ2zyaFjGpXZQRY5yMg5qJsqs",
       "google_candidate": {
         "google_name": "Petropar JAT Avenida 11",
@@ -32739,9 +33081,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:11.273888+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ2zyaFjGpXZQRY5yMg5qJsqs",
       "google_candidate": {
         "google_name": "Petropar JAT Avenida 11",
@@ -32766,9 +33108,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:12.079149+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ81T6AQCpXZQRfM869_1JH6o",
       "google_candidate": {
         "google_name": "Petropar Grupo Bahía - Fernando de la Mora",
@@ -32793,9 +33135,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:12.794758+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJP2WqDQCvXZQRb8_g-RWScz8",
       "google_candidate": {
         "google_name": "Petropar",
@@ -32820,9 +33162,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-18T12:12:13.629895+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJPSpeCQCvXZQRo0lkxEXz2Bw",
       "google_candidate": {
         "google_name": "Petropar JAT Leopardi",
@@ -32846,7 +33188,18 @@
       "source_page": 5,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:45:51.500569+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJgZ-thTevXZQRGcmEAIkKWJo",
+      "google_candidate": {
+        "google_name": "PETROPAR Tecnifrost S.A.",
+        "formatted_address": "MFX5+X2V, Av. Santa Teresa, Fernando de la Mora 110301",
+        "lat": -25.2999569,
+        "lng": -57.5426159,
+        "checked_at": "2026-10-19T14:45:51+00:00"
+      }
     },
     {
       "id": "loc-ueno-9f34968f4b",
@@ -32862,7 +33215,18 @@
       "source_page": 5,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:45:52.458405+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJzeI0UW-pXZQRm3trLBqIG6I",
+      "google_candidate": {
+        "google_name": "Petropar 3 Bocas",
+        "formatted_address": "Elsa Escalante &, JCXH+386, Acceso Sur, Fernando de la Mora 110331",
+        "lat": -25.3523445,
+        "lng": -57.5717353,
+        "checked_at": "2026-10-19T14:45:52+00:00"
+      }
     },
     {
       "id": "loc-ueno-bdb2f747c8",
@@ -32958,7 +33322,18 @@
       "source_page": 8,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:45:53.305877+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJHXFdV82oXZQR0M40Z2ycx1U",
+      "google_candidate": {
+        "google_name": "Copetrol",
+        "formatted_address": "MCQW+PFM, Fernando de la Mora 110306",
+        "lat": -25.310661,
+        "lng": -57.5538362,
+        "checked_at": "2026-10-19T14:45:53+00:00"
+      }
     },
     {
       "id": "loc-ueno-e1510eb037",
@@ -32974,7 +33349,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:45:54.540048+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJPT7B0juvXZQRUKQsiuQx-TU",
+      "google_candidate": {
+        "google_name": "Copetrol Santa Teresa",
+        "formatted_address": "MFX6+294, Delfin Chamorro, Fernando de la Mora 110302",
+        "lat": -25.3025414,
+        "lng": -57.5390883,
+        "checked_at": "2026-10-19T14:45:54+00:00"
+      }
     },
     {
       "id": "loc-ueno-628c07fba6",
@@ -32990,7 +33376,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:45:55.441896+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+      "google_candidate": {
+        "google_name": "Copetrol Fernando De La Mora",
+        "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+        "lat": -25.3363055,
+        "lng": -57.5634724,
+        "checked_at": "2026-10-19T14:45:55+00:00"
+      }
     },
     {
       "id": "loc-ueno-a7dd3401e5",
@@ -33006,7 +33403,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:45:56.311502+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+      "google_candidate": {
+        "google_name": "Copetrol Fernando De La Mora",
+        "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+        "lat": -25.3363055,
+        "lng": -57.5634724,
+        "checked_at": "2026-10-19T14:45:56+00:00"
+      }
     },
     {
       "id": "loc-ueno-52cfb20a34",
@@ -33022,7 +33430,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:45:57.132290+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+      "google_candidate": {
+        "google_name": "Copetrol Fernando De La Mora",
+        "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+        "lat": -25.3363055,
+        "lng": -57.5634724,
+        "checked_at": "2026-10-19T14:45:57+00:00"
+      }
     },
     {
       "id": "loc-ueno-17a0b2f22e",
@@ -33038,7 +33457,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:45:57.931075+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+      "google_candidate": {
+        "google_name": "Copetrol Fernando De La Mora",
+        "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+        "lat": -25.3363055,
+        "lng": -57.5634724,
+        "checked_at": "2026-10-19T14:45:57+00:00"
+      }
     },
     {
       "id": "loc-ueno-feb0b7b9f9",
@@ -33054,7 +33484,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:45:58.726662+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+      "google_candidate": {
+        "google_name": "Copetrol Fernando De La Mora",
+        "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+        "lat": -25.3363055,
+        "lng": -57.5634724,
+        "checked_at": "2026-10-19T14:45:58+00:00"
+      }
     },
     {
       "id": "loc-ueno-9089828557",
@@ -33070,7 +33511,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:45:59.487114+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+      "google_candidate": {
+        "google_name": "Copetrol Fernando De La Mora",
+        "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+        "lat": -25.3363055,
+        "lng": -57.5634724,
+        "checked_at": "2026-10-19T14:45:59+00:00"
+      }
     },
     {
       "id": "loc-ueno-a1403540ee",
@@ -33086,7 +33538,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:00.227723+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+      "google_candidate": {
+        "google_name": "Copetrol Fernando De La Mora",
+        "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+        "lat": -25.3363055,
+        "lng": -57.5634724,
+        "checked_at": "2026-10-19T14:46:00+00:00"
+      }
     },
     {
       "id": "loc-ueno-d5c8e02486",
@@ -33102,7 +33565,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:01.067214+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJx7MOkbavXZQRUYsTeFaYjqA",
+      "google_candidate": {
+        "google_name": "Copetrol Ingavi",
+        "formatted_address": "MFJF+PPR, Ingavi, San Lorenzo 110310",
+        "lat": -25.3181436,
+        "lng": -57.5257228,
+        "checked_at": "2026-10-19T14:46:00+00:00"
+      }
     },
     {
       "id": "loc-ueno-2736f5aa9a",
@@ -33118,7 +33592,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:01.911456+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+      "google_candidate": {
+        "google_name": "Copetrol Fernando De La Mora",
+        "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+        "lat": -25.3363055,
+        "lng": -57.5634724,
+        "checked_at": "2026-10-19T14:46:01+00:00"
+      }
     },
     {
       "id": "loc-ueno-5074447a94",
@@ -33134,7 +33619,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:02.743951+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJb-fkcjCpXZQRkMFlML3mEy4",
+      "google_candidate": {
+        "google_name": "Copetrol Fernando De La Mora",
+        "formatted_address": "MC7P+FJC, 11 de Setiembre, Fernando de la Mora 110324",
+        "lat": -25.3363055,
+        "lng": -57.5634724,
+        "checked_at": "2026-10-19T14:46:02+00:00"
+      }
     },
     {
       "id": "loc-ueno-e0eaee7a22",
@@ -33150,7 +33646,18 @@
       "source_page": 16,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:03.546939+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJC4pPxPKpXZQRwt48BP7HpfE",
+      "google_candidate": {
+        "google_name": "Upa! Tienda Enex Defensores del Chaco",
+        "formatted_address": "MCHP+2VR, Fernando de la Mora 110308",
+        "lat": -25.3223806,
+        "lng": -57.5627928,
+        "checked_at": "2026-10-19T14:46:03+00:00"
+      }
     },
     {
       "id": "loc-ueno-97ef571f93",
@@ -33166,7 +33673,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:04.486369+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJr-8ivrWuXZQRyltPQWhvMdk",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "MF42+V77, 11 de Setiembre esquina, Fernando de la Mora 110316",
+        "lat": -25.3428522,
+        "lng": -57.5492832,
+        "checked_at": "2026-10-19T14:46:04+00:00"
+      }
     },
     {
       "id": "loc-ueno-9a5e99acb7",
@@ -33182,7 +33700,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:05.343466+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJd7ZlfwCpXZQRMPnuDwC-eW8",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "MCCJ+X55, Av. Defensores del Chaco, Asunción 110326",
+        "lat": -25.3275694,
+        "lng": -57.5695208,
+        "checked_at": "2026-10-19T14:46:05+00:00"
+      }
     },
     {
       "id": "loc-ueno-b8bdcf5a82",
@@ -33198,7 +33727,18 @@
       "source_page": 5,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:06.184488+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ74r6CM2pXZQRx4eXTEaCkMc",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Acceso Sur, Villa Elisa 110329",
+        "lat": -25.341015,
+        "lng": -57.5826814,
+        "checked_at": "2026-10-19T14:46:06+00:00"
+      }
     },
     {
       "id": "loc-ueno-7aca3b75db",
@@ -33214,7 +33754,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:07.007237+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJLaQBLZCvXZQREhML_vTdB-U",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "San Lorenzo 111401",
+        "lat": -25.2960176,
+        "lng": -57.5357785,
+        "checked_at": "2026-10-19T14:46:06+00:00"
+      }
     },
     {
       "id": "loc-ueno-79a1d85370",
@@ -33230,7 +33781,18 @@
       "source_page": 5,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:07.875364+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJbQgN0iivXZQR0JaK2PDR0cw",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Fernando de la Mora 110305",
+        "lat": -25.3141122,
+        "lng": -57.5441122,
+        "checked_at": "2026-10-19T14:46:07+00:00"
+      }
     },
     {
       "id": "loc-ueno-34455bbd3e",
@@ -33246,7 +33808,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:08.912690+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJVW1z1B-vXZQRNFJKX0YXaRY",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "MFPC+W9P, Av. Mariscal López, Fernando de la Mora 110311",
+        "lat": -25.3126747,
+        "lng": -57.5290374,
+        "checked_at": "2026-10-19T14:46:08+00:00"
+      }
     },
     {
       "id": "loc-ueno-07419694da",
@@ -33262,7 +33835,18 @@
       "source_page": 5,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:09.832424+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJG2-M0R-vXZQRbkkr1HEhtW4",
+      "google_candidate": {
+        "google_name": "Petrobras Villa Olimpia",
+        "formatted_address": "&, Fernando de la Mora 110310",
+        "lat": -25.3146021,
+        "lng": -57.5282054,
+        "checked_at": "2026-10-19T14:46:09+00:00"
+      }
     },
     {
       "id": "loc-ueno-0e789ccb82",
@@ -33806,7 +34390,18 @@
       "source_page": 12,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:10.643906+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJE95zSimpXZQRFP2sOxWpW1U",
+      "google_candidate": {
+        "google_name": "PETROPAR INCRESA Cacique Lambaré",
+        "formatted_address": "Av. Cacique Lambare 2829, Lambaré 110719",
+        "lat": -25.3420822,
+        "lng": -57.6053219,
+        "checked_at": "2026-10-19T14:46:10+00:00"
+      }
     },
     {
       "id": "loc-ueno-2a17e15420",
@@ -33822,7 +34417,18 @@
       "source_page": 12,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:11.468857+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJxcteVZqpXZQR8MxIS7OjqIk",
+      "google_candidate": {
+        "google_name": "EESS Petropar",
+        "formatted_address": "J9X9+HF5, Cerro Lambaré, Lambaré 110726",
+        "lat": -25.3511071,
+        "lng": -57.6312625,
+        "checked_at": "2026-10-19T14:46:11+00:00"
+      }
     },
     {
       "id": "loc-ueno-c70a1dbd27",
@@ -33838,7 +34444,18 @@
       "source_page": 12,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:12.474207+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJdehqML2pXZQRte9CjB8hzpU",
+      "google_candidate": {
+        "google_name": "Petropar Benítez y Asociados San Isidro",
+        "formatted_address": "Av. San Isidro 2424, Lambaré 2424",
+        "lat": -25.3546166,
+        "lng": -57.6105378,
+        "checked_at": "2026-10-19T14:46:12+00:00"
+      }
     },
     {
       "id": "loc-ueno-d375d37f3d",
@@ -33854,7 +34471,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:13.239544+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJI4PFpQepXZQRyXOuL4VT_cY",
+      "google_candidate": {
+        "google_name": "Petropar Bahia Cacique",
+        "formatted_address": "MC53+VCP, Av. Cacique Lambare, Lambaré 110714",
+        "lat": -25.3402987,
+        "lng": -57.5965457,
+        "checked_at": "2026-10-19T14:46:13+00:00"
+      }
     },
     {
       "id": "loc-ueno-95ff44d50b",
@@ -33870,7 +34498,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:13.973751+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJD9ep1QGpXZQR-d2t_gnRYLs",
+      "google_candidate": {
+        "google_name": "Petropar",
+        "formatted_address": "Madre Ravasco, Lambaré 110710",
+        "lat": -25.3239252,
+        "lng": -57.6095927,
+        "checked_at": "2026-10-19T14:46:13+00:00"
+      }
     },
     {
       "id": "loc-ueno-394cbc5992",
@@ -33886,7 +34525,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:14.707402+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJE95zSimpXZQRFP2sOxWpW1U",
+      "google_candidate": {
+        "google_name": "PETROPAR INCRESA Cacique Lambaré",
+        "formatted_address": "Av. Cacique Lambare 2829, Lambaré 110719",
+        "lat": -25.3420822,
+        "lng": -57.6053219,
+        "checked_at": "2026-10-19T14:46:14+00:00"
+      }
     },
     {
       "id": "loc-ueno-944246e9e4",
@@ -33902,7 +34552,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:15.602888+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJE95zSimpXZQRFP2sOxWpW1U",
+      "google_candidate": {
+        "google_name": "PETROPAR INCRESA Cacique Lambaré",
+        "formatted_address": "Av. Cacique Lambare 2829, Lambaré 110719",
+        "lat": -25.3420822,
+        "lng": -57.6053219,
+        "checked_at": "2026-10-19T14:46:15+00:00"
+      }
     },
     {
       "id": "loc-ueno-fc29ae607e",
@@ -33918,7 +34579,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-19T14:46:16.424404+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJzWIKUqykXZQR2en-I-XRQoQ",
+      "google_candidate": {
+        "google_name": "PETROPAR Las Banderas",
+        "formatted_address": "RG9M+FFQ, Limpio 110820",
+        "lat": -25.1812857,
+        "lng": -57.4662587,
+        "checked_at": "2026-10-19T14:46:16+00:00"
+      }
     },
     {
       "id": "loc-ueno-4cc3b19758",
@@ -37377,7 +38049,7 @@
       "geocode_source": ""
     }
   ],
-  "google_enriched_locations": 107,
+  "google_enriched_locations": 110,
   "google_enrichment_focus": "Asunción y Gran Asunción",
-  "locations_updated_at": "2026-10-18T12:12:13+00:00"
+  "locations_updated_at": "2026-10-19T14:46:16+00:00"
 }

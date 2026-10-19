@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 827
+Total de beneficios/comercios: 830
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -487,7 +487,7 @@ _Se omitieron 26 filas en este resumen; están en el CSV._
 |---|---|---|---|---|
 | Municipalidades | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de junio de 2027 | No especificado |
 
-## Peluquerías y Spas (27)
+## Peluquerías y Spas (30)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -515,6 +515,9 @@ _Se omitieron 26 filas en este resumen; están en el CSV._
 | Peluquerías y Spas | 35% de reintegro; 25% de reintegro | los sábados | Vigente hasta el 16 de enero del 2027 | No especificado |
 | Renew clinic & spa | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de enero del 2027 | No especificado |
 | Soham | hasta 18 cuotas sin intereses; 35% de reintegro; 25% de reintegro | todos los días | Vigente hasta el 15 de enero del 2027 | Asunción |
+| Studio Capricho | 35% de reintegro | Los sábados, en Studio Capricho | Vigente hasta el 16 de enero de 2027 | Encarnación |
+| Studio Capricho | 25% de reintegro | Los sábados, en Studio Capricho | Vigente hasta el 16 de enero de 2027 | Encarnación |
+| Studio Capricho | 20% de reintegro | Los sábados, en Studio Capricho. Además: | Vigente hasta el 11 de octubre de 2027 | Encarnación |
 | Unik Beauty Spa | 35% de reintegro | Los sábados, en Unik Beauty Spa | Vigente hasta el 16 de enero de 2027 | Salto del Guairá |
 | Unik Beauty Spa | 25% de reintegro | Los sábados, en Unik Beauty Spa | Vigente hasta el 16 de enero de 2027 | Salto del Guairá |
 | Unik Beauty Spa | Hasta 6 cuotas sin intereses | todos los días: | Vigente hasta el 13 de octubre de 2027 | Salto del Guairá |
@@ -823,7 +826,7 @@ _Se omitieron 127 filas en este resumen; están en el CSV._
 | Grupo Casa J. Gomez - Cubiertas | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 08 de enero del 2027 | Fernando de la Mora |
 | Grupo Faustino | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 02 de enero del 2027 | Nueva Esperanza (Canindeyú) |
 | Ideal Repuestos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de marzo de 2027 | San Cristóbal (Alto Paraná) |
-| Importadora Avenida | 20%; Hasta 12 cuotas sin intereses; 20% de descuento | Todos los días | Vigente hasta el 16 de octubre de 2027 | Asunción |
+| Importadora Avenida | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de abril de 2027 | Asunción |
 | Marco Antonio Repuestos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de abril de 2027 | San Cristóbal (Alto Paraná) |
 | Mincar Servicio Automotriz | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de marzo de 2027 | Nueva Esperanza (Canindeyú) |
 | Motorplaza | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de marzo de 2027 | Asunción |

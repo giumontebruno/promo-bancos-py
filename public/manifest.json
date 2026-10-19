@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T12:12:17.402370+00:00",
-  "promotion_count": 3100,
+  "generated_at": "2026-10-19T14:46:22.813600+00:00",
+  "promotion_count": 3104,
   "banks": [
     "Atlas",
     "BNF",
@@ -106,6 +106,7 @@
     "Shopping Mariscal",
     "Shoppings",
     "Sin categoría",
+    "Stock & Superseis",
     "Supermercados",
     "Teatro",
     "Tecnología",
@@ -1069,7 +1070,7 @@
     "f3bfb9e48ac0b25b": "c704e68318535368",
     "95260183bc3ff53c": "6300bf11c4d6a392",
     "d3201f05a55b56ae": "4e4c939fd6d0dc0f",
-    "c92e2fc64b7103b5": "461ad72e9fa72707",
+    "c92e2fc64b7103b5": "94b689f451a0649c",
     "6d3e46f1399d07fb": "46b95e1d04e82602",
     "ed53c672dc809af8": "11fbcb699d5f5af2",
     "532a4f732d61c330": "4170fdc63d3858cd",
@@ -1141,10 +1142,11 @@
     "88a468afc49ca7f2-ddc73f42": "88a468afc49ca7f2-eaab6316",
     "3ba2db538d4d96b9-c9b0c4ea": "3ba2db538d4d96b9-686aec29",
     "df43987c78ab0694-346fab0d": "df43987c78ab0694-18b827ac",
-    "8d89ae969eb7721b": "6b361360013e9390",
-    "b89d12700f21e3ff": "b5d5c2bf0deba0dd",
     "fd8cedfb36f09b95": "57b016cd047fb17d",
-    "c5aff1b9334bee70": "5e4640be03e0e97b"
+    "c5aff1b9334bee70": "5e4640be03e0e97b",
+    "461ad72e9fa72707": "94b689f451a0649c",
+    "6b361360013e9390": "8d89ae969eb7721b",
+    "b5d5c2bf0deba0dd": "b89d12700f21e3ff"
   },
   "schema_version": 2
 }
