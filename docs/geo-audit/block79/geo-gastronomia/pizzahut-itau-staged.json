@@ -1,0 +1,57 @@
+{
+  "reviewed_on": "2026-10-20",
+  "publication_status": "not_published",
+  "count": 1,
+  "locations": [
+    {
+      "branch_name": "Pizza Hut - Galería",
+      "operator_modal_id": "ubicacionModal14",
+      "operator_address": "Paseo Galeria (Avda. Santa Teresa) Teléfono: (0983)805-290",
+      "operator_url": "https://www.pizzahut.com.py/sucursales.php",
+      "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.579563496381!2d-57.5661137255316!3d-25.284725027157755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da8a863045fe5%3A0x2f0e8bf5715773ed!2sPizza%20Hut%20-%20Paseo%20La%20Galer%C3%ADa!5e0!3m2!1ses!2spy!4v1701454007687!5m2!1ses!2spy",
+      "promotion_ids": [
+        "79f78a9d331da0c5"
+      ],
+      "map_snapshot": "pizzahut-embed-ubicacionModal14.html",
+      "map_sha256": "520cd5ed61b7e77a1323ba0f64d8addb3945d15de836905bf4c95c8eaa3fd048",
+      "map_places": [
+        {
+          "map_place_identifier": "0x945da8a863045fe5:0x2f0e8bf5715773ed",
+          "map_place_label": "Pizza Hut - Paseo la galeria, Av. Sta. Teresa 1827, Asunción 001410",
+          "lat": -25.2847299,
+          "lng": -57.5635388
+        }
+      ],
+      "status": "staged_specific_branch_bank_scope_verified",
+      "map_place_identifier": "0x945da8a863045fe5:0x2f0e8bf5715773ed",
+      "map_place_label": "Pizza Hut - Paseo la galeria, Av. Sta. Teresa 1827, Asunción 001410",
+      "lat": -25.2847299,
+      "lng": -57.5635388,
+      "bank": "Itaú",
+      "bank_source_url": "https://www.itau.com.py/beneficios2/Detalle?b=13554&c=30028",
+      "bank_source_sha256": "e99d5d83dd59e46cc7235188925d90e57990fc6dfbb6e0591b1f49963e7f30ed",
+      "bank_evidence": "Aplica a locales del Paseo La Galería de Lunes a Viernes.",
+      "conditions": {
+        "validity_visible_heading": "2026-10-01 through 2026-12-31",
+        "source_metadata_start_conflict": "2025-01-01 (different from visible heading)",
+        "refund_percent": 20,
+        "cards": [
+          "Itaú Mastercard debit",
+          "Visa Infinite debit"
+        ],
+        "payment": [
+          "QR",
+          "GPay",
+          "Apple Pay"
+        ],
+        "network": "Bancard POS",
+        "purchase_caps_monthly_PYG": {
+          "Mastercard debit": 350000,
+          "Visa Infinite debit": 500000
+        },
+        "cap_scope": "per category and account",
+        "credit_time": "24 business hours"
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T04:40:57.935461+00:00",
-  "input_count": 3079,
-  "promotion_count": 3115,
+  "generated_at": "2026-10-20T05:03:49.763426+00:00",
+  "input_count": 3080,
+  "promotion_count": 3116,
   "duplicates_removed": -36,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -1022,23 +1022,23 @@
     "4170fdc63d3858cd": "2e507b9fe5140149"
   },
   "by_bank": {
-    "Atlas": 43,
+    "Atlas": 45,
     "BNF": 77,
     "Continental": 831,
     "Coop. Universitaria": 71,
     "Familiar": 416,
     "GNB": 479,
     "Itaú": 560,
-    "Sudameris": 283,
+    "Sudameris": 282,
     "ueno bank": 355
   },
   "issue_counts": {
     "limits_unconfirmed": 219,
-    "validity_unconfirmed": 31,
+    "validity_unconfirmed": 30,
     "multiple_purchase_limits": 242,
     "source_amount_conflict": 15,
     "multiple_refund_limits": 103,
-    "source_verification_pending": 135
+    "source_verification_pending": 131
   },
   "review_queue": [
     {
@@ -3673,16 +3673,6 @@
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/494/detalle"
     },
     {
-      "id": "6835e9541687c3e5",
-      "bank": "Sudameris",
-      "merchant": "Music hall",
-      "issues": [
-        "source_verification_pending",
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.sudameris.com.py/personas/beneficios/music-hall"
-    },
-    {
       "id": "11eeb1e1fc123148",
       "bank": "Sudameris",
       "merchant": "SASPY EXPRESS",
@@ -4849,33 +4839,6 @@
         "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
-    },
-    {
-      "id": "933d29a51e9f853a",
-      "bank": "Sudameris",
-      "merchant": "Music Hall - Promo Aniversario",
-      "issues": [
-        "source_verification_pending"
-      ],
-      "source_url": "https://www.sudameris.com.py/personas/beneficios/music-hall"
-    },
-    {
-      "id": "dea403e299553e77",
-      "bank": "Sudameris",
-      "merchant": "Music Hall - Promo Aniversario",
-      "issues": [
-        "source_verification_pending"
-      ],
-      "source_url": "https://www.sudameris.com.py/personas/beneficios/music-hall"
-    },
-    {
-      "id": "252153f5abe9bcd1",
-      "bank": "Sudameris",
-      "merchant": "Music Hall - Promo Aniversario",
-      "issues": [
-        "source_verification_pending"
-      ],
-      "source_url": "https://www.sudameris.com.py/personas/beneficios/music-hall"
     },
     {
       "id": "060864a92e631902",

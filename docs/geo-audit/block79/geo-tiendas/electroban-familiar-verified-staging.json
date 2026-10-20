@@ -1,0 +1,686 @@
+{
+  "reviewed_on": "2026-10-20",
+  "publish": false,
+  "scope": "24 physical Electroban locations; Familiar only; no other bank association inferred",
+  "sources": [
+    {
+      "url": "https://www.electroban.com.py/sucursales",
+      "snapshot": "electroban.html",
+      "sha256": "aa4280dee4ec9a5ff5c6f37a0b8244c41f62c9389799112897ab29d34723b794"
+    },
+    {
+      "url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+      "snapshot": "familiar-electroban.html"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/69a848230c2b58263d97932d_ByC - Electroban 2026.pdf",
+      "snapshot": "familiar-electroban.pdf",
+      "sha256": "073533eb46b3beecea6fe52bece49d5e846439d9636b2617e4e453bc5ac3c5c5",
+      "discovery": "PDF URL in official Familiar page iframe viewer URL"
+    }
+  ],
+  "conditions": {
+    "valid_from": "2026-01-02",
+    "valid_through": "2026-12-31",
+    "weekdays": "all",
+    "benefit": "Up to12 interest-free installments; not a percentage discount",
+    "cards": [
+      "Visa Clásica",
+      "Mastercard Clásica",
+      "Visa Oro",
+      "Mastercard Gold",
+      "Mastercard InterExa",
+      "Positiva Bancardcheck",
+      "Positiva Visa",
+      "Visa Platinum"
+    ],
+    "excluded_cards": [
+      "Gourmet",
+      "Movil Cards"
+    ],
+    "payment_network": "Bancard",
+    "stackable": false,
+    "terms_page": 1
+  },
+  "locations": [
+    {
+      "name": "Electroban CDE 3",
+      "address": "Av Emiliano R Fernández Frente al hotel Austria",
+      "map_url": "https://maps.app.goo.gl/67ZJEtrdw1YU2zie9",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+CDE+3/@-25.507733,-54.6142323,21z/data=!4m6!3m5!1s0x94f685001d345345:0xe89eeafefc8030c1!8m2!3d-25.5077868!4d-54.6143313!16s%2Fg%2F11ydwfhfj_!5m1!1e1?entry=tts&g_ep=EgoyMDI1MTEwNC4xIPu8ASoASAFQAw%3D%3D&skid=021fc2b9-4439-4d2b-bf24-4b1ffe27d1da",
+      "http_status": 200,
+      "lat": -25.5077868,
+      "lng": -54.6143313,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Ciudad del Este",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 2,
+        "branch_label": "ELECTROBAN CDEHD",
+        "address_quote": "Av Emiliano R Fernández Frente al hotel Austria"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Sucursal Fdo. de la Mora - Paseo 1811",
+      "address": "Ruta Mariscal Estigarribia y TTe Ettiene_paseo 1811FDM",
+      "map_url": "https://maps.app.goo.gl/4TaVmXWc11mUXS3NA",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+-+Paseo+1811/@-25.3265033,-57.5492758,17z/data=!3m1!4b1!4m6!3m5!1s0x945daf00712484ab:0x32c0a90cc0a0b64f!8m2!3d-25.3265082!4d-57.5467009!16s%2Fg%2F11vzfglmgv?coh=277535&entry=tts&g_ep=EgoyMDI2MDEyNi4wIPu8ASoKLDEwMDc5MjA3M0gBUAM%3D&skid=8da09272-a384-451f-aed3-19e1ea1958a1",
+      "http_status": 200,
+      "lat": -25.3265082,
+      "lng": -57.5467009,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Fernando de la Mora",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 2,
+        "branch_label": "ELECTROBAN FDO DE LA MORA 2",
+        "address_quote": "Ruta Mariscal Estigarribia y Tte. Ettiene - Paseo 1811FDM"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Luque",
+      "address": "Av. Gral Elizardo Aquino entre San Martin y Del Maestro",
+      "map_url": "https://maps.app.goo.gl/cRSK7mtzNadaexBu5",
+      "resolved_url": "https://www.google.com/maps/place/25%C2%B015'55.2%22S+57%C2%B029'59.4%22W/@-25.2653414,-57.5024099,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-25.2653414!4d-57.499835?hl=es&entry=tts&g_ep=EgoyMDI0MDYxNS4wKgBIAVAD",
+      "http_status": 200,
+      "lat": -25.2653414,
+      "lng": -57.499835,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Luque",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN-LUQUE",
+        "address_quote": "Av. Gral. Elizardo Aquino entre San Martin y Del Maestro"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban San Lorenzo",
+      "address": "Avda del Agronomo E/ Fernando de Pinedo y Juan Leon",
+      "map_url": "https://maps.app.goo.gl/3ux8LLKiLw51vEn4A",
+      "resolved_url": "https://www.google.com/maps/place/-25.347340,-57.514303/data=!4m6!3m5!1s0!7e2!8m2!3d-25.3473397!4d-57.5143031?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjEzMC4xMDIYACDXggMqWiw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY0Nyw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICUFk%3D",
+      "http_status": 200,
+      "lat": -25.3473397,
+      "lng": -57.5143031,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "San Lorenzo",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN-SL",
+        "address_quote": "Avda. del Agrónomo E/ Fernando de Pinedo y Juan Leon"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Altos",
+      "address": "Luis Alberto del Parana esq/ Mcal Estigarribia",
+      "map_url": "https://goo.gl/maps/TxjS6zVqnZeQQSVg6",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+Altos/@-25.2605876,-57.2514906,17z/data=!3m1!4b1!4m5!3m4!1s0x945dc9bb160292f7:0x16b9de1b4192dfb!8m2!3d-25.2605876!4d-57.2493019?shorturl=1",
+      "http_status": 200,
+      "lat": -25.2605876,
+      "lng": -57.2493019,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Altos",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 2,
+        "branch_label": "ELECTROBAN ALTOS",
+        "address_quote": "Luis Alberto del Paraná esq/ Mcal Estigarribia"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Caaguazú",
+      "address": "Avda Gral Bernardino Caballero Nro 592 y Dr Roberto L. Pettit",
+      "map_url": "https://goo.gl/maps/UQS5XWfXj7haLcnYA",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+-+Caaguaz%C3%BA/@-25.4666273,-56.0189026,21z/data=!4m5!3m4!1s0x0:0xffaaf8731b141c31!8m2!3d-25.4665024!4d-56.0187963?shorturl=1",
+      "http_status": 200,
+      "lat": -25.4665024,
+      "lng": -56.0187963,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Caaguazú",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN-CAAGUAZU",
+        "address_quote": "Avda. Gral. Bernardino Caballero Nro. 592 y Dr. Roberto L."
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Campo 9",
+      "address": "Avd Jose A. Flores eq/ Fulgencio R Moreno",
+      "map_url": "https://maps.app.goo.gl/h4N3iTgH6gUjR2Bv7",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+Campo+9/@-25.3782854,-55.7079993,18z/data=!3m1!4b1!4m6!3m5!1s0x945f431d63b99e13:0x410306ae4a7ddafa!8m2!3d-25.3782873!4d-55.7069774!16s%2Fg%2F11r7ffr5vh!5m1!1e1?coh=277533&entry=tts&g_ep=EgoyMDI2MDEyNi4wIPu8ASoKLDEwMDc5MjA2OUgBUAM%3D&skid=214bcc5f-a764-4526-a005-a3b69ba1d92c",
+      "http_status": 200,
+      "lat": -25.3782873,
+      "lng": -55.7069774,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Campo 9",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 2,
+        "branch_label": "ELECTROBAN CAMPO 9",
+        "address_quote": "Avda. José A. Flores esq/ Fulgencio R Moreno"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Capiibary",
+      "address": "Ruta 10 Las Residentas B. 2do de Oro Centro",
+      "map_url": "https://goo.gl/maps/9UmQiHxtSCAv62vG9",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+-+Capiibary/@-24.726144,-56.0200015,17z/data=!3m1!4b1!4m5!3m4!1s0x945fc76fdf34d965:0x7e2dd73d6c8a9cfe!8m2!3d-24.726144!4d-56.0178128?shorturl=1",
+      "http_status": 200,
+      "lat": -24.726144,
+      "lng": -56.0178128,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Capiibary",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 2,
+        "branch_label": "ELECTROBAN-CAPIIBARY",
+        "address_quote": "Ruta 10 Las Residentas B. 2do de Oro Centro"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Villarrica",
+      "address": "Carlos Antonio Lopez esq. Rudy Diaz De Melgarejo",
+      "map_url": "https://goo.gl/maps/2LGE5ym49mGS7wgM7",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+Villarrica/@-25.7752174,-56.4465036,15z/data=!4m5!3m4!1s0x0:0xff6db0880ce86cb4!8m2!3d-25.7752174!4d-56.4465036?sa=X&ved=2ahUKEwi0v4Cipq77AhUorJUCHWeZAdYQ_BJ6BAhmEAg&shorturl=1",
+      "http_status": 200,
+      "lat": -25.7752174,
+      "lng": -56.4465036,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Villarrica",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN VILLARRICA 2",
+        "address_quote": "Carlos Antonio Lopez esq. Rudy Diaz De Melgarejo"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban CDE Km 7",
+      "address": "Av. Julio Cesar Riquelme  c/ Batallón 40.",
+      "map_url": "https://goo.gl/maps/nsarmgW2VvmdmKWh7",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+SAECA+Km+7/@-25.5257272,-54.669511,13z/data=!4m5!3m4!1s0x0:0x5cb11ce42991a0bd!8m2!3d-25.5078876!4d-54.6707475?shorturl=1",
+      "http_status": 200,
+      "lat": -25.5078876,
+      "lng": -54.6707475,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Ciudad del Este",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN-CDE 3",
+        "address_quote": "Av. Julio Cesar Riquelme c/ Batallón 40."
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban CDE 2",
+      "address": "Avda Bernardino Caballero esquina Choferes del Chaco",
+      "map_url": "https://goo.gl/maps/S7nWd5Fzj5RXaCcp9",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+CDE+2/@-25.5257272,-54.669511,13z/data=!4m5!3m4!1s0x0:0x598c5962352ccb6a!8m2!3d-25.5355199!4d-54.6098614?shorturl=1",
+      "http_status": 200,
+      "lat": -25.5355199,
+      "lng": -54.6098614,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Ciudad del Este",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN-CDE",
+        "address_quote": "Avda. Bernardino Caballero esquina Choferes del Chaco"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Cnel. Oviedo",
+      "address": "Rtapy08 Blas Garay entre Boquerón y Manuel Dominguez",
+      "map_url": "https://goo.gl/maps/ELDdYdn34boatL7e9",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+Cnel.+Oviedo/@-25.4534753,-56.446911,17z/data=!3m1!4b1!4m5!3m4!1s0x945ee90dcfd16e8b:0x63d4689732eb126f!8m2!3d-25.4534753!4d-56.4447223?shorturl=1",
+      "http_status": 200,
+      "lat": -25.4534753,
+      "lng": -56.4447223,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Coronel Oviedo",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 2,
+        "branch_label": "ELECTROBAN CNEL OVIEDO",
+        "address_quote": "Rta. PY08 Blas Garay entre Boquerón y Manuel Dominguez"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Cnel. Bogado",
+      "address": "Ruta 1 c/ paseo peatonal casi puente",
+      "map_url": "https://maps.app.goo.gl/9RTFVyDYrrp2BL8F9",
+      "resolved_url": "https://www.google.com/maps/place/Electroban/@-27.1644026,-56.2407839,13.46z/data=!4m6!3m5!1s0x94577f0014649253:0x773b69cc1b1ed9b7!8m2!3d-27.1561762!4d-56.2416358!16s%2Fg%2F11y5bjkfk8!5m1!1e1?coh=277533&entry=tts&g_ep=EgoyMDI2MDEyNi4wIPu8ASoKLDEwMDc5MjA2OUgBUAM%3D&skid=c4291079-c4c4-4384-84ed-24b38357607a",
+      "http_status": 200,
+      "lat": -27.1561762,
+      "lng": -56.2416358,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Coronel Bogado",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 2,
+        "branch_label": "ELECTROBAN CNEL.BOGADO",
+        "address_quote": "Ruta 1 c/ paseo peatonal casi puente"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Encarnación",
+      "address": "Avenida Irrazabal y Calle Santa María,frente a la gobernación de Itapúa",
+      "map_url": "https://goo.gl/maps/NCwM8DnhHzWGEthw6",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+SAECA-+Suc.+Encarnaci%C3%B3n/@-27.3454278,-55.8586012,19.6z/data=!4m5!3m4!1s0x0:0x353c902b90776eda!8m2!3d-27.3453399!4d-55.857797?shorturl=1",
+      "http_status": 200,
+      "lat": -27.3453399,
+      "lng": -55.857797,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Encarnación",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 2,
+        "branch_label": "ELECTROBAN ENCARNACION",
+        "address_quote": "Avenida Irrazabal y Calle Santa María, frente a la"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Itá",
+      "address": "Presbítero Gamarra 398 esq. Mcal Lopez",
+      "map_url": "https://goo.gl/maps/PTPTqTTaxc1ZXtkw6",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+SAECA/@-25.5096963,-57.367711,16z/data=!4m5!3m4!1s0x0:0xb182ce960ff37694!8m2!3d-25.5100324!4d-57.3614377?shorturl=1",
+      "http_status": 200,
+      "lat": -25.5100324,
+      "lng": -57.3614377,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Itá",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN-ITA",
+        "address_quote": "Presbítero Gamarra 398 esq. Mcal López"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Itauguá",
+      "address": "Ruta Mcal. Estigarribia esquina Victoriano Aldama",
+      "map_url": "https://maps.app.goo.gl/pQ1o6Jh8JAf7KLLFA",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+Itagua/@-25.3944829,-57.3503604,17z/data=!3m1!4b1!4m6!3m5!1s0x945db506ad18b65d:0xc7f74ce8f4e2ddc3!8m2!3d-25.3944829!4d-57.3503604!16s%2Fg%2F11xp4l9nxv?entry=tts&g_ep=EgoyMDI1MDcyNy4wIPu8ASoASAFQAw%3D%3D&skid=0c9a4c9d-9462-4abe-8b05-5a5ca248553d",
+      "http_status": 200,
+      "lat": -25.3944829,
+      "lng": -57.3503604,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Itauguá",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN-ITAUGUA",
+        "address_quote": "Ruta Mcal. Estigarribia esquina Victoriano Aldama"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Ma. Auxiliadora",
+      "address": "Avda. Choferes del Chaco y calle Independencia",
+      "map_url": "https://maps.app.goo.gl/hp3nvXgNT7LA61EL6",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+Mar%C3%ADa+Auxiliadora/@-26.5264185,-55.2631949,86m/data=!3m1!1e3!4m6!3m5!1s0x94f7e900251bbfb1:0x14bd3c9cb5a724dc!8m2!3d-26.5263792!4d-55.2626534!16s%2Fg%2F11w3vxvhtj!5m1!1e1?entry=tts&g_ep=EgoyMDI1MDEwNi4xIPu8ASoASAFQAw%3D%3D",
+      "http_status": 200,
+      "lat": -26.5263792,
+      "lng": -55.2626534,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "María Auxiliadora",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN MA.AUXILIADORA",
+        "address_quote": "Avda. Choferes del Chaco y calle Independencia"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Minga Guasú",
+      "address": "Calle Mariscal José Felix Estigarribia, entre Maria Auxiliadora y Los Mingueros.",
+      "map_url": "https://maps.app.goo.gl/k6MXehLHqRBmjQs4A",
+      "resolved_url": "https://www.google.com/maps/place/ELECTROBAN+SAECA+SUCURSAL+Minga+Guaz%C3%BA/@-25.4856387,-54.7640233,17z/data=!3m1!4b1!4m6!3m5!1s0x94f687345653babb:0x985f17a92af833d6!8m2!3d-25.4856436!4d-54.7614484!16s%2Fg%2F11ncmrn6px!5m1!1e1?coh=277533&entry=tts&g_ep=EgoyMDI2MDEyNi4wIPu8ASoKLDEwMDc5MjA2OUgBUAM%3D&skid=2455ef8e-cec9-45f5-8018-fac7eb1279b2",
+      "http_status": 200,
+      "lat": -25.4856436,
+      "lng": -54.7614484,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Minga Guazú",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN MINGA GUAZU",
+        "address_quote": "Calle Mariscal José Felix Estigarribia, entre Maria"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Natalio",
+      "address": "Ava Los Lapachos y Cerro Cora",
+      "map_url": "https://goo.gl/maps/kny8EmFQ2VWBFnmo9",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+SAECA/@-26.5471675,-55.6937081,9.5z/data=!4m5!3m4!1s0x0:0xcc4eaa6266c49b11!8m2!3d-26.7584865!4d-55.1383209?shorturl=1",
+      "http_status": 200,
+      "lat": -26.7584865,
+      "lng": -55.1383209,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Natalio",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN NATALIO",
+        "address_quote": "Avda. Los Lapachos y Cerro Cora"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Paraguarí",
+      "address": "Avda Jose Eduvigis Dias y 19 de Enero",
+      "map_url": "https://goo.gl/maps/QTFqJihbCuDc6aH4A",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+SAECA/@-25.7662062,-57.1561296,9.5z/data=!4m5!3m4!1s0x0:0x2e27c06953e38f68!8m2!3d-25.6197038!4d-57.1501923?shorturl=1",
+      "http_status": 200,
+      "lat": -25.6197038,
+      "lng": -57.1501923,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Paraguarí",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN PARAGUARI",
+        "address_quote": "Avda. Jose Eduvigis Díaz y 19 de Enero"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban San Juan Nepomuceno",
+      "address": "Calle Humaita esq. Cerro Leon",
+      "map_url": "https://goo.gl/maps/zxKLiXbDdxSK5dNF9",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+SAECA/@-26.1122378,-55.9426062,15.5z/data=!4m5!3m4!1s0x0:0x5035d56f0e28022f!8m2!3d-26.1146685!4d-55.9400815?shorturl=1",
+      "http_status": 200,
+      "lat": -26.1146685,
+      "lng": -55.9400815,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "San Juan Nepomuceno",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN SAN JUAN",
+        "address_quote": "Calle Humaitá esq. Cerro Leon"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban Santaní",
+      "address": "Avda Zoilo Gonzalez entre Rodriguez De Francia y Yegros",
+      "map_url": "https://goo.gl/maps/kjmwTqaBiCkcpu51A",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+SAECA+-+Santani/@-24.668965,-56.4451568,19.75z/data=!4m5!3m4!1s0x945e3b3b016fcc53:0xd98db569e13b4023!8m2!3d-24.6689522!4d-56.4452923?shorturl=1",
+      "http_status": 200,
+      "lat": -24.6689522,
+      "lng": -56.4452923,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "San Estanislao",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 1,
+        "branch_label": "ELECTROBAN SAN ESTANISLAO",
+        "address_quote": "Avda. Zoilo Gonzalez entre Rodriguez De Francia y Yegros"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Electroban San Ignacio Misiones",
+      "address": "Avda. Mcal Estigarribia frente la plaza San Roque González",
+      "map_url": "https://goo.gl/maps/rgQjFmnLVV9E2rFq9",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+S.A.E.C.A/@-26.8872693,-57.0236715,15z/data=!4m5!3m4!1s0x0:0x815fa33b2116966a!8m2!3d-26.8872693!4d-57.0236715?hl=es&shorturl=1",
+      "http_status": 200,
+      "lat": -26.8872693,
+      "lng": -57.0236715,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "San Ignacio Misiones",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 2,
+        "branch_label": "ELECTROBAN-SAN IGNACIO.",
+        "address_quote": "Avda. Mcal Estigarribia frente la plaza San Roque González"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    },
+    {
+      "name": "Concepción",
+      "address": "Presidente Franco esq. Agustin Fernando De Pineda y Mayor Julio Otaño",
+      "map_url": "https://maps.app.goo.gl/ByVuB6QMaTQPyL697",
+      "resolved_url": "https://www.google.com/maps/place/Electroban+SAECA+-+Concepci%C3%B3n/@-23.4079661,-57.4420197,18.75z/data=!4m6!3m5!1s0x94669d0013fdb3c9:0xa8383767bc2efe33!8m2!3d-23.4077084!4d-57.4418703!16s%2Fg%2F11wps_cd60?entry=tts&g_ep=EgoyMDI0MTIxMS4wIPu8ASoASAFQAw%3D%3D",
+      "http_status": 200,
+      "lat": -23.4077084,
+      "lng": -57.4418703,
+      "coordinate_method": "Operator-linked Google Maps place coordinates (not viewport center)",
+      "city": "Concepción",
+      "merchant_name": "ELECTROBAN",
+      "bank": "Familiar",
+      "promotion_ids": [
+        "cf64d2f7cf8fd1f8"
+      ],
+      "operator_source_url": "https://www.electroban.com.py/sucursales",
+      "bank_evidence": {
+        "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-electroban-bases-y-condiciones",
+        "page": 2,
+        "branch_label": "ELECTROBAN - CONCEPCION",
+        "address_quote": "Presidente Franco esq. Agustín Fernando De Pineda y Mayor"
+      },
+      "match_basis": "Manual match of operator branch address and bank-listed physical branch. Google Maps place !3d/!4d coordinates resolved from operator-published link, not map viewport @ coordinates.",
+      "status": "verified_staged_for_review",
+      "online_only": false
+    }
+  ],
+  "online_channel": {
+    "bank_label": "ELECTROBAN-VPOS",
+    "url": "https://www.electroban.com.py/",
+    "bank_page": 2,
+    "lat": null,
+    "lng": null,
+    "note": "Explicitly listed online channel, kept separate from physical branches; do not create pin."
+  },
+  "validation": {
+    "operator_branch_count": 29,
+    "resolved_place_coordinate_count": 29,
+    "staged_physical_matches": 24,
+    "unique_coordinate_pairs": 24,
+    "all_bank_quotes_present_on_claimed_pages": true
+  }
+}

@@ -288,6 +288,9 @@ def main():
     shell_branches = ROOT / "data/itau_shell_reviewed_branches.json"
     if shell_branches.exists():
         locations.extend(json.loads(shell_branches.read_text(encoding="utf-8")))
+    multibank_reviews = ROOT / "data/multibank_reviewed_branches_20261020.json"
+    if multibank_reviews.exists():
+        locations.extend(json.loads(multibank_reviews.read_text(encoding="utf-8")))
     previous = json.loads(OUT_JSON.read_text(encoding="utf-8")) if OUT_JSON.exists() else {}
     previous_by_key = {
         (item.get("bank"), slug(item.get("merchant_name")), slug(item.get("address")), slug(item.get("city"))): item
@@ -343,6 +346,12 @@ def main():
     if additional_reviews.exists():
         from reviewed_geo import apply_reviews as apply_additional_reviews
         apply_additional_reviews(unique, json.loads(additional_reviews.read_text(encoding="utf-8")))
+    # Reapply exact reviewed identities after old Google/geocoding fields.
+    for review_file in ("multibank_reviewed_branches_20261020.json", "bnf_scavone_reviewed_locations.json"):
+        review_path = ROOT / "data" / review_file
+        if review_path.exists():
+            from reviewed_geo import apply_reviews as apply_block_reviews
+            apply_block_reviews(unique, json.loads(review_path.read_text(encoding="utf-8")))
     unique.sort(key=sort_key)
     payload = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),

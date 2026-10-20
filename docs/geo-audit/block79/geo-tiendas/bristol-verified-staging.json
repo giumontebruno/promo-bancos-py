@@ -1,0 +1,434 @@
+{
+  "reviewed_on": "2026-10-20",
+  "publish": false,
+  "locations": [
+    {
+      "name": "Bristol San Bernardino",
+      "city": "San Bernardino",
+      "address": "Ruta San Bernardino - Altos casi Independencia Nacional",
+      "lat": -25.307476,
+      "lng": -57.2989509,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.307476%2C-57.2989509&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "San Bernardino - Cordillera.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Areguá",
+      "city": "Areguá",
+      "address": "Avda Las Residentas casi C. 3 de Mayo",
+      "lat": -25.2881155,
+      "lng": -57.4588891,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.2881155%2C-57.4588891&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Areguá - Central.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Areguá 2",
+      "city": "Areguá",
+      "address": "Mcal. Estigarribia y Mcal López",
+      "lat": -25.3090441,
+      "lng": -57.3824354,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.3090441%2C-57.3824354&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Areguá - Central.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Encarnación 1",
+      "city": "Encarnación",
+      "address": "Tomas R. Pereira casi Mcal Estigarribia",
+      "lat": -27.331897545184,
+      "lng": -55.866790020229,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-27.331897545184%2C-55.866790020229&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Encarnación - Itapúa.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Encarnación 2",
+      "city": "Encarnación",
+      "address": "Avda. Japón casi Honorio González",
+      "lat": -27.3429197,
+      "lng": -55.8591645,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-27.3429197%2C-55.8591645&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Encarnación - Itapúa.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Multiplaza",
+      "city": "Asunción",
+      "address": "Plaza Capitan Roman Garcia y Serafina Dávalos",
+      "lat": -25.316009916486,
+      "lng": -57.572146036523,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.316009916486%2C-57.572146036523&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Asunción - Asunción.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Mariscal",
+      "city": "Asunción",
+      "address": "Charles De Gaulle esq. Quesada",
+      "lat": -25.294654494599,
+      "lng": -57.582025398425,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.294654494599%2C-57.582025398425&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Asunción - Asunción.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Pinedo",
+      "city": "San Lorenzo",
+      "address": "Sucursal Pinedo Shopping",
+      "lat": -25.3235019,
+      "lng": -57.5197252,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.3235019%2C-57.5197252&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "San Lorenzo - Central.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol San Martín",
+      "city": "Asunción",
+      "address": "General José de San Martín y Mariscal Antonio José Sucre",
+      "lat": -25.290842,
+      "lng": -57.5744422,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.290842%2C-57.5744422&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Asunción - Asunción.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Centro",
+      "city": "Asunción",
+      "address": "25 de Mayo y Paraguarí",
+      "lat": -25.2854309,
+      "lng": -57.6303918,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.2854309%2C-57.6303918&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Asunción - Asunción.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Kubitschek",
+      "city": "Asunción",
+      "address": "Kubitschek y Eusebio Ayala",
+      "lat": -25.304737613953,
+      "lng": -57.607719204299,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.304737613953%2C-57.607719204299&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Asunción - Asunción.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Limpio",
+      "city": "Limpio",
+      "address": "Ruta 3 esquina Mcal. Estigarribia",
+      "lat": -25.1687212,
+      "lng": -57.474916,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.1687212%2C-57.474916&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Limpio - Central.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Mariano Roque Alonso",
+      "city": "Mariano Roque Alonso",
+      "address": "Ruta 3 casi Avda. Eusebio Ayala",
+      "lat": -25.2331766,
+      "lng": -57.5386589,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.2331766%2C-57.5386589&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Mariano Roque Alonso - Central.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Luque 1",
+      "city": "Luque",
+      "address": "Avda. General Aquino casi San Martín",
+      "lat": -25.2656901,
+      "lng": -57.5006686,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.2656901%2C-57.5006686&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Luque - Central.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Ciudad del Este 1",
+      "city": "Ciudad del Este",
+      "address": "Avda. Adrián Jara casi Nanawa",
+      "lat": -25.5105408,
+      "lng": -54.6125463,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.5105408%2C-54.6125463&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Ciudad del Este - Alto Paraná.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    },
+    {
+      "name": "Bristol Ciudad del Este 2",
+      "city": "Ciudad del Este",
+      "address": "Bristol Sucursal Ciudad del Este 2",
+      "lat": -25.5095196,
+      "lng": -54.6286739,
+      "operator_source_url": "https://www.bristol.com.py/tiendas",
+      "map_url": "https://maps.google.com/maps?q=loc%3A-25.5095196%2C-54.6286739&z=16",
+      "coordinate_method": "Operator explicit q=loc coordinates; zoom parameter ignored, not viewport centroid",
+      "bank": "Coop. Universitaria",
+      "promotion_ids": [
+        "0780eae3fd68ea5a"
+      ],
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "city_evidence": {
+        "source_url": "https://www.bristol.com.py/tiendas",
+        "source_type": "explicit_operator_address_city_department_suffix",
+        "operator_published_city_department": "Ciudad del Este - Alto Paraná.",
+        "inferred_from_branch_name": false,
+        "administrative_municipality_independently_verified": false,
+        "administrative_verification_status": "not_corroborated_against_municipal_boundaries",
+        "meaning": "city preserves the operator locality label, not an independent municipal-boundary determination"
+      }
+    }
+  ],
+  "conditions": {
+    "bank": "Coop. Universitaria",
+    "promotion_id": "0780eae3fd68ea5a",
+    "source": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775478054.pdf",
+    "read_method": "Official one-page PDF read via web, lines 0-23",
+    "valid_from": "2026-04-01",
+    "valid_through": "2026-12-31",
+    "installments_min": 2,
+    "installments_max": 10,
+    "interest_free": true,
+    "cards": [
+      "Panal credit",
+      "Cabal credit",
+      "Mastercard credit"
+    ],
+    "days": "all",
+    "channel": "all enabled sales channels including physical showroom, ecommerce, telemarketing, delivery and pickup",
+    "cash_excluded": true
+  },
+  "counts": {
+    "staged_physical_locations": 16,
+    "existing_bristol_records": 0,
+    "existing_bristol_geocoded": 0,
+    "exact_coordinate_overlaps": 0,
+    "net_exact_coordinate_additions": 16
+  },
+  "count_limit": "Exact coordinate dedup only; integration must check named/address duplicates before final net physical count",
+  "city_provenance_policy": "All 16 city values were transcribed from the explicit City - Department suffix of each operator listing, not inferred from branch names or coordinate proximity. Administrative jurisdiction is not independently corroborated. No point or city was changed."
+}

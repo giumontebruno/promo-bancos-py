@@ -1,0 +1,10 @@
+{
+  "reviewed_on": "2026-10-20",
+  "original_candidates": 84,
+  "accepted": 79,
+  "new_records": 53,
+  "existing_coordinate_fills": 26,
+  "excluded": 5,
+  "excluded_policy": "Preserve existing location IDs; do not change coordinates based on inference",
+  "source_manifest_sha256": "8a662bac588be6b62379e9950c048b8a31ba076609933d22b2acb7fa18099f7f"
+}

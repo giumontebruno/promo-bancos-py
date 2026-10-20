@@ -218,5 +218,26 @@
       "1da5fc52ee571bac"
     ],
     "reason": "Same stable official campaign source after reviewed card/benefit split; retain campaign favorite identity."
+  },
+  {
+    "bank": "Atlas",
+    "source_url": "https://www.bancoatlas.com.py/web//Preguntas%20Frcuentes%20Feria%20de%20viajes.pdf",
+    "campaign_id": "2e507b9fe5140149",
+    "legacy_ids": [
+      "4170fdc63d3858cd",
+      "2e507b9fe5140149"
+    ]
+  },
+  {
+    "bank": "Sudameris",
+    "source_url": "https://www.sudameris.com.py/personas/beneficios/music-hall",
+    "campaign_id": "6835e9541687c3e5",
+    "legacy_ids": [
+      "6835e9541687c3e5",
+      "933d29a51e9f853a",
+      "dea403e299553e77",
+      "252153f5abe9bcd1"
+    ],
+    "reason": "Official byte-identical PDF restores three reviewed offers; preserve prior generic and variant favorites."
   }
 ]

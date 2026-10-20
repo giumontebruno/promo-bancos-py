@@ -1,0 +1,72 @@
+{
+  "reviewed_on": "2026-10-20",
+  "publish": false,
+  "locations": [
+    {
+      "name": "Nissei Distrito Perseverancia",
+      "merchant_name": "NISSEI",
+      "city": "Asunción",
+      "address": "Local C9-210, nivel 2, Distrito Perseverancia, Av. Brasilia 2028 c/ Av. Artigas",
+      "lat": -25.2671256,
+      "lng": -57.596045,
+      "operator_source_url": "https://nissei.com/py/donde-estamos",
+      "map_url": "https://maps.app.goo.gl/31LKezH5vPnd14aX9",
+      "resolved_map_url": "https://www.google.com/maps/place/Nissei+Distrito+Perseverancia/@-25.2671256,-57.5986199,1371m/data=!3m1!1e3!4m7!3m6!1s0x945da73814ffde43:0xa06d5da932ce3d69!4b1!8m2!3d-25.2671256!4d-57.596045!16s%2Fg%2F11n54x8dj9?entry=tts&g_ep=EgoyMDI2MDMyNC4wIPu8ASoASAFQAw%3D%3D&skid=883c96e0-1c7c-49ef-9329-68370387f2df",
+      "coordinate_method": "Exact Google Maps place !3d/!4d from operator-linked map, not viewport center",
+      "bank": "Sudameris",
+      "promotion_ids": [
+        "ddc28a13cad032ba"
+      ],
+      "bank_evidence": {
+        "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+        "participation_page": 2,
+        "participation_quote": "NISSEI",
+        "terms_page": 1,
+        "terms_read_method": "Rendered PDF page1 using pypdfium2; visually inspected nissei-sudameris-page1.png"
+      },
+      "status": "verified_staged_for_review",
+      "online_only": false
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.sudameris.com.py/descargas/documentos/6ac7b0e762c03194284112/distrito-permanente.pdf",
+      "file": "nissei-sudameris.pdf",
+      "sha256": "ea00a0f893be9991c901ab88b3f74ab0fadd52ef47c342971b9e403f95d57007"
+    },
+    {
+      "url": "https://nissei.com/py/donde-estamos",
+      "read_method": "Web search/open source read; lines1195-1251 identify all3stores and links. Direct HTTP returned403, no HTML snapshot."
+    }
+  ],
+  "conditions": {
+    "valid_from": "2026-08-03",
+    "valid_through": "2026-12-31",
+    "benefit": "Up to12 interest-free installments; request installment plan at checkout",
+    "cards": "Sudameris Mastercard and Visa credit",
+    "payment": "Bancard POS / Infonet at participating Distrito Perseverancia stores",
+    "exclusions": [
+      "prepaid",
+      "debit",
+      "Bancard Check",
+      "Gourmet Card",
+      "Móvil Card",
+      "Productivas",
+      "Empresariales",
+      "other processors including Bepsa/Upay",
+      "subnetworks and platforms such as Pagopar/Paypal/PedidosYa/Monchis",
+      "merchant website purchases"
+    ],
+    "stackable": false
+  },
+  "validation": {
+    "operator_map_http_status": 200,
+    "bank_name_found_pdf_page2": true,
+    "coords_exact_place_not_viewport": true,
+    "physical_branch_count": 1
+  },
+  "limits": [
+    "Other Nissei banks/promotions not associated automatically.",
+    "No CDE pin approved from Familiar because bank and operator street addresses differ."
+  ]
+}

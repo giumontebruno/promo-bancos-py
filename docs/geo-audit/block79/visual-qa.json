@@ -1,0 +1,16 @@
+{
+  "reviewed_on": "2026-10-20",
+  "candidate_count": 31,
+  "accepted": 26,
+  "excluded": 5,
+  "method": "Real Google Maps rendered from an isolated app browser context; 31 street-scale screenshots inspected by root. No public data modified during inspection.",
+  "limitations": "Street-level consistency review, not physical GPS, cadastral boundaries or municipal polygon verification.",
+  "excluded_operator_ids": [
+    7,
+    22,
+    28,
+    32,
+    35
+  ],
+  "exclusion_details": "See scavone-excluded.json for authoritative IDs and reasons; unresolved street/pin inconsistencies retained without coordinate changes."
+}

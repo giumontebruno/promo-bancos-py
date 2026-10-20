@@ -9,7 +9,7 @@ from build_sudameris_table import reviewed_document_rows
 
 class ReviewedDocumentsTests(unittest.TestCase):
     def test_document_hash_change_blocks_review(self):
-        row={'Bases y condiciones URL':'https://www.sudameris.com.py/descargas/documentos/6ad0efa34ca4d016036253/B%26C-MUSICHALL-19-10-26.pdf','URL':'stable'}
+        row={'Bases y condiciones URL':'https://www.sudameris.com.py/descargas/documentos/6ad6300056cc7842366125/B%26C-MUSICHALL-19-10-2026.pdf','URL':'stable'}
         class Response:
             content=b'changed official document'
             def raise_for_status(self): pass
