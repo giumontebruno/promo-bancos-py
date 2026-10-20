@@ -339,6 +339,10 @@ def main():
     if official_reviews.exists():
         from reviewed_geo import apply_reviews as apply_official_reviews
         apply_official_reviews(unique, json.loads(official_reviews.read_text(encoding="utf-8")))
+    additional_reviews = ROOT / "data/bnf_additional_reviewed_locations.json"
+    if additional_reviews.exists():
+        from reviewed_geo import apply_reviews as apply_additional_reviews
+        apply_additional_reviews(unique, json.loads(additional_reviews.read_text(encoding="utf-8")))
     unique.sort(key=sort_key)
     payload = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),

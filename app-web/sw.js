@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-beta-27-map-recovery";
+const CACHE_NAME = "payback-py-beta-28-map-evidence";
 const APP_SHELL = [
   "./",
   "./index.html",

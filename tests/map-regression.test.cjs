@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const source = fs.readFileSync('app-web/app.js', 'utf8');
 function context() {
-  const ctx = {normalizeDayName: s => s.toLowerCase(), isGenericLocationMatchedToMall: () => false};
+  const ctx = {normalizeDayName: s => String(s || '').toLowerCase(), isGenericLocationMatchedToMall: () => false};
   for (const [start, end] of [['getMapVisiblePoints','getPointPrimaryPromo'], ['getPlaceGroupKey','getBestPromoScore'], ['isReliableMapLocation','isGenericLocationMatchedToMall']]) {
     vm.runInNewContext(source.slice(source.indexOf(`function ${start}(`), source.indexOf(`function ${end}(`)), ctx);
   }

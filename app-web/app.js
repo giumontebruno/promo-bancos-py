@@ -1591,7 +1591,7 @@ function renderNearbyPromoGroups(promos, place = null) {
         </div>
         <span>${items.length}</span>
       </div>
-      <div class="grid nearby-grid">${items.slice(0, 8).flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(withNearbyPlaceContext(promo, place), variant))).join("")}</div>
+      <div class="grid nearby-grid">${items.flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(withNearbyPlaceContext(promo, place), variant))).join("")}</div>
     </section>
   `).join("");
 }
@@ -1613,7 +1613,7 @@ function groupNearbyPromos(promos) {
   return [
     ["Promos de hoy", "Beneficios puntuales para usar hoy.", today, "today"],
     ["Todos los días", "Beneficios activos cualquier día.", everyday, "everyday"],
-    ["Cuotas sin intereses", "Financiación disponible sin depender del día.", installments, "installments"],
+    ["Cuotas sin intereses", "Financiación sujeta a los días y condiciones de cada promoción.", installments, "installments"],
     ["Otras promos", "Beneficios vigentes con condiciones particulares.", other, "other"],
   ].filter(([, , items]) => items.length);
 }
@@ -1941,7 +1941,6 @@ function renderGoogleNearbyMap(points, selectedPlace) {
   if (!bounds.isEmpty()) {
     map.fitBounds(bounds, 48);
     window.google.maps.event.addListenerOnce(map, "bounds_changed", () => {
-      if (state.location && map.getZoom() < 15) map.setZoom(15);
       if (map.getZoom() > 17) map.setZoom(17);
     });
   }
@@ -2051,7 +2050,7 @@ function isSelectedPoint(item, selectedPlace) {
 
 function getPlaceGroupKey(place) {
   if (!place) return "";
-  if (place.place_id) return `google:${place.place_id}`;
+  if (place.place_id) return `google:${place.place_id}|${normalizeDayName(place.merchant_name || place.name || "")}`;
   if (Number.isFinite(place.lat) && Number.isFinite(place.lng)) {
     return `${normalizeDayName(place.merchant_name || place.name || "")}|${place.lat.toFixed(5)},${place.lng.toFixed(5)}`;
   }
@@ -2233,37 +2232,21 @@ function getPromotionsForLocation(place, promoIndex) {
     if (!isActivePromotion({terms: {ends_on: place.participation_ends_on}})) return [];
     return uniquePromos([...promoIndex.values()].flat().filter(promo => place.promotion_ids.includes(promo.id)));
   }
-  const merchantTerms = [
-    place.google_name,
-    place.merchant_name,
-    place.name,
-  ].map((value) => normalizeDayName(value)).filter((value) => value && !["estaciones de servicio", "farmacias", "mayoristas", "supermercados"].includes(value));
-  const category = normalizeDayName(getPromoCategoryGroup(place));
   const bank = normalizeDayName(place.bank);
-  const candidates = [];
-  if (bank && bank !== "varios" && category) {
-    candidates.push(...(promoIndex.get(`${bank}|${category}`) || []));
-  }
-  if (category) {
-    promoIndex.forEach((promos, key) => {
-      if (key.endsWith(`|${category}`)) candidates.push(...promos);
-    });
-  }
-  if (!candidates.length) return [];
-  const detectedFuelBrands = getFuelBrandsFromPlace(place);
-  const exactMerchantMatches = candidates.filter((promo) => {
-    const promoText = normalizeDayName([
-      promo.merchant_name,
-      promo.merchant_locations_or_group,
-    ].join(" "));
-    return merchantTerms.some((term) => promoText.includes(term) || term.includes(promoText))
-      || detectedFuelBrands.some((brand) => promoText.includes(brand));
+  const source = place.source_url || "";
+  // A brand name alone does not establish this branch's participation.
+  if (!bank || bank === "varios" || !/\.pdf(?:[?#]|$)/i.test(source)) return [];
+  const merchantTerms = [place.merchant_brand, place.merchant_name, place.name]
+    .map(normalizeDayName)
+    .filter(value => value && !["estaciones de servicio", "farmacias", "mayoristas", "supermercados"].includes(value));
+  if (!merchantTerms.length) return [];
+  const matches = uniquePromos([...promoIndex.values()].flat()).filter(promo => {
+    if (normalizeDayName(promo.bank) !== bank) return false;
+    if (![promo.source_url, promo.source_document_url, promo.source_page_url].includes(source)) return false;
+    const merchant = normalizeDayName(promo.merchant_name);
+    return merchantTerms.includes(merchant);
   });
-  const sourceMatches = candidates.filter((promo) => bank === normalizeDayName(promo.bank)
-    && /\.pdf(?:[?#]|$)/i.test(place.source_url || "") && promo.source_url === place.source_url
-    && (!place.merchant_brand || normalizeDayName(promo.merchant_name).includes(normalizeDayName(place.merchant_brand))));
-  const matches = uniquePromos([...exactMerchantMatches, ...sourceMatches]);
-  return matches.filter((promo) => state.activeCategory !== PREMIUM_CATEGORY || hasPremiumVariant(promo));
+  return matches.filter(promo => state.activeCategory !== PREMIUM_CATEGORY || hasPremiumVariant(promo));
 }
 
 function getFuelBrandsFromPlace(place) {

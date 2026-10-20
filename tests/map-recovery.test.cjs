@@ -48,3 +48,24 @@ test('reviewed stations only match approved card IDs within participation dates'
  assert.equal(c.getPromotionsForLocation(place,index).length,2);
  c.isActivePromotion=p=>p.terms.ends_on>='2026-10-27';assert.equal(c.getPromotionsForLocation(place,index).length,0);
 });
+
+test('branch eligibility requires bank, official PDF and merchant, never brand alone',()=>{
+ const c={state:{activeCategory:'Todas'},PREMIUM_CATEGORY:'Premium',normalizeDayName:x=>String(x||'').toLowerCase(),uniquePromos:p=>[...new Map(p.map(x=>[x.id,x])).values()],hasPremiumVariant:()=>true};
+ vm.runInNewContext(block('function getPromotionsForLocation(','function getFuelBrandsFromPlace('),c);
+ const place={bank:'BNF',merchant_name:'Shop',source_url:'https://bnf.example/terms.pdf'};
+ const a={id:'right',bank:'BNF',merchant_name:'Shop',source_url:place.source_url};
+ const wrongBank={...a,id:'wrong-bank',bank:'Other'};
+ const wrongDocument={...a,id:'wrong-document',source_url:'https://bnf.example/another.pdf'};
+ const wrongShop={...a,id:'wrong-shop',merchant_name:'Different shop'};
+ const index=new Map([['all',[a,wrongBank,wrongDocument,wrongShop]]]);
+ assert.deepEqual(Array.from(c.getPromotionsForLocation(place,index),p=>p.id),['right']);
+ assert.equal(c.getPromotionsForLocation({...place,bank:'Varios'},index).length,0);
+ assert.equal(c.getPromotionsForLocation({...place,merchant_name:'Farmacias'},index).length,0);
+});
+test('Google place IDs shared by different merchants do not merge their branches',()=>{
+ const c={normalizeDayName:x=>String(x||'').toLowerCase()};
+ vm.runInNewContext(block('function getPlaceGroupKey(','function getBestPromoScore('),c);
+ const a={place_id:'same-mall',merchant_name:'Shop A'},b={...a,merchant_name:'Shop B'};
+ assert.notEqual(c.getPlaceGroupKey(a),c.getPlaceGroupKey(b));
+ assert.equal(c.getPlaceGroupKey(a),c.getPlaceGroupKey({...a,bank:'Other'}));
+});
