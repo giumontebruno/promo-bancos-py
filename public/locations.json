@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-10-20T05:23:47+00:00",
+  "generated_at": "2026-10-20T05:55:41+00:00",
   "provider": "Official bank branch lists + reviewed location matches",
   "total_locations": 1988,
-  "geocoded_locations": 518,
+  "qa_held_locations": 85,
+  "geocoded_locations": 527,
   "locations": [
     {
       "id": "loc-bnf-b503118f81afab11",
@@ -336,9 +337,6 @@
       "needs_review": true,
       "google_last_attempt_at": "2026-10-17T03:24:57.245838+00:00",
       "google_enrichment_status": "needs_review",
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Google result is TED-Wepa ATM (types atm/finance), not a verified fuel-station establishment. Address similarity alone does not confirm the merchant.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Google result is TED-Wepa ATM (types atm/finance), not a verified fuel-station establishment. Address similarity alone does not confirm the merchant.",
@@ -351,7 +349,10 @@
         ],
         "reviewed_on": "2026-10-20",
         "identity_changed": false
-      }
+      },
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Google result is TED-Wepa ATM (types atm/finance), not a verified fuel-station establishment. Address similarity alone does not confirm the merchant.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-bnf-1052cc7e6eefa545",
@@ -384,9 +385,6 @@
       "needs_review": true,
       "google_last_attempt_at": "2026-10-17T03:46:30.504997+00:00",
       "google_enrichment_status": "needs_review",
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Official source specifies Acceso Sur km 32; Google result says km 30. Exact branch remains unconfirmed.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Official source specifies Acceso Sur km 32; Google result says km 30. Exact branch remains unconfirmed.",
@@ -399,7 +397,10 @@
         ],
         "reviewed_on": "2026-10-20",
         "identity_changed": false
-      }
+      },
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Official source specifies Acceso Sur km 32; Google result says km 30. Exact branch remains unconfirmed.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-bnf-2f713dee2fa4e356",
@@ -3918,6 +3919,39 @@
       "location_review_status": "confirmed"
     },
     {
+      "id": "loc-bnf-1f8e51e093f2a126",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Ruta PY01 e/ Virgen del Carmen y Río Paraguay.",
+      "city": "Capiatá",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 11,
+      "lat": -25.3758321,
+      "lng": -57.4769685,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJsyEEZXqtXZQRjdQfK818SqQ",
+      "formatted_address": "Ruta PY01 entre Virgen del Carmen y, Río Paraguay, Capiatá 0243",
+      "google_name": "Farmacenter Capiata 5",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:23:56+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:23:56.749882+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
       "id": "loc-bnf-c4932782efed1294",
       "bank": "BNF",
       "category": "Farmacias",
@@ -3947,6 +3981,86 @@
       ],
       "participation_ends_on": "2026-10-26",
       "location_review_status": "confirmed"
+    },
+    {
+      "id": "loc-bnf-a61d06b86b20c53b",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Avda. López Godoy y 8 de Diciembre.",
+      "city": "Capiatá",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 11,
+      "lat": -25.3627542,
+      "lng": -57.4461429,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJB-ojcpezXZQRw3sHpZnbKC8",
+      "formatted_address": "Avenida Doctor López Godoy - Ruta Dptal. 12 esq. 8 de Diciembre, Capiatá 0220",
+      "google_name": "Farmacenter Capiata 8",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:23:57+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:23:57.478911+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
+      "id": "loc-bnf-cfab9be2913261c1",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACIA VICENTE SCAVONE",
+      "merchant_brand": "FARMACIA VICENTE SCAVONE",
+      "address": "Dr. Andrés Barbero entre Ruta 2 y 1 de Noviembre.",
+      "city": "Capiatá",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 7,
+      "lat": -25.3507908,
+      "lng": -57.4461729,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJWTR1fC2zXZQRqpg3dpcXG4A",
+      "formatted_address": "JHX3+MGX 110218, Dr.Andres Barbero, Capiatá 110218",
+      "google_name": "Farmacia Vicente Scavone - Suc. Capiata Centro",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:23:58+00:00",
+      "needs_review": true,
+      "google_last_attempt_at": "2026-10-20T05:23:59.103941+00:00",
+      "google_enrichment_status": "matched",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
+            "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
+            "group": "Scavone5"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-5ff35b8de4557004",
@@ -4785,6 +4899,72 @@
       "location_review_status": "confirmed"
     },
     {
+      "id": "loc-bnf-c398875ebadc5cf8",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Soldado Ovelar esq. Progreso.",
+      "city": "Fernando de la Mora",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 11,
+      "lat": -25.3346084,
+      "lng": -57.5673517,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJP2etY8ypXZQR5QPnwlY9K00",
+      "formatted_address": "Soldado Ovelar entre, Progreso y, Fernando de la Mora 0328",
+      "google_name": "Farmacenter Soldado Ovelar",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:24:02+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:24:02.371670+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
+      "id": "loc-bnf-a63b132cd5452876",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Mcal. Estigarribia c/ Usher Ríos.",
+      "city": "Fernando de la Mora",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 11,
+      "lat": -25.3232753,
+      "lng": -57.5549705,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJ27fp-VypXZQR5g9qUo2RzhQ",
+      "formatted_address": "Avda. Mcal. Estigarribia c/Usher Ríos Fernando de la Mora, Fernando de la Mora 0308",
+      "google_name": "Farmacenter Km 7,5 2",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:24:03+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:24:03.157124+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
       "id": "loc-bnf-e89c329e86b0a138",
       "bank": "BNF",
       "category": "Farmacias",
@@ -5257,6 +5437,72 @@
       "reviewed_block": "2026-10-20-block79"
     },
     {
+      "id": "loc-bnf-deb3d8bb220a33f7",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Mcal. José Félix Estigarribia c/ Villa Alta.",
+      "city": "Itauguá",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 11,
+      "lat": -25.3963885,
+      "lng": -57.3458387,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJ3e14Bh9LXJQR9_3Fe22oVw0",
+      "formatted_address": "Ruta 2, Mcal. José, Mariscal José Félix Estigarribia y, Itauguá 110607",
+      "google_name": "Farmacenter Itauguá 4",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:24:05+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:24:05.704316+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
+      "id": "loc-bnf-e6083025a13f538c",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Gral. Marcial Samaniego esq. Defensores.",
+      "city": "Itauguá",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 11,
+      "lat": -25.3946079,
+      "lng": -57.3561234,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJfd42anW1XZQR8OGbR7wgSaI",
+      "formatted_address": "Gral. Marcial Samaniego Esquina, Itauguá 0611",
+      "google_name": "Farmacenter Itauguá 3",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:24:07+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:24:07.307527+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
       "id": "loc-bnf-a6c066697731b6f3",
       "bank": "BNF",
       "category": "Farmacias",
@@ -5362,6 +5608,39 @@
       "location_review_status": "confirmed"
     },
     {
+      "id": "loc-bnf-cbeee386d70d5068",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Ruta 1 Domingo Martínez de Irala.",
+      "city": "Itá",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 11,
+      "lat": -25.5085219,
+      "lng": -57.3567097,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJ14JFKwBJXJQRjRt8tLQ3dqg",
+      "formatted_address": "Domingo Martínez de Irala 2710, Itá 2710",
+      "google_name": "Farmacenter Ita 2",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:24:08+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:24:08.981668+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
       "id": "loc-bnf-e67dd6a4e9f99888",
       "bank": "BNF",
       "category": "Farmacias",
@@ -5457,6 +5736,39 @@
       ],
       "participation_ends_on": "2026-10-26",
       "location_review_status": "confirmed"
+    },
+    {
+      "id": "loc-bnf-101e012874cd408b",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Avda. Fernando de la Mora y Cacique Lambaré.",
+      "city": "Lambaré",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 12,
+      "lat": -25.3375259,
+      "lng": -57.5865985,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJG2gWKBupXZQRrNXJ7U7lWDw",
+      "formatted_address": "Avda Fernando de la Mora, Av. Cacique Lambare casi, Lambaré 1315",
+      "google_name": "Farmacenter 4 Mojones",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:24:11+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:24:11.962039+00:00",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-bnf-736a56b33ea4eacf",
@@ -8356,6 +8668,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:25.034987+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJf0TXmuypXZQR8q1b8T_-YsE",
@@ -8366,9 +8679,6 @@
         "lng": -57.5720697,
         "checked_at": "2026-09-14T15:18:24+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -8382,7 +8692,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-f6171a3741",
@@ -8415,6 +8727,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:35.714469+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJHc8zwBipXZQRYOw3KEOsQ8E",
@@ -8425,9 +8738,6 @@
         "lng": -57.5775225,
         "checked_at": "2026-09-22T12:36:35+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Mercado de Abasto Bloque D en Asunción.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Mercado de Abasto Bloque D en Asunción.",
@@ -8441,7 +8751,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Mercado de Abasto Bloque D en Asunción.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-1ff6c937a7",
@@ -8474,6 +8786,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:36.612578+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJHc8zwBipXZQRYOw3KEOsQ8E",
@@ -8484,9 +8797,6 @@
         "lng": -57.5775225,
         "checked_at": "2026-09-22T12:36:36+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Galería Santa Teresa junto al Mercado de Abasto.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Galería Santa Teresa junto al Mercado de Abasto.",
@@ -8500,7 +8810,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Galería Santa Teresa junto al Mercado de Abasto.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-0c7916e643",
@@ -8536,6 +8848,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:37.541729+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJTVzeU9-oXZQR6NSArE1lfU0",
@@ -8546,9 +8859,6 @@
         "lng": -57.5713844,
         "checked_at": "2026-09-22T12:36:37+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -8562,7 +8872,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-91e0ad0a9e",
@@ -8595,6 +8907,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:38.351091+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJV4UKm4uzXZQRcw8gDe7IK7A",
@@ -8605,9 +8918,6 @@
         "lng": -57.4704475,
         "checked_at": "2026-09-22T12:36:38+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "La fuente indica Ruta PY02 y Madrigal; el candidato indica Ruta 1 y Clavel. No es la misma dirección.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "La fuente indica Ruta PY02 y Madrigal; el candidato indica Ruta 1 y Clavel. No es la misma dirección.",
@@ -8621,7 +8931,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "La fuente indica Ruta PY02 y Madrigal; el candidato indica Ruta 1 y Clavel. No es la misma dirección.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-dcc7f47aa0",
@@ -8654,6 +8966,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:39.352844+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJV4UKm4uzXZQRcw8gDe7IK7A",
@@ -8664,9 +8977,6 @@
         "lng": -57.4704475,
         "checked_at": "2026-09-22T12:36:39+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -8680,7 +8990,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-954db3d2fa",
@@ -8758,6 +9070,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:25.859490+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJe-r9LYyvXZQRSm6oTnRTS44",
@@ -8768,9 +9081,6 @@
         "lng": -57.49035,
         "checked_at": "2026-09-14T15:18:25+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -8784,7 +9094,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-9871905a5c",
@@ -8818,6 +9130,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:40.909101+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJOXWydH6vXZQRAIMxu38WLpk",
@@ -8828,9 +9141,6 @@
         "lng": -57.4854766,
         "checked_at": "2026-09-22T12:36:40+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -8844,7 +9154,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-55949de43c",
@@ -8880,6 +9192,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:41.779414+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ1WVDMNKlXZQRp87HSpibCtY",
@@ -8890,9 +9203,6 @@
         "lng": -57.5391078,
         "checked_at": "2026-09-22T12:36:41+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -8906,7 +9216,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-99313f94a1",
@@ -8939,6 +9251,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:42.695050+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJncInRACtXZQRxoEtHQfLEr8",
@@ -8949,9 +9262,6 @@
         "lng": -57.5165948,
         "checked_at": "2026-09-22T12:36:42+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -8965,7 +9275,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-90f28d597c",
@@ -8998,6 +9310,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:43.565375+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJU9tLi6OrXZQR0egFLJhALj4",
@@ -9008,9 +9321,6 @@
         "lng": -57.5595681,
         "checked_at": "2026-09-22T12:36:43+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9024,7 +9334,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-d3dcfde46e",
@@ -9053,6 +9365,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:44.556841+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJkZFjNACxXZQRFQcY6gR9nmA",
@@ -9063,9 +9376,6 @@
         "lng": -57.4218857,
         "checked_at": "2026-09-22T12:36:44+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9079,7 +9389,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-68dd380226",
@@ -9112,6 +9424,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:45.410422+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ4cCXxlGxXZQR49PlMMnb3uE",
@@ -9122,9 +9435,6 @@
         "lng": -57.3804334,
         "checked_at": "2026-09-22T12:36:45+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9138,7 +9448,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-f6f09af6c0",
@@ -9171,6 +9483,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:46.154640+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJcy8SdJeoXZQRcDfHeuByliI",
@@ -9181,9 +9494,6 @@
         "lng": -57.5788706,
         "checked_at": "2026-09-22T12:36:46+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9197,7 +9507,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-f268749437",
@@ -9230,6 +9542,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:46.964199+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJAZGkT2yoXZQRKQJMQYnI_Ww",
@@ -9240,9 +9553,6 @@
         "lng": -57.6175591,
         "checked_at": "2026-09-22T12:36:46+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9256,7 +9566,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-acb35e59cb",
@@ -9288,6 +9600,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:26.667624+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJy-rAd2ipXZQRHv76ReIFstk",
@@ -9298,9 +9611,6 @@
         "lng": -57.6273226,
         "checked_at": "2026-09-14T15:18:26+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9314,7 +9624,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-3ee05c96c4",
@@ -9414,6 +9726,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:51.790399+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJy_xKWeioXZQRFcR3ABLaRnU",
@@ -9424,9 +9737,6 @@
         "lng": -57.578477,
         "checked_at": "2026-09-22T12:36:51+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9440,7 +9750,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-7e62631dc9",
@@ -9473,6 +9785,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:52.645548+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ_ayH2BaoXZQR8LWMWQoskps",
@@ -9483,9 +9796,6 @@
         "lng": -57.629916,
         "checked_at": "2026-09-22T12:36:52+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9499,7 +9809,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b69261f7c8",
@@ -9532,6 +9844,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:53.586364+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJvRAJyBAIXZQRmZVn6lCTTqM",
@@ -9542,9 +9855,6 @@
         "lng": -57.6566815,
         "checked_at": "2026-09-22T12:36:53+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9558,7 +9868,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-06cc9d2280",
@@ -9591,6 +9903,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:54.468022+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ3cEsTIepXZQRUDPUDSpyXu4",
@@ -9601,9 +9914,6 @@
         "lng": -57.6427172,
         "checked_at": "2026-09-22T12:36:54+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9617,7 +9927,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-c0d0efc47a",
@@ -9682,6 +9994,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:55.287340+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ3QVFq4unXZQR2IYShq6vMz8",
@@ -9692,9 +10005,6 @@
         "lng": -57.641037,
         "checked_at": "2026-09-22T12:36:55+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9708,7 +10018,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-360198c5e2",
@@ -9741,6 +10053,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:56.145275+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJtXKzxJyvXZQR0A1tP3dPrD8",
@@ -9751,9 +10064,6 @@
         "lng": -57.5525948,
         "checked_at": "2026-09-22T12:36:56+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9767,7 +10077,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b3c7a978ab",
@@ -9800,6 +10112,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:29.964400+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJf1ASW4qoXZQRDR2bBhZX4Zw",
@@ -9810,9 +10123,6 @@
         "lng": -57.5967149,
         "checked_at": "2026-09-14T15:18:29+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9826,7 +10136,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-bba38ccaba",
@@ -9960,6 +10272,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:57.728545+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJc5VilnOoXZQRXMDasD5P6jA",
@@ -9970,9 +10283,6 @@
         "lng": -57.6174629,
         "checked_at": "2026-09-22T12:36:57+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -9986,7 +10296,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-1c18181680",
@@ -10151,6 +10463,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-22T12:36:58.681951+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJlX6uw5uoXZQR7MFj36-J2Xo",
@@ -10161,9 +10474,6 @@
         "lng": -57.582845,
         "checked_at": "2026-09-22T12:36:58+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -10177,7 +10487,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-df8d7d797e",
@@ -10209,6 +10521,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:02.909561+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJs6SvI9anXZQRQSRil9aDYnA",
@@ -10219,9 +10532,6 @@
         "lng": -57.5544213,
         "checked_at": "2026-09-23T12:48:02+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -10235,7 +10545,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-6aef0c4443",
@@ -10303,6 +10615,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:30.730044+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJs6SvI9anXZQRQSRil9aDYnA",
@@ -10313,9 +10626,6 @@
         "lng": -57.5544213,
         "checked_at": "2026-09-14T15:18:30+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "La sucursal oficial es Primer Presidente/Gabriel Casaccia; el candidato es Aviadores del Chaco.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "La sucursal oficial es Primer Presidente/Gabriel Casaccia; el candidato es Aviadores del Chaco.",
@@ -10329,7 +10639,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "La sucursal oficial es Primer Presidente/Gabriel Casaccia; el candidato es Aviadores del Chaco.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b1552f4f08",
@@ -10362,6 +10674,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:31.467298+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJs6SvI9anXZQRQSRil9aDYnA",
@@ -10372,9 +10685,6 @@
         "lng": -57.5544213,
         "checked_at": "2026-09-14T15:18:31+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "La sucursal oficial es Molas López/Veteranos del70; el candidato es Aviadores del Chaco.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "La sucursal oficial es Molas López/Veteranos del70; el candidato es Aviadores del Chaco.",
@@ -10388,7 +10698,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "La sucursal oficial es Molas López/Veteranos del70; el candidato es Aviadores del Chaco.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-3de9455b62",
@@ -10421,6 +10733,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:32.237726+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJYeM64xCyXZQRnXXqYsM3fk4",
@@ -10431,9 +10744,6 @@
         "lng": -57.4477089,
         "checked_at": "2026-09-14T15:18:32+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -10447,7 +10757,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b2f8bfe6f6",
@@ -10480,6 +10792,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:32.997410+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJYeM64xCyXZQRnXXqYsM3fk4",
@@ -10490,9 +10803,6 @@
         "lng": -57.4477089,
         "checked_at": "2026-09-14T15:18:32+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -10506,7 +10816,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-5a4c86cfcf",
@@ -10535,6 +10847,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:04.679713+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ8WXCNQCtXZQROLMEyTc8YoM",
@@ -10545,9 +10858,6 @@
         "lng": -57.4694255,
         "checked_at": "2026-09-23T12:48:04+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -10561,7 +10871,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-6decf1b909",
@@ -10590,6 +10902,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:33.824828+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJueBaxomzXZQRZplJVa2Glgg",
@@ -10600,9 +10913,6 @@
         "lng": -57.4625076,
         "checked_at": "2026-09-14T15:18:33+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -10616,7 +10926,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-e5d3c37809",
@@ -10684,6 +10996,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:34.548886+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJrcWo1dOuXZQRq-7M1O4N7Ms",
@@ -10694,9 +11007,6 @@
         "lng": -57.5474224,
         "checked_at": "2026-09-14T15:18:34+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -10710,7 +11020,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-484ef58909",
@@ -10743,6 +11055,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:06.450075+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJY2HD5T-pXZQRwECAIx-tah0",
@@ -10753,9 +11066,6 @@
         "lng": -57.574971,
         "checked_at": "2026-09-23T12:48:06+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -10769,7 +11079,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-2f87a9e8f8",
@@ -10803,6 +11115,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:35.257870+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJJZ0qnBCpXZQRukNyeiPk2cc",
@@ -10813,9 +11126,6 @@
         "lng": -57.5832067,
         "checked_at": "2026-09-14T15:18:35+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -10829,7 +11139,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-831474a3ee",
@@ -10862,6 +11174,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:36.059364+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJsf07UC-vXZQRQ1t2v8W1EEk",
@@ -10872,9 +11185,6 @@
         "lng": -57.5421227,
         "checked_at": "2026-09-14T15:18:35+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -10888,7 +11198,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-e49a9c971e",
@@ -10916,6 +11228,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:07.376285+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJFxatBY6vXZQRyMNgDifMn84",
@@ -10926,9 +11239,6 @@
         "lng": -57.5495876,
         "checked_at": "2026-09-23T12:48:07+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -10942,7 +11252,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-cd8a9041ff",
@@ -10975,6 +11287,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:08.245716+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJdyMyyB-vXZQRZaHXXCeRjFY",
@@ -10985,9 +11298,6 @@
         "lng": -57.5275784,
         "checked_at": "2026-09-23T12:48:08+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11001,7 +11311,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-a63b80079c",
@@ -11034,6 +11346,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:09.076710+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJdyMyyB-vXZQRZaHXXCeRjFY",
@@ -11044,9 +11357,6 @@
         "lng": -57.5275784,
         "checked_at": "2026-09-23T12:48:08+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11060,7 +11370,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-d3da5ade02",
@@ -11093,6 +11405,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:09.864188+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJj3VDy1m1XZQRT1ceXksrLdA",
@@ -11103,9 +11416,6 @@
         "lng": -57.357028,
         "checked_at": "2026-09-23T12:48:09+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11119,7 +11429,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-0aa09d9579",
@@ -11154,6 +11466,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:10.689555+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJhzORtqmpXZQRC3j2QyiBHqQ",
@@ -11164,9 +11477,6 @@
         "lng": -57.6002817,
         "checked_at": "2026-09-23T12:48:10+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11180,7 +11490,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-71256fced5",
@@ -11231,6 +11543,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:11.489222+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJHdM47empXZQRMeLhckpsEfQ",
@@ -11241,9 +11554,6 @@
         "lng": -57.6249111,
         "checked_at": "2026-09-23T12:48:11+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11257,7 +11567,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b6d4af643d",
@@ -11289,6 +11601,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:12.283034+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ5VqZPqupXZQRjWcLygSDUN8",
@@ -11299,9 +11612,6 @@
         "lng": -57.6276744,
         "checked_at": "2026-09-23T12:48:12+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11315,7 +11625,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-a6b35be538",
@@ -11379,6 +11691,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:13.892857+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJiWUleAClXZQR-ZwPVkRG5io",
@@ -11389,9 +11702,6 @@
         "lng": -57.4767241,
         "checked_at": "2026-09-23T12:48:13+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11405,7 +11715,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-d167678861",
@@ -11438,6 +11750,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:15.374520+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ_9iwwPSvXZQRcSqn7t-c1Xw",
@@ -11448,9 +11761,6 @@
         "lng": -57.4844837,
         "checked_at": "2026-09-23T12:48:15+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11464,7 +11774,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-4efbe762b7",
@@ -11497,6 +11809,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:16.139264+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJez3bpX-lXZQR4FDsj8tSknk",
@@ -11507,9 +11820,6 @@
         "lng": -57.5060238,
         "checked_at": "2026-09-23T12:48:16+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11523,7 +11833,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-ec07bf6363",
@@ -11556,6 +11868,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:16.968023+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJB0FT7TmlXZQRFowc81SWjuM",
@@ -11566,9 +11879,6 @@
         "lng": -57.47545,
         "checked_at": "2026-09-23T12:48:16+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11582,7 +11892,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b20bca7cd3",
@@ -11615,6 +11927,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:17.851416+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJez3bpX-lXZQR4FDsj8tSknk",
@@ -11625,9 +11938,6 @@
         "lng": -57.5060238,
         "checked_at": "2026-09-23T12:48:17+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "La sucursal oficial es José Ortiz/Sargento Espinola; el candidato es General Aquino/Tte.Rivas.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "La sucursal oficial es José Ortiz/Sargento Espinola; el candidato es General Aquino/Tte.Rivas.",
@@ -11641,7 +11951,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "La sucursal oficial es José Ortiz/Sargento Espinola; el candidato es General Aquino/Tte.Rivas.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-f145fb49f4",
@@ -11674,6 +11986,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:18.631357+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJnZ5MEV2vXZQRcZNTbCOtqUU",
@@ -11684,9 +11997,6 @@
         "lng": -57.5344426,
         "checked_at": "2026-09-23T12:48:18+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11700,7 +12010,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-edd72826c4",
@@ -11732,6 +12044,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:19.520970+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJc-S9YQClXZQRGqt_0k7Qhuc",
@@ -11742,9 +12055,6 @@
         "lng": -57.5003681,
         "checked_at": "2026-09-23T12:48:19+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11758,7 +12068,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-1b2a3aa07d",
@@ -11791,6 +12103,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:36.809631+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJneyrY2avXZQRun9_oqatsjI",
@@ -11801,9 +12114,6 @@
         "lng": -57.5258219,
         "checked_at": "2026-09-14T15:18:36+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11817,7 +12127,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-98ea4004ee",
@@ -11872,6 +12184,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:20.336658+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJFewK62GlXZQR7YujTPwBNqA",
@@ -11882,9 +12195,6 @@
         "lng": -57.4899483,
         "checked_at": "2026-09-23T12:48:20+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -11898,7 +12208,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-814d34382c",
@@ -11931,6 +12243,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:37.552512+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJFewK62GlXZQR7YujTPwBNqA",
@@ -11941,9 +12254,6 @@
         "lng": -57.4899483,
         "checked_at": "2026-09-14T15:18:37+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "La sucursal oficial es Silvio Pettirossi/Torokay; el candidato es Valois Rivarola.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "La sucursal oficial es Silvio Pettirossi/Torokay; el candidato es Valois Rivarola.",
@@ -11957,7 +12267,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "La sucursal oficial es Silvio Pettirossi/Torokay; el candidato es Valois Rivarola.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-4b797c1a50",
@@ -11990,6 +12302,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:38.317624+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJJdQZrs2lXZQREk5TifjnHxw",
@@ -12000,9 +12313,6 @@
         "lng": -57.5396194,
         "checked_at": "2026-09-14T15:18:38+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -12016,7 +12326,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-6fcd7f8ac0",
@@ -12049,6 +12361,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-14T15:18:39.225972+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJcV1UCdKlXZQRahjdalAX1sM",
@@ -12059,9 +12372,6 @@
         "lng": -57.5422655,
         "checked_at": "2026-09-14T15:18:39+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -12075,7 +12385,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-4b102534f8",
@@ -12155,6 +12467,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:22.198706+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ8WXCNQCtXZQROLMEyTc8YoM",
@@ -12165,9 +12478,6 @@
         "lng": -57.4694255,
         "checked_at": "2026-09-23T12:48:22+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "La sucursal oficial es Ruta2 km15 San Lorenzo; candidato Ruta1 km20 Capiatá.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "La sucursal oficial es Ruta2 km15 San Lorenzo; candidato Ruta1 km20 Capiatá.",
@@ -12181,7 +12491,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "La sucursal oficial es Ruta2 km15 San Lorenzo; candidato Ruta1 km20 Capiatá.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-ca8d6bc0c3",
@@ -12210,6 +12522,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:23.020822+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJkY71MjKtXZQRI6DvhYeOGCM",
@@ -12220,9 +12533,6 @@
         "lng": -57.5308095,
         "checked_at": "2026-09-23T12:48:22+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -12236,7 +12546,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-63404e3d2c",
@@ -12269,6 +12581,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:23.786513+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJy_WpouCvXZQRPOkTIB_PmZE",
@@ -12279,9 +12592,6 @@
         "lng": -57.5182266,
         "checked_at": "2026-09-23T12:48:23+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -12295,7 +12605,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-b91f72bbd9",
@@ -12328,6 +12640,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:24.596013+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ16bPg3uuXZQREcpgzVfCMJ4",
@@ -12338,9 +12651,6 @@
         "lng": -57.5018865,
         "checked_at": "2026-09-23T12:48:24+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -12354,7 +12664,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-fb111ec029",
@@ -12387,6 +12699,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:25.389386+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ25zPF5SpXZQRxzNQc-8SKrw",
@@ -12397,9 +12710,6 @@
         "lng": -57.5915236,
         "checked_at": "2026-09-23T12:48:25+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -12413,7 +12723,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-893818650c",
@@ -12478,6 +12790,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-23T12:48:27.077614+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJSZg0U3esXZQR-f7snCfEJqw",
@@ -12488,9 +12801,6 @@
         "lng": -57.5473369,
         "checked_at": "2026-09-23T12:48:26+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -12504,7 +12814,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-abd3ce0439",
@@ -12537,6 +12849,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-24T12:46:25.805130+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJtwsliY2tXZQRCcmw8rFUnEQ",
@@ -12547,9 +12860,6 @@
         "lng": -57.542697,
         "checked_at": "2026-09-24T12:46:25+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -12563,7 +12873,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-f7350a5549",
@@ -12597,6 +12909,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-24T12:46:26.684395+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJq8v1Q1usXZQRDyjgPWpPokA",
@@ -12607,9 +12920,6 @@
         "lng": -57.5243286,
         "checked_at": "2026-09-24T12:46:26+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -12623,7 +12933,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-37eab9b40f",
@@ -12656,6 +12968,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-24T12:46:27.544520+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJH03UrHusXZQRlOw5MGo7e_U",
@@ -12666,9 +12979,6 @@
         "lng": -57.5454823,
         "checked_at": "2026-09-24T12:46:27+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -12682,7 +12992,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-46cfa4c7bb",
@@ -12715,6 +13027,7 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-08-24T17:43:35-03:00",
+      "needs_review": true,
       "google_last_attempt_at": "2026-09-24T12:46:28.435813+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ2ZmArbytXZQRTHi37Bl5zXY",
@@ -12725,9 +13038,6 @@
         "lng": -57.5440193,
         "checked_at": "2026-09-24T12:46:28+00:00"
       },
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
@@ -12741,7 +13051,9 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-reviewed-15b90a60f16bcd5d",
@@ -17727,9 +18039,6 @@
       "needs_review": true,
       "google_last_attempt_at": "2026-10-17T03:46:40.538608+00:00",
       "google_enrichment_status": "needs_review",
-      "location_review_status": "qa_hold",
-      "location_review_reason": "Google result is Saspy Locker (courier/shipping), not the fuel-station establishment. Confirm the exact Copetrol branch before displaying.",
-      "location_reviewed_on": "2026-10-17",
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Google result is Saspy Locker (courier/shipping), not the fuel-station establishment. Confirm the exact Copetrol branch before displaying.",
@@ -17742,7 +18051,10 @@
         ],
         "reviewed_on": "2026-10-20",
         "identity_changed": false
-      }
+      },
+      "location_review_status": "qa_hold",
+      "location_review_reason": "Google result is Saspy Locker (courier/shipping), not the fuel-station establishment. Confirm the exact Copetrol branch before displaying.",
+      "location_reviewed_on": "2026-10-17"
     },
     {
       "id": "loc-reviewed-e1c2ef29701e2500",
@@ -17993,9 +18305,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-09-14T15:18:35+00:00",
+      "location_verified_at": "2026-10-20T05:56:00+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:18:35.641291+00:00",
+      "google_last_attempt_at": "2026-10-20T05:56:00.866277+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -18018,14 +18330,14 @@
       "google_name": "Petropar Grupo Sacco Abasto",
       "google_types": [
         "gas_station",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-09-14T15:18:42+00:00",
+      "location_verified_at": "2026-10-20T05:56:01+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:18:42.715928+00:00",
+      "google_last_attempt_at": "2026-10-20T05:56:01.609967+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -18073,14 +18385,14 @@
       "google_name": "Copetrol - Gestión de Servicios Bartolome",
       "google_types": [
         "gas_station",
-        "point_of_interest",
         "service",
+        "point_of_interest",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-09-14T15:18:48+00:00",
+      "location_verified_at": "2026-10-20T05:56:02+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:18:48.944428+00:00",
+      "google_last_attempt_at": "2026-10-20T05:56:02.384253+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -18108,9 +18420,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-09-14T15:18:52+00:00",
+      "location_verified_at": "2026-10-20T05:56:03+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:18:52.536192+00:00",
+      "google_last_attempt_at": "2026-10-20T05:56:03.161619+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -18133,14 +18445,14 @@
       "google_name": "PETROPAR Rojas Cañada - Liza Acosta",
       "google_types": [
         "gas_station",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-09-14T15:19:49+00:00",
+      "location_verified_at": "2026-10-20T05:56:03+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:19:49.964189+00:00",
+      "google_last_attempt_at": "2026-10-20T05:56:03.912230+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -18262,6 +18574,96 @@
       "location_verified_at": "2026-10-20T04:40:45+00:00",
       "needs_review": false,
       "google_last_attempt_at": "2026-10-20T04:40:45.917893+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
+      "id": "loc-ueno-2971a1018b",
+      "bank": "ueno bank",
+      "category": "Combustible",
+      "merchant_name": "Copetrol San Antonio",
+      "address": "Av. San Antonio e/ Av. Central",
+      "city": "San Antonio",
+      "department": "",
+      "country": "Paraguay",
+      "merchant_brand": "COPETROL",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+      "source_page": 15,
+      "lat": -25.4042685,
+      "lng": -57.572558,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJTYf6JJmrXZQRcLIvgRH2dbw",
+      "formatted_address": "HCWG+7XW, Av. San Antonio, San Antonio 111302",
+      "google_name": "COPETROL (Gestion San Antonio)",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:23:53+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:23:53.530808+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
+      "id": "loc-ueno-ac8bc7d775",
+      "bank": "ueno bank",
+      "category": "Combustible",
+      "merchant_name": "Copetrol Km.11",
+      "address": "Av. De los Agronomos Km 11 c/ Avelino Martinez",
+      "city": "San Lorenzo",
+      "department": "",
+      "country": "Paraguay",
+      "merchant_brand": "COPETROL",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+      "source_page": 15,
+      "lat": -25.3406566,
+      "lng": -57.5204114,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJeQDMH2ivXZQRlq2UdIM7APE",
+      "formatted_address": "Km 11, Av. De los Agronomos, c/ A. Martinez, San Lorenzo 111434",
+      "google_name": "TED-Wepa - Copetrol Km 11 Los Agronomos",
+      "google_types": [
+        "atm",
+        "finance",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:23:58+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:23:58.661979+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
+      "id": "loc-ueno-1785ad2474",
+      "bank": "ueno bank",
+      "category": "Combustible",
+      "merchant_name": "Copetrol Laguna Grande",
+      "address": "Avda Laguna Grande esq. Calle 1",
+      "city": "San Lorenzo",
+      "department": "",
+      "country": "Paraguay",
+      "merchant_brand": "COPETROL",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
+      "source_page": 13,
+      "lat": -25.2929179,
+      "lng": -57.5403016,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJjSxU1ACvXZQRM7bqqef8XhU",
+      "formatted_address": "Avda. Laguna Grande esq, San Lorenzo 110301",
+      "google_name": "TED-Wepa - Copetrol Laguna Grande",
+      "google_types": [
+        "atm",
+        "finance",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:24:00+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:24:00.445358+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -20427,6 +20829,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Juan Carlos Garcia matches; crossing avenue labeled Capitan Herminio Mendoza instead of Boqueron. Alias not verified.",
@@ -20440,7 +20843,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -20460,6 +20862,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Agustin Fernando de Pinedo visible; crossing labeled 4A Proyectada, not Caballero Anazco. Alias not verified.",
@@ -20473,7 +20876,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -20601,6 +21003,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Road beside pin labeled Blas Garay, not Defensores del Chaco. Street-number 120 not corroborated.",
@@ -20614,7 +21017,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -20760,6 +21162,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Road labeled PY13, local street aliases absent. Exact operator/bank street text matches, but city Curuguaty comes ONLY from bank PDF. No municipal corroboration by this map.",
@@ -20773,7 +21176,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -21183,6 +21585,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
+      "needs_review": true,
       "google_last_attempt_at": "2026-10-17T03:24:49.587573+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJfWps1j6pXZQRLbi8et-L8Rk",
@@ -21206,7 +21609,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -24516,6 +24918,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
+      "needs_review": true,
       "google_last_attempt_at": "2026-10-18T12:12:04.530363+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJKXHD-c2vXZQRAKmREcQlv0Q",
@@ -24539,7 +24942,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -27317,9 +27719,10 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
+      "needs_review": true,
       "google_last_attempt_at": "2026-10-20T05:23:48.454325+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJU9jLsXqpXZQRk-t9lGVMxPY",
       "google_candidate": {
         "google_name": "Farmacia Vicente Scavone - Suc. Mariscal Lopez",
@@ -27341,7 +27744,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -27361,9 +27763,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:49.331751+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJb2WleSemXZQRC0lOs1Waq50",
       "google_candidate": {
         "google_name": "Farmacia Vicente Scavone - Suc. España",
@@ -27390,9 +27792,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:50.205766+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJb2WleSemXZQRC0lOs1Waq50",
       "google_candidate": {
         "google_name": "Farmacia Vicente Scavone - Suc. España",
@@ -27419,9 +27821,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:51.306862+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ39rxh-2nXZQRoOmnrwa2ICE",
       "google_candidate": {
         "google_name": "Farmacias Catedral Suc. Artigas 2",
@@ -27448,9 +27850,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:52.130304+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJz3tfaKCoXZQRiUuUlbIT998",
       "google_candidate": {
         "google_name": "Catedral Drugstore",
@@ -27477,9 +27879,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:52.963913+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJRekAGHGoXZQRXoXeCDd3bz4",
       "google_candidate": {
         "google_name": "Farmacia Catedral General Santos Teodoro S. Mongelos",
@@ -27506,9 +27908,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:53.920654+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJRSdke-enXZQRm5ORJmWBRHA",
       "google_candidate": {
         "google_name": "Farmacias Catedral Suc. Migone 2",
@@ -27535,9 +27937,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:54.819970+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJRSdke-enXZQRm5ORJmWBRHA",
       "google_candidate": {
         "google_name": "Farmacias Catedral Suc. Migone 2",
@@ -27564,9 +27966,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:55.972923+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ-6Hjin2pXZQRi2_rjOq97Es",
       "google_candidate": {
         "google_name": "Farmacia Catedral Suc. San Pablo 3",
@@ -27721,72 +28123,6 @@
       "online_only": false
     },
     {
-      "id": "loc-bnf-1f8e51e093f2a126",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Ruta PY01 e/ Virgen del Carmen y Río Paraguay.",
-      "city": "Capiatá",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 11,
-      "lat": -25.3758321,
-      "lng": -57.4769685,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:23:56.749882+00:00",
-      "place_id": "ChIJsyEEZXqtXZQRjdQfK818SqQ",
-      "formatted_address": "Ruta PY01 entre Virgen del Carmen y, Río Paraguay, Capiatá 0243",
-      "google_name": "Farmacenter Capiata 5",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "health",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:23:56+00:00"
-    },
-    {
-      "id": "loc-bnf-a61d06b86b20c53b",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Avda. López Godoy y 8 de Diciembre.",
-      "city": "Capiatá",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 11,
-      "lat": -25.3627542,
-      "lng": -57.4461429,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:23:57.478911+00:00",
-      "place_id": "ChIJB-ojcpezXZQRw3sHpZnbKC8",
-      "formatted_address": "Avenida Doctor López Godoy - Ruta Dptal. 12 esq. 8 de Diciembre, Capiatá 0220",
-      "google_name": "Farmacenter Capiata 8",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "health",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:23:57+00:00"
-    },
-    {
       "id": "loc-bnf-c4c015f0d15c6a4e",
       "bank": "BNF",
       "category": "Farmacias",
@@ -27803,9 +28139,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:58.290163+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJJ9NcYvezXZQRqJ4DFNPXQV4",
       "google_candidate": {
         "google_name": "Farmacenter Capiata 4",
@@ -27814,53 +28150,6 @@
         "lng": -57.4578709,
         "checked_at": "2026-10-20T05:23:58+00:00"
       }
-    },
-    {
-      "id": "loc-bnf-cfab9be2913261c1",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACIA VICENTE SCAVONE",
-      "merchant_brand": "FARMACIA VICENTE SCAVONE",
-      "address": "Dr. Andrés Barbero entre Ruta 2 y 1 de Noviembre.",
-      "city": "Capiatá",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 7,
-      "lat": -25.3507908,
-      "lng": -57.4461729,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:23:59.103941+00:00",
-      "place_id": "ChIJWTR1fC2zXZQRqpg3dpcXG4A",
-      "formatted_address": "JHX3+MGX 110218, Dr.Andres Barbero, Capiatá 110218",
-      "google_name": "Farmacia Vicente Scavone - Suc. Capiata Centro",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "health",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": true,
-      "location_verified_at": "2026-10-20T05:23:58+00:00",
-      "qa_hold": true,
-      "qa_hold_detail": {
-        "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
-        "evidence": [
-          {
-            "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
-            "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
-            "group": "Scavone5"
-          }
-        ],
-        "reviewed_on": "2026-10-20",
-        "identity_changed": false
-      },
-      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-d1fc6a5f0d813fb8",
@@ -28077,6 +28366,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
@@ -28090,7 +28380,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -28506,9 +28795,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:00.076035+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJDdiezyqpXZQRkmZnhLkp1-w",
       "google_candidate": {
         "google_name": "Farmacenter",
@@ -28535,9 +28824,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:00.814433+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJuyQagbauXZQRFxGsWynmy-w",
       "google_candidate": {
         "google_name": "Farmacenter - Farmacia",
@@ -28564,9 +28853,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:01.652751+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJeTRnLwCpXZQRRfHdjOhgvgQ",
       "google_candidate": {
         "google_name": "Farmacenter Zavalas Cue 2 Norte",
@@ -28575,72 +28864,6 @@
         "lng": -57.5570046,
         "checked_at": "2026-10-20T05:24:01+00:00"
       }
-    },
-    {
-      "id": "loc-bnf-c398875ebadc5cf8",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Soldado Ovelar esq. Progreso.",
-      "city": "Fernando de la Mora",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 11,
-      "lat": -25.3346084,
-      "lng": -57.5673517,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:24:02.371670+00:00",
-      "place_id": "ChIJP2etY8ypXZQR5QPnwlY9K00",
-      "formatted_address": "Soldado Ovelar entre, Progreso y, Fernando de la Mora 0328",
-      "google_name": "Farmacenter Soldado Ovelar",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "point_of_interest",
-        "health",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:24:02+00:00"
-    },
-    {
-      "id": "loc-bnf-a63b132cd5452876",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Mcal. Estigarribia c/ Usher Ríos.",
-      "city": "Fernando de la Mora",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 11,
-      "lat": -25.3232753,
-      "lng": -57.5549705,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:24:03.157124+00:00",
-      "place_id": "ChIJ27fp-VypXZQR5g9qUo2RzhQ",
-      "formatted_address": "Avda. Mcal. Estigarribia c/Usher Ríos Fernando de la Mora, Fernando de la Mora 0308",
-      "google_name": "Farmacenter Km 7,5 2",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "point_of_interest",
-        "health",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:24:03+00:00"
     },
     {
       "id": "loc-bnf-7ac30cab170de1e2",
@@ -28659,9 +28882,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:04.046153+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJr3TM0A6vXZQRxwxoYqr8_3s",
       "google_candidate": {
         "google_name": "Farmacenter Laguna Grande 2",
@@ -28688,9 +28911,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:04.788071+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ2cEeQQCpXZQRoL27sgwb_sU",
       "google_candidate": {
         "google_name": "Farmacias Catedral Suc. Fernando de la Mora 9",
@@ -28809,39 +29032,6 @@
       "online_only": false
     },
     {
-      "id": "loc-bnf-deb3d8bb220a33f7",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Mcal. José Félix Estigarribia c/ Villa Alta.",
-      "city": "Itauguá",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 11,
-      "lat": -25.3963885,
-      "lng": -57.3458387,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:24:05.704316+00:00",
-      "place_id": "ChIJ3e14Bh9LXJQR9_3Fe22oVw0",
-      "formatted_address": "Ruta 2, Mcal. José, Mariscal José Félix Estigarribia y, Itauguá 110607",
-      "google_name": "Farmacenter Itauguá 4",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "health",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:24:05+00:00"
-    },
-    {
       "id": "loc-bnf-d842eaf8905ab359",
       "bank": "BNF",
       "category": "Farmacias",
@@ -28858,9 +29048,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:06.451049+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ3e14Bh9LXJQR9_3Fe22oVw0",
       "google_candidate": {
         "google_name": "Farmacenter Itauguá 4",
@@ -28869,39 +29059,6 @@
         "lng": -57.3458387,
         "checked_at": "2026-10-20T05:24:06+00:00"
       }
-    },
-    {
-      "id": "loc-bnf-e6083025a13f538c",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Gral. Marcial Samaniego esq. Defensores.",
-      "city": "Itauguá",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 11,
-      "lat": -25.3946079,
-      "lng": -57.3561234,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:24:07.307527+00:00",
-      "place_id": "ChIJfd42anW1XZQR8OGbR7wgSaI",
-      "formatted_address": "Gral. Marcial Samaniego Esquina, Itauguá 0611",
-      "google_name": "Farmacenter Itauguá 3",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "point_of_interest",
-        "health",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:24:07+00:00"
     },
     {
       "id": "loc-bnf-cf9335bca0b00118",
@@ -28920,9 +29077,10 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
+      "needs_review": true,
       "google_last_attempt_at": "2026-10-20T05:24:08.015102+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJPR7FSt61XZQRqS1o1Y7w4Ks",
       "google_candidate": {
         "google_name": "Farmacia Vicente Scavone - Suc. Itaugua Centro",
@@ -28944,41 +29102,7 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
-    },
-    {
-      "id": "loc-bnf-cbeee386d70d5068",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Ruta 1 Domingo Martínez de Irala.",
-      "city": "Itá",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 11,
-      "lat": -25.5085219,
-      "lng": -57.3567097,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:24:08.981668+00:00",
-      "place_id": "ChIJ14JFKwBJXJQRjRt8tLQ3dqg",
-      "formatted_address": "Domingo Martínez de Irala 2710, Itá 2710",
-      "google_name": "Farmacenter Ita 2",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "point_of_interest",
-        "health",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:24:08+00:00"
     },
     {
       "id": "loc-bnf-73228c153484140f",
@@ -28997,9 +29121,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:09.683257+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJCfvGVCRNXJQRn2LZ0-QnFHI",
       "google_candidate": {
         "google_name": "Farmacenter J. Augusto Saldivar",
@@ -29026,9 +29150,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:10.453729+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJCfvGVCRNXJQRn2LZ0-QnFHI",
       "google_candidate": {
         "google_name": "Farmacenter J. Augusto Saldivar",
@@ -29055,9 +29179,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:11.179817+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ6yOwwIBNXJQRykOpfl0tKl0",
       "google_candidate": {
         "google_name": "Farmacias Catedral Suc. J. Augusto Saldivar",
@@ -29158,39 +29282,6 @@
       "online_only": false
     },
     {
-      "id": "loc-bnf-101e012874cd408b",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Avda. Fernando de la Mora y Cacique Lambaré.",
-      "city": "Lambaré",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 12,
-      "lat": -25.3375259,
-      "lng": -57.5865985,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:24:11.962039+00:00",
-      "place_id": "ChIJG2gWKBupXZQRrNXJ7U7lWDw",
-      "formatted_address": "Avda Fernando de la Mora, Av. Cacique Lambare casi, Lambaré 1315",
-      "google_name": "Farmacenter 4 Mojones",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "health",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:24:11+00:00"
-    },
-    {
       "id": "loc-bnf-2d11fcfcd344e9d6",
       "bank": "BNF",
       "category": "Farmacias",
@@ -29207,9 +29298,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:12.996555+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJPUuaIsqpXZQRbhi4QZSktsQ",
       "google_candidate": {
         "google_name": "Farmacenter Lambare 1",
@@ -29232,10 +29323,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 12,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3362317,
+      "lng": -57.6245193,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:42.410895+00:00",
+      "place_id": "ChIJp1VwKM-pXZQR3ZzTfOE8dHw",
+      "formatted_address": "Avda. Dr. Luis M Argaña casi, Porvenir, Lambaré 0705",
+      "google_name": "Farmacenter Argaña",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:55:42+00:00"
     },
     {
       "id": "loc-bnf-3a9ff8b3d5a227ed",
@@ -29253,7 +29359,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:43.429983+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJPUuaIsqpXZQRbhi4QZSktsQ",
+      "google_candidate": {
+        "google_name": "Farmacenter Lambare 1",
+        "formatted_address": "Av. Cacique Lambare 1180 casi, Lambaré 0723",
+        "lat": -25.3431371,
+        "lng": -57.6219219,
+        "checked_at": "2026-10-20T05:55:43+00:00"
+      }
     },
     {
       "id": "loc-bnf-a78c3a8b224805e2",
@@ -29271,7 +29388,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:44.282716+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJPUuaIsqpXZQRbhi4QZSktsQ",
+      "google_candidate": {
+        "google_name": "Farmacenter Lambare 1",
+        "formatted_address": "Av. Cacique Lambare 1180 casi, Lambaré 0723",
+        "lat": -25.3431371,
+        "lng": -57.6219219,
+        "checked_at": "2026-10-20T05:55:44+00:00"
+      }
     },
     {
       "id": "loc-bnf-816273923d6550ff",
@@ -29286,10 +29414,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 12,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3544445,
+      "lng": -57.6113604,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:45.153026+00:00",
+      "place_id": "ChIJndZJbQipXZQRBXqbYfMn9Kw",
+      "formatted_address": "Av. San Isidro esq, Lambaré 0729",
+      "google_name": "Farmacenter San Isidro 2",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:55:45+00:00"
     },
     {
       "id": "loc-bnf-735d1de4c396bfc4",
@@ -29304,10 +29447,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 12,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3431371,
+      "lng": -57.6219219,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:45.942985+00:00",
+      "place_id": "ChIJPUuaIsqpXZQRbhi4QZSktsQ",
+      "formatted_address": "Av. Cacique Lambare 1180 casi, Lambaré 0723",
+      "google_name": "Farmacenter Lambare 1",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:55:45+00:00"
     },
     {
       "id": "loc-bnf-5a4022424198550d",
@@ -29325,7 +29483,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:46.758373+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJuxKHIgCpXZQREXISmIsO95M",
+      "google_candidate": {
+        "google_name": "Farmacia Vicente Scavone",
+        "formatted_address": "JCV2+G4G 110719, Lambaré 110719",
+        "lat": -25.3561856,
+        "lng": -57.5996871,
+        "checked_at": "2026-10-20T05:55:46+00:00"
+      }
     },
     {
       "id": "loc-bnf-f2999135d727d035",
@@ -29343,7 +29512,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:47.583513+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJiUUDZwapXZQRBG7hYUVC4VE",
+      "google_candidate": {
+        "google_name": "Farmacias Catedral Suc. Lambare 6",
+        "formatted_address": "Lambaré 5184",
+        "lat": -25.3633021,
+        "lng": -57.6199691,
+        "checked_at": "2026-10-20T05:55:47+00:00"
+      }
     },
     {
       "id": "loc-bnf-237cb50f26c64373",
@@ -29394,10 +29574,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 12,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.1690113,
+      "lng": -57.475931,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:48.360465+00:00",
+      "place_id": "ChIJO3G9RVqjXZQRuL47e4EH2V4",
+      "formatted_address": "Ruta Gral. Aquino y Roberto Benítez 293, Limpio 0813",
+      "google_name": "Farmacenter Limpio 1",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:55:48+00:00"
     },
     {
       "id": "loc-bnf-c50a70e6768b22b7",
@@ -29415,7 +29610,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:49.120380+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJAekk1VOjXZQR3N7dti8QLbM",
+      "google_candidate": {
+        "google_name": "Farmacenter Limpio 3",
+        "formatted_address": "Ruta 3, Gral. Elizardo Aquino esq, Limpio 0815",
+        "lat": -25.1727996,
+        "lng": -57.4822837,
+        "checked_at": "2026-10-20T05:55:48+00:00"
+      }
     },
     {
       "id": "loc-bnf-70d3701c8eebe8d2",
@@ -29433,7 +29639,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:49.892180+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJVcq4iHmjXZQRl3o0yXh0kIc",
+      "google_candidate": {
+        "google_name": "Farmacias Catedral Suc. Limpio 2",
+        "formatted_address": "R. Benítez, Limpio 110816",
+        "lat": -25.1653907,
+        "lng": -57.4773583,
+        "checked_at": "2026-10-20T05:55:49+00:00"
+      }
     },
     {
       "id": "loc-bnf-7bc6c4b115497bbb",
@@ -29451,7 +29668,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:50.775431+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
+      "google_candidate": {
+        "google_name": "Farmacenter Luque 1",
+        "formatted_address": "Av. Gral. Aquino esq, Luque 0932",
+        "lat": -25.2673297,
+        "lng": -57.4933437,
+        "checked_at": "2026-10-20T05:55:50+00:00"
+      }
     },
     {
       "id": "loc-bnf-965ade8c7528501a",
@@ -29469,7 +29697,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:51.525715+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
+      "google_candidate": {
+        "google_name": "Farmacenter Luque 1",
+        "formatted_address": "Av. Gral. Aquino esq, Luque 0932",
+        "lat": -25.2673297,
+        "lng": -57.4933437,
+        "checked_at": "2026-10-20T05:55:51+00:00"
+      }
     },
     {
       "id": "loc-bnf-87e0bbe4e0f0124c",
@@ -29487,7 +29726,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:52.252743+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
+      "google_candidate": {
+        "google_name": "Farmacenter Luque 1",
+        "formatted_address": "Av. Gral. Aquino esq, Luque 0932",
+        "lat": -25.2673297,
+        "lng": -57.4933437,
+        "checked_at": "2026-10-20T05:55:52+00:00"
+      }
     },
     {
       "id": "loc-bnf-377f3e6c94fda2e4",
@@ -29505,7 +29755,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:53.003472+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
+      "google_candidate": {
+        "google_name": "Farmacenter Luque 1",
+        "formatted_address": "Av. Gral. Aquino esq, Luque 0932",
+        "lat": -25.2673297,
+        "lng": -57.4933437,
+        "checked_at": "2026-10-20T05:55:52+00:00"
+      }
     },
     {
       "id": "loc-bnf-6a3770ea1bfaea59",
@@ -29523,7 +29784,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:53.742962+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ88zxnIyvXZQRFx_a0r1w-6Y",
+      "google_candidate": {
+        "google_name": "Farmacenter Luque 2",
+        "formatted_address": "14 De Mayo esq, Luque 0930",
+        "lat": -25.269799,
+        "lng": -57.4876717,
+        "checked_at": "2026-10-20T05:55:53+00:00"
+      }
     },
     {
       "id": "loc-bnf-d21fdbd68e4049ba",
@@ -29538,10 +29810,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 12,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.2606303,
+      "lng": -57.490318,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:54.439027+00:00",
+      "place_id": "ChIJxRpvqI-lXZQRuSXrZC_k4yI",
+      "formatted_address": "Calle Rosario Entre, Mcal. Estigarribia y, Luque 0920",
+      "google_name": "Farmacenter Luque 7",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:55:54+00:00"
     },
     {
       "id": "loc-bnf-bc97f132acf4f8e0",
@@ -29559,7 +29846,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:55.152230+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
+      "google_candidate": {
+        "google_name": "Farmacenter Luque 1",
+        "formatted_address": "Av. Gral. Aquino esq, Luque 0932",
+        "lat": -25.2673297,
+        "lng": -57.4933437,
+        "checked_at": "2026-10-20T05:55:55+00:00"
+      }
     },
     {
       "id": "loc-bnf-92be91b4eb9a7595",
@@ -29574,10 +29872,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 12,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.2977632,
+      "lng": -57.4716058,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:55.841786+00:00",
+      "place_id": "ChIJsQM_fvCvXZQRiGLx6VeRlRc",
+      "formatted_address": "Cnel. Martinez casi Dr. Andrés Avelino Báez Insfran, Luque 0953",
+      "google_name": "Farmacenter Luque 10",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:55:55+00:00"
     },
     {
       "id": "loc-bnf-cb30fc3e646022bd",
@@ -29595,7 +29908,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:56.593242+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
+      "google_candidate": {
+        "google_name": "Farmacenter Luque 1",
+        "formatted_address": "Av. Gral. Aquino esq, Luque 0932",
+        "lat": -25.2673297,
+        "lng": -57.4933437,
+        "checked_at": "2026-10-20T05:55:56+00:00"
+      }
     },
     {
       "id": "loc-bnf-c414958eb47e7110",
@@ -29613,7 +29937,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:57.357783+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJw-E_SdKvXZQRQlBANBd1A_s",
+      "google_candidate": {
+        "google_name": "Farmacia Vicente Scavone Sucursal Luisito - Luque",
+        "formatted_address": "Corenelio Lopez, Luque 110921",
+        "lat": -25.2662437,
+        "lng": -57.4846238,
+        "checked_at": "2026-10-20T05:55:57+00:00"
+      }
     },
     {
       "id": "loc-bnf-a7247b6a54c00053",
@@ -29631,7 +29966,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:58.127920+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJw4whvDqvXZQRNsoIhyhH9iI",
+      "google_candidate": {
+        "google_name": "Farmacias Catedral Suc Luque 9",
+        "formatted_address": "Luque 3228",
+        "lat": -25.2830904,
+        "lng": -57.4832961,
+        "checked_at": "2026-10-20T05:55:58+00:00"
+      }
     },
     {
       "id": "loc-bnf-dde302d5f91c53b2",
@@ -29649,7 +29995,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:58.941056+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ5ycktaevXZQRp4YpiWjwdPw",
+      "google_candidate": {
+        "google_name": "Farmacia catedral Suc. Luque 2",
+        "formatted_address": "Av. Humaita, Luque 110930",
+        "lat": -25.2716213,
+        "lng": -57.4866523,
+        "checked_at": "2026-10-20T05:55:58+00:00"
+      }
     },
     {
       "id": "loc-bnf-fd622756dbb485a1",
@@ -29667,7 +30024,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:55:59.704477+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJsV93WIClXZQRzyRUCV54FxE",
+      "google_candidate": {
+        "google_name": "Farmacenter Mariano 2",
+        "formatted_address": "Ruta Transchaco c/ Centeno Mariano Roque Alonso, Mariano Roque Alonso 1010",
+        "lat": -25.214851,
+        "lng": -57.5300811,
+        "checked_at": "2026-10-20T05:55:59+00:00"
+      }
     },
     {
       "id": "loc-bnf-96371e0da14533ac",
@@ -29685,7 +30053,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:56:00.516217+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJsV93WIClXZQRzyRUCV54FxE",
+      "google_candidate": {
+        "google_name": "Farmacenter Mariano 2",
+        "formatted_address": "Ruta Transchaco c/ Centeno Mariano Roque Alonso, Mariano Roque Alonso 1010",
+        "lat": -25.214851,
+        "lng": -57.5300811,
+        "checked_at": "2026-10-20T05:56:00+00:00"
+      }
     },
     {
       "id": "loc-bnf-98e06a24b293a02f",
@@ -29703,7 +30082,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:56:01.233722+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJQSTJiDakXZQRghezsqNZYm4",
+      "google_candidate": {
+        "google_name": "Farmacenter Mariano 1",
+        "formatted_address": "KM 14, Juan de Salazar esquina, Mariano Roque Alonso 1019",
+        "lat": -25.224715,
+        "lng": -57.5332162,
+        "checked_at": "2026-10-20T05:56:01+00:00"
+      }
     },
     {
       "id": "loc-bnf-bedd4930e487e7ca",
@@ -29721,7 +30111,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:56:01.977549+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJsV93WIClXZQRzyRUCV54FxE",
+      "google_candidate": {
+        "google_name": "Farmacenter Mariano 2",
+        "formatted_address": "Ruta Transchaco c/ Centeno Mariano Roque Alonso, Mariano Roque Alonso 1010",
+        "lat": -25.214851,
+        "lng": -57.5300811,
+        "checked_at": "2026-10-20T05:56:01+00:00"
+      }
     },
     {
       "id": "loc-bnf-bb4332d08187fdc3",
@@ -29739,7 +30140,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:56:02.742844+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJdZKfTqalXZQRc5YXh6ztnp4",
+      "google_candidate": {
+        "google_name": "Farmacia Vicente Scavone - Suc. MRA",
+        "formatted_address": "QFQ7+5HC, Mariano Roque Alonso 111010",
+        "lat": -25.2121126,
+        "lng": -57.5360735,
+        "checked_at": "2026-10-20T05:56:02+00:00"
+      }
     },
     {
       "id": "loc-bnf-1a2bd799d27cd91d",
@@ -29757,7 +30169,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:56:03.532600+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ9wbxdGGlXZQR6DuuA1ehoms",
+      "google_candidate": {
+        "google_name": "Farmacias Catedral Suc. Shopping Mariano",
+        "formatted_address": "Mariano Roque Alonso 645, Mariano Roque Alonso 9458",
+        "lat": -25.2259531,
+        "lng": -57.5354134,
+        "checked_at": "2026-10-20T05:56:03+00:00"
+      }
     },
     {
       "id": "loc-bnf-bd142e2dc1ba3887",
@@ -29937,7 +30360,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:56:04.288097+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJA1t1DnWrXZQRa6u6V78waSo",
+      "google_candidate": {
+        "google_name": "Farmacenter San Antonio",
+        "formatted_address": "Avda. San Antonio 9032 San Antonio, San Antonio 1304",
+        "lat": -25.412342,
+        "lng": -57.5736543,
+        "checked_at": "2026-10-20T05:56:04+00:00"
+      }
     },
     {
       "id": "loc-bnf-d8fd63cd2be4fef7",
@@ -29952,10 +30386,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 13,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.4108439,
+      "lng": -57.5488914,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:56:04.659555+00:00",
+      "place_id": "ChIJmT8F7MqtXZQR9mH4JbEFH_k",
+      "formatted_address": "Cadete de Boquerón esquina, San Antonio 1308",
+      "google_name": "Farmacenter San Antonio 2",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:56:04+00:00"
     },
     {
       "id": "loc-bnf-4c89055bea3d06f0",
@@ -29973,7 +30422,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:56:05.029551+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJp_UQeACvXZQR3dyylHfUgjs",
+      "google_candidate": {
+        "google_name": "Farmacenter Avelino Martinez 2",
+        "formatted_address": "JFW6+VV3, San Lorenzo 111434",
+        "lat": -25.3528744,
+        "lng": -57.537823,
+        "checked_at": "2026-10-20T05:56:04+00:00"
+      }
     },
     {
       "id": "loc-bnf-f2cdc3b94ccab7a2",
@@ -30204,10 +30664,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 13,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.346542,
+      "lng": -57.5134574,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:56:05.393931+00:00",
+      "place_id": "ChIJ7eLnnIauXZQRKsYVamtwRDU",
+      "formatted_address": "Hernandarias 1638 casi Julia Miranda Cueto San Lorenzo, San Lorenzo 1422",
+      "google_name": "Farmacenter San Lorenzo 1",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:56:05+00:00"
     },
     {
       "id": "loc-bnf-79f73d5fa2d2bdd9",
@@ -30802,6 +31277,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
@@ -30815,7 +31291,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -30979,6 +31454,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Peru visible pero cruce rotulado PY01, no DrFrancia; equivalencia no demostrada.",
@@ -30992,7 +31468,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -31012,6 +31487,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Pin dentro de predio de mercado; no se ve BloqueB/Salones1y2 ni acceso exacto.",
@@ -31025,7 +31501,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -31135,6 +31610,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Pin cerca de Paraiso/avenida sin nombre visible; no confirma FernandoDeLaMora2589/cUniversitarios.",
@@ -31148,7 +31624,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -31348,6 +31823,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Pin en DrBlasGaray/SilvioPettirossi, no McalEstigarribia/Boqueron.",
@@ -31361,7 +31837,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -31417,6 +31892,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Ruta14 visible pero avenida transversal sin etiqueta Irrazabal; falta confirmar alias/identidad.",
@@ -31430,7 +31906,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -31540,6 +32015,7 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "needs_review": true,
       "qa_hold": true,
       "qa_hold_detail": {
         "reason": "Pin sobre AvSanJose; no se reconcilia con Ruta3km22.5/AbastoNorte/BloqueC.",
@@ -31553,7 +32029,6 @@
         "reviewed_on": "2026-10-20",
         "identity_changed": false
       },
-      "needs_review": true,
       "location_review_status": "qa_hold"
     },
     {
@@ -47376,9 +47851,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:48.883046+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJhSrEF16uXZQR0V9Xdn_3nM8",
       "google_candidate": {
         "google_name": "Petrosur Calle'i San Lorenzo",
@@ -47403,9 +47878,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:49.750559+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJsWEHKwCvXZQRU0tdOOUPmH0",
       "google_candidate": {
         "google_name": "Petropar Santa María",
@@ -47430,9 +47905,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:50.727679+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJj269fACtXZQRlQFeo8UGk4Y",
       "google_candidate": {
         "google_name": "Petropar Teniente Molas",
@@ -47457,9 +47932,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:51.758110+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJCVoMRNGtXZQRn9jqvH6TUKs",
       "google_candidate": {
         "google_name": "Petropar Grupo Areve",
@@ -47628,9 +48103,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:52.546831+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJXQCNooasXZQRdR2oH-z-yI4",
       "google_candidate": {
         "google_name": "Estación de Servicio Copetrol",
@@ -47639,36 +48114,6 @@
         "lng": -57.5467565,
         "checked_at": "2026-10-20T05:23:52+00:00"
       }
-    },
-    {
-      "id": "loc-ueno-2971a1018b",
-      "bank": "ueno bank",
-      "category": "Combustible",
-      "merchant_name": "Copetrol San Antonio",
-      "address": "Av. San Antonio e/ Av. Central",
-      "city": "San Antonio",
-      "department": "",
-      "country": "Paraguay",
-      "merchant_brand": "COPETROL",
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
-      "source_page": 15,
-      "lat": -25.4042685,
-      "lng": -57.572558,
-      "geocode_source": "google_places_text_search",
-      "google_last_attempt_at": "2026-10-20T05:23:53.530808+00:00",
-      "place_id": "ChIJTYf6JJmrXZQRcLIvgRH2dbw",
-      "formatted_address": "HCWG+7XW, Av. San Antonio, San Antonio 111302",
-      "google_name": "COPETROL (Gestion San Antonio)",
-      "google_types": [
-        "gas_station",
-        "point_of_interest",
-        "service",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:23:53+00:00"
     },
     {
       "id": "loc-ueno-8123f0a433",
@@ -47685,9 +48130,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:54.304367+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJGXcB_CarXZQRtTnVpMrBvGY",
       "google_candidate": {
         "google_name": "Estación de Servicios Enex San Antonio",
@@ -47872,9 +48317,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:55.429111+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJFVTGjXCuXZQRyly-dblZvVA",
       "google_candidate": {
         "google_name": "Copetrol (Antares)",
@@ -47899,9 +48344,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:56.367480+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJoUL0zKWpXZQR2dGRMrruirs",
       "google_candidate": {
         "google_name": "TED-Wepa - Copetrol Avelino Martinez",
@@ -47926,9 +48371,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:57.110138+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJZ83Lvi6sXZQRNMOEdA0ERhQ",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -47953,9 +48398,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:57.810006+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJfzBPxi2vXZQRlJuebj5UpP8",
       "google_candidate": {
         "google_name": "COPETROL",
@@ -47964,36 +48409,6 @@
         "lng": -57.5170185,
         "checked_at": "2026-10-20T05:23:57+00:00"
       }
-    },
-    {
-      "id": "loc-ueno-ac8bc7d775",
-      "bank": "ueno bank",
-      "category": "Combustible",
-      "merchant_name": "Copetrol Km.11",
-      "address": "Av. De los Agronomos Km 11 c/ Avelino Martinez",
-      "city": "San Lorenzo",
-      "department": "",
-      "country": "Paraguay",
-      "merchant_brand": "COPETROL",
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
-      "source_page": 15,
-      "lat": -25.3406566,
-      "lng": -57.5204114,
-      "geocode_source": "google_places_text_search",
-      "google_last_attempt_at": "2026-10-20T05:23:58.661979+00:00",
-      "place_id": "ChIJeQDMH2ivXZQRlq2UdIM7APE",
-      "formatted_address": "Km 11, Av. De los Agronomos, c/ A. Martinez, San Lorenzo 111434",
-      "google_name": "TED-Wepa - Copetrol Km 11 Los Agronomos",
-      "google_types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:23:58+00:00"
     },
     {
       "id": "loc-ueno-d6ef1f3a39",
@@ -48010,9 +48425,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:23:59.465700+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJseoFtM6tXZQRaGSY5d-WAjw",
       "google_candidate": {
         "google_name": "TED-Wepa - Copetrol Kurusu",
@@ -48021,36 +48436,6 @@
         "lng": -57.5147851,
         "checked_at": "2026-10-20T05:23:59+00:00"
       }
-    },
-    {
-      "id": "loc-ueno-1785ad2474",
-      "bank": "ueno bank",
-      "category": "Combustible",
-      "merchant_name": "Copetrol Laguna Grande",
-      "address": "Avda Laguna Grande esq. Calle 1",
-      "city": "San Lorenzo",
-      "department": "",
-      "country": "Paraguay",
-      "merchant_brand": "COPETROL",
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
-      "source_page": 13,
-      "lat": -25.2929179,
-      "lng": -57.5403016,
-      "geocode_source": "google_places_text_search",
-      "google_last_attempt_at": "2026-10-20T05:24:00.445358+00:00",
-      "place_id": "ChIJjSxU1ACvXZQRM7bqqef8XhU",
-      "formatted_address": "Avda. Laguna Grande esq, San Lorenzo 110301",
-      "google_name": "TED-Wepa - Copetrol Laguna Grande",
-      "google_types": [
-        "atm",
-        "finance",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:24:00+00:00"
     },
     {
       "id": "loc-ueno-8b3cc2ada3",
@@ -48067,9 +48452,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:01.286307+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJUcKpjditXZQRhgFxSDYZ9Lg",
       "google_candidate": {
         "google_name": "Copetrol Porvenir",
@@ -48094,9 +48479,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:02.015527+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJA9wn2XCuXZQRWwRUfqe8xl0",
       "google_candidate": {
         "google_name": "KM14 Copetrol ROUTE 2",
@@ -48121,9 +48506,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:02.763331+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJnyaMtomuXZQRkKj17dUxjf4",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -48148,9 +48533,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:03.686612+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJnyaMtomuXZQRkKj17dUxjf4",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -48175,9 +48560,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:04.396396+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ71z6-kCvXZQRcX-a9iZAkog",
       "google_candidate": {
         "google_name": "TED-Wepa - Copetrol Reconstrucción Nacional",
@@ -48202,9 +48587,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:05.307480+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJnyaMtomuXZQRkKj17dUxjf4",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -48229,9 +48614,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:06.080513+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJhSrEF16uXZQR0V9Xdn_3nM8",
       "google_candidate": {
         "google_name": "Petrosur Calle'i San Lorenzo",
@@ -48256,9 +48641,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:06.788869+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ8z-Iv0SsXZQR2A428Uxk9CE",
       "google_candidate": {
         "google_name": "COPETROL",
@@ -48283,9 +48668,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:07.647414+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJnyaMtomuXZQRkKj17dUxjf4",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -48310,9 +48695,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:08.440591+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJA9wn2XCuXZQRWwRUfqe8xl0",
       "google_candidate": {
         "google_name": "KM14 Copetrol ROUTE 2",
@@ -48337,9 +48722,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:09.325260+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJj0M4cc-tXZQRGqYHtfu1baM",
       "google_candidate": {
         "google_name": "Copetrol",
@@ -48364,9 +48749,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:10.094007+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJk8AbFDesXZQRnDSXusMwmUQ",
       "google_candidate": {
         "google_name": "Petrobras AMIGO-SANLO",
@@ -48391,9 +48776,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:10.831349+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJGaZnuYauXZQRe1PS4Co6D7k",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -48418,9 +48803,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:11.585126+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJd-u5tXWvXZQRBl3GNQoOq0Y",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -48445,9 +48830,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:12.507466+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJo-GkGN6vXZQRVTXRbiHddz8",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -48472,9 +48857,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:24:13.409266+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJG2pfAAStXZQRUF2kjlTv28Q",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -48498,7 +48883,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:43.023758+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJA9wn2XCuXZQRWwRUfqe8xl0",
+      "google_candidate": {
+        "google_name": "KM14 Copetrol ROUTE 2",
+        "formatted_address": "RUTA MCAL. JOSE F. ESTIGARRIBIA y Patricio Colman - KM 14, PY02, San Lorenzo 111429",
+        "lat": -25.3424995,
+        "lng": -57.4941024,
+        "checked_at": "2026-10-20T05:55:42+00:00"
+      }
     },
     {
       "id": "loc-ueno-f799a915b6",
@@ -48514,7 +48910,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:43.870431+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJG2pfAAStXZQRUF2kjlTv28Q",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Km 15,2, JGW6+55, Ruta I, San Lorenzo 111454",
+        "lat": -25.3545625,
+        "lng": -57.4895625,
+        "checked_at": "2026-10-20T05:55:43+00:00"
+      }
     },
     {
       "id": "loc-ueno-bf2b2be410",
@@ -48530,7 +48937,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:44.779220+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJd-u5tXWvXZQRBl3GNQoOq0Y",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Ruta Mariscal José Felix Estigarribia esq, San Lorenzo 002160",
+        "lat": -25.3426858,
+        "lng": -57.5178916,
+        "checked_at": "2026-10-20T05:55:44+00:00"
+      }
     },
     {
       "id": "loc-ueno-3c1702b97a",
@@ -48674,7 +49092,18 @@
       "source_page": 12,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:45.588994+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJB0SZDC2qXZQR0GoGRfR0G0Y",
+      "google_candidate": {
+        "google_name": "Petropar - VILLA ELISA",
+        "formatted_address": "J98X+9GC, Av. Americo Picco, Villa Elisa 111512",
+        "lat": -25.3835662,
+        "lng": -57.6040797,
+        "checked_at": "2026-10-20T05:55:45+00:00"
+      }
     },
     {
       "id": "loc-ueno-a9fe940a6a",
@@ -48690,7 +49119,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:46.403199+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJB0SZDC2qXZQR0GoGRfR0G0Y",
+      "google_candidate": {
+        "google_name": "Petropar - VILLA ELISA",
+        "formatted_address": "J98X+9GC, Av. Americo Picco, Villa Elisa 111512",
+        "lat": -25.3835662,
+        "lng": -57.6040797,
+        "checked_at": "2026-10-20T05:55:46+00:00"
+      }
     },
     {
       "id": "loc-ueno-9108a0a9b4",
@@ -48706,7 +49146,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:47.195433+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJV7pnWXupXZQRajcyhRdq1a4",
+      "google_candidate": {
+        "google_name": "Copetrol - Von Poleski",
+        "formatted_address": "JCM6+9PG, Av. Enrique Von Poleski, Villa Elisa 111506",
+        "lat": -25.366568,
+        "lng": -57.588359,
+        "checked_at": "2026-10-20T05:55:47+00:00"
+      }
     },
     {
       "id": "loc-ueno-b1d60be169",
@@ -48866,7 +49317,18 @@
       "source_page": 15,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:47.990429+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJV7pnWXupXZQRajcyhRdq1a4",
+      "google_candidate": {
+        "google_name": "Copetrol - Von Poleski",
+        "formatted_address": "JCM6+9PG, Av. Enrique Von Poleski, Villa Elisa 111506",
+        "lat": -25.366568,
+        "lng": -57.588359,
+        "checked_at": "2026-10-20T05:55:47+00:00"
+      }
     },
     {
       "id": "loc-ueno-c1fdafd07e",
@@ -48882,7 +49344,18 @@
       "source_page": 10,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:48.757712+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJodvqTGCpXZQRk-IzxQJzdSU",
+      "google_candidate": {
+        "google_name": "COPETROL",
+        "formatted_address": "JCJC+JFW, Av. Americo Picco, Villa Elisa 111510",
+        "lat": -25.3683971,
+        "lng": -57.5787875,
+        "checked_at": "2026-10-20T05:55:48+00:00"
+      }
     },
     {
       "id": "loc-ueno-1fab6caf90",
@@ -48898,7 +49371,18 @@
       "source_page": 17,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:49.511273+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJUSY9nPipXZQRwUfGOiPtONc",
+      "google_candidate": {
+        "google_name": "Estación de Servicios Enex - Avda. Von Polesky",
+        "formatted_address": "Av. Enrique Von Poleski &, Villa Florida, Villa Elisa 111506",
+        "lat": -25.3672845,
+        "lng": -57.5876322,
+        "checked_at": "2026-10-20T05:55:49+00:00"
+      }
     },
     {
       "id": "loc-ueno-02a865b5f8",
@@ -48914,7 +49398,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:50.286334+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJCWNpSeipXZQRD-EU9nuW7V0",
+      "google_candidate": {
+        "google_name": "3MG AMERICO PICCO",
+        "formatted_address": "JCQF+JM9, Villa Elisa 111508",
+        "lat": -25.3609539,
+        "lng": -57.5757784,
+        "checked_at": "2026-10-20T05:55:50+00:00"
+      }
     },
     {
       "id": "loc-ueno-2fb659f03e",
@@ -49202,7 +49697,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:51.140184+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJrZNjkWatXZQRcShiwu2vy0w",
+      "google_candidate": {
+        "google_name": "PETROPAR ÑEMBY LOS NARANJOS",
+        "formatted_address": "Ñemby 111216",
+        "lat": -25.3955235,
+        "lng": -57.5416305,
+        "checked_at": "2026-10-20T05:55:51+00:00"
+      }
     },
     {
       "id": "loc-ueno-28a3798806",
@@ -49218,7 +49724,18 @@
       "source_page": 12,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:51.876486+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJy_ksGwCtXZQRzMmYosCZdog",
+      "google_candidate": {
+        "google_name": "Petropar Acceso Sur Ñemby",
+        "formatted_address": "JF24+H64, Acceso Sur, Ñemby 111214",
+        "lat": -25.398562,
+        "lng": -57.544452,
+        "checked_at": "2026-10-20T05:55:51+00:00"
+      }
     },
     {
       "id": "loc-ueno-a7c085b4f0",
@@ -49234,7 +49751,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:52.646329+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJy_ksGwCtXZQRzMmYosCZdog",
+      "google_candidate": {
+        "google_name": "Petropar Acceso Sur Ñemby",
+        "formatted_address": "JF24+H64, Acceso Sur, Ñemby 111214",
+        "lat": -25.398562,
+        "lng": -57.544452,
+        "checked_at": "2026-10-20T05:55:52+00:00"
+      }
     },
     {
       "id": "loc-ueno-f7bbe70290",
@@ -49250,7 +49778,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:53.383664+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJy_ksGwCtXZQRzMmYosCZdog",
+      "google_candidate": {
+        "google_name": "Petropar Acceso Sur Ñemby",
+        "formatted_address": "JF24+H64, Acceso Sur, Ñemby 111214",
+        "lat": -25.398562,
+        "lng": -57.544452,
+        "checked_at": "2026-10-20T05:55:53+00:00"
+      }
     },
     {
       "id": "loc-ueno-1f74058fb7",
@@ -49266,7 +49805,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:54.110765+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJrZNjkWatXZQRcShiwu2vy0w",
+      "google_candidate": {
+        "google_name": "PETROPAR ÑEMBY LOS NARANJOS",
+        "formatted_address": "Ñemby 111216",
+        "lat": -25.3955235,
+        "lng": -57.5416305,
+        "checked_at": "2026-10-20T05:55:53+00:00"
+      }
     },
     {
       "id": "loc-ueno-e37d341dae",
@@ -49282,7 +49832,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:54.795691+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJrZNjkWatXZQRcShiwu2vy0w",
+      "google_candidate": {
+        "google_name": "PETROPAR ÑEMBY LOS NARANJOS",
+        "formatted_address": "Ñemby 111216",
+        "lat": -25.3955235,
+        "lng": -57.5416305,
+        "checked_at": "2026-10-20T05:55:54+00:00"
+      }
     },
     {
       "id": "loc-ueno-fad0134eeb",
@@ -49296,9 +49857,23 @@
       "merchant_brand": "PETROPAR",
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-Petropar-_-OCT-2026v3.pdf",
       "source_page": 7,
-      "lat": null,
-      "lng": null,
-      "geocode_source": ""
+      "lat": -25.398562,
+      "lng": -57.544452,
+      "geocode_source": "google_places_text_search",
+      "google_last_attempt_at": "2026-10-20T05:55:55.491721+00:00",
+      "place_id": "ChIJy_ksGwCtXZQRzMmYosCZdog",
+      "formatted_address": "JF24+H64, Acceso Sur, Ñemby 111214",
+      "google_name": "Petropar Acceso Sur Ñemby",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:55:55+00:00"
     },
     {
       "id": "loc-ueno-4900999520",
@@ -49330,7 +49905,18 @@
       "source_page": 15,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:56.222157+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJk_3aMFOtXZQRSUiau-5jVKA",
+      "google_candidate": {
+        "google_name": "TED-Wepa - Copetrol Acceso Sur 3",
+        "formatted_address": "Acceso Sur 2575 casi, Ñemby 111226",
+        "lat": -25.4375452,
+        "lng": -57.5361529,
+        "checked_at": "2026-10-20T05:55:56+00:00"
+      }
     },
     {
       "id": "loc-ueno-56381d356d",
@@ -49346,7 +49932,18 @@
       "source_page": 15,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:56.981422+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJFaDWkk2tXZQRvZolTE_5a_I",
+      "google_candidate": {
+        "google_name": "Copetrol, Ñemby Caaguazú",
+        "formatted_address": "Unnamed Road, Ñemby 111223",
+        "lat": -25.4072631,
+        "lng": -57.5262789,
+        "checked_at": "2026-10-20T05:55:56+00:00"
+      }
     },
     {
       "id": "loc-ueno-13a0c21450",
@@ -49362,7 +49959,18 @@
       "source_page": 15,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:57.717693+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJfSFEB3SsXZQR95WMR92RLHU",
+      "google_candidate": {
+        "google_name": "Copetrol Estrella",
+        "formatted_address": "JF62+QW7, Acceso Sur, Ñemby 111207",
+        "lat": -25.3880907,
+        "lng": -57.5477104,
+        "checked_at": "2026-10-20T05:55:57+00:00"
+      }
     },
     {
       "id": "loc-ueno-9dfd8c9ecb",
@@ -49378,7 +49986,18 @@
       "source_page": 16,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:58.541655+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJCdILAwCtXZQRylArVcoA1UE",
+      "google_candidate": {
+        "google_name": "Enex",
+        "formatted_address": "JF5F+47P, Ave Del La Victoria Tape Guazu, Ñemby 111219",
+        "lat": -25.3919298,
+        "lng": -57.5265525,
+        "checked_at": "2026-10-20T05:55:58+00:00"
+      }
     },
     {
       "id": "loc-ueno-4c3736ce94",
@@ -49394,7 +50013,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:55:59.344658+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ_3ZJ4_WrXZQR9EOe7sD_nOM",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Acceso Sur, Ñemby 002160",
+        "lat": -25.3795741,
+        "lng": -57.5540364,
+        "checked_at": "2026-10-20T05:55:59+00:00"
+      }
     },
     {
       "id": "loc-ueno-585aa12c76",
@@ -49410,11 +50040,21 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:56:00.132076+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ_3ZJ4_WrXZQR9EOe7sD_nOM",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Acceso Sur, Ñemby 002160",
+        "lat": -25.3795741,
+        "lng": -57.5540364,
+        "checked_at": "2026-10-20T05:56:00+00:00"
+      }
     }
   ],
-  "google_enriched_locations": 142,
+  "google_enriched_locations": 151,
   "google_enrichment_focus": "Asunción y Gran Asunción",
-  "locations_updated_at": "2026-10-20T05:24:13+00:00",
-  "qa_held_locations": 85
+  "locations_updated_at": "2026-10-20T05:56:05+00:00"
 }
