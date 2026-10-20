@@ -65,6 +65,9 @@ def is_metro_location(item):
 
 
 def should_enrich(item):
+    from location_qa_holds import is_held
+    if is_held(item):
+        return False
     if item.get('online_only') or not item.get('address') or norm(item.get('address')).startswith('app '):
         return False
     if not is_metro_location(item):
@@ -231,6 +234,9 @@ def enrich_one(item, cache):
 
 
 def apply_result(item, result):
+    from location_qa_holds import is_held
+    if is_held(item):
+        return item
     item["google_last_attempt_at"] = datetime.now(timezone.utc).isoformat()
     if not result:
         item["google_enrichment_status"] = "not_found"
@@ -260,6 +266,8 @@ def main():
         raise RuntimeError("GOOGLE_MAPS_BACKEND_API_KEY is not set; location enrichment was not performed.")
     payload = load_json(LOCATIONS_JSON, {})
     locations = payload.get("locations") or []
+    from location_qa_holds import apply_holds
+    apply_holds(locations)
     cache = load_json(CACHE_PATH, {})
     enriched = 0
     attempted = 0
@@ -300,6 +308,9 @@ def main():
     )
     payload["google_enrichment_focus"] = "Asunción y Gran Asunción"
     payload["locations_updated_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
+    # Defense in depth if another enrichment path changed the row.
+    apply_holds(locations)
+    payload["qa_held_locations"] = sum(bool(item.get("qa_hold")) for item in locations)
     save_json(LOCATIONS_JSON, payload)
     save_json(CACHE_PATH, cache)
     save_json(METRO_OUTPUT, [item for item in locations if item.get('google_enrichment_status') == 'needs_review'])

@@ -333,12 +333,25 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-10-17T03:24:57+00:00",
-      "needs_review": false,
+      "needs_review": true,
       "google_last_attempt_at": "2026-10-17T03:24:57.245838+00:00",
       "google_enrichment_status": "needs_review",
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Google result is TED-Wepa ATM (types atm/finance), not a verified fuel-station establishment. Address similarity alone does not confirm the merchant.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Google result is TED-Wepa ATM (types atm/finance), not a verified fuel-station establishment. Address similarity alone does not confirm the merchant.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      }
     },
     {
       "id": "loc-bnf-1052cc7e6eefa545",
@@ -368,12 +381,25 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-10-17T03:46:30+00:00",
-      "needs_review": false,
+      "needs_review": true,
       "google_last_attempt_at": "2026-10-17T03:46:30.504997+00:00",
       "google_enrichment_status": "needs_review",
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Official source specifies Acceso Sur km 32; Google result says km 30. Exact branch remains unconfirmed.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Official source specifies Acceso Sur km 32; Google result says km 30. Exact branch remains unconfirmed.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      }
     },
     {
       "id": "loc-bnf-2f713dee2fa4e356",
@@ -8340,9 +8366,23 @@
         "lng": -57.5720697,
         "checked_at": "2026-09-14T15:18:24+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-f6171a3741",
@@ -8385,9 +8425,23 @@
         "lng": -57.5775225,
         "checked_at": "2026-09-22T12:36:35+00:00"
       },
-      "location_review_status": "rejected",
+      "location_review_status": "qa_hold",
       "location_review_reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Mercado de Abasto Bloque D en Asunción.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Mercado de Abasto Bloque D en Asunción.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-1ff6c937a7",
@@ -8430,9 +8484,23 @@
         "lng": -57.5775225,
         "checked_at": "2026-09-22T12:36:36+00:00"
       },
-      "location_review_status": "rejected",
+      "location_review_status": "qa_hold",
       "location_review_reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Galería Santa Teresa junto al Mercado de Abasto.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Galería Santa Teresa junto al Mercado de Abasto.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-0c7916e643",
@@ -8478,9 +8546,23 @@
         "lng": -57.5713844,
         "checked_at": "2026-09-22T12:36:37+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-91e0ad0a9e",
@@ -8523,9 +8605,23 @@
         "lng": -57.4704475,
         "checked_at": "2026-09-22T12:36:38+00:00"
       },
-      "location_review_status": "rejected",
+      "location_review_status": "qa_hold",
       "location_review_reason": "La fuente indica Ruta PY02 y Madrigal; el candidato indica Ruta 1 y Clavel. No es la misma dirección.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "La fuente indica Ruta PY02 y Madrigal; el candidato indica Ruta 1 y Clavel. No es la misma dirección.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-dcc7f47aa0",
@@ -8568,9 +8664,23 @@
         "lng": -57.4704475,
         "checked_at": "2026-09-22T12:36:39+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-954db3d2fa",
@@ -8658,9 +8768,23 @@
         "lng": -57.49035,
         "checked_at": "2026-09-14T15:18:25+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-9871905a5c",
@@ -8704,9 +8828,23 @@
         "lng": -57.4854766,
         "checked_at": "2026-09-22T12:36:40+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-55949de43c",
@@ -8752,9 +8890,23 @@
         "lng": -57.5391078,
         "checked_at": "2026-09-22T12:36:41+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-99313f94a1",
@@ -8797,9 +8949,23 @@
         "lng": -57.5165948,
         "checked_at": "2026-09-22T12:36:42+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-90f28d597c",
@@ -8842,9 +9008,23 @@
         "lng": -57.5595681,
         "checked_at": "2026-09-22T12:36:43+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-d3dcfde46e",
@@ -8883,9 +9063,23 @@
         "lng": -57.4218857,
         "checked_at": "2026-09-22T12:36:44+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-68dd380226",
@@ -8928,9 +9122,23 @@
         "lng": -57.3804334,
         "checked_at": "2026-09-22T12:36:45+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-f6f09af6c0",
@@ -8973,9 +9181,23 @@
         "lng": -57.5788706,
         "checked_at": "2026-09-22T12:36:46+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-f268749437",
@@ -9018,9 +9240,23 @@
         "lng": -57.6175591,
         "checked_at": "2026-09-22T12:36:46+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-acb35e59cb",
@@ -9062,9 +9298,23 @@
         "lng": -57.6273226,
         "checked_at": "2026-09-14T15:18:26+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-3ee05c96c4",
@@ -9174,9 +9424,23 @@
         "lng": -57.578477,
         "checked_at": "2026-09-22T12:36:51+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-7e62631dc9",
@@ -9219,9 +9483,23 @@
         "lng": -57.629916,
         "checked_at": "2026-09-22T12:36:52+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-b69261f7c8",
@@ -9264,9 +9542,23 @@
         "lng": -57.6566815,
         "checked_at": "2026-09-22T12:36:53+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-06cc9d2280",
@@ -9309,9 +9601,23 @@
         "lng": -57.6427172,
         "checked_at": "2026-09-22T12:36:54+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-c0d0efc47a",
@@ -9386,9 +9692,23 @@
         "lng": -57.641037,
         "checked_at": "2026-09-22T12:36:55+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-360198c5e2",
@@ -9431,9 +9751,23 @@
         "lng": -57.5525948,
         "checked_at": "2026-09-22T12:36:56+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-b3c7a978ab",
@@ -9476,9 +9810,23 @@
         "lng": -57.5967149,
         "checked_at": "2026-09-14T15:18:29+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-bba38ccaba",
@@ -9622,9 +9970,23 @@
         "lng": -57.6174629,
         "checked_at": "2026-09-22T12:36:57+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-1c18181680",
@@ -9799,9 +10161,23 @@
         "lng": -57.582845,
         "checked_at": "2026-09-22T12:36:58+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-df8d7d797e",
@@ -9843,9 +10219,23 @@
         "lng": -57.5544213,
         "checked_at": "2026-09-23T12:48:02+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-6aef0c4443",
@@ -9923,9 +10313,23 @@
         "lng": -57.5544213,
         "checked_at": "2026-09-14T15:18:30+00:00"
       },
-      "location_review_status": "rejected",
+      "location_review_status": "qa_hold",
       "location_review_reason": "La sucursal oficial es Primer Presidente/Gabriel Casaccia; el candidato es Aviadores del Chaco.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "La sucursal oficial es Primer Presidente/Gabriel Casaccia; el candidato es Aviadores del Chaco.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-b1552f4f08",
@@ -9968,9 +10372,23 @@
         "lng": -57.5544213,
         "checked_at": "2026-09-14T15:18:31+00:00"
       },
-      "location_review_status": "rejected",
+      "location_review_status": "qa_hold",
       "location_review_reason": "La sucursal oficial es Molas López/Veteranos del70; el candidato es Aviadores del Chaco.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "La sucursal oficial es Molas López/Veteranos del70; el candidato es Aviadores del Chaco.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-3de9455b62",
@@ -10013,9 +10431,23 @@
         "lng": -57.4477089,
         "checked_at": "2026-09-14T15:18:32+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-b2f8bfe6f6",
@@ -10058,9 +10490,23 @@
         "lng": -57.4477089,
         "checked_at": "2026-09-14T15:18:32+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-5a4c86cfcf",
@@ -10099,9 +10545,23 @@
         "lng": -57.4694255,
         "checked_at": "2026-09-23T12:48:04+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-6decf1b909",
@@ -10140,9 +10600,23 @@
         "lng": -57.4625076,
         "checked_at": "2026-09-14T15:18:33+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-e5d3c37809",
@@ -10220,9 +10694,23 @@
         "lng": -57.5474224,
         "checked_at": "2026-09-14T15:18:34+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-484ef58909",
@@ -10265,9 +10753,23 @@
         "lng": -57.574971,
         "checked_at": "2026-09-23T12:48:06+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-2f87a9e8f8",
@@ -10311,9 +10813,23 @@
         "lng": -57.5832067,
         "checked_at": "2026-09-14T15:18:35+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-831474a3ee",
@@ -10356,9 +10872,23 @@
         "lng": -57.5421227,
         "checked_at": "2026-09-14T15:18:35+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-e49a9c971e",
@@ -10396,9 +10926,23 @@
         "lng": -57.5495876,
         "checked_at": "2026-09-23T12:48:07+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-cd8a9041ff",
@@ -10441,9 +10985,23 @@
         "lng": -57.5275784,
         "checked_at": "2026-09-23T12:48:08+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-a63b80079c",
@@ -10486,9 +11044,23 @@
         "lng": -57.5275784,
         "checked_at": "2026-09-23T12:48:08+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-d3da5ade02",
@@ -10531,9 +11103,23 @@
         "lng": -57.357028,
         "checked_at": "2026-09-23T12:48:09+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-0aa09d9579",
@@ -10578,9 +11164,23 @@
         "lng": -57.6002817,
         "checked_at": "2026-09-23T12:48:10+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-71256fced5",
@@ -10641,9 +11241,23 @@
         "lng": -57.6249111,
         "checked_at": "2026-09-23T12:48:11+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-b6d4af643d",
@@ -10685,9 +11299,23 @@
         "lng": -57.6276744,
         "checked_at": "2026-09-23T12:48:12+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-a6b35be538",
@@ -10761,9 +11389,23 @@
         "lng": -57.4767241,
         "checked_at": "2026-09-23T12:48:13+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-d167678861",
@@ -10806,9 +11448,23 @@
         "lng": -57.4844837,
         "checked_at": "2026-09-23T12:48:15+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-4efbe762b7",
@@ -10851,9 +11507,23 @@
         "lng": -57.5060238,
         "checked_at": "2026-09-23T12:48:16+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-ec07bf6363",
@@ -10896,9 +11566,23 @@
         "lng": -57.47545,
         "checked_at": "2026-09-23T12:48:16+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-b20bca7cd3",
@@ -10941,9 +11625,23 @@
         "lng": -57.5060238,
         "checked_at": "2026-09-23T12:48:17+00:00"
       },
-      "location_review_status": "rejected",
+      "location_review_status": "qa_hold",
       "location_review_reason": "La sucursal oficial es José Ortiz/Sargento Espinola; el candidato es General Aquino/Tte.Rivas.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "La sucursal oficial es José Ortiz/Sargento Espinola; el candidato es General Aquino/Tte.Rivas.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-f145fb49f4",
@@ -10986,9 +11684,23 @@
         "lng": -57.5344426,
         "checked_at": "2026-09-23T12:48:18+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-edd72826c4",
@@ -11030,9 +11742,23 @@
         "lng": -57.5003681,
         "checked_at": "2026-09-23T12:48:19+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-1b2a3aa07d",
@@ -11075,9 +11801,23 @@
         "lng": -57.5258219,
         "checked_at": "2026-09-14T15:18:36+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-98ea4004ee",
@@ -11142,9 +11882,23 @@
         "lng": -57.4899483,
         "checked_at": "2026-09-23T12:48:20+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-814d34382c",
@@ -11187,9 +11941,23 @@
         "lng": -57.4899483,
         "checked_at": "2026-09-14T15:18:37+00:00"
       },
-      "location_review_status": "rejected",
+      "location_review_status": "qa_hold",
       "location_review_reason": "La sucursal oficial es Silvio Pettirossi/Torokay; el candidato es Valois Rivarola.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "La sucursal oficial es Silvio Pettirossi/Torokay; el candidato es Valois Rivarola.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-4b797c1a50",
@@ -11232,9 +12000,23 @@
         "lng": -57.5396194,
         "checked_at": "2026-09-14T15:18:38+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-6fcd7f8ac0",
@@ -11277,9 +12059,23 @@
         "lng": -57.5422655,
         "checked_at": "2026-09-14T15:18:39+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-4b102534f8",
@@ -11369,9 +12165,23 @@
         "lng": -57.4694255,
         "checked_at": "2026-09-23T12:48:22+00:00"
       },
-      "location_review_status": "rejected",
+      "location_review_status": "qa_hold",
       "location_review_reason": "La sucursal oficial es Ruta2 km15 San Lorenzo; candidato Ruta1 km20 Capiatá.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "La sucursal oficial es Ruta2 km15 San Lorenzo; candidato Ruta1 km20 Capiatá.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-ca8d6bc0c3",
@@ -11410,9 +12220,23 @@
         "lng": -57.5308095,
         "checked_at": "2026-09-23T12:48:22+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-63404e3d2c",
@@ -11455,9 +12279,23 @@
         "lng": -57.5182266,
         "checked_at": "2026-09-23T12:48:23+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-b91f72bbd9",
@@ -11500,9 +12338,23 @@
         "lng": -57.5018865,
         "checked_at": "2026-09-23T12:48:24+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-fb111ec029",
@@ -11545,9 +12397,23 @@
         "lng": -57.5915236,
         "checked_at": "2026-09-23T12:48:25+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-893818650c",
@@ -11622,9 +12488,23 @@
         "lng": -57.5473369,
         "checked_at": "2026-09-23T12:48:26+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-abd3ce0439",
@@ -11667,9 +12547,23 @@
         "lng": -57.542697,
         "checked_at": "2026-09-24T12:46:25+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-f7350a5549",
@@ -11713,9 +12607,23 @@
         "lng": -57.5243286,
         "checked_at": "2026-09-24T12:46:26+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-37eab9b40f",
@@ -11758,9 +12666,23 @@
         "lng": -57.5454823,
         "checked_at": "2026-09-24T12:46:27+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-46cfa4c7bb",
@@ -11803,9 +12725,23 @@
         "lng": -57.5440193,
         "checked_at": "2026-09-24T12:46:28+00:00"
       },
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true
     },
     {
       "id": "loc-reviewed-15b90a60f16bcd5d",
@@ -16788,12 +17724,25 @@
       ],
       "google_confidence": "review",
       "location_verified_at": "2026-10-17T03:46:40+00:00",
-      "needs_review": false,
+      "needs_review": true,
       "google_last_attempt_at": "2026-10-17T03:46:40.538608+00:00",
       "google_enrichment_status": "needs_review",
-      "location_review_status": "pending",
+      "location_review_status": "qa_hold",
       "location_review_reason": "Google result is Saspy Locker (courier/shipping), not the fuel-station establishment. Confirm the exact Copetrol branch before displaying.",
-      "location_reviewed_on": "2026-10-17"
+      "location_reviewed_on": "2026-10-17",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Google result is Saspy Locker (courier/shipping), not the fuel-station establishment. Confirm the exact Copetrol branch before displaying.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+            "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+            "group": "legacy_candidate_review"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      }
     },
     {
       "id": "loc-reviewed-e1c2ef29701e2500",
@@ -19477,7 +20426,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Juan Carlos Garcia matches; crossing avenue labeled Capitan Herminio Mendoza instead of Boqueron. Alias not verified.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-compasa/visual-holds.json",
+            "sha256": "fd6e5522a584843f45376605d9b8753a97fbf047ec720d244670d6b30ef1bbbe",
+            "group": "Compasa4"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-abaa0337a23b82c3",
@@ -19495,7 +20459,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Agustin Fernando de Pinedo visible; crossing labeled 4A Proyectada, not Caballero Anazco. Alias not verified.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-compasa/visual-holds.json",
+            "sha256": "fd6e5522a584843f45376605d9b8753a97fbf047ec720d244670d6b30ef1bbbe",
+            "group": "Compasa4"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-a02bf52707d385d5",
@@ -19621,7 +20600,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Road beside pin labeled Blas Garay, not Defensores del Chaco. Street-number 120 not corroborated.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-compasa/visual-holds.json",
+            "sha256": "fd6e5522a584843f45376605d9b8753a97fbf047ec720d244670d6b30ef1bbbe",
+            "group": "Compasa4"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-07de5a4a325bdce8",
@@ -19765,7 +20759,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Road labeled PY13, local street aliases absent. Exact operator/bank street text matches, but city Curuguaty comes ONLY from bank PDF. No municipal corroboration by this map.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-compasa/visual-holds.json",
+            "sha256": "fd6e5522a584843f45376605d9b8753a97fbf047ec720d244670d6b30ef1bbbe",
+            "group": "Compasa4"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-563ed6bac685cf0b",
@@ -20183,7 +21192,22 @@
         "lat": -25.3460439,
         "lng": -57.5759355,
         "checked_at": "2026-10-17T03:24:49+00:00"
-      }
+      },
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Pin sobre UsherRios entre calles; CeferinoRuiz se ve al noreste del pin, no se puede confirmar esquina exacta.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-3mg/final-excluded-2.json",
+            "sha256": "5d566e7a79d3da3177c9eb07f5243a1c38073ee263b3d931af0167692fe16082",
+            "group": "3MG2"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-ed109513d4431eb1",
@@ -23501,7 +24525,22 @@
         "lat": -25.3370773,
         "lng": -57.5094426,
         "checked_at": "2026-10-18T12:12:04+00:00"
-      }
+      },
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "GabrielPellon visible cerca de rotonda, pero SaturioRios no aparece rotulado; no se certifica la segunda calle.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-3mg/final-excluded-2.json",
+            "sha256": "5d566e7a79d3da3177c9eb07f5243a1c38073ee263b3d931af0167692fe16082",
+            "group": "3MG2"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-67dbfb9ed2e3aff5",
@@ -26288,7 +27327,22 @@
         "lat": -25.3013705,
         "lng": -57.5638952,
         "checked_at": "2026-10-20T05:23:48+00:00"
-      }
+      },
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
+            "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
+            "group": "Scavone5"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-e2cfbca22dd9f5f7",
@@ -26791,8 +27845,22 @@
       ],
       "google_confidence": "high",
       "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:23:58+00:00"
+      "needs_review": true,
+      "location_verified_at": "2026-10-20T05:23:58+00:00",
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
+            "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
+            "group": "Scavone5"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-d1fc6a5f0d813fb8",
@@ -27008,7 +28076,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
+            "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
+            "group": "Scavone5"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-4adb7928e382956e",
@@ -27847,7 +28930,22 @@
         "lat": -25.3966339,
         "lng": -57.3481485,
         "checked_at": "2026-10-20T05:24:07+00:00"
-      }
+      },
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
+            "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
+            "group": "Scavone5"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-cbeee386d70d5068",
@@ -29703,7 +30801,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
+            "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
+            "group": "Scavone5"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-5029b19e31c39526",
@@ -29865,7 +30978,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Peru visible pero cruce rotulado PY01, no DrFrancia; equivalencia no demostrada.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+            "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+            "group": "Chortitzer6"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-85bff2757ef2f9fa",
@@ -29883,7 +31011,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Pin dentro de predio de mercado; no se ve BloqueB/Salones1y2 ni acceso exacto.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+            "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+            "group": "Chortitzer6"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-3ac727225e24be8f",
@@ -29991,7 +31134,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Pin cerca de Paraiso/avenida sin nombre visible; no confirma FernandoDeLaMora2589/cUniversitarios.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+            "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+            "group": "Chortitzer6"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-0dc1f4912fddbb84",
@@ -30189,7 +31347,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Pin en DrBlasGaray/SilvioPettirossi, no McalEstigarribia/Boqueron.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+            "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+            "group": "Chortitzer6"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-989bc14f64f3b29e",
@@ -30243,7 +31416,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Ruta14 visible pero avenida transversal sin etiqueta Irrazabal; falta confirmar alias/identidad.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+            "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+            "group": "Chortitzer6"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-595e6f914a6c745d",
@@ -30351,7 +31539,22 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "qa_hold": true,
+      "qa_hold_detail": {
+        "reason": "Pin sobre AvSanJose; no se reconcilia con Ruta3km22.5/AbastoNorte/BloqueC.",
+        "evidence": [
+          {
+            "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+            "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+            "group": "Chortitzer6"
+          }
+        ],
+        "reviewed_on": "2026-10-20",
+        "identity_changed": false
+      },
+      "needs_review": true,
+      "location_review_status": "qa_hold"
     },
     {
       "id": "loc-bnf-255bdf34239c5437",
@@ -48212,5 +49415,6 @@
   ],
   "google_enriched_locations": 142,
   "google_enrichment_focus": "Asunción y Gran Asunción",
-  "locations_updated_at": "2026-10-20T05:24:13+00:00"
+  "locations_updated_at": "2026-10-20T05:24:13+00:00",
+  "qa_held_locations": 85
 }

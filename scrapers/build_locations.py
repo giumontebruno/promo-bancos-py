@@ -216,6 +216,8 @@ def geocode_locations(locations):
     cache = load_cache()
     remaining = DEFAULT_GEOCODE_LIMIT
     for item in locations:
+        if item.get("qa_hold"):
+            continue
         if item["lat"] is not None and item["lng"] is not None:
             continue
         if not item["address"] or item["address"].lower().startswith("app "):
@@ -266,6 +268,7 @@ def write_csv(locations):
     fields = [
         "id", "bank", "category", "merchant_name", "address", "city",
         "department", "lat", "lng", "geocode_source", "source_url",
+        "qa_hold", "needs_review", "location_review_status",
     ]
     with OUT_CSV.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields)
@@ -332,6 +335,8 @@ def main():
         if key not in seen and item.get("bank") != "BNF" and not replaced_ueno:
             unique.append(item)
             seen.add(key)
+    from location_qa_holds import apply_holds
+    apply_holds(unique)
     if not args.skip_geocoding:
         geocode_locations(unique)
     candidate_reviews = ROOT / "data/location_candidate_reviews.json"
@@ -352,11 +357,14 @@ def main():
         if review_path.exists():
             from reviewed_geo import apply_reviews as apply_block_reviews
             apply_block_reviews(unique, json.loads(review_path.read_text(encoding="utf-8")))
+    # Human QA exclusions prevail over retained Google and official overrides.
+    apply_holds(unique)
     unique.sort(key=sort_key)
     payload = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "provider": "Official bank branch lists + reviewed location matches",
         "total_locations": len(unique),
+        "qa_held_locations": sum(bool(item.get("qa_hold")) for item in unique),
         "geocoded_locations": sum(1 for item in unique if item["lat"] is not None and item["lng"] is not None),
         "locations": unique,
     }

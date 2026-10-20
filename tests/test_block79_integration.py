@@ -62,7 +62,8 @@ class Block79Integration(unittest.TestCase):
   rows=load(ROOT/"public/locations.json")["locations"];byid={p["id"]:p for p in rows}
   for e in EXCLUDED:
    row=byid[e["existing_location_id"]]
-   self.assertEqual((row.get("lat"),row.get("lng")),(e.get("existing_lat"),e.get("existing_lng")))
+   self.assertTrue(row.get("qa_hold"),row["id"])
+   self.assertTrue(row.get("needs_review"),row["id"])
    self.assertNotEqual(row.get("reviewed_block"),"2026-10-20-block79")
    before=copy.deepcopy(row);apply_reviews([row],REVIEWS);self.assertEqual(row,before)
 

@@ -1,0 +1,122 @@
+{
+  "locations": [
+    {
+      "existing_location_id": "loc-bnf-394538b66c21249e",
+      "bank": "BNF",
+      "promotion_ids": [
+        "59ec30d50131fb35"
+      ],
+      "merchant_name": "COMPASA",
+      "address": "Avda. Boquerón y Juan Carlos García.",
+      "city": "Concepción",
+      "city_provenance": "Bank PDF page6 explicit city column; operator address also names same city except operator182 omits city",
+      "lat": -23.40217781,
+      "lng": -57.43338394,
+      "operator_id": 87,
+      "operator_address": "Avda. Boqueron y Juan Carlos Garcia, Ña Ventura-Cué, Distrito de Concepción - Dpto. de Concepcion",
+      "operator_url": "https://compasa.com.py/energia_y_logistica",
+      "map_url": "https://maps.google.com/maps?q=-23.402177810668945%2C-57.43338394165039&z=17&hl=es",
+      "coordinate_method": "Explicit latitude/longitude in operator HTML data-station-selector-stations-value; no camera center",
+      "bank_source": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+      "bank_page": 6,
+      "match_method": "same intersection and city or same numbered route+km; operator182 exact two-street intersection with city provided only by bank",
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "visual_qa": {
+        "status": "hold_street_label_discrepancy",
+        "observation": "Juan Carlos Garcia matches; crossing avenue labeled Capitan Herminio Mendoza instead of Boqueron. Alias not verified.",
+        "screenshot": "visual-qa/02-loc-bnf-394538b66c21249e.png"
+      },
+      "participation_ends_on": "2026-10-28"
+    },
+    {
+      "existing_location_id": "loc-bnf-eb0fdd7190e2f231",
+      "bank": "BNF",
+      "promotion_ids": [
+        "59ec30d50131fb35"
+      ],
+      "merchant_name": "COMPASA",
+      "address": "Avenida Defensores del Chaco Nº 120.",
+      "city": "Coronel Oviedo",
+      "city_provenance": "Bank PDF page6 explicit city column; operator address also names same city except operator182 omits city",
+      "lat": -25.4342267,
+      "lng": -56.4276448,
+      "operator_id": 90,
+      "operator_address": "Avda. Defensores del Chaco Nº 120, Distrito de Coronel Oviedo - Dpto. de Caaguazu",
+      "operator_url": "https://compasa.com.py/energia_y_logistica",
+      "map_url": "https://maps.google.com/maps?q=-25.4342267%2C-56.4276448&z=17&hl=es",
+      "coordinate_method": "Explicit latitude/longitude in operator HTML data-station-selector-stations-value; no camera center",
+      "bank_source": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+      "bank_page": 6,
+      "match_method": "same intersection and city or same numbered route+km; operator182 exact two-street intersection with city provided only by bank",
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "visual_qa": {
+        "status": "hold_street_label_discrepancy",
+        "observation": "Road beside pin labeled Blas Garay, not Defensores del Chaco. Street-number 120 not corroborated.",
+        "screenshot": "visual-qa/03-loc-bnf-eb0fdd7190e2f231.png"
+      },
+      "participation_ends_on": "2026-10-28"
+    },
+    {
+      "existing_location_id": "loc-bnf-abaa0337a23b82c3",
+      "bank": "BNF",
+      "promotion_ids": [
+        "59ec30d50131fb35"
+      ],
+      "merchant_name": "COMPASA",
+      "address": "Avda. Agustín F. de Pinedo c/ Caballero Añazco.",
+      "city": "Concepción",
+      "city_provenance": "Bank PDF page6 explicit city column; operator address also names same city except operator182 omits city",
+      "lat": -23.41942787,
+      "lng": -57.44083023,
+      "operator_id": 134,
+      "operator_address": "Avda. Agustin F. de Pinedo c/ Caballero Añazco, Lote Nº 12, Manzana II, Ciudad de Concepcion",
+      "operator_url": "https://compasa.com.py/energia_y_logistica",
+      "map_url": "https://maps.google.com/maps?q=-23.4194278717041%2C-57.44083023071289&z=17&hl=es",
+      "coordinate_method": "Explicit latitude/longitude in operator HTML data-station-selector-stations-value; no camera center",
+      "bank_source": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+      "bank_page": 6,
+      "match_method": "same intersection and city or same numbered route+km; operator182 exact two-street intersection with city provided only by bank",
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "visual_qa": {
+        "status": "hold_street_label_discrepancy",
+        "observation": "Agustin Fernando de Pinedo visible; crossing labeled 4A Proyectada, not Caballero Anazco. Alias not verified.",
+        "screenshot": "visual-qa/07-loc-bnf-abaa0337a23b82c3.png"
+      },
+      "participation_ends_on": "2026-10-28"
+    },
+    {
+      "existing_location_id": "loc-bnf-61a49f529fc0d710",
+      "bank": "BNF",
+      "promotion_ids": [
+        "59ec30d50131fb35"
+      ],
+      "merchant_name": "COMPASA",
+      "address": "Crescencio Frutos c/ Ex Combatiente Gerónimo Paredes.",
+      "city": "Curuguaty",
+      "city_provenance": "Bank PDF page6 explicit city column; operator address also names same city except operator182 omits city",
+      "lat": -24.4819355,
+      "lng": -55.68785858,
+      "operator_id": 182,
+      "operator_address": "Crescencio Frutos y Calle Ex Comatiente Geronimo Paredes",
+      "operator_url": "https://compasa.com.py/energia_y_logistica",
+      "map_url": "https://maps.google.com/maps?q=-24.481935501098633%2C-55.68785858154297&z=17&hl=es",
+      "coordinate_method": "Explicit latitude/longitude in operator HTML data-station-selector-stations-value; no camera center",
+      "bank_source": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
+      "bank_page": 6,
+      "match_method": "same intersection and city or same numbered route+km; operator182 exact two-street intersection with city provided only by bank",
+      "status": "verified_staged_for_review",
+      "publish": false,
+      "visual_qa": {
+        "status": "hold_city_uncorroborated",
+        "observation": "Road labeled PY13, local street aliases absent. Exact operator/bank street text matches, but city Curuguaty comes ONLY from bank PDF. No municipal corroboration by this map.",
+        "screenshot": "visual-qa/11-loc-bnf-61a49f529fc0d710.png"
+      },
+      "participation_ends_on": "2026-10-28"
+    }
+  ],
+  "count": 4,
+  "action": "Do not integrate until street label discrepancy or missing city corroboration is resolved with reliable evidence. Do not move official pins."
+}

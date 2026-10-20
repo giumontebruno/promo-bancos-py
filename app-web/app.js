@@ -2127,14 +2127,14 @@ function getNearbyPromoPoints() {
 function isPreciseNearbyPoint(point) {
   const source = point?.place?.geocode_source || "";
   const confidence = point?.place?.google_confidence || "";
-  return Boolean(point && Number.isFinite(point.place?.lat) && Number.isFinite(point.place?.lng)
+  return Boolean(point && !point.place?.qa_hold && !point.place?.needs_review && Number.isFinite(point.place?.lat) && Number.isFinite(point.place?.lng)
     && source !== "city_approximation" && source !== "" && confidence !== "review");
 }
 
 function isReliableMapLocation(place) {
   const source = place?.geocode_source || "";
   const confidence = place?.google_confidence || "";
-  return Boolean(Number.isFinite(place?.lat) && Number.isFinite(place?.lng)
+  return Boolean(!place?.qa_hold && !place?.needs_review && Number.isFinite(place?.lat) && Number.isFinite(place?.lng)
     && Math.abs(place.lat) <= 90 && Math.abs(place.lng) <= 180 && !place.online_only
     && !isGenericLocationMatchedToMall(place)
     && source !== "city_approximation" && source !== "" && confidence !== "review"

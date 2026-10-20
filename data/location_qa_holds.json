@@ -1,0 +1,1708 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-20",
+  "catalog_sha256": "d2223c730395223ca5c30dda8c4dd2894c77879cb407a0c2796d08faf6b394bb",
+  "resolved": [],
+  "holds": [
+    {
+      "id": "loc-bnf-1c4db8b50edb3841",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "FARMACIA VICENTE SCAVONE",
+        "address": "Avda. Mcal. López esq. Bernardino Caballero.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf"
+      },
+      "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
+          "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
+          "group": "Scavone5"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-225120f7e2a8f06a",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "FARMACIA VICENTE SCAVONE",
+        "address": "Cerro León c/ Alejo García.",
+        "city": "Ciudad del Este",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf"
+      },
+      "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
+          "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
+          "group": "Scavone5"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-554c079113a3007b",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "FARMACIA VICENTE SCAVONE",
+        "address": "General Díaz esq. Mcal. López.",
+        "city": "Villarrica",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf"
+      },
+      "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
+          "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
+          "group": "Scavone5"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-cf9335bca0b00118",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "FARMACIA VICENTE SCAVONE",
+        "address": "Ttte. Esteban Martinez esq. Gral. Delgado.",
+        "city": "Itauguá",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf"
+      },
+      "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
+          "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
+          "group": "Scavone5"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-cfab9be2913261c1",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "FARMACIA VICENTE SCAVONE",
+        "address": "Dr. Andrés Barbero entre Ruta 2 y 1 de Noviembre.",
+        "city": "Capiatá",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf"
+      },
+      "reason": "Fresh official branch detail repeats BNF street address; no explanation for visual pin discrepancy. No coordinate correction inferred.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-farmacias/scavone-final-excluded-5.json",
+          "sha256": "6ebd78825377568ab7a954e8bff0cca33ab64e89e51a67b4619602e60891bae8",
+          "group": "Scavone5"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-ba9d7d9c47e47089",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COOPERATIVA CHORTITZER",
+        "address": "Ruta 3 Gral. Elizardo Aquino, KM 22,5, Abasto Norte, Bloque C, Salon 1 y 2.",
+        "city": "Limpio",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf"
+      },
+      "reason": "Pin sobre AvSanJose; no se reconcilia con Ruta3km22.5/AbastoNorte/BloqueC.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+          "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+          "group": "Chortitzer6"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-78e173815dd92a3e",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COOPERATIVA CHORTITZER",
+        "address": "Avda. Peru c/ Dr. Francia.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf"
+      },
+      "reason": "Peru visible pero cruce rotulado PY01, no DrFrancia; equivalencia no demostrada.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+          "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+          "group": "Chortitzer6"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-0cf3113cb0819ef5",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COOPERATIVA CHORTITZER",
+        "address": "Avda. Fernando de la Mora 2589 c/ Universitarios del Chaco.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf"
+      },
+      "reason": "Pin cerca de Paraiso/avenida sin nombre visible; no confirma FernandoDeLaMora2589/cUniversitarios.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+          "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+          "group": "Chortitzer6"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-5e8114a0f2176385",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COOPERATIVA CHORTITZER",
+        "address": "Avda. Irrazabal esq. Ruta 14.",
+        "city": "Encarnación",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf"
+      },
+      "reason": "Ruta14 visible pero avenida transversal sin etiqueta Irrazabal; falta confirmar alias/identidad.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+          "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+          "group": "Chortitzer6"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-fa2bfc6803bbc7ed",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COOPERATIVA CHORTITZER",
+        "address": "Mcal. Felix Estigarribia esq. Boquerón",
+        "city": "Coronel Oviedo",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf"
+      },
+      "reason": "Pin en DrBlasGaray/SilvioPettirossi, no McalEstigarribia/Boqueron.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+          "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+          "group": "Chortitzer6"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-85bff2757ef2f9fa",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COOPERATIVA CHORTITZER",
+        "address": "Avda. Defensores del Chaco c/ Pycasu, Mercado de Abasto, Bloque B, Salon 1 y 2.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf"
+      },
+      "reason": "Pin dentro de predio de mercado; no se ve BloqueB/Salones1y2 ni acceso exacto.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-chortitzer/final-excluded-6.json",
+          "sha256": "6adac6298e58b3d5e6688d814d2b5afc676622add0a3386a6dc2fa0fcd7b4cb4",
+          "group": "Chortitzer6"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-53e11d4968e0b24a",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "3MG",
+        "address": "Usher Ríos esq. Ceferino Ruiz.",
+        "city": "Fernando de la Mora",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf"
+      },
+      "reason": "Pin sobre UsherRios entre calles; CeferinoRuiz se ve al noreste del pin, no se puede confirmar esquina exacta.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-3mg/final-excluded-2.json",
+          "sha256": "5d566e7a79d3da3177c9eb07f5243a1c38073ee263b3d931af0167692fe16082",
+          "group": "3MG2"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-137398e4d1a76a98",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "3MG",
+        "address": "Saturio Ríos esq. Avda. Dr. Gabriel Pellón.",
+        "city": "San Lorenzo",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf"
+      },
+      "reason": "GabrielPellon visible cerca de rotonda, pero SaturioRios no aparece rotulado; no se certifica la segunda calle.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-3mg/final-excluded-2.json",
+          "sha256": "5d566e7a79d3da3177c9eb07f5243a1c38073ee263b3d931af0167692fe16082",
+          "group": "3MG2"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-394538b66c21249e",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COMPASA",
+        "address": "Avda. Boquerón y Juan Carlos García.",
+        "city": "Concepción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf"
+      },
+      "reason": "Juan Carlos Garcia matches; crossing avenue labeled Capitan Herminio Mendoza instead of Boqueron. Alias not verified.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-compasa/visual-holds.json",
+          "sha256": "fd6e5522a584843f45376605d9b8753a97fbf047ec720d244670d6b30ef1bbbe",
+          "group": "Compasa4"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-eb0fdd7190e2f231",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COMPASA",
+        "address": "Avenida Defensores del Chaco Nº 120.",
+        "city": "Coronel Oviedo",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf"
+      },
+      "reason": "Road beside pin labeled Blas Garay, not Defensores del Chaco. Street-number 120 not corroborated.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-compasa/visual-holds.json",
+          "sha256": "fd6e5522a584843f45376605d9b8753a97fbf047ec720d244670d6b30ef1bbbe",
+          "group": "Compasa4"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-abaa0337a23b82c3",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COMPASA",
+        "address": "Avda. Agustín F. de Pinedo c/ Caballero Añazco.",
+        "city": "Concepción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf"
+      },
+      "reason": "Agustin Fernando de Pinedo visible; crossing labeled 4A Proyectada, not Caballero Anazco. Alias not verified.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-compasa/visual-holds.json",
+          "sha256": "fd6e5522a584843f45376605d9b8753a97fbf047ec720d244670d6b30ef1bbbe",
+          "group": "Compasa4"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-61a49f529fc0d710",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COMPASA",
+        "address": "Crescencio Frutos c/ Ex Combatiente Gerónimo Paredes.",
+        "city": "Curuguaty",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf"
+      },
+      "reason": "Road labeled PY13, local street aliases absent. Exact operator/bank street text matches, but city Curuguaty comes ONLY from bank PDF. No municipal corroboration by this map.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/geo-compasa/visual-holds.json",
+          "sha256": "fd6e5522a584843f45376605d9b8753a97fbf047ec720d244670d6b30ef1bbbe",
+          "group": "Compasa4"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-137862a0b6",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "BOX Mayorista",
+        "address": "Avda. Defensores del Chaco N° 1512 c/ Dr. Montanaro.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-f6171a3741",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Casa Grütter",
+        "address": "Av. Defensores del Chaco, Mercado Central de Abasto, Bloque D, Locales 7, 8 y 9.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf"
+      },
+      "reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Mercado de Abasto Bloque D en Asunción.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-1ff6c937a7",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Casa Grütter",
+        "address": "Avda. Defensores del Chaco c/ Pycasu, Galería Santa Teresa al lado del Mercado Central de Abasto.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf"
+      },
+      "reason": "El candidato es Fernando de la Mora/Nueva Asunción; la sucursal oficial es Galería Santa Teresa junto al Mercado de Abasto.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-0c7916e643",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Supermás",
+        "address": "Avda. Defensores del Chaco - Galería Santa Teresa Bloque C, Mercado Central de Abasto.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-91e0ad0a9e",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "BOX Mayorista",
+        "address": "Ruta PY02, Avda. José Félix Estigarribia c/ Madrigal.",
+        "city": "Capiatá",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf"
+      },
+      "reason": "La fuente indica Ruta PY02 y Madrigal; el candidato indica Ruta 1 y Clavel. No es la misma dirección.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-dcc7f47aa0",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "BOX Mayorista",
+        "address": "Ruta PY01 Km. 19.",
+        "city": "Capiatá",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-7398d11133",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Aho Aho Comercial",
+        "address": "Javier Bogarín N° 264 c/ Sportivo Luqueño.",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-9871905a5c",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "BOX Mayorista",
+        "address": "Avda. Coronel Martínez y Profesora Inés Figueredo.",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-55949de43c",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "BOX Mayorista",
+        "address": "Ruta Transchaco Km. 14 y Avda. Eusebio Ayala.",
+        "city": "Mariano Roque Alonso",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-99313f94a1",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "BOX Mayorista",
+        "address": "Avda. Manuel Ortiz Guerrero c/ Sacramento.",
+        "city": "San Lorenzo",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-90f28d597c",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Supermás",
+        "address": "Acceso Sur c/ José Asunción Flores.",
+        "city": "Ñemby",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-d3dcfde46e",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Casa Paraná",
+        "address": "Avda. Las Residentas N° 413 c/ Fausto Aranda.",
+        "city": "Areguá",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-68dd380226",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis",
+        "address": "Ruta Areguá Patiño e/ EEUU y Carlos A. López.",
+        "city": "Areguá",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-f6f09af6c0",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Cadena Real",
+        "address": "J. Eulogio Estigarribia esq. Cruz del Defensor.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-f268749437",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Cadena Real",
+        "address": "Próceres de Mayo e/ Sebastián Elcano y Centenario.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-acb35e59cb",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Cadena Real",
+        "address": "Avda. Félix Bogado esq. 18 de Julio.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-7d3964d10f",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Hipermercados Luisito",
+        "address": "Eusebio Ayala 4090 c/ Boquerón.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-7e62631dc9",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Hipermercados Luisito",
+        "address": "Félix Bogado c/ Campo Vía.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-b69261f7c8",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Mercado Villa Sofía",
+        "address": "Barrio Sajonia, Avda. Carlos Antonio López esq. Díaz de Solís.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-06cc9d2280",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Mercado Villa Sofía",
+        "address": "Barrio Obrero, Av. Ita Ybate (21 Proyectadas) e/ Tacuari y Parapiti.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-3136d2f100",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Supermercado La Preferida",
+        "address": "Garibaldi 156 c/ Presidente Franco.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-360198c5e2",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Supermercados Gran Vía",
+        "address": "Avda. Mcal. López c/ Madame Lynch – Royal Plaza.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-b3c7a978ab",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Supermercados Gran Vía",
+        "address": "Avda. Eusebio Ayala y Choferes del Chaco.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-4497357d28",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis",
+        "address": "Avda. Eusebio Ayala y Vice Pte. Sanchez.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-a919284897",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis",
+        "address": "Mcal. López esq. Juan S Bogarin.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-df8d7d797e",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis Express",
+        "address": "Avda. Aviadores del Chaco y Eloy Páez.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-2b0a24d4d5",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis Express",
+        "address": "Avda. Primer Presidente esq. Gabriel Casaccia.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "La sucursal oficial es Primer Presidente/Gabriel Casaccia; el candidato es Aviadores del Chaco.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-b1552f4f08",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis Express",
+        "address": "Avda. Molas López esq. Veteranos del 70.",
+        "city": "Asunción",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "La sucursal oficial es Molas López/Veteranos del70; el candidato es Aviadores del Chaco.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-3de9455b62",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Cadena Real",
+        "address": "Ruta Departamental D027 c/ San Roque González.",
+        "city": "Capiatá",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-b2f8bfe6f6",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Cadena Real",
+        "address": "Ruta PY02 c/ Prof. Carlos A. Rachit.",
+        "city": "Capiatá",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-5a4c86cfcf",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Casa Paraná",
+        "address": "Ruta 1 km 20 c/ Ruta Thompson.",
+        "city": "Capiatá",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-6decf1b909",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Hipermercados Luisito",
+        "address": "Avda. Dr. Pedro López esq. Bernardino Caballero.",
+        "city": "Capiatá",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-049363d081",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Cadena Real",
+        "address": "Ruta Mcal. Estigarribia esq. Corrales.",
+        "city": "Fernando de la Mora",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-484ef58909",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Cadena Real",
+        "address": "Acceso Sur PY01 c/ Usher Ríos.",
+        "city": "Fernando de la Mora",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-2f87a9e8f8",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Hipermercados Luisito",
+        "address": "Dr. Ceferino Ruíz esq. Algodonal.",
+        "city": "Fernando de la Mora",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-831474a3ee",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Los Jardines Supermercado",
+        "address": "Luis Alberto del Paraná y Jacaranda.",
+        "city": "Fernando de la Mora",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-e49a9c971e",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Los Jardines Supermercado",
+        "address": "Juan Leopardi c/Teniente Enciso.",
+        "city": "Fernando de la Mora",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-cd8a9041ff",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis",
+        "address": "Calle Coronel Cazal e/ Avda. Mcal. López.",
+        "city": "Fernando de la Mora",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-a63b80079c",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis",
+        "address": "Avda. Mcal. López esq. Acaray.",
+        "city": "Fernando de la Mora",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-d3da5ade02",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Hipermercados Luisito",
+        "address": "Avda. Marcial Samaniego, a 700 mts. de Ruta PY02.",
+        "city": "Itauguá",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-0aa09d9579",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Casa Paraná",
+        "address": "Avda. Cacique Lambaré e/ Iturbe y Vencedores del Chaco.",
+        "city": "Lambaré",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-ad018dbfa8",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis",
+        "address": "Luis Maria Argaña esq. Porvenir.",
+        "city": "Lambaré",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-b6d4af643d",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis Express",
+        "address": "Avda. del Yatch c/ Manuel Gondra.",
+        "city": "Lambaré",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-83fe514784",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Casa Paraná",
+        "address": "Ruta Luque Limpio – Mora Cue.",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-d167678861",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Hipermercados Luisito",
+        "address": "Avda. Corrales esq. Tte. Rojas Silva.",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-4efbe762b7",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Los Jardines Supermercado",
+        "address": "Av. General Aquino y Julio Rivas.",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-ec07bf6363",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Los Jardines Supermercado",
+        "address": "Ruta Luque Limpio C.R. González.",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-b20bca7cd3",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Los Jardines Supermercado",
+        "address": "Jose Ortiz c/ Sargento Espinola.",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "La sucursal oficial es José Ortiz/Sargento Espinola; el candidato es General Aquino/Tte.Rivas.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-f145fb49f4",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Los Jardines Supermercado",
+        "address": "Gral. Elizardo Aquino c/ Adrian Jara",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-edd72826c4",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Mercado Villa Sofía",
+        "address": "Sucursal Luque, América e/ 12 de Octubre y Karandayty.",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-1b2a3aa07d",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Supermercados Gran Vía",
+        "address": "Ruta Gral. Aquino N° 2.400 esq. Nanawa.",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-5cca3cc840",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis",
+        "address": "Avda. Capitán Rivarola e/ P.Garcia y F. Yegros.",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-814d34382c",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis",
+        "address": "Autopista Silvio Pettirossi y Torokay.",
+        "city": "Luque",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "La sucursal oficial es Silvio Pettirossi/Torokay; el candidato es Valois Rivarola.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-4b797c1a50",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Hipermercados Luisito",
+        "address": "Ruta Transchaco esq. Augusto Roa Bastos.",
+        "city": "Mariano Roque Alonso",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-6fcd7f8ac0",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Supersies",
+        "address": "Ruta Transchaco y Capitán Alianza. – Shopping El Portal.",
+        "city": "Mariano Roque Alonso.",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-764efbaf44",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Casa Paraná",
+        "address": "Ruta Mariscal José Felix Estigarribia Km 15.",
+        "city": "San Lorenzo",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "La sucursal oficial es Ruta2 km15 San Lorenzo; candidato Ruta1 km20 Capiatá.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-ca8d6bc0c3",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Hipermercados Luisito",
+        "address": "Avda. Brasil c/ Nicanor Ríos.",
+        "city": "San Lorenzo",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-63404e3d2c",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Los Jardines Supermercado",
+        "address": "Laguna Grande y Rio Paraguay I.",
+        "city": "San Lorenzo",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-b91f72bbd9",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis",
+        "address": "Intersección Ruta 1 y Ruta 2.",
+        "city": "San Lorenzo",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-fb111ec029",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Hipermercados Luisito",
+        "address": "Avda. Von Polesky esq. Estados Unidos.",
+        "city": "Villa Elisa",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-f6dd0ee780",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Cadena Real",
+        "address": "lndependencia Nacional e/ Santa Rosa y 9 de Agosto.",
+        "city": "Ñemby",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-abd3ce0439",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Cadena Real",
+        "address": "Bernardino Caballero e/ Luis Ma. Argaña y Primer Presidente.",
+        "city": "Ñemby",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-f7350a5549",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Hipermercados Luisito",
+        "address": "Manuel Ortiz Guerrero c/ De la Victoria.",
+        "city": "Ñemby",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-37eab9b40f",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Supermercados Gran Vía",
+        "address": "Ruta Acceso Sur esq. Avda. Santa Rosa.",
+        "city": "Ñemby",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-46cfa4c7bb",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "Superseis",
+        "address": "Gral. Bernardino Caballero y Acceso Sur.",
+        "city": "Ñemby",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf"
+      },
+      "reason": "Coincidencia parcial de nombre/localidad, pero falta confirmar cruce, número o acceso exacto; no se acepta la coordenada con esta evidencia.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-068a47c9899e334b",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COPETROL",
+        "address": "Clemente Romero esq. Libertad.",
+        "city": "Fernando de la Mora",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf"
+      },
+      "reason": "Google result is TED-Wepa ATM (types atm/finance), not a verified fuel-station establishment. Address similarity alone does not confirm the merchant.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-bnf-1052cc7e6eefa545",
+      "decision": "hold",
+      "identity": {
+        "bank": "BNF",
+        "merchant_name": "COPETROL",
+        "address": "Ruta Acceso Sur, Km. 32, Desvío a Guarambaré.",
+        "city": "Guarambaré",
+        "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf"
+      },
+      "reason": "Official source specifies Acceso Sur km 32; Google result says km 30. Exact branch remains unconfirmed.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    },
+    {
+      "id": "loc-sudameris-c766ccc3bc4f60ee",
+      "decision": "hold",
+      "identity": {
+        "bank": "Sudameris",
+        "merchant_name": "COPETROL - AUTOPISTA",
+        "address": "AV.SILVIO PETTIROSSI Y COCHABAMBA",
+        "city": "LUQUE",
+        "source_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b5660446e750718856/bc-copetrol-julio26v2.pdf"
+      },
+      "reason": "Google result is Saspy Locker (courier/shipping), not the fuel-station establishment. Confirm the exact Copetrol branch before displaying.",
+      "evidence": [
+        {
+          "file": "docs/geo-audit/qa-holds/evidence/data/location_candidate_reviews.json",
+          "sha256": "e545e3cf01ac686ee171c8416d991dd4949338e25c85c5e4f2ab3541300da3cf",
+          "group": "legacy_candidate_review"
+        }
+      ],
+      "reviewed_on": "2026-10-20"
+    }
+  ]
+}
