@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T04:23:06.040051+00:00",
+  "generated_at": "2026-10-20T04:40:57.935461+00:00",
   "input_count": 3079,
   "promotion_count": 3115,
   "duplicates_removed": -36,
@@ -942,7 +942,7 @@
     "c92e2fc64b7103b5": "94b689f451a0649c",
     "6d3e46f1399d07fb": "46b95e1d04e82602",
     "ed53c672dc809af8": "11fbcb699d5f5af2",
-    "532a4f732d61c330": "4170fdc63d3858cd",
+    "532a4f732d61c330": "2e507b9fe5140149",
     "84714bfec7199316": "d8ee4544307fa120",
     "85e0e1efcba1e532": "6deacdfe20941943",
     "e34f133d048a72fe": "60a553c089031097",
@@ -1018,7 +1018,8 @@
     "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
     "e1f73d4e7e3f215d": "079f0d097a236e3f",
     "7185b3e16b670118": "c49fcec793914f30",
-    "32558b82cfc1a626": "c0ee7afa7cd25388"
+    "32558b82cfc1a626": "c0ee7afa7cd25388",
+    "4170fdc63d3858cd": "2e507b9fe5140149"
   },
   "by_bank": {
     "Atlas": 43,
@@ -1032,8 +1033,8 @@
     "ueno bank": 355
   },
   "issue_counts": {
-    "limits_unconfirmed": 218,
-    "validity_unconfirmed": 32,
+    "limits_unconfirmed": 219,
+    "validity_unconfirmed": 31,
     "multiple_purchase_limits": 242,
     "source_amount_conflict": 15,
     "multiple_refund_limits": 103,
@@ -1122,15 +1123,6 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "2cfb9cd8678d662c",
-      "bank": "Atlas",
-      "merchant": "BOX Mayorista",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
       "id": "452dc4accc34f4fc",
       "bank": "Atlas",
       "merchant": "Delimarket",
@@ -1161,6 +1153,15 @@
       "id": "3d01eed9be736446",
       "bank": "Atlas",
       "merchant": "Prepará tu vehículo",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "f6be92424371f7e1",
+      "bank": "Atlas",
+      "merchant": "Assist Card",
       "issues": [
         "limits_unconfirmed"
       ],
