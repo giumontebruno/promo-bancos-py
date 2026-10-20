@@ -108,6 +108,7 @@ const state = {
   locations: [],
   locationsUpdated: "",
   locationsLoaded: false,
+  locationsStatus: "idle",
   activeView: new URLSearchParams(location.search).get("view") === "favorites" ? "favorites" : "today",
   activeBank: "Todos",
   activeCategory: "Todas",
@@ -1500,22 +1501,25 @@ function syncFavoriteAlerts() {
 }
 
 function renderNearbyView() {
-  if (!state.location && !state.locationsLoaded) {
-    els.statusText.textContent = "Radar de locales";
-    els.countText.textContent = "Listo para buscar";
-    els.results.innerHTML = `
-      <section class="nearby-panel">
-        <div class="nearby-hero">
-          <div>
-            <span class="nearby-kicker">Ubicación</span>
-            <h2>Promos cerca tuyo</h2>
-            <p>Activá tu ubicación y cargamos solamente los locales cercanos con promociones.</p>
-          </div>
-          <button type="button" class="location-button ${state.locationStatus === "loading" ? "is-loading" : ""}" data-location-action="detect">${state.locationStatus === "loading" ? `<span class="locating-orbit" aria-hidden="true"></span>Buscando...` : "Usar mi ubicación"}</button>
-        </div>
-        <button type="button" class="location-button secondary" data-location-action="explore">Explorar mapa sin ubicación</button>
-      </section>
-    `;
+  if (!state.locationsLoaded) {
+    const messages = {
+      denied: "No se pudo acceder a tu ubicación. Podés explorar el mapa sin compartirla.",
+      timeout: "La ubicación tardó demasiado. Podés reintentar o explorar sin ubicación.",
+      unavailable: "Tu ubicación no está disponible. Podés explorar el mapa sin compartirla.",
+      unsupported: "Este navegador no ofrece ubicación. Podés explorar el mapa igualmente.",
+    };
+    const loading = state.locationsStatus === "loading" || state.locationStatus === "loading";
+    const failed = !loading && state.locationsStatus === "error";
+    const title = failed ? "No pudimos cargar las ubicaciones" : loading ? "Cargando el mapa" : "Promos cerca tuyo";
+    const message = failed ? "Revisá tu conexión y reintentá. Esto no significa que no haya promociones." : messages[state.locationStatus] || (loading ? "Estamos buscando tu ubicación o descargando los locales." : "Usá tu ubicación para ordenar los locales por distancia, o explorá el mapa sin compartirla.");
+    els.statusText.textContent = title;
+    els.countText.textContent = loading ? "Cargando…" : "Mapa pendiente";
+    els.results.innerHTML = `<section class="nearby-panel"><div class="nearby-hero"><div>
+      <span class="nearby-kicker">Mapa</span><h2>${title}</h2><p role="status">${message}</p>
+      </div></div>
+      <button type="button" class="location-button" data-location-action="explore" ${loading ? "disabled" : ""}>${failed ? "Reintentar carga del mapa" : "Explorar mapa sin ubicación"}</button>
+      <button type="button" class="location-button secondary" data-location-action="detect" ${loading ? "disabled" : ""}>Usar mi ubicación</button>
+    </section>`;
     return;
   }
   const points = getNearbyPromoPoints();
@@ -1525,19 +1529,22 @@ function renderNearbyView() {
   const promos = selectedPoint?.promos || [];
   const selectedTheme = getBankTheme(getPointPrimaryPromo(selectedPoint)?.bank);
   if (!points.length) {
-    els.statusText.textContent = "Radar de locales";
-    els.countText.textContent = "0 ubicaciones";
+    const matchingPromos = uniquePromos([...buildNearbyPromoIndex().values()].flat());
+    els.statusText.textContent = "Sin ubicación verificada";
+    els.countText.textContent = `${matchingPromos.length} beneficios · 0 ubicaciones verificadas`;
     els.results.innerHTML = `
       <section class="nearby-panel">
         <div class="nearby-hero">
           <div>
-            <span class="nearby-kicker">Cerca</span>
-            <h2>Sin locales para este filtro</h2>
-            <p>No encontramos locales geolocalizados para la combinacion seleccionada.</p>
+            <span class="nearby-kicker">Sin ubicación verificada</span>
+            <h2>Sin ubicaciones verificadas para estos filtros</h2>
+            <p>${escapeHtml(getNearbyActiveFilterText())}</p>
+            <p>Puede haber promociones sin una ubicación verificada en el mapa.</p>
           </div>
           <button type="button" class="location-button ${state.locationStatus === "loading" ? "is-loading" : ""}" data-location-action="detect">${state.locationStatus === "loading" ? `<span class="locating-orbit" aria-hidden="true"></span>Buscando...` : state.location ? "Actualizar ubicación" : "Usar mi ubicación"}</button>
         </div>
-        <div class="empty compact">Probá con otro banco, otra categoría o volvé a Todas para ampliar el mapa.</div>
+        <button type="button" class="location-button secondary" data-location-action="reset-filters">Ver todos los locales de hoy</button>
+        ${matchingPromos.length ? `<h2>Promociones sin ubicación en el mapa</h2><p>Estos beneficios coinciden con tus filtros. Consultá los locales adheridos en sus condiciones.</p>${renderNearbyPromoGroups(matchingPromos)}` : ""}
       </section>
     `;
     return;
@@ -2222,6 +2229,10 @@ function matchesNearbyDay(promo) {
 }
 
 function getPromotionsForLocation(place, promoIndex) {
+  if (Array.isArray(place.promotion_ids)) {
+    if (!isActivePromotion({terms: {ends_on: place.participation_ends_on}})) return [];
+    return uniquePromos([...promoIndex.values()].flat().filter(promo => place.promotion_ids.includes(promo.id)));
+  }
   const merchantTerms = [
     place.google_name,
     place.merchant_name,
@@ -2316,8 +2327,8 @@ async function requestLocation() {
       state.locationStatus = "error";
       render();
     }
-  }, () => {
-    state.locationStatus = "denied";
+  }, (error) => {
+    state.locationStatus = error.code === 1 ? "denied" : error.code === 3 ? "timeout" : "unavailable";
     render();
   }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 300000 });
 }
@@ -2342,18 +2353,26 @@ async function exploreNearbyManually() {
 
 async function loadLocations() {
   if (state.locationsLoaded) return;
-  const response = await fetch(`${LOCATIONS_URL}?t=${Date.now()}`);
-  if (!response.ok) throw new Error("No se pudieron cargar ubicaciones");
-  const payload = await response.json();
-  state.locationsUpdated = payload.generated_at || "";
-  state.locations = (payload.locations || []).map((item) => ({
-    ...item,
-    name: item.google_name || [item.merchant_name, item.address].filter(Boolean).join(" · "),
-    lat: item.lat === null || item.lat === "" ? null : Number(item.lat),
-    lng: item.lng === null || item.lng === "" ? null : Number(item.lng),
-    terms: [item.google_name, item.merchant_name, item.address, item.city].filter(Boolean),
-  }));
-  state.locationsLoaded = true;
+  state.locationsStatus = "loading";
+  try {
+    const response = await fetch(`${LOCATIONS_URL}?t=${Date.now()}`);
+    if (!response.ok) throw new Error("No se pudieron cargar ubicaciones");
+    const payload = await response.json();
+    if (!Array.isArray(payload.locations)) throw new Error("Formato de ubicaciones inválido");
+    state.locationsUpdated = payload.generated_at || "";
+    state.locations = (payload.locations || []).map((item) => ({
+      ...item,
+      name: item.google_name || [item.merchant_name, item.address].filter(Boolean).join(" · "),
+      lat: item.lat === null || item.lat === "" ? null : Number(item.lat),
+      lng: item.lng === null || item.lng === "" ? null : Number(item.lng),
+      terms: [item.google_name, item.merchant_name, item.address, item.city].filter(Boolean),
+    }));
+    state.locationsLoaded = true;
+    state.locationsStatus = "ready";
+  } catch (error) {
+    state.locationsStatus = "error";
+    throw error;
+  }
 }
 
 function toggleFavorite(id) {
@@ -3152,7 +3171,15 @@ els.results.addEventListener("click", (event) => {
 
   const locationButton = event.target.closest("[data-location-action]");
   if (locationButton) {
-    if (locationButton.dataset.locationAction === "explore") {
+    if (locationButton.dataset.locationAction === "reset-filters") {
+      state.activeBank = "Todos";
+      state.activeCategory = "Todas";
+      state.activeDay = "hoy";
+      state.query = "";
+      els.searchInput.value = "";
+      resetNearbySelection();
+      render();
+    } else if (locationButton.dataset.locationAction === "explore") {
       exploreNearbyManually();
     } else {
       requestLocation();

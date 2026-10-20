@@ -141496,18 +141496,18 @@
     "last_days_of_month": 0,
     "ordinal_weekdays": [],
     "day_text": "lunes",
-    "validity": "Desde 2026-02-23 hasta 2026-12-31",
+    "validity": "Desde 2026-02-23 hasta 2026-10-26",
     "source_period_end": "",
     "caps_and_minimums": "Tope de compra Gs. 150.000 por mes, por cliente (titular + adicional).",
     "level_rules": "",
     "level_benefits": [],
     "special_flags": [],
     "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291",
-    "source_page_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291",
-    "raw_detail": "Desde 2026-02-23 hasta 2026-12-31. Aplica lunes. 20% de reintegro. Pagando con tarjetas de crédito Itaú Clásica. Tope de compra Gs. 150.000 por mes, por cliente (titular + adicional). No aplica a PERSONAL BANK. Consultar Estaciones Adheridas en www.itau.com.py/Paginas/sobreitau_informes. Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. El tope de reintegro mensual aplica por cliente titular. Los consumos realizados con todas las tarjetas del titular, incluidas las adicionales, se acumulan en una única bolsa de combustible.",
-    "source_warning": "",
+    "source_page_url": "https://www.itau.com.py/Content/archivos/Dinamicos/Varios-8584102266527954479.pdf",
+    "raw_detail": "Desde 2026-02-23 hasta 2026-10-26. Aplica lunes. 20% de reintegro. Pagando con tarjetas de crédito Itaú Clásica. Tope de compra Gs. 150.000 por mes, por cliente (titular + adicional). No aplica a PERSONAL BANK. Consultar Estaciones Adheridas en www.itau.com.py/Paginas/sobreitau_informes. Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. El tope de reintegro mensual aplica por cliente titular. Los consumos realizados con todas las tarjetas del titular, incluidas las adicionales, se acumulan en una única bolsa de combustible.",
+    "source_warning": "Campaña y estaciones adheridas verificadas para octubre, hasta el 26/10/2026.",
     "verified_cards": "Clásica",
-    "original_source_text": "Detalle: Tanque lleno, todos los lunes. Del 23 de febrero al 31 de diciembre de 2026. 20% de REINTEGRO con tu tarjeta de Crédito CLASICA, ORO y PREMIUM (VISA PLATINUM, INTERVENTAJAS PLATINUM, AADVANTAGE PLATINUM, VISA PLATINUM CENTENARIO, LATAM PLATINUM, MC BLACK). Tope de compra para tarjeta CLASICA es Gs. 150.000 por mes, por cliente (titular + adicional). Tope de compra de la ORO y PREMIUM es Gs. 500.000 por mes, por cliente (titular + adicional). No aplica a PERSONAL BANK. Consultar Estaciones Adheridas en www.itau.com.py/Paginas/sobreitau_informes. Bases y condiciones: Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. El tope de reintegro mensual aplica por cliente titular. Los consumos realizados con todas las tarjetas del titular, incluidas las adicionales, se acumulan en una única bolsa de combustible. Cantidad de descuento / beneficio: 20 %; 20% de reintegro con tu tarjeta de Crédito clásica Vigencia: 2026-01-05 hasta 2026-12-31 Medios de pago: tarjeta de crédito",
+    "original_source_text": "Desde 2026-02-23 hasta 2026-12-31. Aplica lunes. 20% de reintegro. Pagando con tarjetas de crédito Itaú Clásica. Tope de compra Gs. 150.000 por mes, por cliente (titular + adicional). No aplica a PERSONAL BANK. Consultar Estaciones Adheridas en www.itau.com.py/Paginas/sobreitau_informes. Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. El tope de reintegro mensual aplica por cliente titular. Los consumos realizados con todas las tarjetas del titular, incluidas las adicionales, se acumulan en una única bolsa de combustible.",
     "limits_reviewed_for_variant": true,
     "source_verification": "official_document",
     "variant_review_reason": "Segmentación revisada del detalle y bases oficiales por tarjeta y tope; sin sumar descuento en caja al reintegro. Inicio tomado del detalle explícito «Del 23 de febrero al 31 de diciembre de 2026»; metadata original indica 2026-01-05 y se conserva como evidencia.",
@@ -141517,11 +141517,11 @@
     "offer_label": "Clásica",
     "effective_percent": 20.0,
     "source_checked_at": "2026-10-17T02:07:38.378271+00:00",
-    "source_file_updated_at": "2026-10-16T12:25:38Z",
+    "source_file_updated_at": "2026-10-19T14:46:26Z",
     "terms": {
       "version": 1,
       "starts_on": "2026-02-23",
-      "ends_on": "2026-12-31",
+      "ends_on": "2026-10-26",
       "conflicting_dates": false,
       "limits": [
         {
@@ -141541,7 +141541,9 @@
       ],
       "issues": [],
       "status": "parsed"
-    }
+    },
+    "source_document_url": "https://www.itau.com.py/Content/archivos/Dinamicos/Varios-8584102266527954479.pdf",
+    "source_reviewed_at": "2026-10-19"
   },
   {
     "bank": "Itaú",
@@ -141560,18 +141562,18 @@
     "last_days_of_month": 0,
     "ordinal_weekdays": [],
     "day_text": "lunes",
-    "validity": "Desde 2026-02-23 hasta 2026-12-31",
+    "validity": "Desde 2026-02-23 hasta 2026-10-26",
     "source_period_end": "",
     "caps_and_minimums": "Tope de compra Gs. 500.000 por mes, por cliente (titular + adicional).",
     "level_rules": "",
     "level_benefits": [],
     "special_flags": [],
     "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291",
-    "source_page_url": "https://www.itau.com.py/beneficios2/Detalle?b=16914&c=31291",
-    "raw_detail": "Desde 2026-02-23 hasta 2026-12-31. Aplica lunes. 20% de reintegro. Pagando con tarjetas de crédito Itaú Oro y Premium (Visa Platinum, Interventajas Platinum, AAdvantage Platinum, Visa Platinum Centenario, LATAM Platinum, Mastercard Black). Tope de compra Gs. 500.000 por mes, por cliente (titular + adicional). No aplica a PERSONAL BANK. Consultar Estaciones Adheridas en www.itau.com.py/Paginas/sobreitau_informes. Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. El tope de reintegro mensual aplica por cliente titular. Los consumos realizados con todas las tarjetas del titular, incluidas las adicionales, se acumulan en una única bolsa de combustible.",
-    "source_warning": "",
+    "source_page_url": "https://www.itau.com.py/Content/archivos/Dinamicos/Varios-8584102266527954479.pdf",
+    "raw_detail": "Desde 2026-02-23 hasta 2026-10-26. Aplica lunes. 20% de reintegro. Pagando con tarjetas de crédito Itaú Oro y Premium (Visa Platinum, Interventajas Platinum, AAdvantage Platinum, Visa Platinum Centenario, LATAM Platinum, Mastercard Black). Tope de compra Gs. 500.000 por mes, por cliente (titular + adicional). No aplica a PERSONAL BANK. Consultar Estaciones Adheridas en www.itau.com.py/Paginas/sobreitau_informes. Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. El tope de reintegro mensual aplica por cliente titular. Los consumos realizados con todas las tarjetas del titular, incluidas las adicionales, se acumulan en una única bolsa de combustible.",
+    "source_warning": "Campaña y estaciones adheridas verificadas para octubre, hasta el 26/10/2026.",
     "verified_cards": "Oro y Premium (Visa Platinum, Interventajas Platinum, AAdvantage Platinum, Visa Platinum Centenario, LATAM Platinum, Mastercard Black)",
-    "original_source_text": "Detalle: Tanque lleno, todos los lunes. Del 23 de febrero al 31 de diciembre de 2026. 20% de REINTEGRO con tu tarjeta de Crédito CLASICA, ORO y PREMIUM (VISA PLATINUM, INTERVENTAJAS PLATINUM, AADVANTAGE PLATINUM, VISA PLATINUM CENTENARIO, LATAM PLATINUM, MC BLACK). Tope de compra para tarjeta CLASICA es Gs. 150.000 por mes, por cliente (titular + adicional). Tope de compra de la ORO y PREMIUM es Gs. 500.000 por mes, por cliente (titular + adicional). No aplica a PERSONAL BANK. Consultar Estaciones Adheridas en www.itau.com.py/Paginas/sobreitau_informes. Bases y condiciones: Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. El tope de reintegro mensual aplica por cliente titular. Los consumos realizados con todas las tarjetas del titular, incluidas las adicionales, se acumulan en una única bolsa de combustible. Cantidad de descuento / beneficio: 20 %; 20% de reintegro con tu tarjeta de Crédito clásica Vigencia: 2026-01-05 hasta 2026-12-31 Medios de pago: tarjeta de crédito",
+    "original_source_text": "Desde 2026-02-23 hasta 2026-12-31. Aplica lunes. 20% de reintegro. Pagando con tarjetas de crédito Itaú Oro y Premium (Visa Platinum, Interventajas Platinum, AAdvantage Platinum, Visa Platinum Centenario, LATAM Platinum, Mastercard Black). Tope de compra Gs. 500.000 por mes, por cliente (titular + adicional). No aplica a PERSONAL BANK. Consultar Estaciones Adheridas en www.itau.com.py/Paginas/sobreitau_informes. Aplica para compras realizadas a través del pos de Bancard. No incluye tarjetas pre – pagas. Las tarjetas de crédito que acumulan puntos son Visa Infinite, Interventajas, American Express (Platinum, Gold y Green), Visa Platinum, Mastercard Black, afinidad Club Centenario y Touring. Las tarjetas de crédito con las afinidades LATAM y Aadvantage acumulan en sus respectivos programas. No acumulable con otras promociones. El tope de reintegro mensual aplica por cliente titular. Los consumos realizados con todas las tarjetas del titular, incluidas las adicionales, se acumulan en una única bolsa de combustible.",
     "limits_reviewed_for_variant": true,
     "source_verification": "official_document",
     "variant_review_reason": "Segmentación revisada del detalle y bases oficiales por tarjeta y tope; sin sumar descuento en caja al reintegro. Inicio tomado del detalle explícito «Del 23 de febrero al 31 de diciembre de 2026»; metadata original indica 2026-01-05 y se conserva como evidencia.",
@@ -141581,11 +141583,11 @@
     "offer_label": "Oro y Premium (Visa Platinum, Interventajas Platinum, AAdvantage Platinum, Visa Platinum Centenario, LATAM Platinum, Mastercard Black)",
     "effective_percent": 20.0,
     "source_checked_at": "2026-10-17T02:07:38.378271+00:00",
-    "source_file_updated_at": "2026-10-16T12:25:38Z",
+    "source_file_updated_at": "2026-10-19T14:46:26Z",
     "terms": {
       "version": 1,
       "starts_on": "2026-02-23",
-      "ends_on": "2026-12-31",
+      "ends_on": "2026-10-26",
       "conflicting_dates": false,
       "limits": [
         {
@@ -141605,7 +141607,9 @@
       ],
       "issues": [],
       "status": "parsed"
-    }
+    },
+    "source_document_url": "https://www.itau.com.py/Content/archivos/Dinamicos/Varios-8584102266527954479.pdf",
+    "source_reviewed_at": "2026-10-19"
   },
   {
     "bank": "Itaú",

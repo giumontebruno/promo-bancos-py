@@ -285,6 +285,9 @@ def main():
     reviewed_branches = ROOT / "data/sudameris_reviewed_branches.json"
     if reviewed_branches.exists():
         locations.extend(json.loads(reviewed_branches.read_text(encoding="utf-8")))
+    shell_branches = ROOT / "data/itau_shell_reviewed_branches.json"
+    if shell_branches.exists():
+        locations.extend(json.loads(shell_branches.read_text(encoding="utf-8")))
     previous = json.loads(OUT_JSON.read_text(encoding="utf-8")) if OUT_JSON.exists() else {}
     previous_by_key = {
         (item.get("bank"), slug(item.get("merchant_name")), slug(item.get("address")), slug(item.get("city"))): item

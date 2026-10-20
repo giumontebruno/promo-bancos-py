@@ -522,6 +522,11 @@ def main():
 
     source_promotions = load_promotions()
     promotions, aliases = deduplicate(source_promotions)
+    try:
+        from .reviewed_shell import apply_review
+    except ImportError:
+        from reviewed_shell import apply_review
+    apply_review(promotions, json.loads((DATA / "itau_shell_october_review.json").read_text(encoding="utf-8")))
     # Preserve reviewed campaign subscriptions through multi-benefit splits.
     identity_path = DATA / 'reviewed_campaign_identities.json'
     if identity_path.exists():
