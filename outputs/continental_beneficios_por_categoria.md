@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 830
+Total de beneficios/comercios: 831
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -570,7 +570,7 @@ _Se omitieron 26 filas en este resumen; están en el CSV._
 |---|---|---|---|---|
 | Puma Flota | Ver descripción | No especificado | No especificado | No especificado |
 
-## Salud (29)
+## Salud (30)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -595,6 +595,7 @@ _Se omitieron 26 filas en este resumen; están en el CSV._
 | Laboratorios, clínicas y sanatorios del país | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre del 2026 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | No especificado |
 | Margraf Dental Center | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 21 de diciembre del 2026 | Asunción |
 | Microsonic | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 11 de noviembre de 2026 | Asunción |
+| Neolife | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 18 de abril de 2027 | Asunción |
 | Odontos | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 06 de agosto de 2027 | Todo el país |
 | Ortobionic | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de diciembre de 2026 | Ciudad del Este |
 | Promedical | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 15 de octubre de 2027 | Asunción |
@@ -762,7 +763,7 @@ _Se omitieron 38 filas en este resumen; están en el CSV._
 | Coco Fit | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 03 de febrero de 2027 | Ayolas - Misiones |
 | Cole Haan | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 01 de julio de 2027 | Asunción |
 | Comercial El Lorito | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 26 de mayo de 2027 | Loma Plata |
-| Crocs | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 01 de julio de 2027 | No especificado |
+| Crocs | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 01 de julio de 2027 | Todo el país |
 | Cuna Bella | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 13 de mayo de 2027 | Asunción |
 | DV Cueros | 20%; 20% de reintegro | Los jueves | Vigente hasta el 09 de septiembre de 2027 | San Ignacio, Misiones |
 | Damat (Great Bazzar) | 20%; 20% de reintegro | los jueves | Vigente hasta el 14 de enero del 2027 | Asunción |

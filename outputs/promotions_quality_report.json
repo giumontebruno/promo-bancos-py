@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T05:56:12.816357+00:00",
-  "input_count": 3080,
-  "promotion_count": 3116,
+  "generated_at": "2026-10-20T12:50:21.752497+00:00",
+  "input_count": 3083,
+  "promotion_count": 3119,
   "duplicates_removed": -36,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -1024,10 +1024,10 @@
   "by_bank": {
     "Atlas": 45,
     "BNF": 77,
-    "Continental": 831,
+    "Continental": 832,
     "Coop. Universitaria": 71,
     "Familiar": 416,
-    "GNB": 479,
+    "GNB": 481,
     "Itaú": 560,
     "Sudameris": 282,
     "ueno bank": 355

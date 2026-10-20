@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-20T05:55:41+00:00",
+  "generated_at": "2026-10-20T12:49:52+00:00",
   "provider": "Official bank branch lists + reviewed location matches",
   "total_locations": 1988,
   "qa_held_locations": 85,
-  "geocoded_locations": 527,
+  "geocoded_locations": 539,
   "locations": [
     {
       "id": "loc-bnf-b503118f81afab11",
@@ -27,14 +27,14 @@
       "google_name": "Copetrol",
       "google_types": [
         "gas_station",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-09-14T15:18:49+00:00",
+      "location_verified_at": "2026-10-20T12:50:14+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:18:50.017698+00:00",
+      "google_last_attempt_at": "2026-10-20T12:50:15.039398+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -64,9 +64,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-09-14T15:18:50+00:00",
+      "location_verified_at": "2026-10-20T12:50:15+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:18:50.716812+00:00",
+      "google_last_attempt_at": "2026-10-20T12:50:15.455369+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -91,14 +91,14 @@
       "google_name": "Copetrol San José",
       "google_types": [
         "gas_station",
-        "service",
         "point_of_interest",
+        "service",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-09-14T15:18:53+00:00",
+      "location_verified_at": "2026-10-20T12:50:15+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:18:53.659201+00:00",
+      "google_last_attempt_at": "2026-10-20T12:50:15.830315+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -126,11 +126,19 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "high",
+      "google_confidence": "review",
       "location_verified_at": "2026-09-14T15:18:58+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:18:58.744249+00:00",
-      "google_enrichment_status": "matched"
+      "google_last_attempt_at": "2026-10-20T12:50:16.212070+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJ6eSeV-OpXZQRlYG2CYV0hKo",
+      "google_candidate": {
+        "google_name": "COPETROL",
+        "formatted_address": "R.I.18 Pitiantuta 1119, Asunción 001419",
+        "lat": -25.3114723,
+        "lng": -57.5696931,
+        "checked_at": "2026-10-20T12:50:16+00:00"
+      }
     },
     {
       "id": "loc-bnf-0016ea88540a558f",
@@ -159,9 +167,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-09-14T15:19:00+00:00",
+      "location_verified_at": "2026-10-20T12:50:16+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:19:00.890634+00:00",
+      "google_last_attempt_at": "2026-10-20T12:50:16.620374+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -237,9 +245,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-09-14T15:19:05+00:00",
+      "location_verified_at": "2026-10-20T12:50:16+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:19:05.522919+00:00",
+      "google_last_attempt_at": "2026-10-20T12:50:17.073040+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -268,11 +276,19 @@
         "service",
         "establishment"
       ],
-      "google_confidence": "high",
+      "google_confidence": "review",
       "location_verified_at": "2026-09-14T15:19:18+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-09-14T15:19:19.067037+00:00",
-      "google_enrichment_status": "matched"
+      "google_last_attempt_at": "2026-10-20T12:50:17.504796+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJ4WufUTypXZQRWCxsMme-Qic",
+      "google_candidate": {
+        "google_name": "COPETROL",
+        "formatted_address": "MC6G+3WG, Nueva Asunción, Fernando de la Mora 110328",
+        "lat": -25.3398081,
+        "lng": -57.5726563,
+        "checked_at": "2026-10-20T12:50:17+00:00"
+      }
     },
     {
       "id": "loc-bnf-246bf21d7c2e8a35",
@@ -5864,6 +5880,105 @@
       "location_review_status": "confirmed"
     },
     {
+      "id": "loc-bnf-39a2fb01cbcbe4e2",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Avda. Luis María Argaña c/ Porvenir.",
+      "city": "Lambaré",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 12,
+      "lat": -25.3362317,
+      "lng": -57.6245193,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJp1VwKM-pXZQR3ZzTfOE8dHw",
+      "formatted_address": "Avda. Dr. Luis M Argaña casi, Porvenir, Lambaré 0705",
+      "google_name": "Farmacenter Argaña",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:55:42+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:55:42.410895+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
+      "id": "loc-bnf-816273923d6550ff",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Avda. San Isidro N° 2424.",
+      "city": "Lambaré",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 12,
+      "lat": -25.3544445,
+      "lng": -57.6113604,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJndZJbQipXZQRBXqbYfMn9Kw",
+      "formatted_address": "Av. San Isidro esq, Lambaré 0729",
+      "google_name": "Farmacenter San Isidro 2",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:55:45+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:55:45.153026+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
+      "id": "loc-bnf-735d1de4c396bfc4",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Avda. Cacique Lambaré c/ Choferes del 70.",
+      "city": "Lambaré",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 12,
+      "lat": -25.3431371,
+      "lng": -57.6219219,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJPUuaIsqpXZQRbhi4QZSktsQ",
+      "formatted_address": "Av. Cacique Lambare 1180 casi, Lambaré 0723",
+      "google_name": "Farmacenter Lambare 1",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:55:45+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:55:45.942985+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
       "id": "loc-bnf-0883571e78ef2e4a",
       "bank": "BNF",
       "category": "Farmacias",
@@ -6070,6 +6185,39 @@
       "operator_city_evidence_sha256": "4c36f6098c7a934c3d046d919bf82831a13602cc521aac751daeaac4ff250ba3",
       "operator_location_sha256": "743f9bc342a0a0e0ca9356d0d2f80df665236f888377b7846629ead4ab022462",
       "location_review_status": "confirmed"
+    },
+    {
+      "id": "loc-bnf-8b6e79bde2520b55",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Avda. Colón esq. Roberto Benítez.",
+      "city": "Limpio",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 12,
+      "lat": -25.1690113,
+      "lng": -57.475931,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJO3G9RVqjXZQRuL47e4EH2V4",
+      "formatted_address": "Ruta Gral. Aquino y Roberto Benítez 293, Limpio 0813",
+      "google_name": "Farmacenter Limpio 1",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:55:48+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:55:48.360465+00:00",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-bnf-138a641c452b252c",
@@ -6359,6 +6507,72 @@
       ],
       "participation_ends_on": "2026-10-26",
       "location_review_status": "confirmed"
+    },
+    {
+      "id": "loc-bnf-d21fdbd68e4049ba",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Calle Rosario y Mcal. Estigarribia.",
+      "city": "Luque",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 12,
+      "lat": -25.2606303,
+      "lng": -57.490318,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJxRpvqI-lXZQRuSXrZC_k4yI",
+      "formatted_address": "Calle Rosario Entre, Mcal. Estigarribia y, Luque 0920",
+      "google_name": "Farmacenter Luque 7",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:55:54+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:55:54.439027+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
+      "id": "loc-bnf-92be91b4eb9a7595",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Cnel. Martínez c/ Dr. Andrés.",
+      "city": "Luque",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 12,
+      "lat": -25.2977632,
+      "lng": -57.4716058,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJsQM_fvCvXZQRiGLx6VeRlRc",
+      "formatted_address": "Cnel. Martinez casi Dr. Andrés Avelino Báez Insfran, Luque 0953",
+      "google_name": "Farmacenter Luque 10",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:55:55+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:55:55.841786+00:00",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-bnf-90c570d7d6140a41",
@@ -7524,6 +7738,39 @@
       "location_review_status": "confirmed"
     },
     {
+      "id": "loc-bnf-d8fd63cd2be4fef7",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Avda. Paraguay c/ Cadete de Boquerón.",
+      "city": "San Antonio",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 13,
+      "lat": -25.4108439,
+      "lng": -57.5488914,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJmT8F7MqtXZQR9mH4JbEFH_k",
+      "formatted_address": "Cadete de Boquerón esquina, San Antonio 1308",
+      "google_name": "Farmacenter San Antonio 2",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:56:04+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:56:04.659555+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
       "id": "loc-bnf-5abd08aa5c912e09",
       "bank": "BNF",
       "category": "Farmacias",
@@ -7656,6 +7903,39 @@
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
       "review_evidence_record": 27,
       "reviewed_block": "2026-10-20-block79"
+    },
+    {
+      "id": "loc-bnf-1d652e00acf0560c",
+      "bank": "BNF",
+      "category": "Farmacias",
+      "source_category": "Farmacias",
+      "merchant_name": "FARMACENTER",
+      "merchant_brand": "FARMACENTER",
+      "address": "Hernandarias N° 1638.",
+      "city": "San Lorenzo",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+      "source_page": 13,
+      "lat": -25.346542,
+      "lng": -57.5134574,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "place_id": "ChIJ7eLnnIauXZQRKsYVamtwRDU",
+      "formatted_address": "Hernandarias 1638 casi Julia Miranda Cueto San Lorenzo, San Lorenzo 1422",
+      "google_name": "Farmacenter San Lorenzo 1",
+      "google_types": [
+        "pharmacy",
+        "health",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:56:05+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:56:05.393931+00:00",
+      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-bnf-4a612d43ade52396",
@@ -18667,6 +18947,36 @@
       "google_enrichment_status": "matched"
     },
     {
+      "id": "loc-ueno-fad0134eeb",
+      "bank": "ueno bank",
+      "category": "Combustible",
+      "merchant_name": "PETROPAR ÑEMBY 2",
+      "address": "AVDA. ACCESO SUR",
+      "city": "ÑEMBY",
+      "department": "",
+      "country": "Paraguay",
+      "merchant_brand": "PETROPAR",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-Petropar-_-OCT-2026v3.pdf",
+      "source_page": 7,
+      "lat": -25.398562,
+      "lng": -57.544452,
+      "geocode_source": "google_places_text_search",
+      "place_id": "ChIJy_ksGwCtXZQRzMmYosCZdog",
+      "formatted_address": "JF24+H64, Acceso Sur, Ñemby 111214",
+      "google_name": "Petropar Acceso Sur Ñemby",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "location_verified_at": "2026-10-20T05:55:55+00:00",
+      "needs_review": false,
+      "google_last_attempt_at": "2026-10-20T05:55:55.491721+00:00",
+      "google_enrichment_status": "matched"
+    },
+    {
       "id": "loc-bnf-232446c8cbbeb004",
       "bank": "BNF",
       "category": "Combustible",
@@ -29311,39 +29621,6 @@
       }
     },
     {
-      "id": "loc-bnf-39a2fb01cbcbe4e2",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Avda. Luis María Argaña c/ Porvenir.",
-      "city": "Lambaré",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 12,
-      "lat": -25.3362317,
-      "lng": -57.6245193,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:55:42.410895+00:00",
-      "place_id": "ChIJp1VwKM-pXZQR3ZzTfOE8dHw",
-      "formatted_address": "Avda. Dr. Luis M Argaña casi, Porvenir, Lambaré 0705",
-      "google_name": "Farmacenter Argaña",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "health",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:55:42+00:00"
-    },
-    {
       "id": "loc-bnf-3a9ff8b3d5a227ed",
       "bank": "BNF",
       "category": "Farmacias",
@@ -29360,9 +29637,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:43.429983+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJPUuaIsqpXZQRbhi4QZSktsQ",
       "google_candidate": {
         "google_name": "Farmacenter Lambare 1",
@@ -29389,9 +29666,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:44.282716+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJPUuaIsqpXZQRbhi4QZSktsQ",
       "google_candidate": {
         "google_name": "Farmacenter Lambare 1",
@@ -29400,72 +29677,6 @@
         "lng": -57.6219219,
         "checked_at": "2026-10-20T05:55:44+00:00"
       }
-    },
-    {
-      "id": "loc-bnf-816273923d6550ff",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Avda. San Isidro N° 2424.",
-      "city": "Lambaré",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 12,
-      "lat": -25.3544445,
-      "lng": -57.6113604,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:55:45.153026+00:00",
-      "place_id": "ChIJndZJbQipXZQRBXqbYfMn9Kw",
-      "formatted_address": "Av. San Isidro esq, Lambaré 0729",
-      "google_name": "Farmacenter San Isidro 2",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "health",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:55:45+00:00"
-    },
-    {
-      "id": "loc-bnf-735d1de4c396bfc4",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Avda. Cacique Lambaré c/ Choferes del 70.",
-      "city": "Lambaré",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 12,
-      "lat": -25.3431371,
-      "lng": -57.6219219,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:55:45.942985+00:00",
-      "place_id": "ChIJPUuaIsqpXZQRbhi4QZSktsQ",
-      "formatted_address": "Av. Cacique Lambare 1180 casi, Lambaré 0723",
-      "google_name": "Farmacenter Lambare 1",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "point_of_interest",
-        "health",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:55:45+00:00"
     },
     {
       "id": "loc-bnf-5a4022424198550d",
@@ -29484,9 +29695,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:46.758373+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJuxKHIgCpXZQREXISmIsO95M",
       "google_candidate": {
         "google_name": "Farmacia Vicente Scavone",
@@ -29513,9 +29724,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:47.583513+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJiUUDZwapXZQRBG7hYUVC4VE",
       "google_candidate": {
         "google_name": "Farmacias Catedral Suc. Lambare 6",
@@ -29562,39 +29773,6 @@
       "online_only": false
     },
     {
-      "id": "loc-bnf-8b6e79bde2520b55",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Avda. Colón esq. Roberto Benítez.",
-      "city": "Limpio",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 12,
-      "lat": -25.1690113,
-      "lng": -57.475931,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:55:48.360465+00:00",
-      "place_id": "ChIJO3G9RVqjXZQRuL47e4EH2V4",
-      "formatted_address": "Ruta Gral. Aquino y Roberto Benítez 293, Limpio 0813",
-      "google_name": "Farmacenter Limpio 1",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "health",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:55:48+00:00"
-    },
-    {
       "id": "loc-bnf-c50a70e6768b22b7",
       "bank": "BNF",
       "category": "Farmacias",
@@ -29611,9 +29789,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:49.120380+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJAekk1VOjXZQR3N7dti8QLbM",
       "google_candidate": {
         "google_name": "Farmacenter Limpio 3",
@@ -29640,9 +29818,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:49.892180+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJVcq4iHmjXZQRl3o0yXh0kIc",
       "google_candidate": {
         "google_name": "Farmacias Catedral Suc. Limpio 2",
@@ -29669,9 +29847,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:50.775431+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
       "google_candidate": {
         "google_name": "Farmacenter Luque 1",
@@ -29698,9 +29876,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:51.525715+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
       "google_candidate": {
         "google_name": "Farmacenter Luque 1",
@@ -29727,9 +29905,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:52.252743+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
       "google_candidate": {
         "google_name": "Farmacenter Luque 1",
@@ -29756,9 +29934,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:53.003472+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
       "google_candidate": {
         "google_name": "Farmacenter Luque 1",
@@ -29785,9 +29963,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:53.742962+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ88zxnIyvXZQRFx_a0r1w-6Y",
       "google_candidate": {
         "google_name": "Farmacenter Luque 2",
@@ -29796,39 +29974,6 @@
         "lng": -57.4876717,
         "checked_at": "2026-10-20T05:55:53+00:00"
       }
-    },
-    {
-      "id": "loc-bnf-d21fdbd68e4049ba",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Calle Rosario y Mcal. Estigarribia.",
-      "city": "Luque",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 12,
-      "lat": -25.2606303,
-      "lng": -57.490318,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:55:54.439027+00:00",
-      "place_id": "ChIJxRpvqI-lXZQRuSXrZC_k4yI",
-      "formatted_address": "Calle Rosario Entre, Mcal. Estigarribia y, Luque 0920",
-      "google_name": "Farmacenter Luque 7",
-      "google_types": [
-        "pharmacy",
-        "store",
-        "point_of_interest",
-        "health",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:55:54+00:00"
     },
     {
       "id": "loc-bnf-bc97f132acf4f8e0",
@@ -29847,9 +29992,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:55.152230+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
       "google_candidate": {
         "google_name": "Farmacenter Luque 1",
@@ -29858,39 +30003,6 @@
         "lng": -57.4933437,
         "checked_at": "2026-10-20T05:55:55+00:00"
       }
-    },
-    {
-      "id": "loc-bnf-92be91b4eb9a7595",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Cnel. Martínez c/ Dr. Andrés.",
-      "city": "Luque",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 12,
-      "lat": -25.2977632,
-      "lng": -57.4716058,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:55:55.841786+00:00",
-      "place_id": "ChIJsQM_fvCvXZQRiGLx6VeRlRc",
-      "formatted_address": "Cnel. Martinez casi Dr. Andrés Avelino Báez Insfran, Luque 0953",
-      "google_name": "Farmacenter Luque 10",
-      "google_types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:55:55+00:00"
     },
     {
       "id": "loc-bnf-cb30fc3e646022bd",
@@ -29909,9 +30021,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:56.593242+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJIys-B4mvXZQRO4gRhTYalsw",
       "google_candidate": {
         "google_name": "Farmacenter Luque 1",
@@ -29938,9 +30050,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:57.357783+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJw-E_SdKvXZQRQlBANBd1A_s",
       "google_candidate": {
         "google_name": "Farmacia Vicente Scavone Sucursal Luisito - Luque",
@@ -29967,9 +30079,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:58.127920+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJw4whvDqvXZQRNsoIhyhH9iI",
       "google_candidate": {
         "google_name": "Farmacias Catedral Suc Luque 9",
@@ -29996,9 +30108,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:58.941056+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ5ycktaevXZQRp4YpiWjwdPw",
       "google_candidate": {
         "google_name": "Farmacia catedral Suc. Luque 2",
@@ -30025,9 +30137,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:59.704477+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJsV93WIClXZQRzyRUCV54FxE",
       "google_candidate": {
         "google_name": "Farmacenter Mariano 2",
@@ -30054,9 +30166,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:56:00.516217+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJsV93WIClXZQRzyRUCV54FxE",
       "google_candidate": {
         "google_name": "Farmacenter Mariano 2",
@@ -30083,9 +30195,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:56:01.233722+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJQSTJiDakXZQRghezsqNZYm4",
       "google_candidate": {
         "google_name": "Farmacenter Mariano 1",
@@ -30112,9 +30224,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:56:01.977549+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJsV93WIClXZQRzyRUCV54FxE",
       "google_candidate": {
         "google_name": "Farmacenter Mariano 2",
@@ -30141,9 +30253,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:56:02.742844+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJdZKfTqalXZQRc5YXh6ztnp4",
       "google_candidate": {
         "google_name": "Farmacia Vicente Scavone - Suc. MRA",
@@ -30170,9 +30282,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:56:03.532600+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ9wbxdGGlXZQR6DuuA1ehoms",
       "google_candidate": {
         "google_name": "Farmacias Catedral Suc. Shopping Mariano",
@@ -30361,9 +30473,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:56:04.288097+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJA1t1DnWrXZQRa6u6V78waSo",
       "google_candidate": {
         "google_name": "Farmacenter San Antonio",
@@ -30372,39 +30484,6 @@
         "lng": -57.5736543,
         "checked_at": "2026-10-20T05:56:04+00:00"
       }
-    },
-    {
-      "id": "loc-bnf-d8fd63cd2be4fef7",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Avda. Paraguay c/ Cadete de Boquerón.",
-      "city": "San Antonio",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 13,
-      "lat": -25.4108439,
-      "lng": -57.5488914,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:56:04.659555+00:00",
-      "place_id": "ChIJmT8F7MqtXZQR9mH4JbEFH_k",
-      "formatted_address": "Cadete de Boquerón esquina, San Antonio 1308",
-      "google_name": "Farmacenter San Antonio 2",
-      "google_types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:56:04+00:00"
     },
     {
       "id": "loc-bnf-4c89055bea3d06f0",
@@ -30423,9 +30502,9 @@
       "lng": null,
       "geocode_source": "",
       "online_only": false,
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:56:05.029551+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJp_UQeACvXZQR3dyylHfUgjs",
       "google_candidate": {
         "google_name": "Farmacenter Avelino Martinez 2",
@@ -30652,39 +30731,6 @@
       "online_only": false
     },
     {
-      "id": "loc-bnf-1d652e00acf0560c",
-      "bank": "BNF",
-      "category": "Farmacias",
-      "source_category": "Farmacias",
-      "merchant_name": "FARMACENTER",
-      "merchant_brand": "FARMACENTER",
-      "address": "Hernandarias N° 1638.",
-      "city": "San Lorenzo",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
-      "source_page": 13,
-      "lat": -25.346542,
-      "lng": -57.5134574,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "google_last_attempt_at": "2026-10-20T05:56:05.393931+00:00",
-      "place_id": "ChIJ7eLnnIauXZQRKsYVamtwRDU",
-      "formatted_address": "Hernandarias 1638 casi Julia Miranda Cueto San Lorenzo, San Lorenzo 1422",
-      "google_name": "Farmacenter San Lorenzo 1",
-      "google_types": [
-        "pharmacy",
-        "health",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:56:05+00:00"
-    },
-    {
       "id": "loc-bnf-79f73d5fa2d2bdd9",
       "bank": "BNF",
       "category": "Farmacias",
@@ -30697,10 +30743,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 13,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3432938,
+      "lng": -57.5034159,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:52.900192+00:00",
+      "place_id": "ChIJhTGmfsWuXZQRIbSVFePJero",
+      "formatted_address": "Avda. Mcal. Estigarribia y Mcal. López San Lorenzo, San Lorenzo 1423",
+      "google_name": "Farmacenter San Lorenzo 2",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:49:52+00:00"
     },
     {
       "id": "loc-bnf-bdd22203ca3a4b8b",
@@ -30715,10 +30776,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 13,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3570866,
+      "lng": -57.5499985,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:53.289311+00:00",
+      "place_id": "ChIJCxPRfayuXZQROwLU3qAMhBM",
+      "formatted_address": "Avda. Avelino Martínez esq. San Judas Tadeo San Lorenzo, San Lorenzo 1442",
+      "google_name": "Farmacenter Avelino Martinez",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:49:53+00:00"
     },
     {
       "id": "loc-bnf-52db75a9302918b5",
@@ -30733,10 +30809,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 13,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3436283,
+      "lng": -57.4878526,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:53.794619+00:00",
+      "place_id": "ChIJW82rIWGvXZQRvZVpOlfp3pg",
+      "formatted_address": "Avda. Mcal Estigarribia c/ Sgto. Penayo San Lorenzo, San Lorenzo 1427",
+      "google_name": "Farmacenter Hospital San Lorenzo",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:49:53+00:00"
     },
     {
       "id": "loc-bnf-f9c5a6957d2d934f",
@@ -30754,7 +30845,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:54.192672+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJR56eHvWvXZQRuQGgUcGpx6Y",
+      "google_candidate": {
+        "google_name": "Farmacenter San Lorenzo 4",
+        "formatted_address": "Tte. Benitez esquina General Caballero San Lorenzo, San Lorenzo 1430",
+        "lat": -25.3485967,
+        "lng": -57.5085237,
+        "checked_at": "2026-10-20T12:49:54+00:00"
+      }
     },
     {
       "id": "loc-bnf-443dea8c0e0f003e",
@@ -30769,10 +30871,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 13,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3207773,
+      "lng": -57.4969448,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:54.564224+00:00",
+      "place_id": "ChIJ_cyDBWyvXZQRh_pBQi8JWeo",
+      "formatted_address": "Avda. Dr. Gabriel Pellón casi Los Concejales. Bo. Sagrada Familia San Lorenzo, San Lorenzo 1409",
+      "google_name": "Farmacenter San Lorenzo 6",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:49:54+00:00"
     },
     {
       "id": "loc-bnf-5813500f86a18e77",
@@ -30787,10 +30904,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 13,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3688799,
+      "lng": -57.5057773,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:54.963999+00:00",
+      "place_id": "ChIJxZj-FeStXZQRjA-AkgZNJpg",
+      "formatted_address": "Av. Campo Jordan entre Doctor Doldan y Bandera de la Patria San Lorenzo, San Lorenzo 1461",
+      "google_name": "Farmacenter San Lorenzo 5",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:49:54+00:00"
     },
     {
       "id": "loc-bnf-8937c8e09e437bba",
@@ -30808,7 +30940,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:55.348106+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJe-MQgOKpXZQRss4qNtamzok",
+      "google_candidate": {
+        "google_name": "Farmacenter San Lorenzo 7",
+        "formatted_address": "Avda. de la Victoria N° 1482 esquina Guillermo Almeida ciudad San Lorenzo San Lorenzo, San Lorenzo 1472",
+        "lat": -25.3897089,
+        "lng": -57.5013618,
+        "checked_at": "2026-10-20T12:49:55+00:00"
+      }
     },
     {
       "id": "loc-bnf-fedd04a11e4807f6",
@@ -30826,7 +30969,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:55.712960+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJe-MQgOKpXZQRss4qNtamzok",
+      "google_candidate": {
+        "google_name": "Farmacenter San Lorenzo 7",
+        "formatted_address": "Avda. de la Victoria N° 1482 esquina Guillermo Almeida ciudad San Lorenzo San Lorenzo, San Lorenzo 1472",
+        "lat": -25.3897089,
+        "lng": -57.5013618,
+        "checked_at": "2026-10-20T12:49:55+00:00"
+      }
     },
     {
       "id": "loc-bnf-4baa1d2d95299f2b",
@@ -30841,10 +30995,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 13,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3522824,
+      "lng": -57.512727,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:56.081240+00:00",
+      "place_id": "ChIJ933UgrCvXZQR0OzOGxg56z8",
+      "formatted_address": "Manuel Ortiz Guerrero casi, San Lorenzo 111431",
+      "google_name": "Farmacenter San Lorenzo 10",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:49:55+00:00"
     },
     {
       "id": "loc-bnf-89920f5a41563439",
@@ -30862,7 +31031,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:56.512404+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ48BAFXyuXZQRHWkzJypnYug",
+      "google_candidate": {
+        "google_name": "Farmacia VICENTE SCAVONE",
+        "formatted_address": "Cnel Romero, San Lorenzo 111423",
+        "lat": -25.3430473,
+        "lng": -57.5083436,
+        "checked_at": "2026-10-20T12:49:56+00:00"
+      }
     },
     {
       "id": "loc-bnf-973e7a0ada606262",
@@ -30880,7 +31060,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:56.943040+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJZ26RudKvXZQR0t-D-mxnAKg",
+      "google_candidate": {
+        "google_name": "Farmacia Vicente Scavone - Suc Mcal. Estigarribia",
+        "formatted_address": "Ruta Departamental D027 1-5, San Lorenzo 111438, San Lorenzo 111438",
+        "lat": -25.3350724,
+        "lng": -57.5341976,
+        "checked_at": "2026-10-20T12:49:56+00:00"
+      }
     },
     {
       "id": "loc-bnf-2f4d7914ca920a02",
@@ -30898,7 +31089,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:57.367723+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ48BAFXyuXZQRHWkzJypnYug",
+      "google_candidate": {
+        "google_name": "Farmacia VICENTE SCAVONE",
+        "formatted_address": "Cnel Romero, San Lorenzo 111423",
+        "lat": -25.3430473,
+        "lng": -57.5083436,
+        "checked_at": "2026-10-20T12:49:57+00:00"
+      }
     },
     {
       "id": "loc-bnf-217ae3c7302aa2a3",
@@ -30916,7 +31118,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:57.785523+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJWV24FtOvXZQR524ifOtHHxM",
+      "google_candidate": {
+        "google_name": "Farmacias Catedral Suc San Lorenzo 7",
+        "formatted_address": "San Lorenzo 2221",
+        "lat": -25.3548082,
+        "lng": -57.5211282,
+        "checked_at": "2026-10-20T12:49:57+00:00"
+      }
     },
     {
       "id": "loc-bnf-88a5fa49f18eb684",
@@ -30934,7 +31147,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:58.200737+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ6ZeBGhavXZQRIpxC1vjtMTc",
+      "google_candidate": {
+        "google_name": "Farmacias Catedral Suc. San Lorenzo 15",
+        "formatted_address": "Coronel Feliciano Duarte, San Lorenzo 111401",
+        "lat": -25.3007449,
+        "lng": -57.5298338,
+        "checked_at": "2026-10-20T12:49:58+00:00"
+      }
     },
     {
       "id": "loc-bnf-32d867f117a66118",
@@ -31342,10 +31566,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 13,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.4542387,
+      "lng": -57.5115537,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:58.569544+00:00",
+      "place_id": "ChIJ6cY4b2pTXJQRuSpmA9idQaQ",
+      "formatted_address": "Avda. Bernardino Caballero Esquina, Ypané 1810",
+      "google_name": "Farmacenter Ypane",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:49:58+00:00"
     },
     {
       "id": "loc-bnf-fd562bb0f08159f8",
@@ -31363,7 +31602,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:58.900810+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJv0cuXwRTXJQRughkReo1CZ8",
+      "google_candidate": {
+        "google_name": "Farmacia Catedral Suc. Ypané",
+        "formatted_address": "Ruta Colonia Thompson - Villeta, Ypané 110408",
+        "lat": -25.4555056,
+        "lng": -57.5090793,
+        "checked_at": "2026-10-20T12:49:58+00:00"
+      }
     },
     {
       "id": "loc-bnf-d47c63bba6431a46",
@@ -31381,7 +31631,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:59.289997+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJmyjXsRWtXZQRw5CFhFUk3QE",
+      "google_candidate": {
+        "google_name": "Farmacenter Ñemby 3",
+        "formatted_address": "Acceso Sur casi, Ñemby 111314",
+        "lat": -25.4405553,
+        "lng": -57.5359613,
+        "checked_at": "2026-10-20T12:49:59+00:00"
+      }
     },
     {
       "id": "loc-bnf-42f765215a558a17",
@@ -31399,7 +31660,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:59.664328+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ9-zxCXusXZQR6pcPbREctUM",
+      "google_candidate": {
+        "google_name": "Farmacenter Ñemby",
+        "formatted_address": "Acceso Sur esq, Ñemby 1214",
+        "lat": -25.3964149,
+        "lng": -57.5447368,
+        "checked_at": "2026-10-20T12:49:59+00:00"
+      }
     },
     {
       "id": "loc-bnf-d8a9b59230cdb5f3",
@@ -31417,7 +31689,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:49:59.982810+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ9-zxCXusXZQR6pcPbREctUM",
+      "google_candidate": {
+        "google_name": "Farmacenter Ñemby",
+        "formatted_address": "Acceso Sur esq, Ñemby 1214",
+        "lat": -25.3964149,
+        "lng": -57.5447368,
+        "checked_at": "2026-10-20T12:49:59+00:00"
+      }
     },
     {
       "id": "loc-bnf-baa6cf9acf421a99",
@@ -31435,7 +31718,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:00.407521+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJsWrhdMqnXZQR26DGaHuWz8o",
+      "google_candidate": {
+        "google_name": "Cooperative Chortitzer (Dairy Trebol)",
+        "formatted_address": "Av. Gral. José Gervasio Artigas 2006 c, Asunción 001203",
+        "lat": -25.270406,
+        "lng": -57.6026311,
+        "checked_at": "2026-10-20T12:50:00+00:00"
+      }
     },
     {
       "id": "loc-bnf-78e173815dd92a3e",
@@ -31519,7 +31813,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:00.836102+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJSa3kHhuoXZQRBNSTdKguTSs",
+      "google_candidate": {
+        "google_name": "Cooperativa Chortitzer Komite - Salon de Ventas Barrio Obrero",
+        "formatted_address": "Av. Ita Ybate, Asunción 001108",
+        "lat": -25.3114346,
+        "lng": -57.6357181,
+        "checked_at": "2026-10-20T12:50:00+00:00"
+      }
     },
     {
       "id": "loc-bnf-af7799fd39da4838",
@@ -31537,7 +31842,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:01.207974+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJz3-aMgqnXZQRdX740XAcYZI",
+      "google_candidate": {
+        "google_name": "Salón Chortitzer - Brasilia",
+        "formatted_address": "Avenida Brasilia &, Fray Luis de Granada, Asunción 1204",
+        "lat": -25.2833496,
+        "lng": -57.6008887,
+        "checked_at": "2026-10-20T12:50:01+00:00"
+      }
     },
     {
       "id": "loc-bnf-2ee9cd19ef00737f",
@@ -31555,7 +31871,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:01.627010+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ6V27TREIXZQRHAMJRCYzPck",
+      "google_candidate": {
+        "google_name": "Salón Chortitzer - Sajonia",
+        "formatted_address": "Av. Carlos Antonio López, Asunción 001008",
+        "lat": -25.2899038,
+        "lng": -57.6600643,
+        "checked_at": "2026-10-20T12:50:01+00:00"
+      }
     },
     {
       "id": "loc-bnf-41d9e19c461956a0",
@@ -31573,7 +31900,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:02.169704+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJz_zsRZSnXZQRDs-t7itYLEM",
+      "google_candidate": {
+        "google_name": "Cooperativa Chortitzer - Oficina Administrativa",
+        "formatted_address": "Av. Gral. José Gervasio Artigas, Asunción 001203",
+        "lat": -25.2702404,
+        "lng": -57.6023787,
+        "checked_at": "2026-10-20T12:50:02+00:00"
+      }
     },
     {
       "id": "loc-bnf-59a15609435c16bc",
@@ -31591,7 +31929,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:02.599145+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJz_zsRZSnXZQRDs-t7itYLEM",
+      "google_candidate": {
+        "google_name": "Cooperativa Chortitzer - Oficina Administrativa",
+        "formatted_address": "Av. Gral. José Gervasio Artigas, Asunción 001203",
+        "lat": -25.2702404,
+        "lng": -57.6023787,
+        "checked_at": "2026-10-20T12:50:02+00:00"
+      }
     },
     {
       "id": "loc-bnf-0cf3113cb0819ef5",
@@ -31639,10 +31988,24 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf",
       "source_page": 3,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.29947,
+      "lng": -57.5716993,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:03.083949+00:00",
+      "place_id": "ChIJLXicH7yoXZQR81qL-_misFc",
+      "formatted_address": "Av. Dr. Guido Boggiani 5928, Asunción 001416",
+      "google_name": "Pollos Don Juan - Don Juan Gourmet",
+      "google_types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:50:02+00:00"
     },
     {
       "id": "loc-bnf-b2c3e66b8a6999a7",
@@ -31660,7 +32023,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:03.512343+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJOScA7PivXZQRLaCi7htgVVs",
+      "google_candidate": {
+        "google_name": "Pollos Don Juan - Sucursal Avda. Santa Teresa",
+        "formatted_address": "Asunción 001404",
+        "lat": -25.2948363,
+        "lng": -57.5488528,
+        "checked_at": "2026-10-20T12:50:03+00:00"
+      }
     },
     {
       "id": "loc-bnf-ff7beaf972f63a84",
@@ -31678,7 +32052,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:03.918391+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJH6Zkkm-nXZQRf6Koox52Pp4",
+      "google_candidate": {
+        "google_name": "Pollos Don Juan - Sucursal Botánico",
+        "formatted_address": "Av. Gral. José Gervasio Artigas, Asunción 001519",
+        "lat": -25.2541378,
+        "lng": -57.5807722,
+        "checked_at": "2026-10-20T12:50:03+00:00"
+      }
     },
     {
       "id": "loc-bnf-6363974b8f965810",
@@ -31696,7 +32081,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:04.367743+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJH6Zkkm-nXZQRf6Koox52Pp4",
+      "google_candidate": {
+        "google_name": "Pollos Don Juan - Sucursal Botánico",
+        "formatted_address": "Av. Gral. José Gervasio Artigas, Asunción 001519",
+        "lat": -25.2541378,
+        "lng": -57.5807722,
+        "checked_at": "2026-10-20T12:50:04+00:00"
+      }
     },
     {
       "id": "loc-bnf-40b233f9ff3453c6",
@@ -31714,7 +32110,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:04.862063+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJg-aMT9-oXZQR7WcIEjOcv-Y",
+      "google_candidate": {
+        "google_name": "Pollos Don Juan - Sucursal Mercado de Abasto",
+        "formatted_address": "Comercial Sta. Teresa Bloque \"F\" L18-L19, Jow Von Sastrow, Asunción 001428",
+        "lat": -25.3250395,
+        "lng": -57.5710027,
+        "checked_at": "2026-10-20T12:50:04+00:00"
+      }
     },
     {
       "id": "loc-bnf-79fa31176155945d",
@@ -31768,7 +32175,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:05.354059+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJR72EU_mtXZQRq_hap7E5S00",
+      "google_candidate": {
+        "google_name": "Pollos Don Juan",
+        "formatted_address": "Km. 17 Ruta 2, Capiatá 110212",
+        "lat": -25.3477955,
+        "lng": -57.4679742,
+        "checked_at": "2026-10-20T12:50:05+00:00"
+      }
     },
     {
       "id": "loc-bnf-e0c00785b9e1f879",
@@ -31786,7 +32204,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:05.765814+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJR72EU_mtXZQRq_hap7E5S00",
+      "google_candidate": {
+        "google_name": "Pollos Don Juan",
+        "formatted_address": "Km. 17 Ruta 2, Capiatá 110212",
+        "lat": -25.3477955,
+        "lng": -57.4679742,
+        "checked_at": "2026-10-20T12:50:05+00:00"
+      }
     },
     {
       "id": "loc-bnf-ac29eba03527a57e",
@@ -31924,7 +32353,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:06.175004+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJx2rIdv6oXZQRE23cXHdzw8I",
+      "google_candidate": {
+        "google_name": "Chortitzer Cooperativa Ltda - Terminal Salon",
+        "formatted_address": "Avda. Fernando de la Mora c/ Universitarios del Chaco, Av. Dr. Fernando de la Mora 2589, Asunción 001424",
+        "lat": -25.3293915,
+        "lng": -57.5932123,
+        "checked_at": "2026-10-20T12:50:06+00:00"
+      }
     },
     {
       "id": "loc-bnf-103dc987f5747418",
@@ -31942,7 +32382,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:06.553232+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJHYoop3RJXJQRVsmkVsvdn-M",
+      "google_candidate": {
+        "google_name": "Salón Chortitzer - Itá",
+        "formatted_address": "Manuel Gamarra y, Itá 110506",
+        "lat": -25.5100459,
+        "lng": -57.3612727,
+        "checked_at": "2026-10-20T12:50:06+00:00"
+      }
     },
     {
       "id": "loc-bnf-fe465d019f916fbf",
@@ -31960,7 +32411,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:07.038124+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJZx71P29JXJQRhf2Z7ZwXMaA",
+      "google_candidate": {
+        "google_name": "Comercial J&V Pollos Don Juan",
+        "formatted_address": "FJVQ+35M, Itá 110503",
+        "lat": -25.5069544,
+        "lng": -57.3616452,
+        "checked_at": "2026-10-20T12:50:06+00:00"
+      }
     },
     {
       "id": "loc-bnf-9cc91eda45660a1e",
@@ -31978,7 +32440,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:07.512068+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJPwLBdQepXZQRjk1oYx2LbNM",
+      "google_candidate": {
+        "google_name": "Cooperativa Chortitzer salon de ventas Lambaré",
+        "formatted_address": "Av. Cacique Lambare 3755, Lambaré 110713",
+        "lat": -25.3399867,
+        "lng": -57.5974871,
+        "checked_at": "2026-10-20T12:50:07+00:00"
+      }
     },
     {
       "id": "loc-bnf-5ed3750cd550edf7",
@@ -31996,7 +32469,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:07.904776+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJeRymzfCpXZQRWNFvlqFLSGk",
+      "google_candidate": {
+        "google_name": "Salón Chortitzer - San Isidro",
+        "formatted_address": "Av. San Isidro esq, Lambaré 110728",
+        "lat": -25.3555549,
+        "lng": -57.6204698,
+        "checked_at": "2026-10-20T12:50:07+00:00"
+      }
     },
     {
       "id": "loc-bnf-ba9d7d9c47e47089",
@@ -32044,10 +32528,24 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf",
       "source_page": 3,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.177868,
+      "lng": -57.4841121,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:08.423388+00:00",
+      "place_id": "ChIJHbxD9V-jXZQRgTlJucDg41w",
+      "formatted_address": "Mercado de Abasto Norte Ruta 3 KM 22 Bloque B, Aztecas, Limpio 110822",
+      "google_name": "Pollos Don Juan - Sucursal Abasto Norte - Limpio",
+      "google_types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:50:08+00:00"
     },
     {
       "id": "loc-bnf-e401d974ee0cd358",
@@ -32191,7 +32689,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:08.822493+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJi-JPbEqvXZQROtslI_ai2h0",
+      "google_candidate": {
+        "google_name": "Salón Chortitzer - Luque",
+        "formatted_address": "Luis Alberto de Herrera y, Luque 110932",
+        "lat": -25.2689158,
+        "lng": -57.4968646,
+        "checked_at": "2026-10-20T12:50:08+00:00"
+      }
     },
     {
       "id": "loc-bnf-4310427c84b8ef7e",
@@ -32209,7 +32718,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:09.209500+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJCy7Ieu6vXZQRKyYxsYpJcIM",
+      "google_candidate": {
+        "google_name": "Salón Chortitzer - Camboriú",
+        "formatted_address": "PGJ9+H2M, Balneario Camboriú, Luque 110921",
+        "lat": -25.2687976,
+        "lng": -57.4821474,
+        "checked_at": "2026-10-20T12:50:09+00:00"
+      }
     },
     {
       "id": "loc-bnf-3ff516dde4e31a6f",
@@ -32227,7 +32747,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:09.583184+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJmXy_WDWvXZQRXxA1JaNVDAI",
+      "google_candidate": {
+        "google_name": "Pollos Don Juan - Sucursal Luque",
+        "formatted_address": "Cap. Andres Insfran, Luque 110947",
+        "lat": -25.282685,
+        "lng": -57.49897,
+        "checked_at": "2026-10-20T12:50:09+00:00"
+      }
     },
     {
       "id": "loc-bnf-7cfacbbff4ca93a7",
@@ -32245,7 +32776,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:10.104867+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJU3M95XykXZQR2rwSJv4AVos",
+      "google_candidate": {
+        "google_name": "Chortitzer Cooperativa Ltda.",
+        "formatted_address": "Gral. Elizardo Aquino, Mariano Roque Alonso 111001",
+        "lat": -25.1933597,
+        "lng": -57.5114053,
+        "checked_at": "2026-10-20T12:50:09+00:00"
+      }
     },
     {
       "id": "loc-bnf-f2508fda6b0c275b",
@@ -32299,7 +32841,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:10.497385+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJu3trS4euXZQRbtk9KQZA7j8",
+      "google_candidate": {
+        "google_name": "Salón Chortitzer - San Lorenzo",
+        "formatted_address": "10 De Agosto, San Lorenzo 111430",
+        "lat": -25.3483641,
+        "lng": -57.511705,
+        "checked_at": "2026-10-20T12:50:10+00:00"
+      }
     },
     {
       "id": "loc-bnf-11ab017cdb0790ac",
@@ -32317,7 +32870,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:11.130217+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ-RkwdvatXZQRWqwOoY8FTyg",
+      "google_candidate": {
+        "google_name": "POLLOS DON JUAN Distribuidora Andrea 1 San lorenzo",
+        "formatted_address": "Manuel Ortiz Guerrero, San Lorenzo 111460",
+        "lat": -25.3742101,
+        "lng": -57.5174782,
+        "checked_at": "2026-10-20T12:50:11+00:00"
+      }
     },
     {
       "id": "loc-bnf-0bd9f639c92f3b5d",
@@ -32335,7 +32899,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:11.542785+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJicroIGypXZQRlka7lfDiY1w",
+      "google_candidate": {
+        "google_name": "Pollos Don Juan - Sucursal Villa Elisa",
+        "formatted_address": "JCJ8+C55, Villa Elisa 111507",
+        "lat": -25.368971,
+        "lng": -57.5846236,
+        "checked_at": "2026-10-20T12:50:11+00:00"
+      }
     },
     {
       "id": "loc-bnf-f9e6eab10fb89ac6",
@@ -32350,10 +32925,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf",
       "source_page": 3,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.4222498,
+      "lng": -57.5382388,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:11.982715+00:00",
+      "place_id": "ChIJh0fh5titXZQRGOdr6vthol8",
+      "formatted_address": "Acceso Sur, Ñemby 111224",
+      "google_name": "Pollos Don Juan Distribuidora \"OVI\" Sucursal II",
+      "google_types": [
+        "shopping_mall",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:50:11+00:00"
     },
     {
       "id": "loc-bnf-c9c7a0667becc6d8",
@@ -32371,7 +32961,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:12.387985+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJm3mq6rKtXZQRcS3Zdque_QI",
+      "google_candidate": {
+        "google_name": "El Ahorrazo R1",
+        "formatted_address": "Capiatá 110245",
+        "lat": -25.392956,
+        "lng": -57.4698581,
+        "checked_at": "2026-10-20T12:50:12+00:00"
+      }
     },
     {
       "id": "loc-bnf-f2302c46beb809be",
@@ -32389,7 +32990,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:12.758787+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJNcJsk92zXZQR69oU7NZIm9o",
+      "google_candidate": {
+        "google_name": "El AHORRAZO R2",
+        "formatted_address": "JG5J+42X, Capiatá 110215",
+        "lat": -25.3504039,
+        "lng": -57.4517604,
+        "checked_at": "2026-10-20T12:50:12+00:00"
+      }
     },
     {
       "id": "loc-bnf-8fd93d02bc27c482",
@@ -32440,10 +33052,29 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_OCT_1_dc83942abc.pdf",
       "source_page": 2,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3442505,
+      "lng": -57.5104264,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:13.111965+00:00",
+      "place_id": "ChIJ0c-npYeuXZQRZcdyT9MknVE",
+      "formatted_address": "MF4Q+4WM, Julia Miranda Cueto, San Lorenzo 111422",
+      "google_name": "El Ahorrazo Supermayorista",
+      "google_types": [
+        "wholesaler",
+        "supermarket",
+        "grocery_store",
+        "food_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:50:12+00:00"
     },
     {
       "id": "loc-bnf-7e38a8fa1a40c8f9",
@@ -32461,7 +33092,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:13.536125+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJiyqlnqupXZQRF2x31zWCM_Y",
+      "google_candidate": {
+        "google_name": "S6 EXPRESS BOQUERON",
+        "formatted_address": "MCWG+C5W, R.I. 6 Boquerón, Asunción 001416",
+        "lat": -25.3039352,
+        "lng": -57.5745843,
+        "checked_at": "2026-10-20T12:50:13+00:00"
+      }
     },
     {
       "id": "loc-bnf-9c11e600836cf584",
@@ -32875,7 +33517,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:13.926276+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJo7KaslejXZQR4gfnZiQ9I_k",
+      "google_candidate": {
+        "google_name": "Hipermercado Luisito Limpio",
+        "formatted_address": "Limpio 110821",
+        "lat": -25.1727305,
+        "lng": -57.4712012,
+        "checked_at": "2026-10-20T12:50:13+00:00"
+      }
     },
     {
       "id": "loc-bnf-662c05a24a14ef91",
@@ -32908,10 +33561,27 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Supermercados_2026_OCT_46a1fa453e.pdf",
       "source_page": 6,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.2357859,
+      "lng": -57.5392145,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:14.307758+00:00",
+      "place_id": "ChIJLdecDcSlXZQRSXd3I7mPAE0",
+      "formatted_address": "Avda Ruta Transchaco entre, RutaTranschaco, Waldino R. Lovera y, Mariano Roque Alonso 111020",
+      "google_name": "Kingo Supermercados Mariano Roque Alonso",
+      "google_types": [
+        "supermarket",
+        "grocery_store",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T12:50:14+00:00"
     },
     {
       "id": "loc-bnf-6f5998932700155a",
@@ -33001,7 +33671,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T12:50:14.665363+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ8bq-Fa-uXZQRL1_Fkg1bsgs",
+      "google_candidate": {
+        "google_name": "Kingo Supermarket Avelino",
+        "formatted_address": "&, Av. Avelino Martínez, San Lorenzo 111435",
+        "lat": -25.3553301,
+        "lng": -57.5428258,
+        "checked_at": "2026-10-20T12:50:14+00:00"
+      }
     },
     {
       "id": "loc-bnf-f4843cf7da7b22d0",
@@ -48884,9 +49565,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:43.023758+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJA9wn2XCuXZQRWwRUfqe8xl0",
       "google_candidate": {
         "google_name": "KM14 Copetrol ROUTE 2",
@@ -48911,9 +49592,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:43.870431+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJG2pfAAStXZQRUF2kjlTv28Q",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -48938,9 +49619,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:44.779220+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJd-u5tXWvXZQRBl3GNQoOq0Y",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -49093,9 +49774,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:45.588994+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJB0SZDC2qXZQR0GoGRfR0G0Y",
       "google_candidate": {
         "google_name": "Petropar - VILLA ELISA",
@@ -49120,9 +49801,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:46.403199+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJB0SZDC2qXZQR0GoGRfR0G0Y",
       "google_candidate": {
         "google_name": "Petropar - VILLA ELISA",
@@ -49147,9 +49828,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:47.195433+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJV7pnWXupXZQRajcyhRdq1a4",
       "google_candidate": {
         "google_name": "Copetrol - Von Poleski",
@@ -49318,9 +49999,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:47.990429+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJV7pnWXupXZQRajcyhRdq1a4",
       "google_candidate": {
         "google_name": "Copetrol - Von Poleski",
@@ -49345,9 +50026,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:48.757712+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJodvqTGCpXZQRk-IzxQJzdSU",
       "google_candidate": {
         "google_name": "COPETROL",
@@ -49372,9 +50053,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:49.511273+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJUSY9nPipXZQRwUfGOiPtONc",
       "google_candidate": {
         "google_name": "Estación de Servicios Enex - Avda. Von Polesky",
@@ -49399,9 +50080,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:50.286334+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJCWNpSeipXZQRD-EU9nuW7V0",
       "google_candidate": {
         "google_name": "3MG AMERICO PICCO",
@@ -49698,9 +50379,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:51.140184+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJrZNjkWatXZQRcShiwu2vy0w",
       "google_candidate": {
         "google_name": "PETROPAR ÑEMBY LOS NARANJOS",
@@ -49725,9 +50406,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:51.876486+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJy_ksGwCtXZQRzMmYosCZdog",
       "google_candidate": {
         "google_name": "Petropar Acceso Sur Ñemby",
@@ -49752,9 +50433,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:52.646329+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJy_ksGwCtXZQRzMmYosCZdog",
       "google_candidate": {
         "google_name": "Petropar Acceso Sur Ñemby",
@@ -49779,9 +50460,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:53.383664+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJy_ksGwCtXZQRzMmYosCZdog",
       "google_candidate": {
         "google_name": "Petropar Acceso Sur Ñemby",
@@ -49806,9 +50487,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:54.110765+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJrZNjkWatXZQRcShiwu2vy0w",
       "google_candidate": {
         "google_name": "PETROPAR ÑEMBY LOS NARANJOS",
@@ -49833,9 +50514,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:54.795691+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJrZNjkWatXZQRcShiwu2vy0w",
       "google_candidate": {
         "google_name": "PETROPAR ÑEMBY LOS NARANJOS",
@@ -49844,36 +50525,6 @@
         "lng": -57.5416305,
         "checked_at": "2026-10-20T05:55:54+00:00"
       }
-    },
-    {
-      "id": "loc-ueno-fad0134eeb",
-      "bank": "ueno bank",
-      "category": "Combustible",
-      "merchant_name": "PETROPAR ÑEMBY 2",
-      "address": "AVDA. ACCESO SUR",
-      "city": "ÑEMBY",
-      "department": "",
-      "country": "Paraguay",
-      "merchant_brand": "PETROPAR",
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-Petropar-_-OCT-2026v3.pdf",
-      "source_page": 7,
-      "lat": -25.398562,
-      "lng": -57.544452,
-      "geocode_source": "google_places_text_search",
-      "google_last_attempt_at": "2026-10-20T05:55:55.491721+00:00",
-      "place_id": "ChIJy_ksGwCtXZQRzMmYosCZdog",
-      "formatted_address": "JF24+H64, Acceso Sur, Ñemby 111214",
-      "google_name": "Petropar Acceso Sur Ñemby",
-      "google_types": [
-        "gas_station",
-        "point_of_interest",
-        "service",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "google_enrichment_status": "matched",
-      "needs_review": false,
-      "location_verified_at": "2026-10-20T05:55:55+00:00"
     },
     {
       "id": "loc-ueno-4900999520",
@@ -49906,9 +50557,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:56.222157+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJk_3aMFOtXZQRSUiau-5jVKA",
       "google_candidate": {
         "google_name": "TED-Wepa - Copetrol Acceso Sur 3",
@@ -49933,9 +50584,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:56.981422+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJFaDWkk2tXZQRvZolTE_5a_I",
       "google_candidate": {
         "google_name": "Copetrol, Ñemby Caaguazú",
@@ -49960,9 +50611,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:57.717693+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJfSFEB3SsXZQR95WMR92RLHU",
       "google_candidate": {
         "google_name": "Copetrol Estrella",
@@ -49987,9 +50638,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:58.541655+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJCdILAwCtXZQRylArVcoA1UE",
       "google_candidate": {
         "google_name": "Enex",
@@ -50014,9 +50665,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:55:59.344658+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ_3ZJ4_WrXZQR9EOe7sD_nOM",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -50041,9 +50692,9 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
+      "google_confidence": "review",
       "google_last_attempt_at": "2026-10-20T05:56:00.132076+00:00",
       "google_enrichment_status": "needs_review",
-      "google_confidence": "review",
       "google_candidate_place_id": "ChIJ_3ZJ4_WrXZQR9EOe7sD_nOM",
       "google_candidate": {
         "google_name": "Petrobras",
@@ -50054,7 +50705,7 @@
       }
     }
   ],
-  "google_enriched_locations": 151,
+  "google_enriched_locations": 163,
   "google_enrichment_focus": "Asunción y Gran Asunción",
-  "locations_updated_at": "2026-10-20T05:56:05+00:00"
+  "locations_updated_at": "2026-10-20T12:50:17+00:00"
 }

@@ -1,61 +1,58 @@
 {
-  "completed_at": "2026-10-20T05:56:13.192450+00:00",
+  "completed_at": "2026-10-20T12:50:22.066147+00:00",
   "failed_sources": [
     "Sudameris",
-    "Itaú",
-    "BNF"
+    "Itaú"
   ],
   "sources": {
     "Sudameris": {
       "status": "partial",
       "checked_at": "2026-10-08T14:33:07.837064+00:00",
       "records": 282,
-      "attempted_at": "2026-10-20T05:45:11.211612+00:00",
+      "attempted_at": "2026-10-20T12:41:08.481962+00:00",
       "pending_records": 128
     },
     "Itaú": {
       "status": "partial",
       "checked_at": "2026-10-17T02:07:38.378271+00:00",
       "records": 527,
-      "attempted_at": "2026-10-20T05:49:34.801539+00:00",
+      "attempted_at": "2026-10-20T12:45:39.967281+00:00",
       "pending_records": 3
     },
     "BNF": {
-      "status": "failed",
-      "checked_at": "2026-10-20T05:17:44.687764+00:00",
-      "records": 77,
-      "attempted_at": "2026-10-20T05:50:05.112888+00:00",
-      "error_type": "CalledProcessError"
+      "status": "fetched",
+      "checked_at": "2026-10-20T12:46:04.451097+00:00",
+      "records": 77
     },
     "Continental": {
       "status": "fetched",
-      "checked_at": "2026-10-20T05:50:12.515530+00:00",
-      "records": 830
+      "checked_at": "2026-10-20T12:46:07.231519+00:00",
+      "records": 831
     },
     "Atlas": {
       "status": "fetched",
-      "checked_at": "2026-10-20T05:50:16.041356+00:00",
+      "checked_at": "2026-10-20T12:46:11.357782+00:00",
       "records": 41
     },
     "Coop. Universitaria": {
       "status": "fetched",
-      "checked_at": "2026-10-20T05:50:38.531620+00:00",
+      "checked_at": "2026-10-20T12:46:34.463492+00:00",
       "records": 71
     },
     "ueno bank": {
       "status": "fetched",
-      "checked_at": "2026-10-20T05:55:41.311581+00:00",
+      "checked_at": "2026-10-20T12:49:51.942084+00:00",
       "records": 355
     },
     "Familiar": {
       "status": "fetched",
-      "checked_at": "2026-10-20T05:43:50.891618+00:00",
+      "checked_at": "2026-10-20T12:40:36.281941+00:00",
       "records": 416
     },
     "GNB": {
       "status": "fetched",
-      "checked_at": "2026-10-20T05:41:24.289319+00:00",
-      "records": 478
+      "checked_at": "2026-10-20T12:38:46.265562+00:00",
+      "records": 480
     }
   }
 }
