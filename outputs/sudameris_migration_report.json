@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-20T04:29:54.259122+00:00",
+  "checked_at": "2026-10-20T05:13:13.399297+00:00",
   "campaigns": 44,
   "failures": [
     {
@@ -18,5 +18,5 @@
       "reason": "Campaign has no PDF: ZONA NORTE"
     }
   ],
-  "retained_unconfirmed": 132
+  "retained_unconfirmed": 128
 }

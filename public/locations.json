@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T02:03:21-03:00",
+  "generated_at": "2026-10-20T05:23:47+00:00",
   "provider": "Official bank branch lists + reviewed location matches",
   "total_locations": 1988,
-  "geocoded_locations": 506,
+  "geocoded_locations": 518,
   "locations": [
     {
       "id": "loc-bnf-b503118f81afab11",
@@ -2128,6 +2128,8 @@
       "lng": -57.625247,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "superseded_geocode_evidence": {
         "google_last_attempt_at": "2026-10-20T04:40:43.147729+00:00",
         "google_enrichment_status": "needs_review",
@@ -2149,8 +2151,6 @@
       "operator_address": "Avda. Cerro cora y Brasil",
       "branch_name": "Cerro Cora | 133",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -2174,6 +2174,8 @@
       "lng": -57.599206,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "superseded_geocode_evidence": {
         "google_last_attempt_at": "2026-10-20T04:40:44.759715+00:00",
         "google_enrichment_status": "needs_review",
@@ -2195,8 +2197,6 @@
       "operator_address": "Avda. España esq. Cassianoff",
       "branch_name": "España | 007",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -2253,6 +2253,8 @@
       "lng": -57.55509344,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "superseded_geocode_evidence": {
         "google_last_attempt_at": "2026-10-20T04:40:46.322697+00:00",
         "google_enrichment_status": "needs_review",
@@ -2274,8 +2276,6 @@
       "operator_address": "Eusebio Lillo casi Consejal Vargas",
       "branch_name": "Eusebio Lillo | 053",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -2332,6 +2332,8 @@
       "lng": -57.6299969,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -2340,8 +2342,6 @@
       "operator_address": "Avda. Félix Bogado casi Campo Via",
       "branch_name": "Luisito Felix Bogado | 063",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -2365,6 +2365,8 @@
       "lng": -57.63756207,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -2373,8 +2375,6 @@
       "operator_address": "Palma esq. 15 de agosto",
       "branch_name": "Palma | 003",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -2398,6 +2398,8 @@
       "lng": -57.58424218,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -2406,8 +2408,6 @@
       "operator_address": "Avda. Sacramento esq. Dr. Argaña",
       "branch_name": "Sacramento | 001",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -2431,6 +2431,8 @@
       "lng": -57.6550634,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -2439,8 +2441,6 @@
       "operator_address": "Avda. Carlos A. López y de la Conquista",
       "branch_name": "Sajonia | 067",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -2464,6 +2464,8 @@
       "lng": -57.54450597,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -2472,8 +2474,6 @@
       "operator_address": "Cap. H. C. Boris Dedoff esq. Aureliano Gonzalez",
       "branch_name": "Loma Pyta | 101",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -4362,6 +4362,8 @@
       "lng": -54.62688098,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -4370,8 +4372,6 @@
       "operator_address": "Avda. America y Padre José Kenetich",
       "branch_name": "Area 4 | 119",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -4395,6 +4395,8 @@
       "lng": -54.65651748,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -4403,8 +4405,6 @@
       "operator_address": "Avda. San José esq. Ignacio A. Pané",
       "branch_name": "San José | 072",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -4428,6 +4428,8 @@
       "lng": -57.44494244,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -4436,8 +4438,6 @@
       "operator_address": "Pdte. Franco esq. Eugenio A. Garay",
       "branch_name": "Concepción | 069",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -4461,6 +4461,8 @@
       "lng": -57.44143246,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -4469,8 +4471,6 @@
       "operator_address": "Avda. Agustín Fernando de Pinedo esq. Intendente Rufino Spika",
       "branch_name": "Concepcion 2 | 126",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -4649,6 +4649,8 @@
       "lng": -55.87016132,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -4657,8 +4659,6 @@
       "operator_address": "Gral. Artigas entre Constitución y Bernardino Caballero",
       "branch_name": "Encarnación | 111",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -5214,6 +5214,8 @@
       "lng": -54.6182648,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -5222,8 +5224,6 @@
       "operator_address": "Avda. Paraná esq. Augusto Roa Basto",
       "branch_name": "Parana Country Club | 081",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -5542,6 +5542,8 @@
       "lng": -57.61274279,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -5550,8 +5552,6 @@
       "operator_address": "Avda. Rca. Argentina e/ Paseo del solar y Paz del chaco",
       "branch_name": "Lambare | 025",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -5781,6 +5781,8 @@
       "lng": -57.4775913,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -5789,8 +5791,6 @@
       "operator_address": "Avda. San José e/ Carlos A. López y Boquerón",
       "branch_name": "Luisito Limpio | 058",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -6101,6 +6101,8 @@
       "lng": -57.4848682,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -6109,8 +6111,6 @@
       "operator_address": "Avda. Corrales y Tte. Rojas Silva",
       "branch_name": "Luisito Luque | 059",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -6134,6 +6134,8 @@
       "lng": -57.49097034,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -6142,8 +6144,6 @@
       "operator_address": "Cerro Corá y Fulgencio Yegros",
       "branch_name": "Luque | 004",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -6167,6 +6167,8 @@
       "lng": -57.486289,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -6175,8 +6177,6 @@
       "operator_address": "Avda. Humaita esq. 14 de mayo",
       "branch_name": "Luque-Humaita | 086",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -6645,6 +6645,8 @@
       "lng": -57.53611915,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -6653,8 +6655,6 @@
       "operator_address": "Boquerón casi Cañada Tarija",
       "branch_name": "Mariano Roque Alonso | 091",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -6981,6 +6981,8 @@
       "lng": -57.14656227,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -6989,8 +6991,6 @@
       "operator_address": "Gral. Bernadino Caballero esq. Pa'i Gómez",
       "branch_name": "Paraguari | 122",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -7076,6 +7076,8 @@
       "lng": -58.3002,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -7084,8 +7086,6 @@
       "operator_address": "Avda. Gobernador Irala casi Cerro Corá",
       "branch_name": "Pilar | 112",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -7303,6 +7303,8 @@
       "lng": -57.02679046,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -7311,8 +7313,6 @@
       "operator_address": "Avda. Mcal. Estigarribia y Gral. Bernardino Caballero",
       "branch_name": "San Ignacio | 118",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -7398,6 +7398,8 @@
       "lng": -57.50834562,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -7406,8 +7408,6 @@
       "operator_address": "Cnel. Romero c/ Julia Miranda Cueto",
       "branch_name": "San Lorenzo Cnel Romero | 087",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -7431,6 +7431,8 @@
       "lng": -57.51656144,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -7439,8 +7441,6 @@
       "operator_address": "Manuel Ortiz G. esq. Lombardo",
       "branch_name": "San Lorenzo Lombardo | 108",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -7946,6 +7946,8 @@
       "lng": -57.574687,
       "geocode_source": "official_operator_reviewed",
       "online_only": false,
+      "location_verified_at": "2026-10-20",
+      "needs_review": false,
       "promotion_ids": [
         "4adbe4b3f53f0ddf",
         "4adbe4b3f53f0ddf-8fa38f09"
@@ -7954,8 +7956,6 @@
       "operator_address": "Alama esq. Nogales",
       "branch_name": "Villa Elisa | 098",
       "participation_ends_on": "2026-10-26",
-      "location_verified_at": "2026-10-20",
-      "needs_review": false,
       "location_review_status": "confirmed",
       "review_evidence_file": "docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json",
       "review_evidence_sha256": "b325a7661f67571bf1e1d8324d998156bc4470f854c978a01c66ebfe36755ae4",
@@ -26277,7 +26277,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:48.454325+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJU9jLsXqpXZQRk-t9lGVMxPY",
+      "google_candidate": {
+        "google_name": "Farmacia Vicente Scavone - Suc. Mariscal Lopez",
+        "formatted_address": "Av. Mariscal López esq, Asunción 001407",
+        "lat": -25.3013705,
+        "lng": -57.5638952,
+        "checked_at": "2026-10-20T05:23:48+00:00"
+      }
     },
     {
       "id": "loc-bnf-e2cfbca22dd9f5f7",
@@ -26295,7 +26306,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:49.331751+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJb2WleSemXZQRC0lOs1Waq50",
+      "google_candidate": {
+        "google_name": "Farmacia Vicente Scavone - Suc. España",
+        "formatted_address": "Av. España, Asunción 001411",
+        "lat": -25.2862596,
+        "lng": -57.584118,
+        "checked_at": "2026-10-20T05:23:49+00:00"
+      }
     },
     {
       "id": "loc-bnf-d13a91883bb4a771",
@@ -26313,7 +26335,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:50.205766+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJb2WleSemXZQRC0lOs1Waq50",
+      "google_candidate": {
+        "google_name": "Farmacia Vicente Scavone - Suc. España",
+        "formatted_address": "Av. España, Asunción 001411",
+        "lat": -25.2862596,
+        "lng": -57.584118,
+        "checked_at": "2026-10-20T05:23:50+00:00"
+      }
     },
     {
       "id": "loc-bnf-0091e1c21577c0cd",
@@ -26331,7 +26364,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:51.306862+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ39rxh-2nXZQRoOmnrwa2ICE",
+      "google_candidate": {
+        "google_name": "Farmacias Catedral Suc. Artigas 2",
+        "formatted_address": "Avda. Mcal. F, Enrique Solano López y, Asunción 9757",
+        "lat": -25.2731971,
+        "lng": -57.6061606,
+        "checked_at": "2026-10-20T05:23:51+00:00"
+      }
     },
     {
       "id": "loc-bnf-50dfc82ecd8a2cd3",
@@ -26349,7 +26393,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:52.130304+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJz3tfaKCoXZQRiUuUlbIT998",
+      "google_candidate": {
+        "google_name": "Catedral Drugstore",
+        "formatted_address": "Sta. Ana 1473, Asunción 001529",
+        "lat": -25.2856304,
+        "lng": -57.5739576,
+        "checked_at": "2026-10-20T05:23:52+00:00"
+      }
     },
     {
       "id": "loc-bnf-6cf34716a2b0e3a3",
@@ -26367,7 +26422,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:52.963913+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJRekAGHGoXZQRXoXeCDd3bz4",
+      "google_candidate": {
+        "google_name": "Farmacia Catedral General Santos Teodoro S. Mongelos",
+        "formatted_address": "Avda. Gral Santos, Teodoro S. Mongelós esq, Asunción 001226",
+        "lat": -25.3005949,
+        "lng": -57.6134351,
+        "checked_at": "2026-10-20T05:23:52+00:00"
+      }
     },
     {
       "id": "loc-bnf-f3df0e8f47aeb232",
@@ -26385,7 +26451,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:53.920654+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJRSdke-enXZQRm5ORJmWBRHA",
+      "google_candidate": {
+        "google_name": "Farmacias Catedral Suc. Migone 2",
+        "formatted_address": "Asunción 001218",
+        "lat": -25.2886562,
+        "lng": -57.6216194,
+        "checked_at": "2026-10-20T05:23:53+00:00"
+      }
     },
     {
       "id": "loc-bnf-27ec11d8a8ead900",
@@ -26403,7 +26480,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:54.819970+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJRSdke-enXZQRm5ORJmWBRHA",
+      "google_candidate": {
+        "google_name": "Farmacias Catedral Suc. Migone 2",
+        "formatted_address": "Asunción 001218",
+        "lat": -25.2886562,
+        "lng": -57.6216194,
+        "checked_at": "2026-10-20T05:23:54+00:00"
+      }
     },
     {
       "id": "loc-bnf-13444ef5feb42b72",
@@ -26421,7 +26509,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:55.972923+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ-6Hjin2pXZQRi2_rjOq97Es",
+      "google_candidate": {
+        "google_name": "Farmacia Catedral Suc. San Pablo 3",
+        "formatted_address": "Avda La Victoria esq, Ybyrayu y, Asunción 9154",
+        "lat": -25.3297962,
+        "lng": -57.5860475,
+        "checked_at": "2026-10-20T05:23:55+00:00"
+      }
     },
     {
       "id": "loc-bnf-856cc1ceb6cc77d6",
@@ -26580,10 +26679,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 11,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3758321,
+      "lng": -57.4769685,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:56.749882+00:00",
+      "place_id": "ChIJsyEEZXqtXZQRjdQfK818SqQ",
+      "formatted_address": "Ruta PY01 entre Virgen del Carmen y, Río Paraguay, Capiatá 0243",
+      "google_name": "Farmacenter Capiata 5",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:23:56+00:00"
     },
     {
       "id": "loc-bnf-a61d06b86b20c53b",
@@ -26598,10 +26712,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 11,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3627542,
+      "lng": -57.4461429,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:57.478911+00:00",
+      "place_id": "ChIJB-ojcpezXZQRw3sHpZnbKC8",
+      "formatted_address": "Avenida Doctor López Godoy - Ruta Dptal. 12 esq. 8 de Diciembre, Capiatá 0220",
+      "google_name": "Farmacenter Capiata 8",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:23:57+00:00"
     },
     {
       "id": "loc-bnf-c4c015f0d15c6a4e",
@@ -26619,7 +26748,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:58.290163+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJJ9NcYvezXZQRqJ4DFNPXQV4",
+      "google_candidate": {
+        "google_name": "Farmacenter Capiata 4",
+        "formatted_address": "Ruta 1 Km 23 Capiata PY 2560, D027, Kapi'atã 110255",
+        "lat": -25.414372,
+        "lng": -57.4578709,
+        "checked_at": "2026-10-20T05:23:58+00:00"
+      }
     },
     {
       "id": "loc-bnf-cfab9be2913261c1",
@@ -26634,10 +26774,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 7,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3507908,
+      "lng": -57.4461729,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:23:59.103941+00:00",
+      "place_id": "ChIJWTR1fC2zXZQRqpg3dpcXG4A",
+      "formatted_address": "JHX3+MGX 110218, Dr.Andres Barbero, Capiatá 110218",
+      "google_name": "Farmacia Vicente Scavone - Suc. Capiata Centro",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:23:58+00:00"
     },
     {
       "id": "loc-bnf-d1fc6a5f0d813fb8",
@@ -27267,7 +27422,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:00.076035+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJDdiezyqpXZQRkmZnhLkp1-w",
+      "google_candidate": {
+        "google_name": "Farmacenter",
+        "formatted_address": "Ruta Mcal. José F. Estigarribia casi 10 de julio Fernando de la Mora, Fernando de la Mora 0308",
+        "lat": -25.3233643,
+        "lng": -57.5539839,
+        "checked_at": "2026-10-20T05:23:59+00:00"
+      }
     },
     {
       "id": "loc-bnf-4923679981df9fd8",
@@ -27285,7 +27451,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:00.814433+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJuyQagbauXZQRFxGsWynmy-w",
+      "google_candidate": {
+        "google_name": "Farmacenter - Farmacia",
+        "formatted_address": "Juan Leopardi y 11 de Setiembre Fernando de la Mora, MF42+GWG, 11 de Setiembre, San Lorenzo 1436",
+        "lat": -25.3438187,
+        "lng": -57.5473989,
+        "checked_at": "2026-10-20T05:24:00+00:00"
+      }
     },
     {
       "id": "loc-bnf-e8d130e94f78e1fb",
@@ -27303,7 +27480,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:01.652751+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJeTRnLwCpXZQRRfHdjOhgvgQ",
+      "google_candidate": {
+        "google_name": "Farmacenter Zavalas Cue 2 Norte",
+        "formatted_address": "110319, Av. Zavalas Cué 798, Fernando de la Mora 110319",
+        "lat": -25.3300663,
+        "lng": -57.5570046,
+        "checked_at": "2026-10-20T05:24:01+00:00"
+      }
     },
     {
       "id": "loc-bnf-c398875ebadc5cf8",
@@ -27318,10 +27506,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 11,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3346084,
+      "lng": -57.5673517,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:02.371670+00:00",
+      "place_id": "ChIJP2etY8ypXZQR5QPnwlY9K00",
+      "formatted_address": "Soldado Ovelar entre, Progreso y, Fernando de la Mora 0328",
+      "google_name": "Farmacenter Soldado Ovelar",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:24:02+00:00"
     },
     {
       "id": "loc-bnf-a63b132cd5452876",
@@ -27336,10 +27539,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 11,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3232753,
+      "lng": -57.5549705,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:03.157124+00:00",
+      "place_id": "ChIJ27fp-VypXZQR5g9qUo2RzhQ",
+      "formatted_address": "Avda. Mcal. Estigarribia c/Usher Ríos Fernando de la Mora, Fernando de la Mora 0308",
+      "google_name": "Farmacenter Km 7,5 2",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:24:03+00:00"
     },
     {
       "id": "loc-bnf-7ac30cab170de1e2",
@@ -27357,7 +27575,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:04.046153+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJr3TM0A6vXZQRxwxoYqr8_3s",
+      "google_candidate": {
+        "google_name": "Farmacenter Laguna Grande 2",
+        "formatted_address": "Avenida Laguna Grande esq. Ka'arendy San Lorenzo, San Lorenzo 0311",
+        "lat": -25.3136957,
+        "lng": -57.5233354,
+        "checked_at": "2026-10-20T05:24:03+00:00"
+      }
     },
     {
       "id": "loc-bnf-11329d581d51721f",
@@ -27375,7 +27604,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:04.788071+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ2cEeQQCpXZQRoL27sgwb_sU",
+      "google_candidate": {
+        "google_name": "Farmacias Catedral Suc. Fernando de la Mora 9",
+        "formatted_address": "11 de setiembre esquina, 16 de Julio y, Fernando de la Mora 9488",
+        "lat": -25.3363327,
+        "lng": -57.5633825,
+        "checked_at": "2026-10-20T05:24:04+00:00"
+      }
     },
     {
       "id": "loc-bnf-b38a185106722bf2",
@@ -27498,10 +27738,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 11,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3963885,
+      "lng": -57.3458387,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:05.704316+00:00",
+      "place_id": "ChIJ3e14Bh9LXJQR9_3Fe22oVw0",
+      "formatted_address": "Ruta 2, Mcal. José, Mariscal José Félix Estigarribia y, Itauguá 110607",
+      "google_name": "Farmacenter Itauguá 4",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:24:05+00:00"
     },
     {
       "id": "loc-bnf-d842eaf8905ab359",
@@ -27519,7 +27774,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:06.451049+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ3e14Bh9LXJQR9_3Fe22oVw0",
+      "google_candidate": {
+        "google_name": "Farmacenter Itauguá 4",
+        "formatted_address": "Ruta 2, Mcal. José, Mariscal José Félix Estigarribia y, Itauguá 110607",
+        "lat": -25.3963885,
+        "lng": -57.3458387,
+        "checked_at": "2026-10-20T05:24:06+00:00"
+      }
     },
     {
       "id": "loc-bnf-e6083025a13f538c",
@@ -27534,10 +27800,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 11,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3946079,
+      "lng": -57.3561234,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:07.307527+00:00",
+      "place_id": "ChIJfd42anW1XZQR8OGbR7wgSaI",
+      "formatted_address": "Gral. Marcial Samaniego Esquina, Itauguá 0611",
+      "google_name": "Farmacenter Itauguá 3",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:24:07+00:00"
     },
     {
       "id": "loc-bnf-cf9335bca0b00118",
@@ -27555,7 +27836,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:08.015102+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJPR7FSt61XZQRqS1o1Y7w4Ks",
+      "google_candidate": {
+        "google_name": "Farmacia Vicente Scavone - Suc. Itaugua Centro",
+        "formatted_address": "JM32+8MH 110610, Itauguá 110610",
+        "lat": -25.3966339,
+        "lng": -57.3481485,
+        "checked_at": "2026-10-20T05:24:07+00:00"
+      }
     },
     {
       "id": "loc-bnf-cbeee386d70d5068",
@@ -27570,10 +27862,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 11,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.5085219,
+      "lng": -57.3567097,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:08.981668+00:00",
+      "place_id": "ChIJ14JFKwBJXJQRjRt8tLQ3dqg",
+      "formatted_address": "Domingo Martínez de Irala 2710, Itá 2710",
+      "google_name": "Farmacenter Ita 2",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:24:08+00:00"
     },
     {
       "id": "loc-bnf-73228c153484140f",
@@ -27591,7 +27898,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:09.683257+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJCfvGVCRNXJQRn2LZ0-QnFHI",
+      "google_candidate": {
+        "google_name": "Farmacenter J. Augusto Saldivar",
+        "formatted_address": "Ruta Departamental, HH73+R6Q, 27 ½ esquina, Julian Augusto Saldívar 1918",
+        "lat": -25.4302219,
+        "lng": -57.4500453,
+        "checked_at": "2026-10-20T05:24:09+00:00"
+      }
     },
     {
       "id": "loc-bnf-c21b5f3e5ee6e7d9",
@@ -27609,7 +27927,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:10.453729+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJCfvGVCRNXJQRn2LZ0-QnFHI",
+      "google_candidate": {
+        "google_name": "Farmacenter J. Augusto Saldivar",
+        "formatted_address": "Ruta Departamental, HH73+R6Q, 27 ½ esquina, Julian Augusto Saldívar 1918",
+        "lat": -25.4302219,
+        "lng": -57.4500453,
+        "checked_at": "2026-10-20T05:24:10+00:00"
+      }
     },
     {
       "id": "loc-bnf-7f2e1d2e4cb489f5",
@@ -27627,7 +27956,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:11.179817+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ6yOwwIBNXJQRykOpfl0tKl0",
+      "google_candidate": {
+        "google_name": "Farmacias Catedral Suc. J. Augusto Saldivar",
+        "formatted_address": "Juan Augusto Saldívar 1955",
+        "lat": -25.447553,
+        "lng": -57.4384645,
+        "checked_at": "2026-10-20T05:24:11+00:00"
+      }
     },
     {
       "id": "loc-bnf-6f35f9753ffd3775",
@@ -27732,10 +28072,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 12,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3375259,
+      "lng": -57.5865985,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:11.962039+00:00",
+      "place_id": "ChIJG2gWKBupXZQRrNXJ7U7lWDw",
+      "formatted_address": "Avda Fernando de la Mora, Av. Cacique Lambare casi, Lambaré 1315",
+      "google_name": "Farmacenter 4 Mojones",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:24:11+00:00"
     },
     {
       "id": "loc-bnf-2d11fcfcd344e9d6",
@@ -27753,7 +28108,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T05:24:12.996555+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJPUuaIsqpXZQRbhi4QZSktsQ",
+      "google_candidate": {
+        "google_name": "Farmacenter Lambare 1",
+        "formatted_address": "Av. Cacique Lambare 1180 casi, Lambaré 0723",
+        "lat": -25.3431371,
+        "lng": -57.6219219,
+        "checked_at": "2026-10-20T05:24:12+00:00"
+      }
     },
     {
       "id": "loc-bnf-39a2fb01cbcbe4e2",
@@ -45806,7 +46172,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:23:48.883046+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJhSrEF16uXZQR0V9Xdn_3nM8",
+      "google_candidate": {
+        "google_name": "Petrosur Calle'i San Lorenzo",
+        "formatted_address": "Av. Dr. Gabriel Pellón, San Lorenzo 111410",
+        "lat": -25.329409,
+        "lng": -57.5037161,
+        "checked_at": "2026-10-20T05:23:48+00:00"
+      }
     },
     {
       "id": "loc-ueno-61cf10cea1",
@@ -45822,7 +46199,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:23:49.750559+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJsWEHKwCvXZQRU0tdOOUPmH0",
+      "google_candidate": {
+        "google_name": "Petropar Santa María",
+        "formatted_address": "MG94+X34, San Lorenzo 111417",
+        "lat": -25.3303739,
+        "lng": -57.4946174,
+        "checked_at": "2026-10-20T05:23:49+00:00"
+      }
     },
     {
       "id": "loc-ueno-8750bf0a0b",
@@ -45838,7 +46226,18 @@
       "source_page": 8,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:23:50.727679+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJj269fACtXZQRlQFeo8UGk4Y",
+      "google_candidate": {
+        "google_name": "Petropar Teniente Molas",
+        "formatted_address": "JGP2+V43, Teniente Molas, San Lorenzo 111462",
+        "lat": -25.3628492,
+        "lng": -57.5000227,
+        "checked_at": "2026-10-20T05:23:50+00:00"
+      }
     },
     {
       "id": "loc-ueno-36b17fef66",
@@ -45854,7 +46253,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:23:51.758110+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJCVoMRNGtXZQRn9jqvH6TUKs",
+      "google_candidate": {
+        "google_name": "Petropar Grupo Areve",
+        "formatted_address": "Amambay, San Lorenzo 111470",
+        "lat": -25.3862642,
+        "lng": -57.4977113,
+        "checked_at": "2026-10-20T05:23:51+00:00"
+      }
     },
     {
       "id": "loc-ueno-e0e70ff223",
@@ -46014,7 +46424,18 @@
       "source_page": 10,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:23:52.546831+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJXQCNooasXZQRdR2oH-z-yI4",
+      "google_candidate": {
+        "google_name": "Estación de Servicio Copetrol",
+        "formatted_address": "HFR3+875, Cadete de Boquerón, San Antonio 111213",
+        "lat": -25.4092274,
+        "lng": -57.5467565,
+        "checked_at": "2026-10-20T05:23:52+00:00"
+      }
     },
     {
       "id": "loc-ueno-2971a1018b",
@@ -46028,9 +46449,23 @@
       "merchant_brand": "COPETROL",
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
       "source_page": 15,
-      "lat": null,
-      "lng": null,
-      "geocode_source": ""
+      "lat": -25.4042685,
+      "lng": -57.572558,
+      "geocode_source": "google_places_text_search",
+      "google_last_attempt_at": "2026-10-20T05:23:53.530808+00:00",
+      "place_id": "ChIJTYf6JJmrXZQRcLIvgRH2dbw",
+      "formatted_address": "HCWG+7XW, Av. San Antonio, San Antonio 111302",
+      "google_name": "COPETROL (Gestion San Antonio)",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:23:53+00:00"
     },
     {
       "id": "loc-ueno-8123f0a433",
@@ -46046,7 +46481,18 @@
       "source_page": 16,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:23:54.304367+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJGXcB_CarXZQRtTnVpMrBvGY",
+      "google_candidate": {
+        "google_name": "Estación de Servicios Enex San Antonio",
+        "formatted_address": "San Antonio 111303",
+        "lat": -25.4152986,
+        "lng": -57.5731947,
+        "checked_at": "2026-10-20T05:23:54+00:00"
+      }
     },
     {
       "id": "loc-ueno-8dcfc9bf0a",
@@ -46222,7 +46668,18 @@
       "source_page": 15,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:23:55.429111+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJFVTGjXCuXZQRyly-dblZvVA",
+      "google_candidate": {
+        "google_name": "Copetrol (Antares)",
+        "formatted_address": "MG53+7R8, San Lorenzo 111425",
+        "lat": -25.3418347,
+        "lng": -57.4954113,
+        "checked_at": "2026-10-20T05:23:55+00:00"
+      }
     },
     {
       "id": "loc-ueno-bcfb1f5e45",
@@ -46238,7 +46695,18 @@
       "source_page": 13,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:23:56.367480+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJoUL0zKWpXZQR2dGRMrruirs",
+      "google_candidate": {
+        "google_name": "TED-Wepa - Copetrol Avelino Martinez",
+        "formatted_address": "Av. Luis M. Argaña esq, San Lorenzo 110333",
+        "lat": -25.3558557,
+        "lng": -57.567425,
+        "checked_at": "2026-10-20T05:23:56+00:00"
+      }
     },
     {
       "id": "loc-ueno-110e29f351",
@@ -46254,7 +46722,18 @@
       "source_page": 14,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:23:57.110138+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJZ83Lvi6sXZQRNMOEdA0ERhQ",
+      "google_candidate": {
+        "google_name": "Copetrol",
+        "formatted_address": "JFQP+V3Q, 22 de Julio, San Lorenzo 111457",
+        "lat": -25.3602999,
+        "lng": -57.5147562,
+        "checked_at": "2026-10-20T05:23:56+00:00"
+      }
     },
     {
       "id": "loc-ueno-3c52e1d9ba",
@@ -46270,7 +46749,18 @@
       "source_page": 15,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:23:57.810006+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJfzBPxi2vXZQRlJuebj5UpP8",
+      "google_candidate": {
+        "google_name": "COPETROL",
+        "formatted_address": "MFPM+W5Q, Jacarandá, San Lorenzo 111405",
+        "lat": -25.3126556,
+        "lng": -57.5170185,
+        "checked_at": "2026-10-20T05:23:57+00:00"
+      }
     },
     {
       "id": "loc-ueno-ac8bc7d775",
@@ -46284,9 +46774,23 @@
       "merchant_brand": "COPETROL",
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
       "source_page": 15,
-      "lat": null,
-      "lng": null,
-      "geocode_source": ""
+      "lat": -25.3406566,
+      "lng": -57.5204114,
+      "geocode_source": "google_places_text_search",
+      "google_last_attempt_at": "2026-10-20T05:23:58.661979+00:00",
+      "place_id": "ChIJeQDMH2ivXZQRlq2UdIM7APE",
+      "formatted_address": "Km 11, Av. De los Agronomos, c/ A. Martinez, San Lorenzo 111434",
+      "google_name": "TED-Wepa - Copetrol Km 11 Los Agronomos",
+      "google_types": [
+        "atm",
+        "finance",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:23:58+00:00"
     },
     {
       "id": "loc-ueno-d6ef1f3a39",
@@ -46302,7 +46806,18 @@
       "source_page": 15,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:23:59.465700+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJseoFtM6tXZQRaGSY5d-WAjw",
+      "google_candidate": {
+        "google_name": "TED-Wepa - Copetrol Kurusu",
+        "formatted_address": "Manuel Ortiz Guerrero esq, San Lorenzo 111449",
+        "lat": -25.3602566,
+        "lng": -57.5147851,
+        "checked_at": "2026-10-20T05:23:59+00:00"
+      }
     },
     {
       "id": "loc-ueno-1785ad2474",
@@ -46316,9 +46831,23 @@
       "merchant_brand": "COPETROL",
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
       "source_page": 13,
-      "lat": null,
-      "lng": null,
-      "geocode_source": ""
+      "lat": -25.2929179,
+      "lng": -57.5403016,
+      "geocode_source": "google_places_text_search",
+      "google_last_attempt_at": "2026-10-20T05:24:00.445358+00:00",
+      "place_id": "ChIJjSxU1ACvXZQRM7bqqef8XhU",
+      "formatted_address": "Avda. Laguna Grande esq, San Lorenzo 110301",
+      "google_name": "TED-Wepa - Copetrol Laguna Grande",
+      "google_types": [
+        "atm",
+        "finance",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T05:24:00+00:00"
     },
     {
       "id": "loc-ueno-8b3cc2ada3",
@@ -46334,7 +46863,18 @@
       "source_page": 13,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:01.286307+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJUcKpjditXZQRhgFxSDYZ9Lg",
+      "google_candidate": {
+        "google_name": "Copetrol Porvenir",
+        "formatted_address": "MG24+3M4, San Lorenzo 111454",
+        "lat": -25.3498645,
+        "lng": -57.493285,
+        "checked_at": "2026-10-20T05:24:01+00:00"
+      }
     },
     {
       "id": "loc-ueno-19f9816d8a",
@@ -46350,7 +46890,18 @@
       "source_page": 15,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:02.015527+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJA9wn2XCuXZQRWwRUfqe8xl0",
+      "google_candidate": {
+        "google_name": "KM14 Copetrol ROUTE 2",
+        "formatted_address": "RUTA MCAL. JOSE F. ESTIGARRIBIA y Patricio Colman - KM 14, PY02, San Lorenzo 111429",
+        "lat": -25.3424995,
+        "lng": -57.4941024,
+        "checked_at": "2026-10-20T05:24:01+00:00"
+      }
     },
     {
       "id": "loc-ueno-80cceb3fe6",
@@ -46366,7 +46917,18 @@
       "source_page": 10,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:02.763331+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJnyaMtomuXZQRkKj17dUxjf4",
+      "google_candidate": {
+        "google_name": "Copetrol",
+        "formatted_address": "Gaspar R De Francia, San Lorenzo 111423",
+        "lat": -25.3391864,
+        "lng": -57.5096714,
+        "checked_at": "2026-10-20T05:24:02+00:00"
+      }
     },
     {
       "id": "loc-ueno-57d57155e1",
@@ -46382,7 +46944,18 @@
       "source_page": 10,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:03.686612+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJnyaMtomuXZQRkKj17dUxjf4",
+      "google_candidate": {
+        "google_name": "Copetrol",
+        "formatted_address": "Gaspar R De Francia, San Lorenzo 111423",
+        "lat": -25.3391864,
+        "lng": -57.5096714,
+        "checked_at": "2026-10-20T05:24:03+00:00"
+      }
     },
     {
       "id": "loc-ueno-d209a40689",
@@ -46398,7 +46971,18 @@
       "source_page": 10,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:04.396396+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ71z6-kCvXZQRcX-a9iZAkog",
+      "google_candidate": {
+        "google_name": "TED-Wepa - Copetrol Reconstrucción Nacional",
+        "formatted_address": "Av. Pastora Céspedes y, San Lorenzo 111439",
+        "lat": -25.3403326,
+        "lng": -57.5393028,
+        "checked_at": "2026-10-20T05:24:04+00:00"
+      }
     },
     {
       "id": "loc-ueno-be2a5f7f01",
@@ -46414,7 +46998,18 @@
       "source_page": 10,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:05.307480+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJnyaMtomuXZQRkKj17dUxjf4",
+      "google_candidate": {
+        "google_name": "Copetrol",
+        "formatted_address": "Gaspar R De Francia, San Lorenzo 111423",
+        "lat": -25.3391864,
+        "lng": -57.5096714,
+        "checked_at": "2026-10-20T05:24:05+00:00"
+      }
     },
     {
       "id": "loc-ueno-4355b1c036",
@@ -46430,7 +47025,18 @@
       "source_page": 10,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:06.080513+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJhSrEF16uXZQR0V9Xdn_3nM8",
+      "google_candidate": {
+        "google_name": "Petrosur Calle'i San Lorenzo",
+        "formatted_address": "Av. Dr. Gabriel Pellón, San Lorenzo 111410",
+        "lat": -25.329409,
+        "lng": -57.5037161,
+        "checked_at": "2026-10-20T05:24:05+00:00"
+      }
     },
     {
       "id": "loc-ueno-adb04efc95",
@@ -46446,7 +47052,18 @@
       "source_page": 10,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:06.788869+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ8z-Iv0SsXZQR2A428Uxk9CE",
+      "google_candidate": {
+        "google_name": "COPETROL",
+        "formatted_address": "JF7G+9HG, Ave Manuel Ortiz Guerrero, San Lorenzo 111219",
+        "lat": -25.3865607,
+        "lng": -57.5235611,
+        "checked_at": "2026-10-20T05:24:06+00:00"
+      }
     },
     {
       "id": "loc-ueno-ee0c022c70",
@@ -46462,7 +47079,18 @@
       "source_page": 10,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:07.647414+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJnyaMtomuXZQRkKj17dUxjf4",
+      "google_candidate": {
+        "google_name": "Copetrol",
+        "formatted_address": "Gaspar R De Francia, San Lorenzo 111423",
+        "lat": -25.3391864,
+        "lng": -57.5096714,
+        "checked_at": "2026-10-20T05:24:07+00:00"
+      }
     },
     {
       "id": "loc-ueno-75aa8c0169",
@@ -46478,7 +47106,18 @@
       "source_page": 15,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:08.440591+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJA9wn2XCuXZQRWwRUfqe8xl0",
+      "google_candidate": {
+        "google_name": "KM14 Copetrol ROUTE 2",
+        "formatted_address": "RUTA MCAL. JOSE F. ESTIGARRIBIA y Patricio Colman - KM 14, PY02, San Lorenzo 111429",
+        "lat": -25.3424995,
+        "lng": -57.4941024,
+        "checked_at": "2026-10-20T05:24:08+00:00"
+      }
     },
     {
       "id": "loc-ueno-2164c4b8bd",
@@ -46494,7 +47133,18 @@
       "source_page": 13,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:09.325260+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJj0M4cc-tXZQRGqYHtfu1baM",
+      "google_candidate": {
+        "google_name": "Copetrol",
+        "formatted_address": "JGP2+MW7, Teniente Molas, San Lorenzo 111455",
+        "lat": -25.3633293,
+        "lng": -57.4976899,
+        "checked_at": "2026-10-20T05:24:09+00:00"
+      }
     },
     {
       "id": "loc-ueno-ed91833fda",
@@ -46510,7 +47160,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:10.094007+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJk8AbFDesXZQRnDSXusMwmUQ",
+      "google_candidate": {
+        "google_name": "Petrobras AMIGO-SANLO",
+        "formatted_address": "JFHM+53W, Manuel Ortiz Guerrero, San Lorenzo 111458",
+        "lat": -25.3721512,
+        "lng": -57.5174618,
+        "checked_at": "2026-10-20T05:24:09+00:00"
+      }
     },
     {
       "id": "loc-ueno-7b3e35d3f5",
@@ -46526,7 +47187,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:10.831349+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJGaZnuYauXZQRe1PS4Co6D7k",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "San Lorenzo 111422",
+        "lat": -25.347306,
+        "lng": -57.5125553,
+        "checked_at": "2026-10-20T05:24:10+00:00"
+      }
     },
     {
       "id": "loc-ueno-ee02083c07",
@@ -46542,7 +47214,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:11.585126+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJd-u5tXWvXZQRBl3GNQoOq0Y",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Ruta Mariscal José Felix Estigarribia esq, San Lorenzo 002160",
+        "lat": -25.3426858,
+        "lng": -57.5178916,
+        "checked_at": "2026-10-20T05:24:11+00:00"
+      }
     },
     {
       "id": "loc-ueno-d0bd2b34be",
@@ -46558,7 +47241,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:12.507466+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJo-GkGN6vXZQRVTXRbiHddz8",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "San Lorenzo 111406",
+        "lat": -25.3228131,
+        "lng": -57.512426,
+        "checked_at": "2026-10-20T05:24:12+00:00"
+      }
     },
     {
       "id": "loc-ueno-c09552444a",
@@ -46574,7 +47268,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T05:24:13.409266+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJG2pfAAStXZQRUF2kjlTv28Q",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Km 15,2, JGW6+55, Ruta I, San Lorenzo 111454",
+        "lat": -25.3545625,
+        "lng": -57.4895625,
+        "checked_at": "2026-10-20T05:24:13+00:00"
+      }
     },
     {
       "id": "loc-ueno-51a1ef4b90",
@@ -47504,5 +48209,8 @@
       "lng": null,
       "geocode_source": ""
     }
-  ]
+  ],
+  "google_enriched_locations": 142,
+  "google_enrichment_focus": "Asunción y Gran Asunción",
+  "locations_updated_at": "2026-10-20T05:24:13+00:00"
 }
