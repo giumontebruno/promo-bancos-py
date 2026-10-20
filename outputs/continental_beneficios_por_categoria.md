@@ -777,7 +777,7 @@ _Se omitieron 38 filas en este resumen; están en el CSV._
 | El Mundo del Cotillón | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 20 de agosto de 2027 | Encarnación |
 | El Negro Suplementos | 35%; Hasta 12 cuotas sin intereses; 15% de reintegro; 10% de reintegro; 35% de descuento | todos los días | Vigente hasta el 17 de junio de 2027 | Asunción |
 | Elefante Negro | 25%; 25% de reintegro | Los jueves | Vigente hasta el 03 de junio de 2027 | Asunción |
-| Elizabeth Macoritto - Vestidos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 05 de marzo del 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | Asunción |
+| Elizabeth Macoritto - Vestidos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 05 de marzo de 2027 | Asunción |
 | Eneache | 20%; 20% de reintegro | Los jueves | Vigente hasta el 08 de abril de 2027 | Asunción |
 | Enerbike | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de julio de 2027 | Asunción |
 | Essen | Hasta 12 cuotas sin intereses; 30% de descuento; 10% de descuento | Todos los días | Vigente hasta el 05 de junio de 2027 | No especificado |

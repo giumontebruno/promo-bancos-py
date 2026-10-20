@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 519
+Total de beneficios: 527
 
 ## Alemania Cell
 
@@ -50,6 +50,7 @@ Total de beneficios: 519
 | ODONTOS | 12 Cuotas sin intereses; Tenes 12 cuotas sin intereses | No especificado | 2026-03-27 hasta 2026-12-31 |
 | Punto Farma | 6 Cuotas sin intereses 35 % Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses. | Todos los Martes; todos los martes | 2024-12-30 hasta 2026-12-31 |
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
+| SANTO PILATES | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-10-19 hasta 2026-12-31 |
 | Sanatorios y Clinicas | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2021-03-15 hasta 2026-12-31 |
 | Tippy Toe | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | Aplica los jueves | 2026-01-22 hasta 2026-11-26 |
 
@@ -352,6 +353,7 @@ Total de beneficios: 519
 | Areté | 20 %; 20% de ahorro | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
 | Armele | 20 % 12 Cuotas sin intereses; Tenes 20% de ahorro y hasta 12 cuotas sin intereses. | No especificado | 2023-08-30 hasta 2026-12-31 |
 | Ashley | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-01-13 hasta 2026-12-31 |
+| Biggie | 20 %; 20% de ahorro. | No especificado | 2025-08-01 hasta 2026-11-06 |
 | Brave | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
 | CASA GIN | 20 %; Tenes 20% de reintegro. | Aplica Martes; Martes a Viernes | 2026-10-01 hasta 2026-12-31 |
 | Casa Luma | 20 %; 20% de reintegro | Miercoles a Domingo | 2026-01-14 hasta 2026-12-31 |
@@ -361,6 +363,7 @@ Total de beneficios: 519
 | Condor | 15 % 10 Cuotas sin intereses; 15% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2026-03-03 hasta 2026-12-31 |
 | Coquetas legacy | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
 | Dino | 20 %; Tenés 20% de ahorro. | Aplica los Viernes | 2026-04-03 hasta 2026-10-30 |
+| El Café de aca | 20 %; Tenes 20% de reintegro | sábado a domingo | 2025-10-06 hasta 2026-12-31 |
 | Estudio Barcelona | 10 Cuotas sin intereses 10 %; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-07-01 hasta 2026-12-31 |
 | Fabric Sushi | 35 % Hasta; Tenes hasta 35% de reintegro. | lunes a domingo; lunes a jueves | 2026-09-07 hasta 2026-10-31 |
 | Gilardini | 15 % 6 Cuotas sin intereses; 15% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-11-30 |
@@ -392,6 +395,7 @@ Total de beneficios: 519
 | Plaza Hogar | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-01-28 hasta 2026-12-30 |
 | Pulsak | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-04-16 hasta 2026-12-17 |
 | Puma | 20 Pago con Amex 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2026-01-01 hasta 2026-12-31 |
+| Quineo Warehouse | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. Aplica los viernes. | Aplica los viernes | 2025-10-04 hasta 2026-12-31 |
 | Rajomar | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
 | Rubens | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
 | Sanycer Boutique | 10 Cuotas sin intereses 42 %; 42% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-06-02 hasta 2026-12-31 |
@@ -451,6 +455,7 @@ Total de beneficios: 519
 | Mostaza | 20 %; 20% de reintegro. | Lunes a Viernes | 2025-01-01 hasta 2026-12-31 |
 | PEDERZANI | 20 %; 20% de reintegro. | Lunes a Viernes | 2025-01-01 hasta 2026-12-31 |
 | Pizza Hut | 20 %; 20% de reintegro. | Lunes a Viernes | 2025-01-01 hasta 2026-12-31 |
+| Shangri La | 20 %; 20% de reintegro. | Lunes a Viernes | 2025-01-01 hasta 2026-12-31 |
 | Starbucks | 20 %; 20% de reintegro. | Lunes a Viernes | 2025-01-01 hasta 2026-12-31 |
 | Sushi Pop | 20 %; 20% de reintegro. | Lunes a Viernes | 2025-01-01 hasta 2026-12-31 |
 
@@ -559,6 +564,7 @@ Total de beneficios: 519
 | Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingos 18 y 25 de octubre de 2026 | Desde 2026-10-18 hasta 2026-10-25 |
 | Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingos 18 y 25 de octubre de 2026 | Desde 2026-10-18 hasta 2026-10-25 |
 | Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingos 18 y 25 de octubre de 2026 | Desde 2026-10-18 hasta 2026-10-25 |
+| Biggie | 15 %; 15% de ahorro. | No especificado | 2025-01-31 hasta 2026-11-06 |
 | CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-12-01 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
@@ -571,7 +577,6 @@ Total de beneficios: 519
 | APRENDIENDO A QUERER-ME | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-11-19 |
 | LA JENNY | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-11-29 |
 | PASSLINE | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2026-10-07 hasta 2026-12-31 |
-| RESET UNIPERSONAL STAND UP | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-10-23 |
 
 ## Tecnología
 
@@ -618,7 +623,6 @@ Total de beneficios: 519
 | Municipalidad de Luque | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
 | Municipalidad de Misiones | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
 | Municipalidad de San Bernardino | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
-| NESTLE COFFEE HOUSE | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro con todas las tarjetas de crédito, 25% de reintegro para tarjetas Personal Bank + 6 cuotas sin intereses | No especificado | 2026-10-21 hasta 2026-10-23 |
 | New Balance | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Nice | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Pampero | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
@@ -658,6 +662,7 @@ Total de beneficios: 519
 | Coral Turismo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Frontur | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Go Travel | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
+| Hoteles | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses | No especificado | 2017-11-20 hasta 2026-12-31 |
 | Interviajes | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Latam | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses | No especificado | 2026-02-11 hasta 2026-12-31 |
 | Maral Turismo | 15 Cuotas sin intereses; Tenes hasta 15 cuotas sin intereses | No especificado | 2026-10-03 hasta 2026-10-31 |
@@ -697,4 +702,12 @@ Total de beneficios: 519
 | Todocenter | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
 | UG Hogar | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses | Aplica LUNES; LUNES A VIERNES | 2023-04-28 hasta 2026-12-31 |
 | Valerie | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES | 2024-02-02 hasta 2026-12-31 |
+
+## Últimos días
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-11-20 hasta 2026-10-22 |
+| NESTLE COFFEE HOUSE | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro con todas las tarjetas de crédito, 25% de reintegro para tarjetas Personal Bank + 6 cuotas sin intereses | No especificado | 2026-10-21 hasta 2026-10-23 |
+| RESET UNIPERSONAL STAND UP | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-10-23 |
 

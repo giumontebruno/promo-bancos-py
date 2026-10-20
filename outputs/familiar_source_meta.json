@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-19T14:34:48.933463+00:00",
+  "checked_at": "2026-10-20T04:08:26.525700+00:00",
   "published": 416,
   "pending": [
     {
@@ -245,8 +245,8 @@
     },
     {
       "merchant_name": "CONSOLIDADO DE PROMOCIONES",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-consolidado-de-promociones-bases-y-condiciones-septiembre-2026",
-      "reason": "missing_terms"
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-consolidado-de-promociones-bases-y-condiciones-octubre-2026",
+      "reason": "ambiguous_dates"
     },
     {
       "merchant_name": "KIA",

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T01:01:23-03:00",
+  "generated_at": "2026-10-20T04:18:30+00:00",
   "provider": "Official bank branch lists + reviewed location matches",
   "total_locations": 1935,
-  "geocoded_locations": 270,
+  "geocoded_locations": 283,
   "locations": [
     {
       "id": "loc-bnf-b503118f81afab11",
@@ -17365,7 +17365,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:30.754588+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJtUHXRSRTXJQRMExDV5c6Ys4",
+      "google_candidate": {
+        "google_name": "Estacion De Servicio COMPASA",
+        "formatted_address": "GFXM+3RG, Ypané 111810",
+        "lat": -25.4523228,
+        "lng": -57.5154364,
+        "checked_at": "2026-10-20T04:18:30+00:00"
+      }
     },
     {
       "id": "loc-bnf-1a125c3a2a1ac056",
@@ -17383,7 +17394,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:31.610187+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJtXwsTABTXJQRDq7Y-UcHdTY",
+      "google_candidate": {
+        "google_name": "COMPASA ACCESO SUR",
+        "formatted_address": "Ypané 2660, Ypane 2660",
+        "lat": -25.4539948,
+        "lng": -57.5231705,
+        "checked_at": "2026-10-20T04:18:31+00:00"
+      }
     },
     {
       "id": "loc-bnf-bea5c5103c1de663",
@@ -17398,10 +17420,24 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
       "source_page": 12,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.4468719,
+      "lng": -57.504901,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:32.510309+00:00",
+      "place_id": "ChIJk64auahTXJQRXLS8PqsPsqU",
+      "formatted_address": "HF3W+725, Juan Bautista Egusquiza, Ypane 111808",
+      "google_name": "PetroChaco",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:32+00:00"
     },
     {
       "id": "loc-bnf-c82a54e76ac46043",
@@ -17437,7 +17473,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:33.321870+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJD7vQX6KtXZQR7igdrrcBDas",
+      "google_candidate": {
+        "google_name": "3MG ÑEMBY",
+        "formatted_address": "JF58+V6H, Ñemby 111218",
+        "lat": -25.3903079,
+        "lng": -57.5344013,
+        "checked_at": "2026-10-20T04:18:33+00:00"
+      }
     },
     {
       "id": "loc-bnf-4d04820a9a7de88d",
@@ -17455,7 +17502,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:34.118052+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJcZgMCOStXZQR2GJUfECZZWg",
+      "google_candidate": {
+        "google_name": "3MG - ÑEMBY PULP Cañadita",
+        "formatted_address": "Av. Teniente Fariña, Ñemby 111226",
+        "lat": -25.4276991,
+        "lng": -57.5345132,
+        "checked_at": "2026-10-20T04:18:33+00:00"
+      }
     },
     {
       "id": "loc-bnf-d88f0632fe7ae37f",
@@ -17473,7 +17531,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:35.086341+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJtXwsTABTXJQRDq7Y-UcHdTY",
+      "google_candidate": {
+        "google_name": "COMPASA ACCESO SUR",
+        "formatted_address": "Ypané 2660, Ypane 2660",
+        "lat": -25.4539948,
+        "lng": -57.5231705,
+        "checked_at": "2026-10-20T04:18:34+00:00"
+      }
     },
     {
       "id": "loc-bnf-3a6037c1a9156503",
@@ -17491,7 +17560,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:35.881241+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJk_3aMFOtXZQRSUiau-5jVKA",
+      "google_candidate": {
+        "google_name": "TED-Wepa - Copetrol Acceso Sur 3",
+        "formatted_address": "Acceso Sur 2575 casi, Ñemby 111226",
+        "lat": -25.4375452,
+        "lng": -57.5361529,
+        "checked_at": "2026-10-20T04:18:35+00:00"
+      }
     },
     {
       "id": "loc-bnf-b5407b462591769c",
@@ -17509,7 +17589,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:36.733314+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJfSFEB3SsXZQR95WMR92RLHU",
+      "google_candidate": {
+        "google_name": "Copetrol Estrella",
+        "formatted_address": "JF62+QW7, Acceso Sur, Ñemby 111207",
+        "lat": -25.3880907,
+        "lng": -57.5477104,
+        "checked_at": "2026-10-20T04:18:36+00:00"
+      }
     },
     {
       "id": "loc-bnf-56e9b18ca9523938",
@@ -17527,7 +17618,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:37.439614+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJfSFEB3SsXZQR95WMR92RLHU",
+      "google_candidate": {
+        "google_name": "Copetrol Estrella",
+        "formatted_address": "JF62+QW7, Acceso Sur, Ñemby 111207",
+        "lat": -25.3880907,
+        "lng": -57.5477104,
+        "checked_at": "2026-10-20T04:18:37+00:00"
+      }
     },
     {
       "id": "loc-bnf-4448189044e42866",
@@ -17542,10 +17644,24 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
       "source_page": 9,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3880907,
+      "lng": -57.5477104,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:38.257503+00:00",
+      "place_id": "ChIJfSFEB3SsXZQR95WMR92RLHU",
+      "formatted_address": "JF62+QW7, Acceso Sur, Ñemby 111207",
+      "google_name": "Copetrol Estrella",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:38+00:00"
     },
     {
       "id": "loc-bnf-5ccd60ddce53c386",
@@ -17560,10 +17676,24 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
       "source_page": 12,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3703796,
+      "lng": -57.5515795,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:39.020211+00:00",
+      "place_id": "ChIJ1y86oOqtXZQRIKxW50Zs7og",
+      "formatted_address": "JCHX+R9V, Félix Pérez Cardozo, Ñemby 111202",
+      "google_name": "Petrochaco",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:38+00:00"
     },
     {
       "id": "loc-bnf-4d06939e7201c3ab",
@@ -17581,7 +17711,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:39.862804+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJN9GIgmCsXZQRJpEBY06qfvk",
+      "google_candidate": {
+        "google_name": "Puma Rincón Ñemby - Red S2",
+        "formatted_address": "Ave Manuel Ortiz Guerrero, Ñemby 111217",
+        "lat": -25.3969958,
+        "lng": -57.5310197,
+        "checked_at": "2026-10-20T04:18:39+00:00"
+      }
     },
     {
       "id": "loc-bnf-a7371a97548a3b5b",
@@ -17599,7 +17740,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:40.586941+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJCUg4OtqxXZQRigMmaGMbw1o",
+      "google_candidate": {
+        "google_name": "Farmacenter Aregua",
+        "formatted_address": "Av. Las Residentas N° 413, Areguá 0112",
+        "lat": -25.2966604,
+        "lng": -57.4219244,
+        "checked_at": "2026-10-20T04:18:40+00:00"
+      }
     },
     {
       "id": "loc-bnf-88230c235600983f",
@@ -17617,7 +17769,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:41.544560+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJG-dgcWSxXZQR2zjmkvVBAP4",
+      "google_candidate": {
+        "google_name": "Farmacia Catedral Suc Aregua 1",
+        "formatted_address": "Avda. Mcal. F. Solano Lopez y, Areguá 5596",
+        "lat": -25.3091871,
+        "lng": -57.3820182,
+        "checked_at": "2026-10-20T04:18:41+00:00"
+      }
     },
     {
       "id": "loc-bnf-4e5c1ccacc979b05",
@@ -17671,7 +17834,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:42.427639+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJm0Zold2nXZQRG1cnhtZvUAo",
+      "google_candidate": {
+        "google_name": "Drugstore Asismed Mcal Lopez",
+        "formatted_address": "P96J+F25, Asunción 001218",
+        "lat": -25.2888708,
+        "lng": -57.6198764,
+        "checked_at": "2026-10-20T04:18:42+00:00"
+      }
     },
     {
       "id": "loc-bnf-f42ab5fc3ee20ff8",
@@ -17689,7 +17863,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:43.157527+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJn1hXcuWnXZQR4SPuenEgIdo",
+      "google_candidate": {
+        "google_name": "DRUGSTORE by Asismed - Artigas",
+        "formatted_address": "Av. Gral. José Gervasio Artigas casi, Asunción 001202",
+        "lat": -25.2734485,
+        "lng": -57.6073623,
+        "checked_at": "2026-10-20T04:18:43+00:00"
+      }
     },
     {
       "id": "loc-bnf-474b07c31aa0247d",
@@ -17704,10 +17889,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 14,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.2727083,
+      "lng": -57.6077309,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:43.925025+00:00",
+      "place_id": "ChIJh_XLIACnXZQRMTU8Mf9bUpA",
+      "formatted_address": "Estacionamiento Bahía Parking (La Costa, Concepción Leyes de Chávez 200, Asunción 001202",
+      "google_name": "Drugstore by Asismed - Bahía",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:43+00:00"
     },
     {
       "id": "loc-bnf-ef619d3783ae7b8d",
@@ -17725,7 +17925,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:44.691957+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJAQSwNzOmXZQR8mtqZpVPszU",
+      "google_candidate": {
+        "google_name": "Drugstore Asismed Sta. Julia",
+        "formatted_address": "Nicasio Insaurralde y, Asunción 001206",
+        "lat": -25.2761397,
+        "lng": -57.5981288,
+        "checked_at": "2026-10-20T04:18:44+00:00"
+      }
     },
     {
       "id": "loc-bnf-a5bb668b34c685ed",
@@ -17743,7 +17954,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:45.542119+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJAYySEQCpXZQR2yxEvzHhfCg",
+      "google_candidate": {
+        "google_name": "Drugstore by Asismed Lynch",
+        "formatted_address": "MCRW+59W, Victor Heyn, Asunción 001418",
+        "lat": -25.3095218,
+        "lng": -57.5540465,
+        "checked_at": "2026-10-20T04:18:45+00:00"
+      }
     },
     {
       "id": "loc-bnf-c5f4b05957f58ddf",
@@ -17758,10 +17980,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 9,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.2812801,
+      "lng": -57.6375641,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:46.355422+00:00",
+      "place_id": "ChIJhciPnfOnXZQRfPwPObbgEGQ",
+      "formatted_address": "Estrella 526 entre, 14 De Mayo y, Asunción 1014",
+      "google_name": "Farmacenter Central",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:46+00:00"
     },
     {
       "id": "loc-bnf-0d2f8cf5954bf392",
@@ -17779,7 +18016,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:47.152465+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJhciPnfOnXZQRfPwPObbgEGQ",
+      "google_candidate": {
+        "google_name": "Farmacenter Central",
+        "formatted_address": "Estrella 526 entre, 14 De Mayo y, Asunción 1014",
+        "lat": -25.2812801,
+        "lng": -57.6375641,
+        "checked_at": "2026-10-20T04:18:47+00:00"
+      }
     },
     {
       "id": "loc-bnf-619b041f248e7312",
@@ -17797,7 +18045,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:47.943982+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJhciPnfOnXZQRfPwPObbgEGQ",
+      "google_candidate": {
+        "google_name": "Farmacenter Central",
+        "formatted_address": "Estrella 526 entre, 14 De Mayo y, Asunción 1014",
+        "lat": -25.2812801,
+        "lng": -57.6375641,
+        "checked_at": "2026-10-20T04:18:47+00:00"
+      }
     },
     {
       "id": "loc-bnf-23db8cd8b692eaef",
@@ -17812,10 +18071,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 10,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.2411966,
+      "lng": -57.5431423,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:48.988509+00:00",
+      "place_id": "ChIJdUzK69GlXZQRRebN8AWyehI",
+      "formatted_address": "Ruta Transchaco e, Sgto. 1ro. Tomas Lombardo, Asunción 1508",
+      "google_name": "Farmacenter Loma Pyta",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:48+00:00"
     },
     {
       "id": "loc-bnf-55238e730e784af6",
@@ -17830,10 +18104,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 10,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.2857047,
+      "lng": -57.5767108,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:49.740507+00:00",
+      "place_id": "ChIJHe7z75-oXZQRSC_DqApv9YE",
+      "formatted_address": "España y, Senador Huey Pierce Long 1294, Asunción 1411",
+      "google_name": "Farmacenter Senador Long",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:49+00:00"
     },
     {
       "id": "loc-bnf-60a10761cb27461c",
@@ -17851,7 +18140,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:50.561768+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJr02WSCymXZQRTctqTCovH3M",
+      "google_candidate": {
+        "google_name": "Farmacenter Venezuela",
+        "formatted_address": "Venezuela 911 casi, Asunción 1206",
+        "lat": -25.2820806,
+        "lng": -57.5945873,
+        "checked_at": "2026-10-20T04:18:50+00:00"
+      }
     },
     {
       "id": "loc-bnf-0e84936446784928",
@@ -17866,10 +18166,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 10,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3064183,
+      "lng": -57.5958428,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:51.363213+00:00",
+      "place_id": "ChIJ0aEUToqoXZQRQlNj6foNfVw",
+      "formatted_address": "Av. Choferes Del Chaco 1908 esq, Asunción 1230",
+      "google_name": "Farmacenter Choferes 1",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:51+00:00"
     },
     {
       "id": "loc-bnf-1a67789e48e37772",
@@ -17884,10 +18199,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 10,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3156937,
+      "lng": -57.6303097,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:52.110823+00:00",
+      "place_id": "ChIJB37IGxeoXZQRSFvgkP8xSN0",
+      "formatted_address": "Félix Bogado entre, Capitan Bado y, Asunción 1302",
+      "google_name": "Farmacenter Félix Bogado",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "point_of_interest",
+        "health",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:51+00:00"
     },
     {
       "id": "loc-bnf-09dcd0572e9c26b5",
@@ -17905,7 +18235,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:52.802278+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJG84nm96nXZQRXBqy2tAkBXQ",
+      "google_candidate": {
+        "google_name": "Avenida Mariscal Francisco Solano López",
+        "formatted_address": "Av. Mariscal López, Asunción",
+        "lat": -25.2918179,
+        "lng": -57.5852506,
+        "checked_at": "2026-10-20T04:18:52+00:00"
+      }
     },
     {
       "id": "loc-bnf-ad8bcebfdad04b83",
@@ -17923,7 +18264,18 @@
       "lat": null,
       "lng": null,
       "geocode_source": "",
-      "online_only": false
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:53.836338+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJkytuobmoXZQRDinufkpMasA",
+      "google_candidate": {
+        "google_name": "Farmacenter Mcal. Lopez 3",
+        "formatted_address": "Av. Mariscal López esquina, Asunción 1416",
+        "lat": -25.3000419,
+        "lng": -57.5672124,
+        "checked_at": "2026-10-20T04:18:53+00:00"
+      }
     },
     {
       "id": "loc-bnf-d5207f5ab0ad59bb",
@@ -17938,10 +18290,25 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
       "source_page": 10,
-      "lat": null,
-      "lng": null,
-      "geocode_source": "",
-      "online_only": false
+      "lat": -25.3236527,
+      "lng": -57.6016587,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-10-20T04:18:54.594755+00:00",
+      "place_id": "ChIJVULpqV6pXZQR95eGAwLyIdQ",
+      "formatted_address": "Avda. Fernando de la Mora, Dr. Venza Esq, Asunción 1312",
+      "google_name": "Farmacenter Fernando 2",
+      "google_types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:54+00:00"
     },
     {
       "id": "loc-bnf-a2cf217b1d8b16c3",
@@ -38558,7 +38925,18 @@
       "source_page": 11,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:31.187568+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJzWIKUqykXZQR2en-I-XRQoQ",
+      "google_candidate": {
+        "google_name": "PETROPAR Las Banderas",
+        "formatted_address": "RG9M+FFQ, Limpio 110820",
+        "lat": -25.1812857,
+        "lng": -57.4662587,
+        "checked_at": "2026-10-20T04:18:31+00:00"
+      }
     },
     {
       "id": "loc-ueno-ddc156f532",
@@ -38590,7 +38968,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:32.033383+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ_SRHfgClXZQRb38aoHIVdG4",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "PFWP+29, Autop. Silvio Pettirossi 25, Luque 001109",
+        "lat": -25.2549864,
+        "lng": -57.5140085,
+        "checked_at": "2026-10-20T04:18:31+00:00"
+      }
     },
     {
       "id": "loc-ueno-2a573b312e",
@@ -38606,7 +38995,18 @@
       "source_page": 12,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:32.929228+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJeaoJQkOlXZQRHBBWFvOAARg",
+      "google_candidate": {
+        "google_name": "PETROPAR FAP1",
+        "formatted_address": "PFRP+V2M, Luque 110901",
+        "lat": -25.2577895,
+        "lng": -57.5149465,
+        "checked_at": "2026-10-20T04:18:32+00:00"
+      }
     },
     {
       "id": "loc-ueno-ff06993c22",
@@ -38622,7 +39022,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:33.750910+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJI9PU8GyvXZQRo-h79ubY2Sk",
+      "google_candidate": {
+        "google_name": "PETROPAR AMM S.A. - Isla Bogado",
+        "formatted_address": "MGV5+XHF, Las Monedas, Luque 110950",
+        "lat": -25.3050679,
+        "lng": -57.4910913,
+        "checked_at": "2026-10-20T04:18:33+00:00"
+      }
     },
     {
       "id": "loc-ueno-5332cc36c4",
@@ -38638,7 +39049,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:34.565856+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJk4fVv5q7XZQRK3r-YiDUA00",
+      "google_candidate": {
+        "google_name": "Petropar Luque - San Ber",
+        "formatted_address": "Profesor Sara Cañete de Acosta, Lúke 110907",
+        "lat": -25.239832,
+        "lng": -57.456615,
+        "checked_at": "2026-10-20T04:18:34+00:00"
+      }
     },
     {
       "id": "loc-ueno-c3c4bae814",
@@ -38654,7 +39076,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:35.517481+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJg_roEnmlXZQRHnCoXERgKA0",
+      "google_candidate": {
+        "google_name": "Petropar Mora Cue",
+        "formatted_address": "Unnamed Road, Luque 110904",
+        "lat": -25.227963,
+        "lng": -57.4769695,
+        "checked_at": "2026-10-20T04:18:35+00:00"
+      }
     },
     {
       "id": "loc-ueno-c044feb80e",
@@ -38670,7 +39103,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:36.352148+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ561ypryvXZQRdVqgOL6N070",
+      "google_candidate": {
+        "google_name": "PETROPAR",
+        "formatted_address": "Luque 110945",
+        "lat": -25.2914935,
+        "lng": -57.4950895,
+        "checked_at": "2026-10-20T04:18:36+00:00"
+      }
     },
     {
       "id": "loc-ueno-90b3e5aeda",
@@ -38686,7 +39130,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:37.100851+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJMZSVdwClXZQRTLg0voGtw8o",
+      "google_candidate": {
+        "google_name": "PETROPAR JAT SERVICE",
+        "formatted_address": "PFPJ+5HV, Gral. Elizardo Aquino, Luque 110937",
+        "lat": -25.2645463,
+        "lng": -57.5184482,
+        "checked_at": "2026-10-20T04:18:36+00:00"
+      }
     },
     {
       "id": "loc-ueno-69ec172a41",
@@ -38702,7 +39157,18 @@
       "source_page": 7,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:37.790295+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJeaoJQkOlXZQRHBBWFvOAARg",
+      "google_candidate": {
+        "google_name": "PETROPAR FAP1",
+        "formatted_address": "PFRP+V2M, Luque 110901",
+        "lat": -25.2577895,
+        "lng": -57.5149465,
+        "checked_at": "2026-10-20T04:18:37+00:00"
+      }
     },
     {
       "id": "loc-ueno-0d68e2186f",
@@ -38716,9 +39182,23 @@
       "merchant_brand": "PETROPAR",
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-Petropar-_-OCT-2026v3.pdf",
       "source_page": 11,
-      "lat": null,
-      "lng": null,
-      "geocode_source": ""
+      "lat": -25.2869369,
+      "lng": -57.4608709,
+      "geocode_source": "google_places_text_search",
+      "google_last_attempt_at": "2026-10-20T04:18:38.629279+00:00",
+      "place_id": "ChIJJeEhxyewXZQRkuv50awHnk4",
+      "formatted_address": "Av. Las Residentas esquina, Luque 110925",
+      "google_name": "Estación de Servicios PETROPAR San Andrés",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:38+00:00"
     },
     {
       "id": "loc-ueno-d0e9d42ef1",
@@ -38734,7 +39214,18 @@
       "source_page": 16,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:39.420628+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJdZzzFFupXZQRvj2xVnTTCE0",
+      "google_candidate": {
+        "google_name": "Estacion de Servicios Enex",
+        "formatted_address": "M9PQ+WFC, Av. Bruno Guggiari, Asunción 001235",
+        "lat": -25.312792,
+        "lng": -57.6114591,
+        "checked_at": "2026-10-20T04:18:39+00:00"
+      }
     },
     {
       "id": "loc-ueno-9e15d268f3",
@@ -38750,7 +39241,18 @@
       "source_page": 14,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:40.235864+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJSQl03FKoXZQR5TeG8gDFaWE",
+      "google_candidate": {
+        "google_name": "Copetrol Hernan Cortes",
+        "formatted_address": "M98R+GXF, Asunción 110709",
+        "lat": -25.3336764,
+        "lng": -57.6075643,
+        "checked_at": "2026-10-20T04:18:40+00:00"
+      }
     },
     {
       "id": "loc-ueno-9efd9c2970",
@@ -38766,7 +39268,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:41.072046+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJuVfQlEOoXZQRrb0TC-frK7Y",
+      "google_candidate": {
+        "google_name": "COPETROL",
+        "formatted_address": "M9JP+69R, Avda. Bruno Guggiari, Lambaré 110702",
+        "lat": -25.3193903,
+        "lng": -57.6141232,
+        "checked_at": "2026-10-20T04:18:40+00:00"
+      }
     },
     {
       "id": "loc-ueno-0883928192",
@@ -38782,7 +39295,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:41.952334+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ30RSlrapXZQRmOHZWGBhhfc",
+      "google_candidate": {
+        "google_name": "Copetrol Medicos del Chaco",
+        "formatted_address": "M9FW+3G3, Lambaré 110711",
+        "lat": -25.3273703,
+        "lng": -57.6036995,
+        "checked_at": "2026-10-20T04:18:41+00:00"
+      }
     },
     {
       "id": "loc-ueno-c5bf2a217b",
@@ -38798,7 +39322,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:42.792156+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ048JYEuoXZQR9yIRn_8BO9g",
+      "google_candidate": {
+        "google_name": "Copetrol Guaraníes Lambaré - El Shah SA - Petroplus",
+        "formatted_address": "M97M+VQC, Av. República Argentina, Lambaré 110707",
+        "lat": -25.3353233,
+        "lng": -57.6156192,
+        "checked_at": "2026-10-20T04:18:42+00:00"
+      }
     },
     {
       "id": "loc-ueno-5b760edd05",
@@ -38814,7 +39349,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:43.554914+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJF_qXJA6pXZQRUUNVl2cRMk4",
+      "google_candidate": {
+        "google_name": "COPETROL GRUPO JARA HNOS.",
+        "formatted_address": "Av. Defensores del Chaco, Lambaré 110715",
+        "lat": -25.3440369,
+        "lng": -57.5878989,
+        "checked_at": "2026-10-20T04:18:43+00:00"
+      }
     },
     {
       "id": "loc-ueno-e013d3156b",
@@ -38830,7 +39376,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:44.319175+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJJ0lRYGCpXZQRPivtbJIE840",
+      "google_candidate": {
+        "google_name": "Petrobras Berino",
+        "formatted_address": "Av. República Argentina y, Lambaré 110708",
+        "lat": -25.3339375,
+        "lng": -57.6079375,
+        "checked_at": "2026-10-20T04:18:44+00:00"
+      }
     },
     {
       "id": "loc-ueno-8e44cbae1f",
@@ -38846,7 +39403,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:45.076936+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJuV99br-pXZQRFU0CyE-XzhQ",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Carr de López y, Lambaré 002420",
+        "lat": -25.3554302,
+        "lng": -57.6203399,
+        "checked_at": "2026-10-20T04:18:44+00:00"
+      }
     },
     {
       "id": "loc-ueno-ea2c020bf7",
@@ -38862,7 +39430,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:45.957603+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJ-2ETZkaoXZQR5txqxgwptHw",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Av. Bruno Guggiari, Lambaré 110704",
+        "lat": -25.3244199,
+        "lng": -57.6167652,
+        "checked_at": "2026-10-20T04:18:45+00:00"
+      }
     },
     {
       "id": "loc-ueno-c0e3f267b9",
@@ -38878,7 +39457,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:46.783988+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJHSgs46ipXZQRM1wEzGCAZMw",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Av. Cacique Lambare, Lambaré 110718",
+        "lat": -25.3415162,
+        "lng": -57.602355,
+        "checked_at": "2026-10-20T04:18:46+00:00"
+      }
     },
     {
       "id": "loc-ueno-76e07112de",
@@ -38894,7 +39484,18 @@
       "source_page": 6,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:47.574096+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJHSgs46ipXZQRM1wEzGCAZMw",
+      "google_candidate": {
+        "google_name": "Petrobras",
+        "formatted_address": "Av. Cacique Lambare, Lambaré 110718",
+        "lat": -25.3415162,
+        "lng": -57.602355,
+        "checked_at": "2026-10-20T04:18:47+00:00"
+      }
     },
     {
       "id": "loc-ueno-842284ce0f",
@@ -38910,7 +39511,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:48.304665+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJX85y8LKkXZQRWvvjDwByHJ4",
+      "google_candidate": {
+        "google_name": "Copetrol Limpio Desvío Salado",
+        "formatted_address": "RG8P+48H, Av. San Francisco Solano, Limpio 110825",
+        "lat": -25.1857901,
+        "lng": -57.4649374,
+        "checked_at": "2026-10-20T04:18:48+00:00"
+      }
     },
     {
       "id": "loc-ueno-398427a4f2",
@@ -38926,7 +39538,18 @@
       "source_page": 14,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:49.361675+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJX85y8LKkXZQRWvvjDwByHJ4",
+      "google_candidate": {
+        "google_name": "Copetrol Limpio Desvío Salado",
+        "formatted_address": "RG8P+48H, Av. San Francisco Solano, Limpio 110825",
+        "lat": -25.1857901,
+        "lng": -57.4649374,
+        "checked_at": "2026-10-20T04:18:49+00:00"
+      }
     },
     {
       "id": "loc-ueno-fa7c4c5eb7",
@@ -38942,7 +39565,18 @@
       "source_page": 14,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:50.159795+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJX85y8LKkXZQRWvvjDwByHJ4",
+      "google_candidate": {
+        "google_name": "Copetrol Limpio Desvío Salado",
+        "formatted_address": "RG8P+48H, Av. San Francisco Solano, Limpio 110825",
+        "lat": -25.1857901,
+        "lng": -57.4649374,
+        "checked_at": "2026-10-20T04:18:50+00:00"
+      }
     },
     {
       "id": "loc-ueno-46286d32ae",
@@ -38956,9 +39590,23 @@
       "merchant_brand": "COPETROL",
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
       "source_page": 15,
-      "lat": null,
-      "lng": null,
-      "geocode_source": ""
+      "lat": -25.1857901,
+      "lng": -57.4649374,
+      "geocode_source": "google_places_text_search",
+      "google_last_attempt_at": "2026-10-20T04:18:50.955968+00:00",
+      "place_id": "ChIJX85y8LKkXZQRWvvjDwByHJ4",
+      "formatted_address": "RG8P+48H, Av. San Francisco Solano, Limpio 110825",
+      "google_name": "Copetrol Limpio Desvío Salado",
+      "google_types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:50+00:00"
     },
     {
       "id": "loc-ueno-9eb9422081",
@@ -38974,7 +39622,18 @@
       "source_page": 16,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:51.726696+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJFfmZpBCjXZQR9OaG6ixsGw4",
+      "google_candidate": {
+        "google_name": "Enex Limpio - Ruta 3",
+        "formatted_address": "Peaje Ruta 3, Gral. Elizardo Aquino, Limpio 110812",
+        "lat": -25.1567428,
+        "lng": -57.4564566,
+        "checked_at": "2026-10-20T04:18:51+00:00"
+      }
     },
     {
       "id": "loc-ueno-e394adff72",
@@ -38990,7 +39649,18 @@
       "source_page": 16,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:52.475643+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJFfmZpBCjXZQR9OaG6ixsGw4",
+      "google_candidate": {
+        "google_name": "Enex Limpio - Ruta 3",
+        "formatted_address": "Peaje Ruta 3, Gral. Elizardo Aquino, Limpio 110812",
+        "lat": -25.1567428,
+        "lng": -57.4564566,
+        "checked_at": "2026-10-20T04:18:52+00:00"
+      }
     },
     {
       "id": "loc-ueno-a4d251e37b",
@@ -39004,9 +39674,24 @@
       "merchant_brand": "COPETROL",
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v3.pdf",
       "source_page": 15,
-      "lat": null,
-      "lng": null,
-      "geocode_source": ""
+      "lat": -25.2456415,
+      "lng": -57.5113033,
+      "geocode_source": "google_places_text_search",
+      "google_last_attempt_at": "2026-10-20T04:18:53.227305+00:00",
+      "place_id": "ChIJy_GetJ6lXZQRZh6LEuZ0c-Q",
+      "formatted_address": "Autop. Silvio Pettirossi y, Luque 110916",
+      "google_name": "Saspy Locker - Copetrol Autopista",
+      "google_types": [
+        "courier_service",
+        "shipping_service",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-10-20T04:18:53+00:00"
     },
     {
       "id": "loc-ueno-b35302f80c",
@@ -39022,7 +39707,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:54.212382+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJJ2bFgdOvXZQRGn3joRemQqE",
+      "google_candidate": {
+        "google_name": "COPETROL Av Felipe González (Luque )",
+        "formatted_address": "Felipe Gonzalez y, Luque 110935",
+        "lat": -25.275865,
+        "lng": -57.5032292,
+        "checked_at": "2026-10-20T04:18:54+00:00"
+      }
     },
     {
       "id": "loc-ueno-3b9123b911",
@@ -39038,7 +39734,18 @@
       "source_page": 9,
       "lat": null,
       "lng": null,
-      "geocode_source": ""
+      "geocode_source": "",
+      "google_last_attempt_at": "2026-10-20T04:18:54.967927+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJM5S9U_OvXZQRHz0YtTpWP_o",
+      "google_candidate": {
+        "google_name": "LUQUE ALFONSO Copetrol",
+        "formatted_address": "PGJ8+P2F, Balneario Camboriú, Luque 110921",
+        "lat": -25.2681776,
+        "lng": -57.4849456,
+        "checked_at": "2026-10-20T04:18:54+00:00"
+      }
     },
     {
       "id": "loc-ueno-8a6ecd0aeb",
@@ -42000,5 +42707,8 @@
       "lng": null,
       "geocode_source": ""
     }
-  ]
+  ],
+  "google_enriched_locations": 123,
+  "google_enrichment_focus": "Asunción y Gran Asunción",
+  "locations_updated_at": "2026-10-20T04:18:54+00:00"
 }
