@@ -2921,18 +2921,12 @@
       "10%"
     ],
     "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves",
-      "viernes",
-      "sábado",
-      "domingo"
+      "lunes"
     ],
     "month_days": [],
     "last_days_of_month": 0,
     "ordinal_weekdays": [],
-    "day_text": "Todos los días",
+    "day_text": "Lunes",
     "validity": "Todos los lunes. Del 05 al 26 de octubre de 2026.",
     "source_period_end": "",
     "caps_and_minimums": "Tope de compra mensual por tarjeta de crédito Gs. 1.000.000, el cual aplica al conjunto de locales adheridos de: ASISMED DRUGSTORE, FARMACIAS CATEDRAL, FARMACIA VICENTE SCAVONE, FARMACENTER, FARMA KOKE (Concepción) y FARMACIA SANTA VICTORIA (Villarrica). Para las cadenas con presencia en múltiples localidades, el tope no se multiplicará por sucursal, sino que se unificará bajo el mismo sello comercial. De este modo, el límite establecido regirá de forma integrada para la marca en su totalidad, independientemente de la zona geográfica de la transacción. El tope de reintegro máximo mensual por tarjeta de crédito será de Gs. 100.000, el cual aplica al conjunto de locales adheridos a la promoción.",
@@ -2947,7 +2941,7 @@
     "original_source_text": "Bases y Condiciones Reintegro – 10% en Farmacias Vigencia: Todos los lunes. Del 05 al 26 de octubre de 2026. Beneficio: • 10% de reintegro en el extracto, pagando con tarjetas de crédito Visa Clásica, Oro y Platinum BNF. • Hasta 12 cuotas sin intereses para pagos con tarjetas de crédito Visa BNF. Para el fraccionamiento de cuotas, el cliente deberá solicitar la cantidad de cuotas que desea al momento del pago. Condiciones: • Tope de compra mensual por tarjeta de crédito Gs. 1.000.000, el cual aplica al conjunto de locales adheridos de: ASISMED DRUGSTORE, FARMACIAS CATEDRAL, FARMACIA VICENTE SCAVONE, FARMACENTER, FARMA KOKE (Concepción) y FARMACIA SANTA VICTORIA (Villarrica). Para las cadenas con presencia en múltiples localidades, el tope no se multiplicará por sucursal, sino que se unificará bajo el mismo sello comercial. De este modo, el límite establecido regirá de forma integrada para la marca en su totalidad, independientemente de la zona geográfica de la transacción. • El tope de reintegro máximo mensual por tarjeta de crédito será de Gs. 100.000, el cual aplica al conjunto de locales adheridos a la promoción. • Aplica única y exclusivamente a compras realizadas con tarjetas de crédito Visa BNF a través del POS de Bancard (Red Infonet), en locales adheridos a la promoción. Ver listado en las siguientes páginas. • Esta promoción puede sufrir variaciones derivadas de los acuerdos entre el BNF y las firmas comerciales. Dichos cambios podrán aplicarse de manera inmediata y sin aviso previo, por lo que queda bajo la total responsabilidad del cliente verificar la versión actualizada de las bases y condiciones vigentes antes de realizar un pago. • Los reintegros son acreditados de manera automática en el extracto del cliente en un plazo de hasta 10 días hábiles posterior a la compra. • Para procesar y validar cualquier tipo de reclamo, se tomará como única referencia el documento del día exacto en que el usuario realizó la transacción. No se admitirán disposiciones de versiones anteriores o posteriores a esa fecha. Exclusiones: • Se excluyen del beneficio los pagos realizados con tarjetas de débito. • Se excluyen expresamente las compras que sean financiadas o realizadas en cuotas. • No aplica a transacciones efectuadas mediante otras procesadoras tales como Dinelco, Cabal, Pagopar, entre otras). 1",
     "id": "fff06c1bdd0c75f5",
     "source_checked_at": "2026-10-19T14:40:19.723580+00:00",
-    "source_file_updated_at": "2026-10-02T13:55:17Z",
+    "source_file_updated_at": "2026-10-17T00:08:51-03:00",
     "terms": {
       "version": 1,
       "starts_on": null,
@@ -2984,7 +2978,8 @@
       ],
       "issues": [],
       "status": "parsed"
-    }
+    },
+    "source_reviewed_at": "2026-10-20"
   },
   {
     "bank": "BNF",
@@ -2995,18 +2990,12 @@
     "benefit_type": "cuotas_sin_intereses",
     "percentages": [],
     "promotion_days": [
-      "lunes",
-      "martes",
-      "miércoles",
-      "jueves",
-      "viernes",
-      "sábado",
-      "domingo"
+      "lunes"
     ],
     "month_days": [],
     "last_days_of_month": 0,
     "ordinal_weekdays": [],
-    "day_text": "Todos los días",
+    "day_text": "Lunes",
     "validity": "Todos los lunes. Del 05 al 26 de octubre de 2026.",
     "source_period_end": "",
     "caps_and_minimums": "",
@@ -3021,7 +3010,7 @@
     "original_source_text": "Bases y Condiciones Reintegro – 10% en Farmacias Vigencia: Todos los lunes. Del 05 al 26 de octubre de 2026. Beneficio: • 10% de reintegro en el extracto, pagando con tarjetas de crédito Visa Clásica, Oro y Platinum BNF. • Hasta 12 cuotas sin intereses para pagos con tarjetas de crédito Visa BNF. Para el fraccionamiento de cuotas, el cliente deberá solicitar la cantidad de cuotas que desea al momento del pago. Condiciones: • Tope de compra mensual por tarjeta de crédito Gs. 1.000.000, el cual aplica al conjunto de locales adheridos de: ASISMED DRUGSTORE, FARMACIAS CATEDRAL, FARMACIA VICENTE SCAVONE, FARMACENTER, FARMA KOKE (Concepción) y FARMACIA SANTA VICTORIA (Villarrica). Para las cadenas con presencia en múltiples localidades, el tope no se multiplicará por sucursal, sino que se unificará bajo el mismo sello comercial. De este modo, el límite establecido regirá de forma integrada para la marca en su totalidad, independientemente de la zona geográfica de la transacción. • El tope de reintegro máximo mensual por tarjeta de crédito será de Gs. 100.000, el cual aplica al conjunto de locales adheridos a la promoción. • Aplica única y exclusivamente a compras realizadas con tarjetas de crédito Visa BNF a través del POS de Bancard (Red Infonet), en locales adheridos a la promoción. Ver listado en las siguientes páginas. • Esta promoción puede sufrir variaciones derivadas de los acuerdos entre el BNF y las firmas comerciales. Dichos cambios podrán aplicarse de manera inmediata y sin aviso previo, por lo que queda bajo la total responsabilidad del cliente verificar la versión actualizada de las bases y condiciones vigentes antes de realizar un pago. • Los reintegros son acreditados de manera automática en el extracto del cliente en un plazo de hasta 10 días hábiles posterior a la compra. • Para procesar y validar cualquier tipo de reclamo, se tomará como única referencia el documento del día exacto en que el usuario realizó la transacción. No se admitirán disposiciones de versiones anteriores o posteriores a esa fecha. Exclusiones: • Se excluyen del beneficio los pagos realizados con tarjetas de débito. • Se excluyen expresamente las compras que sean financiadas o realizadas en cuotas. • No aplica a transacciones efectuadas mediante otras procesadoras tales como Dinelco, Cabal, Pagopar, entre otras). 1",
     "id": "fff06c1bdd0c75f5-b44596db",
     "source_checked_at": "2026-10-19T14:40:19.723580+00:00",
-    "source_file_updated_at": "2026-09-14T12:14:28-03:00",
+    "source_file_updated_at": "2026-10-17T00:08:51-03:00",
     "terms": {
       "version": 1,
       "starts_on": null,
@@ -3035,7 +3024,8 @@
       "additional": [],
       "issues": [],
       "status": "parsed"
-    }
+    },
+    "source_reviewed_at": "2026-10-20"
   },
   {
     "bank": "BNF",

@@ -1,0 +1,15 @@
+{
+  "reviewed_on": "2026-10-20",
+  "document_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_OCT_984395888b.pdf",
+  "document_sha256": "4aa0a21ace8f499a999d431d9052fa18b67908b2bda45e56bd54f901676bd3d2",
+  "reviews": [
+    {
+      "id": "fff06c1bdd0c75f5",
+      "raw_detail_sha256": "66085cf5122615c862d67e03e288715137d2db028c0eb884fe5b9f6511a4a350"
+    },
+    {
+      "id": "fff06c1bdd0c75f5-b44596db",
+      "raw_detail_sha256": "678f2a137269f484f2b41c057f33b4f452a1f5a387fce31c064ce4e3b808b114"
+    }
+  ]
+}

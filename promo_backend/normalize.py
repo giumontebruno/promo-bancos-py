@@ -527,6 +527,11 @@ def main():
     except ImportError:
         from reviewed_shell import apply_review
     apply_review(promotions, json.loads((DATA / "itau_shell_october_review.json").read_text(encoding="utf-8")))
+    try:
+        from .reviewed_bnf_schedule import apply_review as apply_bnf_schedule
+    except ImportError:
+        from reviewed_bnf_schedule import apply_review as apply_bnf_schedule
+    apply_bnf_schedule(promotions, json.loads((DATA / "bnf_farmacenter_schedule_review.json").read_text(encoding="utf-8")))
     # Preserve reviewed campaign subscriptions through multi-benefit splits.
     identity_path = DATA / 'reviewed_campaign_identities.json'
     if identity_path.exists():

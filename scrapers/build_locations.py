@@ -335,6 +335,10 @@ def main():
     if candidate_reviews.exists():
         from location_reviews import apply_reviews
         apply_reviews(unique, json.loads(candidate_reviews.read_text(encoding="utf-8")))
+    official_reviews = ROOT / "data/bnf_farmacenter_reviewed_locations.json"
+    if official_reviews.exists():
+        from reviewed_geo import apply_reviews as apply_official_reviews
+        apply_official_reviews(unique, json.loads(official_reviews.read_text(encoding="utf-8")))
     unique.sort(key=sort_key)
     payload = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
