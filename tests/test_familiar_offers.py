@@ -126,6 +126,7 @@ class FamiliarOfferTests(unittest.TestCase):
                 self.assertTrue(all(r.get('campaign_id') for r in normalized),name)
                 self.assertEqual(len({r['campaign_id'] for r in normalized}),1,name)
             count+=len(first)
-        self.assertEqual(count,415)
+        # Snapshot 2026-10-21 excludes four Alemania Cell variants absent from the current terms.
+        self.assertEqual(count,411)
 
 if __name__=='__main__':unittest.main()
