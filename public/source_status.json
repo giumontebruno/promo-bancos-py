@@ -9,9 +9,11 @@
   "Itaú": {
     "status": "partial",
     "checked_at": "2026-10-17T02:07:38.378271+00:00",
-    "records": 530,
+    "records": 533,
     "attempted_at": "2026-10-21T15:32:59.524977+00:00",
-    "pending_records": 4
+    "pending_records": 3,
+    "targeted_reviewed_at": "2026-10-21",
+    "targeted_review_note": "Arete Peron official page now only 25 October; four card/cap variants revalidated. Three fashion conflicts remain."
   },
   "BNF": {
     "status": "fetched",

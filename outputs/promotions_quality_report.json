@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21T15:37:38.043083+00:00",
-  "input_count": 3123,
-  "promotion_count": 3160,
+  "generated_at": "2026-10-21T15:47:03.436094+00:00",
+  "input_count": 3128,
+  "promotion_count": 3165,
   "duplicates_removed": -37,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -1032,21 +1032,28 @@
     "4c69b3b5410c9c8e": "139f6f292f3647cc",
     "0936454628a2d7aa": "b0f9613cae285775",
     "8d89ae969eb7721b": "6b361360013e9390",
-    "b89d12700f21e3ff": "b5d5c2bf0deba0dd"
+    "b89d12700f21e3ff": "b5d5c2bf0deba0dd",
+    "4170fdc63d3858cd": "2e507b9fe5140149",
+    "81168f4fa2f6ee46": "2e507b9fe5140149",
+    "532a4f732d61c330": "2e507b9fe5140149",
+    "e027ca43a20e31ae": "c176e59f30f3f0d2",
+    "b7ff778146ab42eb": "c176e59f30f3f0d2",
+    "0220dc99dc595e52": "c176e59f30f3f0d2",
+    "e276eca8fd925260": "c176e59f30f3f0d2"
   },
   "by_bank": {
-    "Atlas": 43,
+    "Atlas": 45,
     "BNF": 77,
     "Continental": 836,
     "Coop. Universitaria": 71,
     "Familiar": 411,
     "GNB": 481,
-    "Itaú": 563,
+    "Itaú": 566,
     "Sudameris": 324,
     "ueno bank": 354
   },
   "issue_counts": {
-    "source_verification_pending": 127,
+    "source_verification_pending": 126,
     "limits_unconfirmed": 219,
     "validity_unconfirmed": 28,
     "multiple_purchase_limits": 243,
@@ -3630,15 +3637,6 @@
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=1040"
-    },
-    {
-      "id": "c176e59f30f3f0d2",
-      "bank": "Itaú",
-      "merchant": "Areté",
-      "issues": [
-        "source_verification_pending"
-      ],
-      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447"
     },
     {
       "id": "c493b48b66656db6",

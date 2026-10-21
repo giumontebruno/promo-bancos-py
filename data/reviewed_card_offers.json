@@ -194,5 +194,55 @@
         "merchant_locations_or_group": "Asunción: Boarding Pass; Nos Vamos; Más Viajes; Alondra; Smart Travel; Sunshine; Quality; Almacén de Viajes; Viaggi; Javeve; Panorama; Viajabien. Encarnación: Encanto Viajes; Globe; Bohemia; Eleven’s. Ciudad del Este: Sion Viajes; Away; Sky Travel; Modo Vuelo; Elite."
       }
     ]
+  },
+  {
+    "bank": "Atlas",
+    "merchant_name": "Feria de Viajes",
+    "source_url": "https://www.bancoatlas.com.py/web//Preguntas%20Frecuentes%20Feria%20de%20viajes.pdf",
+    "detail_sha256": "11d24bc732464b74c5b19aaf453ec166ed24a54db4946e97a2a1c417d130d139",
+    "document_sha256": "e94dd742b6cf775dc18ed61b1279e034bb0c3d5629dfa2afc0c44906a321828a",
+    "reviewed_at": "2026-10-21",
+    "offers": [
+      {
+        "key": "base",
+        "offer_kind": "base",
+        "offer_label": "Visa Clásica / Oro",
+        "verified_cards": "Tarjetas de crédito Visa Clásica y Visa Oro de Atlas",
+        "benefit_summary": "15% de reintegro",
+        "benefit_type": "reintegro",
+        "category": "Viajes",
+        "raw_detail": "15% de reintegro con Tarjetas de crédito Visa Clásica y Visa Oro de Atlas. Vigente únicamente el 23 de octubre de 2026. Mínimo de compra Gs. 8.000.000. Tope de compra acumulado Gs. 12.000.000 por cuenta de tarjeta. Compras por link de pago Atlas Viajes para Boarding Pass y Travel Pay para las demás agencias adheridas según disponibilidad; confirmar el medio con la agencia. Sólo paquetes turísticos completos que incluyan ticket aéreo, alojamiento, traslados u otros servicios. No aplica a tickets aéreos solos, saldos anteriores, reservas previas ni servicios individuales. Se excluyen tarjetas prepagas, corporativas, Gourmet Card, Gift Card, Shopping Mariscal, Shopping Pinedo y Shopping Mariano.",
+        "source_verification": "official_document",
+        "validity": "Desde 2026-10-23 hasta 2026-10-23",
+        "merchant_locations_or_group": "Asunción: Boarding Pass; Nos Vamos; Más Viajes; Alondra; Smart Travel; Sunshine; Quality; Almacén de Viajes; Viaggi; Javeve; Panorama; Viajabien; Go Travel. Encarnación: Encanto Viajes; Globe; Bohemia; Eleven’s. Ciudad del Este: Sion Viajes; Away; Sky Travel; Modo Vuelo; Elite."
+      },
+      {
+        "key": "premium",
+        "offer_kind": "premium",
+        "offer_label": "Black / Infinite / Signature delSol",
+        "verified_cards": "Tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol de Atlas",
+        "benefit_summary": "20% de reintegro",
+        "benefit_type": "reintegro",
+        "category": "Viajes",
+        "raw_detail": "20% de reintegro con Tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol de Atlas. Vigente únicamente el 23 de octubre de 2026. Mínimo de compra Gs. 8.000.000. Tope de compra acumulado Gs. 12.000.000 por cuenta de tarjeta. Compras por link de pago Atlas Viajes para Boarding Pass y Travel Pay para las demás agencias adheridas según disponibilidad; confirmar el medio con la agencia. Sólo paquetes turísticos completos que incluyan ticket aéreo, alojamiento, traslados u otros servicios. No aplica a tickets aéreos solos, saldos anteriores, reservas previas ni servicios individuales. Se excluyen tarjetas prepagas, corporativas, Gourmet Card, Gift Card, Shopping Mariscal, Shopping Pinedo y Shopping Mariano.",
+        "source_verification": "official_document",
+        "validity": "Desde 2026-10-23 hasta 2026-10-23",
+        "merchant_locations_or_group": "Asunción: Boarding Pass; Nos Vamos; Más Viajes; Alondra; Smart Travel; Sunshine; Quality; Almacén de Viajes; Viaggi; Javeve; Panorama; Viajabien; Go Travel. Encarnación: Encanto Viajes; Globe; Bohemia; Eleven’s. Ciudad del Este: Sion Viajes; Away; Sky Travel; Modo Vuelo; Elite."
+      },
+      {
+        "key": "installments",
+        "offer_kind": "base",
+        "offer_label": "Hasta 18 cuotas",
+        "verified_cards": "Tarjetas de crédito Atlas, sujetas a exclusiones",
+        "benefit_summary": "Hasta 18 cuotas sin intereses",
+        "benefit_type": "cuotas_sin_intereses",
+        "category": "Viajes",
+        "raw_detail": "Hasta 18 cuotas sin intereses con Tarjetas de crédito Atlas, sujetas a exclusiones. Vigente únicamente el 23 de octubre de 2026. Mínimo de compra Gs. 8.000.000. Tope de compra acumulado Gs. 12.000.000 por cuenta de tarjeta. Compras por link de pago Atlas Viajes para Boarding Pass y Travel Pay para las demás agencias adheridas según disponibilidad; confirmar el medio con la agencia. Sólo paquetes turísticos completos que incluyan ticket aéreo, alojamiento, traslados u otros servicios. No aplica a tickets aéreos solos, saldos anteriores, reservas previas ni servicios individuales. Se excluyen tarjetas prepagas, corporativas, Gourmet Card, Gift Card, Shopping Mariscal, Shopping Pinedo y Shopping Mariano.",
+        "source_verification": "official_document",
+        "validity": "Desde 2026-10-23 hasta 2026-10-23",
+        "merchant_locations_or_group": "Asunción: Boarding Pass; Nos Vamos; Más Viajes; Alondra; Smart Travel; Sunshine; Quality; Almacén de Viajes; Viaggi; Javeve; Panorama; Viajabien; Go Travel. Encarnación: Encanto Viajes; Globe; Bohemia; Eleven’s. Ciudad del Este: Sion Viajes; Away; Sky Travel; Modo Vuelo; Elite."
+      }
+    ],
+    "review_note": "Three pages visually read: corrected URL; same 23 October date, 15/20% tiers, 18 installments, minimum 8M/cap 12M and exclusions; Go Travel added to Asuncion agencies."
   }
 ]

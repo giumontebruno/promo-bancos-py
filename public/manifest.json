@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T15:37:38.043083+00:00",
-  "promotion_count": 3160,
+  "generated_at": "2026-10-21T15:47:03.436094+00:00",
+  "promotion_count": 3165,
   "banks": [
     "Atlas",
     "BNF",
@@ -124,15 +124,15 @@
     "Últimos días"
   ],
   "source_files": [
-    "outputs/gnb_beneficios_por_categoria.csv",
-    "outputs/familiar_beneficios_por_categoria.csv",
-    "outputs/sudameris_beneficios_por_categoria.csv",
-    "outputs/itau_beneficios_por_categoria.csv",
-    "outputs/bnf_beneficios_por_categoria.csv",
-    "outputs/continental_beneficios_por_categoria.csv",
-    "outputs/atlas_beneficios_por_categoria.csv",
-    "outputs/universitaria_beneficios_por_categoria.csv",
-    "outputs/ueno_beneficios_por_categoria.csv"
+    "outputs\\gnb_beneficios_por_categoria.csv",
+    "outputs\\familiar_beneficios_por_categoria.csv",
+    "outputs\\sudameris_beneficios_por_categoria.csv",
+    "outputs\\itau_beneficios_por_categoria.csv",
+    "outputs\\bnf_beneficios_por_categoria.csv",
+    "outputs\\continental_beneficios_por_categoria.csv",
+    "outputs\\atlas_beneficios_por_categoria.csv",
+    "outputs\\universitaria_beneficios_por_categoria.csv",
+    "outputs\\ueno_beneficios_por_categoria.csv"
   ],
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -1163,7 +1163,14 @@
     "4c69b3b5410c9c8e": "139f6f292f3647cc",
     "0936454628a2d7aa": "b0f9613cae285775",
     "8d89ae969eb7721b": "6b361360013e9390",
-    "b89d12700f21e3ff": "b5d5c2bf0deba0dd"
+    "b89d12700f21e3ff": "b5d5c2bf0deba0dd",
+    "4170fdc63d3858cd": "2e507b9fe5140149",
+    "81168f4fa2f6ee46": "2e507b9fe5140149",
+    "532a4f732d61c330": "2e507b9fe5140149",
+    "e027ca43a20e31ae": "c176e59f30f3f0d2",
+    "b7ff778146ab42eb": "c176e59f30f3f0d2",
+    "0220dc99dc595e52": "c176e59f30f3f0d2",
+    "e276eca8fd925260": "c176e59f30f3f0d2"
   },
   "schema_version": 2
 }

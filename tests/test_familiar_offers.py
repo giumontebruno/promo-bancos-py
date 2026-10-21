@@ -126,7 +126,14 @@ class FamiliarOfferTests(unittest.TestCase):
                 self.assertTrue(all(r.get('campaign_id') for r in normalized),name)
                 self.assertEqual(len({r['campaign_id'] for r in normalized}),1,name)
             count+=len(first)
-        # Snapshot 2026-10-21 excludes four Alemania Cell variants absent from the current terms.
-        self.assertEqual(count,411)
+        # Compare with the independently published snapshot, not yesterday's live count.
+        # Santa Lucia has one separately reviewed complex benefit and is deliberately excluded above.
+        metadata=json.loads((ROOT/'outputs/familiar_source_meta.json').read_text(encoding='utf8'))
+        with (ROOT/'outputs/familiar_beneficios_por_categoria.csv').open(encoding='utf-8-sig') as handle:
+            published=list(csv.DictReader(handle))
+        complex_rows=[r for r in published if r.get('Comercio')=='OPTICA SANTA LUCIA']
+        self.assertEqual(len(complex_rows),1)
+        self.assertEqual(len(published),metadata['published'])
+        self.assertEqual(count,metadata['published']-len(complex_rows))
 
 if __name__=='__main__':unittest.main()

@@ -317,5 +317,35 @@
       "issues": [],
       "status": "parsed"
     }
+  },
+  {
+    "bank": "Atlas",
+    "category": "Bienestar",
+    "merchant_name": "Feria de Viajes",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro; 15% de reintegro; 18 cuotas sin intereses",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%",
+      "15%"
+    ],
+    "promotion_days": [],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "23 de octubre",
+    "validity": "Desde 2026-10-23 hasta 2026-10-23",
+    "source_period_end": "",
+    "caps_and_minimums": "Para todas las tarjetas Gs. 12.000.000; Mínimo de compra para todas las afinidades Gs. 8.000.000",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.bancoatlas.com.py/web//Preguntas%20Frecuentes%20Feria%20de%20viajes.pdf",
+    "source_page_url": "https://www.bancoatlas.com.py/web//Preguntas%20Frecuentes%20Feria%20de%20viajes.pdf",
+    "raw_detail": "con tarjetas de crédito Mastercard Black, Visa Infinite y Signature delSol 15% de reintegro con tarjetas de crédito Clásica y Oro Mínimo de compra para todas las afinidades Gs. 8.000.000. Tope de compra para todas las afinidades Gs. 12.000.000 por cuenta de tarjeta Compras a través de link de pago Atlas Viajes (para Boarding) y Travel Pay (para agencias de la mayorista de DTP). Promoción válida únicamente para la compra de paquetes que incluyan: ticket aéreo, alojamiento y traslados u otros servicios. Promoción no válido para compra exclusiva de tickets aéreos, cancelación de saldos de operaciones anteriores, pagos de reservas realizadas previamente, o servicios individuales que no conformen un paquete turístico completo. Promoválida el día 23 de octubre del 2026. Promo exclusiva para consumo personal. Se exluyen las tarjetas prepagas, corporativas, gourmet card, gift card, afinidad Shopping Mariscal, Shopping Pinedo y Shopping Mariano.",
+    "source_warning": "",
+    "verified_cards": "",
+    "original_source_text": "",
+    "id": "81168f4fa2f6ee46"
   }
 ]

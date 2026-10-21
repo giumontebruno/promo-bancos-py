@@ -225,7 +225,8 @@
     "campaign_id": "2e507b9fe5140149",
     "legacy_ids": [
       "4170fdc63d3858cd",
-      "2e507b9fe5140149"
+      "2e507b9fe5140149",
+      "532a4f732d61c330"
     ]
   },
   {
@@ -239,5 +240,17 @@
       "252153f5abe9bcd1"
     ],
     "reason": "Official byte-identical PDF restores three reviewed offers; preserve prior generic and variant favorites."
+  },
+  {
+    "bank": "Atlas",
+    "source_url": "https://www.bancoatlas.com.py/web//Preguntas%20Frecuentes%20Feria%20de%20viajes.pdf",
+    "campaign_id": "2e507b9fe5140149",
+    "legacy_ids": [
+      "4170fdc63d3858cd",
+      "2e507b9fe5140149",
+      "81168f4fa2f6ee46",
+      "532a4f732d61c330"
+    ],
+    "reason": "Official corrected PDF URL re-read 2026-10-21; same campaign and card benefits."
   }
 ]

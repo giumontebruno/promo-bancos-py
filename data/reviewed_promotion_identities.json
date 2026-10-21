@@ -41,5 +41,68 @@
     "source_url": "https://www.sudameris.com.py/beneficios/destacado/854/detalle",
     "reason": "Same official campaign, corrected sweepstakes terms from exact reviewed PDF on 2026-10-21",
     "detail_sha256": "ee52b1e72a205fb93de9d6208a2d56a70721f034a59c6e0e2735d8aaea4a8a1f"
+  },
+  {
+    "generated_id": "dcdf3a58d6edb322",
+    "stable_id": "526ce49f471a35bb",
+    "bank": "Atlas",
+    "source_url": "https://www.bancoatlas.com.py/web//Preguntas%20Frecuentes%20Feria%20de%20viajes.pdf",
+    "detail_sha256": "7e85d16e0c2d357430af9ed29f4a8b99b469c6b8d6620e2d60edeee8eb064fdb",
+    "checked_at": "2026-10-21",
+    "reason": "Same official campaign after corrected PDF URL; card tiers/date/caps rechecked on all three pages."
+  },
+  {
+    "generated_id": "812a1b47fa0875e0",
+    "stable_id": "95c2fdfcc14b4421",
+    "bank": "Atlas",
+    "source_url": "https://www.bancoatlas.com.py/web//Preguntas%20Frecuentes%20Feria%20de%20viajes.pdf",
+    "detail_sha256": "0aefef05522ddf50b88296cf362a9ae79588099a96e6383d12e7e589ec64b1eb",
+    "checked_at": "2026-10-21",
+    "reason": "Same official campaign after corrected PDF URL; card tiers/date/caps rechecked on all three pages."
+  },
+  {
+    "generated_id": "b19238ba0d951c2d",
+    "stable_id": "b5164a4905219596",
+    "bank": "Atlas",
+    "source_url": "https://www.bancoatlas.com.py/web//Preguntas%20Frecuentes%20Feria%20de%20viajes.pdf",
+    "detail_sha256": "51a8dcc38e4a7f1aa59f276fb1906c9db46211959c84ef11b83f4369576c26d1",
+    "checked_at": "2026-10-21",
+    "reason": "Same official campaign after corrected PDF URL; card tiers/date/caps rechecked on all three pages."
+  },
+  {
+    "generated_id": "e027ca43a20e31ae",
+    "stable_id": "970c88096544f355",
+    "bank": "Itaú",
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
+    "detail_sha256": "c3f13445a3096efefb3f9d4d0356a9b4da288123731068f386d54ef9ab9a35d8",
+    "checked_at": "2026-10-21",
+    "reason": "Same Arete Peron campaign and card scope; official page now lists only remaining 25 October date."
+  },
+  {
+    "generated_id": "b7ff778146ab42eb",
+    "stable_id": "a649c6831a4e7858",
+    "bank": "Itaú",
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
+    "detail_sha256": "baa1c824525244c6df3b6e174d40e7392037b3fbf048a4de6e8111c83441f0aa",
+    "checked_at": "2026-10-21",
+    "reason": "Same Arete Peron campaign and card scope; official page now lists only remaining 25 October date."
+  },
+  {
+    "generated_id": "0220dc99dc595e52",
+    "stable_id": "7607ac3e58590edd",
+    "bank": "Itaú",
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
+    "detail_sha256": "8f2fe08277f2591f60e4cd73ff543e921338c8d305e7dd9d9095ff9350f499b1",
+    "checked_at": "2026-10-21",
+    "reason": "Same Arete Peron campaign and card scope; official page now lists only remaining 25 October date."
+  },
+  {
+    "generated_id": "e276eca8fd925260",
+    "stable_id": "b78d56e9a993438d",
+    "bank": "Itaú",
+    "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447",
+    "detail_sha256": "8b4a165cd42703c5c253d70839f2eb37c20126f06a32b09dbe90b9ccb6fbd92a",
+    "checked_at": "2026-10-21",
+    "reason": "Same Arete Peron campaign and card scope; official page now lists only remaining 25 October date."
   }
 ]
