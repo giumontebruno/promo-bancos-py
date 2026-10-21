@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21T15:16:47.755235+00:00",
-  "input_count": 3122,
-  "promotion_count": 3159,
+  "generated_at": "2026-10-21T15:37:38.043083+00:00",
+  "input_count": 3123,
+  "promotion_count": 3160,
   "duplicates_removed": -37,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -942,7 +942,6 @@
     "c92e2fc64b7103b5": "94b689f451a0649c",
     "6d3e46f1399d07fb": "46b95e1d04e82602",
     "ed53c672dc809af8": "11fbcb699d5f5af2",
-    "532a4f732d61c330": "2e507b9fe5140149",
     "84714bfec7199316": "d8ee4544307fa120",
     "85e0e1efcba1e532": "6deacdfe20941943",
     "e34f133d048a72fe": "60a553c089031097",
@@ -1013,12 +1012,9 @@
     "df43987c78ab0694-346fab0d": "df43987c78ab0694-18b827ac",
     "fd8cedfb36f09b95": "16ce1db62f5d3301",
     "461ad72e9fa72707": "94b689f451a0649c",
-    "6b361360013e9390": "8d89ae969eb7721b",
-    "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
     "e1f73d4e7e3f215d": "079f0d097a236e3f",
     "7185b3e16b670118": "c49fcec793914f30",
     "32558b82cfc1a626": "c0ee7afa7cd25388",
-    "4170fdc63d3858cd": "2e507b9fe5140149",
     "57b016cd047fb17d": "16ce1db62f5d3301",
     "dad8e8a3e3de5f98": "a11aa97394f6238f",
     "71aace636f0fb4c0": "492f65ae0e6c3b5f",
@@ -1030,24 +1026,30 @@
     "07276e9eac015752": "98e1c2d4dcd66610",
     "efc8fd0ffcd06d91": "8b650025d06da223",
     "b71d341f0b1ab79b": "a963e4d0eba73cd4",
-    "c97d68de00a24d03": "e394f61f2a220563"
+    "c97d68de00a24d03": "e394f61f2a220563",
+    "360fd4bf0d43b5ad": "cc441eff877f5d75",
+    "fedb8e709e847829": "139f6f292f3647cc",
+    "4c69b3b5410c9c8e": "139f6f292f3647cc",
+    "0936454628a2d7aa": "b0f9613cae285775",
+    "8d89ae969eb7721b": "6b361360013e9390",
+    "b89d12700f21e3ff": "b5d5c2bf0deba0dd"
   },
   "by_bank": {
-    "Atlas": 45,
+    "Atlas": 43,
     "BNF": 77,
     "Continental": 836,
     "Coop. Universitaria": 71,
-    "Familiar": 412,
+    "Familiar": 411,
     "GNB": 481,
-    "Itaú": 560,
-    "Sudameris": 323,
+    "Itaú": 563,
+    "Sudameris": 324,
     "ueno bank": 354
   },
   "issue_counts": {
-    "source_verification_pending": 125,
+    "source_verification_pending": 127,
     "limits_unconfirmed": 219,
     "validity_unconfirmed": 28,
-    "multiple_purchase_limits": 242,
+    "multiple_purchase_limits": 243,
     "source_amount_conflict": 15,
     "multiple_refund_limits": 103
   },
@@ -3630,6 +3632,15 @@
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=1040"
     },
     {
+      "id": "c176e59f30f3f0d2",
+      "bank": "Itaú",
+      "merchant": "Areté",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16009&c=31447"
+    },
+    {
       "id": "c493b48b66656db6",
       "bank": "Sudameris",
       "merchant": "CLUB PORVENIR GUAIREÑO",
@@ -3775,6 +3786,16 @@
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/297/detalle"
+    },
+    {
+      "id": "d5c11a18b0a88981",
+      "bank": "Sudameris",
+      "merchant": "Club Social Área 1 (CDE)",
+      "issues": [
+        "source_verification_pending",
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/club-social-area-1-cde"
     },
     {
       "id": "8f4a1c5309c12c51",

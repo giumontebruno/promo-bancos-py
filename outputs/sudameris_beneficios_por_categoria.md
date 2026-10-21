@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 282
+Total de promociones: 324
 
 ## Clubes
 
@@ -138,7 +138,7 @@ Total de promociones: 282
 |---|---|---|---|
 | DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES | ¡Disfrutá de Distrito Perseverancia todo el año! Aprovechá hasta 12 cuotas sin interés en locales adheridos. Vigencia: Del 03/08 al 31/12/2026. | No especificado | Del 03/08 al 31/12/2026. |
 | McLaren Mastercard Formula 1®Team | Sudameris te acerca la emoción del simulador oficial del McLaren Mastercard Formula 1® Team por primera vez en Paraguay. 📍 Distrito Perseverancia 🗓️ Del 21 de septiembre hasta el 1 | No especificado | No especificado |
-| PROMOCIÓN MCLAREN MASTERCARD F1 TEAM | Gs. 500.000 | No especificado | de la promoción y acumulá cupones digitales automáticamente para los sorteos, según las |
+| PROMOCIÓN MCLAREN MASTERCARD F1 TEAM | Participación en sorteos de merchandising McLaren Mastercard | Todos los días | Desde 2026-04-10 hasta 2026-11-06 |
 
 ## Farmacias
 
@@ -158,6 +158,15 @@ Total de promociones: 282
 | FARMACENTER | 10% de reintegro adicional | Primer miércoles de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | FARMACENTER | Hasta 12 cuotas sin interés | Primer miércoles de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | FARMACIA CATEDRAL | 10%; 20%; 25%; Hasta 12 cuotas sin interés | Todos los lunes; Todos los Lunes | • Todos los lunes. • Desde el 1 de julio hasta el 31 de diciembre 2026. |
+| Farmacia Amaia | 20% de reintegro | Primer lunes de cada mes | Desde 2026-10-01 hasta 2026-12-07 |
+| Farmacia Amaia | Hasta 12 cuotas sin interés | Primer lunes de cada mes | Desde 2026-10-01 hasta 2026-12-07 |
+| Farmacia Amaia | 20% de reintegro | Primer lunes de cada mes | Desde 2026-10-01 hasta 2026-12-07 |
+| Farmacia Amaia | Hasta 12 cuotas sin interés | Primer lunes de cada mes | Desde 2026-10-01 hasta 2026-12-07 |
+| Farmacia Ypane | 10% de reintegro | Primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
+| Farmacia Ypane | 10% de descuento en caja | Primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
+| Farmacia Ypane | Hasta 12 cuotas sin interés | Primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
+| MAXIFARMA | 20% de reintegro | Primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
+| MAXIFARMA | Hasta 12 cuotas sin interés | Primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 
 ## Gastronomía
 
@@ -175,6 +184,7 @@ Total de promociones: 282
 | Casa Lorenzo | 20% de reintegro directo | Martes a jueves | Desde 2026-10-10 hasta 2026-10-31 |
 | Catas Nómadas - CNSB | 20% de reintegro | Todos los días | Desde 2026-01-23 hasta 2026-02-15 |
 | Club Deportivo Alemán (DTA) - Locales gastronómicos | 20% de reintegro en todos los locales gastronómicos dentro del club | Todos los días | Hasta 2028-12-31 |
+| Club Social Área 1 (CDE) | hasta 12 cuotas sin intereses; Tope de compra mensual: Gs. 440.000; Tope de compra mensual: Gs. 50.000; Tope de compra mensual: Gs. 300.000 | Todos los días; todos los días | Hasta el 30 de junio de 2028. |
 | DE LA PEQUE | 20% DE REINTEGRO | JUEVES A SÁBADO | Desde 2026-08-06 hasta 2026-12-26 |
 | El Burguero - CNSB | 20% de reintegro | Todos los días | Desde 2025-12-06 hasta 2026-03-31 |
 | GROSSO | 20% DE REINTEGRO | MARTES A JUEVES | Desde 2026-08-04 hasta 2026-12-31 |
@@ -234,6 +244,12 @@ Total de promociones: 282
 | 12 cuotas sin interés | Hasta 12 cuotas sin interés en rubros adheridos | Todos los días | Desde 2026-01-01 hasta 2026-12-31 |
 | 360 Consultores S.A. | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
 | 50 Calces | 20% de reintegro Hasta 10 Cuotas sin interés | Viernes y sábados | Desde 2026-03-13 hasta 2027-02-27 |
+| Acuario Comercial | 20% de reintegro | Viernes y sábado | Desde 2025-04-11 hasta 2027-02-27 |
+| Acuario Comercial | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2025-04-11 hasta 2027-02-27 |
+| Algo Distinto | 20% de reintegro | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-27 |
+| Algo Distinto | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-27 |
+| Algo Distinto Plus Size | 20% de reintegro | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-27 |
+| Algo Distinto Plus Size | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-27 |
 | America Chopp | 20% de reintegro | Jueves a domingo | Desde 2026-06-11 hasta 2027-02-28 |
 | America Grill | 20% de reintegro | Jueves a domingo | Desde 2026-06-11 hasta 2027-02-28 |
 | Bella Casa | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
@@ -243,6 +259,8 @@ Total de promociones: 282
 | Brown Burguer | 20% de reintegro | Jueves a sábados | Desde 2026-04-02 hasta 2027-02-27 |
 | Buono Market/Food | 30% de reintegro | viernes y sábado | Desde 2026-04-03 hasta 2027-02-28 |
 | Busca Pies | 20% de descuento en caja + 10% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-09-04 hasta 2027-02-28 |
+| CHAI SHOES | 20% de reintegro | Viernes y sábado | Desde 2025-09-19 hasta 2025-12-31 |
+| CHAI SHOES | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2025-09-19 hasta 2025-12-31 |
 | Calzados Mellba | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Calzados Parana | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Casa Angela | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
@@ -255,6 +273,8 @@ Total de promociones: 282
 | Corazón de Melón | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábados | Desde 2026-03-06 hasta 2027-02-28 |
 | Credipar Electrodomésticos | 15% de descuento + 10% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-05 hasta 2027-02-28 |
 | Deport Center | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
+| Di Fiore | 20% de reintegro | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-27 |
+| Di Fiore | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-27 |
 | Di Lara | 20% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Diana Apocada | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | miércoles y jueves | Desde 2026-03-04 hasta 2027-02-28 |
 | Diva | 20% de reintegro Hasta 12 cuotas sin interés | Jueves a sábado | Desde 2026-03-05 hasta 2027-02-27 |
@@ -271,8 +291,13 @@ Total de promociones: 282
 | Farmavida | 20% de reintegro Hasta 12 cuotas sin interés | El primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 | Farmavida | 20% de reintegro Hasta 12 cuotas sin interés | El primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 | Fashion Calzados | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
+| Gabrielle Boutique | 20% de reintegro | Viernes y sábado | Desde 2026-03-13 hasta 2027-02-27 |
+| Gabrielle Boutique | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-13 hasta 2027-02-27 |
 | Glamour By Sandri | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Granel Mercado Natural | 20% de reintegro + 5% elite | Último sábado de cada mes | Inicio no confirmado (0.07.26 en el PDF). Hasta 2026-12-31 |
+| Hoc Cell | 20% de reintegro | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-27 |
+| Hoc Cell | Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-27 |
+| Huertin Express | 20% de reintegro | Último sábado de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | Jakare La Tienda | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-05-08 hasta 2027-02-27 |
 | Javi Deportes | 20% de reintegro Hasta 10 cuotas sin interés | miércoles | Desde 2025-01-15 hasta 2027-02-24 |
 | Joyeria Dominguez | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
@@ -281,7 +306,11 @@ Total de promociones: 282
 | Le Chic | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Liberato | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | MASARTE | 20% de reintegro | Miércoles y jueves | Desde 2026-09-30 hasta 2026-12-31 |
+| MAX SUPERMERCADO | 20% de reintegro | Viernes y sábado | Desde 2025-09-05 hasta 2025-12-31 |
+| MAX SUPERMERCADO | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2025-09-05 hasta 2025-12-31 |
 | MENTES EXPERTAS – ENRIQUE ROJAS | 20% | No especificado | • Desde el 24 de septiembre 2026 (o hasta agotar stock de entradas). |
+| MI Multimarca | 20% de reintegro | Viernes y sábado | Desde 2025-04-11 hasta 2027-02-27 |
+| MI Multimarca | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2025-04-11 hasta 2027-02-27 |
 | MI PORTAL COCA COLA | 20% de reintegro Hasta 12 cuotas sin interés | Jueves | Desde 2025-12-18 hasta 2026-07-31 |
 | Malenki s Moda Infantil | 10% de descuento en caja Hasta 10 cuotas sin interés | Todos los días | Desde 2026-06-07 hasta 2026-12-31 |
 | Mansion Design | 20% de descuento en caja + 10% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
@@ -291,11 +320,17 @@ Total de promociones: 282
 | Milord | Hasta 50% de descuento en caja (según edad cumplida del cliente, con tope de hasta 50%), válido para un solo uso en fecha de cumpleaños. No incluye feriados y día de los enamorados 2026. | cumpleaños | Desde 2025-04-01 hasta 2026-02-28 |
 | Morena Canela | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábados | Desde 2026-05-15 hasta 2027-02-27 |
 | Mátalas | 20% de reintegro | Viernes y sábado | Desde 2025-10-24 hasta 2026-02-28 |
+| Nilda Rojas Cosmetóloga | 20% de reintegro | Jueves a sábado | Desde 2025-05-16 hasta 2027-02-27 |
+| Nilda Rojas Cosmetóloga | Hasta 12 cuotas sin interés | Jueves a sábado | Desde 2025-05-16 hasta 2027-02-27 |
+| Norma Peña Estética | 20% de reintegro | Viernes y sábado | Desde 2025-04-11 hasta 2027-02-27 |
+| Norma Peña Estética | Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2025-04-11 hasta 2027-02-27 |
 | Nutrifrut | 20% de reintegro | jueves a domingo | Desde 2026-03-06 hasta 2027-02-28 |
 | OASIS PLAZA | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábados | Desde 2026-10-02 hasta 2026-11-14 |
 | Optica Itapua | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Optica Sur | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-27 |
 | Otti Rolls | 20% de reintegro + 5% elite | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
+| PETROBRAS SAN ALBERTO FUERZA MERCANTIL | 20% de reintegro | Viernes y sábado | Desde 2025-09-05 hasta 2025-12-31 |
+| PETROBRAS SAN ALBERTO FUERZA MERCANTIL | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2025-09-05 hasta 2025-12-31 |
 | Paseo Repsur | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Patri Duar Moda Infantil | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Patymel Make Up | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | miércoles y jueves | Desde 2026-03-04 hasta 2027-02-28 |
@@ -311,16 +346,20 @@ Total de promociones: 282
 | Rajomar Calzados | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Refrisur | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Renova Padel | 20% de reintegro + 5% Elite Hasta 10 cuotas sin interés | viernes y sábados | Desde 2025-01-01 hasta 2027-02-27 |
+| Repuestos M Y M | 20% de reintegro | Jueves a sábado | Desde 2025-05-16 hasta 2027-02-27 |
+| Repuestos M Y M | Hasta 12 cuotas sin interés | Jueves a sábado | Desde 2025-05-16 hasta 2027-02-27 |
 | Romances Boutique | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Romances Kids | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Rulo Sport | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | STYL Optica | 10% de descuento en caja Hasta 12 cuotas sin interés | Todos los días | Desde 2026-04-20 hasta 2026-12-31 |
+| Samurai Gym | 20% de reintegro | Lunes a domingo | Desde 2025-04-11 hasta 2027-02-28 |
 | San Isidro Showroom | 20% de descuento en caja Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-07-17 hasta 2026-12-31 |
 | Selva Negra Kafee Haus | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | Jueves a domingo | Desde 2026-05-14 hasta 2027-02-28 |
 | Shell Combustible Grupo Laso | 15% de reintegro | Primer lunes de cada mes | Desde 2026-07-06 hasta 2026-12-31 |
 | Shop Grupo Laso | 20% de reintegro | Primer lunes de cada mes | Desde 2026-07-06 hasta 2026-12-31 |
 | Shop Vane | 20% de reintegro | viernes | Desde 2026-03-06 hasta 2027-02-28 |
 | Supermercado La Familia | 15% de reintegro | Último sábado de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
+| Supermercado Multicarnes | 20% de reintegro | Último sábado de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | Sweet Store | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | TARJETAS EMPRESARIALES | Hasta 6 cuotas sin interés | Todos los días | Desde 2026-01-01 hasta 2026-12-31 |
 | Tasty Pizza | 20% de reintegro | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
@@ -330,6 +369,7 @@ Total de promociones: 282
 | Totem Gym | • Membresía trimestral: 20% de descuento en caja y hasta 3 cuotas sin intereses. • Membresía semestral: 25% de descuento en caja y hasta 6 cuotas sin intereses. • Membresía anual: 30% de descuento en caja y hasta 12 cuot | Todos los días | Desde 2026-05-04 hasta 2026-12-31 |
 | Tres Chic Boutique | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Ula Ula Kids | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
+| Ultra Acai | 20% de reintegro | Viernes y sábado | Desde 2025-05-02 hasta 2027-02-27 |
 | Umaai Sushis y Wok | 20% de reintegro | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Veterinaria Itapúa | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Vets | 20% de reintegro Hasta 10 Cuotas sin interés | Viernes | Desde 2026-08-21 hasta 2026-09-25 |
@@ -338,6 +378,8 @@ Total de promociones: 282
 | Wok Dinasty | 20% de reintegro | Viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
 | ZONA CENTRAL - ASUNCIÓN Y GRAN ASUNCIÓN | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 | Zara Vision Optica | 20% de reintegro +5% Elite Hasta 12 cuotas sin interés | viernes y sábados | Desde 2026-03-20 hasta 2027-02-27 |
+| Óptica Santa María | 20% de reintegro | Lunes y martes | Desde 2025-04-14 hasta 2027-02-23 |
+| Óptica Santa María | Hasta 12 cuotas sin interés | Lunes y martes | Desde 2025-04-14 hasta 2027-02-23 |
 | Óptica Trinidad | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 
 ## Salud y belleza
@@ -382,5 +424,5 @@ Total de promociones: 282
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | 12 CUOTAS SIN INTERÉS - 2026 | ¡Disfrutá tus rubros favoritos en CUOTAS! Tenés hasta 12 cuotas sin interés todos los días hasta el 31 de diciembre de 2026 con todas tus tarjetas de crédito en: Bicicleterías Club | todos los días | No especificado |
-| DTP TRAVEL GROUP | Upgrade de Entradas – Charter F1 São Paulo VIGENCIA •La Promoción tendrá vigencia desde enero de 2026 hasta octubre del 2026. | No especificado | •La Promoción tendrá |
+| DTP TRAVEL GROUP | Sorteo de un upgrade de sector de entrada para Charter F1 São Paulo | No especificado | Enero de 2026 hasta octubre de 2026; día exacto no especificado |
 

@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 527
+Total de beneficios: 530
 
 ## Alemania Cell
 
@@ -22,7 +22,7 @@ Total de beneficios: 527
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Automaq | 25 % Hasta 10 Cuotas sin intereses; Tenés 20% de ahorro + 5% de reintegro pagando con PERSONAL BANK y hasta 10 cuotas sin intereses. | No especificado | 2020-07-01 hasta 2026-10-24 |
+| BRAUN AUTOS | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-21 hasta 2026-12-31 |
 | CPR Autocentro | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-12 hasta 2026-11-02 |
 | Chacomer | 20 % 12 Cuotas sin intereses; Tenes 20% de ahorro y hasta 12 cuotas sin intereses. | todos los viernes | 2025-05-01 hasta 2026-12-31 |
 | Garden | 3 Cuotas sin intereses; hasta 3 cuotas sin intereses. | No especificado | 2025-01-01 hasta 2026-12-31 |
@@ -45,9 +45,10 @@ Total de beneficios: 527
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Asismed | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2025-04-04 hasta 2026-12-31 |
-| Fuschia | 10 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses | No especificado | 2025-09-27 hasta 2026-10-29 |
+| Dermage | 10 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses | No especificado | 2025-09-27 hasta 2026-10-29 |
 | Fuschia | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses | Aplica los sábados | 2025-09-27 hasta 2026-10-31 |
 | ODONTOS | 12 Cuotas sin intereses; Tenes 12 cuotas sin intereses | No especificado | 2026-03-27 hasta 2026-12-31 |
+| Optica Santa Lucía | 30 % Hasta 6 Cuotas sin intereses; hasta 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-07-24 hasta 2026-10-31 |
 | Punto Farma | 6 Cuotas sin intereses 35 % Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses. | Todos los Martes; todos los martes | 2024-12-30 hasta 2026-12-31 |
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
 | SANTO PILATES | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-10-19 hasta 2026-12-31 |
@@ -79,6 +80,7 @@ Total de beneficios: 527
 | Ideal Muebles | 10 % 10 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-01-19 hasta 2026-12-31 |
 | Innovalar | 15 % 10 Cuotas sin intereses; Tenes 15% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-07-21 hasta 2026-12-31 |
 | NOVEDADES CRISTIAN | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-07-21 hasta 2026-12-31 |
+| Olier | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses | No especificado | 2025-06-23 hasta 2026-12-31 |
 | Paradise - Colchones & Muebles | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-07-21 hasta 2026-12-31 |
 | RIO PARANA OCACIONES S.A | 15 % 10 Cuotas sin intereses; Tenes 15% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-07-21 hasta 2026-12-31 |
 | Salemma | 20% de reintegro; 10% de descuento en caja. | jueves | Desde 2024-07-23 hasta 2026-12-31 |
@@ -338,7 +340,6 @@ Total de beneficios: 527
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Cinntre | 6 Cuotas sin intereses 25 % Hasta; Tenés 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2025-03-13 hasta 2026-10-24 |
 | Todo Costura | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-12 hasta 2026-12-31 |
 
 ## Itaú Personal Bank
@@ -548,27 +549,19 @@ Total de beneficios: 527
 | Under Armour | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% adicional pagando con Google Pay y Apple Pay y hasta 6 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-12-03 |
 | Veronica Torres | 6 Cuotas sin intereses 15 % Hasta; 10% de ahorro mas 5% adicional pagando con QR, Google Pay y Gpay y hasta 6 cuotas sin intereses. | No especificado | 2025-08-07 hasta 2026-12-03 |
 
-## Stock & Superseis
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Stock | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
-| SuperSeis | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
-
 ## Supermercados
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Areté | 15 %; Tenes 15% de ahorro. | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
-| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingos 18 y 25 de octubre de 2026 | Desde 2026-10-18 hasta 2026-10-25 |
-| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingos 18 y 25 de octubre de 2026 | Desde 2026-10-18 hasta 2026-10-25 |
-| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingos 18 y 25 de octubre de 2026 | Desde 2026-10-18 hasta 2026-10-25 |
-| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingos 18 y 25 de octubre de 2026 | Desde 2026-10-18 hasta 2026-10-25 |
+| Areté | 25 % Hasta; hasta 25% de ahorro | No especificado | 2025-01-04 hasta 2026-10-25 |
 | Biggie | 15 %; 15% de ahorro. | No especificado | 2025-01-31 hasta 2026-11-06 |
 | CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-12-01 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
+| Stock | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
 | Super Real | 15 %; 15% de ahorro. | Aplica los LUNES | 2025-10-06 hasta 2026-12-31 |
+| SuperSeis | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
 
 ## Teatro
 
@@ -703,11 +696,21 @@ Total de beneficios: 527
 | UG Hogar | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses | Aplica LUNES; LUNES A VIERNES | 2023-04-28 hasta 2026-12-31 |
 | Valerie | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES | 2024-02-02 hasta 2026-12-31 |
 
+## shell
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Shell | 25 %; Tenes 25% de reintegro | No especificado | 2025-04-14 hasta 2026-11-19 |
+
 ## Últimos días
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Automaq | 25 % Hasta 10 Cuotas sin intereses; Tenés 20% de ahorro + 5% de reintegro pagando con PERSONAL BANK y hasta 10 cuotas sin intereses. | No especificado | 2020-07-01 hasta 2026-10-24 |
 | Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-11-20 hasta 2026-10-22 |
+| Cinntre | 6 Cuotas sin intereses 25 % Hasta; Tenés 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2025-03-13 hasta 2026-10-24 |
+| Cloetas | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses. | No especificado | 2026-10-20 hasta 2026-10-22 |
 | NESTLE COFFEE HOUSE | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro con todas las tarjetas de crédito, 25% de reintegro para tarjetas Personal Bank + 6 cuotas sin intereses | No especificado | 2026-10-21 hasta 2026-10-23 |
+| PIK | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | No especificado | 2026-07-21 hasta 2026-10-24 |
 | RESET UNIPERSONAL STAND UP | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-10-23 |
 

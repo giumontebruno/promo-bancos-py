@@ -615,8 +615,8 @@
       "lng": -57.5775225,
       "checked_at": "2026-10-21T13:01:53+00:00"
     },
-    "location_review_status": "confirmed",
-    "location_review_reason": "Nombre y calle Nueva Asunción/Fernando coinciden; la web oficial del comercio confirma esquina Defensores del Chaco. El place_id del candidato coincide con ficha pública Waze.",
+    "location_review_status": "stale_evidence",
+    "location_review_reason": "Source or candidate changed; review required again.",
     "location_reviewed_on": "2026-10-17"
   },
   {
@@ -1249,8 +1249,8 @@
       "lng": -57.6305528,
       "checked_at": "2026-10-21T13:01:53+00:00"
     },
-    "location_review_status": "confirmed",
-    "location_review_reason": "Casa Paraná: coincidencia de dirección numerada Antequera661, ciudad Asunción y nombre; coordenadas del candidato existente. Dirección oficial BNF identifica inequívocamente local.",
+    "location_review_status": "stale_evidence",
+    "location_review_reason": "Source or candidate changed; review required again.",
     "location_reviewed_on": "2026-10-17"
   },
   {
@@ -3576,8 +3576,8 @@
       "lng": -57.5719314,
       "checked_at": "2026-10-21T13:01:55+00:00"
     },
-    "location_review_status": "confirmed",
-    "location_review_reason": "Casa Paraná: coincidencia de dirección numerada Av.San Antonio273 y ciudad; coordenadas del candidato existente. Fuente oficial del comercio también publica dirección273.",
+    "location_review_status": "stale_evidence",
+    "location_review_reason": "Source or candidate changed; review required again.",
     "location_reviewed_on": "2026-10-17"
   },
   {
@@ -4244,35 +4244,6 @@
       "lat": -25.3222964,
       "lng": -57.3907573,
       "checked_at": "2026-10-16T12:25:06+00:00"
-    }
-  },
-  {
-    "id": "loc-bnf-a1b40788a11fbdb3",
-    "bank": "BNF",
-    "category": "Combustible",
-    "source_category": "Estaciones de Servicio",
-    "merchant_name": "COMPASA",
-    "merchant_brand": "COMPASA",
-    "address": "13 de Noviembre c/ Crescencio González.",
-    "city": "Areguá",
-    "department": "Central",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
-    "source_page": 6,
-    "lat": null,
-    "lng": null,
-    "geocode_source": "",
-    "online_only": false,
-    "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:07.267370+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJU5HlNSixXZQRgB-j9HaPDyw",
-    "google_candidate": {
-      "google_name": "Compasa Costa Fleitas",
-      "formatted_address": "MHFG+82Q, Areguá 110119",
-      "lat": -25.3265858,
-      "lng": -57.4251093,
-      "checked_at": "2026-10-16T12:25:07+00:00"
     }
   },
   {
@@ -5117,35 +5088,6 @@
     }
   },
   {
-    "id": "loc-bnf-e2ba5db008950268",
-    "bank": "BNF",
-    "category": "Combustible",
-    "source_category": "Estaciones de Servicio",
-    "merchant_name": "COMPASA",
-    "merchant_brand": "COMPASA",
-    "address": "Calle San Pedro y Mcal. López.",
-    "city": "Capiatá",
-    "department": "Central",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
-    "source_page": 6,
-    "lat": null,
-    "lng": null,
-    "geocode_source": "",
-    "online_only": false,
-    "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-17T03:24:39.834980+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJI2C5JQCtXZQRTl-QVo7MoR8",
-    "google_candidate": {
-      "google_name": "Compasa",
-      "formatted_address": "JG78+9CP, Av. San Pedro, San Lorenzo 110244",
-      "lat": -25.3865326,
-      "lng": -57.4839318,
-      "checked_at": "2026-10-17T03:24:39+00:00"
-    }
-  },
-  {
     "id": "loc-bnf-019a7eac710f1257",
     "bank": "BNF",
     "category": "Combustible",
@@ -5391,35 +5333,6 @@
       "identity_changed": false
     },
     "location_review_status": "qa_hold"
-  },
-  {
-    "id": "loc-bnf-ed109513d4431eb1",
-    "bank": "BNF",
-    "category": "Combustible",
-    "source_category": "Estaciones de Servicio",
-    "merchant_name": "COMPASA",
-    "merchant_brand": "COMPASA",
-    "address": "Soldado Ovelar esq. Ceferino Ruiz.",
-    "city": "Fernando de la Mora",
-    "department": "Central",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
-    "source_page": 6,
-    "lat": null,
-    "lng": null,
-    "geocode_source": "",
-    "online_only": false,
-    "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-17T03:24:50.655113+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJmZli2RWpXZQRWIWEPE_QIos",
-    "google_candidate": {
-      "google_name": "EESS COMPASA",
-      "formatted_address": "MC4C+HVM, Fernando de la Mora 110329",
-      "lat": -25.3435294,
-      "lng": -57.5778219,
-      "checked_at": "2026-10-17T03:24:50+00:00"
-    }
   },
   {
     "id": "loc-bnf-f00f26285741ac90",
@@ -7351,35 +7264,6 @@
     }
   },
   {
-    "id": "loc-bnf-08784721c797e757",
-    "bank": "BNF",
-    "category": "Combustible",
-    "source_category": "Estaciones de Servicio",
-    "merchant_name": "COMPASA",
-    "merchant_brand": "COMPASA",
-    "address": "Avda. De la Victoria y 1º de Marzo.",
-    "city": "San Lorenzo",
-    "department": "Central",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
-    "source_page": 6,
-    "lat": null,
-    "lng": null,
-    "geocode_source": "",
-    "online_only": false,
-    "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-18T12:12:06.588259+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJQ-yuX9utXZQR5D9KTX-A-uM",
-    "google_candidate": {
-      "google_name": "EESS COMPASA",
-      "formatted_address": "JGV5+2H6, Ave Del La Victoria Tape Guazu, San Lorenzo 111455",
-      "lat": -25.3574701,
-      "lng": -57.4911028,
-      "checked_at": "2026-10-18T12:12:06+00:00"
-    }
-  },
-  {
     "id": "loc-bnf-37ef37e63801ad4c",
     "bank": "BNF",
     "category": "Combustible",
@@ -8421,35 +8305,6 @@
       "lat": -25.4276991,
       "lng": -57.5345132,
       "checked_at": "2026-10-20T04:18:33+00:00"
-    }
-  },
-  {
-    "id": "loc-bnf-d88f0632fe7ae37f",
-    "bank": "BNF",
-    "category": "Combustible",
-    "source_category": "Estaciones de Servicio",
-    "merchant_name": "COMPASA",
-    "merchant_brand": "COMPASA",
-    "address": "Ruta Acceso Sur Km 17,5, e/ Calle Zenteno y Fortín Toledo.",
-    "city": "Ñemby",
-    "department": "Central",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_OCT_4d8595ce5f.pdf",
-    "source_page": 6,
-    "lat": null,
-    "lng": null,
-    "geocode_source": "",
-    "online_only": false,
-    "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-20T04:18:35.086341+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJtXwsTABTXJQRDq7Y-UcHdTY",
-    "google_candidate": {
-      "google_name": "COMPASA ACCESO SUR",
-      "formatted_address": "Ypané 2660, Ypane 2660",
-      "lat": -25.4539948,
-      "lng": -57.5231705,
-      "checked_at": "2026-10-20T04:18:34+00:00"
     }
   },
   {
@@ -11151,35 +11006,6 @@
     }
   },
   {
-    "id": "loc-bnf-baa6cf9acf421a99",
-    "bank": "BNF",
-    "category": "Frigorificos",
-    "source_category": "Frigorificos",
-    "merchant_name": "COOPERATIVA CHORTITZER",
-    "merchant_brand": "COOPERATIVA CHORTITZER",
-    "address": "Avda. Artigas 2006 c/ Altos.",
-    "city": "Asunción",
-    "department": "Capital",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf",
-    "source_page": 2,
-    "lat": null,
-    "lng": null,
-    "geocode_source": "",
-    "online_only": false,
-    "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-20T12:50:00.407521+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJsWrhdMqnXZQR26DGaHuWz8o",
-    "google_candidate": {
-      "google_name": "Cooperative Chortitzer (Dairy Trebol)",
-      "formatted_address": "Av. Gral. José Gervasio Artigas 2006 c, Asunción 001203",
-      "lat": -25.270406,
-      "lng": -57.6026311,
-      "checked_at": "2026-10-20T12:50:00+00:00"
-    }
-  },
-  {
     "id": "loc-bnf-3ac727225e24be8f",
     "bank": "BNF",
     "category": "Frigorificos",
@@ -11238,35 +11064,6 @@
     }
   },
   {
-    "id": "loc-bnf-2ee9cd19ef00737f",
-    "bank": "BNF",
-    "category": "Frigorificos",
-    "source_category": "Frigorificos",
-    "merchant_name": "COOPERATIVA CHORTITZER",
-    "merchant_brand": "COOPERATIVA CHORTITZER",
-    "address": "Avda. Carlos Antonio Lopez esq. Ramón de las Llanas.",
-    "city": "Asunción",
-    "department": "Capital",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf",
-    "source_page": 2,
-    "lat": null,
-    "lng": null,
-    "geocode_source": "",
-    "online_only": false,
-    "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-20T12:50:01.627010+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJ6V27TREIXZQRHAMJRCYzPck",
-    "google_candidate": {
-      "google_name": "Salón Chortitzer - Sajonia",
-      "formatted_address": "Av. Carlos Antonio López, Asunción 001008",
-      "lat": -25.2899038,
-      "lng": -57.6600643,
-      "checked_at": "2026-10-20T12:50:01+00:00"
-    }
-  },
-  {
     "id": "loc-bnf-41d9e19c461956a0",
     "bank": "BNF",
     "category": "Frigorificos",
@@ -11285,35 +11082,6 @@
     "online_only": false,
     "google_confidence": "review",
     "google_last_attempt_at": "2026-10-20T12:50:02.169704+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJz_zsRZSnXZQRDs-t7itYLEM",
-    "google_candidate": {
-      "google_name": "Cooperativa Chortitzer - Oficina Administrativa",
-      "formatted_address": "Av. Gral. José Gervasio Artigas, Asunción 001203",
-      "lat": -25.2702404,
-      "lng": -57.6023787,
-      "checked_at": "2026-10-20T12:50:02+00:00"
-    }
-  },
-  {
-    "id": "loc-bnf-59a15609435c16bc",
-    "bank": "BNF",
-    "category": "Frigorificos",
-    "source_category": "Frigorificos",
-    "merchant_name": "COOPERATIVA CHORTITZER",
-    "merchant_brand": "COOPERATIVA CHORTITZER",
-    "address": "Senador Long e/ Andrade y Del Maestro.",
-    "city": "Asunción",
-    "department": "Capital",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf",
-    "source_page": 2,
-    "lat": null,
-    "lng": null,
-    "geocode_source": "",
-    "online_only": false,
-    "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-20T12:50:02.599145+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJz_zsRZSnXZQRDs-t7itYLEM",
     "google_candidate": {
@@ -11757,35 +11525,6 @@
       "lat": -25.1933597,
       "lng": -57.5114053,
       "checked_at": "2026-10-20T12:50:09+00:00"
-    }
-  },
-  {
-    "id": "loc-bnf-6c0a8e9d5bc191b5",
-    "bank": "BNF",
-    "category": "Frigorificos",
-    "source_category": "Frigorificos",
-    "merchant_name": "COOPERATIVA CHORTITZER",
-    "merchant_brand": "COOPERATIVA CHORTITZER",
-    "address": "10 de Agosto c/ Hernandarias, Zona Mercado.",
-    "city": "San Lorenzo",
-    "department": "Central",
-    "country": "Paraguay",
-    "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_OCT_4204e066ab.pdf",
-    "source_page": 2,
-    "lat": null,
-    "lng": null,
-    "geocode_source": "",
-    "online_only": false,
-    "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-20T12:50:10.497385+00:00",
-    "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJu3trS4euXZQRbtk9KQZA7j8",
-    "google_candidate": {
-      "google_name": "Salón Chortitzer - San Lorenzo",
-      "formatted_address": "10 De Agosto, San Lorenzo 111430",
-      "lat": -25.3483641,
-      "lng": -57.511705,
-      "checked_at": "2026-10-20T12:50:10+00:00"
     }
   },
   {

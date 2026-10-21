@@ -2,7 +2,7 @@
 
 Extraidas desde https://www.sudameris.com.py/personas/beneficios
 
-Total: 44
+Total: 45
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
@@ -42,6 +42,7 @@ Total: 44
 | Sudameris | CLUB PORVENIR GUAIREÑO | Todos los días desde el 21 de mayo 2024 al 15 de marzo 2027 | Beneficios en Club Porvenir Guaireño: 10% de reintegro en cuotas sociales mediante débito automático y hasta 12 cuotas sin intereses con Tarjetas de Crédito Sudameris. | https://www.sudameris.com.py/beneficios/destacado/451/detalle |
 | Sudameris | LIVE FITNESS | Desde el 27 de abril hasta el 31 de diciembre 2026. | Beneficios en Live Fitness Asunción: hasta 20% de descuento en membresías de gimnasio, entrenamiento y fitness, con financiación de hasta 12 cuotas sin intereses con Tarjetas de Crédito Sudameris. | https://www.sudameris.com.py/beneficios/destacado/861/detalle |
 | Sudameris | CLUB CONCEPCIÓN | Todos los días desde el 9 de setiembre al 31 de agosto del 2028 | Beneficios en Club Concepción: 20% de reintegro en el restaurante, 10% de reintegro en cuotas sociales mediante débito automático y hasta 12 cuotas sin intereses con Tarjetas de Crédito Sudameris. | https://www.sudameris.com.py/beneficios/destacado/522/detalle |
+| Sudameris | Club Social Área 1 (CDE) | Hasta el 30 de junio de 2028. | Beneficios exclusivos en Club Social Área 1 de Ciudad del Este: reintegros en cuotas sociales, gimnasio, cantina y restaurante con Tarjetas de Crédito Sudameris Visa y Mastercard. Además, financiá cuotas atrasadas en has | https://www.sudameris.com.py/personas/beneficios/club-social-area-1-cde |
 | Sudameris | TATANO POSADA BOUTIQUE | Desde el 07 de abril 2026 hasta el 31 de diciembre 2026. | Beneficios en Tatano Posada Boutique, restaurante y alojamiento: hasta 25% de descuento en gastronomía, comidas y estadías con Tarjetas de Crédito Sudameris, más hasta 12 cuotas sin intereses en hospedaje. | https://www.sudameris.com.py/beneficios/destacado/761/detalle |
 | Sudameris | ENEX Y APP MI ENEX | Desde el 01 de julio hasta el 31 de diciembre 2026 | Beneficios en estaciones de servicio Enex y app Mi Enex: hasta 20% de reintegro en combustible pagando con Tarjetas de Crédito Sudameris. | https://www.sudameris.com.py/beneficios/destacado/307/detalle |
 | Sudameris | 12 cuotas sin interés | Hasta el 31 de diciembre de 2026 | ¡Disfrutá tus rubros favoritos en CUOTAS! Tenés hasta 12 cuotas sin interés todos los días hasta el 31 de diciembre de 2026 con todas tus tarjetas de crédito en: | https://www.sudameris.com.py/personas/beneficios/12-cuota-sin-interes |
