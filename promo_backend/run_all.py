@@ -24,6 +24,14 @@ def run_step(script):
     subprocess.run([sys.executable, '-X', 'utf8', script], cwd=ROOT, check=True, timeout=900)
 
 
+def source_backup_paths(prefix):
+    paths = [path for path in (ROOT / 'outputs').glob(f'{prefix}_*') if path.is_file()]
+    if prefix == 'gnb':
+        # This snapshot and the review CSV are a single extraction transaction.
+        paths.append(ROOT / 'data/gnb_live_cards.json')
+    return paths
+
+
 def main():
     requested = {value.casefold() for value in sys.argv[1:]}
     groups = [group for group in GROUPS if not requested or group[0].casefold() in requested or group[1].casefold() in requested]
@@ -34,10 +42,12 @@ def main():
     status, failures = dict(previous), []
     for bank, prefix, scripts in groups:
         output = ROOT / 'outputs' / f'{prefix}_beneficios_por_categoria.csv'
-        backups = {path: path.read_bytes() for path in (ROOT / 'outputs').glob(f'{prefix}_*') if path.is_file()}
+        backups = {path: path.read_bytes() for path in source_backup_paths(prefix) if path.exists()}
+        attempted_step = None
         try:
             for script in scripts:
-                run_step(f'scrapers/{script}.py')
+                attempted_step = f'scrapers/{script}.py'
+                run_step(attempted_step)
             with output.open(encoding='utf-8-sig') as handle:
                 rows = list(csv.DictReader(handle))
             if not rows:
@@ -52,10 +62,13 @@ def main():
             for path, content in backups.items():
                 path.write_bytes(content)
             # A failed monthly extraction must preserve the last usable dataset.
-            for path in (ROOT / 'outputs').glob(f'{prefix}_*'):
+            for path in source_backup_paths(prefix):
                 if path.is_file() and path not in backups:
                     path.unlink()
             status[bank] = {**previous.get(bank, {}), 'status': 'failed', 'attempted_at': datetime.now(timezone.utc).isoformat(), 'error_type': type(error).__name__}
+            status[bank]['failed_step'] = attempted_step
+            if isinstance(error, subprocess.CalledProcessError):
+                status[bank]['exit_code'] = error.returncode
             failures.append(bank)
             print(f'{bank}: refresh failed; previous source preserved.', flush=True)
     status_path.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding='utf-8')

@@ -1,0 +1,45 @@
+[
+  {
+    "generated_id": "5f6d9d3d84a953ab",
+    "stable_id": "04a65bc7e05dc5e1",
+    "bank": "GNB",
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/685",
+    "detail_sha256": "e5010b4326fefe4eaf7b008a6d26ae2ad35c909ca2a594b876aa09e1da371784",
+    "checked_at": "2026-10-21",
+    "reason": "Same official GNB card and benefit; corrected date rendering or merchant title, not a new campaign."
+  },
+  {
+    "generated_id": "4379201f6b22a495",
+    "stable_id": "efc458a39de82f8d",
+    "bank": "GNB",
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/685",
+    "detail_sha256": "b3d8bd0bc473973b8c7eec0803d60d13d5a61a2b9b52d69d0ec1c9171f4abee8",
+    "checked_at": "2026-10-21",
+    "reason": "Same official GNB card and benefit; corrected date rendering or merchant title, not a new campaign."
+  },
+  {
+    "generated_id": "c97d68de00a24d03",
+    "stable_id": "e394f61f2a220563",
+    "bank": "GNB",
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/683",
+    "detail_sha256": "f4fc3baa0f4c4d66ee6ab1f7e8182c3abd855935af658e62a1fb5e9c80df1af9",
+    "checked_at": "2026-10-21",
+    "reason": "Same official GNB card and benefit; corrected date rendering or merchant title, not a new campaign."
+  },
+  {
+    "generated_id": "8c458142faddf51b",
+    "stable_id": "c4d5cc3015cf7c35",
+    "bank": "Sudameris",
+    "source_url": "https://www.sudameris.com.py/beneficios/destacado/787/detalle",
+    "reason": "Same official campaign, corrected sweepstakes terms from exact reviewed PDF on 2026-10-21",
+    "detail_sha256": "7af2737fe6ab16914dc485ec34f0fad2b7ee95ea911361f0c0b0960289e2dc71"
+  },
+  {
+    "generated_id": "101c53886dd7850f",
+    "stable_id": "35306a49768a9da9",
+    "bank": "Sudameris",
+    "source_url": "https://www.sudameris.com.py/beneficios/destacado/854/detalle",
+    "reason": "Same official campaign, corrected sweepstakes terms from exact reviewed PDF on 2026-10-21",
+    "detail_sha256": "ee52b1e72a205fb93de9d6208a2d56a70721f034a59c6e0e2735d8aaea4a8a1f"
+  }
+]

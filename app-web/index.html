@@ -9,24 +9,25 @@
     <link rel="manifest" href="./manifest.webmanifest?v=round-logo-1" />
     <link rel="icon" href="./assets/logos/payback-py-icon-round-192.png" type="image/png" />
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/logos/payback-py-launch-180.png" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./vendor/leaflet/leaflet.css" />
     <link rel="stylesheet" href="./styles.css?v=20260825-clean-map-controls" />
     <link rel="stylesheet" href="./premium.css?v=beta-13-login-cover" />
   </head>
   <body class="auth-required">
-    <section id="authGate" class="auth-gate" aria-labelledby="authTitle">
+    <section id="authGate" class="auth-gate" data-state="checking" aria-busy="true" aria-labelledby="authTitle">
       <div class="auth-gate-inner">
         <img class="auth-brand" src="./assets/logos/payback-py-wordmark.png" alt="Payback PY - Te devuelve más" />
         <div class="auth-map" role="img" aria-label="Mapa de beneficios cercanos en Asunción"></div>
         <div class="auth-copy">
+          <span class="auth-eyebrow">HECHO PARA TU DÍA A DÍA</span>
           <h1 id="authTitle">Tus beneficios,<br>en un solo lugar.</h1>
           <p>Entrá para descubrir las promociones que más te convienen.</p>
         </div>
         <div class="auth-actions">
-          <button type="button" class="auth-primary" data-auth-login disabled>Crear cuenta</button>
+          <span class="auth-spinner" aria-hidden="true"></span>
+          <p id="authStatus" class="auth-status" role="status" aria-live="polite">Comprobando tu sesión…</p>
           <button type="button" class="auth-google" data-auth-login disabled><img src="./assets/logos/google-g-official.png" width="22" height="22" alt="">Continuar con Google</button>
-          <button type="button" class="auth-signin" data-auth-login disabled>Ya tengo cuenta <span aria-hidden="true">·</span> <strong>Iniciar sesión</strong></button>
-          <p id="authStatus" class="auth-status" role="status" aria-live="polite">Preparando el acceso…</p>
+          <p class="auth-account-hint">Para crear tu cuenta o volver a entrar.</p>
           <button type="button" class="auth-retry" data-auth-retry hidden>Reintentar</button>
         </div>
         <p class="auth-legal">Al continuar, aceptás las <a href="./terms.html">Condiciones de uso</a><br>y la <a href="./privacy.html">Política de privacidad</a>.</p>
@@ -94,8 +95,20 @@
       </article>
     </dialog>
 
+    <script>
+      window.paybackAuthWatchdog = setTimeout(() => {
+        const gate = document.getElementById('authGate');
+        if (gate.dataset.state !== 'checking') return;
+        gate.dataset.state = 'error'; gate.setAttribute('aria-busy', 'false');
+        document.getElementById('authStatus').textContent = 'No pudimos cargar el acceso. Revisá tu conexión y reintentá.';
+        gate.querySelector('[data-auth-retry]').hidden = false;
+      }, 18000);
+      document.getElementById('authGate').addEventListener('click', e => {
+        if (e.target.closest('[data-auth-retry]') && !window.PaybackBeta) location.reload();
+      });
+    </script>
     <script src="./config.js?v=20260904-google-map-key"></script>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="./map-provider.js"></script>
     <script src="./benefit-rules.js?v=20260909"></script>
     <script src="./push-client.js?v=beta-2-round-logo"></script>
     <script src="./beta-bundle.js?v=beta-3-login-cover"></script>

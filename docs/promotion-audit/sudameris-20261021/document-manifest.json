@@ -1,0 +1,86 @@
+[
+  {
+    "campaign": "zona-norte",
+    "url": "https://www.sudameris.com.py/descargas/documentos/concepcion-bases-y-condiciones",
+    "status": 200,
+    "final_url": "https://www.sudameris.com.py/descargas/documentos/concepcion-bases-y-condiciones",
+    "content_type": "application/pdf",
+    "sha256": "abb4448292f4c4b5a2a4402de9be02b57ef6a37c7d059ec68c53b33cc679b170",
+    "checked_at": "2026-10-20T05:13:28.030182+00:00",
+    "file": "sudameris-four-current\\zona-norte-0.pdf",
+    "pages": 2,
+    "text_length": 5187
+  },
+  {
+    "campaign": "zona-norte",
+    "url": "https://www.sudameris.com.py/descargas/documentos/katuete-bases-y-condiciones",
+    "status": 200,
+    "final_url": "https://www.sudameris.com.py/descargas/documentos/katuete-bases-y-condiciones",
+    "content_type": "application/pdf",
+    "sha256": "822820f6e88310fb6747de4cc36120cb654dfe73d458f82d0604e2e4eea316ff",
+    "checked_at": "2026-10-20T05:13:27.750898+00:00",
+    "file": "sudameris-four-current\\zona-norte-1.pdf",
+    "pages": 2,
+    "text_length": 2726
+  },
+  {
+    "campaign": "zona-norte",
+    "url": "https://www.sudameris.com.py/descargas/documentos/santa-rosa-del-aguaray-bases-y-condiciones",
+    "status": 200,
+    "final_url": "https://www.sudameris.com.py/descargas/documentos/santa-rosa-del-aguaray-bases-y-condiciones",
+    "content_type": "application/pdf",
+    "sha256": "363eec525f45c6b37a875845ccfc08ba16b2c0c0bbe8ce68688153931399ec35",
+    "checked_at": "2026-10-20T05:13:27.598036+00:00",
+    "file": "sudameris-four-current\\zona-norte-2.pdf",
+    "pages": 2,
+    "text_length": 275
+  },
+  {
+    "campaign": "zona-norte",
+    "url": "https://www.sudameris.com.py/descargas/documentos/san-alberto-bases-y-condiciones",
+    "status": 200,
+    "final_url": "https://www.sudameris.com.py/descargas/documentos/san-alberto-bases-y-condiciones",
+    "content_type": "application/pdf",
+    "sha256": "f49cf507708deb93f4e502fddbd729b9f212a58b96bfec1884e1526243c48f62",
+    "checked_at": "2026-10-20T05:13:28.463588+00:00",
+    "file": "sudameris-four-current\\zona-norte-3.pdf",
+    "pages": 2,
+    "text_length": 2742
+  },
+  {
+    "campaign": "zona-norte",
+    "url": "https://www.sudameris.com.py/descargas/documentos/curuguaty-bases-y-condiciones",
+    "status": 200,
+    "final_url": "https://www.sudameris.com.py/descargas/documentos/curuguaty-bases-y-condiciones",
+    "content_type": "application/pdf",
+    "sha256": "8a65ec0617abf8bfdfa662a21e48cbcb4e2254358fef287b5ec30caae154c3de",
+    "checked_at": "2026-10-20T05:13:28.982183+00:00",
+    "file": "sudameris-four-current\\zona-norte-4.pdf",
+    "pages": 2,
+    "text_length": 2407
+  },
+  {
+    "campaign": "dtp-travel-group",
+    "url": "https://www.sudameris.com.py/descargas/documentos/6ac7b84c1fdef552280193/f1.pdf",
+    "status": 200,
+    "final_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b84c1fdef552280193/f1.pdf",
+    "content_type": "application/pdf",
+    "sha256": "47d1988915ad2e345fc45a06616945ad6af898a0aa906848af96990862742acf",
+    "checked_at": "2026-10-20T05:13:29.494151+00:00",
+    "file": "sudameris-four-current\\dtp-travel-group-0.pdf",
+    "pages": 3,
+    "text_length": 6577
+  },
+  {
+    "campaign": "promocion-mclaren-mastercard-f1-team",
+    "url": "https://www.sudameris.com.py/descargas/documentos/6ac7b6d49f3ba465064324/Mclaren.pdf",
+    "status": 200,
+    "final_url": "https://www.sudameris.com.py/descargas/documentos/6ac7b6d49f3ba465064324/Mclaren.pdf",
+    "content_type": "application/pdf",
+    "sha256": "9c04e614d7a7cae77f5b1b7374dc6ca9c47b531aafb496a57933c0249e7c89fc",
+    "checked_at": "2026-10-20T05:13:29.266362+00:00",
+    "file": "sudameris-four-current\\promocion-mclaren-mastercard-f1-team-0.pdf",
+    "pages": 9,
+    "text_length": 16575
+  }
+]

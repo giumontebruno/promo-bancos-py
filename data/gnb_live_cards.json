@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-17T01:34:38.347187+00:00",
-  "total": 250,
+  "checkedAt": "2026-10-21T05:27:15.797255+00:00",
+  "total": 251,
   "cards": [
     {
       "id": 680,
@@ -21,6 +21,25 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5377_bases-y-condiciones-aret%C3%A9-per%C3%B3n-apertura-oct.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5378_img-d%C3%ADa-gnb-arete-per%C3%B3n.png"
+    },
+    {
+      "id": 683,
+      "title": "Theoni Experience",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-26",
+      "miniDescription": "20% de descuento en entradas para Experiencia Theoni.",
+      "category": "Días GNB",
+      "lines": [
+        "20% de descuento en entradas para Experiencia Theoni.",
+        "16 al 26 de octubre del 2026 o hasta agotar stock.",
+        "20% de descuento en entradas para Experiencia Theoni con tarjetas de crédito Mastercard del Banco GNB Paraguay.",
+        "Tope de compra por periodo de la promoción: de Gs.350.000 (guaraníes trescientos cincuenta mil), por cuenta de tarjeta de crédito (Incluye titulares y adicionales) equivalente a un reintegro máximo en el extracto de Gs. 70.000 (guaraníes setenta mil) para pagos con tarjetas de crédito Mastercard Banco GNB",
+        "Promoción válida única y exclusivamente en las fechas mencionadas en la venta de entradas para el evento de Experiencia Theoni.",
+        "Beneficio aplica única y exclusivamente a pagos realizados a través de plataforma de Ticketea .",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5385_bases-y-condiciones-experiencia-theoni-venta-de-entradas.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5386_img-d%C3%ADa-gnb-theoniv2.png"
     },
     {
       "id": 260,
@@ -45,6 +64,25 @@
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4296_ruta-gastro-10-2025-web.png"
     },
     {
+      "id": 685,
+      "title": "Nissei - Congreso Revelar",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-21",
+      "miniDescription": "10% de reintegro + Hasta 18 cuotas sin intereses.",
+      "category": "Días GNB",
+      "lines": [
+        "10% de reintegro + Hasta 18 cuotas sin intereses.",
+        "Del 20 al 21 de octubre del 2026.",
+        "10% de reintegro adicional para pagos con tarjetas de crédito Mastercard del Banco GNB Paraguay.",
+        "Hasta 18 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Tope de compra por periodo de la promoción: Gs. 1.000.000 (guaraníes un millón) por cuenta de tarjeta de crédito (incluye titulares y adicionales).",
+        "Los reintegros serán reflejados de manera automática en el extracto del cliente, en un período de 24 a 48hs hábiles luego de la compra.",
+        "No participan de la promoción las tarjetas de débito y crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5389_bases-y-condiciones-nissei-congreso-revelar.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5390_revelar-nissei.png"
+    },
+    {
       "id": 175,
       "title": "Cinemark",
       "startDate": "2025-01-03",
@@ -56,13 +94,14 @@
         "Del 02 de abril del 2026 al 28 de febrero del 2027.",
         "50% de descuento para funciones los días jueves, viernes, sábados y domingos para pagos realizados con las tarjetas de crédito y Prepagas del Banco GNB Paraguay S.A.E.C.A .",
         "Tope de descuento: Hasta 4 entradas por cada transacción . Este límite es por transacción de tarjeta.",
+        "El beneficio será aplicado al momento del pago únicamente seleccionando la opción de “Tarifa GNB” .",
         "La tarjeta debe de estar guardada/catastrada en la app o web de Cinemark para aplicar al descuento.",
         "El descuento será aplicado al momento del pago.",
         "Beneficio no aplica a consumición en la confitería de Cinemark.",
         "No aplica a películas con restricción, contenido alternativo, Avant Premiere, festivales.",
         "No acumulable con otras promociones."
       ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4743_bases-y-condiciones-cinemark-007-.pdf",
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4743_bases-y-condiciones-cinemark-oct.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/2869_cinemark-2025-web.png"
     },
     {
@@ -81,7 +120,7 @@
         "El reembolso será vía reintegro en el extracto al cierre o podrá visualizarlo en su app en los movimientos mensuales de su tarjeta.",
         "No acumulable con otras promociones."
       ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5255_bases-y-condiciones-la-ruta-del-cafe-septiembre-005-.pdf",
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5255_bases-y-condiciones-la-ruta-del-cafe.v7.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5256_ruta-caf%C3%A9-07-2026-web.png"
     },
     {
@@ -1409,23 +1448,23 @@
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5384_guns-urban-2026-web.png"
     },
     {
-      "id": 683,
-      "title": "Theoni",
+      "id": 684,
+      "title": "Moni Shuss",
       "startDate": "2026-10-16",
-      "endDate": "2026-10-26",
-      "miniDescription": "20% de descuento en entradas para Experiencia Theoni.",
+      "endDate": "2027-01-15",
+      "miniDescription": "20% de descuento + Hasta 6 cuotas sin intereses.",
       "category": "Días GNB",
       "lines": [
-        "20% de descuento en entradas para Experiencia Theoni.",
-        "16 al 26 de octubre del 2026 o hasta agotar stock.",
-        "20% de descuento en entradas para Experiencia Theoni con tarjetas de crédito Mastercard del Banco GNB Paraguay.",
-        "Tope de compra por periodo de la promoción: de Gs.350.000 (guaraníes trescientos cincuenta mil), por cuenta de tarjeta de crédito (Incluye titulares y adicionales) equivalente a un reintegro máximo en el extracto de Gs. 70.000 (guaraníes setenta mil) para pagos con tarjetas de crédito Mastercard Banco GNB",
-        "Promoción válida única y exclusivamente en las fechas mencionadas en la venta de entradas para el evento de Experiencia Theoni.",
-        "Beneficio aplica única y exclusivamente a pagos realizados a través de plataforma de Ticketea .",
+        "20% de descuento + Hasta 6 cuotas sin intereses.",
+        "Del 16 de octubre del 2026 al 15 de enero del 2027.",
+        "20% de descuento para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Hasta 6 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Tope de compra mensual: Gs. 1.000.000 (guaraníes un millón) por cuenta de tarjeta de crédito (incluye titulares y adicionales), el cual aplica en forma conjunta a todos los locales de los comercios adheridos.",
+        "El beneficio de descuento aplica única y exclusivamente el primer y tercer viernes de cada mes dentro del periodo de la promoción.",
         "No acumulable con otras promociones."
       ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5385_bases-y-condiciones-experiencia-theoni-venta-de-entradas.pdf",
-      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5386_img-d%C3%ADa-gnb-theoni.png"
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5387_bases-y-condiciones-moni-schuss.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5388_moni-schuss-2026-web.png"
     },
     {
       "id": 41,
@@ -1607,25 +1646,6 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5069_bases-y-condiciones-jugueter%C3%ADa-me-encanta-002-.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5070_web-me-encanta.png"
-    },
-    {
-      "id": 677,
-      "title": "Interescolar Colegio Salesianito - Cantina",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-18",
-      "miniDescription": "20% de reintegro en cantina.",
-      "category": "Días GNB",
-      "lines": [
-        "20% de reintegro en cantina.",
-        "Del Viernes 09 al Domingo 11 de octubre del 2026.",
-        "Del Viernes 16 al Domingo 18 de octubre del 2026.",
-        "20% de reintegro para pagos con tarjetas de crédito y prepagas Mastercard del Banco GNB Paraguay.",
-        "Tope de compra por periodo de la promoción: Gs.250.000 (guaraníes doscientos cincuenta mil) por cuenta de tarjeta de crédito (Incluye titulares y adicionales) y/o prepaga para pagos con tarjetas de crédito y/o prepagas Banco GNB Mastercard aplicado al total de compras realizadas en la cantina administrada por la asociación de padres en el Interescolar del Colegio Salesianito.",
-        "El beneficio no aplica en la compra de entradas.",
-        "No participan de la promoción las tarjetas débito y crédito Visa, de afinidades Empresariales, Corporativas, Gift Card, Gourmet Card."
-      ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5371_bases-y-condiciones-interescolar-colegio-salesianito-cantina.pdf",
-      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5372_img-interescolar-salesianito.png"
     },
     {
       "id": 16,

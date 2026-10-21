@@ -200,6 +200,9 @@ def main():
                 old['Estado verificacion'] = 'unconfirmed'
                 table.append(old)
 
+    from sudameris_scoped_reviews import apply_saved_reviews
+    table = apply_saved_reviews(table)
+
     Path('outputs/sudameris_migration_report.json').write_text(json.dumps({'checked_at': datetime.now(timezone.utc).isoformat(), 'campaigns': len(rows), 'failures': failures, 'retained_unconfirmed': sum(r.get('Estado verificacion') == 'unconfirmed' for r in table)}, ensure_ascii=False, indent=2), encoding='utf-8')
 
     table.sort(key=lambda r: (r["Categoría"], r["Comercio/Promoción"]))

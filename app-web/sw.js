@@ -1,9 +1,13 @@
-const CACHE_NAME = "payback-py-beta-30-qa-holds";
+const CACHE_NAME = "payback-py-beta-34-final-session-guard";
+const matchCurrentCache = (request) => caches.open(CACHE_NAME).then((cache) => cache.match(request));
 const APP_SHELL = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
+  "./map-provider.js",
+  "./vendor/leaflet/leaflet.js",
+  "./vendor/leaflet/leaflet.css",
   "./benefit-rules.js",
   "./push-client.js",
   "./beta-bundle.js",
@@ -47,7 +51,7 @@ self.addEventListener("fetch", (event) => {
           event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.put(cacheKey, copy)));
           return response;
         })
-        .catch(async () => await caches.match(cacheKey) || await caches.match('./index.html') || Response.error())
+        .catch(async () => await matchCurrentCache(cacheKey) || await matchCurrentCache('./index.html') || Response.error())
     );
     return;
   }
@@ -61,13 +65,13 @@ self.addEventListener("fetch", (event) => {
           event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.put(cacheKey, copy)));
           return response;
         })
-        .catch(async () => await caches.match(cacheKey) || Response.error())
+        .catch(async () => await matchCurrentCache(cacheKey) || Response.error())
     );
     return;
   }
 
   event.respondWith(
-    caches.match(event.request).then((cached) => cached || fetch(event.request).catch(async () => await caches.match(cacheKey) || Response.error()))
+    matchCurrentCache(event.request).then((cached) => cached || fetch(event.request).catch(async () => await matchCurrentCache(cacheKey) || Response.error()))
   );
 });
 

@@ -51,6 +51,8 @@ def has_installments(value):
 
 
 def day_text(summary, conditions, benefit, installments):
+    if installments and re.search(r"todos\s+los\s+d[ií]as", benefit, re.I):
+        return "Todos los días"
     if re.search(r"jueves\s+y\s+viernes\s+de\s+la\s+tercera\s+semana", conditions, re.I):
         return "tercer jueves y viernes de cada mes"
     if re.search(r"beneficio\s+v[aá]lid[oa]\s+todos\s+los\s+d[ií]as", conditions, re.I):
@@ -64,6 +66,10 @@ def day_text(summary, conditions, benefit, installments):
 
     relevant = summary.split("+")[0] if not installments else summary.rsplit("+", 1)[-1]
     relevant = f"{relevant} {benefit}"
+    paired = re.search(rf"\b(primer|segundo|tercer|cuarto)\s+y\s+(primer|segundo|tercer|cuarto)\s+({DAY_PATTERN})\s+de\s+cada\s+mes", f"{relevant} {conditions}", re.I)
+    if paired:
+        first, second, weekday = paired.groups()
+        return f"{first} {weekday} de cada mes y {second} {weekday} de cada mes"
     ordinal = re.search(rf"\b(?:primer|segundo|tercer|cuarto|[uú]ltimo)\s+(?:{DAY_PATTERN})(?:\s+y\s+(?:{DAY_PATTERN}))?\s+de\s+cada\s+mes", f"{relevant} {conditions}", re.I)
     if ordinal:
         return compact(ordinal.group(0))
@@ -117,7 +123,7 @@ def dated_weekday_schedule(card):
     months = {name: i for i, name in enumerate(('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'), 1)}
     months['setiembre'] = 9
     windows = []
-    pattern = rf"^Del ({DAY_PATTERN}) (\d{{1,2}}) al ({DAY_PATTERN}) (\d{{1,2}}) de (\w+) del? (\d{{4}})\.?$"
+    pattern = rf"^Del (?:(?P<left>{DAY_PATTERN}) )?(?P<first>\d{{1,2}}) al (?:(?P<right>{DAY_PATTERN}) )?(?P<last>\d{{1,2}}) de (\w+) del? (\d{{4}})\.?$"
     for line in card.get('lines', []):
         match = re.fullmatch(pattern, compact(line), re.I)
         if not match:
@@ -128,7 +134,7 @@ def dated_weekday_schedule(card):
             end = date(int(year), months[month.casefold()], int(last))
         except (KeyError, ValueError):
             return None
-        if start > end or WEEKDAYS[start.weekday()] != left.casefold() or WEEKDAYS[end.weekday()] != right.casefold():
+        if start > end or (left and WEEKDAYS[start.weekday()] != left.casefold()) or (right and WEEKDAYS[end.weekday()] != right.casefold()):
             return None
         windows.append((start, end))
     if not windows:
@@ -178,10 +184,34 @@ def verified_cards(bullet, card_id):
     return ""
 
 
+def validate_source_pair(cards, review_rows, snapshot=None):
+    """Never mix a refreshed review table with an older live card snapshot."""
+    card_ids = [int(card["id"]) for card in cards]
+    review_ids = [int(row["ID GNB"]) for row in review_rows]
+    if len(set(card_ids)) != len(card_ids) or len(set(review_ids)) != len(review_ids):
+        raise ValueError("GNB source pair has duplicate card IDs")
+    missing = sorted(set(card_ids) - set(review_ids))
+    extra = sorted(set(review_ids) - set(card_ids))
+    if missing or extra:
+        raise ValueError(f"GNB source pair out of sync: missing_review={missing}; review_only={extra}. Preserve published output and refresh both source artifacts together.")
+    review = {int(row["ID GNB"]): row for row in review_rows}
+    mismatched = [
+        int(card["id"]) for card in cards
+        if card.get("termsUrl") and review[int(card["id"])].get("URL bases") != card["termsUrl"]
+    ]
+    if mismatched:
+        raise ValueError(f"GNB source pair terms URL mismatch: {sorted(mismatched)}")
+    if snapshot and any(row.get("Fecha snapshot") != snapshot for row in review_rows):
+        raise ValueError("GNB source pair snapshot timestamp mismatch; refresh both artifacts together")
+    return review
+
+
 def build_rows():
-    cards = json.loads(CARDS.read_text(encoding="utf-8"))["cards"]
+    payload = json.loads(CARDS.read_text(encoding="utf-8"))
+    cards = payload["cards"]
     with REVIEW.open(encoding="utf-8-sig", newline="") as handle:
-        review = {int(row["ID GNB"]): row for row in csv.DictReader(handle)}
+        review_rows = list(csv.DictReader(handle))
+    review = validate_source_pair(cards, review_rows, payload.get("checkedAt"))
     result = []
     issues = []
     for card in cards:

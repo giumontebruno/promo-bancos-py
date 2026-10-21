@@ -1,0 +1,52 @@
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+ 
+Listado de estaciones de servicio COMPASA  adheridas a la promoción.  
+ 
+N° Dirección  Ciudad  Departamento  
+1 Avda. Juan E. O’Leary  c/ Cesar Gianotti (Centro) . Hernandarias  Alto Paraná  
+2 Supercarretera camino a Salto del Guaira Km 384  - Colonia 
+Fortuna . Hernandarias  Alto Paraná  
+3 Ruta PY07 Km 27 Monday . Minga Guazú  Alto Paraná  
+4 Avda. Acosta Ñu c/ Delfín Chamorro.  Caaguazú  Caaguazú  
+5 Gral. Bernardino Caballero esq. Pte. Carlos Antonio López.  Caaguazú  Caaguazú  
+6 Ruta P08 y Pte. Franco.  Carayaó  Caaguazú  
+7 Avenida Defensores del Chaco Nº 120.  Coronel Oviedo  Caaguazú  
+8 Nanawa e/ Ayolas.  Coronel Oviedo  Caaguazú  
+9 Calle 2 Campo 9.  J. Eulogio 
+Estigarribia  Caaguazú  
+10 Dr. Gaspar Rodríguez de Francia.  José Domingo 
+Ocampos  Caaguazú  
+11 Colonia 11 de Septiembre.  Raul A. Oviedo  Caaguazú  
+12 Calle 9 N° 3582 c/ Colonia San Blas.  Vaquería  Caaguazú  
+13 Crescencio Frutos c/ Ex Combatiente Gerónimo Paredes . Curuguaty  Canindeyú  
+14 Mcal. José Félix Estigarribia esq.  1ro. de Marzo.  Curuguaty  Canindeyú  
+15 Gral Francisco Alvarez c/ la Alborada.  Gral. Francisco 
+Caballero Álvarez  Canindeyú  
+16 Ruta PY10 Las Residentas.  La Paloma  Canindeyú  
+17 13 de Noviembre c/ Crescencio González.  Areguá  Central  
+18 Calle San Pedro y Mcal. López.  Capiatá  Central  
+19 Soldado Ovelar esq. Ceferino Ruiz.  Fernando de la 
+Mora  Central  
+20 Avda. República Argentina esq. Alejo García.  Lambaré  Central  
+21 Ruta Acceso Sur Km 17,5, e/ Calle Zenteno y Fortín  
+Toledo.  Ñemby  Central  
+22 Avda. De La Victoria y Pompeya - Ruta Ñemby.  San Lorenzo  Central  
+23 Manuel Ortiz Guerrero y 31 Diciembre.  San Lorenzo  Central  
+24 Avda. De la Victoria y 1º de Marzo.  San Lorenzo  Central  
+25 Avda. Von Poleski esq. Paraguarí.  Villa Elisa  Central  
+26 Ruta Colonia Thompson - Ypané (ex parada 47).  Ypané  Central  
+27 Avda. Acceso Sur.  Ypané  Central  
+28 Avda. Boquerón y Juan Carlos García.  Concepción  Concepción  
+29 Avda. Agustín F. de Pinedo c/ Caballero Añazco.  Concepción  Concepción  
+30 Avda. Carlos Antonio López.  Vallemi  Concepción  
+31 Avda. Río Paraguay.  Vallemi  Concepción  
+32 Ruta N8 c/ Blas Garay.  La Paz Itapúa  
+33 Ruta PY01 Km 61.  Paraguarí  Paraguarí  
+ 
+ 

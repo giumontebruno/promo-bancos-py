@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T12:50:21.752497+00:00",
-  "input_count": 3083,
-  "promotion_count": 3119,
+  "generated_at": "2026-10-21T06:09:05.084448+00:00",
+  "input_count": 3124,
+  "promotion_count": 3160,
   "duplicates_removed": -36,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -1012,14 +1012,16 @@
     "3ba2db538d4d96b9-c9b0c4ea": "3ba2db538d4d96b9-686aec29",
     "df43987c78ab0694-346fab0d": "df43987c78ab0694-18b827ac",
     "fd8cedfb36f09b95": "57b016cd047fb17d",
-    "c5aff1b9334bee70": "5e4640be03e0e97b",
     "461ad72e9fa72707": "94b689f451a0649c",
     "6b361360013e9390": "8d89ae969eb7721b",
     "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
     "e1f73d4e7e3f215d": "079f0d097a236e3f",
     "7185b3e16b670118": "c49fcec793914f30",
     "32558b82cfc1a626": "c0ee7afa7cd25388",
-    "4170fdc63d3858cd": "2e507b9fe5140149"
+    "4170fdc63d3858cd": "2e507b9fe5140149",
+    "5f6d9d3d84a953ab": "04a65bc7e05dc5e1",
+    "4379201f6b22a495": "efc458a39de82f8d",
+    "c97d68de00a24d03": "e394f61f2a220563"
   },
   "by_bank": {
     "Atlas": 45,
@@ -1029,16 +1031,16 @@
     "Familiar": 416,
     "GNB": 481,
     "Itaú": 560,
-    "Sudameris": 282,
+    "Sudameris": 323,
     "ueno bank": 355
   },
   "issue_counts": {
-    "limits_unconfirmed": 219,
-    "validity_unconfirmed": 30,
+    "limits_unconfirmed": 220,
+    "validity_unconfirmed": 29,
     "multiple_purchase_limits": 242,
     "source_amount_conflict": 15,
     "multiple_refund_limits": 103,
-    "source_verification_pending": 131
+    "source_verification_pending": 124
   },
   "review_queue": [
     {
@@ -3686,7 +3688,6 @@
       "bank": "Sudameris",
       "merchant": "ZONA NORTE",
       "issues": [
-        "source_verification_pending",
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/650/detalle"
@@ -3715,8 +3716,7 @@
       "bank": "Sudameris",
       "merchant": "PROMOCIÓN MCLAREN MASTERCARD F1 TEAM",
       "issues": [
-        "source_verification_pending",
-        "validity_unconfirmed"
+        "limits_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/854/detalle"
     },
@@ -3786,24 +3786,6 @@
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/858/detalle"
     },
     {
-      "id": "949ed89812ec648e",
-      "bank": "Sudameris",
-      "merchant": "Veredeada Chaval",
-      "issues": [
-        "source_verification_pending"
-      ],
-      "source_url": "https://www.sudameris.com.py/personas/beneficios/veredeada-chaval"
-    },
-    {
-      "id": "ac47d7b73ca27eaa",
-      "bank": "Sudameris",
-      "merchant": "Veredeada Chaval",
-      "issues": [
-        "source_verification_pending"
-      ],
-      "source_url": "https://www.sudameris.com.py/personas/beneficios/veredeada-chaval"
-    },
-    {
       "id": "245c2e1c109ba3aa",
       "bank": "Sudameris",
       "merchant": "PARANA HOGAR / COLCHONES",
@@ -3848,24 +3830,6 @@
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/929/detalle"
-    },
-    {
-      "id": "4cd6c9eab496f456",
-      "bank": "Sudameris",
-      "merchant": "Cecconello",
-      "issues": [
-        "source_verification_pending"
-      ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/836/detalle"
-    },
-    {
-      "id": "5e4640be03e0e97b",
-      "bank": "Sudameris",
-      "merchant": "Cecconello",
-      "issues": [
-        "source_verification_pending"
-      ],
-      "source_url": "https://www.sudameris.com.py/beneficios/destacado/836/detalle"
     },
     {
       "id": "5dc44d3b9cb7ba72",
@@ -4855,7 +4819,6 @@
       "bank": "Sudameris",
       "merchant": "DTP TRAVEL GROUP",
       "issues": [
-        "source_verification_pending",
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/787/detalle"

@@ -59,7 +59,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Refresh promotions database"
-          file_pattern: "outputs/*.csv outputs/*.md outputs/*.json public/*.json public/*.csv data/*.csv"
+          file_pattern: "outputs/*.csv outputs/*.md outputs/*.json public/*.json public/*.csv data/*.csv data/gnb_live_cards.json"
 
       - name: Report incomplete refresh
         if: steps.refresh.outcome == 'failure'

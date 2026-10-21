@@ -18,6 +18,7 @@ test('a failed locations download is retryable and never becomes an empty loaded
 });
 test('GPS success followed by download failure displays loading error rather than zero promotions',()=>{
  const c={state:{location:{lat:-25.3,lng:-57.6},locationsLoaded:false,locationsStatus:'error',locationStatus:'error'},els:{statusText:{},countText:{},results:{}}};
+ Object.assign(c,{nearbyMapState:{renderId:0},cleanupNearbyMaps:()=>{}});
  vm.runInNewContext(block('function renderNearbyView(','function getNearbyActiveFilterText('),c);
  c.renderNearbyView();assert.match(c.els.results.innerHTML,/No pudimos cargar/);assert.match(c.els.results.innerHTML,/Reintentar carga/);assert.doesNotMatch(c.els.results.innerHTML,/Sin locales|0 ubicaciones/);
  c.state.locationsStatus='loading';c.state.locationStatus='loading';c.renderNearbyView();assert.match(c.els.results.innerHTML,/Cargando el mapa/);
@@ -33,6 +34,7 @@ test('valid card variants remain visible when no verified map coordinates exist'
  const promos=JSON.parse(fs.readFileSync('public/promotions.json','utf8')).filter(p=>['99544f5b9adac703','18e6109610e8dd1b'].includes(p.id));
  assert.equal(promos.length,2);
  const c={state:{locationsLoaded:true,locationStatus:'ready'},els:{statusText:{},countText:{},results:{}},getNearbyPromoPoints:()=>[],KNOWN_LOCAL_POINTS:[{}],getBankTheme:()=>'',getPointPrimaryPromo:()=>null,uniquePromos:p=>p,buildNearbyPromoIndex:()=>new Map([['itau|combustible',promos]]),escapeHtml:s=>s,getNearbyActiveFilterText:()=> 'Itaú · Combustible · Lunes',renderNearbyPromoGroups:p=>p.map(x=>x.id).join('|')};
+ Object.assign(c,{nearbyMapState:{renderId:0},cleanupNearbyMaps:()=>{}});
  vm.runInNewContext(block('function renderNearbyView(','function getNearbyActiveFilterText('),c);
  c.renderNearbyView();assert.match(c.els.countText.textContent,/2 beneficios/);
  for(const p of promos)assert.ok(c.els.results.innerHTML.includes(p.id));

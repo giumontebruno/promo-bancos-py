@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.sudameris.com.py/descargas/documentos/concepcion-bases-y-condiciones",
+    "sha256": "abb4448292f4c4b5a2a4402de9be02b57ef6a37c7d059ec68c53b33cc679b170",
+    "status": 200
+  },
+  {
+    "url": "https://www.sudameris.com.py/descargas/documentos/katuete-bases-y-condiciones",
+    "sha256": "822820f6e88310fb6747de4cc36120cb654dfe73d458f82d0604e2e4eea316ff",
+    "status": 200
+  },
+  {
+    "url": "https://www.sudameris.com.py/descargas/documentos/santa-rosa-del-aguaray-bases-y-condiciones",
+    "sha256": "363eec525f45c6b37a875845ccfc08ba16b2c0c0bbe8ce68688153931399ec35",
+    "status": 200
+  },
+  {
+    "url": "https://www.sudameris.com.py/descargas/documentos/san-alberto-bases-y-condiciones",
+    "sha256": "f49cf507708deb93f4e502fddbd729b9f212a58b96bfec1884e1526243c48f62",
+    "status": 200
+  },
+  {
+    "url": "https://www.sudameris.com.py/descargas/documentos/curuguaty-bases-y-condiciones",
+    "sha256": "8a65ec0617abf8bfdfa662a21e48cbcb4e2254358fef287b5ec30caae154c3de",
+    "status": 200
+  },
+  {
+    "url": "https://www.sudameris.com.py/descargas/documentos/6ac7b84c1fdef552280193/f1.pdf",
+    "sha256": "47d1988915ad2e345fc45a06616945ad6af898a0aa906848af96990862742acf",
+    "status": 200
+  },
+  {
+    "url": "https://www.sudameris.com.py/descargas/documentos/6ac7b6d49f3ba465064324/Mclaren.pdf",
+    "sha256": "9c04e614d7a7cae77f5b1b7374dc6ca9c47b531aafb496a57933c0249e7c89fc",
+    "status": 200
+  },
+  {
+    "url": "https://www.sudameris.com.py/descargas/documentos/6ad238969b346325834826/B%26C-VEREDEADA-17-10-26.pdf",
+    "sha256": "aa71feaa984ec65699dc966d926637c6e447c2cb6cc397772fd4e0e59f757453",
+    "status": 200
+  },
+  {
+    "url": "https://www.sudameris.com.py/descargas/documentos/6ac7fd2b5e5f8285593120/Cecconello.pdf",
+    "sha256": "c884d567a3e439fecd7bb58a1220ee0e1484a68f37343159b4108219f43f23a2",
+    "status": 200
+  }
+]

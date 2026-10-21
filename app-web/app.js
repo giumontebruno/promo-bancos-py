@@ -137,6 +137,9 @@ const nearbyMapState = {
   googleMarkers: [],
   googleUserMarker: null,
   googlePromise: null,
+  provider: null,
+  renderId: 0,
+  tileTimer: null,
 };
 
 const bankThemes = {
@@ -474,6 +477,7 @@ function shouldShowPromotion(promo) {
 }
 
 function isDisplayablePromotion(promo) {
+  if (promo.benefit_type === "sorteo") return false;
   const text = normalizeDayName([
     promo.merchant_name,
     promo.benefit_summary,
@@ -1260,6 +1264,10 @@ function render(searchUpdate = false) {
 }
 
 function renderResults() {
+  if (state.activeView !== "nearby") {
+    nearbyMapState.renderId += 1;
+    cleanupNearbyMaps();
+  }
   state.promotions = state.promotions.filter(isActivePromotion);
   const personalView = state.activeView === "alerts" || state.activeView === "favorites";
   document.querySelector(".controls").hidden = personalView;
@@ -1501,6 +1509,8 @@ function syncFavoriteAlerts() {
 }
 
 function renderNearbyView() {
+  nearbyMapState.renderId += 1;
+  cleanupNearbyMaps();
   if (!state.locationsLoaded) {
     const messages = {
       denied: "No se pudo acceder a tu ubicación. Podés explorar el mapa sin compartirla.",
@@ -1559,8 +1569,9 @@ function renderNearbyView() {
           <button type="button" data-map-action="zoom-in" aria-label="Acercar mapa">+</button>
           <button type="button" data-map-action="zoom-out" aria-label="Alejar mapa">−</button>
         </div>
-        <div id="nearbyMap" class="leaflet-map" aria-label="Mapa de locales con promociones"></div>
+        <div id="nearbyMap" class="leaflet-map" aria-label="Mapa de locales con promociones" aria-busy="true"></div>
       </div>
+      <div id="mapProviderStatus" class="map-provider-status" role="status"><span>Cargando mapa… Podés consultar los locales de la lista.</span><button type="button" data-map-action="retry" hidden>Reintentar mapa</button></div>
       ${renderNearbySelectedPlace(selectedPoint, selectedTheme)}
       <div class="place-list">
         ${points.map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
@@ -1796,14 +1807,56 @@ function renderMapMarker(item, selectedPlace) {
   return `<button type="button" data-place-name="${escapeAttribute(getPointKey(item))}" class="map-marker ${item.hasTodayPromos ? "has-today" : ""} ${item.place.geocode_source === "city_approximation" ? "approximate" : ""} ${isSelectedPoint(item, selectedPlace) ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(title)}" aria-label="${escapeAttribute(title)}"><span><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg></span>${badge}</button>`;
 }
 
-function hydrateNearbyMap(points, selectedPlace) {
-  ensureGoogleMaps().then((hasGoogleMaps) => {
-    if (hasGoogleMaps) {
-      renderGoogleNearbyMap(points, selectedPlace);
-    } else {
-      renderLeafletNearbyMap(points, selectedPlace);
-    }
+function getMapProvider() {
+  if (!nearbyMapState.provider) nearbyMapState.provider = window.PaybackMapProvider.create({
+    window, document, getGoogleKey: getGoogleMapsApiKey,
+    onGoogleFailure: () => {
+      if (state.activeView === "nearby" && document.querySelector("#nearbyMap")) renderNearbyView();
+    },
   });
+  return nearbyMapState.provider;
+}
+
+function setMapProviderStatus(status, message, element = document.querySelector("#nearbyMap")) {
+  if (!element || element !== document.querySelector("#nearbyMap")) return;
+  element.setAttribute("aria-busy", String(status === "loading"));
+  element.dataset.mapStatus = status;
+  const panel = document.querySelector("#mapProviderStatus");
+  if (!panel) return;
+  panel.hidden = status === "ready";
+  panel.querySelector("span").textContent = message;
+  panel.querySelector("button").hidden = status === "loading" || status === "ready";
+}
+
+async function hydrateNearbyMap(points, selectedPlace) {
+  const element = document.querySelector("#nearbyMap");
+  const renderId = nearbyMapState.renderId;
+  const current = () => state.activeView === "nearby" && renderId === nearbyMapState.renderId
+    && element === document.querySelector("#nearbyMap");
+  if (!element) return;
+  setMapProviderStatus("loading", "Cargando mapa… Podés consultar los locales de la lista.", element);
+  try {
+    if (await ensureGoogleMaps()) {
+      if (!current()) return;
+      try {
+        renderGoogleNearbyMap(points, selectedPlace);
+        setMapProviderStatus("ready", "", element);
+        return;
+      } catch { cleanupNearbyMaps(); }
+    }
+    if (!current()) return;
+    setMapProviderStatus("loading", "Cargando mapa alternativo… La lista de locales sigue disponible.", element);
+    if (await getMapProvider().leaflet()) {
+      if (!current()) return;
+      renderLeafletNearbyMap(points, selectedPlace);
+      setMapProviderStatus("fallback", "Estás usando el mapa alternativo. Podés reintentar el mapa principal.", element);
+      return;
+    }
+  } catch { /* Keep the list usable even if a provider cannot initialize. */ }
+  if (!current()) return;
+  cleanupNearbyMaps();
+  element.replaceChildren();
+  setMapProviderStatus("error", "No pudimos cargar el mapa. Revisá tu conexión y reintentá; los locales siguen disponibles en la lista.", element);
 }
 
 function getGoogleMapsApiKey() {
@@ -1811,27 +1864,12 @@ function getGoogleMapsApiKey() {
 }
 
 function ensureGoogleMaps() {
-  const apiKey = getGoogleMapsApiKey();
-  if (!apiKey) return Promise.resolve(false);
-  if (window.google?.maps) return Promise.resolve(true);
-  if (nearbyMapState.googlePromise) return nearbyMapState.googlePromise;
-  nearbyMapState.googlePromise = new Promise((resolve) => {
-    const callbackName = `paybackGoogleMapsReady${Date.now()}`;
-    window[callbackName] = () => {
-      delete window[callbackName];
-      resolve(true);
-    };
-    const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&callback=${callbackName}`;
-    script.async = true;
-    script.defer = true;
-    script.onerror = () => resolve(false);
-    document.head.appendChild(script);
-  });
-  return nearbyMapState.googlePromise;
+  return getMapProvider().google();
 }
 
 function cleanupNearbyMaps() {
+  window.clearTimeout(nearbyMapState.tileTimer);
+  nearbyMapState.tileTimer = null;
   nearbyMapState.markers.forEach((marker) => marker.remove());
   nearbyMapState.markers = [];
   if (nearbyMapState.userMarker) {
@@ -1974,12 +2012,26 @@ function renderLeafletNearbyMap(points, selectedPlace) {
   const start = getMapStart(selectedPlace);
   const map = window.L.map(mapElement, {
     zoomControl: false,
-    attributionControl: false,
+    attributionControl: true,
   }).setView([start.lat, start.lng], state.location ? 15 : 12);
   nearbyMapState.map = map;
-  window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  const tiles = window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
-  }).addTo(map);
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  });
+  let loadedTile = false;
+  const tileWarning = () => {
+    if (nearbyMapState.map === map) setMapProviderStatus("error", "No se pudo cargar el fondo del mapa. Podés usar la lista de locales o reintentar.", mapElement);
+  };
+  tiles.on("tileload", () => {
+    if (loadedTile) return;
+    loadedTile = true;
+    window.clearTimeout(nearbyMapState.tileTimer);
+    if (nearbyMapState.map === map) setMapProviderStatus("fallback", "Estás usando el mapa alternativo.", mapElement);
+  });
+  tiles.on("tileerror", tileWarning);
+  nearbyMapState.tileTimer = window.setTimeout(() => { if (!loadedTile) tileWarning(); }, 8000);
+  tiles.addTo(map);
 
   getMapVisiblePoints(points).forEach((item) => {
     const primaryPromo = getPointPrimaryPromo(item);
@@ -2018,7 +2070,7 @@ function renderLeafletNearbyMap(points, selectedPlace) {
   if (visible.length > 1) {
     map.fitBounds(window.L.latLngBounds(visible), { padding: [48, 48], maxZoom: state.location ? 16 : 14 });
   }
-  window.setTimeout(() => map.invalidateSize(), 80);
+  window.setTimeout(() => { if (nearbyMapState.map === map) map.invalidateSize(); }, 80);
 }
 
 function getDominantPromoCategory(promos) {
@@ -2319,6 +2371,10 @@ async function requestLocation() {
 async function requestNearbyLocationAutomatically() {
   if (state.activeView !== "nearby" || state.location || state.locationStatus === "loading" || state.nearbyAutoLocationTried) return;
   state.nearbyAutoLocationTried = true;
+  // Loading branches never waits for a GPS permission decision.
+  loadLocations().catch(() => {}).finally(() => {
+    if (state.activeView === "nearby") render();
+  });
   requestLocation();
 }
 
@@ -2336,6 +2392,8 @@ async function exploreNearbyManually() {
 
 async function loadLocations() {
   if (state.locationsLoaded) return;
+  if (state.locationsPromise) return state.locationsPromise;
+  state.locationsPromise = (async () => {
   state.locationsStatus = "loading";
   try {
     const response = await fetch(`${LOCATIONS_URL}?t=${Date.now()}`);
@@ -2356,6 +2414,9 @@ async function loadLocations() {
     state.locationsStatus = "error";
     throw error;
   }
+  })();
+  try { return await state.locationsPromise; }
+  finally { state.locationsPromise = null; }
 }
 
 function toggleFavorite(id) {
@@ -2998,7 +3059,7 @@ function openDetail(id, variantKey = "", placeId = "") {
       ${levelDetails ? `<div><strong>Nivel UENO seleccionado:</strong> Nivel ${state.uenoLevel} · ${escapeHtml(levelDetails.percent)}${levelDetails.purchaseCap ? ` · Compra ${escapeHtml(levelDetails.purchaseCap)}` : ""}${levelDetails.refundCap ? ` · Reintegro ${escapeHtml(levelDetails.refundCap)}` : ""}</div>` : ""}
       ${renderDetailRows(promo, variant)}
       <div class="detail-row"><span>Fuente</span><strong>${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente${formatLastUpdated(promo) ? ` · ${escapeHtml(formatLastUpdated(promo))}` : ""}</strong></div>
-      <div id="detailSourceLink"><a href="${escapeAttribute(promo.source_page_url || promo.source_url || "#")}" target="_blank" rel="noreferrer">${promo.bank === 'Continental' ? 'Ver comercio y condiciones en Continental' : promo.bank === 'GNB' && !/\.pdf(?:[?#]|$)/i.test(promo.source_page_url || promo.source_url || '') ? 'Ver promoción y bases en GNB' : 'Ver bases y condiciones'}</a></div>
+      <div id="detailSourceLink"><a href="${escapeAttribute(safeSourceUrl(promo.source_page_url || promo.source_url || "#"))}" target="_blank" rel="noreferrer">${promo.bank === 'Continental' ? 'Ver comercio y condiciones en Continental' : promo.bank === 'GNB' && !/\.pdf(?:[?#]|$)/i.test(promo.source_page_url || promo.source_url || '') ? 'Ver promoción y bases en GNB' : 'Ver bases y condiciones'}</a></div>
     </div>
   `;
   els.dialog.showModal();
@@ -3035,6 +3096,13 @@ function renderSkeletons() {
 
 function capitalize(value) {
   return String(value || "").charAt(0).toUpperCase() + String(value || "").slice(1);
+}
+
+function safeSourceUrl(value) {
+  try {
+    const url = new URL(value, location.href);
+    return ["https:", "http:"].includes(url.protocol) ? url.href : "#";
+  } catch { return "#"; }
 }
 
 function escapeHtml(value) {
@@ -3146,6 +3214,11 @@ els.results.addEventListener("click", (event) => {
   }
   const mapAction = event.target.closest("[data-map-action]");
   if (mapAction) {
+    if (mapAction.dataset.mapAction === "retry") {
+      getMapProvider().retry();
+      renderNearbyView();
+      return;
+    }
     if (mapAction.dataset.mapAction === "center-user") centerNearbyMapOnUser();
     if (mapAction.dataset.mapAction === "zoom-in") zoomNearbyMap("in");
     if (mapAction.dataset.mapAction === "zoom-out") zoomNearbyMap("out");

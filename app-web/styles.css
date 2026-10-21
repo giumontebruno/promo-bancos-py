@@ -2195,3 +2195,7 @@ dialog::backdrop {
     border-radius: 20px;
   }
 }
+
+.map-provider-status { position: relative; z-index: 500; display: flex; flex-wrap: wrap; gap: .65rem; align-items: center; padding: .8rem; background: #16212a; color: #f7f1e3; }
+.map-provider-status[hidden] { display: none; }
+.map-provider-status button { padding: .55rem .8rem; cursor: pointer; }

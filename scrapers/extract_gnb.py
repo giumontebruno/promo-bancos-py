@@ -105,6 +105,7 @@ def main():
         validity = next((line for line in lines if re.search(r"\b(?:del|desde|hasta)\b.*\b20\d{2}\b", line, re.I)), "")
         reviews.append({
             "ID GNB": card_id,
+            "Fecha snapshot": checked_at,
             "Comercio": card["title"],
             "Categoría web": card["category"],
             "Resumen web": card["miniDescription"],

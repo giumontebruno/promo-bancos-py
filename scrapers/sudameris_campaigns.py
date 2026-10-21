@@ -7,6 +7,10 @@ import pdfplumber
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+try:
+    from .sudameris_document_links import document_links, fetch_pdf
+except ImportError:
+    from sudameris_document_links import document_links, fetch_pdf
 
 
 def clean(value):
@@ -67,13 +71,14 @@ def expand_campaign(row):
     detail = requests.get(row.get('URL fuente actual') or row['URL'], timeout=30)
     detail.raise_for_status()
     soup = BeautifulSoup(detail.text, 'html.parser')
-    urls = [urljoin(row['URL'], a['href']) for a in soup.select('a[href$=".pdf"]')]
+    urls = document_links(detail.text, row.get('URL fuente actual') or row['URL'])
     if not urls:
         raise ValueError('Campaign has no PDF: ' + row['Comercio/Promocion'])
-    response = requests.get(urls[0], timeout=45)
-    response.raise_for_status()
+    if len(urls) != 1:
+        raise ValueError(f'Multiple Sudameris documents require per-city scoped review: {urls}')
+    pdf_bytes = fetch_pdf(urls[0])
     identity = row.get('Bases URL identidad', '').split(';')[0].strip() or urls[0]
-    result = merchant_rows(response.content, identity, row['Comercio/Promocion'])
+    result = merchant_rows(pdf_bytes, identity, row['Comercio/Promocion'])
     for item in result:
         item['URL fuente actual'] = urls[0]
         item['Estado verificacion'] = 'official_document'

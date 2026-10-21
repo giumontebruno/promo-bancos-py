@@ -2,9 +2,11 @@
   "Sudameris": {
     "status": "partial",
     "checked_at": "2026-10-08T14:33:07.837064+00:00",
-    "records": 282,
+    "records": 323,
     "attempted_at": "2026-10-20T12:41:08.481962+00:00",
-    "pending_records": 128
+    "pending_records": 121,
+    "targeted_reviewed_at": "2026-10-21",
+    "targeted_review_note": "Nine exact PDFs revalidated; Zona Norte, McLaren, DTP, Chaval and Cecconello. Full extraction timestamp unchanged."
   },
   "Itaú": {
     "status": "partial",
@@ -45,7 +47,7 @@
   },
   "GNB": {
     "status": "fetched",
-    "checked_at": "2026-10-20T12:38:46.265562+00:00",
+    "checked_at": "2026-10-21T05:27:15.797255+00:00",
     "records": 480
   }
 }

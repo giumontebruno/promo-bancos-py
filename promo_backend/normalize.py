@@ -516,6 +516,19 @@ def retain_expired_history(promotions, previous, today=None):
     return promotions
 
 
+def apply_reviewed_promotion_ids(promotions, reviews):
+    for promo in promotions:
+        for review in reviews:
+            if (promo['id'] == review['generated_id']
+                    and promo['bank'] == review['bank']
+                    and promo['source_url'] == review['source_url']
+                    and hashlib.sha256(promo['raw_detail'].encode()).hexdigest() == review['detail_sha256']):
+                promo['id'] = review['stable_id']
+                break
+    if len({p['id'] for p in promotions}) != len(promotions):
+        raise ValueError('Reviewed promotion identities collide')
+
+
 def main():
     PUBLIC.mkdir(exist_ok=True)
     DATA.mkdir(exist_ok=True)
@@ -545,6 +558,9 @@ def main():
         for identity in identities:
             if identity['campaign_id'] in present_campaigns:
                 aliases.update({old_id: identity['campaign_id'] for old_id in identity['legacy_ids']})
+    reviewed_ids_path = DATA / 'reviewed_promotion_identities.json'
+    if reviewed_ids_path.exists():
+        apply_reviewed_promotion_ids(promotions, json.loads(reviewed_ids_path.read_text(encoding='utf-8')))
     previous_path = PUBLIC / 'promotions.json'
     previous = json.loads(previous_path.read_text(encoding='utf-8')) if previous_path.exists() else []
     committed = subprocess.run(['git', 'show', 'HEAD:public/promotions.json'], cwd=ROOT, capture_output=True, encoding='utf-8')

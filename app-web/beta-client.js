@@ -7,20 +7,34 @@ dialog.className = 'beta-dialog';
 document.body.append(dialog);
 const authGate = document.getElementById('authGate');
 const authStatus = document.getElementById('authStatus');
-let gateMessage = '';
+let gateMessage = '', authPhase = 'checking', authAttempt = 0;
+clearTimeout(window.paybackAuthWatchdog);
+function deadline(promise, ms = 12000) {
+  let timer;
+  return Promise.race([promise, new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('La comprobación tardó demasiado. Reintentá para continuar.')), ms); })]).finally(() => clearTimeout(timer));
+}
 function updateGate() {
-  const locked = !current;
+  const locked = !current || authPhase === 'checking';
   document.body.classList.toggle('auth-required', locked);
   authGate.hidden = !locked;
   document.querySelector('.app-shell').inert = locked;
   document.getElementById('bottomNav').inert = locked;
   if (!locked) return;
-  authStatus.textContent = initError || (!ready ? 'Preparando el acceso…' : !client ? 'El acceso no está disponible en este momento.' : gateMessage);
-  authGate.querySelectorAll('[data-auth-login]').forEach(button => { button.disabled = !client || busy; });
-  authGate.querySelector('[data-auth-retry]').hidden = !initError;
+  const phase = authPhase === 'authenticated' ? 'anonymous' : authPhase;
+  authGate.dataset.state = phase;
+  authGate.setAttribute('aria-busy', String(phase === 'checking' || busy));
+  authStatus.textContent = initError || (phase === 'checking' ? 'Comprobando tu sesión…' : busy ? 'Abriendo Google…' : gateMessage);
+  authGate.querySelectorAll('[data-auth-login]').forEach(button => { button.disabled = !client || busy || phase !== 'anonymous'; });
+  authGate.querySelector('[data-auth-retry]').hidden = phase !== 'error';
+
 }
 function message(text) { const node = dialog.querySelector('[role=status]'); if (node) node.textContent = text; }
-async function accessToken() { return client ? (await client.auth.getSession()).data.session?.access_token : null; }
+async function accessToken() {
+  if (!client) return null;
+  const result = await deadline(client.auth.getSession());
+  if (result.error) throw result.error;
+  return result.data.session?.access_token || null;
+}
 async function api(path, method = 'GET', body) {
   const token = await accessToken();
   if (!token) throw new Error('Ingresá con Google.');
@@ -29,13 +43,17 @@ async function api(path, method = 'GET', body) {
     body: body === undefined ? undefined : JSON.stringify(body), signal: AbortSignal.timeout(15000),
   });
   const data = await response.json();
-  if (!response.ok) throw new Error(data.error || 'No pudimos guardar los cambios.');
+  if (!response.ok) { const error = new Error(data.error || 'No pudimos guardar los cambios.'); error.status = response.status; throw error; }
   return data;
 }
 function changed() { updateGate(); window.dispatchEvent(new CustomEvent('beta-account', { detail: current })); }
-async function refresh() {
+async function refresh(isCurrent = () => true) {
+  const attempt = authAttempt;
   const account = await api('me');
-  const { data } = await client.auth.getSession();
+  const { data, error } = await deadline(client.auth.getSession());
+  if (error) throw error;
+  if (!isCurrent() || attempt !== authAttempt) return;
+  if (!data.session) { current = null; authPhase = 'anonymous'; changed(); return; }
   const metadata = data.session?.user?.user_metadata || {};
   let avatarUrl = '';
   try {
@@ -150,24 +168,24 @@ dialog.addEventListener('click', async e => {
     if (target.hasAttribute('data-beta-retry')) { await init(); show(); }
     if (target.hasAttribute('data-beta-logout')) {
       if (window.PaybackPush?.enabled()) await window.PaybackPush.disable();
-      const { error } = await client.auth.signOut(); if (error) throw error;
-      current = null; lastEvent.clear(); changed(); show();
+      const { error } = await deadline(client.auth.signOut()); if (error) throw error;
+      ++authAttempt; current = null; authPhase = 'anonymous'; initError = ''; lastEvent.clear(); changed(); show();
     }
     if (target.hasAttribute('data-beta-erase')) {
       if (!confirm('¿Borrar favoritos, reportes, actividad y avisos de tu cuenta beta? Tu acceso por correo se conserva.')) return;
       if (window.PaybackPush?.enabled()) await window.PaybackPush.disable();
-      await api('me', 'DELETE'); await client.auth.signOut(); current = null; changed(); show();
+      await api('me', 'DELETE'); await deadline(client.auth.signOut()); current = null; changed(); show();
     }
   } catch (error) { message(error.message); }
 });
 authGate.addEventListener('click', async e => {
-  if (e.target.closest('[data-auth-retry]')) { initError = ''; gateMessage = ''; ready = false; updateGate(); await init(); return; }
+  if (e.target.closest('[data-auth-retry]')) { await init(); return; }
   const button = e.target.closest('[data-auth-login]');
-  if (!button || busy) return;
+  if (!button || busy || authPhase !== 'anonymous') return;
   busy = true;
   gateMessage = 'Abriendo Google…';
   updateGate();
-  try { await login(); }
+  try { await deadline(login()); }
   catch (error) { gateMessage = error.message; }
   finally { busy = false; updateGate(); }
 });
@@ -180,9 +198,9 @@ document.addEventListener('click', async e => {
     if (status) status.textContent = 'Cerrando sesión…';
     try {
       if (window.PaybackPush?.enabled()) await window.PaybackPush.disable();
-      const { error } = await client.auth.signOut();
+      const { error } = await deadline(client.auth.signOut());
       if (error) throw error;
-      current = null; lastEvent.clear(); changed();
+      ++authAttempt; current = null; authPhase = 'anonymous'; initError = ''; lastEvent.clear(); changed();
     } catch {
       if (status) status.textContent = 'No pudimos cerrar la sesión. Intentá nuevamente.';
     } finally { busy = false; logoutButton.disabled = false; }
@@ -206,33 +224,58 @@ document.addEventListener('click', async e => {
 let searchTimer;
 document.getElementById('searchInput')?.addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => event('search'), 1500); });
 async function init() {
+  const attempt = ++authAttempt;
+  const active = () => attempt === authAttempt;
+  authPhase = 'checking'; ready = false; initError = ''; gateMessage = '';
+  updateGate();
   try {
-    initError = '';
-    updateGate();
-    const config = await fetch('./notifications-config.json', { cache: 'no-store' }).then(r => r.json());
-    service = new URL(config.serviceUrl).origin;
-    if (!service.startsWith('https://')) throw new Error('Servicio no disponible');
-    const response = await fetch(service + '/api/beta/config', { signal: AbortSignal.timeout(10000) });
-    if (!response.ok) throw new Error('El registro de beta todavía no está habilitado.');
-    const auth = await response.json(); ready = true;
-    if (!auth.enabled) throw new Error('El registro de beta todavía no está habilitado.');
-    if (!client) {
-      client = createClient(auth.url, auth.key, { auth: { flowType: 'pkce' } });
-      client.auth.onAuthStateChange(() => setTimeout(async () => {
-        try {
-          if (await accessToken()) { await refresh(); event('session'); }
-          else { current = null; changed(); }
-          if (dialog.open) show();
-        } catch (error) { current = null; initError = error.message; changed(); if (dialog.open) message(error.message); }
-      }, 0));
-    }
-    if (await accessToken()) { await refresh(); event('session'); }
-    else updateGate();
+    await deadline((async () => {
+      const configResponse = await fetch('./notifications-config.json', { cache: 'no-store', signal: AbortSignal.timeout(10000) });
+      if (!configResponse.ok) throw new Error('No pudimos preparar el acceso. Reintentá.');
+      const config = await configResponse.json();
+      if (!active()) return;
+      service = new URL(config.serviceUrl).origin;
+      if (!service.startsWith('https://')) throw new Error('Servicio no disponible');
+      const response = await fetch(service + '/api/beta/config', { signal: AbortSignal.timeout(10000) });
+      if (!response.ok) throw new Error('El acceso no está disponible en este momento. Reintentá.');
+      const auth = await response.json();
+      if (!active()) return;
+      if (!auth.enabled) throw new Error('El acceso no está disponible en este momento.');
+      if (!client) {
+        client = createClient(auth.url, auth.key, { auth: { flowType: 'pkce' } });
+        client.auth.onAuthStateChange((eventName) => {
+          if (eventName === 'SIGNED_OUT') {
+            ++authAttempt; current = null; authPhase = 'anonymous'; ready = true; initError = ''; gateMessage = ''; lastEvent.clear(); changed();
+          } else if (eventName !== 'INITIAL_SESSION') {
+            setTimeout(() => { if (authPhase !== 'checking') init(); }, 0);
+          }
+        });
+      }
+      const token = await accessToken();
+      if (!active()) return;
+      // Only the authenticated backend response unlocks the app, never storage alone.
+      if (token) await refresh(active);
+      else current = null;
+      if (!active()) return;
+      authPhase = current ? 'authenticated' : 'anonymous'; ready = true; changed();
+      if (current) event('session');
+    })());
   } catch (error) {
-    initError = error instanceof TypeError ? 'No pudimos conectar con el acceso. Revisá tu conexión e intentá de nuevo.' : error.message;
-    updateGate();
+    if (!active()) return;
+    ++authAttempt; current = null; ready = true;
+    if (error.status === 401) {
+      authPhase = 'anonymous'; initError = ''; gateMessage = 'Tu sesión venció. Ingresá nuevamente para continuar.';
+    } else {
+      authPhase = 'error';
+      initError = !navigator.onLine ? 'Estás sin conexión. Conectate y reintentá para comprobar tu sesión.'
+        : error instanceof TypeError || error.name === 'TimeoutError' ? 'No pudimos conectar con el acceso. Revisá tu conexión y reintentá.' : error.message;
+    }
+    changed();
   }
 }
+window.addEventListener('pageshow', e => { if (e.persisted) init(); });
+window.addEventListener('offline', () => { if (!current && authPhase !== 'checking') { authPhase = 'error'; initError = 'Estás sin conexión. Conectate y reintentá.'; updateGate(); } });
+
 window.PaybackBeta = { accessToken, favorite, level, event, get current() { return current; } };
 updateGate();
 init();

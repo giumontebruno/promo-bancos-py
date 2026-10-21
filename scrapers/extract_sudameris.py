@@ -7,6 +7,10 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
+try:
+    from .sudameris_document_links import document_links
+except ImportError:
+    from sudameris_document_links import document_links
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
@@ -150,8 +154,7 @@ def extract(session):
             raise ValueError('Sudameris detail missing content: ' + item['url'])
         raw_text = description.get_text(' ', strip=True) if description else ' '.join(item.get('short_description_lines', []))
         print('Read official campaign:', item['title'], flush=True)
-        bases = [urljoin(BASE, a['href']) for a in soup.select('a[href]')
-                 if '.pdf' in a['href'].lower() and 'bases' in a.get_text(' ', strip=True).lower()]
+        bases = document_links(str(soup), item['url'])
         candidates = by_title.get(campaign_identity(item['title']), [])
         old = candidates[0] if len(candidates) == 1 else {}
         vigencia = clean(item.get('validity_text', ''))

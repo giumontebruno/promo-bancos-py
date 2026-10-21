@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T12:50:21.752497+00:00",
-  "promotion_count": 3119,
+  "generated_at": "2026-10-21T06:09:05.084448+00:00",
+  "promotion_count": 3160,
   "banks": [
     "Atlas",
     "BNF",
@@ -124,15 +124,15 @@
     "Últimos días"
   ],
   "source_files": [
-    "outputs/gnb_beneficios_por_categoria.csv",
-    "outputs/familiar_beneficios_por_categoria.csv",
-    "outputs/sudameris_beneficios_por_categoria.csv",
-    "outputs/itau_beneficios_por_categoria.csv",
-    "outputs/bnf_beneficios_por_categoria.csv",
-    "outputs/continental_beneficios_por_categoria.csv",
-    "outputs/atlas_beneficios_por_categoria.csv",
-    "outputs/universitaria_beneficios_por_categoria.csv",
-    "outputs/ueno_beneficios_por_categoria.csv"
+    "outputs\\gnb_beneficios_por_categoria.csv",
+    "outputs\\familiar_beneficios_por_categoria.csv",
+    "outputs\\sudameris_beneficios_por_categoria.csv",
+    "outputs\\itau_beneficios_por_categoria.csv",
+    "outputs\\bnf_beneficios_por_categoria.csv",
+    "outputs\\continental_beneficios_por_categoria.csv",
+    "outputs\\atlas_beneficios_por_categoria.csv",
+    "outputs\\universitaria_beneficios_por_categoria.csv",
+    "outputs\\ueno_beneficios_por_categoria.csv"
   ],
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -1143,14 +1143,16 @@
     "3ba2db538d4d96b9-c9b0c4ea": "3ba2db538d4d96b9-686aec29",
     "df43987c78ab0694-346fab0d": "df43987c78ab0694-18b827ac",
     "fd8cedfb36f09b95": "57b016cd047fb17d",
-    "c5aff1b9334bee70": "5e4640be03e0e97b",
     "461ad72e9fa72707": "94b689f451a0649c",
     "6b361360013e9390": "8d89ae969eb7721b",
     "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
     "e1f73d4e7e3f215d": "079f0d097a236e3f",
     "7185b3e16b670118": "c49fcec793914f30",
     "32558b82cfc1a626": "c0ee7afa7cd25388",
-    "4170fdc63d3858cd": "2e507b9fe5140149"
+    "4170fdc63d3858cd": "2e507b9fe5140149",
+    "5f6d9d3d84a953ab": "04a65bc7e05dc5e1",
+    "4379201f6b22a495": "efc458a39de82f8d",
+    "c97d68de00a24d03": "e394f61f2a220563"
   },
   "schema_version": 2
 }
