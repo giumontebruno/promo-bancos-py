@@ -44,7 +44,7 @@
   ],
   "Bienestar": [
     "d8ee4544307fa120",
-    "57b016cd047fb17d",
+    "16ce1db62f5d3301",
     "6deacdfe20941943",
     "25ac0630761a2330"
   ],
@@ -133,13 +133,13 @@
     "5448cdf0a07b3231",
     "eceb3cee8ccf743e",
     "d1675573db824d70",
-    "5bde3619037e55a7",
-    "4ecca2c47b79f7fc",
-    "05777eb7b74dfe2b",
-    "2db84f3a03026003",
-    "07276e9eac015752",
-    "efc8fd0ffcd06d91",
-    "b71d341f0b1ab79b",
+    "ff799c18a3668b78",
+    "5629ece41ec82b71",
+    "9884f059f329be55",
+    "b9700e00bd934133",
+    "98e1c2d4dcd66610",
+    "8b650025d06da223",
+    "a963e4d0eba73cd4",
     "e5a63b46d354c9b9"
   ],
   "Combustibles": [
@@ -562,6 +562,7 @@
     "8cf92c85d5a98a05",
     "109c3493f3d498ed",
     "49a9b4cb7a075742",
+    "b4d1c2e70f4e3661",
     "7be734a4cb712c07",
     "53240fce200c20ad",
     "84cbdedc3ef6ae1d",
@@ -914,7 +915,7 @@
   ],
   "Gastronomía": [
     "fcd65dd8706deecf",
-    "dad8e8a3e3de5f98",
+    "a11aa97394f6238f",
     "44a125c738b02b4a",
     "81b257b4799cef24",
     "051b6f6e7371d7f0",
@@ -1344,10 +1345,6 @@
     "f117ef2cbc028274",
     "51cda081ba9ea8d4",
     "239275c5480d0128",
-    "416342d6684f0a97",
-    "189a550300889b98",
-    "987052bb8aa2d460",
-    "d1800f6449f81868",
     "1b98c6a824da2787",
     "ab9fbf8eb6dde0c7",
     "a719d88c4c5c2edd",
@@ -1410,11 +1407,13 @@
     "51b1c74aebb5b201"
   ],
   "Indumentaria": [
+    "492f65ae0e6c3b5f",
     "b5f14bdcdf7f1fff",
     "9160dcea2abd7186",
     "07ac2ede4233c954",
     "d954fa1263a4709c",
     "c4fa76931a452734",
+    "ea1baa0b5bd16f46",
     "0936454628a2d7aa",
     "187af41091bac104"
   ],
@@ -1540,6 +1539,7 @@
     "f365a7cec2fbd5e9",
     "dc7ba136144ba09b",
     "3db3813a2dff0b80",
+    "bbf0ce4bed5ccd7b",
     "35eb4d380423bd96"
   ],
   "Loma Plata": [
@@ -2024,7 +2024,6 @@
     "6e5af6ba6bb5d67c"
   ],
   "Sin categoría": [
-    "fa7cf197bf64f164",
     "09cee34301cc0e2c",
     "fcccb2053790b2ac"
   ],
@@ -2159,9 +2158,10 @@
     "e76ae4fe1115820a",
     "6bff0736de111f56",
     "da82d67ae4b9867a",
-    "ec15efd033a41b64",
+    "fcf246251f50f128",
     "ff4c6185fb570e95",
     "11dc3e9184847986",
+    "8e7b615784edec96",
     "c1337276151a013a",
     "ed291d0c305cbac9",
     "0a1bc77b1eefdf0b",
@@ -2265,7 +2265,8 @@
     "0aac760a9b8a4bd9",
     "753384e542c83886",
     "ba563916f9a085f1",
-    "85d80ad4b67e6a94"
+    "85d80ad4b67e6a94",
+    "ec15efd033a41b64"
   ],
   "Teatro": [
     "40da645d3696d520",
@@ -2326,7 +2327,6 @@
     "28686c05a1134f76",
     "2a896e1fdd618f43",
     "9f8846df0e30fac9",
-    "71aace636f0fb4c0",
     "c55d7f6f172fc412",
     "ff14a3dfdb58783b",
     "1e17a176298f1978",
@@ -3066,7 +3066,6 @@
     "665c6d689abc7a61",
     "6fe89d141c0f664c",
     "25ccaafb1bb82a74",
-    "dc1bb39f676822d8",
     "eaf2f978a48339f4",
     "cdc8a6767d833816",
     "58cf594c7697fcb5",
@@ -3138,7 +3137,7 @@
     "d5af13b5ac1f8e0d",
     "fcd1d2cc066af668",
     "822ce2bb6bc84d9f",
-    "62bbc7783aa79373",
+    "45477471f0c7fdf8",
     "888adb67a663e438",
     "17af837bb71947e5",
     "bed2297c43a0fd97",
