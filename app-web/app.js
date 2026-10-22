@@ -1508,8 +1508,9 @@ function syncFavoriteAlerts() {
   PaybackPush.sync(state.favorites, state.uenoLevel).catch(error => { state.pushMessage = error.message; });
 }
 
-function renderNearbyView() {
+function renderNearbyView(selection = null) {
   nearbyMapState.renderId += 1;
+  nearbyMapState.selection = null;
   cleanupNearbyMaps();
   if (!state.locationsLoaded) {
     const messages = {
@@ -1579,7 +1580,11 @@ function renderNearbyView() {
       ${promos.length ? renderNearbyPromoGroups(promos, selectedPoint?.place) : `<div class="empty">No encontramos locales geolocalizados para el filtro actual.</div>`}
     </section>
   `;
-  hydrateNearbyMap(points, selectedPlace);
+  const focus = selection?.pointKey === getPointKey(selectedPoint)
+    && Number.isFinite(selectedPlace.lat) && Number.isFinite(selectedPlace.lng)
+    ? selection : null;
+  nearbyMapState.selection = focus;
+  hydrateNearbyMap(points, selectedPlace, focus);
 }
 
 function getNearbyActiveFilterText() {
@@ -1811,7 +1816,10 @@ function getMapProvider() {
   if (!nearbyMapState.provider) nearbyMapState.provider = window.PaybackMapProvider.create({
     window, document, getGoogleKey: getGoogleMapsApiKey,
     onGoogleFailure: () => {
-      if (state.activeView === "nearby" && document.querySelector("#nearbyMap")) renderNearbyView();
+      if (state.activeView === "nearby" && document.querySelector("#nearbyMap")) {
+        if (nearbyMapState.selection) selectNearbyPlace(nearbyMapState.selection.pointKey);
+        else renderNearbyView();
+      }
     },
   });
   return nearbyMapState.provider;
@@ -1828,7 +1836,7 @@ function setMapProviderStatus(status, message, element = document.querySelector(
   panel.querySelector("button").hidden = status === "loading" || status === "ready";
 }
 
-async function hydrateNearbyMap(points, selectedPlace) {
+async function hydrateNearbyMap(points, selectedPlace, focus = null) {
   const element = document.querySelector("#nearbyMap");
   const renderId = nearbyMapState.renderId;
   const current = () => state.activeView === "nearby" && renderId === nearbyMapState.renderId
@@ -1839,7 +1847,7 @@ async function hydrateNearbyMap(points, selectedPlace) {
     if (await ensureGoogleMaps()) {
       if (!current()) return;
       try {
-        renderGoogleNearbyMap(points, selectedPlace);
+        renderGoogleNearbyMap(points, selectedPlace, focus);
         setMapProviderStatus("ready", "", element);
         return;
       } catch { cleanupNearbyMaps(); }
@@ -1848,7 +1856,7 @@ async function hydrateNearbyMap(points, selectedPlace) {
     setMapProviderStatus("loading", "Cargando mapa alternativo… La lista de locales sigue disponible.", element);
     if (await getMapProvider().leaflet()) {
       if (!current()) return;
-      renderLeafletNearbyMap(points, selectedPlace);
+      renderLeafletNearbyMap(points, selectedPlace, focus);
       setMapProviderStatus("fallback", "Estás usando el mapa alternativo. Podés reintentar el mapa principal.", element);
       return;
     }
@@ -1921,14 +1929,22 @@ function getMapStart(selectedPlace) {
     : { lat: -25.2867, lng: -57.6282 };
 }
 
-function renderGoogleNearbyMap(points, selectedPlace) {
+function selectNearbyPlace(pointKey) {
+  // Capture the camera before renderNearbyView tears down the current map.
+  const map = nearbyMapState.googleMap || nearbyMapState.map;
+  const zoom = map?.getZoom();
+  state.activePlaceName = pointKey;
+  renderNearbyView({ pointKey, zoom: Math.max(16, Number.isFinite(zoom) ? zoom : 16) });
+}
+
+function renderGoogleNearbyMap(points, selectedPlace, focus = null) {
   const mapElement = document.querySelector("#nearbyMap");
   if (!mapElement || !window.google?.maps) return;
   cleanupNearbyMaps();
   const start = getMapStart(selectedPlace);
   const map = new window.google.maps.Map(mapElement, {
     center: start,
-    zoom: state.location ? 15 : 12,
+    zoom: focus ? focus.zoom : state.location ? 15 : 12,
     clickableIcons: false,
     fullscreenControl: false,
     mapTypeControl: false,
@@ -1954,8 +1970,7 @@ function renderGoogleNearbyMap(points, selectedPlace) {
       icon: getGoogleMarkerIcon(item, selectedPlace),
     });
     marker.addListener("click", () => {
-      state.activePlaceName = getPointKey(item);
-      renderNearbyView();
+      selectNearbyPlace(getPointKey(item));
     });
     nearbyMapState.googleMarkers.push(marker);
     bounds.extend(marker.getPosition());
@@ -1976,7 +1991,7 @@ function renderGoogleNearbyMap(points, selectedPlace) {
     });
     bounds.extend(nearbyMapState.googleUserMarker.getPosition());
   }
-  if (!bounds.isEmpty()) {
+  if (!focus && !bounds.isEmpty()) {
     map.fitBounds(bounds, 48);
     window.google.maps.event.addListenerOnce(map, "bounds_changed", () => {
       if (map.getZoom() > 17) map.setZoom(17);
@@ -2004,7 +2019,7 @@ function getGoogleMarkerIcon(item, selectedPlace) {
   };
 }
 
-function renderLeafletNearbyMap(points, selectedPlace) {
+function renderLeafletNearbyMap(points, selectedPlace, focus = null) {
   if (!window.L) return;
   const mapElement = document.querySelector("#nearbyMap");
   if (!mapElement) return;
@@ -2013,7 +2028,7 @@ function renderLeafletNearbyMap(points, selectedPlace) {
   const map = window.L.map(mapElement, {
     zoomControl: false,
     attributionControl: true,
-  }).setView([start.lat, start.lng], state.location ? 15 : 12);
+  }).setView([start.lat, start.lng], focus ? Math.min(focus.zoom, 19) : state.location ? 15 : 12);
   nearbyMapState.map = map;
   const tiles = window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
@@ -2048,8 +2063,7 @@ function renderLeafletNearbyMap(points, selectedPlace) {
       }),
     }).addTo(map);
     marker.on("click", () => {
-      state.activePlaceName = getPointKey(item);
-      renderNearbyView();
+      selectNearbyPlace(getPointKey(item));
     });
     nearbyMapState.markers.push(marker);
   });
@@ -2067,7 +2081,7 @@ function renderLeafletNearbyMap(points, selectedPlace) {
     .filter((item) => Number.isFinite(item.place.lat) && Number.isFinite(item.place.lng))
     .map((item) => [item.place.lat, item.place.lng]);
   if (state.location) visible.push([state.location.lat, state.location.lng]);
-  if (visible.length > 1) {
+  if (!focus && visible.length > 1) {
     map.fitBounds(window.L.latLngBounds(visible), { padding: [48, 48], maxZoom: state.location ? 16 : 14 });
   }
   window.setTimeout(() => { if (nearbyMapState.map === map) map.invalidateSize(); }, 80);
@@ -3251,8 +3265,7 @@ els.results.addEventListener("click", (event) => {
 
   const placeButton = event.target.closest("[data-place-name]");
   if (placeButton) {
-    state.activePlaceName = placeButton.dataset.placeName;
-    renderNearbyView();
+    selectNearbyPlace(placeButton.dataset.placeName);
     return;
   }
 

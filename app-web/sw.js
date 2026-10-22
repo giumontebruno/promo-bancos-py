@@ -1,4 +1,4 @@
-const CACHE_NAME = "payback-py-beta-34-final-session-guard";
+const CACHE_NAME = "payback-py-beta-35-map-store-selection";
 const matchCurrentCache = (request) => caches.open(CACHE_NAME).then((cache) => cache.match(request));
 const APP_SHELL = [
   "./",
