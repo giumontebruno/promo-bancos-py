@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T15:47:03.436094+00:00",
-  "promotion_count": 3165,
+  "generated_at": "2026-10-22T13:08:17.111299+00:00",
+  "promotion_count": 3171,
   "banks": [
     "Atlas",
     "BNF",
@@ -106,6 +106,7 @@
     "Shopping Mariscal",
     "Shoppings",
     "Sin categoría",
+    "Stock & Superseis",
     "Supermercados",
     "Teatro",
     "Tecnología",
@@ -119,20 +120,19 @@
     "Viajes",
     "Viajes y turismo",
     "Villarrica",
-    "shell",
     "Ópticas",
     "Últimos días"
   ],
   "source_files": [
-    "outputs\\gnb_beneficios_por_categoria.csv",
-    "outputs\\familiar_beneficios_por_categoria.csv",
-    "outputs\\sudameris_beneficios_por_categoria.csv",
-    "outputs\\itau_beneficios_por_categoria.csv",
-    "outputs\\bnf_beneficios_por_categoria.csv",
-    "outputs\\continental_beneficios_por_categoria.csv",
-    "outputs\\atlas_beneficios_por_categoria.csv",
-    "outputs\\universitaria_beneficios_por_categoria.csv",
-    "outputs\\ueno_beneficios_por_categoria.csv"
+    "outputs/gnb_beneficios_por_categoria.csv",
+    "outputs/familiar_beneficios_por_categoria.csv",
+    "outputs/sudameris_beneficios_por_categoria.csv",
+    "outputs/itau_beneficios_por_categoria.csv",
+    "outputs/bnf_beneficios_por_categoria.csv",
+    "outputs/continental_beneficios_por_categoria.csv",
+    "outputs/atlas_beneficios_por_categoria.csv",
+    "outputs/universitaria_beneficios_por_categoria.csv",
+    "outputs/ueno_beneficios_por_categoria.csv"
   ],
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -1031,7 +1031,7 @@
     "172d81ed5723f001": "5f82de08cf0a51e9",
     "ea417a345b704d66": "18381bec95c1205a",
     "af4aa9f887face8d": "39389637533bf279",
-    "ff0756763498bddf": "9d4f993fe46576c7",
+    "ff0756763498bddf": "2f744c6f226476f5",
     "e9433eaf2e923d71": "5d4984bec1520bce",
     "a9dab26fd7ba3ea6": "b424cf5c1011ae41",
     "c01ba0fd421ec3f2": "e44e1ba6bea3c36b",
@@ -1162,15 +1162,21 @@
     "fedb8e709e847829": "139f6f292f3647cc",
     "4c69b3b5410c9c8e": "139f6f292f3647cc",
     "0936454628a2d7aa": "b0f9613cae285775",
-    "8d89ae969eb7721b": "6b361360013e9390",
-    "b89d12700f21e3ff": "b5d5c2bf0deba0dd",
     "4170fdc63d3858cd": "2e507b9fe5140149",
     "81168f4fa2f6ee46": "2e507b9fe5140149",
     "532a4f732d61c330": "2e507b9fe5140149",
-    "e027ca43a20e31ae": "c176e59f30f3f0d2",
-    "b7ff778146ab42eb": "c176e59f30f3f0d2",
-    "0220dc99dc595e52": "c176e59f30f3f0d2",
-    "e276eca8fd925260": "c176e59f30f3f0d2"
+    "e027ca43a20e31ae": "cb437e0e1f5ed137",
+    "b7ff778146ab42eb": "cb437e0e1f5ed137",
+    "0220dc99dc595e52": "cb437e0e1f5ed137",
+    "e276eca8fd925260": "cb437e0e1f5ed137",
+    "9d4f993fe46576c7": "2f744c6f226476f5",
+    "970c88096544f355": "cb437e0e1f5ed137",
+    "c176e59f30f3f0d2": "cb437e0e1f5ed137",
+    "a649c6831a4e7858": "cb437e0e1f5ed137",
+    "7607ac3e58590edd": "cb437e0e1f5ed137",
+    "b78d56e9a993438d": "cb437e0e1f5ed137",
+    "6b361360013e9390": "8d89ae969eb7721b",
+    "b5d5c2bf0deba0dd": "b89d12700f21e3ff"
   },
   "schema_version": 2
 }

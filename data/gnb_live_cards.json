@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-21T15:23:20.336512+00:00",
-  "total": 251,
+  "checkedAt": "2026-10-22T12:53:24.214418+00:00",
+  "total": 250,
   "cards": [
     {
       "id": 680,
@@ -62,25 +62,6 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4295_bases-y-condiciones-la-ruta-gastr%C3%B3nomica-oct.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4296_ruta-gastro-10-2025-web.png"
-    },
-    {
-      "id": 685,
-      "title": "Nissei - Congreso Revelar",
-      "startDate": "2026-10-20",
-      "endDate": "2026-10-21",
-      "miniDescription": "10% de reintegro + Hasta 18 cuotas sin intereses.",
-      "category": "Días GNB",
-      "lines": [
-        "10% de reintegro + Hasta 18 cuotas sin intereses.",
-        "Del 20 al 21 de octubre del 2026.",
-        "10% de reintegro adicional para pagos con tarjetas de crédito Mastercard del Banco GNB Paraguay.",
-        "Hasta 18 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
-        "Tope de compra por periodo de la promoción: Gs. 1.000.000 (guaraníes un millón) por cuenta de tarjeta de crédito (incluye titulares y adicionales).",
-        "Los reintegros serán reflejados de manera automática en el extracto del cliente, en un período de 24 a 48hs hábiles luego de la compra.",
-        "No participan de la promoción las tarjetas de débito y crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas."
-      ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5389_bases-y-condiciones-nissei-congreso-revelar.pdf",
-      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5390_revelar-nissei.png"
     },
     {
       "id": 175,
@@ -179,7 +160,7 @@
         "No aplica para pagos realizados a través de plataformas de terceros (Pedidos Ya, Monchis, entre otros) y/o e-commerce.",
         "No acumulable con otras promociones."
       ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4485_bases-y-condiciones-restaurantes-bares-y-pizzer%C3%ADas-septiembre.pdf",
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4485_bases-y-condiciones-restaurantes-bares-y-pizzer%C3%ADas-oct.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4486_bares-resto-08-2025-web.png"
     },
     {

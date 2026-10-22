@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 41
+Total de beneficios: 39
 
 ## Bienestar
 
@@ -10,7 +10,6 @@ Total de beneficios: 41
 |---|---|---|---|
 | Feria de Viajes | 20% de reintegro; 15% de reintegro; 18 cuotas sin intereses | 23 de octubre | Desde 2026-10-23 hasta 2026-10-23 |
 | Martiderm | 20% de descuento; 3 cuotas sin intereses | Último jueves del mes | Hasta 2026-12-31 |
-| Miércoles Plus | 20% de descuento; +10% de reintegro; 3 cuotas sin intereses | 21 de octubre | Desde 2026-10-21 hasta 2026-10-21 |
 | Nueva Americana | 25% de descuento; 20% de descuento; 12 cuotas sin intereses | 29 y 30 de octubre | Desde 2026-10-29 hasta 2026-10-30 |
 | Prepaga Joven | 20% de reintegro; En tiendas adheridas: | Todos los días | Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 d |
 
@@ -72,7 +71,6 @@ Total de beneficios: 41
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Delimarket | 20% de reintegro; 15% de reintegro | Todos los Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito delSol Atlas Visa Signature, Gs. 1.500.000 para tarjetas de crédito delSol Atlas Visa Clásica. Aplica para compras realizadas a través |
-| Gran Vía | 20% de reintegro | Tercer miércoles del mes | Tope de compra acumulado en comercios adheridos a la promoción de “Supermercados zona Este” Gs. 1.000.000 por cuneta de tarjeta, para compras a través del POS de la Red Infonet. Vigente el tercer miércoles del mes hasta  |
 | Supermercados | 20% de reintegro; 15% de reintegro | Todos los Viernes | Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tar |
 
 ## Tecnología

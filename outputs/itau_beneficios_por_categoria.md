@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 530
+Total de beneficios: 532
 
 ## Alemania Cell
 
@@ -549,19 +549,23 @@ Total de beneficios: 530
 | Under Armour | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% adicional pagando con Google Pay y Apple Pay y hasta 6 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-12-03 |
 | Veronica Torres | 6 Cuotas sin intereses 15 % Hasta; 10% de ahorro mas 5% adicional pagando con QR, Google Pay y Gpay y hasta 6 cuotas sin intereses. | No especificado | 2025-08-07 hasta 2026-12-03 |
 
+## Stock & Superseis
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Stock | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
+| SuperSeis | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
+
 ## Supermercados
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Areté | 15 %; Tenes 15% de ahorro. | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
-| Areté | 25 % Hasta; hasta 25% de ahorro | No especificado | 2025-01-04 hasta 2026-10-25 |
 | Biggie | 15 %; 15% de ahorro. | No especificado | 2025-01-31 hasta 2026-11-06 |
 | CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-12-01 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
-| Stock | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
 | Super Real | 15 %; 15% de ahorro. | Aplica los LUNES | 2025-10-06 hasta 2026-12-31 |
-| SuperSeis | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
 
 ## Teatro
 
@@ -696,17 +700,15 @@ Total de beneficios: 530
 | UG Hogar | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses | Aplica LUNES; LUNES A VIERNES | 2023-04-28 hasta 2026-12-31 |
 | Valerie | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES | 2024-02-02 hasta 2026-12-31 |
 
-## shell
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Shell | 25 %; Tenes 25% de reintegro | No especificado | 2025-04-14 hasta 2026-11-19 |
-
 ## Últimos días
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Automaq | 25 % Hasta 10 Cuotas sin intereses; Tenés 20% de ahorro + 5% de reintegro pagando con PERSONAL BANK y hasta 10 cuotas sin intereses. | No especificado | 2020-07-01 hasta 2026-10-24 |
+| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingo 25 de octubre de 2026 | Desde 2026-10-25 hasta 2026-10-25 |
+| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingo 25 de octubre de 2026 | Desde 2026-10-25 hasta 2026-10-25 |
+| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingo 25 de octubre de 2026 | Desde 2026-10-25 hasta 2026-10-25 |
+| Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingo 25 de octubre de 2026 | Desde 2026-10-25 hasta 2026-10-25 |
+| Automaq | 25 % Hasta 10 Cuotas sin intereses; Tenés 20% de ahorro + 5% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2020-07-01 hasta 2026-10-24 |
 | Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-11-20 hasta 2026-10-22 |
 | Cinntre | 6 Cuotas sin intereses 25 % Hasta; Tenés 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2025-03-13 hasta 2026-10-24 |
 | Cloetas | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses. | No especificado | 2026-10-20 hasta 2026-10-22 |

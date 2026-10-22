@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-21T15:27:48.793864+00:00",
-  "published": 411,
+  "checked_at": "2026-10-22T12:57:24.217714+00:00",
+  "published": 413,
   "pending": [
     {
       "merchant_name": "EXPERIENZA PY - AMERICA SHOP",
@@ -255,7 +255,7 @@
     },
     {
       "merchant_name": "CONSOLIDADO DE PROMOCIONES",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-consolidado-de-promociones-bases-y-condiciones",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-consolidado-de-promociones-bases-y-condiciones-octubre2026",
       "reason": "ambiguous_dates"
     },
     {
@@ -327,11 +327,6 @@
       "merchant_name": "NISSAN",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-cuevas-hermanos-bases-y-condiciones",
       "reason": "merchant_not_in_terms"
-    },
-    {
-      "merchant_name": "TIA LAURA DELICIAS",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-tia-laura-delicias-bases-y-condiciones",
-      "reason": "missing_terms"
     },
     {
       "merchant_name": "836 COCINA INTERNACIONAL",

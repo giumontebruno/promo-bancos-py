@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T15:47:03.436094+00:00",
-  "input_count": 3128,
-  "promotion_count": 3165,
-  "duplicates_removed": -37,
+  "generated_at": "2026-10-22T13:08:17.111299+00:00",
+  "input_count": 3127,
+  "promotion_count": 3171,
+  "duplicates_removed": -44,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -900,7 +900,7 @@
     "172d81ed5723f001": "5f82de08cf0a51e9",
     "ea417a345b704d66": "18381bec95c1205a",
     "af4aa9f887face8d": "39389637533bf279",
-    "ff0756763498bddf": "9d4f993fe46576c7",
+    "ff0756763498bddf": "2f744c6f226476f5",
     "e9433eaf2e923d71": "5d4984bec1520bce",
     "a9dab26fd7ba3ea6": "b424cf5c1011ae41",
     "c01ba0fd421ec3f2": "e44e1ba6bea3c36b",
@@ -1031,45 +1031,42 @@
     "fedb8e709e847829": "139f6f292f3647cc",
     "4c69b3b5410c9c8e": "139f6f292f3647cc",
     "0936454628a2d7aa": "b0f9613cae285775",
-    "8d89ae969eb7721b": "6b361360013e9390",
-    "b89d12700f21e3ff": "b5d5c2bf0deba0dd",
     "4170fdc63d3858cd": "2e507b9fe5140149",
     "81168f4fa2f6ee46": "2e507b9fe5140149",
     "532a4f732d61c330": "2e507b9fe5140149",
-    "e027ca43a20e31ae": "c176e59f30f3f0d2",
-    "b7ff778146ab42eb": "c176e59f30f3f0d2",
-    "0220dc99dc595e52": "c176e59f30f3f0d2",
-    "e276eca8fd925260": "c176e59f30f3f0d2"
+    "e027ca43a20e31ae": "cb437e0e1f5ed137",
+    "b7ff778146ab42eb": "cb437e0e1f5ed137",
+    "0220dc99dc595e52": "cb437e0e1f5ed137",
+    "e276eca8fd925260": "cb437e0e1f5ed137",
+    "9d4f993fe46576c7": "2f744c6f226476f5",
+    "970c88096544f355": "cb437e0e1f5ed137",
+    "c176e59f30f3f0d2": "cb437e0e1f5ed137",
+    "a649c6831a4e7858": "cb437e0e1f5ed137",
+    "7607ac3e58590edd": "cb437e0e1f5ed137",
+    "b78d56e9a993438d": "cb437e0e1f5ed137",
+    "6b361360013e9390": "8d89ae969eb7721b",
+    "b5d5c2bf0deba0dd": "b89d12700f21e3ff"
   },
   "by_bank": {
-    "Atlas": 45,
+    "Atlas": 44,
     "BNF": 77,
-    "Continental": 836,
+    "Continental": 842,
     "Coop. Universitaria": 71,
-    "Familiar": 411,
+    "Familiar": 413,
     "GNB": 481,
-    "Itaú": 566,
+    "Itaú": 565,
     "Sudameris": 324,
     "ueno bank": 354
   },
   "issue_counts": {
-    "source_verification_pending": 126,
     "limits_unconfirmed": 219,
-    "validity_unconfirmed": 28,
-    "multiple_purchase_limits": 243,
+    "validity_unconfirmed": 26,
+    "multiple_purchase_limits": 246,
     "source_amount_conflict": 15,
-    "multiple_refund_limits": 103
+    "multiple_refund_limits": 103,
+    "source_verification_pending": 126
   },
   "review_queue": [
-    {
-      "id": "16ce1db62f5d3301",
-      "bank": "Atlas",
-      "merchant": "Miércoles Plus",
-      "issues": [
-        "source_verification_pending"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web//Mi%C3%A9rcoles%20Plus.pdf"
-    },
     {
       "id": "d70ba6f32e9a8624",
       "bank": "Atlas",
@@ -1270,6 +1267,15 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
+      "id": "1d301896b23362e6",
+      "bank": "Continental",
+      "merchant": "Centauri Smart House",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
       "id": "223ca085023c1add",
       "bank": "Continental",
       "merchant": "FarmaInternacional - Grupo Guide",
@@ -1378,11 +1384,10 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "cfb6537ed76d79a8",
+      "id": "24e52492c77a7844",
       "bank": "Continental",
-      "merchant": "Restaurantes",
+      "merchant": "Restaurantes de todo el país",
       "issues": [
-        "validity_unconfirmed",
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
@@ -1920,11 +1925,10 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "9d4f993fe46576c7",
+      "id": "2f744c6f226476f5",
       "bank": "Continental",
       "merchant": "Bertoni",
       "issues": [
-        "validity_unconfirmed",
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
@@ -2498,7 +2502,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "7dad699cfa8d6835",
+      "id": "f425a986366ea26b",
       "bank": "Continental",
       "merchant": "Sportfino",
       "issues": [
@@ -2615,7 +2619,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "c81e845fca139f06",
+      "id": "45dac8bb88f1aab1",
       "bank": "Continental",
       "merchant": "Chacomer S.A.E",
       "issues": [
@@ -6665,6 +6669,33 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-VIAJES-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "16ce1db62f5d3301",
+      "bank": "Atlas",
+      "merchant": "Miércoles Plus",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web//Mi%C3%A9rcoles%20Plus.pdf"
+    },
+    {
+      "id": "7dad699cfa8d6835",
+      "bank": "Continental",
+      "merchant": "Sportfino",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "c81e845fca139f06",
+      "bank": "Continental",
+      "merchant": "Chacomer S.A.E",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
       "id": "7504d6a61472f7c3",

@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 834
+Total de beneficios/comercios: 836
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -77,7 +77,7 @@ Total de beneficios/comercios: 834
 | Global Box | 20%; Hasta 6 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 28 de noviembre de 2026 | Todo el país |
 | Parway Cargo | 15%; 15% de reintegro | Los jueves | Vigente hasta el 30 de septiembre de 2027 | No especificado |
 
-## Deportes (9)
+## Deportes (10)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -86,6 +86,7 @@ Total de beneficios/comercios: 834
 | Complejo Rotela | 20%; 20% de reintegro | los viernes | Vigente hasta el 26 de febrero del 2027 | Ma. Auxiliadora (Itapúa) |
 | DT Básquet | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de febrero de 2027 | Asunción |
 | Javi Deportes | 20%; 20% de reintegro | los jueves | Vigente hasta el 18 de marzo de 2027 | Encarnación |
+| Life Fitness | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 21 de octubre de 2027 | Asunción |
 | Renova Padel | 20%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 28 de mayo de 2027 | Ciudad del Este |
 | Sport Cesped | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 28 de agosto de 2027 | Asunción |
 | Tienda Padel | 20%; hasta 6 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 08 de abril de 2027 | Fernando de la Mora |
@@ -111,7 +112,7 @@ Total de beneficios/comercios: 834
 | Celexx | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 24 de agosto de 2027 | Mariano Roque Alonso |
 | CellShop | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 18 de febrero de 2027 | Todo el país |
 | Cellcomp | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 08 de marzo de 2027 | Naranjal |
-| Centauri Smart House | 15%; 15% de reintegro | los jueves | Vigente hasta el 15 de octubre del 2026 | Ayolas - Misiones |
+| Centauri Smart House | 15%; Hasta 12 cuotas sin intereses; 15% de reintegro | todos los días | Vigente hasta el 21 de octubre de 2027 | Ayolas - Misiones |
 | Choice | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 11 de julio de 2027 | Ciudad del Este |
 | Compu shop | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 17 de noviembre del 2026 | No especificado |
 | Creativa - Informática & Papelería | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de diciembre de 2026 | Naranjal |
@@ -368,7 +369,7 @@ _Se omitieron 26 filas en este resumen; están en el CSV._
 | Impacto | 10%; hasta 18 cuotas sin intereses; 10% de reintegro; 5% de reintegro; 15% de descuento | todos los días | Vigente desde el 21 de febrero al 21 de noviembre del 2026 | No especificado |
 | Inoga - Inmapol | Hasta 18 cuotas sin intereses; 25% de descuento | Todos los días | Vigente hasta 31 de julio de 2027 | Asunción |
 | Inverfin | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 08 de agosto de 2027 | Todo el país |
-| Luminotecnia | hasta 12 cuotas sin intereses; 20% de reintegro; 25% de reintegro | todos los días | Vigente hasta el 15 de octubre del 2026 | No especificado |
+| Luminotecnia | 25%; 25% de reintegro; 20% de reintegro | Los jueves | Vigente hasta el 19 de octubre de 2027 | Todo el país |
 | Meyer Gini | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 05 de noviembre de 2026 | Asunción |
 | Mirno | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de diciembre de 2026 | Luque |
 | Morare Electrodomésticos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 07 de septiembre de 2027 | San Lorenzo |
@@ -542,7 +543,7 @@ _Se omitieron 26 filas en este resumen; están en el CSV._
 | Nike - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Todo el país |
 | O Boticário - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | Privilege - Peluquerías y Spa | 35%; 35% de reintegro | los sábados | Vigente hasta el 16 de enero del 2027 | No especificado |
-| Privilege - Restaurantes | 35%; 35% de reintegro | los sábados | Vigente hasta el 24 de octubre del 2026 | No especificado |
+| Privilege - Restaurantes de todo el país | 35%; 35% de reintegro | Los sábados | Vigente hasta el 25 de octubre de 2027 | Todo el país |
 | Promo cumpleaños - Privilege | 50% | No especificado | Vigente desde el 27 de agosto hasta el 26 de noviembre de 2026 | Todo el país |
 | Rookie - Privilege | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
 | Springfield - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
@@ -716,7 +717,7 @@ _Se omitieron 26 filas en este resumen; están en el CSV._
 
 _Se omitieron 39 filas en este resumen; están en el CSV._
 
-## Tiendas (206)
+## Tiendas (207)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -744,7 +745,7 @@ _Se omitieron 39 filas en este resumen; están en el CSV._
 | Barista Róga | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre del 2026 | Asunción |
 | Belvi Studio | 20%; 20% de reintegro | Los jueves | Vigente hasta el 19 de febrero de 2027 | Naranjal |
 | Benditta Collection | 25%; Hasta 12 cuotas sin intereses; 10% de reintegro; 15% de descuento | todos los días | Vigente hasta el 09 de marzo de 2027 | Encarnación |
-| Bertoni | 20%; hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 15 octubre de 2026 | Asunción |
+| Bertoni | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 15 de octubre de 2027 | Todo el país |
 | Birkenstock | 25% de reintegro; 20% de reintegro | los jueves | Vigente hasta el 13 de noviembre de 2026 | No especificado |
 | Body Club | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 15 de abril de 2027 | Asunción |
 | Body Sculpt | hasta 12 cuotas sin intereses; 20% en caja | todos los días | Vigente hasta el 04 de febrero del 2027 | No especificado |
@@ -801,7 +802,7 @@ _Se omitieron 39 filas en este resumen; están en el CSV._
 | HeartWood | 20%; 20% de reintegro | los jueves | Vigente hasta el 12 de agosto de 2027 | Santa Rita (Alto Paraná) |
 | Hey Dude | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 01 de julio de 2027 | Asunción |
 
-_Se omitieron 126 filas en este resumen; están en el CSV._
+_Se omitieron 127 filas en este resumen; están en el CSV._
 
 ## Vehículos (38)
 
@@ -814,7 +815,7 @@ _Se omitieron 126 filas en este resumen; están en el CSV._
 | Automotor | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 14 de abril de 2027 | No especificado |
 | Carsuplay | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 08 de abril de 2027 | No especificado |
 | Chacomer | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de noviembre del 2026 | No especificado |
-| Chacomer S.A.E | hasta 18 cuotas sin intereses; 10% de reintegro; 10% de descuento | todos los días | Vigente hasta el 15 de octubre del 2026 | No especificado |
+| Chacomer S.A.E | 10%; Hasta 18 cuotas sin intereses; 10% de reintegro | todos los días | Vigente hasta el 21 de octubre de 2027 | Todo el país |
 | Classic Motos | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | No especificado |
 | DIM Sport | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Asunción |
 | Damper Repuestos | 10%; hasta 12 cuotas sin intereses; 10% de descuento | Todos los días | Vigente hasta el 11 de febrero de 2027 | Curuguaty |
