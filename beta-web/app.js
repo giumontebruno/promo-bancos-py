@@ -1351,7 +1351,7 @@ function renderResults() {
   els.results.innerHTML = (state.activeView === "favorites" ? renderFavoriteAlerts() : "") + buildResultSections(base).map(([title, items, mode], index) => {
     const isCollapsed = shouldCollapseSection(title, mode, index);
     return `
-    <section class="${mode === "featured" ? "featured-section" : ""} ${isCollapsed ? "collapsed" : ""}" data-section="${escapeAttribute(title)}">
+    <section class="${mode === "featured" ? "featured-section" : ""} ${mode === "premium" || title === "Club Black" ? "club-black-section" : ""} ${isCollapsed ? "collapsed" : ""}" data-section="${escapeAttribute(title)}">
       <button class="section-toggle" type="button" data-section-toggle="${escapeAttribute(title)}" aria-expanded="${String(!isCollapsed)}">
         <span class="chevron" aria-hidden="true"></span>
         <span class="section-copy">
