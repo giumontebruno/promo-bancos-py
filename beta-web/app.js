@@ -1120,18 +1120,19 @@ function getFirstDayOfMonthDateLegacy(year, month, day) {
 }
 
 function matchesQuery(promo) {
-  const query = normalizeDayName(state.query);
+  const query = normalizeDayName(state.query).replace(/\bfarmacias?\b/g, "farmacia");
   if (!query) return true;
   const haystack = normalizeDayName([
     promo.merchant_name,
     promo.category,
+    /farma|drugstore/.test(normalizeDayName(promo.merchant_name)) ? "farmacia" : "",
     promo.bank,
     promo.benefit_summary,
     promo.caps_and_minimums,
     promo.level_rules,
     promo.merchant_locations_or_group,
   ].join(" "));
-  return haystack.includes(query);
+  return haystack.replace(/\bfarmacias?\b/g, "farmacia").includes(query);
 }
 
 function matchesBank(promo) {
@@ -3234,7 +3235,7 @@ function openDetail(id, variantKey = "", placeId = "") {
       ${levelDetails ? `<div><strong>Nivel UENO seleccionado:</strong> Nivel ${state.uenoLevel} · ${escapeHtml(levelDetails.percent)}${levelDetails.purchaseCap ? ` · Compra ${escapeHtml(levelDetails.purchaseCap)}` : ""}${levelDetails.refundCap ? ` · Reintegro ${escapeHtml(levelDetails.refundCap)}` : ""}</div>` : ""}
       ${renderDetailRows(promo, variant)}
       <div class="detail-row"><span>Fuente</span><strong>${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente${formatLastUpdated(promo) ? ` · ${escapeHtml(formatLastUpdated(promo))}` : ""}</strong></div>
-      <div id="detailSourceLink"><a href="${escapeAttribute(safeSourceUrl(promo.source_page_url || promo.source_url || "#"))}" target="_blank" rel="noreferrer">${promo.bank === 'Continental' ? 'Ver comercio y condiciones en Continental' : promo.bank === 'GNB' && !/\.pdf(?:[?#]|$)/i.test(promo.source_page_url || promo.source_url || '') ? 'Ver promoción y bases en GNB' : 'Ver bases y condiciones'}</a></div>
+      <div id="detailSourceLink">${renderSourceReference(promo)}</div>
     </div></details>
     <button type="button" class="detail-report" data-beta-report-id="${escapeAttribute(promo.id)}">Reportar datos incorrectos</button>
   `;
@@ -3274,6 +3275,15 @@ function renderSkeletons() {
 
 function capitalize(value) {
   return String(value || "").charAt(0).toUpperCase() + String(value || "").slice(1);
+}
+
+function renderSourceReference(promo) {
+  const candidates=[promo.source_document_url,promo.source_url,promo.source_page_url].filter(Boolean);
+  const pdf=candidates.find(value=>/\.pdf(?:[?#]|$)/i.test(value)&&safeSourceUrl(value)!=="#");
+  if(pdf)return `<a href="${escapeAttribute(safeSourceUrl(pdf))}" target="_blank" rel="noopener noreferrer">Ver PDF de bases y condiciones</a>`;
+  if(promo.bank==='Continental')return `<p class="detail-location-note">No tenemos un PDF específico verificado para esta promoción. Podés consultar el listado oficial del banco y las condiciones registradas abajo.</p><a href="https://www.bancontinental.com.py/#/club-continental/comercios" target="_blank" rel="noopener noreferrer">Consultar listado oficial de comercios Continental</a><details><summary>Ver condiciones registradas del comercio</summary><p class="detail-readable">${escapeHtml(promo.raw_detail||'Condiciones pendientes de verificación.')}</p></details>`;
+  const url=candidates.map(safeSourceUrl).find(value=>value!=="#");
+  return url?`<a href="${escapeAttribute(url)}" target="_blank" rel="noopener noreferrer">Ver promoción y condiciones en la fuente oficial</a>`:'<p>Fuente oficial pendiente de verificación.</p>';
 }
 
 function safeSourceUrl(value) {
@@ -3633,3 +3643,7 @@ document.querySelector('#themeToggle').addEventListener('click',()=>{const theme
 document.addEventListener("click", event => { if (event.target.closest("[data-profile-favorites]")) {state.activeView="favorites";render();window.scrollTo(0,0);} });
 
  document.addEventListener("click",e=>{const b=e.target.closest("[data-next-favorites]");if(b)openNextFavorites(b);});
+
+// Text inputs match :focus-visible after touch too; scope modality styling to search only.
+document.addEventListener('pointerdown',event=>{if(event.target.closest('.search-box'))document.documentElement.dataset.searchFocus='pointer';},true);
+document.addEventListener('keydown',event=>{if(event.key==='Tab')document.documentElement.dataset.searchFocus='keyboard';},true);
