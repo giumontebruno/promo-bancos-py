@@ -3312,7 +3312,7 @@ els.categoryTabs.addEventListener("click", (event) => {
 els.dayTabs.addEventListener("click", (event) => {
   const day = event.target.closest("button")?.dataset?.day;
   if (!day) return;
-  if (day === "fecha") { const picker = document.querySelector('#datePicker'); picker.hidden = false; picker.focus(); if (picker.showPicker) { try { picker.showPicker(); } catch {} } return; }
+  if (day === "fecha") { if(window.PaybackCalendar){window.PaybackCalendar.open();return;} const picker = document.querySelector('#datePicker'); picker.hidden = false; picker.focus(); if (picker.showPicker) { try { picker.showPicker(); } catch {} } return; }
   state.activeDay = day;
   document.querySelector('#datePicker').hidden = true;
   resetNearbySelection();
