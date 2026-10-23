@@ -177,7 +177,7 @@ const nearbyMapState = {
 };
 
 const bankThemes = {
-  "GNB": { main: "#168443", soft: "#e5f5e9", card: "#f4faf5", logo: "./assets/logos/gnb-official.svg", logoBg: "#062b1a" },
+  "GNB": { main: "#168443", soft: "#e5f5e9", card: "#f4faf5", logo: "./assets/logos/gnb-provided.svg", logoBg: "#062b1a" },
   "Familiar": { main: "#f28c28", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/familiar-official.webp", logoBg: "#ffffff" },
   "ueno bank": { main: "#2bd98e", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno-icon-official.svg", logoBg: "#062017" },
   "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau-official.svg", logoBg: "#ec7000" },
@@ -1515,6 +1515,27 @@ function getProfileFavoriteMetrics() {
   return {total: saved.size, eligible: eligible.size, date: iso};
 }
 
+function getNextFavoriteDate() {
+  const saved = normalizeFavoriteIds(state.favorites);
+  const items = state.promotions.filter(p => saved.has(favoriteKey(p)));
+  return PaybackProfile.next({today: PaybackDates.today(), items, key: favoriteKey, shift: PaybackDates.shift,
+    eligible: (p, date) => isDisplayablePromotion(p) && isActivePromotion(p,date) && appliesToSelectedDay(p,"fecha",date) && matchesCardFilter(p)
+      && !(p.terms?.exclusions?.length) && extractExcludedCards(p) === "No especificado"
+  });
+}
+function nextFavoriteLabel(date) { return new Intl.DateTimeFormat("es-PY",{weekday:"long",day:"numeric",month:"long",timeZone:"UTC"}).format(new Date(date+"T12:00:00Z")); }
+function renderNextFavorite() {
+  const next=getNextFavoriteDate(), p=next.items[0];
+  if(!p) return `<div class="next-favorite empty-next"><span class="filter-label">LO QUE VIENE</span><h3>${state.favorites.size ? "Sin próximas fechas verificadas" : "Tu próxima salida empieza acá"}</h3><p>${state.favorites.size ? "Buscamos los próximos 90 días. Las condiciones sin verificar no se cuentan." : "Guardá una promo con el corazón para ver su próxima fecha."}</p></div>`;
+  return `<button type="button" class="next-favorite" data-next-favorites><span class="filter-label">TU PRÓXIMA PROMO FAVORITA</span><strong>${escapeHtml(nextFavoriteLabel(next.date))}</strong><span class="next-merchant">${escapeHtml(p.merchant_name)}</span>${renderBankBar(p)}<span class="next-more">${next.items.length>1 ? `Y ${next.items.length-1} campaña(s) más · ` : ""}Ver favoritos de ese día →</span></button>`;
+}
+function openNextFavorites(trigger) {
+ const next=getNextFavoriteDate(); const dialog=document.createElement("dialog"); dialog.className="beta-dialog next-favorites-dialog";dialog.setAttribute("aria-labelledby","nextFavoritesTitle");
+ dialog.innerHTML=`<article class="dialog-card"><button type="button" class="close-button" data-next-close aria-label="Cerrar">×</button><span class="filter-label">TUS FAVORITOS</span><h2 id="nextFavoritesTitle">${next.date?escapeHtml(nextFavoriteLabel(next.date)):"Sin próximas fechas verificadas"}</h2><p>Próximos 90 días. Revisá tarjeta, sucursal y condiciones antes de salir.</p>${next.items.map(p=>`<section class="next-offer">${renderBankBar(p)}<h3>${escapeHtml(p.merchant_name)}</h3><p>${escapeHtml(p.benefit_summary||"Consultá las condiciones")}</p><button type="button" data-next-detail="${escapeAttribute(p.id)}">Ver condiciones</button></section>`).join("")}</article>`;
+ document.body.append(dialog);dialog.addEventListener("close",()=>{dialog.remove();if(trigger?.isConnected)trigger.focus();});dialog.querySelector("[data-next-close]").onclick=()=>dialog.close();dialog.addEventListener("click",e=>{const b=e.target.closest("[data-next-detail]");if(b){dialog.close();openDetail(b.dataset.nextDetail);}});dialog.showModal();
+}
+
+
 function renderAlertsView() {
   const account = window.PaybackBeta?.current;
   const metrics = getProfileFavoriteMetrics();
@@ -1526,13 +1547,14 @@ function renderAlertsView() {
       <div class="profile-card">
         <span class="profile-logo profile-avatar">${renderIcon("user")}${account?.avatarUrl ? `<img class="google-profile-photo" src="${escapeAttribute(account.avatarUrl)}" alt="Foto de perfil de Google" referrerpolicy="no-referrer" />` : ""}</span>
         <div>
-          <h2>${account ? account.name ? `Hola, ${escapeHtml(account.name)}` : "Tu perfil Payback" : "Activá tu perfil Payback"}</h2>
+          <h2>${account ? account.name ? `Hola, ${escapeHtml(PaybackProfile.firstName(account))}` : "Tu perfil Payback" : "Activá tu perfil Payback"}</h2>
           <p>${account ? escapeHtml(account.email) : "Conectá tu cuenta para sincronizar tus favoritos."}</p>
         </div>
       </div>
       ${account
         ? '<div class="profile-account-actions"><button type="button" class="notification-action" data-beta-open>Administrar cuenta y comentarios</button><button type="button" class="notification-action" data-profile-logout>Cerrar sesión</button></div><p class="profile-session-status" role="status"></p>'
         : '<button type="button" class="google-signin google-icon-only" data-beta-login aria-label="Continuar con Google" title="Continuar con Google"><img src="./assets/logos/google-g-official.png" width="20" height="20" alt=""></button><p class="profile-note">Ingresá con tu cuenta de Google. Solo usamos tu identidad básica y correo.</p>'}
+      ${renderNextFavorite()}
       <div class="bosque-profile-metrics"><div><strong>${metrics.total}</strong><span>Favoritos<br>guardados</span></div><div><strong>${state.promotions.length ? metrics.eligible : "—"}</strong><span>Con promo para<br>${escapeHtml(metricDate)}</span></div></div>
       <p class="profile-note">Campañas únicas según vigencia y calendario del catálogo. Revisá tarjeta, sucursal y condiciones.${state.promotions.length ? "" : " Catálogo no disponible: no podemos calcular las vigentes."}</p>
       <button type="button" class="bosque-favorites-link" data-profile-favorites>Ver todos mis favoritos ${renderIcon("heart")}</button>
@@ -2688,22 +2710,7 @@ function formatBrandName(value) {
 }
 
 function extractApplicableCards(promo, variant = null) {
-  if (promo.verified_cards) return cleanSentence(Array.isArray(promo.verified_cards) ? promo.verified_cards.join("; ") : promo.verified_cards);
-  if (!variant?.kind && promo.terms?.cards?.length) return cleanSentence(promo.terms.cards.join("; "));
-  const text = cleanSentence([promo.raw_detail, promo.benefit_summary].join(" "));
-  if (variant?.kind === "premium") {
-    if (/privilege|privilegio/i.test(variant.label)) return "Tarjetas Continental Privilege";
-    if (/mastercard black|visa infinite|amex platinum|personal bank|premium/i.test(text)) {
-      return "Tarjetas premium indicadas en bases: Mastercard Black, Visa Infinite o equivalentes";
-    }
-  }
-  if (variant?.kind === "base" && promo.bank === "Sudameris") return "Tarjetas de crédito Sudameris";
-  const explicit = text.match(/(?:aplica exclusivamente para compras realizadas con|con|pagando con|válido con|valido con)\s+(?:tu\s+)?(?:tarjeta|tarjetas|tarjetas físicas)[^.]+/i)?.[0];
-  if (explicit) {
-    return cleanSentence(explicit.replace(/^(?:aplica exclusivamente para compras realizadas con|con|pagando con|válido con|valido con)\s+/i, ""));
-  }
-  const cards = text.match(/\b(?:visa|mastercard|mc|cabal|oro|premium|black|platinum|infinite|signature|cl[aá]sica|prepaga|albirroja)[^.;)]*/gi);
-  return cards ? cleanSentence([...new Set(cards.map((card) => cleanSentence(card)))].join("; ")) : (promo.terms?.cards?.length ? cleanSentence(promo.terms.cards.join("; ")) : "No especificado");
+  return PaybackEligibility.cards(promo,variant);
 }
 
 function extractExcludedCards(promo) {
@@ -3207,7 +3214,7 @@ function openDetail(id, variantKey = "", placeId = "") {
       <div id="detailLocations">${renderDetailLocations(detailLocationState)}</div>
     </section>
     <div class="calculator" data-calculator-id="${escapeAttribute(promo.id)}" data-calculator-variant="${escapeAttribute(variantKey)}">
-      <label>¿Cuánto vas a gastar?
+      <label>Monto para simular tu ahorro
         <input type="number" inputmode="numeric" min="0" step="1000" placeholder="Ej: 500000" />
       </label>
       <div class="calculator-result" aria-live="polite">Ingresá un monto para calcular tu ahorro.</div>
@@ -3240,7 +3247,7 @@ async function loadPromotions() {
     state.lastUpdated = manifest.generated_at || "";
     state.favoriteAliases = manifest.favorite_aliases || {};
   }
-  state.promotions = uniquePromos((await response.json()).filter(promo => isDisplayablePromotion(promo) && promo.source_verification !== "unconfirmed" && !promo.terms?.conflicting_dates && promo.terms?.ends_on >= PaybackDates.today()));
+  state.promotions = uniquePromos(PaybackEligibility.apply(await response.json()).filter(promo => isDisplayablePromotion(promo) && promo.source_verification !== "unconfirmed" && !promo.terms?.conflicting_dates && promo.terms?.ends_on >= PaybackDates.today()));
   state.favorites = normalizeFavoriteIds(state.favorites);
   if (!window.PaybackBeta?.current) saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
   syncFavoriteAlerts();
@@ -3615,3 +3622,5 @@ document.querySelector('#themeToggle').addEventListener('click',()=>{const theme
 
 // Profile shortcut uses the same favorites view and catalog logic.
 document.addEventListener("click", event => { if (event.target.closest("[data-profile-favorites]")) {state.activeView="favorites";render();window.scrollTo(0,0);} });
+
+ document.addEventListener("click",e=>{const b=e.target.closest("[data-next-favorites]");if(b)openNextFavorites(b);});

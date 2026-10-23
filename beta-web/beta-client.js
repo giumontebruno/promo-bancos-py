@@ -1,3 +1,4 @@
+import { mergeOfficialFavorites } from './favorite-import.mjs';
 import { createClient } from '@supabase/supabase-js';
 
 let client, service, current = null, ready = false, initError = '', busy = false;
@@ -50,10 +51,14 @@ async function api(path, method = 'GET', body) {
 function changed() { updateGate(); window.dispatchEvent(new CustomEvent('beta-account', { detail: current })); }
 async function refresh(isCurrent = () => true) {
   const attempt = authAttempt;
+  const before = await deadline(client.auth.getSession());
+  if (before.error) throw before.error;
   const account = await api('me');
   const { data, error } = await deadline(client.auth.getSession());
   if (error) throw error;
   if (!isCurrent() || attempt !== authAttempt) return;
+  if (before.data.session?.user?.id !== data.session?.user?.id) return;
+  if (data.session && String(account.email).toLowerCase() !== String(data.session.user.email).toLowerCase()) throw new Error('La cuenta cambió. Reintentá el acceso.');
   if (!data.session) { current = null; authPhase = 'anonymous'; changed(); return; }
   const metadata = data.session?.user?.user_metadata || {};
   let avatarUrl = '';
@@ -61,18 +66,25 @@ async function refresh(isCurrent = () => true) {
     const avatar = new URL(metadata.avatar_url || metadata.picture || '');
     if (avatar.protocol === 'https:' && (avatar.hostname === 'googleusercontent.com' || avatar.hostname.endsWith('.googleusercontent.com'))) avatarUrl = avatar.href;
   } catch { /* An account without a Google photo uses the profile fallback. */ }
-  current = { ...account, ...localAccount(data.session.user.id), admin: false, consent: false, name: String(metadata.full_name || metadata.name || '').trim(), avatarUrl };
+  current = { ...account, ...importOfficialAccount(data.session.user.id, account.favorites), admin: false, consent: false, givenName: String(metadata.given_name || '').trim(), name: String(metadata.full_name || metadata.name || '').trim(), avatarUrl };
   changed();
 }
 
+function importOfficialAccount(id, favorites) {
+  const local=localAccount(id), merged=mergeOfficialFavorites(local, favorites);
+  const key='paybackPyBeta.account.'+id;
+  if(!localStorage.getItem(key+'.beforeImport')) localStorage.setItem(key+'.beforeImport', JSON.stringify(local));
+  localStorage.setItem(key,JSON.stringify(merged));
+  return merged;
+}
 function localAccount(id) {
   let saved = {};
   try { saved = JSON.parse(localStorage.getItem('paybackPyBeta.account.' + id)) || {}; } catch {}
-  return { localId: id, favorites: Array.isArray(saved.favorites) ? saved.favorites.filter(x => typeof x === 'string') : [], uenoLevel: Math.max(1, Math.min(5, Number(saved.uenoLevel) || 5)) };
+  return { importedOfficial: Array.isArray(saved.importedOfficial) ? saved.importedOfficial : [], localId: id, favorites: Array.isArray(saved.favorites) ? saved.favorites.filter(x => typeof x === 'string') : [], uenoLevel: Math.max(1, Math.min(5, Number(saved.uenoLevel) || 5)) };
 }
 function saveLocalAccount(favorites, uenoLevel) {
   if (!current) throw new Error('Ingresá con Google.');
-  localStorage.setItem('paybackPyBeta.account.' + current.localId, JSON.stringify({ favorites, uenoLevel }));
+  localStorage.setItem('paybackPyBeta.account.' + current.localId, JSON.stringify({ ...localAccount(current.localId), favorites, uenoLevel }));
   current = { ...current, favorites, uenoLevel }; changed();
 }
 
@@ -91,7 +103,7 @@ function shell(content) {
 function show() {
   if (!ready || !client) return shell(`<h2>paybackpy beta</h2><p>${escape(initError || 'Preparando el acceso.')}</p><button data-beta-retry>Reintentar</button>`);
   if (!current) return shell(`<h2>paybackpy beta</h2><form id="betaLogin"><button type="submit" class="google-signin">${googleButton()}</button></form><p>Ingresá con Google. Esta versión usa el mismo acceso de Payback y guarda favoritos y nivel por separado en este navegador.</p><a href="./privacy.html">Privacidad</a>`);
-  shell(`<h2>paybackpy beta</h2><p>${escape(current.email)}</p><p>Favoritos locales: ${current.favorites.length}. Sin sincronización, medición ni avisos duplicados.</p><form id="betaPreferences"><label>Nivel UENO<select name="level">${[1,2,3,4,5].map(n => `<option value="${n}" ${current.uenoLevel === n ? 'selected' : ''}>Nivel ${n}</option>`).join('')}</select></label><button>Guardar preferencias</button></form><div class="beta-actions"><button data-beta-logout>Cerrar sesión de esta beta</button></div>`);
+  shell(`<span class="filter-label">TU CUENTA</span><h2>Tus preferencias</h2><p>${escape(current.email)}</p><p>Favoritos en esta beta: ${current.favorites.length}. Importamos los guardados de tu cuenta oficial. Los cambios acá quedan en este navegador; no modifican la app oficial.</p><form id="betaPreferences"><label>Nivel UENO<select name="level" aria-label="Nivel UENO">${[1,2,3,4,5].map(n => `<option value="${n}" ${current.uenoLevel === n ? 'selected' : ''}>Nivel ${n}</option>`).join('')}</select></label><button type="submit" class="account-save">Guardar preferencias</button></form><div class="beta-actions"><button class="account-danger" data-beta-logout>Cerrar sesión de esta beta</button></div>`);
 }
 function report() {
   shell('<h2>Comentarios de esta beta</h2><p>Compartí tus observaciones en la conversación donde recibiste el enlace. Esta prueba no envía reportes al servicio principal.</p>');
@@ -111,7 +123,7 @@ async function level(value) {
 
 dialog.addEventListener('submit', async e => {
   e.preventDefault(); if (busy) return; busy = true;
-  const form = e.target, data = new FormData(form), submit = form.querySelector('button');
+  const form = e.target, data = new FormData(form), submit = form.querySelector('button[type=submit],button:not([type])');
   submit.disabled = true; message('Guardando…');
   try {
     if (form.id === 'betaLogin') {

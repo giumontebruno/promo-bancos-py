@@ -1,6 +1,6 @@
 /* Native selects remain the data/event source and fallback. The enhanced UI is a modal listbox. */
 (()=>{
- const selector='.glass-filters select,#detailBranch';
+ const selector='.glass-filters select,#detailBranch,#betaPreferences select';
  const dialog=document.createElement('dialog');dialog.className='glass-picker';dialog.setAttribute('aria-labelledby','glassPickerTitle');
  dialog.innerHTML='<header><h2 id="glassPickerTitle"></h2><button type="button" aria-label="Cerrar selector">×</button></header><div class="glass-picker-list" role="listbox"></div>';
  document.body.append(dialog);const list=dialog.querySelector('[role=listbox]');let source=null,trigger=null;
@@ -13,7 +13,7 @@
  }
  list.addEventListener('keydown',e=>{const options=[...list.querySelectorAll('button:not(:disabled)')],i=options.indexOf(document.activeElement);let n;if(e.key==='ArrowDown')n=(i+1)%options.length;if(e.key==='ArrowUp')n=(i-1+options.length)%options.length;if(e.key==='Home')n=0;if(e.key==='End')n=options.length-1;if(n!==undefined){e.preventDefault();options.forEach(o=>o.tabIndex=-1);options[n].tabIndex=0;options[n].focus();}});
  function sync(){document.querySelectorAll(selector).forEach(select=>{let button=select.nextElementSibling;if(!button?.classList.contains('glass-select-trigger')){button=document.createElement('button');button.type='button';button.className='glass-select-trigger';button.setAttribute('aria-haspopup','dialog');button.setAttribute('aria-expanded','false');button.onclick=()=>open(select,button);select.after(button);select.hidden=true;}const label=select.getAttribute('aria-label')||'Sucursal';const text=select.selectedOptions[0]?.text||label;const next=label+': '+text;if(button.getAttribute('aria-label')!==next){button.setAttribute('aria-label',next);button.replaceChildren();const caption=document.createElement('span');caption.className='glass-select-label';caption.textContent=text;const icon=document.createElementNS('http://www.w3.org/2000/svg','svg');icon.setAttribute('viewBox','0 0 24 24');icon.setAttribute('class','glass-select-chevron');icon.setAttribute('aria-hidden','true');icon.innerHTML='<path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';button.append(caption,icon);}button.disabled=select.disabled;});}
- new MutationObserver(sync).observe(document.querySelector('.app-shell')||document.body,{childList:true,subtree:true});
+ new MutationObserver(sync).observe(document.body,{childList:true,subtree:true});
  new MutationObserver(sync).observe(document.querySelector('#dialogContent'),{childList:true,subtree:true});
  document.addEventListener('change',e=>{if(e.target.matches(selector))sync();});sync();
 })();

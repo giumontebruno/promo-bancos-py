@@ -108,3 +108,31 @@ body{background:radial-gradient(ellipse at 100% 45vh,#c7e0ce 0,transparent 68%),
 .bottom-nav{transition:transform 180ms ease,opacity 160ms ease,height 180ms ease,width 180ms ease}.bottom-nav[data-scroll-state=hidden]{transform:translate(-50%,calc(100% + 32px + env(safe-area-inset-bottom)));opacity:0;pointer-events:none}.bottom-nav[data-scroll-state=mini]{width:240px;height:56px;min-height:56px;border-radius:22px}.bottom-nav[data-scroll-state=mini] button{height:44px;min-height:44px;gap:0}.bottom-nav[data-scroll-state=mini] .nav-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.bottom-nav:focus-within{opacity:1;pointer-events:auto}.bottom-nav:has(:focus-visible){transform:translateX(-50%)}@media(prefers-reduced-motion:reduce){.bottom-nav{transition:none!important}}
 
 .bottom-nav .nav-label{font:inherit;line-height:1.1}.calendar-month h3{text-transform:none}.calendar-month h3:first-letter{text-transform:uppercase}
+
+/* Shared account/share/upcoming dialog material: all dynamically created surfaces. */
+dialog.beta-dialog{width:min(480px,calc(100% - 24px));max-height:calc(100dvh - 32px);padding:0;border:1px solid var(--ui-line);border-radius:28px;background:linear-gradient(140deg,#f4faf5f5,#dfeee3f5);color:var(--ui-ink);box-shadow:inset 0 1px 0 #fff9,0 24px 90px #0005;backdrop-filter:blur(20px);overflow:auto;overscroll-behavior:contain}
+[data-theme=dark] dialog.beta-dialog{background:radial-gradient(ellipse at 100% 0,#235347dd,transparent 80%),#0b2b26f5;box-shadow:inset 0 1px 0 #daf1de38,0 24px 90px #0008}
+dialog.beta-dialog::backdrop{background:#00130f80;backdrop-filter:blur(5px)}
+dialog.beta-dialog .dialog-card{position:relative;padding:28px 22px;background:none;border:0;box-shadow:none;color:var(--ui-ink);min-width:0;overflow-wrap:anywhere}
+dialog.beta-dialog h2{font-size:27px;letter-spacing:-.7px;line-height:1.2;padding-right:34px;color:var(--ui-ink)}
+dialog.beta-dialog p{color:var(--ui-muted);line-height:1.6;font-size:14px}
+dialog.beta-dialog button,.profile-form button,.share-options a{min-height:44px;border-radius:15px;padding:11px 16px;border:1px solid var(--ui-line);background:#8eb69b18;color:var(--ui-ink);font:inherit;font-weight:600}
+dialog.beta-dialog .close-button{position:absolute;right:12px;top:12px;display:grid;place-items:center;width:44px;height:44px;padding:0;border-radius:50%;font-size:24px}
+dialog.beta-dialog .account-save,.profile-form button{background:var(--ui-accent);color:var(--ui-on-accent);width:100%;margin-top:16px}
+dialog.beta-dialog .account-danger,[data-profile-logout]{color:#a92c3f;border-color:#a92c3f55;background:#a92c3f09}
+[data-theme=dark] dialog.beta-dialog .account-danger,[data-theme=dark] [data-profile-logout]{color:#ffbac2;border-color:#ffbac240;background:#ffbac209}
+#betaPreferences label{display:grid;gap:9px;margin-top:24px;color:var(--ui-muted);font-size:13px}#betaPreferences .glass-select-trigger{font-size:15px}.beta-actions{margin-top:22px;display:grid}
+dialog.beta-dialog button:focus-visible,.next-favorite:focus-visible,.profile-form button:focus-visible{outline:2px solid var(--ui-accent);outline-offset:3px}
+dialog.beta-dialog textarea{width:100%;box-sizing:border-box;background:var(--ui-glass);color:var(--ui-ink);border:1px solid var(--ui-line);border-radius:16px;padding:12px}.share-options{display:grid;gap:8px}
+.next-favorite{position:relative;isolation:isolate;display:grid;gap:10px;width:100%;padding:22px;margin:24px 0 14px;text-align:left;color:var(--ui-ink);border:1px solid var(--ui-line);border-radius:27px;background:linear-gradient(125deg,#8eb69b28,#8eb69b09);box-shadow:inset 0 1px 0 #daf1de55,0 14px 28px #00181012;overflow:hidden}
+.next-favorite::before{content:"";position:absolute;inset:-70%;z-index:-1;background:radial-gradient(ellipse,#8eb69b22,transparent 50%);animation:favorite-glow 8s ease-in-out infinite alternate;pointer-events:none}.next-favorite strong{font-size:24px;letter-spacing:-.6px;line-height:1.2}.next-merchant{font-size:18px;font-weight:600}.next-more{font-size:12px;color:var(--ui-muted)}.next-favorite .bosque-bank-bar{margin:6px 0}.next-offer{padding:18px 0;border-top:1px solid var(--ui-line)}.next-offer h3{margin:14px 0 8px}.next-offer button{width:100%}.empty-next h3,.empty-next p{margin:0}.empty-next p{font-size:13px;color:var(--ui-muted);line-height:1.5}.bosque-profile-metrics{margin-top:12px;background:none}.bosque-profile-metrics strong{font-size:25px}.bosque-profile-metrics span{font-size:11px}
+@keyframes favorite-glow{from{transform:translate(-8%,0)}to{transform:translate(8%,12%)}}@media(prefers-reduced-motion:reduce){.next-favorite::before{animation:none}}
+dialog.beta-dialog button:not(.close-button){border:1px solid var(--ui-line);border-radius:15px;background:#8eb69b18;color:var(--ui-ink);padding:11px 16px;min-height:44px}
+dialog.beta-dialog button.account-save{background:var(--ui-accent);color:var(--ui-on-accent)}dialog.beta-dialog button.account-danger{color:#a92c3f;background:#a92c3f09;border-color:#a92c3f55}[data-theme=dark] dialog.beta-dialog button.account-danger,[data-theme=dark] .profile-account-actions [data-profile-logout]{color:#ffbac2;background:#ffbac209;border-color:#ffbac240}
+dialog.beta-dialog .glass-select-trigger{background:linear-gradient(130deg,#ffffffa0,#ffffff60);text-align:left}[data-theme=dark] dialog.beta-dialog .glass-select-trigger{background:linear-gradient(130deg,#daf1de12,#16383277)}
+.profile-panel .next-favorite strong,.profile-panel .next-favorite .next-merchant{color:var(--ui-ink)}
+
+dialog.beta-dialog .filter-label,.next-favorite .filter-label{color:var(--ui-muted)}
+[data-theme=dark] .profile-panel button[data-profile-logout]{color:#ffbac2!important;background:#ffbac209!important;border:1px solid #ffbac240!important}
+
+.purchase-cap{display:grid;gap:8px;margin-bottom:18px}.purchase-cap strong{font-size:22px;color:var(--ui-ink)}.purchase-cap small{font-size:12px;color:var(--ui-muted);line-height:1.4}
