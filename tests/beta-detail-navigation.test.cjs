@@ -93,7 +93,7 @@ test('keyboard/native branch change updates links without opening a map or exter
 });
 test('detail preserves monetary qualifiers, full conditions and selected variant context',()=>{
  const c=context();const p={...promo,merchant_name:'Shop <special>'};c.state.promotions=[p];c.state.locations=[branch];c.state.uenoLevel=1;c.window={};
- Object.assign(c,{getVariantByKey:()=>({kind:'base'}),isFavoritePromotion:()=>false,getSelectedUenoLevelDetails:()=>null,getEstimatedSavings:()=>({refundCap:1000000}),getPromoTitle:p=>p.merchant_name,getBankLabel:b=>b,getPromoCategoryGroup:()=> 'Tiendas',getDisplayBenefit:()=> '20% reintegro',getDisplayDays:()=> 'Lunes',getDisplayValidity:()=> 'Hasta diciembre',formatGuarani:()=> 'Gs. 1.000.000',isUenoPowerPromo:()=>false,renderDetailRows:()=>'<div>Tarjetas y exclusiones completas</div>',formatLastUpdated:()=>'',safeSourceUrl:s=>s});
+ Object.assign(c,{renderBankBar:()=>"<div>Bank</div>",getVariantByKey:()=>({kind:'base'}),isFavoritePromotion:()=>false,getSelectedUenoLevelDetails:()=>null,getEstimatedSavings:()=>({refundCap:1000000}),getPromoTitle:p=>p.merchant_name,getBankLabel:b=>b,getPromoCategoryGroup:()=> 'Tiendas',getDisplayBenefit:()=> '20% reintegro',getDisplayDays:()=> 'Lunes',getDisplayValidity:()=> 'Hasta diciembre',formatGuarani:()=> 'Gs. 1.000.000',isUenoPowerPromo:()=>false,renderDetailRows:()=>'<div>Tarjetas y exclusiones completas</div>',formatLastUpdated:()=>'',safeSourceUrl:s=>s});
  c.els.dialogContent={};c.els.dialog.showModal=()=>{};let loaded;c.loadDetailLocations=ctx=>loaded=ctx;
  const start=source.indexOf('function openDetail(');vm.runInContext(source.slice(start,source.indexOf('async function loadPromotions(',start)),c);
  c.openDetail('offer','base');const html=c.els.dialogContent.innerHTML;

@@ -1016,9 +1016,9 @@ function getPromoTitle(promo) {
   return normalizeDisplayName(promo.merchant_name || promo.category || "Promoción");
 }
 
-function appliesToSelectedDay(promo, selectedDay) {
+function appliesToSelectedDay(promo, selectedDay, dateOverride = null) {
   if (["mañana", "fecha"].includes(selectedDay)) {
-    const iso = selectedDateIso();
+    const iso = dateOverride || selectedDateIso();
     let rules = getOrdinalWeekdayRules(promo);
     const day = PaybackDates.weekday(iso);
     if (!rules.length && new RegExp(`primer(?:os)? ${normalizeDayName(day)}`).test(normalizeDayName(`${promo.day_text || ""} ${promo.validity || ""}`))) rules = [{day, ordinal: 1}];
@@ -1494,6 +1494,7 @@ function matchesSelectedDay(promo) {
 }
 
 function renderBottomNav() {
+  els.bottomNav.classList.toggle("is-profile", state.activeView === "alerts");
   els.bottomNav.style.setProperty("--nav-index", Math.max(0, ["today","search","nearby","favorites"].indexOf(state.activeView)));
   els.bottomNav.querySelectorAll("button").forEach((button) => {
     button.classList.toggle("active", button.dataset.view === state.activeView);
@@ -1501,8 +1502,23 @@ function renderBottomNav() {
   });
 }
 
+function renderBankBar(promo) {
+  const theme = getBankTheme(promo.bank);
+  return `<div class="bosque-bank-bar" style="--bank-color:${escapeAttribute(theme.main)};--bank-logo-bg:${escapeAttribute(theme.logoBg)}"><img src="${escapeAttribute(theme.logo)}" alt="" loading="lazy"><strong>${escapeHtml(getBankLabel(promo.bank))}</strong><span>${escapeHtml(getPromoCategoryGroup(promo))}</span></div>`;
+}
+
+function getProfileFavoriteMetrics() {
+  const today = PaybackDates.today();
+  const iso = state.activeDay === "mañana" ? PaybackDates.shift(today, 1) : state.activeDay === "fecha" && PaybackDates.valid(state.selectedDate) ? state.selectedDate : today;
+  const saved = normalizeFavoriteIds(state.favorites);
+  const eligible = new Set(state.promotions.filter(promo => saved.has(favoriteKey(promo)) && shouldShowPromotion(promo) && isActivePromotion(promo, iso) && appliesToSelectedDay(promo, "fecha", iso)).map(favoriteKey));
+  return {total: saved.size, eligible: eligible.size, date: iso};
+}
+
 function renderAlertsView() {
   const account = window.PaybackBeta?.current;
+  const metrics = getProfileFavoriteMetrics();
+  const metricDate = new Intl.DateTimeFormat("es-PY", {day:"numeric",month:"short",timeZone:"UTC"}).format(new Date(metrics.date+"T12:00:00Z"));
   els.statusText.textContent = "Tu perfil";
   els.countText.textContent = `${state.favorites.size} favoritos`;
   els.results.innerHTML = `
@@ -1517,6 +1533,9 @@ function renderAlertsView() {
       ${account
         ? '<div class="profile-account-actions"><button type="button" class="notification-action" data-beta-open>Administrar cuenta y comentarios</button><button type="button" class="notification-action" data-profile-logout>Cerrar sesión</button></div><p class="profile-session-status" role="status"></p>'
         : '<button type="button" class="google-signin google-icon-only" data-beta-login aria-label="Continuar con Google" title="Continuar con Google"><img src="./assets/logos/google-g-official.png" width="20" height="20" alt=""></button><p class="profile-note">Ingresá con tu cuenta de Google. Solo usamos tu identidad básica y correo.</p>'}
+      <div class="bosque-profile-metrics"><div><strong>${metrics.total}</strong><span>Favoritos<br>guardados</span></div><div><strong>${state.promotions.length ? metrics.eligible : "—"}</strong><span>Con promo para<br>${escapeHtml(metricDate)}</span></div></div>
+      <p class="profile-note">Campañas únicas según vigencia y calendario del catálogo. Revisá tarjeta, sucursal y condiciones.${state.promotions.length ? "" : " Catálogo no disponible: no podemos calcular las vigentes."}</p>
+      <button type="button" class="bosque-favorites-link" data-profile-favorites>Ver todos mis favoritos ${renderIcon("heart")}</button>
       ${renderFavoriteAlerts()}
       ${account?.admin === true ? '<a class="notification-action" href="./admin.html">Panel de administración</a>' : ''}
       <form id="profileForm" class="profile-form">
@@ -3064,7 +3083,8 @@ function renderCard(promo, variant = null) {
   const cards = extractApplicableCards(promo, variant) || promo.verified_cards || "Consultar tarjetas en condiciones";
   const cap = savings.refundCap ? `${conditionalQr ? "Base: " : ""}${formatGuarani(savings.refundCap)}` : "Ver topes en condiciones";
   return `<article tabindex="0" aria-label="${escapeAttribute(getPromoTitle(promo))}" class="promo-card glass-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""}" data-id="${escapeAttribute(promo.id)}" data-variant="${escapeAttribute(getVariantKey(promo, variant))}" data-place-id="${escapeAttribute(promo._nearbyPlaceId || "")}">
-    <div class="glass-card-head"><span class="category-mark">${renderCategoryIcon(categoryGroup)}</span><div class="glass-title"><h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3><p>${escapeHtml(categoryGroup)} · ${escapeHtml(getBankLabel(promo.bank))}</p></div><button class="favorite-toggle ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}" title="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-label="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-pressed="${isFavorite}">${renderIcon("heart")}</button></div>
+    ${renderBankBar(promo)}
+    <div class="glass-card-head"><div class="glass-title"><h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3><p>${escapeHtml(categoryGroup)} · ${escapeHtml(getBankLabel(promo.bank))}</p></div><button class="favorite-toggle ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}" title="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-label="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-pressed="${isFavorite}">${renderIcon("heart")}</button></div>
     ${premiumBadge || powerBadge}
     <div class="benefit-lines primary-benefit">${benefitLines.map(line => `<span>${renderGlassBenefit(line)}</span>`).join("")}</div>
     ${benefitScope ? `<p class="benefit-scope">${escapeHtml(benefitScope)}</p>` : ""}
@@ -3167,7 +3187,7 @@ function openDetail(id, variantKey = "", placeId = "") {
   els.dialogContent.innerHTML = `
     <header class="promo-detail-hero">
       <div class="detail-eyebrow">${renderIcon("ticket")}Tu próximo beneficio</div>
-      <div class="detail-bank-chip">${escapeHtml(getBankLabel(promo.bank))}<span>${escapeHtml(getPromoCategoryGroup(promo))}</span></div>
+      ${renderBankBar(promo)}
       <h2 id="promoDetailTitle">${escapeHtml(getPromoTitle(promo))}</h2>
       ${variant?.kind === "premium" ? `<span class="premium-badge detail-premium">${escapeHtml(variant.label)}</span>` : ""}
       <p class="detail-hero-benefit">${escapeHtml(getDisplayBenefit(promo, variant))}</p>
@@ -3592,3 +3612,6 @@ document.querySelector('#profileButton').addEventListener('click',()=>{state.act
 document.querySelector('#explorePromos').addEventListener('click',()=>{state.activeView='search';render();window.scrollTo(0,0)});
 document.addEventListener('click',e=>{if(e.target.closest('[data-retry-promotions]'))loadPromotions().catch(showPromotionLoadError)});
 document.querySelector('#themeToggle').addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;saveStoredJson('paybackPyBeta.theme',theme);document.querySelector('#themeToggle').setAttribute('aria-label',theme==='dark'?'Usar tema claro':'Usar tema oscuro')});
+
+// Profile shortcut uses the same favorites view and catalog logic.
+document.addEventListener("click", event => { if (event.target.closest("[data-profile-favorites]")) {state.activeView="favorites";render();window.scrollTo(0,0);} });
