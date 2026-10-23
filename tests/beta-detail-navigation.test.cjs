@@ -6,7 +6,7 @@ const source=fs.readFileSync('beta-web/app.js','utf8');
 const promo={id:'offer',bank:'Itaú',merchant_name:'Shop',source_url:'https://bank.example/terms.pdf'};
 const branch={id:'a',name:'Shop branch',merchant_name:'Shop',bank:'Itaú',source_url:promo.source_url,lat:-25.3,lng:-57.6,geocode_source:'official',address:'First street',place_id:'verified-id'};
 function context(){
- const c={PaybackProfile:require('../beta-web/profile-next.js'),selectedDateIso:()=>"2026-10-23",state:{locations:[],activeCategory:'Club Black',location:null},PREMIUM_CATEGORY:'Club Black',
+ const c={contractPurchase:()=>({label:'No informado',evidence:''}),PaybackProfile:require('../beta-web/profile-next.js'),selectedDateIso:()=>"2026-10-23",state:{locations:[],activeCategory:'Club Black',location:null},PREMIUM_CATEGORY:'Club Black',
  normalizeDayName:s=>String(s||'').toLowerCase(),isGenericLocationMatchedToMall:()=>false,
  uniquePromos:p=>p,hasPremiumVariant:()=>false,isActivePromotion:()=>true,
  preferBetterPlace:(a,b)=>b,getPlaceDisplayName:p=>p.name,

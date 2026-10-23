@@ -71,16 +71,17 @@ async function refresh(isCurrent = () => true) {
 }
 
 function importOfficialAccount(id, favorites) {
-  const local=localAccount(id), merged=mergeOfficialFavorites(local, favorites);
+  const local=localAccount(id), merged=mergeOfficialFavorites(local, expandLegacyFavorites(favorites || []));
   const key='paybackPyBeta.account.'+id;
   if(!localStorage.getItem(key+'.beforeImport')) localStorage.setItem(key+'.beforeImport', JSON.stringify(local));
   localStorage.setItem(key,JSON.stringify(merged));
   return merged;
 }
+function expandLegacyFavorites(ids) { return [...new Set(ids.flatMap(id=>id==='2aaaf9a7c26e43c1'?['superseis','stock','delimarket'].map(m=>id+'-'+m):[id]))]; }
 function localAccount(id) {
   let saved = {};
   try { saved = JSON.parse(localStorage.getItem('paybackPyBeta.account.' + id)) || {}; } catch {}
-  return { importedOfficial: Array.isArray(saved.importedOfficial) ? saved.importedOfficial : [], localId: id, favorites: Array.isArray(saved.favorites) ? saved.favorites.filter(x => typeof x === 'string') : [], uenoLevel: Math.max(1, Math.min(5, Number(saved.uenoLevel) || 5)) };
+  return { importedOfficial: Array.isArray(saved.importedOfficial) ? expandLegacyFavorites(saved.importedOfficial) : [], localId: id, favorites: Array.isArray(saved.favorites) ? expandLegacyFavorites(saved.favorites.filter(x => typeof x === 'string')) : [], uenoLevel: Math.max(1, Math.min(5, Number(saved.uenoLevel) || 5)) };
 }
 function saveLocalAccount(favorites, uenoLevel) {
   if (!current) throw new Error('Ingresá con Google.');

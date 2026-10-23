@@ -1476,7 +1476,7 @@ function canonicalFavoriteId(id) {
 }
 
 function normalizeFavoriteIds(ids) {
-  return new Set([...ids].map(canonicalFavoriteId));
+  return new Set((typeof PaybackCampaigns !== "undefined" ? PaybackCampaigns.expandFavorites(ids) : [...ids]).map(canonicalFavoriteId));
 }
 
 function isFavoritePromotion(promo) {
@@ -2396,7 +2396,8 @@ function getPromotionsForLocation(place, promoIndex, category = state.activeCate
     const merchant = normalizeDayName(promo.merchant_name);
     return merchantTerms.includes(merchant);
   });
-  return matches.filter(promo => category !== PREMIUM_CATEGORY || hasPremiumVariant(promo));
+  const reviewed = typeof PaybackCampaigns !== "undefined" ? PaybackCampaigns.branchOffers(place,[...promoIndex.values()].flat(),selectedDateIso()) : [];
+  return uniquePromos([...matches,...reviewed]).filter(promo => category !== PREMIUM_CATEGORY || hasPremiumVariant(promo));
 }
 
 function getFuelBrandsFromPlace(place) {
@@ -2618,6 +2619,13 @@ function sortByDayDisplayPriority(a, b) {
   const bInstallmentsOnly = getSortInfo(b).installments;
   if (aInstallmentsOnly !== bInstallmentsOnly) return aInstallmentsOnly - bInstallmentsOnly;
   return sortByBenefitValue(a, b);
+}
+
+function contractPurchase(promo,variant) {
+ if((variant && !promo.offer_kind)||promo.level_benefits?.length||/nivel/i.test(promo.level_rules||""))return {label:"Tope de compra de esta tarjeta o nivel sin confirmar",evidence:"Revisá el límite específico en las bases. No se calcula a partir del reintegro."};
+ const caps=PaybackProfile.purchaseCaps(promo);
+ if(caps.length!==1)return {label:"Tope de compra no informado",evidence:"El reintegro máximo es un límite diferente."};
+ const c=caps[0];return {label:new Intl.NumberFormat("es-PY",{style:"currency",currency:c.currency,maximumFractionDigits:0}).format(c.amount)+(c.period?` · ${c.period}`:""),evidence:c.evidence};
 }
 
 function getEstimatedSavings(promo, amount = null, variant = null) {
@@ -3211,9 +3219,10 @@ function openDetail(id, variantKey = "", placeId = "") {
     </div>
     <section class="detail-location-card" aria-labelledby="detailLocationTitle">
       <div class="detail-section-heading">${renderIcon("mapPin")}<h3 id="detailLocationTitle">Tu próxima parada</h3></div>
-      <div id="detailLocations">${renderDetailLocations(detailLocationState)}</div>
+      <div id="detailLocations">${renderDetailLocations(detailLocationState)}</div>${promo.parent_campaign_id ? '<p class="detail-location-note">Adhesión declarada por alcance de cadena. Mostramos únicamente ubicaciones físicas ya verificadas; las bases no enumeran direcciones individuales.</p>' : ""}
     </section>
     <div class="calculator" data-calculator-id="${escapeAttribute(promo.id)}" data-calculator-variant="${escapeAttribute(variantKey)}">
+      <div class="purchase-cap"><span>Podés gastar hasta</span><strong>${escapeHtml(contractPurchase(promo,variant).label)}</strong><small>${escapeHtml(contractPurchase(promo,variant).evidence)}</small></div>
       <label>Monto para simular tu ahorro
         <input type="number" inputmode="numeric" min="0" step="1000" placeholder="Ej: 500000" />
       </label>
@@ -3247,7 +3256,7 @@ async function loadPromotions() {
     state.lastUpdated = manifest.generated_at || "";
     state.favoriteAliases = manifest.favorite_aliases || {};
   }
-  state.promotions = uniquePromos(PaybackEligibility.apply(await response.json()).filter(promo => isDisplayablePromotion(promo) && promo.source_verification !== "unconfirmed" && !promo.terms?.conflicting_dates && promo.terms?.ends_on >= PaybackDates.today()));
+  state.promotions = uniquePromos(PaybackEligibility.apply(PaybackCampaigns.apply(await response.json())).filter(promo => isDisplayablePromotion(promo) && promo.source_verification !== "unconfirmed" && !promo.terms?.conflicting_dates && promo.terms?.ends_on >= PaybackDates.today()));
   state.favorites = normalizeFavoriteIds(state.favorites);
   if (!window.PaybackBeta?.current) saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
   syncFavoriteAlerts();
