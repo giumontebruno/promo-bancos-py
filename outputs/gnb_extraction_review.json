@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-22T12:53:24.214418+00:00",
+  "checked_at": "2026-10-23T12:32:08.979472+00:00",
   "source": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias",
   "api": "/v2/apis/rewards/rewards/v1/benefits/benefits?pageSize=500",
   "status": "fetched_in_browser",
-  "cards": 250,
-  "terms_links": 250
+  "cards": 251,
+  "terms_links": 251
 }

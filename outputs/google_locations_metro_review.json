@@ -4235,7 +4235,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:06.494495+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:53.257879+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJuYeidSexXZQRfP9quJE5DNo",
     "google_candidate": {
@@ -4243,7 +4243,7 @@
       "formatted_address": "MJH5+3MQ, Areguá 110102",
       "lat": -25.3222964,
       "lng": -57.3907573,
-      "checked_at": "2026-10-16T12:25:06+00:00"
+      "checked_at": "2026-10-23T12:47:53+00:00"
     }
   },
   {
@@ -4264,7 +4264,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:08.131362+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:54.152565+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJa5xHOTKzXZQRecTgyawQs4Y",
     "google_candidate": {
@@ -4272,7 +4272,7 @@
       "formatted_address": "MH5Q+RP4, Ruta Aregua, Areguá 110120",
       "lat": -25.3404781,
       "lng": -57.4106666,
-      "checked_at": "2026-10-16T12:25:08+00:00"
+      "checked_at": "2026-10-23T12:47:54+00:00"
     }
   },
   {
@@ -4293,7 +4293,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:08.838786+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:54.950209+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJRb2vHrKxXZQRJmgzXg3Dk7Q",
     "google_candidate": {
@@ -4301,7 +4301,7 @@
       "formatted_address": "PH3C+M23, Av. Las Residentas, Areguá 110110",
       "lat": -25.295875,
       "lng": -57.429944,
-      "checked_at": "2026-10-16T12:25:08+00:00"
+      "checked_at": "2026-10-23T12:47:54+00:00"
     }
   },
   {
@@ -4322,15 +4322,15 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:09.657852+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:55.712579+00:00",
     "google_enrichment_status": "needs_review",
-    "google_candidate_place_id": "ChIJ04MTpVKoXZQRLXuvZFuFwPA",
+    "google_candidate_place_id": "ChIJa-BP2h8IXZQRnS9o0Qaya8w",
     "google_candidate": {
-      "google_name": "3MG S.A.C.I.A. - Distribuidora de Combustibles",
-      "formatted_address": "María Auxiliadora, Nazaret 001423",
-      "lat": -25.3203615,
-      "lng": -57.5937905,
-      "checked_at": "2026-10-16T12:25:09+00:00"
+      "google_name": "Health Center No.3 Domingo Savio",
+      "formatted_address": "y, Colón & Humaita, P994+7CX, Asunción 001010",
+      "lat": -25.2817562,
+      "lng": -57.6439038,
+      "checked_at": "2026-10-23T12:47:55+00:00"
     }
   },
   {
@@ -4351,7 +4351,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:10.418321+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:56.579015+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ36-Ws8epXZQRirwY7m_Wwjc",
     "google_candidate": {
@@ -4359,7 +4359,7 @@
       "formatted_address": "M9H7+295, Ciudad de Chiba, Asunción 001301",
       "lat": -25.3221272,
       "lng": -57.6368285,
-      "checked_at": "2026-10-16T12:25:10+00:00"
+      "checked_at": "2026-10-23T12:47:56+00:00"
     }
   },
   {
@@ -4380,7 +4380,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:11.196298+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:57.413787+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJsymnIlqnXZQR_mz6DBmrI5I",
     "google_candidate": {
@@ -4388,7 +4388,7 @@
       "formatted_address": "Azara 1147, Asunción 001220",
       "lat": -25.2900269,
       "lng": -57.6255769,
-      "checked_at": "2026-10-16T12:25:11+00:00"
+      "checked_at": "2026-10-23T12:47:57+00:00"
     }
   },
   {
@@ -4409,7 +4409,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:11.903386+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:58.171893+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
     "google_candidate": {
@@ -4417,7 +4417,7 @@
       "formatted_address": "Av. República Argentina 2848, Asunción 001422",
       "lat": -25.3161352,
       "lng": -57.590328,
-      "checked_at": "2026-10-16T12:25:11+00:00"
+      "checked_at": "2026-10-23T12:47:58+00:00"
     }
   },
   {
@@ -4438,7 +4438,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:12.615681+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:58.972825+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ1VyKcgioXZQRHiHjEu8PRYo",
     "google_candidate": {
@@ -4446,7 +4446,7 @@
       "formatted_address": "Brasil, Asunción 001222",
       "lat": -25.2999689,
       "lng": -57.631908,
-      "checked_at": "2026-10-16T12:25:12+00:00"
+      "checked_at": "2026-10-23T12:47:58+00:00"
     }
   },
   {
@@ -4467,7 +4467,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:13.365321+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:59.700727+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
     "google_candidate": {
@@ -4475,7 +4475,7 @@
       "formatted_address": "Av. República Argentina 2848, Asunción 001422",
       "lat": -25.3161352,
       "lng": -57.590328,
-      "checked_at": "2026-10-16T12:25:13+00:00"
+      "checked_at": "2026-10-23T12:47:59+00:00"
     }
   },
   {
@@ -4496,7 +4496,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:14.085596+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:00.447157+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJs1wOC_GoXZQR8FTQGPha3GM",
     "google_candidate": {
@@ -4504,7 +4504,7 @@
       "formatted_address": "Av. República Argentina 2848, Asunción 001422",
       "lat": -25.3161352,
       "lng": -57.590328,
-      "checked_at": "2026-10-16T12:25:13+00:00"
+      "checked_at": "2026-10-23T12:48:00+00:00"
     }
   },
   {
@@ -4525,7 +4525,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:14.776603+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:01.174488+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJwX5ELM6lXZQRR0g0rIF_O24",
     "google_candidate": {
@@ -4533,7 +4533,7 @@
       "formatted_address": "QF55+6CJ, Asunción 001506",
       "lat": -25.2419108,
       "lng": -57.5414877,
-      "checked_at": "2026-10-16T12:25:14+00:00"
+      "checked_at": "2026-10-23T12:48:01+00:00"
     }
   },
   {
@@ -4554,7 +4554,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:15.539870+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:01.882543+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJy5fMBAOpXZQRS0Mq4B_QzNw",
     "google_candidate": {
@@ -4562,7 +4562,7 @@
       "formatted_address": "Av. La Victoria, Asunción 001424",
       "lat": -25.3333532,
       "lng": -57.5893988,
-      "checked_at": "2026-10-16T12:25:15+00:00"
+      "checked_at": "2026-10-23T12:48:01+00:00"
     }
   },
   {
@@ -4583,7 +4583,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:16.233061+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:02.622055+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJr7I-TPWnXZQRWtXVXReC3t0",
     "google_candidate": {
@@ -4591,7 +4591,7 @@
       "formatted_address": "Gral. Díaz 658, Asunción 001010",
       "lat": -25.2803084,
       "lng": -57.6428812,
-      "checked_at": "2026-10-16T12:25:16+00:00"
+      "checked_at": "2026-10-23T12:48:02+00:00"
     }
   },
   {
@@ -4612,7 +4612,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:16.941018+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:03.402396+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ1aVujIioXZQRNvp0GCzXCUY",
     "google_candidate": {
@@ -4620,7 +4620,7 @@
       "formatted_address": "MCX3+GVF, Asunción 001229",
       "lat": -25.3011926,
       "lng": -57.5953317,
-      "checked_at": "2026-10-16T12:25:16+00:00"
+      "checked_at": "2026-10-23T12:48:03+00:00"
     }
   },
   {
@@ -4641,7 +4641,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:17.632243+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:04.091683+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ9da1mL6pXZQRFcaje5iikL8",
     "google_candidate": {
@@ -4649,7 +4649,7 @@
       "formatted_address": "José Asunción Flores 3285, Asunción 001230",
       "lat": -25.3041393,
       "lng": -57.60703,
-      "checked_at": "2026-10-16T12:25:17+00:00"
+      "checked_at": "2026-10-23T12:48:03+00:00"
     }
   },
   {
@@ -4670,7 +4670,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:18.307989+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:04.785375+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJV1W6FWmmXZQRnQFALn9bQ4I",
     "google_candidate": {
@@ -4678,7 +4678,7 @@
       "formatted_address": "PCVH+H8J, Av. Primer Presidente, Asunción 001519",
       "lat": -25.25603,
       "lng": -57.5717473,
-      "checked_at": "2026-10-16T12:25:18+00:00"
+      "checked_at": "2026-10-23T12:48:04+00:00"
     }
   },
   {
@@ -4699,7 +4699,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:19.090628+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:05.485395+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJzWxnycyoXZQR2fKx-83z2b0",
     "google_candidate": {
@@ -4707,7 +4707,7 @@
       "formatted_address": "Av. Mariscal López, Asunción 001405",
       "lat": -25.3068763,
       "lng": -57.5535416,
-      "checked_at": "2026-10-16T12:25:18+00:00"
+      "checked_at": "2026-10-23T12:48:05+00:00"
     }
   },
   {
@@ -4728,7 +4728,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:19.885740+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:06.228515+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJOdAzBUumXZQRMStSrgQF5hg",
     "google_candidate": {
@@ -4736,7 +4736,7 @@
       "formatted_address": "PCQ2+289, Av. Gral. José Gervasio Artigas, Asunción 001516",
       "lat": -25.2653322,
       "lng": -57.5963448,
-      "checked_at": "2026-10-16T12:25:19+00:00"
+      "checked_at": "2026-10-23T12:48:06+00:00"
     }
   },
   {
@@ -4757,7 +4757,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:20.642626+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:07.148742+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJzWxnycyoXZQR2fKx-83z2b0",
     "google_candidate": {
@@ -4765,7 +4765,7 @@
       "formatted_address": "Av. Mariscal López, Asunción 001405",
       "lat": -25.3068763,
       "lng": -57.5535416,
-      "checked_at": "2026-10-16T12:25:20+00:00"
+      "checked_at": "2026-10-23T12:48:07+00:00"
     }
   },
   {
@@ -4786,7 +4786,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:21.419093+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:07.872514+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJjcRtLCMIXZQRfdwuCP2IAqA",
     "google_candidate": {
@@ -4794,7 +4794,7 @@
       "formatted_address": "P89W+X26, Av. Dr. José Montero, Asunción 001003",
       "lat": -25.280088,
       "lng": -57.654992,
-      "checked_at": "2026-10-16T12:25:21+00:00"
+      "checked_at": "2026-10-23T12:48:07+00:00"
     }
   },
   {
@@ -4815,7 +4815,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:22.142593+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:08.634212+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJqZYcHqqpXZQR-NbcMh39CHw",
     "google_candidate": {
@@ -4823,7 +4823,7 @@
       "formatted_address": "PC3F+W75, Av. Gral. José de San Martín, Asunción 001408",
       "lat": -25.2952414,
       "lng": -57.5767527,
-      "checked_at": "2026-10-16T12:25:22+00:00"
+      "checked_at": "2026-10-23T12:48:08+00:00"
     }
   },
   {
@@ -4844,7 +4844,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:22.916841+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:09.350721+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJrcMm9E2vXZQRThDWqlvorXM",
     "google_candidate": {
@@ -4852,7 +4852,7 @@
       "formatted_address": "PF62+CGV, Ave Madame Elisa A. Lynch, Asunción 001403",
       "lat": -25.2888901,
       "lng": -57.5486943,
-      "checked_at": "2026-10-16T12:25:22+00:00"
+      "checked_at": "2026-10-23T12:48:09+00:00"
     }
   },
   {
@@ -4873,7 +4873,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:23.667002+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:10.162946+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ9z_12P6oXZQReIEOly1wshA",
     "google_candidate": {
@@ -4881,7 +4881,7 @@
       "formatted_address": "MCF3+3QJ, Av. Dr. Fernando de la Mora, Asunción 001424",
       "lat": -25.3272878,
       "lng": -57.5956159,
-      "checked_at": "2026-10-16T12:25:23+00:00"
+      "checked_at": "2026-10-23T12:48:10+00:00"
     }
   },
   {
@@ -4902,7 +4902,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:24.369739+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:11.176487+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJF0RpVIavXZQRu_Y5HsOJB-Y",
     "google_candidate": {
@@ -4910,7 +4910,7 @@
       "formatted_address": "Sta. Teresa y, Fernando de la Mora 110302",
       "lat": -25.3019962,
       "lng": -57.5398146,
-      "checked_at": "2026-10-16T12:25:24+00:00"
+      "checked_at": "2026-10-23T12:48:11+00:00"
     }
   },
   {
@@ -4931,7 +4931,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:25.868772+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:11.953131+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJu3YNhlioXZQR7-R1qxeJUcc",
     "google_candidate": {
@@ -4939,7 +4939,7 @@
       "formatted_address": "MCJ2+887, Av. Médicos del Chaco, Asunción 001423",
       "lat": -25.3192177,
       "lng": -57.599205,
-      "checked_at": "2026-10-16T12:25:25+00:00"
+      "checked_at": "2026-10-23T12:48:11+00:00"
     }
   },
   {
@@ -4960,7 +4960,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:26.691903+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:12.847223+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJu3YNhlioXZQR7-R1qxeJUcc",
     "google_candidate": {
@@ -4968,7 +4968,7 @@
       "formatted_address": "MCJ2+887, Av. Médicos del Chaco, Asunción 001423",
       "lat": -25.3192177,
       "lng": -57.599205,
-      "checked_at": "2026-10-16T12:25:26+00:00"
+      "checked_at": "2026-10-23T12:48:12+00:00"
     }
   },
   {
@@ -4989,7 +4989,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:27.417259+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:13.591828+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJd3ZDQaalXZQRHgkNcWdiJFw",
     "google_candidate": {
@@ -4997,7 +4997,7 @@
       "formatted_address": "QC2X+426, Tte. Gadea, Asunción 001509",
       "lat": -25.2497023,
       "lng": -57.5524788,
-      "checked_at": "2026-10-16T12:25:27+00:00"
+      "checked_at": "2026-10-23T12:48:13+00:00"
     }
   },
   {
@@ -5018,7 +5018,7 @@
     "geocode_source": "",
     "online_only": false,
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:28.172896+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:14.353557+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJtzDzjRqpXZQR6qk7iJ9bX_Y",
     "google_candidate": {
@@ -5026,7 +5026,7 @@
       "formatted_address": "MC67+GV5, Av. Dr. Fernando de la Mora, Asunción 001432",
       "lat": -25.3387357,
       "lng": -57.5852517,
-      "checked_at": "2026-10-16T12:25:28+00:00"
+      "checked_at": "2026-10-23T12:48:14+00:00"
     }
   },
   {
@@ -13516,7 +13516,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:06.934090+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:53.696208+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJaxhuP_GnXZQRW_X2Jc1vZbM",
     "google_candidate": {
@@ -13524,7 +13524,7 @@
       "formatted_address": "P977+V58, Chile, Asunción 001101",
       "lat": -25.285345,
       "lng": -57.6370604,
-      "checked_at": "2026-10-16T12:25:06+00:00"
+      "checked_at": "2026-10-23T12:47:53+00:00"
     }
   },
   {
@@ -13543,7 +13543,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:07.702266+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:54.577285+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
     "google_candidate": {
@@ -13551,7 +13551,7 @@
       "formatted_address": "Asunción 001103",
       "lat": -25.2988953,
       "lng": -57.6341104,
-      "checked_at": "2026-10-16T12:25:07+00:00"
+      "checked_at": "2026-10-23T12:47:54+00:00"
     }
   },
   {
@@ -13570,7 +13570,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:08.490446+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:55.319658+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ65-ExfanXZQRuQ2peR0SR-s",
     "google_candidate": {
@@ -13578,7 +13578,7 @@
       "formatted_address": "Piribebuy 323, Asunción 001101",
       "lat": -25.2862442,
       "lng": -57.638985,
-      "checked_at": "2026-10-16T12:25:08+00:00"
+      "checked_at": "2026-10-23T12:47:55+00:00"
     }
   },
   {
@@ -13597,7 +13597,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:09.270297+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:56.190187+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJy-nuF-mlXZQRVd0sfcGheek",
     "google_candidate": {
@@ -13605,7 +13605,7 @@
       "formatted_address": "PFR6+JMJ, Asunción 001509",
       "lat": -25.2584175,
       "lng": -57.5383544,
-      "checked_at": "2026-10-16T12:25:09+00:00"
+      "checked_at": "2026-10-23T12:47:56+00:00"
     }
   },
   {
@@ -13624,7 +13624,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:10.056687+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:57.065147+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJW6SzzlKnXZQRkEnFagYb6WA",
     "google_candidate": {
@@ -13632,7 +13632,7 @@
       "formatted_address": "P95G+695, Herrera, Asunción 001220",
       "lat": -25.291997,
       "lng": -57.6240032,
-      "checked_at": "2026-10-16T12:25:09+00:00"
+      "checked_at": "2026-10-23T12:47:56+00:00"
     }
   },
   {
@@ -13651,7 +13651,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:10.845340+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:57.836030+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJo4dmZogJXZQRt4Fw_nh-_hM",
     "google_candidate": {
@@ -13659,7 +13659,7 @@
       "formatted_address": "P84J+CQ7, Cap. Manuel Aranda, Asunción 001001",
       "lat": -25.2939744,
       "lng": -57.6680749,
-      "checked_at": "2026-10-16T12:25:10+00:00"
+      "checked_at": "2026-10-23T12:47:57+00:00"
     }
   },
   {
@@ -13678,7 +13678,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:11.572104+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:58.568347+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
     "google_candidate": {
@@ -13686,7 +13686,7 @@
       "formatted_address": "Asunción 001103",
       "lat": -25.2988953,
       "lng": -57.6341104,
-      "checked_at": "2026-10-16T12:25:11+00:00"
+      "checked_at": "2026-10-23T12:47:58+00:00"
     }
   },
   {
@@ -13705,7 +13705,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:12.243067+00:00",
+    "google_last_attempt_at": "2026-10-23T12:47:59.302611+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ92AEXCKnXZQRgAXhVB6AUeI",
     "google_candidate": {
@@ -13713,7 +13713,7 @@
       "formatted_address": "Asunción 001011",
       "lat": -25.2783842,
       "lng": -57.6432141,
-      "checked_at": "2026-10-16T12:25:12+00:00"
+      "checked_at": "2026-10-23T12:47:59+00:00"
     }
   },
   {
@@ -13732,7 +13732,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:12.983226+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:00.093241+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ_91YYP2nXZQR17Qs35HwarM",
     "google_candidate": {
@@ -13740,7 +13740,7 @@
       "formatted_address": "Asunción 001103",
       "lat": -25.2988953,
       "lng": -57.6341104,
-      "checked_at": "2026-10-16T12:25:12+00:00"
+      "checked_at": "2026-10-23T12:47:59+00:00"
     }
   },
   {
@@ -13759,7 +13759,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:13.748420+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:00.811547+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ0WndYACnXZQRuz7aftzNgqg",
     "google_candidate": {
@@ -13767,7 +13767,7 @@
       "formatted_address": "Paraguari 935, Asunción 001101",
       "lat": -25.2906471,
       "lng": -57.6341027,
-      "checked_at": "2026-10-16T12:25:13+00:00"
+      "checked_at": "2026-10-23T12:48:00+00:00"
     }
   },
   {
@@ -13786,7 +13786,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:14.426980+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:01.527908+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ3ZjSLgCpXZQREjtyn31_Zz8",
     "google_candidate": {
@@ -13794,7 +13794,7 @@
       "formatted_address": "M9J8+Q5F, Asunción 001301",
       "lat": -25.3179119,
       "lng": -57.6344356,
-      "checked_at": "2026-10-16T12:25:14+00:00"
+      "checked_at": "2026-10-23T12:48:01+00:00"
     }
   },
   {
@@ -13813,7 +13813,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:15.191306+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:02.292961+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJiyouPgCnXZQRTku95wq4-PU",
     "google_candidate": {
@@ -13821,7 +13821,7 @@
       "formatted_address": "Av. Dr. Felipe Molas López 1250, Asunción 001520",
       "lat": -25.269698,
       "lng": -57.572611,
-      "checked_at": "2026-10-16T12:25:15+00:00"
+      "checked_at": "2026-10-23T12:48:02+00:00"
     }
   },
   {
@@ -13840,7 +13840,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:15.901573+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:02.993938+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ3ZjSLgCpXZQREjtyn31_Zz8",
     "google_candidate": {
@@ -13848,7 +13848,7 @@
       "formatted_address": "M9J8+Q5F, Asunción 001301",
       "lat": -25.3179119,
       "lng": -57.6344356,
-      "checked_at": "2026-10-16T12:25:15+00:00"
+      "checked_at": "2026-10-23T12:48:02+00:00"
     }
   },
   {
@@ -13867,7 +13867,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:16.565282+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:03.744253+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ65-ExfanXZQRuQ2peR0SR-s",
     "google_candidate": {
@@ -13875,7 +13875,7 @@
       "formatted_address": "Piribebuy 323, Asunción 001101",
       "lat": -25.2862442,
       "lng": -57.638985,
-      "checked_at": "2026-10-16T12:25:16+00:00"
+      "checked_at": "2026-10-23T12:48:03+00:00"
     }
   },
   {
@@ -13894,7 +13894,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:17.276381+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:04.439810+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJW6SzzlKnXZQRkEnFagYb6WA",
     "google_candidate": {
@@ -13902,7 +13902,7 @@
       "formatted_address": "P95G+695, Herrera, Asunción 001220",
       "lat": -25.291997,
       "lng": -57.6240032,
-      "checked_at": "2026-10-16T12:25:17+00:00"
+      "checked_at": "2026-10-23T12:48:04+00:00"
     }
   },
   {
@@ -13921,7 +13921,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:17.972562+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:05.118452+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ92AEXCKnXZQRgAXhVB6AUeI",
     "google_candidate": {
@@ -13929,7 +13929,7 @@
       "formatted_address": "Asunción 001011",
       "lat": -25.2783842,
       "lng": -57.6432141,
-      "checked_at": "2026-10-16T12:25:17+00:00"
+      "checked_at": "2026-10-23T12:48:04+00:00"
     }
   },
   {
@@ -13948,7 +13948,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:18.719422+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:05.885088+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJiyouPgCnXZQRTku95wq4-PU",
     "google_candidate": {
@@ -13956,7 +13956,7 @@
       "formatted_address": "Av. Dr. Felipe Molas López 1250, Asunción 001520",
       "lat": -25.269698,
       "lng": -57.572611,
-      "checked_at": "2026-10-16T12:25:18+00:00"
+      "checked_at": "2026-10-23T12:48:05+00:00"
     }
   },
   {
@@ -13975,7 +13975,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:19.550289+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:06.731045+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJoU2k7DGqXZQRHfO5DtnKS5U",
     "google_candidate": {
@@ -13983,7 +13983,7 @@
       "formatted_address": "Av. Americo Picco, Villa 2610",
       "lat": -25.3842933,
       "lng": -57.602666,
-      "checked_at": "2026-10-16T12:25:19+00:00"
+      "checked_at": "2026-10-23T12:48:06+00:00"
     }
   },
   {
@@ -14002,7 +14002,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:20.246786+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:07.506971+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJo4dmZogJXZQRt4Fw_nh-_hM",
     "google_candidate": {
@@ -14010,7 +14010,7 @@
       "formatted_address": "P84J+CQ7, Cap. Manuel Aranda, Asunción 001001",
       "lat": -25.2939744,
       "lng": -57.6680749,
-      "checked_at": "2026-10-16T12:25:20+00:00"
+      "checked_at": "2026-10-23T12:48:07+00:00"
     }
   },
   {
@@ -14029,15 +14029,15 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:21.058169+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:08.281990+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJNXsJEuapXZQRs-Ry4iA9j18",
     "google_candidate": {
       "google_name": "La Estación Manantial Petropar",
       "formatted_address": "Fernando de la Mora Ibapurú, Asunción 001314",
-      "lat": -25.3326965,
-      "lng": -57.5916437,
-      "checked_at": "2026-10-16T12:25:20+00:00"
+      "lat": -25.3324862,
+      "lng": -57.5915452,
+      "checked_at": "2026-10-23T12:48:08+00:00"
     }
   },
   {
@@ -14056,7 +14056,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:21.782889+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:09.009503+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ0WndYACnXZQRuz7aftzNgqg",
     "google_candidate": {
@@ -14064,7 +14064,7 @@
       "formatted_address": "Paraguari 935, Asunción 001101",
       "lat": -25.2906471,
       "lng": -57.6341027,
-      "checked_at": "2026-10-16T12:25:21+00:00"
+      "checked_at": "2026-10-23T12:48:08+00:00"
     }
   },
   {
@@ -14083,7 +14083,7 @@
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:22.570724+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:09.780376+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJy-nuF-mlXZQRVd0sfcGheek",
     "google_candidate": {
@@ -14091,7 +14091,7 @@
       "formatted_address": "PFR6+JMJ, Asunción 001509",
       "lat": -25.2584175,
       "lng": -57.5383544,
-      "checked_at": "2026-10-16T12:25:22+00:00"
+      "checked_at": "2026-10-23T12:48:09+00:00"
     }
   },
   {
@@ -14104,13 +14104,13 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:23.288225+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:10.552248+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ1aVujIioXZQRNvp0GCzXCUY",
     "google_candidate": {
@@ -14118,7 +14118,7 @@
       "formatted_address": "MCX3+GVF, Asunción 001229",
       "lat": -25.3011926,
       "lng": -57.5953317,
-      "checked_at": "2026-10-16T12:25:23+00:00"
+      "checked_at": "2026-10-23T12:48:10+00:00"
     }
   },
   {
@@ -14131,13 +14131,13 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:24.004216+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:11.515916+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJOdAzBUumXZQRMStSrgQF5hg",
     "google_candidate": {
@@ -14145,7 +14145,7 @@
       "formatted_address": "PCQ2+289, Av. Gral. José Gervasio Artigas, Asunción 001516",
       "lat": -25.2653322,
       "lng": -57.5963448,
-      "checked_at": "2026-10-16T12:25:23+00:00"
+      "checked_at": "2026-10-23T12:48:11+00:00"
     }
   },
   {
@@ -14158,13 +14158,13 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:24.743427+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:12.406523+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJPT7B0juvXZQRUKQsiuQx-TU",
     "google_candidate": {
@@ -14172,7 +14172,7 @@
       "formatted_address": "MFX6+294, Delfin Chamorro, Fernando de la Mora 110302",
       "lat": -25.3025414,
       "lng": -57.5390883,
-      "checked_at": "2026-10-16T12:25:24+00:00"
+      "checked_at": "2026-10-23T12:48:12+00:00"
     }
   },
   {
@@ -14185,13 +14185,13 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:25.443474+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:13.183171+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJsymnIlqnXZQR_mz6DBmrI5I",
     "google_candidate": {
@@ -14199,7 +14199,7 @@
       "formatted_address": "Azara 1147, Asunción 001220",
       "lat": -25.2900269,
       "lng": -57.6255769,
-      "checked_at": "2026-10-16T12:25:25+00:00"
+      "checked_at": "2026-10-23T12:48:13+00:00"
     }
   },
   {
@@ -14212,13 +14212,13 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:26.266152+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:13.947731+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ1VyKcgioXZQRHiHjEu8PRYo",
     "google_candidate": {
@@ -14226,7 +14226,7 @@
       "formatted_address": "Brasil, Asunción 001222",
       "lat": -25.2999689,
       "lng": -57.631908,
-      "checked_at": "2026-10-16T12:25:26+00:00"
+      "checked_at": "2026-10-23T12:48:13+00:00"
     }
   },
   {
@@ -14239,13 +14239,13 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:27.028571+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:14.694247+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJscRMHwCpXZQR4ntk7nqxrnU",
     "google_candidate": {
@@ -14253,7 +14253,7 @@
       "formatted_address": "MC7V+FR6, Fernando de la Mora 110320",
       "lat": -25.3363415,
       "lng": -57.5555086,
-      "checked_at": "2026-10-16T12:25:26+00:00"
+      "checked_at": "2026-10-23T12:48:14+00:00"
     }
   },
   {
@@ -14266,13 +14266,13 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:27.759300+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:15.045722+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJ1VyKcgioXZQRHiHjEu8PRYo",
     "google_candidate": {
@@ -14280,7 +14280,7 @@
       "formatted_address": "Brasil, Asunción 001222",
       "lat": -25.2999689,
       "lng": -57.631908,
-      "checked_at": "2026-10-16T12:25:27+00:00"
+      "checked_at": "2026-10-23T12:48:14+00:00"
     }
   },
   {
@@ -14293,13 +14293,13 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
     "geocode_source": "",
     "google_confidence": "review",
-    "google_last_attempt_at": "2026-10-16T12:25:28.545016+00:00",
+    "google_last_attempt_at": "2026-10-23T12:48:15.417638+00:00",
     "google_enrichment_status": "needs_review",
     "google_candidate_place_id": "ChIJsymnIlqnXZQR_mz6DBmrI5I",
     "google_candidate": {
@@ -14307,7 +14307,7 @@
       "formatted_address": "Azara 1147, Asunción 001220",
       "lat": -25.2900269,
       "lng": -57.6255769,
-      "checked_at": "2026-10-16T12:25:28+00:00"
+      "checked_at": "2026-10-23T12:48:15+00:00"
     }
   },
   {
@@ -14320,7 +14320,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
@@ -14347,7 +14347,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
@@ -14374,7 +14374,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
@@ -14401,7 +14401,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
@@ -14428,7 +14428,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
@@ -14455,7 +14455,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
@@ -14482,7 +14482,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 8,
     "lat": null,
     "lng": null,
@@ -14509,7 +14509,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -14536,7 +14536,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -14563,7 +14563,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -14590,7 +14590,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -14617,7 +14617,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -14644,7 +14644,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -14671,7 +14671,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -14698,7 +14698,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -14725,7 +14725,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -14752,7 +14752,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -14779,7 +14779,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -14806,7 +14806,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -14833,7 +14833,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -14860,8 +14860,8 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
-    "source_page": 15,
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
+    "source_page": 16,
     "lat": null,
     "lng": null,
     "geocode_source": "",
@@ -14887,7 +14887,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -14914,7 +14914,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -14941,7 +14941,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -14968,7 +14968,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -14995,7 +14995,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -15022,7 +15022,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -15049,7 +15049,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -15076,7 +15076,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -15103,7 +15103,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -15130,7 +15130,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -15157,7 +15157,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -15184,7 +15184,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15211,7 +15211,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -15238,7 +15238,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -15265,7 +15265,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15292,7 +15292,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -15319,7 +15319,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -15346,7 +15346,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15373,7 +15373,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -15400,7 +15400,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15427,7 +15427,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15454,7 +15454,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -15481,7 +15481,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -15508,7 +15508,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -15535,7 +15535,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -15562,7 +15562,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15589,7 +15589,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15616,7 +15616,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15643,7 +15643,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -15670,7 +15670,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -15697,7 +15697,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15724,7 +15724,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -15751,7 +15751,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15778,7 +15778,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15805,7 +15805,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15832,7 +15832,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15859,7 +15859,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15886,7 +15886,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -15913,7 +15913,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -15940,7 +15940,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -15967,7 +15967,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -15994,7 +15994,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -16021,7 +16021,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -16048,7 +16048,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -16075,7 +16075,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -16102,7 +16102,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -16129,7 +16129,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 3,
     "lat": null,
     "lng": null,
@@ -16156,7 +16156,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -16183,7 +16183,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -16210,7 +16210,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -16399,7 +16399,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -16426,7 +16426,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -16453,7 +16453,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -16480,7 +16480,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 4,
     "lat": null,
     "lng": null,
@@ -16804,7 +16804,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -16831,7 +16831,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -16858,7 +16858,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -16885,7 +16885,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -16912,7 +16912,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -16939,7 +16939,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -16966,7 +16966,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -16993,7 +16993,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -17020,7 +17020,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -17047,7 +17047,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -17074,7 +17074,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -17101,7 +17101,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -17128,7 +17128,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -17155,7 +17155,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -17182,7 +17182,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -17209,7 +17209,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 5,
     "lat": null,
     "lng": null,
@@ -17236,7 +17236,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -17263,7 +17263,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 5,
     "lat": null,
     "lng": null,
@@ -17290,7 +17290,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -17317,7 +17317,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 5,
     "lat": null,
     "lng": null,
@@ -17587,7 +17587,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -17803,7 +17803,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -17830,8 +17830,8 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
-    "source_page": 14,
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
+    "source_page": 15,
     "lat": null,
     "lng": null,
     "geocode_source": "",
@@ -17857,7 +17857,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -17884,7 +17884,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -17911,7 +17911,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -17938,7 +17938,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -17965,7 +17965,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -17992,7 +17992,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -18019,7 +18019,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -18046,7 +18046,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -18073,7 +18073,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -18100,7 +18100,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -18127,8 +18127,8 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
-    "source_page": 14,
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
+    "source_page": 15,
     "lat": null,
     "lng": null,
     "geocode_source": "",
@@ -18154,7 +18154,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -18181,7 +18181,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -18208,7 +18208,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -18235,7 +18235,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -18262,7 +18262,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 9,
     "lat": null,
     "lng": null,
@@ -18289,7 +18289,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -18316,7 +18316,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -18343,7 +18343,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -18370,7 +18370,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -18397,7 +18397,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -18424,7 +18424,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -18451,7 +18451,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -18478,7 +18478,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -18505,7 +18505,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -18532,7 +18532,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -18559,7 +18559,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -18586,7 +18586,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -18613,7 +18613,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -18640,7 +18640,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -18667,7 +18667,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -18694,7 +18694,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -18721,7 +18721,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -18748,7 +18748,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -18775,7 +18775,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -18802,7 +18802,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -18829,7 +18829,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -18856,7 +18856,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -19180,7 +19180,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -19207,8 +19207,8 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
-    "source_page": 16,
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
+    "source_page": 17,
     "lat": null,
     "lng": null,
     "geocode_source": "",
@@ -19234,7 +19234,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -19261,8 +19261,8 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
-    "source_page": 13,
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
+    "source_page": 14,
     "lat": null,
     "lng": null,
     "geocode_source": "",
@@ -19288,7 +19288,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 14,
     "lat": null,
     "lng": null,
@@ -19315,7 +19315,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -19342,7 +19342,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -19369,7 +19369,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 13,
     "lat": null,
     "lng": null,
@@ -19396,7 +19396,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -19423,7 +19423,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -19450,7 +19450,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -19477,7 +19477,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -19504,7 +19504,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -19531,7 +19531,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -19558,7 +19558,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -19585,7 +19585,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -19612,7 +19612,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -19639,7 +19639,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 13,
     "lat": null,
     "lng": null,
@@ -19666,7 +19666,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -19693,7 +19693,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -19720,7 +19720,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -19747,7 +19747,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -19774,7 +19774,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -19801,7 +19801,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -19828,7 +19828,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -19855,7 +19855,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -19963,7 +19963,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -19990,7 +19990,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 10,
     "lat": null,
     "lng": null,
@@ -20017,7 +20017,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 17,
     "lat": null,
     "lng": null,
@@ -20044,7 +20044,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 7,
     "lat": null,
     "lng": null,
@@ -20233,7 +20233,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -20260,7 +20260,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -20287,7 +20287,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "COPETROL",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 15,
     "lat": null,
     "lng": null,
@@ -20314,7 +20314,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "ENEX",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 16,
     "lat": null,
     "lng": null,
@@ -20341,7 +20341,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,
@@ -20368,7 +20368,7 @@
     "department": "",
     "country": "Paraguay",
     "merchant_brand": "PETROBRAS",
-    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v4.pdf",
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-de-Reintegro-COMBUSTIBLES-_-OCT-2026v6.pdf",
     "source_page": 6,
     "lat": null,
     "lng": null,

@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 836
+Total de beneficios/comercios: 838
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -86,7 +86,7 @@ Total de beneficios/comercios: 836
 | Complejo Rotela | 20%; 20% de reintegro | los viernes | Vigente hasta el 26 de febrero del 2027 | Ma. Auxiliadora (Itapúa) |
 | DT Básquet | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de febrero de 2027 | Asunción |
 | Javi Deportes | 20%; 20% de reintegro | los jueves | Vigente hasta el 18 de marzo de 2027 | Encarnación |
-| Life Fitness | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 21 de octubre de 2027 | Asunción |
+| Life Fitness | 20%; Hasta 12 cuotas sin intereses | todos los días | Vigente hasta el 21 de octubre de 2027 | Asunción |
 | Renova Padel | 20%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 28 de mayo de 2027 | Ciudad del Este |
 | Sport Cesped | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 28 de agosto de 2027 | Asunción |
 | Tienda Padel | 20%; hasta 6 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 08 de abril de 2027 | Fernando de la Mora |
@@ -338,7 +338,7 @@ _Se omitieron 26 filas en este resumen; están en el CSV._
 |---|---|---|---|---|
 | Kekala | 20%; 20% de reintegro | Los sábados | Vigente hasta el 12 de junio de 2027 | San Lorenzo |
 
-## Hogar (57)
+## Hogar (59)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -386,6 +386,7 @@ _Se omitieron 26 filas en este resumen; están en el CSV._
 | Rovus Tapizado | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de noviembre del 2026 | Curuguaty |
 | San Isidro - Showroom | Hasta 12 cuotas sin intereses; 25% de descuento | todos los días | Vigente hasta el 20 de febrero de 2027 | Encarnación |
 | San Rafael Hogar | 20%; hasta 18 cuotas sin intereses; 20% de descuento | Todos los días | Vigente hasta el 13 de febrero del 2027 | No especificado |
+| Servimar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de abril de 2027 | San Cristóbal (Alto Paraná) |
 | Show S.A. | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de marzo de 2027 | No especificado |
 | Spinelli S.A | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 23 de agosto de 2027 | San Alberto (Alto Paraná) |
 | Spinelli S.R.L | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 14 de enero del 2027 | Nueva Esperanza (Canindeyú) |
@@ -396,6 +397,7 @@ _Se omitieron 26 filas en este resumen; están en el CSV._
 | Vera e Hijos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de mayo de 2027 | Caaguazú |
 | Villa Morra Garden House | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de enero de 2027 | Asunción |
 | Vivion - Materiales Eléctricos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 23 de marzo de 2027 | Fernando de la Mora |
+| Xpar Autorrepuestos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de noviembre de 2026 | Todo el país |
 | ZR Distribuidora | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 11 de febrero de 2027 | Fernando de la Mora |
 | Ánima | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 21 de septiembre de 2027 | Asunción |
 | Ñe'ẽ Porã Tecnologia y confort | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | Todos los días | Vigente hasta el 17 de octubre de 2027 | San Ignacio, Misiones |
@@ -745,7 +747,7 @@ _Se omitieron 39 filas en este resumen; están en el CSV._
 | Barista Róga | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre del 2026 | Asunción |
 | Belvi Studio | 20%; 20% de reintegro | Los jueves | Vigente hasta el 19 de febrero de 2027 | Naranjal |
 | Benditta Collection | 25%; Hasta 12 cuotas sin intereses; 10% de reintegro; 15% de descuento | todos los días | Vigente hasta el 09 de marzo de 2027 | Encarnación |
-| Bertoni | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 15 de octubre de 2027 | Todo el país |
+| Bertoni | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 15 de enero de 2027 | Todo el país |
 | Birkenstock | 25% de reintegro; 20% de reintegro | los jueves | Vigente hasta el 13 de noviembre de 2026 | No especificado |
 | Body Club | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 15 de abril de 2027 | Asunción |
 | Body Sculpt | hasta 12 cuotas sin intereses; 20% en caja | todos los días | Vigente hasta el 04 de febrero del 2027 | No especificado |
@@ -815,7 +817,7 @@ _Se omitieron 127 filas en este resumen; están en el CSV._
 | Automotor | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 14 de abril de 2027 | No especificado |
 | Carsuplay | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 08 de abril de 2027 | No especificado |
 | Chacomer | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de noviembre del 2026 | No especificado |
-| Chacomer S.A.E | 10%; Hasta 18 cuotas sin intereses; 10% de reintegro | todos los días | Vigente hasta el 21 de octubre de 2027 | Todo el país |
+| Chacomer S.A.E | 10%; Hasta 18 cuotas sin intereses; 10% de reintegro; 10% de descuento | todos los días | Vigente hasta el 21 de octubre de 2027 | Todo el país |
 | Classic Motos | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | No especificado |
 | DIM Sport | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Asunción |
 | Damper Repuestos | 10%; hasta 12 cuotas sin intereses; 10% de descuento | Todos los días | Vigente hasta el 11 de febrero de 2027 | Curuguaty |
@@ -825,7 +827,7 @@ _Se omitieron 127 filas en este resumen; están en el CSV._
 | Eze Equipamientos | 10%; hasta 12 cuotas sin intereses; 10% de descuento | todos los días | Vigente hasta el 18 de marzo de 2027 | San Ignacio, Misiones |
 | Ferrari Autocentro | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 19 de enero de 2026 al 18 de enero del 2027 | Ciudad del Este |
 | Ford - Tape Ruvicha | 15%; hasta 24 cuotas sin intereses; 15% de descuento | Todos los días | Vigente hasta el 14 de noviembre del 2026 | No especificado |
-| Full Equipo | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de octubre del 2026 | Asunción |
+| Full Equipo | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de enero de 2027 | Asunción |
 | GM Centro S.A | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de septiembre de 2027 | Mariano Roque Alonso |
 | Garden | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 13 de abril de 2027 | No especificado |
 | Grupo Casa J. Gomez - Cubiertas | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 08 de enero del 2027 | Fernando de la Mora |

@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 324
+Total de promociones: 325
 
 ## Clubes
 
@@ -425,4 +425,5 @@ Total de promociones: 324
 |---|---|---|---|
 | 12 CUOTAS SIN INTERÉS - 2026 | ¡Disfrutá tus rubros favoritos en CUOTAS! Tenés hasta 12 cuotas sin interés todos los días hasta el 31 de diciembre de 2026 con todas tus tarjetas de crédito en: Bicicleterías Club | todos los días | No especificado |
 | DTP TRAVEL GROUP | Sorteo de un upgrade de sector de entrada para Charter F1 São Paulo | No especificado | Enero de 2026 hasta octubre de 2026; día exacto no especificado |
+| Yacht y Golf Club Paraguayo | 10%; Hasta 12 Cuotas sin interés; Gs. 500.000. | Todos los días | •Desde el 01 de octubre hasta el 30 de noviembre 2026. |
 

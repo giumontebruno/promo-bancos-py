@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-22T12:53:24.214418+00:00",
-  "total": 250,
+  "checkedAt": "2026-10-23T12:32:08.979472+00:00",
+  "total": 251,
   "cards": [
     {
       "id": 680,
@@ -447,6 +447,25 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5267_gnb-byc-casapro.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5268_casa-pro-2026-web.png"
+    },
+    {
+      "id": 686,
+      "title": "Mercedes Benz Collection",
+      "startDate": "2026-10-22",
+      "endDate": "2026-11-27",
+      "miniDescription": "Hasta 25% de descuento los días jueves y viernes.",
+      "category": "Días GNB",
+      "lines": [
+        "Hasta 25% de descuento los días jueves y viernes.",
+        "Del 22 de octubre al 27 de noviembre del 2026.",
+        "25% de descuento para pagos con tarjetas de crédito Mastercard afinidades Black, Black Premier y Metalcard Premier del Banco GNB Paraguay.",
+        "20% de descuento para pagos con tarjetas de crédito Mastercard afinidades Clásicas y Oro del Banco GNB Paraguay.",
+        "Tope de compra mensual: Gs. 1.000.000 (guaraníes un millón) por cuenta de tarjeta de crédito (incluye titulares y adicionales), el cual aplica en forma conjunta a todos los locales de los comercios adheridos.",
+        "No participan de la promoción las tarjetas de débito y crédito; Visa, de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5396_bases-y-condiciones-mercedes-benz-collection.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5397_mercedes-benz-2026-web.png"
     },
     {
       "id": 300,

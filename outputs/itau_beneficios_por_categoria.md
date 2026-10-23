@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 532
+Total de beneficios: 529
 
 ## Alemania Cell
 
@@ -709,10 +709,7 @@ Total de beneficios: 532
 | Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingo 25 de octubre de 2026 | Desde 2026-10-25 hasta 2026-10-25 |
 | Areté | 20% de reintegro; 5 puntos porcentuales adicionales con Personal Bank. | domingo 25 de octubre de 2026 | Desde 2026-10-25 hasta 2026-10-25 |
 | Automaq | 25 % Hasta 10 Cuotas sin intereses; Tenés 20% de ahorro + 5% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2020-07-01 hasta 2026-10-24 |
-| Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-11-20 hasta 2026-10-22 |
 | Cinntre | 6 Cuotas sin intereses 25 % Hasta; Tenés 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses. | No especificado | 2025-03-13 hasta 2026-10-24 |
-| Cloetas | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses. | No especificado | 2026-10-20 hasta 2026-10-22 |
-| NESTLE COFFEE HOUSE | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro con todas las tarjetas de crédito, 25% de reintegro para tarjetas Personal Bank + 6 cuotas sin intereses | No especificado | 2026-10-21 hasta 2026-10-23 |
 | PIK | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | No especificado | 2026-07-21 hasta 2026-10-24 |
 | RESET UNIPERSONAL STAND UP | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-10-23 |
 
