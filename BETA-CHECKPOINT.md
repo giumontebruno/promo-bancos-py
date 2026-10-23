@@ -28,3 +28,8 @@ Need user to open their existing Supabase session or explicitly authorize that s
 ## Publication after unblock
 Fetch latest main, rebase only this beta branch, keep original app-web tree unchanged, rerun checks/build and compare production output. Review merge/push target carefully: never merge 5903bf5 UI into app-web. The existing Pages workflow packages both apps; modified paths trigger beta rebuilds. Publish only after return URL verified. Verify HTTP manifest/scripts/SW, actual Pages CI and production unchanged; test beta Google login if user permits, without closing main session. Separate manifest identity supports side-by-side installation but actual installation belongs to user's device.
 Rollback: revert isolated beta commit; original app route/files unchanged. Remove beta installation on device separately if desired. No backend rollback needed.
+
+## Pase approved logo integration
+Exact approved logo from Library libfile_ce3afc8a3974819189854f4361b2d8f1, matched task-5 delivery metadata; source preserved unchanged in beta-web/assets/logos/pase/approved-original.svg. Header and access use matching light/dark vector paths. Favicon, 180px Apple touch, 192/512 any and maskable icons generated from same approved vector geometry; maskable content checked inside safe circle. 159 tests pass, build passes, visual checks 360/390/1280 pass.
+
+Latest access status: user authorized one retry of existing Supabase GitHub login. Retry executed successfully and reached GitHub username/password form (no existing session). No new grant or credentials entered. User must finish existing GitHub sign-in in preserved browser tab; then inspect Supabase redirect allowlist. No push or deploy yet.

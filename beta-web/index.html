@@ -7,9 +7,9 @@
     <meta name="referrer" content="strict-origin" />
     <title>paybackpy beta</title>
     <meta name="apple-mobile-web-app-title" content="paybackpy beta">
-    <link rel="manifest" href="./manifest.webmanifest?v=standalone-beta-1" />
-    <link rel="icon" href="./assets/logos/payback-py-icon-round-192.png" type="image/png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/logos/payback-py-launch-180.png" />
+    <link rel="manifest" href="./manifest.webmanifest?v=pase-1" />
+    <link rel="icon" href="./assets/logos/pase/icon-192.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/logos/pase/apple-touch-180.png" />
     <link rel="stylesheet" href="./vendor/leaflet/leaflet.css" />
     <link rel="stylesheet" href="./styles.css?v=20260825-clean-map-controls" />
     <link rel="stylesheet" href="./premium.css?v=beta-13-login-cover" />
@@ -19,7 +19,7 @@
   <body class="auth-required">
     <section id="authGate" class="auth-gate" data-state="checking" aria-busy="true" aria-labelledby="authTitle">
       <div class="auth-gate-inner">
-        <img class="auth-brand" src="./assets/logos/payback-py-wordmark.png" alt="Payback PY - Te devuelve más" />
+        <div class="auth-brand pase-auth" role="img" aria-label="paybackpy beta"><img class="pase-light" src="./assets/logos/pase/wordmark-light.svg" alt=""><img class="pase-dark" src="./assets/logos/pase/wordmark-dark.svg" alt=""></div>
         <div class="auth-map" role="img" aria-label="Mapa de beneficios cercanos en Asunción"></div>
         <div class="auth-copy">
           <span class="auth-eyebrow">HECHO PARA TU DÍA A DÍA</span>
@@ -38,7 +38,7 @@
     </section>
     <main class="app-shell">
       <header class="topbar">
-        <a class="glass-brand" id="homeLogo" href="./" aria-label="Payback: volver al inicio"><img src="./assets/logos/payback-py-icon-round-192.png" alt=""/>Payback</a>
+        <a class="glass-brand" id="homeLogo" href="./" aria-label="Payback: volver al inicio"><img class="pase-light" src="./assets/logos/pase/wordmark-light.svg" alt="Payback"><img class="pase-dark" src="./assets/logos/pase/wordmark-dark.svg" alt="Payback"></a>
         <div class="glass-header-actions"><button id="themeToggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">◐</button><button id="profileButton" type="button" aria-label="Ver perfil" title="Ver perfil"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></svg></button></div>
       </header>
       <p id="homeDate" class="glass-date"></p><h1 id="viewTitle">Hoy te conviene.</h1><p id="viewSubtitle">Tus tarjetas. El día correcto.</p>

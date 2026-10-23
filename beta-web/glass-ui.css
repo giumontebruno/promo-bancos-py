@@ -58,3 +58,8 @@ button{transition:background-color 140ms,color 140ms,opacity 140ms}button:active
 .map-bank-badges span,.premium-badge,.power-badge,.level-caps span{background:var(--ui-soft);color:var(--ui-accent);border-color:var(--ui-line)}.nearby-group-title h2,.nearby-group-title strong{color:var(--ui-ink)}.nearby-group-title p,.nearby-group-title small{color:var(--ui-muted)}
 
 .day-tabs button.active,.level-panel button.active{color:var(--ui-ink)}.maps-link.compact.place-maps-link{background:var(--ui-accent);color:var(--ui-on-accent);border:0;box-shadow:none;min-height:44px;padding:8px 14px}
+
+/* Approved Pase geometry, adapted only to light/dark presentation. */
+.glass-brand{min-height:44px}.glass-brand img{width:124px;height:28px}
+.pase-dark{display:none}[data-theme="dark"] .pase-light{display:none}[data-theme="dark"] .pase-dark{display:block}
+.pase-auth{width:248px;max-width:100%;height:auto}.pase-auth img{width:100%;height:auto}
