@@ -14,3 +14,6 @@ await mkdir('dist/.openai', { recursive: true });
 await cp('.openai/hosting.json', 'dist/.openai/hosting.json');
 await cp('drizzle', 'dist/.openai/drizzle', { recursive: true });
 console.log('Built Payback PY and notification service.');
+
+await build({ entryPoints: ['beta-web/beta-client.js'], bundle: true, format: 'iife', platform: 'browser', target: 'es2022', outfile: 'beta-web/beta-bundle.js', minify: true });
+await cp('beta-web', 'dist/client/beta', { recursive: true });

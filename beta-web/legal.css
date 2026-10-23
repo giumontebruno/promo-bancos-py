@@ -1,0 +1,9 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; color: #f3f4f5; background: #17191c; }
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.65; }
+main { max-width: 760px; margin: auto; padding: 32px 22px 64px; }
+h1 { font-size: 30px; line-height: 1.2; } h2 { font-size: 20px; margin-top: 30px; }
+a { color: #ff938b; text-underline-offset: 3px; } p, li { overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: 18px; margin: 28px 0; }
+.brand { width: 230px; max-width: 100%; height: auto; }
+.date { color: #b8bdc5; }

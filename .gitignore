@@ -14,3 +14,5 @@ app-web/admin-bundle.js
 !.env.example
 output/playwright/
 .playwright-cli/
+
+beta-web/beta-bundle.js

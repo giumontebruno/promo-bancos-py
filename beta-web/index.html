@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#17191c" />
+    <meta name="referrer" content="strict-origin" />
+    <title>paybackpy beta</title>
+    <meta name="apple-mobile-web-app-title" content="paybackpy beta">
+    <link rel="manifest" href="./manifest.webmanifest?v=standalone-beta-1" />
+    <link rel="icon" href="./assets/logos/payback-py-icon-round-192.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/logos/payback-py-launch-180.png" />
+    <link rel="stylesheet" href="./vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css?v=20260825-clean-map-controls" />
+    <link rel="stylesheet" href="./premium.css?v=beta-13-login-cover" />
+  <link rel="stylesheet" href="./glass-ui.css?v=glass-1" />
+    <script>try { const t=JSON.parse(localStorage.getItem('paybackPyBeta.theme')); document.documentElement.dataset.theme=t==='dark'?'dark':'light'; } catch { document.documentElement.dataset.theme='light'; }</script>
+  </head>
+  <body class="auth-required">
+    <section id="authGate" class="auth-gate" data-state="checking" aria-busy="true" aria-labelledby="authTitle">
+      <div class="auth-gate-inner">
+        <img class="auth-brand" src="./assets/logos/payback-py-wordmark.png" alt="Payback PY - Te devuelve más" />
+        <div class="auth-map" role="img" aria-label="Mapa de beneficios cercanos en Asunción"></div>
+        <div class="auth-copy">
+          <span class="auth-eyebrow">HECHO PARA TU DÍA A DÍA</span>
+          <h1 id="authTitle">Tus beneficios,<br>en un solo lugar.</h1>
+          <p>Entrá para descubrir las promociones que más te convienen.</p>
+        </div>
+        <div class="auth-actions">
+          <span class="auth-spinner" aria-hidden="true"></span>
+          <p id="authStatus" class="auth-status" role="status" aria-live="polite">Comprobando tu sesión…</p>
+          <button type="button" class="auth-google" data-auth-login disabled><img src="./assets/logos/google-g-official.png" width="22" height="22" alt="">Continuar con Google</button>
+          <p class="auth-account-hint">Para crear tu cuenta o volver a entrar.</p>
+          <button type="button" class="auth-retry" data-auth-retry hidden>Reintentar</button>
+        </div>
+        <p class="auth-legal">Al continuar, aceptás las <a href="./terms.html">Condiciones de uso</a><br>y la <a href="./privacy.html">Política de privacidad</a>.</p>
+      </div>
+    </section>
+    <main class="app-shell">
+      <header class="topbar">
+        <a class="glass-brand" id="homeLogo" href="./" aria-label="Payback: volver al inicio"><img src="./assets/logos/payback-py-icon-round-192.png" alt=""/>Payback</a>
+        <div class="glass-header-actions"><button id="themeToggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">◐</button><button id="profileButton" type="button" aria-label="Ver perfil" title="Ver perfil"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></svg></button></div>
+      </header>
+      <p id="homeDate" class="glass-date"></p><h1 id="viewTitle">Hoy te conviene.</h1><p id="viewSubtitle">Tus tarjetas. El día correcto.</p>
+      <section id="homeHero" class="glass-hero"><span>MENOS BÚSQUEDA, MÁS PLANES</span><h2>Tu próximo plan,<br>con beneficio.</h2><p>Revisá qué aplica antes de salir.</p><button id="explorePromos" type="button">Explorar promociones <span aria-hidden="true">→</span></button></section>
+      <section class="controls">
+        <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></svg><input id="searchInput" type="search" placeholder="Comercio o categoría" aria-label="Buscar promociones" /></label>
+        <div id="dayTabs" class="tabs day-tabs" aria-label="Día de la promoción"></div>
+        <input id="datePicker" type="date" aria-label="Elegir fecha de la promoción" hidden />
+        <div class="glass-filters"><label><span class="sr-only">Banco</span><select id="bankSelect" aria-label="Banco"></select></label><label><span class="sr-only">Categoría</span><select id="categorySelect" aria-label="Categoría"></select></label><label><span class="sr-only">Tarjeta</span><select id="cardSelect" aria-label="Tarjeta"><option value="Todas">Tarjetas</option><option>Crédito</option><option>Débito</option><option>Visa</option><option>Mastercard</option><option>American Express</option></select></label></div>
+        <div id="bankTabs" hidden></div><div id="categoryTabs" hidden></div><div id="uenoLevelPanel" class="level-panel hidden"></div>
+      </section>
+      <section class="summary">
+        <span id="statusText">Cargando promociones...</span>
+        <span id="countText"></span><button id="refreshButton" type="button" aria-label="Actualizar promociones" title="Actualizar">↻</button>
+      </section>
+
+      <section id="results" class="results"></section>
+      <footer style="display:flex;flex-wrap:wrap;gap:16px;padding:24px 0 100px;font-size:13px">
+        <a href="./about.html">Acerca de Payback PY</a>
+        <a href="./privacy.html">Privacidad</a>
+        <a href="./terms.html">Condiciones de uso</a>
+      </footer>
+    </main>
+
+    <nav id="bottomNav" class="bottom-nav" aria-label="Navegación principal">
+      <button class="active" type="button" data-view="today"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7M6 8v13h12V8M10 21v-7h4v7"/></svg>Hoy</button>
+      <button type="button" data-view="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></svg>Promos</button>
+      <button type="button" data-view="nearby"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2V5m6-2v16m6-14v16"/></svg>Cerca</button>
+      <button type="button" data-view="favorites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5c-3-3-6-1-8 1-2-2-5-4-8-1-5 5 3 11 8 15 5-4 13-10 8-15"/></svg>Guardados</button>
+    </nav>
+
+    <dialog id="promoDialog" aria-labelledby="promoDetailTitle">
+      <article class="dialog-card">
+        <button id="closeDialog" class="close-button" type="button" aria-label="Cerrar promoción" title="Cerrar">×</button>
+        <div id="dialogContent"></div>
+      </article>
+    </dialog>
+
+    <script>
+      window.paybackAuthWatchdog = setTimeout(() => {
+        const gate = document.getElementById('authGate');
+        if (gate.dataset.state !== 'checking') return;
+        gate.dataset.state = 'error'; gate.setAttribute('aria-busy', 'false');
+        document.getElementById('authStatus').textContent = 'No pudimos cargar el acceso. Revisá tu conexión y reintentá.';
+        gate.querySelector('[data-auth-retry]').hidden = false;
+      }, 18000);
+      document.getElementById('authGate').addEventListener('click', e => {
+        if (e.target.closest('[data-auth-retry]') && !window.PaybackBeta) location.reload();
+      });
+    </script>
+    <script src="./config.js?v=20260904-google-map-key"></script>
+    <script src="./map-provider.js"></script>
+    <script src="./benefit-rules.js?v=20260909"></script>
+    <script src="./push-client.js?v=beta-2-round-logo"></script>
+    <script src="./beta-bundle.js?v=beta-3-login-cover"></script>
+    <script src="./ui-date.js?v=glass-1"></script>
+    <script src="./app.js?v=beta-8-map-store-selection"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js", { scope: "./" });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+globalThis.PaybackPush = { enabled: () => false, supported: () => false, sync: async () => {}, disable: async () => {}, enable: async () => { throw new Error('Los avisos se gestionan en la app principal.'); }, test: async () => { throw new Error('Los avisos se gestionan en la app principal.'); } };

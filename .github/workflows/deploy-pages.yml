@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - "app-web/**"
+      - "beta-web/**"
+      - "scripts/build.mjs"
       - "public/**"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:

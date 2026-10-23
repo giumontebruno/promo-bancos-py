@@ -1,0 +1,3594 @@
+const DATA_URL = "../public/promotions.json";
+const MANIFEST_URL = "../public/manifest.json";
+const LOCATIONS_URL = "../public/locations.json";
+const STORAGE_KEYS = {
+  user: "paybackPyBeta.user",
+  favorites: "paybackPyBeta.favorites",
+  alertPrefs: "paybackPyBeta.alertPrefs",
+};
+const DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
+const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria", "Familiar", "GNB"];
+const PREMIUM_CATEGORY = "Club Black";
+const PREMIUM_BANK_ORDER = ["Itaú", "Sudameris", "Continental", "ueno bank", "BNF", "Atlas", "Coop. Universitaria"];
+const KNOWN_PLACES = [
+  { name: "Shopping del Sol", lat: -25.28288, lng: -57.56706, terms: ["del sol", "delsol", "shopping del sol", "shopping delsol"] },
+  { name: "Paseo La Galería", lat: -25.2819, lng: -57.5638, terms: ["paseo la galeria", "paseo la galería", "la galeria", "la galería", "paseo galeria"] },
+  { name: "Shopping Mariscal", lat: -25.2964, lng: -57.5814, terms: ["shopping mariscal", "mariscal", "gastro mariscal", "shopping mariscal lopez", "shopping mariscal lópez"] },
+  { name: "Pinedo Shopping", lat: -25.32396, lng: -57.52098, terms: ["pinedo", "pinedo shopping", "shopping pinedo"] },
+  { name: "Shopping Mariano", lat: -25.2076, lng: -57.5323, terms: ["shopping mariano", "mariano", "shopping mariano roque alonso"] },
+  { name: "Multiplaza", lat: -25.29831, lng: -57.55011, terms: ["multiplaza", "shopping multiplaza"] },
+  { name: "Villa Morra", lat: -25.29338, lng: -57.58125, terms: ["villa morra", "villamorra", "shopping villa morra", "shopping villamorra"] },
+];
+const KNOWN_LOCAL_POINTS = [
+  ...KNOWN_PLACES,
+  { name: "CIT", lat: -25.28935, lng: -57.60074, terms: ["club internacional de tenis", "cit", "tl sports cit", "provisión cars cit", "provision cars cit", "asismed sucursal cit"] },
+  { name: "Asunción Tenis Club", lat: -25.2871, lng: -57.6087, terms: ["asuncion tenis club", "asunción tenis club"] },
+  { name: "Club Cerro Porteño", lat: -25.2979, lng: -57.6591, terms: ["cerro porteño", "cerro porteno", "club cerro porteño"] },
+  { name: "Club Olimpia", lat: -25.2912, lng: -57.6426, terms: ["club olimpia", "olimpia"] },
+  { name: "Distrito Perseverancia", lat: -25.28763, lng: -57.58251, terms: ["distrito perseverancia", "perseverancia"] },
+  { name: "Casa Rica Molas López", lat: -25.27381, lng: -57.57173, terms: ["casa rica molas", "molas lópez", "molas lopez"] },
+  { name: "Superseis Los Laureles", lat: -25.2998, lng: -57.5706, terms: ["los laureles", "superseis los laureles"] },
+];
+const CATEGORY_GROUPS = [
+  ["Todas", []],
+  ["Supermercados", ["super", "mayorista", "delimarket", "stock", "real", "contimarket", "frigorifico"]],
+  ["Combustible", ["combustible", "estacion", "estaciones", "shell", "puma flota"]],
+  ["Farmacias", ["farmacia", "farma", "drugstore", "perfumeria", "perfumerías"]],
+  ["Gastronomía", ["gastronomia", "gastronomía", "cafeteria", "cafeterías", "heladeria", "heladerías", "fast food"]],
+  ["Tiendas", ["tienda", "tiendas", "moda", "indumentaria", "shopping", "shoppings", "joyeria", "joyerías", "joyas", "niños", "jugueteria", "jugueterías", "libreria", "bodega"]],
+  ["Hogar y construcción", ["hogar", "construccion", "construcción", "ferreteria", "ferreterías", "muebleria", "mueblerías", "muebles", "industrial"]],
+  ["Tecnología", ["tecnologia", "tecnología", "electronica", "electrónica", "electrodomesticos"]],
+  ["Clubes sociales", ["clubes", "deportes y clubes", "club social", "club deportivo", "country club", "centro social", "cit", "club internacional de tenis", "asuncion tenis club", "asunción tenis club", "cerro porteño", "cerro porteno", "olimpia"]],
+  ["Entretenimiento", ["entretenimiento", "eventos", "teatro", "deportes", "academia", "gym", "gimnasio", "pilates", "feria", "caza", "pesca"]],
+  ["Viajes", ["viaje", "viajes", "turismo", "hoteles", "hotel", "cabaña", "cabañas", "aéreas", "aereas"]],
+  ["Salud y belleza", ["salud", "belleza", "bienestar", "peluqueria", "peluquerías", "spa", "spas", "veterinaria", "veterinarias", "optica", "laboratorio", "estetica"]],
+  ["Servicios", ["servicios", "educacion", "educación", "instituciones educativas", "seguros", "municipalidades", "juridicos", "jurídicos", "inmobiliarias", "inmuebles", "vehículo", "vehiculo", "mecanica"]],
+  ["Especiales", ["beneficios del mes", "primera compra", "privilege", "promociones especiales", "cuotas", "tarjetas", "últimos días", "ultimos dias", "varios", "otros", "sin categoría"]],
+];
+const METRO_AREA_TERMS = [
+  "asuncion",
+  "gran asuncion",
+  "fernando de la mora",
+  "san lorenzo",
+  "luque",
+  "lambare",
+  "lambare",
+  "mariano roque alonso",
+  "limpio",
+  "capiata",
+  "nemby",
+  "ñemby",
+  "san antonio",
+  "villa elisa",
+  "villa hayes",
+  "ypane",
+  "yaguaron",
+  "aregua",
+  "itaugua",
+];
+const OTHER_CITY_TERMS = [
+  "ciudad del este",
+  "encarnacion",
+  "caaguazu",
+  "coronel oviedo",
+  "concepcion",
+  "itapua",
+  "pilar",
+  "paraguari",
+  "san bernardino",
+  "villarrica",
+  "hohenau",
+  "hernandarias",
+  "presidente franco",
+  "maria auxiliadora",
+  "obligado",
+  "colonias unidas",
+  "bella vista",
+  "capitan meza",
+  "santa rita",
+  "minga guazu",
+  "curuguaty",
+  "salto del guaira",
+  "san ignacio",
+  "misiones",
+  "caazapa",
+  "caaguazu",
+  "cordillera",
+  "alto parana",
+  "neembucu",
+  "ñeembucu",
+  "guaira",
+  "canindeyu",
+  "concepcion",
+];
+const FUEL_BRANDS = ["petropar", "copetrol", "enex", "puma", "puma energy", "3mg", "petrobras", "petrochaco", "petromax", "compasa", "shell"];
+
+const state = {
+  promotions: [],
+  locations: [],
+  locationsUpdated: "",
+  locationsLoaded: false,
+  locationsStatus: "idle",
+  activeView: new URLSearchParams(location.search).get("view") === "favorites" ? "favorites" : "today",
+  activeBank: "Todos",
+  activeCategory: "Todas",
+  activeDay: "hoy",
+  selectedDate: "",
+  activeCard: "Todas",
+  query: "",
+  uenoLevel: Math.min(5, Math.max(1, Number(loadStoredJson("paybackPyBeta.uenoLevel", 5)) || 5)),
+  location: null,
+  locationStatus: "idle",
+  nearbyAutoLocationTried: false,
+  activePlaceName: "",
+  user: loadStoredJson(STORAGE_KEYS.user, null),
+  favorites: new Set(loadStoredJson(STORAGE_KEYS.favorites, [])),
+  favoriteAliases: {},
+  alertPrefs: loadStoredJson(STORAGE_KEYS.alertPrefs, { today: true, favorites: true }),
+  collapsedSections: new Set(["Todos los dias", "Cuotas sin intereses todos los dias", "Otras ciudades"]),
+  expandedSections: new Set(),
+  lastUpdated: "",
+  pushMessage: "",
+};
+
+
+function selectedDateIso() {
+  const today = PaybackDates.today();
+  if (["favorites", "alerts"].includes(state.activeView)) return today;
+  if (state.activeDay === "mañana") return PaybackDates.shift(today, 1);
+  return state.activeDay === "fecha" && PaybackDates.valid(state.selectedDate) ? state.selectedDate : today;
+}
+function selectedDateLabel() { return new Intl.DateTimeFormat('es-PY',{weekday:'long',day:'numeric',month:'short',timeZone:'UTC'}).format(new Date(selectedDateIso()+'T12:00:00Z')); }
+function renderGlassBenefit(line) { const safe=escapeHtml(line);return safe.replace(/(\d+(?:[.,–-]\d+)?\s*%)/, '<b>$1</b>'); }
+function matchesCardFilter(promo) {
+  if (!state.activeCard || state.activeCard === "Todas") return true;
+  return normalizeDayName(extractApplicableCards(promo)).includes(normalizeDayName(state.activeCard));
+}
+function syncGlassFilters() {
+  const bank=document.querySelector('#bankSelect'),category=document.querySelector('#categorySelect'),card=document.querySelector('#cardSelect');
+  bank.innerHTML=BANKS.map(x=>`<option value="${escapeAttribute(x)}">${escapeHtml(x === 'Todos' ? 'Bancos' : getBankLabel(x))}</option>`).join('');bank.value=state.activeBank;
+  category.innerHTML=getCategories().map(x=>`<option value="${escapeAttribute(x)}">${escapeHtml(x === 'Todas' ? 'Categorías' : x)}</option>`).join('');category.value=state.activeCategory;
+  card.value=state.activeCard;
+}
+function renderGlassHeader() {
+  document.body.dataset.view=state.activeView;
+  const titles={today:'Hoy te conviene.',search:'Promociones',nearby:'Cerca tuyo',favorites:'Guardados',alerts:'Tu perfil'};
+  document.querySelector('#viewTitle').textContent=titles[state.activeView];
+  document.querySelector('#viewSubtitle').textContent=state.activeView==='today'?'Tus tarjetas. El día correcto.':state.activeView==='search'?'Encontrá el beneficio para tu plan.':state.activeView==='nearby'?'Elegí una sucursal antes de salir.':'';
+  document.querySelector('#homeDate').textContent=selectedDateLabel();
+  document.querySelector('#homeHero').hidden=state.activeView!=='today';document.querySelector('#homeDate').hidden=state.activeView!=='today';
+}
+function showPromotionLoadError(error) {
+  els.statusText.textContent='No pudimos actualizar las promociones.';
+  els.results.innerHTML='<div class="empty" role="status"><h2>No pudimos actualizar</h2><p>Revisá tu conexión y volvé a intentar.</p><button type="button" data-retry-promotions>Reintentar</button></div>';
+}
+
+const nearbyMapState = {
+  map: null,
+  markers: [],
+  userMarker: null,
+  googleMap: null,
+  googleMarkers: [],
+  googleUserMarker: null,
+  googlePromise: null,
+  provider: null,
+  renderId: 0,
+  tileTimer: null,
+};
+
+const bankThemes = {
+  "GNB": { main: "#168443", soft: "#e5f5e9", card: "#f4faf5", logo: "./assets/logos/gnb-official.svg", logoBg: "#062b1a" },
+  "Familiar": { main: "#f28c28", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/familiar-official.webp", logoBg: "#ffffff" },
+  "ueno bank": { main: "#2bd98e", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno-icon-official.svg", logoBg: "#062017" },
+  "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau-official.svg", logoBg: "#ec7000" },
+  "Continental": { main: "#082a63", soft: "#e5edf8", card: "#f4f8fe", logo: "./assets/logos/continental-official.png", logoBg: "#e7ebf0" },
+  "Sudameris": { main: "#ff0000", soft: "#ffe5e5", card: "#fff7f7", logo: "./assets/logos/sudameris.svg", logoBg: "#ff0000" },
+  "BNF": { main: "#b08a2e", soft: "#f4eddd", card: "#fbfaf6", logo: "./assets/logos/bnf-official.png", logoBg: "#d9d1bf" },
+  "Atlas": { main: "#a41f35", soft: "#f7e6ea", card: "#fff6f8", logo: "./assets/logos/atlas-official.svg", logoBg: "#631421" },
+  "Coop. Universitaria": { main: "#4c1d95", soft: "#ede9fe", card: "#f7f2ff", logo: "./assets/logos/universitaria-official.png", logoBg: "#f1ecff" },
+};
+
+const BANK_LABELS = {
+  "ueno bank": "UENO",
+  "Coop. Universitaria": "Universitaria",
+};
+
+const SECTION_LABELS = {
+  "Todos los dias": "Siempre activas",
+  "Cuotas sin intereses todos los dias": "Financiación",
+  "Otras ciudades": "Explorar interior",
+  "Mejor opción hoy": "Mejor opción hoy",
+  "Otras opciones": "Otras opciones",
+  "Hoy te conviene": "Hoy te conviene",
+  "Disponible hoy": "Disponible hoy",
+  "Mayor ahorro hoy": "Mayor ahorro hoy",
+  "Cuotas sin intereses": "Cuotas sin intereses",
+  "Club Black": "Club Black",
+};
+
+const SECTION_SUBTITLES = {
+  "Todos los dias": "Beneficios que podés usar cualquier día.",
+  "Cuotas sin intereses todos los dias": "Opciones para pagar en cuotas sin interés.",
+  "Otras ciudades": "Promos fuera de Asunción y Gran Asunción.",
+  "Mejor opción hoy": "La tarjeta que más conviene para esta búsqueda.",
+  "Otras opciones": "Alternativas disponibles para comparar.",
+  "Hoy te conviene": "Beneficios destacados para usar hoy.",
+  "Disponible hoy": "Promos activas para usar ahora mismo.",
+  "Mayor ahorro hoy": "Ordenado por ahorro máximo estimado.",
+  "Cuotas sin intereses": "Financiación separada de reintegros y descuentos.",
+  "Club Black": "Beneficios premium ordenados por descuento y reintegro.",
+};
+
+const CATEGORY_ICONS = {
+  Todas: "spark",
+  Supermercados: "cart",
+  Combustible: "fuel",
+  Farmacias: "pill",
+  Gastronomía: "fork",
+  Tiendas: "bag",
+  "Hogar y construcción": "home",
+  Tecnología: "device",
+  "Clubes sociales": "users",
+  Entretenimiento: "ticket",
+  Viajes: "plane",
+  "Salud y belleza": "heart",
+  Servicios: "briefcase",
+  Especiales: "star",
+  [PREMIUM_CATEGORY]: "crown",
+};
+
+const ICON_PATHS = {
+  share: '<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98m-.01-10.98-6.82 3.98"/>',
+  user: '<path d="M20 21v-2a7 7 0 0 0-14 0v2"/><circle cx="13" cy="7" r="4"/>',
+  spark: '<path d="M12 3l1.6 5.1L19 10l-5.4 1.9L12 17l-1.6-5.1L5 10l5.4-1.9L12 3z"/>',
+  cart: '<path d="M5 6h2l1.4 8.2h8.3L19 8H8"/><circle cx="10" cy="18" r="1.4"/><circle cx="16" cy="18" r="1.4"/>',
+  fuel: '<path d="M6 21V5a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v16"/><path d="M8 9h7"/><path d="M18 7l2 2v7a2 2 0 0 1-4 0v-4"/><path d="M4 21h15"/>',
+  pill: '<path d="M10.5 20.5a5 5 0 0 1-7-7l7-7a5 5 0 0 1 7 7l-7 7z"/><path d="M8 9l7 7"/>',
+  plus: '<path d="M12 5v14M5 12h14"/>',
+  fork: '<path d="M7 4v8M10 4v8M7 8h3M9 12v8"/><path d="M16 4v16"/><path d="M16 4c2 1.5 3 3.5 3 6"/>',
+  bag: '<path d="M6 9h12l-1 11H7L6 9z"/><path d="M9 9a3 3 0 0 1 6 0"/>',
+  home: '<path d="M4 11l8-7 8 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-6h4v6"/>',
+  device: '<rect x="7" y="4" width="10" height="16" rx="2"/><path d="M11 17h2"/>',
+  users: '<path d="M16 11a4 4 0 1 0-8 0"/><path d="M4 20a8 8 0 0 1 16 0"/><path d="M18 8a3 3 0 0 1 2 5"/><path d="M6 8a3 3 0 0 0-2 5"/>',
+  ticket: '<path d="M5 8h14v3a2 2 0 0 0 0 4v3H5v-3a2 2 0 0 0 0-4V8z"/><path d="M12 9v2M12 13v2M12 17v1"/>',
+  plane: '<path d="M3 11l18-7-7 18-3-8-8-3z"/><path d="M11 14l4-4"/>',
+  heart: '<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>',
+  briefcase: '<path d="M7 8V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/><rect x="4" y="8" width="16" height="11" rx="2"/><path d="M4 13h16"/>',
+  star: '<path d="M12 4l2.4 5 5.6.8-4 3.9.9 5.5-4.9-2.6-4.9 2.6.9-5.5-4-3.9 5.6-.8L12 4z"/>',
+  crown: '<path d="M5 18h14"/><path d="M6 15l1-8 5 4 5-4 1 8H6z"/><path d="M9 21h6"/>',
+  target: '<circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>',
+  mapPin: '<path d="M12 21s6-5.2 6-11a6 6 0 1 0-12 0c0 5.8 6 11 6 11z"/><circle cx="12" cy="10" r="2"/>',
+};
+
+const els = {
+  bankTabs: document.querySelector("#bankTabs"),
+  dayTabs: document.querySelector("#dayTabs"),
+  searchInput: document.querySelector("#searchInput"),
+  categoryTabs: document.querySelector("#categoryTabs"),
+  refreshButton: document.querySelector("#refreshButton"),
+  statusText: document.querySelector("#statusText"),
+  countText: document.querySelector("#countText"),
+  results: document.querySelector("#results"),
+  uenoLevelPanel: document.querySelector("#uenoLevelPanel"),
+  bottomNav: document.querySelector("#bottomNav"),
+  dialog: document.querySelector("#promoDialog"),
+  dialogContent: document.querySelector("#dialogContent"),
+  closeDialog: document.querySelector("#closeDialog"),
+};
+
+// Bound pure text memoization by both entry count and retained characters.
+const normalizedTextCache = new Map();
+let normalizedTextCacheSize = 0;
+function normalizeDayName(value) {
+  const text = String(value || "");
+  if (normalizedTextCache.has(text)) return normalizedTextCache.get(text);
+  const normalized = text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace("miercoles", "miércoles")
+    .replace("sabado", "sábado")
+    .trim();
+  const size = text.length + normalized.length;
+  if (size <= 100000) {
+    while (normalizedTextCache.size >= 16000 || normalizedTextCacheSize + size > 2000000) {
+      const oldest = normalizedTextCache.keys().next().value;
+      normalizedTextCacheSize -= oldest.length + normalizedTextCache.get(oldest).length;
+      normalizedTextCache.delete(oldest);
+    }
+    normalizedTextCache.set(text, normalized);
+    normalizedTextCacheSize += size;
+  }
+  return normalized;
+}
+
+function loadStoredJson(key, fallback) {
+  try {
+    const value = localStorage.getItem(key);
+    return value ? JSON.parse(value) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function saveStoredJson(key, value) {
+  localStorage.setItem(key, JSON.stringify(value));
+}
+
+// Reuse formatter instances, not their output: dates still advance at Paraguay midnight.
+const dateTimeFormatters = new Map();
+function getDateTimeFormatter(locale, options) {
+  const key = JSON.stringify([locale, options]);
+  if (!dateTimeFormatters.has(key)) dateTimeFormatters.set(key, new Intl.DateTimeFormat(locale, options));
+  return dateTimeFormatters.get(key);
+}
+
+function getTodayInParaguay() {
+  const text = getDateTimeFormatter("es-PY", {
+    weekday: "long",
+    timeZone: "America/Asuncion",
+  }).format(new Date());
+  return normalizeDayName(text);
+}
+
+function getTodayLabel() {
+  const parts = getDateTimeFormatter("es-PY", {
+    day: "numeric",
+    month: "long",
+    timeZone: "America/Asuncion",
+    weekday: "long",
+  }).formatToParts(new Date());
+  const weekday = parts.find((part) => part.type === "weekday")?.value || getTodayInParaguay();
+  const day = parts.find((part) => part.type === "day")?.value || "";
+  const month = parts.find((part) => part.type === "month")?.value || "";
+  return `Hoy ${normalizeDayName(weekday)} ${day} de ${month}`;
+}
+
+function inferPromotionDaysFromText(promo) {
+  if (getMonthDays(promo).length) return [];
+
+  const ordinalRules = getOrdinalWeekdayRules(promo);
+  if (ordinalRules.length) return [...new Set(ordinalRules.map((rule) => rule.day))];
+
+  const existing = (promo.promotion_days || []).map(normalizeDayName).filter(Boolean);
+  if (existing.length) return existing;
+
+  const text = normalizeDayName(`${promo.day_text || ""} ${promo.validity || ""}`);
+  if (hasOpenDateRangeWithoutSpecificDay(text)) return [...DAYS];
+  if (!text) return [];
+  if (text.includes("todos los dias") || text.includes("todos los días")) return [...DAYS];
+
+  const found = DAYS.filter((day) => text.includes(normalizeDayName(day)));
+  const range = inferDayRange(text);
+  if (!found.length && !range.length && text.includes("no especificado")) return [];
+  return [...new Set([...found, ...range])];
+}
+
+function hasOpenDateRangeWithoutSpecificDay(text) {
+  const hasRange = /\b(del|desde)\b.+\b(al|hasta)\b/.test(text);
+  if (!hasRange) return false;
+  return !DAYS.some((day) => text.includes(normalizeDayName(day)));
+}
+
+function getDisplayDays(promo) {
+  const monthDays = getMonthDays(promo);
+  if (promo.last_days_of_month && monthDays.length) {
+    return `${monthDays[0]} al ${monthDays.at(-1)} y últimos ${promo.last_days_of_month} días de cada mes`;
+  }
+  if (monthDays.length) return monthDays.map((day) => `${day} de cada mes`).join(", ");
+
+  const ordinalRules = getOrdinalWeekdayRules(promo);
+  if (ordinalRules.length) {
+    return ordinalRules.map((rule) => `${ordinalLabel(rule.ordinal)} ${rule.day} de cada mes`).join(", ");
+  }
+
+  const days = inferPromotionDaysFromText(promo);
+  if (isEveryDayPromotion(promo)) return "Todos los dias";
+  if (!days.length) return "No especificado";
+  return days.map(capitalize).join(", ");
+}
+
+function getOrdinalWeekdayRules(promo) {
+  if (Array.isArray(promo.ordinal_weekdays) && promo.ordinal_weekdays.length) {
+    return promo.ordinal_weekdays
+      .map((rule) => ({ ordinal: Number(rule.ordinal), day: normalizeDayName(rule.day) }))
+      .filter((rule) => rule.ordinal && DAYS.includes(rule.day));
+  }
+
+  const text = normalizeDayName(`${promo.day_text || ""} ${promo.validity || ""} ${promo.raw_detail || ""}`);
+  const ordinalWords = {
+    primer: 1,
+    primero: 1,
+    primera: 1,
+    segundo: 2,
+    segunda: 2,
+    tercer: 3,
+    tercero: 3,
+    tercera: 3,
+    cuarto: 4,
+    cuarta: 4,
+    ultimo: -1,
+    ultima: -1,
+  };
+  const rules = [];
+  const wordPattern = Object.keys(ordinalWords).join("|");
+  const dayPattern = DAYS.map(normalizeDayName).join("|");
+  const regexes = [
+    new RegExp(`\\b(${wordPattern})\\s+((?:${dayPattern})(?:\\s+y\\s+(?:${dayPattern}))*)\\s+de\\s+cada\\s+mes\\b`, "g"),
+    new RegExp(`\\bsolo\\s+el\\s+(${wordPattern})\\s+((?:${dayPattern})(?:\\s+y\\s+(?:${dayPattern}))*)\\b`, "g"),
+  ];
+  regexes.forEach((regex) => {
+    for (const match of text.matchAll(regex)) {
+      const ordinal = ordinalWords[match[1]];
+      DAYS.forEach((day) => {
+        if (match[2].includes(normalizeDayName(day))) rules.push({ ordinal, day });
+      });
+    }
+  });
+  return uniqueOrdinalRules(rules);
+}
+
+function uniqueOrdinalRules(rules) {
+  const seen = new Set();
+  return rules.filter((rule) => {
+    const key = `${rule.ordinal}:${rule.day}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function ordinalLabel(ordinal) {
+  if (ordinal === 1) return "Primer";
+  if (ordinal === 2) return "Segundo";
+  if (ordinal === 3) return "Tercer";
+  if (ordinal === 4) return "Cuarto";
+  if (ordinal === -1) return "Ultimo";
+  return `${ordinal}°`;
+}
+
+function getMonthDays(promo) {
+  if (Array.isArray(promo.month_days)) {
+    return promo.month_days.map(Number).filter((day) => day >= 1 && day <= 31);
+  }
+
+  const text = normalizeDayName(`${promo.day_text || ""} ${promo.validity || ""} ${promo.raw_detail || ""}`);
+  const found = [...text.matchAll(/\b(?:dia\s*)?([0-3]?\d)\s+de\s+cada\s+mes\b/g)]
+    .map((match) => Number(match[1]))
+    .filter((day) => day >= 1 && day <= 31);
+  return [...new Set(found)];
+}
+
+function getDisplayValidity(promo) {
+  const text = String(promo.validity || "").trim();
+  if (!text || normalizeDayName(text).includes("no especificado")) return "Ver bases";
+  if (/la ficha y el PDF difieren/i.test(text)) return cleanSentence(text);
+
+  const datePatterns = [
+    /del\s+[0-9]{1,2}\s+al\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
+    /desde\s+el\s+[0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+al\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
+    /hasta\s+el\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
+    /hasta\s+el\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+del\s+[0-9]{4})/i,
+    /hasta\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4})/i,
+    /hasta\s+([0-9]{4}-[0-9]{2}-[0-9]{2})/i,
+    /[0-9]{4}-[0-9]{2}-[0-9]{2}\s+hasta\s+([0-9]{4}-[0-9]{2}-[0-9]{2})/i,
+    /hasta\s+el\s+([0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4})/i,
+  ];
+  for (const pattern of datePatterns) {
+    const match = text.match(pattern);
+    if (match) return `Hasta ${cleanSentence(match[1])}`;
+  }
+  return cleanSentence(text.replace(/^vigencia:\s*/i, ""));
+}
+
+function getCardValidity(promo) {
+  const validity = getDisplayValidity(promo);
+  if (validity.length <= 46) return validity;
+  if (promo.terms?.ends_on) {
+    const [year, month, day] = promo.terms.ends_on.split("-").map(Number);
+    if (year && month && day) {
+      const date = new Date(year, month - 1, day);
+      return `Hasta ${getDateTimeFormatter("es-PY", { day: "numeric", month: "long", year: "numeric" }).format(date)}`;
+    }
+  }
+  const text = cleanSentence(`${promo.validity || ""} ${promo.raw_detail || ""}`);
+  const match = text.match(/vigente[^.]*?(?:hasta|al)\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de\s+)?[0-9]{4}|[0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4})/i);
+  if (match) return `Hasta ${cleanSentence(match[1])}`;
+  return "Ver detalle";
+}
+
+function isActivePromotion(promo, dateOverride = null) {
+  if (promo.source_verification === "unconfirmed") return false;
+  if (promo.terms?.conflicting_dates) return false;
+  const today = dateOverride || getDateTimeFormatter("en-CA", { timeZone: "America/Asuncion" }).format(new Date());
+  if (promo.terms?.starts_on && promo.terms.starts_on > today) return false;
+  // Use the validated purchase window; unrelated dates in raw terms cannot revive it.
+  return Boolean(promo.terms?.ends_on && promo.terms.ends_on >= today);
+}
+
+function shouldShowPromotion(promo) {
+  return isActivePromotion(promo, ["mañana", "fecha"].includes(state.activeDay) ? selectedDateIso() : null) && isDisplayablePromotion(promo);
+}
+
+function isDisplayablePromotion(promo) {
+  if (promo.benefit_type === "sorteo") return false;
+  const text = normalizeDayName([
+    promo.merchant_name,
+    promo.benefit_summary,
+    promo.benefit_type,
+    promo.category,
+    promo.merchant_locations_or_group,
+    promo.caps_and_minimums,
+    promo.level_rules,
+    promo.raw_detail,
+    promo.source_url,
+  ].join(" "));
+
+  if (text.includes("tyc-beneficios-ueno") || text.includes("programa de beneficios ueno+")) {
+    return false;
+  }
+
+  const hasDiscountBenefit =
+    /\d{1,3}\s*%/.test(text) ||
+    text.includes("reintegro") ||
+    text.includes("descuento") ||
+    text.includes("sin costo") ||
+    text.includes("cuotas sin interes") ||
+    text.includes("cuotas sin intereses");
+  const isOnlyPointsAction =
+    text.includes("upys") &&
+    !text.includes("reintegro") &&
+    !text.includes("descuento") &&
+    !text.includes("cuotas sin interes") &&
+    !text.includes("cuotas sin intereses");
+
+  return hasDiscountBenefit && !isOnlyPointsAction;
+}
+
+function getPromotionEndDate(promo) {
+  const explicit = extractEndDates(promo.validity || "");
+  if (explicit.length) return new Date(Math.min(...explicit.map((date) => date.getTime())));
+  const text = cleanSentence([
+    promo.validity,
+    promo.caps_and_minimums,
+    promo.raw_detail,
+  ].join(" "));
+  const dates = extractEndDates(text);
+  if (!dates.length) return null;
+  return new Date(Math.min(...dates.map((date) => date.getTime())));
+}
+
+function extractEndDates(text) {
+  const normalized = String(text || "");
+  const patterns = [
+    /\b(?:hasta|al)\s+el\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de|del)\s+[0-9]{4})/gi,
+    /\b(?:hasta|al)\s+([0-9]{1,2}\s+de\s+[a-záéíóúñ]+\s+(?:de|del)\s+[0-9]{4})/gi,
+    /\b(?:hasta|al)\s+el\s+([0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4})/gi,
+    /\b(?:hasta|al)\s+([0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4})/gi,
+    /\b(?:hasta|al)\s+([0-9]{4}-[0-9]{2}-[0-9]{2})/gi,
+    /\b[0-9]{4}-[0-9]{2}-[0-9]{2}\s+hasta\s+([0-9]{4}-[0-9]{2}-[0-9]{2})/gi,
+  ];
+  const dates = [];
+  patterns.forEach((pattern) => {
+    for (const match of normalized.matchAll(pattern)) {
+      const parsed = parseDateText(match[1]);
+      if (parsed) dates.push(parsed);
+    }
+  });
+  return dates;
+}
+
+function parseDateText(value) {
+  const text = normalizeDayName(value).replace(/\bdel\b/g, "de");
+  const iso = text.match(/^([0-9]{4})-([0-9]{2})-([0-9]{2})$/);
+  if (iso) return new Date(Number(iso[1]), Number(iso[2]) - 1, Number(iso[3]), 23, 59, 59);
+
+  const slash = text.match(/^([0-9]{1,2})\/([0-9]{1,2})\/([0-9]{4})$/);
+  if (slash) return new Date(Number(slash[3]), Number(slash[2]) - 1, Number(slash[1]), 23, 59, 59);
+
+  const monthNames = {
+    enero: 0,
+    febrero: 1,
+    marzo: 2,
+    abril: 3,
+    mayo: 4,
+    junio: 5,
+    julio: 6,
+    agosto: 7,
+    septiembre: 8,
+    setiembre: 8,
+    octubre: 9,
+    noviembre: 10,
+    diciembre: 11,
+  };
+  const words = text.match(/^([0-9]{1,2})\s+de\s+([a-zñ]+)\s+de\s+([0-9]{4})$/);
+  if (!words || !(words[2] in monthNames)) return null;
+  return new Date(Number(words[3]), monthNames[words[2]], Number(words[1]), 23, 59, 59);
+}
+
+function getTodayDateOnly() {
+  const parts = getDateTimeFormatter("en-CA", {
+    timeZone: "America/Asuncion",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+  return new Date(
+    Number(parts.find((part) => part.type === "year")?.value),
+    Number(parts.find((part) => part.type === "month")?.value) - 1,
+    Number(parts.find((part) => part.type === "day")?.value),
+    0,
+    0,
+    0
+  );
+}
+
+function cleanSentence(value) {
+  return String(value || "")
+    .replace(/[•●]/g, "")
+    .replace(/\bapple pay\b/gi, "Apple Pay")
+    .replace(/\bgoogle pay\b/gi, "Google Pay")
+    .replace(/\bmastercard\b/gi, "Mastercard")
+    .replace(/\bueno bank\b/gi, "UENO")
+    .replace(/\bueno\b/gi, "UENO")
+    .replace(/\bapp UENO\b/g, "app UENO")
+    .replace(/\bgpays?\b/gi, "Google Pay")
+    .replace(/\bqr\b/gi, "QR")
+    .replace(/\bpos\b/gi, "POS")
+    .replace(/\bvpos\b/gi, "VPOS")
+    .replace(/\bupay\b/gi, "Upay")
+    .replace(/\bGs\b/g, "Gs.")
+    .replace(/Gs\.\./g, "Gs.")
+    .replace(/\bdel\s+([0-9]{4})\b/gi, "de $1")
+    .replace(/\bdicimebre\b/gi, "diciembre")
+    .replace(/\btodos los dias\b/gi, "Todos los días")
+    .replace(/\s*;\s*/g, "; ")
+    .replace(/\s*,\s*/g, ", ")
+    .replace(/\s+/g, " ")
+    .replace(/\s+\./g, ".")
+    .trim();
+}
+
+function normalizeDisplayName(value) {
+  const name = cleanSentence(value);
+  if (!name || name !== name.toLocaleUpperCase("es-PY") || !/[A-ZÁÉÍÓÚÑ]/.test(name)) return name;
+  const acronyms = new Set(["3MG", "BNF", "CIT", "CDE", "PY", "UENO", "SA", "SRL"]);
+  return name
+    .toLocaleLowerCase("es-PY")
+    .replace(/(^|[\s/(-])([\p{L}\p{N}])/gu, (_, prefix, letter) => `${prefix}${letter.toLocaleUpperCase("es-PY")}`)
+    .split(" ")
+    .map((word) => acronyms.has(word.toLocaleUpperCase("es-PY")) ? word.toLocaleUpperCase("es-PY") : word)
+    .join(" ");
+}
+
+function inferDayRange(text) {
+  const normalized = normalizeDayName(text);
+  const ranges = [
+    ["lunes a viernes", "lunes", "viernes"],
+    ["lunes a miercoles", "lunes", "miércoles"],
+    ["lunes a miércoles", "lunes", "miércoles"],
+    ["martes a domingo", "martes", "domingo"],
+    ["miercoles a sabado", "miércoles", "sábado"],
+    ["miércoles a sábado", "miércoles", "sábado"],
+  ];
+
+  const matched = ranges.find(([needle]) => normalized.includes(normalizeDayName(needle)));
+  if (!matched) return [];
+
+  const start = DAYS.indexOf(matched[1]);
+  const end = DAYS.indexOf(matched[2]);
+  if (start === -1 || end === -1) return [];
+  if (start <= end) return DAYS.slice(start, end + 1);
+  return [...DAYS.slice(start), ...DAYS.slice(0, end + 1)];
+}
+
+function isEveryDayPromotion(promo) {
+  const days = inferPromotionDaysFromText(promo);
+  return DAYS.every((day) => days.includes(day));
+}
+
+function isInstallmentsOnly(promo) {
+  const text = normalizeDayName(`${promo.benefit_summary || ""} ${promo.benefit_type || ""} ${promo.level_rules || ""}`);
+  const hasInstallments = text.includes("cuota") || text.includes("sin interes") || text.includes("sin intereses");
+  const hasDiscount = text.includes("descuento") || text.includes("reintegro")
+    || /\b[1-9]\d?\s*%\s*(?:de\s+)?(?:ahorro|pago con qr|qr\s+de\s+ahorro)/.test(text);
+  return hasInstallments && !hasDiscount;
+}
+
+function getBankTheme(bank) {
+  return bankThemes[bank] || { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "", logoBg: "#ffffff" };
+}
+
+function getBankLabel(bank) {
+  return BANK_LABELS[bank] || bank || "Banco";
+}
+
+function isUenoPowerPromo(promo) {
+  if (promo.bank !== "ueno bank") return false;
+  if (Array.isArray(promo.special_flags) && promo.special_flags.includes("ueno_power")) return true;
+  const text = normalizeDayName([
+    promo.benefit_summary,
+    promo.level_rules,
+    promo.caps_and_minimums,
+    promo.validity,
+    promo.raw_detail,
+  ].join(" "));
+  return /ueno\s*\+\s*power|desbloquea\s+ueno|saldo promedio requerido/.test(text);
+}
+
+function getMainBenefit(promo, variant = null) {
+  if (variant?.benefit) return variant.benefit;
+  if (promo.bank === "Familiar") return promo.benefit_summary;
+  if (isUenoPowerPromo(promo)) {
+    return getBenefitForSelectedUenoLevel(promo, state.uenoLevel);
+  }
+  if (promo.bank === "ueno bank") {
+    return getBenefitForSelectedUenoLevel(promo, state.uenoLevel);
+  }
+  const pct = (promo.percentages || [])[0];
+  if (pct && promo.benefit_summary?.toLowerCase().includes(pct.toLowerCase())) return promo.benefit_summary;
+  return [pct, promo.benefit_type].filter(Boolean).join(" ") || promo.benefit_summary || "Ver detalle";
+}
+
+function getBenefitLines(promo, variant = null) {
+  const text = String(getMainBenefit(promo, variant) || promo.benefit_summary || "Ver detalle");
+  if (promo.bank === 'Itaú' && promo.effective_percent && /Google Pay|Apple Pay/i.test(text)) return [text];
+  if (promo.bank === "Itaú" && normalizeDayName(promo.merchant_name || "") === "punto farma" && /hasta\s+35%/i.test(text)) {
+    return ["Hasta 35% descuento · QR"];
+  }
+  if (promo.bank === "Coop. Universitaria" && promo.offer_kind) {
+    const rate = text.match(/^(Hasta\s+)?(\d{1,3})%\s+de\s+(descuento|reintegro)(?:\s+con\s+(QR|tarjeta física))?(?:\s+en\s+(.+))?$/i);
+    if (rate) {
+      const main = `${rate[1] || ""}${rate[2]}% ${rate[3]}${rate[4] ? ` · ${rate[4]}` : ""}`;
+      return [main];
+    }
+    const installments = text.match(/^(Hasta\s+)?(\d{1,2})\s+cuotas?\s+sin\s+intereses$/i);
+    if (installments) return [`Hasta ${installments[2]} cuotas sin intereses`];
+  }
+  if (promo.bank === "GNB" && /\d+%\s+descuento\s+en\s+caja\s*\+\s*\d+%\s+reintegro/i.test(text)) {
+    return [text];
+  }
+  if (promo.bank === "Familiar" && (!variant || promo.offer_kind)) {
+    const rates = [...text.matchAll(/(\d{1,2})\s*%\s*(?:\([^)]*\)\s*)?(?:de\s+)?(?:reintegro|descuento)/gi)].map(m => Number(m[1]));
+    const values = [...new Set(rates)].sort((a,b) => a-b);
+    if (values.length) {
+      const range = values.length > 1 ? `${values[0]}–${values.at(-1)}% según condiciones` : `${values[0]}% ${promo.benefit_type}`;
+      const extra = text.match(/\+\s*(\d+)\s*%\s*adicional\s+pagando\s+con\s+QR/i);
+      return [range + (extra ? ` + ${extra[1]}% con QR` : '')];
+    }
+    const quotas = [...new Set([...text.matchAll(/(\d+)\s+cuotas?\s+sin\s+inter/gi)].map(m => Number(m[1])))].sort((a,b) => a-b);
+    if (quotas.length) return [quotas.length > 1 ? `${quotas[0]}–${quotas.at(-1)} cuotas según tarjeta` : `Hasta ${quotas[0]} cuotas sin intereses`];
+  }
+
+  const normalized = text
+    .replace(/hasta\s+(\d+)\s+cuotas?\s+sin\s+inter[eé]s(?:es)?/gi, "$1 cuotas")
+    .replace(/(\d{1,3}\s*%)\s+de\s+/gi, "$1 ")
+    .replace(/;/g, "|");
+
+  const rawParts = normalized
+    .split("|")
+    .map((part) => cleanBenefitLine(part))
+    .filter(Boolean);
+
+  const compactParts = extractCompactBenefitLines(normalized);
+  const parts = compactParts.length ? compactParts : rawParts.length ? rawParts : [cleanBenefitLine(normalized)];
+  return [...new Set(parts)].slice(0, 1);
+}
+
+function getDisplayBenefit(promo, variant = null) {
+  const lines = getBenefitLines(promo, variant);
+  if (lines.length) return lines.join(" · ");
+  return cleanBenefitLine(getMainBenefit(promo, variant)) || "Ver detalle";
+}
+
+function extractCompactBenefitLines(value) {
+  const text = String(value || "");
+  const lower = text.toLowerCase();
+  if (lower.includes("cuotas sin intereses") && lower.includes("aplica a todos los niveles")) {
+    return ["Cuotas sin intereses"];
+  }
+
+  const benefits = [];
+  for (const match of text.matchAll(/(\d{1,3})\s*%[^|;,.]*/g)) {
+    const segment = match[0].toLowerCase();
+    const qualifier = /hasta\s*$/i.test(text.slice(0, match.index)) ? 'Hasta ' : '';
+    if (segment.includes("tope") || segment.includes("mínim") || segment.includes("minim")) continue;
+    if (segment.includes("reintegro")) benefits.push(`${qualifier}${match[1]}% reintegro`);
+    else if (segment.includes("descuento")) benefits.push(`${qualifier}${match[1]}% descuento`);
+    else benefits.push(`${qualifier}${match[1]}% ${promoBenefitWord(value)}`);
+  }
+
+  const quota = text.match(/(\d+)\s+cuotas?/i);
+  if (!benefits.length && quota) benefits.push(`${quota[1]} cuotas`);
+  return benefits;
+}
+
+function promoBenefitWord(value) {
+  const lower = String(value || "").toLowerCase();
+  if (lower.includes("reintegro")) return "reintegro";
+  if (lower.includes("beneficio")) return "beneficio";
+  return "descuento";
+}
+
+function cleanBenefitLine(value) {
+  let line = String(value || "").replace(/\s+/g, " ").trim();
+  line = line.replace(/^(\d{1,3})\s*%\s*;\s*(?=\1\s*%)/i, "");
+  if (!line) return "";
+  const lowerLine = line.toLowerCase();
+  if (
+    lowerLine.includes("tope") ||
+    lowerLine.includes("monto mínimo") ||
+    lowerLine.includes("monto minimo") ||
+    lowerLine.includes("compra mensual") ||
+    line.length > 42
+  ) {
+    return "";
+  }
+  if (lowerLine.includes("cuotas sin intereses") && lowerLine.includes("aplica a todos los niveles")) {
+    return "Cuotas sin intereses";
+  }
+  if (lowerLine === "cuotas_sin_intereses") return "Cuotas sin intereses";
+
+  const quota = line.match(/(\d+)\s+cuotas?/i);
+  if (quota) return `${quota[1]} cuotas`;
+
+  const pct = line.match(/(\d{1,3}\s*%)/);
+  if (pct) {
+    if (lowerLine.includes("reintegro")) return `${pct[1].replace(/\s+/g, "")} reintegro`;
+    if (lowerLine.includes("descuento")) return `${pct[1].replace(/\s+/g, "")} descuento`;
+    if (lowerLine.includes("beneficio")) return `${pct[1].replace(/\s+/g, "")} beneficio`;
+    return `${pct[1].replace(/\s+/g, "")} descuento`;
+  }
+
+  return line.replace(/^hasta\s+/i, "");
+}
+
+function getBenefitForSelectedUenoLevel(promo, level) {
+  const selected = getSelectedUenoLevelDetails(promo, level);
+  if (selected?.percent) return `${selected.percent} ${promo.benefit_type || "reintegro"}`.trim();
+
+  const rules = String(promo.level_rules || "");
+  if (isInstallmentsOnly(promo) || rules.toLowerCase().includes("aplica a todos los niveles")) {
+    return "Cuotas sin intereses - aplica a todos los niveles";
+  }
+
+  const escapedLevel = String(level).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const pattern = new RegExp(`nivel\\s*${escapedLevel}\\D{0,40}(\\d{1,3})\\s*%`, "i");
+  const match = rules.match(pattern);
+  if (match) return `${match[1]}% ${promo.benefit_type || "reintegro"}`.trim();
+
+  const percentages = promo.percentages || [];
+  return percentages[0] ? `${percentages[0]} ${promo.benefit_type || ""}`.trim() : promo.benefit_summary || "Ver detalle";
+}
+
+function getSelectedUenoLevelDetails(promo, level) {
+  if (promo.bank !== "ueno bank") return null;
+  if (isInstallmentsOnly(promo)) return null;
+  if (promo.level_benefits?.length) {
+    const rows = promo.level_benefits.filter(row => row.level === Number(level));
+    if (rows.length !== 1) return null;
+    const row = rows[0];
+    return { level, percent: `${row.percent}%`, purchaseCap: formatGuarani(row.purchase_cap),
+      refundCap: formatGuarani(row.refund_cap), capLabel: row.period || "Según bases" };
+  }
+
+  const rules = normalizeDayName(promo.level_rules || "");
+  const escapedLevel = String(level).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const pctMatch = rules.match(new RegExp(`nivel\\s*${escapedLevel}\\D{0,40}(\\d{1,3})\\s*%`, "i"));
+  const percent = pctMatch ? `${pctMatch[1]}%` : "";
+  if (!percent) return null;
+
+  const caps = extractUenoLevelCaps(promo, level, percent);
+  return { level, percent, ...caps };
+}
+
+function extractUenoLevelCaps(promo, level, percent) {
+  const capsText = cleanSentence(promo.caps_and_minimums || "");
+  const levelBlock = capsText.match(new RegExp(`nivel\\s*${level}[^;]*(?:;|$)`, "i"))?.[0] || "";
+  const amountsFromBlock = extractGuaraniAmounts(levelBlock);
+  if (amountsFromBlock.length) {
+    return {
+      purchaseCap: amountsFromBlock[0] || "",
+      refundCap: amountsFromBlock[1] || "",
+      capLabel: levelBlock.toLowerCase().includes("semanal") ? "Semanal" : "Durante vigencia",
+    };
+  }
+
+  const allAmounts = extractGuaraniAmounts(capsText);
+  const levelOrder = extractUenoLevelOrder(promo);
+  const position = levelOrder.indexOf(Number(level));
+  if (position >= 0 && allAmounts.length >= (position + 1) * 2) {
+    return {
+      purchaseCap: allAmounts[position * 2] || "",
+      refundCap: allAmounts[position * 2 + 1] || "",
+      capLabel: "Durante vigencia",
+    };
+  }
+
+  const rawText = cleanSentence(promo.raw_detail || "");
+  const rawPattern = new RegExp(`(?:nivel\\s*)?${level}\\s+${percent.replace("%", "\\s*%")}\\s+Gs\\.?\\s*([0-9.]+)(?:\\s+Gs\\.?\\s*([0-9.]+))?`, "i");
+  const rawMatch = rawText.match(rawPattern);
+  if (rawMatch) {
+    return {
+      purchaseCap: `Gs. ${rawMatch[1]}`,
+      refundCap: rawMatch[2] ? `Gs. ${rawMatch[2]}` : "",
+      capLabel: "Durante vigencia",
+    };
+  }
+
+  return { purchaseCap: "", refundCap: "", capLabel: "" };
+}
+
+function extractUenoLevelOrder(promo) {
+  const matches = [...normalizeDayName(promo.level_rules || "").matchAll(/nivel\s*([1-5])\D{0,24}\d{1,3}\s*%/g)]
+    .map((match) => Number(match[1]));
+  return matches.length ? matches : [5, 4, 3, 2, 1];
+}
+
+function extractGuaraniAmounts(text) {
+  return [...String(text || "").matchAll(/Gs\.?\s*([0-9]+(?:\.[0-9]{3})*)/gi)]
+    .map((match) => `Gs. ${match[1]}`);
+}
+
+function getPromoVariants(promo) {
+  if (promo.offer_kind) return [{kind:promo.offer_kind,label:promo.offer_label,benefit:promo.benefit_summary}];
+  if (isUenoPowerPromo(promo)) return [null];
+  const additive = normalizeDayName(promo.benefit_summary || '').match(/(\d{1,2})\s*%\s*(?:de\s+)?reintegro\s*\+\s*(\d{1,2})\s*%\s*(?:para\s+)?(black\s+e\s+infinite|elite)/);
+  if (additive) {
+    const base = Number(additive[1]);
+    return [
+      {kind: 'base', label: '', benefit: `${base}% reintegro`},
+      {kind: 'premium', label: additive[3] === 'elite' ? 'Elite' : 'Black / Infinite', benefit: `${base + Number(additive[2])}% reintegro`},
+    ];
+  }
+
+  const baseBenefit = getBaseBenefitForPremiumPromo(promo);
+  const basePercent = percentNumber(baseBenefit);
+  const variants = [{ kind: "base", label: "", benefit: baseBenefit }];
+  const text = normalizeDayName(`${promo.benefit_summary || ""} ${promo.level_rules || ""} ${promo.caps_and_minimums || ""} ${promo.raw_detail || ""}`);
+  const premium = [];
+  const privilegePct = percentNear(text, ["privilege", "privilegio"]);
+  if (privilegePct && percentNumber(privilegePct) > basePercent) {
+    premium.push({ kind: "premium", label: "Privilege", benefit: `${privilegePct} reintegro` });
+  }
+
+  const blackPct = percentNear(text, ["black", "infinite", "visa infinite", "amex platinum", "personal bank", "ueno black"]);
+  if (blackPct && blackPct !== privilegePct && percentNumber(blackPct) > basePercent) {
+    const label = promo.bank === "ueno bank" ? "UENO Black" : promo.bank === "Itaú" ? "Black / Infinite" : "Black / Infinite";
+    premium.push({ kind: "premium", label, benefit: `${blackPct} reintegro` });
+  }
+
+  const uniquePremium = premium.filter((item, index, list) => (
+    list.findIndex((other) => other.label === item.label && other.benefit === item.benefit) === index
+  ));
+  return uniquePremium.length ? [...variants, ...uniquePremium] : [null];
+}
+
+function getVariantByKey(promo, key) {
+  const variants = getPromoVariants(promo);
+  if (!key) return variants[0] || null;
+  return variants.find((variant, index) => String(index) === String(key) || variant?.label === key) || variants[0] || null;
+}
+
+function getVariantKey(promo, variant) {
+  if (!variant) return "";
+  const variants = getPromoVariants(promo);
+  const index = variants.findIndex((item) => (
+    item === variant
+    || (item?.kind === variant.kind && item?.label === variant.label && item?.benefit === variant.benefit)
+  ));
+  return index >= 0 ? String(index) : variant.label || "";
+}
+
+function hasPremiumVariant(promo) {
+  return getPromoVariants(promo).some((variant) => variant?.kind === "premium");
+}
+
+function percentNumber(value) {
+  const match = String(value || "").match(/(\d{1,3})\s*%/);
+  return match ? Number(match[1]) : 0;
+}
+
+function getBaseBenefitForPremiumPromo(promo) {
+  const text = normalizeDayName(`${promo.benefit_summary || ""} ${promo.raw_detail || ""}`);
+  const baseMatch = text.match(/(?:clasica|clásica|oro|dinelco|todas las tarjetas|tarjetas de credito itau|tarjetas de crédito itau)[^.%]{0,90}(\d{1,3})\s*%|(\d{1,3})\s*%[^.%]{0,90}(?:clasica|clásica|oro|dinelco|todas las tarjetas|tarjetas de credito itau|tarjetas de crédito itau)/i);
+  const basePct = baseMatch?.[1] || baseMatch?.[2];
+  if (basePct) return `${basePct}% ${promo.benefit_type || "reintegro"}`.trim();
+  const percentages = (promo.percentages || []).map((pct) => pct.replace(/\s+/g, ""));
+  if (percentages.length >= 2) return `${percentages.at(-1)} ${promo.benefit_type || "reintegro"}`.trim();
+  return null;
+}
+
+function percentNear(text, needles) {
+  const normalizedNeedles = needles.map(normalizeDayName);
+  const percentages = [];
+  normalizedNeedles.forEach((needle) => {
+    const patternBefore = new RegExp(`(\\d{1,3})\\s*%[^.]{0,130}${needle}`, "gi");
+    const patternAfter = new RegExp(`${needle}[^.]{0,130}(\\d{1,3})\\s*%`, "gi");
+    for (const match of text.matchAll(patternBefore)) percentages.push(Number(match[1]));
+    for (const match of text.matchAll(patternAfter)) percentages.push(Number(match[1]));
+  });
+  if (!percentages.length) return "";
+  return `${Math.max(...percentages)}%`;
+}
+
+function getPromoTitle(promo) {
+  return normalizeDisplayName(promo.merchant_name || promo.category || "Promoción");
+}
+
+function appliesToSelectedDay(promo, selectedDay) {
+  if (["mañana", "fecha"].includes(selectedDay)) {
+    const iso = selectedDateIso();
+    let rules = getOrdinalWeekdayRules(promo);
+    const day = PaybackDates.weekday(iso);
+    if (!rules.length && new RegExp(`primer(?:os)? ${normalizeDayName(day)}`).test(normalizeDayName(`${promo.day_text || ""} ${promo.validity || ""}`))) rules = [{day, ordinal: 1}];
+    return PaybackDates.matches(iso, inferPromotionDaysFromText(promo), getMonthDays(promo), Number(promo.last_days_of_month || 0), rules);
+  }
+  const monthDays = getMonthDays(promo);
+  const lastDays = Number(promo.last_days_of_month || 0);
+  if (monthDays.length || lastDays) {
+    if (selectedDay !== "hoy") return false;
+    const day = getParaguayMonthDay();
+    if (monthDays.includes(day)) return true;
+    if (lastDays <= 0) return false;
+    const today = getTodayDateOnly();
+    const monthLength = new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate();
+    return day > monthLength - lastDays;
+  }
+
+  const ordinalRules = getOrdinalWeekdayRules(promo);
+  if (ordinalRules.length) {
+    return selectedDay === "hoy" && ordinalRules.some((rule) => isTodayOrdinalWeekday(rule));
+  }
+
+  const day = selectedDay === "hoy" ? getTodayInParaguay() : selectedDay;
+  if (selectedDay === "hoy" && !passesOrdinalDayRule(promo, day)) return false;
+  return inferPromotionDaysFromText(promo).includes(day);
+}
+
+function isTodayOrdinalWeekday(rule) {
+  const today = getTodayInParaguay();
+  if (rule.day !== today) return false;
+  const parts = getDateTimeFormatter("en-CA", {
+    timeZone: "America/Asuncion",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+  const year = Number(parts.find((part) => part.type === "year")?.value);
+  const month = Number(parts.find((part) => part.type === "month")?.value);
+  const date = Number(parts.find((part) => part.type === "day")?.value);
+  return date === getOrdinalDayOfMonthDate(year, month, rule.day, rule.ordinal);
+}
+
+function getParaguayMonthDay() {
+  const parts = getDateTimeFormatter("en-CA", {
+    day: "2-digit",
+    timeZone: "America/Asuncion",
+  }).formatToParts(new Date());
+  return Number(parts.find((part) => part.type === "day")?.value);
+}
+
+function passesOrdinalDayRule(promo, day) {
+  const text = normalizeDayName(`${promo.day_text || ""} ${promo.validity || ""}`);
+  const firstNeedles = [`primer ${normalizeDayName(day)}`, `primeros ${normalizeDayName(day)}`];
+  const onlyFirst = firstNeedles.some((needle) => text.includes(needle));
+  if (!onlyFirst) return true;
+
+  const now = new Date();
+  const paraguayParts = getDateTimeFormatter("en-CA", {
+    timeZone: "America/Asuncion",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(now);
+  const year = Number(paraguayParts.find((part) => part.type === "year")?.value);
+  const month = Number(paraguayParts.find((part) => part.type === "month")?.value);
+  const date = Number(paraguayParts.find((part) => part.type === "day")?.value);
+  return date === getFirstDayOfMonthDate(year, month, day);
+}
+
+function getFirstDayOfMonthDate(year, month, day) {
+  return getOrdinalDayOfMonthDate(year, month, day, 1);
+}
+
+function getOrdinalDayOfMonthDate(year, month, day, ordinal) {
+  const matches = [];
+  const lastDate = new Date(Date.UTC(year, month, 0, 12, 0, 0)).getUTCDate();
+  for (let date = 1; date <= lastDate; date += 1) {
+    const candidate = new Date(Date.UTC(year, month - 1, date, 12, 0, 0));
+    const candidateDay = getDateTimeFormatter("es-PY", {
+      weekday: "long",
+      timeZone: "America/Asuncion",
+    }).format(candidate);
+    if (normalizeDayName(candidateDay) === normalizeDayName(day)) matches.push(date);
+  }
+  if (ordinal === -1) return matches.at(-1) || -1;
+  return matches[ordinal - 1] || -1;
+}
+
+function getFirstDayOfMonthDateLegacy(year, month, day) {
+  for (let date = 1; date <= 7; date += 1) {
+    const candidate = new Date(Date.UTC(year, month - 1, date, 12, 0, 0));
+    const candidateDay = getDateTimeFormatter("es-PY", {
+      weekday: "long",
+      timeZone: "America/Asuncion",
+    }).format(candidate);
+    if (normalizeDayName(candidateDay) === normalizeDayName(day)) return date;
+  }
+  return -1;
+}
+
+function matchesQuery(promo) {
+  const query = normalizeDayName(state.query);
+  if (!query) return true;
+  const haystack = normalizeDayName([
+    promo.merchant_name,
+    promo.category,
+    promo.bank,
+    promo.benefit_summary,
+    promo.caps_and_minimums,
+    promo.level_rules,
+    promo.merchant_locations_or_group,
+  ].join(" "));
+  return haystack.includes(query);
+}
+
+function matchesBank(promo) {
+  if (state.activeBank === "Todos") return true;
+  return promo.bank === state.activeBank;
+}
+
+function matchesCategory(promo) {
+  if (state.activeCategory === "Todas") return true;
+  if (state.activeCategory === PREMIUM_CATEGORY) return hasPremiumVariant(promo);
+  return getPromoCategoryGroup(promo) === state.activeCategory;
+}
+
+function sectionPromotions(promos) {
+  if (state.activeCategory === PREMIUM_CATEGORY) {
+    return [["Club Black", [...promos].sort(sortPremiumPromotions), "premium"]];
+  }
+
+  const todaySpecific = [];
+  const everydayDiscounts = [];
+  const everydayInstallments = [];
+  const otherCities = [];
+  const premium = state.activeCategory === "Todas"
+    ? [...promos].filter(hasPremiumVariant).sort(sortPremiumPromotions)
+    : [];
+  const selectedDay = state.activeDay === "hoy" ? getTodayInParaguay() : state.activeDay;
+
+  promos.forEach((promo) => {
+    if (isOtherCitiesOnly(promo)) {
+      otherCities.push(promo);
+      return;
+    }
+    const everyDay = isEveryDayPromotion(promo);
+    if (isInstallmentsOnly(promo)) {
+      everydayInstallments.push(promo);
+    } else if (everyDay) {
+      everydayDiscounts.push(promo);
+    } else {
+      todaySpecific.push(promo);
+    }
+  });
+
+  todaySpecific.sort((a, b) => {
+    const aExclusive = isExclusiveToDay(a, selectedDay) ? -1 : 1;
+    const bExclusive = isExclusiveToDay(b, selectedDay) ? -1 : 1;
+    if (aExclusive !== bExclusive) return aExclusive - bExclusive;
+    return sortByDayDisplayPriority(a, b);
+  });
+  everydayDiscounts.sort(sortByDayDisplayPriority);
+  everydayInstallments.sort(sortByDayDisplayPriority);
+  otherCities.sort(sortByDayDisplayPriority);
+
+  const sections = [
+    [state.activeDay === "hoy" ? getTodayLabel() : capitalize(selectedDay), todaySpecific, state.activeCategory === PREMIUM_CATEGORY ? "premium" : "featured"],
+    ["Club Black", premium, "premium"],
+    ["Todos los dias", everydayDiscounts, state.activeCategory === PREMIUM_CATEGORY ? "premium" : ""],
+    ["Cuotas sin intereses todos los dias", everydayInstallments, state.activeCategory === PREMIUM_CATEGORY ? "premium" : ""],
+    ["Otras ciudades", otherCities, state.activeCategory === PREMIUM_CATEGORY ? "premium" : ""],
+  ];
+
+  return sections.filter((section, index) => index === 0 || section[1].length);
+}
+
+function sortPremiumPromotions(a, b) {
+  const aBank = getPremiumBankPriority(a.bank);
+  const bBank = getPremiumBankPriority(b.bank);
+  if (aBank !== bBank) return aBank - bBank;
+  const aInfo = getSortInfo(a);
+  const aInstallments = aInfo.installments;
+  const bInfo = getSortInfo(b);
+  const bInstallments = bInfo.installments;
+  if (aInstallments !== bInstallments) return aInstallments - bInstallments;
+  const aPct = aInfo.premium ?? (aInfo.premium = getBestPremiumPercent(a));
+  const bPct = bInfo.premium ?? (bInfo.premium = getBestPremiumPercent(b));
+  if (bPct !== aPct) return bPct - aPct;
+  return sortByBenefitValue(a, b);
+}
+
+function getPremiumBankPriority(bank) {
+  const index = PREMIUM_BANK_ORDER.indexOf(bank);
+  return index >= 0 ? index : PREMIUM_BANK_ORDER.length;
+}
+
+function getBestPremiumPercent(promo) {
+  return Math.max(0, ...getPromoVariants(promo)
+    .filter((variant) => variant?.kind === "premium")
+    .map((variant) => percentNumber(variant.benefit)));
+}
+
+function isOtherCitiesOnly(promo) {
+  const primaryText = normalizeDayName([
+    promo.merchant_name,
+    promo.merchant_locations_or_group,
+  ].join(" "));
+  if (primaryText) {
+    if (METRO_AREA_TERMS.some((term) => primaryText.includes(normalizeDayName(term)))) return false;
+    if (OTHER_CITY_TERMS.some((term) => primaryText.includes(normalizeDayName(term)))) return true;
+  }
+
+  const detailText = normalizeDayName(promo.raw_detail || "");
+  const hasLocationList = /sucursales|locales adherid|estaciones adherid|agencias adherid/.test(detailText);
+  if (!hasLocationList) return false;
+  if (METRO_AREA_TERMS.some((term) => detailText.includes(normalizeDayName(term)))) return false;
+  return OTHER_CITY_TERMS.some((term) => detailText.includes(normalizeDayName(term)));
+}
+
+function isExclusiveToDay(promo, day) {
+  const days = inferPromotionDaysFromText(promo);
+  return days.length === 1 && days[0] === day;
+}
+
+function renderTabs() {
+  els.bankTabs.innerHTML = BANKS.map((bank) => (
+    `<button class="${state.activeBank === bank ? "active" : ""}" aria-pressed="${state.activeBank === bank}" data-bank="${bank}" style="${getBankTabStyle(bank)}">${bank !== "Todos" ? '<span class="bank-dot" aria-hidden="true"></span>' : ""}${escapeHtml(getBankLabel(bank))}</button>`
+  )).join("");
+
+  const categories = getCategories();
+  els.categoryTabs.innerHTML = categories.map((category) => (
+    `<button class="${state.activeCategory === category ? "active" : ""} ${category === PREMIUM_CATEGORY ? "premium-filter" : ""}" data-category="${escapeAttribute(category)}">${renderIcon(CATEGORY_ICONS[category] || "star")}${escapeHtml(category)}</button>`
+  )).join("");
+
+  els.dayTabs.innerHTML = [["hoy","Hoy"],["mañana","Mañana"],["fecha",state.activeDay === "fecha" ? selectedDateLabel() : "Elegir día"]].map(([value,label]) => `<button type="button" data-day="${value}" aria-pressed="${state.activeDay === value}" class="${state.activeDay === value ? "active" : ""}"><span>${escapeHtml(label)}</span></button>`).join("");
+  document.querySelector('#datePicker').value = selectedDateIso();
+  document.querySelector('#datePicker').min = PaybackDates.today();
+  syncGlassFilters();
+
+  els.uenoLevelPanel.classList.toggle("hidden", state.activeBank !== "ueno bank");
+  els.uenoLevelPanel.innerHTML = `<span class="label">Nivel ueno</span>` + [1, 2, 3, 4, 5].map((level) => (
+    `<button class="${state.uenoLevel === level ? "active" : ""}" data-level="${level}">Nivel ${level}</button>`
+  )).join("");
+}
+
+function getBankTabStyle(bank) {
+  if (bank === "Todos") return "--tab-color:#f7f1e3;--tab-fill:#f7f1e3;--tab-text:#071124;";
+  const theme = getBankTheme(bank);
+  return `--tab-color:${theme.main};--tab-fill:${theme.main};--tab-text:#ffffff;`;
+}
+
+function renderIcon(name) {
+  return `<svg class="chip-icon" viewBox="0 0 24 24" aria-hidden="true">${ICON_PATHS[name] || ICON_PATHS.star}</svg>`;
+}
+
+// Only reuse the last unqueried list while typing. Every other UI/data action
+// invalidates it, and a Paraguay date change prevents restoring expired results.
+let searchResetSnapshot = null;
+const SEARCH_SNAPSHOT_ELEMENTS = ['results', 'statusText', 'countText', 'bankTabs', 'categoryTabs', 'dayTabs'];
+function render(searchUpdate = false) {
+  clearTimeout(searchRenderTimer);
+  searchRenderTimer = 0;
+  if (!searchUpdate) searchResetSnapshot = null;
+  const snapshotDay = getDateTimeFormatter('en-CA', {timeZone: 'America/Asuncion'}).format(new Date());
+  const listView = state.activeView === 'today' || state.activeView === 'search';
+  if (searchUpdate && !state.query.trim() && listView && searchResetSnapshot?.day === snapshotDay && searchResetSnapshot.view === state.activeView) {
+    SEARCH_SNAPSHOT_ELEMENTS.forEach(key => { els[key].innerHTML = searchResetSnapshot.html[key]; });
+    return;
+  }
+  sortInfoCache = new WeakMap();
+  try {
+    renderResults();
+    if (!state.query.trim() && listView) {
+      searchResetSnapshot = {day: snapshotDay, view: state.activeView,
+        html: Object.fromEntries(SEARCH_SNAPSHOT_ELEMENTS.map(key => [key, els[key].innerHTML]))};
+    }
+  } finally {
+    sortInfoCache = null;
+  }
+}
+
+function renderResults() {
+  if (state.activeView !== "nearby") {
+    nearbyMapState.renderId += 1;
+    cleanupNearbyMaps();
+  }
+  renderGlassHeader();
+  const personalView = state.activeView === "alerts" || state.activeView === "favorites";
+  document.querySelector(".controls").hidden = personalView || state.activeView === "today";
+  els.refreshButton.hidden = personalView;
+  renderTabs();
+  renderBottomNav();
+
+  if (state.activeView === "alerts") {
+    renderAlertsView();
+    return;
+  }
+  if (state.activeView === "nearby") {
+    renderNearbyView();
+    return;
+  }
+
+  const base = state.promotions
+    .filter(promo => isActivePromotion(promo, personalView ? null : selectedDateIso()))
+    .filter(promo => personalView || matchesCardFilter(promo))
+    .filter((promo) => personalView || matchesBank(promo))
+    .filter((promo) => personalView || matchesCategory(promo))
+    .filter((promo) => personalView || matchesQuery(promo))
+    .filter(matchesActiveView)
+    .filter(matchesSelectedDay)
+    .sort(sortByDayDisplayPriority);
+
+  const hasQuery = !personalView && Boolean(state.query.trim());
+  els.statusText.textContent = state.activeView === "favorites"
+    ? "Tus promociones guardadas"
+    : hasQuery
+      ? `Resultados para "${state.query.trim()}"`
+      : `Día activo: ${selectedDateLabel()}`;
+  els.countText.textContent = `${base.length} ${hasQuery ? "promociones activas" : "promociones"}`;
+
+  if (!base.length) {
+    els.results.innerHTML = state.activeView === "favorites"
+      ? `<div class="empty">Todavía no guardaste favoritos. Tocá el corazón en una promo para verla acá.</div>`
+      : hasQuery
+        ? `<div class="empty">No encontramos beneficios activos para "${escapeHtml(state.query.trim())}".</div>`
+        : `<div class="empty">No encontramos promociones para estos filtros.</div>`;
+    return;
+  }
+
+  els.results.innerHTML = (state.activeView === "favorites" ? renderFavoriteAlerts() : "") + buildResultSections(base).map(([title, items, mode], index) => {
+    const isCollapsed = shouldCollapseSection(title, mode, index);
+    return `
+    <section class="${mode === "featured" ? "featured-section" : ""} ${isCollapsed ? "collapsed" : ""}" data-section="${escapeAttribute(title)}">
+      <button class="section-toggle" type="button" data-section-toggle="${escapeAttribute(title)}" aria-expanded="${String(!isCollapsed)}">
+        <span class="chevron" aria-hidden="true"></span>
+        <span class="section-copy">
+          <span class="section-title">${escapeHtml(SECTION_LABELS[title] || title)}</span>
+          ${SECTION_SUBTITLES[title] ? `<span class="section-subtitle">${escapeHtml(SECTION_SUBTITLES[title])}</span>` : ""}
+        </span>
+        <span class="section-count">${items.length}</span>
+      </button>
+      ${isCollapsed ? "" : items.length ? `<div class="grid">${renderSectionCards(items, mode)}</div>` : `<div class="empty compact">No hay promociones exclusivas para este día con estos filtros.</div>`}
+    </section>
+  `;
+  }).join("");
+}
+
+function renderSectionCards(items, mode = "") {
+  const premiumOnly = mode === "premium" || (state.activeView !== "favorites" && state.activeCategory === PREMIUM_CATEGORY);
+  return items.flatMap((promo) => {
+    const variants = getPromoVariants(promo);
+    const visibleVariants = state.activeView === "favorites" ? variants : premiumOnly
+      ? variants.filter((variant) => variant?.kind === "premium")
+      : variants.filter((variant) => variant?.kind !== "premium");
+    return (visibleVariants.length ? visibleVariants : variants).map((variant) => renderCard(promo, variant));
+  }).join("");
+}
+
+function shouldCollapseSection(title, mode, index) {
+  if (state.expandedSections.has(title)) return false;
+  if (state.collapsedSections.has(title)) return true;
+  if (mode === "featured" || index === 0) return false;
+  return true;
+}
+
+function buildResultSections(promos) {
+  if (state.activeView === "favorites") return [["Tus favoritos", promos, "favorites"]];
+  if (state.activeView === "search") return [["Promociones", promos, "featured"]];
+  if (state.activeView === "today" && state.activeBank === "Todos" && state.activeCategory === "Todas") {
+    return sectionPromotions(promos);
+  }
+  return sectionPromotions(promos);
+}
+
+function buildSearchSections(promos) {
+  const today = promos
+    .filter((promo) => !isEveryDayPromotion(promo) && !isInstallmentsOnly(promo) && appliesToSelectedDay(promo, "hoy"))
+    .sort(sortByDayDisplayPriority);
+  const premium = [...promos].filter(hasPremiumVariant).sort(sortPremiumPromotions);
+  const seen = new Set(today.map((promo) => promo.id));
+  const daySections = DAYS.map((day) => [
+    capitalize(day),
+    promos
+      .filter((promo) => !seen.has(promo.id) && !isEveryDayPromotion(promo) && !isInstallmentsOnly(promo) && appliesToSelectedDay(promo, day))
+      .sort(sortByDayDisplayPriority),
+  ]).filter(([, items]) => items.length);
+  daySections.forEach(([, items]) => items.forEach((promo) => seen.add(promo.id)));
+
+  const everydayDiscounts = promos
+    .filter((promo) => !seen.has(promo.id) && isEveryDayPromotion(promo) && !isInstallmentsOnly(promo))
+    .sort(sortByDayDisplayPriority);
+  everydayDiscounts.forEach((promo) => seen.add(promo.id));
+
+  const everydayInstallments = promos
+    .filter((promo) => !seen.has(promo.id) && isInstallmentsOnly(promo))
+    .sort(sortByDayDisplayPriority);
+  everydayInstallments.forEach((promo) => seen.add(promo.id));
+
+  const remaining = promos.filter((promo) => !seen.has(promo.id)).sort(sortByDayDisplayPriority);
+
+  return [
+    ["Disponible hoy", today, "featured"],
+    ["Club Black", premium, "premium"],
+    ...daySections,
+    ["Todos los dias", everydayDiscounts],
+    ["Cuotas sin intereses", everydayInstallments],
+    ["Otras opciones", remaining],
+  ].filter((section, index) => index === 0 || section[1].length);
+}
+
+function buildHomeSections(promos) {
+  const today = state.activeDay === "hoy" ? getTodayInParaguay() : state.activeDay;
+  const ranked = [...promos].sort((a, b) => {
+    const aExclusive = isExclusiveToDay(a, today) ? -1 : 1;
+    const bExclusive = isExclusiveToDay(b, today) ? -1 : 1;
+    if (aExclusive !== bExclusive) return aExclusive - bExclusive;
+    return sortByDayDisplayPriority(a, b);
+  });
+  const seen = new Set();
+  const takeUnique = (items, count) => {
+    const selected = [];
+    items.forEach((promo) => {
+      if (selected.length >= count || seen.has(promo.id)) return;
+      seen.add(promo.id);
+      selected.push(promo);
+    });
+    return selected;
+  };
+  const todayBest = takeUnique(ranked.filter((promo) => !isInstallmentsOnly(promo)), 5);
+  const premium = [...promos].filter(hasPremiumVariant).sort(sortPremiumPromotions);
+  const maxSavings = takeUnique(ranked.filter((promo) => getEstimatedSavings(promo).refundCap > 0), 8);
+  const installments = takeUnique(ranked.filter(isInstallmentsOnly), 8);
+  const remaining = ranked.filter((promo) => !seen.has(promo.id));
+  return [
+    ["Hoy te conviene", todayBest, "featured"],
+    ["Club Black", premium, "premium"],
+    ["Mayor ahorro hoy", maxSavings],
+    ["Cuotas sin intereses", installments],
+    ["Otras opciones", remaining],
+  ].filter((section) => section[1].length);
+}
+
+function favoriteKey(promo) {
+  return promo.campaign_id || promo.id;
+}
+
+function canonicalFavoriteId(id) {
+  const seen = new Set();
+  while (state.favoriteAliases?.[id] && !seen.has(id)) {
+    seen.add(id);
+    id = state.favoriteAliases[id];
+  }
+  const promo = state.promotions.find(item => item.id === id);
+  return promo ? favoriteKey(promo) : id;
+}
+
+function normalizeFavoriteIds(ids) {
+  return new Set([...ids].map(canonicalFavoriteId));
+}
+
+function isFavoritePromotion(promo) {
+  return state.favorites.has(favoriteKey(promo));
+}
+
+function matchesActiveView(promo) {
+  if (state.activeView !== "favorites") return true;
+  return isFavoritePromotion(promo);
+}
+
+function matchesSelectedDay(promo) {
+  if (state.activeView === "favorites") return true;
+  return appliesToSelectedDay(promo, state.activeDay);
+}
+
+function renderBottomNav() {
+  els.bottomNav.style.setProperty("--nav-index", Math.max(0, ["today","search","nearby","favorites"].indexOf(state.activeView)));
+  els.bottomNav.querySelectorAll("button").forEach((button) => {
+    button.classList.toggle("active", button.dataset.view === state.activeView);
+    button.setAttribute("aria-current", button.dataset.view === state.activeView ? "page" : "false");
+  });
+}
+
+function renderAlertsView() {
+  const account = window.PaybackBeta?.current;
+  els.statusText.textContent = "Tu perfil";
+  els.countText.textContent = `${state.favorites.size} favoritos`;
+  els.results.innerHTML = `
+    <section class="profile-panel">
+      <div class="profile-card">
+        <span class="profile-logo profile-avatar">${renderIcon("user")}${account?.avatarUrl ? `<img class="google-profile-photo" src="${escapeAttribute(account.avatarUrl)}" alt="Foto de perfil de Google" referrerpolicy="no-referrer" />` : ""}</span>
+        <div>
+          <h2>${account ? account.name ? `Hola, ${escapeHtml(account.name)}` : "Tu perfil Payback" : "Activá tu perfil Payback"}</h2>
+          <p>${account ? escapeHtml(account.email) : "Conectá tu cuenta para sincronizar tus favoritos."}</p>
+        </div>
+      </div>
+      ${account
+        ? '<div class="profile-account-actions"><button type="button" class="notification-action" data-beta-open>Administrar cuenta y comentarios</button><button type="button" class="notification-action" data-profile-logout>Cerrar sesión</button></div><p class="profile-session-status" role="status"></p>'
+        : '<button type="button" class="google-signin google-icon-only" data-beta-login aria-label="Continuar con Google" title="Continuar con Google"><img src="./assets/logos/google-g-official.png" width="20" height="20" alt=""></button><p class="profile-note">Ingresá con tu cuenta de Google. Solo usamos tu identidad básica y correo.</p>'}
+      ${renderFavoriteAlerts()}
+      ${account?.admin === true ? '<a class="notification-action" href="./admin.html">Panel de administración</a>' : ''}
+      <form id="profileForm" class="profile-form">
+        <label class="check-row">
+          <input name="today" type="checkbox" ${state.alertPrefs.today ? "checked" : ""} />
+          Destacar beneficios disponibles hoy
+        </label>
+        <label class="check-row">
+          <input name="favorites" type="checkbox" ${state.alertPrefs.favorites ? "checked" : ""} />
+          Priorizar mis comercios favoritos
+        </label>
+        <button type="submit">Guardar preferencias</button>
+      </form>
+      <div class="profile-note">${account ? "Tu nombre proviene de Google. Las preferencias de visualización se guardan en este dispositivo." : "Sin iniciar sesión, tus favoritos se guardan en este dispositivo."}</div>
+    </section>
+  `;
+}
+
+function renderFavoriteAlerts() {
+  return '<div class="favorite-alerts"><div><span class="filter-label">paybackpy beta</span><h2>Prueba independiente</h2><p>Favoritos y nivel se guardan solamente en este navegador. Los avisos siguen en la app principal para evitar duplicados.</p></div></div>';
+}
+
+function syncFavoriteAlerts() {
+  PaybackPush.sync(state.favorites, state.uenoLevel).catch(error => { state.pushMessage = error.message; });
+}
+
+function renderNearbyView(selection = null) {
+  nearbyMapState.renderId += 1;
+  nearbyMapState.selection = null;
+  cleanupNearbyMaps();
+  if (!state.locationsLoaded) {
+    const messages = {
+      denied: "No se pudo acceder a tu ubicación. Podés explorar el mapa sin compartirla.",
+      timeout: "La ubicación tardó demasiado. Podés reintentar o explorar sin ubicación.",
+      unavailable: "Tu ubicación no está disponible. Podés explorar el mapa sin compartirla.",
+      unsupported: "Este navegador no ofrece ubicación. Podés explorar el mapa igualmente.",
+    };
+    const loading = state.locationsStatus === "loading" || state.locationStatus === "loading";
+    const failed = !loading && state.locationsStatus === "error";
+    const title = failed ? "No pudimos cargar las ubicaciones" : loading ? "Cargando el mapa" : "Promos cerca tuyo";
+    const message = failed ? "Revisá tu conexión y reintentá. Esto no significa que no haya promociones." : messages[state.locationStatus] || (loading ? "Estamos buscando tu ubicación o descargando los locales." : "Usá tu ubicación para ordenar los locales por distancia, o explorá el mapa sin compartirla.");
+    els.statusText.textContent = title;
+    els.countText.textContent = loading ? "Cargando…" : "Mapa pendiente";
+    els.results.innerHTML = `<section class="nearby-panel"><div class="nearby-hero"><div>
+      <span class="nearby-kicker">Mapa</span><h2>${title}</h2><p role="status">${message}</p>
+      </div></div>
+      <button type="button" class="location-button" data-location-action="explore" ${loading ? "disabled" : ""}>${failed ? "Reintentar carga del mapa" : "Explorar mapa sin ubicación"}</button>
+      <button type="button" class="location-button secondary" data-location-action="detect" ${loading ? "disabled" : ""}>Usar mi ubicación</button>
+    </section>`;
+    return;
+  }
+  const points = getNearbyPromoPoints();
+  // A promotion detail can explicitly open a verified branch outside current filters.
+  if (selection?.point) {
+    const index = points.findIndex(item => getPointKey(item) === selection.pointKey);
+    if (index < 0) points.unshift(selection.point);
+    else points[index] = selection.point;
+  }
+  const selectedPoint = points.find((item) => getPointKey(item) === state.activePlaceName || item.place.name === state.activePlaceName) || points[0];
+  const selectedPlace = selectedPoint?.place || KNOWN_LOCAL_POINTS[0];
+  const selectedDistance = selectedPoint?.distance || 0;
+  const promos = selectedPoint?.promos || [];
+  const selectedTheme = getBankTheme(getPointPrimaryPromo(selectedPoint)?.bank);
+  if (!points.length) {
+    const matchingPromos = uniquePromos([...buildNearbyPromoIndex().values()].flat());
+    els.statusText.textContent = "Sin ubicación verificada";
+    els.countText.textContent = `${matchingPromos.length} beneficios · 0 ubicaciones verificadas`;
+    els.results.innerHTML = `
+      <section class="nearby-panel">
+        <div class="nearby-hero">
+          <div>
+            <span class="nearby-kicker">Sin ubicación verificada</span>
+            <h2>Sin ubicaciones verificadas para estos filtros</h2>
+            <p>${escapeHtml(getNearbyActiveFilterText())}</p>
+            <p>Puede haber promociones sin una ubicación verificada en el mapa.</p>
+          </div>
+          <button type="button" class="location-button ${state.locationStatus === "loading" ? "is-loading" : ""}" data-location-action="detect">${state.locationStatus === "loading" ? `<span class="locating-orbit" aria-hidden="true"></span>Buscando...` : state.location ? "Actualizar ubicación" : "Usar mi ubicación"}</button>
+        </div>
+        <button type="button" class="location-button secondary" data-location-action="reset-filters">Ver todos los locales de hoy</button>
+        ${matchingPromos.length ? `<h2>Promociones sin ubicación en el mapa</h2><p>Estos beneficios coinciden con tus filtros. Consultá los locales adheridos en sus condiciones.</p>${renderNearbyPromoGroups(matchingPromos)}` : ""}
+      </section>
+    `;
+    return;
+  }
+  els.statusText.textContent = state.location ? "Cerca de tu ubicación" : "Explorar cerca";
+  els.countText.textContent = `${points.length} ubicaciones`;
+  els.results.innerHTML = `
+    <section class="nearby-panel">
+      <div class="map-stage">
+        ${state.location ? `<button type="button" class="map-user-center" data-map-action="center-user" aria-label="Centrar en mi ubicación" title="Mi ubicación">${renderIcon("target")}</button>` : ""}
+        <div class="map-zoom-controls" aria-label="Controles del mapa">
+          <button type="button" data-map-action="zoom-in" aria-label="Acercar mapa">+</button>
+          <button type="button" data-map-action="zoom-out" aria-label="Alejar mapa">−</button>
+        </div>
+        <div id="nearbyMap" class="leaflet-map" aria-label="Mapa de locales con promociones" aria-busy="true"></div>
+      </div>
+      <div id="mapProviderStatus" class="map-provider-status" role="status"><span>Cargando mapa… Podés consultar los locales de la lista.</span><button type="button" data-map-action="retry" hidden>Reintentar mapa</button></div>
+      ${renderNearbySelectedPlace(selectedPoint, selectedTheme)}
+      <div class="place-list">
+        ${points.map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
+      </div>
+      ${promos.length ? renderNearbyPromoGroups(promos, selectedPoint?.place) : `<div class="empty">No encontramos locales geolocalizados para el filtro actual.</div>`}
+    </section>
+  `;
+  const focus = selection?.pointKey === getPointKey(selectedPoint)
+    && Number.isFinite(selectedPlace.lat) && Number.isFinite(selectedPlace.lng)
+    ? selection : null;
+  nearbyMapState.selection = focus;
+  hydrateNearbyMap(points, selectedPlace, focus);
+}
+
+function getNearbyActiveFilterText() {
+  const parts = [];
+  if (state.activeBank !== "Todos") parts.push(getBankLabel(state.activeBank));
+  if (state.activeCategory !== "Todas") parts.push(state.activeCategory);
+  if (state.activeDay !== "hoy") parts.push(capitalize(state.activeDay));
+  if (state.query.trim()) parts.push(`"${state.query.trim()}"`);
+  return parts.length ? parts.join(" · ") : "Todos los bancos y categorías";
+}
+
+function renderNearbyPromoGroups(promos, place = null) {
+  const groups = groupNearbyPromos(promos);
+  return groups.map(([title, subtitle, items, tone]) => `
+    <section class="nearby-promo-group ${tone}">
+      <div class="nearby-group-title">
+        <div>
+          <strong>${escapeHtml(title)}</strong>
+          <small>${escapeHtml(subtitle)}</small>
+        </div>
+        <span>${items.length}</span>
+      </div>
+      <div class="grid nearby-grid">${items.flatMap((promo) => getPromoVariants(promo).map((variant) => renderCard(withNearbyPlaceContext(promo, place), variant))).join("")}</div>
+    </section>
+  `).join("");
+}
+
+function groupNearbyPromos(promos) {
+  const today = promos
+    .filter((promo) => appliesToSelectedDay(promo, "hoy") && !isEveryDayPromotion(promo) && !isInstallmentsOnly(promo))
+    .sort(sortByDayDisplayPriority);
+  const seen = new Set(today.map((promo) => promo.id));
+  const everyday = promos
+    .filter((promo) => !seen.has(promo.id) && isEveryDayPromotion(promo) && !isInstallmentsOnly(promo))
+    .sort(sortByDayDisplayPriority);
+  everyday.forEach((promo) => seen.add(promo.id));
+  const installments = promos
+    .filter((promo) => !seen.has(promo.id) && isInstallmentsOnly(promo))
+    .sort(sortByDayDisplayPriority);
+  installments.forEach((promo) => seen.add(promo.id));
+  const other = promos.filter((promo) => !seen.has(promo.id)).sort(sortByDayDisplayPriority);
+  return [
+    ["Promos de hoy", "Beneficios puntuales para usar hoy.", today, "today"],
+    ["Todos los días", "Beneficios activos cualquier día.", everyday, "everyday"],
+    ["Cuotas sin intereses", "Financiación sujeta a los días y condiciones de cada promoción.", installments, "installments"],
+    ["Otras promos", "Beneficios vigentes con condiciones particulares.", other, "other"],
+  ].filter(([, , items]) => items.length);
+}
+
+function formatPlaceSheetMeta(point, distance) {
+  if (!point) return "";
+  const parts = [];
+  if (state.location) parts.push(formatDistance(distance));
+  parts.push(`${point.promos.length} promo${point.promos.length === 1 ? "" : "s"}`);
+  return parts.join(" · ");
+}
+
+function renderPlaceBankBadges(point) {
+  if (!point?.promos?.length) return "";
+  const byBank = new Map();
+  point.promos.forEach((promo) => {
+    const key = promo.bank || "Banco";
+    if (!byBank.has(key)) byBank.set(key, { bank: key, promos: [], bestScore: 0 });
+    const row = byBank.get(key);
+    row.promos.push(promo);
+    row.bestScore = Math.max(row.bestScore, getBestPromoScore(promo));
+  });
+  return `
+    <div class="map-bank-badges" aria-label="Bancos con promociones">
+      ${[...byBank.values()]
+        .sort((a, b) => b.bestScore - a.bestScore || a.bank.localeCompare(b.bank))
+        .slice(0, 4)
+        .map((item) => {
+          const theme = getBankTheme(item.bank);
+          const label = getBankLabel(item.bank);
+          return `<span style="--bank-color:${theme.main};" title="${escapeAttribute(`${label}: ${item.promos.length} promo${item.promos.length === 1 ? "" : "s"}`)}">${escapeHtml(label.replace("Universitaria", "CU").slice(0, 4))}<i>${item.promos.length}</i></span>`;
+        }).join("")}
+    </div>
+  `;
+}
+
+function renderNearbyPlaceButton(item, selectedPoint) {
+  const isActive = getPointKey(item) === getPointKey(selectedPoint);
+  const address = formatPlaceAddress(item.place);
+  return `
+    <div class="place-list-item ${isActive ? "active" : ""}">
+      <button type="button" data-place-name="${escapeAttribute(getPointKey(item))}" class="${isActive ? "active" : ""}">
+        <span class="place-list-main">
+          <strong>${escapeHtml(getPlaceDisplayName(item.place))}</strong>
+          ${address ? `<small>${escapeHtml(address)}</small>` : ""}
+        </span>
+        <span class="place-list-meta">
+          ${state.location ? `<em>${formatDistance(item.distance)}</em>` : ""}
+          <em>${item.promos.length} promo${item.promos.length === 1 ? "" : "s"}</em>
+          ${item.banks?.length > 1 ? `<b>${item.banks.length} bancos</b>` : ""}
+        </span>
+      </button>
+    </div>
+  `;
+}
+
+function renderNearbySelectedPlace(item, theme) {
+  if (!item) return "";
+  const address = formatPlaceAddress(item.place);
+  const mapsUrl = getMapsUrl(item.place);
+  return `
+    <section class="selected-place-panel" style="--sheet-accent:${theme.main};">
+      <div class="selected-place-head">
+        <div class="map-place-main">
+          <strong>${escapeHtml(getPlaceDisplayName(item.place))}</strong>
+          <div class="place-address-row">
+            ${address ? `<small>${escapeHtml(address)}</small>` : ""}
+            ${mapsUrl ? `<a class="maps-link compact place-maps-link" href="${escapeAttribute(mapsUrl)}" target="_blank" rel="noreferrer" aria-label="Abrir ruta en Google Maps">${renderIcon("mapPin")}Maps</a>` : ""}
+          </div>
+          <span>${formatPlaceSheetMeta(item, item.distance)}</span>
+        </div>
+        ${renderPlaceBankBadges(item)}
+      </div>
+      ${renderNearbyPlacePromos(item)}
+    </section>
+  `;
+}
+
+function renderNearbyPlacePromos(item) {
+  const groups = groupNearbyPromos(item.promos);
+  const rendered = groups.map(([title, subtitle, promos, tone]) => {
+    const visible = promos.slice(0, 4);
+    const cards = visible.flatMap((promo) => {
+      const variants = getPromoVariants(promo).filter(Boolean);
+      const visibleVariants = variants.filter((variant) => variant.kind !== "premium").slice(0, 1);
+      return (visibleVariants.length ? visibleVariants : [variants[0] || null])
+        .map((variant) => renderCard(withNearbyPlaceContext(promo, item.place), variant));
+    }).join("");
+    return `
+      <section class="place-promo-section ${tone}">
+        <div class="place-promo-section-title">
+          <strong>${escapeHtml(title)}</strong>
+          <small>${escapeHtml(subtitle)}</small>
+          <span>${promos.length}</span>
+        </div>
+        <div class="place-promo-cards">${cards}</div>
+      </section>
+    `;
+  }).join("");
+  const visibleCount = groups.reduce((total, [, , promos]) => total + Math.min(promos.length, 4), 0);
+  const moreCount = Math.max(0, item.promos.length - visibleCount);
+  return `
+    <div class="place-promo-drawer">
+      <div class="place-promo-header">
+        <span>Promos en este local</span>
+        ${moreCount ? `<small>+${moreCount} más abajo</small>` : ""}
+      </div>
+      ${rendered}
+    </div>
+  `;
+}
+
+function getPlaceDisplayName(place) {
+  return normalizeDisplayName(place?.google_name || place?.name || place?.merchant_name || "Ubicación");
+}
+
+function withNearbyPlaceContext(promo, place) {
+  if (!promo || !place) return promo;
+  const localName = getNearbyLocalName(place);
+  if (!localName || isGenericNearbyName(localName)) return promo;
+  const address = formatPlaceAddress(place);
+  return {
+    ...promo,
+    merchant_name: localName,
+    merchant_locations_or_group: address || localName,
+    _sourceMerchantName: promo.merchant_name,
+    _nearbyPlaceId: place.id || getPlaceGroupKey(place),
+    _nearbyPlaceName: localName,
+    _nearbyPlaceAddress: address,
+  };
+}
+
+function getNearbyLocalName(place) {
+  const googleName = cleanSentence(place.google_name || place.name || "");
+  const merchantName = cleanSentence(place.merchant_name || "");
+  if (googleName && !isGenericNearbyName(googleName)) return normalizeDisplayName(googleName);
+  if (merchantName && !isGenericNearbyName(merchantName)) return normalizeDisplayName(merchantName);
+  return "";
+}
+
+function isGenericNearbyName(value) {
+  const normalized = normalizeDayName(value);
+  return ["farmacias", "mayoristas", "supermercados", "estaciones de servicio", "frigorificos", "combustible"].includes(normalized);
+}
+
+function formatPlaceAddress(place) {
+  if (!place) return "";
+  const address = place.formatted_address || place.address || "";
+  if (!address) return place.city || "";
+  const city = place.city || "";
+  return city && !normalizeDayName(address).includes(normalizeDayName(city))
+    ? `${address} · ${city}`
+    : address;
+}
+
+function getMapsUrl(place) {
+  if (!place) return "";
+  const hasCoords = Number.isFinite(place.lat) && Number.isFinite(place.lng);
+  if (hasCoords) {
+    const origin = state.location && Number.isFinite(state.location.lat) && Number.isFinite(state.location.lng)
+      ? `&origin=${encodeURIComponent(`${state.location.lat},${state.location.lng}`)}`
+      : "";
+    const placeId = place.place_id ? `&destination_place_id=${encodeURIComponent(place.place_id)}` : "";
+    return `https://www.google.com/maps/dir/?api=1${origin}&destination=${encodeURIComponent(`${place.lat},${place.lng}`)}${placeId}&travelmode=driving`;
+  }
+  const destination = [getPlaceDisplayName(place), place.formatted_address || place.address, place.city, "Paraguay"].filter(Boolean).join(", ");
+  const placeId = place.place_id ? `&destination_place_id=${encodeURIComponent(place.place_id)}` : "";
+  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destination)}${placeId}&travelmode=driving`;
+}
+
+function renderMapMarker(item, selectedPlace) {
+  const primaryPromo = getPointPrimaryPromo(item);
+  const theme = getBankTheme(primaryPromo?.bank);
+  const category = getDominantPromoCategory(item.promos);
+  const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
+  const iconPath = ICON_PATHS[iconKey] || ICON_PATHS.star;
+  const sourceLabel = item.place.geocode_source === "city_approximation" ? "zona aproximada" : "ubicación";
+  const title = `${getPlaceDisplayName(item.place)}${formatPlaceAddress(item.place) ? ` · ${formatPlaceAddress(item.place)}` : ""} · ${category} · ${item.promos.length} promos · ${item.banks.length} bancos · ${sourceLabel}`;
+  const badge = item.banks.length > 1 ? `<i>${item.banks.length}</i>` : "";
+  return `<button type="button" data-place-name="${escapeAttribute(getPointKey(item))}" class="map-marker ${item.hasTodayPromos ? "has-today" : ""} ${item.place.geocode_source === "city_approximation" ? "approximate" : ""} ${isSelectedPoint(item, selectedPlace) ? "active" : ""}" style="--x:${getMapX(item.place.lng)}%;--y:${getMapY(item.place.lat)}%;--marker-color:${theme.main};" title="${escapeAttribute(title)}" aria-label="${escapeAttribute(title)}"><span><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg></span>${badge}</button>`;
+}
+
+function getMapProvider() {
+  if (!nearbyMapState.provider) nearbyMapState.provider = window.PaybackMapProvider.create({
+    window, document, getGoogleKey: getGoogleMapsApiKey,
+    onGoogleFailure: () => {
+      if (state.activeView === "nearby" && document.querySelector("#nearbyMap")) {
+        if (nearbyMapState.selection) selectNearbyPlace(nearbyMapState.selection.pointKey, nearbyMapState.selection.point);
+        else renderNearbyView();
+      }
+    },
+  });
+  return nearbyMapState.provider;
+}
+
+function setMapProviderStatus(status, message, element = document.querySelector("#nearbyMap")) {
+  if (!element || element !== document.querySelector("#nearbyMap")) return;
+  element.setAttribute("aria-busy", String(status === "loading"));
+  element.dataset.mapStatus = status;
+  const panel = document.querySelector("#mapProviderStatus");
+  if (!panel) return;
+  panel.hidden = status === "ready";
+  panel.querySelector("span").textContent = message;
+  panel.querySelector("button").hidden = status === "loading" || status === "ready";
+}
+
+async function hydrateNearbyMap(points, selectedPlace, focus = null) {
+  const element = document.querySelector("#nearbyMap");
+  const renderId = nearbyMapState.renderId;
+  const current = () => state.activeView === "nearby" && renderId === nearbyMapState.renderId
+    && element === document.querySelector("#nearbyMap");
+  if (!element) return;
+  setMapProviderStatus("loading", "Cargando mapa… Podés consultar los locales de la lista.", element);
+  try {
+    if (await ensureGoogleMaps()) {
+      if (!current()) return;
+      try {
+        renderGoogleNearbyMap(points, selectedPlace, focus);
+        setMapProviderStatus("ready", "", element);
+        return;
+      } catch { cleanupNearbyMaps(); }
+    }
+    if (!current()) return;
+    setMapProviderStatus("loading", "Cargando mapa alternativo… La lista de locales sigue disponible.", element);
+    if (await getMapProvider().leaflet()) {
+      if (!current()) return;
+      renderLeafletNearbyMap(points, selectedPlace, focus);
+      setMapProviderStatus("fallback", "Estás usando el mapa alternativo. Podés reintentar el mapa principal.", element);
+      return;
+    }
+  } catch { /* Keep the list usable even if a provider cannot initialize. */ }
+  if (!current()) return;
+  cleanupNearbyMaps();
+  element.replaceChildren();
+  setMapProviderStatus("error", "No pudimos cargar el mapa. Revisá tu conexión y reintentá; los locales siguen disponibles en la lista.", element);
+}
+
+function getGoogleMapsApiKey() {
+  return String(window.PAYBACK_CONFIG?.googleMapsApiKey || "").trim();
+}
+
+function ensureGoogleMaps() {
+  return getMapProvider().google();
+}
+
+function cleanupNearbyMaps() {
+  window.clearTimeout(nearbyMapState.tileTimer);
+  nearbyMapState.tileTimer = null;
+  nearbyMapState.markers.forEach((marker) => marker.remove());
+  nearbyMapState.markers = [];
+  if (nearbyMapState.userMarker) {
+    nearbyMapState.userMarker.remove();
+    nearbyMapState.userMarker = null;
+  }
+  if (nearbyMapState.map) {
+    nearbyMapState.map.remove();
+    nearbyMapState.map = null;
+  }
+  nearbyMapState.googleMarkers.forEach((marker) => marker.setMap(null));
+  nearbyMapState.googleMarkers = [];
+  nearbyMapState.googleMap = null;
+  if (nearbyMapState.googleUserMarker) {
+    nearbyMapState.googleUserMarker.setMap(null);
+    nearbyMapState.googleUserMarker = null;
+  }
+}
+
+function centerNearbyMapOnUser() {
+  if (!state.location) return;
+  const position = { lat: state.location.lat, lng: state.location.lng };
+  if (nearbyMapState.googleMap) {
+    nearbyMapState.googleMap.panTo(position);
+    if (nearbyMapState.googleMap.getZoom() < 16) nearbyMapState.googleMap.setZoom(16);
+    return;
+  }
+  if (nearbyMapState.map) {
+    nearbyMapState.map.setView([position.lat, position.lng], Math.max(nearbyMapState.map.getZoom(), 16), { animate: true });
+  }
+}
+
+function zoomNearbyMap(direction) {
+  const delta = direction === "in" ? 1 : -1;
+  if (nearbyMapState.googleMap) {
+    const currentZoom = nearbyMapState.googleMap.getZoom() || 15;
+    nearbyMapState.googleMap.setZoom(Math.max(3, Math.min(20, currentZoom + delta)));
+    return;
+  }
+  if (nearbyMapState.map) {
+    if (direction === "in") nearbyMapState.map.zoomIn();
+    else nearbyMapState.map.zoomOut();
+  }
+}
+
+function getMapStart(selectedPlace) {
+  return selectedPlace && Number.isFinite(selectedPlace.lat) && Number.isFinite(selectedPlace.lng)
+    ? { lat: selectedPlace.lat, lng: selectedPlace.lng }
+    : { lat: -25.2867, lng: -57.6282 };
+}
+
+function selectNearbyPlace(pointKey, point = null) {
+  if (!point && nearbyMapState.selection?.pointKey === pointKey) point = nearbyMapState.selection.point;
+  // Capture the camera before renderNearbyView tears down the current map.
+  const map = nearbyMapState.googleMap || nearbyMapState.map;
+  const zoom = map?.getZoom();
+  state.activePlaceName = pointKey;
+  renderNearbyView({ pointKey, point, zoom: Math.max(16, Number.isFinite(zoom) ? zoom : 16) });
+}
+
+function renderGoogleNearbyMap(points, selectedPlace, focus = null) {
+  const mapElement = document.querySelector("#nearbyMap");
+  if (!mapElement || !window.google?.maps) return;
+  cleanupNearbyMaps();
+  const start = getMapStart(selectedPlace);
+  const map = new window.google.maps.Map(mapElement, {
+    center: start,
+    zoom: focus ? focus.zoom : state.location ? 15 : 12,
+    clickableIcons: false,
+    fullscreenControl: false,
+    mapTypeControl: false,
+    streetViewControl: false,
+    zoomControl: false,
+    styles: [
+      { elementType: "geometry", stylers: [{ color: "#202326" }] },
+      { elementType: "labels.text.fill", stylers: [{ color: "#d5d8dc" }] },
+      { elementType: "labels.text.stroke", stylers: [{ color: "#202326" }] },
+      { featureType: "road", elementType: "geometry", stylers: [{ color: "#42474c" }] },
+      { featureType: "road", elementType: "labels.icon", stylers: [{ visibility: "off" }] },
+      { featureType: "water", elementType: "geometry", stylers: [{ color: "#173844" }] },
+      { featureType: "poi", stylers: [{ visibility: "off" }] },
+    ],
+  });
+  nearbyMapState.googleMap = map;
+  const bounds = new window.google.maps.LatLngBounds();
+  getMapVisiblePoints(points).forEach((item) => {
+    const marker = new window.google.maps.Marker({
+      position: { lat: item.place.lat, lng: item.place.lng },
+      map,
+      title: item.place.name,
+      icon: getGoogleMarkerIcon(item, selectedPlace),
+    });
+    marker.addListener("click", () => {
+      selectNearbyPlace(getPointKey(item), item);
+    });
+    nearbyMapState.googleMarkers.push(marker);
+    bounds.extend(marker.getPosition());
+  });
+  if (state.location) {
+    nearbyMapState.googleUserMarker = new window.google.maps.Marker({
+      position: { lat: state.location.lat, lng: state.location.lng },
+      map,
+      title: "Tu ubicación",
+      icon: {
+        path: window.google.maps.SymbolPath.CIRCLE,
+        scale: 8,
+        fillColor: "#24d79c",
+        fillOpacity: 1,
+        strokeColor: "#f7f1e3",
+        strokeWeight: 3,
+      },
+    });
+    bounds.extend(nearbyMapState.googleUserMarker.getPosition());
+  }
+  if (!focus && !bounds.isEmpty()) {
+    map.fitBounds(bounds, 48);
+    window.google.maps.event.addListenerOnce(map, "bounds_changed", () => {
+      if (map.getZoom() > 17) map.setZoom(17);
+    });
+  }
+}
+
+function getGoogleMarkerIcon(item, selectedPlace) {
+  const primaryPromo = getPointPrimaryPromo(item);
+  const theme = getBankTheme(primaryPromo?.bank);
+  const category = getDominantPromoCategory(item.promos);
+  const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
+  const path = (ICON_PATHS[iconKey] || ICON_PATHS.star).replaceAll('"', "'");
+  const selected = isSelectedPoint(item, selectedPlace);
+  const size = selected ? 42 : 34;
+  const badge = item.banks.length > 1
+    ? `<circle cx="${size - 7}" cy="7" r="6" fill="#f7f1e3"/><text x="${size - 7}" y="10.5" text-anchor="middle" font-size="9" font-family="Arial" font-weight="800" fill="#020814">${item.banks.length}</text>`
+    : "";
+  const glow = item.hasTodayPromos ? `<rect x="1.5" y="1.5" width="${size - 3}" height="${size - 3}" rx="13" fill="none" stroke="#d5b874" stroke-width="3" opacity="0.48"/>` : "";
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">${glow}<rect x="3" y="3" width="${size - 6}" height="${size - 6}" rx="11" fill="${theme.main}" stroke="#f7f1e3" stroke-width="2"/><g transform="translate(${(size - 24) / 2} ${(size - 24) / 2})" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">${path}</g>${badge}</svg>`;
+  return {
+    url: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`,
+    scaledSize: new window.google.maps.Size(size, size),
+    anchor: new window.google.maps.Point(size / 2, size / 2),
+  };
+}
+
+function renderLeafletNearbyMap(points, selectedPlace, focus = null) {
+  if (!window.L) return;
+  const mapElement = document.querySelector("#nearbyMap");
+  if (!mapElement) return;
+  cleanupNearbyMaps();
+  const start = getMapStart(selectedPlace);
+  const map = window.L.map(mapElement, {
+    zoomControl: false,
+    attributionControl: true,
+  }).setView([start.lat, start.lng], focus ? Math.min(focus.zoom, 19) : state.location ? 15 : 12);
+  nearbyMapState.map = map;
+  const tiles = window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  });
+  let loadedTile = false;
+  const tileWarning = () => {
+    if (nearbyMapState.map === map) setMapProviderStatus("error", "No se pudo cargar el fondo del mapa. Podés usar la lista de locales o reintentar.", mapElement);
+  };
+  tiles.on("tileload", () => {
+    if (loadedTile) return;
+    loadedTile = true;
+    window.clearTimeout(nearbyMapState.tileTimer);
+    if (nearbyMapState.map === map) setMapProviderStatus("fallback", "Estás usando el mapa alternativo.", mapElement);
+  });
+  tiles.on("tileerror", tileWarning);
+  nearbyMapState.tileTimer = window.setTimeout(() => { if (!loadedTile) tileWarning(); }, 8000);
+  tiles.addTo(map);
+
+  getMapVisiblePoints(points).forEach((item) => {
+    const primaryPromo = getPointPrimaryPromo(item);
+    const theme = getBankTheme(primaryPromo?.bank);
+    const category = getDominantPromoCategory(item.promos);
+    const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
+    const iconPath = ICON_PATHS[iconKey] || ICON_PATHS.star;
+    const marker = window.L.marker([item.place.lat, item.place.lng], {
+      icon: window.L.divIcon({
+        className: `payback-map-pin ${item.hasTodayPromos ? "has-today" : ""} ${isSelectedPoint(item, selectedPlace) ? "active" : ""}`,
+        html: `<span style="--pin-color:${escapeAttribute(theme.main)}"><svg viewBox="0 0 24 24" aria-hidden="true">${iconPath}</svg>${item.banks.length > 1 ? `<i>${item.banks.length}</i>` : ""}</span>`,
+        iconSize: [34, 34],
+        iconAnchor: [17, 17],
+      }),
+    }).addTo(map);
+    marker.on("click", () => {
+      selectNearbyPlace(getPointKey(item), item);
+    });
+    nearbyMapState.markers.push(marker);
+  });
+
+  if (state.location) {
+    nearbyMapState.userMarker = window.L.circleMarker([state.location.lat, state.location.lng], {
+      radius: 7,
+      color: "#f7f1e3",
+      weight: 3,
+      fillColor: "#24d79c",
+      fillOpacity: 1,
+    }).addTo(map);
+  }
+  const visible = getMapVisiblePoints(points)
+    .filter((item) => Number.isFinite(item.place.lat) && Number.isFinite(item.place.lng))
+    .map((item) => [item.place.lat, item.place.lng]);
+  if (state.location) visible.push([state.location.lat, state.location.lng]);
+  if (!focus && visible.length > 1) {
+    map.fitBounds(window.L.latLngBounds(visible), { padding: [48, 48], maxZoom: state.location ? 16 : 14 });
+  }
+  window.setTimeout(() => { if (nearbyMapState.map === map) map.invalidateSize(); }, 80);
+}
+
+function getDominantPromoCategory(promos) {
+  const counts = new Map();
+  promos.forEach((promo) => {
+    const category = getPromoCategoryGroup(promo);
+    counts.set(category, (counts.get(category) || 0) + 1);
+  });
+  return [...counts.entries()].sort((a, b) => b[1] - a[1] || getCategoryOrder(a[0]) - getCategoryOrder(b[0]))[0]?.[0] || "Especiales";
+}
+
+function getMapVisiblePoints(points) {
+  return points.filter((point) => isReliableMapLocation(point.place));
+}
+
+function getPointPrimaryPromo(point) {
+  return point?.primaryPromo || point?.promos?.[0] || null;
+}
+
+function getPointKey(point) {
+  if (!point) return "";
+  return point.key || getPlaceGroupKey(point.place);
+}
+
+function isSelectedPoint(item, selectedPlace) {
+  if (!item || !selectedPlace) return false;
+  return getPointKey(item) === state.activePlaceName || getPlaceGroupKey(selectedPlace) === getPointKey(item);
+}
+
+function getPlaceGroupKey(place) {
+  if (!place) return "";
+  if (place.place_id) return `google:${place.place_id}|${normalizeDayName(place.merchant_name || place.name || "")}`;
+  if (Number.isFinite(place.lat) && Number.isFinite(place.lng)) {
+    return `${normalizeDayName(place.merchant_name || place.name || "")}|${place.lat.toFixed(5)},${place.lng.toFixed(5)}`;
+  }
+  return normalizeDayName([place.name, place.address, place.city].filter(Boolean).join("|"));
+}
+
+function getBestPromoScore(promo) {
+  const variants = getPromoVariants(promo);
+  const variantScores = variants.map((variant) => percentNumber(getMainBenefit(promo, variant)));
+  const benefitScore = Math.max(percentNumber(promo.benefit_summary), percentNumber(promo.benefit_type), ...variantScores);
+  const quotaMatch = String(promo.benefit_summary || "").match(/(\d{1,2})\s*cuotas?/i);
+  const quotaScore = quotaMatch ? Math.min(Number(quotaMatch[1]), 36) / 10 : 0;
+  return Math.max(benefitScore, quotaScore);
+}
+
+function enrichNearbyPoint(item) {
+  const promos = uniquePromos(item.promos).sort((a, b) => getBestPromoScore(b) - getBestPromoScore(a));
+  return {
+    ...item,
+    promos,
+    banks: [...new Set(promos.map((promo) => promo.bank).filter(Boolean))],
+    hasTodayPromos: promos.some((promo) => appliesToSelectedDay(promo, "hoy") && !isEveryDayPromotion(promo) && !isInstallmentsOnly(promo)),
+    primaryPromo: promos[0] || null,
+  };
+}
+
+function uniquePromos(promos) {
+  const byId = new Map();
+  promos.forEach((promo) => {
+    const key = promo.id || `${promo.bank}|${promo.merchant_name}|${promo.benefit_summary}`;
+    if (!byId.has(key)) byId.set(key, promo);
+  });
+  return [...byId.values()];
+}
+
+function getNearbyPromoPoints() {
+  if (!state.location && !state.locationsLoaded) return [];
+  const promoIndex = buildNearbyPromoIndex();
+  const dynamicPoints = state.locations
+    .filter((place) => Number.isFinite(place.lat) && Number.isFinite(place.lng))
+    .filter(isReliableMapLocation)
+    .map((place) => {
+      const promos = getPromotionsForLocation(place, promoIndex);
+      return {
+        place,
+        promos,
+        distance: state.location ? distanceKm(state.location.lat, state.location.lng, place.lat, place.lng) : 0,
+      };
+    })
+    .filter((item) => item.promos.length);
+  const knownPoints = [];
+  const pointsByName = new Map();
+  [...dynamicPoints, ...knownPoints].forEach((item) => {
+    const key = getPlaceGroupKey(item.place);
+    const existing = pointsByName.get(key);
+    if (existing) {
+      existing.promos.push(...item.promos);
+      existing.place = preferBetterPlace(existing.place, item.place);
+      existing.distance = Math.min(existing.distance, item.distance);
+    } else {
+      pointsByName.set(key, { ...item, key });
+    }
+  });
+  const sorted = [...pointsByName.values()].map(enrichNearbyPoint).sort((a, b) => {
+    const aPrecise = Number(isPreciseNearbyPoint(a));
+    const bPrecise = Number(isPreciseNearbyPoint(b));
+    if (state.location && aPrecise !== bPrecise) return bPrecise - aPrecise;
+    if (state.location && a.distance !== b.distance) return a.distance - b.distance;
+    return getBestPromoScore(b.primaryPromo) - getBestPromoScore(a.primaryPromo) || b.banks.length - a.banks.length;
+  });
+  return sorted;
+}
+
+function isPreciseNearbyPoint(point) {
+  const source = point?.place?.geocode_source || "";
+  const confidence = point?.place?.google_confidence || "";
+  return Boolean(point && !point.place?.qa_hold && !point.place?.needs_review && Number.isFinite(point.place?.lat) && Number.isFinite(point.place?.lng)
+    && source !== "city_approximation" && source !== "" && confidence !== "review");
+}
+
+function isReliableMapLocation(place) {
+  const source = place?.geocode_source || "";
+  const confidence = place?.google_confidence || "";
+  return Boolean(!place?.qa_hold && !place?.needs_review && Number.isFinite(place?.lat) && Number.isFinite(place?.lng)
+    && Math.abs(place.lat) <= 90 && Math.abs(place.lng) <= 180 && !place.online_only
+    && !isGenericLocationMatchedToMall(place)
+    && source !== "city_approximation" && source !== "" && confidence !== "review"
+    && place.google_enrichment_status !== "needs_review");
+}
+
+function isGenericLocationMatchedToMall(place) {
+  const merchant = normalizeDayName(place?.merchant_name || "");
+  const googleName = normalizeDayName(place?.google_name || place?.name || "");
+  const genericMerchants = ["farmacias", "mayoristas", "supermercados", "estaciones de servicio", "frigorificos"];
+  const mallNames = ["shopping", "delsol", "del sol", "park 14"];
+  const types = Array.isArray(place?.google_types) ? place.google_types.map(normalizeDayName) : [];
+  return genericMerchants.includes(merchant)
+    && types.includes("shopping_mall")
+    && mallNames.some((name) => googleName.includes(name));
+}
+
+function isBrandedFuelLocation(place) {
+  const text = normalizeDayName([
+    place?.google_name,
+    place?.merchant_name,
+    place?.name,
+    place?.category,
+    place?.source_category,
+    Array.isArray(place?.google_types) ? place.google_types.join(" ") : "",
+  ].filter(Boolean).join(" "));
+  const isFuel = text.includes("combustible") || text.includes("estacion de servicio") || text.includes("gas_station");
+  return isFuel && FUEL_BRANDS.some((brand) => text.includes(normalizeDayName(brand)));
+}
+
+function preferBetterPlace(current, next) {
+  const currentName = normalizeDayName(current.google_name || current.name || "");
+  const currentHasGoogleAddress = Boolean(current.formatted_address);
+  const nextHasGoogleAddress = Boolean(next.formatted_address);
+  if (nextHasGoogleAddress && !currentHasGoogleAddress) {
+    return { ...current, ...next, name: next.google_name || next.name || current.name };
+  }
+  if (next.google_name && (!current.google_name || currentName.includes("estaciones de servicio"))) {
+    return { ...current, ...next, name: next.google_name || next.name };
+  }
+  if ((current.name || "").length < 6 && (next.name || "").length > (current.name || "").length) return next;
+  return current.google_name ? { ...current, name: current.google_name } : current;
+}
+
+function getNearbyPlaces() {
+  const withDistance = KNOWN_PLACES.map((place) => ({
+    place,
+    distance: state.location ? distanceKm(state.location.lat, state.location.lng, place.lat, place.lng) : 0,
+  }));
+  return withDistance.sort((a, b) => a.distance - b.distance);
+}
+
+function getPromotionsForPlace(place) {
+  const safeTerms = place.terms
+    .map((term) => normalizeDayName(term))
+    .filter((term) => term.length >= 5 || /\b(?:cit)\b/.test(term));
+  return state.promotions.filter((promo) => {
+    if (!shouldShowPromotion(promo)) return false;
+    const text = normalizeDayName([
+      promo.merchant_name,
+      promo.merchant_locations_or_group,
+    ].join(" "));
+    return safeTerms.some((term) => (
+      term === "cit"
+        ? /\bcit\b/.test(text) || text.includes("club internacional de tenis")
+        : text.includes(term)
+    ));
+  });
+}
+
+function buildNearbyPromoIndex() {
+  const index = new Map();
+  state.promotions
+    .filter(shouldShowPromotion)
+    .filter(matchesBank)
+    .filter(matchesCategory)
+    .filter(matchesCardFilter)
+    .filter(matchesNearbyDay)
+    .filter((promo) => state.query.trim() ? matchesQuery(promo) : true)
+    .forEach((promo) => {
+      const bank = normalizeDayName(promo.bank);
+      const category = normalizeDayName(getPromoCategoryGroup(promo));
+      const key = `${bank}|${category}`;
+      if (!index.has(key)) index.set(key, []);
+      index.get(key).push(promo);
+    });
+  return index;
+}
+
+function matchesNearbyDay(promo) {
+  return appliesToSelectedDay(promo, state.activeDay);
+}
+
+function getPromotionsForLocation(place, promoIndex, category = state.activeCategory) {
+  if (Array.isArray(place.promotion_ids)) {
+    if (!isActivePromotion({terms: {ends_on: place.participation_ends_on}}, selectedDateIso())) return [];
+    return uniquePromos([...promoIndex.values()].flat().filter(promo => place.promotion_ids.includes(promo.id)));
+  }
+  const bank = normalizeDayName(place.bank);
+  const source = place.source_url || "";
+  // A brand name alone does not establish this branch's participation.
+  if (!bank || bank === "varios" || !/\.pdf(?:[?#]|$)/i.test(source)) return [];
+  const merchantTerms = [place.merchant_brand, place.merchant_name, place.name]
+    .map(normalizeDayName)
+    .filter(value => value && !["estaciones de servicio", "farmacias", "mayoristas", "supermercados"].includes(value));
+  if (!merchantTerms.length) return [];
+  const matches = uniquePromos([...promoIndex.values()].flat()).filter(promo => {
+    if (normalizeDayName(promo.bank) !== bank) return false;
+    if (![promo.source_url, promo.source_document_url, promo.source_page_url].includes(source)) return false;
+    const merchant = normalizeDayName(promo.merchant_name);
+    return merchantTerms.includes(merchant);
+  });
+  return matches.filter(promo => category !== PREMIUM_CATEGORY || hasPremiumVariant(promo));
+}
+
+function getFuelBrandsFromPlace(place) {
+  const text = normalizeDayName([
+    place?.google_name,
+    place?.merchant_name,
+    place?.name,
+    place?.address,
+  ].filter(Boolean).join(" "));
+  return FUEL_BRANDS.map(normalizeDayName).filter((brand) => text.includes(brand));
+}
+
+function distanceKm(lat1, lng1, lat2, lng2) {
+  const earth = 6371;
+  const dLat = toRadians(lat2 - lat1);
+  const dLng = toRadians(lng2 - lng1);
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRadians(lat1)) * Math.cos(toRadians(lat2)) * Math.sin(dLng / 2) ** 2;
+  return earth * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function toRadians(value) {
+  return value * Math.PI / 180;
+}
+
+function formatDistance(value) {
+  if (!value) return "0 km";
+  if (value < 1) return `${Math.round(value * 1000)} m`;
+  return `${value.toFixed(1)} km`;
+}
+
+function getMapX(lng) {
+  const min = -57.59;
+  const max = -57.51;
+  return Math.min(92, Math.max(8, ((lng - min) / (max - min)) * 84 + 8));
+}
+
+function getMapY(lat) {
+  const min = -25.33;
+  const max = -25.20;
+  return Math.min(88, Math.max(12, (1 - ((lat - min) / (max - min))) * 76 + 12));
+}
+
+async function requestLocation() {
+  if (!navigator.geolocation) {
+    state.locationStatus = "unsupported";
+    render();
+    return;
+  }
+  state.locationStatus = "loading";
+  render();
+  navigator.geolocation.getCurrentPosition(async (position) => {
+    state.location = {
+      lat: position.coords.latitude,
+      lng: position.coords.longitude,
+    };
+    try {
+      await loadLocations();
+      state.locationStatus = "ready";
+      render();
+    } catch {
+      state.locationStatus = "error";
+      render();
+    }
+  }, (error) => {
+    state.locationStatus = error.code === 1 ? "denied" : error.code === 3 ? "timeout" : "unavailable";
+    render();
+  }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 300000 });
+}
+
+async function requestNearbyLocationAutomatically() {
+  if (state.activeView !== "nearby" || state.location || state.locationStatus === "loading" || state.nearbyAutoLocationTried) return;
+  state.nearbyAutoLocationTried = true;
+  // Loading branches never waits for a GPS permission decision.
+  loadLocations().catch(() => {}).finally(() => {
+    if (state.activeView === "nearby") render();
+  });
+  requestLocation();
+}
+
+async function exploreNearbyManually() {
+  state.locationStatus = "loading";
+  render();
+  try {
+    await loadLocations();
+    state.locationStatus = "ready";
+  } catch {
+    state.locationStatus = "error";
+  }
+  render();
+}
+
+async function loadLocations() {
+  if (state.locationsLoaded) return;
+  if (state.locationsPromise) return state.locationsPromise;
+  state.locationsPromise = (async () => {
+  state.locationsStatus = "loading";
+  try {
+    const response = await fetch(`${LOCATIONS_URL}?t=${Date.now()}`);
+    if (!response.ok) throw new Error("No se pudieron cargar ubicaciones");
+    const payload = await response.json();
+    if (!Array.isArray(payload.locations)) throw new Error("Formato de ubicaciones inválido");
+    state.locationsUpdated = payload.generated_at || "";
+    state.locations = (payload.locations || []).map((item) => ({
+      ...item,
+      name: item.google_name || [item.merchant_name, item.address].filter(Boolean).join(" · "),
+      lat: item.lat === null || item.lat === "" ? null : Number(item.lat),
+      lng: item.lng === null || item.lng === "" ? null : Number(item.lng),
+      terms: [item.google_name, item.merchant_name, item.address, item.city].filter(Boolean),
+    }));
+    state.locationsLoaded = true;
+    state.locationsStatus = "ready";
+  } catch (error) {
+    state.locationsStatus = "error";
+    throw error;
+  }
+  })();
+  try { return await state.locationsPromise; }
+  finally { state.locationsPromise = null; }
+}
+
+function toggleFavorite(id) {
+  if (!id) return;
+  id = canonicalFavoriteId(id);
+  state.favorites = normalizeFavoriteIds(state.favorites);
+  if (window.PaybackBeta?.current) {
+    const relatedIds = PaybackBeta.current.favorites.filter(saved => canonicalFavoriteId(saved) === id && saved !== id);
+    PaybackBeta.favorite(id, !state.favorites.has(id), relatedIds).catch(error => {
+      state.pushMessage = error.message;
+      els.statusText.textContent = error.message;
+    });
+    return;
+  }
+  if (state.favorites.has(id)) {
+    state.favorites.delete(id);
+  } else {
+    state.favorites.add(id);
+  }
+  saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
+  syncFavoriteAlerts();
+  render();
+}
+
+function getCategories() {
+  const categories = [...new Set(state.promotions
+    .filter(matchesBank)
+    .map(getPromoCategoryGroup)
+    .filter(Boolean))]
+    .sort((a, b) => getCategoryOrder(a) - getCategoryOrder(b) || a.localeCompare(b, "es"));
+  const hasPremium = state.promotions.filter(matchesBank).some(hasPremiumVariant);
+  const visible = ["Todas", ...(hasPremium ? [PREMIUM_CATEGORY] : []), ...categories];
+  if (state.activeCategory !== "Todas" && !visible.includes(state.activeCategory)) {
+    visible.push(state.activeCategory);
+  }
+  return visible;
+}
+
+function getPromoCategoryGroup(promo) {
+  const merchant = normalizeDayName(promo.merchant_name);
+  if (/farma|drugstore|perfumeria/.test(merchant)) return "Farmacias";
+  const findGroup = (text) => {
+    const groups = CATEGORY_GROUPS.filter(([group]) => group !== "Todas");
+    const exact = groups.find(([, needles]) => needles.some((needle) => text === normalizeDayName(needle)));
+    return (exact || groups.find(([, needles]) => needles.some((needle) => text.includes(normalizeDayName(needle)))))?.[0];
+  };
+  const categoryGroup = findGroup(normalizeDayName(promo.category));
+  if (categoryGroup && categoryGroup !== "Especiales") return categoryGroup;
+  return findGroup(normalizeDayName([merchant, promo.merchant_locations_or_group].join(" "))) || "Especiales";
+}
+
+function getCategoryOrder(category) {
+  const index = CATEGORY_GROUPS.findIndex(([group]) => group === category);
+  return index === -1 ? 999 : index;
+}
+
+function renderCategoryIcon(category) {
+  const iconKey = CATEGORY_ICONS[category] || CATEGORY_ICONS.Especiales;
+  const path = ICON_PATHS[iconKey] || ICON_PATHS.star;
+  return `<span class="store-category-icon" title="${escapeAttribute(category)}" aria-hidden="true"><svg viewBox="0 0 24 24">${path}</svg></span>`;
+}
+
+function renderUenoLevelCaps(details) {
+  const items = [
+    details.purchaseCap ? `Compra ${details.purchaseCap}` : "",
+    details.refundCap ? `Reintegro ${details.refundCap}` : "",
+  ].filter(Boolean);
+  if (!items.length) return "";
+  return `<div class="level-caps">${items.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div>`;
+}
+
+function sortPromotions(a, b) {
+  return String(a.merchant_name || "").localeCompare(String(b.merchant_name || ""), "es");
+}
+
+// Sorting revisits each offer many times. Keep derived values only for this render,
+// so changing Ueno level, benefit data or filters cannot reuse stale calculations.
+let sortInfoCache = null;
+function getSortInfo(promo) {
+  if (sortInfoCache?.has(promo)) return sortInfoCache.get(promo);
+  const info = { savings: getEstimatedSavings(promo), installments: Number(isInstallmentsOnly(promo)) };
+  sortInfoCache?.set(promo, info);
+  return info;
+}
+
+function sortByBenefitValue(a, b) {
+  const aInfo = getSortInfo(a);
+  const bInfo = getSortInfo(b);
+  const aSavings = aInfo.savings;
+  const bSavings = bInfo.savings;
+  if (bSavings.refundCap !== aSavings.refundCap) return bSavings.refundCap - aSavings.refundCap;
+  if (bSavings.percent !== aSavings.percent) return bSavings.percent - aSavings.percent;
+  if (aInfo.installments !== bInfo.installments) {
+    return aInfo.installments - bInfo.installments;
+  }
+  return sortPromotions(a, b);
+}
+
+function sortByDayDisplayPriority(a, b) {
+  const aInstallmentsOnly = getSortInfo(a).installments;
+  const bInstallmentsOnly = getSortInfo(b).installments;
+  if (aInstallmentsOnly !== bInstallmentsOnly) return aInstallmentsOnly - bInstallmentsOnly;
+  return sortByBenefitValue(a, b);
+}
+
+function getEstimatedSavings(promo, amount = null, variant = null) {
+  const level = getSelectedUenoLevelDetails(promo, state.uenoLevel);
+  const percent = promo.effective_percent || percentNumber(variant?.benefit || level?.percent || getMainBenefit(promo) || promo.benefit_summary);
+  if (promo.source_warning) return { percent, purchaseCap: 0, refundCap: 0, explicitRefundCap: 0, minimum: 0, capped: false, belowMinimum: false, unconfirmed: true };
+  let unconfirmedVariantCaps = false;
+  let limits = promo.terms?.limits || PaybackBenefits.explicitLimits(promo.raw_detail || promo.caps_and_minimums || "");
+  const structuredLevel = promo.level_benefits?.filter(row => row.level === state.uenoLevel);
+  if (structuredLevel?.length === 1 && !variant) {
+    const row = structuredLevel[0];
+    limits = [{ kind: "purchase", amount: row.purchase_cap || 0 }, { kind: "refund", amount: row.refund_cap || 0 }];
+  } else if ((variant && !promo.offer_kind) || (promo.bank === "ueno bank" && /nivel/i.test(promo.level_rules || ""))) {
+    const levelBlock = (promo.caps_and_minimums || "").match(new RegExp(`nivel\\s*${state.uenoLevel}\\s*:[^;]+`, "i"))?.[0];
+    limits = levelBlock && !variant ? PaybackBenefits.explicitLimits(levelBlock) : [];
+    unconfirmedVariantCaps = Boolean(variant && !promo.offer_kind);
+  }
+  const ambiguousLimits = ["purchase", "refund", "minimum"].some(kind =>
+    new Set(limits.filter(limit => limit.kind === kind).map(limit => limit.amount)).size > 1);
+  if (unconfirmedVariantCaps || ambiguousLimits) return { percent, purchaseCap: 0, refundCap: 0, explicitRefundCap: 0, minimum: 0, capped: false, belowMinimum: false, unconfirmed: true };
+  const purchaseCap = PaybackBenefits.uniqueLimit(limits, "purchase");
+  const explicitRefundCap = PaybackBenefits.uniqueLimit(limits, "refund");
+  const minimum = PaybackBenefits.uniqueLimit(limits, "minimum");
+  const calculated = PaybackBenefits.calculate({ percent, purchaseCap, refundCap: explicitRefundCap, minimum, amount });
+  const hasMonetaryBenefit = Number.isFinite(Number(percent)) && Number(percent) > 0 && Number(percent) <= 100;
+  const max = hasMonetaryBenefit ? (purchaseCap ? calculated.estimated : explicitRefundCap) : 0;
+  return { percent, purchaseCap, refundCap: amount == null ? max : calculated.estimated, explicitRefundCap,
+    minimum, capped: calculated.capped, belowMinimum: calculated.belowMinimum };
+}
+
+function getDetailRows(promo, variant = null) {
+  const rawDetail = cleanSentence(promo.raw_detail || promo.validity || "");
+  const rows = [
+    ["Banco", promo.bank || ""],
+    ["Categoría", getPromoCategoryGroup(promo)],
+    ["Comercios/locales", getMerchantDetail(promo), "merchants"],
+    ["Días", getDisplayDays(promo)],
+    ["Fecha", getDisplayValidity(promo)],
+    ["Reintegro o descuento", promo.bank === "Familiar" ? formatDetailText(promo.benefit_summary) : getDisplayBenefit(promo, variant)],
+    ["Tarjetas que aplican", formatDetailText((!variant || promo.offer_kind) && promo.terms?.cards?.length ? promo.terms.cards.join("; ") : extractApplicableCards(promo, variant))],
+    ["Tarjetas excluidas", formatDetailText(promo.terms?.exclusions?.length ? promo.terms.exclusions.join("; ") : extractExcludedCards(promo))],
+    ["Topes y mínimos", formatCapsText(promo, variant), "caps"],
+    ["Reglas por nivel", promo.level_rules || "", "levels"],
+    ["Info adicional importante", extractAdditionalInfo(promo, rawDetail, variant)],
+  ];
+  return rows.filter(([, value]) => cleanSentence(value));
+}
+
+function getMerchantDetail(promo) {
+  const group = cleanSentence(promo.merchant_locations_or_group || promo.merchant_name || "");
+  if (!group) return "";
+  const directGroup = group.match(/^(\d+)\s+locales?\s+adheridos?\s+de\s+(.+)$/i);
+  if (directGroup) return `${directGroup[1]} locales adheridos de ${normalizeDisplayName(directGroup[2])}.`;
+  const count = extractMerchantCount(promo);
+  const brands = extractMerchantBrands(promo);
+  if (count || brands.length > 3) {
+    const intro = count ? `${count} locales adheridos.` : "Locales adheridos.";
+    const names = brands.length ? ` Principales comercios: ${brands.slice(0, 10).join("; ")}.` : "";
+    return `${intro}${names}`;
+  }
+  return group;
+}
+
+function extractMerchantCount(promo) {
+  const text = cleanSentence(`${promo.merchant_locations_or_group || ""} ${promo.raw_detail || ""}`);
+  const match = text.match(/\b(\d{1,5})\s+locales?\b/i);
+  return match ? Number(match[1]) : 0;
+}
+
+function extractMerchantBrands(promo) {
+  const source = cleanSentence(`${promo.merchant_locations_or_group || ""} ${promo.raw_detail || ""}`);
+  const explicit = source.match(/Marcas\/comercios:\s*([^.|]+)/i)?.[1] || "";
+  const names = explicit
+    ? explicit.split(";").map(formatBrandName)
+    : [...source.matchAll(/Listado de locales de\s+(.+?)\s+adheridos/gi)].map((match) => formatBrandName(match[1]));
+  return [...new Set(names.filter(Boolean))].slice(0, 12);
+}
+
+function formatBrandName(value) {
+  return cleanSentence(value)
+    .replace(/\bASISMED\b/g, "ASISMED")
+    .replace(/\bDRUGSTORE\b/g, "Drugstore")
+    .replace(/\bFARMACIAS\b/g, "Farmacias")
+    .replace(/\bFARMACIA\b/g, "Farmacia")
+    .replace(/\bCATEDRAL\b/g, "Catedral")
+    .replace(/\bVICENTE SCAVONE\b/g, "Vicente Scavone")
+    .replace(/\bFARMACENTER\b/g, "Farmacenter")
+    .replace(/\bFARMA KOKE\b/g, "Farma Koke")
+    .replace(/\bSANTA VICTORIA\b/g, "Santa Victoria");
+}
+
+function extractApplicableCards(promo, variant = null) {
+  if (promo.verified_cards) return cleanSentence(Array.isArray(promo.verified_cards) ? promo.verified_cards.join("; ") : promo.verified_cards);
+  if (!variant?.kind && promo.terms?.cards?.length) return cleanSentence(promo.terms.cards.join("; "));
+  const text = cleanSentence([promo.raw_detail, promo.benefit_summary].join(" "));
+  if (variant?.kind === "premium") {
+    if (/privilege|privilegio/i.test(variant.label)) return "Tarjetas Continental Privilege";
+    if (/mastercard black|visa infinite|amex platinum|personal bank|premium/i.test(text)) {
+      return "Tarjetas premium indicadas en bases: Mastercard Black, Visa Infinite o equivalentes";
+    }
+  }
+  if (variant?.kind === "base" && promo.bank === "Sudameris") return "Tarjetas de crédito Sudameris";
+  const explicit = text.match(/(?:aplica exclusivamente para compras realizadas con|con|pagando con|válido con|valido con)\s+(?:tu\s+)?(?:tarjeta|tarjetas|tarjetas físicas)[^.]+/i)?.[0];
+  if (explicit) {
+    return cleanSentence(explicit.replace(/^(?:aplica exclusivamente para compras realizadas con|con|pagando con|válido con|valido con)\s+/i, ""));
+  }
+  const cards = text.match(/\b(?:visa|mastercard|mc|cabal|oro|premium|black|platinum|infinite|signature|cl[aá]sica|prepaga|albirroja)[^.;)]*/gi);
+  return cards ? cleanSentence([...new Set(cards.map((card) => cleanSentence(card)))].join("; ")) : (promo.terms?.cards?.length ? cleanSentence(promo.terms.cards.join("; ")) : "No especificado");
+}
+
+function extractExcludedCards(promo) {
+  const text = cleanSentence([promo.raw_detail, promo.validity].join(" "));
+  const match = text.match(/(?:no aplica|se excluyen|quedan excluidas?)[^.]+/i);
+  return match ? cleanSentence(match[0]) : "No especificado";
+}
+
+function extractCapsText(text) {
+  const matches = String(text || "").match(/(?:tope|m[ií]nimo|monto m[ií]nimo|l[ií]mite)[^.]+/gi);
+  return matches ? cleanSentence([...new Set(matches)].join("; ")) : "";
+}
+
+function formatCapsText(promo, variant = null) {
+  const selectedLevel = getSelectedUenoLevelDetails(promo, state.uenoLevel);
+  if (promo.level_benefits?.length && selectedLevel) return [
+    `Nivel ${state.uenoLevel} · ${selectedLevel.capLabel}`,
+    selectedLevel.purchaseCap ? `Tope de compra: ${selectedLevel.purchaseCap}.` : "",
+    selectedLevel.refundCap ? `Tope de reintegro: ${selectedLevel.refundCap}.` : "",
+  ].filter(Boolean).join("\n");
+  if (promo.terms) {
+    const limits = promo.terms.limits || [];
+    if (variant && !promo.offer_kind) return "Consultá los topes específicos de esta tarjeta en las bases.";
+    if (!limits.length) return "Tope no confirmado. Consultá las bases y condiciones.";
+    return [...new Set(limits.map(limit => limit.evidence))].join("\n");
+  }
+  const text = cleanSentence(`${promo.caps_and_minimums || ""} ${promo.raw_detail || ""}`);
+  if (!text || normalizeDayName(text).includes("no especificado")) return "No especificado";
+  const scoped = getVariantScopedText(promo, variant);
+  if (scoped) return scoped;
+  if (promo.bank === "BNF") return formatBnfCapsText(text);
+  const universitariaCaps = getUniversitariaCaps(promo, percentNumber(getMainBenefit(promo, variant) || promo.benefit_summary));
+  if (universitariaCaps.purchaseCap || universitariaCaps.refundCap) {
+    return formatUniversitariaCapsText(universitariaCaps);
+  }
+  const amounts = extractGuaraniAmounts(text);
+  const parts = [];
+  const purchase = text.match(/tope de compra[^.]*?Gs\.?\s*([0-9.]+)/i);
+  const refund = text.match(/tope de reintegro[^.]*?Gs\.?\s*([0-9.]+)/i);
+  const minimum = text.match(/(?:monto|mínimo|minimo)[^.]*?Gs\.?\s*([0-9.]+)/i);
+  if (minimum) parts.push(`Compra mínima: Gs. ${minimum[1]}.`);
+  if (purchase) parts.push(`Tope de compra: Gs. ${purchase[1]}.`);
+  if (refund) parts.push(`Tope de reintegro: Gs. ${refund[1]}.`);
+  if (!purchase && amounts[0]) parts.push(`Tope de compra: ${amounts[0]}.`);
+  if (!refund && amounts[1]) parts.push(`Tope de reintegro: ${amounts[1]}.`);
+  if (/no se multiplicar[aá]\s+por\s+sucursal/i.test(text)) {
+    parts.push("El tope aplica por marca/comercio adherido y no se multiplica por sucursal.");
+  }
+  if (/mensual/i.test(text) && parts.length) {
+    parts[0] = parts[0].replace("Tope de compra:", "Tope mensual de compra:");
+  }
+  return parts.length ? parts.join(" ") : formatDetailText(text).slice(0, 240);
+}
+
+function formatBnfCapsText(text) {
+  const amounts = extractGuaraniAmounts(text);
+  const parts = [];
+  if (amounts[0]) parts.push(`Tope mensual de compra: ${amounts[0]}.`);
+  if (amounts.length > 2) parts.push(`Otros topes indicados en bases: ${amounts.slice(1, -1).join("; ")}.`);
+  if (amounts.length > 1) parts.push(`Tope de reintegro: ${amounts[amounts.length - 1]}.`);
+  if (/no se multiplicar[aá]\s+por\s+sucursal/i.test(text)) {
+    parts.push("El tope aplica por marca/comercio adherido y no se multiplica por sucursal.");
+  }
+  return parts.length ? parts.join(" ") : formatDetailText(text).slice(0, 220);
+}
+
+function extractAdditionalInfo(promo, rawDetail, variant = null) {
+  if (promo.terms && !variant) return promo.terms.additional?.length
+    ? promo.terms.additional.map(formatDetailText).join("\n")
+    : "Consultá las condiciones completas en la fuente oficial.";
+  const scoped = getVariantScopedText(promo, variant);
+  if (scoped) return "Ver promoción original para bases completas.";
+  const important = [];
+  const source = cleanSentence(rawDetail);
+  const withoutKnown = source
+    .replace(/(?:con|pagando con|válido con|valido con)\s+(?:tu\s+)?(?:tarjeta|tarjetas)[^.]+/gi, "")
+    .replace(/(?:no aplica|se excluyen|quedan excluidas?)[^.]+/gi, "")
+    .replace(/(?:tope|m[ií]nimo|monto m[ií]nimo|l[ií]mite)[^.]+/gi, "");
+  const sentences = withoutKnown.split(".").map(cleanSentence).filter(Boolean);
+  sentences.slice(0, 3).forEach((sentence) => important.push(sentence));
+  if (promo.source_url) important.push("Ver promoción original para bases completas.");
+  return cleanSentence(important.join(". "));
+}
+
+function formatDetailText(value) {
+  let text = PaybackBenefits.normalizeText(cleanSentence(value));
+  text = text
+    .replace(/,\./g, ".")
+    .replace(/\s+\./g, ".")
+    .replace(/\btarjetas de crédito de Sudameris\b/gi, "Tarjetas de crédito Sudameris")
+    .replace(/\btarjetas de crédito Sudameris\b/gi, "Tarjetas de crédito Sudameris")
+    .replace(/\btarjetas de crédito Continental\b/gi, "Tarjetas de crédito Continental")
+    .replace(/\btarjeta de crédito visa bnf\b/gi, "Tarjeta de crédito Visa BNF")
+    .replace(/\bvisa\b/gi, "Visa")
+    .replace(/\bmastercard\b/gi, "Mastercard")
+    .replace(/\bpersonal bank\b/gi, "Personal Bank")
+    .replace(/\bamex platinum\b/gi, "Amex Platinum")
+    .replace(/\breintegro directo en extracto\b/gi, "reintegro directo en extracto")
+    .replace(/^tarjetas físicas/i, "Tarjetas físicas")
+    .replace(/^tope de/i, "Tope de")
+    .replace(/^monto mínimo/i, "Monto mínimo")
+    .replace(/^no aplica/i, "No aplica")
+    .replace(/^se excluyen/i, "Se excluyen")
+    .replace(/\bcredito\b/gi, "crédito")
+    .replace(/\bclasica\b/gi, "Clásica")
+    .replace(/\bduo\b/gi, "Dúo")
+    .replace(/\balbirroja\b/gi, "Albirroja")
+    .replace(/\bblack\b/gi, "Black")
+    .replace(/\bultra Black\b/g, "Ultra Black");
+  return text;
+}
+
+function getVariantScopedText(promo, variant = null) {
+  if (!variant || !promo.raw_detail) return "";
+  const percent = percentNumber(variant.benefit);
+  if (!percent) return "";
+  const premiumTerms = /black|infinite|platinum|premium|privilege|privilegio|personal bank|mastercard black|visa infinite|amex platinum/i;
+  const sentences = cleanSentence(promo.raw_detail)
+    .split(".")
+    .map(formatDetailText)
+    .filter(Boolean);
+  if (!sentences.some((sentence) => premiumTerms.test(sentence))) return "";
+  const selected = sentences.filter((sentence) => {
+    const hasPercent = new RegExp(`\\b${percent}\\s*%`).test(sentence);
+    const isPremium = premiumTerms.test(sentence);
+    if (variant.kind === "premium") return hasPercent && isPremium;
+    if (variant.kind === "base") return hasPercent && !isPremium;
+    return false;
+  });
+  return selected.slice(0, 2).join(". ");
+}
+
+function parseLevelRows(promo) {
+  if (promo.level_benefits?.length) return promo.level_benefits.map(row => ({
+    level: row.level, percent: `${row.percent}%`, purchaseCap: formatGuarani(row.purchase_cap), refundCap: formatGuarani(row.refund_cap),
+  }));
+  const rules = normalizeDayName(promo.level_rules || "");
+  const rawText = cleanSentence(`${promo.raw_detail || ""} ${promo.caps_and_minimums || ""}`);
+  const rows = [];
+  const seen = new Set();
+  for (const match of rules.matchAll(/nivel\s*([1-5])\D{0,24}(\d{1,3})\s*%/g)) {
+    const level = Number(match[1]);
+    const percent = `${match[2]}%`;
+    if (seen.has(level)) continue;
+    seen.add(level);
+    const caps = extractUenoLevelCaps(promo, level, percent);
+    const rawPattern = new RegExp(`nivel\\s*${level}\\s+${percent.replace("%", "\\s*%")}\\s+Gs\\.?\\s*([0-9.]+)(?:\\s+Gs\\.?\\s*([0-9.]+))?`, "i");
+    const rawMatch = rawText.match(rawPattern);
+    rows.push({
+      level,
+      percent,
+      purchaseCap: caps.purchaseCap || (rawMatch ? `Gs. ${rawMatch[1]}` : ""),
+      refundCap: caps.refundCap || (rawMatch?.[2] ? `Gs. ${rawMatch[2]}` : ""),
+    });
+  }
+  return rows.sort((a, b) => b.level - a.level);
+}
+
+function renderLevelTable(promo) {
+  const rows = parseLevelRows(promo);
+  if (!rows.length) return "";
+  return `
+    <div class="level-table" role="table" aria-label="Reglas por nivel">
+      <div class="level-table-head" role="row">
+        <span>Nivel</span><span>Beneficio</span><span>Compra</span><span>Reintegro</span>
+      </div>
+      ${rows.map((row) => `
+        <div class="level-table-row ${Number(row.level) === Number(state.uenoLevel) ? "active" : ""}" role="row">
+          <span>Nivel ${row.level}</span>
+          <strong>${escapeHtml(row.percent)}</strong>
+          <span>${escapeHtml(row.purchaseCap || "-")}</span>
+          <span>${escapeHtml(row.refundCap || "-")}</span>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderDetailRows(promo, variant = null) {
+  // These facts are already shown with the same values in the detail header.
+  const headerLabels = new Set(["Banco", "Categoría", "Días", "Fecha"]);
+  return getDetailRows(promo, variant).filter(([label]) => !headerLabels.has(label)).map(([label, value, type]) => `
+    <div class="detail-row">
+      <span>${escapeHtml(label)}</span>
+      ${type === "levels" ? renderLevelTable(promo) : renderDetailValue(value, type)}
+    </div>
+  `).join("");
+}
+
+function renderDetailValue(value, type) {
+  if (type === "merchants") {
+    return `
+      <strong>${escapeHtml(formatDetailText(value))}</strong>
+      <button class="detail-inline-action" type="button" data-scroll-source>Ver más locales</button>
+    `;
+  }
+  if (type === "caps") return `<strong class="detail-readable">${escapeHtml(formatDetailText(value))}</strong>`;
+  return `<strong>${escapeHtml(formatDetailText(value))}</strong>`;
+}
+
+function formatLastUpdated(promo = null) {
+  const timestamp = promo?.source_checked_at || promo?.source_file_updated_at || state.lastUpdated;
+  const value = timestamp ? new Date(timestamp) : null;
+  if (!value || Number.isNaN(value.getTime())) return "";
+  return getDateTimeFormatter("es-PY", {
+    timeZone: "America/Asuncion",
+    day: "2-digit",
+    month: "2-digit",
+    year: "2-digit",
+  }).format(value);
+}
+
+function getUniversitariaCaps(promo, percent = null) {
+  if (promo.bank !== "Coop. Universitaria") {
+    return { purchaseCap: 0, refundCap: 0, modality: "", methods: [] };
+  }
+
+  const raw = cleanSentence(`${promo.raw_detail || ""} ${promo.caps_and_minimums || ""}`);
+  const normalized = normalizeDayName(raw);
+  const selectedPercent = percent
+    || percentNumber(getMainBenefit(promo) || promo.benefit_summary)
+    || percentNumber((promo.percentages || [])[0]);
+  const amounts = extractGuaraniAmounts(raw).map(moneyToNumber).filter(Boolean);
+
+  let purchaseCap = 0;
+  const explicitPurchase = raw.match(/l[ií]mite\s+de\s+compra\s+de\s+Gs\.?\s*([0-9.]+)/i)
+    || raw.match(/con\s+un\s+l[ií]mite\s+de\s+compra\s+de\s+Gs\.?\s*([0-9.]+)/i);
+  if (explicitPurchase) {
+    purchaseCap = moneyToNumber(explicitPurchase[1]);
+  } else {
+    const tablePurchase = raw.match(/l[ií]mite\s+de\s+compra[^.]{0,110}?Gs\.?\s*([0-9.]+)/i);
+    if (tablePurchase) purchaseCap = moneyToNumber(tablePurchase[1]);
+  }
+
+  const percentCaps = [];
+  for (const match of raw.matchAll(/(\d{1,3})\s*%\s*(?:=|:)\s*Gs\.?\s*([0-9.]+)/gi)) {
+    percentCaps.push({ percent: Number(match[1]), amount: moneyToNumber(match[2]) });
+  }
+  for (const match of raw.matchAll(/descuento\s+(?:de\s+hasta|del)?\s*(\d{1,3})\s*%\s*(?:=|:)\s*Gs\.?\s*([0-9.]+)/gi)) {
+    percentCaps.push({ percent: Number(match[1]), amount: moneyToNumber(match[2]) });
+  }
+
+  let refundCap = 0;
+  if (selectedPercent) {
+    refundCap = percentCaps.find((item) => item.percent === selectedPercent)?.amount || 0;
+  }
+  if (!refundCap && purchaseCap && selectedPercent) {
+    const calculated = Math.round(purchaseCap * selectedPercent / 100);
+    refundCap = amounts.find((amount) => amount === calculated) || calculated;
+  }
+  if (!purchaseCap && refundCap && selectedPercent) {
+    purchaseCap = Math.round(refundCap / (selectedPercent / 100));
+  }
+
+  if (!purchaseCap && amounts.length >= 2) {
+    const biggest = Math.max(...amounts);
+    const calculatedRefund = selectedPercent ? Math.round(biggest * selectedPercent / 100) : 0;
+    if (calculatedRefund && amounts.includes(calculatedRefund)) purchaseCap = biggest;
+  }
+
+  const modality = selectedPercent && normalized.includes("pago qr") && selectedPercent >= 20
+    ? "Pago QR"
+    : selectedPercent && normalized.includes("fisica") && selectedPercent <= 15
+      ? "Tarjeta física"
+      : "";
+
+  const uniqueCaps = percentCaps.filter((item, index, list) => (
+    item.amount && list.findIndex((other) => other.percent === item.percent && other.amount === item.amount) === index
+  ));
+  const methodCaps = uniqueCaps
+    .map((item) => ({
+      ...item,
+      modality: getUniversitariaPaymentMethod(raw, item.percent),
+      purchaseCap,
+    }))
+    .filter((item) => item.modality || item.percent === selectedPercent);
+  if (selectedPercent && refundCap && !methodCaps.some((item) => item.percent === selectedPercent)) {
+    methodCaps.unshift({
+      percent: selectedPercent,
+      amount: refundCap,
+      modality: getUniversitariaPaymentMethod(raw, selectedPercent) || modality,
+      purchaseCap,
+    });
+  }
+
+  return { purchaseCap, refundCap, modality, methods: methodCaps };
+}
+
+function getUniversitariaPaymentMethod(raw, percent) {
+  const normalized = normalizeDayName(raw);
+  if (/pago\s+qr/i.test(raw) && percent >= 20) return "Pago QR";
+  if (/(?:t\.?\s*c\.?\s*f[ií]sica|tarjeta\s+f[ií]sica|pl[aá]sticos)/i.test(raw) && percent <= 15) return "Tarjeta física";
+  if (normalized.includes("qr panal") || normalized.includes("panal/cabal/mastercard qr")) return "Pago QR";
+  return "";
+}
+
+function formatUniversitariaCapsText(caps) {
+  const methods = (caps.methods || []).filter((item) => item.modality && item.amount);
+  if (methods.length) {
+    return methods.map((item) => {
+      const percent = item.percent ? `${item.percent}%` : "beneficio";
+      const purchase = item.purchaseCap ? `Límite de compra: ${formatGuarani(item.purchaseCap)}.` : "";
+      const refund = `Tope de reintegro/descuento: ${formatGuarani(item.amount)}.`;
+      return `${item.modality} (${percent}): ${purchase} ${refund}`.replace(/\s+/g, " ").trim();
+    }).join(" ");
+  }
+
+  const parts = [];
+  if (caps.modality) parts.push(`${caps.modality}:`);
+  if (caps.purchaseCap) parts.push(`Límite de compra: ${formatGuarani(caps.purchaseCap)}.`);
+  if (caps.refundCap) parts.push(`Tope de reintegro/descuento: ${formatGuarani(caps.refundCap)}.`);
+  return parts.join(" ");
+}
+
+function inferPurchaseCap(promo, amounts) {
+  const text = normalizeDayName(promo.caps_and_minimums || "");
+  if (!amounts.length) return 0;
+  if (text.includes("tope de reintegro") || text.includes("reintegro maximo")) {
+    return amounts.length >= 2 ? amounts[0] : 0;
+  }
+  return amounts[0] || 0;
+}
+
+function inferRefundCap(promo, amounts, purchaseCap, percent) {
+  const text = normalizeDayName(promo.caps_and_minimums || "");
+  if (text.includes("tope de reintegro") || text.includes("reintegro maximo")) {
+    return amounts.length >= 2 ? amounts[1] : amounts[0] || 0;
+  }
+  if (purchaseCap && percent) return Math.round(purchaseCap * percent / 100);
+  return 0;
+}
+
+function moneyToNumber(value) {
+  const match = String(value || "").match(/([0-9]+(?:\.[0-9]{3})*)/);
+  return match ? Number(match[1].replace(/\./g, "")) : 0;
+}
+
+function formatGuarani(value) {
+  const number = Math.round(Number(value || 0));
+  if (!number) return "";
+  return `Gs. ${number.toLocaleString("es-PY")}`;
+}
+
+function getMerchantLogo(promo) {
+  const name = normalizeDayName(promo._sourceMerchantName || promo.merchant_name || "");
+  const brands = [
+    [/^shell(?:\s|$)/, "shell.svg", "Shell"],
+    [/^farmacenter(?:\s|$)/, "farmacenter.svg", "Farmacenter"],
+    [/^(?:deli\s?market)(?:\s|$)/, "delimarket.png", "Delimarket"],
+    [/^(?:farmacias?\s+)?catedral(?:\s|$)/, "catedral.svg", "Farmacias Catedral"],
+  ];
+  const match = brands.find(([pattern]) => pattern.test(name));
+  return match ? { src: `./assets/merchants/${match[1]}`, label: match[2] } : null;
+}
+
+function renderCard(promo, variant = null) {
+  const theme = getBankTheme(promo.bank);
+  const benefitLines = getBenefitLines(promo, variant);
+  const reviewedCu = promo.bank === "Coop. Universitaria" && Boolean(promo.offer_kind);
+  const benefitScope = reviewedCu
+    ? String(promo.benefit_summary || "").match(/(?:descuento|reintegro)(?:\s+con\s+(?:QR|tarjeta física))?\s+en\s+(.+)$/i)?.[1]
+    : "";
+  const categoryGroup = getPromoCategoryGroup(promo);
+  const isPowerPromo = isUenoPowerPromo(promo);
+  const isPremium = variant?.kind === "premium";
+  const isFavorite = isFavoritePromotion(promo);
+  const levelDetails = getSelectedUenoLevelDetails(promo, state.uenoLevel);
+  const savings = getEstimatedSavings(promo, null, variant);
+  const conditionalQr = promo.bank === "Familiar" && /\+\s*\d+%\s*adicional pagando con QR/i.test(promo.benefit_summary || "");
+  const savingsLabel = savings.refundCap ? `${conditionalQr ? "Ahorro base max." : "Ahorro max."} ${formatGuarani(savings.refundCap)}` : "";
+  const logoClass = `bank-logo-${normalizeDayName(promo.bank).replace(/[^a-z0-9]+/g, "-")}`;
+  const merchantLogo = getMerchantLogo(promo);
+  const premiumBadge = isPremium ? `<span class="premium-badge">${escapeHtml(variant.label)}</span>` : "";
+  const powerBadge = isPowerPromo
+    ? `<span class="power-badge" title="Promo ueno+ POWER"><img src="${escapeAttribute(bankThemes["ueno bank"].logo)}" alt="" />ueno+ POWER</span>`
+    : "";
+  const cards = extractApplicableCards(promo, variant) || promo.verified_cards || "Consultar tarjetas en condiciones";
+  const cap = savings.refundCap ? `${conditionalQr ? "Base: " : ""}${formatGuarani(savings.refundCap)}` : "Ver topes en condiciones";
+  return `<article tabindex="0" aria-label="${escapeAttribute(getPromoTitle(promo))}" class="promo-card glass-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""}" data-id="${escapeAttribute(promo.id)}" data-variant="${escapeAttribute(getVariantKey(promo, variant))}" data-place-id="${escapeAttribute(promo._nearbyPlaceId || "")}">
+    <div class="glass-card-head"><span class="category-mark">${renderCategoryIcon(categoryGroup)}</span><div class="glass-title"><h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3><p>${escapeHtml(categoryGroup)} · ${escapeHtml(getBankLabel(promo.bank))}</p></div><button class="favorite-toggle ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}" title="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-label="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-pressed="${isFavorite}">${renderIcon("heart")}</button></div>
+    ${premiumBadge || powerBadge}
+    <div class="benefit-lines primary-benefit">${benefitLines.map(line => `<span>${renderGlassBenefit(line)}</span>`).join("")}</div>
+    ${benefitScope ? `<p class="benefit-scope">${escapeHtml(benefitScope)}</p>` : ""}
+    <div class="glass-facts"><div><span>Día válido</span><strong>${escapeHtml(getDisplayDays(promo))}</strong></div><div><span>Tarjeta válida</span><strong>${escapeHtml(cards)}</strong></div><div><span>Ahorro máximo estimado</span><strong>${escapeHtml(cap)}</strong></div><div><span>Vigencia</span><strong>${escapeHtml(getCardValidity(promo))}</strong></div></div>
+    ${promo.source_warning ? `<p class="source-warning-label">Tope pendiente de aclaración del banco</p>` : ""}
+    ${levelDetails ? renderUenoLevelCaps(levelDetails) : ""}
+    <p class="glass-conditions-note">Sujeto a tarjeta, forma de pago y condiciones.</p>
+    <div class="glass-card-footer"><span>${escapeHtml(promo._nearbyPlaceName || "Confirmá la sucursal en el detalle")}</span><div><button type="button" class="glass-detail-action">Ver detalle y mapa <span aria-hidden="true">→</span></button><button class="share-toggle" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variant?.key || '')}" title="Compartir promoción" aria-label="Compartir promoción">${renderIcon("share")}</button></div></div>
+  </article>`;
+}
+
+let detailLocationState = null;
+
+function getDetailPlaces(promo) {
+  const index = new Map([["detail", [promo]]]);
+  const places = new Map();
+  state.locations.filter(isReliableMapLocation).forEach(place => {
+    if (!getPromotionsForLocation(place, index, "Todas").some(item => item.id === promo.id)) return;
+    const key = getPlaceGroupKey(place);
+    places.set(key, places.has(key) ? preferBetterPlace(places.get(key), place) : place);
+  });
+  return [...places.values()];
+}
+
+function renderDetailDestination(context) {
+  const place = context.places.find(item => getPlaceGroupKey(item) === context.selectedKey);
+  if (!place) return '<p class="detail-location-note">Elegí una sucursal para ver su dirección y abrir la ruta.</p>';
+  const url = getMapsUrl(place);
+  const address = formatPlaceAddress(place);
+  return `<div class="detail-destination">
+    <strong>${escapeHtml(getPlaceDisplayName(place))}</strong>
+    <a class="detail-address" href="${escapeAttribute(url)}" target="_blank" rel="noopener noreferrer">${renderIcon("mapPin")}${escapeHtml(address || "Ver ubicación verificada en Google Maps")}</a>
+    ${!address ? '<p class="detail-location-note">La dirección escrita no está disponible; la ruta usa las coordenadas verificadas.</p>' : ""}
+    <div class="detail-route-actions">
+      <button type="button" class="detail-map-action" data-detail-map>${renderIcon("mapPin")}Ver en el mapa</button>
+      <a class="detail-directions" href="${escapeAttribute(url)}" target="_blank" rel="noopener noreferrer">${renderIcon("plane")}Cómo llegar<span class="detail-external-label">Google Maps · abre otra pestaña</span></a>
+    </div>
+  </div>`;
+}
+
+function renderDetailLocations(context) {
+  if (context.loading) return '<p role="status">Buscando sucursales verificadas…</p>';
+  if (context.error) return '<p role="status">No pudimos cargar las sucursales. Podés reintentar o consultar los locales en las bases.</p><button type="button" class="detail-inline-action" data-detail-location-retry>Reintentar sucursales</button><button type="button" class="detail-inline-action" data-scroll-source>Consultar bases y locales</button>';
+  if (!context.places.length) return '<p class="detail-location-note">Todavía no tenemos una ubicación verificada para esta promoción. Consultá los locales adheridos en las bases antes de ir.</p><button type="button" class="detail-inline-action" data-scroll-source>Consultar bases y locales</button>';
+  return `${context.places.length > 1 ? `<label class="detail-branch-label" for="detailBranch">Elegí la sucursal</label>
+    <select id="detailBranch" aria-describedby="detailBranchHelp"><option value="">Seleccionar sucursal</option>${context.places.map(place => `<option value="${escapeAttribute(getPlaceGroupKey(place))}" ${getPlaceGroupKey(place) === context.selectedKey ? "selected" : ""}>${escapeHtml([getPlaceDisplayName(place), formatPlaceAddress(place)].filter(Boolean).join(" · "))}</option>`).join("")}</select>
+    <p id="detailBranchHelp" class="detail-location-note">La ruta corresponde únicamente a la sucursal que elijas.</p>` : ""}
+    <div id="detailLocationDestination" aria-live="polite">${renderDetailDestination(context)}</div>`;
+}
+
+async function loadDetailLocations(context) {
+  const current = () => detailLocationState === context && els.dialog.open;
+  try {
+    await loadLocations(); // Downloads branches only; never requests geolocation.
+    if (!current()) return;
+    context.places = getDetailPlaces(context.promo);
+    const requested = context.places.find(place => (place.id || getPlaceGroupKey(place)) === context.placeId);
+    context.selectedKey = requested ? getPlaceGroupKey(requested) : context.places.length === 1 ? getPlaceGroupKey(context.places[0]) : "";
+    context.error = false;
+  } catch {
+    if (!current()) return;
+    context.error = true;
+  }
+  if (!current()) return;
+  context.loading = false;
+  els.dialogContent.querySelector("#detailLocations").innerHTML = renderDetailLocations(context);
+}
+
+function openDetailMap() {
+  const context = detailLocationState;
+  if (!context) return;
+  // Revalidate eligibility so stale or unverified destinations cannot become map targets.
+  const place = getDetailPlaces(context.promo).find(item => getPlaceGroupKey(item) === context.selectedKey);
+  if (!place) return;
+  const point = enrichNearbyPoint({place, promos: [context.promo], key: getPlaceGroupKey(place),
+    distance: state.location ? distanceKm(state.location.lat, state.location.lng, place.lat, place.lng) : 0});
+  els.dialog.close();
+  state.activeView = "nearby";
+  render();
+  selectNearbyPlace(point.key, point);
+  const map = document.querySelector("#nearbyMap");
+  if (map) {
+    map.tabIndex = -1;
+    map.focus({preventScroll: true});
+    map.scrollIntoView({block: "center"});
+  }
+}
+
+function openDetail(id, variantKey = "", placeId = "") {
+  const basePromo = state.promotions.find((item) => item.id === id);
+  const place = placeId ? state.locations.find((item) => (item.id || getPlaceGroupKey(item)) === placeId) : null;
+  const promo = place ? withNearbyPlaceContext(basePromo, place) : basePromo;
+  if (!promo) return;
+  window.PaybackBeta?.event('promo_open');
+  const variant = getVariantByKey(promo, variantKey);
+  const isFavorite = isFavoritePromotion(promo);
+  const levelDetails = getSelectedUenoLevelDetails(promo, state.uenoLevel);
+  const savings = getEstimatedSavings(promo, null, variant);
+  detailLocationState = {promo: basePromo, placeId, places: [], selectedKey: "", loading: true, error: false};
+  els.dialogContent.innerHTML = `
+    <header class="promo-detail-hero">
+      <div class="detail-eyebrow">${renderIcon("ticket")}Tu próximo beneficio</div>
+      <div class="detail-bank-chip">${escapeHtml(getBankLabel(promo.bank))}<span>${escapeHtml(getPromoCategoryGroup(promo))}</span></div>
+      <h2 id="promoDetailTitle">${escapeHtml(getPromoTitle(promo))}</h2>
+      ${variant?.kind === "premium" ? `<span class="premium-badge detail-premium">${escapeHtml(variant.label)}</span>` : ""}
+      <p class="detail-hero-benefit">${escapeHtml(getDisplayBenefit(promo, variant))}</p>
+      <p class="detail-hero-note">Con las tarjetas y condiciones indicadas abajo.</p>
+    </header>
+    <div class="detail-quick-facts">
+      <section><span>Días para aprovechar</span><strong>${escapeHtml(getDisplayDays(promo))}</strong></section>
+      <section><span>Vigencia</span><strong>${escapeHtml(getDisplayValidity(promo))}</strong></section>
+    </div>
+    ${savings.refundCap ? `<div class="detail-saving"><span>Ahorro máximo estimado</span><strong>${escapeHtml(formatGuarani(savings.refundCap))}</strong><small>Sujeto a compra, tarjeta y saldo disponible del tope. Revisá topes y mínimos.</small></div>` : ""}
+    <div class="detail-social-actions">
+      <button class="detail-favorite ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}">${renderIcon("heart")} ${isFavorite ? "Guardado en favoritos" : "Guardar en favoritos"}</button>
+      <button class="detail-inline-action detail-share" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variantKey)}">${renderIcon("share")} Compartir</button>
+    </div>
+    <section class="detail-location-card" aria-labelledby="detailLocationTitle">
+      <div class="detail-section-heading">${renderIcon("mapPin")}<h3 id="detailLocationTitle">Tu próxima parada</h3></div>
+      <div id="detailLocations">${renderDetailLocations(detailLocationState)}</div>
+    </section>
+    <div class="calculator" data-calculator-id="${escapeAttribute(promo.id)}" data-calculator-variant="${escapeAttribute(variantKey)}">
+      <label>¿Cuánto vas a gastar?
+        <input type="number" inputmode="numeric" min="0" step="1000" placeholder="Ej: 500000" />
+      </label>
+      <div class="calculator-result" aria-live="polite">Ingresá un monto para calcular tu ahorro.</div>
+    </div>
+    <details class="detail-conditions"><summary id="detailConditionsTitle">Ver condiciones</summary><p class="detail-location-note">Tarjetas, topes y condiciones de la promoción.</p>
+    <div class="detail-list">
+      ${isUenoPowerPromo(promo) ? `<div class="power-detail"><strong>Promo especial:</strong> ueno+ POWER. Puede requerir desbloqueo o criterios adicionales en la app de ueno.</div>` : ""}
+      ${levelDetails ? `<div><strong>Nivel UENO seleccionado:</strong> Nivel ${state.uenoLevel} · ${escapeHtml(levelDetails.percent)}${levelDetails.purchaseCap ? ` · Compra ${escapeHtml(levelDetails.purchaseCap)}` : ""}${levelDetails.refundCap ? ` · Reintegro ${escapeHtml(levelDetails.refundCap)}` : ""}</div>` : ""}
+      ${renderDetailRows(promo, variant)}
+      <div class="detail-row"><span>Fuente</span><strong>${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente${formatLastUpdated(promo) ? ` · ${escapeHtml(formatLastUpdated(promo))}` : ""}</strong></div>
+      <div id="detailSourceLink"><a href="${escapeAttribute(safeSourceUrl(promo.source_page_url || promo.source_url || "#"))}" target="_blank" rel="noreferrer">${promo.bank === 'Continental' ? 'Ver comercio y condiciones en Continental' : promo.bank === 'GNB' && !/\.pdf(?:[?#]|$)/i.test(promo.source_page_url || promo.source_url || '') ? 'Ver promoción y bases en GNB' : 'Ver bases y condiciones'}</a></div>
+    </div></details>
+    <button type="button" class="detail-report" data-beta-report-id="${escapeAttribute(promo.id)}">Reportar datos incorrectos</button>
+  `;
+  els.dialog.showModal();
+  els.dialog.scrollTop = 0;
+  loadDetailLocations(detailLocationState);
+}
+
+async function loadPromotions() {
+  els.statusText.textContent = "Actualizando promociones...";
+  els.results.innerHTML = renderSkeletons();
+  const [response, manifestResponse] = await Promise.all([
+    fetch(`${DATA_URL}?t=${Date.now()}`),
+    fetch(`${MANIFEST_URL}?t=${Date.now()}`).catch(() => null),
+  ]);
+  if (!response.ok) throw new Error("No se pudo cargar promotions.json");
+  if (manifestResponse?.ok) {
+    const manifest = await manifestResponse.json();
+    state.lastUpdated = manifest.generated_at || "";
+    state.favoriteAliases = manifest.favorite_aliases || {};
+  }
+  state.promotions = uniquePromos((await response.json()).filter(promo => isDisplayablePromotion(promo) && promo.source_verification !== "unconfirmed" && !promo.terms?.conflicting_dates && promo.terms?.ends_on >= PaybackDates.today()));
+  state.favorites = normalizeFavoriteIds(state.favorites);
+  if (!window.PaybackBeta?.current) saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
+  syncFavoriteAlerts();
+  render();
+}
+
+function renderSkeletons() {
+  return `<div class="skeleton-list">${[1, 2, 3].map(() => `
+    <article class="skeleton-card">
+      <span></span>
+      <div><i></i><i></i><i></i></div>
+    </article>
+  `).join("")}</div>`;
+}
+
+function capitalize(value) {
+  return String(value || "").charAt(0).toUpperCase() + String(value || "").slice(1);
+}
+
+function safeSourceUrl(value) {
+  try {
+    const url = new URL(value, location.href);
+    return ["https:", "http:"].includes(url.protocol) ? url.href : "#";
+  } catch { return "#"; }
+}
+
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#039;",
+  }[char]));
+}
+
+function escapeAttribute(value) {
+  return escapeHtml(value).replace(/`/g, "&#096;");
+}
+
+function resetNearbySelection() {
+  state.activePlaceName = "";
+}
+
+els.bankTabs.addEventListener("click", (event) => {
+  const bank = event.target.closest("button")?.dataset?.bank;
+  if (!bank) return;
+  state.activeBank = bank;
+  resetNearbySelection();
+  render();
+});
+
+document.getElementById('homeLogo').addEventListener('click', event => {
+  event.preventDefault();
+  state.activeView = 'today'; state.activeBank = 'Todos'; state.activeCategory = 'Todas'; state.activeCard = 'Todas'; state.activeDay = 'hoy'; state.query = '';
+  els.searchInput.value = '';
+  resetNearbySelection(); render();
+  window.scrollTo({top:0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+});
+
+els.categoryTabs.addEventListener("click", (event) => {
+  const category = event.target.closest("button")?.dataset?.category;
+  if (!category) return;
+  state.activeCategory = category;
+  resetNearbySelection();
+  render();
+});
+
+els.dayTabs.addEventListener("click", (event) => {
+  const day = event.target.closest("button")?.dataset?.day;
+  if (!day) return;
+  if (day === "fecha") { const picker = document.querySelector('#datePicker'); picker.hidden = false; picker.focus(); if (picker.showPicker) { try { picker.showPicker(); } catch {} } return; }
+  state.activeDay = day;
+  document.querySelector('#datePicker').hidden = true;
+  resetNearbySelection();
+  render();
+});
+
+els.uenoLevelPanel.addEventListener("click", (event) => {
+  const level = Number(event.target.closest("button")?.dataset?.level);
+  if (!level) return;
+  if (window.PaybackBeta?.current) {
+    PaybackBeta.level(level).catch(error => { els.statusText.textContent = error.message; });
+    return;
+  }
+  state.uenoLevel = level;
+  saveStoredJson("paybackPyBeta.uenoLevel", level);
+  syncFavoriteAlerts();
+  render();
+});
+
+let searchRenderTimer = 0;
+let searchCompositionActive = false;
+function scheduleSearchRender() {
+  clearTimeout(searchRenderTimer);
+  // Let the browser paint the typed value; coalesce results while typing rapidly.
+  searchRenderTimer = setTimeout(() => {
+    searchRenderTimer = 0;
+    render(true);
+  }, 120);
+}
+
+els.searchInput.addEventListener("compositionstart", () => {
+  searchCompositionActive = true;
+  clearTimeout(searchRenderTimer);
+});
+els.searchInput.addEventListener("compositionend", (event) => {
+  searchCompositionActive = false;
+  state.query = event.target.value;
+  scheduleSearchRender();
+});
+els.searchInput.addEventListener("input", (event) => {
+  state.query = event.target.value;
+  resetNearbySelection();
+  if (state.activeView === "alerts") state.activeView = "search";
+  if (!event.isComposing && !searchCompositionActive) scheduleSearchRender();
+});
+
+els.results.addEventListener("click", (event) => {
+  if (event.target.closest("[data-share-id]")) return;
+  const pushAction = event.target.closest("[data-push-action]");
+  if (pushAction) {
+    pushAction.disabled = true;
+    const action = pushAction.dataset.pushAction;
+    const operation = action === 'test' ? PaybackPush.test(state.favorites, state.uenoLevel) : action === "enable" ? PaybackPush.enable(state.favorites, state.uenoLevel) : PaybackPush.disable();
+    operation.then(() => { state.pushMessage = action === 'test' ? 'Prueba solicitada. Revisá el panel de notificaciones de tu dispositivo. Esta prueba verifica la visualización local, no la entrega remota.' : action === "enable" ? "Te avisaremos los días de tus promociones." : "Avisos desactivados."; })
+      .catch(error => { state.pushMessage = error.message; }).finally(() => render());
+    return;
+  }
+  const favoriteToggle = event.target.closest("[data-favorite-id]");
+  if (favoriteToggle) {
+    event.preventDefault();
+    event.stopPropagation();
+    toggleFavorite(favoriteToggle.dataset.favoriteId);
+    return;
+  }
+  const mapAction = event.target.closest("[data-map-action]");
+  if (mapAction) {
+    if (mapAction.dataset.mapAction === "retry") {
+      getMapProvider().retry();
+      renderNearbyView();
+      return;
+    }
+    if (mapAction.dataset.mapAction === "center-user") centerNearbyMapOnUser();
+    if (mapAction.dataset.mapAction === "zoom-in") zoomNearbyMap("in");
+    if (mapAction.dataset.mapAction === "zoom-out") zoomNearbyMap("out");
+    return;
+  }
+
+  const locationButton = event.target.closest("[data-location-action]");
+  if (locationButton) {
+    if (locationButton.dataset.locationAction === "reset-filters") {
+      state.activeBank = "Todos";
+      state.activeCategory = "Todas";
+      state.activeCard = "Todas";
+      state.activeDay = "hoy";
+      state.query = "";
+      els.searchInput.value = "";
+      resetNearbySelection();
+      render();
+    } else if (locationButton.dataset.locationAction === "explore") {
+      exploreNearbyManually();
+    } else {
+      requestLocation();
+    }
+    return;
+  }
+
+  const card = event.target.closest(".promo-card");
+  if (card) {
+    openDetail(card.dataset.id, card.dataset.variant, card.dataset.placeId);
+    return;
+  }
+
+  const placeButton = event.target.closest("[data-place-name]");
+  if (placeButton) {
+    selectNearbyPlace(placeButton.dataset.placeName);
+    return;
+  }
+
+  const toggle = event.target.closest("[data-section-toggle]");
+  if (toggle) {
+    const title = toggle.dataset.sectionToggle;
+    const section = toggle.closest("[data-section]");
+    const isCurrentlyCollapsed = section?.classList.contains("collapsed");
+    if (isCurrentlyCollapsed) {
+      state.collapsedSections.delete(title);
+      state.expandedSections.add(title);
+    } else {
+      state.collapsedSections.add(title);
+      state.expandedSections.delete(title);
+    }
+    render();
+    return;
+  }
+
+});
+
+els.results.addEventListener("keydown", (event) => {
+  if ((event.key === "Enter" || event.key === " ") && event.target.matches(".promo-card")) {
+    event.preventDefault();
+    const card = event.target;
+    openDetail(card.dataset.id, card.dataset.variant, card.dataset.placeId);
+  }
+});
+
+els.results.addEventListener("submit", (event) => {
+  const form = event.target.closest("#profileForm");
+  if (!form) return;
+  event.preventDefault();
+  const formData = new FormData(form);
+  state.alertPrefs = {
+    today: formData.has("today"),
+    favorites: formData.has("favorites"),
+  };
+  saveStoredJson(STORAGE_KEYS.alertPrefs, state.alertPrefs);
+  render();
+});
+
+els.dialogContent.addEventListener("click", (event) => {
+  if (event.target.closest("[data-detail-map]")) {
+    openDetailMap();
+    return;
+  }
+  if (event.target.closest("[data-detail-location-retry]") && detailLocationState) {
+    detailLocationState.loading = true;
+    els.dialogContent.querySelector("#detailLocations").innerHTML = renderDetailLocations(detailLocationState);
+    loadDetailLocations(detailLocationState);
+    return;
+  }
+  const sourceButton = event.target.closest("[data-scroll-source]");
+  if (sourceButton) {
+    const sourceLink = els.dialogContent.querySelector("#detailSourceLink");
+    const conditions = sourceLink?.closest("details"); if (conditions) conditions.open = true;
+    sourceLink?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
+    sourceLink?.classList.remove("pulse-source");
+    window.setTimeout(() => sourceLink?.classList.add("pulse-source"), 80);
+    window.setTimeout(() => sourceLink?.classList.remove("pulse-source"), 1800);
+    return;
+  }
+  const favoriteButton = event.target.closest("[data-favorite-id]");
+  if (!favoriteButton) return;
+  toggleFavorite(favoriteButton.dataset.favoriteId);
+  els.dialog.close();
+});
+
+els.dialogContent.addEventListener("change", (event) => {
+  if (event.target.id !== "detailBranch" || !detailLocationState) return;
+  detailLocationState.selectedKey = event.target.value;
+  els.dialogContent.querySelector("#detailLocationDestination").innerHTML = renderDetailDestination(detailLocationState);
+});
+
+els.dialogContent.addEventListener("input", (event) => {
+  const input = event.target.closest(".calculator input");
+  if (!input) return;
+  const wrapper = input.closest("[data-calculator-id]");
+  const promo = state.promotions.find((item) => item.id === wrapper?.dataset?.calculatorId);
+  const output = wrapper?.querySelector(".calculator-result");
+  if (!promo || !output) return;
+  const amount = Number(input.value || 0);
+  if (!amount) {
+    output.textContent = "Ingresá un monto para calcular tu ahorro.";
+    return;
+  }
+  const variant = getVariantByKey(promo, wrapper.dataset.calculatorVariant);
+  const savings = getEstimatedSavings(promo, amount, variant);
+  if (savings.unconfirmed) { output.textContent = "El tope de esta tarjeta no está confirmado. Consultá las bases antes de estimar el ahorro."; return; }
+  if (savings.belowMinimum) { output.textContent = `La compra mínima es ${formatGuarani(savings.minimum)}.`; return; }
+  const capText = savings.capped
+    ? " porque alcanzaste el tope."
+    : ".";
+  output.innerHTML = `Ahorro estimado: <strong>${escapeHtml(formatGuarani(savings.refundCap) || "Gs. 0")}</strong>${capText} Sujeto a condiciones y saldo disponible del tope.`;
+});
+
+els.bottomNav.addEventListener("click", (event) => {
+  const view = event.target.closest("button")?.dataset?.view;
+  if (!view) return;
+  state.activeView = view;
+  if (view === "today") {
+    state.activeBank="Todos";state.activeCategory="Todas";state.activeCard="Todas";state.query="";els.searchInput.value="";
+    state.activeDay = "hoy";
+  }
+  render();
+  if (view === "alerts" || view === "favorites") {
+    window.scrollTo({ top: 0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  }
+  if (view === "search") {
+    els.searchInput.focus({ preventScroll: true });
+    window.setTimeout(() => {
+      els.searchInput.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
+      els.searchInput.focus();
+    }, 60);
+  }
+  if (view === "nearby") {
+    requestNearbyLocationAutomatically();
+    window.setTimeout(() => {
+      document.querySelector(".map-stage, .nearby-panel")?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+    }, 60);
+  }
+});
+
+els.closeDialog.addEventListener("click", () => els.dialog.close());
+els.refreshButton.addEventListener("click", () => loadPromotions().catch((error) => {
+  showPromotionLoadError(error);
+}));
+
+window.addEventListener('beta-account', event => {
+  state.favorites = normalizeFavoriteIds(event.detail ? event.detail.favorites : loadStoredJson(STORAGE_KEYS.favorites, []));
+  state.uenoLevel = event.detail ? event.detail.uenoLevel : loadStoredJson('paybackPyBeta.uenoLevel', 1);
+  syncFavoriteAlerts();
+  render();
+});
+
+loadPromotions().then(() => {
+  const params = new URLSearchParams(location.search);
+  const id = params.get('promo');
+  if (!id) return;
+  if (state.promotions.some(promo => promo.id === id && isActivePromotion(promo))) openDetail(id, params.get('variant') || '');
+  else els.statusText.textContent = 'La promoción compartida ya no está disponible. Explorá las promociones vigentes.';
+}).catch((error) => {
+  showPromotionLoadError(error);
+});
+
+function promotionShareData(promo, variantKey = '') {
+  const appUrl = 'https://giumontebruno.github.io/promo-bancos-py/beta/';
+  const url = new URL(appUrl);
+  url.searchParams.set('promo', promo.id);
+  if (variantKey) url.searchParams.set('variant', variantKey);
+  return {
+    title: `${getPromoTitle(promo)} · Payback PY`,
+    text: `Mirá esta promoción que encontré en Payback PY: ${getPromoTitle(promo)}.\nAbrí e instalá la app: ${appUrl}`,
+    url: url.href,
+  };
+}
+
+document.addEventListener('error', event => {
+  if (event.target instanceof HTMLImageElement && event.target.classList.contains('google-profile-photo')) event.target.remove();
+}, true);
+
+document.addEventListener('click', async event => {
+  const button = event.target.closest('[data-share-id]');
+  if (!button) return;
+  event.preventDefault(); event.stopPropagation();
+  const promo = state.promotions.find(item => item.id === button.dataset.shareId);
+  if (!promo) return;
+  const data = promotionShareData(promo, button.dataset.shareVariant || '');
+  if (navigator.share) {
+    try { await navigator.share(data); return; }
+    catch (error) { if (error.name === 'AbortError') return; }
+  }
+  const shareDialog = document.createElement('dialog');
+  shareDialog.className = 'beta-dialog share-dialog';
+  const text = `${data.text}\n${data.url}`;
+  shareDialog.innerHTML = `<article class="dialog-card"><h2>Compartir promoción</h2><div class="share-options"><a target="_blank" rel="noopener noreferrer" href="https://wa.me/?text=${encodeURIComponent(text)}">WhatsApp</a><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(data.url)}">Facebook</a><button type="button" data-copy-share>Copiar mensaje y enlace</button></div><p>Para Instagram u otra app, pegá el mensaje en tu conversación.</p><textarea readonly aria-label="Mensaje para compartir">${escapeHtml(text)}</textarea><p role="status"></p><button type="button" data-close-share>Cerrar</button></article>`;
+  document.body.append(shareDialog);
+  shareDialog.addEventListener('close', () => shareDialog.remove());
+  shareDialog.querySelector('[data-close-share]').onclick = () => shareDialog.close();
+  shareDialog.querySelector('[data-copy-share]').onclick = async () => {
+    try { await navigator.clipboard.writeText(text); shareDialog.querySelector('[role=status]').textContent = 'Mensaje copiado.'; }
+    catch { shareDialog.querySelector('textarea').select(); shareDialog.querySelector('[role=status]').textContent = 'Seleccioná y copiá el mensaje.'; }
+  };
+  shareDialog.showModal();
+}, true);
+
+
+document.querySelector('#datePicker').addEventListener('change',event=>{const iso=event.target.value;if(!PaybackDates.valid(iso)||iso<PaybackDates.today())return;state.selectedDate=iso;state.activeDay='fecha';resetNearbySelection();render();});
+for (const [id,key] of [['bankSelect','activeBank'],['categorySelect','activeCategory'],['cardSelect','activeCard']]) document.getElementById(id).addEventListener('change',e=>{state[key]=e.target.value;resetNearbySelection();render();});
+document.querySelector('#profileButton').addEventListener('click',()=>{state.activeView='alerts';render();window.scrollTo(0,0)});
+document.querySelector('#explorePromos').addEventListener('click',()=>{state.activeView='search';render();window.scrollTo(0,0)});
+document.addEventListener('click',e=>{if(e.target.closest('[data-retry-promotions]'))loadPromotions().catch(showPromotionLoadError)});
+document.querySelector('#themeToggle').addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;saveStoredJson('paybackPyBeta.theme',theme);document.querySelector('#themeToggle').setAttribute('aria-label',theme==='dark'?'Usar tema claro':'Usar tema oscuro')});
