@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-23T12:32:08.979472+00:00",
-  "coverage": "251 official cards extracted from GNB's public API; every card retains its official detail and terms links",
-  "records": 480,
+  "checked_at": "2026-10-24T11:56:12.194483+00:00",
+  "coverage": "253 official cards extracted from GNB's public API; every card retains its official detail and terms links",
+  "records": 483,
   "excluded_cards": {
     "20": "Interest-bearing purchases abroad, not an interest-free benefit",
     "157": "Cash advance with commission, not a promotion",

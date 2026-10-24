@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T12:48:22.992799+00:00",
-  "input_count": 3130,
-  "promotion_count": 3177,
-  "duplicates_removed": -47,
+  "generated_at": "2026-10-24T12:08:31.177323+00:00",
+  "input_count": 3132,
+  "promotion_count": 3182,
+  "duplicates_removed": -50,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1061,13 +1061,13 @@
     "Continental": 845,
     "Coop. Universitaria": 71,
     "Familiar": 413,
-    "GNB": 483,
+    "GNB": 486,
     "Itaú": 564,
     "Sudameris": 325,
-    "ueno bank": 355
+    "ueno bank": 357
   },
   "issue_counts": {
-    "limits_unconfirmed": 219,
+    "limits_unconfirmed": 221,
     "validity_unconfirmed": 26,
     "multiple_purchase_limits": 246,
     "source_amount_conflict": 15,
@@ -6310,6 +6310,15 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-Domingo-18-_-OCT-2026v2.docx.pdf"
     },
     {
+      "id": "f372432ae3295dd6",
+      "bank": "ueno bank",
+      "merchant": "desbloquea diau dom25",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Tu-cuenta-desbloquea-Dia-u-Domingo-25-_-OCT-2026v2.docx.pdf"
+    },
+    {
       "id": "963a4fc7b88c4d1f",
       "bank": "ueno bank",
       "merchant": "di valentini",
@@ -6544,6 +6553,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-Domingo-18-_-OCT-2026v2.docx.pdf"
+    },
+    {
+      "id": "bc12316696d05762",
+      "bank": "ueno bank",
+      "merchant": "reintegro diau dom25",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-Campana-Mas-saldo-mas-reintegro-en-Dia-u-Domingo-25-_-OCT-2026v1.docx.pdf"
     },
     {
       "id": "9b58afc41d93a7d7",

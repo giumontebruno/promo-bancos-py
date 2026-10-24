@@ -817,7 +817,7 @@ _Se omitieron 127 filas en este resumen; están en el CSV._
 | Automotor | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 14 de abril de 2027 | No especificado |
 | Carsuplay | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 08 de abril de 2027 | No especificado |
 | Chacomer | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de noviembre del 2026 | No especificado |
-| Chacomer S.A.E | 10%; Hasta 18 cuotas sin intereses; 10% de reintegro; 10% de descuento | todos los días | Vigente hasta el 21 de octubre de 2027 | Todo el país |
+| Chacomer S.A.E | 20%; Hasta 18 cuotas sin intereses; 10% de reintegro; 10% de descuento | todos los días | Vigente hasta el 21 de octubre de 2027 | Todo el país |
 | Classic Motos | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | No especificado |
 | DIM Sport | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Asunción |
 | Damper Repuestos | 10%; hasta 12 cuotas sin intereses; 10% de descuento | Todos los días | Vigente hasta el 11 de febrero de 2027 | Curuguaty |

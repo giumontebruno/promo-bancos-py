@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-23T12:32:08.979472+00:00",
-  "total": 251,
+  "checkedAt": "2026-10-24T11:56:12.194483+00:00",
+  "total": 253,
   "cards": [
     {
       "id": 680,
@@ -1627,6 +1627,24 @@
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5382_kaia-club-2026-web.png"
     },
     {
+      "id": 687,
+      "title": "ZR Distribuidora",
+      "startDate": "2026-10-20",
+      "endDate": "2026-12-31",
+      "miniDescription": "10% de descuento todos los días.",
+      "category": "Días GNB",
+      "lines": [
+        "10% de descuento todos los días.",
+        "Del 20 de octubre al 31 de diciembre del 2026.",
+        "10% de descuento para pagos con tarjetas de crédito Mastercard del Banco GNB Paraguay.",
+        "Tope de compra mensual: Gs. 5.000.000 (guaranies cinco millones) por cuenta de tarjeta de crédito (incluye titulares y adicionales).",
+        "No participan de la promoción las tarjetas de débito y crédito; Visa, de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5398_bases-y-condiciones-zr-distribuidora.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5399_zr-2026-web.png"
+    },
+    {
       "id": 246,
       "title": "Juguetería Me Encanta",
       "startDate": "2026-05-17",
@@ -1646,6 +1664,24 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5069_bases-y-condiciones-jugueter%C3%ADa-me-encanta-002-.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5070_web-me-encanta.png"
+    },
+    {
+      "id": 10,
+      "title": "Anjos",
+      "startDate": "2025-06-01",
+      "endDate": "2026-12-31",
+      "miniDescription": "20% off los viernes + Hasta 12 cuotas sin intereses todos los días.",
+      "category": "Días GNB",
+      "lines": [
+        "20% off los viernes + Hasta 12 cuotas sin intereses todos los días.",
+        "Del 21 de octubre al 31 de diciembre del 2026.",
+        "20% de descuento los viernes en productos seleccionados para tarjetas de afinidad Clásicas, Oro, Black, Black Premier, Metalcard Premier, Experience, Platinum, Infinite.",
+        "Hasta 12 cuotas sin intereses para pagos con tarjetas de crédito Clásicas, Oro, Experience, Black, Black Premier, Metalcard Premier, Platinum e Infinite.",
+        "El descuento será aplicado por el comercio directamente en caja/mostrador al momento del pago. Para el fraccionamiento de las cuotas el cliente deberá solicitar/seleccionar la cantidad de cuotas que desea al momento del pago. Las cuotas se verán reflejadas en el extracto del cliente.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/2570_bases-y-condiciones-anjos-octubre.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/2474_anjos-al-12-2026-web.png"
     },
     {
       "id": 16,

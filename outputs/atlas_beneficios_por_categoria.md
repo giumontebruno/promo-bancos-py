@@ -2,13 +2,12 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 39
+Total de beneficios: 38
 
 ## Bienestar
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Feria de Viajes | 20% de reintegro; 15% de reintegro; 18 cuotas sin intereses | 23 de octubre | Desde 2026-10-23 hasta 2026-10-23 |
 | Martiderm | 20% de descuento; 3 cuotas sin intereses | Último jueves del mes | Hasta 2026-12-31 |
 | Nueva Americana | 25% de descuento; 20% de descuento; 12 cuotas sin intereses | 29 y 30 de octubre | Desde 2026-10-29 hasta 2026-10-30 |
 | Prepaga Joven | 20% de reintegro; En tiendas adheridas: | Todos los días | Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 d |

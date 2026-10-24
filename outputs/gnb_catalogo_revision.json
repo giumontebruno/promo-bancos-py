@@ -1,10 +1,11 @@
 {
-  "checked_at": "2026-10-23T12:32:08.979472+00:00",
+  "checked_at": "2026-10-24T11:56:12.194483+00:00",
   "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
-  "total_source_cards": 251,
-  "already_represented_source_cards": 247,
+  "total_source_cards": 253,
+  "already_represented_source_cards": 248,
   "source_cards_not_yet_in_app": [
-    686,
+    687,
+    10,
     297,
     20,
     157
@@ -133,6 +134,11 @@
     {
       "id": 264,
       "name": "El Molinillo",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 10,
+      "name": "Anjos",
       "flags": "source_start_date_stale"
     },
     {
