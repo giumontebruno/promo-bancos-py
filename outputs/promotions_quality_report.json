@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24T12:08:31.177323+00:00",
-  "input_count": 3132,
+  "generated_at": "2026-10-25T12:43:50.287302+00:00",
+  "input_count": 3131,
   "promotion_count": 3182,
-  "duplicates_removed": -50,
+  "duplicates_removed": -51,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1053,7 +1053,8 @@
     "b9700e00bd934133": "5fe776d94edd4dd3",
     "98e1c2d4dcd66610": "235e12d2f368131b",
     "8b650025d06da223": "a4e4cca0d99cb1d2",
-    "a963e4d0eba73cd4": "6ae9c17f26a45522"
+    "a963e4d0eba73cd4": "6ae9c17f26a45522",
+    "6835e9541687c3e5": "252153f5abe9bcd1"
   },
   "by_bank": {
     "Atlas": 44,
@@ -1072,7 +1073,7 @@
     "multiple_purchase_limits": 246,
     "source_amount_conflict": 15,
     "multiple_refund_limits": 103,
-    "source_verification_pending": 127
+    "source_verification_pending": 133
   },
   "review_queue": [
     {
@@ -3826,6 +3827,33 @@
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/858/detalle"
     },
     {
+      "id": "6d956e3ec7c713d2",
+      "bank": "Sudameris",
+      "merchant": "Kube - Octubre 2026",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/kube-octubre-2026"
+    },
+    {
+      "id": "b1ce9e512aa630b3",
+      "bank": "Sudameris",
+      "merchant": "Kube - Octubre 2026",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/kube-octubre-2026"
+    },
+    {
+      "id": "2863b102de02c089",
+      "bank": "Sudameris",
+      "merchant": "Kube - Octubre 2026",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/kube-octubre-2026"
+    },
+    {
       "id": "245c2e1c109ba3aa",
       "bank": "Sudameris",
       "merchant": "PARANA HOGAR / COLCHONES",
@@ -4843,6 +4871,33 @@
         "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "933d29a51e9f853a",
+      "bank": "Sudameris",
+      "merchant": "Music Hall - Promo Aniversario",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/music-hall"
+    },
+    {
+      "id": "dea403e299553e77",
+      "bank": "Sudameris",
+      "merchant": "Music Hall - Promo Aniversario",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/music-hall"
+    },
+    {
+      "id": "252153f5abe9bcd1",
+      "bank": "Sudameris",
+      "merchant": "Music Hall - Promo Aniversario",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/music-hall"
     },
     {
       "id": "060864a92e631902",

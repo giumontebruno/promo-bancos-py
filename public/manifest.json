@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T12:08:31.177323+00:00",
+  "generated_at": "2026-10-25T12:43:50.287302+00:00",
   "promotion_count": 3182,
   "banks": [
     "Atlas",
@@ -1184,7 +1184,8 @@
     "b9700e00bd934133": "5fe776d94edd4dd3",
     "98e1c2d4dcd66610": "235e12d2f368131b",
     "8b650025d06da223": "a4e4cca0d99cb1d2",
-    "a963e4d0eba73cd4": "6ae9c17f26a45522"
+    "a963e4d0eba73cd4": "6ae9c17f26a45522",
+    "6835e9541687c3e5": "252153f5abe9bcd1"
   },
   "schema_version": 2
 }

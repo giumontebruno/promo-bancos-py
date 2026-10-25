@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-24T11:59:32.614889+00:00",
-  "campaigns": 46,
+  "checked_at": "2026-10-25T12:30:52.151498+00:00",
+  "campaigns": 44,
   "failures": [
     {
       "campaign": "ZONA SUR",
@@ -18,5 +18,5 @@
       "reason": "Multiple Sudameris documents require per-city scoped review: ['https://www.sudameris.com.py/descargas/documentos/concepcion-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/katuete-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/santa-rosa-del-aguaray-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/san-alberto-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/curuguaty-bases-y-condiciones']"
     }
   ],
-  "retained_unconfirmed": 123
+  "retained_unconfirmed": 129
 }

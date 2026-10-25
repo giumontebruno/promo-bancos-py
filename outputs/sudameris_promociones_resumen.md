@@ -2,13 +2,11 @@
 
 Extraidas desde https://www.sudameris.com.py/personas/beneficios
 
-Total: 46
+Total: 44
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
 | Sudameris | Yacht y Golf Club Paraguayo | •Desde el 01 de octubre hasta el 30 de noviembre 2026. | Todos los días • 10% de reintegro directo en débito automático para pagos de la cuota social. • Hasta 12 Cuotas sin interés para los pagos de cuotas sociales en caja dentro del Club. • Tope de compra durante la vigencia  | https://www.sudameris.com.py/personas/beneficios/yacht-y-golf-club-paraguayo |
-| Sudameris | Kube – Octubre 2026 | •Desde el 19 al 24 de octubre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito. • 25% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite. • Hasta 15 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/kube-octubre-2026 |
-| Sudameris | Music hall | • Del 19 al 24 octubre de 2026. | • 15% de descuento en caja con TC Sudameris • Hasta 12 cuotas sin interés • 5% de descuento en equipos de audios | https://www.sudameris.com.py/personas/beneficios/music-hall |
 | Sudameris | Universidad Leonardo Da Vinci - Diplomados | Desde el 21 de septiembre 2026 hasta el 31 de mayo de 2027. | Para la inscripción al diplomado (Aplica para modalidad presencial y homeclass) : • 20% de descuento en caja pagando con tarjetas de crédito Sudameris. • Hasta 12 cuotas sin intereses pagando con tarjetas de crédito Suda | https://www.sudameris.com.py/personas/beneficios/universidad-leonardo-da-vinci-diplomados |
 | Sudameris | SASPY EXPRESS | Desde el 01 de octubre hasta el 31 de diciembre 2026. | • 15% de reintegro directo pagando con tarjetas de crédito de Sudameris. • 20% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 10 cuotas sin interés. COMPRAS EN | https://www.sudameris.com.py/beneficios/destacado/928/detalle |
 | Sudameris | COLEGIO SAN ANDRÉS | • Desde el 07 de setiembre hasta el 31 de diciembre 2026. | • Hasta 15 cuotas sin interés. | https://www.sudameris.com.py/beneficios/destacado/916/detalle |
