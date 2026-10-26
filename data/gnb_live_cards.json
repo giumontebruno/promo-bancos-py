@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-25T12:27:32.799630+00:00",
+  "checkedAt": "2026-10-26T14:04:22.620582+00:00",
   "total": 252,
   "cards": [
     {
@@ -31,14 +31,14 @@
       "category": "Días GNB",
       "lines": [
         "20% de descuento en entradas para Experiencia Theoni.",
-        "16 al 26 de octubre del 2026 o hasta agotar stock.",
+        "16 al 29 de octubre del 2026 o hasta agotar stock.",
         "20% de descuento en entradas para Experiencia Theoni con tarjetas de crédito Mastercard del Banco GNB Paraguay.",
         "Tope de compra por periodo de la promoción: de Gs.350.000 (guaraníes trescientos cincuenta mil), por cuenta de tarjeta de crédito (Incluye titulares y adicionales) equivalente a un reintegro máximo en el extracto de Gs. 70.000 (guaraníes setenta mil) para pagos con tarjetas de crédito Mastercard Banco GNB",
         "Promoción válida única y exclusivamente en las fechas mencionadas en la venta de entradas para el evento de Experiencia Theoni.",
         "Beneficio aplica única y exclusivamente a pagos realizados a través de plataforma de Ticketea .",
         "No acumulable con otras promociones."
       ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5385_bases-y-condiciones-experiencia-theoni-venta-de-entradas.pdf",
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5385_bases-y-condiciones-experiencia-theoni-venta-de-entradas-002-.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5386_img-d%C3%ADa-gnb-theoniv2.png"
     },
     {
@@ -3157,20 +3157,20 @@
     },
     {
       "id": 133,
-      "title": "Visuar",
+      "title": "Feria Visuar",
       "startDate": "2025-02-23",
-      "endDate": "2026-12-31",
-      "miniDescription": "Hasta 12 cuotas sin intereses todos los días.",
+      "endDate": "2026-10-31",
+      "miniDescription": "Hasta 18 cuotas sin intereses todos los días.",
       "category": "Cuotas sin intereses",
       "lines": [
-        "Hasta 12 cuotas sin intereses todos los días.",
-        "Del 05 de enero al 31 de diciembre del 2026.",
-        "Hasta 12 cuotas sin intereses para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Hasta 18 cuotas sin intereses todos los días.",
+        "Del 26 al 31 de octubre del 2026.",
+        "Hasta 18 cuotas sin intereses para pagos con tarjetas de crédito del Banco GNB Paraguay.",
         "Para el fraccionamiento de las cuotas el cliente deberá solicitar/seleccionar la cantidad de cuotas que desea al momento del pago. Las cuotas se verán reflejadas en el extracto del cliente.",
         "No participan de la promoción las tarjetas de débito y crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas.",
         "No acumulable con otras promociones."
       ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/2695_bases-y-condiciones-visuar-mayo.pdf",
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5400_bases-y-condiciones-feria-visuar.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/1388_visuar-web-12-2022.png"
     },
     {

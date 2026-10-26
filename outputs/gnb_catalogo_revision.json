@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-25T12:27:32.799630+00:00",
+  "checked_at": "2026-10-26T14:04:22.620582+00:00",
   "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
   "total_source_cards": 252,
   "already_represented_source_cards": 249,
@@ -296,7 +296,7 @@
     },
     {
       "id": 133,
-      "name": "Visuar",
+      "name": "Feria Visuar",
       "flags": "source_start_date_stale"
     },
     {

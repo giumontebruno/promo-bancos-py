@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 838
+Total de beneficios/comercios: 834
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -245,7 +245,7 @@ Total de beneficios/comercios: 838
 |---|---|---|---|---|
 | Fiori Florería | 15%; Hasta 6 cuotas sin intereses; 15% de reintegro | todos los días | Vigente hasta el 21 de diciembre de 2026 | Asunción |
 
-## Gastronomía (106)
+## Gastronomía (102)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -264,7 +264,6 @@ Total de beneficios/comercios: 838
 | Amilcar | 35% de reintegro | Los sábados, en Amilcar | Vigente hasta el 24 de octubre de 2026 | Asunción |
 | Amilcar | 25% de reintegro | Los sábados, en Amilcar | Vigente hasta el 24 de octubre de 2026 | Asunción |
 | Amilcar | 20% de reintegro | Los sábados, en Amilcar. | Vigente hasta el 10 de abril de 2027 | Asunción |
-| Bacon - Smash Burguer - Panceta - Pocket Pizza | 20%; 35% de reintegro; 25% de reintegro; 20% de reintegro | los sábados | Vigente hasta el 24 de octubre de 2026 | No especificado |
 | Bernardino Hamburguesas | 35% de reintegro | Los sábados y domingos, en Bernardino Hamburguesas | Vigente hasta el 24 de octubre de 2026 | Asunción |
 | Bernardino Hamburguesas | 25% de reintegro | Los sábados y domingos, en Bernardino Hamburguesas | Vigente hasta el 24 de octubre de 2026 | Asunción |
 | Bernardino Hamburguesas | 20% de reintegro | Los sábados y domingos, en Bernardino Hamburguesas. | Vigente hasta el 25 de abril de 2027 | Asunción |
@@ -303,9 +302,6 @@ Total de beneficios/comercios: 838
 | La Candelaria - Restaurant | 35% de reintegro | Los sábados y domingos, en La Candelaria - Restaurant | Vigente hasta el 24 de octubre de 2026 | Areguá |
 | La Candelaria - Restaurant | 25% de reintegro | Los sábados y domingos, en La Candelaria - Restaurant | Vigente hasta el 24 de octubre de 2026 | Areguá |
 | La Candelaria - Restaurant | 20% de reintegro | Los sábados y domingos, en La Candelaria - Restaurant. | Vigente hasta el 06 de junio de 2027 | Areguá |
-| La Negrita | 20% de reintegro | Todos los sábados y domingos, en La Negrita | Vigente hasta el 18 de octubre del 2026 | No especificado |
-| La Negrita | 25% de reintegro | Todos los sábados y domingos, en La Negrita | Vigente hasta el 24 de octubre de 2026 | No especificado |
-| La Negrita | 35% de reintegro | Todos los sábados y domingos, en La Negrita | Vigente hasta el 24 de octubre de 2026 | No especificado |
 | La Nutry | 35% de reintegro | Sábados y domingos, en Lá Nutry | Vigente hasta el 24 de octubre de 2026 | Asunción |
 | La Nutry | 25% de reintegro | Sábados y domingos, en Lá Nutry | Vigente hasta el 24 de octubre de 2026 | Asunción |
 | La Nutry | 20% de reintegro | Sábados y domingos, en Lá Nutry. | Vigente desde el 24 de enero de 2026 al 22 de enero de 2027 | Asunción |
@@ -329,8 +325,12 @@ Total de beneficios/comercios: 838
 | Pederzani | 35% de reintegro | Los sábados y domingos, en Pederzani | Vigente hasta el 24 de octubre del 2026 | Asunción |
 | Pederzani | 25% de reintegro | Los sábados y domingos, en Pederzani | Vigente hasta el 24 de octubre del 2026 | Asunción |
 | Pederzani | 20% de reintegro | Los sábados y domingos, en Pederzani. Además: | Vigente hasta el 06 de agosto de 2027 | Asunción |
+| Plaza Tamarindo | 35% de reintegro | Los sábados y domingos, en locales adheridos de Plaza Tamarindo | Vigente hasta el 24 de octubre de 2026 | Asunción |
+| Plaza Tamarindo | 25% de reintegro | Los sábados y domingos, en locales adheridos de Plaza Tamarindo | Vigente hasta el 24 de octubre de 2026 | Asunción |
+| Plaza Tamarindo | 20% de reintegro | los viernes, sábados y domingos: | Vigente hasta el 27 de agosto de 2027 | Asunción |
+| Real Costanera Restaurante - Encarnación | 35% de reintegro | Los sábados y domingos, en Real Restaurante (Encarnación) | Vigente hasta el 24 de octubre del 2026 | Encarnación |
 
-_Se omitieron 26 filas en este resumen; están en el CSV._
+_Se omitieron 22 filas en este resumen; están en el CSV._
 
 ## Heladerías (1)
 
@@ -382,7 +382,7 @@ _Se omitieron 26 filas en este resumen; están en el CSV._
 | Premium Colchones (Ortega Vigilancia) | 30%; Hasta 12 cuotas sin intereses; 30% de descuento | Todos los días | Vigente hasta el 26 de julio de 2027 | No especificado |
 | Produtel | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de julio de 2027 | Ciudad del Este |
 | Progresar Electrodomésticos | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | los jueves | Vigente hasta el 25 de febrero del 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | Encarnación |
-| Refrinar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 26 de noviembre del 2026 | Santa Rita (Alto Paraná) |
+| Refrinar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 26 de octubre del 2026 | Santa Rita (Alto Paraná) |
 | Rovus Tapizado | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de noviembre del 2026 | Curuguaty |
 | San Isidro - Showroom | Hasta 12 cuotas sin intereses; 25% de descuento | todos los días | Vigente hasta el 20 de febrero de 2027 | Encarnación |
 | San Rafael Hogar | 20%; hasta 18 cuotas sin intereses; 20% de descuento | Todos los días | Vigente hasta el 13 de febrero del 2027 | No especificado |

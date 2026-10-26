@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-25T12:43:50.287302+00:00",
-  "input_count": 3131,
+  "generated_at": "2026-10-26T14:18:24.425219+00:00",
+  "input_count": 3126,
   "promotion_count": 3182,
-  "duplicates_removed": -51,
+  "duplicates_removed": -56,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -662,7 +662,6 @@
     "8d67868ece6a9a3c": "a13473e41a5c9875",
     "79b77f67da8ff6d5": "08e9a5ac44c4dc70",
     "18d456ef7c8902ec": "ed233fc2f63bfb78",
-    "01788a217f209f21": "3e190cd4eef981e1",
     "5eb571f91e24e225": "ab47b9fb7e816862",
     "ca3208f90f716deb": "4646ab180b0b94c2",
     "ae2794b3d536b17d": "0d13c4f3fa13044a",
@@ -1025,7 +1024,7 @@
     "07276e9eac015752": "235e12d2f368131b",
     "efc8fd0ffcd06d91": "a4e4cca0d99cb1d2",
     "b71d341f0b1ab79b": "6ae9c17f26a45522",
-    "c97d68de00a24d03": "e394f61f2a220563",
+    "c97d68de00a24d03": "877cf06c18beacc7",
     "360fd4bf0d43b5ad": "cc441eff877f5d75",
     "fedb8e709e847829": "139f6f292f3647cc",
     "4c69b3b5410c9c8e": "139f6f292f3647cc",
@@ -1054,7 +1053,9 @@
     "98e1c2d4dcd66610": "235e12d2f368131b",
     "8b650025d06da223": "a4e4cca0d99cb1d2",
     "a963e4d0eba73cd4": "6ae9c17f26a45522",
-    "6835e9541687c3e5": "252153f5abe9bcd1"
+    "6835e9541687c3e5": "252153f5abe9bcd1",
+    "5d46895882cd8316": "7a7add35ef7f8b6a",
+    "e394f61f2a220563": "877cf06c18beacc7"
   },
   "by_bank": {
     "Atlas": 44,
@@ -1188,15 +1189,6 @@
       "id": "3d01eed9be736446",
       "bank": "Atlas",
       "merchant": "Prepará tu vehículo",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "f6be92424371f7e1",
-      "bank": "Atlas",
-      "merchant": "Assist Card",
       "issues": [
         "limits_unconfirmed"
       ],
@@ -1360,15 +1352,6 @@
       "id": "a19971ee5c0feee1",
       "bank": "Continental",
       "merchant": "Fiori Florería",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "ccf8ae37534458fb",
-      "bank": "Continental",
-      "merchant": "Bacon - Smash Burguer - Panceta - Pocket Pizza",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -6759,6 +6742,24 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-VIAJES-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "f6be92424371f7e1",
+      "bank": "Atlas",
+      "merchant": "Assist Card",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "ccf8ae37534458fb",
+      "bank": "Continental",
+      "merchant": "Bacon - Smash Burguer - Panceta - Pocket Pizza",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
       "id": "16ce1db62f5d3301",
