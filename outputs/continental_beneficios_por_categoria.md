@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 834
+Total de beneficios/comercios: 835
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -176,7 +176,7 @@ Total de beneficios/comercios: 834
 |---|---|---|---|---|
 | Teko Park | 10%; Hasta 12 cuotas sin intereses | todos los días | Vigente hasta el 24 de julio de 2027 | Encarnación |
 
-## Farmacias y Perfumerías (35)
+## Farmacias y Perfumerías (36)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -184,6 +184,7 @@ Total de beneficios/comercios: 834
 | Biggie Farma | 20% de reintegro; 20% de descuento | El primer martes de cada mes, en Biggie Farma | Vigente hasta el 05 de septiembre del 2027 | No especificado |
 | Drugstore - Asismed | 10% de reintegro; 32% de descuento; 17% de descuento | Los martes | Vigente hasta el 29 de junio de 2027 | Asunción |
 | Farma Lorena | 20%; 20% de reintegro | Los martes | Vigente hasta el 12 de agosto de 2027 | Concepción |
+| Farma Mellis | 15%; 15% de reintegro | los martes | Vigente hasta el 19 de octubre del 2027 | Santa Rosa (Misiones) |
 | Farma San Juan | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de octubre de 2027 | San Juan Bautista |
 | FarmaInternacional - Grupo Guide | 35%; Hasta 12 cuotas sin intereses; 10% de reintegro; 25% de descuento | todos los días | Vigente hasta el 01 de junio de 2027 | Luque |
 | Farmacenter | 35%; Hasta 3 cuotas sin intereses; 15% de reintegro; 20% de descuento; 15% de descuento | los miércoles | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
