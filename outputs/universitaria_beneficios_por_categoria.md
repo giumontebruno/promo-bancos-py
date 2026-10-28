@@ -140,7 +140,7 @@ Total de beneficios verificados: 71
 |---|---|---|---|---|
 | Essen | 30% de descuento en combos promocionales | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1778241507.pdf) |
 | Essen | Hasta 6 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1778241507.pdf) |
-| Ferrex | Hasta 6 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2025 hasta el 31 de marzo de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1748537145.pdf) |
+| Ferrex | Hasta 6 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1793118111.pdf) |
 
 ## Varios
 

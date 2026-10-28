@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-27T13:09:01.043075+00:00",
+  "checked_at": "2026-10-28T14:00:20.954499+00:00",
   "published": 413,
   "pending": [
     {
@@ -33,11 +33,6 @@
       "reason": "unconfirmed_cards"
     },
     {
-      "merchant_name": "ALEMANIA CELL-SHOPPING MARIANO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
-      "reason": "merchant_not_in_terms"
-    },
-    {
       "merchant_name": "OPTICA SANTA LUCIA",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-optica-santa-lucia",
       "reason": "complex_monetary_and_installment_variants",
@@ -66,11 +61,6 @@
     {
       "merchant_name": "VERDAD O CONSECUENCIA-SHOPPING MARIANO",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-jueves-de-mariano",
-      "reason": "merchant_not_in_terms"
-    },
-    {
-      "merchant_name": "ALEMANIA CELL-SHOPPING MARISCAL",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
       "reason": "merchant_not_in_terms"
     },
     {

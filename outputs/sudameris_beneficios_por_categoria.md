@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 325
+Total de promociones: 328
 
 ## Clubes
 
@@ -113,6 +113,7 @@ Total de promociones: 325
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | 6 cuotas sin interés | Todos los días | • Todos los días hasta el 31 de diciembre del 2026. |
+| Aniversario Plaza Nova | Hasta 10 cuotas sin interés | No especificado | • Jueves 29 de octubre de 2026. |
 | SASPY EXPRESS | 15%; 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | Desde el 01 de octubre hasta el 31 de diciembre 2026. |
 | ZONA NORTE | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 
@@ -136,7 +137,9 @@ Total de promociones: 325
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Aniversario – Distrito Perseverancia | Hasta 12 cuotas sin interés; Tope de compra: Gs. 15.000.000. | No especificado | • Desde el 30 de octubre hasta el 1 de noviembre de 2026. |
 | DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES | ¡Disfrutá de Distrito Perseverancia todo el año! Aprovechá hasta 12 cuotas sin interés en locales adheridos. Vigencia: Del 03/08 al 31/12/2026. | No especificado | Del 03/08 al 31/12/2026. |
+| Late Night – Distrito Perseverancia | Hasta 12 cuotas sin interés | No especificado | •Jueves 29 de octubre 2026. |
 | McLaren Mastercard Formula 1®Team | Sudameris te acerca la emoción del simulador oficial del McLaren Mastercard Formula 1® Team por primera vez en Paraguay. 📍 Distrito Perseverancia 🗓️ Del 21 de septiembre hasta el 1 | No especificado | No especificado |
 | PROMOCIÓN MCLAREN MASTERCARD F1 TEAM | Participación en sorteos de merchandising McLaren Mastercard | Todos los días | Desde 2026-04-10 hasta 2026-11-06 |
 

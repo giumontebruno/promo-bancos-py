@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 835
+Total de beneficios/comercios: 837
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -184,7 +184,7 @@ Total de beneficios/comercios: 835
 | Biggie Farma | 20% de reintegro; 20% de descuento | El primer martes de cada mes, en Biggie Farma | Vigente hasta el 05 de septiembre del 2027 | No especificado |
 | Drugstore - Asismed | 10% de reintegro; 32% de descuento; 17% de descuento | Los martes | Vigente hasta el 29 de junio de 2027 | Asunción |
 | Farma Lorena | 20%; 20% de reintegro | Los martes | Vigente hasta el 12 de agosto de 2027 | Concepción |
-| Farma Mellis | 15%; 15% de reintegro | los martes | Vigente hasta el 19 de octubre del 2027 | Santa Rosa (Misiones) |
+| Farma Mellis | 15%; 15% de reintegro | Los martes | Vigente hasta el 19 de octubre de 2027 | Santa Rosa (Misiones) |
 | Farma San Juan | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de octubre de 2027 | San Juan Bautista |
 | FarmaInternacional - Grupo Guide | 35%; Hasta 12 cuotas sin intereses; 10% de reintegro; 25% de descuento | todos los días | Vigente hasta el 01 de junio de 2027 | Luque |
 | Farmacenter | 35%; Hasta 3 cuotas sin intereses; 15% de reintegro; 20% de descuento; 15% de descuento | los miércoles | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
@@ -633,7 +633,7 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Progresar Corporation S.A. | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 18 de febrero de 2027 | No especificado |
 | Todo huerta | 10% de reintegro | los jueves | Vigente hasta el 28 de enero del 2027 | No especificado |
 
-## Supermercados (119)
+## Supermercados (121)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -656,7 +656,8 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Comercial Baratodo - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 02 de diciembre de 2026 | Capiatá |
 | Comercial Elena - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 29 de septiembre de 2027 | Coronel Oviedo |
 | Comercial Insaurralde - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 03 de marzo de 2027 | Caaguazú |
-| Comercial Liz - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 21 de octubre de 2026 | San Ignacio, Misiones |
+| Comercial Liz - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 21 de octubre de 2027 | San Ignacio, Misiones |
+| Comercial Torito ll - Miércoles de Supermercados | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 20 de abril de 2027 | San Ignacio, Misiones |
 | Comercial Triangulo "Miércoles de supermercados" | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 28 de octubre de 2026 | Salto del Guairá |
 | Coni Express | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 02 de marzo de 2027 | Coronel Oviedo |
 | DM Market | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 18 de agosto de 2027 | Bella Vista Sur |
@@ -716,9 +717,8 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Supermercado Colón - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 25 de enero de 2027 | Guarambaré |
 | Supermercado Coop . Yguazu - Miércoles de supermercados | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 20 de octubre de 2027 | Yguazú |
 | Supermercado D y S - Miércoles de Supermercados | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 02 de diciembre de 2026 | Filadelfia |
-| Supermercado El Cacique S.R.L - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 20 de enero de 2027 | No especificado |
 
-_Se omitieron 39 filas en este resumen; están en el CSV._
+_Se omitieron 41 filas en este resumen; están en el CSV._
 
 ## Tiendas (207)
 

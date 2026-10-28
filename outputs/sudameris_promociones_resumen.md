@@ -2,10 +2,13 @@
 
 Extraidas desde https://www.sudameris.com.py/personas/beneficios
 
-Total: 44
+Total: 47
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
+| Sudameris | Late Night – Distrito Perseverancia | •Jueves 29 de octubre 2026. | • Reintegro en extracto de tarjeta según aplicación de promoción [ver bases y condiciones). • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/late-night-distrito-perseverancia |
+| Sudameris | Aniversario Plaza Nova | • Jueves 29 de octubre de 2026. | • Reintegro en extracto de tarjeta según aplicación de promoción [ver cuadro más abajo). • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/aniversario-plaza-nova |
+| Sudameris | Aniversario – Distrito Perseverancia | • Desde el 30 de octubre hasta el 1 de noviembre de 2026. | • Reintegro en extracto de tarjeta según aplicación de promoción (ver Bases y condiciones). • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/aniversario-distrito-perseverancia |
 | Sudameris | Yacht y Golf Club Paraguayo | •Desde el 01 de octubre hasta el 30 de noviembre 2026. | Todos los días • 10% de reintegro directo en débito automático para pagos de la cuota social. • Hasta 12 Cuotas sin interés para los pagos de cuotas sociales en caja dentro del Club. • Tope de compra durante la vigencia  | https://www.sudameris.com.py/personas/beneficios/yacht-y-golf-club-paraguayo |
 | Sudameris | Universidad Leonardo Da Vinci - Diplomados | Desde el 21 de septiembre 2026 hasta el 31 de mayo de 2027. | Para la inscripción al diplomado (Aplica para modalidad presencial y homeclass) : • 20% de descuento en caja pagando con tarjetas de crédito Sudameris. • Hasta 12 cuotas sin intereses pagando con tarjetas de crédito Suda | https://www.sudameris.com.py/personas/beneficios/universidad-leonardo-da-vinci-diplomados |
 | Sudameris | SASPY EXPRESS | Desde el 01 de octubre hasta el 31 de diciembre 2026. | • 15% de reintegro directo pagando con tarjetas de crédito de Sudameris. • 20% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 10 cuotas sin interés. COMPRAS EN | https://www.sudameris.com.py/beneficios/destacado/928/detalle |
