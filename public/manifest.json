@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T14:13:41.846298+00:00",
-  "promotion_count": 3199,
+  "generated_at": "2026-10-29T14:18:46.599508+00:00",
+  "promotion_count": 3584,
   "banks": [
     "Atlas",
     "BNF",
@@ -105,7 +105,6 @@
     "Shopping Mariscal",
     "Shoppings",
     "Sin categoría",
-    "Stock & Superseis",
     "Supermercados",
     "Teatro",
     "Tecnología",
@@ -119,6 +118,7 @@
     "Viajes",
     "Viajes y turismo",
     "Villarrica",
+    "shell",
     "Ópticas",
     "Últimos días"
   ],
@@ -1172,8 +1172,6 @@
     "a649c6831a4e7858": "cb437e0e1f5ed137",
     "7607ac3e58590edd": "cb437e0e1f5ed137",
     "b78d56e9a993438d": "cb437e0e1f5ed137",
-    "6b361360013e9390": "8d89ae969eb7721b",
-    "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
     "685470c83082810a": "7582bbbd032c1b21",
     "2f744c6f226476f5": "a1b336897f935a00",
     "ff799c18a3668b78": "deb6ce93b3d7aba2",
@@ -1189,7 +1187,6 @@
     "6a8bc55827c2aa37": "7582bbbd032c1b21",
     "c38e59ac5e72c4be": "722233197d7da0af",
     "0aab3bb41a5bb683": "40c960ae52157a2f",
-    "c358f0525817032d": "00a9e4ba8d61dd2e",
     "abbb9e4e17b7f527": "deb6ce93b3d7aba2",
     "6a0ecb0ee4fe06b2": "2f2b3e306611c811",
     "a8415df09ff88b91": "a26ebc291b79958a",
@@ -1203,7 +1200,6 @@
     "421602ecb52b6714": "0113e8ca837c299e",
     "2a992f8aa20ddee9": "4e2400d6ddb3c75e",
     "4b7527dd64776d93": "34d405e101082710",
-    "938f819213cd3a34": "9089f67dacaba497",
     "139f6f292f3647cc": "f43070d01bddf6bd",
     "16b79dc2e6e1712e": "f43070d01bddf6bd",
     "6236aa1761e6a480": "43e8ac8d73e473f5",
@@ -1282,7 +1278,6 @@
     "675cccde12b3a221": "6d899280632c0d71",
     "04db39ba78239cb5": "61737f8f07f11c84",
     "3dcb61724227c6e7": "f299dfa53d347f38",
-    "3a044827f917318a": "736dc13944bb07d5",
     "31ed9c70b18d5951": "1494066e70b298cd",
     "1ff16e25739573ef": "fc73e2ef4a891500",
     "ace1d26d8aeb2a55": "25c542c1b3476286",
@@ -1292,7 +1287,11 @@
     "62f881036743e836": "02dd2f20d406e842",
     "706d7b8a4b417f99": "2c600f207db238ee",
     "f603e2c3681aaeb5": "7633f2a14287df68",
-    "0f3c06520e621fe1": "4b4942c8a89c2a75"
+    "0f3c06520e621fe1": "4b4942c8a89c2a75",
+    "d9d683033f98694c": "bd2729e71386101f",
+    "a9ec3ff22884c1b1": "01ea2364ea7e4ffd",
+    "8d89ae969eb7721b": "6b361360013e9390",
+    "b89d12700f21e3ff": "b5d5c2bf0deba0dd"
   },
   "schema_version": 2
 }

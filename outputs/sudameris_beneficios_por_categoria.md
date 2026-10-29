@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 328
+Total de promociones: 329
 
 ## Clubes
 
@@ -320,6 +320,7 @@ Total de promociones: 328
 | Mascotas & Cia | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
 | Me Encanta | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Megastar | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábados | Desde 2025-08-15 hasta 2027-02-27 |
+| Mentes Expertas – Borja Vilaseca | 20% | No especificado | • Desde el 28 de octubre 2026 |
 | Milord | Hasta 50% de descuento en caja (según edad cumplida del cliente, con tope de hasta 50%), válido para un solo uso en fecha de cumpleaños. No incluye feriados y día de los enamorados 2026. | cumpleaños | Desde 2025-04-01 hasta 2026-02-28 |
 | Morena Canela | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | viernes y sábados | Desde 2026-05-15 hasta 2027-02-27 |
 | Mátalas | 20% de reintegro | Viernes y sábado | Desde 2025-10-24 hasta 2026-02-28 |

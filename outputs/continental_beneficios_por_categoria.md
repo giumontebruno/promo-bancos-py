@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 837
+Total de beneficios/comercios: 838
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -152,11 +152,11 @@ Total de beneficios/comercios: 837
 | Copetrol | 25%; 25% de reintegro; 20% de reintegro | Los viernes | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 | ECOP | 15%; 15% de reintegro | los viernes | Vigente hasta el 06 de diciembre del 2026 | No especificado |
 | Enercon - Estaciones de Servicio | 20%; 20% de reintegro | los viernes | Vigente hasta el 19 de marzo de 2027 | No especificado |
-| Energy | 20%; 20% de reintegro; 25% de reintegro | los viernes | Vigente hasta el 12 de marzo de 2027 | No especificado |
+| Energy | 20%; 25% de reintegro; 20% de reintegro | Los viernes | Vigente hasta el 12 de marzo de 2027 | Todo el país |
 | Grupo Laso - Estaciones de Servicio | 10%; 10% de reintegro | Los viernes | Vigente hasta el 06 de agosto de 2027 | No especificado |
 | HN - Petróleos | 20%; 20% de reintegro | los viernes | Vigente hasta el 23 de abril de 2027 | No especificado |
-| Petrobras | 20%; 25% de reintegro; 20% de reintegro | Los viernes | Vigente hasta el 10 de septiembre de 2027 | No especificado |
-| Petrobras - Privilege | 25% de reintegro | los viernes | Vigente hasta el 10 de septiembre de 2027 | No especificado |
+| Petrobras | 25%; 25% de reintegro; 20% de reintegro | Los viernes | Vigente hasta el 10 de septiembre de 2027 | Todo el país |
+| Petrobras - Privilege | 25%; 25% de reintegro | los viernes | Vigente hasta el 10 de septiembre de 2027 | Todo el país |
 | Petrochaco | 20%; 20% de reintegro | Los viernes | Vigente hasta el 20 de noviembre de 2026 | Todo el país |
 | Petromax | 20%; 20% de reintegro | los viernes | Vigente hasta el 01 de octubre del 2027 | Todo el país |
 | Petropar - Curuguaty | 10%; 10% de reintegro | los viernes | Vigente hasta el 29 de enero de 2027 | Curuguaty |
@@ -250,86 +250,86 @@ Total de beneficios/comercios: 837
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| 836 Cocina Internacional | 35% de reintegro | Los sábados y domingos, en 836 Cocina Internacional | Vigente hasta el 24 de octubre del 2026 | Asunción |
-| 836 Cocina Internacional | 25% de reintegro | Los sábados y domingos, en 836 Cocina Internacional | Vigente hasta el 24 de octubre del 2026 | Asunción |
+| 836 Cocina Internacional | 35% de reintegro | Los sábados y domingos, en 836 Cocina Internacional | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| 836 Cocina Internacional | 25% de reintegro | Los sábados y domingos, en 836 Cocina Internacional | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | 836 Cocina Internacional | 20% de reintegro | Los sábados y domingos, en 836 Cocina Internacional. Además: | Vigente hasta el 10 de julio de 2027 | Asunción |
-| Acuarela Churrasquería | 35% de reintegro | Los sábados y domingos, en Acuarela | Vigente hasta el 24 de octubre de 2026 | No especificado |
-| Acuarela Churrasquería | 25% de reintegro | Los sábados y domingos, en Acuarela | Vigente hasta el 24 de octubre de 2026 | No especificado |
-| Acuarela Churrasquería | 20% de reintegro | Los sábados y domingos, en Acuarela. Además: | Vigente hasta el 27 de noviembre de 2027 | No especificado |
-| Agro Masa | 35% de reintegro | Los sábados y domingos, en Agro Masa - Restaurant | Vigente hasta el 24 de octubre del 2026 | Nueva Durango |
-| Agro Masa | 25% de reintegro | Los sábados y domingos, en Agro Masa - Restaurant | Vigente hasta el 24 de octubre del 2026 | Nueva Durango |
+| Acuarela Churrasquería | 35% de reintegro | Los sábados y domingos, en Acuarela | Vigente hasta el 25 de octubre de 2027 | Todo el país |
+| Acuarela Churrasquería | 25% de reintegro | Los sábados y domingos, en Acuarela | Vigente hasta el 25 de octubre de 2027 | Todo el país |
+| Acuarela Churrasquería | 20% de reintegro | Los sábados y domingos, en Acuarela. Además: | Vigente hasta el 27 de noviembre de 2027 | Todo el país |
+| Agro Masa | 35% de reintegro | Los sábados y domingos, en Agro Masa - Restaurant | Vigente hasta el 25 de octubre de 2027 | Nueva Durango |
+| Agro Masa | 25% de reintegro | Los sábados y domingos, en Agro Masa - Restaurant | Vigente hasta el 25 de octubre de 2027 | Nueva Durango |
 | Agro Masa | 20% de reintegro | Los sábados y domingos, en Agro Masa - Restaurant. Además: | Vigente hasta el 24 de abril de 2027 | Nueva Durango |
-| Almarreina | 35% de reintegro | Los sábados y domingos, en Almarreina | Vigente hasta el 24 de octubre de 2026 | Asunción |
-| Almarreina | 25% de reintegro | Los sábados y domingos, en Almarreina | Vigente hasta el 24 de octubre de 2026 | Asunción |
+| Almarreina | 35% de reintegro | Los sábados y domingos, en Almarreina | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Almarreina | 25% de reintegro | Los sábados y domingos, en Almarreina | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Almarreina | 20% de reintegro | Los sábados y domingos, en Almarreina. Además: | Vigente hasta el 09 de enero de 2027 | Asunción |
-| Amilcar | 35% de reintegro | Los sábados, en Amilcar | Vigente hasta el 24 de octubre de 2026 | Asunción |
-| Amilcar | 25% de reintegro | Los sábados, en Amilcar | Vigente hasta el 24 de octubre de 2026 | Asunción |
+| Amilcar | 35% de reintegro | Los sábados, en Amilcar | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Amilcar | 25% de reintegro | Los sábados, en Amilcar | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Amilcar | 20% de reintegro | Los sábados, en Amilcar. | Vigente hasta el 10 de abril de 2027 | Asunción |
-| Bernardino Hamburguesas | 35% de reintegro | Los sábados y domingos, en Bernardino Hamburguesas | Vigente hasta el 24 de octubre de 2026 | Asunción |
-| Bernardino Hamburguesas | 25% de reintegro | Los sábados y domingos, en Bernardino Hamburguesas | Vigente hasta el 24 de octubre de 2026 | Asunción |
-| Bernardino Hamburguesas | 20% de reintegro | Los sábados y domingos, en Bernardino Hamburguesas. | Vigente hasta el 25 de abril de 2027 | Asunción |
-| Billy Smash | 35% de reintegro | Los sábados y domingos, en Billy Smash | Vigente hasta el 24 de octubre del 2026 | Asunción |
-| Billy Smash | 25% de reintegro | Los sábados y domingos, en Billy Smash | Vigente hasta el 24 de octubre del 2026 | Asunción |
+| Bernardino Hamburguesas | 35% de reintegro | Los sábados y domingos, en Bernardino Hamburguesas | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Bernardino Hamburguesas | 25% de reintegro | Los sábados y domingos, en Bernardino Hamburguesas | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Bernardino Hamburguesas | 20% de reintegro | Los sábados y domingos, en Bernardino Hamburguesas. Además: | Vigente hasta el 25 de abril de 2027 | Asunción |
+| Billy Smash | 35% de reintegro | Los sábados y domingos, en Billy Smash | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Billy Smash | 25% de reintegro | Los sábados y domingos, en Billy Smash | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Billy Smash | 20% de reintegro | Los sábados y domingos, en Billy Smash. Además: | Vigente hasta el 10 de junio de 2027 | Asunción |
-| Bocatta | 35% de reintegro | Los sábados y domingos, en Bocatta | Vigente hasta el 24 de octubre del 2026 | Todo el país |
-| Bocatta | 25% de reintegro | Los sábados y domingos, en Bocatta | Vigente hasta el 24 de octubre del 2026 | Todo el país |
+| Bocatta | 35% de reintegro | Los sábados y domingos, en Bocatta | Vigente hasta el 25 de octubre de 2027 | Todo el país |
+| Bocatta | 25% de reintegro | Los sábados y domingos, en Bocatta | Vigente hasta el 25 de octubre de 2027 | Todo el país |
 | Bocatta | 20% de reintegro | Los sábados y domingos, en Bocatta. Además: | Vigente hasta el 02 de abril de 2027 | Todo el país |
-| Calle 75 | 35% de reintegro | Los sábados y domingos, en Calle 75 | Vigente hasta el 24 de octubre de 2026 | Asunción |
-| Calle 75 | 25% de reintegro | Los sábados y domingos, en Calle 75 | Vigente hasta el 24 de octubre de 2026 | Asunción |
+| Calle 75 | 35% de reintegro | Los sábados y domingos, en Calle 75 | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Calle 75 | 25% de reintegro | Los sábados y domingos, en Calle 75 | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Calle 75 | 20% de reintegro | Los sábados y domingos, en Calle 75. Además: | Vigente hasta el 29 de agosto de 2027 | Asunción |
-| Churrasquería García | 20% de reintegro | Todos los sábados y domingos, en Churrasquería García | Vigente hasta el 19 de diciembre de 2026 | Pirapó (Itapúa) |
-| Churrasquería García | 25% de reintegro | Todos los sábados y domingos, en Churrasquería García. | Vigente hasta el 24 de octubre de 2026 | Pirapó (Itapúa) |
-| Churrasquería García | 35% de reintegro | Todos los sábados y domingos, en Churrasquería García. | Vigente hasta el 24 de octubre de 2026 | Pirapó (Itapúa) |
-| Costa Colón | 35% de reintegro | Los sábados y domingos, en Costa Colón | Vigente hasta el 24 de octubre del 2026 | Asunción |
-| Costa Colón | 25% de reintegro | Los sábados y domingos, en Costa Colón | Vigente hasta el 24 de octubre del 2026 | Asunción |
+| Churrasquería García | 35% de reintegro | Los sábados y domingos, en Churrasquería García | Vigente hasta el 25 de octubre de 2027 | Pirapó (Itapúa) |
+| Churrasquería García | 25% de reintegro | Los sábados y domingos, en Churrasquería García | Vigente hasta el 25 de octubre de 2027 | Pirapó (Itapúa) |
+| Churrasquería García | 20% de reintegro | Los sábados y domingos, en Churrasquería García. Además: | Vigente hasta el 19 de diciembre de 2026 | Pirapó (Itapúa) |
+| Costa Colón | 35% de reintegro | Los sábados y domingos, en Costa Colón | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Costa Colón | 25% de reintegro | Los sábados y domingos, en Costa Colón | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Costa Colón | 20% de reintegro | Los sábados y domingos, en Costa Colón. Además: | Vigente hasta el 08 de agosto de 2027 | Asunción |
-| De Las Sierras - Restaurante | 35% de reintegro | Los sábados y domingos, en De las Sierras Restaurante | Vigente hasta el 24 de octubre de 2026 | Caacupé |
-| De Las Sierras - Restaurante | 25% de reintegro | Los sábados y domingos, en De las Sierras Restaurante | Vigente hasta el 24 de octubre de 2026 | Caacupé |
+| De Las Sierras - Restaurante | 35% de reintegro | Los sábados y domingos, en De las Sierras Restaurante | Vigente hasta el 25 de octubre de 2027 | Caacupé |
+| De Las Sierras - Restaurante | 25% de reintegro | Los sábados y domingos, en De las Sierras Restaurante | Vigente hasta el 25 de octubre de 2027 | Caacupé |
 | De Las Sierras - Restaurante | 20% de reintegro | Los sábados y domingos, en De las Sierras Restaurante. Además: | Vigente hasta el 07 de agosto de 2027 | Caacupé |
 | Don Beling | 20%; 20% de reintegro | Todos los días | Vigente hasta el 25 de agosto de 2027 | Ayolas - Misiones |
-| El Viejo Marino | 20% de reintegro | Todos los sábados y domingos, en El Viejo Marino | Vigente hasta el 31 de octubre del 2026 | No especificado |
-| El Viejo Marino | 25% de reintegro | Todos los sábados y domingos, en El Viejo Marino. | Vigente hasta el 24 de octubre del 2026 | No especificado |
-| El Viejo Marino | 35% de reintegro | Todos los sábados y domingos, en El Viejo Marino. | Vigente hasta el 24 de octubre del 2026 | No especificado |
-| Game Core | 35% de reintegro | Los sábados y domingos, en Game Core | Vigente hasta el 24 de octubre de 2026 | Asunción |
-| Game Core | 25% de reintegro | Los sábados y domingos, en Game Core | Vigente hasta el 24 de octubre de 2026 | Asunción |
-| Game Core | 20% de reintegro | Los sábados y domingos, en Game Core. | Vigente hasta el 24 de abril de 2027 | Asunción |
-| Hamburguesería Du Maykon | 35% de reintegro | Los sábados y domingos, en Hamburguesería Du Maykon | Vigente hasta el 24 de octubre de 2026 | Edelira |
-| Hamburguesería Du Maykon | 25% de reintegro | Los sábados y domingos, en Hamburguesería Du Maykon | Vigente hasta el 24 de octubre de 2026 | Edelira |
+| El Viejo Marino | 35% de reintegro | Los sábados y domingos, en El Viejo Marino | Vigente hasta el 25 de octubre de 2027 | Todo el país |
+| El Viejo Marino | 25% de reintegro | Los sábados y domingos, en El Viejo Marino | Vigente hasta el 25 de octubre de 2027 | Todo el país |
+| El Viejo Marino | 20% de reintegro | Los sábados y domingos, en El Viejo Marino. Además: | Vigente hasta el 31 de octubre de 2026 | Todo el país |
+| Game Core | 35% de reintegro | Los sábados y domingos, en Game Core | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Game Core | 25% de reintegro | Los sábados y domingos, en Game Core | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Game Core | 20% de reintegro | Los sábados y domingos, en Game Core. Además: | Vigente hasta el 24 de abril de 2027 | Asunción |
+| Hamburguesería Du Maykon | 35% de reintegro | Los sábados y domingos, en Hamburguesería Du Maykon | Vigente hasta el 25 de octubre de 2027 | Edelira |
+| Hamburguesería Du Maykon | 25% de reintegro | Los sábados y domingos, en Hamburguesería Du Maykon | Vigente hasta el 25 de octubre de 2027 | Edelira |
 | Hamburguesería Du Maykon | 20% de reintegro | Los sábados y domingos, en Hamburguesería Du Maykon. Además: | Vigente hasta el 21 de agosto de 2027 | Edelira |
-| Kafea | 35% de reintegro | Los sábados y domingos, en Kafea | Vigente hasta el 24 de octubre del 2026 | Asunción |
-| Kafea | 25% de reintegro | Los sábados y domingos, en Kafea | Vigente hasta el 24 de octubre del 2026 | Asunción |
+| Kafea | 35% de reintegro | Los sábados y domingos, en Kafea | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Kafea | 25% de reintegro | Los sábados y domingos, en Kafea | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Kafea | 20% de reintegro | Los sábados y domingos, en Kafea. Además: | Vigente hasta el 09 de octubre de 2027 | Asunción |
 | Koggi | 20%; 35% de reintegro; 25% de reintegro; 20% de reintegro | los sábados | Vigente hasta el 24 de octubre de 2026 | Todo el país |
-| La Candelaria - Restaurant | 35% de reintegro | Los sábados y domingos, en La Candelaria - Restaurant | Vigente hasta el 24 de octubre de 2026 | Areguá |
-| La Candelaria - Restaurant | 25% de reintegro | Los sábados y domingos, en La Candelaria - Restaurant | Vigente hasta el 24 de octubre de 2026 | Areguá |
-| La Candelaria - Restaurant | 20% de reintegro | Los sábados y domingos, en La Candelaria - Restaurant. | Vigente hasta el 06 de junio de 2027 | Areguá |
-| La Nutry | 35% de reintegro | Sábados y domingos, en Lá Nutry | Vigente hasta el 24 de octubre de 2026 | Asunción |
-| La Nutry | 25% de reintegro | Sábados y domingos, en Lá Nutry | Vigente hasta el 24 de octubre de 2026 | Asunción |
-| La Nutry | 20% de reintegro | Sábados y domingos, en Lá Nutry. | Vigente desde el 24 de enero de 2026 al 22 de enero de 2027 | Asunción |
-| Malandras Grill | 35% de reintegro | Los sábados y domingos, en Malandras Grill | Vigente hasta el 24 de octubre del 2026 | Asunción |
-| Malandras Grill | 25% de reintegro | Los sábados y domingos, en Malandras Grill | Vigente hasta el 24 de octubre del 2026 | Asunción |
+| La Candelaria - Restaurant | 35% de reintegro | Los sábados y domingos, en La Candelaria - Restaurant | Vigente hasta el 25 de octubre de 2027 | Areguá |
+| La Candelaria - Restaurant | 25% de reintegro | Los sábados y domingos, en La Candelaria - Restaurant | Vigente hasta el 25 de octubre de 2027 | Areguá |
+| La Candelaria - Restaurant | 20% de reintegro | Los sábados y domingos, en La Candelaria - Restaurant. Además: | Vigente hasta el 06 de junio de 2027 | Areguá |
+| La Nutry | 35% de reintegro | Los sábados y domingos, en Lá Nutry | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| La Nutry | 25% de reintegro | Los sábados y domingos, en Lá Nutry | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| La Nutry | 20% de reintegro | Los sábados y domingos, en Lá Nutry. Además: | Vigente hasta el 22 de enero de 2027 | Asunción |
+| Malandras Grill | 35% de reintegro | Los sábados y domingos, en Malandras Grill | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Malandras Grill | 25% de reintegro | Los sábados y domingos, en Malandras Grill | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Malandras Grill | 20% de reintegro | Los sábados y domingos, en Malandras Grill. Además: | Vigente hasta el 12 de junio de 2027 | Asunción |
 | Marimex Hotel y Restaurant | 20%; 20% de reintegro | Todos los días | Vigente hasta el 25 de agosto de 2027 | Ayolas - Misiones |
-| Mc Donald's | 20%; 20% de reintegro | los viernes | Vigente hasta 26 de diciembre del 2026 | No especificado |
-| Molas 1901 | 35% de reintegro | Los sábados y domingos, en Molas 1901 | Vigente hasta el 24 de octubre del 2026 | Asunción |
-| Molas 1901 | 25% de reintegro | Los sábados y domingos, en Molas 1901 | Vigente hasta el 24 de octubre del 2026 | Asunción |
+| Mc Donald's | 20%; 20% de reintegro | Los viernes | Vigente hasta el 26 de diciembre de 2026 | Todo el país |
+| Molas 1901 | 35% de reintegro | Los sábados y domingos, en Molas 1901 | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Molas 1901 | 25% de reintegro | Los sábados y domingos, en Molas 1901 | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Molas 1901 | 20% de reintegro | Los sábados y domingos, en Molas 1901. Además: | Vigente hasta el 27 de marzo de 2027 | Asunción |
-| Nelore Estrellita | 35% de reintegro | Los sábados y domingos, en Nelore Estrellita de Parque Tamarindo | Vigente hasta el 24 de octubre de 2026 | Asunción |
-| Nelore Estrellita | 25% de reintegro | Los sábados y domingos, en Nelore Estrellita de Parque Tamarindo | Vigente hasta el 24 de octubre de 2026 | Asunción |
+| Nelore Estrellita | 35% de reintegro | Los sábados y domingos, en Nelore Estrellita de Parque Tamarindo | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Nelore Estrellita | 25% de reintegro | Los sábados y domingos, en Nelore Estrellita de Parque Tamarindo | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Nelore Estrellita | 20% de reintegro | Los sábados y domingos, en Nelore Estrellita de Parque Tamarindo. Además: | Vigente hasta el 14 de noviembre de 2026 | Asunción |
-| Parador Campo 9 | 35% de reintegro | Todos sábados y domingos, en Parador Campo 9 | Vigente hasta el 24 de octubre de 2026 | Campo 9 |
-| Parador Campo 9 | 25% de reintegro | Todos sábados y domingos, en Parador Campo 9 | Vigente hasta el 24 de octubre de 2026 | Campo 9 |
-| Parador Campo 9 | 20% de reintegro | Todos sábados y domingos, en Parador Campo 9 | Vigente hasta el 11 de abril de 2027 | Campo 9 |
-| Paulista Grill Churrasquería | 20% de reintegro | Todos los sábados y domingos, en Paulista Grill | Vigente hasta el 27 de noviembre de 2026 | No especificado |
-| Paulista Grill Churrasquería | 25% de reintegro | Todos los sábados y domingos, en Paulista Grill. Locales adheridos: Paulista Grill – Avda. San Martín y Guido Spano ll Paulista Grill – Fdo. De La Mora Capitán Rivas y Sgto. Galarz | Vigente hasta el 24 de octubre de 2026 | No especificado |
-| Paulista Grill Churrasquería | 35% de reintegro | Todos los sábados y domingos, en Paulista Grill. | Vigente hasta el 24 de octubre de 2026 | No especificado |
-| Pederzani | 35% de reintegro | Los sábados y domingos, en Pederzani | Vigente hasta el 24 de octubre del 2026 | Asunción |
-| Pederzani | 25% de reintegro | Los sábados y domingos, en Pederzani | Vigente hasta el 24 de octubre del 2026 | Asunción |
+| Parador Campo 9 | 35% de reintegro | Los sábados y domingos, en Parador Campo 9 | Vigente hasta el 25 de octubre de 2027 | Campo 9 |
+| Parador Campo 9 | 25% de reintegro | Los sábados y domingos, en Parador Campo 9 | Vigente hasta el 25 de octubre de 2027 | Campo 9 |
+| Parador Campo 9 | 20% de reintegro | Los sábados y domingos, en Parador Campo 9. Además: | Vigente hasta el 11 de abril de 2027 | Campo 9 |
+| Paulista Grill Churrasquería | 35% de reintegro | Los sábados y domingos, en Paulista Grill | Vigente hasta el 25 de octubre de 2027 | Todo el país |
+| Paulista Grill Churrasquería | 25% de reintegro | Los sábados y domingos, en Paulista Grill | Vigente hasta el 25 de octubre de 2027 | Todo el país |
+| Paulista Grill Churrasquería | 20% de reintegro | Los sábados y domingos, en Paulista Grill. Además: | Vigente hasta el 27 de noviembre de 2026 | Todo el país |
+| Pederzani | 35% de reintegro | Los sábados y domingos, en Pederzani | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Pederzani | 25% de reintegro | Los sábados y domingos, en Pederzani | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Pederzani | 20% de reintegro | Los sábados y domingos, en Pederzani. Además: | Vigente hasta el 06 de agosto de 2027 | Asunción |
-| Plaza Tamarindo | 35% de reintegro | Los sábados y domingos, en locales adheridos de Plaza Tamarindo | Vigente hasta el 24 de octubre de 2026 | Asunción |
-| Plaza Tamarindo | 25% de reintegro | Los sábados y domingos, en locales adheridos de Plaza Tamarindo | Vigente hasta el 24 de octubre de 2026 | Asunción |
+| Plaza Tamarindo | 35% de reintegro | Los sábados y domingos, en locales adheridos de Plaza Tamarindo | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| Plaza Tamarindo | 25% de reintegro | Los sábados y domingos, en locales adheridos de Plaza Tamarindo | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Plaza Tamarindo | 20% de reintegro | los viernes, sábados y domingos: | Vigente hasta el 27 de agosto de 2027 | Asunción |
-| Real Costanera Restaurante - Encarnación | 35% de reintegro | Los sábados y domingos, en Real Restaurante (Encarnación) | Vigente hasta el 24 de octubre del 2026 | Encarnación |
+| Real Costanera Restaurante - Encarnación | 35% de reintegro | Los sábados y domingos, en Real Costanera - Encarnación | Vigente hasta el 25 de octubre de 2027 | Encarnación |
 
 _Se omitieron 22 filas en este resumen; están en el CSV._
 
@@ -539,7 +539,7 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Champs Elysées - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | De Marie | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
 | El Negro Suplementos - Privilege | 35%; Hasta 12 cuotas sin intereses; 15% de reintegro; 35% de descuento | todos los días | Vigente hasta el 17 de junio de 2027 | Asunción |
-| Energy - Privilege | 25% de reintegro | los viernes | Vigente hasta el 12 de marzo de 2027 | No especificado |
+| Energy - Privilege | 25%; 25% de reintegro | Los viernes | Vigente hasta el 12 de marzo de 2027 | Todo el país |
 | ISDIN - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | Meta Kids - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Meta Sports - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
@@ -554,12 +554,13 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 
-## Promociones especiales (13)
+## Promociones especiales (14)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
 | Adelanto en efectivo | hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de junio de 2027 | Todo el país |
 | Bigg Running Festival | 10%; 10% de reintegro | No especificado | Vigente hasta el 10 de octubre de 2026 | Asunción |
+| DG Market - Distribuidora Gloria | 25%; 25% de reintegro; 20% de reintegro | No especificado | Vigente hasta el 31 de octubre de 2026 | Asunción |
 | Go Park | 20%; Hasta 6 cuotas sin intereses; 20% de reintegro | No especificado | Vigente hasta el 21 de octubre de 2026 | No especificado |
 | Koala | Hasta 45% de descuento | Del 29 al 31 de octubre, en Koala | Desde el 29 de octubre de 2026 hasta el 31 de octubre de 2026 | Todo el país |
 | Koala | 10% de reintegro | Del 29 al 31 de octubre, en Koala | Desde el 29 de octubre de 2026 hasta el 31 de octubre de 2026 | Todo el país |
@@ -703,7 +704,7 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Real - Miércoles de Supermercados | 25%; 25% de reintegro | Los miércoles | Vigente hasta el 13 de abril de 2027 | No especificado |
 | Real Online - Miércoles de Supermercados | 30%; 30% de reintegro | Los miércoles | Vigente hasta el 13 de abril de 2027 | No especificado |
 | Rubencito - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 19 de mayo de 2027 | No especificado |
-| San Cayetano Comercial - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 21 de octubre de 2026 | Luque |
+| San Cayetano Comercial - Miércoles de Supermercados | 20%; Hasta 6 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 27 de noviembre de 2026 | Luque |
 | Stock Supermercados - Miércoles de Supermercados | 20%; Hasta 18 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 | Super Favesa - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 02 de noviembre de 2026 | Coronel Oviedo |
 | Super Total - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 25 de agosto de 2027 | Ayolas - Misiones |
@@ -738,7 +739,7 @@ _Se omitieron 41 filas en este resumen; están en el CSV._
 | Alhambra Alfombras | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 29 de mayo de 2027 | Asunción |
 | Alma Novedades | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 06 de mayo de 2027 | Encarnación |
 | Alternativa | 20%; 20% de reintegro | Los jueves | Vigente hasta el 26 de febrero de 2027 | Caaguazú |
-| Alto Concepto Trajes | 20%; 20% de reintegro | los jueves | No especificado | Asunción |
+| Alto Concepto Trajes | 20%; 20% de reintegro | Los jueves | Vigente hasta el 23 de octubre de 2027 | Asunción |
 | Arezzo | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de agosto de 2027 | Asunción |
 | Atacado Connect | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 13 de marzo de 2027 | Ciudad del Este |
 | Atemporal | 20%; 20% de reintegro | Los jueves | Vigente hasta el 10 de junio de 2027 | San Juan Bautista |

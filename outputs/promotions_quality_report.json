@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-28T14:13:41.846298+00:00",
-  "input_count": 3131,
-  "promotion_count": 3199,
-  "duplicates_removed": -68,
+  "generated_at": "2026-10-29T14:18:46.599508+00:00",
+  "input_count": 3450,
+  "promotion_count": 3584,
+  "duplicates_removed": -134,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1042,8 +1042,6 @@
     "a649c6831a4e7858": "cb437e0e1f5ed137",
     "7607ac3e58590edd": "cb437e0e1f5ed137",
     "b78d56e9a993438d": "cb437e0e1f5ed137",
-    "6b361360013e9390": "8d89ae969eb7721b",
-    "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
     "685470c83082810a": "7582bbbd032c1b21",
     "2f744c6f226476f5": "a1b336897f935a00",
     "ff799c18a3668b78": "deb6ce93b3d7aba2",
@@ -1059,7 +1057,6 @@
     "6a8bc55827c2aa37": "7582bbbd032c1b21",
     "c38e59ac5e72c4be": "722233197d7da0af",
     "0aab3bb41a5bb683": "40c960ae52157a2f",
-    "c358f0525817032d": "00a9e4ba8d61dd2e",
     "abbb9e4e17b7f527": "deb6ce93b3d7aba2",
     "6a0ecb0ee4fe06b2": "2f2b3e306611c811",
     "a8415df09ff88b91": "a26ebc291b79958a",
@@ -1073,7 +1070,6 @@
     "421602ecb52b6714": "0113e8ca837c299e",
     "2a992f8aa20ddee9": "4e2400d6ddb3c75e",
     "4b7527dd64776d93": "34d405e101082710",
-    "938f819213cd3a34": "9089f67dacaba497",
     "139f6f292f3647cc": "f43070d01bddf6bd",
     "16b79dc2e6e1712e": "f43070d01bddf6bd",
     "6236aa1761e6a480": "43e8ac8d73e473f5",
@@ -1152,7 +1148,6 @@
     "675cccde12b3a221": "6d899280632c0d71",
     "04db39ba78239cb5": "61737f8f07f11c84",
     "3dcb61724227c6e7": "f299dfa53d347f38",
-    "3a044827f917318a": "736dc13944bb07d5",
     "31ed9c70b18d5951": "1494066e70b298cd",
     "1ff16e25739573ef": "fc73e2ef4a891500",
     "ace1d26d8aeb2a55": "25c542c1b3476286",
@@ -1162,26 +1157,30 @@
     "62f881036743e836": "02dd2f20d406e842",
     "706d7b8a4b417f99": "2c600f207db238ee",
     "f603e2c3681aaeb5": "7633f2a14287df68",
-    "0f3c06520e621fe1": "4b4942c8a89c2a75"
+    "0f3c06520e621fe1": "4b4942c8a89c2a75",
+    "d9d683033f98694c": "bd2729e71386101f",
+    "a9ec3ff22884c1b1": "01ea2364ea7e4ffd",
+    "8d89ae969eb7721b": "6b361360013e9390",
+    "b89d12700f21e3ff": "b5d5c2bf0deba0dd"
   },
   "by_bank": {
-    "Atlas": 45,
+    "Atlas": 44,
     "BNF": 77,
-    "Continental": 851,
+    "Continental": 918,
     "Coop. Universitaria": 72,
     "Familiar": 413,
     "GNB": 486,
-    "Itaú": 570,
-    "Sudameris": 328,
-    "ueno bank": 357
+    "Itaú": 576,
+    "Sudameris": 329,
+    "ueno bank": 669
   },
   "issue_counts": {
-    "limits_unconfirmed": 222,
-    "validity_unconfirmed": 29,
-    "multiple_purchase_limits": 246,
+    "limits_unconfirmed": 533,
+    "validity_unconfirmed": 28,
+    "multiple_purchase_limits": 249,
     "source_amount_conflict": 15,
     "multiple_refund_limits": 103,
-    "source_verification_pending": 137
+    "source_verification_pending": 138
   },
   "review_queue": [
     {
@@ -1210,16 +1209,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/Spa%20y%20Peluqueria%20adheridas.png"
-    },
-    {
-      "id": "b7c2cef1917f3a65",
-      "bank": "Atlas",
-      "merchant": "DG Market",
-      "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
       "id": "c518393e58fbd72c",
@@ -1480,15 +1469,6 @@
       "merchant": "Koggi",
       "issues": [
         "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "14e72742b4f336cf",
-      "bank": "Continental",
-      "merchant": "Parador Campo 9",
-      "issues": [
-        "limits_unconfirmed"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -1826,6 +1806,15 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
+      "id": "48a6c13c0d6e620c",
+      "bank": "Continental",
+      "merchant": "DG Market - Distribuidora Gloria",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
       "id": "bdc669cc7e8e675c",
       "bank": "Continental",
       "merchant": "Go Park",
@@ -1926,6 +1915,15 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
+      "id": "e241bd62f9c0a9dc",
+      "bank": "Continental",
+      "merchant": "San Cayetano Comercial - Miércoles de Supermercados",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
       "id": "572903aafb76889d",
       "bank": "Continental",
       "merchant": "Stock Supermercados - Miércoles de Supermercados",
@@ -1994,15 +1992,6 @@
       "merchant": "Alma Novedades",
       "issues": [
         "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "a9ec3ff22884c1b1",
-      "bank": "Continental",
-      "merchant": "Alto Concepto Trajes",
-      "issues": [
-        "validity_unconfirmed"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -2566,7 +2555,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "6143b850c1c4dd31",
+      "id": "f5c2cfdee5088f45",
       "bank": "Continental",
       "merchant": "SAX",
       "issues": [
@@ -4556,6 +4545,16 @@
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonaestecde-29926.pdf"
     },
     {
+      "id": "6adfa563678a4b45",
+      "bank": "Sudameris",
+      "merchant": "Mentes Expertas – Borja Vilaseca",
+      "issues": [
+        "source_verification_pending",
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/mentes-expertas-borja-vilaseca"
+    },
+    {
       "id": "c6e218385c80e7e0",
       "bank": "Sudameris",
       "merchant": "Milord",
@@ -5998,6 +5997,51 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-SUPERMERCADOS-_-OCT-2026v2.pdf"
     },
     {
+      "id": "f335d240a23fcd8a",
+      "bank": "ueno bank",
+      "merchant": "360 Sneaker Store",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ca86e01d4715ec19",
+      "bank": "ueno bank",
+      "merchant": "7 For All Mankind",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "4935f8785d9d7cab",
+      "bank": "ueno bank",
+      "merchant": "A&L Tienda",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "77891499f6f4a7ab",
+      "bank": "ueno bank",
+      "merchant": "A3",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "6f9fd9597a993029",
+      "bank": "ueno bank",
+      "merchant": "AB",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "491dc69f0f0a16ae",
       "bank": "ueno bank",
       "merchant": "ALMACÉN 24/7",
@@ -6016,6 +6060,321 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
     },
     {
+      "id": "3a37727c49c69bb9",
+      "bank": "ueno bank",
+      "merchant": "Abrakadabra",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "478d2c15b40c1170",
+      "bank": "ueno bank",
+      "merchant": "Academia DT Básquet",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "dacb927a19456a4d",
+      "bank": "ueno bank",
+      "merchant": "Academy",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "242595e30a5975d1",
+      "bank": "ueno bank",
+      "merchant": "Active",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "8ae28005ac0afc7f",
+      "bank": "ueno bank",
+      "merchant": "Acuario Comercial",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "65849f855917d8cd",
+      "bank": "ueno bank",
+      "merchant": "Adidas",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0ddcc0264b6ff9f1",
+      "bank": "ueno bank",
+      "merchant": "Agropecuaria Paraná",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "adfa472275e29632",
+      "bank": "ueno bank",
+      "merchant": "AguaVista",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "bba444390b32a4aa",
+      "bank": "ueno bank",
+      "merchant": "Agugu",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "5ba46d515203debf",
+      "bank": "ueno bank",
+      "merchant": "Ajos la Tienda",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "12bad60473d73028",
+      "bank": "ueno bank",
+      "merchant": "Al Store",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "96a0faa1d6c87ff7",
+      "bank": "ueno bank",
+      "merchant": "Albertina",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "d692b8a5c43a60ef",
+      "bank": "ueno bank",
+      "merchant": "Alborada",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "76451aa85c8302d5",
+      "bank": "ueno bank",
+      "merchant": "Alborada Super Store",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "672a73eec6b06ecb",
+      "bank": "ueno bank",
+      "merchant": "Aldo",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "3bc3c55ee8d2f328",
+      "bank": "ueno bank",
+      "merchant": "Alejandro Benítez",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "396d845d67f37bab",
+      "bank": "ueno bank",
+      "merchant": "Alexa Tienda",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "7f815d8e9cc05a45",
+      "bank": "ueno bank",
+      "merchant": "Algo Distinto Boutique",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ca380178e45fd1a8",
+      "bank": "ueno bank",
+      "merchant": "Almacén de Mascotas",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "bac184d69a4dd7d0",
+      "bank": "ueno bank",
+      "merchant": "Alpha Sports",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "934acc54171b5a22",
+      "bank": "ueno bank",
+      "merchant": "Alternativa",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c3b82b85f622fde6",
+      "bank": "ueno bank",
+      "merchant": "Alternativa Digital",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "daaaef70c4fcfe26",
+      "bank": "ueno bank",
+      "merchant": "Alto Concepto",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "a7ee5ffac48c5a71",
+      "bank": "ueno bank",
+      "merchant": "American Clothes",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "4c325ede058fe338",
+      "bank": "ueno bank",
+      "merchant": "Aphrodite",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "18e906930cd782a8",
+      "bank": "ueno bank",
+      "merchant": "Ares",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "a5186630aaea9365",
+      "bank": "ueno bank",
+      "merchant": "Arezzo",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "5e9f29d21a09fb01",
+      "bank": "ueno bank",
+      "merchant": "Armele",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "f8a4cff159557be5",
+      "bank": "ueno bank",
+      "merchant": "Arrow",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "5d723d2039b1b8d1",
+      "bank": "ueno bank",
+      "merchant": "Ashley",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "6e5ddb125709b4f4",
+      "bank": "ueno bank",
+      "merchant": "Atacado Connect",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "f5e8994bc83339c9",
+      "bank": "ueno bank",
+      "merchant": "Atemporal",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "dad7afbf7f951543",
+      "bank": "ueno bank",
+      "merchant": "Atenea Cool",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "dd3ee4ad64efccfe",
+      "bank": "ueno bank",
+      "merchant": "Athina",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "3c30ed67314eaaac",
+      "bank": "ueno bank",
+      "merchant": "Avant Padel Club",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "094034dd5deae99e",
       "bank": "ueno bank",
       "merchant": "BODEGA BOUTIQUE",
@@ -6023,6 +6382,177 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "29ec9749c6406b3c",
+      "bank": "ueno bank",
+      "merchant": "Balanceados Neuland",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "802bc4bdfdea58b1",
+      "bank": "ueno bank",
+      "merchant": "Baratão Presentes",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "50df6ed46ffb0ac7",
+      "bank": "ueno bank",
+      "merchant": "Bazar Emanuel",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "139192732c5240ae",
+      "bank": "ueno bank",
+      "merchant": "Belezas Fit",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "36e67f80bd12694e",
+      "bank": "ueno bank",
+      "merchant": "Bella Aurora",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "a834a284c5bd06b3",
+      "bank": "ueno bank",
+      "merchant": "Beluga",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ed81745183ae9401",
+      "bank": "ueno bank",
+      "merchant": "Belvi Studio",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c2f843ab76316d94",
+      "bank": "ueno bank",
+      "merchant": "Benditta Collection",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "bece562e627a89f6",
+      "bank": "ueno bank",
+      "merchant": "Benedetta Style",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "afd8579a5adf0e59",
+      "bank": "ueno bank",
+      "merchant": "Bertoni",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "d80ca4cd72c531b1",
+      "bank": "ueno bank",
+      "merchant": "Betta",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c99dbe3e6745089b",
+      "bank": "ueno bank",
+      "merchant": "Birkenstock",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "78be0150033efacb",
+      "bank": "ueno bank",
+      "merchant": "Body Club",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "45b2a5942288fae1",
+      "bank": "ueno bank",
+      "merchant": "Body Sculpt",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "dccfdcf14fcf1d87",
+      "bank": "ueno bank",
+      "merchant": "Boi de Ouro",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "8b836da5b04233e6",
+      "bank": "ueno bank",
+      "merchant": "Brave",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "8e3c98becfb9cd16",
+      "bank": "ueno bank",
+      "merchant": "Brotzeit",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ceb7d47f6b5d1032",
+      "bank": "ueno bank",
+      "merchant": "Buscapiés",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "6daf808a6179aec5",
+      "bank": "ueno bank",
+      "merchant": "CEI Calzados",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "f4ca477af65893aa",
@@ -6041,6 +6571,258 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "b5bc7d14e19a84e5",
+      "bank": "ueno bank",
+      "merchant": "Cachetitos",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "1f351ff29aa7b6ed",
+      "bank": "ueno bank",
+      "merchant": "Carol",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "e07ed1df2f47492a",
+      "bank": "ueno bank",
+      "merchant": "Carvão e Leña",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "302d7f7e709b4151",
+      "bank": "ueno bank",
+      "merchant": "Casa Bakunovich",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "7ab5cf3b64ee39d4",
+      "bank": "ueno bank",
+      "merchant": "Casa China",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "76617cf17875249c",
+      "bank": "ueno bank",
+      "merchant": "Casa Corbellani",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "257fe26bfdfcfc9c",
+      "bank": "ueno bank",
+      "merchant": "Casa Mariela",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "529e14c690d27762",
+      "bank": "ueno bank",
+      "merchant": "Casa María",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "a57cf8df0f664f3a",
+      "bank": "ueno bank",
+      "merchant": "Casa Violeta",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "5510d21a09c23d23",
+      "bank": "ueno bank",
+      "merchant": "Casacampo",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "d66dcb2501fe6c12",
+      "bank": "ueno bank",
+      "merchant": "Casteletto",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "821d22b8ae2d5f81",
+      "bank": "ueno bank",
+      "merchant": "Cavas",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "43904f89385be8ae",
+      "bank": "ueno bank",
+      "merchant": "Cellshop",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "b18d05b948793507",
+      "bank": "ueno bank",
+      "merchant": "Centric",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "96800c0d7fde934b",
+      "bank": "ueno bank",
+      "merchant": "Chaco Outdoors",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "af5881fe3a61c81f",
+      "bank": "ueno bank",
+      "merchant": "Chetos & Chetitos",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0cfaf437cf7901b6",
+      "bank": "ueno bank",
+      "merchant": "Cindy Lingerie",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0cd9fc88550c3695",
+      "bank": "ueno bank",
+      "merchant": "Cinntre",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "83f3c801a083b745",
+      "bank": "ueno bank",
+      "merchant": "Claudia Silva Boutique",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "aad69498164fc4f8",
+      "bank": "ueno bank",
+      "merchant": "Coco Fit",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "71024fecc793357e",
+      "bank": "ueno bank",
+      "merchant": "ColArte",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "06a6ca67f6ef0308",
+      "bank": "ueno bank",
+      "merchant": "Cole Haan",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "19c01244d6cf82d0",
+      "bank": "ueno bank",
+      "merchant": "Columbia",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "e6967a06b437549e",
+      "bank": "ueno bank",
+      "merchant": "Confort",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "2a4dfbcb38aabf96",
+      "bank": "ueno bank",
+      "merchant": "Coquetas Legacy",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "672145d159adcaca",
+      "bank": "ueno bank",
+      "merchant": "Cortefiel",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "dbef8b2318cd9831",
+      "bank": "ueno bank",
+      "merchant": "Creser Jugando",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "bba332b5d3a37d82",
+      "bank": "ueno bank",
+      "merchant": "Cuna Bella",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "63f839e92f38a495",
@@ -6079,6 +6861,123 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
     },
     {
+      "id": "2aa4ed4ff484e229",
+      "bank": "ueno bank",
+      "merchant": "DV Cueros",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c53a20673f17f767",
+      "bank": "ueno bank",
+      "merchant": "Damat Tween",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "4750b0b02e43f1a6",
+      "bank": "ueno bank",
+      "merchant": "Daniel Cassin",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "3b9e2b55c6eee790",
+      "bank": "ueno bank",
+      "merchant": "Dela Rosa",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "7cd09db3273ccd25",
+      "bank": "ueno bank",
+      "merchant": "Denoir",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "240ca291f6b7c28d",
+      "bank": "ueno bank",
+      "merchant": "Deport Center",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "43b6e385c9de121f",
+      "bank": "ueno bank",
+      "merchant": "Deysi",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ad48646643d436ec",
+      "bank": "ueno bank",
+      "merchant": "Diamore",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "cc668b396f1782a7",
+      "bank": "ueno bank",
+      "merchant": "Dido Bike",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "fee211d309669471",
+      "bank": "ueno bank",
+      "merchant": "Dilara Boutique",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "4f80b195ac42be6e",
+      "bank": "ueno bank",
+      "merchant": "Dino",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "b34599ac1d90f090",
+      "bank": "ueno bank",
+      "merchant": "Discovery",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "6989822545ee3227",
+      "bank": "ueno bank",
+      "merchant": "Distribuidora El Rancho",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "51725dc28d49e249",
       "bank": "ueno bank",
       "merchant": "ETERNITY BRIDAL JEWELS",
@@ -6086,6 +6985,150 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "37399f452456a9f2",
+      "bank": "ueno bank",
+      "merchant": "El Juguetero",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c8fccb1a92f2395f",
+      "bank": "ueno bank",
+      "merchant": "El Mundo del Cotillón",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "8075e15f6004ca59",
+      "bank": "ueno bank",
+      "merchant": "El Paisito",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "8db596c8c1b73f72",
+      "bank": "ueno bank",
+      "merchant": "Elefante Negro",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "3635d27734eb88f0",
+      "bank": "ueno bank",
+      "merchant": "Elizabeth Macoritto",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c4daf5e7557cf428",
+      "bank": "ueno bank",
+      "merchant": "Eneache Office (sucursales adheridas)",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "4a11fea73d1b4f21",
+      "bank": "ueno bank",
+      "merchant": "Ener Bike",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "13741fc8b4ab74cd",
+      "bank": "ueno bank",
+      "merchant": "Entre Hilos",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "cdf2dd6995b72649",
+      "bank": "ueno bank",
+      "merchant": "Estilo Sport Shop",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "93d11c7f91a65ffa",
+      "bank": "ueno bank",
+      "merchant": "Estoy Juguetería",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "e945b4e380e5c013",
+      "bank": "ueno bank",
+      "merchant": "Euphoria",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "2c1aeb0d70f3b0f4",
+      "bank": "ueno bank",
+      "merchant": "Euphoria Kids",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "6231cda003f19b4d",
+      "bank": "ueno bank",
+      "merchant": "Euphoria VCA",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "b105b740d159424f",
+      "bank": "ueno bank",
+      "merchant": "EurekaKids",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0c8c7077d70e8bb0",
+      "bank": "ueno bank",
+      "merchant": "Exa Goethe",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ca3b41dabdb96a68",
+      "bank": "ueno bank",
+      "merchant": "FC Lab",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "df701aba55441ba3",
@@ -6104,6 +7147,114 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "a33e4bdd84c03f64",
+      "bank": "ueno bank",
+      "merchant": "Facha Facha",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "385634cd0e7d272f",
+      "bank": "ueno bank",
+      "merchant": "Fashion Calzados",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "dac92d4078cc9744",
+      "bank": "ueno bank",
+      "merchant": "Fernheim",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ea3a34a17d19a2fa",
+      "bank": "ueno bank",
+      "merchant": "Ferre Ágil",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0337d34ba90ac2b9",
+      "bank": "ueno bank",
+      "merchant": "Fio y Gio",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "d5702b4655ff5900",
+      "bank": "ueno bank",
+      "merchant": "Fiori Florería",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "7702bb767de6587a",
+      "bank": "ueno bank",
+      "merchant": "Flash Importados",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "753d31a1513b5cad",
+      "bank": "ueno bank",
+      "merchant": "Flor y Flor",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "721d90564f47ac99",
+      "bank": "ueno bank",
+      "merchant": "Fox Regalos",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "e655c801c88f106b",
+      "bank": "ueno bank",
+      "merchant": "Freesia",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "e2211a82cd4923da",
+      "bank": "ueno bank",
+      "merchant": "Furla",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "8981d995ea8f2eb2",
+      "bank": "ueno bank",
+      "merchant": "Fusión Altitud",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "04d8bc4ab78f3d35",
@@ -6133,6 +7284,96 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
     },
     {
+      "id": "cd4419bd30a5d4f7",
+      "bank": "ueno bank",
+      "merchant": "Gaete",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "db69f3677ad82289",
+      "bank": "ueno bank",
+      "merchant": "Galán / Pepena",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "9333a35756f751db",
+      "bank": "ueno bank",
+      "merchant": "Gap",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "3f484a45384f10d0",
+      "bank": "ueno bank",
+      "merchant": "Gilardini",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "b59059d76dd3a629",
+      "bank": "ueno bank",
+      "merchant": "Giorgio Redaelli",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "9ed7fa906037c043",
+      "bank": "ueno bank",
+      "merchant": "Giraldini",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "d36f4a523fd78a60",
+      "bank": "ueno bank",
+      "merchant": "Glamore",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c7d0c1168d82c9fb",
+      "bank": "ueno bank",
+      "merchant": "Golden Closet",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "96307714ad214873",
+      "bank": "ueno bank",
+      "merchant": "Gond Wana",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "aeb7708ff9343b37",
+      "bank": "ueno bank",
+      "merchant": "H&M",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "0c37c6c49f4a0d6c",
       "bank": "ueno bank",
       "merchant": "HERENCIA",
@@ -6160,6 +7401,123 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-SAX-_-OCT-2026v1.pdf"
     },
     {
+      "id": "991fc2b4a737d5a6",
+      "bank": "ueno bank",
+      "merchant": "Havaianas",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "870b4900b7634c38",
+      "bank": "ueno bank",
+      "merchant": "Heartwood",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "63365964ac86edca",
+      "bank": "ueno bank",
+      "merchant": "Henley",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "24faa8bd822f7c34",
+      "bank": "ueno bank",
+      "merchant": "Heri",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "754bcd13b7d704ab",
+      "bank": "ueno bank",
+      "merchant": "Hering",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "8b7640c5c8c09eb9",
+      "bank": "ueno bank",
+      "merchant": "Hoka",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "1722f69ba81b36e8",
+      "bank": "ueno bank",
+      "merchant": "Hope",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0f54fe8db59b9073",
+      "bank": "ueno bank",
+      "merchant": "Impacto",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "965ccac27dbb89a9",
+      "bank": "ueno bank",
+      "merchant": "Impacto Modas",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "3ee3e634eb9687c7",
+      "bank": "ueno bank",
+      "merchant": "Indio",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "255f387ca8884919",
+      "bank": "ueno bank",
+      "merchant": "Indio Termos",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "7c1d7eb08db8a4d0",
+      "bank": "ueno bank",
+      "merchant": "Innovalar",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ffb41f7ca8d8daae",
+      "bank": "ueno bank",
+      "merchant": "Intershop",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "b1cb43c778d34f8c",
       "bank": "ueno bank",
       "merchant": "JANIE AND JACK",
@@ -6167,6 +7525,96 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-SAX-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "87b4772c23d8a95b",
+      "bank": "ueno bank",
+      "merchant": "Jack Sport",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "9a814c852371dcc4",
+      "bank": "ueno bank",
+      "merchant": "Jakare",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "22ee2ec3bc94e463",
+      "bank": "ueno bank",
+      "merchant": "Jakare la Tienda",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "1fc52d970f2d5a06",
+      "bank": "ueno bank",
+      "merchant": "Javi Deportes",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "788b0e324931e850",
+      "bank": "ueno bank",
+      "merchant": "JazBi",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "1d63536d7bfaf418",
+      "bank": "ueno bank",
+      "merchant": "Jeep Apparel",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "a274b309b127cb2d",
+      "bank": "ueno bank",
+      "merchant": "Jessica Valenzuela",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "86f64935a95fb477",
+      "bank": "ueno bank",
+      "merchant": "John Foos",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "2296fcb7042494ba",
+      "bank": "ueno bank",
+      "merchant": "Josefina",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "7af87b93923fe619",
+      "bank": "ueno bank",
+      "merchant": "Joy",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "b24b65f39cd3760b",
@@ -6187,6 +7635,15 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
     },
     {
+      "id": "a1e727707a6af4d0",
+      "bank": "ueno bank",
+      "merchant": "KK (Caaguazú y Cnel. Oviedo)",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "0b0393f9a3993471",
       "bank": "ueno bank",
       "merchant": "KOSIUKO",
@@ -6203,6 +7660,69 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "d4f46a1ae49f8192",
+      "bank": "ueno bank",
+      "merchant": "Kids Atelier",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0dea2e3028300a44",
+      "bank": "ueno bank",
+      "merchant": "Kimi S.R.L.",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "4acc29a226445c83",
+      "bank": "ueno bank",
+      "merchant": "Kurt",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "36708b9189359fb3",
+      "bank": "ueno bank",
+      "merchant": "Kyrios (sucursales adheridas)",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "a9ebe5901a6f1b05",
+      "bank": "ueno bank",
+      "merchant": "Kyrios Caaguazú",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "b49ac500a610a619",
+      "bank": "ueno bank",
+      "merchant": "Kérastase",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "79f625dc401143b9",
+      "bank": "ueno bank",
+      "merchant": "L'Occitane",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "b819d0e0aa9b8f4c",
@@ -6223,6 +7743,150 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
     },
     {
+      "id": "3b77aaf2572a3d30",
+      "bank": "ueno bank",
+      "merchant": "La Coqueta",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c4862525932daebf",
+      "bank": "ueno bank",
+      "merchant": "La Gloria Eterna Store",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ec02724071d29799",
+      "bank": "ueno bank",
+      "merchant": "La Guarania",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "06aac47d8d6cc9b5",
+      "bank": "ueno bank",
+      "merchant": "La Sedería",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0a546d45223015cc",
+      "bank": "ueno bank",
+      "merchant": "La Tienda",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "d85540355c1b6e35",
+      "bank": "ueno bank",
+      "merchant": "La Tienda de Rosita",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "b3a7b2d9cd311f85",
+      "bank": "ueno bank",
+      "merchant": "La Tule",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "29dcf95fbed2b0e4",
+      "bank": "ueno bank",
+      "merchant": "Lacoste",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "d4ce9c0a7e0391c8",
+      "bank": "ueno bank",
+      "merchant": "Las Perlas Regalería",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "17bd4cecc9e5ec5d",
+      "bank": "ueno bank",
+      "merchant": "Le Chic",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "330f502a50c65088",
+      "bank": "ueno bank",
+      "merchant": "Levi's",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c7f8a1f69fdd7155",
+      "bank": "ueno bank",
+      "merchant": "Liberato",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "407beabe8a9b88ed",
+      "bank": "ueno bank",
+      "merchant": "Lirios",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "fc0fed0b0184ab63",
+      "bank": "ueno bank",
+      "merchant": "Lucky Import",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0433458ff1f27554",
+      "bank": "ueno bank",
+      "merchant": "Luna Jeans",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "999490545ba5a46f",
+      "bank": "ueno bank",
+      "merchant": "Líbano",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "d4bf445d6fdf31c7",
       "bank": "ueno bank",
       "merchant": "MANGO",
@@ -6230,6 +7894,240 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "42aa3af9326d307b",
+      "bank": "ueno bank",
+      "merchant": "ML Multimarcas",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "f6d508c9e2638404",
+      "bank": "ueno bank",
+      "merchant": "Madrid Center",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "905cb5ec8edb45ac",
+      "bank": "ueno bank",
+      "merchant": "Maestro",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "285b6952244a5a7d",
+      "bank": "ueno bank",
+      "merchant": "Magic Kids",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "002e5d5b4932e7d7",
+      "bank": "ueno bank",
+      "merchant": "Mango",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c8bb5c3ed68cb381",
+      "bank": "ueno bank",
+      "merchant": "Mapy",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "be22fedc4fcd0d6e",
+      "bank": "ueno bank",
+      "merchant": "MarketData",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "b78dc4a3e84b6518",
+      "bank": "ueno bank",
+      "merchant": "Marketplace",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "1848efa4cb0be3c6",
+      "bank": "ueno bank",
+      "merchant": "Martel / Wrangler / Lee",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "bc8a18d6fb2d846d",
+      "bank": "ueno bank",
+      "merchant": "María José Oficial",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "6102b8c0a3cfa13a",
+      "bank": "ueno bank",
+      "merchant": "Matalas",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c808ab24d8145541",
+      "bank": "ueno bank",
+      "merchant": "Mega Electrónicos",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "820bfbfd70ed9262",
+      "bank": "ueno bank",
+      "merchant": "Melba Shoes",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "59adc4016d4e643e",
+      "bank": "ueno bank",
+      "merchant": "Meta Kids",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "3baf3872ae94fa0b",
+      "bank": "ueno bank",
+      "merchant": "Meta Sports",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "2bf3c3401b989e62",
+      "bank": "ueno bank",
+      "merchant": "Meta Sports y Epic",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "a821ccd118b2beea",
+      "bank": "ueno bank",
+      "merchant": "Meta Women",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "69c35ec2f4ba5d47",
+      "bank": "ueno bank",
+      "merchant": "Mi Dulce Bebé",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c23dd21dc90de476",
+      "bank": "ueno bank",
+      "merchant": "Modas Stella",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "fd6e2c687f66ee42",
+      "bank": "ueno bank",
+      "merchant": "Mom & Baby Shop",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "39dd48b0e0a06c30",
+      "bank": "ueno bank",
+      "merchant": "Monita",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "071f3aecef07e945",
+      "bank": "ueno bank",
+      "merchant": "Morena Rose",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "5c04458f8d3a3b8c",
+      "bank": "ueno bank",
+      "merchant": "Multipel",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "8944854448d5344b",
+      "bank": "ueno bank",
+      "merchant": "Multitienda",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "11f0460297090eeb",
+      "bank": "ueno bank",
+      "merchant": "Musseline",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "97abf6dacf7956ff",
+      "bank": "ueno bank",
+      "merchant": "Más Chic",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "d425ee83f2b2d52f",
@@ -6241,6 +8139,60 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
     },
     {
+      "id": "fe0a728baa079f6b",
+      "bank": "ueno bank",
+      "merchant": "Nasa Jeans",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "64086e341bf74ab8",
+      "bank": "ueno bank",
+      "merchant": "New Balance",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "48e63915f343e74f",
+      "bank": "ueno bank",
+      "merchant": "Nicole Novedades",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "f7da84cc8e0c0143",
+      "bank": "ueno bank",
+      "merchant": "Nike",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "3eea392954195826",
+      "bank": "ueno bank",
+      "merchant": "Nueva Americana",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "e955d488ffe49d60",
+      "bank": "ueno bank",
+      "merchant": "Nápoles",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "3ae064a2ea775705",
       "bank": "ueno bank",
       "merchant": "OR NOIR",
@@ -6248,6 +8200,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "3bb0d3b858b3ca57",
+      "bank": "ueno bank",
+      "merchant": "OVS Kids",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "602e5f9588e3c92e",
@@ -6295,6 +8256,186 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
     },
     {
+      "id": "f07e7f1b9a5c349a",
+      "bank": "ueno bank",
+      "merchant": "Paats & Paats",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "1fd07291ded41a20",
+      "bank": "ueno bank",
+      "merchant": "Padel Point Asunción",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0826937d57c92d29",
+      "bank": "ueno bank",
+      "merchant": "Padel Store",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "b80510488608c0e3",
+      "bank": "ueno bank",
+      "merchant": "Paranatex",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "8286b89ec74cd01f",
+      "bank": "ueno bank",
+      "merchant": "Paraná Calzados",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "9100aee0f54a6c87",
+      "bank": "ueno bank",
+      "merchant": "Patriduar Moda Infantil",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "50df2d9491ab2f87",
+      "bank": "ueno bank",
+      "merchant": "Pedro del Hierro",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "e8f8300f9d9fd44e",
+      "bank": "ueno bank",
+      "merchant": "Penti",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "659e82fda216b0f7",
+      "bank": "ueno bank",
+      "merchant": "Piazza",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ee5e67a968479b15",
+      "bank": "ueno bank",
+      "merchant": "Pilar",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "7c1740efd22e580b",
+      "bank": "ueno bank",
+      "merchant": "Pipol Watch",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "40cb8e4a71884775",
+      "bank": "ueno bank",
+      "merchant": "Pistacho",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "925e145578ecaa88",
+      "bank": "ueno bank",
+      "merchant": "Premier Sports",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "d42a04d1d16a3919",
+      "bank": "ueno bank",
+      "merchant": "Pro Sport",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "f93c556b31399aa9",
+      "bank": "ueno bank",
+      "merchant": "Prune",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "32674776023ee757",
+      "bank": "ueno bank",
+      "merchant": "Pulsak",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "255a5fe251242673",
+      "bank": "ueno bank",
+      "merchant": "Queen Anne",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "34bc613ec965c4bf",
+      "bank": "ueno bank",
+      "merchant": "Quien Diría",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "9308247349ba6f15",
+      "bank": "ueno bank",
+      "merchant": "Quiero",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "bd2a02dd422f3d48",
+      "bank": "ueno bank",
+      "merchant": "Quineo Warehouse",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "1000c3fb7e212b32",
       "bank": "ueno bank",
       "merchant": "REBODY",
@@ -6302,6 +8443,123 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "4003bae1da79e5f2",
+      "bank": "ueno bank",
+      "merchant": "Rajomar",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "f0040e5579f44768",
+      "bank": "ueno bank",
+      "merchant": "Raphaella Booz",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "e5e266abf122ec19",
+      "bank": "ueno bank",
+      "merchant": "Renova Padel",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "684efe6646505507",
+      "bank": "ueno bank",
+      "merchant": "Rincón Sabroso",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c8aec832c4b89b08",
+      "bank": "ueno bank",
+      "merchant": "Rise",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "8844b14184535b7b",
+      "bank": "ueno bank",
+      "merchant": "Rodríguez Grad",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "52cf8b214fbb2483",
+      "bank": "ueno bank",
+      "merchant": "Rookie",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "2b9245341d919d13",
+      "bank": "ueno bank",
+      "merchant": "Ropería Dany",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "4a97703722440046",
+      "bank": "ueno bank",
+      "merchant": "Ropería Naldo",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "f085e7298be0e6a6",
+      "bank": "ueno bank",
+      "merchant": "Royal Comercial",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "a53d98619fb7f13a",
+      "bank": "ueno bank",
+      "merchant": "Rubens",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ab29d0415b8df01f",
+      "bank": "ueno bank",
+      "merchant": "Rulo Sport",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "20930a23f9735f91",
+      "bank": "ueno bank",
+      "merchant": "Rural Center",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "b7e1ab6fc5ab1ad2",
@@ -6320,6 +8578,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-SAX-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "a24ef3887f4d752a",
+      "bank": "ueno bank",
+      "merchant": "SAX",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "a590431f503d8e0a",
@@ -6349,6 +8616,168 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
     },
     {
+      "id": "92ec965eb62b5115",
+      "bank": "ueno bank",
+      "merchant": "Sallustro",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "4d590edae1f294b3",
+      "bank": "ueno bank",
+      "merchant": "Sallustro Sport",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "dbfd77e305619afc",
+      "bank": "ueno bank",
+      "merchant": "San Blas",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "32d66550b26e6d17",
+      "bank": "ueno bank",
+      "merchant": "San Cayetano",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "603aba166d50b899",
+      "bank": "ueno bank",
+      "merchant": "San Pedro",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "84f9fe62c397eb57",
+      "bank": "ueno bank",
+      "merchant": "Santa Catalina",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "e9b0eba4d2eacbf6",
+      "bank": "ueno bank",
+      "merchant": "Santani",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "261991f59d34ebfc",
+      "bank": "ueno bank",
+      "merchant": "Sanycer Boutique",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "be80510880a63129",
+      "bank": "ueno bank",
+      "merchant": "Sartori Indumentaria",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "1b10c7e96eac50a6",
+      "bank": "ueno bank",
+      "merchant": "Sindec",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c2c742753834df9b",
+      "bank": "ueno bank",
+      "merchant": "Skechers",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "c31bd8aad708b536",
+      "bank": "ueno bank",
+      "merchant": "Smart Fit",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "2e3be3ea6c40cfe6",
+      "bank": "ueno bank",
+      "merchant": "Smash Padel",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "70fb7e52634edb23",
+      "bank": "ueno bank",
+      "merchant": "Sport Césped",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "5d074be209153d0d",
+      "bank": "ueno bank",
+      "merchant": "Sport Shop",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "e4e16b3f7950cb25",
+      "bank": "ueno bank",
+      "merchant": "Star Kids",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "5673415d4bf8e379",
+      "bank": "ueno bank",
+      "merchant": "Stay Fresh",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "fe94fbddbc380177",
+      "bank": "ueno bank",
+      "merchant": "Sweet Store",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "43fcdbd92fa340af",
       "bank": "ueno bank",
       "merchant": "TIMBERLAND",
@@ -6356,6 +8785,186 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "0bf80ffb3a27db2f",
+      "bank": "ueno bank",
+      "merchant": "TL Sports & Outdoors",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "49fd2b9995fa5b4f",
+      "bank": "ueno bank",
+      "merchant": "Tecnholar",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0ae834fc0eaf501d",
+      "bank": "ueno bank",
+      "merchant": "Teko Baby Shop",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ceeaf9d77a0da0f9",
+      "bank": "ueno bank",
+      "merchant": "Teranu",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "528152b274e102cc",
+      "bank": "ueno bank",
+      "merchant": "Tessy",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "32573a7a325de31a",
+      "bank": "ueno bank",
+      "merchant": "The Black Cow",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "fb8c87a0d3d528fd",
+      "bank": "ueno bank",
+      "merchant": "Tiari",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "d968d3e153fa0257",
+      "bank": "ueno bank",
+      "merchant": "Tienda Padel",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0b4679375adfe3a2",
+      "bank": "ueno bank",
+      "merchant": "Tiendas Martel",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "b794751edc96a7f0",
+      "bank": "ueno bank",
+      "merchant": "Tiento",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ec5a30ebc4a1ef62",
+      "bank": "ueno bank",
+      "merchant": "Tiento Multimarcas",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "65e624823579b8cc",
+      "bank": "ueno bank",
+      "merchant": "Timberland",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "db7e3f754125741c",
+      "bank": "ueno bank",
+      "merchant": "Todo Costura",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "6bb59fe979da516b",
+      "bank": "ueno bank",
+      "merchant": "Todo Huerta",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "eb2f42d403847aa0",
+      "bank": "ueno bank",
+      "merchant": "Todocenter",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ef2fe70b11605b33",
+      "bank": "ueno bank",
+      "merchant": "Top Tenis",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "5c9256bd593049f2",
+      "bank": "ueno bank",
+      "merchant": "Totto",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "2649e565a874a5d7",
+      "bank": "ueno bank",
+      "merchant": "Tower's",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "580b1cdaba42eb08",
+      "bank": "ueno bank",
+      "merchant": "Tres Chic",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "764f4a06d3871beb",
+      "bank": "ueno bank",
+      "merchant": "UNIBE",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "7e65d4d657ba56d5",
@@ -6376,6 +8985,42 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
     },
     {
+      "id": "49ff93b4817edfd2",
+      "bank": "ueno bank",
+      "merchant": "Ulaula Kids",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "d9c117e5eb4ab0ab",
+      "bank": "ueno bank",
+      "merchant": "Uliko Store",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "cf3c93fdc0998453",
+      "bank": "ueno bank",
+      "merchant": "Under Armour",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "055e197b0a41d00d",
+      "bank": "ueno bank",
+      "merchant": "United Colors of Benetton",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "e7cd9e04af483f4a",
       "bank": "ueno bank",
       "merchant": "VERONICA WILLIGS",
@@ -6383,6 +9028,141 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "c61a1af06bdf9c97",
+      "bank": "ueno bank",
+      "merchant": "VGS",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "040782029b388e41",
+      "bank": "ueno bank",
+      "merchant": "Valerie",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "3cc94527d21d6428",
+      "bank": "ueno bank",
+      "merchant": "Vane",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "d4a9d5a6145f4039",
+      "bank": "ueno bank",
+      "merchant": "Vans",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "a121ee8f4f375246",
+      "bank": "ueno bank",
+      "merchant": "Venus's",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "153690486f459e1d",
+      "bank": "ueno bank",
+      "merchant": "Versalles",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "0ec0106b0f994274",
+      "bank": "ueno bank",
+      "merchant": "Verónica Torres",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "5fb0387ec7f3bf7b",
+      "bank": "ueno bank",
+      "merchant": "Verónica Torres Colección de Arte",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "bd3ce8f95e02ef28",
+      "bank": "ueno bank",
+      "merchant": "Vets",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "da0b39dcf095957e",
+      "bank": "ueno bank",
+      "merchant": "Violeta",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "5be2cf3cd191884c",
+      "bank": "ueno bank",
+      "merchant": "Wash and Go",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "b345d5c2958f9033",
+      "bank": "ueno bank",
+      "merchant": "Wish",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "6fed389449a2428d",
+      "bank": "ueno bank",
+      "merchant": "Zimmer",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "ea974d383375be23",
+      "bank": "ueno bank",
+      "merchant": "Zukha",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "fe05bf9d45495ca8",
+      "bank": "ueno bank",
+      "merchant": "Zukha Kids",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "d4c9c25bb5c52ad7",
@@ -6821,6 +9601,24 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-VERNIER-_-OCT-2026v1.pdf"
     },
     {
+      "id": "89e24491edddd118",
+      "bank": "ueno bank",
+      "merchant": "Área Top Multimarcas",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
+      "id": "2bf3f6b9c6cca98c",
+      "bank": "ueno bank",
+      "merchant": "Ñemonde",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
+    },
+    {
       "id": "c386a6ce9f04d971",
       "bank": "ueno bank",
       "merchant": "ÓPTICA UNO",
@@ -6828,6 +9626,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-TIENDAS-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "9d48119cac07d896",
+      "bank": "ueno bank",
+      "merchant": "Única Moda",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v2.pdf"
     },
     {
       "id": "2b847c6b575b38ef",
@@ -6897,6 +9704,24 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/09/Beneficio-Reintegro-BLACK-VIAJES-_-OCT-2026v1.pdf"
+    },
+    {
+      "id": "14e72742b4f336cf",
+      "bank": "Continental",
+      "merchant": "Parador Campo 9",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "6143b850c1c4dd31",
+      "bank": "Continental",
+      "merchant": "SAX",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
       "id": "f6be92424371f7e1",

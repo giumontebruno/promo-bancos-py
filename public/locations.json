@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:13:09+00:00",
+  "generated_at": "2026-10-29T14:18:00+00:00",
   "provider": "Official bank branch lists + reviewed location matches",
   "total_locations": 2039,
   "qa_held_locations": 85,
@@ -27842,7 +27842,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:42.427639+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:01.716338+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJm0Zold2nXZQRG1cnhtZvUAo",
       "google_candidate": {
@@ -27850,7 +27850,7 @@
         "formatted_address": "P96J+F25, Asunción 001218",
         "lat": -25.2888708,
         "lng": -57.6198764,
-        "checked_at": "2026-10-20T04:18:42+00:00"
+        "checked_at": "2026-10-29T14:18:01+00:00"
       }
     },
     {
@@ -27871,7 +27871,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:43.157527+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:02.620286+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJn1hXcuWnXZQR4SPuenEgIdo",
       "google_candidate": {
@@ -27879,7 +27879,7 @@
         "formatted_address": "Av. Gral. José Gervasio Artigas casi, Asunción 001202",
         "lat": -25.2734485,
         "lng": -57.6073623,
-        "checked_at": "2026-10-20T04:18:43+00:00"
+        "checked_at": "2026-10-29T14:18:02+00:00"
       }
     },
     {
@@ -27900,7 +27900,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:44.691957+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:03.527847+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJAQSwNzOmXZQR8mtqZpVPszU",
       "google_candidate": {
@@ -27908,7 +27908,7 @@
         "formatted_address": "Nicasio Insaurralde y, Asunción 001206",
         "lat": -25.2761397,
         "lng": -57.5981288,
-        "checked_at": "2026-10-20T04:18:44+00:00"
+        "checked_at": "2026-10-29T14:18:03+00:00"
       }
     },
     {
@@ -27929,7 +27929,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:45.542119+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:04.394491+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJAYySEQCpXZQR2yxEvzHhfCg",
       "google_candidate": {
@@ -27937,7 +27937,7 @@
         "formatted_address": "MCRW+59W, Victor Heyn, Asunción 001418",
         "lat": -25.3095218,
         "lng": -57.5540465,
-        "checked_at": "2026-10-20T04:18:45+00:00"
+        "checked_at": "2026-10-29T14:18:04+00:00"
       }
     },
     {
@@ -27958,15 +27958,15 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:47.152465+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:05.422903+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJhciPnfOnXZQRfPwPObbgEGQ",
+      "google_candidate_place_id": "ChIJZYlae--nXZQRqcoGWMbP2jA",
       "google_candidate": {
-        "google_name": "Farmacenter Central",
-        "formatted_address": "Estrella 526 entre, 14 De Mayo y, Asunción 1014",
-        "lat": -25.2812801,
-        "lng": -57.6375641,
-        "checked_at": "2026-10-20T04:18:47+00:00"
+        "google_name": "Farmacenter Tacuary",
+        "formatted_address": "Tacuary y, 25 de Mayo 620, Asunción 1218",
+        "lat": -25.2863224,
+        "lng": -57.6285731,
+        "checked_at": "2026-10-29T14:18:05+00:00"
       }
     },
     {
@@ -27987,7 +27987,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:47.943982+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:06.264136+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJhciPnfOnXZQRfPwPObbgEGQ",
       "google_candidate": {
@@ -27995,7 +27995,7 @@
         "formatted_address": "Estrella 526 entre, 14 De Mayo y, Asunción 1014",
         "lat": -25.2812801,
         "lng": -57.6375641,
-        "checked_at": "2026-10-20T04:18:47+00:00"
+        "checked_at": "2026-10-29T14:18:06+00:00"
       }
     },
     {
@@ -28016,7 +28016,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:50.561768+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:07.109158+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJr02WSCymXZQRTctqTCovH3M",
       "google_candidate": {
@@ -28024,7 +28024,7 @@
         "formatted_address": "Venezuela 911 casi, Asunción 1206",
         "lat": -25.2820806,
         "lng": -57.5945873,
-        "checked_at": "2026-10-20T04:18:50+00:00"
+        "checked_at": "2026-10-29T14:18:06+00:00"
       }
     },
     {
@@ -28045,7 +28045,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:52.802278+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:07.897126+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJG84nm96nXZQRXBqy2tAkBXQ",
       "google_candidate": {
@@ -28053,7 +28053,7 @@
         "formatted_address": "Av. Mariscal López, Asunción",
         "lat": -25.2918179,
         "lng": -57.5852506,
-        "checked_at": "2026-10-20T04:18:52+00:00"
+        "checked_at": "2026-10-29T14:18:07+00:00"
       }
     },
     {
@@ -28074,7 +28074,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:53.836338+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:08.733828+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJkytuobmoXZQRDinufkpMasA",
       "google_candidate": {
@@ -28082,7 +28082,7 @@
         "formatted_address": "Av. Mariscal López esquina, Asunción 1416",
         "lat": -25.3000419,
         "lng": -57.5672124,
-        "checked_at": "2026-10-20T04:18:53+00:00"
+        "checked_at": "2026-10-29T14:18:08+00:00"
       }
     },
     {
@@ -28103,7 +28103,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:26.325733+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:09.560314+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJrRax7qeoXZQRV2Lp6znZugc",
       "google_candidate": {
@@ -28111,7 +28111,7 @@
         "formatted_address": "Prof.ª Delia Frutos de González casi, Asunción 1529",
         "lat": -25.283252,
         "lng": -57.5654957,
-        "checked_at": "2026-10-20T04:40:26+00:00"
+        "checked_at": "2026-10-29T14:18:09+00:00"
       }
     },
     {
@@ -28132,7 +28132,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:27.221810+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:10.367329+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJD2daldanXZQRyE9ivYX3Q7s",
       "google_candidate": {
@@ -28140,7 +28140,7 @@
         "formatted_address": "Av. España y, Asunción 1208",
         "lat": -25.2883586,
         "lng": -57.6054497,
-        "checked_at": "2026-10-20T04:40:27+00:00"
+        "checked_at": "2026-10-29T14:18:10+00:00"
       }
     },
     {
@@ -28161,7 +28161,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:28.091471+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:11.247641+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJkztQc-GnXZQR5b944RWv1Ss",
       "google_candidate": {
@@ -28169,7 +28169,7 @@
         "formatted_address": "Avda. Brasilia 655 entre, República de Siria y, Asunción 1208",
         "lat": -25.28657,
         "lng": -57.6021177,
-        "checked_at": "2026-10-20T04:40:27+00:00"
+        "checked_at": "2026-10-29T14:18:11+00:00"
       }
     },
     {
@@ -28190,7 +28190,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:28.882822+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:12.159249+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJaV0dccqnXZQRs_4aVQzUV18",
       "google_candidate": {
@@ -28198,7 +28198,7 @@
         "formatted_address": "Av. Santísima Trinidad casi, Asunción 001518",
         "lat": -25.2642275,
         "lng": -57.572167,
-        "checked_at": "2026-10-20T04:40:28+00:00"
+        "checked_at": "2026-10-29T14:18:12+00:00"
       }
     },
     {
@@ -28219,15 +28219,15 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:29.680639+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:12.992562+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJkytuobmoXZQRDinufkpMasA",
+      "google_candidate_place_id": "ChIJV8yAA3anXZQRknHmh1bF_7s",
       "google_candidate": {
-        "google_name": "Farmacenter Mcal. Lopez 3",
-        "formatted_address": "Av. Mariscal López esquina, Asunción 1416",
-        "lat": -25.3000419,
-        "lng": -57.5672124,
-        "checked_at": "2026-10-20T04:40:29+00:00"
+        "google_name": "Farmacenter Ferrocarril",
+        "formatted_address": "Avda. Mariscal Lopez e, México y, Asunción 1101",
+        "lat": -25.282752,
+        "lng": -57.6303475,
+        "checked_at": "2026-10-29T14:18:12+00:00"
       }
     },
     {
@@ -28248,7 +28248,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:30.428945+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:13.851122+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJhciPnfOnXZQRfPwPObbgEGQ",
       "google_candidate": {
@@ -28256,7 +28256,7 @@
         "formatted_address": "Estrella 526 entre, 14 De Mayo y, Asunción 1014",
         "lat": -25.2812801,
         "lng": -57.6375641,
-        "checked_at": "2026-10-20T04:40:30+00:00"
+        "checked_at": "2026-10-29T14:18:13+00:00"
       }
     },
     {
@@ -28277,15 +28277,15 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:31.244090+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:14.696458+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJhciPnfOnXZQRfPwPObbgEGQ",
+      "google_candidate_place_id": "ChIJi11il9GnXZQRUBLCAvdFCV8",
       "google_candidate": {
-        "google_name": "Farmacenter Central",
-        "formatted_address": "Estrella 526 entre, 14 De Mayo y, Asunción 1014",
-        "lat": -25.2812801,
-        "lng": -57.6375641,
-        "checked_at": "2026-10-20T04:40:31+00:00"
+        "google_name": "Farmacenter Itapua",
+        "formatted_address": "Itapua casi, Asunción 1521",
+        "lat": -25.2585995,
+        "lng": -57.5709465,
+        "checked_at": "2026-10-29T14:18:14+00:00"
       }
     },
     {
@@ -28306,7 +28306,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:32.022486+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:15.508027+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJEY2HuZapXZQRErw8pYIE9MU",
       "google_candidate": {
@@ -28314,7 +28314,7 @@
         "formatted_address": "Avda. Rca. Argentina e, Alberto De Sousa y, Asunción 1415",
         "lat": -25.3030693,
         "lng": -57.5814074,
-        "checked_at": "2026-10-20T04:40:31+00:00"
+        "checked_at": "2026-10-29T14:18:15+00:00"
       }
     },
     {
@@ -28335,7 +28335,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:32.811162+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:16.352294+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJQ-Xj3v-lXZQRnXbmMnvWjDU",
       "google_candidate": {
@@ -28343,7 +28343,7 @@
         "formatted_address": "Av. Aviadores del Chaco 3308 esq, Asunción 1401",
         "lat": -25.2777575,
         "lng": -57.5529801,
-        "checked_at": "2026-10-20T04:40:32+00:00"
+        "checked_at": "2026-10-29T14:18:16+00:00"
       }
     },
     {
@@ -28364,7 +28364,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:33.629465+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:17.221060+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ6bS351ipXZQR6VMXzhP8djI",
       "google_candidate": {
@@ -28372,7 +28372,7 @@
         "formatted_address": "Av. Dr. Guido Boggiani casi, Asunción 1419",
         "lat": -25.3172937,
         "lng": -57.5656954,
-        "checked_at": "2026-10-20T04:40:33+00:00"
+        "checked_at": "2026-10-29T14:18:17+00:00"
       }
     },
     {
@@ -28393,7 +28393,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:34.429333+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:18.071576+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJkytuobmoXZQRDinufkpMasA",
       "google_candidate": {
@@ -28401,7 +28401,7 @@
         "formatted_address": "Av. Mariscal López esquina, Asunción 1416",
         "lat": -25.3000419,
         "lng": -57.5672124,
-        "checked_at": "2026-10-20T04:40:34+00:00"
+        "checked_at": "2026-10-29T14:18:17+00:00"
       }
     },
     {
@@ -28422,15 +28422,15 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:36.752635+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:18.887778+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJC6XP0nWpXZQRduPQEuwH7Sg",
+      "google_candidate_place_id": "ChIJ0aEUToqoXZQRQlNj6foNfVw",
       "google_candidate": {
-        "google_name": "Farmacenter San Isidro",
-        "formatted_address": "Av. Defensores del Chaco 1760 esq, Lambaré 1505",
-        "lat": -25.3575844,
-        "lng": -57.5957893,
-        "checked_at": "2026-10-20T04:40:36+00:00"
+        "google_name": "Farmacenter Choferes 1",
+        "formatted_address": "Av. Choferes Del Chaco 1908 esq, Asunción 1230",
+        "lat": -25.3064183,
+        "lng": -57.5958428,
+        "checked_at": "2026-10-29T14:18:18+00:00"
       }
     },
     {
@@ -28451,7 +28451,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:37.614986+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:19.723266+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJkytuobmoXZQRDinufkpMasA",
       "google_candidate": {
@@ -28459,7 +28459,7 @@
         "formatted_address": "Av. Mariscal López esquina, Asunción 1416",
         "lat": -25.3000419,
         "lng": -57.5672124,
-        "checked_at": "2026-10-20T04:40:37+00:00"
+        "checked_at": "2026-10-29T14:18:19+00:00"
       }
     },
     {
@@ -28480,15 +28480,15 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:38.359047+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:20.499358+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJhciPnfOnXZQRfPwPObbgEGQ",
+      "google_candidate_place_id": "ChIJoy2kxOWnXZQRuLDk51sJKGk",
       "google_candidate": {
-        "google_name": "Farmacenter Central",
-        "formatted_address": "Estrella 526 entre, 14 De Mayo y, Asunción 1014",
-        "lat": -25.2812801,
-        "lng": -57.6375641,
-        "checked_at": "2026-10-20T04:40:38+00:00"
+        "google_name": "Farmacenter España 3",
+        "formatted_address": "Av Gral Máximo Santos esq, Asunción 001535",
+        "lat": -25.2878515,
+        "lng": -57.6093919,
+        "checked_at": "2026-10-29T14:18:20+00:00"
       }
     },
     {
@@ -28509,7 +28509,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:39.081422+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:21.273595+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJecoA7GupXZQRVwcsyO2kkbI",
       "google_candidate": {
@@ -28517,7 +28517,7 @@
         "formatted_address": "Denis Roa, &, Asunción 001407",
         "lat": -25.2942234,
         "lng": -57.5611375,
-        "checked_at": "2026-10-20T04:40:38+00:00"
+        "checked_at": "2026-10-29T14:18:21+00:00"
       }
     },
     {
@@ -28538,7 +28538,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:40.670701+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:22.212038+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJHb49GYqnXZQRV2ekHf8bGvI",
       "google_candidate": {
@@ -28546,7 +28546,7 @@
         "formatted_address": "Av. Dr. Felipe Molas López 1250, Asunción 001520",
         "lat": -25.269871,
         "lng": -57.5724045,
-        "checked_at": "2026-10-20T04:40:40+00:00"
+        "checked_at": "2026-10-29T14:18:22+00:00"
       }
     },
     {
@@ -28567,7 +28567,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:42.240152+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:23.086094+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJb2WleSemXZQRC0lOs1Waq50",
       "google_candidate": {
@@ -28575,7 +28575,7 @@
         "formatted_address": "Av. España, Asunción 001411",
         "lat": -25.2862596,
         "lng": -57.584118,
-        "checked_at": "2026-10-20T04:40:42+00:00"
+        "checked_at": "2026-10-29T14:18:22+00:00"
       }
     },
     {
@@ -28596,15 +28596,15 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:43.982040+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:24.079071+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJESFnryEJXZQRCF9LxP02gYk",
+      "google_candidate_place_id": "ChIJLWCCZfOnXZQRdT3aEfhl7kk",
       "google_candidate": {
-        "google_name": "Farmacia Vicente Scavone",
-        "formatted_address": "Av. Carlos Antonio López, Asunción 001008",
-        "lat": -25.2891002,
-        "lng": -57.6551503,
-        "checked_at": "2026-10-20T04:40:43+00:00"
+        "google_name": "Farmacia Vicente Scavone - Suc. Palma",
+        "formatted_address": "15 De Agosto, Asunción 001013",
+        "lat": -25.28065,
+        "lng": -57.6375307,
+        "checked_at": "2026-10-29T14:18:23+00:00"
       }
     },
     {
@@ -28625,15 +28625,15 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:47.235608+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:24.905574+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJb2WleSemXZQRC0lOs1Waq50",
+      "google_candidate_place_id": "ChIJLWCCZfOnXZQRdT3aEfhl7kk",
       "google_candidate": {
-        "google_name": "Farmacia Vicente Scavone - Suc. España",
-        "formatted_address": "Av. España, Asunción 001411",
-        "lat": -25.2862596,
-        "lng": -57.584118,
-        "checked_at": "2026-10-20T04:40:47+00:00"
+        "google_name": "Farmacia Vicente Scavone - Suc. Palma",
+        "formatted_address": "15 De Agosto, Asunción 001013",
+        "lat": -25.28065,
+        "lng": -57.6375307,
+        "checked_at": "2026-10-29T14:18:24+00:00"
       }
     },
     {
@@ -28654,7 +28654,7 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:47.987364+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:25.766290+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJLWCCZfOnXZQRdT3aEfhl7kk",
       "google_candidate": {
@@ -28662,7 +28662,7 @@
         "formatted_address": "15 De Agosto, Asunción 001013",
         "lat": -25.28065,
         "lng": -57.6375307,
-        "checked_at": "2026-10-20T04:40:47+00:00"
+        "checked_at": "2026-10-29T14:18:25+00:00"
       }
     },
     {
@@ -28683,15 +28683,15 @@
       "geocode_source": "",
       "online_only": false,
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:48.827283+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:26.647494+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJ5ahqfjmmXZQRKXstKAWI0Ew",
+      "google_candidate_place_id": "ChIJLWCCZfOnXZQRdT3aEfhl7kk",
       "google_candidate": {
-        "google_name": "Farmacia Vicente Scavone - FVS",
-        "formatted_address": "Santisimo Sacramento 2279, Asunción 001534",
-        "lat": -25.2710171,
-        "lng": -57.5841694,
-        "checked_at": "2026-10-20T04:40:48+00:00"
+        "google_name": "Farmacia Vicente Scavone - Suc. Palma",
+        "formatted_address": "15 De Agosto, Asunción 001013",
+        "lat": -25.28065,
+        "lng": -57.6375307,
+        "checked_at": "2026-10-29T14:18:26+00:00"
       }
     },
     {
@@ -46801,7 +46801,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:32.033383+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:02.186361+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ_SRHfgClXZQRb38aoHIVdG4",
       "google_candidate": {
@@ -46809,7 +46809,7 @@
         "formatted_address": "PFWP+29, Autop. Silvio Pettirossi 25, Luque 001109",
         "lat": -25.2549864,
         "lng": -57.5140085,
-        "checked_at": "2026-10-20T04:18:31+00:00"
+        "checked_at": "2026-10-29T14:18:02+00:00"
       }
     },
     {
@@ -46828,15 +46828,15 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:32.929228+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:03.100101+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJeaoJQkOlXZQRHBBWFvOAARg",
+      "google_candidate_place_id": "ChIJk4fVv5q7XZQRK3r-YiDUA00",
       "google_candidate": {
-        "google_name": "PETROPAR FAP1",
-        "formatted_address": "PFRP+V2M, Luque 110901",
-        "lat": -25.2577895,
-        "lng": -57.5149465,
-        "checked_at": "2026-10-20T04:18:32+00:00"
+        "google_name": "Petropar Luque - San Ber",
+        "formatted_address": "Profesor Sara Cañete de Acosta, Lúke 110907",
+        "lat": -25.239832,
+        "lng": -57.456615,
+        "checked_at": "2026-10-29T14:18:02+00:00"
       }
     },
     {
@@ -46855,7 +46855,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:33.750910+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:03.943006+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJI9PU8GyvXZQRo-h79ubY2Sk",
       "google_candidate": {
@@ -46863,7 +46863,7 @@
         "formatted_address": "MGV5+XHF, Las Monedas, Luque 110950",
         "lat": -25.3050679,
         "lng": -57.4910913,
-        "checked_at": "2026-10-20T04:18:33+00:00"
+        "checked_at": "2026-10-29T14:18:03+00:00"
       }
     },
     {
@@ -46882,7 +46882,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:34.565856+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:04.914461+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJk4fVv5q7XZQRK3r-YiDUA00",
       "google_candidate": {
@@ -46890,7 +46890,7 @@
         "formatted_address": "Profesor Sara Cañete de Acosta, Lúke 110907",
         "lat": -25.239832,
         "lng": -57.456615,
-        "checked_at": "2026-10-20T04:18:34+00:00"
+        "checked_at": "2026-10-29T14:18:04+00:00"
       }
     },
     {
@@ -46909,7 +46909,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:35.517481+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:05.846581+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJg_roEnmlXZQRHnCoXERgKA0",
       "google_candidate": {
@@ -46917,7 +46917,7 @@
         "formatted_address": "Unnamed Road, Luque 110904",
         "lat": -25.227963,
         "lng": -57.4769695,
-        "checked_at": "2026-10-20T04:18:35+00:00"
+        "checked_at": "2026-10-29T14:18:05+00:00"
       }
     },
     {
@@ -46936,7 +46936,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:36.352148+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:06.708045+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ561ypryvXZQRdVqgOL6N070",
       "google_candidate": {
@@ -46944,7 +46944,7 @@
         "formatted_address": "Luque 110945",
         "lat": -25.2914935,
         "lng": -57.4950895,
-        "checked_at": "2026-10-20T04:18:36+00:00"
+        "checked_at": "2026-10-29T14:18:06+00:00"
       }
     },
     {
@@ -46963,7 +46963,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:37.100851+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:07.542254+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJMZSVdwClXZQRTLg0voGtw8o",
       "google_candidate": {
@@ -46971,7 +46971,7 @@
         "formatted_address": "PFPJ+5HV, Gral. Elizardo Aquino, Luque 110937",
         "lat": -25.2645463,
         "lng": -57.5184482,
-        "checked_at": "2026-10-20T04:18:36+00:00"
+        "checked_at": "2026-10-29T14:18:07+00:00"
       }
     },
     {
@@ -46990,7 +46990,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:37.790295+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:08.298277+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJeaoJQkOlXZQRHBBWFvOAARg",
       "google_candidate": {
@@ -46998,7 +46998,7 @@
         "formatted_address": "PFRP+V2M, Luque 110901",
         "lat": -25.2577895,
         "lng": -57.5149465,
-        "checked_at": "2026-10-20T04:18:37+00:00"
+        "checked_at": "2026-10-29T14:18:08+00:00"
       }
     },
     {
@@ -47017,7 +47017,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:40.235864+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:09.154497+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJSQl03FKoXZQR5TeG8gDFaWE",
       "google_candidate": {
@@ -47025,7 +47025,7 @@
         "formatted_address": "M98R+GXF, Asunción 110709",
         "lat": -25.3336764,
         "lng": -57.6075643,
-        "checked_at": "2026-10-20T04:18:40+00:00"
+        "checked_at": "2026-10-29T14:18:09+00:00"
       }
     },
     {
@@ -47044,15 +47044,15 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:41.072046+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:09.940588+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJuVfQlEOoXZQRrb0TC-frK7Y",
+      "google_candidate_place_id": "ChIJ048JYEuoXZQR9yIRn_8BO9g",
       "google_candidate": {
-        "google_name": "COPETROL",
-        "formatted_address": "M9JP+69R, Avda. Bruno Guggiari, Lambaré 110702",
-        "lat": -25.3193903,
-        "lng": -57.6141232,
-        "checked_at": "2026-10-20T04:18:40+00:00"
+        "google_name": "Copetrol Guaraníes Lambaré - El Shah SA - Petroplus",
+        "formatted_address": "M97M+VQC, Av. República Argentina, Lambaré 110707",
+        "lat": -25.3353233,
+        "lng": -57.6156192,
+        "checked_at": "2026-10-29T14:18:09+00:00"
       }
     },
     {
@@ -47071,15 +47071,15 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:41.952334+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:10.853700+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJ30RSlrapXZQRmOHZWGBhhfc",
+      "google_candidate_place_id": "ChIJ048JYEuoXZQR9yIRn_8BO9g",
       "google_candidate": {
-        "google_name": "Copetrol Medicos del Chaco",
-        "formatted_address": "M9FW+3G3, Lambaré 110711",
-        "lat": -25.3273703,
-        "lng": -57.6036995,
-        "checked_at": "2026-10-20T04:18:41+00:00"
+        "google_name": "Copetrol Guaraníes Lambaré - El Shah SA - Petroplus",
+        "formatted_address": "M97M+VQC, Av. República Argentina, Lambaré 110707",
+        "lat": -25.3353233,
+        "lng": -57.6156192,
+        "checked_at": "2026-10-29T14:18:10+00:00"
       }
     },
     {
@@ -47098,7 +47098,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:42.792156+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:11.707329+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ048JYEuoXZQR9yIRn_8BO9g",
       "google_candidate": {
@@ -47106,7 +47106,7 @@
         "formatted_address": "M97M+VQC, Av. República Argentina, Lambaré 110707",
         "lat": -25.3353233,
         "lng": -57.6156192,
-        "checked_at": "2026-10-20T04:18:42+00:00"
+        "checked_at": "2026-10-29T14:18:11+00:00"
       }
     },
     {
@@ -47125,7 +47125,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:43.554914+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:12.573187+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJF_qXJA6pXZQRUUNVl2cRMk4",
       "google_candidate": {
@@ -47133,7 +47133,7 @@
         "formatted_address": "Av. Defensores del Chaco, Lambaré 110715",
         "lat": -25.3440369,
         "lng": -57.5878989,
-        "checked_at": "2026-10-20T04:18:43+00:00"
+        "checked_at": "2026-10-29T14:18:12+00:00"
       }
     },
     {
@@ -47152,7 +47152,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:44.319175+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:13.457137+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJJ0lRYGCpXZQRPivtbJIE840",
       "google_candidate": {
@@ -47160,7 +47160,7 @@
         "formatted_address": "Av. República Argentina y, Lambaré 110708",
         "lat": -25.3339375,
         "lng": -57.6079375,
-        "checked_at": "2026-10-20T04:18:44+00:00"
+        "checked_at": "2026-10-29T14:18:13+00:00"
       }
     },
     {
@@ -47179,7 +47179,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:45.076936+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:14.275676+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJuV99br-pXZQRFU0CyE-XzhQ",
       "google_candidate": {
@@ -47187,7 +47187,7 @@
         "formatted_address": "Carr de López y, Lambaré 002420",
         "lat": -25.3554302,
         "lng": -57.6203399,
-        "checked_at": "2026-10-20T04:18:44+00:00"
+        "checked_at": "2026-10-29T14:18:14+00:00"
       }
     },
     {
@@ -47206,7 +47206,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:45.957603+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:15.092736+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ-2ETZkaoXZQR5txqxgwptHw",
       "google_candidate": {
@@ -47214,7 +47214,7 @@
         "formatted_address": "Av. Bruno Guggiari, Lambaré 110704",
         "lat": -25.3244199,
         "lng": -57.6167652,
-        "checked_at": "2026-10-20T04:18:45+00:00"
+        "checked_at": "2026-10-29T14:18:14+00:00"
       }
     },
     {
@@ -47233,7 +47233,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:46.783988+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:15.949254+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJHSgs46ipXZQRM1wEzGCAZMw",
       "google_candidate": {
@@ -47241,7 +47241,7 @@
         "formatted_address": "Av. Cacique Lambare, Lambaré 110718",
         "lat": -25.3415162,
         "lng": -57.602355,
-        "checked_at": "2026-10-20T04:18:46+00:00"
+        "checked_at": "2026-10-29T14:18:15+00:00"
       }
     },
     {
@@ -47260,7 +47260,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:47.574096+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:16.850737+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJHSgs46ipXZQRM1wEzGCAZMw",
       "google_candidate": {
@@ -47268,7 +47268,7 @@
         "formatted_address": "Av. Cacique Lambare, Lambaré 110718",
         "lat": -25.3415162,
         "lng": -57.602355,
-        "checked_at": "2026-10-20T04:18:47+00:00"
+        "checked_at": "2026-10-29T14:18:16+00:00"
       }
     },
     {
@@ -47319,7 +47319,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:48.304665+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:17.658632+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJX85y8LKkXZQRWvvjDwByHJ4",
       "google_candidate": {
@@ -47327,7 +47327,7 @@
         "formatted_address": "RG8P+48H, Av. San Francisco Solano, Limpio 110825",
         "lat": -25.1857901,
         "lng": -57.4649374,
-        "checked_at": "2026-10-20T04:18:48+00:00"
+        "checked_at": "2026-10-29T14:18:17+00:00"
       }
     },
     {
@@ -47346,7 +47346,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:49.361675+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:18.490483+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJX85y8LKkXZQRWvvjDwByHJ4",
       "google_candidate": {
@@ -47354,7 +47354,7 @@
         "formatted_address": "RG8P+48H, Av. San Francisco Solano, Limpio 110825",
         "lat": -25.1857901,
         "lng": -57.4649374,
-        "checked_at": "2026-10-20T04:18:49+00:00"
+        "checked_at": "2026-10-29T14:18:18+00:00"
       }
     },
     {
@@ -47373,7 +47373,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:50.159795+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:19.315867+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJX85y8LKkXZQRWvvjDwByHJ4",
       "google_candidate": {
@@ -47381,7 +47381,7 @@
         "formatted_address": "RG8P+48H, Av. San Francisco Solano, Limpio 110825",
         "lat": -25.1857901,
         "lng": -57.4649374,
-        "checked_at": "2026-10-20T04:18:50+00:00"
+        "checked_at": "2026-10-29T14:18:19+00:00"
       }
     },
     {
@@ -47400,7 +47400,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:54.212382+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:20.117352+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJJ2bFgdOvXZQRGn3joRemQqE",
       "google_candidate": {
@@ -47408,7 +47408,7 @@
         "formatted_address": "Felipe Gonzalez y, Luque 110935",
         "lat": -25.275865,
         "lng": -57.5032292,
-        "checked_at": "2026-10-20T04:18:54+00:00"
+        "checked_at": "2026-10-29T14:18:19+00:00"
       }
     },
     {
@@ -47427,15 +47427,15 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:18:54.967927+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:20.888808+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJM5S9U_OvXZQRHz0YtTpWP_o",
+      "google_candidate_place_id": "ChIJS68-yYuvXZQROzmKlhhScx4",
       "google_candidate": {
-        "google_name": "LUQUE ALFONSO Copetrol",
-        "formatted_address": "PGJ8+P2F, Balneario Camboriú, Luque 110921",
-        "lat": -25.2681776,
-        "lng": -57.4849456,
-        "checked_at": "2026-10-20T04:18:54+00:00"
+        "google_name": "Copetrol Valeriano Zeballos Luque",
+        "formatted_address": "Valeriano Zeballos, Lúke 110921",
+        "lat": -25.2666778,
+        "lng": -57.4898086,
+        "checked_at": "2026-10-29T14:18:20+00:00"
       }
     },
     {
@@ -47454,7 +47454,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:26.753341+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:21.779102+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJPVS0_-2vXZQRzwLs989qwkI",
       "google_candidate": {
@@ -47462,7 +47462,7 @@
         "formatted_address": "Eugenio A. Garay y, Luque 110941",
         "lat": -25.3028352,
         "lng": -57.504378,
-        "checked_at": "2026-10-20T04:40:26+00:00"
+        "checked_at": "2026-10-29T14:18:21+00:00"
       }
     },
     {
@@ -47481,7 +47481,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:27.622863+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:22.634763+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJPVS0_-2vXZQRzwLs989qwkI",
       "google_candidate": {
@@ -47489,7 +47489,7 @@
         "formatted_address": "Eugenio A. Garay y, Luque 110941",
         "lat": -25.3028352,
         "lng": -57.504378,
-        "checked_at": "2026-10-20T04:40:27+00:00"
+        "checked_at": "2026-10-29T14:18:22+00:00"
       }
     },
     {
@@ -47508,7 +47508,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:28.461882+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:23.584573+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJJ2bFgdOvXZQRGn3joRemQqE",
       "google_candidate": {
@@ -47516,7 +47516,7 @@
         "formatted_address": "Felipe Gonzalez y, Luque 110935",
         "lat": -25.275865,
         "lng": -57.5032292,
-        "checked_at": "2026-10-20T04:40:28+00:00"
+        "checked_at": "2026-10-29T14:18:23+00:00"
       }
     },
     {
@@ -47535,7 +47535,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:29.258592+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:24.444253+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJJ2bFgdOvXZQRGn3joRemQqE",
       "google_candidate": {
@@ -47543,7 +47543,7 @@
         "formatted_address": "Felipe Gonzalez y, Luque 110935",
         "lat": -25.275865,
         "lng": -57.5032292,
-        "checked_at": "2026-10-20T04:40:29+00:00"
+        "checked_at": "2026-10-29T14:18:24+00:00"
       }
     },
     {
@@ -47562,7 +47562,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:30.055304+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:25.310839+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJzY_dUvOvXZQRTrY3Pkp8xjU",
       "google_candidate": {
@@ -47570,7 +47570,7 @@
         "formatted_address": "PGJ7+MVH, Luque 110921",
         "lat": -25.2683203,
         "lng": -57.4852702,
-        "checked_at": "2026-10-20T04:40:29+00:00"
+        "checked_at": "2026-10-29T14:18:25+00:00"
       }
     },
     {
@@ -47589,7 +47589,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:30.814549+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:26.199807+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJP7ZosUuvXZQRfTuYmSu73Bw",
       "google_candidate": {
@@ -47597,7 +47597,7 @@
         "formatted_address": "PFFQ+JRF, Luque 110935",
         "lat": -25.2759494,
         "lng": -57.5104418,
-        "checked_at": "2026-10-20T04:40:30+00:00"
+        "checked_at": "2026-10-29T14:18:26+00:00"
       }
     },
     {
@@ -47616,7 +47616,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T04:40:31.594931+00:00",
+      "google_last_attempt_at": "2026-10-29T14:18:27.019113+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJzY_dUvOvXZQRTrY3Pkp8xjU",
       "google_candidate": {
@@ -47624,7 +47624,7 @@
         "formatted_address": "PGJ7+MVH, Luque 110921",
         "lat": -25.2683203,
         "lng": -57.4852702,
-        "checked_at": "2026-10-20T04:40:31+00:00"
+        "checked_at": "2026-10-29T14:18:26+00:00"
       }
     },
     {
@@ -51368,5 +51368,5 @@
   ],
   "google_enriched_locations": 162,
   "google_enrichment_focus": "Asunción y Gran Asunción",
-  "locations_updated_at": "2026-10-28T14:13:34+00:00"
+  "locations_updated_at": "2026-10-29T14:18:27+00:00"
 }
