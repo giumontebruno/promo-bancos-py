@@ -516,6 +516,12 @@ function isDisplayablePromotion(promo) {
   // Keep history, but never restore universal eligibility from stale catalog data.
   if (promo.bank === "ueno bank" && [promo.source_url, promo.source_page_url].some(url =>
     /^https:\/\/www\.ueno\.com\.py\/wp-content\/uploads\/2026\/10\/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien/i.test(String(url || "")))) return false;
+  // This captured one-day reintegro must not borrow the separate daily financing schedule.
+  // Match the exact merchant, official source and dated clause, not an ID reused by future offers.
+  if (promo.bank === "Continental" && promo.merchant_name === "Contimarket - 25%"
+    && /^https:\/\/(?:www\.)?bancontinental\.com\.py\//i.test(String(promo.source_url || ""))
+    && /Vigente el 28 (?:de )?octubre de 2026/i.test(String(promo.original_source_text || promo.raw_detail || ""))
+    && /25\s*%\s*de reintegro/i.test(String(promo.original_source_text || promo.raw_detail || ""))) return false;
   if (promo.benefit_type === "sorteo") return false;
   const text = normalizeDayName([
     promo.merchant_name,
