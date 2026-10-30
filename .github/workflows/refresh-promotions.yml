@@ -8,6 +8,8 @@ on:
       - "scrapers/**"
       - "promo_backend/**"
       - "requirements.txt"
+      - "scripts/maintenance-health.mjs"
+      - "tests/maintenance-health.test.cjs"
       - ".github/workflows/refresh-promotions.yml"
   schedule:
     # 04:00 America/Asuncion (UTC-3).
@@ -28,6 +30,16 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Keep baseline for anomaly checks
+        run: |
+          cp public/promotions.json "$RUNNER_TEMP/payback-before.json"
+          echo "REFRESH_STARTED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -45,6 +57,14 @@ jobs:
           GEOCODE_LIMIT: "0"
         run: xvfb-run -a python promo_backend/run_all.py
 
+      # Thresholds flag operational anomalies, never validate financial terms.
+      # Unsafe snapshots stay uncommitted; partial usable data keeps explicit source status.
+      - name: Check freshness and catalog safety
+        id: health
+        if: always()
+        continue-on-error: true
+        run: node scripts/maintenance-health.mjs "$RUNNER_TEMP/payback-before.json"
+
       - name: Save source and location audit
         if: always()
         uses: actions/upload-artifact@v4
@@ -54,15 +74,19 @@ jobs:
             outputs/*report.json
             outputs/*review.json
             public/source_status.json
+            outputs/maintenance_summary.md
 
+      # Completion triggers deploy-pages via workflow_run, even on partial failure.
+      # Pages validates latest main (not necessarily this trigger SHA) and public hashes.
       - name: Commit updated data
+        if: steps.health.outputs.safe_to_commit == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Refresh promotions database"
           file_pattern: "outputs/*.csv outputs/*.md outputs/*.json public/*.json public/*.csv data/*.csv data/gnb_live_cards.json"
 
       - name: Report incomplete refresh
-        if: steps.refresh.outcome == 'failure'
+        if: always() && (steps.refresh.outcome != 'success' || steps.health.outcome != 'success')
         run: |
-          echo "Some sources failed. Last usable data was preserved; inspect promotion-audit."
+          echo "Refresh needs attention. Unsafe catalogs were not committed; partial sources retain explicit warnings. Inspect promotion-audit and the job summary."
           exit 1
