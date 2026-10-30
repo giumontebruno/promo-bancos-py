@@ -1,0 +1,15 @@
+const {test}=require('node:test'); const assert=require('node:assert/strict');
+const {evaluate,sourceSummary}=require('../beta-web/supermarket-eligibility.js');
+const promo={id:'test-fixture',source_verification:'official_document'};
+const context={dateMatches:true,card:'Visa Oro',channel:'pos',amount:100000,remainingCap:10000,branch:{match:true,source:'https://example.test/terms'},evidence:{source:'https://example.test/terms',cards:['Visa Oro'],channels:['pos'],excludedChannels:['online'],percent:30,purchaseCap:100000,refundCap:30000,minimum:50000,period:'mensual',additionalConditionsVerified:true}};
+test('verified scenario uses purchase, refund and remaining-account caps separately',()=>assert.deepEqual(evaluate(promo,context),{status:'applies',reasons:[],estimate:10000,source:context.evidence.source}));
+test('two branches do not inherit participation by brand',()=>{assert.equal(evaluate(promo,context).status,'applies');assert.equal(evaluate(promo,{...context,branch:{match:false,source:'https://example.test/terms'}}).status,'not_applies');});
+test('exact card, date, channel and minimum fail independently',()=>{for(const patch of [{card:'Visa Clásica'},{channel:'online'},{dateMatches:false},{amount:40000}])assert.equal(evaluate(promo,{...context,...patch}).status,'not_applies');});
+test('unknown is not eligible; coordinates do not establish participation',()=>{for(const patch of [{evidence:null},{branch:{lat:-25,lng:-57}},{remainingCap:null},{card:''},{channel:''},{amount:NaN}])assert.equal(evaluate(promo,{...context,...patch}).status,'needs_confirmation');});
+test('published maximum without consumption cannot promise available refund',()=>{const r=evaluate(promo,{...context,remainingCap:null});assert.equal(r.status,'needs_confirmation');assert.equal(r.estimate,30000);});
+test('unconfirmed source and incomplete terms never become applies',()=>{assert.equal(evaluate({...promo,source_verification:'unconfirmed'},context).status,'needs_confirmation');assert.equal(evaluate(promo,{...context,evidence:{...context.evidence,additionalConditionsVerified:false}}).status,'needs_confirmation');});
+test('health distinguishes failed extraction from catalog date',()=>{assert.match(sourceSummary(null),/No pudimos/);assert.match(sourceSummary({BNF:{status:'failed',checked_at:'2026-10-26'}}),/BNF.*falló.*2026-10-26/);});
+
+test('invalid money and percent never imply eligibility or negative savings',()=>{for(const patch of [{percent:NaN},{percent:0},{percent:101},{purchaseCap:-1},{refundCap:Infinity},{minimum:undefined}]){const r=evaluate(promo,{...context,evidence:{...context.evidence,...patch}});assert.equal(r.status,'needs_confirmation');assert.ok(r.estimate===null||r.estimate>=0);}for(const remainingCap of [NaN,Infinity,'10000',-1])assert.equal(evaluate(promo,{...context,remainingCap}).status,'needs_confirmation');});
+
+test('an unlisted channel is unknown, not an invented exclusion',()=>assert.equal(evaluate(promo,{...context,channel:'qr'}).status,'needs_confirmation'));

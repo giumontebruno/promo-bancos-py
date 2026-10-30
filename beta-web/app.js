@@ -1307,6 +1307,7 @@ function renderResults() {
     cleanupNearbyMaps();
   }
   renderGlassHeader();
+  renderPilotSourceHealth();
   const personalView = state.activeView === "alerts" || state.activeView === "favorites";
   document.querySelector(".controls").hidden = personalView || state.activeView === "today";
   els.refreshButton.hidden = personalView;
@@ -1325,6 +1326,7 @@ function renderResults() {
   const base = state.promotions
     .filter(promo => isActivePromotion(promo, personalView ? null : selectedDateIso()))
     .filter(promo => personalView || matchesCardFilter(promo))
+    .filter(promo => personalView || matchesSupermarketPilot(promo))
     .filter((promo) => personalView || matchesBank(promo))
     .filter((promo) => personalView || matchesCategory(promo))
     .filter((promo) => personalView || matchesQuery(promo))
@@ -1549,7 +1551,7 @@ function renderAlertsView() {
         <span class="profile-logo profile-avatar">${renderIcon("user")}${account?.avatarUrl ? `<img class="google-profile-photo" src="${escapeAttribute(account.avatarUrl)}" alt="Foto de perfil de Google" referrerpolicy="no-referrer" />` : ""}</span>
         <div>
           <h2>${account ? account.name ? `Hola, ${escapeHtml(PaybackProfile.firstName(account))}` : "Tu perfil Payback" : "Activá tu perfil Payback"}</h2>
-          <p>${account ? escapeHtml(account.email) : "Conectá tu cuenta para sincronizar tus favoritos."}</p>
+          <p>${account ? escapeHtml(account.email) : "Explorá sin cuenta. Los favoritos de esta beta quedan en este navegador."}</p>
         </div>
       </div>
       ${account
@@ -2363,6 +2365,7 @@ function buildNearbyPromoIndex() {
     .filter(matchesCategory)
     .filter(matchesCardFilter)
     .filter(matchesNearbyDay)
+    .filter(promo => typeof matchesSupermarketPilot !== "function" || matchesSupermarketPilot(promo))
     .filter((promo) => state.query.trim() ? matchesQuery(promo) : true)
     .forEach((promo) => {
       const bank = normalizeDayName(promo.bank);
@@ -2379,18 +2382,19 @@ function matchesNearbyDay(promo) {
 }
 
 function getPromotionsForLocation(place, promoIndex, category = state.activeCategory) {
+  const pilotLinks = typeof PaybackSupermarketReviews !== "undefined" ? PaybackSupermarketReviews.branchOffers(place, [...promoIndex.values()].flat(), selectedDateIso()) : [];
   if (Array.isArray(place.promotion_ids)) {
-    if (!isActivePromotion({terms: {ends_on: place.participation_ends_on}}, selectedDateIso())) return [];
-    return uniquePromos([...promoIndex.values()].flat().filter(promo => place.promotion_ids.includes(promo.id)));
+    if (!isActivePromotion({terms: {ends_on: place.participation_ends_on}}, selectedDateIso())) return pilotLinks;
+    return uniquePromos([...pilotLinks, ...[...promoIndex.values()].flat().filter(promo => place.promotion_ids.includes(promo.id))]);
   }
   const bank = normalizeDayName(place.bank);
   const source = place.source_url || "";
   // A brand name alone does not establish this branch's participation.
-  if (!bank || bank === "varios" || !/\.pdf(?:[?#]|$)/i.test(source)) return [];
+  if (!bank || bank === "varios" || !/\.pdf(?:[?#]|$)/i.test(source)) return pilotLinks;
   const merchantTerms = [place.merchant_brand, place.merchant_name, place.name]
     .map(normalizeDayName)
     .filter(value => value && !["estaciones de servicio", "farmacias", "mayoristas", "supermercados"].includes(value));
-  if (!merchantTerms.length) return [];
+  if (!merchantTerms.length) return pilotLinks;
   const matches = uniquePromos([...promoIndex.values()].flat()).filter(promo => {
     if (normalizeDayName(promo.bank) !== bank) return false;
     if (![promo.source_url, promo.source_document_url, promo.source_page_url].includes(source)) return false;
@@ -2398,7 +2402,7 @@ function getPromotionsForLocation(place, promoIndex, category = state.activeCate
     return merchantTerms.includes(merchant);
   });
   const reviewed = typeof PaybackCampaigns !== "undefined" ? PaybackCampaigns.branchOffers(place,[...promoIndex.values()].flat(),selectedDateIso()) : [];
-  return uniquePromos([...matches,...reviewed]).filter(promo => category !== PREMIUM_CATEGORY || hasPremiumVariant(promo));
+  return uniquePromos([...matches,...reviewed,...pilotLinks]).filter(promo => category !== PREMIUM_CATEGORY || hasPremiumVariant(promo));
 }
 
 function getFuelBrandsFromPlace(place) {
@@ -3107,6 +3111,7 @@ function renderCard(promo, variant = null) {
     <div class="glass-facts"><div><span>Día válido</span><strong>${escapeHtml(getDisplayDays(promo))}</strong></div><div><span>Tarjeta válida</span><strong>${escapeHtml(cards)}</strong></div><div><span>Ahorro máximo estimado</span><strong>${escapeHtml(cap)}</strong></div><div><span>Vigencia</span><strong>${escapeHtml(getCardValidity(promo))}</strong></div></div>
     ${promo.source_warning ? `<p class="source-warning-label">Tope pendiente de aclaración del banco</p>` : ""}
     ${levelDetails ? renderUenoLevelCaps(levelDetails) : ""}
+    ${renderSupermarketAssessment(promo)}
     <p class="glass-conditions-note">Sujeto a tarjeta, forma de pago y condiciones.</p>
     <div class="glass-card-footer"><span>${escapeHtml(promo._nearbyPlaceName || "Confirmá la sucursal en el detalle")}</span><div><button type="button" class="glass-detail-action">Ver detalle y mapa <span aria-hidden="true">→</span></button><button class="share-toggle" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variant?.key || '')}" title="Compartir promoción" aria-label="Compartir promoción">${renderIcon("share")}</button></div></div>
   </article>`;
@@ -3247,9 +3252,10 @@ function openDetail(id, variantKey = "", placeId = "") {
 async function loadPromotions() {
   els.statusText.textContent = "Actualizando promociones...";
   els.results.innerHTML = renderSkeletons();
-  const [response, manifestResponse] = await Promise.all([
+  const [response, manifestResponse, healthResponse] = await Promise.all([
     fetch(`${DATA_URL}?t=${Date.now()}`),
     fetch(`${MANIFEST_URL}?t=${Date.now()}`).catch(() => null),
+    fetch(`../public/source_status.json?t=${Date.now()}`).catch(() => null),
   ]);
   if (!response.ok) throw new Error("No se pudo cargar promotions.json");
   if (manifestResponse?.ok) {
@@ -3258,6 +3264,8 @@ async function loadPromotions() {
     state.favoriteAliases = manifest.favorite_aliases || {};
   }
   state.promotions = uniquePromos(PaybackEligibility.apply(PaybackCampaigns.apply(await response.json())).filter(promo => isDisplayablePromotion(promo) && promo.source_verification !== "unconfirmed" && !promo.terms?.conflicting_dates && promo.terms?.ends_on >= PaybackDates.today()));
+  state.sourceHealth = healthResponse?.ok ? await healthResponse.json().catch(() => null) : null;
+  populatePilotCards();
   state.favorites = normalizeFavoriteIds(state.favorites);
   if (!window.PaybackBeta?.current) saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
   syncFavoriteAlerts();
@@ -3422,6 +3430,7 @@ els.results.addEventListener("click", (event) => {
       state.activeBank = "Todos";
       state.activeCategory = "Todas";
       state.activeCard = "Todas";
+      resetSupermarketPilot();
       state.activeDay = "hoy";
       state.query = "";
       els.searchInput.value = "";
@@ -3647,3 +3656,63 @@ document.addEventListener("click", event => { if (event.target.closest("[data-pr
 // Text inputs match :focus-visible after touch too; scope modality styling to search only.
 document.addEventListener('pointerdown',event=>{if(event.target.closest('.search-box'))document.documentElement.dataset.searchFocus='pointer';},true);
 document.addEventListener('keydown',event=>{if(event.key==='Tab')document.documentElement.dataset.searchFocus='keyboard';},true);
+
+
+// Shared pilot adapter: list cards and map cards use this exact evaluation.
+function isSupermarketPilotPromo(promo) {
+  return /supermercad/i.test(getPromoCategoryGroup(promo));
+}
+function getSupermarketAssessment(promo) {
+  const enabled = document.getElementById("pilotEnabled")?.checked;
+  if (!enabled || !isSupermarketPilotPromo(promo) || typeof PaybackSupermarkets === "undefined") return null;
+  const original = state.promotions.find(item => item.id === promo.id) || {...promo, merchant_name: promo._sourceMerchantName || promo.merchant_name};
+  const selectedCard = document.getElementById("pilotCard").value;
+  const supermarketReview = typeof PaybackSupermarketReviews !== "undefined" ? PaybackSupermarketReviews.verified(original, selectedCard) : null;
+  const reviewed = supermarketReview || PaybackEligibility.verified(promo);
+  const evidence = supermarketReview || (reviewed ? {...reviewed, channels: reviewed.payment === "POS Bancard / Infonet, sin cuotas" ? ["pos-bancard"] : reviewed.payment === "POS Dinelco físico; no app, online ni POS virtual" ? ["pos-dinelco"] : []} : null);
+  const place = state.locations.find(item => (item.id || getPlaceGroupKey(item)) === promo._nearbyPlaceId);
+  const reviewedBranch = typeof PaybackSupermarketReviews !== "undefined" ? PaybackSupermarketReviews.branchLink(original, place) : null;
+  const branch = reviewedBranch || (place ? {match: getPromotionsForLocation(place, new Map([["pilot", [original]]]), "Todas").some(item => item.id === promo.id), source: place.source_url || null} : null);
+  const result = PaybackSupermarkets.evaluate(promo, {
+    evidence, branch, dateMatches: isActivePromotion(promo, selectedDateIso()) && appliesToSelectedDay(promo, state.activeDay),
+    card: selectedCard,
+    channel: document.getElementById("pilotChannel").value,
+    amount: Number(document.getElementById("pilotAmount").value) || null,
+  });
+  if (supermarketReview?.branch) result.branchNote = `${supermarketReview.branch.name}: ${supermarketReview.branch.address}. ${supermarketReview.branch.existingMapLocation ? "Participación documentada en bases Familiar; ubicación existente verificada por separado." : "Sucursal listada en las bases; sin coordenadas verificadas para mostrar en el mapa."}`;
+  return result;
+}
+function matchesSupermarketPilot(promo) {
+  if (!document.getElementById("pilotEnabled")?.checked) return true;
+  // Keep explicit negatives visible with their reason, rather than implying no data.
+  return isSupermarketPilotPromo(promo);
+}
+function renderSupermarketAssessment(promo) {
+  const assessment = getSupermarketAssessment(promo);
+  if (!assessment) return "";
+  const label = {applies:"Aplica según las condiciones verificadas",not_applies:"No aplica",needs_confirmation:"Falta confirmar"}[assessment.status];
+  return `<div class="pilot-assessment" data-eligibility="${assessment.status}"><strong>${label}</strong><ul>${assessment.reasons.map(reason => `<li>${escapeHtml(reason)}</li>`).join("")}</ul>${assessment.branchNote ? `<p>${escapeHtml(assessment.branchNote)}</p>` : ""}${assessment.estimate !== null ? `<p>Estimación antes de consumos previos: ${formatGuarani(assessment.estimate)}. No es un reintegro confirmado.</p>` : ""}</div>`;
+}
+function populatePilotCards() {
+  const select = document.getElementById("pilotCard");
+  if (!select) return;
+  const value = select.value;
+  const cards = [...new Set(state.promotions.filter(isSupermarketPilotPromo).flatMap(promo => [...(PaybackEligibility.verified(promo)?.cards || []), ...(typeof PaybackSupermarketReviews !== "undefined" ? PaybackSupermarketReviews.cards(promo) : [])]))].sort();
+  select.innerHTML = '<option value="">Elegí tarjeta y banco</option>' + cards.map(card => `<option value="${escapeAttribute(card)}">${escapeHtml(card)}</option>`).join("");
+  select.value = cards.includes(value) ? value : "";
+}
+function renderPilotSourceHealth() {
+  const node = document.getElementById("sourceHealth");
+  if (node && typeof PaybackSupermarkets !== "undefined") node.textContent = PaybackSupermarkets.sourceSummary(state.sourceHealth);
+}
+for (const id of ["pilotEnabled", "pilotCard", "pilotChannel", "pilotAmount"]) {
+  document.getElementById(id)?.addEventListener("change", () => { resetNearbySelection(); render(); });
+}
+function resetSupermarketPilot() {
+  const enabled = document.getElementById("pilotEnabled");
+  if (enabled) enabled.checked = false;
+  for (const id of ["pilotCard", "pilotChannel", "pilotAmount"]) { const node = document.getElementById(id); if (node) node.value = ""; }
+}
+document.getElementById("pilotReset")?.addEventListener("click", () => {
+  resetSupermarketPilot(); resetNearbySelection(); render();
+});

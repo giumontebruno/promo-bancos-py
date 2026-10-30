@@ -8,11 +8,14 @@ on:
       - "app-web/**"
       - "beta-web/**"
       - "scripts/build.mjs"
+      - "scripts/publication-snapshot.mjs"
+      - "tests/**"
       - "public/**"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
   workflow_run:
     workflows: ["Refresh promotions database", "Match official branches with Google Maps"]
+    branches: [main]
     types: [completed]
 
 permissions:
@@ -26,6 +29,13 @@ concurrency:
 
 jobs:
   deploy:
+    # Never deploy code from an untrusted branch or fork through workflow_run.
+    # Partial refreshes still publish their explicit source-health warnings.
+    if: >-
+      (github.event_name != 'workflow_run' && github.ref == 'refs/heads/main') ||
+      (github.event_name == 'workflow_run' &&
+       github.event.workflow_run.head_branch == 'main' &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -33,6 +43,11 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Record checked-out revision
+        run: echo "PAYBACK_BUILD_REVISION=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -56,3 +71,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify the actual published catalog
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: node scripts/publication-snapshot.mjs verify "$PAGE_URL" dist/client/publication.json

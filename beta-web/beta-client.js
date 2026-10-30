@@ -8,14 +8,16 @@ dialog.className = 'beta-dialog';
 document.body.append(dialog);
 const authGate = document.getElementById('authGate');
 const authStatus = document.getElementById('authStatus');
-let gateMessage = '', authPhase = 'checking', authAttempt = 0;
+let gateMessage = '', authPhase = 'checking', authAttempt = 0, authRequested = false;
 clearTimeout(window.paybackAuthWatchdog);
 function deadline(promise, ms = 12000) {
   let timer;
   return Promise.race([promise, new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('La comprobación tardó demasiado. Reintentá para continuar.')), ms); })]).finally(() => clearTimeout(timer));
 }
 function updateGate() {
-  const locked = !current || authPhase === 'checking';
+  // Public catalog browsing is independent of account restoration or its failures.
+  if (current) authRequested = false;
+  const locked = authRequested && !current;
   document.body.classList.toggle('auth-required', locked);
   authGate.hidden = !locked;
   document.querySelector('.app-shell').inert = locked;
@@ -102,8 +104,13 @@ function shell(content) {
   if (!dialog.open) dialog.showModal();
 }
 function show() {
+  if (!current) {
+    if (dialog.open) dialog.close();
+    authRequested = true; updateGate();
+    authGate.querySelector('[data-auth-guest]').focus();
+    return;
+  }
   if (!ready || !client) return shell(`<h2>paybackpy beta</h2><p>${escape(initError || 'Preparando el acceso.')}</p><button data-beta-retry>Reintentar</button>`);
-  if (!current) return shell(`<h2>paybackpy beta</h2><form id="betaLogin"><button type="submit" class="google-signin">${googleButton()}</button></form><p>Ingresá con Google. Esta versión usa el mismo acceso de Payback y guarda favoritos y nivel por separado en este navegador.</p><a href="./privacy.html">Privacidad</a>`);
   shell(`<span class="filter-label">TU CUENTA</span><h2>Tus preferencias</h2><p>${escape(current.email)}</p><p>Favoritos en esta beta: ${current.favorites.length}. Importamos los guardados de tu cuenta oficial. Los cambios acá quedan en este navegador; no modifican la app oficial.</p><form id="betaPreferences"><label>Nivel UENO<select name="level" aria-label="Nivel UENO">${[1,2,3,4,5].map(n => `<option value="${n}" ${current.uenoLevel === n ? 'selected' : ''}>Nivel ${n}</option>`).join('')}</select></label><button type="submit" class="account-save">Guardar preferencias</button></form><div class="beta-actions"><button class="account-danger" data-beta-logout>Cerrar sesión de esta beta</button></div>`);
 }
 function report() {
@@ -153,6 +160,11 @@ dialog.addEventListener('click', async e => {
   } catch (error) { message(error.message); }
 });
 authGate.addEventListener('click', async e => {
+  if (e.target.closest('[data-auth-guest]')) {
+    authRequested = false; updateGate();
+    document.getElementById('searchInput')?.focus();
+    return;
+  }
   if (e.target.closest('[data-auth-retry]')) { await init(); return; }
   const button = e.target.closest('[data-auth-login]');
   if (!button || busy || authPhase !== 'anonymous') return;
@@ -184,8 +196,8 @@ document.addEventListener('click', async e => {
   if (loginButton) {
     if (busy) return;
     busy = true; loginButton.disabled = true;
-    try { await login(); } catch (error) { show(); message(error.message); }
-    finally { busy = false; loginButton.disabled = false; }
+    try { await login(); } catch (error) { gateMessage = error.message; show(); }
+    finally { busy = false; loginButton.disabled = false; updateGate(); }
     return;
   }
   const button = e.target.closest('[data-beta-open], [data-beta-report-id]');
@@ -227,7 +239,7 @@ async function init() {
       }
       const token = await accessToken();
       if (!active()) return;
-      // Only the authenticated backend response unlocks the app, never storage alone.
+      // Only a verified backend response restores account data; the catalog stays public.
       if (token) await refresh(active);
       else current = null;
       if (!active()) return;
