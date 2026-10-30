@@ -1,0 +1,139 @@
+[
+  {
+    "bank": "Coop. Universitaria",
+    "category": "Supermercados",
+    "merchant_name": "SUPERSEIS / STOCK / DELIMARKET",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "20% de reintegro con QR",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "20%"
+    ],
+    "promotion_days": [
+      "viernes"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Todos los viernes",
+    "validity": "Vigencia Desde el 01 de octubre de 2026 hasta el 25 de diciembre de 2026",
+    "source_period_end": "",
+    "caps_and_minimums": "Límite de compra mensual por cuenta: Gs. 500.000. Tope de reintegro mensual: Gs. 100.000.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf",
+    "source_page_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf",
+    "raw_detail": "20% de reintegro con QR. Pago con QR en la app Universitaria. Tarjetas de crédito Panal, Cabal y Mastercard de Cooperativa Universitaria. Límite de compra mensual por cuenta: Gs. 500.000. Tope mensual de reintegro o descuento: Gs. 100.000. El límite mensual de compra es por cuenta, compartido entre Superseis, Stock, Stock Express, S6 Express y Delimarket; no se suma por medio de pago. No aplica para pagos en efectivo.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito Panal, Cabal y Mastercard de Cooperativa Universitaria",
+    "original_source_text": "SUPERSEIS / STOCK / DELIMARKET Todos los viernes BASES Y CONDICIONES Promoción “SUPERSEIS, STOCK Y DELIMARKET” Vigencia Desde el 01 de octubre de 2026 hasta el 25 de diciembre de 2026. Condiciones PROMOCIÓN FRECUENCIA LÍMITE DE TOPE DE DESCUENTO COMPRA PANAL QR, CABAL QR Y TODOS LOS VIERNES. Gs. 500.000.- Dto. 20% Gs. 100.000.- MASTERCARD QR 20% Por cuenta y por mes. Dto. 10% Gs. 50.000.- PAGO CON TC FISICA con las 3 marcas 10% Beneficios UNIVERSITARIA otorgará a los socios que realicen el pago con las tarjetas de crédito que emite la Entidad, el siguiente esquema de descuentos: Los descuentos serán aplicados vía reintegro en extracto, todos los viernes, hasta un límite de compra de Gs. 500.000.- (guaraníes quinientos mil), por cuenta y por mes. Exclusiones No aplica para pagos en efectivo. Tope de descuento Ver cuadro. Observaciones Cadena S6 y Stock, como así también con los Stock Express, S6 Express y Delimarket. Para pagar con QR CON LAS TARJETAS DE CRÉDITO DE UNIVERSITARIA se debe ingresar a la APP UNIVERSITARIA. Ante consultas sobre las bases y condiciones, comunícate al 021 6170000. M A P C S A A T P N B E A A A R G L L C O T A T A A R C R R D O J . C J . C T A R N T R R J . C É D É D . C . F I T O Q I T O Q R É D IT I S I C A R 2 0 % R 2 0 % O Q R 2 1 0 % 0 %",
+    "limits_reviewed_for_variant": true,
+    "id": "d9b32732a6b5f371",
+    "offer_kind": "base",
+    "offer_label": "Pago con QR en la app Universitaria",
+    "source_checked_at": "2026-10-30T15:54:02.018269+00:00",
+    "source_file_updated_at": "2026-10-30T14:21:05-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-10-01",
+      "ends_on": "2026-12-25",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 500000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Límite de compra mensual por cuenta: Gs. 500.000"
+        },
+        {
+          "kind": "refund",
+          "amount": 100000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de reintegro mensual: Gs. 100.000."
+        }
+      ],
+      "cards": [
+        "Tarjetas de crédito Panal, Cabal y Mastercard de Cooperativa Universitaria"
+      ],
+      "exclusions": [
+        "No aplica para pagos en efectivo"
+      ],
+      "additional": [
+        "20% de reintegro con QR",
+        "Pago con QR en la app Universitaria"
+      ],
+      "issues": [],
+      "status": "parsed"
+    }
+  },
+  {
+    "bank": "Coop. Universitaria",
+    "category": "Supermercados",
+    "merchant_name": "SUPERSEIS / STOCK / DELIMARKET",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "10% de reintegro con tarjeta física",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "10%"
+    ],
+    "promotion_days": [
+      "viernes"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Todos los viernes",
+    "validity": "Vigencia Desde el 01 de octubre de 2026 hasta el 25 de diciembre de 2026",
+    "source_period_end": "",
+    "caps_and_minimums": "Límite de compra mensual por cuenta: Gs. 500.000. Tope de reintegro mensual: Gs. 50.000.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf",
+    "source_page_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf",
+    "raw_detail": "10% de reintegro con tarjeta física. Pago con tarjeta de crédito física. Tarjetas de crédito Panal, Cabal y Mastercard de Cooperativa Universitaria. Límite de compra mensual por cuenta: Gs. 500.000. Tope mensual de reintegro o descuento: Gs. 50.000. El límite mensual de compra es por cuenta, compartido entre Superseis, Stock, Stock Express, S6 Express y Delimarket; no se suma por medio de pago. No aplica para pagos en efectivo.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito Panal, Cabal y Mastercard de Cooperativa Universitaria",
+    "original_source_text": "SUPERSEIS / STOCK / DELIMARKET Todos los viernes BASES Y CONDICIONES Promoción “SUPERSEIS, STOCK Y DELIMARKET” Vigencia Desde el 01 de octubre de 2026 hasta el 25 de diciembre de 2026. Condiciones PROMOCIÓN FRECUENCIA LÍMITE DE TOPE DE DESCUENTO COMPRA PANAL QR, CABAL QR Y TODOS LOS VIERNES. Gs. 500.000.- Dto. 20% Gs. 100.000.- MASTERCARD QR 20% Por cuenta y por mes. Dto. 10% Gs. 50.000.- PAGO CON TC FISICA con las 3 marcas 10% Beneficios UNIVERSITARIA otorgará a los socios que realicen el pago con las tarjetas de crédito que emite la Entidad, el siguiente esquema de descuentos: Los descuentos serán aplicados vía reintegro en extracto, todos los viernes, hasta un límite de compra de Gs. 500.000.- (guaraníes quinientos mil), por cuenta y por mes. Exclusiones No aplica para pagos en efectivo. Tope de descuento Ver cuadro. Observaciones Cadena S6 y Stock, como así también con los Stock Express, S6 Express y Delimarket. Para pagar con QR CON LAS TARJETAS DE CRÉDITO DE UNIVERSITARIA se debe ingresar a la APP UNIVERSITARIA. Ante consultas sobre las bases y condiciones, comunícate al 021 6170000. M A P C S A A T P N B E A A A R G L L C O T A T A A R C R R D O J . C J . C T A R N T R R J . C É D É D . C . F I T O Q I T O Q R É D IT I S I C A R 2 0 % R 2 0 % O Q R 2 1 0 % 0 %",
+    "limits_reviewed_for_variant": true,
+    "id": "b6dddedaf8e86957",
+    "offer_kind": "base",
+    "offer_label": "Pago con tarjeta de crédito física",
+    "source_checked_at": "2026-10-30T15:54:02.018269+00:00",
+    "source_file_updated_at": "2026-10-30T14:21:05-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-10-01",
+      "ends_on": "2026-12-25",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 500000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Límite de compra mensual por cuenta: Gs. 500.000"
+        },
+        {
+          "kind": "refund",
+          "amount": 50000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de reintegro mensual: Gs. 50.000."
+        }
+      ],
+      "cards": [
+        "Tarjetas de crédito Panal, Cabal y Mastercard de Cooperativa Universitaria"
+      ],
+      "exclusions": [
+        "No aplica para pagos en efectivo"
+      ],
+      "additional": [],
+      "issues": [],
+      "status": "parsed"
+    }
+  }
+]
