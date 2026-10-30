@@ -224,7 +224,8 @@ def matched_review(card, reviews):
                  and review['card_sha256'] == card_fingerprint(card)), None)
 
 
-def build_rows():
+def build_rows(blocked_card_ids=None):
+    blocked_card_ids = set(blocked_card_ids or ())
     payload = json.loads(CARDS.read_text(encoding="utf-8"))
     cards = payload["cards"]
     with REVIEW.open(encoding="utf-8-sig", newline="") as handle:
@@ -235,6 +236,11 @@ def build_rows():
     reviews = source_reviews()
     for card in cards:
         card_id = card["id"]
+        if card_id in blocked_card_ids:
+            issues.append({'id': card_id, 'name': card['title'],
+                           'reason': 'review_document_unverified',
+                           'source_url': card.get('termsUrl')})
+            continue
         if card_id in EXISTING or card_id in EXCLUDE:
             continue
         decision = matched_review(card, reviews)

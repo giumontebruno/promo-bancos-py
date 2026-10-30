@@ -57,7 +57,14 @@ jobs:
           # Code pushes refresh official sources without extra paid map lookups.
           GOOGLE_LOCATION_LIMIT: ${{ github.event_name == 'push' && '0' || '60' }}
           GEOCODE_LIMIT: "0"
-        run: xvfb-run -a python promo_backend/run_all.py
+          # A narrowly scoped repair can refresh GNB without repeating all banks.
+          REFRESH_SOURCE: ${{ github.event_name == 'push' && contains(github.event.head_commit.message, '[refresh:gnb]') && 'gnb' || '' }}
+        run: |
+          if [ "$REFRESH_SOURCE" = "gnb" ]; then
+            xvfb-run -a python promo_backend/run_all.py gnb
+          else
+            xvfb-run -a python promo_backend/run_all.py
+          fi
 
       # Thresholds flag operational anomalies, never validate financial terms.
       # Unsafe snapshots stay uncommitted; partial usable data keeps explicit source status.

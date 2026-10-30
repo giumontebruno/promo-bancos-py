@@ -91,25 +91,36 @@ def build_page_campaigns(data):
 
 def verify_review_documents(cards):
     """A stable terms URL is not proof that its bytes are unchanged."""
-    evidence = []
+    evidence, failures = [], []
     reviews = source_reviews()
     for card in cards:
         decision = matched_review(card, reviews)
         if not decision:
             continue
-        response = requests.get(decision['source_url'], timeout=30)
-        response.raise_for_status()
+        attempt = {'id': card['id'], 'source_url': decision['source_url'],
+                   'attempted_at': datetime.now(timezone.utc).isoformat()}
+        try:
+            response = requests.get(decision['source_url'], timeout=30)
+            response.raise_for_status()
+        except requests.RequestException as error:
+            failures.append({**attempt, 'reason': 'document_fetch_failed',
+                             'error_type': type(error).__name__,
+                             'http_status': getattr(getattr(error, 'response', None), 'status_code', None)})
+            continue
         digest = hashlib.sha256(response.content).hexdigest()
         if not response.content.lstrip().startswith(b'%PDF-') or digest != decision['pdf_sha256']:
-            raise ValueError(f"GNB {card['id']}: reviewed terms changed; review required")
+            failures.append({**attempt, 'reason': 'reviewed_terms_changed',
+                             'observed_sha256': digest})
+            continue
         evidence.append({'id': card['id'], 'source_url': decision['source_url'],
                          'pdf_sha256': digest, 'checked_at': datetime.now(timezone.utc).isoformat()})
-    return evidence
+    return evidence, failures
 
 
 def main():
     live_source = json.loads((ROOT / 'data/gnb_live_cards.json').read_text(encoding='utf-8'))
-    reviewed_documents = verify_review_documents(live_source['cards'])
+    reviewed_documents, document_failures = verify_review_documents(live_source['cards'])
+    blocked_card_ids = {failure['id'] for failure in document_failures}
     data = json.loads((ROOT / 'data/gnb_reviewed_offers.json').read_text(encoding='utf-8'))
     rows = build(data)
     restaurants = json.loads((ROOT / 'data/gnb_restaurants_reviewed.json').read_text(encoding='utf-8'))
@@ -130,7 +141,11 @@ def main():
             if f'/imagenes/{pdf_id}_' in row['URL detalle']:
                 row['URL detalle'] = f'https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/{page_id}'
                 break
-    live_rows, issues = build_live_rows()
+    # Failed revalidation holds only the exact affected cards. Never reuse
+    # their reviewed overrides or abort otherwise independent official offers.
+    rows = [row for row in rows if row['URL detalle'].rstrip('/').split('/')[-1]
+            not in {str(card_id) for card_id in blocked_card_ids}]
+    live_rows, issues = build_live_rows(blocked_card_ids=blocked_card_ids)
     if any(issue['reason'].startswith('no_quantified_offer') for issue in issues):
         raise ValueError(f'Unquantified GNB offers: {issues}')
     rows.extend(live_rows)
@@ -143,6 +158,11 @@ def main():
         'coverage': f"{live_source['total']} official cards extracted from GNB's public API; every card retains its official detail and terms links",
         'records': len(rows),
         'reviewed_documents': reviewed_documents,
+        'document_failures': document_failures,
+        'fetch_errors': [failure for failure in document_failures if failure['reason'] == 'document_fetch_failed'],
+        'coverage_complete': not document_failures and not issues,
+        'pending': document_failures,
+        'status': 'partial' if document_failures or issues else 'fetched',
         'excluded_cards': {
             **{str(issue['id']): issue['reason'] for issue in issues if issue['reason'].startswith('excluded_')},
             '20': 'Interest-bearing purchases abroad, not an interest-free benefit',
