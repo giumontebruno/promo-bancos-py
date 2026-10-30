@@ -21,7 +21,10 @@ class AuditIntegrityTests(unittest.TestCase):
         self.assertNotEqual(k['source_url'],k['source_page_url'])
 
     def test_reviewed_music_hall_keeps_audio_and_financing_separate(self):
-        rows=[p for p in self.rows if p['bank']=='Sudameris' and p['merchant_name']=='Music Hall - Promo Aniversario' and p.get('source_verification')=='official_document']
+        # Historical review contract: the live campaign legitimately became unconfirmed.
+        # Fixture provenance is recorded alongside the captured 2026-10-24 snapshot.
+        rows=json.loads((Path(__file__).parent/'fixtures/music-hall-reviewed-20261024.json').read_text(encoding='utf-8'))
+        self.assertTrue(all(p.get('source_verification')=='official_document' for p in rows))
         self.assertEqual(len(rows),3)
         self.assertEqual({p['terms']['starts_on'] for p in rows},{'2026-10-19'})
         self.assertEqual({p['terms']['ends_on'] for p in rows},{'2026-10-24'})
@@ -29,3 +32,11 @@ class AuditIntegrityTests(unittest.TestCase):
         self.assertEqual(audio['percentages'],['5%'])
         financing=next(p for p in rows if p['offer_kind']=='financing')
         self.assertEqual(financing['benefit_type'],'cuotas_sin_intereses')
+
+    def test_unconfirmed_music_hall_does_not_inherit_reviewed_campaign(self):
+        fixture=json.loads((Path(__file__).parent/'fixtures/music-hall-reviewed-20261024.json').read_text(encoding='utf-8'))
+        reviewed_ids={p['id'] for p in fixture}
+        campaign_ids={p['campaign_id'] for p in fixture}
+        for row in self.rows:
+            if row['id'] in reviewed_ids and row.get('source_verification')!='official_document':
+                self.assertNotIn(row.get('campaign_id'),campaign_ids)

@@ -1,0 +1,189 @@
+[
+  {
+    "bank": "Sudameris",
+    "category": "Tecnología",
+    "merchant_name": "Music Hall - Promo Aniversario",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "15% de descuento en caja (excepto equipos de audio)",
+    "benefit_type": "descuento",
+    "percentages": [
+      "15%"
+    ],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-10-19 hasta 2026-10-24",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.sudameris.com.py/personas/beneficios/music-hall",
+    "source_page_url": "https://www.sudameris.com.py/descargas/documentos/6ad6300056cc7842366125/B%26C-MUSICHALL-19-10-2026.pdf",
+    "raw_detail": "15% de descuento en caja (excepto equipos de audio). Tarjetas de crédito Mastercard y Visa Sudameris. Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito MasterCard y Visa Sudameris. Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. Solicitar fraccionamiento en cuotas al momento de la compra en caja. Para equipos de audio el descuento es 5%. Solicitar fraccionamiento en cuotas al momento de la compra en caja. Para equipos de audio el descuento es 5%.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito Mastercard y Visa Sudameris",
+    "original_source_text": "Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito MasterCard y Visa Sudameris. Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. Solicitar fraccionamiento en cuotas al momento de la compra en caja. Para equipos de audio el descuento es 5%.",
+    "limits_reviewed_for_variant": true,
+    "source_verification": "official_document",
+    "id": "933d29a51e9f853a",
+    "offer_kind": "base",
+    "offer_label": "base",
+    "source_checked_at": "2026-10-24T11:59:11.601245+00:00",
+    "source_file_updated_at": "2026-10-20T04:41:01Z",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-10-19",
+      "ends_on": "2026-10-24",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      "exclusions": [
+        "Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales",
+        "No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis)"
+      ],
+      "additional": [
+        "Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      "issues": [],
+      "status": "parsed"
+    },
+    "campaign_id": "6835e9541687c3e5"
+  },
+  {
+    "bank": "Sudameris",
+    "category": "Tecnología",
+    "merchant_name": "Music Hall - Promo Aniversario",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "5% de descuento en equipos de audio",
+    "benefit_type": "descuento",
+    "percentages": [
+      "5%"
+    ],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-10-19 hasta 2026-10-24",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.sudameris.com.py/personas/beneficios/music-hall",
+    "source_page_url": "https://www.sudameris.com.py/descargas/documentos/6ad6300056cc7842366125/B%26C-MUSICHALL-19-10-2026.pdf",
+    "raw_detail": "5% de descuento en equipos de audio. Tarjetas de crédito Mastercard y Visa Sudameris. Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito MasterCard y Visa Sudameris. Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. Solicitar fraccionamiento en cuotas al momento de la compra en caja. Para equipos de audio el descuento es 5%. Solicitar fraccionamiento en cuotas al momento de la compra en caja. Para equipos de audio el descuento es 5%.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito Mastercard y Visa Sudameris",
+    "original_source_text": "Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito MasterCard y Visa Sudameris. Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. Solicitar fraccionamiento en cuotas al momento de la compra en caja. Para equipos de audio el descuento es 5%.",
+    "limits_reviewed_for_variant": true,
+    "source_verification": "official_document",
+    "id": "dea403e299553e77",
+    "offer_kind": "audio",
+    "offer_label": "audio",
+    "source_checked_at": "2026-10-24T11:59:11.601269+00:00",
+    "source_file_updated_at": "2026-10-20T04:41:01Z",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-10-19",
+      "ends_on": "2026-10-24",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      "exclusions": [
+        "Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales",
+        "No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis)"
+      ],
+      "additional": [
+        "Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      "issues": [],
+      "status": "parsed"
+    },
+    "campaign_id": "6835e9541687c3e5"
+  },
+  {
+    "bank": "Sudameris",
+    "category": "Tecnología",
+    "merchant_name": "Music Hall - Promo Aniversario",
+    "merchant_locations_or_group": "",
+    "benefit_summary": "Hasta 12 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-10-19 hasta 2026-10-24",
+    "source_period_end": "",
+    "caps_and_minimums": "",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.sudameris.com.py/personas/beneficios/music-hall",
+    "source_page_url": "https://www.sudameris.com.py/descargas/documentos/6ad6300056cc7842366125/B%26C-MUSICHALL-19-10-2026.pdf",
+    "raw_detail": "Hasta 12 cuotas sin intereses. Tarjetas de crédito Mastercard y Visa Sudameris. Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito MasterCard y Visa Sudameris. Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. Solicitar fraccionamiento en cuotas al momento de la compra en caja. Para equipos de audio el descuento es 5%. Solicitar fraccionamiento en cuotas al momento de la compra en caja. Para equipos de audio el descuento es 5%.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito Mastercard y Visa Sudameris",
+    "original_source_text": "Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito MasterCard y Visa Sudameris. Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales. No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis). No acumulable con otras promociones. Solicitar fraccionamiento en cuotas al momento de la compra en caja. Para equipos de audio el descuento es 5%.",
+    "limits_reviewed_for_variant": true,
+    "source_verification": "official_document",
+    "id": "252153f5abe9bcd1",
+    "offer_kind": "financing",
+    "offer_label": "financing",
+    "source_checked_at": "2026-10-24T11:59:11.601276+00:00",
+    "source_file_updated_at": "2026-10-20T04:41:01Z",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-10-19",
+      "ends_on": "2026-10-24",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      "exclusions": [
+        "Se excluyen tarjetas prepagas, débito, Bancard Check, Gourmet Card, Móvil Card, Productivas y Empresariales",
+        "No aplica a otras procesadoras (Bepsa, Upay), subredes ni plataformas (Pagopar, Paypal, Pedidos Ya, Monchis)"
+      ],
+      "additional": [
+        "Pago exclusivamente vía POS Bancard (Red Infonet), con tarjetas de crédito Mastercard y Visa Sudameris"
+      ],
+      "issues": [],
+      "status": "parsed"
+    },
+    "campaign_id": "6835e9541687c3e5"
+  }
+]

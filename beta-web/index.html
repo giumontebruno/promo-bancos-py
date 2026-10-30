@@ -16,22 +16,23 @@
   <link rel="stylesheet" href="./glass-ui.css?v=reviewed-campaigns-20261023" />
     <script>try { const t=JSON.parse(localStorage.getItem('paybackPyBeta.theme')); document.documentElement.dataset.theme=t==='dark'?'dark':'light'; } catch { document.documentElement.dataset.theme='light'; }</script>
   </head>
-  <body class="auth-required">
-    <section id="authGate" class="auth-gate" data-state="checking" aria-busy="true" aria-labelledby="authTitle">
+  <body>
+    <section id="authGate" hidden class="auth-gate" data-state="checking" aria-busy="true" aria-labelledby="authTitle">
       <div class="auth-gate-inner">
         <div class="auth-brand pase-auth" role="img" aria-label="paybackpy beta"><img class="pase-light" src="./assets/logos/pase/wordmark-light.svg" alt=""><img class="pase-dark" src="./assets/logos/pase/wordmark-dark.svg" alt=""></div>
         <div class="auth-map" role="img" aria-label="Mapa de beneficios cercanos en Asunción"></div>
         <div class="auth-copy">
           <span class="auth-eyebrow">HECHO PARA TU DÍA A DÍA</span>
           <h1 id="authTitle">Tus beneficios,<br>en un solo lugar.</h1>
-          <p>Entrá para descubrir las promociones que más te convienen.</p>
+          <p>Explorá sin registro. Ingresá sólo si querés usar tu cuenta.</p>
         </div>
         <div class="auth-actions">
           <span class="auth-spinner" aria-hidden="true"></span>
           <p id="authStatus" class="auth-status" role="status" aria-live="polite">Comprobando tu sesión…</p>
           <button type="button" class="auth-google" data-auth-login disabled><img src="./assets/logos/google-g-official.png" width="22" height="22" alt="">Continuar con Google</button>
-          <p class="auth-account-hint">Para crear tu cuenta o volver a entrar.</p>
+          <p class="auth-account-hint">Los cambios de favoritos de esta beta quedan en este navegador, separados de la app principal.</p>
           <button type="button" class="auth-retry" data-auth-retry hidden>Reintentar</button>
+          <button type="button" class="auth-retry" data-auth-guest>Seguir sin iniciar sesión</button>
         </div>
         <p class="auth-legal">Al continuar, aceptás las <a href="./terms.html">Condiciones de uso</a><br>y la <a href="./privacy.html">Política de privacidad</a>.</p>
       </div>
@@ -48,6 +49,14 @@
         <div id="dayTabs" class="tabs day-tabs" aria-label="Día de la promoción"></div>
         <input id="datePicker" type="date" aria-label="Elegir fecha de la promoción" hidden />
         <div class="glass-filters"><label><span class="sr-only">Banco</span><select id="bankSelect" aria-label="Banco"></select></label><label><span class="sr-only">Categoría</span><select id="categorySelect" aria-label="Categoría"></select></label><label><span class="sr-only">Tarjeta</span><select id="cardSelect" aria-label="Tarjeta"><option value="Todas">Tarjetas</option><option>Crédito</option><option>Débito</option><option>Visa</option><option>Mastercard</option><option>American Express</option></select></label></div>
+        <fieldset class="supermarket-pilot"><legend>Consulta de supermercados · piloto</legend>
+          <label><input type="checkbox" id="pilotEnabled"> Evaluar mi compra (mismo criterio en lista y mapa)</label>
+          <div class="pilot-inputs"><label>Tarjeta exacta<select id="pilotCard"><option value="">Elegí tarjeta y banco</option></select></label>
+          <label>Forma de pago<select id="pilotChannel"><option value="">Elegí cómo pagar</option><option value="pos-bancard">POS Bancard / Infonet</option><option value="pos-dinelco">POS Dinelco físico</option><option value="qr">QR</option><option value="online">Online</option><option value="apple-pay">Apple Pay</option><option value="google-pay">Google Pay</option></select></label>
+          <label>Compra en Gs.<input id="pilotAmount" type="number" min="1" step="1" inputmode="numeric" placeholder="Monto de compra"></label></div>
+          <p>No consultamos tus consumos. Si faltan condiciones o saldo del tope, mostramos «Falta confirmar», no una promesa de reintegro.</p>
+          <button id="pilotReset" type="button">Limpiar consulta</button>
+        </fieldset>
         <div id="bankTabs" hidden></div><div id="categoryTabs" hidden></div><div id="uenoLevelPanel" class="level-panel hidden"></div>
       </section>
       <section class="summary">
@@ -55,6 +64,7 @@
         <span id="countText"></span><button id="refreshButton" type="button" aria-label="Actualizar promociones" title="Actualizar">↻</button>
       </section>
 
+      <p id="sourceHealth" class="source-health" role="status"></p>
       <section id="results" class="results"></section>
       <footer style="display:flex;flex-wrap:wrap;gap:16px;padding:24px 0 100px;font-size:13px">
         <a href="./about.html">Acerca de Payback PY</a>
@@ -98,6 +108,8 @@
     <script src="./reviewed-campaigns.js?v=1"></script>
     <script src="./verified-eligibility.js?v=1"></script>
     <script src="./profile-next.js?v=1"></script>
+    <script src="./supermarket-reviewed.js?v=1"></script>
+    <script src="./supermarket-eligibility.js?v=1"></script>
     <script src="./app.js?v=reviewed-campaigns-20261023"></script>
     <script>
       if ("serviceWorker" in navigator) {

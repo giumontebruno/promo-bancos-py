@@ -1,3 +1,4 @@
+import { stampSnapshot } from './publication-snapshot.mjs';
 import { build } from 'esbuild';
 import { cp, mkdir, readFile, writeFile } from 'node:fs/promises';
 await mkdir('dist/server', { recursive: true });
@@ -17,3 +18,6 @@ console.log('Built Payback PY and notification service.');
 
 await build({ entryPoints: ['beta-web/beta-client.js'], bundle: true, format: 'iife', platform: 'browser', target: 'es2022', outfile: 'beta-web/beta-bundle.js', minify: true });
 await cp('beta-web', 'dist/client/beta', { recursive: true });
+
+const publication = await stampSnapshot('public', 'dist/client');
+console.log(`Packaged catalog ${publication.catalog_generated_at}: ${publication.promotion_count} records (${publication.revision}).`);

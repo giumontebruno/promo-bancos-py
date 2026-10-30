@@ -1,0 +1,83 @@
+{
+  "promo_id": "6bdaac371ae91d39",
+  "bank": "Familiar",
+  "merchant": "Supermercado El País",
+  "source_page": "https://www.familiar.com.py/pdfs/promocionesybeneficios-supermercado-el-pais-bases-y-condiciones",
+  "source_pdf": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a95eaa2d6e5c2d24372c5d6_BASES%20Y%20CONDICIONES%20PROMOCI%C3%93N%20EL%20PAIS%202026%20(20)_repaired.pdf",
+  "source_sha256": "a4455770926c36fe17b96c63e8614d514b021cbc57de0314988b8a1a75631800",
+  "checked_at": "2026-10-30T15:05:00Z",
+  "pdf_pages": 2,
+  "coverage": "Full text read pages 1–2; visual page 1 checked; page 2 render inspected separately.",
+  "source_document_revision_date": null,
+  "valid_from": "2026-01-02",
+  "valid_until": "2026-12-25",
+  "weekday": "Friday",
+  "percentage": 20,
+  "benefit_type": "cashback_to_card_statement",
+  "payment_instrument": "credit_card",
+  "issuer": "Banco Familiar",
+  "pos_networks": [
+    "Bancard",
+    "Infonet"
+  ],
+  "allowed_payment_channels_explicit": null,
+  "excluded_qr_explicit": false,
+  "excluded_web_explicit": false,
+  "payment_channel_note": "Document requires correctly processed transactions through Bancard/Infonet POS; does not separately describe physical/NFC/QR/web. Do not infer approval of ambiguous channels.",
+  "minimum_purchase": null,
+  "minimum_purchase_status": "not_specified_in_document",
+  "caps": [
+    {
+      "cards": [
+        "Visa Platinum"
+      ],
+      "purchase_cap_pyg": 1500000,
+      "cashback_cap_pyg": 300000
+    },
+    {
+      "cards": [
+        "Visa Oro",
+        "Mastercard Gold",
+        "Visa Clásica",
+        "Mastercard Clásica",
+        "Positiva Visa",
+        "Positiva BancardCheck"
+      ],
+      "purchase_cap_pyg": 1000000,
+      "cashback_cap_pyg": 200000
+    }
+  ],
+  "cap_period": "monthly",
+  "cap_subject": "per_card",
+  "cap_aggregation": "cumulative_shared_across_all_merchants_and_branches_in_SUPERMERCADOS_campaign",
+  "card_ambiguities": [
+    {
+      "card": "Mastercard InterExa",
+      "issue": "Included in section 1 scope but omitted from section 3 mechanics and both cap groups; not confirmed eligible."
+    }
+  ],
+  "excluded_cards": [
+    "Gourmet",
+    "Móvil Cards"
+  ],
+  "customer_requirement": "domicile_in_Paraguay",
+  "branches": [
+    {
+      "name": "Supermercado El Pais",
+      "address": "Antequera y 25 de mayo, Asunción",
+      "coordinates": null,
+      "evidence_page": 1
+    }
+  ],
+  "branches_complete_for_this_pdf": true,
+  "evidence_sections": {
+    "cards": "p1 §1 and §3",
+    "dates": "p1 §2",
+    "percentage": "p1 §3",
+    "caps": "p1 §3.1–3.2 and starred footnote",
+    "pos": "p1 starred footnote",
+    "branch": "p1 table"
+  },
+  "remaining_monthly_cap": "requires_user_input_or_other_authorized_evidence_not_known_from_promo",
+  "other_terms": "Bank may modify or terminate campaign per p2 §6; no fixed document revision timestamp."
+}

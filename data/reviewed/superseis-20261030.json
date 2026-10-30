@@ -1,0 +1,412 @@
+{
+  "promo_id": "657860c088e9922b",
+  "bank": "Familiar",
+  "merchant": "Superseis",
+  "source_page": "https://www.familiar.com.py/pdfs/promocionesybeneficios-superseis-bases-y-condiciones",
+  "source_pdf": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6a95e8a0e16bd4468e6d14be_ByC%20-%20Superseis%202026%20(20)_repaired.pdf",
+  "source_sha256": "3fa454418d3e4a264d5a7672412ad572cf15b1b1a025751130f8438eee896c2b",
+  "checked_at": "2026-10-30T15:09:00Z",
+  "pdf_pages": 3,
+  "coverage": "Full text and rendered pages 1–3 inspected.",
+  "source_document_revision_date": null,
+  "valid_from": "2026-01-02",
+  "valid_until": "2026-12-25",
+  "weekday": "Friday",
+  "percentage": 20,
+  "benefit_type": "cashback_to_card_statement",
+  "payment_instrument": "credit_card",
+  "issuer": "Banco Familiar",
+  "pos_networks": [
+    "Bancard",
+    "Infonet"
+  ],
+  "allowed_payment_channels_explicit": null,
+  "excluded_qr_explicit": false,
+  "excluded_web_explicit": false,
+  "payment_channel_note": "Bancard/Infonet POS processing required. SUPERSEIS ONLINE explicitly listed as participant, but web payment processing details unspecified; do not infer all web or QR purchases eligible.",
+  "minimum_purchase": null,
+  "minimum_purchase_status": "not_specified_in_document",
+  "caps": [
+    {
+      "cards": [
+        "Visa Platinum"
+      ],
+      "purchase_cap_pyg": 1500000,
+      "cashback_cap_pyg": 300000
+    },
+    {
+      "cards": [
+        "Visa Oro",
+        "Mastercard Gold",
+        "Visa Clásica",
+        "Mastercard Clásica",
+        "Positiva Visa",
+        "Positiva BancardCheck"
+      ],
+      "purchase_cap_pyg": 1000000,
+      "cashback_cap_pyg": 200000
+    }
+  ],
+  "cap_period": "monthly",
+  "cap_subject": "per_card",
+  "cap_aggregation": "cumulative_shared_across_all_merchants_and_branches_in_SUPERMERCADOS_campaign",
+  "card_ambiguities": [
+    {
+      "card": "Mastercard InterExa",
+      "issue": "Included in section 1 scope but omitted from section 3 mechanics and both cap groups; not confirmed eligible."
+    }
+  ],
+  "excluded_cards": [
+    "Gourmet",
+    "Móvil Cards"
+  ],
+  "customer_requirement": "domicile_in_Paraguay",
+  "branches": [
+    {
+      "name": "SUPERSEIS-LAGALERIA",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 1,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-MBURUCUYA",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 1,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-HIPERSEIS",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 1,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-VILLAMORRA",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 1,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-MUNDIMARK",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 1,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-ESPAÑA",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 1,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-JAPÓN",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 1,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-GRANUNIÓN",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 1,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-DENISROA",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 1,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-LOSLAURELES",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 1,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-TOTAL",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEISLA-NEGRITA",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-LUQUE",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-MADERO",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-SIRIO",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-ELPORTAL",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-FDO.DE LA MORA",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-SAN LORENZO",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-LAMBARE",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-AREGUA",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-VILLETA",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-CAMBACUA",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-LAURELTY",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-ÑEMBY",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS EXPRESS-BOQUERON",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS EXPRESS-SANMARTIN",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS EXPRESS-1ER.PDTE",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS EXPRESS-MOIETY",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS EXPRESS-MOLASLOPEZ1",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS EXPRESS-AV.DELYACHT",
+      "department_raw": "CENTRAL",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-SANBER",
+      "department_raw": "COORDILLERA",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS EXPRESS-SANBER",
+      "department_raw": "COORDILLERA",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS EXPRESS-SANBER2",
+      "department_raw": "COORDILLERA",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-NVO.SUPER",
+      "department_raw": "COORDILLERA",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-SUPERCARRETERA",
+      "department_raw": "ALTO PARANA",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-3DEFEBRERO",
+      "department_raw": "ALTO PARANA",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-ENCARNACION",
+      "department_raw": "ITAPÚA",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-COSTANERA",
+      "department_raw": "ITAPÚA",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS-VILLARRICA",
+      "department_raw": "GUAIRA",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS EXPRESS-DSHOPPING",
+      "department_raw": "CORONEL OVIEDO",
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": false
+    },
+    {
+      "name": "SUPERSEIS ONLINE",
+      "department_raw": null,
+      "address": null,
+      "coordinates": null,
+      "evidence_page": 2,
+      "is_online": true
+    }
+  ],
+  "branches_complete_for_this_pdf": true,
+  "evidence_sections": {
+    "cards": "p1 §1 and §3",
+    "dates": "p1 §2",
+    "percentage": "p1 §3",
+    "caps": "p1 §3.1–3.2 and starred footnote",
+    "pos": "p1 starred footnote",
+    "branch": "p1–2 tables: 40 physical named branches and SUPERSEIS ONLINE; no street addresses or coordinates"
+  },
+  "remaining_monthly_cap": "requires_user_input_or_other_authorized_evidence_not_known_from_promo",
+  "other_terms": "p3 §6 permits modifications due to force majeure with prior approval of relevant authority; modifications shall not alter essence. No fixed revision timestamp.",
+  "branch_matching_note": "Only explicitly listed branches are in scope. No blanket all-current-stores rule. Match existing branch names conservatively; preserve ambiguities.",
+  "pilot_branch_link": {
+    "location_id": "loc-bba38ccaba",
+    "source_branch_name": "SUPERSEIS-DENISROA",
+    "source_page": 1,
+    "scope": "Only this existing location; geographic evidence remains independent BNF official map link."
+  }
+}
