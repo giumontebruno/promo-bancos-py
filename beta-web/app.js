@@ -511,6 +511,11 @@ function shouldShowPromotion(promo) {
 }
 
 function isDisplayablePromotion(promo) {
+  // Temporary publication hold: funding dates are not purchase dates, and this
+  // campaign requires an invitation, a personal cap and an exact purchase hour.
+  // Keep history, but never restore universal eligibility from stale catalog data.
+  if (promo.bank === "ueno bank" && [promo.source_url, promo.source_page_url].some(url =>
+    /^https:\/\/www\.ueno\.com\.py\/wp-content\/uploads\/2026\/10\/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien/i.test(String(url || "")))) return false;
   if (promo.benefit_type === "sorteo") return false;
   const text = normalizeDayName([
     promo.merchant_name,

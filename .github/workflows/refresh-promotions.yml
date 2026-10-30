@@ -53,7 +53,8 @@ jobs:
         continue-on-error: true
         env:
           GOOGLE_MAPS_BACKEND_API_KEY: ${{ secrets.GOOGLE_MAPS_BACKEND_API_KEY }}
-          GOOGLE_LOCATION_LIMIT: "60"
+          # Code pushes refresh official sources without extra paid map lookups.
+          GOOGLE_LOCATION_LIMIT: ${{ github.event_name == 'push' && '0' || '60' }}
           GEOCODE_LIMIT: "0"
         run: xvfb-run -a python promo_backend/run_all.py
 

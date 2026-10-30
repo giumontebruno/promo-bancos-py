@@ -1,0 +1,2 @@
+const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs');
+test('source-code pushes cannot add paid map lookups; existing scheduled/manual limit retained',()=>{const s=fs.readFileSync('.github/workflows/refresh-promotions.yml','utf8');assert.match(s,/GOOGLE_LOCATION_LIMIT: \$\{\{ github\.event_name == 'push' && '0' \|\| '60' \}\}/);assert.match(s,/GEOCODE_LIMIT: "0"/);assert.match(s,/cron: "0 7 \* \* \*"/);});
