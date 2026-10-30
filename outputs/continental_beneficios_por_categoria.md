@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 830
+Total de beneficios/comercios: 831
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -68,7 +68,7 @@ Total de beneficios/comercios: 830
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| Contimarket - 25% | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | No especificado | Todo el país |
+| Contimarket - 25% | 25% de reintegro | 2026-10-28 | No especificado | Todo el país |
 | Contimarket.com | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 
 ## Courier (2)
@@ -550,12 +550,13 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 
-## Promociones especiales (11)
+## Promociones especiales (12)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
 | Adelanto en efectivo | hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de junio de 2027 | Todo el país |
 | DG Market - Distribuidora Gloria | 25%; 25% de reintegro; 20% de reintegro | No especificado | Vigente hasta el 31 de octubre de 2026 | Asunción |
+| Farmacias Energy - Promo especial | Hasta 6 cuotas sin intereses | No especificado | No especificado | Todo el país |
 | Koala | Hasta 45% de descuento | Del 29 al 31 de octubre, en Koala | Desde el 29 de octubre de 2026 hasta el 31 de octubre de 2026 | Todo el país |
 | Koala | 10% de reintegro | Del 29 al 31 de octubre, en Koala | Desde el 29 de octubre de 2026 hasta el 31 de octubre de 2026 | Todo el país |
 | Koala | Hasta 12 cuotas sin intereses | todos los días: | Vigente hasta el 31 de agosto de 2027 | Todo el país |

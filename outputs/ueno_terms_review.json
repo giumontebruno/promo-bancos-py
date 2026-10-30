@@ -10,5 +10,23 @@
   {
     "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Jubilados-Albirrojos-_-OCT-2026v1.pdf",
     "reason": "benefit_not_extracted"
+  },
+  {
+    "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v3.pdf",
+    "reason": "personalized_invitation_and_purchase_time_not_supported",
+    "source_text_sha256": "319737bcc2752e0fe49d47c98b28ad5b90c9231570ab0a557e0fc243b83d6776",
+    "purchase_window": {
+      "validity": "Desde 2026-11-01 hasta 2026-11-01",
+      "day": "2026-11-01 de 14:00 a 17:00 h (Paraguay)",
+      "evidence": "50% de reintegro sobre las compras efectuadas el 01 de noviembre de 2026 entre las 14:00 y las 17:00 horas, sujeto al tope individual informado. "
+    },
+    "required_review": [
+      "official_notification",
+      "funding_and_balance_retention",
+      "personalized_cap",
+      "purchase_date_and_hour",
+      "eligible_channel"
+    ],
+    "publication_allowed": false
   }
 ]

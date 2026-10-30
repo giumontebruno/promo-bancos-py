@@ -1,71 +1,299 @@
 {
-  "completed_at": "2026-10-30T16:00:55.357394+00:00",
+  "completed_at": "2026-10-30T17:40:04.485467+00:00",
   "failed_sources": [
     "GNB",
+    "Familiar",
     "Sudameris",
     "Itaú",
-    "BNF"
+    "Coop. Universitaria",
+    "Basa",
+    "Interfisa",
+    "Bancop",
+    "Solar",
+    "Zeta",
+    "ueno bank"
   ],
   "sources": {
     "Sudameris": {
-      "status": "failed",
+      "status": "partial",
+      "records": 346,
+      "attempted_at": "2026-10-30T17:25:13.331180+00:00",
       "checked_at": "2026-10-08T14:33:07.837064+00:00",
-      "records": 329,
-      "attempted_at": "2026-10-30T15:47:01.330937+00:00",
-      "pending_records": 134,
-      "error_type": "CalledProcessError",
-      "failed_step": "scrapers/build_sudameris_table.py",
-      "exit_code": 1
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-10-30T17:25:13.331180+00:00",
+      "pending_records": 278,
+      "pending_items": 4,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 0,
+        "skipped": 0,
+        "import_issues": 0,
+        "sudameris_migration_failures": 4
+      },
+      "evidence_paths": [
+        "outputs/sudameris_migration_report.json"
+      ],
+      "coverage_complete": false
     },
     "Itaú": {
       "status": "partial",
-      "checked_at": "2026-10-17T02:07:38.378271+00:00",
       "records": 548,
-      "attempted_at": "2026-10-30T15:52:08.550000+00:00",
-      "pending_records": 3
+      "attempted_at": "2026-10-30T17:30:05.837654+00:00",
+      "checked_at": "2026-10-17T02:07:38.378271+00:00",
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-10-30T17:30:05.837654+00:00",
+      "pending_records": 4,
+      "pending_items": 0,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 0,
+        "skipped": 0,
+        "import_issues": 0
+      },
+      "evidence_paths": [],
+      "coverage_complete": false
     },
     "BNF": {
-      "status": "failed",
-      "checked_at": "2026-10-26T14:11:15.033730+00:00",
+      "status": "fetched",
       "records": 77,
-      "attempted_at": "2026-10-30T15:52:31.421774+00:00",
-      "error_type": "CalledProcessError",
-      "failed_step": "scrapers/extract_bnf.py",
-      "exit_code": 1
+      "attempted_at": "2026-10-30T17:30:29.263217+00:00",
+      "checked_at": "2026-10-30T17:30:29.263217+00:00",
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-10-30T17:30:29.263217+00:00",
+      "pending_records": 0,
+      "pending_items": 0,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 0,
+        "skipped": 0,
+        "import_issues": 0
+      },
+      "evidence_paths": [
+        "outputs/bnf_source_meta.json"
+      ],
+      "coverage_complete": true
     },
     "Continental": {
       "status": "fetched",
-      "checked_at": "2026-10-30T15:52:35.063077+00:00",
-      "records": 830
+      "records": 831,
+      "attempted_at": "2026-10-30T17:30:32.045718+00:00",
+      "checked_at": "2026-10-30T17:30:32.045718+00:00",
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-10-30T17:30:32.045718+00:00",
+      "pending_records": 0,
+      "pending_items": 0,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 0,
+        "skipped": 0,
+        "import_issues": 0
+      },
+      "evidence_paths": [],
+      "coverage_complete": true
     },
     "Atlas": {
       "status": "fetched",
-      "checked_at": "2026-10-30T15:52:38.586175+00:00",
-      "records": 37
+      "records": 38,
+      "attempted_at": "2026-10-30T17:30:35.328161+00:00",
+      "checked_at": "2026-10-30T17:30:35.328161+00:00",
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-10-30T17:30:35.328161+00:00",
+      "pending_records": 0,
+      "pending_items": 0,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 0,
+        "skipped": 0,
+        "import_issues": 0
+      },
+      "evidence_paths": [],
+      "coverage_complete": true
     },
     "Coop. Universitaria": {
-      "status": "fetched",
+      "status": "partial",
+      "records": 71,
+      "attempted_at": "2026-10-30T17:30:55.375204+00:00",
       "checked_at": "2026-10-30T15:54:02.018269+00:00",
-      "records": 70
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-10-30T17:30:55.375204+00:00",
+      "pending_records": 0,
+      "pending_items": 4,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 0,
+        "skipped": 0,
+        "import_issues": 0,
+        "universitaria_review_report.json": 4
+      },
+      "evidence_paths": [
+        "outputs/universitaria_review_report.json"
+      ],
+      "coverage_complete": false
     },
     "ueno bank": {
-      "status": "fetched",
+      "status": "partial",
+      "records": 670,
+      "attempted_at": "2026-10-30T17:39:51.963922+00:00",
       "checked_at": "2026-10-30T16:00:07.450814+00:00",
-      "records": 669
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-10-30T17:39:51.963922+00:00",
+      "pending_records": 312,
+      "pending_items": 4,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 0,
+        "skipped": 0,
+        "import_issues": 0,
+        "ueno_terms_review.json": 4
+      },
+      "evidence_paths": [
+        "outputs/ueno_source_meta.json",
+        "outputs/ueno_terms_review.json"
+      ],
+      "coverage_complete": false
     },
     "Familiar": {
-      "status": "fetched",
+      "status": "partial",
+      "records": 414,
+      "attempted_at": "2026-10-30T17:24:14.713380+00:00",
       "checked_at": "2026-10-30T15:46:38.443850+00:00",
-      "records": 413
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-10-30T17:24:14.713380+00:00",
+      "pending_records": 0,
+      "pending_items": 87,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 87,
+        "skipped": 0,
+        "import_issues": 0
+      },
+      "evidence_paths": [
+        "outputs/familiar_source_meta.json"
+      ],
+      "coverage_complete": false
     },
     "GNB": {
       "status": "failed",
       "checked_at": "2026-10-26T14:04:23.468427+00:00",
       "records": 482,
-      "attempted_at": "2026-10-30T15:41:18.289829+00:00",
+      "attempted_at": "2026-10-30T17:21:51.651001+00:00",
       "error_type": "CalledProcessError",
       "failed_step": "scrapers/build_gnb_reviewed.py",
-      "exit_code": 1
+      "exit_code": 1,
+      "retrieval_status": "failed"
+    },
+    "Basa": {
+      "status": "partial",
+      "records": 93,
+      "attempted_at": "2026-10-30T17:34:11.713857+00:00",
+      "checked_at": null,
+      "retrieval_status": "partial",
+      "last_successful_fetch_at": null,
+      "pending_records": 0,
+      "pending_items": 159,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 159,
+        "skipped": 0,
+        "import_issues": 0
+      },
+      "evidence_paths": [
+        "outputs/basa_source_meta.json"
+      ],
+      "coverage_complete": false,
+      "discovered": 226,
+      "fetched": 220,
+      "fetch_errors": 6,
+      "cache_replay": false
+    },
+    "Interfisa": {
+      "status": "partial",
+      "records": 163,
+      "attempted_at": "2026-10-30T17:35:57.499951+00:00",
+      "checked_at": null,
+      "retrieval_status": "partial",
+      "last_successful_fetch_at": null,
+      "pending_records": 43,
+      "pending_items": 351,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 351,
+        "skipped": 0,
+        "import_issues": 0
+      },
+      "evidence_paths": [
+        "outputs/interfisa_source_meta.json"
+      ],
+      "coverage_complete": false,
+      "discovered": 384,
+      "fetched": 382,
+      "fetch_errors": 1,
+      "cache_replay": false
+    },
+    "Bancop": {
+      "status": "partial",
+      "records": 68,
+      "attempted_at": "2026-10-30T17:36:22.756215+00:00",
+      "checked_at": null,
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-10-30T17:36:22.756215+00:00",
+      "pending_records": 0,
+      "pending_items": 8,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 0,
+        "skipped": 8,
+        "import_issues": 0
+      },
+      "evidence_paths": [
+        "outputs/bancop_source_meta.json"
+      ],
+      "coverage_complete": false,
+      "catalog_discovered": 60,
+      "reason": "All 58 initial cards individually reviewed. Missing-year and wrong-merchant documents quarantined; changed/new campaigns require review."
+    },
+    "Solar": {
+      "status": "partial",
+      "records": 69,
+      "attempted_at": "2026-10-30T17:36:41.751984+00:00",
+      "checked_at": null,
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-10-30T17:36:41.751984+00:00",
+      "pending_records": 0,
+      "pending_items": 7,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 0,
+        "skipped": 7,
+        "import_issues": 0
+      },
+      "evidence_paths": [
+        "outputs/solar_source_meta.json"
+      ],
+      "coverage_complete": false,
+      "catalog_discovered": 30,
+      "reason": "All known catalog campaigns individually reviewed; expired/ineligible and specific ambiguous campaigns excluded. Changed sources fail closed."
+    },
+    "Zeta": {
+      "status": "blocked",
+      "records": 0,
+      "attempted_at": "2026-10-30T17:36:43.170116+00:00",
+      "checked_at": null,
+      "retrieval_status": "blocked",
+      "last_successful_fetch_at": null,
+      "pending_records": 0,
+      "pending_items": 0,
+      "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+      "pending_counts_by_report": {
+        "pending": 0,
+        "skipped": 0,
+        "import_issues": 0
+      },
+      "evidence_paths": [
+        "outputs/zeta_source_meta.json"
+      ],
+      "coverage_complete": false,
+      "reason": "Live JS catalog link needs rediscovery; linked brochure lacks explicit validity and merchant identities are logos. No current offers asserted."
     }
   }
 }

@@ -1,18 +1,33 @@
 ## Payback daily maintenance
 
-Catalog: 2026-10-30T16:00:54.745475+00:00 · 3602 records
+Catalog: 2026-10-30T17:40:03.923293+00:00 · 4018 records
 Data commit: allowed (partial coverage may remain)
 Health: attention required
 
-Records added: 8; modified: 2013; removed: 7. Removed does not necessarily mean expired.
+Records added: 738; modified: 2041; removed: 322. Removed does not necessarily mean expired.
 
+- WARNING: GNB: no complete successful retrieval within 36 hours.
 - WARNING: GNB: failed; coverage is not complete.
 - WARNING: GNB: no complete successful extraction within 72 hours.
-- WARNING: Sudameris: failed; coverage is not complete.
+- WARNING: Familiar: partial; coverage is not complete.
+- WARNING: Sudameris: partial; coverage is not complete.
 - WARNING: Sudameris: no complete successful extraction within 72 hours.
 - WARNING: Itaú: partial; coverage is not complete.
 - WARNING: Itaú: no complete successful extraction within 72 hours.
-- WARNING: BNF: failed; coverage is not complete.
-- WARNING: BNF: no complete successful extraction within 72 hours.
+- WARNING: Coop. Universitaria: partial; coverage is not complete.
+- WARNING: ueno bank: partial; coverage is not complete.
+- WARNING: Basa: no complete successful retrieval within 36 hours.
+- WARNING: Basa: partial; coverage is not complete.
+- WARNING: Basa: no complete successful extraction within 72 hours.
+- WARNING: Interfisa: no complete successful retrieval within 36 hours.
+- WARNING: Interfisa: partial; coverage is not complete.
+- WARNING: Interfisa: no complete successful extraction within 72 hours.
+- WARNING: Bancop: partial; coverage is not complete.
+- WARNING: Bancop: no complete successful extraction within 72 hours.
+- WARNING: Solar: partial; coverage is not complete.
+- WARNING: Solar: no complete successful extraction within 72 hours.
+- WARNING: Zeta: no complete successful retrieval within 36 hours.
+- WARNING: Zeta: blocked; coverage is not complete.
+- WARNING: Zeta: no complete successful extraction within 72 hours.
 
-checked_at means last complete successful source extraction, not offer validity. Schedule delivery can be delayed. See promotion-audit for source timestamps and details.
+last_successful_fetch_at tracks retrieval; checked_at tracks complete extraction/review, neither guarantees offer validity. Schedule delivery can be delayed. See promotion-audit for source timestamps and details.

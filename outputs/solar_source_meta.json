@@ -44,12 +44,8 @@
       "status": "blocked_specific_ambiguity_or_representation: Fin PDF31/12/2026 contradice catalogo31/08/2027; no seleccionar una fecha como resuelta."
     },
     {
-      "id": 71,
-      "status": "no_remaining_eligible_dates: Vigencia formal31/10 pero solo lunes; ultimo26/10. No promover como disponible hoy o futura."
-    },
-    {
       "id": 55,
-      "status": "expired"
+      "status": "source_changed_requires_review"
     },
     {
       "id": 87,
@@ -126,6 +122,10 @@
     {
       "id": 52,
       "status": "verified"
+    },
+    {
+      "id": 71,
+      "status": "no_remaining_eligible_dates: Vigencia formal31/10 pero solo lunes; ultimo26/10. No promover como disponible hoy o futura."
     }
   ],
   "skipped": [
@@ -146,23 +146,21 @@
       "reason": "blocked_specific_ambiguity_or_representation: Fin PDF31/12/2026 contradice catalogo31/08/2027; no seleccionar una fecha como resuelta."
     },
     {
-      "id": 71,
-      "reason": "no_remaining_eligible_dates: Vigencia formal31/10 pero solo lunes; ultimo26/10. No promover como disponible hoy o futura."
-    },
-    {
       "id": 55,
-      "reason": "expired"
+      "reason": "source_changed_requires_review"
     },
     {
       "id": 118,
       "reason": "blocked_specific_ambiguity_or_representation: PDF titulo y clausula1 Subway pero clausula2.C Popeyes: sucursales aplicables contradictorias."
+    },
+    {
+      "id": 71,
+      "reason": "no_remaining_eligible_dates: Vigencia formal31/10 pero solo lunes; ultimo26/10. No promover como disponible hoy o futura."
     }
   ],
   "coverage_complete": false,
   "reason": "All known catalog campaigns individually reviewed; expired/ineligible and specific ambiguous campaigns excluded. Changed sources fail closed.",
   "bank": "solar",
-  "attempted_at": "2026-10-30T16:31:37.946599+00:00",
-  "rows": 69,
-  "cache_replay": true,
-  "offline_export_note": "Rebuilt from previously captured official documents and reviewed hashes; attempted_at records export/review, not a new HTTP retrieval."
+  "attempted_at": "2026-10-30T17:36:41.721526+00:00",
+  "rows": 69
 }

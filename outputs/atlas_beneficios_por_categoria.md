@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 37
+Total de beneficios: 38
 
 ## Bienestar
 
@@ -70,7 +70,8 @@ Total de beneficios: 37
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Delimarket | 20% de reintegro; 15% de reintegro | Todos los Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito delSol Atlas Visa Signature, Gs. 1.500.000 para tarjetas de crédito delSol Atlas Visa Clásica. Aplica para compras realizadas a través |
-| Supermercados | 20% de reintegro; 15% de reintegro | Todos los Viernes | Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tar |
+| Supermercados | 20% de reintegro | Todos los Viernes | Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tar |
+| Supermercados | 15% de reintegro | Todos los Viernes | Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tar |
 
 ## Tecnología
 

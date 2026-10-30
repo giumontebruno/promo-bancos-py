@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 329
+Total de promociones: 346
 
 ## Clubes
 
@@ -25,7 +25,9 @@ Total de promociones: 329
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | COPETROL Y COPEMARKET 2026 | 20% | 15 de cada mes; Todos los días | • 15 de cada mes. • Desde el 01 de julio hasta el 31 de diciembre 2026. |
+| Copemarket | 25% | Todos los días | Desde el 01 de julio hasta el 31 de diciembre 2026. |
 | Copetrol | 20% de reintegro en estaciones y App VAMOS adheridas | 15 de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
+| ENEX Y APP MI ENEX | 20% | primer lunes; Solo el primer lunes | Desde el 01 de julio hasta el 31 de diciembre 2026 |
 | ENEX Y APP MI ENEX | 10% de reintegro en estaciones físicas adheridas | Primer lunes de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | ENEX Y APP MI ENEX | 20% de reintegro a través de la app Mi Enex en estaciones adheridas | Primer lunes de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 
@@ -117,6 +119,12 @@ Total de promociones: 329
 | SASPY EXPRESS | 15%; 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | Desde el 01 de octubre hasta el 31 de diciembre 2026. |
 | ZONA NORTE | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 
+## Deportes y clubes
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| LIVE FITNESS | 20%; hasta 12 cuotas sin intereses | Todos los días | Desde el 27 de abril hasta el 31 de diciembre 2026. |
+
 ## Educación
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -148,15 +156,18 @@ Total de promociones: 329
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | BIGGIE FARMA | 10%; 20%; Hasta 12 cuotas sin interés | primer Jueves; Solo el primer Jueves | • Desde el 01 de julio hasta el 01 de octubre 2026. • Solo el primer Jueves de cada mes: • 02 de julio. • 06 de agosto. • 03 de septiembre. • 01 de octubre. |
+| Catedral | 10%; 25%; hasta 12 cuotas sin intereses | Todos los lunes | Desde el 01 de julio hasta el 31 de diciembre 2026. |
 | Catedral | Hasta 25% de descuento en caja en todos los productos | Lunes | Desde 2026-07-01 hasta 2026-12-31 |
 | Catedral | 25% de descuento en caja en medicamentos nacionales y preparados magistrales | Lunes | Desde 2026-07-01 hasta 2026-12-31 |
 | Catedral | 20% de descuento en caja en medicamentos importados o nacionales con tratamientos importados | Lunes | Desde 2026-07-01 hasta 2026-12-31 |
 | Catedral | 10% de reintegro adicional solo el último lunes de cada mes | Último lunes de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | Catedral | Hasta 12 cuotas sin interés | Lunes | Desde 2026-07-01 hasta 2026-12-31 |
+| DRUGSTORE ASISMED DESCUENTO EN CAJA | 10%; 100%; 17%; 32%; Hasta 12 cuotas sin intereses | Todos los martes | • Desde el 01 de julio hasta el 31 de diciembre 2026. |
 | Drugstore Asismed | 17% de descuento en caja en medicamentos importados o nacionales con tratamiento de importado y varios | Martes | Desde 2026-07-01 hasta 2026-12-31 |
 | Drugstore Asismed | 32% de descuento en caja en medicamentos de origen 100% nacional | Martes | Desde 2026-07-01 hasta 2026-12-31 |
 | Drugstore Asismed | 10% de reintegro adicional en extracto | Martes | Desde 2026-07-01 hasta 2026-12-31 |
 | Drugstore Asismed | Hasta 12 cuotas sin intereses | Martes | Desde 2026-07-01 hasta 2026-12-31 |
+| FARMACENTER | 10%; 20%; hasta 12 cuotas sin interés | primer miércoles; Solo el primer miércoles | Desde el 01 de julio hasta el 31 de diciembre 2026. |
 | FARMACENTER | 20% de descuento en caja en todos los productos | Primer miércoles de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | FARMACENTER | 10% de reintegro adicional | Primer miércoles de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | FARMACENTER | Hasta 12 cuotas sin interés | Primer miércoles de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
@@ -168,6 +179,7 @@ Total de promociones: 329
 | Farmacia Ypane | 10% de reintegro | Primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 | Farmacia Ypane | 10% de descuento en caja | Primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 | Farmacia Ypane | Hasta 12 cuotas sin interés | Primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
+| GREFRAN SUPERMERCADO | 20% de reintegro | Último sábado de cada mes | Desde 2026-10-31 hasta 2026-12-31 |
 | MAXIFARMA | 20% de reintegro | Primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 | MAXIFARMA | Hasta 12 cuotas sin interés | Primer lunes de cada mes | Desde 2026-08-01 hasta 2026-12-31 |
 
@@ -182,8 +194,11 @@ Total de promociones: 329
 | CHAVAL | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A SÁBADO | Desde 2026-08-06 hasta 2026-12-31 |
 | CHEF’S KITCHEN | 20% de reintegro | Viernes y sábado | Desde 2026-08-28 hasta 2026-12-26 |
 | CHEF’S KITCHEN | 25% de reintegro | Viernes y sábado | Desde 2026-08-28 hasta 2026-12-26 |
+| CLUB CONCEPCIÓN | 10%; 20%; hasta 12 cuotas sin intereses | Todos los días | Todos los días desde el 9 de setiembre al 31 de agosto del 2028 |
 | CLUB DEPORTIVO PUERTO SAJONIA (CDPS). | 10%; 20%; Hasta 36 cuotas sin interés; Tope de compra mensual Gs. 350.000; Tope de compra mensual Gs. 150.000; Tope mensual de compra Gs. 500.000; Gs. 350.000; Gs. 150.000; Gs. 500.000 | Todos los días | • Todos los días. • Desde el 01 de octubre 2026 hasta el 31 de julio de 2028. |
+| CLUB NAUTICO SAN BERNARDINO | 10%; 20%; Hasta 12 cuotas sin intereses | No especificado | • Desde el 01 de noviembre de 2026 hasta el 31 de diciembre de 2027 |
 | CLUB SOCIAL ÁREA 1 (CDE) | 10%; 20%; hasta 12 cuotas sin intereses; Tope de compra mensual: Gs. 440.000; Tope de compra mensual: Gs. 50.000; Tope de compra mensual: Gs. 300.000; Gs. 440.000; Gs. 50.000; Gs. 300.000 | Todos los días; todos los días | • Todos los días. • Hasta el 30 de junio de 2028. |
+| CONCEPTS LA CUADRITA | 20%; 25%; Hasta 10 cuotas sin intereses | Miércoles a viernes | • Desde el 04 de marzo hasta el 31 de diciembre 2026. |
 | Casa Lorenzo | 20% de reintegro directo | Martes a jueves | Desde 2026-10-10 hasta 2026-10-31 |
 | Catas Nómadas - CNSB | 20% de reintegro | Todos los días | Desde 2026-01-23 hasta 2026-02-15 |
 | Club Deportivo Alemán (DTA) - Locales gastronómicos | 20% de reintegro en todos los locales gastronómicos dentro del club | Todos los días | Hasta 2028-12-31 |
@@ -205,6 +220,7 @@ Total de promociones: 329
 | Restaurantes CNSB | 20% de reintegro | Todos los días | Desde 2025-01-01 hasta 2026-10-31 |
 | SERENDIPITY - LA HORNALLA - CANTINA COLEGIOS | 15% | Lunes a viernes | • Lunes a viernes. • Desde el 20 de abril hasta el 30 de noviembre 2026. |
 | Serendipity - Cantinas de colegios | 15% de reintegro directo | Lunes a viernes | Desde 2026-04-20 hasta 2026-11-30 |
+| TATANO POSADA BOUTIQUE | 25%; hasta 12 cuotas sin intereses | Martes a domingo | Desde el 07 de abril 2026 hasta el 31 de diciembre 2026. |
 | TOTEM TOSTADORES | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | MARTES A VIERNES | Desde 2026-03-05 hasta 2026-12-31 |
 | Veredeada Chaval | 20% de reintegro | Sábado | Desde 2026-10-17 hasta 2026-10-17 |
 | Veredeada Chaval | 25% de reintegro | Sábado | Desde 2026-10-17 hasta 2026-10-17 |
@@ -216,6 +232,7 @@ Total de promociones: 329
 | Kube - Octubre 2026 | 20% de reintegro | Todos los días | Desde 2026-10-19 hasta 2026-10-24 |
 | Kube - Octubre 2026 | 25% de reintegro | Todos los días | Desde 2026-10-19 hasta 2026-10-24 |
 | Kube - Octubre 2026 | Hasta 15 cuotas sin interés | Todos los días | Desde 2026-10-19 hasta 2026-10-24 |
+| MATERASSI | 10%; 30%; Hasta 12 cuotas sin interés | Miércoles a sábado | • Desde el 19 de agosto hasta el 31 de diciembre 2026. BENEFICIOS |
 | Materassi | 30% de descuento directo en caja | Miércoles a sábado | Desde 2026-08-19 hasta 2026-12-31 |
 | Materassi | 10% de reintegro directo | Miércoles a sábado | Desde 2026-08-19 hasta 2026-12-31 |
 | Materassi | Hasta 12 cuotas sin intereses | Miércoles a sábado | Desde 2026-08-19 hasta 2026-12-31 |
@@ -236,6 +253,7 @@ Total de promociones: 329
 | ADOLFO DOMINGUEZ | 20%; Hasta 10 cuotas sin interés | No especificado | • Desde el 07 y 08 de octubre 2026. |
 | Cecconello | 20% de descuento en caja | Todos los días | Desde 2026-10-07 hasta 2026-10-17 |
 | Cecconello | Hasta 10 cuotas sin intereses | Todos los días | Desde 2026-10-07 hasta 2026-10-17 |
+| YOUNIQUE | 25%; 30%; Hasta 12 cuotas sin interés | No especificado | Del 01 de setiembre hasta el 31 de octubre 2026 |
 | Younique | 25% de descuento en caja | Martes y miércoles | Desde 2026-09-01 hasta 2026-10-31 |
 | Younique | 30% de descuento en caja | Martes y miércoles | Desde 2026-09-01 hasta 2026-10-31 |
 | Younique | Hasta 12 cuotas sin intereses | Martes y miércoles | Desde 2026-09-01 hasta 2026-10-31 |
@@ -264,6 +282,7 @@ Total de promociones: 329
 | Busca Pies | 20% de descuento en caja + 10% de reintegro Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-09-04 hasta 2027-02-28 |
 | CHAI SHOES | 20% de reintegro | Viernes y sábado | Desde 2025-09-19 hasta 2025-12-31 |
 | CHAI SHOES | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2025-09-19 hasta 2025-12-31 |
+| CHEF’S KITCHEN | 20%; 25% | Viernes y sábados | Desde el 28 de agosto hasta el 26 de diciembre 2026. |
 | Calzados Mellba | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Calzados Parana | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Casa Angela | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
@@ -304,12 +323,13 @@ Total de promociones: 329
 | Jakare La Tienda | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-05-08 hasta 2027-02-27 |
 | Javi Deportes | 20% de reintegro Hasta 10 cuotas sin interés | miércoles | Desde 2025-01-15 hasta 2027-02-24 |
 | Joyeria Dominguez | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
+| KESSEL | 20%; 25% | Jueves a sábado | • Desde el 10 de octubre hasta el 31 de octubre 2026. |
 | La Fabril Pizza | 20% de reintegro | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | La Guarania Gran Almacén | 25% de reintegro Hasta 12 cuotas sin interés | Último sábado de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | Le Chic | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Liberato | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | MASARTE | 20% de reintegro | Miércoles y jueves | Desde 2026-09-30 hasta 2026-12-31 |
-| MAX SUPERMERCADO | 20% de reintegro | Viernes y sábado | Desde 2025-09-05 hasta 2025-12-31 |
+| MAX SUPERMERCADO | 20% de reintegro | Último sábado de cada mes | Desde 2026-08-29 hasta 2026-12-31 |
 | MAX SUPERMERCADO | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2025-09-05 hasta 2025-12-31 |
 | MENTES EXPERTAS – ENRIQUE ROJAS | 20% | No especificado | • Desde el 24 de septiembre 2026 (o hasta agotar stock de entradas). |
 | MI Multimarca | 20% de reintegro | Viernes y sábado | Desde 2025-04-11 hasta 2027-02-27 |
@@ -406,6 +426,7 @@ Total de promociones: 329
 | Copemarket | 25% de reintegro en locales adheridos | Todos los días | Desde 2026-07-01 hasta 2026-12-31 |
 | Frigomas - Paseo Miraflores | 25% de reintegro directo | Viernes | Desde 2026-08-07 hasta 2026-12-25 |
 | LUISITO | 20% de reintegro | Martes | Desde 2026-05-26 hasta 2026-11-30 |
+| REAL SUPERMERCADOS | 20%; Hasta 12 cuotas sin interés | primer viernes; Solo el primer viernes; todos los días | Desde el 01 de julio hasta el 31 de diciembre 2026. |
 | Real Supermercados | 20% de reintegro directo | Primer viernes de cada mes: 03/07, 07/08, 04/09, 02/10, 06/11 y 04/12 de 2026 | Desde 2026-07-01 hasta 2026-12-31 |
 | Real Supermercados - Cuotas | Hasta 12 cuotas sin interés en electrodomésticos, artículos de jardín y decoración | Todos los días | Desde 2026-07-01 hasta 2026-12-31 |
 
@@ -429,5 +450,6 @@ Total de promociones: 329
 |---|---|---|---|
 | 12 CUOTAS SIN INTERÉS - 2026 | ¡Disfrutá tus rubros favoritos en CUOTAS! Tenés hasta 12 cuotas sin interés todos los días hasta el 31 de diciembre de 2026 con todas tus tarjetas de crédito en: Bicicleterías Club | todos los días | No especificado |
 | DTP TRAVEL GROUP | Sorteo de un upgrade de sector de entrada para Charter F1 São Paulo | No especificado | Enero de 2026 hasta octubre de 2026; día exacto no especificado |
+| Universidad Leonardo Da Vinci - Diplomados | 20%; Hasta 12 cuotas sin intereses | No especificado | Desde el 21 de septiembre 2026 hasta el 31 de mayo de 2027. |
 | Yacht y Golf Club Paraguayo | 10%; Hasta 12 Cuotas sin interés; Gs. 500.000. | Todos los días | •Desde el 01 de octubre hasta el 30 de noviembre 2026. |
 

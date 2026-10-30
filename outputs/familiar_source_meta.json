@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-30T15:46:37.825292+00:00",
-  "published": 413,
+  "checked_at": "2026-10-30T17:24:14.304088+00:00",
+  "published": 414,
   "pending": [
     {
       "merchant_name": "GASTRO MALL EXCELSIOR",
@@ -81,7 +81,7 @@
     {
       "merchant_name": "ESTACIONES DE SERVICIO",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-combustible",
-      "reason": "missing_terms"
+      "reason": "ambiguous_dates"
     },
     {
       "merchant_name": "VETERINARIAS",

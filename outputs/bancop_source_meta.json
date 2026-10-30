@@ -1,0 +1,51 @@
+{
+  "status": "partial",
+  "catalog_discovered": 60,
+  "skipped": [
+    {
+      "id": "551",
+      "title": "MASTERCLASS CON FACUNDO DE SALTERAIN",
+      "reason": "new_campaign_requires_review"
+    },
+    {
+      "id": "464",
+      "title": "SUPERMERCADO CHORTITZER",
+      "reason": "new_campaign_requires_review"
+    },
+    {
+      "id": "539",
+      "title": "SUPERMERCADO JORGE ANDRES",
+      "reason": "PDF omite el año de vigencia (1 septiembre a 31 diciembre)."
+    },
+    {
+      "id": "544",
+      "title": "LOJA DA MOY",
+      "reason": "PDF omite el año de vigencia (1 septiembre a 31 diciembre)."
+    },
+    {
+      "id": "543",
+      "title": "CHETOS Y CHETITOS",
+      "reason": "PDF omite el año de vigencia (1 septiembre a 31 diciembre)."
+    },
+    {
+      "id": "547",
+      "title": "FARMACIA VITALMED",
+      "reason": "PDF omite el año de vigencia (1 septiembre a 31 diciembre)."
+    },
+    {
+      "id": "487",
+      "title": "NISSEI",
+      "reason": "Ficha Nissei enlaza PDF de Visuar/Tienda Móvil, no prueba promoción Nissei."
+    },
+    {
+      "id": "541",
+      "title": "MUNDO LED",
+      "reason": "PDF omite el año de vigencia (1 septiembre a 31 diciembre)."
+    }
+  ],
+  "coverage_complete": false,
+  "reason": "All 58 initial cards individually reviewed. Missing-year and wrong-merchant documents quarantined; changed/new campaigns require review.",
+  "bank": "bancop",
+  "attempted_at": "2026-10-30T17:36:22.715711+00:00",
+  "rows": 68
+}

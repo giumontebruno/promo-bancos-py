@@ -1,11 +1,16 @@
 {
-  "checked_at": "2026-10-29T14:06:44.471637+00:00",
-  "campaigns": 48,
+  "checked_at": "2026-10-30T17:25:13.259000+00:00",
+  "campaigns": 46,
   "failures": [
+    {
+      "campaign": "Distrito Perseverancia",
+      "url": "https://www.sudameris.com.py/personas/beneficios/distrito-perseverancia",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
     {
       "campaign": "ZONA SUR",
       "url": "https://www.sudameris.com.py/personas/beneficios/zona-sur",
-      "reason": "Multiple Sudameris documents require per-city scoped review: ['https://www.sudamerispy.ad/descargas/documentos/encarnacion', 'https://www.sudameris.com.py/descargas/documentos/honeau-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/pirapo-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/bella-vista-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/coronel-bogado-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/trinidad-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/maria-auxiliadora-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/fram-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/obligado-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/carmen-del-parana-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/capitan-miranda-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/natalio-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/kressburgo-bases-y-condiciones']"
+      "reason": "Multiple Sudameris documents require per-city scoped review: ['https://www.sudameris.com.py/descargas/documentos/zona-sur-encarnacion', 'https://www.sudameris.com.py/descargas/documentos/honeau-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/pirapo-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/bella-vista-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/coronel-bogado-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/trinidad-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/maria-auxiliadora-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/fram-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/obligado-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/carmen-del-parana-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/capitan-miranda-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/natalio-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/kressburgo-bases-y-condiciones']"
     },
     {
       "campaign": "ZONA ESTE",
@@ -18,5 +23,5 @@
       "reason": "Multiple Sudameris documents require per-city scoped review: ['https://www.sudameris.com.py/descargas/documentos/concepcion-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/katuete-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/santa-rosa-del-aguaray-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/san-alberto-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/zona-norte-curuguaty']"
     }
   ],
-  "retained_unconfirmed": 134
+  "retained_unconfirmed": 278
 }

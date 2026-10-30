@@ -1,0 +1,12 @@
+{
+  "status": "blocked",
+  "coverage_complete": false,
+  "source_page_url": "https://www.zbanco.com.py/site?page=tarjetas",
+  "brochure_url": "https://www.zbanco.com.py/uploads/55ba16aa-25d7-4192-9953-12a4c07d84c4.pdf",
+  "sha256": "0145925aa370477d84d16144fc60aca358593277063ac33253eb94f0fbb40f5f",
+  "extracted_text_length": 1909,
+  "reason": "Live JS catalog link needs rediscovery; linked brochure lacks explicit validity and merchant identities are logos. No current offers asserted.",
+  "bank": "zeta",
+  "attempted_at": "2026-10-30T17:36:43.139803+00:00",
+  "rows": 0
+}

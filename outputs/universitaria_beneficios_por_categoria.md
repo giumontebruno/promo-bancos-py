@@ -2,7 +2,7 @@
 
 Fuente: https://www.universitaria.coop/promociones
 
-Total de beneficios verificados: 70
+Total de beneficios verificados: 71
 
 ## Electrodomésticos
 
@@ -131,7 +131,8 @@ Total de beneficios verificados: 70
 |---|---|---|---|---|
 | SUPERMERCADO GÉMINIS | 20% de reintegro con QR | Todos los martes | Vigencia Desde el 01 de septiembre 2026 hasta el 27 de octubre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1788884198.pdf) |
 | SUPERMERCADO GÉMINIS | 10% de reintegro con tarjeta física | Todos los martes | Vigencia Desde el 01 de septiembre 2026 hasta el 27 de octubre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1788884198.pdf) |
-| SUPERSEIS / STOCK / DELIMARKET | MASTERCARD QR 20%; PAGO CON TC FISICA con las 3 marcas 10% | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 25 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf) |
+| SUPERSEIS / STOCK / DELIMARKET | 20% de reintegro con QR | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 25 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf) |
+| SUPERSEIS / STOCK / DELIMARKET | 10% de reintegro con tarjeta física | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 25 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf) |
 
 ## Tiendas
 

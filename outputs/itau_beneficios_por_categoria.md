@@ -33,10 +33,10 @@ Total de beneficios: 548
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Coco Fit | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los miércoles | 2025-02-10 hasta 2026-12-31 |
-| Piki Tecnologia | 6 Cuotas sin intereses 20 %; Tenés 20% de reintegro y hasta 6 cuotas sin intereses | Aplica los miércoles | 2024-05-06 hasta 2026-12-31 |
-| ROPERIA DANY | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los miércoles | 2025-02-10 hasta 2026-12-31 |
-| San Blas | 20 % 10 Cuotas sin intereses; 20% de reintegro y hasta 10 cuotas sin intereses. | Aplica los miércoles | 2024-05-29 hasta 2026-12-31 |
+| Coco Fit | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los miércoles, jueves y viernes | 2025-02-10 hasta 2026-12-31 |
+| Piki Tecnologia | 6 Cuotas sin intereses 20 %; Tenés 20% de reintegro y hasta 6 cuotas sin intereses | Aplica los miércoles y jueves | 2024-05-06 hasta 2026-12-31 |
+| ROPERIA DANY | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los miércoles, jueves y viernes | 2025-02-10 hasta 2026-12-31 |
+| San Blas | 20 % 10 Cuotas sin intereses; 20% de reintegro y hasta 10 cuotas sin intereses. | Aplica los miércoles, jueves y viernes | 2024-05-29 hasta 2026-12-31 |
 
 ## Belleza y Salud
 
@@ -54,23 +54,23 @@ Total de beneficios: 548
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| A Punto Food Park | 20 %; Hasta 25% off + hasta 10 cuotas sin intereses. | Aplica martes; martes a sábado | 2021-02-01 hasta 2026-12-31 |
-| Alborada | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA JUEVES; APLICA MARTES; Aplica los jueves | 2025-06-23 hasta 2026-12-31 |
-| Alternativa | 25 % 6 Cuotas sin intereses; Tenés 25% de reintegro y hasta 6 cuotas sin intereses | Aplica los jueves; Aplica lunes; jueves a sábado | 2025-06-13 hasta 2026-12-31 |
-| Brave | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los jueves; jueves a sábado | 2025-01-01 hasta 2026-12-31 |
-| CAVAS | 20 %; Hasta 25% off + hasta 10 cuotas sin intereses. | Aplica martes; martes a sábado | 2021-02-01 hasta 2026-12-31 |
-| Flor y Flor | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA JUEVES; APLICA MARTES; Aplica los jueves | 2025-06-23 hasta 2026-12-31 |
-| Jack Sport | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los jueves; jueves a sábado | 2025-01-01 hasta 2026-12-31 |
-| Kyrios Caaguazu | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA JUEVES; APLICA MARTES; Aplica los jueves | 2025-06-23 hasta 2026-12-31 |
-| Premier Sports | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los jueves; jueves a sábado | 2025-01-01 hasta 2026-12-31 |
-| Royal Comercial | 15 % 10 Cuotas sin intereses; Tenes 15% de ahorro y hasta 10 cuotas | Aplica lunes; lunes a sábado | 2025-06-09 hasta 2026-12-31 |
+| A Punto Food Park | 20 %; Hasta 25% off + hasta 10 cuotas sin intereses. | Aplica martes a sábado; martes a sábado | 2021-02-01 hasta 2026-12-31 |
+| Alborada | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA JUEVES Y VIERNES; APLICA MARTES Y SABADO; Aplica los jueves | 2025-06-23 hasta 2026-12-31 |
+| Alternativa | 25 % 6 Cuotas sin intereses; Tenés 25% de reintegro y hasta 6 cuotas sin intereses | Aplica los jueves a sábados; Aplica lunes, miércoles y sábado; jueves a sábado | 2025-06-13 hasta 2026-12-31 |
+| Brave | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los jueves a sábado; jueves a sábado | 2025-01-01 hasta 2026-12-31 |
+| CAVAS | 20 %; Hasta 25% off + hasta 10 cuotas sin intereses. | Aplica martes a sábado; martes a sábado | 2021-02-01 hasta 2026-12-31 |
+| Flor y Flor | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA JUEVES Y VIERNES; APLICA MARTES Y SABADO; Aplica los jueves | 2025-06-23 hasta 2026-12-31 |
+| Jack Sport | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los jueves a sábado; jueves a sábado | 2025-01-01 hasta 2026-12-31 |
+| Kyrios Caaguazu | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA JUEVES Y VIERNES; APLICA MARTES Y SABADO; Aplica los jueves | 2025-06-23 hasta 2026-12-31 |
+| Premier Sports | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los jueves a sábado; jueves a sábado | 2025-01-01 hasta 2026-12-31 |
+| Royal Comercial | 15 % 10 Cuotas sin intereses; Tenes 15% de ahorro y hasta 10 cuotas | Aplica lunes a sábado; lunes a sábado | 2025-06-09 hasta 2026-12-31 |
 | Tiento Multimarcas | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los sábados | 2025-01-01 hasta 2026-12-31 |
 
 ## Ciudad del Este
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Carol | 6 Cuotas sin intereses 25 % Hasta; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves | 2025-07-21 hasta 2026-12-31 |
+| Carol | 6 Cuotas sin intereses 25 % Hasta; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves, viernes y sábado | 2025-07-21 hasta 2026-12-31 |
 | Casa Interiores | 10 % 10 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-01-19 hasta 2026-12-31 |
 | Ideal Muebles | 10 % 10 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-01-19 hasta 2026-12-31 |
 | Innovalar | 15 % 10 Cuotas sin intereses; Tenes 15% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-07-21 hasta 2026-12-31 |
@@ -89,123 +89,123 @@ Total de beneficios: 548
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Gastronomía Centenario | 20 % Hasta; 20% de ahorro | Aplica lunes; Aplica jueves; lunes a viernes; Viernes a domingo; lunes a sábado | 2026-01-07 hasta 2026-12-31 |
-| Juan Valdez | 20 %; 20% ahorro. | Aplica jueves | 2026-01-01 hasta 2026-12-31 |
+| Gastronomía Centenario | 20 % Hasta; 20% de ahorro | Aplica lunes a viernes; Aplica jueves y viernes; Aplica lunes a sábados; lunes a viernes; Viernes a domingo; lunes a sábado | 2026-01-07 hasta 2026-12-31 |
+| Juan Valdez | 20 %; 20% ahorro. | Aplica jueves y viernes | 2026-01-01 hasta 2026-12-31 |
 | Talleyrand | 20 %; Tenés 20% de reintegro | lunes a sábado | 2026-10-12 hasta 2026-12-31 |
 
 ## Concepción
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| ATENEA COOL | 30 % 6 Cuotas sin intereses; Tenes 30% de reintegro y hasta 6 cuotas sin intereses | APLICA MIERCOLES | 2024-07-03 hasta 2026-12-31 |
-| Algo Distinto Boutique | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES | 2025-01-01 hasta 2026-12-31 |
-| Area Top Multimarcas | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES | 2025-01-01 hasta 2026-12-31 |
-| COMERCIAL BABILONIA | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES | 2025-01-01 hasta 2026-12-31 |
-| ColArte | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | Aplica viernes | 2025-02-03 hasta 2026-12-31 |
+| ATENEA COOL | 30 % 6 Cuotas sin intereses; Tenes 30% de reintegro y hasta 6 cuotas sin intereses | APLICA MIERCOLES, JUEVES Y VIERNES | 2024-07-03 hasta 2026-12-31 |
+| Algo Distinto Boutique | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES, JUEVES Y VIERNES | 2025-01-01 hasta 2026-12-31 |
+| Area Top Multimarcas | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES, JUEVES Y VIERNES | 2025-01-01 hasta 2026-12-31 |
+| COMERCIAL BABILONIA | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES, JUEVES Y VIERNES | 2025-01-01 hasta 2026-12-31 |
+| ColArte | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | Aplica viernes y sábado | 2025-02-03 hasta 2026-12-31 |
 | DISTRIBUIDORA EL RANCHO | 20 %; Tenes 20% de reintegro | Aplica los martes | 2026-07-08 hasta 2026-12-31 |
 | Diamore | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los jueves | 2025-01-01 hasta 2026-12-31 |
 | El Ferretero Comercial | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-02 hasta 2026-12-31 |
-| FERRE AGIL | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | Aplica viernes | 2025-02-03 hasta 2026-12-31 |
-| IRIGOYEN PARRILLA | tarjeta de crédito; Tenes 20% de reintegro | Aplica MARTES; MARTES A SABADO | 2026-10-01 hasta 2026-12-31 |
-| La Tule | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | Aplica viernes | 2025-02-03 hasta 2026-12-31 |
+| FERRE AGIL | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | Aplica viernes y sábado | 2025-02-03 hasta 2026-12-31 |
+| IRIGOYEN PARRILLA | tarjeta de crédito; Tenes 20% de reintegro | Aplica MARTES A SABADOS; MARTES A SABADO | 2026-10-01 hasta 2026-12-31 |
+| La Tule | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | Aplica viernes y sábado | 2025-02-03 hasta 2026-12-31 |
 | La Tule | 20 % Hasta; Tenes 15% de reintegro + 5% pagando con PERSONAL BANK. | Aplica los martes | 2026-10-01 hasta 2026-12-31 |
-| Lirios | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES | 2025-01-01 hasta 2026-12-31 |
-| Monita | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES | 2025-01-01 hasta 2026-12-31 |
+| Lirios | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES, JUEVES Y VIERNES | 2025-01-01 hasta 2026-12-31 |
+| Monita | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES, JUEVES Y VIERNES | 2025-01-01 hasta 2026-12-31 |
 | Santa Catalina | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-02 hasta 2026-12-31 |
-| Sartori Indumentaria | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES | 2025-01-01 hasta 2026-12-31 |
+| Sartori Indumentaria | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES, JUEVES Y VIERNES | 2025-01-01 hasta 2026-12-31 |
 | Yasy | 20 % Hasta; Tenes 15% de reintegro + 5% pagando con PERSONAL BANK. | Aplica los martes | 2026-10-01 hasta 2026-12-31 |
-| ZUKHA | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES | 2025-01-01 hasta 2026-12-31 |
-| ZUKHA KIDS | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES | 2025-01-01 hasta 2026-12-31 |
+| ZUKHA | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES, JUEVES Y VIERNES | 2025-01-01 hasta 2026-12-31 |
+| ZUKHA KIDS | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES, JUEVES Y VIERNES | 2025-01-01 hasta 2026-12-31 |
 
 ## Coronel Oviedo
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Ajos la tienda | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves | 2025-08-18 hasta 2026-12-31 |
-| American Clothes | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves | 2025-08-18 hasta 2026-12-31 |
-| Betta | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves | 2025-08-18 hasta 2026-12-31 |
-| Brave | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves | 2025-08-18 hasta 2026-12-31 |
-| Impacto Modas | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves | 2025-08-18 hasta 2026-12-31 |
+| Ajos la tienda | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves, viernes y sábado | 2025-08-18 hasta 2026-12-31 |
+| American Clothes | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves, viernes y sábado | 2025-08-18 hasta 2026-12-31 |
+| Betta | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves, viernes y sábado | 2025-08-18 hasta 2026-12-31 |
+| Brave | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves, viernes y sábado | 2025-08-18 hasta 2026-12-31 |
+| Impacto Modas | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves, viernes y sábado | 2025-08-18 hasta 2026-12-31 |
 | JD ELECTRODOMESTICOS | 10 % 10 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-08-08 hasta 2026-12-31 |
-| La tienda de Rosita | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves | 2025-08-18 hasta 2026-12-31 |
+| La tienda de Rosita | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves, viernes y sábado | 2025-08-18 hasta 2026-12-31 |
 | RODRIGUEZ GRAD | 10 % 10 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-08-08 hasta 2026-12-31 |
 
 ## Encarnación
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| AURA BEAUTY STUDIO | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES | 2026-05-19 hasta 2026-12-31 |
+| AURA BEAUTY STUDIO | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES | 2026-05-19 hasta 2026-12-31 |
 | AguaVista | 20 % 12 Cuotas sin intereses; 20% de reintegro. | No especificado | 2026-01-26 hasta 2026-12-31 |
 | Akira Sushi | 20% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
 | Akira Sushi | 25% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
-| Alejandro Benitez | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES | 2026-05-19 hasta 2026-12-31 |
-| BELLA VISTA HOTEL | 15 % 6 Cuotas sin intereses; Tenes 15% de reintegro y hasta 6 cuotas sin intereses | Aplica LUNES; LUNES A JUEVES | 2026-09-04 hasta 2026-11-26 |
+| Alejandro Benitez | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES | 2026-05-19 hasta 2026-12-31 |
+| BELLA VISTA HOTEL | 15 % 6 Cuotas sin intereses; Tenes 15% de reintegro y hasta 6 cuotas sin intereses | Aplica LUNES A JUEVES; LUNES A JUEVES | 2026-09-04 hasta 2026-11-26 |
 | BROTZEIT | 20% de reintegro en el extracto. | martes a viernes | Desde 2026-03-28 hasta 2026-12-31 |
 | BROTZEIT | 25% de reintegro en el extracto. | martes a viernes | Desde 2026-03-28 hasta 2026-12-31 |
-| Belezas Fit | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES | 2025-01-03 hasta 2026-12-31 |
-| Benditta Collection | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK | Aplica MIERCOLES | 2025-06-12 hasta 2026-12-31 |
-| Benditta Style For Men | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK | Aplica MIERCOLES | 2025-06-12 hasta 2026-12-31 |
-| Brave | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES | 2025-01-03 hasta 2026-12-31 |
-| Busca Pies | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES | 2026-05-19 hasta 2026-12-31 |
-| Cachetitos | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica JUEVES; Aplica LUNES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
-| Cardon | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES | 2026-05-19 hasta 2026-12-31 |
-| Carmelitas Spa | 25 % Hasta; es 20% de descuento y mas 5% pagando con PERSONAL BANK. | Aplica los JUEVES | 2025-02-19 hasta 2026-12-31 |
-| Carol | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | Aplica JUEVES | 2025-07-21 hasta 2026-12-31 |
-| Casa Bakunovich | 15 % 10 Cuotas sin intereses; Tenes 20% de reintegro + 5% de PERSONAL BANK y hasta 6 cuotas sin intereses | Aplica JUEVES | 2026-01-23 hasta 2026-12-31 |
-| Cindy Lingieri | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES | 2025-01-03 hasta 2026-12-31 |
-| Confort | 10 Cuotas sin intereses 15 %; Tenes 15% de ahorro y hasta 10 cuotas sin intereses | Aplica LUNES; LUNES A VIERNES | 2026-01-22 hasta 2026-12-31 |
-| Creser Jugando | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica LUNES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
-| Dejando Huellas | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica LUNES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
-| Dela Rosa | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica LUNES; LUNES A VIERNES | 2025-12-18 hasta 2026-12-31 |
-| Deport Center | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES | 2026-05-19 hasta 2026-12-31 |
-| Dilara Boutique | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES | 2026-05-19 hasta 2026-12-31 |
-| Doxamed | 25 % Hasta; es 20% de descuento y mas 5% pagando con PERSONAL BANK. | Aplica los JUEVES | 2025-02-19 hasta 2026-12-31 |
-| Doxamed | 15 % 10 Cuotas sin intereses; Tenes 20% de reintegro + 5% de PERSONAL BANK y hasta 6 cuotas sin intereses | Aplica JUEVES | 2026-01-23 hasta 2026-12-31 |
-| Dudalina | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK | Aplica MIERCOLES | 2025-06-12 hasta 2026-12-31 |
-| Estilo Sport Shop | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES | 2026-05-19 hasta 2026-12-31 |
+| Belezas Fit | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES, JUEVES Y VIERNES | 2025-01-03 hasta 2026-12-31 |
+| Benditta Collection | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK | Aplica MIERCOLES, JUEVES Y VIERNES | 2025-06-12 hasta 2026-12-31 |
+| Benditta Style For Men | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK | Aplica MIERCOLES, JUEVES Y VIERNES | 2025-06-12 hasta 2026-12-31 |
+| Brave | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES, JUEVES Y VIERNES | 2025-01-03 hasta 2026-12-31 |
+| Busca Pies | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES | 2026-05-19 hasta 2026-12-31 |
+| Cachetitos | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica JUEVES, VIERNES Y SABADOS; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
+| Cardon | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES | 2026-05-19 hasta 2026-12-31 |
+| Carmelitas Spa | 25 % Hasta; es 20% de descuento y mas 5% pagando con PERSONAL BANK. | Aplica los JUEVES, VIERNES Y SABADOS | 2025-02-19 hasta 2026-12-31 |
+| Carol | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | Aplica JUEVES, VIERNES Y SABADOS | 2025-07-21 hasta 2026-12-31 |
+| Casa Bakunovich | 15 % 10 Cuotas sin intereses; Tenes 20% de reintegro + 5% de PERSONAL BANK y hasta 6 cuotas sin intereses | Aplica JUEVES, VIERNES Y SABADOS | 2026-01-23 hasta 2026-12-31 |
+| Cindy Lingieri | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES, JUEVES Y VIERNES | 2025-01-03 hasta 2026-12-31 |
+| Confort | 10 Cuotas sin intereses 15 %; Tenes 15% de ahorro y hasta 10 cuotas sin intereses | Aplica LUNES A VIERNES; LUNES A VIERNES | 2026-01-22 hasta 2026-12-31 |
+| Creser Jugando | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
+| Dejando Huellas | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
+| Dela Rosa | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica LUNES A VIERNES; LUNES A VIERNES | 2025-12-18 hasta 2026-12-31 |
+| Deport Center | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES | 2026-05-19 hasta 2026-12-31 |
+| Dilara Boutique | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES | 2026-05-19 hasta 2026-12-31 |
+| Doxamed | 25 % Hasta; es 20% de descuento y mas 5% pagando con PERSONAL BANK. | Aplica los JUEVES, VIERNES Y SABADOS | 2025-02-19 hasta 2026-12-31 |
+| Doxamed | 15 % 10 Cuotas sin intereses; Tenes 20% de reintegro + 5% de PERSONAL BANK y hasta 6 cuotas sin intereses | Aplica JUEVES, VIERNES Y SABADOS | 2026-01-23 hasta 2026-12-31 |
+| Dudalina | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK | Aplica MIERCOLES, JUEVES Y VIERNES | 2025-06-12 hasta 2026-12-31 |
+| Estilo Sport Shop | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES | 2026-05-19 hasta 2026-12-31 |
 | FUSION ALTITUD | 20% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
 | FUSION ALTITUD | 25% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
 | FUSION PIZZA & TERRAZA | 20% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
 | FUSION PIZZA & TERRAZA | 25% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
-| Fashion Calzados | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES | 2026-05-19 hasta 2026-12-31 |
+| Fashion Calzados | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES | 2026-05-19 hasta 2026-12-31 |
 | Galaxia Pizzeria | 20% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
 | Galaxia Pizzeria | 25% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
-| Golden Closet | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES | 2025-01-03 hasta 2026-12-31 |
-| Jakare la Tienda | 30 % 6 Cuotas sin intereses; Tenes 30% de reintegro y hasta 6 cuotas sin intereses | Aplica JUEVES | 2026-06-26 hasta 2026-12-31 |
-| Javi deportes | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES | 2025-01-03 hasta 2026-12-31 |
-| Joha Borja Lash | 25 % Hasta 6 Cuotas sin intereses; Hasta 25% de reintegro en el extracto + hasta 6 cuotas sin intereses. | Aplica JUEVES | 2026-01-06 hasta 2026-12-31 |
-| Jugueteria me encanta | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica LUNES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
+| Golden Closet | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES, JUEVES Y VIERNES | 2025-01-03 hasta 2026-12-31 |
+| Jakare la Tienda | 30 % 6 Cuotas sin intereses; Tenes 30% de reintegro y hasta 6 cuotas sin intereses | Aplica JUEVES, VIERNES Y SABADOS | 2026-06-26 hasta 2026-12-31 |
+| Javi deportes | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES, JUEVES Y VIERNES | 2025-01-03 hasta 2026-12-31 |
+| Joha Borja Lash | 25 % Hasta 6 Cuotas sin intereses; Hasta 25% de reintegro en el extracto + hasta 6 cuotas sin intereses. | Aplica JUEVES, VIERNES y SABADOS | 2026-01-06 hasta 2026-12-31 |
+| Jugueteria me encanta | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
 | LA GUARANIA | 20% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
 | LA GUARANIA | 25% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
 | La Sandwichería | 20% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
 | La Sandwichería | 25% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
-| Le Chic | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica LUNES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
-| MANSION DESIGN | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica LUNES; LUNES A VIERNES | 2025-12-18 hasta 2026-12-31 |
+| Le Chic | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
+| MANSION DESIGN | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica LUNES A VIERNES; LUNES A VIERNES | 2025-12-18 hasta 2026-12-31 |
 | Matalas | 20% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
 | Matalas | 25% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
-| Melba Shoes | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES | 2025-01-03 hasta 2026-12-31 |
-| NICOLE NOVEDADES | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica LUNES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
-| OPTICA ITAPUA | 15 % 10 Cuotas sin intereses; Tenes 20% de reintegro + 5% de PERSONAL BANK y hasta 6 cuotas sin intereses | Aplica JUEVES | 2026-01-23 hasta 2026-12-31 |
-| PARANA CALZADOS | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES | 2026-05-19 hasta 2026-12-31 |
+| Melba Shoes | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES, JUEVES Y VIERNES | 2025-01-03 hasta 2026-12-31 |
+| NICOLE NOVEDADES | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
+| OPTICA ITAPUA | 15 % 10 Cuotas sin intereses; Tenes 20% de reintegro + 5% de PERSONAL BANK y hasta 6 cuotas sin intereses | Aplica JUEVES, VIERNES Y SABADOS | 2026-01-23 hasta 2026-12-31 |
+| PARANA CALZADOS | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES | 2026-05-19 hasta 2026-12-31 |
 | PC House | 5 % 10 Cuotas sin intereses; Tenes 5% de ahorro y 10 cuotas sin intereses. | No especificado | 2026-04-08 hasta 2026-12-31 |
-| Patriduar Moda Infantil | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica JUEVES; Aplica LUNES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
-| Rajomar | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica JUEVES; Aplica LUNES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
-| Rubens | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES | 2025-01-03 hasta 2026-12-31 |
-| Rulo Sport | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica LUNES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
-| Siena accesorios | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica JUEVES; Aplica LUNES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
-| Star Kids | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica JUEVES; Aplica LUNES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
+| Patriduar Moda Infantil | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica JUEVES, VIERNES Y SABADOS; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
+| Rajomar | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica JUEVES, VIERNES Y SABADOS; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
+| Rubens | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES, JUEVES Y VIERNES | 2025-01-03 hasta 2026-12-31 |
+| Rulo Sport | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
+| Siena accesorios | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica JUEVES, VIERNES Y SABADOS; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
+| Star Kids | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica JUEVES, VIERNES Y SABADOS; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
 | Sun rooftop | 20% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
 | Sun rooftop | 25% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
-| Sur Optica | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica JUEVES; Aplica LUNES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
-| Sweet Store | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES | 2026-05-19 hasta 2026-12-31 |
-| Tiari | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES | 2026-05-19 hasta 2026-12-31 |
-| Tres Chic | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica LUNES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
-| Ulaula Kids | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica JUEVES; Aplica LUNES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
-| Unica Moda | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES; Aplica JUEVES; Aplica LUNES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
-| Vic Muebles | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica LUNES; LUNES A VIERNES | 2025-12-18 hasta 2026-12-31 |
+| Sur Optica | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica JUEVES, VIERNES Y SABADOS; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
+| Sweet Store | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES | 2026-05-19 hasta 2026-12-31 |
+| Tiari | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% pagando con VISA INFINITE y AMEX PLATINUM y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES | 2026-05-19 hasta 2026-12-31 |
+| Tres Chic | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de reintegro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2023-02-16 hasta 2026-12-31 |
+| Ulaula Kids | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica JUEVES, VIERNES Y SABADOS; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
+| Unica Moda | 20 % 6 Cuotas sin intereses; Tenes hasta 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica MIERCOLES, JUEVES Y VIERNES; Aplica JUEVES, VIERNES Y SABADOS; Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2022-08-12 hasta 2026-12-31 |
+| Vic Muebles | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica LUNES A VIERNES; LUNES A VIERNES | 2025-12-18 hasta 2026-12-31 |
 | Ñande Gourmet | 20% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
 | Ñande Gourmet | 25% de reintegro en el extracto. | martes a sábados | Desde 2026-03-28 hasta 2026-12-31 |
-| Ñemonde | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES | 2025-01-03 hasta 2026-12-31 |
+| Ñemonde | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro en el extracto y hasta 6 cuotas sin intereses | Aplica MIERCOLES, JUEVES Y VIERNES | 2025-01-03 hasta 2026-12-31 |
 
 ## Entretenimiento
 
@@ -217,7 +217,7 @@ Total de beneficios: 548
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| FERNHEIM | 15 % 10 Cuotas sin intereses; Tenes hasta 15% de reintegro y hasta 10 cuotas sin intereses | Aplica los MARTES; MARTES A VIERNES | 2026-06-02 hasta 2026-12-28 |
+| FERNHEIM | 15 % 10 Cuotas sin intereses; Tenes hasta 15% de reintegro y hasta 10 cuotas sin intereses | Aplica los MARTES A VIERNES; MARTES A VIERNES | 2026-06-02 hasta 2026-12-28 |
 | FERNHEIM | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses | Aplica los LUNES | 2026-06-02 hasta 2026-12-28 |
 | FERNHEIM | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | Aplica los LUNES | 2026-06-03 hasta 2026-12-28 |
 | Supermercado Fernheim | 10 Cuotas sin intereses 15 %; 15% de reintegro y hasta 10 cuotas sin intereses | Aplica los LUNES | 2026-01-19 hasta 2026-12-28 |
@@ -268,36 +268,36 @@ Total de beneficios: 548
 |---|---|---|---|
 | 7 For All | 6 Cuotas sin intereses 15 %; 15% de ahorro y hasta 6 cuotas sin intereses. | Todos los jueves | 2025-01-01 hasta 2026-12-31 |
 | Alamo | 20 %; 20% de reintegro | martes a viernes | 2025-05-28 hasta 2026-12-31 |
-| Alba Restaurante | 20 %; Tenés 20% de reintegro | Aplica miércoles; miércoles a domingo | 2026-01-14 hasta 2026-12-31 |
-| Alma cocina con fuego | 20 %; 20% de reintegro. | Aplica miércoles; miércoles a domingo | 2025-05-29 hasta 2026-12-31 |
+| Alba Restaurante | 20 %; Tenés 20% de reintegro | Aplica miércoles a domingo; miércoles a domingo | 2026-01-14 hasta 2026-12-31 |
+| Alma cocina con fuego | 20 %; 20% de reintegro. | Aplica miércoles a domingos; miércoles a domingo | 2025-05-29 hasta 2026-12-31 |
 | Aphrodite | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. Aplica los martes. | Aplica los martes | 2025-10-03 hasta 2026-12-31 |
 | Areté | 20 %; 20% de ahorro | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
 | Armele | 20 % 12 Cuotas sin intereses; Tenes 20% de ahorro y hasta 12 cuotas sin intereses. | No especificado | 2023-08-30 hasta 2026-12-31 |
 | Ashley | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-01-13 hasta 2026-12-31 |
 | Biggie | 20 %; 20% de ahorro. | No especificado | 2025-08-01 hasta 2026-11-06 |
-| Brave | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
-| CASA GIN | 20 %; Tenes 20% de reintegro. | Aplica Martes; Martes a Viernes | 2026-10-01 hasta 2026-12-31 |
+| Brave | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
+| CASA GIN | 20 %; Tenes 20% de reintegro. | Aplica Martes a Viernes; Martes a Viernes | 2026-10-01 hasta 2026-12-31 |
 | Casa Luma | 20 %; 20% de reintegro | Miercoles a Domingo | 2026-01-14 hasta 2026-12-31 |
 | Casa Viva | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-01-16 hasta 2026-12-31 |
 | Centro Legrand | 20 % 12 Cuotas sin intereses; 25% de ahorro y hasta 12 cuotas sin intereses. | todos los días | 2026-01-01 hasta 2026-12-31 |
 | Columbia | 10 Cuotas sin intereses 25 %; Tenés 25% ahorro y hasta 10 cuotas sin intereses. Aplica los jueves. | Aplica los jueves | 2025-03-20 hasta 2026-12-31 |
 | Condor | 15 % 10 Cuotas sin intereses; 15% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2026-03-03 hasta 2026-12-31 |
-| Coquetas legacy | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
+| Coquetas legacy | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | El Café de aca | 20 %; Tenes 20% de reintegro | sábado a domingo | 2025-10-06 hasta 2026-12-31 |
 | Estudio Barcelona | 10 Cuotas sin intereses 10 %; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-07-01 hasta 2026-12-31 |
 | Gilardini | 15 % 6 Cuotas sin intereses; 15% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-11-30 |
-| Golden Closet | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
+| Golden Closet | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | Gond Wana | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses | No especificado | 2026-01-12 hasta 2026-12-31 |
 | HELPERS | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-07-01 hasta 2026-12-31 |
-| Haagen Dazs | 20 %; 20% de reintegro | Aplica sábado | 2025-05-28 hasta 2026-12-31 |
-| Heladería Paris | 20 %; 20% de reintegro | Aplica sábado | 2025-05-28 hasta 2026-12-31 |
+| Haagen Dazs | 20 %; 20% de reintegro | Aplica sábado y domingo | 2025-05-28 hasta 2026-12-31 |
+| Heladería Paris | 20 %; 20% de reintegro | Aplica sábado y domingo | 2025-05-28 hasta 2026-12-31 |
 | Henley | 20 Pago con Amex 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2026-01-08 hasta 2026-12-31 |
 | Hoka | 20 Pago con Amex 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2026-01-08 hasta 2026-12-31 |
-| Javi deportes | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
+| Javi deportes | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | Josephine | 20 %; 20% de reintegro. | miércoles a domingo | 2026-01-01 hasta 2026-12-31 |
 | KURT | 15 % 6 Cuotas sin intereses; Tenes 15% reintegro y hasta 6 cuotas sin intereses. Aplica los jueves. | Aplica los jueves | 2026-10-09 hasta 2026-12-31 |
 | Kafea | 20 %; 20% de reintegro. | sábado a domingo | 2025-11-01 hasta 2026-12-31 |
-| LA QUESERIA | 20 %; Tenes 20% de reintegro para tarjetas de crédito Personal Bank. | Aplica miércoles; miércoles a domingo | 2026-09-14 hasta 2026-12-31 |
+| LA QUESERIA | 20 %; Tenes 20% de reintegro para tarjetas de crédito Personal Bank. | Aplica miércoles a domingo; miércoles a domingo | 2026-09-14 hasta 2026-12-31 |
 | LA ROCA RESTO | 20 %; 20% de reintegro | miércoles a domingo | 2026-01-21 hasta 2026-12-31 |
 | La Carossa | 20 %; 20% de reintegro. | miércoles a domingo | 2025-01-02 hasta 2026-12-31 |
 | La Maria Restaurante | 20 %; 20% de reintegro. | miércoles a domingo | 2026-01-01 hasta 2026-12-31 |
@@ -315,11 +315,11 @@ Total de beneficios: 548
 | Pulsak | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-04-16 hasta 2026-12-17 |
 | Puma | 20 Pago con Amex 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2026-01-01 hasta 2026-12-31 |
 | Quineo Warehouse | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. Aplica los viernes. | Aplica los viernes | 2025-10-04 hasta 2026-12-31 |
-| Rajomar | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
-| Rubens | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
+| Rajomar | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
+| Rubens | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | Sanycer Boutique | 10 Cuotas sin intereses 42 %; 42% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-06-02 hasta 2026-12-31 |
 | Shell | 25 %; 25% de REINTEGRO con tu tarjeta de crédito VISA INFINTE y AMEX Platinum. | todos los miércoles | 2026-01-07 hasta 2026-12-31 |
-| Siena accesorios | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
+| Siena accesorios | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | Simmons | 45 % Hasta 12 Cuotas sin intereses; hasta 45% de ahorro y hasta 12 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-12-31 |
 | Skechers | 6 Cuotas sin intereses 20 %; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2026-01-01 hasta 2026-12-31 |
 | Stock | 20 %; 20% de ahorro | Aplica los sábados | 2025-09-06 hasta 2026-12-31 |
@@ -330,11 +330,11 @@ Total de beneficios: 548
 | Talleyrand | 20 %; 20% de reintegro. | miércoles a domingo | 2026-01-01 hasta 2026-12-31 |
 | Teranu | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los miercoles | 2026-01-01 hasta 2026-12-31 |
 | Tierra Colorada | 20 %; 20% de reintegro. | miércoles a domingo | 2025-01-02 hasta 2026-12-31 |
-| Unica Moda | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
-| Varsovia | 6 Cuotas sin intereses 15 % 20 Pago con Amex; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los lunes | 2026-02-02 hasta 2026-12-31 |
+| Unica Moda | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
+| Varsovia | 6 Cuotas sin intereses 15 % 20 Pago con Amex; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los lunes, martes y miércoles | 2026-02-02 hasta 2026-12-31 |
 | Vida Estetica | 20 % Hasta 10 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Todos los jueves | 2026-01-15 hasta 2026-12-31 |
 | Xumaq | 20 %; 20% de reintegro. | miércoles a domingo | 2025-10-13 hasta 2026-12-31 |
-| Ñemonde | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES | 2025-08-14 hasta 2026-12-31 |
+| Ñemonde | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 
 ## Katuete
 
@@ -346,7 +346,7 @@ Total de beneficios: 548
 | Multipel | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses. | No especificado | 2026-05-19 hasta 2026-12-31 |
 | SOFIA COSMETICOS | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses. | No especificado | 2026-05-19 hasta 2026-12-31 |
 | Supermercado Pluma | 20 %; 20% de reintegro. | No especificado | 2026-01-03 hasta 2026-12-31 |
-| Tomatino | 25 % Hasta; Tenes 20% de reintegro + 5% personal bank. | Aplica MARTES; MARTES A SABADO | 2025-11-14 hasta 2026-12-31 |
+| Tomatino | 25 % Hasta; Tenes 20% de reintegro + 5% personal bank. | Aplica MARTES A SABADOS; MARTES A SABADO | 2025-11-14 hasta 2026-12-31 |
 
 ## Loma Plata
 
@@ -354,7 +354,7 @@ Total de beneficios: 548
 |---|---|---|---|
 | Chortitzer | 20 % 10 Cuotas sin intereses; Tenes 20% de reintegro y hasta 10 cuotas sin intereses. | Aplica los martes | 2026-06-02 hasta 2026-12-29 |
 | Chortitzer Veterinaria | 20 % 10 Cuotas sin intereses; Tenes 20% de reintegro y hasta 10 cuotas sin intereses | Aplica los martes | 2026-06-02 hasta 2026-12-29 |
-| RINCON SABROSO | 20 %; Tenes 20% de reintegro. | Aplica LUNES; LUNES A MIERCOLES | 2026-06-02 hasta 2026-12-30 |
+| RINCON SABROSO | 20 %; Tenes 20% de reintegro. | Aplica LUNES A MIERCOLES; LUNES A MIERCOLES | 2026-06-02 hasta 2026-12-30 |
 | Supermercado Chortitzer | 20 % 10 Cuotas sin intereses; Tenes 20% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2026-01-20 hasta 2026-12-29 |
 
 ## MasterCard Debit
@@ -404,15 +404,15 @@ Total de beneficios: 548
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | A3 | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | lunes a miércoles | 2018-03-01 hasta 2026-12-31 |
-| Baratão Presentes | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica lunes; APLICA MIERCOLES | 2025-07-07 hasta 2026-12-31 |
-| Boi de Ouro | 25 % Hasta; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los martes; martes a jueves | 2026-01-15 hasta 2026-12-31 |
-| CARVAO E LEÑA | 25 % Hasta; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los martes; martes a jueves | 2026-01-15 hasta 2026-12-31 |
-| Casteletto | 25 % Hasta; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los martes; martes a jueves | 2026-01-15 hasta 2026-12-31 |
+| Baratão Presentes | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica lunes y martes; APLICA MIERCOLES, JUEVES Y VIERNES | 2025-07-07 hasta 2026-12-31 |
+| Boi de Ouro | 25 % Hasta; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los martes a jueves; martes a jueves | 2026-01-15 hasta 2026-12-31 |
+| CARVAO E LEÑA | 25 % Hasta; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los martes a jueves; martes a jueves | 2026-01-15 hasta 2026-12-31 |
+| Casteletto | 25 % Hasta; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los martes a jueves; martes a jueves | 2026-01-15 hasta 2026-12-31 |
 | Fox Regalos | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | lunes a miércoles | 2018-03-01 hasta 2026-12-31 |
 | MOM & BABY SHOP | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | lunes a miércoles | 2018-03-01 hasta 2026-12-31 |
-| Nuñez | 10 Cuotas sin intereses 30 %; Tenes 25% de descuento y hasta 10 cuotas sin intereses. | No especificado | 2025-09-04 hasta 2026-12-31 |
+| Nuñez | 30 % 12 Cuotas sin intereses; Tenes 30% de descuento y hasta 12 cuotas sin intereses. | No especificado | 2025-09-04 hasta 2026-12-31 |
 | Refrinar | 30 % 10 Cuotas sin intereses; 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-09-04 hasta 2026-12-31 |
-| Roperia Naldo | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica lunes; APLICA MIERCOLES | 2025-07-07 hasta 2026-12-31 |
+| Roperia Naldo | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica lunes y martes; APLICA MIERCOLES, JUEVES Y VIERNES | 2025-07-07 hasta 2026-12-31 |
 | Supermercado Primavera | 6 Cuotas sin intereses 20 % Hasta; Tenes 15% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | Aplica los jueves | 2026-01-15 hasta 2026-12-31 |
 | ZIMMER | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | lunes a miércoles | 2018-03-01 hasta 2026-12-31 |
 
@@ -596,22 +596,22 @@ Total de beneficios: 548
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Alpha sports | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
-| Brave | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
-| EUPHORIA | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
-| Euphoria Kids | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
-| Euphoria VCA | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
-| Fio y Gio | 20 % 6 Cuotas sin intereses; Tenés 20% de reintegro y hasta 6 cuotas sin intereses | Aplica JUEVES | 2024-01-25 hasta 2026-12-31 |
-| Jakare la Tienda | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES | 2024-02-02 hasta 2026-12-31 |
-| NAPOLES | 6 Cuotas sin intereses 20 %; Tenes 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica JUEVES | 2026-07-24 hasta 2026-12-31 |
-| Padel Store | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
-| Pigmento cosmeticos | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
-| San pedro | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
-| Stay Fresh | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
-| Todocenter | 10 % 10 Cuotas sin intereses; Tenes hasta 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica LUNES; LUNES A VIERNES | 2022-02-24 hasta 2026-12-31 |
-| Todocenter | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
-| UG Hogar | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses | Aplica LUNES; LUNES A VIERNES | 2023-04-28 hasta 2026-12-31 |
-| Valerie | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES | 2024-02-02 hasta 2026-12-31 |
+| Alpha sports | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
+| Brave | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
+| EUPHORIA | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
+| Euphoria Kids | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
+| Euphoria VCA | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
+| Fio y Gio | 20 % 6 Cuotas sin intereses; Tenés 20% de reintegro y hasta 6 cuotas sin intereses | Aplica JUEVES y VIERNES | 2024-01-25 hasta 2026-12-31 |
+| Jakare la Tienda | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES, VIERNES Y SABADOS | 2024-02-02 hasta 2026-12-31 |
+| NAPOLES | 6 Cuotas sin intereses 20 %; Tenes 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica JUEVES, VIERNES Y SABADOS | 2026-07-24 hasta 2026-12-31 |
+| Padel Store | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
+| Pigmento cosmeticos | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
+| San pedro | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
+| Stay Fresh | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
+| Todocenter | 10 % 10 Cuotas sin intereses; Tenes hasta 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica LUNES A VIERNES; LUNES A VIERNES | 2022-02-24 hasta 2026-12-31 |
+| Todocenter | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
+| UG Hogar | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses | Aplica LUNES A VIERNES; LUNES A VIERNES | 2023-04-28 hasta 2026-12-31 |
+| Valerie | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES, VIERNES Y SABADOS | 2024-02-02 hasta 2026-12-31 |
 
 ## Últimos días
 
@@ -715,7 +715,7 @@ Total de beneficios: 548
 | Sanycer | 10 Cuotas sin intereses 40 %; 40% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Sierra Decor | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro y 10 cuotas sin intereses | No especificado | 2026-02-09 hasta 2026-10-31 |
 | Simmons | 10 Cuotas sin intereses 40 %; 40% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
-| Spa Centenario | 20 %; 20% de ahorro | Aplica lunes | 2024-01-01 hasta 2026-10-31 |
+| Spa Centenario | 20 %; 20% de ahorro | Aplica lunes y martes | 2024-01-01 hasta 2026-10-31 |
 | Sport House | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
 | Sulit | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Sushi Club | 25 %; Tenés 25% de reintegro | No especificado | 2025-01-01 hasta 2026-10-31 |
