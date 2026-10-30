@@ -1,7 +1,88 @@
 {
-  "checked_at": "2026-10-26T14:04:22.620582+00:00",
-  "coverage": "252 official cards extracted from GNB's public API; every card retains its official detail and terms links",
-  "records": 482,
+  "checked_at": "2026-10-30T17:55:39.996772+00:00",
+  "coverage": "254 official cards extracted from GNB's public API; every card retains its official detail and terms links",
+  "records": 480,
+  "reviewed_documents": [],
+  "document_failures": [
+    {
+      "id": 688,
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
+      "attempted_at": "2026-10-30T17:55:40.445547+00:00",
+      "reason": "document_fetch_failed",
+      "error_type": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "id": 74,
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
+      "attempted_at": "2026-10-30T17:55:40.541188+00:00",
+      "reason": "document_fetch_failed",
+      "error_type": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "id": 52,
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
+      "attempted_at": "2026-10-30T17:55:40.651038+00:00",
+      "reason": "document_fetch_failed",
+      "error_type": "HTTPError",
+      "http_status": 403
+    }
+  ],
+  "fetch_errors": [
+    {
+      "id": 688,
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
+      "attempted_at": "2026-10-30T17:55:40.445547+00:00",
+      "reason": "document_fetch_failed",
+      "error_type": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "id": 74,
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
+      "attempted_at": "2026-10-30T17:55:40.541188+00:00",
+      "reason": "document_fetch_failed",
+      "error_type": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "id": 52,
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
+      "attempted_at": "2026-10-30T17:55:40.651038+00:00",
+      "reason": "document_fetch_failed",
+      "error_type": "HTTPError",
+      "http_status": 403
+    }
+  ],
+  "coverage_complete": false,
+  "pending": [
+    {
+      "id": 688,
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
+      "attempted_at": "2026-10-30T17:55:40.445547+00:00",
+      "reason": "document_fetch_failed",
+      "error_type": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "id": 74,
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
+      "attempted_at": "2026-10-30T17:55:40.541188+00:00",
+      "reason": "document_fetch_failed",
+      "error_type": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "id": 52,
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
+      "attempted_at": "2026-10-30T17:55:40.651038+00:00",
+      "reason": "document_fetch_failed",
+      "error_type": "HTTPError",
+      "http_status": 403
+    }
+  ],
+  "status": "partial",
   "excluded_cards": {
     "20": "Interest-bearing purchases abroad, not an interest-free benefit",
     "157": "Cash advance with commission, not a promotion",
@@ -10,5 +91,24 @@
   "date_discrepancy_resolved_conservatively": {
     "377": "Jullito ends 2026-11-28 in the card and 2026-12-28 in terms; the earlier date is used"
   },
-  "import_issues": []
+  "import_issues": [
+    {
+      "id": 688,
+      "name": "Casa Rica - Fiestas Ricas - Sorteo 0km",
+      "reason": "review_document_unverified",
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf"
+    },
+    {
+      "id": 74,
+      "name": "Geox",
+      "reason": "review_document_unverified",
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf"
+    },
+    {
+      "id": 52,
+      "name": "Tonina",
+      "reason": "review_document_unverified",
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf"
+    }
+  ]
 }

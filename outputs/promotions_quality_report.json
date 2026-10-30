@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T17:40:03.923293+00:00",
-  "input_count": 3871,
-  "promotion_count": 4018,
-  "duplicates_removed": -147,
+  "generated_at": "2026-10-30T17:55:52.341105+00:00",
+  "input_count": 3869,
+  "promotion_count": 4017,
+  "duplicates_removed": -148,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1809,7 +1809,7 @@
     "Continental": 921,
     "Coop. Universitaria": 72,
     "Familiar": 414,
-    "GNB": 486,
+    "GNB": 485,
     "Interfisa": 163,
     "Itaú": 593,
     "Solar": 69,

@@ -1,12 +1,15 @@
 {
-  "checked_at": "2026-10-26T14:04:22.620582+00:00",
+  "checked_at": "2026-10-30T17:55:39.996772+00:00",
   "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
-  "total_source_cards": 252,
-  "already_represented_source_cards": 249,
+  "total_source_cards": 254,
+  "already_represented_source_cards": 248,
   "source_cards_not_yet_in_app": [
+    688,
+    74,
     297,
     20,
-    157
+    157,
+    689
   ],
   "flagged_cards": [
     {
@@ -72,6 +75,11 @@
     {
       "id": 47,
       "name": "Areté y Festa",
+      "flags": "source_start_date_stale"
+    },
+    {
+      "id": 74,
+      "name": "Geox",
       "flags": "source_start_date_stale"
     },
     {

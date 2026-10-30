@@ -158,14 +158,50 @@
     "coverage_complete": false
   },
   "GNB": {
-    "status": "failed",
+    "status": "partial",
+    "records": 480,
+    "attempted_at": "2026-10-30T17:55:40.890902+00:00",
     "checked_at": "2026-10-26T14:04:23.468427+00:00",
-    "records": 482,
-    "attempted_at": "2026-10-30T17:21:51.651001+00:00",
-    "error_type": "CalledProcessError",
-    "failed_step": "scrapers/build_gnb_reviewed.py",
-    "exit_code": 1,
-    "retrieval_status": "failed"
+    "retrieval_status": "partial",
+    "last_successful_fetch_at": "2026-10-26T14:04:23.468427+00:00",
+    "pending_records": 0,
+    "pending_items": 3,
+    "pending_items_semantics": "largest_report_count_not_deduplicated_total",
+    "pending_counts_by_report": {
+      "pending": 3,
+      "skipped": 0,
+      "import_issues": 3
+    },
+    "evidence_paths": [
+      "outputs/gnb_source_meta.json"
+    ],
+    "coverage_complete": false,
+    "fetch_errors": [
+      {
+        "id": 688,
+        "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
+        "attempted_at": "2026-10-30T17:55:40.445547+00:00",
+        "reason": "document_fetch_failed",
+        "error_type": "HTTPError",
+        "http_status": 403
+      },
+      {
+        "id": 74,
+        "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
+        "attempted_at": "2026-10-30T17:55:40.541188+00:00",
+        "reason": "document_fetch_failed",
+        "error_type": "HTTPError",
+        "http_status": 403
+      },
+      {
+        "id": 52,
+        "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
+        "attempted_at": "2026-10-30T17:55:40.651038+00:00",
+        "reason": "document_fetch_failed",
+        "error_type": "HTTPError",
+        "http_status": 403
+      }
+    ]
   },
   "Basa": {
     "status": "partial",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T17:40:03.923293+00:00",
-  "promotion_count": 4018,
+  "generated_at": "2026-10-30T17:55:52.341105+00:00",
+  "promotion_count": 4017,
   "banks": [
     "Atlas",
     "BNF",
@@ -2064,6 +2064,20 @@
       "merchant_name": "Timberland",
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v3.pdf",
       "last_known_ends_on": "2026-10-31"
+    },
+    "e42b64aca0fec54a": {
+      "reason": "not_in_current_sources",
+      "bank": "GNB",
+      "merchant_name": "Tonina",
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/52",
+      "last_known_ends_on": "2026-12-30"
+    },
+    "b8a7884722ed4baf": {
+      "reason": "not_in_current_sources",
+      "bank": "GNB",
+      "merchant_name": "Tonina",
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/52",
+      "last_known_ends_on": "2026-12-30"
     }
   },
   "schema_version": 2
