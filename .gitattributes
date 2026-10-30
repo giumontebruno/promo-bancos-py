@@ -1,0 +1,9 @@
+
+# Preserve exact historical evidence bytes attested by review_evidence_sha256.
+docs/geo-audit/block79/geo-farmacias/scavone-bnf-review.json -text
+docs/geo-audit/block79/geo-gastronomia/bk-extra-familiar-staged.json -text
+docs/geo-audit/block79/geo-gastronomia/bk-familiar-staged.json -text
+docs/geo-audit/block79/geo-gastronomia/pizzahut-itau-staged.json -text
+docs/geo-audit/block79/geo-tiendas/bristol-verified-staging.json -text
+docs/geo-audit/block79/geo-tiendas/electroban-familiar-verified-staging.json -text
+docs/geo-audit/block79/geo-tiendas/nissei-verified-staging.json -text

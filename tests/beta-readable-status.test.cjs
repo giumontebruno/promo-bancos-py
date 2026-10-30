@@ -8,13 +8,13 @@ test('consumer beta has no operational diagnostics panel or dropdown',()=>{
 });
 test('operational source evidence stays available outside the consumer UI',()=>{
  const health=JSON.parse(read('public/source_status.json'));assert.ok(Object.keys(health).length);
- for(const entry of Object.values(health))assert.ok(['fetched','failed','partial'].includes(entry.status));
+ for(const entry of Object.values(health))assert.ok(['fetched','failed','partial','blocked'].includes(entry.status));
  assert.ok(read('scripts/publication-snapshot.mjs').includes('source_status.json'));
 });
 test('per-promotion uncertainty and financial safeguards are not hidden with diagnostics',()=>{
  const app=read('beta-web/app.js');assert.ok(app.includes('renderSupermarketAssessment(promo)'));assert.ok(app.includes('Tope pendiente de aclaración del banco'));assert.ok(app.includes('No es un reintegro confirmado.'));assert.ok(app.includes('Revisá')||app.includes('Falta confirmar'));
 });
 test('changed beta assets bypass prior release caches without altering the main app',()=>{
- const html=read('beta-web/index.html');for(const file of ['beta-bundle.js','supermarket-eligibility.js','glass-ui.css'])assert.ok(html.includes(`${file}?v=readable-status-20261030`));assert.ok(html.includes('app.js?v=financial-safety-20261030'));
+ const html=read('beta-web/index.html');for(const file of ['beta-bundle.js','supermarket-eligibility.js','glass-ui.css'])assert.ok(html.includes(`${file}?v=readable-status-20261030`));assert.ok(html.includes('app.js?v=bank-sources-20261030'));
  assert.doesNotMatch(read('app-web/index.html'),/readable-status-20261030/);
 });

@@ -147,7 +147,40 @@ def scoped_segments(text):
     return result
 
 
+def review_single_day_contimarket(row):
+    """Correct the captured one-day discount, preserving its historical identity.
+
+    The independent Contimarket.com row already describes daily financing. Do
+    not promote its schedule/cap into this dated reintegro or duplicate it here.
+    """
+    if clean(row.get("Comercio/Promoción")).casefold() != "contimarket - 25%":
+        return row
+    detail = row.get("Texto original de la fuente") or row.get("Detalle", "")
+    exact = re.search(r"Vigente el (\d{1,2}) (?:de )?(\w+) de (20\d{2})", detail, re.I)
+    before, sep, after = detail.partition("Además, todos los días:")
+    common_at = after.find("Válido pagando")
+    if not exact or not sep or common_at < 0 or not re.search(r"25% de reintegro", before):
+        return {**row, "Estado verificacion": "unconfirmed",
+                "Revisión de variantes": "Changed single-day Contimarket scope requires review"}
+    months = {m: i for i, m in enumerate("enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre".split(), 1)}
+    from datetime import date
+    try:
+        actual = date(int(exact[3]), months[exact[2].lower()], int(exact[1])).isoformat()
+    except (ValueError, KeyError):
+        return {**row, "Estado verificacion": "unconfirmed"}
+    common = after[common_at:]
+    # Financing is represented separately; keep the original source untouched.
+    scoped = clean(before + " " + common)
+    scoped = re.sub(r"Reintegros y cuotas", "Reintegros", scoped)
+    return {**row, "Detalle": scoped, "Texto original de la fuente": detail,
+            "Cantidad de descuento / beneficio": "25% de reintegro",
+            "Montos / topes": extract_topes(before),
+            "Día de promoción": actual,
+            "Vigencia de compras verificada": f"Desde {actual} hasta {actual}"}
+
+
 def segment_row(row):
+    row = review_single_day_contimarket(row)
     scopes = scoped_segments(row['Detalle'])
     if not scopes:
         return [row]

@@ -1,0 +1,56 @@
+{
+  "reviewed_at": "2026-10-30T15:58:10.632062+00:00",
+  "scope": "Targeted financial-scope audit; not an exhaustive bank-catalog certification",
+  "public_catalog_download": "2026-10-30T15:50Z",
+  "records": [
+    {
+      "id": "28100c1f8dcdffbe",
+      "bank": "Atlas",
+      "merchant": "Supermercados",
+      "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg",
+      "captured_at": "2026-10-30T14:05:37.174128+00:00",
+      "raw_detail_sha256": "ac535fc7249773bd295ba926a5c558af2d16dc6528ebbcb5dabd38123d26df61",
+      "source_file_updated_at": "2026-10-20T04:41:01Z"
+    },
+    {
+      "id": "95a62440aa5e167b",
+      "bank": "Continental",
+      "merchant": "Contimarket - 25%",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "captured_at": "2026-10-30T14:05:34.703330+00:00",
+      "raw_detail_sha256": "491032db9dfb72773c293dcefc5e5ec1140ed27f49ea032478fefc771a7e65af",
+      "source_file_updated_at": "2026-10-27T13:20:31Z"
+    },
+    {
+      "id": "2aaaf9a7c26e43c1",
+      "bank": "Coop. Universitaria",
+      "merchant": "SUPERSEIS / STOCK / DELIMARKET",
+      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf",
+      "captured_at": "2026-10-30T14:05:54.303920+00:00",
+      "raw_detail_sha256": "bb5c8bdd76b70b2a74c445ddb0d5ec36e613c54868f34ee6c08f45c758bad748",
+      "source_file_updated_at": "2026-09-22T11:37:15-03:00"
+    },
+    {
+      "id": "167e3b6017cb242e",
+      "bank": "Familiar",
+      "merchant": "COPETROL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-copetrol-bases-y-condiciones",
+      "captured_at": "2026-10-30T13:59:31.125059+00:00",
+      "raw_detail_sha256": "e7d442b225aff023809f08b5a984318b82a611794c52ba2ac81b2fd9018d1639",
+      "source_file_updated_at": "2026-10-26T14:18:29Z"
+    }
+  ],
+  "live_checks": {
+    "Atlas": "Official benefits landing and October PDF accessed; rates/current October campaigns sampled, not all hidden modal terms independently refreshed",
+    "Universitaria": "Official supermarket category and linked PDF bases-y-condiciones1790768981.pdf accessed; 20% QR vs 10% physical, monthly 500000 purchase account cap verified",
+    "Continental": "Official page/API inaccessible through web tool; fix uses preserved official API capture dated 2026-10-30; no new extraction claim",
+    "Familiar": "Official Copetrol landing accessible; embedded PDF retrieval blocked; fix uses preserved official document capture dated 2026-10-30; El País/Superseis were independently reviewed by another worker"
+  },
+  "remaining_coverage": {
+    "Familiar": "87 pending metadata entries, not 87 confirmed missing valid offers; includes expired and rejected merchants; current source_status fetched hides this scope",
+    "Universitaria": "4 withheld entries in review report; retrieved status is not complete coverage",
+    "Atlas": "Supermarket expiry remains unspecified; card-specific cap correction does not invent validity",
+    "Continental": "7 normalized rows lack expiry in baseline; 1 concrete mixed date case repaired",
+    "ueno": "312 personalized campaign entries must remain withheld, despite corrected dates; official landing v2 vs catalog v3 unresolved retrieval mismatch"
+  }
+}

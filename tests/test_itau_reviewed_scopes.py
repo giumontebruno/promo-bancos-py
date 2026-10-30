@@ -58,9 +58,16 @@ class ItauReviewedScopeTests(unittest.TestCase):
                     self.assertNotIn('PERSONAL BANK',v['Tarjetas verificadas'])
 
     def test_conflicting_fashion_sources_are_not_expanded(self):
-        pending=[r for r in self.reviews.values() if r.get('pending')]
+        pending=[r for u,r in self.reviews.items() if r.get('pending') and 'b=16359&' in u]
         self.assertEqual(len(pending),3)
         for review in pending:
             self.assertEqual(review['variants'],[])
             self.assertIn('5%',review['pending'])
             self.assertIn('10%',review['pending'])
+
+    def test_new_el_deposito_conflicting_dates_are_not_guessed(self):
+        r=self.reviews['https://www.itau.com.py/beneficios2/Detalle?b=16790&c=31515']
+        self.assertEqual(r['variants'],[])
+        self.assertIn('2025-11-24',r['pending'])
+        self.assertIn('8 de octubre de 2026',r['pending'])
+        self.assertIn('hasta 30%',r['pending'])

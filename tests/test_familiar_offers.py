@@ -133,7 +133,27 @@ class FamiliarOfferTests(unittest.TestCase):
             published=list(csv.DictReader(handle))
         complex_rows=[r for r in published if r.get('Comercio')=='OPTICA SANTA LUCIA']
         self.assertEqual(len(complex_rows),1)
-        self.assertEqual(len(published),metadata['published'])
+        retained=metadata.get('retained_historical_rows',0)
+        self.assertEqual(len(published),metadata.get('exported_rows',metadata['published']))
+        self.assertEqual(len(published),metadata['published']+retained)
+        self.assertGreaterEqual(sum(r.get('Estado verificacion')=='unconfirmed' for r in published),retained)
         self.assertEqual(count,metadata['published']-len(complex_rows))
 
 if __name__=='__main__':unittest.main()
+
+class CopetrolCapTests(unittest.TestCase):
+    def test_caps_scoped_to_cards_and_network_is_retained(self):
+        from promo_backend.quality import normalize_terms
+        row = {'Comercio': 'COPETROL', 'URL detalle': 'https://www.familiar.com.py/pdfs/promocionesybeneficios-copetrol-bases-y-condiciones',
+               'Detalle': 'Los clientes recibirán 20% de reintegro en el extracto. Límite de compra mensual por tarjeta Gs. 600.000 para las tarjetas de crédito Visa Platinum y 400.000 para las tarjetas de crédito Visa o MasterCard Oro/Gold, Visa o Mastercard Clásica, Positiva Visa, Positiva Bancardcheck. *Los límites de compra se aplican en conjunto para todas las estaciones de servicio adheridas a la promoción “Estaciones de servicio”. *La PROMOCIÓN será válida únicamente cuando los pagos fueren hechos a través de POS Infonet/Bancard y la APP Copetrol.*',
+               'Beneficio': '20% de reintegro', 'Tarjetas verificadas': 'old unsplit cards', 'Dia': 'los días martes', 'Vigencia': 'Desde 2026-01-06 hasta 2026-12-29'}
+        variants = split_offers(row)
+        self.assertEqual(len(variants), 2)
+        for variant, amount in zip(variants, [600000, 400000]):
+            terms = normalize_terms(normalize_row('Familiar', variant))
+            self.assertEqual([(x['amount'], x['period']) for x in terms['limits']], [(amount, 'mensual')])
+            self.assertIn('APP Copetrol', variant['Detalle'])
+            self.assertIn('en conjunto', variant['Detalle'])
+            self.assertEqual(variant['Texto original de la fuente'], row['Detalle'])
+        self.assertEqual(variants[0]['Tarjetas verificadas'], 'Visa Platinum')
+        self.assertNotIn('Platinum', variants[1]['Tarjetas verificadas'])

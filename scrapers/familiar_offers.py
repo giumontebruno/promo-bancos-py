@@ -123,7 +123,36 @@ def installment_offers(row, text):
     return list({(r['Tarjetas verificadas'],r['Beneficio']):r for r in out}.values())
 
 
+def copetrol_card_caps(row):
+    if row.get("Comercio", "").casefold() != "copetrol":
+        return None
+    if row.get("Variante") and row.get("Topes revisados por variante") == "yes":
+        return [row]
+    if "promocionesybeneficios-copetrol-bases-y-condiciones" not in row.get("URL detalle", ""):
+        return None
+    detail = row["Detalle"]
+    match = re.search(r"Límite de compra mensual por tarjeta Gs\.\s*([\d.]+) para las tarjetas de crédito (.+?) y ([\d.]+) para las tarjetas de crédito (.+?)(?=\. \*|\*|$)", detail, re.I)
+    if not match:
+        return [{**row, "Estado verificacion": "unconfirmed",
+                 "Revisión de variantes": "Changed Copetrol card-cap clause requires review"}]
+    if not re.search(r"20\s*% de reintegro", detail):
+        return [{**row, "Estado verificacion": "unconfirmed"}]
+    out = []
+    for amount, cards in [(match[1], match[2]), (match[3], match[4])]:
+        own_cap = f"Límite de compra mensual por tarjeta: Gs. {amount}."
+        evidence = detail[:match.start()] + own_cap + detail[match.end():]
+        value = offer(row, cards, "20% de reintegro", evidence, "reintegro")
+        value["Montos"] = own_cap
+        value["Topes revisados por variante"] = "yes"
+        value["Texto original de la fuente"] = row.get("Texto original de la fuente") or detail
+        out.append(value)
+    return out
+
+
 def split_offers(row):
+    capped = copetrol_card_caps(row)
+    if capped is not None:
+        return capped
     text = mechanics(row)
     summary = row['Beneficio']
     quota_counts = set(re.findall(r'(\d+)\s+cuotas sin intereses', number_words(summary), re.I))

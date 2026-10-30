@@ -1,0 +1,37 @@
+{
+  "reviews": [
+    {
+      "id": 688,
+      "card_sha256": "549a3e574b82decdf360ae2b91f3cec9bba93d06dbdd6c4c8f073ba0f6c4b228",
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
+      "pdf_sha256": "385bab4b04129841b05a44b354b6804ea9e61151230ace0a1090b5165a92908a",
+      "verified_at": "2026-10-30T15:49:37Z",
+      "evidence": "Cupón adicional desde Gs. 250.000; seguro de un año sólo para el ganador del vehículo. No es descuento ni reintegro garantizado.",
+      "exclude_reason": "excluded_sweepstakes_not_discount"
+    },
+    {
+      "id": 74,
+      "card_sha256": "67acfc4f20872d113691509eff8425f295770984986ba1e829d671c686ba4485",
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
+      "pdf_sha256": "6a05c47757192b3f3e3fcc8f89ebaa5b59c9446f862239fc35f23f9867989f9d",
+      "verified_at": "2026-10-30T15:49:37Z",
+      "evidence": "Vigencia: Del 29 de octubre 01 de noviembre del 2026. Beneficio: 20% descuento; hasta 6 cuotas sin intereses. Sin restricción semanal adicional para el descuento.",
+      "validity": "Desde 2026-10-29 hasta 2026-11-01",
+      "day": "Todos los días",
+      "warning": "La ficha API indica inicio 2025-10-10; el texto y las bases V1 28/10/2026 delimitan 29/10–01/11/2026. Se usa la ventana más corta de las bases."
+    },
+    {
+      "id": 52,
+      "card_sha256": "fcaf95ace76fced8bc75fb4d81d2290bf77ad410109bc514e57ec88782fd383a",
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
+      "pdf_sha256": "d560f262643a02f8754890596380e09aeb624c36595332ce98264e425d5727b5",
+      "verified_at": "2026-10-30T15:53:15Z",
+      "cap_conflict": true,
+      "validity": "Desde 2026-07-01 hasta 2026-12-30",
+      "benefits": "20% de descuento los miércoles con tarjetas de crédito GNB. • Hasta 12 cuotas sin intereses todos los días con tarjetas de crédito GNB.",
+      "conditions": "No aplica para pagos con QR ni delivery. No participan tarjetas de débito ni crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas. No acumulable con otras promociones. El beneficio combina descuento en caja y reintegro; el tope de reintegro requiere confirmación por discrepancia entre fuentes.",
+      "warning": "La ficha oficial indica tope de reintegro mensual Gs. 50.000; el PDF oficial indica Gs. 100.000. No se confirma un importe hasta aclaración de GNB.",
+      "evidence": "API y PDF oficial consultados 30/10/2026 discrepan en tope; no elegir ni derivar uno. Compra mensual Gs. 1.000.000 en ambos; descuento compuesto 10% caja + 10% reintegro."
+    }
+  ]
+}

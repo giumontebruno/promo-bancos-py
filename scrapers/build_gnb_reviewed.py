@@ -1,12 +1,15 @@
 """Build explicitly reviewed GNB offers; never infer coverage from inaccessible pages."""
 import csv
 import json
+import hashlib
+from datetime import datetime, timezone
+import requests
 from pathlib import Path
 
 try:
-    from .build_gnb_live_offers import build_rows as build_live_rows
+    from .build_gnb_live_offers import build_rows as build_live_rows, matched_review, source_reviews
 except ImportError:
-    from build_gnb_live_offers import build_rows as build_live_rows
+    from build_gnb_live_offers import build_rows as build_live_rows, matched_review, source_reviews
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -86,8 +89,27 @@ def build_page_campaigns(data):
     return rows
 
 
+def verify_review_documents(cards):
+    """A stable terms URL is not proof that its bytes are unchanged."""
+    evidence = []
+    reviews = source_reviews()
+    for card in cards:
+        decision = matched_review(card, reviews)
+        if not decision:
+            continue
+        response = requests.get(decision['source_url'], timeout=30)
+        response.raise_for_status()
+        digest = hashlib.sha256(response.content).hexdigest()
+        if not response.content.lstrip().startswith(b'%PDF-') or digest != decision['pdf_sha256']:
+            raise ValueError(f"GNB {card['id']}: reviewed terms changed; review required")
+        evidence.append({'id': card['id'], 'source_url': decision['source_url'],
+                         'pdf_sha256': digest, 'checked_at': datetime.now(timezone.utc).isoformat()})
+    return evidence
+
+
 def main():
     live_source = json.loads((ROOT / 'data/gnb_live_cards.json').read_text(encoding='utf-8'))
+    reviewed_documents = verify_review_documents(live_source['cards'])
     data = json.loads((ROOT / 'data/gnb_reviewed_offers.json').read_text(encoding='utf-8'))
     rows = build(data)
     restaurants = json.loads((ROOT / 'data/gnb_restaurants_reviewed.json').read_text(encoding='utf-8'))
@@ -120,7 +142,9 @@ def main():
         'checked_at': live_source['checkedAt'],
         'coverage': f"{live_source['total']} official cards extracted from GNB's public API; every card retains its official detail and terms links",
         'records': len(rows),
+        'reviewed_documents': reviewed_documents,
         'excluded_cards': {
+            **{str(issue['id']): issue['reason'] for issue in issues if issue['reason'].startswith('excluded_')},
             '20': 'Interest-bearing purchases abroad, not an interest-free benefit',
             '157': 'Cash advance with commission, not a promotion',
             '297': 'The linked terms ended on 2026-06-30, but the live card claims 2026-12-31',
@@ -130,7 +154,7 @@ def main():
         },
         'import_issues': issues,
     }, ensure_ascii=False, indent=2), encoding='utf-8')
-    print(f'GNB: {len(rows)} source-linked offers; {len(issues)} scheduling warnings.')
+    print(f'GNB: {len(rows)} source-linked offers; {len(issues)} exclusions or scheduling warnings.')
 
 
 if __name__ == '__main__':

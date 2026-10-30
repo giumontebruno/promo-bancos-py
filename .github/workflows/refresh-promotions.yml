@@ -9,6 +9,7 @@ on:
       - "promo_backend/**"
       - "requirements.txt"
       - "scripts/maintenance-health.mjs"
+      - "scripts/guard-refresh-revision.mjs"
       - "tests/maintenance-health.test.cjs"
       - ".github/workflows/refresh-promotions.yml"
   schedule:
@@ -66,6 +67,12 @@ jobs:
         continue-on-error: true
         run: node scripts/maintenance-health.mjs "$RUNNER_TEMP/payback-before.json"
 
+      - name: Refuse stale snapshot commits
+        id: revision
+        if: steps.health.outputs.safe_to_commit == 'true'
+        continue-on-error: true
+        run: node scripts/guard-refresh-revision.mjs
+
       - name: Save source and location audit
         if: always()
         uses: actions/upload-artifact@v4
@@ -74,20 +81,24 @@ jobs:
           path: |
             outputs/*report.json
             outputs/*review.json
+            outputs/*source_meta.json
+            work/*_documents/*.txt
             public/source_status.json
             outputs/maintenance_summary.md
 
       # Completion triggers deploy-pages via workflow_run, even on partial failure.
       # Pages validates latest main (not necessarily this trigger SHA) and public hashes.
       - name: Commit updated data
-        if: steps.health.outputs.safe_to_commit == 'true'
+        if: steps.health.outputs.safe_to_commit == 'true' && steps.revision.outputs.current == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          skip_fetch: true
+          skip_checkout: true
           commit_message: "Refresh promotions database"
           file_pattern: "outputs/*.csv outputs/*.md outputs/*.json public/*.json public/*.csv data/*.csv data/gnb_live_cards.json"
 
       - name: Report incomplete refresh
-        if: always() && (steps.refresh.outcome != 'success' || steps.health.outcome != 'success')
+        if: always() && (steps.refresh.outcome != 'success' || steps.health.outcome != 'success' || steps.revision.outcome != 'success')
         run: |
           echo "Refresh needs attention. Unsafe catalogs were not committed; partial sources retain explicit warnings. Inspect promotion-audit and the job summary."
           exit 1

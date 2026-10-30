@@ -41,6 +41,7 @@ SIMPLE = {
 
 # PDF-specific payment tables. A changed PDF filename requires a fresh review.
 PAYMENT_TABLES = {
+    "SUPERSEIS / STOCK / DELIMARKET": (20, 10, "reintegro", 500000),
     "FARMACIA ENERGY": (30, 15, "descuento", 5000000),
     "Farmatotal": (30, 15, "descuento", 5000000),
     "Estaciones ENERGY": (20, 10, "reintegro", 500000),
@@ -128,6 +129,7 @@ SPECIAL = {
 }
 
 REVIEWED_PDF = {
+    "SUPERSEIS / STOCK / DELIMARKET": "bases-y-condiciones1790768981.pdf",
     "Farmacenter": "bases-y-condiciones1783348467.pdf",
     "Farmacia Catedral": "bases-y-condiciones1790702549.pdf",
     "Farmaoliva": "bases-y-condiciones1783347827.pdf",
@@ -164,6 +166,15 @@ def variant(row, benefit, index, *, day=None, scope="", purchase_cap=None, refun
         CARDS + ".",
         out["Montos / topes"],
     ]))
+    if row["Comercio/Promoción"] == "SUPERSEIS / STOCK / DELIMARKET":
+        out["Montos / topes"] = (
+            f"Límite de compra mensual por cuenta: {money(purchase_cap)}. "
+            f"Tope de reintegro mensual: {money(refund_cap)}.")
+        out["Detalle"] += (" El límite mensual de compra es por cuenta, compartido entre "
+            "Superseis, Stock, Stock Express, S6 Express y Delimarket; no se suma por medio de pago. "
+            "No aplica para pagos en efectivo.")
+        out["Topes revisados por variante"] = "yes"
+        out["Texto original de la fuente"] = row["Detalle"]
     out["Texto fuente original"] = row["Detalle"]
     out["Tarjetas verificadas"] = CARDS
     merchant_key = re.sub(r"[^a-z0-9]+", "-", row["Comercio/Promoción"].casefold()).strip("-")

@@ -27,8 +27,9 @@ def clean(text):
 
 def extract_day(text):
     text = clean(text)
+    day = r"(?:lunes|martes|miércoles|miercoles|jueves|viernes|sábados|sabados|sábado|sabado|domingos|domingo)"
     patterns = [
-        r"aplica (?:los |el )?(lunes|martes|miércoles|miercoles|jueves|viernes|sábados|sabados|sábado|sabado|domingos|domingo)",
+        rf"aplica (?:los |el )?{day}(?:\s*(?:,\s*(?:y\s+)?|\by\s+|\ba\s+){day})*",
         r"todos los (lunes|martes|miércoles|miercoles|jueves|viernes|sábados|sabados|domingos)",
         r"(lunes|martes|miércoles|miercoles|jueves|viernes|sábado|sabado|domingo)\s+a\s+(lunes|martes|miércoles|miercoles|jueves|viernes|sábado|sabado|domingo)",
         r"todos los días",

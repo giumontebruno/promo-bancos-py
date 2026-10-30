@@ -1,0 +1,1140 @@
+{
+  "checked_at_utc": "2026-10-30T16:06:06.818836+00:00",
+  "cutoff": "2026-10-30",
+  "method": "Read all30 PDF page1 raster benefit tables (six composites plus full page zooms93,101,104,105,129,134), clause text/exclusions and branch-restriction references; captured full text all pages, not geocoded individual annex locations. No PDF filename dates inferred.",
+  "campaign_count": 30,
+  "notes": [
+    "Clásica/Oro/Premium values cross-checked against PDF raster tables.",
+    "Catalog omissions are not contradictions: Quanta year2026 recovered fromPDF; Nova6cuotas recovered fromPDF.",
+    "UCA monthly10% remains; separate20% semester benefit03–12Aug2026 expired and excluded.",
+    "Farmacenter129/130 share one PDF; separate sub-benefits, do not duplicate Monday benefit.",
+    "Cap unspecified period preserved unknown104/105; never assume monthly.",
+    "No geocoding/complete branch map certification."
+  ],
+  "campaigns": [
+    {
+      "id": 101,
+      "title": "Tarjeta de Crédito Smart Primera Compra",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/386/Reintegro_primera_compra_Bases__y_condiciones_2026.pdf",
+      "pdf_sha256": "f4d243d7586d6d81b3e2cbc5fb426045335361f3462e3ed553132facb434e832",
+      "record_sha256": "e8c635bc92b2c20fc92d3273f1fddbc151edb47bcfe9a0f6f752b92f7d46b8cc",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-101.txt",
+      "pdf_start": "2026-01-16",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "16 de enero del 2026 al 31 de diciembre del 2026",
+      "recurrence": "first_purchase",
+      "cards": [
+        "Smart MasterCard Clasica",
+        "Smart MasterCard Oro",
+        "Smart MasterCard Black"
+      ],
+      "refund_percent": [
+        30,
+        30,
+        30
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        700000,
+        1000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "first_purchase",
+      "cap_scope": "unspecified",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "QR credito, tarjeta fisica, ecommerce nacional Infonet",
+      "restrictions": "Solo Smart MasterCard primera utilizacion; excluye pagos servicios y clientes con Mastercard utilizada antes de vigencia"
+    },
+    {
+      "id": 134,
+      "title": "Farmacias Energy",
+      "status": "blocked_specific_ambiguity_or_representation",
+      "issues": [
+        "Catalogo descuento30% sin segmentar; PDF medicamentos hasta20%,otros hasta30%. No publicar30% universal ni sumar caja+reintegro. Requiere variantes por producto y hasta."
+      ],
+      "source_url": "https://api.solar.com.py/documents/547/Bases_y_condiciones_Promo_Farmacias_Energy_V1.docx_ltWeqWK.pdf",
+      "pdf_sha256": "2ac89be2b9c588324982e8de8ca3588e87d310ef05f6e5ebf521d1deab3dc5b5",
+      "record_sha256": "325ff12354a56b39b278e1d30cc5b1d6ae2ceb4c6c1667e5221e6e14d7d8ea58",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-134.txt",
+      "pdf_start": "2026-11-01",
+      "pdf_end": "2027-11-30",
+      "catalog_duration": "01 de noviembre del 2026 al 30 de noviembre del 2027",
+      "recurrence": "monday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        15,
+        15,
+        20
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        800000,
+        1600000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 6,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Energy AnexoI; medicamentos hasta20%caja,otros hasta30%caja; reintegro tras descuento; no acumula otras promos"
+    },
+    {
+      "id": 132,
+      "title": "CyberDay Nissei | 02 al 04 de Nov.",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/545/CyberDay_2026_Nissei_Bases_y_condiciones.docx.pdf",
+      "pdf_sha256": "814281cee724ad9cea689a164979cdbdece0bd2f99f1cbbef189506d66fd1a09",
+      "record_sha256": "5b359a5fd33479772a89fd1652af5011e88af4852a6edd4ae2a4ccabef3033f2",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-132.txt",
+      "pdf_start": "2026-11-02",
+      "pdf_end": "2026-11-04",
+      "catalog_duration": "02 al 04 de noviembre del 2026",
+      "recurrence": "date_range",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        20
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        750000,
+        1000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "promotion",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 18,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "online nissei.com/py Red Infonet",
+      "restrictions": "No acumula otras promos; reintegro importe final"
+    },
+    {
+      "id": 129,
+      "title": "Farmacenter",
+      "status": "blocked_specific_ambiguity_or_representation",
+      "issues": [
+        "Canal PDF3 afirma valida con dispositivos diferentes al POS Infonet sin aclarar redes. No transformar en POS exclusivo. Representacion del descuento debe separar medicamentos/otros y hasta."
+      ],
+      "source_url": "https://api.solar.com.py/documents/540/Bases_y_condiciones_Promo_Farmacenter_V1_KqUla2v.pdf",
+      "pdf_sha256": "7b70af5276e1984a4189e14e336e179793847190483aee428f0a649c3c619ef8",
+      "record_sha256": "9bba4ff797423e86b2118f3eb82dfc1d8905fb873023cb530d2c348f3ae2907a",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-129.txt",
+      "pdf_start": "2026-10-12",
+      "pdf_end": "2027-09-30",
+      "catalog_duration": "12 de Octubre del 2026 al 30 de septiembre del 2027",
+      "recurrence": "monday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        15,
+        15,
+        20
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        800000,
+        1600000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 6,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "PDF3 dice valida mediante dispositivos diferentes al POS Infonet",
+      "restrictions": "Farmacenter AnexoI; caja hasta15% medicamentos/hasta20%otros; reintegro tras descuento"
+    },
+    {
+      "id": 130,
+      "title": "Día Especial Solar | Farmacenter",
+      "status": "blocked_specific_ambiguity_or_representation",
+      "issues": [
+        "Fin catalogo31/12/2026 vs generalPDF30/09/2027; tabla solo16oct20nov18dic sin ano; no extender a viernes2027. Canal3 inusual no permite inferir POS exclusivo."
+      ],
+      "source_url": "https://api.solar.com.py/documents/541/Bases_y_condiciones_Promo_Farmacenter_V1_DM7rnJH.pdf",
+      "pdf_sha256": "7b70af5276e1984a4189e14e336e179793847190483aee428f0a649c3c619ef8",
+      "record_sha256": "d24ccfd4be13d1b2e82e678f45686cd7a0209960d569a8f1fde4d39272217b41",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-130.txt",
+      "pdf_start": "2026-10-12",
+      "pdf_end": "2027-09-30",
+      "catalog_duration": "12 de octubre al 31 de diciembre del 2026",
+      "recurrence": "explicit_16October_20November_18December",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        25,
+        25,
+        25
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        800000,
+        1600000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "per_promotional_day",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "PDF3 dice valida mediante dispositivos diferentes al POS Infonet",
+      "restrictions": "Excluye medicamentos; hasta25%caja +25%reintegro sobre monto final; no sumar50%efectivo"
+    },
+    {
+      "id": 128,
+      "title": "Agrofield",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/521/Bases_y_condiciones_Promo_Agrofield_2026_online.pdf",
+      "pdf_sha256": "eb331b962c20a43d0fd2ed6ef6a51ac2ec11d89b4ec03df52195beb2624938a2",
+      "record_sha256": "366914e21430d395949cf00bcd653772050d63b5255575f830f74061ac3bc828",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-128.txt",
+      "pdf_start": "2026-10-01",
+      "pdf_end": "2027-09-30",
+      "catalog_duration": "Del 01 de octubre del 2026 al 30 de septiembre del 2027",
+      "recurrence": "daily",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        30
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        800000,
+        2000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 6,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "online agrofield.com.py",
+      "restrictions": "Exclusivamente web; no acumula otras promos"
+    },
+    {
+      "id": 127,
+      "title": "Fauna Town | Cat Town | Agrofield",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/523/Bases_y_condiciones_Promo_Fauna_Town_Cat_Town_y_Agrofield_2026.pdf",
+      "pdf_sha256": "13b28823e5f891338822b2b7e7cbe405c87b55db38815ddfcf4c15d46fc6b382",
+      "record_sha256": "bbae34c9f8330fdc713f9992c1863ab19c0dd181447b1ce5dfb140a4578175f5",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-127.txt",
+      "pdf_start": "2026-10-01",
+      "pdf_end": "2027-09-30",
+      "catalog_duration": "Del 01 de octubre del 2026 al 30 de septiembre del 2027",
+      "recurrence": "saturday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        15,
+        15,
+        20
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        800000,
+        2000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 6,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "QR credito POS Infonet",
+      "restrictions": "FaunaTown,CatTown,Agrofield AnexoI; no acumula otras promos"
+    },
+    {
+      "id": 124,
+      "title": "Nike | Rookie | Academy",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/508/Grupo_nike_Bases_y_condiciones_2026_V03.docx_1.pdf",
+      "pdf_sha256": "8136f3f1fb1c17456ae3789b7a310f14b9b2bc7eee02c98fc96d27d259b23381",
+      "record_sha256": "e08faa21b7fc0ec95c85363e44174da59caf5b68043ed3a40f2b9cd7ac5bba2b",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-124.txt",
+      "pdf_start": "2026-08-19",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "19 de agosto del 2026 al 31 diciembre del 2026",
+      "recurrence": "wednesday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        30
+      ],
+      "purchase_cap_pyg": [
+        1000000,
+        1500000,
+        2000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 6,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Solo Nike/Rookie/Academy AnexoI"
+    },
+    {
+      "id": 123,
+      "title": "Museo MuCi",
+      "status": "blocked_specific_ambiguity_or_representation",
+      "issues": [
+        "Fin PDF31/12/2026 contradice catalogo31/08/2027; no seleccionar una fecha como resuelta."
+      ],
+      "source_url": "https://api.solar.com.py/documents/509/Bases_y_condiciones_MUCI_2026.docx_2.pdf",
+      "pdf_sha256": "45c68bc3faa0c9d0d5871268b46aed1c7d374f3eacc866c7017889b6c802c5cc",
+      "record_sha256": "d973b2222043a520078c66f83bdaa43cc6482a102b62b6274cf0853f18f1b520",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-123.txt",
+      "pdf_start": "2026-08-05",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "05 de agosto del 2026 al 31 de agosto del 2027",
+      "recurrence": "daily",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        30
+      ],
+      "purchase_cap_pyg": [
+        250000,
+        250000,
+        300000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 12,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Boleteria MuCi GralSantos/Concordia ComplejoTextilia"
+    },
+    {
+      "id": 71,
+      "title": "Vicente Scavone",
+      "status": "no_remaining_eligible_dates",
+      "issues": [
+        "Vigencia formal31/10 pero solo lunes; ultimo26/10. No promover como disponible hoy o futura."
+      ],
+      "source_url": "https://api.solar.com.py/documents/531/Farmacia_Vicente_Scavone_-_Bases_y_condiciones_2026.docx_vLWW4La.pdf",
+      "pdf_sha256": "d97785aea95445f19b72efbc7a5d058ae9703af816f95a07bc7ba91505123176",
+      "record_sha256": "89e29fc8bd95190d03ecc08bdbdea6f9eafdd702f3c8c7b08f6a0234eae89b69",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-71.txt",
+      "pdf_start": "2026-01-01",
+      "pdf_end": "2026-10-31",
+      "catalog_duration": "01 de enero del 2026 al 31 de octubre del 2026",
+      "recurrence": "monday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        25,
+        25,
+        30
+      ],
+      "purchase_cap_pyg": [
+        400000,
+        800000,
+        1600000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Solo Vicente Scavone anexo; ultimo lunes elegible26/10"
+    },
+    {
+      "id": 55,
+      "title": "Biggie",
+      "status": "expired",
+      "issues": [
+        "Vigencia final27/10/2026 anterior al corte."
+      ],
+      "source_url": "https://api.solar.com.py/documents/539/Biggie_S.A_Bases_y_condiciones_2026_V03.docx_PqtLrAu.pdf",
+      "pdf_sha256": "61178e3c6c6f63a24bebe4ae452e1bba3abc847335daa278045d6f84c39ca279",
+      "record_sha256": "6fc0f3c7f0089a8aaca1a22171f095a9de58214ed9a2a88e108033ffcb5862af",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-55.txt",
+      "pdf_start": "2026-09-08",
+      "pdf_end": "2026-10-27",
+      "catalog_duration": "08 de septiembre al 27 de octubre de 2026",
+      "recurrence": "tuesday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        30,
+        30,
+        30
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        750000,
+        1000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "QR credito App Solar + Infonet",
+      "restrictions": "Solo Biggie anexo"
+    },
+    {
+      "id": 87,
+      "title": "Casa Paraná",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/426/Casa_Parana_-_Bases_y_condiciones_2026__.docx.pdf",
+      "pdf_sha256": "eaed6f0d535863e4730d02e60f81753fc990477e9cd55fa291f7f8bc6d8c427f",
+      "record_sha256": "cc1f1421131b1f5ebbd598bbdb3af563e7ecf07a2f6ae21050c96cf4924ae618",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-87.txt",
+      "pdf_start": "2026-01-06",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "06 de enero del 2026 al 31 de diciembre del 2026",
+      "recurrence": "tuesday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        20
+      ],
+      "purchase_cap_pyg": [
+        200000,
+        400000,
+        800000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "8 locales Casa Parana clausula2.C"
+    },
+    {
+      "id": 72,
+      "title": "Copetrol",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/498/Copetrol_S.A_Bases_y_condiciones_2026_V04.docx.pdf",
+      "pdf_sha256": "57bb9cfc827e21bb6bab3cbfc8636415ee4cf09bb2bb5d987cdbc2631c0e6a00",
+      "record_sha256": "a5e2d2ff6b96b0a2920adbca32c03eb331cf432aeac41892ef4936025e717a54",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-72.txt",
+      "pdf_start": "2026-01-01",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "01 de enero del 2026 al 31 de diciembre del 2026",
+      "recurrence": "thursday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        15,
+        15,
+        25
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        700000,
+        1000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet o App Copetrol",
+      "restrictions": "Solo estaciones anexo; altas16/07 y30/07 ya vigentes"
+    },
+    {
+      "id": 125,
+      "title": "Quanta",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/516/Bases_y_condiciones_Quanta_2026.pdf",
+      "pdf_sha256": "54702c9d7201a0d7dbfb72eeb8f8c2e7f10a307c64a4a5d03a10c42f25252ff9",
+      "record_sha256": "af5be1bd532704f6198ef29f74424d675dd52d6a2950b2e1ca8d62cca781a713",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-125.txt",
+      "pdf_start": "2026-09-07",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "07 de Septiembre al 31 de Diciembre",
+      "recurrence": "daily",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        0,
+        0,
+        0
+      ],
+      "purchase_cap_pyg": [
+        null,
+        null,
+        null
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly_amount_unspecified",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 12,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet o quanta.com.py",
+      "restrictions": "Web y CDE CarlosAntonioLopez/Canada; no acumula otras promos"
+    },
+    {
+      "id": 97,
+      "title": "Nissei",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/467/Bases_y_condiciones_NISSEI_2026_V02.docx.pdf",
+      "pdf_sha256": "a9d553db52760b47f0394b03c94fa3023538f23f3b18f60546159858ba50dbfc",
+      "record_sha256": "73bafccc69cbd7f0969239e1132e8ffc7208c51511c719d221919a15c99fc65d",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-97.txt",
+      "pdf_start": "2026-01-01",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "01 de enero del 2026 al 31 de diciembre del 2026",
+      "recurrence": "daily",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        0,
+        0,
+        0
+      ],
+      "purchase_cap_pyg": [
+        null,
+        null,
+        null
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": null,
+      "cap_scope": "see_clause2",
+      "max_interest_free_installments": 12,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "QR credito POS Infonet o nissei.com/py",
+      "restrictions": "Asuncion,CDE,DistritoPerseverancia,web clausula2.D"
+    },
+    {
+      "id": 116,
+      "title": "Cellshop",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/452/Bases_y_condiciones_Cellshop_2026_V01.docx.pdf",
+      "pdf_sha256": "e3422e88621eb524f726583eb4abf8279448ac6da354fb4756bc1b3bf0d0b9d0",
+      "record_sha256": "5c572dc9e09d6f5a64bd35eb32a560dbf05b5cfedd5e8a2a8689c21058c5a250",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-116.txt",
+      "pdf_start": "2026-02-25",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "25 de febrero del 2026 al 31 de diciembre del 2026",
+      "recurrence": "daily",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        0,
+        0,
+        0
+      ],
+      "purchase_cap_pyg": [
+        null,
+        null,
+        null
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": null,
+      "cap_scope": "see_clause2",
+      "max_interest_free_installments": 12,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet o cellshop.com.py",
+      "restrictions": "Web,Asuncion,CDE,PedroJuanCaballero clausula2.B"
+    },
+    {
+      "id": 104,
+      "title": "Forever 21 | Springfield | Women’secret | Jack & Jones",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/544/Bases_y_condiciones_-_Forever_21_Springfield_Womensecret_y_Jack__Jones_.2docx.pdf",
+      "pdf_sha256": "7cc7a5b4cb3507235ef8dc745214fb7b1e045d56d47e62282a53bff098ad32fc",
+      "record_sha256": "c9abe34a093f825cb4963608a460f6a7cfcb2611223c57c5fdc390fe7afd7b39",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-104.txt",
+      "pdf_start": "2026-06-01",
+      "pdf_end": "2026-11-30",
+      "catalog_duration": "01 de junio del 2026 al 30 de noviembre del 2026",
+      "recurrence": "wednesday,thursday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        25,
+        25
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        750000,
+        1000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "accumulated_period_unspecified",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 6,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "QR credito App Solar POS Infonet",
+      "restrictions": "Solo las4marcas ShoppingDelSol"
+    },
+    {
+      "id": 77,
+      "title": "RND | RONDINA | marie marie",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/499/Rondina_RND_y_Marie_Marie_Bases_y_condiciones_2026_V03.docx.pdf",
+      "pdf_sha256": "d51b1d90d732f0feddc94e5a36ef3d73d3af46dd22b6f94670d6d1340be5ff73",
+      "record_sha256": "fa37ea9e26dac61f27603481d47780f3f6a2fbf67983d88eefc8b762c08d03d7",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-77.txt",
+      "pdf_start": "2026-01-01",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "01 de enero del 2026 al 31 diciembre del 2026",
+      "recurrence": "wednesday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        30
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        750000,
+        1000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 6,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Solo Rondina/RND/MarieMarie anexo"
+    },
+    {
+      "id": 105,
+      "title": "Champs Elysées | O Boticário| Isdin",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/543/Bases_y_condiciones_-_Champs_Elys%C3%A9es_Isdin_y_O_Botic%C3%A1rio_V03.docx_1.pdf",
+      "pdf_sha256": "4bc3530328e317cc2c13ad5ff3a1dc813c31f6286bec4dfd01d352c643cf9916",
+      "record_sha256": "2c1ccb9fc164fef77322dfa2b12547a1b43beae19fe6ac8cb8e463cd074ec4c0",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-105.txt",
+      "pdf_start": "2026-06-01",
+      "pdf_end": "2026-11-30",
+      "catalog_duration": "01 de junio del 2026 al 30 de noviembre del 2026",
+      "recurrence": "wednesday,thursday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        25,
+        25
+      ],
+      "purchase_cap_pyg": [
+        500000,
+        1000000,
+        2000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "accumulated_period_unspecified",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 6,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "QR credito App Solar POS Infonet o web Champs Elysees",
+      "restrictions": "Locales AnexoI; online exclusivamente Champs Elysees"
+    },
+    {
+      "id": 75,
+      "title": "Pedidos Ya",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/431/Pedidos_Ya_Bases_y_condiciones_2026.docx.pdf",
+      "pdf_sha256": "2ebcc332979eed4a2cb8ef437a75dcf6b419bb2d000984e54e5d38de994ef24b",
+      "record_sha256": "e59beaa0f1b607c97411c1e0c04b8a7476a1e9bfea5fb73f6780e12838a80b5e",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-75.txt",
+      "pdf_start": "2026-01-01",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "01 de enero del 2026 al 31 de diciembre del 2026",
+      "recurrence": "friday,saturday,sunday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        20
+      ],
+      "purchase_cap_pyg": [
+        250000,
+        250000,
+        500000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "VPOS Infonet",
+      "restrictions": "Plataformas digitales PedidosYa"
+    },
+    {
+      "id": 59,
+      "title": "Burger King",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/419/Burger_King_-_Bases_y_condiciones_2026.docx.pdf",
+      "pdf_sha256": "9cb51851cd9779546265c6ae0f32014c3691152d5b2b28244e74ea44a207f089",
+      "record_sha256": "43bd504b170f70174814a451a7e13c5b652e4bda3cca260a246be373b8b1d164",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-59.txt",
+      "pdf_start": "2026-01-01",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "01 de enero del 2026 al 31 de diciembre del 2026",
+      "recurrence": "friday,saturday,sunday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        30
+      ],
+      "purchase_cap_pyg": [
+        300000,
+        600000,
+        1000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Solo sucursales Burger King anexo"
+    },
+    {
+      "id": 118,
+      "title": "SUBWAY",
+      "status": "blocked_specific_ambiguity_or_representation",
+      "issues": [
+        "PDF titulo y clausula1 Subway pero clausula2.C Popeyes: sucursales aplicables contradictorias."
+      ],
+      "source_url": "https://api.solar.com.py/documents/458/Subway_-_Bases_y_condiciones_V12026.docx.pdf",
+      "pdf_sha256": "087925e2c30e33109d5c90513ad6bd9ec6fef2bb70f6dbaf581a6b7c97473e11",
+      "record_sha256": "3286be96c78d6fdb93d4bdd155327cf22ca73a41a7a9032a550da767408ae84d",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-118.txt",
+      "pdf_start": "2026-03-20",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "20 de marzo del 2026 al 31 de diciembre del 2026",
+      "recurrence": "friday,saturday,sunday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        30
+      ],
+      "purchase_cap_pyg": [
+        300000,
+        600000,
+        1000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "promotion",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "CONFLICTO tituloSubway y2.C Popeyes"
+    },
+    {
+      "id": 119,
+      "title": "Popeyes",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/459/Popeyes_-_Bases_y_condiciones_2026.docx.pdf",
+      "pdf_sha256": "dda4073ac0c869eb17ebf356d88540e77756764528550e6465d15a0baabeeeed",
+      "record_sha256": "183e709b5a61b08172429f6cc8a4bdea2c69eb0f9f509ec4ac2c746ba977c4c6",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-119.txt",
+      "pdf_start": "2026-03-20",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "20 de marzo del 2026 al 31 de diciembre del 2026",
+      "recurrence": "friday,saturday,sunday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        30
+      ],
+      "purchase_cap_pyg": [
+        300000,
+        600000,
+        1000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "promotion",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Solo Popeyes AnexoI"
+    },
+    {
+      "id": 56,
+      "title": "La Herencia",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/422/La_Herencia_Bases_y_condiciones_2026_4UlcO2l.pdf",
+      "pdf_sha256": "5805dd651bfedbb212cf625f3983241e9c73f06a12d11c3035bd765e9918fd02",
+      "record_sha256": "dffb0a91471ecb62dfa0f3a4bf52760adf65cb298138b78b8bcd84fe38db77cc",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-56.txt",
+      "pdf_start": "2026-01-01",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "01 de enero del 2026 al 31 de diciembre del 2026",
+      "recurrence": "friday,saturday,sunday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        30
+      ],
+      "purchase_cap_pyg": [
+        300000,
+        600000,
+        1000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "La Herencia Almacen, Cafe, Mercado Boutique, Bernardino; clausula2.C"
+    },
+    {
+      "id": 61,
+      "title": "Bar San Miguel y El Legado",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/416/Bar_San_Miguel_y_El_Legado_Bases_y_condiciones_2026.docx.pdf",
+      "pdf_sha256": "6b2427853a6d753051104d6c160ab017382f3c150525eabce817a9ae17d13d36",
+      "record_sha256": "cee25157948343d8d1f594c182de09f2cf8b128c036abbca33488b2c05abcff8",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-61.txt",
+      "pdf_start": "2026-01-01",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "01 de enero del 2026 al 31 de diciembre del 2026",
+      "recurrence": "friday,saturday,sunday",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        30
+      ],
+      "purchase_cap_pyg": [
+        300000,
+        600000,
+        1000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Bar San Miguel Av Espana1165; Legado Padre Cardozo469"
+    },
+    {
+      "id": 121,
+      "title": "Librerías Nova y Novelty",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/500/Librer%C3%ADas_Nova_y_Novelty_Bases_y_condiciones_2026_V3.docx.pdf",
+      "pdf_sha256": "f713049cc6b54df58c0a7be58b5e7eac7650e3dd68717f811b7ea15b9e10ed9a",
+      "record_sha256": "41df542df292082c6fb30c31656e0a3f76514a68424459c4f333fcf63ae9b917",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-121.txt",
+      "pdf_start": "2026-02-01",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "01 de febrero del 2026 al 31 de diciembre de 2026.",
+      "recurrence": "daily",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        20,
+        20,
+        20
+      ],
+      "purchase_cap_pyg": [
+        1000000,
+        2000000,
+        3000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "promotion_shared_all_merchants",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": 6,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Nova y Novelty AnexoI; acumulado conjunto durante vigencia"
+    },
+    {
+      "id": 122,
+      "title": "UCOM",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/468/Bases_y_condiciones_UCOM_2026.docx.pdf",
+      "pdf_sha256": "5a20f0b4a46065e6b0a89d963ecf83f43fb931ec4bffe589099b0ad37458a19b",
+      "record_sha256": "56709defbe62b876001542b7dfdc888007206198e7ea34a346e78a8102b9b409",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-122.txt",
+      "pdf_start": "2026-04-20",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "Del 20 de abril del 2026 al 31 de diciembre del 2026",
+      "recurrence": "daily",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        0,
+        0,
+        0
+      ],
+      "purchase_cap_pyg": [
+        null,
+        null,
+        null
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": null,
+      "cap_scope": "see_clause2",
+      "max_interest_free_installments": 12,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Aranceles UCOM Monsenor Bogarin284Asuncion; dentro linea credito"
+    },
+    {
+      "id": 93,
+      "title": "Universidad Católica",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/501/UCA_-_Bases_y_condiciones_Solar_Banco_2026_V02.docx.pdf",
+      "pdf_sha256": "d4d08d208a19339515357c3b3d9518785cce1d7b74ce058b229132795802b607",
+      "record_sha256": "b5e8ba9df83fcb9e467b3e4374e29ce024f1d67afd6a97e1a55a94c3855d24e3",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-93.txt",
+      "pdf_start": "2026-07-31",
+      "pdf_end": "2027-07-31",
+      "catalog_duration": "31 de julio de 2026 al el 31 de julio de 2027.",
+      "recurrence": "month_days_1_to_10",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        10,
+        10,
+        10
+      ],
+      "purchase_cap_pyg": [
+        1500000,
+        1500000,
+        1500000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet; App/Web Solar PagoServiciosUCA",
+      "restrictions": "Aranceles cuotas mensuales; sedes AnexoI; digital solo Campus Asuncion"
+    },
+    {
+      "id": 49,
+      "title": "Resort Yacht & Golf Club Paraguayo",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/275/Yacht_y_Golf_Club_Paraguayo_-Cuota_social_Bases_y_condiciones_2026_V01.pdf",
+      "pdf_sha256": "398f9a34ce3a8d372af6f0a0178b24d3976bd959925c1ec8ee37769409d2a332",
+      "record_sha256": "b37d2d0c7c7581bcc22ae366e87df950b1c9e3e0e359c95b4bf6175a92debd8c",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-49.txt",
+      "pdf_start": "2026-01-31",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "Hasta el 31 de diciembre del 2026",
+      "recurrence": "daily",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        10,
+        10,
+        10
+      ],
+      "purchase_cap_pyg": [
+        330000,
+        330000,
+        330000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "credit_account_including_holder_and_additionals",
+      "max_interest_free_installments": null,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Cuota social, socios Yacht; no hotel/resort general"
+    },
+    {
+      "id": 52,
+      "title": "Garden",
+      "status": "verified",
+      "issues": [],
+      "source_url": "https://api.solar.com.py/documents/428/Garden_Automotores__Bases_y_condiciones_2026x.docx.pdf",
+      "pdf_sha256": "e1172d6313e42426490d9a53f0abdd73105f099c9a52eaf64fa91216e7fb29a3",
+      "record_sha256": "89c9e7a4d4818fe707e67c3621fef85b9dd429e051af06eb1131346e3f02feef",
+      "evidence_reference": "PDF page1 clause1, benefit table and clauses2; channel/exclusions all pages; /tmp/payback-three/solar-52.txt",
+      "pdf_start": "2026-01-08",
+      "pdf_end": "2026-12-31",
+      "catalog_duration": "8 de enero del 2026 al 31 de diciembre del 2026",
+      "recurrence": "daily",
+      "cards": [
+        "MasterCard y Visa Clasica",
+        "MasterCard y Visa Oro",
+        "MasterCard Black y Visa Infinite"
+      ],
+      "refund_percent": [
+        0,
+        0,
+        0
+      ],
+      "purchase_cap_pyg": [
+        30000000,
+        30000000,
+        30000000
+      ],
+      "cap_type": "purchase_not_refund",
+      "cap_period": "monthly",
+      "cap_scope": "see_clause2",
+      "max_interest_free_installments": 18,
+      "minimum_purchase_pyg": null,
+      "minimum_evidence": "No minimum stated in reviewed text/table; do not invent zero.",
+      "channel": "POS Infonet",
+      "restrictions": "Posventa, mantenimiento y repuestos; Garden, Tema, Cuevas Hermanos, Garden MPY"
+    }
+  ]
+}

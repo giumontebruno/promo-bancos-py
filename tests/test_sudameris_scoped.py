@@ -33,3 +33,37 @@ class ScopedReviewTests(unittest.TestCase):
         once=apply_scoped_reviews([row,history],review,lambda _:b'pdf')
         self.assertEqual(once,apply_scoped_reviews(once,review,lambda _:b'pdf'))
         self.assertEqual(once[1],history)
+
+    def test_partial_mode_does_not_reuse_changed_document(self):
+        row,review=self.fixture();review['mutations'][0]['documents']=list(review['documents'])
+        failures=[]
+        result=apply_scoped_reviews([row],review,lambda _:b'changed',failures=failures)
+        self.assertEqual(result[0]['Vigencia'],'old')
+        self.assertEqual(result[0]['Estado verificacion'],'unconfirmed')
+        self.assertEqual(len(failures),1)
+
+    def test_partial_mode_validates_unaffected_reviews(self):
+        row,review=self.fixture();review['mutations'][0]['documents']=list(review['documents'])
+        review['documents']['other']=hashlib.sha256(b'original').hexdigest()
+        failures=[]
+        result=apply_scoped_reviews([row],review,lambda u:b'changed' if u=='other' else b'pdf',failures=failures)
+        self.assertEqual(result[0]['Vigencia'],'new')
+        self.assertEqual(len(failures),1)
+
+    def test_missing_document_retains_only_existing_addition_unconfirmed(self):
+        import requests
+        row,review=self.fixture();review['mutations']=[]
+        review['additions']=[{'row':{**row,'Vigencia':'new'},'documents':list(review['documents'])}]
+        def fail(_):raise requests.HTTPError('404')
+        failures=[]
+        self.assertEqual(apply_scoped_reviews([],review,fail,failures=failures),[])
+        result=apply_scoped_reviews([row],review,fail,failures=[])
+        self.assertEqual(result[0]['Vigencia'],'old')
+        self.assertEqual(result[0]['Estado verificacion'],'unconfirmed')
+
+    def test_replacement_requires_exact_prior_row_fingerprint(self):
+        row,review=self.fixture();review['mutations']=[]
+        review['additions']=[{'row':{**row,'Vigencia':'reviewed'},'accepted_sha256':[fingerprint(row,review['fingerprint_fields'])]}]
+        self.assertEqual(apply_scoped_reviews([row],review,lambda _:b'pdf')[0]['Vigencia'],'reviewed')
+        with self.assertRaisesRegex(ValueError,'merchant changed'):
+            apply_scoped_reviews([{**row,'Vigencia':'unknown'}],review,lambda _:b'pdf')
