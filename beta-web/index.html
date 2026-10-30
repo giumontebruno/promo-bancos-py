@@ -51,9 +51,9 @@
         <div class="glass-filters"><label><span class="sr-only">Banco</span><select id="bankSelect" aria-label="Banco"></select></label><label><span class="sr-only">Categoría</span><select id="categorySelect" aria-label="Categoría"></select></label><label><span class="sr-only">Tarjeta</span><select id="cardSelect" aria-label="Tarjeta"><option value="Todas">Tarjetas</option><option>Crédito</option><option>Débito</option><option>Visa</option><option>Mastercard</option><option>American Express</option></select></label></div>
         <fieldset class="supermarket-pilot"><legend>Consulta de supermercados · piloto</legend>
           <label><input type="checkbox" id="pilotEnabled"> Evaluar mi compra (mismo criterio en lista y mapa)</label>
-          <div class="pilot-inputs"><label>Tarjeta exacta<select id="pilotCard"><option value="">Elegí tarjeta y banco</option></select></label>
-          <label>Forma de pago<select id="pilotChannel"><option value="">Elegí cómo pagar</option><option value="pos-bancard">POS Bancard / Infonet</option><option value="pos-dinelco">POS Dinelco físico</option><option value="qr">QR</option><option value="online">Online</option><option value="apple-pay">Apple Pay</option><option value="google-pay">Google Pay</option></select></label>
-          <label>Compra en Gs.<input id="pilotAmount" type="number" min="1" step="1" inputmode="numeric" placeholder="Monto de compra"></label></div>
+          <div class="pilot-inputs"><label>Tarjeta exacta<select id="pilotCard" aria-label="Tarjeta exacta"><option value="">Elegí tarjeta y banco</option></select></label>
+          <label>Forma de pago<select id="pilotChannel" aria-label="Forma de pago"><option value="">Elegí cómo pagar</option><option value="pos-bancard">POS Bancard / Infonet</option><option value="pos-dinelco">POS Dinelco físico</option><option value="qr">QR</option><option value="online">Online</option><option value="apple-pay">Apple Pay</option><option value="google-pay">Google Pay</option></select></label>
+          <label>Compra en Gs.<input id="pilotAmount" aria-label="Compra en guaraníes" type="number" min="1" step="1" inputmode="numeric" placeholder="Monto de compra"></label></div>
           <p>No consultamos tus consumos. Si faltan condiciones o saldo del tope, mostramos «Falta confirmar», no una promesa de reintegro.</p>
           <button id="pilotReset" type="button">Limpiar consulta</button>
         </fieldset>
