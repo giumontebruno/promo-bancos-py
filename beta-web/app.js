@@ -1307,7 +1307,6 @@ function renderResults() {
     cleanupNearbyMaps();
   }
   renderGlassHeader();
-  renderPilotSourceHealth();
   const personalView = state.activeView === "alerts" || state.activeView === "favorites";
   document.querySelector(".controls").hidden = personalView || state.activeView === "today";
   els.refreshButton.hidden = personalView;
@@ -3252,10 +3251,9 @@ function openDetail(id, variantKey = "", placeId = "") {
 async function loadPromotions() {
   els.statusText.textContent = "Actualizando promociones...";
   els.results.innerHTML = renderSkeletons();
-  const [response, manifestResponse, healthResponse] = await Promise.all([
+  const [response, manifestResponse] = await Promise.all([
     fetch(`${DATA_URL}?t=${Date.now()}`),
     fetch(`${MANIFEST_URL}?t=${Date.now()}`).catch(() => null),
-    fetch(`../public/source_status.json?t=${Date.now()}`).catch(() => null),
   ]);
   if (!response.ok) throw new Error("No se pudo cargar promotions.json");
   if (manifestResponse?.ok) {
@@ -3264,7 +3262,6 @@ async function loadPromotions() {
     state.favoriteAliases = manifest.favorite_aliases || {};
   }
   state.promotions = uniquePromos(PaybackEligibility.apply(PaybackCampaigns.apply(await response.json())).filter(promo => isDisplayablePromotion(promo) && promo.source_verification !== "unconfirmed" && !promo.terms?.conflicting_dates && promo.terms?.ends_on >= PaybackDates.today()));
-  state.sourceHealth = healthResponse?.ok ? await healthResponse.json().catch(() => null) : null;
   populatePilotCards();
   state.favorites = normalizeFavoriteIds(state.favorites);
   if (!window.PaybackBeta?.current) saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
@@ -3701,10 +3698,7 @@ function populatePilotCards() {
   select.innerHTML = '<option value="">Elegí tarjeta y banco</option>' + cards.map(card => `<option value="${escapeAttribute(card)}">${escapeHtml(card)}</option>`).join("");
   select.value = cards.includes(value) ? value : "";
 }
-function renderPilotSourceHealth() {
-  const node = document.getElementById("sourceHealth");
-  if (node && typeof PaybackSupermarkets !== "undefined") node.textContent = PaybackSupermarkets.sourceSummary(state.sourceHealth);
-}
+
 for (const id of ["pilotEnabled", "pilotCard", "pilotChannel", "pilotAmount"]) {
   document.getElementById(id)?.addEventListener("change", () => { resetNearbySelection(); render(); });
 }

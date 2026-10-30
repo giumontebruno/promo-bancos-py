@@ -154,4 +154,3 @@ html:not([data-search-focus=pointer]) .search-box:has(input:focus-visible){outli
 .pilot-inputs select { width:100%; }
 .pilot-assessment { border-inline-start:3px solid currentColor; padding:8px 12px; margin:10px 0; }
 .pilot-assessment ul { margin:6px 0; padding-left:18px; }
-.source-health { font-size:12px; line-height:1.5; margin:12px 0; }
