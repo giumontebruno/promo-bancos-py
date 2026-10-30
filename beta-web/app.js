@@ -3716,3 +3716,10 @@ function resetSupermarketPilot() {
 document.getElementById("pilotReset")?.addEventListener("click", () => {
   resetSupermarketPilot(); resetNearbySelection(); render();
 });
+
+// Number edits must update estimates without requiring a different view or a blur.
+let supermarketAmountTimer = null;
+document.getElementById("pilotAmount")?.addEventListener("input", () => {
+  clearTimeout(supermarketAmountTimer);
+  supermarketAmountTimer = setTimeout(() => { resetNearbySelection(); render(); }, 180);
+});
