@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 533
+Total de beneficios: 547
 
 ## Alemania Cell
 
@@ -15,13 +15,13 @@ Total de beneficios: 533
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Cumple Amex | 50 % Hasta; Hasta 50% de descuento podes tener contando cuantos años cumplis! | No especificado | 2024-12-30 hasta 2026-12-31 |
+| La Cabrera | 40 % Hasta; Tenes 30% de reintegro con tu AMEX ORO y un 10% adicional con AMEX PLATINUM. | No especificado | 2026-01-01 hasta 2026-11-30 |
 
 ## Autoaccesorios
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | BRAUN AUTOS | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-21 hasta 2026-12-31 |
-| CPR Autocentro | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-12 hasta 2026-11-02 |
 | Chacomer | 20 % 12 Cuotas sin intereses; Tenes 20% de ahorro y hasta 12 cuotas sin intereses. | todos los viernes | 2025-05-01 hasta 2026-12-31 |
 | Garden | 3 Cuotas sin intereses; hasta 3 cuotas sin intereses. | No especificado | 2025-01-01 hasta 2026-12-31 |
 | Herimarc | 15 % 10 Cuotas sin intereses; 15% de ahorro y hasta 10 cuotas sin intereses. | Aplica los lunes | 2025-09-15 hasta 2026-12-28 |
@@ -230,6 +230,12 @@ Total de beneficios: 533
 | LA QUESERIA | 25 % Hasta; Tenes 15% de reintegro con todas las tarjetas de crédito + 5% pagando con personal bank. Tope de compra: Gs. 700.000. En el local del Shopping Mariscal tenes 20% de reintegro con todas las Tarjetas + 5% pagan | lunes a miércoles | 2026-09-15 hasta 2026-12-31 |
 | Tatakua | 30 % Hasta; Tenes 25% de ahorro. Pagando con VISA INFINITE y AMEX PLATINUM tenes 30% de ahorro. | No especificado | 2026-09-17 hasta 2026-11-26 |
 
+## Gonzalez Gimenez
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Gonzalez Gimenez | 18 Cuotas sin intereses; Tenés hasta 18 cuotas sin intereses | No especificado | 2024-03-18 hasta 2026-10-31 |
+
 ## H&M
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -242,6 +248,7 @@ Total de beneficios: 533
 |---|---|---|---|
 | Casa Pro | 30 % Hasta 6 Cuotas sin intereses; Tenes hasta 30% de descuento en caja + hasta 6 cuotas sin intereses | No especificado | 2025-06-19 hasta 2026-12-31 |
 | Essen | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
+| Feria Asunción | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2026-11-02 hasta 2026-11-04 |
 | Ipale | 30 % 10 Cuotas sin intereses; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-23 hasta 2026-11-30 |
 | Luminotecnia | 10 Cuotas sin intereses 15 %; 15% de ahorro y hasta 10 cuotas sin intereses. | Aplica los sábados | 2026-01-10 hasta 2026-12-26 |
 | Luminotecnia | 6 Cuotas sin intereses; hasta 6 cuotas sin intereses. | No especificado | 2026-01-06 hasta 2026-12-31 |
@@ -535,6 +542,7 @@ Total de beneficios: 533
 | Sallustro | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Shell | 20% de reintegro. | lunes | Desde 2026-02-23 hasta 2026-12-31 |
 | Shell | 20% de reintegro. | lunes | Desde 2026-02-23 hasta 2026-12-31 |
+| Shell | 25 %; Tenes 25% de reintegro | No especificado | 2025-04-14 hasta 2026-11-26 |
 | Sport House | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | TL Sports & Outdoors | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Timberland | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
@@ -604,12 +612,6 @@ Total de beneficios: 533
 | UG Hogar | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses | Aplica LUNES; LUNES A VIERNES | 2023-04-28 hasta 2026-12-31 |
 | Valerie | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES | 2024-02-02 hasta 2026-12-31 |
 
-## shell
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Shell | 25 %; Tenes 25% de reintegro | No especificado | 2025-04-14 hasta 2026-11-26 |
-
 ## Últimos días
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -619,6 +621,7 @@ Total de beneficios: 533
 | Alemania Cell | 15 Cuotas sin intereses 25 % Hasta; Tenes 20% de ahorro + 5% adicional y hasta 15 cuotas sin intereses | No especificado | 2025-01-24 hasta 2026-10-30 |
 | Alhambra | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Alpa | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
+| American Look | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
 | Aqualar | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Aquamaq | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Arkstudio | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
@@ -633,20 +636,22 @@ Total de beneficios: 533
 | Bozzetto | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | CENTRO DE MATERIALES | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | CENTRO DE MATERIALES | 10 Cuotas sin intereses 40 %; 40% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
+| CPR Autocentro | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-12 hasta 2026-11-02 |
 | Casa Mexica | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Casa Viva | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
-| Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-12-18 hasta 2026-10-29 |
+| Champs Elysees | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
 | Concepto Diseño | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Construshopping | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Corporacion Mercantil | 25 % 10 Cuotas sin intereses; 25% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Cortinas Paraguay | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
+| Crocs | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
 | Crystal House | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Cuna Bella | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | DE LA PAZ ART & CO | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Deco and Plants | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | DecoGarden | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Del Rey | 10 Cuotas sin intereses 10 %; 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-10-01 hasta 2026-10-31 |
-| Dermage | 10 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses | No especificado | 2025-09-27 hasta 2026-10-29 |
+| Denoir | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
 | Dino | 20 %; Tenés 20% de ahorro. | Aplica los Viernes | 2026-04-03 hasta 2026-10-30 |
 | Don Angel | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | EXPRESIONES GALERIA DE ARTE | 10 Cuotas sin intereses 10 %; 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-10-01 hasta 2026-10-31 |
@@ -668,6 +673,7 @@ Total de beneficios: 533
 | Impacto Home | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Inducort | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | KINGSPAN | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
+| Kalua | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
 | Kekas Design | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | La Bella Cucina | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | La Cabrera | 40 %; Tenés 40% de ahorro. | lunes a sábado | 2023-09-18 hasta 2026-10-31 |
@@ -675,6 +681,7 @@ Total de beneficios: 533
 | Light Center | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Lugaro | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Luminotecnia | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
+| Lupo | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
 | MAYA MAC LEAN DESIGN | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | MOLDURA MINUTO | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | MYLAN | 6 Cuotas sin intereses; Tenes hasta 6 cuotas sin intereses. | No especificado | 2026-08-20 hasta 2026-10-31 |
@@ -691,10 +698,12 @@ Total de beneficios: 533
 | Ottoboni | 10 Cuotas sin intereses 40 %; 40% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | PRUNE | 6 Cuotas sin intereses 25 %; 25% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-08-22 hasta 2026-10-31 |
 | Parana Decor | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
+| Patrol | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
 | Perez Ramirez | 25 % 10 Cuotas sin intereses; 25% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Pro Riego | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Psa | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Pulsak | 25 % 6 Cuotas sin intereses; Tenes 25% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-10-12 hasta 2026-10-31 |
+| Pulsak | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
 | Quality Home | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | RUA VERA | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 25% de descuento con las tarjetas Amex Platinum y Visa Infinite + 6 Cuotas sin intereses | No especificado | 2026-10-27 hasta 2026-10-31 |
 | Record Lux | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
@@ -706,9 +715,14 @@ Total de beneficios: 533
 | Sierra Decor | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro y 10 cuotas sin intereses | No especificado | 2026-02-09 hasta 2026-10-31 |
 | Simmons | 10 Cuotas sin intereses 40 %; 40% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Spa Centenario | 20 %; 20% de ahorro | Aplica lunes | 2024-01-01 hasta 2026-10-31 |
+| Sport House | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
 | Sulit | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Sushi Club | 25 %; Tenés 25% de reintegro | No especificado | 2025-01-01 hasta 2026-10-31 |
 | Syrocco | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | TL Home | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
 | Tecnocentro | 25 % 10 Cuotas sin intereses; 25% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-01 hasta 2026-10-31 |
+| Tiendas Martel | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
+| Timberland | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
+| VGS | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
+| Vernier | 25 % Hasta 6 Cuotas sin intereses; Tenes hasta 20% de ahorro + 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-10-29 hasta 2026-10-31 |
 

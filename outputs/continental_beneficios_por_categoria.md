@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 838
+Total de beneficios/comercios: 830
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -37,11 +37,11 @@ Total de beneficios/comercios: 838
 | Asunción Tenis Club | 50%; hasta 24 cuotas sin intereses; 50% de descuento | Todos los días | Vigente hasta el 25 de diciembre del 2026 | Asunción |
 | San Bernardino Country Club | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de julio de 2027 | San Bernardino |
 
-## Construcción (21)
+## Construcción (22)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| Aceros Gallo | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 26 de marzo de 2027 | No especificado |
+| Aceros Gallo | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 26 de marzo de 2027 | Todo el país |
 | Aquacent | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 25 de marzo de 2027 | Ciudad del Este |
 | Bautec | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | Loma Plata |
 | Casa de las Piscinas | hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 09 de abril de 2027 | No especificado |
@@ -52,6 +52,7 @@ Total de beneficios/comercios: 838
 | Galvamax | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de marzo de 2027 | Ypané |
 | H. Petersen | Hasta 36 cuotas sin intereses | Todos los días | Vigente hasta el 11 de agosto de 2027 | Limpio |
 | Ipale | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 26 de septiembre de 2027 | Asunción |
+| Irun Ingeniería | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 29 de enero de 2027 | Asunción |
 | Konstruir - Kdos Import | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de marzo de 2027 | Ciudad del Este |
 | Master Shop | 30%; 30% de reintegro | Los jueves | Vigente hasta el 26 de agosto de 2027 | Todo el país |
 | Mercoeste | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | No especificado |
@@ -100,7 +101,7 @@ Total de beneficios/comercios: 838
 | Infobanc S.A | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 04 de diciembre del 2026 | Nueva Esperanza (Canindeyú) |
 | One 2 One | 20%; Hasta 12 cuotas sin intereses; 20% de descuento; 15% de descuento | Todos los días | Vigente hasta el 09 de abril de 2027 | Asunción |
 
-## Electrónica (39)
+## Electrónica (38)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -117,7 +118,6 @@ Total de beneficios/comercios: 838
 | Compu shop | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 17 de noviembre del 2026 | No especificado |
 | Creativa - Informática & Papelería | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de diciembre de 2026 | Naranjal |
 | Creditop | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 15 de junio de 2027 | No especificado |
-| Dark Tech | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de octubre de 2026 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | Nueva Esperanza (Canindeyú) |
 | Don Negro Comercial | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 30 de abril de 2027 | Asunción |
 | Electrik Cell | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de agosto de 2027 | Katueté (Canindeyú) |
 | Electro 10 | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de febrero de 2027 | Katueté (Canindeyú) |
@@ -217,7 +217,7 @@ Total de beneficios/comercios: 838
 | Vicente Scavone | 30%; hasta 6 cuotas sin intereses; 10 % de reintegro; 20% de descuento | todos los días | Vigente hasta el 06 de enero del 2027 | No especificado |
 | Vitalmed | 20%; 20% de reintegro | Los martes | Vigente hasta el 06 de julio de 2027 | No especificado |
 
-## Ferreterías (12)
+## Ferreterías (11)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -231,7 +231,6 @@ Total de beneficios/comercios: 838
 | Ferretería Tottal | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de octubre del 2026 | No especificado |
 | Ferrex | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de noviembre del 2026 | No especificado |
 | Ferrizar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 04 de septiembre de 2027 | Coronel Oviedo |
-| Huguito Ferretería | 10%; 10% de reintegro | los jueves | Vigente hasta el 22 de octubre del 2026 | Caaguazú |
 | Lincoln | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 31 de diciembre del 2026 | No especificado |
 
 ## Ferreterías y Talleres del País (1)
@@ -339,7 +338,7 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 |---|---|---|---|---|
 | Kekala | 20%; 20% de reintegro | Los sábados | Vigente hasta el 12 de junio de 2027 | San Lorenzo |
 
-## Hogar (59)
+## Hogar (58)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -351,13 +350,12 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | ByG Muebles y Electrodomésticos | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 25 de agosto de 2027 | Katueté (Canindeyú) |
 | CDP Muebles | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 19 de agosto de 2027 | Santa Rita (Alto Paraná) |
 | Casa Mariela | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de mayo de 2027 | Encarnación |
-| Casa Vera | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de octubre de 2026 | Caaguazú |
 | Classic Home | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de agosto de 2027 | Asunción |
 | Comercial Cerrito | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de noviembre de 2026 | Pilar |
 | Comercial Santo Domingo | hasta 12 cuotas sin intereses; 25% de descuento | todos los días | Vigente hasta el 10 de marzo de 2027 | Caaguazú |
 | DHome | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 10 de junio de 2027 | Trinidad (Itapúa) |
 | Deco Hogar - Los Hnos. S.A | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 15 de abril de 2027 | Obligado, Itapúa |
-| Electrocenter (Aquino e Hijos S.A) | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 29 de octubre del 2026 | Curuguaty |
+| Electrocenter (Aquino e Hijos S.A) | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 29 de octubre de 2027 | Curuguaty |
 | Electroluz | 20%; 20% de reintegro | Los jueves | Vigente hasta el 22 de julio de 2027 | Encarnación |
 | Eurohome | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de mayo de 2027 | Curuguaty |
 | Fortezza | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 15 de junio de 2027 | Asunción |
@@ -475,7 +473,7 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Livraria Evangélica Adoração | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de enero de 2027 | Nueva Esperanza (Canindeyú) |
 | Resma - Papelería e Insumos | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 02 de septiembre de 2027 | Caaguazú |
 
-## Mueblerías (9)
+## Mueblerías (8)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -487,7 +485,6 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Mecal Muebles | 35%; Hasta 24 cuotas sin intereses; 35% de descuento | Todos los días | Vigente hasta el 16 de junio de 2027 | No especificado |
 | Mueblería Paraíso | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 27 de mayo de 2025 hasta el 26 de mayo de 2027 | Loma Plata |
 | Superspuma | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre del 2026 | No especificado |
-| Vintage and Wood | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 07 de octubre del 2026 | Asunción |
 
 ## Municipalidades (1)
 
@@ -495,7 +492,7 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 |---|---|---|---|---|
 | Municipalidades | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de junio de 2027 | No especificado |
 
-## Peluquerías y Spas (30)
+## Peluquerías y Spas (29)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -516,7 +513,6 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | LCC Spa Urbano | 20% de reintegro | Los sábados, en LCC Spa Urbano. Además: | Vigente hasta el 01 de septiembre de 2027 | Coronel Oviedo |
 | Liana Hair Club | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 08 de abril de 2027 | San Ignacio, Misiones |
 | Maison Mint | 20%; 20% de reintegro; 25% de reintegro; 35% de reintegro | los sábados | Vigente hasta el 03 de febrero del 2027 | No especificado |
-| Majestik | 15%; Hasta 6 cuotas sin intereses; 15% de descuento | todos los días | Vigente hasta el 17 de octubre de 2026 | Asunción |
 | Mel Peluquería & Barbería | 35% de reintegro | Los sábados, en Mel Peluquería & Barbería | Vigente hasta el 16 de enero de 2027 | Asunción |
 | Mel Peluquería & Barbería | 25% de reintegro | Los sábados, en Mel Peluquería & Barbería | Vigente hasta el 16 de enero de 2027 | Asunción |
 | Mel Peluquería & Barbería | 20% de reintegro | Los sábados, en Mel Peluquería & Barbería. Además: | Vigente hasta el 07 de febrero de 2027 | Asunción |
@@ -534,7 +530,7 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| 360 Sneaker Store - Privilege | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
+| 360 Sneaker Store - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Birkenstock - Privilege | 25% de reintegro | los jueves | Vigente hasta el 13 de noviembre de 2026 | No especificado |
 | Champs Elysées - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | De Marie | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
@@ -554,14 +550,12 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 
-## Promociones especiales (14)
+## Promociones especiales (11)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
 | Adelanto en efectivo | hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de junio de 2027 | Todo el país |
-| Bigg Running Festival | 10%; 10% de reintegro | No especificado | Vigente hasta el 10 de octubre de 2026 | Asunción |
 | DG Market - Distribuidora Gloria | 25%; 25% de reintegro; 20% de reintegro | No especificado | Vigente hasta el 31 de octubre de 2026 | Asunción |
-| Go Park | 20%; Hasta 6 cuotas sin intereses; 20% de reintegro | No especificado | Vigente hasta el 21 de octubre de 2026 | No especificado |
 | Koala | Hasta 45% de descuento | Del 29 al 31 de octubre, en Koala | Desde el 29 de octubre de 2026 hasta el 31 de octubre de 2026 | Todo el país |
 | Koala | 10% de reintegro | Del 29 al 31 de octubre, en Koala | Desde el 29 de octubre de 2026 hasta el 31 de octubre de 2026 | Todo el país |
 | Koala | Hasta 12 cuotas sin intereses | todos los días: | Vigente hasta el 31 de agosto de 2027 | Todo el país |
@@ -570,7 +564,6 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | La Almenas - Las Almenitas - Las Colinas - Campoalto - Torrefuerte | 6% de reintegro | Todos los días | Desde el 1 de diciembre de 2026 hasta el 31 de diciembre de 2026 | Todo el país |
 | La Almenas - Las Almenitas - Las Colinas - Campoalto - Torrefuerte | Hasta 12 cuotas sin intereses | Todos los días | Desde el 15 de octubre de 2026 hasta el 31 de diciembre de 2026 | Todo el país |
 | Las Hortensias - Cine | 50%; 50% de reintegro | Todos los días | Vigente hasta el 10 de junio del 2027 | Pilar |
-| Nissei - Promo Aniversario | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 15 de octubre de 2026 | Asunción |
 | Puerto Liebig | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de marzo de 2027 | Asunción |
 
 ## Puma Flota (1)
@@ -721,11 +714,11 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 
 _Se omitieron 41 filas en este resumen; están en el CSV._
 
-## Tiendas (207)
+## Tiendas (206)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| 360 Sneaker Store | Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
+| 360 Sneaker Store | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | A Y L Tienda | 20%; 20% de reintegro | los jueves | Vigente hasta el 23 de noviembre del 2026 | No especificado |
 | AB Alejandro Benítez Calzados - Encarnación | 20%; 20% de reintegro | Los jueves | Vigente hasta el 27 de mayo de 2027 | Encarnación |
 | AL Store | 20%; 20% de reintegro | Los jueves | Vigente hasta el 17 de junio de 2027 | No especificado |
@@ -806,14 +799,14 @@ _Se omitieron 41 filas en este resumen; están en el CSV._
 | HeartWood | 20%; 20% de reintegro | los jueves | Vigente hasta el 12 de agosto de 2027 | Santa Rita (Alto Paraná) |
 | Hey Dude | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 01 de julio de 2027 | Asunción |
 
-_Se omitieron 127 filas en este resumen; están en el CSV._
+_Se omitieron 126 filas en este resumen; están en el CSV._
 
 ## Vehículos (38)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| ACE Tape Ruvicha | 20%; Hasta 12 cuotas sin intereses; 20% de descuento | Todos los días | Vigente hasta el 31 de diciembre de 2026 | No especificado |
-| Acisa | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de febrero de 2027 | Asunción |
+| ACE Tape Ruvicha | 20%; Hasta 12 cuotas sin intereses; 20% de descuento | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
+| Acisa | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de febrero de 2027 | Todo el país |
 | AutoShopping | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 02 de enero del 2027 | San Ignacio, Misiones |
 | Automaq | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de octubre de 2027 | Todo el país |
 | Automotor | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 14 de abril de 2027 | No especificado |

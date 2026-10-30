@@ -8,7 +8,6 @@ Total de beneficios: 37
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Martiderm | 20% de descuento; 3 cuotas sin intereses | Último jueves del mes | Hasta 2026-12-31 |
 | Nueva Americana | 25% de descuento; 20% de descuento; 12 cuotas sin intereses | 29 y 30 de octubre | Desde 2026-10-29 hasta 2026-10-30 |
 | Prepaga Joven | 20% de reintegro; En tiendas adheridas: | Todos los días | Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 d |
 
@@ -25,6 +24,7 @@ Total de beneficios: 37
 |---|---|---|---|
 | AgroShopping | 20% de reintegro | Todos los Martes | Tope de compra por cuenta de tarjeta Gs. 500.000. Promo válida para compras realizadas a través del POS de la red infonet en stands adheridos. Vigente todos los martes, del 1 de septiembre al 29 de diciembre del 2026. Be |
 | Beneficios gastronómicos | 25% de reintegro; 20% de reintegro | Viernes y Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 1.000.000 para tarjetas de crédito Clásica y Oro en el conjunto de restaurantes  |
+| Delicias de Juju | 25% de reintegro | Todos los días | Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio |
 | Gastro Mariscal | 20% de reintegro | Lunes a Viernes | Monto mínimo de compra Gs. 50.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro. Aplica para c |
 
 ## Generales

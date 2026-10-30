@@ -1,6 +1,6 @@
 {
   "source_cards": 52,
-  "published_variants": 71,
+  "published_variants": 70,
   "withheld": [
     {
       "merchant": "PUNTOFARMA",
@@ -11,6 +11,11 @@
       "merchant": "La Ponde S.A.",
       "source": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1784210039.pdf",
       "reason": "Precio preferencial de lotes sin precio de referencia ni tasa de descuento"
+    },
+    {
+      "merchant": "SANTA CLARA",
+      "source": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1793298079.pdf",
+      "reason": "No se encontró el 10% revisado en el PDF"
     },
     {
       "merchant": "ÓPTICA LUCE",

@@ -2,7 +2,7 @@
 
 Fuente: https://www.universitaria.coop/promociones
 
-Total de beneficios verificados: 71
+Total de beneficios verificados: 70
 
 ## Electrodomésticos
 
@@ -115,7 +115,6 @@ Total de beneficios verificados: 71
 | Clinica ELGUE | Hasta 40% de descuento en odontología | Todos los Días | Vigencia Desde el 03 de agosto de 2026, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1786390000.pdf) |
 | MediCoop Laboratorio \| Caacupé | 15% de descuento en análisis clínicos | Todos los días | Vigencia Desde el 09 de junio de 2026 hasta el 09 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783600286.pdf) |
 | OAMI Medicina Pre-Paga | 10% de descuento en planes para nuevos ingresantes | Todos los días | Vigencia Desde el 26 de febrero de 2025, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1773837106.pdf) |
-| SANTA CLARA | 10% de descuento en planes nuevos con débito automático | Todos los Días | Vigencia Desde el 01 de septiembre de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1792171030.pdf) |
 | Servicio Médico Migone | 10% de Descuento | Todos los días | Vigencia Desde el 14 de agosto de 2024 hasta el 14 de agosto de 2026, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1755780512.pdf) |
 
 ## Servicios
