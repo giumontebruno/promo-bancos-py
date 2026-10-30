@@ -15,6 +15,6 @@ test('per-promotion uncertainty and financial safeguards are not hidden with dia
  const app=read('beta-web/app.js');assert.ok(app.includes('renderSupermarketAssessment(promo)'));assert.ok(app.includes('Tope pendiente de aclaración del banco'));assert.ok(app.includes('No es un reintegro confirmado.'));assert.ok(app.includes('Revisá')||app.includes('Falta confirmar'));
 });
 test('changed beta assets bypass prior release caches without altering the main app',()=>{
- const html=read('beta-web/index.html');for(const file of ['beta-bundle.js','supermarket-eligibility.js','glass-ui.css'])assert.ok(html.includes(`${file}?v=readable-status-20261030`));assert.ok(html.includes('app.js?v=ueno-safety-20261030'));
+ const html=read('beta-web/index.html');for(const file of ['beta-bundle.js','supermarket-eligibility.js','glass-ui.css'])assert.ok(html.includes(`${file}?v=readable-status-20261030`));assert.ok(html.includes('app.js?v=financial-safety-20261030'));
  assert.doesNotMatch(read('app-web/index.html'),/readable-status-20261030/);
 });
