@@ -1,5 +1,5 @@
 {
-  "completed_at": "2026-10-30T14:12:40.063503+00:00",
+  "completed_at": "2026-10-30T16:00:55.357394+00:00",
   "failed_sources": [
     "GNB",
     "Sudameris",
@@ -11,7 +11,7 @@
       "status": "failed",
       "checked_at": "2026-10-08T14:33:07.837064+00:00",
       "records": 329,
-      "attempted_at": "2026-10-30T13:59:52.246481+00:00",
+      "attempted_at": "2026-10-30T15:47:01.330937+00:00",
       "pending_records": 134,
       "error_type": "CalledProcessError",
       "failed_step": "scrapers/build_sudameris_table.py",
@@ -20,49 +20,49 @@
     "Itaú": {
       "status": "partial",
       "checked_at": "2026-10-17T02:07:38.378271+00:00",
-      "records": 547,
-      "attempted_at": "2026-10-30T14:05:13.905298+00:00",
+      "records": 548,
+      "attempted_at": "2026-10-30T15:52:08.550000+00:00",
       "pending_records": 3
     },
     "BNF": {
       "status": "failed",
       "checked_at": "2026-10-26T14:11:15.033730+00:00",
       "records": 77,
-      "attempted_at": "2026-10-30T14:05:31.915579+00:00",
+      "attempted_at": "2026-10-30T15:52:31.421774+00:00",
       "error_type": "CalledProcessError",
       "failed_step": "scrapers/extract_bnf.py",
       "exit_code": 1
     },
     "Continental": {
       "status": "fetched",
-      "checked_at": "2026-10-30T14:05:34.703330+00:00",
+      "checked_at": "2026-10-30T15:52:35.063077+00:00",
       "records": 830
     },
     "Atlas": {
       "status": "fetched",
-      "checked_at": "2026-10-30T14:05:37.174128+00:00",
+      "checked_at": "2026-10-30T15:52:38.586175+00:00",
       "records": 37
     },
     "Coop. Universitaria": {
       "status": "fetched",
-      "checked_at": "2026-10-30T14:05:54.303920+00:00",
+      "checked_at": "2026-10-30T15:54:02.018269+00:00",
       "records": 70
     },
     "ueno bank": {
       "status": "fetched",
-      "checked_at": "2026-10-30T14:11:53.563011+00:00",
+      "checked_at": "2026-10-30T16:00:07.450814+00:00",
       "records": 669
     },
     "Familiar": {
       "status": "fetched",
-      "checked_at": "2026-10-30T13:59:31.766438+00:00",
+      "checked_at": "2026-10-30T15:46:38.443850+00:00",
       "records": 413
     },
     "GNB": {
       "status": "failed",
       "checked_at": "2026-10-26T14:04:23.468427+00:00",
       "records": 482,
-      "attempted_at": "2026-10-30T13:57:13.381324+00:00",
+      "attempted_at": "2026-10-30T15:41:18.289829+00:00",
       "error_type": "CalledProcessError",
       "failed_step": "scrapers/build_gnb_reviewed.py",
       "exit_code": 1

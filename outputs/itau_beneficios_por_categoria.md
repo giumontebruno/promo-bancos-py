@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 547
+Total de beneficios: 548
 
 ## Alemania Cell
 
@@ -518,6 +518,7 @@ Total de beneficios: 547
 | Crocs | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Denoir | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | EXA GOETHE | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses. | No especificado | 2026-03-05 hasta 2026-12-31 |
+| El Deposito | 10 Cuotas sin intereses 30 % Hasta; Tenes hasta 30% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-24 hasta 2026-12-31 |
 | Hering | 6 Cuotas sin intereses 20 % Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-03-26 hasta 2026-12-02 |
 | Import telas | 6 Cuotas sin intereses 15 %; Tenes 15% de ahorro y hasta 6 cuotas sin intereses. | Aplica los jueves | 2025-09-26 hasta 2026-11-26 |
 | Indio Termos | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |

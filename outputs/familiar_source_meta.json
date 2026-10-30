@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T13:59:31.125059+00:00",
+  "checked_at": "2026-10-30T15:46:37.825292+00:00",
   "published": 413,
   "pending": [
     {
@@ -81,7 +81,7 @@
     {
       "merchant_name": "ESTACIONES DE SERVICIO",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-combustible",
-      "reason": "ambiguous_dates"
+      "reason": "missing_terms"
     },
     {
       "merchant_name": "VETERINARIAS",
