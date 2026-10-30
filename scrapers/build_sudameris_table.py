@@ -142,6 +142,18 @@ def reviewed_document_rows(row):
     return result
 
 
+def retain_unconfirmed_rows(table, previous):
+    table = [dict(row) for row in table]
+    identities = {(r['URL'], r['Comercio/Promoción'], r.get('Variante', '')) for r in table}
+    verified_urls = {r['URL'] for r in table if r.get('Estado verificacion') == 'official_document' and r.get('Variante')}
+    for old in previous:
+        if (old['URL'], old['Comercio/Promoción'], old.get('Variante', '')) not in identities and old['URL'] not in verified_urls:
+            old = dict(old)
+            old['Estado verificacion'] = 'unconfirmed'
+            table.append(old)
+    return table
+
+
 def main():
     with IN.open(encoding="utf-8-sig", newline="") as f:
         rows = list(csv.DictReader(f))
@@ -193,15 +205,10 @@ def main():
     # Missing from the new website is uncertainty, not evidence of expiry.
     if OUT_CSV.exists():
         previous = list(csv.DictReader(OUT_CSV.open(encoding='utf-8-sig', newline='')))
-        identities = {(r['URL'], r['Comercio/Promoción']) for r in table}
-        verified_urls = {r['URL'] for r in table if r.get('Estado verificacion') == 'official_document' and r.get('Variante')}
-        for old in previous:
-            if (old['URL'], old['Comercio/Promoción']) not in identities and old['URL'] not in verified_urls:
-                old['Estado verificacion'] = 'unconfirmed'
-                table.append(old)
+        table = retain_unconfirmed_rows(table, previous)
 
     from sudameris_scoped_reviews import apply_saved_reviews
-    table = apply_saved_reviews(table)
+    table = apply_saved_reviews(table, failures=failures)
 
     Path('outputs/sudameris_migration_report.json').write_text(json.dumps({'checked_at': datetime.now(timezone.utc).isoformat(), 'campaigns': len(rows), 'failures': failures, 'retained_unconfirmed': sum(r.get('Estado verificacion') == 'unconfirmed' for r in table)}, ensure_ascii=False, indent=2), encoding='utf-8')
 

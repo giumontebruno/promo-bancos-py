@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-10-30T15:52:00Z",
+  "source_page": "https://www.sudameris.com.py/personas/beneficios/zona-norte",
+  "documents": [
+    {
+      "url": "https://www.sudameris.com.py/descargas/documentos/concepcion-bases-y-condiciones",
+      "previous_sha256": "abb4448292f4c4b5a2a4402de9be02b57ef6a37c7d059ec68c53b33cc679b170",
+      "current_sha256": "775203562033e532a0f85901422c7582ad0a79180e6a020298d4948a89fde4da"
+    },
+    {
+      "url": "https://www.sudameris.com.py/descargas/documentos/katuete-bases-y-condiciones",
+      "previous_sha256": "822820f6e88310fb6747de4cc36120cb654dfe73d458f82d0604e2e4eea316ff",
+      "current_sha256": "4b839ac72bc4d7ea93f61aaa09060d264d77fec9293269efb80778fc0100e8ee"
+    },
+    {
+      "url": "https://www.sudameris.com.py/descargas/documentos/santa-rosa-del-aguaray-bases-y-condiciones",
+      "previous_sha256": "363eec525f45c6b37a875845ccfc08ba16b2c0c0bbe8ce68688153931399ec35",
+      "current_sha256": "6ccac7e05d6261f30e5497dbd0e55f71da4a74fcee7d2035780a219c79249c6d"
+    },
+    {
+      "url": "https://www.sudameris.com.py/descargas/documentos/san-alberto-bases-y-condiciones",
+      "previous_sha256": "f49cf507708deb93f4e502fddbd729b9f212a58b96bfec1884e1526243c48f62",
+      "current_sha256": "a9e8ebd275697ba173939e54dbe730ddd05e54daf39c6f8c15b6da9955a4754e"
+    },
+    {
+      "url": "https://www.sudameris.com.py/descargas/documentos/curuguaty-bases-y-condiciones",
+      "error": "404 Client Error: Not Found for url: https://www.sudameris.com.py/descargas/documentos/curuguaty-bases-y-condiciones"
+    },
+    {
+      "url": "https://www.sudameris.com.py/descargas/documentos/6ac7b84c1fdef552280193/f1.pdf",
+      "previous_sha256": "47d1988915ad2e345fc45a06616945ad6af898a0aa906848af96990862742acf",
+      "current_sha256": "47d1988915ad2e345fc45a06616945ad6af898a0aa906848af96990862742acf"
+    },
+    {
+      "url": "https://www.sudameris.com.py/descargas/documentos/6ac7b6d49f3ba465064324/Mclaren.pdf",
+      "previous_sha256": "9c04e614d7a7cae77f5b1b7374dc6ca9c47b531aafb496a57933c0249e7c89fc",
+      "current_sha256": "9c04e614d7a7cae77f5b1b7374dc6ca9c47b531aafb496a57933c0249e7c89fc"
+    },
+    {
+      "url": "https://www.sudameris.com.py/descargas/documentos/6ad238969b346325834826/B%26C-VEREDEADA-17-10-26.pdf",
+      "previous_sha256": "aa71feaa984ec65699dc966d926637c6e447c2cb6cc397772fd4e0e59f757453",
+      "current_sha256": "aa71feaa984ec65699dc966d926637c6e447c2cb6cc397772fd4e0e59f757453"
+    },
+    {
+      "url": "https://www.sudameris.com.py/descargas/documentos/6ac7fd2b5e5f8285593120/Cecconello.pdf",
+      "previous_sha256": "c884d567a3e439fecd7bb58a1220ee0e1484a68f37343159b4108219f43f23a2",
+      "current_sha256": "c884d567a3e439fecd7bb58a1220ee0e1484a68f37343159b4108219f43f23a2"
+    }
+  ],
+  "replacement": {
+    "url": "https://www.sudameris.com.py/descargas/documentos/zona-norte-curuguaty",
+    "sha256": "a2123eff5ac25b5c2e377437f37370e03e96f5411952728ea66661a1b6506440",
+    "linked_by_official_page": true
+  }
+}

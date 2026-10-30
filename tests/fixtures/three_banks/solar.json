@@ -1,0 +1,206 @@
+[
+  {
+    "id": 132,
+    "meta": {
+      "type": "core.PromoItemPage",
+      "detail_url": "https://api.solar.com.py/api/pages/132/",
+      "html_url": null,
+      "slug": "cyberday-nissei",
+      "first_published_at": "2026-10-29T07:54:30.470360-03:00"
+    },
+    "title": "CyberDay Nissei | 02 al 04 de Nov.",
+    "image": {
+      "id": 634,
+      "meta": {
+        "type": "wagtailimages.Image",
+        "detail_url": "https://api.solar.com.py/api/images/634/",
+        "download_url": "/media/original_images/Promo_Agrofield_Rj5NExN.png"
+      },
+      "title": "Promo_nissei"
+    },
+    "sub_title": "02 al 04 de noviembre del 2026",
+    "sectors": "<p data-block-key=\"3epq1\">Electrónica | Exclusivo para compras online</p>",
+    "stores": "",
+    "duration": "02 al 04 de noviembre del 2026",
+    "terms_and_conditions_document": {
+      "id": 545,
+      "meta": {
+        "type": "wagtaildocs.Document",
+        "detail_url": "https://api.solar.com.py/api/documents/545/",
+        "download_url": "https://api.solar.com.py/documents/545/CyberDay_2026_Nissei_Bases_y_condiciones.docx.pdf"
+      },
+      "title": "CyberDay_2026_Nissei_Bases y condiciones.docx"
+    },
+    "terms_and_conditions_url": "",
+    "total_discount": "20%",
+    "max_installments": null,
+    "classic_discount": "",
+    "classic_refund": "<p data-block-key=\"ahzmz\">20%</p>",
+    "classic_additional_payment": null,
+    "classic_installments_without_interest": 18,
+    "classic_purchase_cap": "<p data-block-key=\"zw7j9\">500.000</p>",
+    "gold_discount": "",
+    "gold_refund": "<p data-block-key=\"c11us\">20%</p>",
+    "gold_additional_payment": null,
+    "gold_installments_without_interest": 18,
+    "gold_purchase_cap": "<p data-block-key=\"5mk6l\">750.000</p>",
+    "premium_discount": "",
+    "premium_refund": "<p data-block-key=\"hh1ng\">20%</p>",
+    "premium_additional_payment": null,
+    "premium_installments_without_interest": 18,
+    "premium_purchase_cap": "<p data-block-key=\"c4dnw\">1.000.000</p>"
+  },
+  {
+    "id": 129,
+    "meta": {
+      "type": "core.PromoItemPage",
+      "detail_url": "https://api.solar.com.py/api/pages/129/",
+      "html_url": null,
+      "slug": "farmacenter",
+      "first_published_at": "2026-10-07T15:36:40.164481-03:00"
+    },
+    "title": "Farmacenter",
+    "image": {
+      "id": 627,
+      "meta": {
+        "type": "wagtailimages.Image",
+        "detail_url": "https://api.solar.com.py/api/images/627/",
+        "download_url": "/media/original_images/Promo_farmacenter.png"
+      },
+      "title": "Promo_farmacenter"
+    },
+    "sub_title": "Lunes",
+    "sectors": "<p data-block-key=\"gemdy\">Farmacia</p>",
+    "stores": "",
+    "duration": "12 de Octubre del 2026 al 30 de septiembre del 2027",
+    "terms_and_conditions_document": {
+      "id": 540,
+      "meta": {
+        "type": "wagtaildocs.Document",
+        "detail_url": "https://api.solar.com.py/api/documents/540/",
+        "download_url": "https://api.solar.com.py/documents/540/Bases_y_condiciones_Promo_Farmacenter_V1_KqUla2v.pdf"
+      },
+      "title": "Bases y condiciones Promo_Farmacenter_V1"
+    },
+    "terms_and_conditions_url": "",
+    "total_discount": "40%",
+    "max_installments": "6",
+    "classic_discount": "",
+    "classic_refund": "<p data-block-key=\"922vn\">15%</p>",
+    "classic_additional_payment": null,
+    "classic_installments_without_interest": 6,
+    "classic_purchase_cap": "<p data-block-key=\"jniml\">500.000</p>",
+    "gold_discount": "",
+    "gold_refund": "<p data-block-key=\"ovbdg\">15%</p>",
+    "gold_additional_payment": null,
+    "gold_installments_without_interest": 6,
+    "gold_purchase_cap": "<p data-block-key=\"3xu4l\">800.000</p>",
+    "premium_discount": "",
+    "premium_refund": "<p data-block-key=\"w946d\">20%</p>",
+    "premium_additional_payment": null,
+    "premium_installments_without_interest": 6,
+    "premium_purchase_cap": "<p data-block-key=\"du4jk\">1.600.000</p>"
+  },
+  {
+    "id": 55,
+    "meta": {
+      "type": "core.PromoItemPage",
+      "detail_url": "https://api.solar.com.py/api/pages/55/",
+      "html_url": null,
+      "slug": "biggie",
+      "first_published_at": "2024-11-04T11:42:09.675969-03:00"
+    },
+    "title": "Biggie",
+    "image": {
+      "id": 232,
+      "meta": {
+        "type": "wagtailimages.Image",
+        "detail_url": "https://api.solar.com.py/api/images/232/",
+        "download_url": "/media/original_images/Promo_TC_-_Web_Recuperado.pdf_dbqjGNN.png"
+      },
+      "title": "Biggie"
+    },
+    "sub_title": "Martes",
+    "sectors": "<p data-block-key=\"9go03\">Retail</p>",
+    "stores": "<p data-block-key=\"hm4r2\">En las tiendas de Biggie Express adheridas a esta promoción</p>",
+    "duration": "08 de septiembre al 27 de octubre de 2026",
+    "terms_and_conditions_document": {
+      "id": 539,
+      "meta": {
+        "type": "wagtaildocs.Document",
+        "detail_url": "https://api.solar.com.py/api/documents/539/",
+        "download_url": "https://api.solar.com.py/documents/539/Biggie_S.A_Bases_y_condiciones_2026_V03.docx_PqtLrAu.pdf"
+      },
+      "title": "Biggie S.A Bases y condiciones_2026_V03.docx"
+    },
+    "terms_and_conditions_url": "",
+    "total_discount": "30%",
+    "max_installments": null,
+    "classic_discount": "",
+    "classic_refund": "<p data-block-key=\"w53u2\">30%</p>",
+    "classic_additional_payment": null,
+    "classic_installments_without_interest": null,
+    "classic_purchase_cap": "<p data-block-key=\"x0jlt\">500.000</p>",
+    "gold_discount": "",
+    "gold_refund": "<p data-block-key=\"tuzfu\">30%</p>",
+    "gold_additional_payment": null,
+    "gold_installments_without_interest": null,
+    "gold_purchase_cap": "<p data-block-key=\"ree91\">750.000</p>",
+    "premium_discount": "",
+    "premium_refund": "<p data-block-key=\"icp3g\">30%</p>",
+    "premium_additional_payment": null,
+    "premium_installments_without_interest": null,
+    "premium_purchase_cap": "<p data-block-key=\"9z6oc\">1.000.000</p>"
+  },
+  {
+    "id": 125,
+    "meta": {
+      "type": "core.PromoItemPage",
+      "detail_url": "https://api.solar.com.py/api/pages/125/",
+      "html_url": null,
+      "slug": "quanta",
+      "first_published_at": "2026-09-07T08:28:22.628767-03:00"
+    },
+    "title": "Quanta",
+    "image": {
+      "id": 601,
+      "meta": {
+        "type": "wagtailimages.Image",
+        "detail_url": "https://api.solar.com.py/api/images/601/",
+        "download_url": "/media/original_images/Promo_Quanta.png"
+      },
+      "title": "Promo_Quanta"
+    },
+    "sub_title": "Todos los días",
+    "sectors": "<p data-block-key=\"7phni\">Electrónica </p>",
+    "stores": "",
+    "duration": "07 de Septiembre al 31 de Diciembre",
+    "terms_and_conditions_document": {
+      "id": 516,
+      "meta": {
+        "type": "wagtaildocs.Document",
+        "detail_url": "https://api.solar.com.py/api/documents/516/",
+        "download_url": "https://api.solar.com.py/documents/516/Bases_y_condiciones_Quanta_2026.pdf"
+      },
+      "title": "Bases y condiciones_Quanta_2026"
+    },
+    "terms_and_conditions_url": "",
+    "total_discount": null,
+    "max_installments": "12",
+    "classic_discount": "",
+    "classic_refund": "",
+    "classic_additional_payment": null,
+    "classic_installments_without_interest": 12,
+    "classic_purchase_cap": "",
+    "gold_discount": "",
+    "gold_refund": "",
+    "gold_additional_payment": null,
+    "gold_installments_without_interest": 12,
+    "gold_purchase_cap": "",
+    "premium_discount": "",
+    "premium_refund": "",
+    "premium_additional_payment": null,
+    "premium_installments_without_interest": 12,
+    "premium_purchase_cap": ""
+  }
+]

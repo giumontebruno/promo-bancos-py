@@ -1,5 +1,7 @@
 import json
 import unittest
+import re
+from urllib.parse import urlparse, unquote
 from pathlib import Path
 
 class AuditIntegrityTests(unittest.TestCase):
@@ -17,7 +19,11 @@ class AuditIntegrityTests(unittest.TestCase):
         patio=next(p for p in rows if p['merchant_name']=='PATIO COLONIAL' and p.get('source_verification')=='official_document')
         self.assertEqual(k['terms']['ends_on'],'2026-12-31')
         self.assertEqual(patio['terms']['ends_on'],'2026-08-02')
-        self.assertTrue(k['source_page_url'].endswith('gastronimia.pdf'))
+        # The official bank renamed its PDF in October; a literal old basename
+        # must not invalidate an otherwise source-linked merchant date contract.
+        parsed=urlparse(k['source_page_url'])
+        self.assertEqual(parsed.hostname,'www.sudameris.com.py')
+        self.assertRegex(unquote(parsed.path).lower(),r'(?:gastronimia|gastronomia)[^/]*\.pdf$')
         self.assertNotEqual(k['source_url'],k['source_page_url'])
 
     def test_reviewed_music_hall_keeps_audio_and_financing_separate(self):

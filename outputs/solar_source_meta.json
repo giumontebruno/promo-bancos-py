@@ -1,0 +1,168 @@
+{
+  "status": "partial",
+  "catalog_discovered": 30,
+  "catalog_reviewed": 30,
+  "catalog_review_complete": true,
+  "verified_campaigns": 23,
+  "reviewed_at_utc": "2026-10-30T16:06:06.818836+00:00",
+  "review_registry": "data/solar_reviewed_catalog.json",
+  "campaign_decisions": [
+    {
+      "id": 101,
+      "status": "verified"
+    },
+    {
+      "id": 134,
+      "status": "blocked_specific_ambiguity_or_representation: Catalogo descuento30% sin segmentar; PDF medicamentos hasta20%,otros hasta30%. No publicar30% universal ni sumar caja+reintegro. Requiere variantes por producto y hasta."
+    },
+    {
+      "id": 132,
+      "status": "verified"
+    },
+    {
+      "id": 129,
+      "status": "blocked_specific_ambiguity_or_representation: Canal PDF3 afirma valida con dispositivos diferentes al POS Infonet sin aclarar redes. No transformar en POS exclusivo. Representacion del descuento debe separar medicamentos/otros y hasta."
+    },
+    {
+      "id": 130,
+      "status": "blocked_specific_ambiguity_or_representation: Fin catalogo31/12/2026 vs generalPDF30/09/2027; tabla solo16oct20nov18dic sin ano; no extender a viernes2027. Canal3 inusual no permite inferir POS exclusivo."
+    },
+    {
+      "id": 128,
+      "status": "verified"
+    },
+    {
+      "id": 127,
+      "status": "verified"
+    },
+    {
+      "id": 124,
+      "status": "verified"
+    },
+    {
+      "id": 123,
+      "status": "blocked_specific_ambiguity_or_representation: Fin PDF31/12/2026 contradice catalogo31/08/2027; no seleccionar una fecha como resuelta."
+    },
+    {
+      "id": 71,
+      "status": "no_remaining_eligible_dates: Vigencia formal31/10 pero solo lunes; ultimo26/10. No promover como disponible hoy o futura."
+    },
+    {
+      "id": 55,
+      "status": "expired"
+    },
+    {
+      "id": 87,
+      "status": "verified"
+    },
+    {
+      "id": 72,
+      "status": "verified"
+    },
+    {
+      "id": 125,
+      "status": "verified"
+    },
+    {
+      "id": 97,
+      "status": "verified"
+    },
+    {
+      "id": 116,
+      "status": "verified"
+    },
+    {
+      "id": 104,
+      "status": "verified"
+    },
+    {
+      "id": 77,
+      "status": "verified"
+    },
+    {
+      "id": 105,
+      "status": "verified"
+    },
+    {
+      "id": 75,
+      "status": "verified"
+    },
+    {
+      "id": 59,
+      "status": "verified"
+    },
+    {
+      "id": 118,
+      "status": "blocked_specific_ambiguity_or_representation: PDF titulo y clausula1 Subway pero clausula2.C Popeyes: sucursales aplicables contradictorias."
+    },
+    {
+      "id": 119,
+      "status": "verified"
+    },
+    {
+      "id": 56,
+      "status": "verified"
+    },
+    {
+      "id": 61,
+      "status": "verified"
+    },
+    {
+      "id": 121,
+      "status": "verified"
+    },
+    {
+      "id": 122,
+      "status": "verified"
+    },
+    {
+      "id": 93,
+      "status": "verified"
+    },
+    {
+      "id": 49,
+      "status": "verified"
+    },
+    {
+      "id": 52,
+      "status": "verified"
+    }
+  ],
+  "skipped": [
+    {
+      "id": 134,
+      "reason": "blocked_specific_ambiguity_or_representation: Catalogo descuento30% sin segmentar; PDF medicamentos hasta20%,otros hasta30%. No publicar30% universal ni sumar caja+reintegro. Requiere variantes por producto y hasta."
+    },
+    {
+      "id": 129,
+      "reason": "blocked_specific_ambiguity_or_representation: Canal PDF3 afirma valida con dispositivos diferentes al POS Infonet sin aclarar redes. No transformar en POS exclusivo. Representacion del descuento debe separar medicamentos/otros y hasta."
+    },
+    {
+      "id": 130,
+      "reason": "blocked_specific_ambiguity_or_representation: Fin catalogo31/12/2026 vs generalPDF30/09/2027; tabla solo16oct20nov18dic sin ano; no extender a viernes2027. Canal3 inusual no permite inferir POS exclusivo."
+    },
+    {
+      "id": 123,
+      "reason": "blocked_specific_ambiguity_or_representation: Fin PDF31/12/2026 contradice catalogo31/08/2027; no seleccionar una fecha como resuelta."
+    },
+    {
+      "id": 71,
+      "reason": "no_remaining_eligible_dates: Vigencia formal31/10 pero solo lunes; ultimo26/10. No promover como disponible hoy o futura."
+    },
+    {
+      "id": 55,
+      "reason": "expired"
+    },
+    {
+      "id": 118,
+      "reason": "blocked_specific_ambiguity_or_representation: PDF titulo y clausula1 Subway pero clausula2.C Popeyes: sucursales aplicables contradictorias."
+    }
+  ],
+  "coverage_complete": false,
+  "reason": "All known catalog campaigns individually reviewed; expired/ineligible and specific ambiguous campaigns excluded. Changed sources fail closed.",
+  "bank": "solar",
+  "attempted_at": "2026-10-30T16:31:37.946599+00:00",
+  "rows": 69,
+  "cache_replay": true,
+  "offline_export_note": "Rebuilt from previously captured official documents and reviewed hashes; attempted_at records export/review, not a new HTTP retrieval."
+}

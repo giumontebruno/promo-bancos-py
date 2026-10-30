@@ -1,0 +1,76 @@
+{
+  "retrieved_on": "2026-10-30",
+  "extraction": "pdfplumber native text; no OCR",
+  "documents": [
+    {
+      "bank": "basa",
+      "name": "BASA VIAJAR EDICION ANIVERSARIO",
+      "url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/OCTUBRE%202026/basa%20viajar%20edicion%20aniversario%20octubre%202026.pdf",
+      "sha256": "ee2b99d52ad400128ee65e83bbe2e765c68ae20d2e54d60c2ede2a05135d7ab6",
+      "fixture": "basa0.txt"
+    },
+    {
+      "bank": "basa",
+      "name": "HALLOWEEN",
+      "url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/OCTUBRE%202026/HALLOWEEN.pdf",
+      "sha256": "138bc22f0bbc6b6d55a2fc05477133cefbb6ecb592dd477fc4cf469ad44559d0",
+      "fixture": "basa1.txt"
+    },
+    {
+      "bank": "basa",
+      "name": "HOTELES",
+      "url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/OCTUBRE%202026/hoteles.pdf",
+      "sha256": "b6ea76ea2c0229387e64c67cd568c7548a6918a27fca448f32e03b4e9e10f7f0",
+      "fixture": "basa2.txt"
+    },
+    {
+      "bank": "basa",
+      "name": "JUEVES DE SUPERMERCADO",
+      "url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/OCTUBRE%202026/jueves%20de%20supermercado.pdf",
+      "sha256": "acfb48b12f6e9194dc558d7f77753f5125396a30714319ea26530acdb58a9e17",
+      "fixture": "basa3.txt"
+    },
+    {
+      "bank": "basa",
+      "name": "AUTOLAV",
+      "url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/autolav.pdf",
+      "sha256": "588f69e2285828a43f95b7f36a97be6a798d8382810f5b9ee5c24e1933755013",
+      "fixture": "basa4.txt"
+    },
+    {
+      "bank": "basa",
+      "name": "Bernardino Hamburguesas",
+      "url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Bernardino%20Hamburguesas.pdf",
+      "sha256": "16f3718b4cbb37507f1d1d110ef27185df6e889e8e28d403159493847cc5bd46",
+      "fixture": "basa5.txt"
+    },
+    {
+      "bank": "interfisa",
+      "name": "ELECTRÓNICA Y ELECTRODOMÉSTICOS",
+      "url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-electronica-y-electrodomesticos-1.pdf",
+      "sha256": "708e48fb7b2db5734b34234000c985c3404f71b02d494b19c48f6ceda712e078",
+      "fixture": "interfisa0.txt"
+    },
+    {
+      "bank": "interfisa",
+      "name": "ROCKIT",
+      "url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20ROCKIT.pdf",
+      "sha256": "06b27b8e97137faf2e8f621f5035e7472acd90ccd10fb3f974031ddf4bc1c676",
+      "fixture": "interfisa1.txt"
+    },
+    {
+      "bank": "interfisa",
+      "name": "FARMACIAS ENERGY",
+      "url": "https://www.interfisa.com.py/storage/app/media/PROMOCIONES/byc-farmacias-energy1-2.pdf",
+      "sha256": "6372f625a13afd964c4c303c973a677f80fbeaaa55dd0f73e59263ae2cd6a4db",
+      "fixture": "interfisa2.txt"
+    },
+    {
+      "bank": "interfisa",
+      "name": "COLE HAAN",
+      "url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20COLE%20HAAN.pdf",
+      "sha256": "44de894a7cc4f557df83b685e3fc8fd6872e999eb7c323d6799aca2778a1fa11",
+      "fixture": "interfisa3.txt"
+    }
+  ]
+}

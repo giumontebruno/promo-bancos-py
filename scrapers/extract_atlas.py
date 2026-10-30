@@ -34,6 +34,8 @@ FIELDNAMES = [
     "Porcentaje efectivo",
     "Estado verificacion",
     "Texto original de la fuente",
+    "Variante", "Tarjetas verificadas", "Etiqueta de variante", "Tipo de variante",
+    "Topes revisados por variante", "Revisión de variantes",
 ]
 
 
@@ -152,6 +154,38 @@ def apply_document_reviews(rows, session):
         row['Estado verificacion'] = 'official_document'
     return rows
 
+def supermarket_card_scopes(row):
+    if str(row.get("Variante", "")).startswith("supermarkets-card-cap-"):
+        return [row]
+    if row.get("Comercio/Promoción", "").casefold() != "supermercados":
+        return [row]
+    detail = row.get("Texto original de la fuente") or row.get("Detalle", "")
+    # Preserve missing validity as unknown. Only these explicit card/cap clauses
+    # are scoped; no promotion is claimed to be valid indefinitely.
+    minimum = re.search(r"Mínimo de compra para todas las afinidades Gs\.\s*([\d.]+)", detail, re.I)
+    caps = re.search(r"Tope de compra mensual acumulado por cuenta de tarjeta Gs\.\s*([\d.]+) para tarjetas de crédito (.+?) y Gs\.\s*([\d.]+) para tarjetas (.+?)(?=\. Las transacciones)", detail, re.I)
+    if not minimum or not caps or not all(rate in row.get("Cantidad de descuento / beneficio", "") for rate in ["20%", "15%"]):
+        return [{**row, "Estado verificacion": "unconfirmed", "Revisión de variantes": "Changed Atlas supermarket card/cap clause requires review"}]
+    # Benefit affinity takes precedence over the broader cap-clause wording.
+    header = clean(row.get("Medios de pago") or detail.split("15%", 1)[0])
+    if not re.search(r"Mastercard Black, Visa Infinite y Signature delSol", header, re.I):
+        return [{**row, "Estado verificacion": "unconfirmed",
+                 "Revisión de variantes": "Atlas premium benefit affinity is not confirmed"}]
+    premium_cards = "Mastercard Black, Visa Infinite y Signature delSol"
+    common = detail[caps.end():].lstrip(". ")
+    out = []
+    for index, (rate, cap, cards) in enumerate([(20, caps[1], premium_cards), (15, caps[3], caps[4])]):
+        limits = f"Mínimo de compra: Gs. {minimum[1]}. Tope de compra mensual acumulado por cuenta de tarjeta: Gs. {cap}."
+        out.append({**row, "Cantidad de descuento / beneficio": f"{rate}% de reintegro",
+                    "Detalle": f"{rate}% de reintegro con tarjetas de crédito {cards}. {limits} {common}",
+                    "Montos / topes": limits, "Tarjetas verificadas": cards,
+                    "Texto original de la fuente": detail,
+                    "Variante": f"supermarkets-card-cap-{index}",
+                    "Tipo de variante": "premium" if index == 0 else "base",
+                    "Etiqueta de variante": cards, "Topes revisados por variante": "yes"})
+    return out
+
+
 def main():
     WORK_DIR.mkdir(parents=True, exist_ok=True)
     OUT_CSV.parent.mkdir(exist_ok=True)
@@ -172,6 +206,7 @@ def main():
                 rows.append(row)
 
     rows = apply_document_reviews(rows, session)
+    rows = [variant for row in rows for variant in supermarket_card_scopes(row)]
     rows.sort(key=lambda r: (r["Categoría"], r["Comercio/Promoción"]))
     if not rows:
         print("WARNING: Atlas returned 0 active benefits. Keeping existing Atlas output files.")

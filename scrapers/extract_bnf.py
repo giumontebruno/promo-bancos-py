@@ -137,13 +137,14 @@ def branch_records(path, promo):
 
 def benefit_rows(promo, text, branches):
     validity = first_match(text, [r'Vigencia:\s*(.*?)\s*Beneficio:'])
-    # Fail the source refresh instead of silently renewing an old monthly PDF.
+    # Unknown validity must fail; an explicitly expired PDF remains historical.
+    # Keeping its original end date lets normalization exclude it from current offers.
     import sys
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
     from promo_backend.quality import validity_dates
     ends = validity_dates(validity)['ends_on']
-    if not ends or ends < date.today().isoformat():
-        raise ValueError(f'BNF {promo["categoria"]}: expired or unknown validity: {validity}')
+    if not ends:
+        raise ValueError(f'BNF {promo["categoria"]}: unknown validity: {validity}')
     benefit = first_match(text, [r'Beneficio:\s*(.*?)\s*Condiciones:'])
     rates = list(dict.fromkeys(re.findall(r'(\d+)\s*%\s*de reintegro', benefit, re.I)))
     if not rates:
@@ -290,16 +291,23 @@ def main():
     rows = []
     branches = []
     promos = discover_promos()
+    documents = []
     for promo in promos:
         pdf_path = download_pdf(promo["pdf"])
         pdf_text = extract_pdf_text(pdf_path)
         current_branches = branch_records(pdf_path, promo)
         branches.extend(current_branches)
-        rows.extend(benefit_rows(promo, pdf_text, current_branches))
+        current_rows = benefit_rows(promo, pdf_text, current_branches)
+        rows.extend(current_rows)
+        from promo_backend.quality import validity_dates
+        ends = validity_dates(current_rows[0]['Vigencia'])['ends_on'] if current_rows else None
+        documents.append({'source_url': promo['pdf'], 'sha256': hashlib.sha256(pdf_path.read_bytes()).hexdigest(),
+                          'ends_on': ends, 'expired': bool(ends and ends < date.today().isoformat()),
+                          'records': len(current_rows), 'branches': len(current_branches)})
 
     OUT_CSV.parent.mkdir(exist_ok=True)
     Path('outputs/bnf_branch_sources.json').write_text(json.dumps(branches, ensure_ascii=False, indent=2), encoding='utf-8')
-    Path('outputs/bnf_source_meta.json').write_text(json.dumps({'checked_at': datetime.now(timezone.utc).isoformat(), 'source_urls': [p['pdf'] for p in promos]}), encoding='utf-8')
+    Path('outputs/bnf_source_meta.json').write_text(json.dumps({'checked_at': datetime.now(timezone.utc).isoformat(), 'source_urls': [p['pdf'] for p in promos], 'documents': documents, 'coverage': 'Current official linked documents checked; expired campaigns retain their original dates, not renewed offers'}), encoding='utf-8')
     with OUT_CSV.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         writer.writeheader()

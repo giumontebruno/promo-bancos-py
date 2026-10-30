@@ -1,6 +1,7 @@
 """Build GNB app offers from matched live cards and readable official terms."""
 
 import csv
+import hashlib
 from datetime import date, timedelta
 import json
 import re
@@ -206,6 +207,23 @@ def validate_source_pair(cards, review_rows, snapshot=None):
     return review
 
 
+def card_fingerprint(card):
+    """Bind decisions to exact semantic page content, not a mutable card ID."""
+    fields = {key: card.get(key) for key in
+              ('id', 'title', 'startDate', 'endDate', 'miniDescription', 'lines', 'termsUrl')}
+    return hashlib.sha256(json.dumps(fields, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+
+
+def source_reviews():
+    path = ROOT / 'data/gnb_source_reviews.json'
+    return json.loads(path.read_text(encoding='utf-8'))['reviews'] if path.exists() else []
+
+
+def matched_review(card, reviews):
+    return next((review for review in reviews if review['id'] == card['id']
+                 and review['card_sha256'] == card_fingerprint(card)), None)
+
+
 def build_rows():
     payload = json.loads(CARDS.read_text(encoding="utf-8"))
     cards = payload["cards"]
@@ -214,19 +232,24 @@ def build_rows():
     review = validate_source_pair(cards, review_rows, payload.get("checkedAt"))
     result = []
     issues = []
+    reviews = source_reviews()
     for card in cards:
         card_id = card["id"]
         if card_id in EXISTING or card_id in EXCLUDE:
+            continue
+        decision = matched_review(card, reviews)
+        if decision and decision.get('exclude_reason'):
+            issues.append({'id': card_id, 'name': card['title'],
+                           'reason': decision['exclude_reason'], 'source_url': decision['source_url']})
             continue
         source = review[card_id]
         summary = compact(card.get("miniDescription"))
         conditions = compact(source["Condiciones PDF"])
         benefits = compact(source["Beneficio PDF"])
         validity = compact(source["Vigencia PDF"]) or f"Hasta {card['endDate']}"
-        if card_id == 52:
-            benefits = "• 20% de descuento los miércoles con tarjetas de crédito GNB. • Hasta 12 cuotas sin intereses todos los días con tarjetas de crédito GNB."
-            conditions = "No aplica para pagos con QR ni delivery. Tope de compra mensual: Gs. 1.000.000; tope de reintegro: Gs. 100.000."
-            validity = "Desde 2026-07-01 hasta 2026-12-30"
+        if decision and decision.get('benefits'):
+            benefits = decision['benefits']
+            conditions = decision['conditions']
         if card_id == 9:
             validity = "Desde 2026-10-14 hasta 2026-10-14"
         if card_id == 274:
@@ -310,6 +333,9 @@ def build_rows():
                 day = "Todos los días"
             if card_id == 638 and not installments:
                 day = "del 17 al 20 de cada mes; últimos 3 días de cada mes"
+            if decision and decision.get('validity'):
+                day = decision.get('day', day)
+                validity = decision['validity']
             if day == "No especificado":
                 issues.append({"id": card_id, "name": card["title"], "reason": f"day_unknown_{index}"})
             caps = "; ".join(line for line in selected_conditions(conditions) if re.search(r"\b(tope|m[ií]nimo)\b", line, re.I))
@@ -334,8 +360,16 @@ def build_rows():
                 "Etiqueta de variante": label,
                 "Fin del período fuente": card["endDate"],
                 "Últimos días del mes": 3 if card_id == 638 and not installments else "",
-                "Advertencia de fuente": "",
+                "Advertencia de fuente": decision.get("warning", "") if decision else "",
             }
+            if decision and decision.get('cap_conflict'):
+                row['Montos'] = ''
+                if installments:
+                    row['Advertencia de fuente'] = ''
+                    row['Detalle'] = '. '.join(part for part in detail.split('. ') if 'El beneficio combina' not in part)
+            if decision and decision.get('cap_conflict') and not installments:
+                row['Estado verificacion'] = 'unconfirmed'
+                row['Texto original de la fuente'] = ' • '.join(card.get('lines', []))
             result.append(row)
     return result, issues
 

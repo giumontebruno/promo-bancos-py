@@ -7,7 +7,7 @@ const STORAGE_KEYS = {
   alertPrefs: "paybackPyBeta.alertPrefs",
 };
 const DAYS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
-const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria", "Familiar", "GNB"];
+const BANKS = ["Todos", "ueno bank", "Itaú", "Continental", "Sudameris", "BNF", "Atlas", "Coop. Universitaria", "Familiar", "GNB", "Basa", "Interfisa", "Bancop", "Solar", "Zeta"];
 const PREMIUM_CATEGORY = "Club Black";
 const PREMIUM_BANK_ORDER = ["Itaú", "Sudameris", "Continental", "ueno bank", "BNF", "Atlas", "Coop. Universitaria"];
 const KNOWN_PLACES = [
@@ -371,6 +371,7 @@ function hasOpenDateRangeWithoutSpecificDay(text) {
 }
 
 function getDisplayDays(promo) {
+  if (/^primera compra elegible$/i.test(String(promo.day_text || "").trim())) return "Solo primera compra elegible";
   const monthDays = getMonthDays(promo);
   if (promo.last_days_of_month && monthDays.length) {
     return `${monthDays[0]} al ${monthDays.at(-1)} y últimos ${promo.last_days_of_month} días de cada mes`;
@@ -1354,7 +1355,7 @@ function renderResults() {
 
   if (!base.length) {
     els.results.innerHTML = state.activeView === "favorites"
-      ? `<div class="empty">Todavía no guardaste favoritos. Tocá el corazón en una promo para verla acá.</div>`
+      ? `<div class="empty">${state.favorites.size ? "Tus favoritos siguen guardados. No encontramos promociones disponibles para ellos en este momento." : "Todavía no guardaste favoritos. Tocá el corazón en una promo para verla acá."}</div>`
       : hasQuery
         ? `<div class="empty">No encontramos beneficios activos para "${escapeHtml(state.query.trim())}".</div>`
         : `<div class="empty">No encontramos promociones para estos filtros.</div>`;

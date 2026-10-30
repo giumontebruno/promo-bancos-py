@@ -80,7 +80,10 @@ class UniversitariaReviewTests(unittest.TestCase):
         # The daily refresh has its own source capture; the 2026-09 fixture above
         # is deliberately fixed and need not equal today's published catalog.
         report = json.loads((ROOT / "outputs/universitaria_review_report.json").read_text(encoding="utf-8"))
-        self.assertEqual(len(saved), report["published_variants"])
+        retained=report.get("retained_historical_rows",0)
+        self.assertEqual(len(saved), report.get("exported_rows",report["published_variants"]))
+        self.assertEqual(len(saved),report["published_variants"]+retained)
+        self.assertGreaterEqual(sum(r.get("Estado verificacion")=="unconfirmed" for r in saved),retained)
         self.assertTrue(all(row["Bases y condiciones URL"].startswith("https://www.universitaria.coop/") for row in saved))
         variants = [row["Variante"] for row in saved if row["Variante"]]
         self.assertEqual(len(variants), len(set(variants)))
@@ -90,3 +93,25 @@ class UniversitariaReviewTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class CurrentSupermarketScopeTests(unittest.TestCase):
+    def test_october_supermarkets_scoped_by_payment(self):
+        from scrapers.review_universitaria import reviewed_rows
+        from promo_backend.normalize import normalize_row
+        from promo_backend.quality import normalize_terms
+        row = {'Comercio/Promoción': 'SUPERSEIS / STOCK / DELIMARKET',
+               'Bases y condiciones URL': 'https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf',
+               'Detalle': 'PANAL QR, CABAL QR Y MASTERCARD QR 20%. PAGO CON TC FISICA con las 3 marcas 10%. Límite de compra de Gs. 500.000 por cuenta y por mes.',
+               'Día de promoción': 'Todos los viernes',
+               'Vigencia': 'Desde 2026-10-01 hasta 2026-12-25'}
+        rows, reason = reviewed_rows(row)
+        self.assertEqual(reason, '')
+        self.assertEqual(len(rows), 2)
+        for index, r in enumerate(rows):
+            self.assertIn('Panal, Cabal y Mastercard', r['Tarjetas verificadas'])
+            terms = normalize_terms(normalize_row('Coop. Universitaria', r))
+            self.assertIn(('purchase', 500000, 'mensual'), [(x['kind'], x['amount'], x['period']) for x in terms['limits']])
+            self.assertIn(('refund', [100000, 50000][index], 'mensual'), [(x['kind'], x['amount'], x['period']) for x in terms['limits']])
+            self.assertIn('compartido', r['Detalle'])
+        row['Bases y condiciones URL'] = 'https://www.universitaria.coop/changed.pdf'
+        self.assertEqual(reviewed_rows(row)[0], [])

@@ -1,0 +1,103 @@
+{
+  "campaigns": [
+    {
+      "name": "HOTELES",
+      "url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/OCTUBRE%202026/hoteles.pdf",
+      "sha256": "b6ea76ea2c0229387e64c67cd568c7548a6918a27fca448f32e03b4e9e10f7f0",
+      "reviewed_on": "2026-10-30",
+      "review_method": "Native PDF text and page 1 visual inspection; exact document byte hash",
+      "ends_on": "2026-12-31",
+      "conditions": "Se excluyen las tarjetas Empresariales, Gourmet Cards y Prepagas. Transacción por POS Infonet (Bancard). No acumulable con otras promociones.",
+      "category": "Hoteles",
+      "day": "Todos los días",
+      "merchants": [
+        "HILTON GARDEN",
+        "ALAIA ALEGRIA DEL CERRO",
+        "YACHT Y GOLF CLUB PARAGUAYO",
+        "SHERATON",
+        "ALOFT"
+      ],
+      "scopes": [
+        {
+          "key": "oro",
+          "cards": "Basa MasterCard Oro",
+          "benefit": "15% de reintegro + hasta 12 cuotas sin intereses"
+        },
+        {
+          "key": "black-signature",
+          "cards": "MasterCard Black y Visa Signature",
+          "benefit": "20% de reintegro + hasta 12 cuotas sin intereses"
+        }
+      ],
+      "caps": "Tope de compra mensual para el reintegro: Gs. 3.500.000 por cuenta de tarjeta de crédito, compartido entre los hoteles adheridos. No es un tope de reintegro. Solicitar las cuotas al momento del pago."
+    },
+    {
+      "name": "JUEVES DE SUPERMERCADO",
+      "url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/OCTUBRE%202026/jueves%20de%20supermercado.pdf",
+      "sha256": "acfb48b12f6e9194dc558d7f77753f5125396a30714319ea26530acdb58a9e17",
+      "reviewed_on": "2026-10-30",
+      "review_method": "Native PDF text and page 1 visual inspection; exact document byte hash",
+      "ends_on": "2026-12-31",
+      "conditions": "Se excluyen las tarjetas Empresariales, Gourmet Cards y Prepagas. Transacción por POS Infonet (Bancard). No acumulable con otras promociones. Se excluyen las tarjetas Basa MasterCard Oro. Casa Paraná excluida desde 01/10/2026.",
+      "category": "Supermercados",
+      "day": "Todos los jueves",
+      "starts_on": "2026-03-05",
+      "merchants": [
+        "Box",
+        "El Pueblo",
+        "La Preferida",
+        "La Rosarina",
+        "Los Jardines",
+        "Real",
+        "Salemma",
+        "Villa Sofia"
+      ],
+      "merchant_starts": {
+        "La Rosarina": "2026-09-10"
+      },
+      "scopes": [
+        {
+          "key": "base",
+          "cards": "Visa Clásica, Visa Oro, MasterCard Clásica, Afinidad Farmacenter, Afinidad Club Libertad",
+          "benefit": "20% de reintegro",
+          "caps": "Tope de compra mensual: Gs. 1.500.000 por cuenta de tarjeta, compartido entre supermercados adheridos. No es tope de reintegro."
+        },
+        {
+          "key": "black-signature",
+          "cards": "MasterCard Black y Visa Signature",
+          "benefit": "25% de reintegro",
+          "caps": "Tope de compra mensual: Gs. 2.000.000 por cuenta de tarjeta, compartido entre supermercados adheridos. No es tope de reintegro."
+        }
+      ],
+      "caps": ""
+    },
+    {
+      "name": "Bernardino Hamburguesas",
+      "url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Bernardino%20Hamburguesas.pdf",
+      "sha256": "16f3718b4cbb37507f1d1d110ef27185df6e889e8e28d403159493847cc5bd46",
+      "reviewed_on": "2026-10-30",
+      "review_method": "Native PDF text and page 1 visual inspection; exact document byte hash",
+      "ends_on": "2026-12-31",
+      "conditions": "Se excluyen las tarjetas Empresariales, Gourmet Cards y Prepagas. Transacción por POS Infonet (Bancard). No acumulable con otras promociones. No aplica para compras en carritos de eventos.",
+      "category": "Gastronomía",
+      "day": "Todos los viernes",
+      "merchants": [
+        "Bernardino Hamburguesas"
+      ],
+      "scopes": [
+        {
+          "key": "base",
+          "cards": "Visa Clásica, Visa Oro, Visa Signature, MasterCard Clásica, Basa MasterCard Oro, MasterCard Black, Afinidad Farmacenter, Afinidad Club Libertad",
+          "benefit": "30% de reintegro"
+        },
+        {
+          "key": "black",
+          "cards": "MasterCard Black",
+          "benefit": "35% de reintegro",
+          "day": "Todos los días"
+        }
+      ],
+      "caps": "Tope de compra mensual para el reintegro: Gs. 500.000 por cuenta de tarjeta. No es un tope de reintegro; no son cupos independientes por variante."
+    }
+  ]
+}

@@ -49,3 +49,31 @@ class ContinentalScopeTests(unittest.TestCase):
 
     def test_unmixed_row_is_unchanged(self):
         self.assertEqual(scoped_segments('20% de reintegro. Vigente hasta el 31 de diciembre de 2026.'), [])
+
+class ContinentalSingleDayTests(unittest.TestCase):
+    def test_contimarket_discount_not_extended_by_daily_financing(self):
+        from scrapers.extract_continental import review_single_day_contimarket
+        from promo_backend.normalize import normalize_row
+        from promo_backend.quality import normalize_terms
+        detail = ('El miércoles 28 de octubre, en Contimarket.com - 25% de reintegro. '
+                  'Límite de compra mensual de hasta Gs. 1.000.000 por cuenta de tarjeta. '
+                  'Tope de reintegro: Gs. 250.000 Además, todos los días: - Hasta 12 cuotas sin intereses. '
+                  'Límite de compra de hasta Gs. 50.000.000 Válido pagando con tarjetas de crédito Continental. '
+                  'Vigente el 28 octubre de 2026. Aplica únicamente para compras procesadas a través de Contimarket.com.')
+        row = {'Comercio/Promoción': 'Contimarket - 25%', 'Detalle': detail,
+               'Vigencia': 'No especificado', 'Categoría': 'Tiendas', 'Fuente API': 'https://www.bancontinental.com.py/api/comercios?_limit=-1'}
+        reviewed = review_single_day_contimarket(row)
+        old, new = normalize_row('Continental', row), normalize_row('Continental', reviewed)
+        self.assertEqual(old['id'], new['id'])
+        self.assertEqual(reviewed['Texto original de la fuente'], detail)
+        self.assertNotIn('12 cuotas', reviewed['Detalle'])
+        self.assertNotIn('50.000.000', reviewed['Detalle'])
+        terms = normalize_terms(new)
+        self.assertEqual(terms['ends_on'], '2026-10-28')
+        self.assertEqual(terms['starts_on'], '2026-10-28')
+        self.assertEqual(reviewed['Cantidad de descuento / beneficio'], '25% de reintegro')
+
+    def test_unreviewed_changed_campaign_is_held(self):
+        from scrapers.extract_continental import review_single_day_contimarket
+        row = {'Comercio/Promoción': 'Contimarket - 25%', 'Detalle': '25% todos los días'}
+        self.assertEqual(review_single_day_contimarket(row)['Estado verificacion'], 'unconfirmed')

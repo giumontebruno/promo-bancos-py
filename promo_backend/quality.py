@@ -101,7 +101,13 @@ def extract_limits(value):
             if len(amounts) != 1:
                 continue
             value_number = int(re.sub(r"\D", "", amounts[0][1]))
-            period = next((p for p in ("mensual", "semanal", "diario") if p in key(part)), None)
+            # Scope recurrence to this monetary clause, never a neighboring minimum or validity.
+            scope_key = key(scope)
+            period = next((label for label, pattern in (
+                ("mensual", r"\bmensual\b|\bpor mes\b|\bal mes\b"),
+                ("semanal", r"\bsemanal\b|\bpor semana\b"),
+                ("diario", r"\bdiario\b|\bpor dia\b"),
+            ) if re.search(pattern, scope_key)), None)
             result.append({"kind": kind, "amount": value_number, "currency": "PYG",
                            "period": period, "evidence": sentence(scope)})
     return list({json.dumps(x, sort_keys=True): x for x in result}.values())
@@ -120,7 +126,8 @@ def normalize_terms(promo):
     if promo.get("source_purchase_validity"):
         dates = validity_dates(promo["source_purchase_validity"])
     period_end = parse_date(promo.get("source_period_end"))
-    if period_end:
+    # A filename month is a fallback, not a bound on explicitly reviewed purchase dates.
+    if period_end and not promo.get("source_purchase_validity"):
         dates["ends_on"] = min(filter(None, (period_end, dates["ends_on"])))
     parts = sentences(raw)
     exclusions = []
@@ -254,3 +261,34 @@ def favorite_aliases(previous, current, existing=None):
             aliases.pop(original, None)
     return aliases
 
+
+
+def favorite_unavailable(previous, current, aliases=None, existing=None):
+    """Keep absent saved identities addressable without inventing active offers.
+
+    Tombstones are manifest metadata, never promotion rows or migration targets.
+    Dates are historical observations, not claims of expiry or current eligibility.
+    """
+    ids = {value for promo in current for value in (promo['id'], promo.get('campaign_id')) if value}
+    aliases = aliases or {}
+    unavailable = dict(existing or {})
+    for promo in previous:
+        for old_id in {promo['id'], promo.get('campaign_id')} - {None, ''}:
+            unavailable[old_id] = {
+                'reason': 'not_in_current_sources',
+                'bank': promo.get('bank', ''),
+                'merchant_name': promo.get('merchant_name', ''),
+                'source_url': promo.get('source_url', ''),
+                'last_known_ends_on': (promo.get('terms') or {}).get('ends_on'),
+            }
+    for original in list(unavailable):
+        target = original
+        seen = set()
+        while target in aliases:
+            if target in seen:
+                raise ValueError(f'Favorite alias cycle: {original}')
+            seen.add(target)
+            target = aliases[target]
+        if target in ids:
+            del unavailable[original]
+    return unavailable

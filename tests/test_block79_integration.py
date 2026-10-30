@@ -58,6 +58,17 @@ class Block79Integration(unittest.TestCase):
    self.assertTrue(set(STALE).isdisjoint(actual),r["id"])
    evidence=ROOT/r["review_evidence_file"]
    self.assertEqual(hashlib.sha256(evidence.read_bytes()).hexdigest(),r["review_evidence_sha256"])
+ def test_historical_evidence_bytes_are_protected_from_checkout_conversion(self):
+  evidence={r["review_evidence_file"]:r["review_evidence_sha256"] for r in REVIEWS}
+  self.assertEqual(len(evidence),7)
+  attributes=(ROOT/".gitattributes").read_text().splitlines()
+  protected={line.removesuffix(" -text") for line in attributes if line.endswith(" -text")}
+  self.assertEqual(protected,set(evidence))
+  for name,digest in evidence.items():
+   raw=(ROOT/name).read_bytes()
+   self.assertEqual(hashlib.sha256(raw).hexdigest(),digest,name)
+   self.assertEqual(json.loads(raw),json.loads(raw.replace(b"\r\n",b"\n")))
+
  def test_five_exclusions_keep_original_coordinates_and_are_not_reviewed(self):
   rows=load(ROOT/"public/locations.json")["locations"];byid={p["id"]:p for p in rows}
   for e in EXCLUDED:

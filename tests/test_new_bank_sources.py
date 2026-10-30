@@ -1,4 +1,8 @@
 import unittest
+import csv
+import tempfile
+from unittest.mock import patch
+from scrapers import build_gnb_live_offers as live
 import json
 from pathlib import Path
 from scrapers.extract_familiar import parse_cards, terms_pdf
@@ -110,7 +114,14 @@ class FamiliarTests(unittest.TestCase):
         self.assertTrue(all(card['termsUrl'].startswith('https://www.beneficiosbancognb.com.py/') for card in cards['cards']))
 
         rows, issues = build_gnb_live_rows()
-        self.assertEqual(issues, [])
+        excluded=set()
+        by_id={c['id']:c for c in cards['cards']}
+        for issue in issues:
+            decision=live.matched_review(by_id[issue['id']],live.source_reviews())
+            self.assertIsNotNone(decision,issue)
+            self.assertEqual(issue['reason'],decision.get('exclude_reason'))
+            self.assertTrue(issue['reason'].startswith('excluded_'))
+            excluded.add(issue['id'])
         by_card = {}
         for row in rows:
             card_id = int(row['URL detalle'].rsplit('/', 1)[-1])
@@ -118,6 +129,23 @@ class FamiliarTests(unittest.TestCase):
             self.assertNotIn('.pdf', row['URL detalle'])
         self.assertGreaterEqual(len(by_card), 220)
         self.assertTrue({20, 157, 297}.isdisjoint(by_card))
+        self.assertTrue(excluded.isdisjoint(by_card))
+
+    def test_gnb_pinned_source_schedule_regressions(self):
+        fixture=json.loads((Path(__file__).parent/'fixtures/gnb-schedule-regression-20261030.json').read_text())
+        with tempfile.TemporaryDirectory() as temp:
+            cp=Path(temp)/'cards.json';rp=Path(temp)/'review.csv'
+            cp.write_text(json.dumps({'checkedAt':fixture['checkedAt'],'cards':fixture['cards']}))
+            with rp.open('w',newline='') as f:
+                writer=csv.DictWriter(f,fieldnames=list(fixture['reviews'][0]))
+                writer.writeheader();writer.writerows(fixture['reviews'])
+            with patch.object(live,'CARDS',cp),patch.object(live,'REVIEW',rp):
+                rows,issues=live.build_rows()
+        self.assertEqual(issues,[])
+        by_card={}
+        for row in rows:
+            card_id=int(row['URL detalle'].rsplit('/',1)[-1])
+            by_card.setdefault(card_id,[]).append(normalize_row('GNB',row))
         self.assertEqual(by_card[275][0]['promotion_days'], ['miércoles'])
         self.assertEqual(by_card[392][0]['offer_kind'], 'premium')
         self.assertEqual(by_card[392][1]['offer_kind'], 'base')

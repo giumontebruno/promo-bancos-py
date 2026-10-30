@@ -7,9 +7,9 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 try:
-    from .quality import deduplicate, quality_report, favorite_aliases
+    from .quality import deduplicate, quality_report, favorite_aliases, favorite_unavailable
 except ImportError:
-    from quality import deduplicate, quality_report, favorite_aliases
+    from quality import deduplicate, quality_report, favorite_aliases, favorite_unavailable
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,6 +32,11 @@ SOURCE_FILES = [
     ("Atlas", OUTPUTS / "atlas_beneficios_por_categoria.csv"),
     ("Coop. Universitaria", OUTPUTS / "universitaria_beneficios_por_categoria.csv"),
     ("ueno bank", OUTPUTS / "ueno_beneficios_por_categoria.csv"),
+    ("Basa", OUTPUTS / "basa_beneficios_por_categoria.csv"),
+    ("Interfisa", OUTPUTS / "interfisa_beneficios_por_categoria.csv"),
+    ("Bancop", OUTPUTS / "bancop_beneficios_por_categoria.csv"),
+    ("Solar", OUTPUTS / "solar_beneficios_por_categoria.csv"),
+    ("Zeta", OUTPUTS / "zeta_beneficios_por_categoria.csv"),
 ]
 
 
@@ -454,7 +459,7 @@ def load_promotions():
             for row in csv.DictReader(f):
                 items = normalize_source_row(bank, row)
                 for item in items:
-                    item["source_checked_at"] = row.get("Fecha verificacion fuente") or checked_at
+                    item["source_checked_at"] = row.get("Fecha verificacion fuente") or row.get("Verificado UTC") or checked_at
                     item["source_file_updated_at"] = last_source_commit or None
                 promotions.extend(items)
     promotions.sort(key=lambda r: (r["bank"], r["category"], r["merchant_name"]))
@@ -577,6 +582,10 @@ def main():
     old_manifest_path = PUBLIC / 'manifest.json'
     old_manifest = json.loads(old_manifest_path.read_text(encoding='utf-8')) if old_manifest_path.exists() else {}
     aliases = favorite_aliases(previous, promotions, {**old_manifest.get('favorite_aliases', {}), **aliases})
+    history_path = DATA / 'promotion_history_20261017.json'
+    history = json.loads(history_path.read_text(encoding='utf-8'))['offers'] if history_path.exists() else []
+    unavailable = favorite_unavailable(
+        [*history, *previous], promotions, aliases, old_manifest.get('favorite_unavailable'))
     now = datetime.now(timezone.utc).isoformat()
     categories = sorted({p["category"] for p in promotions if p["category"]})
     banks = sorted({p["bank"] for p in promotions if p["bank"]})
@@ -595,6 +604,7 @@ def main():
         "categories": categories,
         "source_files": [str(path.relative_to(ROOT)) for _, path in SOURCE_FILES],
         "favorite_aliases": aliases,
+        "favorite_unavailable": unavailable,
         "schema_version": 2,
     }
 

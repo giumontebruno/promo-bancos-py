@@ -139,19 +139,19 @@
   },
   "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=30226": {
     "sha256": "60bb9d0bc58f78b3bcb863a692555ba93793cde0b5cdd79e9fcfb280b9e280a5",
-    "reviewed_on": "2026-10-17",
+    "reviewed_on": "2026-10-30",
     "variants": [],
     "pending": "Contradicción en la misma página oficial: el detalle indica «20% de ahorro en caja + 10% de reintegro + 5% de ahorro con PERSONAL BANK»; el campo beneficio indica «20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK». No se confirma el porcentaje ni se expande por tarjetas."
   },
   "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=30369": {
     "sha256": "60bb9d0bc58f78b3bcb863a692555ba93793cde0b5cdd79e9fcfb280b9e280a5",
-    "reviewed_on": "2026-10-17",
+    "reviewed_on": "2026-10-30",
     "variants": [],
     "pending": "Contradicción en la misma página oficial: el detalle indica «20% de ahorro en caja + 10% de reintegro + 5% de ahorro con PERSONAL BANK»; el campo beneficio indica «20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK». No se confirma el porcentaje ni se expande por tarjetas."
   },
   "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=1040": {
     "sha256": "60bb9d0bc58f78b3bcb863a692555ba93793cde0b5cdd79e9fcfb280b9e280a5",
-    "reviewed_on": "2026-10-17",
+    "reviewed_on": "2026-10-30",
     "variants": [],
     "pending": "Contradicción en la misma página oficial: el detalle indica «20% de ahorro en caja + 10% de reintegro + 5% de ahorro con PERSONAL BANK»; el campo beneficio indica «20% de ahorro + 5% de reintegro + 5% de ahorro con PERSONAL BANK». No se confirma el porcentaje ni se expande por tarjetas."
   },
@@ -616,5 +616,11 @@
         "Revisión de variantes": "Detalle y bases oficiales releídos 21/10/2026: sólo 25/10; 20% base + 5 puntos Personal Bank; misma sucursal y topes separados por tarjeta."
       }
     ]
+  },
+  "https://www.itau.com.py/beneficios2/Detalle?b=16790&c=31515": {
+    "sha256": "109bd90f8d225cff93c54840ff0588d03bbfe44a6fbcfcb7320edb64ff22eace",
+    "reviewed_on": "2026-10-30",
+    "variants": [],
+    "pending": "Fechas de inicio contradictorias en la página oficial: el campo vigencia indica 2025-11-24, pero el detalle indica 8 de octubre de 2026. Beneficio de hasta 30% sólo en honorarios y señas de eventos 2027; no confirma 30% fijo ni alcance por tarjeta. No se infiere fecha de inicio ni variantes."
   }
 }
