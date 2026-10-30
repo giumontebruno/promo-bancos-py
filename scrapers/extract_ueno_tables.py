@@ -30,7 +30,48 @@ def money(value):
     return int(found[1].replace(".", "")) if found else None
 
 
+SALARY_CAMPAIGN_STEM = "campana-tu-sueldo-esta-llegando-y-tu-50-tambien"
+
+
+def publication_hold(source_url, detail):
+    """Do not publish a personalized offer as a universally usable discount.
+
+    Exact campaign identity is quarantined across PDF revisions: a changed PDF
+    must be reviewed rather than silently bypassing this safety restriction.
+    """
+    if SALARY_CAMPAIGN_STEM not in source_url.casefold():
+        return None
+    return {
+        "source_url": source_url,
+        "reason": "personalized_invitation_and_purchase_time_not_supported",
+        "source_text_sha256": hashlib.sha256(detail.encode("utf-8")).hexdigest(),
+        "purchase_window": purchase_window(detail),
+        "required_review": ["official_notification", "funding_and_balance_retention",
+                            "personalized_cap", "purchase_date_and_hour", "eligible_channel"],
+        "publication_allowed": False,
+    }
+
+
+def apply_publication_hold(row):
+    """Retain source/history/identity fields while denying consumer publication."""
+    source_url = row.get("Bases PDF URL") or row.get("Bases y condiciones URL") or ""
+    detail = row.get("Texto PDF bases") or row.get("Detalle") or ""
+    hold = publication_hold(source_url, detail)
+    if not hold:
+        return row
+    return {**row, "Estado verificacion": "unconfirmed",
+            "Revisión de variantes": hold["reason"],
+            "Advertencia de fuente": "Campaña personalizada retenida: requiere invitación, "
+                "saldo adicional, tope individual y horario de compra. No es un beneficio universal."}
+
+
 def benefit_labels(detail):
+    # The 40% in this campaign is an example of the existing ueno+ component,
+    # not an independent offer. The campaign totals 50%, never 40% + 50%.
+    if re.search(r"Tu sueldo está llegando y tu 50% también", detail, re.I):
+        if re.search(r"50\s*% de reintegro sobre las compras", detail, re.I):
+            return ["50% reintegro total sujeto a invitación y condiciones personalizadas"]
+        return []
     labels = []
     coupon = re.search(
         r"cup[oó]n\s+de\s+reintegro(?:\s+equivalente)?(?:\s+al?|\s+de)?\s*(Gs\.?\s*[\d.]+|\d{1,3}\s*%)",
@@ -113,6 +154,8 @@ def purchase_window(detail):
     date_pattern = r"(\d{1,2}) de (\w+) (?:de )?(\d{4})"
     patterns = [
         r"exclusivamente a las compras efectuadas el d[ií]a " + date_pattern,
+        r"50\s*% de reintegro sobre las compras efectuadas el " + date_pattern,
+        r"beneficio de reintegro aplicar[aá] de forma [uú]nica el " + date_pattern,
         r"compras realizadas[^●]{0,220}?exclusivamente el " + date_pattern,
     ]
     found = []
@@ -159,6 +202,9 @@ def main():
                 with pdfplumber.open(pdf_path) as pdf:
                     pages = [p.extract_tables() for p in pdf.pages]
                     raw = "\n".join(p.extract_text() or "" for p in pdf.pages)
+                hold = publication_hold(pdf_url, raw)
+                if hold:
+                    review.append(hold)
                 levels, merchants, merchant_benefits, locations = parse_tables(pages, pdf_url, slug)
                 all_locations.extend(locations)
                 if not merchants:
@@ -209,6 +255,7 @@ def main():
                         row["Vigencia de compras verificada"] = window["validity"]
                         row["Día de promoción"] = window["day"]
                         row["Evidencia ventana de compras"] = window["evidence"]
+                    row = apply_publication_hold(row)
                     result.append(row)
     if not result:
         raise RuntimeError("No UENO terms parsed; previous source preserved.")

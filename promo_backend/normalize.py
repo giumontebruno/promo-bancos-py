@@ -322,6 +322,12 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
             if review['warning']:
                 normalized['raw_detail'] += ' Advertencia: ' + review['warning']
             break
+    # Retain identities and raw history, but quarantine this personalized campaign.
+    # This also protects normalization from a previously cached, pre-fix source CSV.
+    if bank == 'ueno bank' and 'campana-tu-sueldo-esta-llegando-y-tu-50-tambien' in source_url.casefold():
+        normalized['source_verification'] = 'unconfirmed'
+        normalized['source_warning'] = 'Campaña personalizada retenida: requiere invitación, saldo adicional, tope individual y horario de compra.'
+        normalized['variant_review_reason'] = 'personalized_invitation_and_purchase_time_not_supported'
     return normalized
 
 
