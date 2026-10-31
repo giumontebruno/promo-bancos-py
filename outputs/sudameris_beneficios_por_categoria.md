@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 346
+Total de promociones: 347
 
 ## Clubes
 
@@ -395,6 +395,7 @@ Total de promociones: 346
 | Ula Ula Kids | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Ultra Acai | 20% de reintegro | Viernes y sábado | Desde 2025-05-02 hasta 2027-02-27 |
 | Umaai Sushis y Wok | 20% de reintegro | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
+| Veredeada Chaval | 20%; 25% | No especificado | • Sábado 31 de octubre de 2026. |
 | Veterinaria Itapúa | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Vets | 20% de reintegro Hasta 10 Cuotas sin interés | Viernes | Desde 2026-08-21 hasta 2026-09-25 |
 | Vinader Computación | 20% de reintegro Hasta 12 cuotas sin interés | lunes a sabados | Desde 2026-03-02 hasta 2027-02-28 |

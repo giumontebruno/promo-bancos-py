@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T17:55:53.168Z",
+  "checked_at": "2026-10-31T13:46:28.682Z",
   "safe_to_commit": true,
   "healthy": false,
   "errors": [],
@@ -10,7 +10,7 @@
     "Familiar: partial; coverage is not complete.",
     "Sudameris: partial; coverage is not complete.",
     "Sudameris: no complete successful extraction within 72 hours.",
-    "Itaú: partial; coverage is not complete.",
+    "Itaú: failed; coverage is not complete.",
     "Itaú: no complete successful extraction within 72 hours.",
     "Coop. Universitaria: partial; coverage is not complete.",
     "ueno bank: partial; coverage is not complete.",
@@ -28,23 +28,23 @@
     "Zeta: blocked; coverage is not complete.",
     "Zeta: no complete successful extraction within 72 hours."
   ],
-  "catalog_generated_at": "2026-10-30T17:55:52.341105+00:00",
-  "records": 4017,
+  "catalog_generated_at": "2026-10-31T13:46:27.755008+00:00",
+  "records": 4020,
   "changes": {
-    "added": 1,
-    "removed": 2,
-    "modified": 480
+    "added": 7,
+    "removed": 4,
+    "modified": 2789
   },
   "sources": [
     {
       "bank": "GNB",
       "status": "partial",
-      "records": 485,
-      "previous_records": 486,
+      "records": 487,
+      "previous_records": 485,
       "checked_at": "2026-10-26T14:04:23.468427+00:00",
       "last_successful_fetch_at": "2026-10-26T14:04:23.468427+00:00",
       "retrieval_status": "partial",
-      "attempted_at": "2026-10-30T17:55:40.890902+00:00"
+      "attempted_at": "2026-10-31T13:30:15.811420+00:00"
     },
     {
       "bank": "Familiar",
@@ -52,59 +52,59 @@
       "records": 414,
       "previous_records": 414,
       "checked_at": "2026-10-30T15:46:38.443850+00:00",
-      "last_successful_fetch_at": "2026-10-30T17:24:14.713380+00:00",
+      "last_successful_fetch_at": "2026-10-31T13:32:21.522893+00:00",
       "retrieval_status": "fetched",
-      "attempted_at": "2026-10-30T17:24:14.713380+00:00"
+      "attempted_at": "2026-10-31T13:32:21.522893+00:00"
     },
     {
       "bank": "Sudameris",
       "status": "partial",
-      "records": 347,
+      "records": 348,
       "previous_records": 347,
       "checked_at": "2026-10-08T14:33:07.837064+00:00",
-      "last_successful_fetch_at": "2026-10-30T17:25:13.331180+00:00",
+      "last_successful_fetch_at": "2026-10-31T13:32:46.072499+00:00",
       "retrieval_status": "fetched",
-      "attempted_at": "2026-10-30T17:25:13.331180+00:00"
+      "attempted_at": "2026-10-31T13:32:46.072499+00:00"
     },
     {
       "bank": "Itaú",
-      "status": "partial",
+      "status": "failed",
       "records": 593,
       "previous_records": 593,
       "checked_at": "2026-10-17T02:07:38.378271+00:00",
       "last_successful_fetch_at": "2026-10-30T17:30:05.837654+00:00",
-      "retrieval_status": "fetched",
-      "attempted_at": "2026-10-30T17:30:05.837654+00:00"
+      "retrieval_status": "failed",
+      "attempted_at": "2026-10-31T13:34:53.227579+00:00"
     },
     {
       "bank": "BNF",
       "status": "fetched",
       "records": 77,
       "previous_records": 77,
-      "checked_at": "2026-10-30T17:30:29.263217+00:00",
-      "last_successful_fetch_at": "2026-10-30T17:30:29.263217+00:00",
+      "checked_at": "2026-10-31T13:35:22.605307+00:00",
+      "last_successful_fetch_at": "2026-10-31T13:35:22.605307+00:00",
       "retrieval_status": "fetched",
-      "attempted_at": "2026-10-30T17:30:29.263217+00:00"
+      "attempted_at": "2026-10-31T13:35:22.605307+00:00"
     },
     {
       "bank": "Continental",
       "status": "fetched",
-      "records": 921,
+      "records": 922,
       "previous_records": 921,
-      "checked_at": "2026-10-30T17:30:32.045718+00:00",
-      "last_successful_fetch_at": "2026-10-30T17:30:32.045718+00:00",
+      "checked_at": "2026-10-31T13:35:25.487159+00:00",
+      "last_successful_fetch_at": "2026-10-31T13:35:25.487159+00:00",
       "retrieval_status": "fetched",
-      "attempted_at": "2026-10-30T17:30:32.045718+00:00"
+      "attempted_at": "2026-10-31T13:35:25.487159+00:00"
     },
     {
       "bank": "Atlas",
       "status": "fetched",
-      "records": 45,
+      "records": 43,
       "previous_records": 45,
-      "checked_at": "2026-10-30T17:30:35.328161+00:00",
-      "last_successful_fetch_at": "2026-10-30T17:30:35.328161+00:00",
+      "checked_at": "2026-10-31T13:35:28.119387+00:00",
+      "last_successful_fetch_at": "2026-10-31T13:35:28.119387+00:00",
       "retrieval_status": "fetched",
-      "attempted_at": "2026-10-30T17:30:35.328161+00:00"
+      "attempted_at": "2026-10-31T13:35:28.119387+00:00"
     },
     {
       "bank": "Coop. Universitaria",
@@ -112,9 +112,9 @@
       "records": 72,
       "previous_records": 72,
       "checked_at": "2026-10-30T15:54:02.018269+00:00",
-      "last_successful_fetch_at": "2026-10-30T17:30:55.375204+00:00",
+      "last_successful_fetch_at": "2026-10-31T13:35:49.269840+00:00",
       "retrieval_status": "fetched",
-      "attempted_at": "2026-10-30T17:30:55.375204+00:00"
+      "attempted_at": "2026-10-31T13:35:49.269840+00:00"
     },
     {
       "bank": "ueno bank",
@@ -122,19 +122,19 @@
       "records": 670,
       "previous_records": 670,
       "checked_at": "2026-10-30T16:00:07.450814+00:00",
-      "last_successful_fetch_at": "2026-10-30T17:39:51.963922+00:00",
+      "last_successful_fetch_at": "2026-10-31T13:45:50.153429+00:00",
       "retrieval_status": "fetched",
-      "attempted_at": "2026-10-30T17:39:51.963922+00:00"
+      "attempted_at": "2026-10-31T13:45:50.153429+00:00"
     },
     {
       "bank": "Basa",
       "status": "partial",
-      "records": 93,
+      "records": 94,
       "previous_records": 93,
       "checked_at": null,
       "last_successful_fetch_at": null,
       "retrieval_status": "partial",
-      "attempted_at": "2026-10-30T17:34:11.713857+00:00"
+      "attempted_at": "2026-10-31T13:39:16.822149+00:00"
     },
     {
       "bank": "Interfisa",
@@ -144,7 +144,7 @@
       "checked_at": null,
       "last_successful_fetch_at": null,
       "retrieval_status": "partial",
-      "attempted_at": "2026-10-30T17:35:57.499951+00:00"
+      "attempted_at": "2026-10-31T13:41:03.962642+00:00"
     },
     {
       "bank": "Bancop",
@@ -152,9 +152,9 @@
       "records": 68,
       "previous_records": 68,
       "checked_at": null,
-      "last_successful_fetch_at": "2026-10-30T17:36:22.756215+00:00",
+      "last_successful_fetch_at": "2026-10-31T13:41:30.541227+00:00",
       "retrieval_status": "fetched",
-      "attempted_at": "2026-10-30T17:36:22.756215+00:00"
+      "attempted_at": "2026-10-31T13:41:30.541227+00:00"
     },
     {
       "bank": "Solar",
@@ -162,9 +162,9 @@
       "records": 69,
       "previous_records": 69,
       "checked_at": null,
-      "last_successful_fetch_at": "2026-10-30T17:36:41.751984+00:00",
+      "last_successful_fetch_at": "2026-10-31T13:41:49.197025+00:00",
       "retrieval_status": "fetched",
-      "attempted_at": "2026-10-30T17:36:41.751984+00:00"
+      "attempted_at": "2026-10-31T13:41:49.197025+00:00"
     },
     {
       "bank": "Zeta",
@@ -174,7 +174,7 @@
       "checked_at": null,
       "last_successful_fetch_at": null,
       "retrieval_status": "blocked",
-      "attempted_at": "2026-10-30T17:36:43.170116+00:00"
+      "attempted_at": "2026-10-31T13:41:50.616753+00:00"
     }
   ]
 }

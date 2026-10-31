@@ -1,19 +1,19 @@
 {
   "Sudameris": {
     "status": "partial",
-    "records": 346,
-    "attempted_at": "2026-10-30T17:25:13.331180+00:00",
+    "records": 347,
+    "attempted_at": "2026-10-31T13:32:46.072499+00:00",
     "checked_at": "2026-10-08T14:33:07.837064+00:00",
     "retrieval_status": "fetched",
-    "last_successful_fetch_at": "2026-10-30T17:25:13.331180+00:00",
-    "pending_records": 278,
-    "pending_items": 4,
+    "last_successful_fetch_at": "2026-10-31T13:32:46.072499+00:00",
+    "pending_records": 282,
+    "pending_items": 5,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
     "pending_counts_by_report": {
       "pending": 0,
       "skipped": 0,
       "import_issues": 0,
-      "sudameris_migration_failures": 4
+      "sudameris_migration_failures": 5
     },
     "evidence_paths": [
       "outputs/sudameris_migration_report.json"
@@ -21,11 +21,11 @@
     "coverage_complete": false
   },
   "Itaú": {
-    "status": "partial",
+    "status": "failed",
     "records": 548,
-    "attempted_at": "2026-10-30T17:30:05.837654+00:00",
+    "attempted_at": "2026-10-31T13:34:53.227579+00:00",
     "checked_at": "2026-10-17T02:07:38.378271+00:00",
-    "retrieval_status": "fetched",
+    "retrieval_status": "failed",
     "last_successful_fetch_at": "2026-10-30T17:30:05.837654+00:00",
     "pending_records": 4,
     "pending_items": 0,
@@ -36,15 +36,18 @@
       "import_issues": 0
     },
     "evidence_paths": [],
-    "coverage_complete": false
+    "coverage_complete": false,
+    "error_type": "CalledProcessError",
+    "failed_step": "scrapers/extract_itau.py",
+    "exit_code": 1
   },
   "BNF": {
     "status": "fetched",
     "records": 77,
-    "attempted_at": "2026-10-30T17:30:29.263217+00:00",
-    "checked_at": "2026-10-30T17:30:29.263217+00:00",
+    "attempted_at": "2026-10-31T13:35:22.605307+00:00",
+    "checked_at": "2026-10-31T13:35:22.605307+00:00",
     "retrieval_status": "fetched",
-    "last_successful_fetch_at": "2026-10-30T17:30:29.263217+00:00",
+    "last_successful_fetch_at": "2026-10-31T13:35:22.605307+00:00",
     "pending_records": 0,
     "pending_items": 0,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -60,11 +63,11 @@
   },
   "Continental": {
     "status": "fetched",
-    "records": 831,
-    "attempted_at": "2026-10-30T17:30:32.045718+00:00",
-    "checked_at": "2026-10-30T17:30:32.045718+00:00",
+    "records": 832,
+    "attempted_at": "2026-10-31T13:35:25.487159+00:00",
+    "checked_at": "2026-10-31T13:35:25.487159+00:00",
     "retrieval_status": "fetched",
-    "last_successful_fetch_at": "2026-10-30T17:30:32.045718+00:00",
+    "last_successful_fetch_at": "2026-10-31T13:35:25.487159+00:00",
     "pending_records": 0,
     "pending_items": 0,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -78,11 +81,11 @@
   },
   "Atlas": {
     "status": "fetched",
-    "records": 38,
-    "attempted_at": "2026-10-30T17:30:35.328161+00:00",
-    "checked_at": "2026-10-30T17:30:35.328161+00:00",
+    "records": 35,
+    "attempted_at": "2026-10-31T13:35:28.119387+00:00",
+    "checked_at": "2026-10-31T13:35:28.119387+00:00",
     "retrieval_status": "fetched",
-    "last_successful_fetch_at": "2026-10-30T17:30:35.328161+00:00",
+    "last_successful_fetch_at": "2026-10-31T13:35:28.119387+00:00",
     "pending_records": 0,
     "pending_items": 0,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -97,10 +100,10 @@
   "Coop. Universitaria": {
     "status": "partial",
     "records": 71,
-    "attempted_at": "2026-10-30T17:30:55.375204+00:00",
+    "attempted_at": "2026-10-31T13:35:49.269840+00:00",
     "checked_at": "2026-10-30T15:54:02.018269+00:00",
     "retrieval_status": "fetched",
-    "last_successful_fetch_at": "2026-10-30T17:30:55.375204+00:00",
+    "last_successful_fetch_at": "2026-10-31T13:35:49.269840+00:00",
     "pending_records": 0,
     "pending_items": 4,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -118,10 +121,10 @@
   "ueno bank": {
     "status": "partial",
     "records": 670,
-    "attempted_at": "2026-10-30T17:39:51.963922+00:00",
+    "attempted_at": "2026-10-31T13:45:50.153429+00:00",
     "checked_at": "2026-10-30T16:00:07.450814+00:00",
     "retrieval_status": "fetched",
-    "last_successful_fetch_at": "2026-10-30T17:39:51.963922+00:00",
+    "last_successful_fetch_at": "2026-10-31T13:45:50.153429+00:00",
     "pending_records": 312,
     "pending_items": 4,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -140,10 +143,10 @@
   "Familiar": {
     "status": "partial",
     "records": 414,
-    "attempted_at": "2026-10-30T17:24:14.713380+00:00",
+    "attempted_at": "2026-10-31T13:32:21.522893+00:00",
     "checked_at": "2026-10-30T15:46:38.443850+00:00",
     "retrieval_status": "fetched",
-    "last_successful_fetch_at": "2026-10-30T17:24:14.713380+00:00",
+    "last_successful_fetch_at": "2026-10-31T13:32:21.522893+00:00",
     "pending_records": 0,
     "pending_items": 87,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -159,18 +162,18 @@
   },
   "GNB": {
     "status": "partial",
-    "records": 480,
-    "attempted_at": "2026-10-30T17:55:40.890902+00:00",
+    "records": 478,
+    "attempted_at": "2026-10-31T13:30:15.811420+00:00",
     "checked_at": "2026-10-26T14:04:23.468427+00:00",
     "retrieval_status": "partial",
     "last_successful_fetch_at": "2026-10-26T14:04:23.468427+00:00",
     "pending_records": 0,
-    "pending_items": 3,
+    "pending_items": 5,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
     "pending_counts_by_report": {
       "pending": 3,
       "skipped": 0,
-      "import_issues": 3
+      "import_issues": 5
     },
     "evidence_paths": [
       "outputs/gnb_source_meta.json"
@@ -180,7 +183,7 @@
       {
         "id": 688,
         "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
-        "attempted_at": "2026-10-30T17:55:40.445547+00:00",
+        "attempted_at": "2026-10-31T13:30:15.208675+00:00",
         "reason": "document_fetch_failed",
         "error_type": "HTTPError",
         "http_status": 403
@@ -188,7 +191,7 @@
       {
         "id": 74,
         "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
-        "attempted_at": "2026-10-30T17:55:40.541188+00:00",
+        "attempted_at": "2026-10-31T13:30:15.454399+00:00",
         "reason": "document_fetch_failed",
         "error_type": "HTTPError",
         "http_status": 403
@@ -196,7 +199,7 @@
       {
         "id": 52,
         "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
-        "attempted_at": "2026-10-30T17:55:40.651038+00:00",
+        "attempted_at": "2026-10-31T13:30:15.555512+00:00",
         "reason": "document_fetch_failed",
         "error_type": "HTTPError",
         "http_status": 403
@@ -205,16 +208,16 @@
   },
   "Basa": {
     "status": "partial",
-    "records": 93,
-    "attempted_at": "2026-10-30T17:34:11.713857+00:00",
+    "records": 94,
+    "attempted_at": "2026-10-31T13:39:16.822149+00:00",
     "checked_at": null,
     "retrieval_status": "partial",
     "last_successful_fetch_at": null,
     "pending_records": 0,
-    "pending_items": 159,
+    "pending_items": 158,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
     "pending_counts_by_report": {
-      "pending": 159,
+      "pending": 158,
       "skipped": 0,
       "import_issues": 0
     },
@@ -230,7 +233,7 @@
   "Interfisa": {
     "status": "partial",
     "records": 163,
-    "attempted_at": "2026-10-30T17:35:57.499951+00:00",
+    "attempted_at": "2026-10-31T13:41:03.962642+00:00",
     "checked_at": null,
     "retrieval_status": "partial",
     "last_successful_fetch_at": null,
@@ -254,10 +257,10 @@
   "Bancop": {
     "status": "partial",
     "records": 68,
-    "attempted_at": "2026-10-30T17:36:22.756215+00:00",
+    "attempted_at": "2026-10-31T13:41:30.541227+00:00",
     "checked_at": null,
     "retrieval_status": "fetched",
-    "last_successful_fetch_at": "2026-10-30T17:36:22.756215+00:00",
+    "last_successful_fetch_at": "2026-10-31T13:41:30.541227+00:00",
     "pending_records": 0,
     "pending_items": 8,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -276,10 +279,10 @@
   "Solar": {
     "status": "partial",
     "records": 69,
-    "attempted_at": "2026-10-30T17:36:41.751984+00:00",
+    "attempted_at": "2026-10-31T13:41:49.197025+00:00",
     "checked_at": null,
     "retrieval_status": "fetched",
-    "last_successful_fetch_at": "2026-10-30T17:36:41.751984+00:00",
+    "last_successful_fetch_at": "2026-10-31T13:41:49.197025+00:00",
     "pending_records": 0,
     "pending_items": 7,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -298,7 +301,7 @@
   "Zeta": {
     "status": "blocked",
     "records": 0,
-    "attempted_at": "2026-10-30T17:36:43.170116+00:00",
+    "attempted_at": "2026-10-31T13:41:50.616753+00:00",
     "checked_at": null,
     "retrieval_status": "blocked",
     "last_successful_fetch_at": null,

@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 831
+Total de beneficios/comercios: 832
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -135,7 +135,7 @@ Total de beneficios/comercios: 831
 | Movil.com | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 07 de noviembre del 2026 | Coronel Oviedo |
 | Naila Center (Hachen Hermanos) | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de marzo de 2027 | Encarnación |
 | New Libano Electronics | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de mayo de 2027 | Encarnación |
-| Nissei | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre del 2026 | No especificado |
+| Nissei | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 | Parana Electronicos | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 10 de noviembre del 2026 | No especificado |
 | Premier Electronics | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 17 de septiembre de 2027 | Asunción |
 | Prime Shop | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 08 de julio de 2027 | Ciudad del Este |
@@ -550,7 +550,7 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 
-## Promociones especiales (12)
+## Promociones especiales (13)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -565,6 +565,7 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | La Almenas - Las Almenitas - Las Colinas - Campoalto - Torrefuerte | 6% de reintegro | Todos los días | Desde el 1 de diciembre de 2026 hasta el 31 de diciembre de 2026 | Todo el país |
 | La Almenas - Las Almenitas - Las Colinas - Campoalto - Torrefuerte | Hasta 12 cuotas sin intereses | Todos los días | Desde el 15 de octubre de 2026 hasta el 31 de diciembre de 2026 | Todo el país |
 | Las Hortensias - Cine | 50%; 50% de reintegro | Todos los días | Vigente hasta el 10 de junio del 2027 | Pilar |
+| Nissei - Cyber Day | Hasta 18 cuotas sin intereses | No especificado | Vigente hasta el 04 de noviembre de 2026 | Todo el país |
 | Puerto Liebig | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de marzo de 2027 | Asunción |
 
 ## Puma Flota (1)

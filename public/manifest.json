@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T17:55:52.341105+00:00",
-  "promotion_count": 4017,
+  "generated_at": "2026-10-31T13:46:27.755008+00:00",
+  "promotion_count": 4020,
   "banks": [
     "Atlas",
     "BNF",
@@ -1964,7 +1964,8 @@
     "33b947059095a68d": "366ff602b8b0681b",
     "d7a46b9fa11315f5": "02983aa1013f71f7",
     "e2fdc5643e1b86b9": "160e471981da476c",
-    "5360d35d41282860": "deeda48f861cb613"
+    "5360d35d41282860": "deeda48f861cb613",
+    "596130213dd0abbf": "287cc905ff41d436"
   },
   "favorite_unavailable": {
     "84714bfec7199316": {
@@ -2078,6 +2079,27 @@
       "merchant_name": "Tonina",
       "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/52",
       "last_known_ends_on": "2026-12-30"
+    },
+    "c4252ed48fc89156": {
+      "reason": "not_in_current_sources",
+      "bank": "Atlas",
+      "merchant_name": "Supermercados",
+      "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg",
+      "last_known_ends_on": null
+    },
+    "ca6027520aa6c007": {
+      "reason": "not_in_current_sources",
+      "bank": "Atlas",
+      "merchant_name": "Supermercados",
+      "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg",
+      "last_known_ends_on": null
+    },
+    "f26abf734094b7ce": {
+      "reason": "not_in_current_sources",
+      "bank": "Basa",
+      "merchant_name": "Repsur",
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_Repsur.pdf",
+      "last_known_ends_on": "2026-12-31"
     }
   },
   "schema_version": 2

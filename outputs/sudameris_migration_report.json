@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T17:25:13.259000+00:00",
+  "checked_at": "2026-10-31T13:32:45.990266+00:00",
   "campaigns": 46,
   "failures": [
     {
@@ -21,7 +21,12 @@
       "campaign": "ZONA NORTE",
       "url": "https://www.sudameris.com.py/personas/beneficios/zona-norte",
       "reason": "Multiple Sudameris documents require per-city scoped review: ['https://www.sudameris.com.py/descargas/documentos/concepcion-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/katuete-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/santa-rosa-del-aguaray-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/san-alberto-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/zona-norte-curuguaty']"
+    },
+    {
+      "campaign": "scoped_review",
+      "url": "https://www.sudameris.com.py/descargas/documentos/6ad238969b346325834826/B%26C-VEREDEADA-17-10-26.pdf",
+      "reason": "404 Client Error: Not Found for url: https://www.sudameris.com.py/descargas/documentos/6ad238969b346325834826/B%26C-VEREDEADA-17-10-26.pdf"
     }
   ],
-  "retained_unconfirmed": 278
+  "retained_unconfirmed": 282
 }

@@ -1,10 +1,10 @@
 ## Payback daily maintenance
 
-Catalog: 2026-10-30T17:55:52.341105+00:00 · 4017 records
+Catalog: 2026-10-31T13:46:27.755008+00:00 · 4020 records
 Data commit: allowed (partial coverage may remain)
 Health: attention required
 
-Records added: 1; modified: 480; removed: 2. Removed does not necessarily mean expired.
+Records added: 7; modified: 2789; removed: 4. Removed does not necessarily mean expired.
 
 - WARNING: GNB: no complete successful retrieval within 36 hours.
 - WARNING: GNB: partial; coverage is not complete.
@@ -12,7 +12,7 @@ Records added: 1; modified: 480; removed: 2. Removed does not necessarily mean e
 - WARNING: Familiar: partial; coverage is not complete.
 - WARNING: Sudameris: partial; coverage is not complete.
 - WARNING: Sudameris: no complete successful extraction within 72 hours.
-- WARNING: Itaú: partial; coverage is not complete.
+- WARNING: Itaú: failed; coverage is not complete.
 - WARNING: Itaú: no complete successful extraction within 72 hours.
 - WARNING: Coop. Universitaria: partial; coverage is not complete.
 - WARNING: ueno bank: partial; coverage is not complete.

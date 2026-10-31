@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-30T17:55:39.996772+00:00",
-  "total": 254,
+  "checkedAt": "2026-10-31T13:30:14.747973+00:00",
+  "total": 255,
   "cards": [
     {
       "id": 688,
@@ -291,24 +291,6 @@
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5245_doha-2026-web.png"
     },
     {
-      "id": 186,
-      "title": "Doña Angela",
-      "startDate": "2026-09-22",
-      "endDate": "2026-10-30",
-      "miniDescription": "20% de reintegro los jueves y viernes.",
-      "category": "Días GNB",
-      "lines": [
-        "20% de reintegro los jueves y viernes.",
-        "Del 24 de septiembre al 30 de octubre del 2026.",
-        "20% de reintegro para pagos con tarjetas de crédito Mastercard del Banco GNB Paraguay.",
-        "Tope de compra mensual: Gs. 800.000 (guaraníes ochocientos mil) por cuenta de tarjeta de crédito (incluye titulares y adicionales), el cual aplica en forma conjunta con todas las sucursales de lácteos, restaurantes y heladerías.",
-        "Los reintegros serán reflejados de manera automática en el extracto del cliente, en un período de 24 a 48hs hábiles luego de la compra.",
-        "No acumulable con otras promociones."
-      ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/3078_bases-y-condiciones-do%C3%B1a-angela-septiembre.pdf",
-      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/3077_do%C3%B1a-angela-2026-web.png"
-    },
-    {
       "id": 362,
       "title": "Champs Elysees",
       "startDate": "2026-05-17",
@@ -367,6 +349,27 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4919_bases-y-condiciones-el-negro-suplementos-octubre.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4920_el-negro-al-12-2025-web.png"
+    },
+    {
+      "id": 598,
+      "title": "Farmacenter",
+      "startDate": "2026-03-13",
+      "endDate": "2026-12-28",
+      "miniDescription": "Hasta 35% de descuento los días lunes + Hasta 3 cuotas sin intereses todos los días.",
+      "category": "Días GNB",
+      "lines": [
+        "Hasta 35% de descuento los días lunes + Hasta 3 cuotas sin intereses todos los días.",
+        "Del 2 de noviembre al 28 de diciembre del 2026.",
+        "35% de descuento en la categoría de Perfumería y otros productos para pagos con tarjetas de crédito Mastercard Black, Black Premier y Metalcard Premier. ( 20% Farmacenter directo en la caja + 15% Banco GNB en el reintegro).",
+        "30% de descuento en la categoría de Perfumería y otros productos para pagos con tarjetas de crédito Mastercard Clásica y Oro ( 20% Farmacenter directo en la caja + 10% Banco GNB en el reintegro).",
+        "30% de descuento en la categoría de Medicamentos para pagos con tarjetas de crédito Mastercard Black, Black Premier y Metalcard Premier. ( 15% Farmacenter directo en la caja + 15% Banco GNB en el reintegro).",
+        "25% de descuento en la categoría de Medicamentos para pagos con tarjetas de crédito Mastercard Clásica y Oro. ( 15% Farmacenter directo en la caja + 10% Banco GNB en el reintegro).",
+        "Hasta 3 cuotas sin intereses para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Tope de compra mensual: Gs. 1.000.000 (guaraníes un millón) por cuenta de tarjeta de crédito (incluye titulares y adicionales), el cual aplica en forma conjunta a todos los locales del comercio.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter-oct.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5087_farmacenter-2026-web.png"
     },
     {
       "id": 614,
@@ -916,26 +919,6 @@
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4887_ahorramas-2025-web.png"
     },
     {
-      "id": 528,
-      "title": "Librería Emanuel",
-      "startDate": "2026-04-10",
-      "endDate": "2026-10-30",
-      "miniDescription": "20% de descuento los días viernes + Hasta 6 cuotas sin intereses.",
-      "category": "Días GNB",
-      "lines": [
-        "20% de descuento los días viernes + Hasta 6 cuotas sin intereses.",
-        "Del 17 de abril al 30 de octubre del 2026.",
-        "20% de descuento para pagos con tarjetas de crédito Mastercard Clásicas, Oro, Black, Black Premier y Metalcard Premier del Banco GNB Paraguay.",
-        "Hasta 6 cuotas sin intereses para pagos con tarjetas de crédito del Banco GNB Paraguay",
-        "El 10% de descuento será aplicado por el comercio en caja/mostrador al momento del pago y el 10% restante será vía reintegro en el extracto al cierre o podrá visualizarlo en su app en los movimientos mensuales de su tarjeta. Para el fraccionamiento de las cuotas el cliente deberá solicitar/seleccionar la cantidad de cuotas que desea al momento del pago. Las cuotas se verán reflejadas en el extracto del cliente.",
-        "Tope de compra mensual: Gs. 500.000 (guaraníes quinientos mil) por cuenta de tarjeta de crédito Incluye titulares y adicionales.",
-        "No aplica para pagos realizados a través de plataformas de terceros y/o e-commerce.",
-        "No acumulable con otras promociones."
-      ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4894_bases-y-condiciones-librer%C3%ADa-emanuel.pdf",
-      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4895_emanuel-10-2026-web.png"
-    },
-    {
       "id": 533,
       "title": "Meyer Lab",
       "startDate": "2025-10-28",
@@ -1462,6 +1445,41 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5387_bases-y-condiciones-moni-schuss.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5388_moni-schuss-2026-web.png"
+    },
+    {
+      "id": 690,
+      "title": "Family Day – Cristo Rey",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-31",
+      "miniDescription": "20% de reintegro en el patio de comidas.",
+      "category": "Días GNB",
+      "lines": [
+        "20% de reintegro en el patio de comidas.",
+        "Sábado 31 de octubre del 2026.",
+        "20% de reintegro en el patio de comidas para pagos con tarjetas de crédito y prepagas Mastercard del Banco GNB Paraguay.",
+        "Tope de compra por periodo de la promoción: Gs.250.000 (guaraníes doscientos cincuenta mil) por cuenta de tarjeta de crédito (Incluye titulares y adicionales) y/o prepaga para pagos con tarjetas de crédito y/o prepagas Banco GNB Mastercard.",
+        "La venta será centralizada con caja única . El beneficio aplicará únicamente a las compras efectuadas en la cantina administrada por la Asociación de Padres durante el evento",
+        "No participan de la promoción las tarjetas débito y crédito Visa, de afinidades Empresariales, Corporativas, Gift Card, Gourmet Card."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5422_bases-y-condiciones-family-day-cristo-rey.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5423_img-family-day.png"
+    },
+    {
+      "id": 691,
+      "title": "Family Day – SIL",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-31",
+      "miniDescription": "20% de reintegro en el patio de comidas.",
+      "category": "Días GNB",
+      "lines": [
+        "20% de reintegro en el patio de comidas.",
+        "Sábado 31 de octubre del 2026.",
+        "20% de reintegro en el patio de comidas para pagos con tarjetas de crédito y prepagas Mastercard del Banco GNB Paraguay.",
+        "Tope de compra por periodo de la promoción: Gs.250.000 (guaraníes doscientos cincuenta mil) por cuenta de tarjeta de crédito (Incluye titulares y adicionales) y/o prepaga para pagos con tarjetas de crédito y/o prepagas Banco GNB Mastercard.",
+        "No participan de la promoción las tarjetas débito y crédito Visa, de afinidades Empresariales, Corporativas, Gift Card, Gourmet Card."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5424_bases-y-condiciones-family-day-sil.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5425_img-torneo-de-integraci%C3%B3n.png"
     },
     {
       "id": 41,

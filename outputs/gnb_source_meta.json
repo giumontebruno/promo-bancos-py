@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-10-30T17:55:39.996772+00:00",
-  "coverage": "254 official cards extracted from GNB's public API; every card retains its official detail and terms links",
-  "records": 480,
+  "checked_at": "2026-10-31T13:30:14.747973+00:00",
+  "coverage": "255 official cards extracted from GNB's public API; every card retains its official detail and terms links",
+  "records": 478,
   "reviewed_documents": [],
   "document_failures": [
     {
       "id": 688,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
-      "attempted_at": "2026-10-30T17:55:40.445547+00:00",
+      "attempted_at": "2026-10-31T13:30:15.208675+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -15,7 +15,7 @@
     {
       "id": 74,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
-      "attempted_at": "2026-10-30T17:55:40.541188+00:00",
+      "attempted_at": "2026-10-31T13:30:15.454399+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -23,7 +23,7 @@
     {
       "id": 52,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
-      "attempted_at": "2026-10-30T17:55:40.651038+00:00",
+      "attempted_at": "2026-10-31T13:30:15.555512+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -33,7 +33,7 @@
     {
       "id": 688,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
-      "attempted_at": "2026-10-30T17:55:40.445547+00:00",
+      "attempted_at": "2026-10-31T13:30:15.208675+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -41,7 +41,7 @@
     {
       "id": 74,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
-      "attempted_at": "2026-10-30T17:55:40.541188+00:00",
+      "attempted_at": "2026-10-31T13:30:15.454399+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -49,7 +49,7 @@
     {
       "id": 52,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
-      "attempted_at": "2026-10-30T17:55:40.651038+00:00",
+      "attempted_at": "2026-10-31T13:30:15.555512+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -60,7 +60,7 @@
     {
       "id": 688,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
-      "attempted_at": "2026-10-30T17:55:40.445547+00:00",
+      "attempted_at": "2026-10-31T13:30:15.208675+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -68,7 +68,7 @@
     {
       "id": 74,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
-      "attempted_at": "2026-10-30T17:55:40.541188+00:00",
+      "attempted_at": "2026-10-31T13:30:15.454399+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -76,7 +76,7 @@
     {
       "id": 52,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
-      "attempted_at": "2026-10-30T17:55:40.651038+00:00",
+      "attempted_at": "2026-10-31T13:30:15.555512+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -103,6 +103,16 @@
       "name": "Geox",
       "reason": "review_document_unverified",
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf"
+    },
+    {
+      "id": 690,
+      "name": "Family Day – Cristo Rey",
+      "reason": "day_unknown_0"
+    },
+    {
+      "id": 691,
+      "name": "Family Day – SIL",
+      "reason": "day_unknown_0"
     },
     {
       "id": 52,
