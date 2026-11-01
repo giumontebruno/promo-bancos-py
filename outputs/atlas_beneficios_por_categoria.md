@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 35
+Total de beneficios: 23
 
 ## Bienestar
 
@@ -37,7 +37,6 @@ Total de beneficios: 35
 | L'uomo | 6 cuotas sin intereses | Todos los días | Desde 2026-06-01 hasta 2026-12-31 |
 | Pinedo Shopping | 20% de descuento; 3 cuotas sin intereses | Todos los viernes | El descuento se realiza en caja. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica para tiendas adheridas a la promoci |
 | delSol | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Promoción válida todos los días para tarjetas afinidad delSol en todos |
-| oBoticário | 25% de reintegro; 20% de reintegro; 12 cuotas sin intereses | 30 y 31 de octubre | Desde 2026-10-30 hasta 2026-10-31 |
 
 ## Hogar
 
@@ -50,19 +49,8 @@ Total de beneficios: 35
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Cecconello | 20% de descuento; 10 cuotas sin intereses | 15 al 31 de octubre | Descuento aplicado en caja hasta 20%. La cantidad de cuotas se solicita al momento de la compra, hasta 10 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Beneficio exclusivo para con |
-| Champs Elysées | 25% de reintegro; 20% de reintegro; 12 cuotas sin intereses | 30 y 31 de octubre | Desde 2026-10-30 hasta 2026-10-31 |
-| Cortefiel | 25% de reintegro; 20% de reintegro; 12 cuotas sin intereses | 30 y 31 de octubre | Desde 2026-10-30 hasta 2026-10-31 |
-| Di Valentini | 15% de descuento; 10 cuotas sin intereses | 15 al 31 de octubre | Descuento aplicado en caja hasta 15%. La cantidad de cuotas se solicita al momento de la compra, hasta 10 cuotas sin intereses para compras a partir de Gs. 200.000 a través de la Red Infonet. Beneficio exclusivo para con |
-| Forever 21 | 25% de reintegro; 20% de reintegro; 12 cuotas sin intereses | 30 y 31 de octubre | Desde 2026-10-30 hasta 2026-10-31 |
 | H&M | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet .Válido para las sucursales de Paseo La Galería, Distrito Perseverancia y su E-  |
-| ISDIN | 25% de reintegro; 20% de reintegro; 12 cuotas sin intereses | 30 y 31 de octubre | Desde 2026-10-30 hasta 2026-10-31 |
-| Jack & Jones | 25% de reintegro; 20% de reintegro; Hasta 12 cuotas sin intereses | 30 y 31 de octubre | Desde 2026-10-30 hasta 2026-10-31 |
-| Mango | 25% de reintegro; 20% de reintegro; 12 cuotas sin intereses | 30 y 31 de octubre | Desde 2026-10-30 hasta 2026-10-31 |
 | Miércoles Mariscal | 20% de descuento; Hasta 3 cuotas sin intereses | Todos los Miércoles | El descuento se realiza en caja. Aplica para tiendas adheridas a la promoción y pagos realizados a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a  |
-| Pedro del Hierro | 25% de reintegro; 20% de reintegro; 12 cuotas sin intereses | 30 y 31 de octubre | Desde 2026-10-30 hasta 2026-10-31 |
-| Springfield | 25% de reintegro; 20% de reintegro; 12 cuotas sin intereses | 30 y 31 de octubre | Desde 2026-10-30 hasta 2026-10-31 |
-| women'secret | 25% de reintegro; 20% de reintegro; 12 cuotas sin intereses | 30 y 31 de octubre | Desde 2026-10-30 hasta 2026-10-31 |
 
 ## Supermercados
 

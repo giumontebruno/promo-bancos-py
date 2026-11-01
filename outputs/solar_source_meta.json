@@ -125,7 +125,7 @@
     },
     {
       "id": 71,
-      "status": "no_remaining_eligible_dates: Vigencia formal31/10 pero solo lunes; ultimo26/10. No promover como disponible hoy o futura."
+      "status": "expired"
     }
   ],
   "skipped": [
@@ -155,12 +155,12 @@
     },
     {
       "id": 71,
-      "reason": "no_remaining_eligible_dates: Vigencia formal31/10 pero solo lunes; ultimo26/10. No promover como disponible hoy o futura."
+      "reason": "expired"
     }
   ],
   "coverage_complete": false,
   "reason": "All known catalog campaigns individually reviewed; expired/ineligible and specific ambiguous campaigns excluded. Changed sources fail closed.",
   "bank": "solar",
-  "attempted_at": "2026-10-31T13:41:49.154268+00:00",
+  "attempted_at": "2026-11-01T14:27:28.076300+00:00",
   "rows": 69
 }
