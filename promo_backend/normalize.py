@@ -298,6 +298,8 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         normalized["source_purchase_validity"] = first(row, "Vigencia de compras verificada")
     if row.get("Topes revisados por variante") == "yes":
         normalized["limits_reviewed_for_variant"] = True
+    if first(row, "Retenido hasta UTC"):
+        normalized["source_retention_expires_at"] = first(row, "Retenido hasta UTC")
     if first(row, "Estado verificacion"):
         normalized["source_verification"] = first(row, "Estado verificacion")
     for field, column in [('variant_review_reason', 'Revisión de variantes'), ('original_source_text', 'Texto original de la fuente')]:

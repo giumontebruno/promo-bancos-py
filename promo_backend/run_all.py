@@ -82,7 +82,7 @@ def build_source_status(rows, prior, meta=None, migration=None, now=None):
               'pending_items_semantics': 'largest_report_count_not_deduplicated_total',
               'pending_counts_by_report': pending_counts,
               'evidence_paths': meta.get('evidence_paths', []), 'coverage_complete': not incomplete}
-    for key in ('discovered', 'catalog_discovered', 'fetched', 'fetch_errors', 'reason', 'cache_replay'):
+    for key in ('discovered', 'catalog_discovered', 'fetched', 'fetch_errors', 'reason', 'cache_replay', 'retained_rows', 'retained_documents', 'retention_max_hours'):
         if key in meta:
             result[key] = meta[key]
     return result
@@ -135,7 +135,7 @@ def main():
             prior_csv_rows = list(csv.DictReader(io.StringIO(backups.get(output, b'').decode('utf-8-sig'))))
             explicit_new_empty = (prefix in NEW_SOURCE_PREFIXES and not prior_csv_rows and not previous.get(bank, {}).get('records')
                                   and source['status'] in {'blocked', 'partial'} and source['coverage_complete'] is False)
-            if not rows and not explicit_new_empty:
+            if not rows and not explicit_new_empty and not (prefix == 'basa' and meta.get('authoritative_export') is True):
                 raise ValueError('Empty source output')
             status[bank] = source
             if source['status'] != 'fetched':

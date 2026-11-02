@@ -20,6 +20,7 @@ import pdfplumber
 ROOT = Path(__file__).resolve().parents[1]
 MAX_DOCUMENTS = 750
 MAX_BYTES = 12 * 1024 * 1024
+RETENTION_MAX_AGE = timedelta(hours=72)
 MONTHS = dict(zip(('enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre').split(), range(1, 13)))
 
 
@@ -137,6 +138,58 @@ def row(bank, item, text, benefit, cards, day, start, end, caps, variant='base',
             'Verificado UTC': item.get('fetched_at', ''), 'Topes revisados por variante': 'yes'}
 
 
+def transient_retrieval_error(exc):
+    """Only unavailable transport, never a new/changed or unparseable document."""
+    if isinstance(exc, (requests.Timeout, requests.ConnectionError)):
+        return True
+    return (isinstance(exc, requests.HTTPError) and exc.response is not None
+            and (exc.response.status_code == 429 or 500 <= exc.response.status_code < 600))
+
+
+def retain_verified_rows(item, previous_rows, previous_documents, today, now):
+    """Fail closed; a current index entry is not a fresh verification of its PDF.
+
+    A 72-hour outage grace period is measured from the ORIGINAL successful
+    download, never from this attempt or a previous retention. Expiry wins.
+    """
+    previous = next((d for d in previous_documents
+                     if (d.get('name'), d.get('url')) == (item['name'], item['url'])), None)
+    if not previous:
+        return []
+    digest = previous.get('sha256') or previous.get('retained_sha256')
+    stamp = previous.get('fetched_at') or previous.get('retained_fetched_at')
+    if not digest or not re.fullmatch(r'[a-f0-9]{64}', digest) or not stamp:
+        return []
+    # A changed/withheld document must never reuse older reviewed conditions.
+    if not (previous.get('state', '').startswith('published') or previous.get('state') == 'retained_transient_failure'):
+        return []
+    try:
+        checked = datetime.fromisoformat(stamp)
+        if checked.tzinfo is None or not timedelta(0) <= now - checked <= RETENTION_MAX_AGE:
+            return []
+    except (ValueError, TypeError):
+        return []
+    retained = []
+    for value in previous_rows:
+        if value.get('URL detalle') != item['url']:
+            continue
+        if (value.get('Estado verificacion') != 'official_document'
+                or value.get('SHA256 documento') != digest or value.get('Verificado UTC') != stamp):
+            continue
+        end = re.search(r'(?:hasta|Hasta) (\d{4}-\d{2}-\d{2})$', value.get('Vigencia', ''))
+        try:
+            if not end or date.fromisoformat(end[1]) < today:
+                continue
+        except ValueError:
+            continue
+        retained.append({**value, 'Retenido hasta UTC': (checked + RETENTION_MAX_AGE).isoformat()})
+    if retained:
+        item.update(retained_sha256=digest, retained_fetched_at=stamp,
+                    retention_expires_at=(checked + RETENTION_MAX_AGE).isoformat(),
+                    retrieval='retained_after_transient_failure')
+    return retained
+
+
 def run(bank, page, parser, *, cache=None, html=None, today=None):
     today = today or datetime.now(timezone(timedelta(hours=-3))).date()
     fetched_at = datetime.now(timezone.utc).isoformat()
@@ -146,6 +199,14 @@ def run(bank, page, parser, *, cache=None, html=None, today=None):
     work.mkdir(parents=True, exist_ok=True)
     (work / 'index.html').write_text(html, encoding='utf-8')
     cache = Path(cache) if cache else None
+    target = ROOT / 'outputs' / f'{bank}_beneficios_por_categoria.csv'
+    meta_path = ROOT / 'outputs' / f'{bank}_source_meta.json'
+    # Opt in only the reviewed Basa integration; no unreviewed bank-wide fallback.
+    previous_rows, previous_documents = [], []
+    if bank == 'basa' and target.exists() and meta_path.exists():
+        with target.open(encoding='utf-8-sig', newline='') as stream:
+            previous_rows = list(csv.DictReader(stream))
+        previous_documents = json.loads(meta_path.read_text(encoding='utf-8')).get('documents', [])
     def get(item):
         try:
             official_url(item['url'], page)
@@ -165,7 +226,16 @@ def run(bank, page, parser, *, cache=None, html=None, today=None):
             rows, state = parser(item, text, today)
             return item, rows, state
         except Exception as exc:
-            return item, [], 'fetch_or_parse_error: ' + str(exc)[:200]
+            state = 'fetch_or_parse_error: ' + str(exc)[:200]
+            # If new bytes arrived, even an apparently transient later failure
+            # cannot validate the old conditions. Never retain in that case.
+            if 'sha256' not in item and transient_retrieval_error(exc):
+                retained = retain_verified_rows(item, previous_rows, previous_documents,
+                                                today, datetime.fromisoformat(fetched_at))
+                if retained:
+                    item['retrieval_error'] = state
+                    return item, retained, 'retained_transient_failure'
+            return item, [], state
     # The index is finite. Three concurrent requests; no recursion, logins or retries.
     rows, states = [], []
     with ThreadPoolExecutor(max_workers=3) as pool:
@@ -177,21 +247,27 @@ def run(bank, page, parser, *, cache=None, html=None, today=None):
             'fetched': len({x['url'] for x in states if 'sha256' in x}), 'fetched_records': sum('sha256' in x for x in states), 'published_rows': len(rows), 'published_documents': sum(x['published_rows'] > 0 for x in states),
             'native_text_documents': len({x['url'] for x in states if 'native_text_sha256' in x}),
             'fetch_errors': len({x['url'] for x in states if 'sha256' not in x}),
+            'retained_rows': sum(x['published_rows'] for x in states if x['state'] == 'retained_transient_failure'),
+            'retained_documents': sum(x['state'] == 'retained_transient_failure' for x in states),
+            'retention_max_hours': 72 if bank == 'basa' else 0,
             'expired': sum(x['state'] == 'expired' for x in states),
             'pending': sum(x['state'] not in ('published', 'expired') for x in states),
             'documents': states}
     meta['published_unconfirmed_rows'] = sum(item.get('Estado verificacion') == 'unconfirmed' for item in rows)
     meta['published_confirmed_rows'] = len(rows) - meta['published_unconfirmed_rows']
     meta['status'] = 'partial' if meta['pending'] else 'fetched'
+    # Completed index evaluation can authoritatively withhold every Basa row.
+    # Do not let the runner restore expired or beyond-grace records on empty.
+    meta['authoritative_export'] = bank == 'basa'
     outputs = ROOT / 'outputs'; outputs.mkdir(exist_ok=True)
     (outputs / f'{bank}_source_meta.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding='utf-8')
-    if not rows:
+    if not rows and bank != 'basa':
         raise RuntimeError('No publishable verified documents; previous CSV preserved; inspect source meta')
     for item in rows:
         item['URL fuente actual'] = page
     target = outputs / f'{bank}_beneficios_por_categoria.csv'
     temp = target.with_suffix('.csv.tmp')
-    fields = list(dict.fromkeys(key for item in rows for key in item))
+    fields = list(dict.fromkeys(key for item in rows for key in item)) or ['Banco', 'Comercio/Promoción', 'URL detalle']
     with temp.open('w', encoding='utf-8-sig', newline='') as stream:
         writer = csv.DictWriter(stream, fieldnames=fields); writer.writeheader(); writer.writerows(rows)
     temp.replace(target)

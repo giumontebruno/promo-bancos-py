@@ -466,6 +466,8 @@ function getCardValidity(promo) {
 
 function isActivePromotion(promo) {
   if (promo.source_verification === "unconfirmed") return false;
+  // A transport outage grace period must expire even if this snapshot stays online.
+  if (promo.source_retention_expires_at && !(Date.parse(promo.source_retention_expires_at) > Date.now())) return false;
   if (promo.terms?.conflicting_dates) return false;
   const today = getDateTimeFormatter("en-CA", { timeZone: "America/Asuncion" }).format(new Date());
   if (promo.terms?.starts_on && promo.terms.starts_on > today) return false;

@@ -7,8 +7,8 @@
   "unique_documents": 226,
   "fetched": 216,
   "fetched_records": 216,
-  "published_rows": 92,
-  "published_documents": 67,
+  "published_rows": 95,
+  "published_documents": 70,
   "native_text_documents": 216,
   "fetch_errors": 10,
   "expired": 2,
@@ -701,8 +701,15 @@
       "caption": "",
       "category": "Sin categoría",
       "key": "8898ca009760a2b1",
-      "state": "fetch_or_parse_error: HTTPSConnectionPool(host='www.bancobasa.com.py', port=443): Read timed out.",
-      "published_rows": 0
+      "state": "retained_transient_failure",
+      "published_rows": 1,
+      "retained_sha256": "0b5f50e830cc5154534c557e1fad9c9097752a95c058e17bb048ba97a3a88dc4",
+      "retained_fetched_at": "2026-10-31T13:36:45.026512+00:00",
+      "retention_expires_at": "2026-11-03T13:36:45.026512+00:00",
+      "retrieval": "retained_after_transient_failure",
+      "retrieval_error": "fetch_or_parse_error: HTTPSConnectionPool(host='www.bancobasa.com.py', port=443): Read timed out.",
+      "recovery_evidence_commit": "7afe7a471261bf6836d1d3f1fc9e345045b9f388",
+      "recovery_note": "Reconstructed exact last verified source row after previous partial CSV overwrite; pending current-index refresh. Original verification timestamp preserved."
     },
     {
       "name": "Cementerio privado Jardín Paraíso",
@@ -1560,8 +1567,15 @@
       "caption": "",
       "category": "Sin categoría",
       "key": "c4ab4608ad01518f",
-      "state": "fetch_or_parse_error: HTTPSConnectionPool(host='www.bancobasa.com.py', port=443): Read timed out.",
-      "published_rows": 0
+      "state": "retained_transient_failure",
+      "published_rows": 1,
+      "retained_sha256": "70a0cead3f301017e85351c063596e712a79ba79344e0cb547357f09318f36b0",
+      "retained_fetched_at": "2026-10-31T13:37:38.955721+00:00",
+      "retention_expires_at": "2026-11-03T13:37:38.955721+00:00",
+      "retrieval": "retained_after_transient_failure",
+      "retrieval_error": "fetch_or_parse_error: HTTPSConnectionPool(host='www.bancobasa.com.py', port=443): Read timed out.",
+      "recovery_evidence_commit": "7afe7a471261bf6836d1d3f1fc9e345045b9f388",
+      "recovery_note": "Reconstructed exact last verified source row after previous partial CSV overwrite; pending current-index refresh. Original verification timestamp preserved."
     },
     {
       "name": "La hora de las compras",
@@ -1712,8 +1726,15 @@
       "caption": "",
       "category": "Sin categoría",
       "key": "d5cd65c57edb5ebd",
-      "state": "fetch_or_parse_error: HTTPSConnectionPool(host='www.bancobasa.com.py', port=443): Read timed out.",
-      "published_rows": 0
+      "state": "retained_transient_failure",
+      "published_rows": 1,
+      "retained_sha256": "911c039e3f03fc9e7b91910cfb27cdc80f2d771fdb9224b42079cd2db6f7fa9b",
+      "retained_fetched_at": "2026-10-31T13:37:48.918250+00:00",
+      "retention_expires_at": "2026-11-03T13:37:48.918250+00:00",
+      "retrieval": "retained_after_transient_failure",
+      "retrieval_error": "fetch_or_parse_error: HTTPSConnectionPool(host='www.bancobasa.com.py', port=443): Read timed out.",
+      "recovery_evidence_commit": "7afe7a471261bf6836d1d3f1fc9e345045b9f388",
+      "recovery_note": "Reconstructed exact last verified source row after previous partial CSV overwrite; pending current-index refresh. Original verification timestamp preserved."
     },
     {
       "name": "Mega Electrónicos",
@@ -2914,6 +2935,10 @@
     }
   ],
   "published_unconfirmed_rows": 0,
-  "published_confirmed_rows": 92,
-  "status": "partial"
+  "published_confirmed_rows": 95,
+  "status": "partial",
+  "retained_rows": 3,
+  "retained_documents": 3,
+  "retention_max_hours": 72,
+  "reconciled_at": "2026-11-02T04:18:22.122261+00:00"
 }
