@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-01T14:32:51.664715+00:00",
-  "input_count": 3405,
-  "promotion_count": 4044,
+  "generated_at": "2026-11-02T04:35:21.869216+00:00",
+  "input_count": 3408,
+  "promotion_count": 4047,
   "duplicates_removed": -639,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -1207,7 +1207,7 @@
     "Atlas": 41,
     "BNF": 77,
     "Bancop": 68,
-    "Basa": 92,
+    "Basa": 95,
     "Continental": 922,
     "Coop. Universitaria": 72,
     "Familiar": 414,
@@ -1219,7 +1219,7 @@
     "ueno bank": 693
   },
   "issue_counts": {
-    "limits_unconfirmed": 434,
+    "limits_unconfirmed": 437,
     "validity_unconfirmed": 27,
     "multiple_purchase_limits": 333,
     "source_amount_conflict": 19,
@@ -1651,6 +1651,15 @@
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Centro%20del%20audifono.pdf"
     },
     {
+      "id": "8ecd05d8dd1dd237",
+      "bank": "Basa",
+      "merchant": "Chacomer",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Chacomer%20Automotores.pdf"
+    },
+    {
       "id": "ee669c59506d88f9",
       "bank": "Basa",
       "merchant": "Colegio Gimnasio del Saber",
@@ -1732,6 +1741,15 @@
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/genz.pdf"
     },
     {
+      "id": "7e5b9d516e0b9416",
+      "bank": "Basa",
+      "merchant": "La casa Vro",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_La%20casa%20vro.pdf"
+    },
+    {
       "id": "f27a05dde5348381",
       "bank": "Basa",
       "merchant": "La hora de las compras",
@@ -1757,6 +1775,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_Mega%20star.pdf"
+    },
+    {
+      "id": "61eb54851b8eda7d",
+      "bank": "Basa",
+      "merchant": "Master Shop",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/master%20shop.pdf"
     },
     {
       "id": "024523329ec1b30b",

@@ -205,16 +205,16 @@
   },
   "Basa": {
     "status": "partial",
-    "records": 92,
-    "attempted_at": "2026-11-01T14:24:42.603782+00:00",
+    "records": 95,
+    "attempted_at": "2026-11-02T04:35:15.276898+00:00",
     "checked_at": null,
     "retrieval_status": "partial",
     "last_successful_fetch_at": null,
     "pending_records": 0,
-    "pending_items": 158,
+    "pending_items": 160,
     "pending_items_semantics": "largest_report_count_not_deduplicated_total",
     "pending_counts_by_report": {
-      "pending": 158,
+      "pending": 160,
       "skipped": 0,
       "import_issues": 0
     },
@@ -223,9 +223,12 @@
     ],
     "coverage_complete": false,
     "discovered": 226,
-    "fetched": 216,
-    "fetch_errors": 10,
-    "cache_replay": false
+    "fetched": 212,
+    "fetch_errors": 14,
+    "cache_replay": false,
+    "retained_rows": 5,
+    "retained_documents": 5,
+    "retention_max_hours": 72
   },
   "Interfisa": {
     "status": "partial",

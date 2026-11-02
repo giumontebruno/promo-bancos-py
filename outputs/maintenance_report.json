@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-01T14:32:52.629Z",
+  "checked_at": "2026-11-02T04:35:22.700Z",
   "safe_to_commit": true,
   "healthy": false,
   "errors": [],
@@ -27,12 +27,12 @@
     "Zeta: blocked; coverage is not complete.",
     "Zeta: no complete successful extraction within 72 hours."
   ],
-  "catalog_generated_at": "2026-11-01T14:32:51.664715+00:00",
-  "records": 4044,
+  "catalog_generated_at": "2026-11-02T04:35:21.869216+00:00",
+  "records": 4047,
   "changes": {
-    "added": 348,
-    "removed": 324,
-    "modified": 2582
+    "added": 3,
+    "removed": 0,
+    "modified": 92
   },
   "sources": [
     {
@@ -69,7 +69,7 @@
       "bank": "Itaú",
       "status": "partial",
       "records": 598,
-      "previous_records": 593,
+      "previous_records": 598,
       "checked_at": "2026-10-17T02:07:38.378271+00:00",
       "last_successful_fetch_at": "2026-11-01T14:18:49.299597+00:00",
       "retrieval_status": "fetched",
@@ -99,7 +99,7 @@
       "bank": "Atlas",
       "status": "fetched",
       "records": 41,
-      "previous_records": 43,
+      "previous_records": 41,
       "checked_at": "2026-11-01T14:19:28.655034+00:00",
       "last_successful_fetch_at": "2026-11-01T14:19:28.655034+00:00",
       "retrieval_status": "fetched",
@@ -119,7 +119,7 @@
       "bank": "ueno bank",
       "status": "fetched",
       "records": 693,
-      "previous_records": 670,
+      "previous_records": 693,
       "checked_at": "2026-11-01T14:32:18.310619+00:00",
       "last_successful_fetch_at": "2026-11-01T14:32:18.310619+00:00",
       "retrieval_status": "fetched",
@@ -128,12 +128,12 @@
     {
       "bank": "Basa",
       "status": "partial",
-      "records": 92,
-      "previous_records": 94,
+      "records": 95,
+      "previous_records": 92,
       "checked_at": null,
       "last_successful_fetch_at": null,
       "retrieval_status": "partial",
-      "attempted_at": "2026-11-01T14:24:42.603782+00:00"
+      "attempted_at": "2026-11-02T04:35:15.276898+00:00"
     },
     {
       "bank": "Interfisa",
