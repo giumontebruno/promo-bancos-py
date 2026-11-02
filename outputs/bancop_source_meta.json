@@ -3,6 +3,11 @@
   "catalog_discovered": 60,
   "skipped": [
     {
+      "id": "550",
+      "title": "OktoberAFAPFEST",
+      "reason": "expired"
+    },
+    {
       "id": "551",
       "title": "MASTERCLASS CON FACUNDO DE SALTERAIN",
       "reason": "new_campaign_requires_review"
@@ -46,6 +51,6 @@
   "coverage_complete": false,
   "reason": "All 58 initial cards individually reviewed. Missing-year and wrong-merchant documents quarantined; changed/new campaigns require review.",
   "bank": "bancop",
-  "attempted_at": "2026-11-01T14:27:10.260282+00:00",
-  "rows": 68
+  "attempted_at": "2026-11-02T17:10:30.441867+00:00",
+  "rows": 66
 }

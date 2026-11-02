@@ -2,7 +2,13 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 442
+Total de beneficios: 443
+
+## Alemania Cell
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Alemania Cell | 15 Cuotas sin intereses; Hasta 15 cuotas sin intereses. | No especificado | 2025-10-01 hasta 2026-11-30 |
 
 ## American Express
 
@@ -123,12 +129,6 @@ Total de beneficios: 442
 | JD ELECTRODOMESTICOS | 10 % 10 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-08-08 hasta 2026-12-31 |
 | La tienda de Rosita | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica jueves, viernes y sábado | 2025-08-18 hasta 2026-12-31 |
 | RODRIGUEZ GRAD | 10 % 10 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-08-08 hasta 2026-12-31 |
-
-## El Cafe de Aca
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| El Café de aca | 20 %; Tenes 20% de reintegro | sábado a domingo | 2025-10-06 hasta 2026-12-31 |
 
 ## Encarnación
 
@@ -272,6 +272,7 @@ Total de beneficios: 442
 | Columbia | 10 Cuotas sin intereses 25 %; Tenés 25% ahorro y hasta 10 cuotas sin intereses. Aplica los jueves. | Aplica los jueves | 2025-03-20 hasta 2026-12-31 |
 | Condor | 15 % 10 Cuotas sin intereses; 15% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2026-03-03 hasta 2026-12-31 |
 | Coquetas legacy | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
+| El Café de aca | 20 %; Tenes 20% de reintegro | sábado a domingo | 2025-10-06 hasta 2026-12-31 |
 | Estudio Barcelona | 10 Cuotas sin intereses 10 %; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-07-01 hasta 2026-12-31 |
 | Gilardini | 15 % 6 Cuotas sin intereses; 15% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-11-30 |
 | Golden Closet | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
@@ -302,6 +303,7 @@ Total de beneficios: 442
 | Plaza Hogar | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-01-28 hasta 2026-12-30 |
 | Pulsak | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-04-16 hasta 2026-12-17 |
 | Puma | 20 Pago con Amex 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2026-01-01 hasta 2026-12-31 |
+| Quineo Warehouse | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. Aplica los viernes. | Aplica los viernes | 2025-10-04 hasta 2026-12-31 |
 | Rajomar | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | Rubens | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | Sanycer Boutique | 10 Cuotas sin intereses 42 %; 42% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-06-02 hasta 2026-12-31 |
@@ -380,12 +382,6 @@ Total de beneficios: 442
 |---|---|---|---|
 | AVENTURA PARK | 10 % 10 Cuotas sin intereses; Tenés 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2018-01-01 hasta 2027-01-31 |
 | Estoy Jugueteria | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2025-06-06 hasta 2026-12-25 |
-
-## Quineo Warehouse
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Quineo Warehouse | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. Aplica los viernes. | Aplica los viernes | 2025-10-04 hasta 2026-12-31 |
 
 ## Sallustro Sport San Martin
 
@@ -495,6 +491,12 @@ Total de beneficios: 442
 | Personal | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses. | No especificado | 2024-04-05 hasta 2026-12-31 |
 | Tigo | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
 
+## Tienda Movil
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Tienda Móvil | 15 Cuotas sin intereses; hasta 15 cuotas sin intereses. | No especificado | 2026-02-01 hasta 2026-11-15 |
+
 ## Varios
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -510,6 +512,7 @@ Total de beneficios: 442
 | Colegios y Universidades de Py | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2022-01-25 hasta 2026-12-31 |
 | Condor | 15 % 6 Cuotas sin intereses; Tenes 15% de ahorro con Tarjeta de Crédito + Hasta 6 cuotas sin intereses. | No especificado | 2026-10-16 hasta 2026-12-31 |
 | Crocs | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
+| Cuotas sin intereses | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses | No especificado | 2026-11-02 hasta 2026-11-08 |
 | Denoir | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | EXA GOETHE | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses. | No especificado | 2026-03-05 hasta 2026-12-31 |
 | El Deposito | 10 Cuotas sin intereses 30 % Hasta; Tenes hasta 30% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-24 hasta 2026-12-31 |
@@ -617,7 +620,5 @@ Total de beneficios: 442
 |---|---|---|---|
 | CPR Autocentro | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-12 hasta 2026-11-02 |
 | Feria Asunción | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2026-11-02 hasta 2026-11-04 |
-| Itau Shopping Days | 6 Cuotas sin intereses; Tenes 6 cuotas sin interéses | No especificado | 2026-01-30 hasta 2026-11-01 |
-| Maita | 6 Cuotas sin intereses 30 %; 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-06-09 hasta 2026-11-01 |
 | WASH AND GO | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% para tarjetas de crédito Personal Bank + hasta 6 cuotas sin intereses. | No especificado | 2026-10-13 hasta 2026-11-04 |
 

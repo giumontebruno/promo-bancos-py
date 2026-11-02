@@ -2,12 +2,14 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 23
+Total de beneficios: 35
 
 ## Bienestar
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Martiderm | 20% de descuento; 3 cuotas sin intereses | Último jueves del mes | La cantidad de cuotas deberá solicitarse al momento del pago en caja o desde la App, para compras a partir de Gs. 200.000. Válido para transacciones realizadas a través de POS de la red Bacard. Vigente el último jueves d |
+| Miércoles Plus | 20% de descuento; +10% de reintegro; 3 cuotas sin intereses | 18 de noviembre | Desde 2026-11-18 hasta 2026-11-18 |
 | Prepaga Joven | 20% de reintegro; En tiendas adheridas: | Todos los días | Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 d |
 
 ## Educación
@@ -22,21 +24,25 @@ Total de beneficios: 23
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | AgroShopping | 20% de reintegro | Todos los Martes | Tope de compra por cuenta de tarjeta Gs. 500.000. Promo válida para compras realizadas a través del POS de la red infonet en stands adheridos. Vigente todos los martes, del 1 de septiembre al 29 de diciembre del 2026. Be |
-| Beneficios gastronómicos | 25% de reintegro; 20% de reintegro | Viernes y Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 1.000.000 para tarjetas de crédito Clásica y Oro en el conjunto de restaurantes  |
+| Beneficios gastronómicos | 25% de reintegro; 20% de reintegro | Viernes y Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito Visa Infinite, Gs. 1.000.000 para tarjeta Visa Signature y Mastercard Black y Gs. 500.000 para tarjetas de crédito Visa Clásica y Visa |
 | Delicias de Juju | 25% de reintegro | Todos los días | Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio |
-| Gastro Mariscal | 20% de reintegro | Lunes a Viernes | Monto mínimo de compra Gs. 50.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro. Aplica para c |
+| Gastro Mariscal | 20% de reintegro | Lunes a Viernes | Mínimo de compra Gs. 50.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Gs. 800.000 para tarjetas de crédito Mastercard Black, Gs. 500.000 para tarjetas de crédit |
 
 ## Generales
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Beneficios Spa y Peluquerías | 25% de reintegro; 20% de reintegro | Todos los Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 800.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro en el conjunto de locales adheridos |
+| Beneficios Spa y Peluquerías | 25% de reintegro; 20% de reintegro | Todos los Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjeta de crédito Visa Infinite, Gs. 800.000 para tarjetas de crédito Visa Signature y Mastercard Black y Gs. 500.000 para tarjetas de crédito Clásica y  |
 | Biggie Farma | 20% de descuento; +10% de reintegro | Todos los Lunes | Monto mínimo de compra Gs. 50.000.Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro |
+| Derma boutique | 20% de reintegro; Exclusivo para pagos con QR; 6 cuotas sin intereses | Del 3 al 6 de noviembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas Visa Infinite, Gs. 1.500.000 para tarjetas Visa Signature y MasterCard Black y Gs. 900.000 para tarjetas Visa Clásica y Visa Oro. Promo válida pa |
 | Estaciones de Servicio | 25% de reintegro; 20% de reintegro | Todos los Martes | Mínimo de compra Gs. 200.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 700.000 para tarjetas de crédito Clásica y Oro en  |
 | Impuestos al día | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | L'uomo | 6 cuotas sin intereses | Todos los días | Desde 2026-06-01 hasta 2026-12-31 |
+| Nueva Americana | 25% de descuento; 20% de descuento; 12 cuotas sin intereses | 13 y 14 de noviembre | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente los días 12 y 13 de noviembre del 2026. Válido para transacciones realizadas a través del POS de la R |
 | Pinedo Shopping | 20% de descuento; 3 cuotas sin intereses | Todos los viernes | El descuento se realiza en caja. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica para tiendas adheridas a la promoci |
+| Preventa Cheques delSol | 45% de bonificación; 12 cuotas sin intereses | 6 de noviembre | Desde 2026-10-16 hasta 2026-10-16 |
 | delSol | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Promoción válida todos los días para tarjetas afinidad delSol en todos |
+| delSol Shopping - Cheques delSol | 40% de bonificación; 30% de bonificación; 12 cuotas sin intereses | 7 y 8 de noviembre | Beneficio exclusivo para las tarjetas afinidad Atlas delSol. Tope de compra acumulado por cuenta de tarjeta Gs. 70.000.000 para TC Visa Signature Atlas delSol y Gs. 30.000.000 para TC Visa Clásica Atlas delSol. La cantid |
 
 ## Hogar
 
@@ -51,12 +57,18 @@ Total de beneficios: 23
 |---|---|---|---|
 | H&M | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet .Válido para las sucursales de Paseo La Galería, Distrito Perseverancia y su E-  |
 | Miércoles Mariscal | 20% de descuento; Hasta 3 cuotas sin intereses | Todos los Miércoles | El descuento se realiza en caja. Aplica para tiendas adheridas a la promoción y pagos realizados a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a  |
+| Sfera | 20% de reintegro; Exclusivo para pagos con QR; 12 cuotas sin intereses | Todos los Sábados | Valido para la tienda Sfera de Distrito Perseverancia. Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 para las tarjetas de crédito Visa Infinite, Visa Signature, Mastercard Black, Visa Clásica y Visa Oro. P |
 
 ## Supermercados
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| BOX Mayorista | 20% de reintegro | Tercer Lunes del mes | Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para todas las tarjetas de crédito. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo persona |
+| Biggie | 20% de reintegro; +5% de reintegro | 15 de cada mes | Monto mínimo de compra Gs. 50.000. Tope de compra acumulado por cuenta de tarjeta Gs. 800.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 400.000 para tarjetas de crédito Clásica, Oro y |
 | Delimarket | 20% de reintegro; 15% de reintegro | Todos los Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito delSol Atlas Visa Signature, Gs. 1.500.000 para tarjetas de crédito delSol Atlas Visa Clásica. Aplica para compras realizadas a través |
+| Gran Vía | 20% de reintegro | Tercer miércoles del mes | Tope de compra acumulado en comercios adheridos a la promoción de “Supermercados zona Este” Gs. 1.000.000 por cuneta de tarjeta, para compras a través del POS de la Red Infonet. Vigente el tercer miércoles del mes hasta  |
+| Supermercados | 20% de reintegro | Todos los Viernes | Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tar |
+| Supermercados | 15% de reintegro | Todos los Viernes | Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tar |
 
 ## Tecnología
 

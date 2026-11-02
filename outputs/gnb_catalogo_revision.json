@@ -1,11 +1,10 @@
 {
-  "checked_at": "2026-11-01T14:12:04.590990+00:00",
+  "checked_at": "2026-11-02T16:57:20.413243+00:00",
   "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
-  "total_source_cards": 252,
-  "already_represented_source_cards": 246,
+  "total_source_cards": 250,
+  "already_represented_source_cards": 245,
   "source_cards_not_yet_in_app": [
     688,
-    74,
     52,
     297,
     20,
@@ -78,11 +77,6 @@
       "flags": "source_start_date_stale"
     },
     {
-      "id": 74,
-      "name": "Geox",
-      "flags": "source_start_date_stale"
-    },
-    {
       "id": 290,
       "name": "Mercado Digital",
       "flags": "source_start_date_stale"
@@ -90,11 +84,6 @@
     {
       "id": 352,
       "name": "Farmatotal",
-      "flags": "source_start_date_stale"
-    },
-    {
-      "id": 477,
-      "name": "Malandras Grill",
       "flags": "source_start_date_stale"
     },
     {

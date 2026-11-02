@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T04:35:21.869216+00:00",
-  "input_count": 3408,
-  "promotion_count": 4047,
-  "duplicates_removed": -639,
+  "generated_at": "2026-11-02T17:15:19.601887+00:00",
+  "input_count": 3370,
+  "promotion_count": 4014,
+  "duplicates_removed": -644,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -909,7 +909,7 @@
     "e08a3d53d0175830": "02adb77b9b4a6e7e",
     "80934217fcbba28a": "9b58afc41d93a7d7",
     "5a79a69c20a0313c": "f833957e1290b180",
-    "ff6803046a6c7441": "44a125c738b02b4a",
+    "ff6803046a6c7441": "d63a776ddab37102",
     "1b2581bbb4fc3148": "ccbfd4930fcdc0e5",
     "e4eeb0b11c594080": "4fa6c84d17e4a77d",
     "4d46397f34ed73ca": "ce2c037510752187",
@@ -1009,7 +1009,7 @@
     "e1f73d4e7e3f215d": "079f0d097a236e3f",
     "7185b3e16b670118": "c49fcec793914f30",
     "57b016cd047fb17d": "16ce1db62f5d3301",
-    "dad8e8a3e3de5f98": "632818d14f8e6d49",
+    "dad8e8a3e3de5f98": "4518353c7367f2f0",
     "71aace636f0fb4c0": "492f65ae0e6c3b5f",
     "62bbc7783aa79373": "45477471f0c7fdf8",
     "5bde3619037e55a7": "cf03fad7b0a038cc",
@@ -1061,7 +1061,7 @@
     "6ae9c17f26a45522": "7018b2ee022a193b",
     "e5a63b46d354c9b9": "6fc95787159944f3",
     "cb26e4151062f81d": "ec1ac0adbfa83da7",
-    "a11aa97394f6238f": "632818d14f8e6d49",
+    "a11aa97394f6238f": "4518353c7367f2f0",
     "421602ecb52b6714": "0113e8ca837c299e",
     "2a992f8aa20ddee9": "4e2400d6ddb3c75e",
     "4b7527dd64776d93": "34d405e101082710",
@@ -1195,38 +1195,71 @@
     "85703a4d9fc72213": "7018b2ee022a193b",
     "596130213dd0abbf": "287cc905ff41d436",
     "c80487ae50dff29c": "e3e817ac1e0235b8",
-    "51efeb1ebea46faa": "8ff71f5ba9b3eef0",
-    "fbfd4839ec55c510": "ce2dcf46fe3f538d",
     "6b361360013e9390": "8d89ae969eb7721b",
     "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
     "706d7b8a4b417f99": "3e6bec2b7296ff1f",
     "3a08dde3e44bd674": "7a584b45c4d9edfd",
-    "af3d82672853e6c8": "4ce5aaa7ba85e9f5"
+    "af3d82672853e6c8": "4ce5aaa7ba85e9f5",
+    "632818d14f8e6d49": "4518353c7367f2f0",
+    "44a125c738b02b4a": "d63a776ddab37102",
+    "eac0369ab2c3948b": "eac8290daab7da6e",
+    "b2f82c5371c6bed1": "8a6c7298d9e204d9",
+    "c868e77d5f1930dc": "8a6c7298d9e204d9",
+    "8e9e12aca6d5db3d": "8a6c7298d9e204d9",
+    "eceb5d20308cb73d": "f7d6618a9e53cf93",
+    "3bd5b4549acf9bef": "f7d6618a9e53cf93",
+    "192858ec2a933a64": "f7d6618a9e53cf93",
+    "a0edb1c603f4f29e": "2121e8559bd4b606",
+    "02248c8d50102e44": "2121e8559bd4b606",
+    "09c75631fbb59fc8": "2121e8559bd4b606",
+    "bdf82a8789720164": "ebbe29a4e00606fd",
+    "608db04394176624": "ebbe29a4e00606fd",
+    "3822087f4ed243ed": "ebbe29a4e00606fd",
+    "2eb8ce633ab1654b": "de5f66cabd387857",
+    "a1a2d27c3988656c": "de5f66cabd387857",
+    "2e14eaf6ac92dfb0": "de5f66cabd387857",
+    "2dadccbb9e2d17c2": "1cb6444cd6daafe8",
+    "ee3d9c1798d86ec8": "1cb6444cd6daafe8",
+    "a1872349709f0fd7": "1cb6444cd6daafe8",
+    "1d1c6d2721338ed9": "6129b9582f2868b9",
+    "d2556dce472096b8": "6129b9582f2868b9",
+    "b50d38d0ab692ff3": "6129b9582f2868b9",
+    "8ff71f5ba9b3eef0": "51efeb1ebea46faa",
+    "ce2dcf46fe3f538d": "fbfd4839ec55c510"
   },
   "by_bank": {
-    "Atlas": 41,
+    "Atlas": 53,
     "BNF": 77,
     "Bancop": 68,
     "Basa": 95,
-    "Continental": 922,
+    "Continental": 923,
     "Coop. Universitaria": 72,
-    "Familiar": 414,
+    "Familiar": 362,
     "GNB": 487,
     "Interfisa": 163,
-    "Itaú": 598,
+    "Itaú": 601,
     "Solar": 69,
     "Sudameris": 348,
-    "ueno bank": 693
+    "ueno bank": 696
   },
   "issue_counts": {
-    "limits_unconfirmed": 437,
-    "validity_unconfirmed": 27,
-    "multiple_purchase_limits": 333,
+    "source_verification_pending": 331,
+    "limits_unconfirmed": 440,
+    "validity_unconfirmed": 35,
+    "multiple_purchase_limits": 334,
     "source_amount_conflict": 19,
-    "multiple_refund_limits": 196,
-    "source_verification_pending": 330
+    "multiple_refund_limits": 195
   },
   "review_queue": [
+    {
+      "id": "1a8397a547b253ae",
+      "bank": "Atlas",
+      "merchant": "Miércoles Plus",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web//Mi%C3%A9rcoles%20Plus.pdf"
+    },
     {
       "id": "d70ba6f32e9a8624",
       "bank": "Atlas",
@@ -1237,7 +1270,7 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "632818d14f8e6d49",
+      "id": "4518353c7367f2f0",
       "bank": "Atlas",
       "merchant": "Beneficios gastronómicos",
       "issues": [
@@ -1255,13 +1288,23 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "eac0369ab2c3948b",
+      "id": "eac8290daab7da6e",
       "bank": "Atlas",
       "merchant": "Beneficios Spa y Peluquerías",
       "issues": [
         "limits_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/Spa%20y%20Peluqueria%20adheridas.png"
+    },
+    {
+      "id": "440dd16702428041",
+      "bank": "Atlas",
+      "merchant": "Derma boutique",
+      "issues": [
+        "validity_unconfirmed",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
       "id": "c518393e58fbd72c",
@@ -1273,11 +1316,30 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
+      "id": "e219372906e11d0e",
+      "bank": "Atlas",
+      "merchant": "Nueva Americana",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
       "id": "5f25d91d35d7793d",
       "bank": "Atlas",
       "merchant": "delSol",
       "issues": [
         "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "ae2ffe772ca595c1",
+      "bank": "Atlas",
+      "merchant": "delSol Shopping - Cheques delSol",
+      "issues": [
+        "validity_unconfirmed",
+        "limits_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
@@ -1300,6 +1362,24 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
+      "id": "dd57615188aaaac1",
+      "bank": "Atlas",
+      "merchant": "Sfera",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "2cfb9cd8678d662c",
+      "bank": "Atlas",
+      "merchant": "BOX Mayorista",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
       "id": "452dc4accc34f4fc",
       "bank": "Atlas",
       "merchant": "Delimarket",
@@ -1307,6 +1387,24 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "c4252ed48fc89156",
+      "bank": "Atlas",
+      "merchant": "Supermercados",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg"
+    },
+    {
+      "id": "ca6027520aa6c007",
+      "bank": "Atlas",
+      "merchant": "Supermercados",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg"
     },
     {
       "id": "e77fe8d93e9865f3",
@@ -2560,6 +2658,16 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
+      "id": "7c3f05fd71ebb681",
+      "bank": "Continental",
+      "merchant": "UNISAL Universidad San Lorenzo",
+      "issues": [
+        "validity_unconfirmed",
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
       "id": "15eea61e0a7c344b",
       "bank": "Continental",
       "merchant": "Puma Flota",
@@ -3695,15 +3803,6 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-arete-bases-y-condiciones"
     },
     {
-      "id": "58a79f1df099b21b",
-      "bank": "Familiar",
-      "merchant": "CASA GRUTTER",
-      "issues": [
-        "multiple_refund_limits"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-casa-grutter-bases-y-condiciones"
-    },
-    {
       "id": "7421d6a0bc73e0ff",
       "bank": "Familiar",
       "merchant": "DELIMARKET",
@@ -3785,7 +3884,7 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-superseis-bases-y-condiciones"
     },
     {
-      "id": "a0edb1c603f4f29e",
+      "id": "1cde6934b92e89aa",
       "bank": "Familiar",
       "merchant": "DENOIR-SHOPPING MARISCAL",
       "issues": [
@@ -3795,7 +3894,7 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
     },
     {
-      "id": "09c75631fbb59fc8",
+      "id": "761c6d9e357feb05",
       "bank": "Familiar",
       "merchant": "DENOIR-SHOPPING MARISCAL",
       "issues": [
@@ -7996,6 +8095,15 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-LA-CUADRITA-_-NOV-2026v1.pdf"
     },
     {
+      "id": "b6fa34e076c5d4f7",
+      "bank": "ueno bank",
+      "merchant": "TORO ubicado en ( Av. Santísima Trinidad casi Prof. Dr. Francisco Fernández, en el barrio Mburucuyá)",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-GASTRONOMIA-_-NOV-2026v1.pdf"
+    },
+    {
       "id": "277025454d2abee1",
       "bank": "ueno bank",
       "merchant": "gastronomia",
@@ -8910,13 +9018,13 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-FREE-SPIRIT-_-NOV-2026v1.docx.pdf"
     },
     {
-      "id": "8c350e74835a544d",
+      "id": "67be453492fd62ef",
       "bank": "ueno bank",
       "merchant": "black souk",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-SOUK-_-NOV-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-SOUK-_-NOV-2026v2.pdf"
     },
     {
       "id": "4001468304af6f4d",
@@ -8956,13 +9064,13 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-FERIA-PALMEAR-_-NOV-2026v1.pdf"
     },
     {
-      "id": "b637fccb5b8490bf",
+      "id": "cb171f5570b864eb",
       "bank": "ueno bank",
       "merchant": "geox",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Cupones-ueno-GEOX-_-NOV-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-ueno-GEOX-_-NOV-2026v1.pdf"
     },
     {
       "id": "f7e59de65104c922",

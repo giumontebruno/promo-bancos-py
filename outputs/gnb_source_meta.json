@@ -1,21 +1,13 @@
 {
-  "checked_at": "2026-11-01T14:12:04.590990+00:00",
-  "coverage": "252 official cards extracted from GNB's public API; every card retains its official detail and terms links",
-  "records": 475,
+  "checked_at": "2026-11-02T16:57:20.413243+00:00",
+  "coverage": "250 official cards extracted from GNB's public API; every card retains its official detail and terms links",
+  "records": 474,
   "reviewed_documents": [],
   "document_failures": [
     {
       "id": 688,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
-      "attempted_at": "2026-11-01T14:12:05.333552+00:00",
-      "reason": "document_fetch_failed",
-      "error_type": "HTTPError",
-      "http_status": 403
-    },
-    {
-      "id": 74,
-      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
-      "attempted_at": "2026-11-01T14:12:05.448147+00:00",
+      "attempted_at": "2026-11-02T16:57:21.094047+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -23,7 +15,7 @@
     {
       "id": 52,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
-      "attempted_at": "2026-11-01T14:12:05.537372+00:00",
+      "attempted_at": "2026-11-02T16:57:21.144948+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -33,15 +25,7 @@
     {
       "id": 688,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
-      "attempted_at": "2026-11-01T14:12:05.333552+00:00",
-      "reason": "document_fetch_failed",
-      "error_type": "HTTPError",
-      "http_status": 403
-    },
-    {
-      "id": 74,
-      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
-      "attempted_at": "2026-11-01T14:12:05.448147+00:00",
+      "attempted_at": "2026-11-02T16:57:21.094047+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -49,7 +33,7 @@
     {
       "id": 52,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
-      "attempted_at": "2026-11-01T14:12:05.537372+00:00",
+      "attempted_at": "2026-11-02T16:57:21.144948+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -60,15 +44,7 @@
     {
       "id": 688,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
-      "attempted_at": "2026-11-01T14:12:05.333552+00:00",
-      "reason": "document_fetch_failed",
-      "error_type": "HTTPError",
-      "http_status": 403
-    },
-    {
-      "id": 74,
-      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
-      "attempted_at": "2026-11-01T14:12:05.448147+00:00",
+      "attempted_at": "2026-11-02T16:57:21.094047+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -76,7 +52,7 @@
     {
       "id": 52,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
-      "attempted_at": "2026-11-01T14:12:05.537372+00:00",
+      "attempted_at": "2026-11-02T16:57:21.144948+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -97,12 +73,6 @@
       "name": "Casa Rica - Fiestas Ricas - Sorteo 0km",
       "reason": "review_document_unverified",
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf"
-    },
-    {
-      "id": 74,
-      "name": "Geox",
-      "reason": "review_document_unverified",
-      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf"
     },
     {
       "id": 52,

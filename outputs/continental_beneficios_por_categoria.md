@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 832
+Total de beneficios/comercios: 833
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -254,7 +254,7 @@ Total de beneficios/comercios: 832
 | 836 Cocina Internacional | 20% de reintegro | Los sábados y domingos, en 836 Cocina Internacional. Además: | Vigente hasta el 10 de julio de 2027 | Asunción |
 | Acuarela Churrasquería | 35% de reintegro | Los sábados y domingos, en Acuarela | Vigente hasta el 25 de octubre de 2027 | Todo el país |
 | Acuarela Churrasquería | 25% de reintegro | Los sábados y domingos, en Acuarela | Vigente hasta el 25 de octubre de 2027 | Todo el país |
-| Acuarela Churrasquería | 20% de reintegro | Los sábados y domingos, en Acuarela. Además: | Vigente hasta el 27 de noviembre de 2027 | Todo el país |
+| Acuarela Churrasquería | 20% de reintegro | Los sábados y domingos, en Acuarela. Además: | Vigente hasta el 27 de noviembre de 2026 | Todo el país |
 | Agro Masa | 35% de reintegro | Los sábados y domingos, en Agro Masa - Restaurant | Vigente hasta el 25 de octubre de 2027 | Nueva Durango |
 | Agro Masa | 25% de reintegro | Los sábados y domingos, en Agro Masa - Restaurant | Vigente hasta el 25 de octubre de 2027 | Nueva Durango |
 | Agro Masa | 20% de reintegro | Los sábados y domingos, en Agro Masa - Restaurant. Además: | Vigente hasta el 24 de abril de 2027 | Nueva Durango |
@@ -550,7 +550,7 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 
-## Promociones especiales (13)
+## Promociones especiales (14)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -567,6 +567,7 @@ _Se omitieron 22 filas en este resumen; están en el CSV._
 | Las Hortensias - Cine | 50%; 50% de reintegro | Todos los días | Vigente hasta el 10 de junio del 2027 | Pilar |
 | Nissei - Cyber Day | Hasta 18 cuotas sin intereses | No especificado | Vigente hasta el 04 de noviembre de 2026 | Todo el país |
 | Puerto Liebig | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de marzo de 2027 | Asunción |
+| UNISAL Universidad San Lorenzo | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | No especificado | Todo el país |
 
 ## Puma Flota (1)
 

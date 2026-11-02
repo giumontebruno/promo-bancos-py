@@ -1,7 +1,12 @@
 {
-  "checked_at": "2026-11-01T14:14:59.594441+00:00",
-  "published": 414,
+  "checked_at": "2026-11-02T16:59:23.919237+00:00",
+  "published": 362,
   "pending": [
+    {
+      "merchant_name": "LUNES DE MALL EXCELSIOR",
+      "source_url": "https://www.familiar.com.py/pdfs/lunes-de-mall-excelsior",
+      "reason": "merchant_not_in_terms"
+    },
     {
       "merchant_name": "GASTRO MALL EXCELSIOR",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro-mall-excelsior",
@@ -31,6 +36,26 @@
       "merchant_name": "BELLEZA Y SPA PLATINUM",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-belleza-y-spa-platinum",
       "reason": "unconfirmed_cards"
+    },
+    {
+      "merchant_name": "META SPORTS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "VANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "ACADEMY-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "NIKE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
     },
     {
       "merchant_name": "OPTICA SANTA LUCIA",
@@ -64,7 +89,107 @@
       "reason": "merchant_not_in_terms"
     },
     {
-      "merchant_name": "FARMACIA CATEDRAL-SHOPPING MARISCAL",
+      "merchant_name": "ENEACHE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "MOBO-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "RONDINA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "MATCH-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "NASA JEANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "TATAKUA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "AEROPOSTALE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "ALBERTINA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "AMERICAN LOOK-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "CHILLI BEANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "DA VINCI-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "EUREKA KIDS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "O BOTICARIO-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "OPTICA CARRON-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "PARFOIS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "PILAR-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "PUMA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "SPORT HOUSE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "TIENDAS MARTEL-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "TL SPORTS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "reason": "merchant_not_in_terms"
+    },
+    {
+      "merchant_name": "SKECHERS-SHOPPING MARISCAL",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
       "reason": "merchant_not_in_terms"
     },
@@ -212,11 +337,6 @@
       "merchant_name": "UNIVERSIDAD COMUNERA",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-universidad-comunera-bases-y-condiciones",
       "reason": "expired_terms"
-    },
-    {
-      "merchant_name": "FARMAOLIVA",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-farmaoliva-bases-y-condiciones",
-      "reason": "merchant_not_in_terms"
     },
     {
       "merchant_name": "MAXIFARMA (MCALl.LOPEZ)",

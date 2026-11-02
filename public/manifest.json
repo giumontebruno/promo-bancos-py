@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T04:35:21.869216+00:00",
-  "promotion_count": 4047,
+  "generated_at": "2026-11-02T17:15:19.601887+00:00",
+  "promotion_count": 4014,
   "banks": [
     "Atlas",
     "BNF",
@@ -51,7 +51,6 @@
     "Deportes y clubes",
     "ESTACIONES DE SERVICIO",
     "Educación",
-    "El Cafe de Aca",
     "Electrodomésticos",
     "Electrónica",
     "Electrónica | Exclusivo para compras online",
@@ -118,7 +117,6 @@
     "Privilege",
     "Promociones especiales",
     "Puma Flota",
-    "Quineo Warehouse",
     "Restaurantes",
     "SALUD Y BIENESTAR",
     "SHOPPINGS Y TIENDAS",
@@ -1078,7 +1076,7 @@
     "e08a3d53d0175830": "02adb77b9b4a6e7e",
     "80934217fcbba28a": "9b58afc41d93a7d7",
     "5a79a69c20a0313c": "f833957e1290b180",
-    "ff6803046a6c7441": "44a125c738b02b4a",
+    "ff6803046a6c7441": "d63a776ddab37102",
     "1b2581bbb4fc3148": "ccbfd4930fcdc0e5",
     "e4eeb0b11c594080": "4fa6c84d17e4a77d",
     "4d46397f34ed73ca": "ce2c037510752187",
@@ -1178,7 +1176,7 @@
     "e1f73d4e7e3f215d": "079f0d097a236e3f",
     "7185b3e16b670118": "c49fcec793914f30",
     "57b016cd047fb17d": "16ce1db62f5d3301",
-    "dad8e8a3e3de5f98": "632818d14f8e6d49",
+    "dad8e8a3e3de5f98": "4518353c7367f2f0",
     "71aace636f0fb4c0": "492f65ae0e6c3b5f",
     "62bbc7783aa79373": "45477471f0c7fdf8",
     "5bde3619037e55a7": "cf03fad7b0a038cc",
@@ -1230,7 +1228,7 @@
     "6ae9c17f26a45522": "7018b2ee022a193b",
     "e5a63b46d354c9b9": "6fc95787159944f3",
     "cb26e4151062f81d": "ec1ac0adbfa83da7",
-    "a11aa97394f6238f": "632818d14f8e6d49",
+    "a11aa97394f6238f": "4518353c7367f2f0",
     "421602ecb52b6714": "0113e8ca837c299e",
     "2a992f8aa20ddee9": "4e2400d6ddb3c75e",
     "4b7527dd64776d93": "34d405e101082710",
@@ -1364,13 +1362,37 @@
     "85703a4d9fc72213": "7018b2ee022a193b",
     "596130213dd0abbf": "287cc905ff41d436",
     "c80487ae50dff29c": "e3e817ac1e0235b8",
-    "51efeb1ebea46faa": "8ff71f5ba9b3eef0",
-    "fbfd4839ec55c510": "ce2dcf46fe3f538d",
     "6b361360013e9390": "8d89ae969eb7721b",
     "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
     "706d7b8a4b417f99": "3e6bec2b7296ff1f",
     "3a08dde3e44bd674": "7a584b45c4d9edfd",
-    "af3d82672853e6c8": "4ce5aaa7ba85e9f5"
+    "af3d82672853e6c8": "4ce5aaa7ba85e9f5",
+    "632818d14f8e6d49": "4518353c7367f2f0",
+    "44a125c738b02b4a": "d63a776ddab37102",
+    "eac0369ab2c3948b": "eac8290daab7da6e",
+    "b2f82c5371c6bed1": "8a6c7298d9e204d9",
+    "c868e77d5f1930dc": "8a6c7298d9e204d9",
+    "8e9e12aca6d5db3d": "8a6c7298d9e204d9",
+    "eceb5d20308cb73d": "f7d6618a9e53cf93",
+    "3bd5b4549acf9bef": "f7d6618a9e53cf93",
+    "192858ec2a933a64": "f7d6618a9e53cf93",
+    "a0edb1c603f4f29e": "2121e8559bd4b606",
+    "02248c8d50102e44": "2121e8559bd4b606",
+    "09c75631fbb59fc8": "2121e8559bd4b606",
+    "bdf82a8789720164": "ebbe29a4e00606fd",
+    "608db04394176624": "ebbe29a4e00606fd",
+    "3822087f4ed243ed": "ebbe29a4e00606fd",
+    "2eb8ce633ab1654b": "de5f66cabd387857",
+    "a1a2d27c3988656c": "de5f66cabd387857",
+    "2e14eaf6ac92dfb0": "de5f66cabd387857",
+    "2dadccbb9e2d17c2": "1cb6444cd6daafe8",
+    "ee3d9c1798d86ec8": "1cb6444cd6daafe8",
+    "a1872349709f0fd7": "1cb6444cd6daafe8",
+    "1d1c6d2721338ed9": "6129b9582f2868b9",
+    "d2556dce472096b8": "6129b9582f2868b9",
+    "b50d38d0ab692ff3": "6129b9582f2868b9",
+    "8ff71f5ba9b3eef0": "51efeb1ebea46faa",
+    "ce2dcf46fe3f538d": "fbfd4839ec55c510"
   },
   "favorite_unavailable": {
     "84714bfec7199316": {
@@ -1484,20 +1506,6 @@
       "merchant_name": "Tonina",
       "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/52",
       "last_known_ends_on": "2026-12-30"
-    },
-    "c4252ed48fc89156": {
-      "reason": "not_in_current_sources",
-      "bank": "Atlas",
-      "merchant_name": "Supermercados",
-      "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg",
-      "last_known_ends_on": null
-    },
-    "ca6027520aa6c007": {
-      "reason": "not_in_current_sources",
-      "bank": "Atlas",
-      "merchant_name": "Supermercados",
-      "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg",
-      "last_known_ends_on": null
     },
     "de776f2917e6630f": {
       "reason": "not_in_current_sources",
@@ -3689,6 +3697,587 @@
       "merchant_name": "Única Moda",
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Campana-Tu-sueldo-esta-llegando-y-tu-50-tambien-_-OCT-2026v3.pdf",
       "last_known_ends_on": "2026-11-01"
+    },
+    "499f3a5a706a93b0": {
+      "reason": "not_in_current_sources",
+      "bank": "Continental",
+      "merchant_name": "Acuarela Churrasquería",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "last_known_ends_on": "2027-11-27"
+    },
+    "780c37f1bdf55476": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PANDOLFO",
+      "source_url": "https://www.familiar.com.py/pdfs/promociones-y-beneficios-pandolfo",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "a628f30e6fa5f9a5": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PANDOLFO",
+      "source_url": "https://www.familiar.com.py/pdfs/promociones-y-beneficios-pandolfo",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "b0c468a263e7d7d6": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PANDOLFO",
+      "source_url": "https://www.familiar.com.py/pdfs/promociones-y-beneficios-pandolfo",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "12064976dd3ad913": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PANDOLFO",
+      "source_url": "https://www.familiar.com.py/pdfs/promociones-y-beneficios-pandolfo",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "dc775895f64831c6": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PILAR-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "b2abe2b6cc76e6f5": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PILAR-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "5d607b94e0d18d2c": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PILAR-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "2df60de71c9e0e34": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "MOBO-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "8b30873ad98261b4": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "MOBO-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "b1a661053b63f834": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "MOBO-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "58a79f1df099b21b": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "CASA GRUTTER",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-casa-grutter-bases-y-condiciones",
+      "last_known_ends_on": "2026-12-25"
+    },
+    "46b66123cdac4d0c": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "ACADEMY-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "436c413298321918": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "ACADEMY-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "e7bc9b5e3840d382": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "ACADEMY-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "ca8b75d119c6c051": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "AEROPOSTALE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "dc1f506a7d89d3cf": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "AEROPOSTALE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "c2bdc5b0a6e0205f": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "AEROPOSTALE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "0c96b9ac63e72e01": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "ALBERTINA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "90bb0670368f5c9e": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "ALBERTINA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "fe48b48654944dac": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "ALBERTINA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "1e26aab6bfe88187": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "AMERICAN LOOK-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "14597e3aa9dc1e33": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "AMERICAN LOOK-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "d18f267214d97883": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "AMERICAN LOOK-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "eb58b2a5df05bb80": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "CHILLI BEANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "474dc662fb1c6055": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "CHILLI BEANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "d30aacaf060ccabc": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "CHILLI BEANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "5af7267ae6b93c1e": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "DA VINCI-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "321faf791ee7c513": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "DA VINCI-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "f9961976fa2340f6": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "DA VINCI-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "0a0c919e713e2b55": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "ENEACHE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "8d6169297de297d3": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "ENEACHE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "1ed61114f1211402": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "ENEACHE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "f103327e34fd710b": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "EUREKA KIDS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "49a5ebd21e855d7b": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "EUREKA KIDS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "562f8c502c95ac3b": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "EUREKA KIDS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "b4228b8795681908": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "MATCH-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "884f93b8e739cccd": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "MATCH-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "95710568c4b47001": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "MATCH-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "3ce9c0530085985c": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "META SPORTS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "5f6b34273d6fadd2": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "META SPORTS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "8581237c71eadc03": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "META SPORTS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "85341557b8bed0b0": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "NASA JEANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "08736f584c447d2e": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "NASA JEANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "f0e54d560d848f66": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "NASA JEANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "f0ddf27bb7607b58": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "NIKE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "5c9cada4868a8133": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "NIKE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "a863a0061ac9d2be": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "NIKE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "33bd28a2fbd31553": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "O BOTICARIO-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "bc433a42a5a44e87": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "O BOTICARIO-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "f4f1238673a82303": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "O BOTICARIO-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "48bb02e88f10994e": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "OPTICA CARRON-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "e0bd2a4861c77480": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "OPTICA CARRON-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "1f8c772ad54898a1": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "OPTICA CARRON-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "9da209ba2773fb3d": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PARFOIS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "4d89eb32f3b9659d": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PARFOIS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "54dcb569877cf5a8": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PARFOIS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "eaf6ca6fae0f15fd": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PUMA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "cdf1c50e28633714": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PUMA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "49fe06356cfa9815": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "PUMA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "debdae42948b8dbd": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "RONDINA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "a013cb8cee1a4edb": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "RONDINA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "e15f538b31cdad92": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "RONDINA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "6aa6f25d0f24adfb": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "SKECHERS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "0c1d5a2499e5d11e": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "SKECHERS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "8092e2f4f0036fd6": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "SKECHERS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "07336f8d32db13ba": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "SPORT HOUSE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "2a9790f01e2ddbd8": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "SPORT HOUSE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "8e5e46afb3a0650f": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "SPORT HOUSE-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "54ecea1ba19b1a67": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "TATAKUA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "44423b60b19caa9e": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "TATAKUA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "064363a02ad10b0f": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "TATAKUA-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "2b1cbdd82b90328e": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "TIENDAS MARTEL-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "278116fa37b43857": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "TIENDAS MARTEL-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "43318f47c7a97b4a": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "TIENDAS MARTEL-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "c38bacbed5d7203f": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "TL SPORTS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "c273d27f011996ed": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "TL SPORTS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "7fd9ab3209473ba1": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "TL SPORTS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "ee3c750d8c005db8": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "VANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "3c4ad2024ba34dbe": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "VANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "15d4f709e8d457ab": {
+      "reason": "not_in_current_sources",
+      "bank": "Familiar",
+      "merchant_name": "VANS-SHOPPING MARISCAL",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal",
+      "last_known_ends_on": "2026-12-01"
+    },
+    "8c350e74835a544d": {
+      "reason": "not_in_current_sources",
+      "bank": "ueno bank",
+      "merchant_name": "black souk",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-SOUK-_-NOV-2026v1.pdf",
+      "last_known_ends_on": "2026-11-30"
+    },
+    "b637fccb5b8490bf": {
+      "reason": "not_in_current_sources",
+      "bank": "ueno bank",
+      "merchant_name": "geox",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Cupones-ueno-GEOX-_-NOV-2026v1.pdf",
+      "last_known_ends_on": "2026-11-30"
     }
   },
   "schema_version": 2

@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-01T14:12:04.590990+00:00",
-  "total": 252,
+  "checkedAt": "2026-11-02T16:57:20.413243+00:00",
+  "total": 250,
   "cards": [
     {
       "id": 688,
@@ -683,24 +683,6 @@
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/2298_arete-02-2025-web.png"
     },
     {
-      "id": 74,
-      "title": "Geox",
-      "startDate": "2025-10-10",
-      "endDate": "2026-11-01",
-      "miniDescription": "20% de descuento + Hasta 6 cuotas sin intereses.",
-      "category": "Días GNB",
-      "lines": [
-        "20% de descuento + Hasta 6 cuotas sin intereses.",
-        "Del 29 de octubre 01 de noviembre del 2026.",
-        "20% de descuento para pagos con tarjetas de crédito del Banco GNB Paraguay.",
-        "Hasta 6 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
-        "No participan de la promoción las tarjetas de débito y crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas.",
-        "No acumulable con otras promociones."
-      ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4899_bases-y-condiciones-geox-oct.pdf",
-      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4901_geox-10-2026-web.png"
-    },
-    {
       "id": 290,
       "title": "Mercado Digital",
       "startDate": "2024-04-08",
@@ -742,25 +724,6 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4270_bases-y-condiciones-farmatotal-003-.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4271_farmatotal-al-06-2025-web.png"
-    },
-    {
-      "id": 477,
-      "title": "Malandras Grill",
-      "startDate": "2025-06-18",
-      "endDate": "2026-11-01",
-      "miniDescription": "30% de reintegro de miércoles a domingos.",
-      "category": "Días GNB",
-      "lines": [
-        "30% de reintegro de miércoles a domingos.",
-        "Del 22 de abril al 1 de noviembre del 2026.",
-        "30% de reintegro para pagos con tarjetas de crédito Mastercard afinidades Black, Black Premier y Metalcard Premier y Visa afinidades Platinum e Infinite Premier del Banco GNB Paraguay.",
-        "Tope de compra mensual: Gs. 2.000.000 (guaranies dos millones) por cuenta de tarjeta de crédito (incluye titulares y adicionales).",
-        "No aplica para pagos realizados a través de plataformas de terceros (Pedidos Ya, Monchis, entre otros) y/o e-commerce.",
-        "Los reintegros serán realizados de manera automática en la tarjeta del cliente, el cual será reflejado en el extracto y en los movimientos mensuales de su tarjeta en la aplicación del banco.",
-        "Beneficio no acumulable con otras promociones."
-      ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4719_bases-y-condiciones-malandras-grill.pdf",
-      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4720_malandras-grill-web.png"
     },
     {
       "id": 483,

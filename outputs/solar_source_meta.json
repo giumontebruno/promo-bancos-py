@@ -1,8 +1,8 @@
 {
   "status": "partial",
-  "catalog_discovered": 30,
+  "catalog_discovered": 31,
   "catalog_reviewed": 30,
-  "catalog_review_complete": true,
+  "catalog_review_complete": false,
   "verified_campaigns": 23,
   "reviewed_at_utc": "2026-10-30T16:06:06.818836+00:00",
   "review_registry": "data/solar_reviewed_catalog.json",
@@ -10,6 +10,10 @@
     {
       "id": 101,
       "status": "verified"
+    },
+    {
+      "id": 135,
+      "status": "new_campaign_requires_review"
     },
     {
       "id": 134,
@@ -130,6 +134,10 @@
   ],
   "skipped": [
     {
+      "id": 135,
+      "reason": "new_campaign_requires_review"
+    },
+    {
       "id": 134,
       "reason": "blocked_specific_ambiguity_or_representation: Catalogo descuento30% sin segmentar; PDF medicamentos hasta20%,otros hasta30%. No publicar30% universal ni sumar caja+reintegro. Requiere variantes por producto y hasta."
     },
@@ -161,6 +169,6 @@
   "coverage_complete": false,
   "reason": "All known catalog campaigns individually reviewed; expired/ineligible and specific ambiguous campaigns excluded. Changed sources fail closed.",
   "bank": "solar",
-  "attempted_at": "2026-11-01T14:27:28.076300+00:00",
+  "attempted_at": "2026-11-02T17:10:47.298819+00:00",
   "rows": 69
 }
