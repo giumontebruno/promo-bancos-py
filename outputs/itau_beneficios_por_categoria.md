@@ -262,7 +262,6 @@ Total de beneficios: 442
 | Areté | 20 %; 20% de ahorro | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
 | Armele | 20 % 12 Cuotas sin intereses; Tenes 20% de ahorro y hasta 12 cuotas sin intereses. | No especificado | 2023-08-30 hasta 2026-12-31 |
 | Ashley | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-01-13 hasta 2026-12-31 |
-| Biggie | 20 %; 20% de ahorro. | No especificado | 2025-08-01 hasta 2026-11-06 |
 | Brave | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | CASA GIN | 20 %; Tenes 20% de reintegro. | Aplica Martes a Viernes; Martes a Viernes | 2026-10-01 hasta 2026-12-31 |
 | Casa Luma | 20 %; 20% de reintegro | Miercoles a Domingo | 2026-01-14 hasta 2026-12-31 |
@@ -322,6 +321,7 @@ Total de beneficios: 442
 | Varsovia | 6 Cuotas sin intereses 15 % 20 Pago con Amex; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los lunes, martes y miércoles | 2026-02-02 hasta 2026-12-31 |
 | Vida Estetica | 20 % Hasta 10 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Todos los jueves | 2026-01-15 hasta 2026-12-31 |
 | Xumaq | 20 %; 20% de reintegro. | miércoles a domingo | 2025-10-13 hasta 2026-12-31 |
+| Yute | 15 % 6 Cuotas sin intereses; Tenes 15% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-11-08 hasta 2027-03-16 |
 | Ñemonde | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 
 ## Katuete
@@ -467,7 +467,6 @@ Total de beneficios: 442
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Areté | 15 %; Tenes 15% de ahorro. | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
-| Biggie | 15 %; 15% de ahorro. | No especificado | 2025-01-31 hasta 2026-11-06 |
 | CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-12-01 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
@@ -617,7 +616,8 @@ Total de beneficios: 442
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| CPR Autocentro | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-12 hasta 2026-11-02 |
+| Biggie | 20 %; 20% de ahorro. | No especificado | 2025-08-01 hasta 2026-11-06 |
+| Biggie | 15 %; 15% de ahorro. | No especificado | 2025-01-31 hasta 2026-11-06 |
 | Feria Asunción | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2026-11-02 hasta 2026-11-04 |
 | WASH AND GO | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% para tarjetas de crédito Personal Bank + hasta 6 cuotas sin intereses. | No especificado | 2026-10-13 hasta 2026-11-04 |
 

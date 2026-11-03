@@ -726,7 +726,7 @@ _Se omitieron 41 filas en este resumen; están en el CSV._
 | AB Alejandro Benítez Calzados - Encarnación | 20%; 20% de reintegro | Los jueves | Vigente hasta el 27 de mayo de 2027 | Encarnación |
 | AL Store | 20%; 20% de reintegro | Los jueves | Vigente hasta el 17 de junio de 2027 | No especificado |
 | Active | 20%; 20% de reintegro | Los jueves | Vigente hasta el 19 de febrero de 2027 | Naranjal |
-| Acuario Comercial | 10%; 20% de reintegro | Los jueves | Vigente hasta el 06 de noviembre de 2026 | Concepción |
+| Acuario Comercial | 20%; 20% de reintegro | Los jueves | Vigente hasta el 06 de noviembre de 2026 | Concepción |
 | Adidas | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Agugu Bebés | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de agosto de 2027 | Asunción |
 | Alborada Super Store | 20%; 20% de reintegro | Los jueves | Vigente hasta el 15 de julio de 2027 | No especificado |

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T13:29:48.808Z",
-  "promotion_count": 4016,
+  "generated_at": "2026-11-03T15:16:15.356354+00:00",
+  "promotion_count": 4026,
   "banks": [
     "Atlas",
     "BNF",
@@ -119,6 +119,7 @@
     "Puma Flota",
     "Restaurantes",
     "SALUD Y BIENESTAR",
+    "SERVICIOS",
     "SHOPPINGS Y TIENDAS",
     "SPA Y PELUQUERIAS",
     "SUPERMERCADOS",
@@ -1392,7 +1393,9 @@
     "d2556dce472096b8": "6129b9582f2868b9",
     "b50d38d0ab692ff3": "6129b9582f2868b9",
     "8ff71f5ba9b3eef0": "51efeb1ebea46faa",
-    "ce2dcf46fe3f538d": "fbfd4839ec55c510"
+    "ce2dcf46fe3f538d": "fbfd4839ec55c510",
+    "dd4ca4cf30bca697": "562de6992fe2b32c",
+    "207e210a5a46e7be": "f5b3c7c2c13d61a1"
   },
   "favorite_unavailable": {
     "84714bfec7199316": {

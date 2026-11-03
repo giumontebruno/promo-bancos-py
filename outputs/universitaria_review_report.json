@@ -1,7 +1,12 @@
 {
-  "source_cards": 52,
+  "source_cards": 53,
   "published_variants": 71,
   "withheld": [
+    {
+      "merchant": "FARMAOLIVA",
+      "source": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1793711619.pdf",
+      "reason": "El título no identifica una tasa o cantidad de cuotas verificable"
+    },
     {
       "merchant": "PUNTOFARMA",
       "source": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1793193311.pdf",

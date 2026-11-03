@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T00:34:18.255479+00:00",
-  "input_count": 3371,
-  "promotion_count": 4016,
-  "duplicates_removed": -645,
+  "generated_at": "2026-11-03T15:16:15.356354+00:00",
+  "input_count": 3380,
+  "promotion_count": 4026,
+  "duplicates_removed": -646,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1225,7 +1225,9 @@
     "d2556dce472096b8": "6129b9582f2868b9",
     "b50d38d0ab692ff3": "6129b9582f2868b9",
     "8ff71f5ba9b3eef0": "51efeb1ebea46faa",
-    "ce2dcf46fe3f538d": "fbfd4839ec55c510"
+    "ce2dcf46fe3f538d": "fbfd4839ec55c510",
+    "dd4ca4cf30bca697": "562de6992fe2b32c",
+    "207e210a5a46e7be": "f5b3c7c2c13d61a1"
   },
   "by_bank": {
     "Atlas": 53,
@@ -1236,15 +1238,15 @@
     "Coop. Universitaria": 72,
     "Familiar": 362,
     "GNB": 488,
-    "Interfisa": 163,
-    "Itaú": 600,
+    "Interfisa": 170,
+    "Itaú": 601,
     "Solar": 69,
-    "Sudameris": 350,
+    "Sudameris": 352,
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 349,
-    "limits_unconfirmed": 455,
+    "source_verification_pending": 353,
+    "limits_unconfirmed": 457,
     "validity_unconfirmed": 36,
     "multiple_purchase_limits": 334,
     "source_amount_conflict": 33,
@@ -4764,6 +4766,16 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20OPTICA%20W.%20GAMON.pdf"
     },
     {
+      "id": "1dfdd00c44dbd8fe",
+      "bank": "Interfisa",
+      "merchant": "ROCKIT",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PROMOCIONES/BYC%20ROCKIT%203.pdf"
+    },
+    {
       "id": "ea9020b217b1fbe5",
       "bank": "Interfisa",
       "merchant": "AVANZA DENTAL",
@@ -5052,6 +5064,16 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20OUTDOORS.pdf"
+    },
+    {
+      "id": "3434107cc10971ed",
+      "bank": "Interfisa",
+      "merchant": "PIÑA COLADA",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PROMOCIONES/BYC%20PIÑA%20COLADA.pdf"
     },
     {
       "id": "455a88b6a941028e",
@@ -6603,6 +6625,15 @@
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/315/detalle"
     },
     {
+      "id": "ff31dfa950e54dbd",
+      "bank": "Sudameris",
+      "merchant": "Younique",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/younique"
+    },
+    {
       "id": "f1485552d36f8f90",
       "bank": "Sudameris",
       "merchant": "Younique",
@@ -6701,6 +6732,15 @@
         "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
+    },
+    {
+      "id": "799811cb8d1ef1bc",
+      "bank": "Sudameris",
+      "merchant": "Bodega Boutique",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/bodega-boutique"
     },
     {
       "id": "23fcaaa8f31231bb",

@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 348
+Total de promociones: 350
 
 ## Clubes
 
@@ -255,6 +255,7 @@ Total de promociones: 348
 | Cecconello | 20% de descuento en caja | Todos los días | Desde 2026-10-07 hasta 2026-10-17 |
 | Cecconello | Hasta 10 cuotas sin intereses | Todos los días | Desde 2026-10-07 hasta 2026-10-17 |
 | YOUNIQUE | 25%; 30%; Hasta 12 cuotas sin interés | No especificado | Del 01 de setiembre hasta el 31 de octubre 2026 |
+| Younique | 25%; 30%; Hasta 12 cuotas sin interés | Todos los martes | • Del 3 de noviembre hasta el 28 de febrero 2026. |
 | Younique | 25% de descuento en caja | Martes y miércoles | Desde 2026-09-01 hasta 2026-10-31 |
 | Younique | 30% de descuento en caja | Martes y miércoles | Desde 2026-09-01 hasta 2026-10-31 |
 | Younique | Hasta 12 cuotas sin intereses | Martes y miércoles | Desde 2026-09-01 hasta 2026-10-31 |
@@ -277,6 +278,7 @@ Total de promociones: 348
 | Bella Casa | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Benditta Women Benditta Style For Man | 20% de descuento en caja + 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Bistro Del Centro | 20% de reintegro | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
+| Bodega Boutique | 20% | Jueves a domingo | • Del 5 de noviembre 2026 al 28 de febrero 2027. |
 | Brave | 20% de reintegro Hasta 10 cuotas sin interés | Viernes a domingo | Desde 2026-03-20 hasta 2027-02-28 |
 | Brown Burguer | 20% de reintegro | Jueves a sábados | Desde 2026-04-02 hasta 2027-02-27 |
 | Buono Market/Food | 30% de reintegro | viernes y sábado | Desde 2026-04-03 hasta 2027-02-28 |
