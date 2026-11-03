@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 443
+Total de beneficios: 442
 
 ## Alemania Cell
 
@@ -105,11 +105,9 @@ Total de beneficios: 443
 | DISTRIBUIDORA EL RANCHO | 20 %; Tenes 20% de reintegro | Aplica los martes | 2026-07-08 hasta 2026-12-31 |
 | Diamore | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los jueves | 2025-01-01 hasta 2026-12-31 |
 | El Ferretero Comercial | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-02 hasta 2026-12-31 |
-| FERRE AGIL | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | Aplica viernes y sábado | 2025-02-03 hasta 2026-12-31 |
 | IRIGOYEN PARRILLA | tarjeta de crédito; Tenes 20% de reintegro | Aplica MARTES A SABADOS; MARTES A SABADO | 2026-10-01 hasta 2026-12-31 |
 | La Tule | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | Aplica viernes y sábado | 2025-02-03 hasta 2026-12-31 |
 | La Tule | 20 % Hasta; Tenes 15% de reintegro + 5% pagando con PERSONAL BANK. | Aplica los martes | 2026-10-01 hasta 2026-12-31 |
-| Lirios | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES, JUEVES Y VIERNES | 2025-01-01 hasta 2026-12-31 |
 | Monita | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES, JUEVES Y VIERNES | 2025-01-01 hasta 2026-12-31 |
 | Santa Catalina | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-02 hasta 2026-12-31 |
 | Sartori Indumentaria | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses. | APLICA MIERCOLES, JUEVES Y VIERNES | 2025-01-01 hasta 2026-12-31 |
@@ -244,6 +242,7 @@ Total de beneficios: 443
 | Maquicenter | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2022-12-05 hasta 2026-12-31 |
 | Olier | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2025-05-11 hasta 2026-12-31 |
 | Sara Comercial | 10 Cuotas sin intereses 15 %; Tenés 15% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2024-01-26 hasta 2026-11-16 |
+| Tecnocentro | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 35% de descuento y hasta 10 cuotas sin intereses | No especificado | 2026-01-08 hasta 2026-11-30 |
 
 ## Indumentaria
 

@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 347
+Total de promociones: 348
 
 ## Clubes
 
@@ -116,6 +116,7 @@ Total de promociones: 347
 |---|---|---|---|
 | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | 6 cuotas sin interés | Todos los días | • Todos los días hasta el 31 de diciembre del 2026. |
 | Aniversario Plaza Nova | Hasta 10 cuotas sin interés | No especificado | • Jueves 29 de octubre de 2026. |
+| Napy | 20%; 25%; Hasta 12 cuotas sin intereses | No especificado | • Jueves 5 de noviembre 2026. |
 | SASPY EXPRESS | 15%; 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | Desde el 01 de octubre hasta el 31 de diciembre 2026. |
 | ZONA NORTE | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 
@@ -323,7 +324,7 @@ Total de promociones: 347
 | Jakare La Tienda | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-05-08 hasta 2027-02-27 |
 | Javi Deportes | 20% de reintegro Hasta 10 cuotas sin interés | miércoles | Desde 2025-01-15 hasta 2027-02-24 |
 | Joyeria Dominguez | 20% de reintegro Hasta 12 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
-| KESSEL | 20%; 25% | Jueves a sábado | • Desde el 10 de octubre hasta el 31 de octubre 2026. |
+| KESSEL | 20%; 25% | Miércoles a sábado | • Desde el 4 de noviembre 2026 hasta el 31 de diciembre 2027. |
 | La Fabril Pizza | 20% de reintegro | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | La Guarania Gran Almacén | 25% de reintegro Hasta 12 cuotas sin interés | Último sábado de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | Le Chic | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |

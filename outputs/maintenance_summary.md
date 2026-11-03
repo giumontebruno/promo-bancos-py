@@ -1,10 +1,10 @@
 ## Payback daily maintenance
 
-Catalog: 2026-11-02T17:15:19.601887+00:00 · 4014 records
+Catalog: 2026-11-03T00:34:18.255479+00:00 · 4016 records
 Data commit: allowed (partial coverage may remain)
 Health: attention required
 
-Records added: 43; modified: 2266; removed: 76. Removed does not necessarily mean expired.
+Records added: 5; modified: 2285; removed: 3. Removed does not necessarily mean expired.
 
 - WARNING: GNB: no complete successful retrieval within 36 hours.
 - WARNING: GNB: partial; coverage is not complete.

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T00:09:12.540277+00:00",
-  "promotion_count": 4014,
+  "generated_at": "2026-11-03T00:34:18.255479+00:00",
+  "promotion_count": 4016,
   "banks": [
     "Atlas",
     "BNF",
@@ -4277,6 +4277,27 @@
       "bank": "ueno bank",
       "merchant_name": "geox",
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Cupones-ueno-GEOX-_-NOV-2026v1.pdf",
+      "last_known_ends_on": "2026-11-30"
+    },
+    "bfa68a12f528d859": {
+      "reason": "not_in_current_sources",
+      "bank": "Itaú",
+      "merchant_name": "FERRE AGIL",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16404&c=32026",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "cf744da45facd786": {
+      "reason": "not_in_current_sources",
+      "bank": "Itaú",
+      "merchant_name": "Lirios",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16406&c=31469",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "8756bd1dcd9f7ba3": {
+      "reason": "not_in_current_sources",
+      "bank": "ueno bank",
+      "merchant_name": "Petropar",
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-PETROPAR-_-NOV-2026v1.pdf",
       "last_known_ends_on": "2026-11-30"
     }
   },

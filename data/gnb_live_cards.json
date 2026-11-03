@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-02T16:57:20.413243+00:00",
-  "total": 250,
+  "checkedAt": "2026-11-03T00:13:12.736930+00:00",
+  "total": 251,
   "cards": [
     {
       "id": 688,
@@ -141,6 +141,24 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4485_bases-y-condiciones-restaurantes-bares-y-pizzer%C3%ADas-.v2.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4486_bares-resto-08-2025-web.png"
+    },
+    {
+      "id": 414,
+      "title": "Delimarket",
+      "startDate": "2025-01-23",
+      "endDate": "2026-12-30",
+      "miniDescription": "20% de reintegro en la primera compra de cada semana.",
+      "category": "Días GNB",
+      "lines": [
+        "20% de reintegro en la primera compra de cada semana.",
+        "Del 2 de noviembre al 30 de diciembre del 2026.",
+        "20% de reintegro en la primera compra de cada semana para pagos con tarjetas de crédito Mastercard afinidades Metalcard Premier, Black Premier y Black, Visa Infinite Premier y Platinum del Banco GNB Paraguay.",
+        "Tope de compra semanal: Gs. 750.000 (guaraníes setecientos cincuenta mil) para tarjetas de crédito Mastercard Metalcard Premier, Black Premier, Visa Infinite. y Gs. 375.000 (guaraníes trescientos setenta y cinco mil) para tarjetas de crédito Mastercard Black y Visa Platinum.",
+        "Beneficio aplica única y exclusivamente a la primera compra de la semana (lunes a domingo) por cuenta de tarjeta (titular o adicional), independientemente a que el tope de compra semanal haya sido utilizado o no en su totalidad.",
+        "Beneficio no acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4504_bases-y-condiciones-delimarket-octubre.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4505_delimarket-web.png"
     },
     {
       "id": 421,

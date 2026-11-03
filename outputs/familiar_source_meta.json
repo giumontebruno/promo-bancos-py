@@ -1,7 +1,12 @@
 {
-  "checked_at": "2026-11-02T16:59:23.919237+00:00",
+  "checked_at": "2026-11-03T00:15:59.327340+00:00",
   "published": 362,
   "pending": [
+    {
+      "merchant_name": "NISSEI CYBERDAY",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-nissei-cyberday",
+      "reason": "ambiguous_dates"
+    },
     {
       "merchant_name": "LUNES DE MALL EXCELSIOR",
       "source_url": "https://www.familiar.com.py/pdfs/lunes-de-mall-excelsior",
@@ -360,7 +365,7 @@
     },
     {
       "merchant_name": "CONSOLIDADO DE PROMOCIONES",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-consolidado-de-promociones-bases-y-condiciones-octubre2026",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-consolidado-de-promociones-bases-y-condiciones-noviembre2026",
       "reason": "ambiguous_dates"
     },
     {

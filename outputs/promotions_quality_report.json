@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T00:09:12.540277+00:00",
-  "input_count": 3370,
-  "promotion_count": 4014,
-  "duplicates_removed": -644,
+  "generated_at": "2026-11-03T00:34:18.255479+00:00",
+  "input_count": 3371,
+  "promotion_count": 4016,
+  "duplicates_removed": -645,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1235,17 +1235,17 @@
     "Continental": 923,
     "Coop. Universitaria": 72,
     "Familiar": 362,
-    "GNB": 487,
+    "GNB": 488,
     "Interfisa": 163,
-    "Itaú": 601,
+    "Itaú": 600,
     "Solar": 69,
-    "Sudameris": 348,
+    "Sudameris": 350,
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 347,
-    "limits_unconfirmed": 454,
-    "validity_unconfirmed": 35,
+    "source_verification_pending": 349,
+    "limits_unconfirmed": 455,
+    "validity_unconfirmed": 36,
     "multiple_purchase_limits": 334,
     "source_amount_conflict": 33,
     "multiple_refund_limits": 195
@@ -4405,6 +4405,15 @@
       "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/575"
     },
     {
+      "id": "48c476ce1f785700",
+      "bank": "GNB",
+      "merchant": "Delimarket",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/414"
+    },
+    {
       "id": "7054e733d144bccc",
       "bank": "GNB",
       "merchant": "Kappa",
@@ -5957,6 +5966,16 @@
       "source_url": "https://www.sudameris.com.py/personas/beneficios/aniversario-plaza-nova"
     },
     {
+      "id": "efd35f36432b2546",
+      "bank": "Sudameris",
+      "merchant": "Napy",
+      "issues": [
+        "source_verification_pending",
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/napy"
+    },
+    {
       "id": "11eeb1e1fc123148",
       "bank": "Sudameris",
       "merchant": "SASPY EXPRESS",
@@ -7046,7 +7065,7 @@
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
     },
     {
-      "id": "b359a9e4d40ba14f",
+      "id": "0312647ee437fcce",
       "bank": "Sudameris",
       "merchant": "KESSEL",
       "issues": [
@@ -7946,14 +7965,14 @@
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-COMBUSTIBLES-_-NOV-2026v1.pdf"
     },
     {
-      "id": "8756bd1dcd9f7ba3",
+      "id": "ba4524d9dab82257",
       "bank": "ueno bank",
       "merchant": "Petropar",
       "issues": [
         "multiple_purchase_limits",
         "multiple_refund_limits"
       ],
-      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-PETROPAR-_-NOV-2026v1.pdf"
+      "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-PETROPAR-_-NOV-2026v2.pdf"
     },
     {
       "id": "f0e8ae0a4dd5fda2",
@@ -9488,6 +9507,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-VIAJES-_-NOV-2026v1.pdf"
+    },
+    {
+      "id": "b359a9e4d40ba14f",
+      "bank": "Sudameris",
+      "merchant": "KESSEL",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/kessel"
     },
     {
       "id": "c1c5a4cd1a415eb6",

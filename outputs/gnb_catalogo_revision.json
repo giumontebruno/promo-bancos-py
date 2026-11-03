@@ -1,10 +1,11 @@
 {
-  "checked_at": "2026-11-02T16:57:20.413243+00:00",
+  "checked_at": "2026-11-03T00:13:12.736930+00:00",
   "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
-  "total_source_cards": 250,
+  "total_source_cards": 251,
   "already_represented_source_cards": 245,
   "source_cards_not_yet_in_app": [
     688,
+    414,
     52,
     297,
     20,
@@ -25,6 +26,11 @@
       "id": 408,
       "name": "Bares & Restó",
       "flags": "source_start_date_stale; merchant_group_not_geocodable"
+    },
+    {
+      "id": 414,
+      "name": "Delimarket",
+      "flags": "source_start_date_stale"
     },
     {
       "id": 421,
