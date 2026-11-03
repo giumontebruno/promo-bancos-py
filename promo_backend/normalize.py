@@ -335,6 +335,13 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         normalized['source_verification'] = 'unconfirmed'
         normalized['source_warning'] = 'Campaña personalizada retenida: requiere invitación, saldo adicional, tope individual y horario de compra.'
         normalized['variant_review_reason'] = 'personalized_invitation_and_purchase_time_not_supported'
+    # The Mariscal CMS link currently serves terms for a different shopping center.
+    # Keep IDs and evidence, but never publish those variants as active benefits.
+    if (bank == 'Familiar' and 'mariscal' in normalized['merchant_name'].casefold()
+            and re.search(r'jueves\s+mariano', normalized.get('original_source_text', ''), re.I)):
+        normalized['source_verification'] = 'unconfirmed'
+        normalized['source_warning'] = 'Promoción en revisión: la ficha de Shopping Mariscal enlaza condiciones de Jueves Mariano.'
+        normalized['variant_review_reason'] = 'shopping_campaign_terms_mismatch'
     return normalized
 
 

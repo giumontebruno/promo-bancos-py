@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:15:19.601887+00:00",
+  "generated_at": "2026-11-03T00:09:12.540277+00:00",
   "input_count": 3370,
   "promotion_count": 4014,
   "duplicates_removed": -644,
@@ -1243,11 +1243,11 @@
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 331,
-    "limits_unconfirmed": 440,
+    "source_verification_pending": 347,
+    "limits_unconfirmed": 454,
     "validity_unconfirmed": 35,
     "multiple_purchase_limits": 334,
-    "source_amount_conflict": 19,
+    "source_amount_conflict": 33,
     "multiple_refund_limits": 195
   },
   "review_queue": [
@@ -3735,6 +3735,28 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1752158977.pdf"
     },
     {
+      "id": "e2441e1f0fff5371",
+      "bank": "Familiar",
+      "merchant": "FARMACIA CATEDRAL-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "4fc1e7fb7083f55f",
+      "bank": "Familiar",
+      "merchant": "FARMACIA CATEDRAL-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
       "id": "38ed777432bb54b4",
       "bank": "Familiar",
       "merchant": "FARMACIA ZULMI",
@@ -3884,10 +3906,55 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-superseis-bases-y-condiciones"
     },
     {
+      "id": "520e5864e2a9db0c",
+      "bank": "Familiar",
+      "merchant": "BERTONI-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "c558e3319e4962dc",
+      "bank": "Familiar",
+      "merchant": "BERTONI-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "a540a0152cc0692c",
+      "bank": "Familiar",
+      "merchant": "CHAMPS-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "fc319f6be1cd49df",
+      "bank": "Familiar",
+      "merchant": "CHAMPS-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
       "id": "1cde6934b92e89aa",
       "bank": "Familiar",
       "merchant": "DENOIR-SHOPPING MARISCAL",
       "issues": [
+        "source_verification_pending",
         "source_amount_conflict",
         "limits_unconfirmed"
       ],
@@ -3898,6 +3965,95 @@
       "bank": "Familiar",
       "merchant": "DENOIR-SHOPPING MARISCAL",
       "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "10cb04cdae519056",
+      "bank": "Familiar",
+      "merchant": "ISADORA-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "84166a4b53d30f4a",
+      "bank": "Familiar",
+      "merchant": "ISADORA-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "1ab28768f5e5b36a",
+      "bank": "Familiar",
+      "merchant": "NICE-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "1b50f2b20c5cdbd9",
+      "bank": "Familiar",
+      "merchant": "NICE-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "b1f3c3cb501a90c7",
+      "bank": "Familiar",
+      "merchant": "PATROL-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "e39cf425489fcb74",
+      "bank": "Familiar",
+      "merchant": "PATROL-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "b35ccf52b8d748bb",
+      "bank": "Familiar",
+      "merchant": "TODO MODA-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
+        "source_amount_conflict",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
+    },
+    {
+      "id": "e129eb39359c7c7b",
+      "bank": "Familiar",
+      "merchant": "TODO MODA-SHOPPING MARISCAL",
+      "issues": [
+        "source_verification_pending",
         "source_amount_conflict",
         "limits_unconfirmed"
       ],
