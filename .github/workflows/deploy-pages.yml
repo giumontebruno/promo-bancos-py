@@ -9,6 +9,7 @@ on:
       - "beta-web/**"
       - "scripts/build.mjs"
       - "scripts/publication-snapshot.mjs"
+      - "scripts/promotion-suspensions.mjs"
       - "tests/**"
       - "public/**"
       - ".github/workflows/deploy-pages.yml"

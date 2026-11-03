@@ -1,4 +1,5 @@
 import { stampSnapshot } from './publication-snapshot.mjs';
+import { prepareSuspensions } from './promotion-suspensions.mjs';
 import { build } from 'esbuild';
 import { cp, mkdir, readFile, writeFile } from 'node:fs/promises';
 await mkdir('dist/server', { recursive: true });
@@ -9,6 +10,7 @@ await build({ entryPoints: ['app-web/beta-client.js'], bundle: true, format: 'ii
 await build({ entryPoints: ['app-web/admin-client.js'], bundle: true, format: 'iife', platform: 'browser', target: 'es2022', outfile: 'app-web/admin-bundle.js', minify: true });
 await build({ entryPoints: ['server/index.js'], bundle: true, format: 'esm', platform: 'browser', target: 'es2022', outfile: 'dist/server/index.js' });
 await cp('app-web', 'dist/client/app-web', { recursive: true });
+await prepareSuspensions('public');
 await cp('public', 'dist/client/public', { recursive: true });
 await writeFile('dist/client/index.html', '<!doctype html><html lang="es"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=https://giumontebruno.github.io/promo-bancos-py/app-web/"><title>Payback PY</title><a href="https://giumontebruno.github.io/promo-bancos-py/app-web/">Payback PY</a></html>');
 await mkdir('dist/.openai', { recursive: true });
