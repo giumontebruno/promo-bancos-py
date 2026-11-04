@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T15:16:15.356354+00:00",
-  "input_count": 3380,
-  "promotion_count": 4026,
-  "duplicates_removed": -646,
+  "generated_at": "2026-11-04T15:41:12.128480+00:00",
+  "input_count": 3436,
+  "promotion_count": 4083,
+  "duplicates_removed": -647,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -596,7 +596,7 @@
     "8e1991c33b0b3544": "cdaea31044ae4846",
     "aad034ba9c466183": "9d9cb95dc64c2047",
     "c399503d5f653669": "cb024de12f1475b6",
-    "115a6b1af8aad4ff": "dd1a8f168632e17b",
+    "115a6b1af8aad4ff": "6a12e6d379d9e442",
     "01bb16ca13d4bc02": "477fdf0aa59cea7c",
     "7bdf8341c07bf61a": "6d4d1ca538a843f5",
     "719b925d2d1e803b": "baeb9010c85bb4a6",
@@ -716,7 +716,7 @@
     "eb8d4d0c7f39fa64": "0f163fd773f66f02",
     "4500ec771475870f": "2c600f207db238ee",
     "609657535743699a": "6fc95787159944f3",
-    "faffa4f8f35e4813": "dd1a8f168632e17b",
+    "faffa4f8f35e4813": "6a12e6d379d9e442",
     "790bab08cad62bb7": "9160dcea2abd7186",
     "d30842bcc08c972e": "940b44ec1dd40641",
     "3dae4249cf36d101": "046270a8a7f95cde",
@@ -1009,7 +1009,7 @@
     "e1f73d4e7e3f215d": "079f0d097a236e3f",
     "7185b3e16b670118": "c49fcec793914f30",
     "57b016cd047fb17d": "16ce1db62f5d3301",
-    "dad8e8a3e3de5f98": "4518353c7367f2f0",
+    "dad8e8a3e3de5f98": "961ac08764510df9",
     "71aace636f0fb4c0": "492f65ae0e6c3b5f",
     "62bbc7783aa79373": "45477471f0c7fdf8",
     "5bde3619037e55a7": "cf03fad7b0a038cc",
@@ -1061,7 +1061,7 @@
     "6ae9c17f26a45522": "7018b2ee022a193b",
     "e5a63b46d354c9b9": "6fc95787159944f3",
     "cb26e4151062f81d": "ec1ac0adbfa83da7",
-    "a11aa97394f6238f": "4518353c7367f2f0",
+    "a11aa97394f6238f": "961ac08764510df9",
     "421602ecb52b6714": "0113e8ca837c299e",
     "2a992f8aa20ddee9": "4e2400d6ddb3c75e",
     "4b7527dd64776d93": "34d405e101082710",
@@ -1200,56 +1200,60 @@
     "706d7b8a4b417f99": "3e6bec2b7296ff1f",
     "3a08dde3e44bd674": "7a584b45c4d9edfd",
     "af3d82672853e6c8": "4ce5aaa7ba85e9f5",
-    "632818d14f8e6d49": "4518353c7367f2f0",
+    "632818d14f8e6d49": "961ac08764510df9",
     "44a125c738b02b4a": "d63a776ddab37102",
     "eac0369ab2c3948b": "eac8290daab7da6e",
-    "b2f82c5371c6bed1": "8a6c7298d9e204d9",
-    "c868e77d5f1930dc": "8a6c7298d9e204d9",
-    "8e9e12aca6d5db3d": "8a6c7298d9e204d9",
-    "eceb5d20308cb73d": "f7d6618a9e53cf93",
-    "3bd5b4549acf9bef": "f7d6618a9e53cf93",
-    "192858ec2a933a64": "f7d6618a9e53cf93",
-    "a0edb1c603f4f29e": "2121e8559bd4b606",
-    "02248c8d50102e44": "2121e8559bd4b606",
-    "09c75631fbb59fc8": "2121e8559bd4b606",
-    "bdf82a8789720164": "ebbe29a4e00606fd",
-    "608db04394176624": "ebbe29a4e00606fd",
-    "3822087f4ed243ed": "ebbe29a4e00606fd",
-    "2eb8ce633ab1654b": "de5f66cabd387857",
-    "a1a2d27c3988656c": "de5f66cabd387857",
-    "2e14eaf6ac92dfb0": "de5f66cabd387857",
-    "2dadccbb9e2d17c2": "1cb6444cd6daafe8",
-    "ee3d9c1798d86ec8": "1cb6444cd6daafe8",
-    "a1872349709f0fd7": "1cb6444cd6daafe8",
-    "1d1c6d2721338ed9": "6129b9582f2868b9",
-    "d2556dce472096b8": "6129b9582f2868b9",
-    "b50d38d0ab692ff3": "6129b9582f2868b9",
     "8ff71f5ba9b3eef0": "51efeb1ebea46faa",
     "ce2dcf46fe3f538d": "fbfd4839ec55c510",
     "dd4ca4cf30bca697": "562de6992fe2b32c",
-    "207e210a5a46e7be": "f5b3c7c2c13d61a1"
+    "207e210a5a46e7be": "f5b3c7c2c13d61a1",
+    "4518353c7367f2f0": "961ac08764510df9",
+    "ae2ffe772ca595c1": "7504d6a61472f7c3",
+    "520e5864e2a9db0c": "b2f82c5371c6bed1",
+    "8a6c7298d9e204d9": "b2f82c5371c6bed1",
+    "c558e3319e4962dc": "b2f82c5371c6bed1",
+    "a540a0152cc0692c": "3bd5b4549acf9bef",
+    "f7d6618a9e53cf93": "3bd5b4549acf9bef",
+    "fc319f6be1cd49df": "3bd5b4549acf9bef",
+    "1cde6934b92e89aa": "02248c8d50102e44",
+    "2121e8559bd4b606": "02248c8d50102e44",
+    "761c6d9e357feb05": "02248c8d50102e44",
+    "ebbe29a4e00606fd": "608db04394176624",
+    "10cb04cdae519056": "608db04394176624",
+    "84166a4b53d30f4a": "608db04394176624",
+    "de5f66cabd387857": "a1a2d27c3988656c",
+    "1ab28768f5e5b36a": "a1a2d27c3988656c",
+    "1b50f2b20c5cdbd9": "a1a2d27c3988656c",
+    "b1f3c3cb501a90c7": "ee3d9c1798d86ec8",
+    "1cb6444cd6daafe8": "ee3d9c1798d86ec8",
+    "e39cf425489fcb74": "ee3d9c1798d86ec8",
+    "b35ccf52b8d748bb": "d2556dce472096b8",
+    "6129b9582f2868b9": "d2556dce472096b8",
+    "e129eb39359c7c7b": "d2556dce472096b8",
+    "dd1a8f168632e17b": "6a12e6d379d9e442",
+    "ce32304dc87e0a98": "9e3753fc26c6a85e"
   },
   "by_bank": {
-    "Atlas": 53,
+    "Atlas": 52,
     "BNF": 77,
     "Bancop": 68,
     "Basa": 95,
     "Continental": 923,
     "Coop. Universitaria": 72,
-    "Familiar": 362,
-    "GNB": 488,
-    "Interfisa": 170,
-    "Itaú": 601,
+    "Familiar": 410,
+    "GNB": 489,
+    "Interfisa": 175,
+    "Itaú": 605,
     "Solar": 69,
     "Sudameris": 352,
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 353,
-    "limits_unconfirmed": 457,
-    "validity_unconfirmed": 36,
+    "source_verification_pending": 338,
+    "limits_unconfirmed": 443,
+    "validity_unconfirmed": 35,
     "multiple_purchase_limits": 334,
-    "source_amount_conflict": 33,
+    "source_amount_conflict": 19,
     "multiple_refund_limits": 195
   },
   "review_queue": [
@@ -1272,13 +1276,13 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "4518353c7367f2f0",
+      "id": "961ac08764510df9",
       "bank": "Atlas",
       "merchant": "Beneficios gastronómicos",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancoatlas.com.py/web//Restaurantes%20adheridos%20oct.pdf"
+      "source_url": "https://www.bancoatlas.com.py/web//Restaurantes%20adheridos%20oct.jpg"
     },
     {
       "id": "bbca9c1b1ccde9ac",
@@ -1332,16 +1336,6 @@
       "merchant": "delSol",
       "issues": [
         "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "ae2ffe772ca595c1",
-      "bank": "Atlas",
-      "merchant": "delSol Shopping - Cheques delSol",
-      "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
@@ -3737,28 +3731,6 @@
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/1752158977.pdf"
     },
     {
-      "id": "e2441e1f0fff5371",
-      "bank": "Familiar",
-      "merchant": "FARMACIA CATEDRAL-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "4fc1e7fb7083f55f",
-      "bank": "Familiar",
-      "merchant": "FARMACIA CATEDRAL-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
       "id": "38ed777432bb54b4",
       "bank": "Familiar",
       "merchant": "FARMACIA ZULMI",
@@ -3908,154 +3880,20 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-superseis-bases-y-condiciones"
     },
     {
-      "id": "520e5864e2a9db0c",
-      "bank": "Familiar",
-      "merchant": "BERTONI-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "c558e3319e4962dc",
-      "bank": "Familiar",
-      "merchant": "BERTONI-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "a540a0152cc0692c",
-      "bank": "Familiar",
-      "merchant": "CHAMPS-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "fc319f6be1cd49df",
-      "bank": "Familiar",
-      "merchant": "CHAMPS-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "1cde6934b92e89aa",
+      "id": "a0edb1c603f4f29e",
       "bank": "Familiar",
       "merchant": "DENOIR-SHOPPING MARISCAL",
       "issues": [
-        "source_verification_pending",
         "source_amount_conflict",
         "limits_unconfirmed"
       ],
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
     },
     {
-      "id": "761c6d9e357feb05",
+      "id": "09c75631fbb59fc8",
       "bank": "Familiar",
       "merchant": "DENOIR-SHOPPING MARISCAL",
       "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "10cb04cdae519056",
-      "bank": "Familiar",
-      "merchant": "ISADORA-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "84166a4b53d30f4a",
-      "bank": "Familiar",
-      "merchant": "ISADORA-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "1ab28768f5e5b36a",
-      "bank": "Familiar",
-      "merchant": "NICE-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "1b50f2b20c5cdbd9",
-      "bank": "Familiar",
-      "merchant": "NICE-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "b1f3c3cb501a90c7",
-      "bank": "Familiar",
-      "merchant": "PATROL-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "e39cf425489fcb74",
-      "bank": "Familiar",
-      "merchant": "PATROL-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "b35ccf52b8d748bb",
-      "bank": "Familiar",
-      "merchant": "TODO MODA-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
-        "source_amount_conflict",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-martes-mariscal"
-    },
-    {
-      "id": "e129eb39359c7c7b",
-      "bank": "Familiar",
-      "merchant": "TODO MODA-SHOPPING MARISCAL",
-      "issues": [
-        "source_verification_pending",
         "source_amount_conflict",
         "limits_unconfirmed"
       ],
@@ -5124,6 +4962,16 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-top-tenis-1.pdf"
+    },
+    {
+      "id": "a066e76fb62366dd",
+      "bank": "Interfisa",
+      "merchant": "XTRAIL JEANS",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-xtrail-jeans-1-1.pdf"
     },
     {
       "id": "0610578c4caf1b1b",

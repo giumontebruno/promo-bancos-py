@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 35
+Total de beneficios: 33
 
 ## Bienestar
 
@@ -40,9 +40,7 @@ Total de beneficios: 35
 | L'uomo | 6 cuotas sin intereses | Todos los días | Desde 2026-06-01 hasta 2026-12-31 |
 | Nueva Americana | 25% de descuento; 20% de descuento; 12 cuotas sin intereses | 13 y 14 de noviembre | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente los días 12 y 13 de noviembre del 2026. Válido para transacciones realizadas a través del POS de la R |
 | Pinedo Shopping | 20% de descuento; 3 cuotas sin intereses | Todos los viernes | El descuento se realiza en caja. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica para tiendas adheridas a la promoci |
-| Preventa Cheques delSol | 45% de bonificación; 12 cuotas sin intereses | 6 de noviembre | Desde 2026-10-16 hasta 2026-10-16 |
 | delSol | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Promoción válida todos los días para tarjetas afinidad delSol en todos |
-| delSol Shopping - Cheques delSol | 40% de bonificación; 30% de bonificación; 12 cuotas sin intereses | 7 y 8 de noviembre | Beneficio exclusivo para las tarjetas afinidad Atlas delSol. Tope de compra acumulado por cuenta de tarjeta Gs. 70.000.000 para TC Visa Signature Atlas delSol y Gs. 30.000.000 para TC Visa Clásica Atlas delSol. La cantid |
 
 ## Hogar
 

@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-03T15:00:16.300039+00:00",
-  "campaigns": 45,
+  "checked_at": "2026-11-04T15:23:00.081498+00:00",
+  "campaigns": 54,
   "failures": [
     {
       "campaign": "Zona Central – Asunción y Gran Asunción",
@@ -21,6 +21,51 @@
       "campaign": "ZONA NORTE",
       "url": "https://www.sudameris.com.py/personas/beneficios/zona-norte",
       "reason": "Multiple Sudameris documents require per-city scoped review: ['https://www.sudameris.com.py/descargas/documentos/concepcion-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/katuete-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/santa-rosa-del-aguaray-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/san-alberto-bases-y-condiciones', 'https://www.sudameris.com.py/descargas/documentos/zona-norte-curuguaty']"
+    },
+    {
+      "campaign": "Encarnación",
+      "url": "https://www.sudameris.com.py/personas/beneficios/concepcion",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "Fram",
+      "url": "https://www.sudameris.com.py/personas/beneficios/fram",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "Trinidad",
+      "url": "https://www.sudameris.com.py/personas/beneficios/trinidad",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "Bella Vista",
+      "url": "https://www.sudameris.com.py/personas/beneficios/bella-vista",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "Coronel bogado",
+      "url": "https://www.sudameris.com.py/personas/beneficios/coronel-bogado",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "Carmen del paraná",
+      "url": "https://www.sudameris.com.py/personas/beneficios/carmen-del-parana",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "Hohenau",
+      "url": "https://www.sudameris.com.py/personas/beneficios/hohenau",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "Kressburgo",
+      "url": "https://www.sudameris.com.py/personas/beneficios/kressburgo",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "María auxiliadora",
+      "url": "https://www.sudameris.com.py/personas/beneficios/maria-auxiliadora",
+      "reason": "No quantified benefit on official page; retained in staging only"
     },
     {
       "campaign": "Distrito Perseverancia",

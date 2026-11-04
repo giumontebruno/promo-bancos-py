@@ -1,10 +1,10 @@
 ## Payback daily maintenance
 
-Catalog: 2026-11-03T15:16:15.356354+00:00 · 4026 records
+Catalog: 2026-11-04T15:41:12.128480+00:00 · 4083 records
 Data commit: allowed (partial coverage may remain)
 Health: attention required
 
-Records added: 12; modified: 2287; removed: 2. Removed does not necessarily mean expired.
+Records added: 80; modified: 1441; removed: 23. Removed does not necessarily mean expired.
 
 - WARNING: GNB: no complete successful retrieval within 36 hours.
 - WARNING: GNB: partial; coverage is not complete.
@@ -17,13 +17,15 @@ Records added: 12; modified: 2287; removed: 2. Removed does not necessarily mean
 - WARNING: Itaú: no complete successful extraction within 72 hours.
 - WARNING: BNF: no complete successful retrieval within 36 hours.
 - WARNING: BNF: failed; coverage is not complete.
+- WARNING: BNF: no complete successful extraction within 72 hours.
+- WARNING: Continental: failed; coverage is not complete.
 - WARNING: Atlas: partial; coverage is not complete.
+- WARNING: Atlas: no complete successful extraction within 72 hours.
 - WARNING: Coop. Universitaria: partial; coverage is not complete.
 - WARNING: Coop. Universitaria: no complete successful extraction within 72 hours.
 - WARNING: Basa: no complete successful retrieval within 36 hours.
 - WARNING: Basa: partial; coverage is not complete.
 - WARNING: Basa: no complete successful extraction within 72 hours.
-- WARNING: Interfisa: no complete successful retrieval within 36 hours.
 - WARNING: Interfisa: partial; coverage is not complete.
 - WARNING: Interfisa: no complete successful extraction within 72 hours.
 - WARNING: Bancop: partial; coverage is not complete.

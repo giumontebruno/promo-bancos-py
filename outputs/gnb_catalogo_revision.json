@@ -1,10 +1,13 @@
 {
-  "checked_at": "2026-11-03T14:57:17.338206+00:00",
+  "checked_at": "2026-11-04T15:18:10.395760+00:00",
   "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
-  "total_source_cards": 251,
-  "already_represented_source_cards": 246,
+  "total_source_cards": 253,
+  "already_represented_source_cards": 245,
   "source_cards_not_yet_in_app": [
     688,
+    371,
+    42,
+    186,
     52,
     297,
     20,

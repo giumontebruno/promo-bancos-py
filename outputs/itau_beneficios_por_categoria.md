@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 442
+Total de beneficios: 446
 
 ## Alemania Cell
 
@@ -233,7 +233,7 @@ Total de beneficios: 442
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Achon | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses | No especificado | 2026-01-05 hasta 2026-12-31 |
+| Achon | 10 Cuotas sin intereses 10 %; Tenes 10% de descuento + hasta 10 cuotas sin intereses | No especificado | 2026-01-05 hasta 2026-11-30 |
 | Casa Pro | 30 % Hasta 6 Cuotas sin intereses; Tenes hasta 30% de descuento en caja + hasta 6 cuotas sin intereses | No especificado | 2025-06-19 hasta 2026-12-31 |
 | Essen | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
 | Ipale | 30 % 10 Cuotas sin intereses; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-23 hasta 2026-11-30 |
@@ -272,6 +272,8 @@ Total de beneficios: 442
 | Coquetas legacy | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | El Café de aca | 20 %; Tenes 20% de reintegro | sábado a domingo | 2025-10-06 hasta 2026-12-31 |
 | Estudio Barcelona | 10 Cuotas sin intereses 10 %; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-07-01 hasta 2026-12-31 |
+| Fabric Sushi | 20 %; Tenes 20% de reintegro. | lunes a jueves | 2026-09-07 hasta 2026-11-30 |
+| Fabric Sushi | 25 %; Tenes 25% de reintegro. | No especificado | 2026-01-01 hasta 2026-11-30 |
 | Gilardini | 15 % 6 Cuotas sin intereses; 15% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-11-30 |
 | Golden Closet | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | Gond Wana | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses | No especificado | 2026-01-12 hasta 2026-12-31 |
@@ -501,6 +503,7 @@ Total de beneficios: 442
 |---|---|---|---|
 | Almacen de Mascotas | 6 Cuotas sin intereses 15 %; 15% de ahorro y hasta 6 cuotas sin intereses. | Aplica los sábados | 2024-09-24 hasta 2026-12-26 |
 | American Look | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
+| Anima | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses. | No especificado | 2026-01-05 hasta 2026-11-30 |
 | Ares | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | BELLA AURORA | 12 Cuotas sin intereses; Tenes hasta 12 cuotas sin intereses. | No especificado | 2026-06-26 hasta 2026-12-31 |
 | Bertoni | 6 Cuotas sin intereses 15 % Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-03-26 hasta 2026-12-02 |
@@ -540,10 +543,10 @@ Total de beneficios: 442
 | Shell | 20% de reintegro. | lunes | Desde 2026-02-23 hasta 2026-12-31 |
 | Sport House | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | TL Sports & Outdoors | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
+| Tiendas Martel | 35 % Hasta; Tenes 30% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-11-03 hasta 2026-12-02 |
 | Timberland | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Touring y Automóvil Club Paraguayo | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-06-26 hasta 2026-12-31 |
 | VGS | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
-| Vernier | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 
 ## Viaje y Turismo
 
@@ -568,6 +571,7 @@ Total de beneficios: 442
 | Hoteles | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses | No especificado | 2017-11-20 hasta 2026-12-31 |
 | Interviajes | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Latam | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses | No especificado | 2026-02-11 hasta 2026-12-31 |
+| Maral Turismo | 15 Cuotas sin intereses; Tenes hasta 15 cuotas sin intereses | No especificado | 2026-11-04 hasta 2026-11-08 |
 | Maral Turismo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Me Vuelo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Meraki | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |

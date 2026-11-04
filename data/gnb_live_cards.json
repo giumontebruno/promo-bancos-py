@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-03T14:57:17.338206+00:00",
-  "total": 251,
+  "checkedAt": "2026-11-04T15:18:10.395760+00:00",
+  "total": 253,
   "cards": [
     {
       "id": 688,
@@ -86,6 +86,24 @@
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/2869_cinemark-2025-web.png"
     },
     {
+      "id": 371,
+      "title": "Cyber Day",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-10",
+      "miniDescription": "Hasta 18 cuotas sin intereses.",
+      "category": "Cuotas sin intereses",
+      "lines": [
+        "Hasta 18 cuotas sin intereses.",
+        "Del 2 al 4 de noviembre de 2026.",
+        "Hasta 18 cuotas sin intereses con las tarjetas de crédito del Banco GNB Paraguay.",
+        "Para el fraccionamiento de las cuotas el cliente deberá solicitar/seleccionar la cantidad de cuotas que desea al momento del pago bajo el Plan 1 de Bancard. Las cuotas se verán reflejadas en el extracto del cliente.",
+        "Beneficio aplica única y exclusivamente para compras vía web .",
+        "Consulte las bases y condiciones para información acerca de los locales adheridos."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4345_gnb-byc-cyber-day-2026.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4346_ciberday-web.png"
+    },
+    {
       "id": 639,
       "title": "La Ruta del Café",
       "startDate": "2026-07-01",
@@ -109,10 +127,10 @@
       "title": "Día GNB Casa Rica",
       "startDate": "2024-06-01",
       "endDate": "2026-12-31",
-      "miniDescription": "20% de descuento el miércoles 14 de octubre del 2026.",
+      "miniDescription": "20% de descuento el miércoles 11 de noviembre del 2026.",
       "category": "Días GNB",
       "lines": [
-        "20% de descuento el miércoles 14 de octubre del 2026.",
+        "20% de descuento el miércoles 11 de noviembre del 2026.",
         "20% de descuento para pagos realizados con las tarjetas de crédito del Banco GNB Paraguay .",
         "El descuento será aplicado al momento del pago en caja/mostrador.",
         "Incluye compras en tienda online.",
@@ -120,8 +138,29 @@
         "No participan de la promoción las tarjetas débito y crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet Card y Prepagas.",
         "No aplica a pagos posteriores a la fecha ni pagos contra entrega de productos."
       ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/2289_bases-y-condiciones-casa-rica-d%C3%ADa-gnb-octubre.pdf",
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/2289_gnb-b-c-casa-rica-diagnb-11-2026.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/731_casa-rica-dia-10-2026-web.png"
+    },
+    {
+      "id": 42,
+      "title": "Día GNB Areté y Festa",
+      "startDate": "2024-06-01",
+      "endDate": "2026-12-23",
+      "miniDescription": "20% de reintegro el sábado 21 de noviembre del 2026.",
+      "category": "Días GNB",
+      "lines": [
+        "20% de reintegro el sábado 21 de noviembre del 2026.",
+        "20% de reintegro para las tarjetas de crédito del Banco GNB Paraguay.",
+        "Vía reintegro en el extracto al cierre o podrá visualizarlo en su app en los movimientos mensuales de su tarjeta.",
+        "Tope de compra de Gs. 2.000.000 (guaraníes dos millones) por cuenta de tarjeta de crédito (Incluye titulares y adicionales) equivalente a un reintegro máximo mensual en el extracto de Gs. 400.000 (guaraníes cuatrocientos mil).",
+        "Los reintegros serán reflejados de manera automática en el extracto del cliente, en un período de 24 a 48 hs. hábiles luego de la compra.",
+        "No acumulable con otras promociones",
+        "No aplica compras realizadas a través de plataformas de terceros.",
+        "No aplica a pagos posteriores a la fecha ni pagos contra entrega de productos.",
+        "Consulte las bases y condiciones para más información acerca del beneficio."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/2589_gnb-b-c-arete-diagnb-11-2026.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/2460_img-arete-festa-diagnbsept.png"
     },
     {
       "id": 408,
@@ -232,11 +271,11 @@
       "title": "Cibermiércoles Casa Rica",
       "startDate": "2024-06-01",
       "endDate": "2026-12-31",
-      "miniDescription": "20% de descuento en compras online los miércoles 7 y 14 de octubre de 2026.",
+      "miniDescription": "20% de descuento en compras online los miércoles 4 y 11 de noviembre de 2026.",
       "category": "Días GNB",
       "lines": [
         "20% de descuento en compras online.",
-        "Los miércoles 7 y 14 de octubre del 2026.",
+        "Los miércoles 4 y 11 de noviembre del 2026.",
         "20% de descuento para pagos realizados con las tarjetas de crédito del Banco GNB Paraguay",
         "Pagos realizados exclusivamente en compras en la app o web de Casa Rica pagadas en el día de la promoción.",
         "El descuento será aplicado al momento del pago en la web.",
@@ -245,7 +284,7 @@
         "No acumulable con otras promociones.",
         "No participan de la promoción las tarjetas débito, crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet Card y Prepagas."
       ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/3671_bases-y-condiciones-casa-rica-d%C3%ADas-gnb-ecommerce-octubre.pdf",
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/3671_gnb-b-c-casa-rica-cibermiercoles-11-2026.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/3668_casa-rica-online-09-2024-web.png"
     },
     {
@@ -307,6 +346,24 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5244_gnb-byc-doha-home.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5245_doha-2026-web.png"
+    },
+    {
+      "id": 186,
+      "title": "Doña Angela",
+      "startDate": "2026-09-22",
+      "endDate": "2026-11-30",
+      "miniDescription": "20% de reintegro los jueves y viernes.",
+      "category": "Días GNB",
+      "lines": [
+        "20% de reintegro los jueves y viernes.",
+        "Del 5 al 27 de noviembre del 2026.",
+        "20% de reintegro para pagos con tarjetas de crédito Mastercard del Banco GNB Paraguay.",
+        "Tope de compra mensual: Gs. 800.000 (guaraníes ochocientos mil) por cuenta de tarjeta de crédito (incluye titulares y adicionales), el cual aplica en forma conjunta con todas las sucursales de lácteos, restaurantes y heladerías.",
+        "Los reintegros serán reflejados de manera automática en el extracto del cliente, en un período de 24 a 48hs hábiles luego de la compra.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/3078_gnb-byc-d-angela-11-2026.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/3077_do%C3%B1a-angela-2026-web.png"
     },
     {
       "id": 362,
@@ -1290,25 +1347,6 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5330_bases-y-condiciones-depilife.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5331_depilife-2026-web.png"
-    },
-    {
-      "id": 663,
-      "title": "Fixocargo",
-      "startDate": "2026-09-07",
-      "endDate": "2027-02-28",
-      "miniDescription": "20% de reintegro + Hasta 6 cuotas sin intereses.",
-      "category": "Días GNB",
-      "lines": [
-        "20% de reintegro + Hasta 6 cuotas sin intereses.",
-        "Del 07 de septiembre del 2026 al 28 de febrero del 2027.",
-        "20% de reintegro para pagos con las tarjetas de crédito Mastercard del Banco GNB Paraguay.",
-        "Hasta 6 cuotas sin intereses con las tarjetas de crédito del Banco GNB Paraguay.",
-        "Tope de compra mensual: Gs. 700.000 (guaranies setecientos mil) por cuenta de tarjeta de crédito (incluye titulares y adicionales)",
-        "No participan de la promoción las tarjetas de débito y crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas",
-        "No acumulable con otras promociones."
-      ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5332_bases-y-condiciones-fixocargo-.v2.pdf",
-      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5333_fixocargo-al-12-2026-web.png"
     },
     {
       "id": 664,
