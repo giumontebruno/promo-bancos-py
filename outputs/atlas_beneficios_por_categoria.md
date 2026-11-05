@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 33
+Total de beneficios: 34
 
 ## Bienestar
 
@@ -48,6 +48,12 @@ Total de beneficios: 33
 |---|---|---|---|
 | Renová tu Hogar | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | SUEÑOLAR | 18 Cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 y transacciones realizadas a través del POS de la red Infonet. Válido todos los días hasta el 31 de diciembre en las tiendas Sueñolar y tie |
+
+## Joyas
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Parfois | 25% de reintegro; 20% de reintegro; hasta 6 cuotas sin intereses | 12 al 15 de noviembre | Promoción válida solo para la tienda Parfois en Shopping Paris de CDE. Tope de compra Gs. 2.500.000 para TC Visa Infinite, Gs. 2.000.000 para TC Mastercard Black, Visa Signature, Visa Clásica y Visa Oro. La cantidad de c |
 
 ## Moda
 

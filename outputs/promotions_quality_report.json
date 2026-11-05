@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T15:41:12.128480+00:00",
-  "input_count": 3436,
-  "promotion_count": 4083,
-  "duplicates_removed": -647,
+  "generated_at": "2026-11-05T15:38:24.386253+00:00",
+  "input_count": 3444,
+  "promotion_count": 4102,
+  "duplicates_removed": -658,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1197,7 +1197,7 @@
     "c80487ae50dff29c": "e3e817ac1e0235b8",
     "6b361360013e9390": "8d89ae969eb7721b",
     "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
-    "706d7b8a4b417f99": "3e6bec2b7296ff1f",
+    "706d7b8a4b417f99": "79db00b58924240a",
     "3a08dde3e44bd674": "7a584b45c4d9edfd",
     "af3d82672853e6c8": "4ce5aaa7ba85e9f5",
     "632818d14f8e6d49": "961ac08764510df9",
@@ -1231,28 +1231,203 @@
     "6129b9582f2868b9": "d2556dce472096b8",
     "e129eb39359c7c7b": "d2556dce472096b8",
     "dd1a8f168632e17b": "6a12e6d379d9e442",
-    "ce32304dc87e0a98": "9e3753fc26c6a85e"
+    "ce32304dc87e0a98": "9e3753fc26c6a85e",
+    "4df1dd6f23bcc1b0": "cf8e9ae1da41b604",
+    "273dffecf1972342": "9107591ecb0a9485",
+    "53cd95d4732906df": "f9ad958309b34d00",
+    "bc59c6f0cdb7c862": "e2a831781d096259",
+    "c43ffc2f4e7f4716": "3569b2e1377011d0",
+    "1179959d96b0cd9f": "dd8196dea84b6fc9",
+    "0c570bcfcde9cd4a": "e83708ac7dd862eb",
+    "8517918b1694287a": "5255c272bdc772e5",
+    "752df1255b2882e3": "cc65cb34b759a81c",
+    "606868431617fe6f": "8651912ec067aa54",
+    "846d3985fce3880a": "2ae9702227f76de4",
+    "2588d270557de842": "7a51ef07f52f61c1",
+    "12d117c06dfd9383": "01fed9f10e861ab1",
+    "e323d975311a5326": "3884e6f2c8cef48f",
+    "7a8347f0aeebf588": "bf8a6f76bd7d8e13",
+    "4335386639a8ae8c": "19d067538ea86917",
+    "8b2d8788079ea2a4": "b0f36024a44015ae",
+    "9c8cd1625b7bc28c": "40a4c29eebf73675",
+    "f2fa3a1e83ecf011": "4bd61a43e866ced8",
+    "86328ecbc29316b9": "18ee707db8f25df2",
+    "901da3d3735c0586": "8b9bcdaa7e1a7a8c",
+    "acb847e0444f994d": "98870a251c0e86b0",
+    "5be761a00c26eee0": "cb504f0645c23bb9",
+    "64e525851130356d": "212dc96ffa193e97",
+    "817073ae844aa943": "d2b00a19a3046ca8",
+    "696de894ea530ba2": "6b15bb44df1c81cc",
+    "ceddc53c71bf54bb": "0f0305cebd995af2",
+    "b19229a29a2399b7": "1383ed2fa4444cf3",
+    "89d2cd11f6dcc2d3": "e787aa36e6634ff8",
+    "8c2e24d06d067fdf": "f23a1942932b7eec",
+    "0b6e13ebc0452b51": "68f51f70060dce29",
+    "eede06fe86fec2d0": "7923e1cd5e2edf49",
+    "2e81f3e7ac6e3081": "7c5c8c323e467dc8",
+    "90da7ea08c36b699": "d09b9fd2fa5986f2",
+    "94d87a39d8bb9dcf": "fe62d38e8083ec3f",
+    "18eef7746e7cec70": "c3ffad6f0559f597",
+    "fdba7dc5c6d07d44": "48f76988d6482bcb",
+    "3012c9c43132b38c": "beb322b64301a511",
+    "3f9aaf51f7108142": "687f03aedeb8daac",
+    "678c87c9c9a2c55c": "f39c7fbf0ad7dfb2",
+    "679372c9ec9ad997": "c044dfedee7cc091",
+    "53d611b44f2e2cd9": "5b998be7e989176c",
+    "4811305b68a9a84d": "ec94e997f8fa3ae4",
+    "f320bfef8b9ee79c": "920104d28aed623b",
+    "de6fc87be4310f59": "e57f551fcc7ebc98",
+    "1b994449f06361cf": "c6a9ae2b07bbde01",
+    "61082383b5eb20f7": "bde1f47827e1e424",
+    "ee04afe8a7d06f42": "f9f9411abc07ae0b",
+    "1ef91b46e12bcac4": "b34be2a03b6c9d32",
+    "d2fbba9f36c3a5d7": "681b3c241d223e6d",
+    "1dfdd00c44dbd8fe": "854db08c951c9c6c",
+    "513701361b385732": "9e142679f1e5ac1d",
+    "1996cf208ea87498": "4c61f9d79031b343",
+    "ea9020b217b1fbe5": "0286e24458798298",
+    "764b722f07fd86ee": "d78a8ef363dbcfc1",
+    "dc0b03f22d7f1d0b": "d385a11ef4ffee06",
+    "8081cf9d9839e4ef": "dc43c2034b0a1fb3",
+    "5670d6c6521e5c39": "5a251b87c5dcc45d",
+    "ced791122af6248a": "cae665625a6e794c",
+    "01f61ed00ae3aaa9": "bc3cb43f6e1fd30a",
+    "9956b60161667b0b": "2ac1d01c10c82a92",
+    "d11fcace6c932bcc": "2b8741e8ee0c6398",
+    "5a32fda9b8ce906c": "b9d158267b7dcc7d",
+    "c7bc7f406d62ed4a": "4c9b35b85ed25ec9",
+    "20669b4442f3767f": "c70e2a53a2a5aaf3",
+    "0d630c973ad3a629": "aea8ba015904cc56",
+    "48961bdd9060f838": "77808f64014d4dd5",
+    "a9ea0590c0bdc69c": "804f51662924c48e",
+    "cb097047cfb0f149": "4aaa3f70a3dc4c95",
+    "23652ec4de8e5304": "6243ac3ce0d62c04",
+    "be2706cf0fe27199": "7ef22867ce1c552b",
+    "9c9e2d8d91ff63bb": "e865ea9c46635b0a",
+    "bc1ef72a8ba5340d": "7bb1d1497d450bc5",
+    "04875ad4e81957b7": "cbf9545416de243e",
+    "9e56993f0a65086e": "4be75429e12ff3e3",
+    "909bfdeaf09202f0": "e12f05c4d9319d30",
+    "7e5df24aaa60cd6d": "7d5ec58351cfbe75",
+    "f3bc16bea1205f36": "5f00f2160396ac9c",
+    "c24e68300598af41": "9c1d3f69bed4dec4",
+    "c93b588bfefd2dab": "d3ff8adb0547da53",
+    "01235c7ab32ff66e": "4cb3325019d742c7",
+    "294224500454c0b9": "e9ac741a07c4e1a8",
+    "79797285f15fff73": "1a7ca208afc89171",
+    "857eff18be08dba9": "80e80084f1398325",
+    "eab375a8b57bca84": "e6e0db31512d72de",
+    "117b000cae3ba3ad": "baf2f699f055f4c8",
+    "1a3bb062e78281ed": "586f4cd0c0f567a8",
+    "b5da1c275683eba8": "1b3c3ef529edd9b5",
+    "0c9218ccbe8d93a5": "6285f3435443e0f9",
+    "e40da1c8321dc897": "f480cc073c49cd49",
+    "cc8aed7362d9428f": "826110033a425aa8",
+    "d9a9ae674b8cde27": "53d31197f010e447",
+    "7340c60befd0acac": "4df918eb5e42a466",
+    "ae28375ec2606696": "e17acdf5e35c6f06",
+    "dcdeb92267ef2bb7": "23362e8c10e6f7f4",
+    "de5c67495a8a6484": "4486a08df74c819f",
+    "15b137578a9036a0": "0f48ca96c3563b13",
+    "1342a70be1141f5a": "edc588b98c39c760",
+    "63b081e60aa30b9e": "15ff7c729fa872b5",
+    "d16a4469e59959c0": "385f26d9287d53dc",
+    "6c51aba18fe43c19": "d1d65970443e74c8",
+    "f33ac2d0f3c7e21c": "fe5e45eb914a3a50",
+    "15059de9661a487b": "323d0b0e9cab8c3c",
+    "b9091cd515aaff86": "b5ac90fca6bbf6d5",
+    "5e06c4419edfcce8": "963010fb57f0456d",
+    "6b4b1388a86292c2": "800fcb84c92f51fc",
+    "06c6beb5ff5fd158": "14230f8ae1531b90",
+    "d69e05c0ddadfe64": "98101da206a5b819",
+    "d5e45e555ebcad98": "830166a6e5efc37f",
+    "68bc10fe766ab07e": "654d8334e2c21073",
+    "039946384eb07541": "5e420e8f87fd7e47",
+    "db8443888c023950": "06df46f61345d474",
+    "59ff86fe25546f18": "12eab9e07ea88781",
+    "5e03b85ef5dc45c2": "0a9320719b390341",
+    "75a3fef74d9fc24d": "a2c1c42aafe6c935",
+    "27d74d3624b67b7e": "9cbf41668b9c5b3c",
+    "ff715ecb8703d56b": "3a37fc4b076304ef",
+    "2ef4e99146a1d087": "c183cef3af8b2532",
+    "625954c3b51a322c": "d050208559dc108f",
+    "6bee4f6994c543ef": "c224f5097f8f0b27",
+    "c1f7ea7da701936a": "9a3facc99aca2592",
+    "5d942f75d89ffa01": "d75807ad500f4c4e",
+    "c90ced81d79e2cbc": "796e8be228b78c82",
+    "0d2a85d1f1500848": "fc12495e744a5df8",
+    "bfb59bf3b2c05084": "a5505050921ed8e9",
+    "c5ca0af2c4a8038a": "f83c50f21212f552",
+    "e7a33f0f46ede30b": "8c822690844dfc77",
+    "5dbc57f7ca87e599": "94f0817b29897ed0",
+    "97abb6d573ed39b3": "e5e8c391c8648d16",
+    "223d1b91b9977eb8": "0f0bcd17ead9d5c2",
+    "bf8d8800634558e7": "0db87b4efd67f54b",
+    "930c5c209d230644": "f2182a6a53335a80",
+    "3afb14b48caa39d2": "7ded1e773129313e",
+    "68aa16d284373703": "a5727d00da779c58",
+    "8227f091255dcbf3": "16b473c85abd511c",
+    "78930ab10cbc6cf0": "e0e7830ca5d235e4",
+    "332c07d1ebd4aa41": "6a96987a4d33e366",
+    "e7b027ddfc7e76fa": "43729411409893b4",
+    "5d327089354546db": "045c35b28a2818f2",
+    "482a9053db1ac0e0": "2a4c5a7d886fc05f",
+    "71d67a02b481202a": "0f3b1308527b4de3",
+    "095cb994d139057f": "bb963a74ce9be30c",
+    "1602b35ccb8e6006": "97f80c033fd12ecb",
+    "16ff3add2e17eec0": "76eb5dbc3d2d0573",
+    "33613073914c1356": "312dbf749a31dd58",
+    "8bfcb50b755c1b0c": "50b016d69f830fa4",
+    "18a51bb8c0bc3dd3": "5d9d07ed4c7eb55d",
+    "775bac2229339bdb": "c7a231835b149eb8",
+    "dc49653dd68a9505": "6cf8de8d9cdcf609",
+    "958cf98bb4577f2d": "2adca86c4f63c126",
+    "a9a7136789337127": "b4f680476509847b",
+    "5fa1d3f7310311d5": "5da1d4d2fc2a63e1",
+    "3434107cc10971ed": "eac5e18df9dbff41",
+    "02144973d765d376": "d3950dbda0816ad9",
+    "455a88b6a941028e": "45c95e88319260f4",
+    "ae775e904fa24a88": "ae7f9b79a72da0ae",
+    "71b88e71a3637da3": "845e5665b66f2a21",
+    "2a1968897671d175": "d8461c1e3e22391a",
+    "a52bb1a09bf5bada": "a5132840766141cf",
+    "f5ce58b4266405cb": "55eb1dd766baab13",
+    "9758cf979b881fc8": "d680ddb2843c7ae2",
+    "a49de8e8f0d52801": "acca428e1f1162b8",
+    "7f287648facbbec3": "64beb18b7a017d81",
+    "7d15e79ac579a1db": "1015fb14a044856a",
+    "6f5b8711d0fedbbc": "8537479fc4630271",
+    "c5ad0e853836bae2": "90b1c8a94ff09a26",
+    "7b774a803d26254b": "b75d48a099465c31",
+    "3e819d583fab0e4b": "5608fec163b39bb7",
+    "fc90a857e19d9438": "951f8e63641e7dc7",
+    "a066e76fb62366dd": "3032f6b44abbcd66",
+    "dc6a410255715bc1": "0e96675b79feebaa",
+    "f32df86d27e78a78": "a14830b567dc22b1",
+    "fb55900a68b24081": "96d8eb9049f4f935",
+    "44226b82a3682cdb": "ea306ba34ba7fcdf",
+    "3e6bec2b7296ff1f": "79db00b58924240a"
   },
   "by_bank": {
-    "Atlas": 52,
+    "Atlas": 53,
     "BNF": 77,
     "Bancop": 68,
     "Basa": 95,
-    "Continental": 923,
+    "Continental": 930,
     "Coop. Universitaria": 72,
     "Familiar": 410,
-    "GNB": 489,
-    "Interfisa": 175,
+    "GNB": 500,
+    "Interfisa": 178,
     "Itaú": 605,
-    "Solar": 69,
+    "Solar": 66,
     "Sudameris": 352,
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 338,
-    "limits_unconfirmed": 443,
-    "validity_unconfirmed": 35,
-    "multiple_purchase_limits": 334,
+    "source_verification_pending": 339,
+    "limits_unconfirmed": 444,
+    "validity_unconfirmed": 36,
+    "multiple_purchase_limits": 337,
     "source_amount_conflict": 19,
     "multiple_refund_limits": 195
   },
@@ -1354,6 +1529,16 @@
       "merchant": "SUEÑOLAR",
       "issues": [
         "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "fa7b8799fd55e59f",
+      "bank": "Atlas",
+      "merchant": "Parfois",
+      "issues": [
+        "validity_unconfirmed",
+        "multiple_purchase_limits"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
@@ -2339,6 +2524,15 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
+      "id": "7cb4d11eb59e73b7",
+      "bank": "Continental",
+      "merchant": "El Rincón de lo Nano",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
       "id": "ea44b0918408a1d7",
       "bank": "Continental",
       "merchant": "Impacto",
@@ -2641,6 +2835,16 @@
       "merchant": "Farmacias Energy - Promo especial",
       "issues": [
         "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "25308efa06e7306d",
+      "bank": "Continental",
+      "merchant": "Go Park",
+      "issues": [
+        "validity_unconfirmed",
+        "multiple_purchase_limits"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -3346,15 +3550,6 @@
       "merchant": "ProSport",
       "issues": [
         "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "4df1dd6f23bcc1b0",
-      "bank": "Continental",
-      "merchant": "Quiero PY",
-      "issues": [
-        "validity_unconfirmed"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -4524,7 +4719,7 @@
       "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/570"
     },
     {
-      "id": "c43ffc2f4e7f4716",
+      "id": "3569b2e1377011d0",
       "bank": "Interfisa",
       "merchant": "COPETROL SANTANI",
       "issues": [
@@ -4534,7 +4729,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20COPETROL%20SANTANI2.pdf"
     },
     {
-      "id": "e323d975311a5326",
+      "id": "3884e6f2c8cef48f",
       "bank": "Interfisa",
       "merchant": "CASA JAPON",
       "issues": [
@@ -4544,7 +4739,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20CASA%20JAPON.pdf"
     },
     {
-      "id": "8b2d8788079ea2a4",
+      "id": "b0f36024a44015ae",
       "bank": "Interfisa",
       "merchant": "FERRETERIA QUINTA",
       "issues": [
@@ -4554,7 +4749,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20FERRETERIA%20QUINTA.pdf"
     },
     {
-      "id": "f2fa3a1e83ecf011",
+      "id": "4bd61a43e866ced8",
       "bank": "Interfisa",
       "merchant": "HORTIPRO",
       "issues": [
@@ -4564,7 +4759,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20HORTIPRO1.pdf"
     },
     {
-      "id": "acb847e0444f994d",
+      "id": "98870a251c0e86b0",
       "bank": "Interfisa",
       "merchant": "RURAL CENTER",
       "issues": [
@@ -4574,7 +4769,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20RURAL%20CENTER.pdf"
     },
     {
-      "id": "4811305b68a9a84d",
+      "id": "ec94e997f8fa3ae4",
       "bank": "Interfisa",
       "merchant": "NICOLE NOVEDADES",
       "issues": [
@@ -4584,27 +4779,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20NICOLE%20NOVEDADES.pdf"
     },
     {
-      "id": "1b994449f06361cf",
-      "bank": "Interfisa",
-      "merchant": "OPTICA ARAR",
-      "issues": [
-        "source_verification_pending",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20OPTICA%20ARAR3.pdf"
-    },
-    {
-      "id": "ee04afe8a7d06f42",
-      "bank": "Interfisa",
-      "merchant": "OPTICA W. GAMON",
-      "issues": [
-        "source_verification_pending",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20OPTICA%20W.%20GAMON.pdf"
-    },
-    {
-      "id": "1dfdd00c44dbd8fe",
+      "id": "854db08c951c9c6c",
       "bank": "Interfisa",
       "merchant": "ROCKIT",
       "issues": [
@@ -4614,7 +4789,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PROMOCIONES/BYC%20ROCKIT%203.pdf"
     },
     {
-      "id": "ea9020b217b1fbe5",
+      "id": "0286e24458798298",
       "bank": "Interfisa",
       "merchant": "AVANZA DENTAL",
       "issues": [
@@ -4624,7 +4799,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20AVANZA%20DENTAL1.pdf"
     },
     {
-      "id": "764b722f07fd86ee",
+      "id": "d78a8ef363dbcfc1",
       "bank": "Interfisa",
       "merchant": "AVANZA DENTAL",
       "issues": [
@@ -4634,7 +4809,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20AVANZA%20DENTAL1.pdf"
     },
     {
-      "id": "8081cf9d9839e4ef",
+      "id": "dc43c2034b0a1fb3",
       "bank": "Interfisa",
       "merchant": "DOCTOR HAIR",
       "issues": [
@@ -4644,7 +4819,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-doctor-hair1-1.pdf"
     },
     {
-      "id": "5670d6c6521e5c39",
+      "id": "5a251b87c5dcc45d",
       "bank": "Interfisa",
       "merchant": "DOCTOR HAIR",
       "issues": [
@@ -4654,7 +4829,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-doctor-hair1-1.pdf"
     },
     {
-      "id": "9956b60161667b0b",
+      "id": "2ac1d01c10c82a92",
       "bank": "Interfisa",
       "merchant": "ECO COSMETICOS",
       "issues": [
@@ -4664,7 +4839,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20ECO%20COSMETICOS%203.pdf"
     },
     {
-      "id": "c7bc7f406d62ed4a",
+      "id": "4c9b35b85ed25ec9",
       "bank": "Interfisa",
       "merchant": "FARMA SHOP DIOR",
       "issues": [
@@ -4674,7 +4849,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20FARMA%20SHOP%20DIOR1.pdf"
     },
     {
-      "id": "48961bdd9060f838",
+      "id": "77808f64014d4dd5",
       "bank": "Interfisa",
       "merchant": "FARMACIAS ENERGY",
       "issues": [
@@ -4684,7 +4859,17 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PROMOCIONES/byc-farmacias-energy1-1.pdf"
     },
     {
-      "id": "23652ec4de8e5304",
+      "id": "2ea139c377c31044",
+      "bank": "Interfisa",
+      "merchant": "GISELE STEPHANIE",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20GISELE%20STEPHANIE_v2.pdf"
+    },
+    {
+      "id": "6243ac3ce0d62c04",
       "bank": "Interfisa",
       "merchant": "VITALMED",
       "issues": [
@@ -4694,7 +4879,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-vitalmed4.pdf"
     },
     {
-      "id": "9e56993f0a65086e",
+      "id": "4be75429e12ff3e3",
       "bank": "Interfisa",
       "merchant": "ALL YOU NEED",
       "issues": [
@@ -4704,7 +4889,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20ALL%20YOU%20NEED.pdf"
     },
     {
-      "id": "7e5df24aaa60cd6d",
+      "id": "7d5ec58351cfbe75",
       "bank": "Interfisa",
       "merchant": "ALMACEN KAAVO",
       "issues": [
@@ -4714,7 +4899,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PROMOCIONES/BYC%20ALMACEN%20KAAVO1.pdf"
     },
     {
-      "id": "c24e68300598af41",
+      "id": "9c1d3f69bed4dec4",
       "bank": "Interfisa",
       "merchant": "ESSEN",
       "issues": [
@@ -4724,7 +4909,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20ESSEN2.pdf"
     },
     {
-      "id": "01235c7ab32ff66e",
+      "id": "4cb3325019d742c7",
       "bank": "Interfisa",
       "merchant": "JOYERIA DOMINGUEZ",
       "issues": [
@@ -4734,7 +4919,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-joyeria-dominguez-1.pdf"
     },
     {
-      "id": "117b000cae3ba3ad",
+      "id": "baf2f699f055f4c8",
       "bank": "Interfisa",
       "merchant": "PONTO COM",
       "issues": [
@@ -4744,7 +4929,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20Ponto%20com.pdf"
     },
     {
-      "id": "0c9218ccbe8d93a5",
+      "id": "6285f3435443e0f9",
       "bank": "Interfisa",
       "merchant": "TENDENCIAS CHIC",
       "issues": [
@@ -4754,7 +4939,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20TENDENCIAS%20CHIC1.pdf"
     },
     {
-      "id": "ae28375ec2606696",
+      "id": "e17acdf5e35c6f06",
       "bank": "Interfisa",
       "merchant": "DERLIS ZEBALLOS",
       "issues": [
@@ -4764,7 +4949,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-derlis-zeballos-1.pdf"
     },
     {
-      "id": "15b137578a9036a0",
+      "id": "0f48ca96c3563b13",
       "bank": "Interfisa",
       "merchant": "DIANA APODACA",
       "issues": [
@@ -4774,7 +4959,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-diana-apodaca-1.pdf"
     },
     {
-      "id": "68bc10fe766ab07e",
+      "id": "654d8334e2c21073",
       "bank": "Interfisa",
       "merchant": "PUNTO CARNE COMERCIAL",
       "issues": [
@@ -4784,7 +4969,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20PUNTO%20CARNE%20COMERCIAL.pdf"
     },
     {
-      "id": "6bee4f6994c543ef",
+      "id": "c224f5097f8f0b27",
       "bank": "Interfisa",
       "merchant": "BACO",
       "issues": [
@@ -4794,7 +4979,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20BACO.pdf"
     },
     {
-      "id": "c90ced81d79e2cbc",
+      "id": "796e8be228b78c82",
       "bank": "Interfisa",
       "merchant": "CAT",
       "issues": [
@@ -4804,7 +4989,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20CAT%202.pdf"
     },
     {
-      "id": "c5ca0af2c4a8038a",
+      "id": "f83c50f21212f552",
       "bank": "Interfisa",
       "merchant": "CERO GRADO",
       "issues": [
@@ -4814,7 +4999,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-cero-grado-1.pdf"
     },
     {
-      "id": "97abb6d573ed39b3",
+      "id": "e5e8c391c8648d16",
       "bank": "Interfisa",
       "merchant": "COLE HAAN",
       "issues": [
@@ -4824,7 +5009,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20COLE%20HAAN.pdf"
     },
     {
-      "id": "930c5c209d230644",
+      "id": "f2182a6a53335a80",
       "bank": "Interfisa",
       "merchant": "CROCS",
       "issues": [
@@ -4834,7 +5019,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-crocs-1.pdf"
     },
     {
-      "id": "68aa16d284373703",
+      "id": "a5727d00da779c58",
       "bank": "Interfisa",
       "merchant": "ESTILO SPORT SHOP",
       "issues": [
@@ -4844,7 +5029,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20ESTILO%20SPORT%20SHOP23%20.pdf"
     },
     {
-      "id": "332c07d1ebd4aa41",
+      "id": "6a96987a4d33e366",
       "bank": "Interfisa",
       "merchant": "GUESS",
       "issues": [
@@ -4854,7 +5039,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20GUESS2.pdf"
     },
     {
-      "id": "482a9053db1ac0e0",
+      "id": "2a4c5a7d886fc05f",
       "bank": "Interfisa",
       "merchant": "JEANS OUTLET",
       "issues": [
@@ -4864,7 +5049,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20JEANS%20OUTLET.pdf"
     },
     {
-      "id": "1602b35ccb8e6006",
+      "id": "97f80c033fd12ecb",
       "bank": "Interfisa",
       "merchant": "MON COCON",
       "issues": [
@@ -4874,7 +5059,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20MON%20COCON.pdf"
     },
     {
-      "id": "8bfcb50b755c1b0c",
+      "id": "50b016d69f830fa4",
       "bank": "Interfisa",
       "merchant": "NEW BALANCE",
       "issues": [
@@ -4884,7 +5069,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20NEW%20BALANCE.pdf"
     },
     {
-      "id": "775bac2229339bdb",
+      "id": "c7a231835b149eb8",
       "bank": "Interfisa",
       "merchant": "NOVA SCRUBS",
       "issues": [
@@ -4894,7 +5079,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20NOVA%20SCRUBS.pdf"
     },
     {
-      "id": "a9a7136789337127",
+      "id": "b4f680476509847b",
       "bank": "Interfisa",
       "merchant": "OUTDOORS",
       "issues": [
@@ -4904,7 +5089,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20OUTDOORS.pdf"
     },
     {
-      "id": "3434107cc10971ed",
+      "id": "eac5e18df9dbff41",
       "bank": "Interfisa",
       "merchant": "PIÑA COLADA",
       "issues": [
@@ -4914,7 +5099,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PROMOCIONES/BYC%20PIÑA%20COLADA.pdf"
     },
     {
-      "id": "455a88b6a941028e",
+      "id": "45c95e88319260f4",
       "bank": "Interfisa",
       "merchant": "SANTA RITA NOVEDADES",
       "issues": [
@@ -4924,7 +5109,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-santa-rita-novedades-1.pdf"
     },
     {
-      "id": "2a1968897671d175",
+      "id": "d8461c1e3e22391a",
       "bank": "Interfisa",
       "merchant": "SANTIN BABY",
       "issues": [
@@ -4934,7 +5119,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20SANTIN%20BABY.pdf"
     },
     {
-      "id": "9758cf979b881fc8",
+      "id": "d680ddb2843c7ae2",
       "bank": "Interfisa",
       "merchant": "SWEET STORE",
       "issues": [
@@ -4944,7 +5129,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20SWEET%20STORE.pdf"
     },
     {
-      "id": "7d15e79ac579a1db",
+      "id": "1015fb14a044856a",
       "bank": "Interfisa",
       "merchant": "TIMBERLAND",
       "issues": [
@@ -4954,7 +5139,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20TIMBERLAND1.pdf"
     },
     {
-      "id": "7b774a803d26254b",
+      "id": "b75d48a099465c31",
       "bank": "Interfisa",
       "merchant": "TOP TENIS",
       "issues": [
@@ -4964,7 +5149,7 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-top-tenis-1.pdf"
     },
     {
-      "id": "a066e76fb62366dd",
+      "id": "3032f6b44abbcd66",
       "bank": "Interfisa",
       "merchant": "XTRAIL JEANS",
       "issues": [
@@ -4972,6 +5157,26 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-xtrail-jeans-1-1.pdf"
+    },
+    {
+      "id": "c6a9ae2b07bbde01",
+      "bank": "Interfisa",
+      "merchant": "OPTICA ARAR",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20OPTICA%20ARAR3.pdf"
+    },
+    {
+      "id": "f9f9411abc07ae0b",
+      "bank": "Interfisa",
+      "merchant": "OPTICA W. GAMON",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20OPTICA%20W.%20GAMON.pdf"
     },
     {
       "id": "0610578c4caf1b1b",

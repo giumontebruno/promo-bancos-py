@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 446
+Total de beneficios: 444
 
 ## Alemania Cell
 
@@ -407,6 +407,12 @@ Total de beneficios: 446
 | Supermercado Primavera | 6 Cuotas sin intereses 20 % Hasta; Tenes 15% de reintegro + 5% pagando con PERSONAL BANK y hasta 6 cuotas sin intereses | Aplica los jueves | 2026-01-15 hasta 2026-12-31 |
 | ZIMMER | 20 % 6 Cuotas sin intereses; Tenes 20% de reintegro y hasta 6 cuotas sin intereses | lunes a miércoles | 2018-03-01 hasta 2026-12-31 |
 
+## Shell
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Shell | 25 %; Tenes 25% de reintegro | No especificado | 2025-04-14 hasta 2026-11-26 |
+
 ## Shopping Mariscal
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -513,7 +519,6 @@ Total de beneficios: 446
 | Colegios y Universidades de Py | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2022-01-25 hasta 2026-12-31 |
 | Condor | 15 % 6 Cuotas sin intereses; Tenes 15% de ahorro con Tarjeta de Crédito + Hasta 6 cuotas sin intereses. | No especificado | 2026-10-16 hasta 2026-12-31 |
 | Crocs | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
-| Cuotas sin intereses | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses | No especificado | 2026-11-02 hasta 2026-11-08 |
 | Denoir | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | EXA GOETHE | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses. | No especificado | 2026-03-05 hasta 2026-12-31 |
 | El Deposito | 10 Cuotas sin intereses 30 % Hasta; Tenes hasta 30% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-24 hasta 2026-12-31 |
@@ -571,7 +576,6 @@ Total de beneficios: 446
 | Hoteles | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses | No especificado | 2017-11-20 hasta 2026-12-31 |
 | Interviajes | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Latam | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses | No especificado | 2026-02-11 hasta 2026-12-31 |
-| Maral Turismo | 15 Cuotas sin intereses; Tenes hasta 15 cuotas sin intereses | No especificado | 2026-11-04 hasta 2026-11-08 |
 | Maral Turismo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Me Vuelo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Meraki | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
@@ -610,18 +614,12 @@ Total de beneficios: 446
 | UG Hogar | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses | Aplica LUNES A VIERNES; LUNES A VIERNES | 2023-04-28 hasta 2026-12-31 |
 | Valerie | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES, VIERNES Y SABADOS | 2024-02-02 hasta 2026-12-31 |
 
-## shell
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Shell | 25 %; Tenes 25% de reintegro | No especificado | 2025-04-14 hasta 2026-11-26 |
-
 ## Últimos días
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Biggie | 20 %; 20% de ahorro. | No especificado | 2025-08-01 hasta 2026-11-06 |
 | Biggie | 15 %; 15% de ahorro. | No especificado | 2025-01-31 hasta 2026-11-06 |
-| Feria Asunción | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2026-11-02 hasta 2026-11-04 |
-| WASH AND GO | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de reintegro + 5% para tarjetas de crédito Personal Bank + hasta 6 cuotas sin intereses. | No especificado | 2026-10-13 hasta 2026-11-04 |
+| Cuotas sin intereses | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses | No especificado | 2026-11-02 hasta 2026-11-08 |
+| Maral Turismo | 15 Cuotas sin intereses; Tenes hasta 15 cuotas sin intereses | No especificado | 2026-11-04 hasta 2026-11-08 |
 

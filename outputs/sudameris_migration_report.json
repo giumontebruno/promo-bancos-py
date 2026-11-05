@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-04T15:23:00.081498+00:00",
-  "campaigns": 54,
+  "checked_at": "2026-11-05T15:21:51.199342+00:00",
+  "campaigns": 58,
   "failures": [
     {
       "campaign": "Zona Central – Asunción y Gran Asunción",
@@ -65,6 +65,26 @@
     {
       "campaign": "María auxiliadora",
       "url": "https://www.sudameris.com.py/personas/beneficios/maria-auxiliadora",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "Capitán miranda",
+      "url": "https://www.sudameris.com.py/personas/beneficios/capitan-miranda",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "Natalio",
+      "url": "https://www.sudameris.com.py/personas/beneficios/natalio",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "Obligado",
+      "url": "https://www.sudameris.com.py/personas/beneficios/obligado",
+      "reason": "No quantified benefit on official page; retained in staging only"
+    },
+    {
+      "campaign": "Pirapó",
+      "url": "https://www.sudameris.com.py/personas/beneficios/pirapo",
       "reason": "No quantified benefit on official page; retained in staging only"
     },
     {

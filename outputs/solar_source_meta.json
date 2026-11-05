@@ -3,7 +3,7 @@
   "catalog_discovered": 31,
   "catalog_reviewed": 30,
   "catalog_review_complete": false,
-  "verified_campaigns": 23,
+  "verified_campaigns": 21,
   "reviewed_at_utc": "2026-10-30T16:06:06.818836+00:00",
   "review_registry": "data/solar_reviewed_catalog.json",
   "campaign_decisions": [
@@ -21,7 +21,7 @@
     },
     {
       "id": 132,
-      "status": "verified"
+      "status": "expired"
     },
     {
       "id": 129,
@@ -73,7 +73,7 @@
     },
     {
       "id": 104,
-      "status": "verified"
+      "status": "source_changed_requires_review"
     },
     {
       "id": 77,
@@ -142,6 +142,10 @@
       "reason": "blocked_specific_ambiguity_or_representation: Catalogo descuento30% sin segmentar; PDF medicamentos hasta20%,otros hasta30%. No publicar30% universal ni sumar caja+reintegro. Requiere variantes por producto y hasta."
     },
     {
+      "id": 132,
+      "reason": "expired"
+    },
+    {
       "id": 129,
       "reason": "blocked_specific_ambiguity_or_representation: Canal PDF3 afirma valida con dispositivos diferentes al POS Infonet sin aclarar redes. No transformar en POS exclusivo. Representacion del descuento debe separar medicamentos/otros y hasta."
     },
@@ -158,6 +162,10 @@
       "reason": "source_changed_requires_review"
     },
     {
+      "id": 104,
+      "reason": "source_changed_requires_review"
+    },
+    {
       "id": 118,
       "reason": "blocked_specific_ambiguity_or_representation: PDF titulo y clausula1 Subway pero clausula2.C Popeyes: sucursales aplicables contradictorias."
     },
@@ -169,6 +177,6 @@
   "coverage_complete": false,
   "reason": "All known catalog campaigns individually reviewed; expired/ineligible and specific ambiguous campaigns excluded. Changed sources fail closed.",
   "bank": "solar",
-  "attempted_at": "2026-11-04T15:35:16.639832+00:00",
-  "rows": 69
+  "attempted_at": "2026-11-05T15:32:53.931071+00:00",
+  "rows": 63
 }

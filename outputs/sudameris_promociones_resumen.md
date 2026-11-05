@@ -2,7 +2,7 @@
 
 Extraidas desde https://www.sudameris.com.py/personas/beneficios
 
-Total: 54
+Total: 58
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
@@ -23,6 +23,10 @@ Total: 54
 | Sudameris | Hohenau | • Verificar según aplicación de promoción | (Itapúa) • Reintegro en extracto según aplicación de promoción (ver bases y condiciones). • Cuotas sin interés según aplicación de promoción (ver bases y condiciones). | https://www.sudameris.com.py/personas/beneficios/hohenau |
 | Sudameris | Kressburgo | • Verificar según aplicación de promoción | (Itapúa) • Descuento en caja del comercio según aplicación de promoción (ver bases y condiciones). • Reintegro en extracto según aplicación de promoción (ver bases y condiciones). • Cuotas sin interés según aplicación de | https://www.sudameris.com.py/personas/beneficios/kressburgo |
 | Sudameris | María auxiliadora | • Verificar según aplicación de promoción | (Itapúa) • Reintegro en extracto según aplicación de promoción (ver bases y condiciones). • Cuotas sin interés según aplicación de promoción (ver bases y condiciones). | https://www.sudameris.com.py/personas/beneficios/maria-auxiliadora |
+| Sudameris | Capitán miranda | • Verificar según aplicación de promoción | (Itapúa) • Reintegro en extracto según aplicación de promoción (ver bases y condiciones), sin canje de puntos. • Cuotas sin interés según aplicación de promoción (ver bases y condiciones). | https://www.sudameris.com.py/personas/beneficios/capitan-miranda |
+| Sudameris | Natalio | • Verificar según aplicación de promoción | (Itapúa) • Reintegro en extracto según aplicación de promoción (ver bases y condiciones), sin canje de puntos. • Cuotas sin interés según aplicación de promoción (ver bases y condiciones). | https://www.sudameris.com.py/personas/beneficios/natalio |
+| Sudameris | Obligado | • Verificar según aplicación de promoción | (Itapúa) • Reintegro en extracto según aplicación de promoción (ver bases y condiciones), sin canje de puntos. • Cuotas sin interés según aplicación de promoción (ver bases y condiciones). | https://www.sudameris.com.py/personas/beneficios/obligado |
+| Sudameris | Pirapó | • Verificar según aplicación de promoción | (Itapúa) • Reintegro en extracto según aplicación de promoción (ver bases y condiciones), sin canje de puntos. • Cuotas sin interés según aplicación de promoción (ver bases y condiciones). | https://www.sudameris.com.py/personas/beneficios/pirapo |
 | Sudameris | Yacht y Golf Club Paraguayo | •Desde el 01 de octubre hasta el 30 de noviembre 2026. | Todos los días • 10% de reintegro directo en débito automático para pagos de la cuota social. • Hasta 12 Cuotas sin interés para los pagos de cuotas sociales en caja dentro del Club. • Tope de compra durante la vigencia  | https://www.sudameris.com.py/personas/beneficios/yacht-y-golf-club-paraguayo |
 | Sudameris | Universidad Leonardo Da Vinci - Diplomados | Desde el 21 de septiembre 2026 hasta el 31 de mayo de 2027. | Para la inscripción al diplomado (Aplica para modalidad presencial y homeclass) : • 20% de descuento en caja pagando con tarjetas de crédito Sudameris. • Hasta 12 cuotas sin intereses pagando con tarjetas de crédito Suda | https://www.sudameris.com.py/personas/beneficios/universidad-leonardo-da-vinci-diplomados |
 | Sudameris | SASPY EXPRESS | Desde el 01 de octubre hasta el 31 de diciembre 2026. | • 15% de reintegro directo pagando con tarjetas de crédito de Sudameris. • 20% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 10 cuotas sin interés. COMPRAS EN | https://www.sudameris.com.py/beneficios/destacado/928/detalle |

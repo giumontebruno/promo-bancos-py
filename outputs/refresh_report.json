@@ -1,12 +1,11 @@
 {
-  "completed_at": "2026-11-04T15:41:12.737875+00:00",
+  "completed_at": "2026-11-05T15:38:24.977830+00:00",
   "failed_sources": [
     "GNB",
     "Familiar",
     "Sudameris",
     "Itaú",
     "BNF",
-    "Continental",
     "Atlas",
     "Coop. Universitaria",
     "Basa",
@@ -19,18 +18,18 @@
     "Sudameris": {
       "status": "partial",
       "records": 350,
-      "attempted_at": "2026-11-04T15:23:00.196403+00:00",
+      "attempted_at": "2026-11-05T15:21:51.307305+00:00",
       "checked_at": "2026-10-08T14:33:07.837064+00:00",
       "retrieval_status": "fetched",
-      "last_successful_fetch_at": "2026-11-04T15:23:00.196403+00:00",
+      "last_successful_fetch_at": "2026-11-05T15:21:51.307305+00:00",
       "pending_records": 285,
-      "pending_items": 15,
+      "pending_items": 19,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
       "pending_counts_by_report": {
         "pending": 0,
         "skipped": 0,
         "import_issues": 0,
-        "sudameris_migration_failures": 15
+        "sudameris_migration_failures": 19
       },
       "evidence_paths": [
         "outputs/sudameris_migration_report.json"
@@ -39,11 +38,11 @@
     },
     "Itaú": {
       "status": "partial",
-      "records": 446,
-      "attempted_at": "2026-11-04T15:26:56.360762+00:00",
+      "records": 444,
+      "attempted_at": "2026-11-05T15:25:34.684744+00:00",
       "checked_at": "2026-10-17T02:07:38.378271+00:00",
       "retrieval_status": "fetched",
-      "last_successful_fetch_at": "2026-11-04T15:26:56.360762+00:00",
+      "last_successful_fetch_at": "2026-11-05T15:25:34.684744+00:00",
       "pending_records": 4,
       "pending_items": 0,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -58,7 +57,7 @@
     "BNF": {
       "status": "failed",
       "records": 77,
-      "attempted_at": "2026-11-04T15:27:08.714190+00:00",
+      "attempted_at": "2026-11-05T15:26:02.267116+00:00",
       "checked_at": "2026-11-01T14:19:22.870035+00:00",
       "retrieval_status": "failed",
       "last_successful_fetch_at": "2026-11-01T14:19:22.870035+00:00",
@@ -79,12 +78,12 @@
       "exit_code": 1
     },
     "Continental": {
-      "status": "failed",
-      "records": 833,
-      "attempted_at": "2026-11-04T15:27:38.952758+00:00",
-      "checked_at": "2026-11-03T15:04:22.753689+00:00",
-      "retrieval_status": "failed",
-      "last_successful_fetch_at": "2026-11-03T15:04:22.753689+00:00",
+      "status": "fetched",
+      "records": 834,
+      "attempted_at": "2026-11-05T15:26:04.952508+00:00",
+      "checked_at": "2026-11-05T15:26:04.952508+00:00",
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-11-05T15:26:04.952508+00:00",
       "pending_records": 0,
       "pending_items": 0,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -94,18 +93,15 @@
         "import_issues": 0
       },
       "evidence_paths": [],
-      "coverage_complete": true,
-      "error_type": "CalledProcessError",
-      "failed_step": "scrapers/extract_continental.py",
-      "exit_code": 1
+      "coverage_complete": true
     },
     "Atlas": {
       "status": "partial",
-      "records": 33,
-      "attempted_at": "2026-11-04T15:27:45.333724+00:00",
+      "records": 34,
+      "attempted_at": "2026-11-05T15:26:07.943290+00:00",
       "checked_at": "2026-11-01T14:19:28.655034+00:00",
       "retrieval_status": "fetched",
-      "last_successful_fetch_at": "2026-11-04T15:27:45.333724+00:00",
+      "last_successful_fetch_at": "2026-11-05T15:26:07.943290+00:00",
       "pending_records": 1,
       "pending_items": 0,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -120,10 +116,10 @@
     "Coop. Universitaria": {
       "status": "partial",
       "records": 71,
-      "attempted_at": "2026-11-04T15:28:45.554514+00:00",
+      "attempted_at": "2026-11-05T15:26:52.174873+00:00",
       "checked_at": "2026-10-30T15:54:02.018269+00:00",
       "retrieval_status": "fetched",
-      "last_successful_fetch_at": "2026-11-04T15:28:45.554514+00:00",
+      "last_successful_fetch_at": "2026-11-05T15:26:52.174873+00:00",
       "pending_records": 0,
       "pending_items": 5,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -141,10 +137,10 @@
     "ueno bank": {
       "status": "fetched",
       "records": 338,
-      "attempted_at": "2026-11-04T15:40:32.979682+00:00",
-      "checked_at": "2026-11-04T15:40:32.979682+00:00",
+      "attempted_at": "2026-11-05T15:37:48.396356+00:00",
+      "checked_at": "2026-11-05T15:37:48.396356+00:00",
       "retrieval_status": "fetched",
-      "last_successful_fetch_at": "2026-11-04T15:40:32.979682+00:00",
+      "last_successful_fetch_at": "2026-11-05T15:37:48.396356+00:00",
       "pending_records": 0,
       "pending_items": 0,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -163,10 +159,10 @@
     "Familiar": {
       "status": "partial",
       "records": 410,
-      "attempted_at": "2026-11-04T15:22:17.980302+00:00",
+      "attempted_at": "2026-11-05T15:21:21.226824+00:00",
       "checked_at": "2026-10-30T15:46:38.443850+00:00",
       "retrieval_status": "fetched",
-      "last_successful_fetch_at": "2026-11-04T15:22:17.980302+00:00",
+      "last_successful_fetch_at": "2026-11-05T15:21:21.226824+00:00",
       "pending_records": 0,
       "pending_items": 88,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -182,18 +178,18 @@
     },
     "GNB": {
       "status": "partial",
-      "records": 476,
-      "attempted_at": "2026-11-04T15:18:11.550534+00:00",
+      "records": 487,
+      "attempted_at": "2026-11-05T15:19:05.679607+00:00",
       "checked_at": "2026-10-26T14:04:23.468427+00:00",
       "retrieval_status": "partial",
       "last_successful_fetch_at": "2026-10-26T14:04:23.468427+00:00",
       "pending_records": 0,
-      "pending_items": 2,
+      "pending_items": 4,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
       "pending_counts_by_report": {
         "pending": 2,
         "skipped": 0,
-        "import_issues": 2
+        "import_issues": 4
       },
       "evidence_paths": [
         "outputs/gnb_source_meta.json"
@@ -203,7 +199,7 @@
         {
           "id": 688,
           "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
-          "attempted_at": "2026-11-04T15:18:11.040429+00:00",
+          "attempted_at": "2026-11-05T15:19:05.320572+00:00",
           "reason": "document_fetch_failed",
           "error_type": "HTTPError",
           "http_status": 403
@@ -211,7 +207,7 @@
         {
           "id": 52,
           "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
-          "attempted_at": "2026-11-04T15:18:11.194647+00:00",
+          "attempted_at": "2026-11-05T15:19:05.394609+00:00",
           "reason": "document_fetch_failed",
           "error_type": "HTTPError",
           "http_status": 403
@@ -221,15 +217,15 @@
     "Basa": {
       "status": "partial",
       "records": 95,
-      "attempted_at": "2026-11-04T15:32:35.477242+00:00",
+      "attempted_at": "2026-11-05T15:30:15.108347+00:00",
       "checked_at": null,
       "retrieval_status": "partial",
       "last_successful_fetch_at": null,
       "pending_records": 0,
-      "pending_items": 152,
+      "pending_items": 153,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
       "pending_counts_by_report": {
-        "pending": 152,
+        "pending": 153,
         "skipped": 0,
         "import_issues": 0
       },
@@ -238,21 +234,21 @@
       ],
       "coverage_complete": false,
       "discovered": 219,
-      "fetched": 211,
-      "fetch_errors": 8,
+      "fetched": 212,
+      "fetch_errors": 7,
       "cache_replay": false,
-      "retained_rows": 17,
-      "retained_documents": 2,
+      "retained_rows": 3,
+      "retained_documents": 3,
       "retention_max_hours": 72
     },
     "Interfisa": {
       "status": "partial",
-      "records": 171,
-      "attempted_at": "2026-11-04T15:34:30.854748+00:00",
+      "records": 174,
+      "attempted_at": "2026-11-05T15:32:13.856734+00:00",
       "checked_at": null,
-      "retrieval_status": "fetched",
+      "retrieval_status": "partial",
       "last_successful_fetch_at": "2026-11-04T15:34:30.854748+00:00",
-      "pending_records": 45,
+      "pending_records": 46,
       "pending_items": 350,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
       "pending_counts_by_report": {
@@ -264,9 +260,9 @@
         "outputs/interfisa_source_meta.json"
       ],
       "coverage_complete": false,
-      "discovered": 385,
+      "discovered": 386,
       "fetched": 385,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "cache_replay": false,
       "retained_rows": 0,
       "retained_documents": 0,
@@ -275,10 +271,10 @@
     "Bancop": {
       "status": "partial",
       "records": 66,
-      "attempted_at": "2026-11-04T15:34:57.495476+00:00",
+      "attempted_at": "2026-11-05T15:32:36.782585+00:00",
       "checked_at": null,
       "retrieval_status": "fetched",
-      "last_successful_fetch_at": "2026-11-04T15:34:57.495476+00:00",
+      "last_successful_fetch_at": "2026-11-05T15:32:36.782585+00:00",
       "pending_records": 0,
       "pending_items": 8,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -296,17 +292,17 @@
     },
     "Solar": {
       "status": "partial",
-      "records": 69,
-      "attempted_at": "2026-11-04T15:35:16.714302+00:00",
+      "records": 63,
+      "attempted_at": "2026-11-05T15:32:53.989352+00:00",
       "checked_at": null,
       "retrieval_status": "fetched",
-      "last_successful_fetch_at": "2026-11-04T15:35:16.714302+00:00",
+      "last_successful_fetch_at": "2026-11-05T15:32:53.989352+00:00",
       "pending_records": 0,
-      "pending_items": 8,
+      "pending_items": 10,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
       "pending_counts_by_report": {
         "pending": 0,
-        "skipped": 8,
+        "skipped": 10,
         "import_issues": 0
       },
       "evidence_paths": [
@@ -319,7 +315,7 @@
     "Zeta": {
       "status": "blocked",
       "records": 0,
-      "attempted_at": "2026-11-04T15:35:18.336169+00:00",
+      "attempted_at": "2026-11-05T15:32:55.310756+00:00",
       "checked_at": null,
       "retrieval_status": "blocked",
       "last_successful_fetch_at": null,

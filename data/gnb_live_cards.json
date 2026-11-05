@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-04T15:18:10.395760+00:00",
-  "total": 253,
+  "checkedAt": "2026-11-05T15:19:04.603189+00:00",
+  "total": 259,
   "cards": [
     {
       "id": 688,
@@ -242,6 +242,27 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4567_bases-y-condiciones-cuotas-universidades-agosto.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4568_cuotas-universidades-2026-web.png"
+    },
+    {
+      "id": 694,
+      "title": "Jack & Jones – Inauguración Paseo la Galería",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-06",
+      "miniDescription": "Hasta 30% de descuento + Hasta 6 cuotas sin intereses.",
+      "category": "Días GNB",
+      "lines": [
+        "Hasta 30% de descuento + Hasta 6 cuotas sin intereses.",
+        "5 y 6 de noviembre del 2026.",
+        "30% de descuento para pagos con tarjetas de crédito afinidades Black, Black Premier, Metalcard Premier, Platinum e Infinite Premier del Banco GNB Paraguay.",
+        "25% de descuento para pagos con tarjetas de crédito afinidades Clàsicas, Oro y Experience del Banco GNB Paraguay.",
+        "Hasta 6 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Tope de compra por periodo de la promoción: Gs. 1.500.000 (guaraníes un millón quinientos mil) por cuenta de tarjeta de crédito (incluye titulares y adicionales).",
+        "Los reintegros serán reflejados de manera automática en el extracto del cliente, en un período de 24 a 48hs hábiles luego de la compra.",
+        "El descuento en caja no aplica en la compra de Gift Cards .",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5431_bases-y-condiciones-jack-jones-inauguraci%C3%B3n-paseo-la-galer%C3%ADa.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5039_jack-jones-2026-web.png"
     },
     {
       "id": 148,
@@ -1466,6 +1487,26 @@
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5388_moni-schuss-2026-web.png"
     },
     {
+      "id": 692,
+      "title": "Ares",
+      "startDate": "2026-11-05",
+      "endDate": "2027-01-25",
+      "miniDescription": "15% de descuento + Hasta 6 cuotas sin intereses.",
+      "category": "Días GNB",
+      "lines": [
+        "15% de descuento + Hasta 6 cuotas sin intereses.",
+        "Del 6 de noviembre del 2026 al 25 de enero del 2027.",
+        "15% de descuento para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Hasta 6 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Tope de compra mensual: Gs. 3.000.000 (guaraníes tres millones) por cuenta de tarjeta de crédito (incluye titulares y adicionales), el cual aplica de forma conjunta a todos los locales de los comercios adheridos.",
+        "La promoción de cuotas sin intereses aplica todos los días durante el periodo de promoción.",
+        "La promoción de descuento aplica todos los viernes dentro del periodo de la promoción.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5427_bases-y-condiciones-ares.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5428_ares-web.png"
+    },
+    {
       "id": 41,
       "title": "Alamo",
       "startDate": "2024-01-11",
@@ -2293,6 +2334,26 @@
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4249_deport-center-2024-web.png"
     },
     {
+      "id": 348,
+      "title": "Mango",
+      "startDate": "2026-09-03",
+      "endDate": "2026-11-20",
+      "miniDescription": "Hasta 25% de descuento el primer y tercer viernes del mes + Hasta 6 cuotas sin intereses todos los días.",
+      "category": "Días GNB",
+      "lines": [
+        "Hasta 25% de descuento el primer y tercer viernes del mes + Hasta 6 cuotas sin intereses todos los días.",
+        "6 y 20 de noviembre del 2026.",
+        "20% de descuento para pagos con tarjetas de crédito del Banco GNB Paraguay (5% en caja + 15% con tarjetas de crédito físicas). +5% de descuento adicional para pagos con QR con tarjetas de crédito a través de la App Banco GNB Personas.",
+        "Hasta 6 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Tope de compra mensual: Gs. 2.000.000 (guaraníes dos millones) por cuenta de tarjeta de crédito (incluye titulares y adicionales), el cual aplica en forma conjunta a todos los locales del comercio.",
+        "Los reintegros serán reflejados de manera automática en el extracto del cliente, en un período de 24 a 48hs hábiles luego de la compra.",
+        "El descuento en caja no aplica en la compra de Gift Cards .",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4262_bases-y-condiciones-mango.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4263_mango-04-2026-web.png"
+    },
+    {
       "id": 354,
       "title": "Amo Mi Casa",
       "startDate": "2024-09-23",
@@ -2962,6 +3023,24 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/3794_bases-y-condiciones-safebag.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/3795_safebag-al-06-2025-web.png"
+    },
+    {
+      "id": 693,
+      "title": "Universo Electrodomésticos",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-30",
+      "miniDescription": "Hasta 18 cuotas sin intereses.",
+      "category": "Cuotas sin intereses",
+      "lines": [
+        "Hasta 18 cuotas sin intereses.",
+        "Del 2 al 30 de noviembre 2026.",
+        "Hasta 18 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Para el fraccionamiento de las cuotas el cliente deberá solicitar/seleccionar la cantidad de cuotas que desea al momento del pago. Las cuotas se verán reflejadas en el extracto del cliente.",
+        "No participan de la promoción las tarjetas de débito y crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5429_bases-y-condiciones-universo-electrodom%C3%A9sticos.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5430_universo-web.png"
     },
     {
       "id": 14,
@@ -4893,6 +4972,42 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5420_bases-y-condiciones-ulix.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5421_ulix-2026-web.png"
+    },
+    {
+      "id": 695,
+      "title": "El Rincón De Lo Nano",
+      "startDate": "2026-11-04",
+      "endDate": "2027-06-30",
+      "miniDescription": "Hasta 12 cuotas sin intereses todos los días.",
+      "category": "Días GNB",
+      "lines": [
+        "Hasta 12 cuotas sin intereses todos los días.",
+        "Del 4 de noviembre del 2026 al 30 de junio del 2027.",
+        "Hasta 12 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Para el fraccionamiento de las cuotas el cliente deberá solicitar/seleccionar la cantidad de cuotas que desea al momento del pago. Las cuotas se verán reflejadas en el extracto del cliente.",
+        "No participan de la promoción las tarjetas de débito y crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5433_bases-y-condiciones-el-rinc%C3%B3n-de-lo-nano.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5434_rincon-nano-web.png"
+    },
+    {
+      "id": 696,
+      "title": "Nangaro",
+      "startDate": "2026-11-05",
+      "endDate": "2027-06-30",
+      "miniDescription": "Hasta 12 cuotas sin intereses todos los días.",
+      "category": "Cuotas sin intereses",
+      "lines": [
+        "Hasta 12 cuotas sin intereses todos los días.",
+        "Del 5 de noviembre del 2026 30 de junio del 2027.",
+        "Hasta 12 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Para el fraccionamiento de las cuotas el cliente deberá solicitar/seleccionar la cantidad de cuotas que desea al momento del pago. Las cuotas se verán reflejadas en el extracto del cliente.",
+        "No participan de la promoción las tarjetas de débito y crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5435_bases-y-condiciones-nangaro.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5436_nangaro-web.png"
     },
     {
       "id": 168,
