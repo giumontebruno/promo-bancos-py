@@ -2,7 +2,7 @@
 
 Fuente: https://www.universitaria.coop/promociones
 
-Total de beneficios verificados: 71
+Total de beneficios verificados: 67
 
 ## Electrodomésticos
 
@@ -33,7 +33,6 @@ Total de beneficios verificados: 71
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
 | BELLMONT BARBERÍA | 20% de descuento en servicios | Todos los Días | Vigencia Desde el 24 de noviembre de 2025 hasta el 24 de noviembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/1764702833.pdf) |
-| Sempre Bela | 10% de descuento | Martes | Vigencia Desde el 16 de octubre de 2024 hasta el 16 de octubre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1745848849.pdf) |
 
 ## Farmacias
 
@@ -111,7 +110,6 @@ Total de beneficios verificados: 71
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
 | ASISMED | Hasta 10% de descuento | Todos los días | Vigencia Desde el 28 de abril de 2023 hasta el 28 de abril de de 2024, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1685129991.pdf) |
-| CLIO COBERTURA ODONTOLÓGICA | 15% de descuento | Todos los días | Vigencia Desde el 27 de octubre de 2025 hasta el 27 de octubre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1762455671.pdf) |
 | Clinica ELGUE | Hasta 40% de descuento en odontología | Todos los Días | Vigencia Desde el 03 de agosto de 2026, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1786390000.pdf) |
 | MediCoop Laboratorio \| Caacupé | 15% de descuento en análisis clínicos | Todos los días | Vigencia Desde el 09 de junio de 2026 hasta el 09 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1783600286.pdf) |
 | OAMI Medicina Pre-Paga | 10% de descuento en planes para nuevos ingresantes | Todos los días | Vigencia Desde el 26 de febrero de 2025, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1773837106.pdf) |
@@ -129,8 +127,6 @@ Total de beneficios verificados: 71
 
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
-| SUPERMERCADO GÉMINIS | 20% de reintegro con QR | Todos los martes | Vigencia Desde el 01 de septiembre 2026 hasta el 27 de octubre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1788884198.pdf) |
-| SUPERMERCADO GÉMINIS | 10% de reintegro con tarjeta física | Todos los martes | Vigencia Desde el 01 de septiembre 2026 hasta el 27 de octubre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1788884198.pdf) |
 | SUPERSEIS / STOCK / DELIMARKET | 20% de reintegro con QR | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 25 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf) |
 | SUPERSEIS / STOCK / DELIMARKET | 10% de reintegro con tarjeta física | Todos los viernes | Vigencia Desde el 01 de octubre de 2026 hasta el 25 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1790768981.pdf) |
 

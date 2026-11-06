@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-05T15:19:04.603189+00:00",
-  "total": 259,
+  "checkedAt": "2026-11-06T14:54:58.203821+00:00",
+  "total": 260,
   "cards": [
     {
       "id": 688,
@@ -445,6 +445,26 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4919_bases-y-condiciones-el-negro-suplementos-octubre.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4920_el-negro-al-12-2025-web.png"
+    },
+    {
+      "id": 569,
+      "title": "Corte Fiel",
+      "startDate": "2026-09-03",
+      "endDate": "2026-11-20",
+      "miniDescription": "Hasta 25% de descuento el primer y tercer viernes del mes + Hasta 6 cuotas sin intereses todos los días.",
+      "category": "Días GNB",
+      "lines": [
+        "Hasta 25% de descuento el primer y tercer viernes del mes + Hasta 6 cuotas sin intereses todos los días.",
+        "6 y 20 de noviembre del 2026.",
+        "20% de descuento para pagos con tarjetas de crédito del Banco GNB Paraguay (5% en caja + 15% con tarjetas de crédito físicas). +5% de descuento adicional para pagos con QR con tarjetas de crédito a través de la App Banco GNB Personas.",
+        "Hasta 6 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Tope de compra mensual: Gs. 2.000.000 (guaraníes dos millones) por cuenta de tarjeta de crédito (incluye titulares y adicionales), el cual aplica en forma conjunta a todos los locales del comercio.",
+        "Los reintegros serán reflejados de manera automática en el extracto del cliente, en un período de 24 a 48hs hábiles luego de la compra.",
+        "El descuento en caja no aplica en la compra de Gift Cards .",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4493_bases-y-condiciones-corte-fiel.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4494_corte-fiel-10-2025-web.png"
     },
     {
       "id": 598,

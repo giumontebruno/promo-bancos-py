@@ -2,13 +2,13 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 444
+Total de beneficios: 456
 
 ## Alemania Cell
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Alemania Cell | 15 Cuotas sin intereses; Hasta 15 cuotas sin intereses. | No especificado | 2025-10-01 hasta 2026-11-30 |
+| Alemania Cell | 15 Cuotas sin intereses 20 %; Tenes 20% de descuento y hasta 15 cuotas sin intereses. | No especificado | 2025-10-01 hasta 2026-11-30 |
 
 ## American Express
 
@@ -249,6 +249,7 @@ Total de beneficios: 444
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Todo Costura | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-12 hasta 2026-12-31 |
+| Zora | 6 Cuotas sin intereses 20 %; 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-11-05 hasta 2026-11-19 |
 
 ## Itaú Personal Bank
 
@@ -552,6 +553,22 @@ Total de beneficios: 444
 | Timberland | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Touring y Automóvil Club Paraguayo | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-06-26 hasta 2026-12-31 |
 | VGS | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
+
+## Verano
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Aqualar | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
+| Comagro | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
+| Energia Alternativa | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
+| Enersol | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
+| Hydromaq | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
+| Luminotecnia | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
+| My Life S.A | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
+| Pro Riego | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
+| Record Electric | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
+| Record Lux | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
+| Red pro | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
 
 ## Viaje y Turismo
 

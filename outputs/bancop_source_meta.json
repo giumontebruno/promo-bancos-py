@@ -1,12 +1,7 @@
 {
   "status": "partial",
-  "catalog_discovered": 59,
+  "catalog_discovered": 58,
   "skipped": [
-    {
-      "id": "551",
-      "title": "MASTERCLASS CON FACUNDO DE SALTERAIN",
-      "reason": "new_campaign_requires_review"
-    },
     {
       "id": "464",
       "title": "SUPERMERCADO CHORTITZER",
@@ -46,6 +41,6 @@
   "coverage_complete": false,
   "reason": "All 58 initial cards individually reviewed. Missing-year and wrong-merchant documents quarantined; changed/new campaigns require review.",
   "bank": "bancop",
-  "attempted_at": "2026-11-05T15:32:36.739211+00:00",
+  "attempted_at": "2026-11-06T15:09:24.552800+00:00",
   "rows": 66
 }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T15:38:24.386253+00:00",
-  "input_count": 3444,
-  "promotion_count": 4102,
-  "duplicates_removed": -658,
+  "generated_at": "2026-11-06T15:13:07.552324+00:00",
+  "input_count": 3455,
+  "promotion_count": 4117,
+  "duplicates_removed": -662,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1416,9 +1416,9 @@
     "Continental": 930,
     "Coop. Universitaria": 72,
     "Familiar": 410,
-    "GNB": 500,
+    "GNB": 503,
     "Interfisa": 178,
-    "Itaú": 605,
+    "Itaú": 617,
     "Solar": 66,
     "Sudameris": 352,
     "ueno bank": 696
@@ -3770,15 +3770,6 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "e88640079cb72988",
-      "bank": "Coop. Universitaria",
-      "merchant": "Sempre Bela",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1745848849.pdf"
-    },
-    {
       "id": "e007fa2cca116af3",
       "bank": "Coop. Universitaria",
       "merchant": "LA MATILDE",
@@ -3841,15 +3832,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1685129991.pdf"
-    },
-    {
-      "id": "d15627c780c43012",
-      "bank": "Coop. Universitaria",
-      "merchant": "CLIO COBERTURA ODONTOLÓGICA",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1762455671.pdf"
     },
     {
       "id": "d79e933638951d44",
@@ -9600,6 +9582,24 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-VIAJES-_-NOV-2026v1.pdf"
+    },
+    {
+      "id": "e88640079cb72988",
+      "bank": "Coop. Universitaria",
+      "merchant": "Sempre Bela",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1745848849.pdf"
+    },
+    {
+      "id": "d15627c780c43012",
+      "bank": "Coop. Universitaria",
+      "merchant": "CLIO COBERTURA ODONTOLÓGICA",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1762455671.pdf"
     },
     {
       "id": "b359a9e4d40ba14f",

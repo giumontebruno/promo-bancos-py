@@ -2,14 +2,13 @@
 
 Extraidas desde https://www.sudameris.com.py/personas/beneficios
 
-Total: 58
+Total: 57
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
 | Sudameris | Casa Lorenzo | .• Desde el 2 de noviembre 2026 hasta el 31 de diciembre 2027. | • Lunes a jueves • Desde el 2 de noviembre 2026 hasta el 31 de diciembre 2027. • 20% de reintegro directo con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. | https://www.sudameris.com.py/personas/beneficios/casa-lorenzo |
 | Sudameris | GASTRONOMIA 26 | Verifique según aplicación de promoción | Disfrute del Reintegro en Gastronomía y Ahorre con reintegros directos sin canjes de puntos. | https://www.sudameris.com.py/beneficios/destacado/636/detalle |
 | Sudameris | Mentes Expertas – Borja Vilaseca | • Desde el 28 de octubre 2026 | • 20% de descuento directo en compra de entradas, pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/personas/beneficios/mentes-expertas-borja-vilaseca |
-| Sudameris | Napy | • Jueves 5 de noviembre 2026. | • 20% de reintegro directo con tarjetas de crédito de Sudameris. • 25% de reintegro directo con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 12 cuotas sin intereses. | https://www.sudameris.com.py/personas/beneficios/napy |
 | Sudameris | Zona Central – Asunción y Gran Asunción | • Verificar según aplicación de promoción (ver bases y condicones). | • Descuentos en caja según aplicación de promoción (ver bases y condicones). • Reintegro en extracto, según aplicación de promoción (ver bases y condicones). • Cuotas sin interés, según aplicación de promoción (ver bases | https://www.sudameris.com.py/personas/beneficios/zona-central-asuncion-y-gran-asuncion |
 | Sudameris | ZONA SUR | Verificar según aplicación de promoción | Disfrutá beneficios en comercios adheridos de Encarnación, Hohenau, Pirapó, Bella Vista, Coronel Bogado, Trinidad, María Auxiliadora, Fram, Obligado, Carmen del Paraná, Capitán Miranda, Natalio y Kressburgo, con reintegr | https://www.sudameris.com.py/beneficios/destacado/436/detalle |
 | Sudameris | ZONA ESTE | Verificar según aplicación de promoción | Disfrutá beneficios en comercios adheridos de Ciudad del Este, Hernandarias, Villarrica, Coronel Oviedo, Caazapá, Santa Rita, Naranjal, J. Eulogio Estigarribia, Santa Rosa del Monday y Colonia Independencia, con reintegr | https://www.sudameris.com.py/beneficios/destacado/440/detalle |
