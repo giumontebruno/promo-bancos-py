@@ -47,7 +47,7 @@ Total de beneficios/comercios: 834
 | Casa de las Piscinas | hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 09 de abril de 2027 | No especificado |
 | Delia Elisa | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de agosto de 2027 | Caaguazú |
 | Electro Paraná | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 11 de febrero de 2027 | Ciudad del Este |
-| Emporio de la Construcción | hasta 24 cuotas sin intereses; 30% de descuento | Todos los días | Vigente hasta el 06 de noviembre de 2026 | Asunción |
+| Emporio de la Construcción | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 06 de diciembre de 2026 | Asunción |
 | Fermaco | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de mayo de 2027 | Santa Rita (Alto Paraná) |
 | Galvamax | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de marzo de 2027 | Ypané |
 | H. Petersen | Hasta 36 cuotas sin intereses | Todos los días | Vigente hasta el 11 de agosto de 2027 | Limpio |
@@ -128,7 +128,7 @@ Total de beneficios/comercios: 834
 | Iphone Boutique | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 07 de marzo de 2027 | Asunción |
 | LG Importados | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de marzo de 2027 | Salto del Guairá |
 | Mac Store | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 25 de mayo de 2027 | Asunción |
-| Madrid Center | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de noviembre del 2026 | Ciudad del Este |
+| Madrid Center | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de noviembre de 2027 | Ciudad del Este |
 | Mega Electrónicos - Importadora Americas | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 25 de agosto del 2027 | Ciudad del Este |
 | Microlider | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 28 de mayo de 2027 | Asunción |
 | Minishopp | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de abril del 2027 ---------- (*) No participan las tarjetas Pre Pagas, Gourmet Card ni Cabal | Concepción |
@@ -229,7 +229,7 @@ Total de beneficios/comercios: 834
 | Ferretería La Familia | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de agosto de 2027 | María Auxiliadora (Itapúa) |
 | Ferretería Oriental | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 17 de noviembre del 2026 | No especificado |
 | Ferretería Tottal | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de octubre del 2026 | No especificado |
-| Ferrex | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de noviembre del 2026 | No especificado |
+| Ferrex | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de noviembre de 2027 | Todo el país |
 | Ferrizar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 04 de septiembre de 2027 | Coronel Oviedo |
 | Lincoln | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 31 de diciembre del 2026 | No especificado |
 

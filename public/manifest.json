@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T15:13:07.552324+00:00",
-  "promotion_count": 4117,
+  "generated_at": "2026-11-07T14:08:58.011228+00:00",
+  "promotion_count": 4121,
   "banks": [
     "Atlas",
     "BNF",
@@ -4037,6 +4037,13 @@
       "merchant_name": "Forever 21 | Springfield | Women’secret | Jack & Jones",
       "source_url": "https://api.solar.com.py/documents/544/Bases_y_condiciones_-_Forever_21_Springfield_Womensecret_y_Jack__Jones_.2docx.pdf",
       "last_known_ends_on": "2026-11-30"
+    },
+    "440dd16702428041": {
+      "reason": "not_in_current_sources",
+      "bank": "Atlas",
+      "merchant_name": "Derma boutique",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "last_known_ends_on": null
     }
   },
   "schema_version": 2

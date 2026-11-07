@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 34
+Total de beneficios: 33
 
 ## Bienestar
 
@@ -34,7 +34,6 @@ Total de beneficios: 34
 |---|---|---|---|
 | Beneficios Spa y Peluquerías | 25% de reintegro; 20% de reintegro | Todos los Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjeta de crédito Visa Infinite, Gs. 800.000 para tarjetas de crédito Visa Signature y Mastercard Black y Gs. 500.000 para tarjetas de crédito Clásica y  |
 | Biggie Farma | 20% de descuento; +10% de reintegro | Todos los Lunes | Monto mínimo de compra Gs. 50.000.Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 500.000 para tarjetas de crédito Clásica y Oro |
-| Derma boutique | 20% de reintegro; Exclusivo para pagos con QR; 6 cuotas sin intereses | Del 3 al 6 de noviembre | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas Visa Infinite, Gs. 1.500.000 para tarjetas Visa Signature y MasterCard Black y Gs. 900.000 para tarjetas Visa Clásica y Visa Oro. Promo válida pa |
 | Estaciones de Servicio | 25% de reintegro; 20% de reintegro | Todos los Martes | Mínimo de compra Gs. 200.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 700.000 para tarjetas de crédito Clásica y Oro en  |
 | Impuestos al día | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | L'uomo | 6 cuotas sin intereses | Todos los días | Desde 2026-06-01 hasta 2026-12-31 |

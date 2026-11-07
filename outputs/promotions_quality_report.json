@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T15:13:07.552324+00:00",
-  "input_count": 3455,
-  "promotion_count": 4117,
-  "duplicates_removed": -662,
+  "generated_at": "2026-11-07T14:08:58.011228+00:00",
+  "input_count": 3453,
+  "promotion_count": 4121,
+  "duplicates_removed": -668,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1409,24 +1409,24 @@
     "3e6bec2b7296ff1f": "79db00b58924240a"
   },
   "by_bank": {
-    "Atlas": 53,
+    "Atlas": 52,
     "BNF": 77,
     "Bancop": 68,
     "Basa": 95,
-    "Continental": 930,
+    "Continental": 933,
     "Coop. Universitaria": 72,
     "Familiar": 410,
     "GNB": 503,
     "Interfisa": 178,
     "Itaú": 617,
     "Solar": 66,
-    "Sudameris": 352,
+    "Sudameris": 354,
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 339,
-    "limits_unconfirmed": 444,
-    "validity_unconfirmed": 36,
+    "source_verification_pending": 341,
+    "limits_unconfirmed": 443,
+    "validity_unconfirmed": 35,
     "multiple_purchase_limits": 337,
     "source_amount_conflict": 19,
     "multiple_refund_limits": 195
@@ -1476,16 +1476,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/Spa%20y%20Peluqueria%20adheridas.png"
-    },
-    {
-      "id": "440dd16702428041",
-      "bank": "Atlas",
-      "merchant": "Derma boutique",
-      "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
       "id": "c518393e58fbd72c",
@@ -6042,6 +6032,15 @@
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/928/detalle"
     },
     {
+      "id": "aac6cd4889c9f734",
+      "bank": "Sudameris",
+      "merchant": "Trovari",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/tovari"
+    },
+    {
       "id": "7fca8ed534f6adcd",
       "bank": "Sudameris",
       "merchant": "ZONA NORTE",
@@ -6609,6 +6608,15 @@
         "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/903/detalle"
+    },
+    {
+      "id": "2c220015fec8f834",
+      "bank": "Sudameris",
+      "merchant": "Paraná Hogar / Colchones",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/parana-hogar-colchones"
     },
     {
       "id": "4d0aa0869bb68b3a",

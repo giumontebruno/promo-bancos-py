@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 350
+Total de promociones: 352
 
 ## Clubes
 
@@ -118,6 +118,7 @@ Total de promociones: 350
 | Aniversario Plaza Nova | Hasta 10 cuotas sin interés | No especificado | • Jueves 29 de octubre de 2026. |
 | Napy | 20%; 25%; Hasta 12 cuotas sin intereses | No especificado | • Jueves 5 de noviembre 2026. |
 | SASPY EXPRESS | 15%; 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | Desde el 01 de octubre hasta el 31 de diciembre 2026. |
+| Trovari | 20%; Hasta 10 cuotas sin interés | Viernes a domingo | • Desde el 06 al 29 de noviembre 2026 |
 | ZONA NORTE | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 
 ## Deportes y clubes
@@ -238,6 +239,7 @@ Total de promociones: 350
 | Materassi | 10% de reintegro directo | Miércoles a sábado | Desde 2026-08-19 hasta 2026-12-31 |
 | Materassi | Hasta 12 cuotas sin intereses | Miércoles a sábado | Desde 2026-08-19 hasta 2026-12-31 |
 | PARANA HOGAR / COLCHONES | 30%; Hasta 12 cuotas sin intereses | Todos los viernes | • Todos los viernes. • Desde el 03 de agosto hasta el 31 de octubre 2026. |
+| Paraná Hogar / Colchones | 20%; Hasta 12 cuotas sin intereses | Todos los viernes | • Desde el 6 de noviembre hasta el 29 de enero 2027. |
 
 ## Hoteles y gastronomía
 

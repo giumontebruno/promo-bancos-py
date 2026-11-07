@@ -2,10 +2,12 @@
 
 Extraidas desde https://www.sudameris.com.py/personas/beneficios
 
-Total: 57
+Total: 58
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
+| Sudameris | Trovari | • Desde el 06 al 29 de noviembre 2026 | • Viernes a domingos. • Desde el 06 al 29 de noviembre 2026 • 20% de descuento en caja pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/tovari |
+| Sudameris | Paraná Hogar / Colchones | • Desde el 6 de noviembre hasta el 29 de enero 2027. | • Todos los viernes. • Desde el 6 de noviembre hasta el 29 de enero 2027. • 20% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin intereses. | https://www.sudameris.com.py/personas/beneficios/parana-hogar-colchones |
 | Sudameris | Casa Lorenzo | .• Desde el 2 de noviembre 2026 hasta el 31 de diciembre 2027. | • Lunes a jueves • Desde el 2 de noviembre 2026 hasta el 31 de diciembre 2027. • 20% de reintegro directo con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. | https://www.sudameris.com.py/personas/beneficios/casa-lorenzo |
 | Sudameris | GASTRONOMIA 26 | Verifique según aplicación de promoción | Disfrute del Reintegro en Gastronomía y Ahorre con reintegros directos sin canjes de puntos. | https://www.sudameris.com.py/beneficios/destacado/636/detalle |
 | Sudameris | Mentes Expertas – Borja Vilaseca | • Desde el 28 de octubre 2026 | • 20% de descuento directo en compra de entradas, pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/personas/beneficios/mentes-expertas-borja-vilaseca |
@@ -47,7 +49,6 @@ Total: 57
 | Sudameris | Compras en el Exterior | Todos los días hasta el 31 de diciembre del 2026. | 6 cuotas sin interés | https://www.sudameris.com.py/personas/beneficios/compras-en-el-exterior |
 | Sudameris | Younique | • Del 3 de noviembre hasta el 28 de febrero 2026. | • Todos los martes y miércoles. • Del 3 de noviembre hasta el 28 de febrero 2026. • 25% de descuento en caja pagando con tarjetas de crédito Clásicas, Oro, Platinum, Signature, Privilege de Sudameris. • 30% de descuento  | https://www.sudameris.com.py/personas/beneficios/younique |
 | Sudameris | CHEF’S KITCHEN | Desde el 28 de agosto hasta el 26 de diciembre 2026. | Viernes y sábados • 20% de reintegro directo pagando con tarjetas de crédito. • 25% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite. | https://www.sudameris.com.py/beneficios/destacado/738/detalle |
-| Sudameris | PROMOCIÓN MCLAREN MASTERCARD F1 TEAM |  | La promoción otorgará como premios principales: •Un (1) viaje para dos personas al Gran Premio de México de Fórmula 1. •Un (1) viaje para dos personas al Gran Premio de São Paulo de Fórmula 1. •Merchandising oficial del  | https://www.sudameris.com.py/beneficios/destacado/854/detalle |
 | Sudameris | Biggie Express | Desde el 01 de julio hasta el 31 de diciembre 2026 | • El 01 de cada mes. | https://www.sudameris.com.py/personas/beneficios/biggie-express |
 | Sudameris | Distrito Perseverancia | Del 03/08 al 31/12/2026 | ¡Disfrutá de Beneficios Permanentes todo el año! | https://www.sudameris.com.py/personas/beneficios/distrito-perseverancia |
 | Sudameris | TARJETAS EMPRESARIALES | Desde el 01 de enero hasta el 31 de diciembre de 2026. | • Todos los días. | https://www.sudameris.com.py/beneficios/destacado/742/detalle |
