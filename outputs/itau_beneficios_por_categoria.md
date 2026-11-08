@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 456
+Total de beneficios: 454
 
 ## Alemania Cell
 
@@ -635,8 +635,6 @@ Total de beneficios: 456
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Biggie | 20 %; 20% de ahorro. | No especificado | 2025-08-01 hasta 2026-11-06 |
-| Biggie | 15 %; 15% de ahorro. | No especificado | 2025-01-31 hasta 2026-11-06 |
 | Cuotas sin intereses | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses | No especificado | 2026-11-02 hasta 2026-11-08 |
 | Maral Turismo | 15 Cuotas sin intereses; Tenes hasta 15 cuotas sin intereses | No especificado | 2026-11-04 hasta 2026-11-08 |
 
