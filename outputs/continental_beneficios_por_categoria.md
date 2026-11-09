@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 834
+Total de beneficios/comercios: 835
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -47,7 +47,7 @@ Total de beneficios/comercios: 834
 | Casa de las Piscinas | hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 09 de abril de 2027 | No especificado |
 | Delia Elisa | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de agosto de 2027 | Caaguazú |
 | Electro Paraná | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 11 de febrero de 2027 | Ciudad del Este |
-| Emporio de la Construcción | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 06 de diciembre de 2026 | Asunción |
+| Emporio de la Construcción | Hasta 24 cuotas sin intereses; 25% de descuento | Todos los días | Vigente hasta el 06 de diciembre de 2026 | Asunción |
 | Fermaco | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de mayo de 2027 | Santa Rita (Alto Paraná) |
 | Galvamax | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de marzo de 2027 | Ypané |
 | H. Petersen | Hasta 36 cuotas sin intereses | Todos los días | Vigente hasta el 11 de agosto de 2027 | Limpio |
@@ -552,7 +552,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 
-## Promociones especiales (15)
+## Promociones especiales (16)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -570,6 +570,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Las Hortensias - Cine | 50%; 50% de reintegro | Todos los días | Vigente hasta el 10 de junio del 2027 | Pilar |
 | Nissei - Cyber Day | Hasta 18 cuotas sin intereses | No especificado | Vigente hasta el 04 de noviembre de 2026 | Todo el país |
 | Puerto Liebig | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de marzo de 2027 | Asunción |
+| The Vitamin Shoppe | 25%; 25% de reintegro | No especificado | Vigente hasta el 10 de noviembre de 2026 | Todo el país |
 | UNISAL Universidad San Lorenzo | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | No especificado | Todo el país |
 
 ## Puma Flota (1)

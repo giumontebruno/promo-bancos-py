@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 454
+Total de beneficios: 453
 
 ## Alemania Cell
 
@@ -494,6 +494,7 @@ Total de beneficios: 454
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Claro | 12 Cuotas sin intereses; Tenes hasta 12 cuotas sin intereses. | No especificado | 2025-07-07 hasta 2026-12-31 |
+| Compumarket | 25 % 18 Cuotas sin intereses; Tenés hasta 12 cuotas sin intereses. | No especificado | 2026-11-09 hasta 2026-11-18 |
 | Hp Store | 25 % 10 Cuotas sin intereses; Tenes hasta 25% de descuento y hasta 10 cuotas sin intereses. | No especificado | 2025-01-02 hasta 2026-11-30 |
 | Personal | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses. | No especificado | 2024-04-05 hasta 2026-12-31 |
 | Tigo | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
@@ -630,11 +631,4 @@ Total de beneficios: 454
 | Todocenter | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
 | UG Hogar | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses | Aplica LUNES A VIERNES; LUNES A VIERNES | 2023-04-28 hasta 2026-12-31 |
 | Valerie | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES, VIERNES Y SABADOS | 2024-02-02 hasta 2026-12-31 |
-
-## Últimos días
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Cuotas sin intereses | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses | No especificado | 2026-11-02 hasta 2026-11-08 |
-| Maral Turismo | 15 Cuotas sin intereses; Tenes hasta 15 cuotas sin intereses | No especificado | 2026-11-04 hasta 2026-11-08 |
 

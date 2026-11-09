@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T14:30:22.379542+00:00",
-  "promotion_count": 4121,
+  "generated_at": "2026-11-09T17:43:27.362653+00:00",
+  "promotion_count": 4120,
   "banks": [
     "Atlas",
     "BNF",
@@ -60,7 +60,6 @@
     "Estaciones De Servicio",
     "Estaciones de Servicio",
     "Estaciones de Servicios",
-    "Estación de Servicio",
     "Estudios Jurídicos",
     "Estética",
     "Eventos",
@@ -4044,6 +4043,27 @@
       "merchant_name": "Derma boutique",
       "source_url": "https://www.bancoatlas.com.py/web/beneficios",
       "last_known_ends_on": null
+    },
+    "0f1eb01f9259b0c6": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "Copetrol",
+      "source_url": "https://api.solar.com.py/documents/498/Copetrol_S.A_Bases_y_condiciones_2026_V04.docx.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "08d2295b6bc34df0": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "Copetrol",
+      "source_url": "https://api.solar.com.py/documents/498/Copetrol_S.A_Bases_y_condiciones_2026_V04.docx.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "c9788dcb95da0f25": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "Copetrol",
+      "source_url": "https://api.solar.com.py/documents/498/Copetrol_S.A_Bases_y_condiciones_2026_V04.docx.pdf",
+      "last_known_ends_on": "2026-12-31"
     }
   },
   "schema_version": 2

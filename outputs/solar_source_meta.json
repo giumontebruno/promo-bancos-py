@@ -3,7 +3,7 @@
   "catalog_discovered": 31,
   "catalog_reviewed": 30,
   "catalog_review_complete": false,
-  "verified_campaigns": 21,
+  "verified_campaigns": 20,
   "reviewed_at_utc": "2026-10-30T16:06:06.818836+00:00",
   "review_registry": "data/solar_reviewed_catalog.json",
   "campaign_decisions": [
@@ -57,7 +57,7 @@
     },
     {
       "id": 72,
-      "status": "verified"
+      "status": "source_changed_requires_review"
     },
     {
       "id": 125,
@@ -162,6 +162,10 @@
       "reason": "source_changed_requires_review"
     },
     {
+      "id": 72,
+      "reason": "source_changed_requires_review"
+    },
+    {
       "id": 104,
       "reason": "source_changed_requires_review"
     },
@@ -177,6 +181,6 @@
   "coverage_complete": false,
   "reason": "All known catalog campaigns individually reviewed; expired/ineligible and specific ambiguous campaigns excluded. Changed sources fail closed.",
   "bank": "solar",
-  "attempted_at": "2026-11-08T14:25:04.274595+00:00",
-  "rows": 63
+  "attempted_at": "2026-11-09T17:37:55.130215+00:00",
+  "rows": 60
 }
