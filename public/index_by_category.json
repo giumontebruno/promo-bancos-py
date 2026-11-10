@@ -131,6 +131,7 @@
   "Combustible": [
     "105d561919d42a80",
     "f650cc13ae9c8618",
+    "937ae04f3a8c4764",
     "b81818eeb894d825",
     "ce84ef9f687b38be",
     "4951d131e0533dd4",
@@ -289,8 +290,8 @@
     "789d39600d1812df"
   ],
   "Contimarket": [
-    "95a62440aa5e167b",
-    "f781ac3004b9b700"
+    "f781ac3004b9b700",
+    "95a62440aa5e167b"
   ],
   "Coronel Oviedo": [
     "27d2e79d2dc2d30b",
@@ -983,6 +984,7 @@
     "ee670c4e31c1bacb",
     "daefe4cb44ac65ef",
     "c7b730f8c9cd1c53",
+    "69952b6fdbeb34d2",
     "e7bfa371c3a34dd4",
     "64128fb5553afaf5",
     "c53b1b30a4f0a742",
@@ -1631,6 +1633,7 @@
     "24b9a23c20822f37",
     "63ab7798b614f938",
     "48070644a950466b",
+    "a33a3cd0b3c23c22",
     "c5d6654ec52e5212",
     "2b2605726bc80209",
     "845acbdf1c114502",
@@ -2948,11 +2951,6 @@
     "04a65bc7e05dc5e1",
     "efc458a39de82f8d"
   ],
-  "Tienda": [
-    "2dd7979df8afbfac",
-    "624d6d5f62eb39b5",
-    "7bc00af36faed4f1"
-  ],
   "Tienda Movil": [
     "7965ced4b34c98e3",
     "bdc2e400cf5c3719"
@@ -4065,7 +4063,8 @@
     "62549da3086fb74f",
     "93f53b635b9b88a0",
     "0259a667e00e390d",
-    "b75101ec368492d4"
+    "b75101ec368492d4",
+    "b538a27ca847d299"
   ],
   "Veterinaria": [
     "0e96675b79feebaa",

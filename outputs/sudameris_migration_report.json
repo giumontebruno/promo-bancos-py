@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T17:25:02.166092+00:00",
+  "checked_at": "2026-11-10T15:32:41.016968+00:00",
   "campaigns": 58,
   "failures": [
     {
@@ -98,5 +98,5 @@
       "reason": "404 Client Error: Not Found for url: https://www.sudameris.com.py/descargas/documentos/6ad238969b346325834826/B%26C-VEREDEADA-17-10-26.pdf"
     }
   ],
-  "retained_unconfirmed": 287
+  "retained_unconfirmed": 288
 }

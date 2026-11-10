@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 835
+Total de beneficios/comercios: 834
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -64,11 +64,10 @@ Total de beneficios/comercios: 835
 | Rackpar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de marzo de 2027 | Ypané |
 | Universo Emprendimientos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de diciembre de 2026 | Pedro Juan Caballero |
 
-## Contimarket (2)
+## Contimarket (1)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| Contimarket - 25% | 25% de reintegro | 2026-11-04 | No especificado | Todo el país |
 | Contimarket.com | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 
 ## Courier (2)

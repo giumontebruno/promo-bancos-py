@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 453
+Total de beneficios: 455
 
 ## Alemania Cell
 
@@ -237,6 +237,7 @@ Total de beneficios: 453
 | Casa Pro | 30 % Hasta 6 Cuotas sin intereses; Tenes hasta 30% de descuento en caja + hasta 6 cuotas sin intereses | No especificado | 2025-06-19 hasta 2026-12-31 |
 | Essen | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
 | Ipale | 30 % 10 Cuotas sin intereses; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-23 hasta 2026-11-30 |
+| Kekas Design | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-11-10 hasta 2026-11-23 |
 | Luminotecnia | 10 Cuotas sin intereses 15 %; 15% de ahorro y hasta 10 cuotas sin intereses. | Aplica los sábados | 2026-01-10 hasta 2026-12-26 |
 | Luminotecnia | 6 Cuotas sin intereses; hasta 6 cuotas sin intereses. | No especificado | 2026-01-06 hasta 2026-12-31 |
 | Maquicenter | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2022-12-05 hasta 2026-12-31 |
@@ -570,6 +571,7 @@ Total de beneficios: 453
 | Record Electric | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
 | Record Lux | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
 | Red pro | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
+| Turbo Disel | 10 Cuotas sin intereses 10 %; 10% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-20 hasta 2027-01-31 |
 
 ## Viaje y Turismo
 

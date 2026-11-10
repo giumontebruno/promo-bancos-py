@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T17:43:27.362653+00:00",
-  "promotion_count": 4120,
+  "generated_at": "2026-11-10T15:47:37.837768+00:00",
+  "promotion_count": 4121,
   "banks": [
     "Atlas",
     "BNF",
@@ -132,7 +132,6 @@
     "Supermercados",
     "Teatro",
     "Tecnología",
-    "Tienda",
     "Tienda Movil",
     "Tiendas",
     "Tiendas de Moda",
@@ -4063,6 +4062,27 @@
       "bank": "Solar",
       "merchant_name": "Copetrol",
       "source_url": "https://api.solar.com.py/documents/498/Copetrol_S.A_Bases_y_condiciones_2026_V04.docx.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "2dd7979df8afbfac": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "Casa Paraná",
+      "source_url": "https://api.solar.com.py/documents/426/Casa_Parana_-_Bases_y_condiciones_2026__.docx.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "624d6d5f62eb39b5": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "Casa Paraná",
+      "source_url": "https://api.solar.com.py/documents/426/Casa_Parana_-_Bases_y_condiciones_2026__.docx.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "7bc00af36faed4f1": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "Casa Paraná",
+      "source_url": "https://api.solar.com.py/documents/426/Casa_Parana_-_Bases_y_condiciones_2026__.docx.pdf",
       "last_known_ends_on": "2026-12-31"
     }
   },

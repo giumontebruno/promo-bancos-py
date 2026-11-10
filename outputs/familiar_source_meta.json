@@ -1,12 +1,7 @@
 {
-  "checked_at": "2026-11-09T17:24:21.599477+00:00",
-  "published": 410,
+  "checked_at": "2026-11-10T15:32:11.317665+00:00",
+  "published": 411,
   "pending": [
-    {
-      "merchant_name": "NISSEI CYBERDAY",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-nissei-cyberday",
-      "reason": "ambiguous_dates"
-    },
     {
       "merchant_name": "LUNES DE MALL EXCELSIOR",
       "source_url": "https://www.familiar.com.py/pdfs/lunes-de-mall-excelsior",

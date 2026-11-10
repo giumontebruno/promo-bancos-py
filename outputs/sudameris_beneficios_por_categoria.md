@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 352
+Total de promociones: 353
 
 ## Clubes
 
@@ -165,6 +165,7 @@ Total de promociones: 352
 | Catedral | 10% de reintegro adicional solo el último lunes de cada mes | Último lunes de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | Catedral | Hasta 12 cuotas sin interés | Lunes | Desde 2026-07-01 hasta 2026-12-31 |
 | DRUGSTORE ASISMED DESCUENTO EN CAJA | 10%; 100%; 17%; 32%; Hasta 12 cuotas sin intereses | Todos los martes | • Desde el 01 de julio hasta el 31 de diciembre 2026. |
+| Drugstore Asismed | 10%; 100%; 17%; 32%; Hasta 12 cuotas sin intereses | Todos los martes | • Desde el 01 de julio hasta el 10 de noviembre 2026. |
 | Drugstore Asismed | 17% de descuento en caja en medicamentos importados o nacionales con tratamiento de importado y varios | Martes | Desde 2026-07-01 hasta 2026-12-31 |
 | Drugstore Asismed | 32% de descuento en caja en medicamentos de origen 100% nacional | Martes | Desde 2026-07-01 hasta 2026-12-31 |
 | Drugstore Asismed | 10% de reintegro adicional en extracto | Martes | Desde 2026-07-01 hasta 2026-12-31 |

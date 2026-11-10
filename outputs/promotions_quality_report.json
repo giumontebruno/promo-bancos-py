@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-09T17:43:27.362653+00:00",
+  "generated_at": "2026-11-10T15:47:37.837768+00:00",
   "input_count": 3448,
-  "promotion_count": 4120,
-  "duplicates_removed": -672,
+  "promotion_count": 4121,
+  "duplicates_removed": -673,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1415,16 +1415,16 @@
     "Basa": 95,
     "Continental": 934,
     "Coop. Universitaria": 72,
-    "Familiar": 410,
+    "Familiar": 411,
     "GNB": 503,
     "Interfisa": 178,
-    "Itaú": 618,
-    "Solar": 63,
-    "Sudameris": 354,
+    "Itaú": 620,
+    "Solar": 60,
+    "Sudameris": 355,
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 341,
+    "source_verification_pending": 342,
     "limits_unconfirmed": 443,
     "validity_unconfirmed": 35,
     "multiple_purchase_limits": 337,
@@ -6230,6 +6230,15 @@
         "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/453/detalle"
+    },
+    {
+      "id": "69952b6fdbeb34d2",
+      "bank": "Sudameris",
+      "merchant": "Drugstore Asismed",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/drugstore-asismed-descuento-en-caja"
     },
     {
       "id": "e7bfa371c3a34dd4",
