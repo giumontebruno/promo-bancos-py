@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-10T15:30:10.964024+00:00",
-  "coverage": "259 official cards extracted from GNB's public API; every card retains its official detail and terms links",
-  "records": 487,
+  "checked_at": "2026-11-11T15:00:56.296350+00:00",
+  "coverage": "257 official cards extracted from GNB's public API; every card retains its official detail and terms links",
+  "records": 484,
   "reviewed_documents": [],
   "document_failures": [
     {
       "id": 688,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
-      "attempted_at": "2026-11-10T15:30:11.403359+00:00",
+      "attempted_at": "2026-11-11T15:00:56.991054+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -15,7 +15,7 @@
     {
       "id": 52,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
-      "attempted_at": "2026-11-10T15:30:11.617978+00:00",
+      "attempted_at": "2026-11-11T15:00:57.013156+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -25,7 +25,7 @@
     {
       "id": 688,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
-      "attempted_at": "2026-11-10T15:30:11.403359+00:00",
+      "attempted_at": "2026-11-11T15:00:56.991054+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -33,7 +33,7 @@
     {
       "id": 52,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
-      "attempted_at": "2026-11-10T15:30:11.617978+00:00",
+      "attempted_at": "2026-11-11T15:00:57.013156+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -44,7 +44,7 @@
     {
       "id": 688,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5405_bases-y-condiciones-casa-rica-fiestas-ricas-sorteo-0-km.pdf",
-      "attempted_at": "2026-11-10T15:30:11.403359+00:00",
+      "attempted_at": "2026-11-11T15:00:56.991054+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403
@@ -52,7 +52,7 @@
     {
       "id": 52,
       "source_url": "https://www.beneficiosbancognb.com.py/imagenes/2543_bases-y-condiciones-tonina-julio.pdf",
-      "attempted_at": "2026-11-10T15:30:11.617978+00:00",
+      "attempted_at": "2026-11-11T15:00:57.013156+00:00",
       "reason": "document_fetch_failed",
       "error_type": "HTTPError",
       "http_status": 403

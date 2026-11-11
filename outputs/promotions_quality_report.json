@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T15:47:37.837768+00:00",
-  "input_count": 3448,
-  "promotion_count": 4121,
-  "duplicates_removed": -673,
+  "generated_at": "2026-11-11T15:22:33.201848+00:00",
+  "input_count": 3450,
+  "promotion_count": 4130,
+  "duplicates_removed": -680,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1409,17 +1409,17 @@
     "3e6bec2b7296ff1f": "79db00b58924240a"
   },
   "by_bank": {
-    "Atlas": 52,
+    "Atlas": 53,
     "BNF": 77,
     "Bancop": 68,
     "Basa": 95,
-    "Continental": 934,
+    "Continental": 937,
     "Coop. Universitaria": 72,
     "Familiar": 411,
     "GNB": 503,
     "Interfisa": 178,
-    "Itaú": 620,
-    "Solar": 60,
+    "Itaú": 622,
+    "Solar": 63,
     "Sudameris": 355,
     "ueno bank": 696
   },
@@ -2907,15 +2907,6 @@
       "id": "25e28165f24c6588",
       "bank": "Continental",
       "merchant": "Delimarket - Miércoles de Supermercados",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "2f242d3d12803799",
-      "bank": "Continental",
-      "merchant": "Kingo Supermercados - Miércoles de Supermercados",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -9599,6 +9590,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-VIAJES-_-NOV-2026v1.pdf"
+    },
+    {
+      "id": "2f242d3d12803799",
+      "bank": "Continental",
+      "merchant": "Kingo Supermercados - Miércoles de Supermercados",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
       "id": "e88640079cb72988",

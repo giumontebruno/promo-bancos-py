@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 455
+Total de beneficios: 457
 
 ## Alemania Cell
 
@@ -43,6 +43,7 @@ Total de beneficios: 455
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Asismed | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2025-04-04 hasta 2026-12-31 |
+| HALO CLUB | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-11-11 hasta 2026-11-25 |
 | ODONTOS | 12 Cuotas sin intereses; Tenes 12 cuotas sin intereses | No especificado | 2026-03-27 hasta 2026-12-31 |
 | Punto Farma | 6 Cuotas sin intereses 35 % Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses. | Todos los Martes; todos los martes | 2024-12-30 hasta 2026-12-31 |
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
@@ -633,4 +634,10 @@ Total de beneficios: 455
 | Todocenter | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | APLICA JUEVES, VIERNES Y SABADOS; APLICA JUEVES | 2025-01-01 hasta 2026-12-31 |
 | UG Hogar | 10 % 10 Cuotas sin intereses; Tenes 10% de reintegro y hasta 10 cuotas sin intereses | Aplica LUNES A VIERNES; LUNES A VIERNES | 2023-04-28 hasta 2026-12-31 |
 | Valerie | 30 % 6 Cuotas sin intereses; 10% de ahorro y hasta 10 cuotas sin intereses. | Aplica JUEVES, VIERNES Y SABADOS | 2024-02-02 hasta 2026-12-31 |
+
+## Últimos días
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Sara Comercial | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2025-06-26 hasta 2026-11-14 |
 

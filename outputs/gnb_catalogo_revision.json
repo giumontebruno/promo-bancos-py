@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-10T15:30:10.964024+00:00",
+  "checked_at": "2026-11-11T15:00:56.296350+00:00",
   "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
-  "total_source_cards": 259,
-  "already_represented_source_cards": 254,
+  "total_source_cards": 257,
+  "already_represented_source_cards": 252,
   "source_cards_not_yet_in_app": [
     688,
     52,
@@ -29,11 +29,6 @@
     {
       "id": 414,
       "name": "Delimarket",
-      "flags": "source_start_date_stale"
-    },
-    {
-      "id": 421,
-      "name": "Colegios",
       "flags": "source_start_date_stale"
     },
     {

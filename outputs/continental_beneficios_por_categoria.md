@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 834
+Total de beneficios/comercios: 835
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -415,7 +415,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Hotel de Colleville | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de marzo de 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | San Estanislao |
 | La Candelaria - Hotel | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de junio de 2027 | Areguá |
 | Las Hortensias - Hotel | 35%; 35% de reintegro; 30% de reintegro | Todos los días | No especificado | Pilar |
-| Restaurante - Don Papalo | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 06 de diciembre de 2026 | No especificado |
+| Restaurante - Don Papalo | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 06 de diciembre de 2026 | No especificado |
 
 ## Indumentaria (7)
 
@@ -551,7 +551,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 
-## Promociones especiales (16)
+## Promociones especiales (17)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -559,6 +559,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | DG Market - Distribuidora Gloria | 25%; 25% de reintegro; 20% de reintegro | No especificado | Vigente hasta el 31 de octubre de 2026 | Asunción |
 | Farmacias Energy - Promo especial | Hasta 6 cuotas sin intereses | No especificado | No especificado | Todo el país |
 | Go Park | 20%; Hasta 6 cuotas sin intereses; 20% de reintegro | No especificado | No especificado | Asunción |
+| Jessica Torres Studio | 20%; 20% de reintegro | No especificado | Vigente hasta el 20 de noviembre de 2026 | Asunción |
 | Koala | Hasta 45% de descuento | Del 29 al 31 de octubre, en Koala | Desde el 29 de octubre de 2026 hasta el 31 de octubre de 2026 | Todo el país |
 | Koala | 10% de reintegro | Del 29 al 31 de octubre, en Koala | Desde el 29 de octubre de 2026 hasta el 31 de octubre de 2026 | Todo el país |
 | Koala | Hasta 12 cuotas sin intereses | todos los días: | Vigente hasta el 31 de agosto de 2027 | Todo el país |
@@ -675,12 +676,12 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Hipermercado El Pueblo - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 07 de abril de 2027 | No especificado |
 | Hipermercado Luisito - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 15 de septiembre de 2027 | No especificado |
 | Kelita Supermarket - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 30 de junio de 2027 | Trinidad (Itapúa) |
-| Kingo Supermercados - Miércoles de Supermercados | 25%; Hasta 6 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 04 de noviembre de 2026 | No especificado |
+| Kingo Supermercados - Miércoles de Supermercados | 25%; 25% de reintegro | Los miércoles | Vigente hasta el 10 de diciembre de 2026 | Todo el país |
 | LT Supermercado - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 01 de septiembre de 2027 | No especificado |
 | La Bomba Supermercados - Miércoles de Supermercados | 20%; Hasta 6 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 30 de diciembre de 2026 | No especificado |
 | La Canasta - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 25 de agosto de 2027 | Concepción |
 | La Criolla - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 10 de febrero de 2027 | No especificado |
-| La Economía - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 04 de noviembre de 2026 | Capiatá |
+| La Economía - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 04 de noviembre de 2027 | Capiatá |
 | La Familia Villalba - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 02 de diciembre de 2026 | Encarnación |
 | La Preferida - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 08 de septiembre de 2027 | Asunción |
 | La Sirenita - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 25 de noviembre de 2026 | Encarnación |

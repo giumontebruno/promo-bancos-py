@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-10T15:30:10.964024+00:00",
-  "total": 259,
+  "checkedAt": "2026-11-11T15:00:56.296350+00:00",
+  "total": 257,
   "cards": [
     {
       "id": 688,
@@ -33,7 +33,7 @@
         "Del 17 de octubre al 28 de noviembre del 2026.",
         "25% de reintegro para pagos con tarjetas de crédito Mastercard afinidades Black, Black Premier y Metalcard Premier del Banco GNB Paraguay.",
         "20% de reintegro para pagos con tarjetas de crédito Mastercard afinidades Clásicas y Oro del Banco GNB Paraguay.",
-        "Tope de compra mensual: Gs. 2.000.000 (guaraníes dos millones) por cuenta de tarjeta de crédito (incluye titulares y adicionales), el cual aplica de forma independiente a este beneficio.",
+        "Tope de compra por periodo de la promoción: Gs. 2.000.000 (guaraníes dos millones) por cuenta de tarjeta de crédito (incluye titulares y adicionales), el cual aplica de forma independiente a este beneficio.",
         "Los reintegros serán reflejados de manera automática en el extracto del cliente, en un período de 24 a 48hs hábiles luego de la compra.",
         "No acumulable con otras promociones.",
         "✓ Areté Perón - Av. Juan Domingo Perón - Asunción, Paraguay"
@@ -84,24 +84,6 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4743_bases-y-condiciones-cinemark-oct.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/2869_cinemark-2025-web.png"
-    },
-    {
-      "id": 371,
-      "title": "Cyber Day",
-      "startDate": "2026-11-02",
-      "endDate": "2026-11-10",
-      "miniDescription": "Hasta 18 cuotas sin intereses.",
-      "category": "Cuotas sin intereses",
-      "lines": [
-        "Hasta 18 cuotas sin intereses.",
-        "Del 2 al 4 de noviembre de 2026.",
-        "Hasta 18 cuotas sin intereses con las tarjetas de crédito del Banco GNB Paraguay.",
-        "Para el fraccionamiento de las cuotas el cliente deberá solicitar/seleccionar la cantidad de cuotas que desea al momento del pago bajo el Plan 1 de Bancard. Las cuotas se verán reflejadas en el extracto del cliente.",
-        "Beneficio aplica única y exclusivamente para compras vía web .",
-        "Consulte las bases y condiciones para información acerca de los locales adheridos."
-      ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4345_gnb-byc-cyber-day-2026.pdf",
-      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4346_ciberday-web.png"
     },
     {
       "id": 639,
@@ -198,28 +180,6 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4504_bases-y-condiciones-delimarket-octubre.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4505_delimarket-web.png"
-    },
-    {
-      "id": 421,
-      "title": "Colegios",
-      "startDate": "2025-01-31",
-      "endDate": "2026-11-10",
-      "miniDescription": "10% de reintegro y hasta 12 cuotas sin intereses del 1 al 10 de cada mes.",
-      "category": "Días GNB",
-      "lines": [
-        "10% de reintegro y hasta 12 cuotas sin intereses del 1 al 10 de cada mes.",
-        "Del 01 de febrero al 10 de noviembre del 2026.",
-        "10% de reintegro para pagos con tarjetas de crédito y prepagas Mastercard afinidades Clásicas, Oro, Black, Black Premier y Metalcard Premier del Banco GNB Paraguay.",
-        "Hasta 12 cuotas sin intereses para pagos en POS con tarjetas de crédito del Banco GNB Paraguay.",
-        "El beneficio de cuotas sin intereses aplica para pagos única y exclusivamente en POS adheridos a la procesadora Bancard",
-        "El descuento será aplicado vía reintegro en el extracto del cliente lo cual será reflejado al cierre o podrá visualizarlo en su app en los movimientos mensuales de su tarjeta.",
-        "Tope de compra durante el periodo de la promoción: Gs. 10.000.000 (guaraníes diez millones), el cual aplica en forma conjunta a todos los comercios seleccionados adheridos a la promoción de “Vuelta a clases - Colegios” en cualquiera de las sucursales de los comercios participantes.",
-        "Tope de reintegro durante el periodo de la promoción: Gs. 1.000.000. - (guaraníes un millón) y, se aplica por cuenta de tarjeta de crédito (titulares + adicionales).",
-        "No aplica para pagos realizados a través de plataformas de terceros y/o e-commerce.",
-        "No acumulable con otras promociones."
-      ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4527_bases-y-condiciones-vuelta-a-clases-colegios-.v2.pdf",
-      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4528_cuotas-colegios-03-2026-web.png"
     },
     {
       "id": 426,

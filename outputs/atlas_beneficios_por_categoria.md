@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 33
+Total de beneficios: 34
 
 ## Bienestar
 
@@ -58,6 +58,7 @@ Total de beneficios: 33
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Día de Solteros | 10% de descuento; 12 cuotas sin intereses | 11 de noviembre | Desde 2026-11-11 hasta 2026-11-11 |
 | H&M | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 para compras realizadas a través del POS de la Red Infonet .Válido para las sucursales de Paseo La Galería, Distrito Perseverancia y su E-  |
 | Miércoles Mariscal | 20% de descuento; Hasta 3 cuotas sin intereses | Todos los Miércoles | El descuento se realiza en caja. Aplica para tiendas adheridas a la promoción y pagos realizados a través del POS de la Red Infonet. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a  |
 | Sfera | 20% de reintegro; Exclusivo para pagos con QR; 12 cuotas sin intereses | Todos los Sábados | Valido para la tienda Sfera de Distrito Perseverancia. Tope de compra acumulado por cuenta de tarjeta Gs. 2.500.000 para las tarjetas de crédito Visa Infinite, Visa Signature, Mastercard Black, Visa Clásica y Visa Oro. P |

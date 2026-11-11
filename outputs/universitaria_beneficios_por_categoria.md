@@ -2,7 +2,7 @@
 
 Fuente: https://www.universitaria.coop/promociones
 
-Total de beneficios verificados: 67
+Total de beneficios verificados: 65
 
 ## Electrodomésticos
 
@@ -81,8 +81,6 @@ Total de beneficios verificados: 67
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
 | Biogenic | 20% de descuento | lunes | Vigencia Desde el 01 de agosto de 2023 hasta el 01 de agosto de 2024, con renovación automática | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1694089925.pdf) |
-| MEYERLAB | 15% de descuento en análisis clínicos | Todos los días | Vigencia Desde el 06 de noviembre de 2025 hasta el 06 de noviembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1770835144.pdf) |
-| MEYERLAB | 5% de descuento en diferencias no cubiertas por seguro médico privado | Todos los días | Vigencia Desde el 06 de noviembre de 2025 hasta el 06 de noviembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1770835144.pdf) |
 
 ## Mecánica
 

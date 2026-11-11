@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-10T15:32:41.016968+00:00",
-  "campaigns": 58,
+  "checked_at": "2026-11-11T15:04:23.458338+00:00",
+  "campaigns": 57,
   "failures": [
     {
-      "campaign": "Zona Central – Asunción y Gran Asunción",
+      "campaign": "Asunción y Gran Asunción",
       "url": "https://www.sudameris.com.py/personas/beneficios/zona-central-asuncion-y-gran-asuncion",
       "reason": "No quantified benefit on official page; retained in staging only"
     },
