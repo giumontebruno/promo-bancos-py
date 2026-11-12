@@ -3206,7 +3206,7 @@ function detailDistance(place) {
 
 function renderDetailDestination(context) {
   const place = (context.adheredPlaces || context.places).find(item => getPlaceGroupKey(item) === context.selectedKey);
-  if (!place) return '<p class="detail-location-note">Elegí una sucursal para ver su dirección y abrir la ruta.</p>';
+  if (!place) return '<p class="detail-location-note">Elegí una sucursal para ver su dirección y las opciones disponibles.</p>';
   if (!isReliableMapLocation(place)) return `<div class="detail-destination"><strong>${escapeHtml(place.merchant_name || place.name || "Local adherido")}</strong><p>${escapeHtml([place.address, place.city].filter(Boolean).join(", ") || "Dirección no publicada en la fuente")}</p><p class="detail-location-note">Local documentado, coordenadas sin verificar. No mostramos una ruta ni una distancia estimada.</p></div>`;
   const url = getMapsUrl(place);
   const address = formatPlaceAddress(place);

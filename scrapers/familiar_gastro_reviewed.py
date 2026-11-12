@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 
 def build(record):
-    reviews=json.loads((ROOT/'data/familiar_gastro_mcdonalds_reviewed.json').read_text())['reviews']
+    reviews=json.loads((ROOT/'data/familiar_gastro_mcdonalds_reviewed.json').read_text(encoding='utf-8'))['reviews']
     review=next((r for r in reviews if r['source_url']==record['source_url']),None)
     if not review:
         return None

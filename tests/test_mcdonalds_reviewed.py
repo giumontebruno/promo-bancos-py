@@ -6,7 +6,7 @@ from promo_backend.normalize import normalize_row
 
 class McDonaldsInterfisa(unittest.TestCase):
     def test_name_punctuation_and_optional_points_section(self):
-        text=(Path(__file__).parent/'fixtures/basa_interfisa/interfisa-mcdonalds.txt').read_text()
+        text=(Path(__file__).parent/'fixtures/basa_interfisa/interfisa-mcdonalds.txt').read_text(encoding='utf-8')
         item={'name':"MC DONALD'S",'url':'https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC_Mcdonalds.pdf','category':'Gastronomía'}
         rows,status=parse(item,text,date(2026,11,12))
         self.assertEqual(status,'published');self.assertEqual(len(rows),2)
@@ -29,7 +29,7 @@ class McDonaldsFamiliar(unittest.TestCase):
     def test_three_locations_two_tiers_and_fail_closed(self):
         import json
         from scrapers.familiar_gastro_reviewed import build
-        source=json.loads((Path(__file__).resolve().parents[1]/'outputs/familiar_extraction_review.json').read_text())
+        source=json.loads((Path(__file__).resolve().parents[1]/'outputs/familiar_extraction_review.json').read_text(encoding='utf-8'))
         rows=[]
         for record in source['records']:
             result=build(record)

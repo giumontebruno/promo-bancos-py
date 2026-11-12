@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class FarmacenterNovember(unittest.TestCase):
     def test_pdf_validity_and_sequential_discounts(self):
-        campaign = next(c for c in json.loads((ROOT / 'data/gnb_additional_reviewed.json').read_text())['campaigns'] if c.get('merchant') == 'Farmacenter')
+        campaign = next(c for c in json.loads((ROOT / 'data/gnb_additional_reviewed.json').read_text(encoding='utf-8'))['campaigns'] if c.get('merchant') == 'Farmacenter')
         self.assertEqual(campaign['starts_on'], '2026-11-02')
         self.assertEqual(campaign['ends_on'], '2026-12-28')
         self.assertEqual(campaign['source_version'], 'V1 - 30/10/2026')

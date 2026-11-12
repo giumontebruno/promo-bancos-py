@@ -9,11 +9,11 @@ def apply(locations, root):
     result=[p for p in locations if not p.get('id','').startswith(PREFIX)]
     path=root/'data/mcdonalds_documented_branches.json'
     if not path.exists():return result
-    offers={p['id']:p for p in json.loads((root/'public/promotions.json').read_text())}
+    offers={p['id']:p for p in json.loads((root/'public/promotions.json').read_text(encoding='utf-8'))}
     source_hashes={}
-    for p in json.loads((root/'outputs/interfisa_source_meta.json').read_text()).get('documents',[]):source_hashes[p['url']]=p.get('sha256')
-    for p in json.loads((root/'outputs/familiar_extraction_review.json').read_text()).get('records',[]):source_hashes[p.get('pdf_url','')]=p.get('pdf_sha256')
-    for group in json.loads(path.read_text())['groups']:
+    for p in json.loads((root/'outputs/interfisa_source_meta.json').read_text(encoding='utf-8')).get('documents',[]):source_hashes[p['url']]=p.get('sha256')
+    for p in json.loads((root/'outputs/familiar_extraction_review.json').read_text(encoding='utf-8')).get('records',[]):source_hashes[p.get('pdf_url','')]=p.get('pdf_sha256')
+    for group in json.loads(path.read_text(encoding='utf-8'))['groups']:
         if source_hashes.get(group['source_url'])!=group['pdf_sha256'] or group['ends_on']<date.today().isoformat():continue
         valid=[]
         for offer_id,fingerprint in group['offers'].items():

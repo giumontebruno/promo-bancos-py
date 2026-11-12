@@ -18,11 +18,11 @@ class DocumentedBranches(unittest.TestCase):
    for p in paths:
     target=root/p;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes((ROOT/p).read_bytes())
    rows=apply([],root)
-   p=root/'outputs/interfisa_source_meta.json';d=json.loads(p.read_text())
+   p=root/'outputs/interfisa_source_meta.json';d=json.loads(p.read_text(encoding='utf-8'))
    for doc in d['documents']:
     if 'BYC_Mcdonalds.pdf' in doc['url']:doc['sha256']='changed'
-   p.write_text(json.dumps(d));self.assertEqual(len(apply(rows,root)),3)
-   p=root/'public/promotions.json';d=json.loads(p.read_text())
+   p.write_text(json.dumps(d), encoding='utf-8');self.assertEqual(len(apply(rows,root)),3)
+   p=root/'public/promotions.json';d=json.loads(p.read_text(encoding='utf-8'))
    for offer in d:
     if offer['bank']=='Familiar' and offer['merchant_name'].startswith("McDonald's -"):offer['raw_detail']='changed'
-   p.write_text(json.dumps(d));self.assertEqual(apply(rows,root),[])
+   p.write_text(json.dumps(d), encoding='utf-8');self.assertEqual(apply(rows,root),[])
