@@ -46,8 +46,9 @@ class Block79Integration(unittest.TestCase):
     row={**r,key:"changed", "lat":None,"lng":None}
     before=copy.deepcopy(row);apply_reviews([row],REVIEWS)
     self.assertEqual(row,before,(r["id"],key))
- def test_published_local_catalog_contains_79_once_with_exact_evidence(self):
-  rows=load(ROOT/"public/locations.json")["locations"]
+ def test_historical_published_snapshot_contains_79_once_with_exact_evidence(self):
+  # Current bank PDFs renew independently; October review assertions use their exact snapshot.
+  rows=load(ROOT/"tests/fixtures/block79-published-20261030.json")["locations"]
   counts={r["id"]:sum(p["id"]==r["id"] for p in rows) for r in REVIEWS}
   self.assertTrue(all(n==1 for n in counts.values()),counts)
   byid={p["id"]:p for p in rows}
@@ -58,6 +59,15 @@ class Block79Integration(unittest.TestCase):
    self.assertTrue(set(STALE).isdisjoint(actual),r["id"])
    evidence=ROOT/r["review_evidence_file"]
    self.assertEqual(hashlib.sha256(evidence.read_bytes()).hexdigest(),r["review_evidence_sha256"])
+ def test_renewed_live_sources_do_not_inherit_historical_review_evidence(self):
+  byid={p["id"]:p for p in load(ROOT/"public/locations.json")["locations"]}
+  for review in REVIEWS:
+   actual=byid.get(review["id"])
+   if actual and actual.get("source_url") != review["source_url"]:
+    self.assertNotEqual(actual.get("review_evidence_sha256"),review["review_evidence_sha256"],review["id"])
+    before=copy.deepcopy(actual)
+    apply_reviews([actual],[review])
+    self.assertEqual(actual,before,review["id"])
  def test_historical_evidence_bytes_are_protected_from_checkout_conversion(self):
   evidence={r["review_evidence_file"]:r["review_evidence_sha256"] for r in REVIEWS}
   self.assertEqual(len(evidence),7)
