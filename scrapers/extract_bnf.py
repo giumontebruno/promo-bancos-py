@@ -135,7 +135,63 @@ def branch_records(path, promo):
     return records
 
 
+def tabular_benefit_rows(promo, text, branches):
+    """Parse the official November 2026 table, keeping each card tier separate."""
+    validity = first_match(text, [r'Vigencia:\s*(.*?)\s*Beneficios y Porcentajes promocionales:'])
+    day = re.search(r'\b(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bados?|domingos?)\b', validity, re.I)
+    if not day:
+        raise ValueError('BNF table: missing promotion day')
+    # Enumerated dates must form exactly the stated weekly schedule, not a guessed range.
+    enumerated = re.search(r'(\d{1,2}(?:\s*,\s*\d{1,2})+)\s+de\s+(\w+)\s+de\s+(\d{4})', validity, re.I)
+    original_validity = validity
+    if enumerated:
+        from datetime import timedelta
+        months = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
+        days = [int(x.strip()) for x in enumerated[1].split(',')]
+        month = months.index(enumerated[2].lower()) + 1
+        dates = [date(int(enumerated[3]), month, d) for d in days]
+        day_name = day[1].lower().replace('é', 'e').replace('á', 'a')
+        weekdays = {'lunes': 0, 'martes': 1, 'miercoles': 2, 'jueves': 3,
+                    'viernes': 4, 'sabado': 5, 'sabados': 5, 'domingo': 6, 'domingos': 6}
+        weekday = weekdays[day_name]
+        if any(d.weekday() != weekday for d in dates) or any(b-a != timedelta(days=7) for a,b in zip(dates, dates[1:])):
+            raise ValueError('BNF table: nonweekly explicit dates require review')
+        validity = f'{original_validity} Desde {dates[0].isoformat()} hasta {dates[-1].isoformat()}'
+    else:
+        interval = re.search(r'Del\s+(\d{1,2})\s+al\s+(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})', validity, re.I)
+        if interval:
+            months = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
+            month = months.index(interval[3].lower()) + 1
+            start, end = (date(int(interval[4]), month, int(interval[i])) for i in (1, 2))
+            if start > end:
+                raise ValueError('BNF table: reversed date interval')
+            validity = f'{original_validity} Desde {start.isoformat()} hasta {end.isoformat()}'
+    table = first_match(text, [r'Beneficios y Porcentajes promocionales:\s*(.*?)\s*Obs\.:'])
+    pattern = r'(Visa\s+(?:Clásica(?:,\s*Oro\s+y\s+Platinum)?|Oro\s+y\s+Platinum)(?:\s+BNF)?)\s+(\d+)\s*%\s+Gs\.\s*([\d.]+)\s+Gs\.\s*([\d.]+)(?:\s+BNF)?'
+    tiers = re.findall(pattern, table, re.I)
+    if not tiers or len(tiers) != len(re.findall(r'Visa\s+', table, re.I)):
+        raise ValueError('BNF table: unknown or incomplete card tiers')
+    scope = first_match(text, [r'Obs\.:\s*(.*?)\s*Condiciones de Aplicación y Procesamiento:'])
+    conditions = first_match(text, [r'Condiciones de Aplicación y Procesamiento:\s*(.*?)\s*Exclusiones:'])
+    exclusions = first_match(text, [r'Exclusiones:\s*(.*?)(?:Listado de|$)'])
+    if not scope or not conditions or not exclusions or not branches:
+        raise ValueError('BNF table: incomplete conditions or merchant inventory')
+    rows = []
+    for cards, rate, purchase, refund in tiers:
+        if round(int(purchase.replace('.','')) * int(rate) / 100) != int(refund.replace('.','')):
+            raise ValueError('BNF table: contradictory purchase/refund cap')
+        cards = re.sub(r'\s+BNF$', '', cards)
+        scoped = f'Vigencia: {validity} Beneficio: {rate}% de reintegro con {cards} BNF. Condiciones: • Tope de compra mensual: Gs. {purchase}. {scope} • Tope de reintegro mensual: Gs. {refund}. {scope} • {conditions} Exclusiones: {exclusions}'
+        current = benefit_rows({**promo, 'dia': day[1].title()}, scoped, branches)
+        for row in current:
+            row['Texto original de la fuente'] = text.split('Listado de')[0]
+        rows.extend(current)
+    return rows
+
+
 def benefit_rows(promo, text, branches):
+    if 'Beneficios y Porcentajes promocionales:' in text:
+        return tabular_benefit_rows(promo, text, branches)
     validity = first_match(text, [r'Vigencia:\s*(.*?)\s*Beneficio:'])
     # Unknown validity must fail; an explicitly expired PDF remains historical.
     # Keeping its original end date lets normalization exclude it from current offers.

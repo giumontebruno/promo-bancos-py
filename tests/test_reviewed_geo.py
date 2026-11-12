@@ -8,7 +8,7 @@ class ReviewedGeoTests(unittest.TestCase):
     def setUp(self):
         self.reviews=json.loads((ROOT/"data/bnf_farmacenter_reviewed_locations.json").read_text(encoding="utf8"))
     def test_exact_matches_restore_coordinates_and_scope_without_changing_ids(self):
-        source=json.loads((ROOT/"outputs/bnf_branch_sources.json").read_text(encoding="utf8"))
+        source=json.loads((ROOT/"tests/fixtures/bnf-october-branch-sources.json").read_text(encoding="utf8"))
         original_ids=[p["id"] for p in source]
         apply_reviews(source,self.reviews)
         self.assertEqual(original_ids,[p["id"] for p in source])
@@ -27,7 +27,7 @@ class ReviewedGeoTests(unittest.TestCase):
 
     def test_additional_reviews_preserve_bank_identity_and_operator_source(self):
         reviews=json.loads((ROOT/"data/bnf_additional_reviewed_locations.json").read_text(encoding="utf8"))
-        rows=json.loads((ROOT/"outputs/bnf_branch_sources.json").read_text(encoding="utf8"))
+        rows=json.loads((ROOT/"tests/fixtures/bnf-october-branch-sources.json").read_text(encoding="utf8"))
         before={x["id"] for x in rows}
         apply_reviews(rows,reviews)
         matched=[x for x in rows if x.get("geocode_source") in {"official_catedral_locator","official_petrochaco_locator"}]

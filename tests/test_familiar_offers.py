@@ -14,7 +14,7 @@ class FamiliarOfferTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         # Independent fixture captured before regeneration.
-        records = json.loads((ROOT / 'outputs/familiar_extraction_review.json').read_text())['records']
+        records = json.loads((ROOT / 'tests/fixtures/familiar-offer-source-records.json').read_text())['records']
         cls.rows = {}
         for record in records:
             try:
@@ -116,7 +116,15 @@ class FamiliarOfferTests(unittest.TestCase):
 
     def test_all_supported_rows_normalize_and_have_stable_ids(self):
         count=0
-        for name,row in self.rows.items():
+        records = json.loads((ROOT / 'outputs/familiar_extraction_review.json').read_text())['records']
+        current_rows = {}
+        for record in records:
+            try:
+                row = convert(record)
+                current_rows[row['Comercio']] = row
+            except ValueError:
+                continue
+        for name,row in current_rows.items():
             if name=='OPTICA SANTA LUCIA':continue
             first=split_offers(row)
             normalized=[normalize_row('Familiar',r) for r in first]

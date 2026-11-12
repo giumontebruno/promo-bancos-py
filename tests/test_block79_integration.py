@@ -32,7 +32,7 @@ class Block79Integration(unittest.TestCase):
    self.assertFalse(actual["needs_review"]);self.assertEqual(actual["location_review_status"],"confirmed")
    self.assertTrue(set(STALE).isdisjoint(actual))
  def test_26_scavone_matches_real_bank_branch_rows_and_preserves_all_ids(self):
-  rows=load(ROOT/"outputs/bnf_branch_sources.json")
+  rows=load(ROOT/"tests/fixtures/bnf-october-branch-sources.json")
   before=[p["id"] for p in rows];apply_reviews(rows,FILLS)
   self.assertEqual(before,[p["id"] for p in rows])
   byid={p["id"]:p for p in rows}
