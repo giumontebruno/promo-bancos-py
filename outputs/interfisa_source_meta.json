@@ -7,15 +7,15 @@
   "unique_documents": 388,
   "fetched": 386,
   "fetched_records": 386,
-  "published_rows": 174,
-  "published_documents": 79,
+  "published_rows": 176,
+  "published_documents": 80,
   "native_text_documents": 386,
   "fetch_errors": 2,
   "retained_rows": 0,
   "retained_documents": 0,
   "retention_max_hours": 0,
   "expired": 1,
-  "pending": 352,
+  "pending": 351,
   "documents": [
     {
       "name": "INTERPUNTOS",
@@ -1996,11 +1996,11 @@
       "category": "Gastronomia",
       "key": "9d2cd8b798ed14a8",
       "sha256": "f4b1bf09cc0f90a1e5e5a981d7488e3fe29f905c18ff90f7d50d5a1b620fd4c3",
-      "fetched_at": "2026-11-11T15:15:06.759948+00:00",
-      "retrieval": "live",
-      "native_text_sha256": "878f53be6ddd1c58d90167773cd8f30cd03d6680e0e9dfbf5f45663b55ff869b",
-      "state": "review_required: index/PDF merchant identity not exact",
-      "published_rows": 0
+      "fetched_at": "2026-11-12T16:18:56.676712+00:00",
+      "retrieval": "targeted_official_review",
+      "native_text_sha256": "659b4784795d5110ea88a03dab8f03f936192039fb1da7b1d4064ae90656ebb9",
+      "state": "published",
+      "published_rows": 2
     },
     {
       "name": "QUIERO FRUTA",
@@ -5055,7 +5055,13 @@
     }
   ],
   "published_unconfirmed_rows": 46,
-  "published_confirmed_rows": 128,
+  "published_confirmed_rows": 130,
   "status": "partial",
-  "authoritative_export": false
+  "authoritative_export": false,
+  "targeted_review": {
+    "checked_at": "2026-11-12T16:18:56.676712+00:00",
+    "url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC_Mcdonalds.pdf",
+    "published_rows": 2,
+    "note": "Only this document reverified; other source health unchanged."
+  }
 }

@@ -1,0 +1,28 @@
+{
+  "reviews": [
+    {
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro-plaza-norte",
+      "location": "Plaza Norte",
+      "pdf_sha256": "4fd7033c73e8c6e5d7eb06b286e32d00412ea0459abb0a5472b20e9be160256f",
+      "text_sha256": "4e86ffcf5134d1bc4073bba7b39214949b15e9a2c1633d1ab46c256cc7390108",
+      "checked_at": "2026-11-12T16:20:15.818863+00:00",
+      "shared_scope": "Los límites se aplican en conjunto para todos los comercios adheridos a Gastro Shopping Mariscal, Gastro Shopping Mariano y Gastro Plaza Norte."
+    },
+    {
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro-shopping-mariano",
+      "location": "Shopping Mariano",
+      "pdf_sha256": "094b957ddc7e1351d4c8e8be8de92bd63b7392645c73c41073b6c1040bb6b69e",
+      "text_sha256": "9791abd54300a434676c866b659cfd430fff72f3418b06e50a80f62f8c6330fb",
+      "checked_at": "2026-11-12T16:20:15.818896+00:00",
+      "shared_scope": "Los límites se aplican en conjunto para todos los comercios adheridos a Gastro Shopping Mariscal, Gastro Shopping Mariano y Gastro Plaza Norte."
+    },
+    {
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro---shopping-mariscal-bases-y-condiciones",
+      "location": "Shopping Mariscal",
+      "pdf_sha256": "721639888cb841b3f197265d2cb3d8cd25e2cff3a8a2de614e8c660dbe227c05",
+      "text_sha256": "5ad16cdf542b9e0bc728aabd9c8c936ac016b1ff2b459863f1b2d573c348c11c",
+      "checked_at": "2026-11-12T16:20:15.818935+00:00",
+      "shared_scope": "Los límites se aplican en conjunto para todos los comercios adheridos a Gastro Shopping Mariscal."
+    }
+  ]
+}

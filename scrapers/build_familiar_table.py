@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from promo_backend.normalize import detect_days, detect_month_days, detect_ordinal_weekdays
 from scrapers.familiar_offers import split_offers
+from scrapers.familiar_gastro_reviewed import build as reviewed_gastro
 
 MONTHS = {name: index + 1 for index, name in enumerate('enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre'.split())}
 
@@ -123,6 +124,10 @@ def main():
     rows, pending = [], []
     for record in source['records']:
         try:
+            reviewed = reviewed_gastro(record)
+            if reviewed is not None:
+                rows.extend(reviewed)
+                continue
             converted = convert(record)
         except ValueError as error:
             pending.append({'merchant_name': record['merchant_name'], 'source_url': record['source_url'], 'reason': str(error)})

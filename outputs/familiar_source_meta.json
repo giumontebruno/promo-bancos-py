@@ -1,6 +1,6 @@
 {
   "checked_at": "2026-11-11T15:03:49.931051+00:00",
-  "published": 411,
+  "published": 417,
   "pending": [
     {
       "merchant_name": "LUNES DE MALL EXCELSIOR",
@@ -438,5 +438,15 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-fermaq-bases-y-condiciones",
       "reason": "unconfirmed_schedule"
     }
-  ]
+  ],
+  "targeted_review": {
+    "merchants": [
+      "McDonald's - Plaza Norte",
+      "McDonald's - Shopping Mariano",
+      "McDonald's - Shopping Mariscal"
+    ],
+    "published_rows": 6,
+    "note": "PDF and text hashes verified for these locations only; generic Gastro campaigns remain pending for other merchants."
+  },
+  "exported_rows": 417
 }

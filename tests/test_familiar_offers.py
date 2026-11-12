@@ -145,7 +145,10 @@ class FamiliarOfferTests(unittest.TestCase):
         self.assertEqual(len(published),metadata.get('exported_rows',metadata['published']))
         self.assertEqual(len(published),metadata['published']+retained)
         self.assertGreaterEqual(sum(r.get('Estado verificacion')=='unconfirmed' for r in published),retained)
-        self.assertEqual(count,metadata['published']-len(complex_rows))
+        from scrapers.familiar_gastro_reviewed import build as reviewed_gastro
+        live=json.loads((ROOT/'outputs/familiar_extraction_review.json').read_text())
+        scoped_count=sum(len(reviewed_gastro(record) or []) for record in live['records'])
+        self.assertEqual(count+scoped_count,metadata['published']-len(complex_rows))
 
 if __name__=='__main__':unittest.main()
 

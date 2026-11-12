@@ -18,7 +18,7 @@ def parse(item, text, today):
     value = clean(text)
     # Never attach a merchant to a different merchant's linked PDF.
     title = re.search(r'BASES Y CONDICIONES DE LA PROMOCI[ÓO]N\s*[“"«]([^”"»]+)', value, re.I)
-    if not title or folded(item['name']) != folded(clean(title[1])):
+    if not title or re.sub(r'[^A-Z0-9]', '', folded(item['name'])) != re.sub(r'[^A-Z0-9]', '', folded(clean(title[1]))):
         return [], 'review_required: index/PDF merchant identity not exact'
     validity = re.search(r'1\.\s*Vigencia\s*(.*?)\s*2\.\s*Condiciones', value, re.I)
     benefits = re.search(r'3\.\s*Beneficios\s*(.*?)\s*4\.\s*', value, re.I)
@@ -51,8 +51,9 @@ def parse(item, text, today):
     purchase = re.search(r'Tope de compra mensual de Gs\.?\s*([\d.]+)\s*por cuenta de tarjeta, incluyendo las tarjetas adicionales', block, re.I)
     if not clauses or not purchase:
         return [], 'review_required: unsupported benefit/cap template'
-    locals_match = re.search(r'4\.\s*Locales adheridos\s*(.*?)\s*5\.\s*Tarjetas excluidas', value, re.I)
-    excludes = re.search(r'5\.\s*Tarjetas excluidas\s*(.*?)\s*6\.', value, re.I)
+    locals_match = re.search(r'4\.\s*Locales adheridos\s*(.*?)\s*5\.\s*(?:Tarjetas excluidas|Interpuntos)', value, re.I)
+    excludes = re.search(r'(?:5|6)\.\s*Tarjetas excluidas\s*(.*?)\s*(?:6|7)\.', value, re.I)
+    points = re.search(r'5\.\s*Interpuntos\s*(.*?)\s*6\.\s*Tarjetas excluidas', value, re.I)
     if not locals_match or not excludes:
         return [], 'review_required: missing location/exclusion scope'
     shared_terms = block[block.lower().find('tope de compra'):].strip()
@@ -74,7 +75,7 @@ def parse(item, text, today):
             kind = 'cuotas_sin_intereses'
         else:
             return [], 'review_required: unparsed benefit clause'
-        detail = f'{benefit} con {cards}. {caps} {validity[1]} {conditions[1]} {shared_terms} {excludes[1]}'
+        detail = f'{benefit} con {cards}. {caps} {validity[1]} {conditions[1]} {shared_terms} {excludes[1]} {points[1] if points else ""}'
         record = row('Interfisa', item, text, benefit, cards, day, start, end, caps,
                      variant=f'scope-{index+1}', category=item.get('category', 'Sin categoría'), locations=locals_match[1], detail=detail)
         record['Tipo de beneficio verificado'] = kind
