@@ -2712,7 +2712,7 @@ function getDetailRows(promo, variant = null) {
     ["Fecha", getDisplayValidity(promo)],
     ["Reintegro o descuento", promo.bank === "Familiar" ? formatDetailText(promo.benefit_summary) : getDisplayBenefit(promo, variant)],
     ["Tarjetas que aplican", formatDetailText((!variant || promo.offer_kind) && promo.terms?.cards?.length ? promo.terms.cards.join("; ") : extractApplicableCards(promo, variant))],
-    ["Tarjetas excluidas", formatDetailText(promo.terms?.exclusions?.length ? promo.terms.exclusions.join("; ") : extractExcludedCards(promo))],
+    ["Exclusiones", getDetailExclusions(promo)],
     ["Topes y mínimos", formatCapsText(promo, variant), "caps"],
     ["Reglas por nivel", promo.level_rules || "", "levels"],
     ["Info adicional importante", extractAdditionalInfo(promo, rawDetail, variant)],
@@ -2778,7 +2778,22 @@ function extractCapsText(text) {
   return matches ? cleanSentence([...new Set(matches)].join("; ")) : "";
 }
 
+function getDetailExclusions(promo) {
+  // Structured parsers may recognize cards but miss payment processors.
+  // Keep the source exclusion block rather than silently dropping clauses.
+  const sourceBlock = promo.bank === "BNF"
+    ? (promo.raw_detail || "").match(/Exclusiones:\s*([\s\S]+)$/i)?.[1]
+    : "";
+  return formatDetailText(sourceBlock || (promo.terms?.exclusions?.length
+    ? promo.terms.exclusions.join("; ") : extractExcludedCards(promo)));
+}
+
 function formatCapsText(promo, variant = null) {
+  // BNF caps include a shared account/rubro scope, not only amounts.
+  // These are tier-specific source fields; do not reconstruct from all-tier PDF text.
+  if (promo.bank === "BNF" && promo.caps_and_minimums && (!variant || promo.offer_kind)) {
+    return formatDetailText(promo.caps_and_minimums);
+  }
   const selectedLevel = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   if (promo.level_benefits?.length && selectedLevel) return [
     `Nivel ${state.uenoLevel} · ${selectedLevel.capLabel}`,
