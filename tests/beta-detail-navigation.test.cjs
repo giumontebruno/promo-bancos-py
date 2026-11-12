@@ -6,7 +6,7 @@ const source=fs.readFileSync('beta-web/app.js','utf8');
 const promo={id:'offer',bank:'Itaú',merchant_name:'Shop',source_url:'https://bank.example/terms.pdf'};
 const branch={id:'a',name:'Shop branch',merchant_name:'Shop',bank:'Itaú',source_url:promo.source_url,lat:-25.3,lng:-57.6,geocode_source:'official',address:'First street',place_id:'verified-id'};
 function context(){
- const c={contractPurchase:()=>({label:'No informado',evidence:''}),PaybackProfile:require('../beta-web/profile-next.js'),selectedDateIso:()=>"2026-10-23",state:{locations:[],activeCategory:'Club Black',location:null},PREMIUM_CATEGORY:'Club Black',
+ const c={formatDistance:()=> '1 km',distanceKm:()=>1,contractPurchase:()=>({label:'No informado',evidence:''}),PaybackProfile:require('../beta-web/profile-next.js'),selectedDateIso:()=>"2026-10-23",state:{locations:[],activeCategory:'Club Black',location:null},PREMIUM_CATEGORY:'Club Black',
  normalizeDayName:s=>String(s||'').toLowerCase(),isGenericLocationMatchedToMall:()=>false,
  uniquePromos:p=>p,hasPremiumVariant:()=>false,isActivePromotion:()=>true,
  preferBetterPlace:(a,b)=>b,getPlaceDisplayName:p=>p.name,
@@ -14,7 +14,7 @@ function context(){
  renderIcon:()=>'<svg aria-hidden="true"></svg>',els:{dialog:{open:true}},detailLocationState:null};
  c.escapeAttribute=c.escapeHtml;
  vm.createContext(c);
- for(const name of ['isReliableMapLocation','getPlaceGroupKey','getPromotionsForLocation','getDetailPlaces','getMapsUrl','formatPlaceAddress','renderDetailDestination','renderDetailLocations','loadDetailLocations','openDetailMap']){
+ for(const name of ['isReliableMapLocation','getPlaceGroupKey','getPromotionsForLocation','getDocumentedDetailPlaces','getDetailPlaces','detailDistance','getMapsUrl','formatPlaceAddress','renderDetailDestination','renderDetailLocations','loadDetailLocations','openDetailMap']){
   let start=source.indexOf(`function ${name}(`);
   if(source.slice(start-6,start)==='async ')start-=6;
   let end=source.indexOf('\nfunction ',start+1);
@@ -99,4 +99,35 @@ test('detail preserves monetary qualifiers, full conditions and selected variant
  c.openDetail('offer','base');const html=c.els.dialogContent.innerHTML;
  assert.match(html,/Shop &lt;special>/);assert.match(html,/id="promoDetailTitle"/);assert.match(html,/Sujeto a compra, tarjeta y saldo disponible/);assert.match(html,/Tarjetas y exclusiones completas/);assert.match(html,/data-calculator-variant="base"/);assert.equal(loaded.promo,p);
  c.getEstimatedSavings=()=>({refundCap:0,unconfirmed:true});c.openDetail('offer');assert.doesNotMatch(c.els.dialogContent.innerHTML,/Ahorro máximo estimado/);
+});
+test('documented address without coordinates counts as adhered but never as mapped',()=>{
+ const c=context();const unlocated={...branch,id:'unlocated',place_id:'',lat:null,lng:null,geocode_source:'',address:'Second street'};
+ c.state.locations=[branch,unlocated,{...unlocated,id:'wrong',source_url:'https://other.example/terms.pdf'}];
+ const adhered=c.getDocumentedDetailPlaces(promo);const places=c.getDetailPlaces(promo);
+ assert.equal(adhered.length,2);assert.equal(places.length,1);
+ const ctx={adheredPlaces:adhered,places,selectedKey:c.getPlaceGroupKey(unlocated)};
+ const html=c.renderDetailLocations(ctx);
+ assert.match(html,/2 locales adheridos documentados · 1 en mapa/);
+ assert.match(html,/Second street/);assert.match(html,/listado puede ser parcial/);
+ const destination=c.renderDetailDestination(ctx);assert.doesNotMatch(destination,/href=|data-detail-map|en línea recta/);assert.match(destination,/coordenadas sin verificar/);
+});
+test('distance requires both existing user location and verified branch coordinates',()=>{
+ const c=context();assert.equal(c.detailDistance(branch),'');c.state.location={lat:-25,lng:-57};
+ assert.equal(c.detailDistance(branch),'1 km en línea recta');
+ assert.equal(c.detailDistance({...branch,geocode_source:'city_approximation'}),'');
+ assert.equal(c.detailDistance({...branch,lat:null}),'');
+});
+test('promotion map scope contains only verified branches of the selected offer',()=>{
+ const c=context();c.state.locations=[branch,{...branch,id:'wrong-source',source_url:'https://other.example/terms.pdf'}];c.state.detailMapPromo=promo;c.enrichNearbyPoint=p=>p;
+ const start=source.indexOf('function getNearbyPromoPoints(');vm.runInContext(source.slice(start,source.indexOf('\nfunction ',start+1)),c);
+ const points=c.getNearbyPromoPoints();assert.equal(points.length,1);assert.equal(points[0].promos[0].id,promo.id);
+});
+test('detail geolocation is explicit and denial preserves address-only browsing',()=>{
+ const c=context();const ctx={places:[branch],adheredPlaces:[branch],selectedKey:c.getPlaceGroupKey(branch)};c.detailLocationState=ctx;
+ const node={};c.els.dialogContent={querySelector:()=>node};let calls=0;
+ c.navigator={geolocation:{getCurrentPosition(_ok,denied){calls++;denied({code:1});}}};
+ const start=source.indexOf('function requestDetailLocation(');vm.runInContext(source.slice(start,source.indexOf('\nasync function ',start+1)),c);
+ c.renderDetailLocations(ctx);assert.equal(calls,0);
+ c.requestDetailLocation();assert.equal(calls,1);assert.equal(c.state.location,null);
+ assert.match(node.innerHTML,/direcciones siguen disponibles/);assert.match(node.innerHTML,/First street/);
 });

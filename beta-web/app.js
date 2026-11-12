@@ -1690,6 +1690,7 @@ function renderNearbyView(selection = null) {
   els.countText.textContent = `${points.length} ubicaciones`;
   els.results.innerHTML = `
     <section class="nearby-panel">
+      ${state.detailMapPromo ? `<p class="detail-location-note">Sólo locales verificados de ${escapeHtml(getPromoTitle(state.detailMapPromo))}. <button type="button" data-clear-promo-map>Volver al mapa general</button></p>` : ""}
       <div class="map-stage">
         ${state.location ? `<button type="button" class="map-user-center" data-map-action="center-user" aria-label="Centrar en mi ubicación" title="Mi ubicación">${renderIcon("target")}</button>` : ""}
         <div class="map-zoom-controls" aria-label="Controles del mapa">
@@ -1714,6 +1715,7 @@ function renderNearbyView(selection = null) {
 }
 
 function getNearbyActiveFilterText() {
+  if (state.detailMapPromo) return `Locales de ${getPromoTitle(state.detailMapPromo)}`;
   const parts = [];
   if (state.activeBank !== "Todos") parts.push(getBankLabel(state.activeBank));
   if (state.activeCategory !== "Todas") parts.push(state.activeCategory);
@@ -2280,6 +2282,7 @@ function uniquePromos(promos) {
 }
 
 function getNearbyPromoPoints() {
+  if (state.detailMapPromo) return getDetailPlaces(state.detailMapPromo).map(place => enrichNearbyPoint({place, promos:[state.detailMapPromo], key:getPlaceGroupKey(place), distance:state.location ? distanceKm(state.location.lat,state.location.lng,place.lat,place.lng) : 0}));
   if (!state.location && !state.locationsLoaded) return [];
   const promoIndex = buildNearbyPromoIndex();
   const dynamicPoints = state.locations
@@ -3173,30 +3176,41 @@ function renderCard(promo, variant = null) {
     ${levelDetails ? renderUenoLevelCaps(levelDetails) : ""}
     ${renderSupermarketAssessment(promo)}
     <p class="glass-conditions-note">Sujeto a tarjeta, forma de pago y condiciones.</p>
-    <div class="glass-card-footer"><span>${escapeHtml(promo._nearbyPlaceName || "Confirmá la sucursal en el detalle")}</span><div><button type="button" class="glass-detail-action">Ver detalle y mapa <span aria-hidden="true">→</span></button><button class="share-toggle" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variant?.key || '')}" title="Compartir promoción" aria-label="Compartir promoción">${renderIcon("share")}</button></div></div>
+    <div class="glass-card-footer"><span>${escapeHtml(promo._nearbyPlaceName || "Confirmá la sucursal en el detalle")}</span><div><button type="button" class="glass-detail-action">Ver locales adheridos y detalle <span aria-hidden="true">→</span></button><button class="share-toggle" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variant?.key || '')}" title="Compartir promoción" aria-label="Compartir promoción">${renderIcon("share")}</button></div></div>
   </article>`;
 }
 
 let detailLocationState = null;
 
-function getDetailPlaces(promo) {
+function getDocumentedDetailPlaces(promo) {
   const index = new Map([["detail", [promo]]]);
   const places = new Map();
-  state.locations.filter(isReliableMapLocation).forEach(place => {
+  state.locations.filter(place => !place.qa_hold && !place.needs_review && !place.online_only).forEach(place => {
     if (!getPromotionsForLocation(place, index, "Todas").some(item => item.id === promo.id)) return;
     const key = getPlaceGroupKey(place);
+    if (!key) return;
     places.set(key, places.has(key) ? preferBetterPlace(places.get(key), place) : place);
   });
   return [...places.values()];
 }
 
+function getDetailPlaces(promo) {
+  return getDocumentedDetailPlaces(promo).filter(isReliableMapLocation);
+}
+
+function detailDistance(place) {
+  if (!state.location || !isReliableMapLocation(place)) return "";
+  return `${formatDistance(distanceKm(state.location.lat, state.location.lng, place.lat, place.lng))} en línea recta`;
+}
+
 function renderDetailDestination(context) {
-  const place = context.places.find(item => getPlaceGroupKey(item) === context.selectedKey);
+  const place = (context.adheredPlaces || context.places).find(item => getPlaceGroupKey(item) === context.selectedKey);
   if (!place) return '<p class="detail-location-note">Elegí una sucursal para ver su dirección y abrir la ruta.</p>';
+  if (!isReliableMapLocation(place)) return `<div class="detail-destination"><strong>${escapeHtml(place.merchant_name || place.name || "Local adherido")}</strong><p>${escapeHtml([place.address, place.city].filter(Boolean).join(", ") || "Dirección no publicada en la fuente")}</p><p class="detail-location-note">Local documentado, coordenadas sin verificar. No mostramos una ruta ni una distancia estimada.</p></div>`;
   const url = getMapsUrl(place);
   const address = formatPlaceAddress(place);
   return `<div class="detail-destination">
-    <strong>${escapeHtml(getPlaceDisplayName(place))}</strong>
+    <strong>${escapeHtml(getPlaceDisplayName(place))}</strong><p>${escapeHtml(detailDistance(place))}</p>
     <a class="detail-address" href="${escapeAttribute(url)}" target="_blank" rel="noopener noreferrer">${renderIcon("mapPin")}${escapeHtml(address || "Ver ubicación verificada en Google Maps")}</a>
     ${!address ? '<p class="detail-location-note">La dirección escrita no está disponible; la ruta usa las coordenadas verificadas.</p>' : ""}
     <div class="detail-route-actions">
@@ -3207,13 +3221,34 @@ function renderDetailDestination(context) {
 }
 
 function renderDetailLocations(context) {
-  if (context.loading) return '<p role="status">Buscando sucursales verificadas…</p>';
-  if (context.error) return '<p role="status">No pudimos cargar las sucursales. Podés reintentar o consultar los locales en las bases.</p><button type="button" class="detail-inline-action" data-detail-location-retry>Reintentar sucursales</button><button type="button" class="detail-inline-action" data-scroll-source>Consultar bases y locales</button>';
-  if (!context.places.length) return '<p class="detail-location-note">Todavía no tenemos una ubicación verificada para esta promoción. Consultá los locales adheridos en las bases antes de ir.</p><button type="button" class="detail-inline-action" data-scroll-source>Consultar bases y locales</button>';
-  return `${context.places.length > 1 ? `<label class="detail-branch-label" for="detailBranch">Elegí la sucursal</label>
-    <select id="detailBranch" aria-describedby="detailBranchHelp"><option value="">Seleccionar sucursal</option>${context.places.map(place => `<option value="${escapeAttribute(getPlaceGroupKey(place))}" ${getPlaceGroupKey(place) === context.selectedKey ? "selected" : ""}>${escapeHtml([getPlaceDisplayName(place), formatPlaceAddress(place)].filter(Boolean).join(" · "))}</option>`).join("")}</select>
-    <p id="detailBranchHelp" class="detail-location-note">La ruta corresponde únicamente a la sucursal que elijas.</p>` : ""}
+  if (context.loading) return '<p role="status">Buscando locales documentados…</p>';
+  if (context.error) return '<p role="status">No pudimos cargar las sucursales.</p><button type="button" data-detail-location-retry>Reintentar sucursales</button>';
+  const locals = context.adheredPlaces || context.places;
+  if (!locals.length) return '<p class="detail-location-note">Todavía no tenemos una ubicación verificada ni un listado estructurado de locales para esta promoción. Esto no significa que no haya locales adheridos.</p><button type="button" data-scroll-source>Consultar bases y locales</button>';
+  return `<p class="detail-location-count"><strong>${locals.length} locales adheridos documentados · ${context.places.length} en mapa</strong></p>
+    <p class="detail-location-note">Sólo locales vinculados a esta promoción. El listado puede ser parcial; no representa todas las sucursales de la marca.</p>
+    <details class="detail-local-list"><summary>Ver locales adheridos (${locals.length})</summary><ul>${locals.map(place => `<li><strong>${escapeHtml(place.merchant_name || place.name || "Local adherido")}</strong><p>${escapeHtml([place.address, place.city].filter(Boolean).join(", ") || "Dirección no publicada")}</p><small>${isReliableMapLocation(place) ? `Ubicación verificada${detailDistance(place) ? " · " + escapeHtml(detailDistance(place)) : ""}` : "Sin coordenadas verificadas"}</small></li>`).join("")}</ul></details>
+    ${context.places.length && !state.location ? '<button type="button" class="detail-inline-action" data-detail-location-enable>Usar mi ubicación para ver distancias</button>' : ""}
+    ${context.locationMessage ? `<p role="status">${escapeHtml(context.locationMessage)}</p>` : ""}
+    ${locals.length > 1 ? `<label for="detailBranch">Elegí un local para ver sus opciones</label><select id="detailBranch"><option value="">Seleccionar sucursal</option>${locals.map(place => `<option value="${escapeAttribute(getPlaceGroupKey(place))}" ${getPlaceGroupKey(place) === context.selectedKey ? "selected" : ""}>${escapeHtml([place.merchant_name || place.name, place.address, place.city].filter(Boolean).join(" · "))}</option>`).join("")}</select>` : ""}
     <div id="detailLocationDestination" aria-live="polite">${renderDetailDestination(context)}</div>`;
+}
+
+function requestDetailLocation() {
+  const context = detailLocationState;
+  if (!context) return;
+  const update = message => {
+    if (detailLocationState !== context || !els.dialog.open) return;
+    context.locationMessage = message;
+    els.dialogContent.querySelector("#detailLocations").innerHTML = renderDetailLocations(context);
+  };
+  if (!navigator.geolocation) return update("Tu navegador no ofrece ubicación. Podés consultar las direcciones sin compartirla.");
+  update("Esperando permiso para consultar tu ubicación…");
+  navigator.geolocation.getCurrentPosition(position => {
+    state.location = {lat: position.coords.latitude, lng: position.coords.longitude};
+    state.locationStatus = "ready";
+    update("Distancias en línea recta, no tiempos de viaje.");
+  }, () => update("No obtuvimos tu ubicación. Las direcciones siguen disponibles sin compartirla."), {enableHighAccuracy: false, timeout: 10000, maximumAge: 300000});
 }
 
 async function loadDetailLocations(context) {
@@ -3221,9 +3256,10 @@ async function loadDetailLocations(context) {
   try {
     await loadLocations(); // Downloads branches only; never requests geolocation.
     if (!current()) return;
+    context.adheredPlaces = getDocumentedDetailPlaces(context.promo);
     context.places = getDetailPlaces(context.promo);
     const requested = context.places.find(place => (place.id || getPlaceGroupKey(place)) === context.placeId);
-    context.selectedKey = requested ? getPlaceGroupKey(requested) : context.places.length === 1 ? getPlaceGroupKey(context.places[0]) : "";
+    context.selectedKey = requested ? getPlaceGroupKey(requested) : context.adheredPlaces.length === 1 ? getPlaceGroupKey(context.adheredPlaces[0]) : "";
     context.error = false;
   } catch {
     if (!current()) return;
@@ -3244,6 +3280,8 @@ function openDetailMap() {
     distance: state.location ? distanceKm(state.location.lat, state.location.lng, place.lat, place.lng) : 0});
   els.dialog.close();
   state.activeView = "nearby";
+  state.detailMapPromo = context.promo;
+  state.nearbyAutoLocationTried = true; // Opening a map is not a GPS permission request.
   render();
   selectNearbyPlace(point.key, point);
   const map = document.querySelector("#nearbyMap");
@@ -3469,6 +3507,7 @@ els.results.addEventListener("click", (event) => {
     toggleFavorite(favoriteToggle.dataset.favoriteId);
     return;
   }
+  if (event.target.closest("[data-clear-promo-map]")) { state.detailMapPromo = null; render(); return; }
   const mapAction = event.target.closest("[data-map-action]");
   if (mapAction) {
     if (mapAction.dataset.mapAction === "retry") {
@@ -3554,6 +3593,7 @@ els.results.addEventListener("submit", (event) => {
 });
 
 els.dialogContent.addEventListener("click", (event) => {
+  if (event.target.closest("[data-detail-location-enable]")) { requestDetailLocation(); return; }
   if (event.target.closest("[data-detail-map]")) {
     openDetailMap();
     return;

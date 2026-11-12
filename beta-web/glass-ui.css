@@ -164,3 +164,9 @@ body[data-view="today"] .glass-hero{min-height:0;padding:24px;margin-bottom:20px
 @media(max-width:600px){.discovery-categories{grid-template-columns:repeat(3,minmax(0,1fr))}.discovery-rail{grid-auto-columns:88%}.discovery-section-heading h3{font-size:18px}.discovery-section-heading button{font-size:12px;max-width:145px}.discovery-heading h2{font-size:21px}}
 
 body[data-view="today"] .supermarket-pilot{display:none}
+.detail-local-list { margin: 12px 0; }
+.detail-local-list summary { cursor: pointer; font-weight: 650; }
+.detail-local-list ul { list-style: none; padding: 0; max-height: 300px; overflow: auto; }
+.detail-local-list li { padding: 12px 0; border-bottom: 1px solid var(--line, #dedede); overflow-wrap: anywhere; }
+.detail-local-list p { margin: 5px 0; }
+.detail-location-count { line-height: 1.5; }
