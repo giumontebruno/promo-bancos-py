@@ -335,6 +335,8 @@ def main():
         if key not in seen and item.get("bank") != "BNF" and not replaced_ueno:
             unique.append(item)
             seen.add(key)
+    # Address-only reviewed inventory must never enter automatic geocoding.
+    unique = [p for p in unique if not p.get("id", "").startswith("loc-mcd-reviewed-")]
     from location_qa_holds import apply_holds
     apply_holds(unique)
     if not args.skip_geocoding:
@@ -359,6 +361,8 @@ def main():
             apply_block_reviews(unique, json.loads(review_path.read_text(encoding="utf-8")))
     # Human QA exclusions prevail over retained Google and official overrides.
     apply_holds(unique)
+    from documented_branch_inventory import apply as apply_documented_inventory
+    unique = apply_documented_inventory(unique, ROOT)
     unique.sort(key=sort_key)
     payload = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),

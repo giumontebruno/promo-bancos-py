@@ -1655,7 +1655,7 @@ function renderNearbyView(selection = null) {
   }
   const points = getNearbyPromoPoints();
   // A promotion detail can explicitly open a verified branch outside current filters.
-  if (selection?.point) {
+  if (selection?.point && (!state.detailMapPromo || points.some(item => getPointKey(item) === selection.pointKey))) {
     const index = points.findIndex(item => getPointKey(item) === selection.pointKey);
     if (index < 0) points.unshift(selection.point);
     else points[index] = selection.point;
@@ -2282,6 +2282,7 @@ function uniquePromos(promos) {
 }
 
 function getNearbyPromoPoints() {
+  if (state.detailMapPromo && (!shouldShowPromotion(state.detailMapPromo) || !matchesNearbyDay(state.detailMapPromo) || !matchesBank(state.detailMapPromo) || !matchesCategory(state.detailMapPromo) || !matchesCardFilter(state.detailMapPromo))) return [];
   if (state.detailMapPromo) return getDetailPlaces(state.detailMapPromo).map(place => enrichNearbyPoint({place, promos:[state.detailMapPromo], key:getPlaceGroupKey(place), distance:state.location ? distanceKm(state.location.lat,state.location.lng,place.lat,place.lng) : 0}));
   if (!state.location && !state.locationsLoaded) return [];
   const promoIndex = buildNearbyPromoIndex();

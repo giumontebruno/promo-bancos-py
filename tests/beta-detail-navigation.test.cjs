@@ -6,7 +6,7 @@ const source=fs.readFileSync('beta-web/app.js','utf8');
 const promo={id:'offer',bank:'Itaú',merchant_name:'Shop',source_url:'https://bank.example/terms.pdf'};
 const branch={id:'a',name:'Shop branch',merchant_name:'Shop',bank:'Itaú',source_url:promo.source_url,lat:-25.3,lng:-57.6,geocode_source:'official',address:'First street',place_id:'verified-id'};
 function context(){
- const c={formatDistance:()=> '1 km',distanceKm:()=>1,contractPurchase:()=>({label:'No informado',evidence:''}),PaybackProfile:require('../beta-web/profile-next.js'),selectedDateIso:()=>"2026-10-23",state:{locations:[],activeCategory:'Club Black',location:null},PREMIUM_CATEGORY:'Club Black',
+ const c={shouldShowPromotion:()=>true,matchesNearbyDay:()=>true,matchesBank:()=>true,matchesCategory:()=>true,matchesCardFilter:()=>true,formatDistance:()=> '1 km',distanceKm:()=>1,contractPurchase:()=>({label:'No informado',evidence:''}),PaybackProfile:require('../beta-web/profile-next.js'),selectedDateIso:()=>"2026-10-23",state:{locations:[],activeCategory:'Club Black',location:null},PREMIUM_CATEGORY:'Club Black',
  normalizeDayName:s=>String(s||'').toLowerCase(),isGenericLocationMatchedToMall:()=>false,
  uniquePromos:p=>p,hasPremiumVariant:()=>false,isActivePromotion:()=>true,
  preferBetterPlace:(a,b)=>b,getPlaceDisplayName:p=>p.name,
@@ -130,4 +130,22 @@ test('detail geolocation is explicit and denial preserves address-only browsing'
  c.renderDetailLocations(ctx);assert.equal(calls,0);
  c.requestDetailLocation();assert.equal(calls,1);assert.equal(c.state.location,null);
  assert.match(node.innerHTML,/direcciones siguen disponibles/);assert.match(node.innerHTML,/First street/);
+});
+
+test('promotion map respects changed day, validity, bank, category and card filters',()=>{
+ const c=context();c.state.locations=[branch];c.state.detailMapPromo=promo;c.enrichNearbyPoint=p=>p;
+ const start=source.indexOf('function getNearbyPromoPoints(');vm.runInContext(source.slice(start,source.indexOf('\nfunction ',start+1)),c);
+ for(const name of ['shouldShowPromotion','matchesNearbyDay','matchesBank','matchesCategory','matchesCardFilter']){
+  c[name]=()=>false;assert.equal(c.getNearbyPromoPoints().length,0,name);c[name]=()=>true;
+ }
+ c.state.activeDay='jueves';c.matchesNearbyDay=()=>c.state.activeDay==='jueves';assert.equal(c.getNearbyPromoPoints().length,1);
+ c.state.activeDay='domingo';assert.equal(c.getNearbyPromoPoints().length,0);
+});
+test('real McDonalds inventories are source-scoped, with no invented map coordinates',()=>{
+ const c=context();c.state.locations=JSON.parse(fs.readFileSync('public/locations.json')).locations;
+ const promos=JSON.parse(fs.readFileSync('public/promotions.json'));
+ const familiar=promos.filter(p=>p.bank==='Familiar' && p.merchant_name.startsWith("McDonald's -"));assert.equal(familiar.length,6);
+ for(const p of familiar){assert.equal(c.getDocumentedDetailPlaces(p).length,1);assert.equal(c.getDetailPlaces(p).length,0);}
+ const interfisa=promos.filter(p=>p.bank==='Interfisa' && p.merchant_name==="MC DONALD'S");assert.equal(interfisa.length,2);
+ for(const p of interfisa){assert.equal(c.getDocumentedDetailPlaces(p).length,30);assert.equal(c.getDetailPlaces(p).length,0);}
 });

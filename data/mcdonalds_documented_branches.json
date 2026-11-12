@@ -1,0 +1,196 @@
+{
+  "groups": [
+    {
+      "key": "interfisa-7",
+      "bank": "Interfisa",
+      "merchant_name": "MC DONALD'S",
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC_Mcdonalds.pdf",
+      "pdf_sha256": "f4b1bf09cc0f90a1e5e5a981d7488e3fe29f905c18ff90f7d50d5a1b620fd4c3",
+      "starts_on": "2026-06-05",
+      "ends_on": "2027-06-01",
+      "offers": {
+        "8fe98e8250ef1431": "ea3f74b2ce5560084c414a600b1aae4e2b3de7ab522d6f10aaaf09938596f935",
+        "a9ebe08487fabc07": "d29637a541b3fec8806da794be51121c68d9e09c44d8ab44ef68be0ff256e14a"
+      },
+      "branches": [
+        {
+          "address": "AV.C.A. LOPEZ Y COLON – ASUNCIÓN",
+          "page": 1
+        },
+        {
+          "address": "AV. MONS.RODRIGUEZ E/ ITAIPU – CDE",
+          "page": 1
+        },
+        {
+          "address": "SHOPPING MCAL LOPEZ",
+          "page": 1
+        },
+        {
+          "address": "SHOPPING MULTIPLAZA",
+          "page": 2
+        },
+        {
+          "address": "SHOPPING MARIANO",
+          "page": 2
+        },
+        {
+          "address": "SHOPPING PINEDO",
+          "page": 2
+        },
+        {
+          "address": "PASEO LA GALERIA",
+          "page": 2
+        },
+        {
+          "address": "SHOPPING CHINA – CDE",
+          "page": 2
+        },
+        {
+          "address": "PLAZA MADERO",
+          "page": 2
+        },
+        {
+          "address": "FORTIS CDE",
+          "page": 2
+        },
+        {
+          "address": "FORTIS JOCKEY CLUB",
+          "page": 2
+        },
+        {
+          "address": "AV. MCAL.LOPEZ Y RI.18 PITIANTU - ASUNCIÓN",
+          "page": 2
+        },
+        {
+          "address": "AV.AVIAD.DEL CHACO – ASUNCIÓN",
+          "page": 2
+        },
+        {
+          "address": "AV.ESPAÑA 1522 C/GRAL. SANTOS – ASUNCIÓN",
+          "page": 2
+        },
+        {
+          "address": "AV.MCAL.LOPEZ Y 26 DE FEBRERO – FDO DE LA MORA",
+          "page": 2
+        },
+        {
+          "address": "RUTA MCAL.ESTIG. KM.15 – SAN LORENZO",
+          "page": 2
+        },
+        {
+          "address": "AV.CACIQUE .LAMBARE ESQ/JUSTO P.BENIT – LAMBARÉ",
+          "page": 2
+        },
+        {
+          "address": "RUTA VII – CORONEL OVIEDO",
+          "page": 2
+        },
+        {
+          "address": "AV.INTERNACIONAL 7777-PLANETA – PEDRO JUAN CABALLERO",
+          "page": 2
+        },
+        {
+          "address": "ROTONDA – ENCARNACIÓN",
+          "page": 2
+        },
+        {
+          "address": "MCAL ESTIGARRIBIA, TENIENTE ETTIENE Y FERNANDO DE LA MORA – PASEO 1811",
+          "page": 2
+        },
+        {
+          "address": "REPUBLICA ARGENTINA, MANUEL DEL CASTILLO - ENEX",
+          "page": 2
+        },
+        {
+          "address": "AV. DEFENSORES DEL CHACO – ABASTO",
+          "page": 2
+        },
+        {
+          "address": "AV. JOSÉ FELIX BOGADO – ASUNCIÓN",
+          "page": 2
+        },
+        {
+          "address": "AV. GRAL JOSÉ GERVASIO ARTIGAS – ASUNCIÓN",
+          "page": 2
+        },
+        {
+          "address": "AV. MCAL JOSÉ FELIX ESTIGARRIBIA – ITAGUA",
+          "page": 2
+        },
+        {
+          "address": "PLAZA NORTE - LIMPIO",
+          "page": 2
+        },
+        {
+          "address": "AVDA RUTA PYO1, EX ACCESO SUR - ÑEMBY",
+          "page": 2
+        },
+        {
+          "address": "AV. DR. JUAN M FRUTOS – CAAGUAZU",
+          "page": 2
+        },
+        {
+          "address": "AVDA ENRIQUE VON POLESKI – VILLA ELISA",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "key": "familiar-3",
+      "bank": "Familiar",
+      "merchant_name": "McDonald's - Plaza Norte",
+      "source_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6af2233ccc9efc47fd89d561_ByC - Gastro Plaza Norte 2026.pdf",
+      "pdf_sha256": "4fd7033c73e8c6e5d7eb06b286e32d00412ea0459abb0a5472b20e9be160256f",
+      "starts_on": "2026-04-01",
+      "ends_on": "2026-12-31",
+      "offers": {
+        "298e756e0c344a12": "50ed8a6501f4e068de9603f33d4f8d80ee222ac33f502f7039537f70a3be5b85",
+        "214e8988ad72c597": "a076b9309408c60311511adfd947dcecb93d6aba1511c74656647a7772b77967"
+      },
+      "branches": [
+        {
+          "address": "Plaza Norte",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "familiar-4",
+      "bank": "Familiar",
+      "merchant_name": "McDonald's - Shopping Mariano",
+      "source_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6af22360cc9efc47fd89e110_ByC - Gastro Mariano 2026.pdf",
+      "pdf_sha256": "094b957ddc7e1351d4c8e8be8de92bd63b7392645c73c41073b6c1040bb6b69e",
+      "starts_on": "2026-04-01",
+      "ends_on": "2026-12-31",
+      "offers": {
+        "905df6135709a2cd": "69957ac19ded0e31b1bafd50b09958c7501be50c1faf7d7b78850b29edad1874",
+        "97ec560eb091f4ab": "11b50a2c37e784bb2c2a2723f00fd0fcd23ce2b96d896d4c2b80cbe9d10da1b6"
+      },
+      "branches": [
+        {
+          "address": "Shopping Mariano",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "key": "familiar-5",
+      "bank": "Familiar",
+      "merchant_name": "McDonald's - Shopping Mariscal",
+      "source_url": "https://cdn.prod.website-files.com/67dc13c0080579f362360a31/6af21b0790ede355fd264361_ByC - Gastro Mariscal 2026.pdf",
+      "pdf_sha256": "721639888cb841b3f197265d2cb3d8cd25e2cff3a8a2de614e8c660dbe227c05",
+      "starts_on": "2026-04-01",
+      "ends_on": "2026-12-31",
+      "offers": {
+        "c5bbec5a4d811865": "58158d8e519901f2a34af97ced81a7eb0343b58c024f2a7c42fcc4110d3d0f96",
+        "0aec895684464cee": "975ecd2da8684664989f0271d3a36ae6a59ece18320eda6629d6ef8aa2ce5ab2"
+      },
+      "branches": [
+        {
+          "address": "Shopping Mariscal",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}
