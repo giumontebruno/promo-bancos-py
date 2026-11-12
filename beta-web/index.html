@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./vendor/leaflet/leaflet.css" />
     <link rel="stylesheet" href="./styles.css?v=20260825-clean-map-controls" />
     <link rel="stylesheet" href="./premium.css?v=beta-13-login-cover" />
-  <link rel="stylesheet" href="./glass-ui.css?v=readable-status-20261030" />
+  <link rel="stylesheet" href="./glass-ui.css?v=discovery-20261112" />
     <script>try { const t=JSON.parse(localStorage.getItem('paybackPyBeta.theme')); document.documentElement.dataset.theme=t==='dark'?'dark':'light'; } catch { document.documentElement.dataset.theme='light'; }</script>
   </head>
   <body>
@@ -45,7 +45,7 @@
       <p id="homeDate" class="glass-date"></p><h1 id="viewTitle">Hoy te conviene.</h1><p id="viewSubtitle">Tus tarjetas. El día correcto.</p>
       <section id="homeHero" class="glass-hero"><span>MENOS BÚSQUEDA, MÁS PLANES</span><h2>Tu próximo plan,<br>con beneficio.</h2><p>Revisá qué aplica antes de salir.</p><button id="explorePromos" type="button">Explorar promociones <span aria-hidden="true">→</span></button></section>
       <section class="controls">
-        <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></svg><input id="searchInput" type="search" placeholder="Comercio o categoría" aria-label="Buscar promociones" /></label>
+        <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></svg><input id="searchInput" type="search" placeholder="¿Dónde querés ahorrar? Comercio o categoría" aria-label="Buscar promociones" /></label>
         <div id="dayTabs" class="tabs day-tabs" aria-label="Día de la promoción"></div>
         <input id="datePicker" type="date" aria-label="Elegir fecha de la promoción" hidden />
         <div class="glass-filters"><label><span class="sr-only">Banco</span><select id="bankSelect" aria-label="Banco"></select></label><label><span class="sr-only">Categoría</span><select id="categorySelect" aria-label="Categoría"></select></label><label><span class="sr-only">Tarjeta</span><select id="cardSelect" aria-label="Tarjeta"><option value="Todas">Tarjetas</option><option>Crédito</option><option>Débito</option><option>Visa</option><option>Mastercard</option><option>American Express</option></select></label></div>
@@ -59,6 +59,7 @@
         </fieldset>
         <div id="bankTabs" hidden></div><div id="categoryTabs" hidden></div><div id="uenoLevelPanel" class="level-panel hidden"></div>
       </section>
+      <section id="homeDiscovery" class="home-discovery" aria-label="Explorar beneficios"></section>
       <section class="summary">
         <span id="statusText">Cargando promociones...</span>
         <span id="countText"></span><button id="refreshButton" type="button" aria-label="Actualizar promociones" title="Actualizar">↻</button>
@@ -109,7 +110,7 @@
     <script src="./profile-next.js?v=1"></script>
     <script src="./supermarket-reviewed.js?v=1"></script>
     <script src="./supermarket-eligibility.js?v=readable-status-20261030"></script>
-    <script src="./app.js?v=bank-sources-20261030"></script>
+    <script src="./app.js?v=discovery-20261112"></script>
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("./sw.js", { scope: "./" });

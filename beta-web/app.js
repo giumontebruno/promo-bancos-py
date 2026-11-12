@@ -158,6 +158,28 @@ function renderGlassHeader() {
   document.querySelector('#homeDate').textContent=selectedDateLabel();
   document.querySelector('#homeHero').hidden=state.activeView!=='today';document.querySelector('#homeDate').hidden=state.activeView!=='today';
 }
+// Discovery navigation reuses exact category/bank filters; it never merges offer terms.
+function renderHomeDiscovery() {
+  const host = document.getElementById('homeDiscovery');
+  host.hidden = state.activeView !== 'today';
+  if (host.hidden) return;
+  const categories = getCategories().filter(x => x !== 'Todas');
+  host.innerHTML = `<div class="discovery-heading"><h2>¿Qué tenés en mente?</h2><span>Explorá por categoría</span></div>
+    <div class="discovery-categories">${categories.map(category => `<button type="button" data-discovery-category="${escapeAttribute(category)}">${renderIcon(CATEGORY_ICONS[category] || 'star')}<span>${escapeHtml(category)}</span></button>`).join('')}</div>
+    <details class="discovery-banks"><summary>Explorar por banco o entidad</summary><div>${BANKS.filter(x => x !== 'Todos').map(bank => `<button type="button" data-discovery-bank="${escapeAttribute(bank)}">${escapeHtml(getBankLabel(bank))}</button>`).join('')}</div></details>`;
+}
+function discoverySections(promos) {
+  const categories = [...new Set(promos.map(getPromoCategoryGroup).filter(Boolean))]
+    .sort((a,b) => getCategoryOrder(a)-getCategoryOrder(b) || a.localeCompare(b,'es'));
+  return categories.map(category => [category, promos.filter(p => getPromoCategoryGroup(p) === category)]);
+}
+function renderDiscoveryResults(promos) {
+  return `<div class="discovery-heading"><h2>Beneficios para ${state.activeDay === 'hoy' ? 'hoy' : escapeHtml(selectedDateLabel())}</h2><p>Las condiciones cambian según banco, tarjeta y forma de pago.</p></div>` + discoverySections(promos).map(([category,items]) => `<section class="discovery-section" aria-label="${escapeAttribute(category)}">
+    <div class="discovery-section-heading"><h3>${renderIcon(CATEGORY_ICONS[category] || 'star')}${escapeHtml(category)}</h3><button type="button" data-discovery-category="${escapeAttribute(category)}">Ver ${items.length} promociones <span aria-hidden="true">→</span></button></div>
+    <div class="discovery-rail">${renderSectionCards(items.slice(0,6))}</div>
+    ${items.length > 6 ? '<p class="discovery-note">Una selección de esta categoría. Abrí «Ver promociones» para explorar todas.</p>' : ''}
+  </section>`).join('');
+}
 function showPromotionLoadError(error) {
   els.statusText.textContent='No pudimos actualizar las promociones.';
   els.results.innerHTML='<div class="empty" role="status"><h2>No pudimos actualizar</h2><p>Revisá tu conexión y volvé a intentar.</p><button type="button" data-retry-promotions>Reintentar</button></div>';
@@ -1322,10 +1344,11 @@ function renderResults() {
   }
   renderGlassHeader();
   const personalView = state.activeView === "alerts" || state.activeView === "favorites";
-  document.querySelector(".controls").hidden = personalView || state.activeView === "today";
+  document.querySelector(".controls").hidden = personalView;
   els.refreshButton.hidden = personalView;
   renderTabs();
   renderBottomNav();
+  renderHomeDiscovery();
 
   if (state.activeView === "alerts") {
     renderAlertsView();
@@ -1361,6 +1384,11 @@ function renderResults() {
       : hasQuery
         ? `<div class="empty">No encontramos beneficios activos para "${escapeHtml(state.query.trim())}".</div>`
         : `<div class="empty">No encontramos promociones para estos filtros.</div>`;
+    return;
+  }
+
+  if (state.activeView === 'today' && state.activeCategory === 'Todas' && !state.query.trim()) {
+    els.results.innerHTML = renderDiscoveryResults(base);
     return;
   }
 
@@ -3725,9 +3753,22 @@ document.getElementById("pilotReset")?.addEventListener("click", () => {
   resetSupermarketPilot(); resetNearbySelection(); render();
 });
 
+// Delegated navigation works after every render, including search reset snapshots.
+document.addEventListener('click', event => {
+  const category = event.target.closest('[data-discovery-category]');
+  const bank = event.target.closest('[data-discovery-bank]');
+  if (!category && !bank) return;
+  if (category) state.activeCategory = category.dataset.discoveryCategory;
+  if (bank) { state.activeBank = bank.dataset.discoveryBank; state.activeCategory = 'Todas'; }
+  state.activeView = 'search'; state.query = ''; els.searchInput.value = '';
+  resetNearbySelection(); render();
+  document.querySelector('.controls').scrollIntoView({block:'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+});
+
 // Number edits must update estimates without requiring a different view or a blur.
 let supermarketAmountTimer = null;
 document.getElementById("pilotAmount")?.addEventListener("input", () => {
   clearTimeout(supermarketAmountTimer);
   supermarketAmountTimer = setTimeout(() => { resetNearbySelection(); render(); }, 180);
 });
+
