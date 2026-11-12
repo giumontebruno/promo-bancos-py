@@ -2783,7 +2783,9 @@ function getDetailExclusions(promo) {
   // Keep the source exclusion block rather than silently dropping clauses.
   const sourceBlock = promo.bank === "BNF"
     ? (promo.raw_detail || "").match(/Exclusiones:\s*([\s\S]+)$/i)?.[1]
-    : "";
+    : promo.bank === "Familiar" && /mc.?donald/i.test((promo.merchant_name || "").replace(/\s+/g, ""))
+      ? (promo.raw_detail || "").match(/No participan[^.]+\.?/i)?.[0]
+      : "";
   return formatDetailText(sourceBlock || (promo.terms?.exclusions?.length
     ? promo.terms.exclusions.join("; ") : extractExcludedCards(promo)));
 }
