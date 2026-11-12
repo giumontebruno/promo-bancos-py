@@ -1,19 +1,6 @@
 {
-  "completed_at": "2026-11-11T15:22:33.772273+00:00",
-  "failed_sources": [
-    "GNB",
-    "Familiar",
-    "Sudameris",
-    "Itaú",
-    "BNF",
-    "Atlas",
-    "Coop. Universitaria",
-    "Basa",
-    "Interfisa",
-    "Bancop",
-    "Solar",
-    "Zeta"
-  ],
+  "completed_at": "2026-11-12T15:39:14.761705+00:00",
+  "failed_sources": [],
   "sources": {
     "Sudameris": {
       "status": "partial",
@@ -55,12 +42,12 @@
       "coverage_complete": false
     },
     "BNF": {
-      "status": "failed",
-      "records": 77,
-      "attempted_at": "2026-11-11T15:08:45.062970+00:00",
-      "checked_at": "2026-11-01T14:19:22.870035+00:00",
-      "retrieval_status": "failed",
-      "last_successful_fetch_at": "2026-11-01T14:19:22.870035+00:00",
+      "status": "fetched",
+      "records": 65,
+      "attempted_at": "2026-11-12T15:39:06.493952+00:00",
+      "checked_at": "2026-11-12T15:39:06.493952+00:00",
+      "retrieval_status": "fetched",
+      "last_successful_fetch_at": "2026-11-12T15:39:06.493952+00:00",
       "pending_records": 0,
       "pending_items": 0,
       "pending_items_semantics": "largest_report_count_not_deduplicated_total",
@@ -72,10 +59,7 @@
       "evidence_paths": [
         "outputs/bnf_source_meta.json"
       ],
-      "coverage_complete": true,
-      "error_type": "CalledProcessError",
-      "failed_step": "scrapers/extract_bnf.py",
-      "exit_code": 1
+      "coverage_complete": true
     },
     "Continental": {
       "status": "fetched",

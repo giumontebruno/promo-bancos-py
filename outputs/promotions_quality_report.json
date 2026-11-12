@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T15:22:33.201848+00:00",
-  "input_count": 3450,
-  "promotion_count": 4130,
-  "duplicates_removed": -680,
+  "generated_at": "2026-11-12T15:39:13.902202+00:00",
+  "input_count": 3438,
+  "promotion_count": 4195,
+  "duplicates_removed": -757,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1410,7 +1410,7 @@
   },
   "by_bank": {
     "Atlas": 53,
-    "BNF": 77,
+    "BNF": 142,
     "Bancop": 68,
     "Basa": 95,
     "Continental": 937,

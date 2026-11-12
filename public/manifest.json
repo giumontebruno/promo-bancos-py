@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T15:22:33.201848+00:00",
-  "promotion_count": 4130,
+  "generated_at": "2026-11-12T15:39:26.007Z",
+  "promotion_count": 4195,
   "banks": [
     "Atlas",
     "BNF",
@@ -4064,6 +4064,111 @@
       "merchant_name": "Copetrol",
       "source_url": "https://api.solar.com.py/documents/498/Copetrol_S.A_Bases_y_condiciones_2026_V04.docx.pdf",
       "last_known_ends_on": "2026-12-31"
+    },
+    "86e8e061b1ae0199": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "3MG",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_nov_9acd6a57ed.pdf",
+      "last_known_ends_on": "2026-11-25"
+    },
+    "01668d49397acd5c": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "COMPASA",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_nov_9acd6a57ed.pdf",
+      "last_known_ends_on": "2026-11-25"
+    },
+    "eee6be92524158f7": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "COPETROL",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_nov_9acd6a57ed.pdf",
+      "last_known_ends_on": "2026-11-25"
+    },
+    "6fd000166f7fff15": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "PETROCHACO",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_nov_9acd6a57ed.pdf",
+      "last_known_ends_on": "2026-11-25"
+    },
+    "9f5aae7683f15b22": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "PUMA ENERGY",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Estaciones_de_Servicio_2026_nov_9acd6a57ed.pdf",
+      "last_known_ends_on": "2026-11-25"
+    },
+    "950082c3b1f47fa9": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "ASISMED DRUGSTORE",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_NOV_e9456e6f48.pdf",
+      "last_known_ends_on": "2026-11-30"
+    },
+    "18227a28f2f03cc4": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "FARMA KOKE",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_NOV_e9456e6f48.pdf",
+      "last_known_ends_on": "2026-11-30"
+    },
+    "f0690c590e93a24a": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "FARMACENTER",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_NOV_e9456e6f48.pdf",
+      "last_known_ends_on": "2026-11-30"
+    },
+    "c4fb7785f46cd7e6": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "FARMACIA SANTA VICTORIA",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_NOV_e9456e6f48.pdf",
+      "last_known_ends_on": "2026-11-30"
+    },
+    "98b246afbc6b2e68": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "FARMACIA VICENTE SCAVONE",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_NOV_e9456e6f48.pdf",
+      "last_known_ends_on": "2026-11-30"
+    },
+    "4d4950964b429f78": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "FARMACIAS CATEDRAL",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_NOV_e9456e6f48.pdf",
+      "last_known_ends_on": "2026-11-30"
+    },
+    "f2a99a9419e4982b": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "COOPERATIVA CHORTITZER",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_nov_b660bdc431.pdf",
+      "last_known_ends_on": "2026-11-27"
+    },
+    "f2a99a9419e4982b-c4db3be5": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "COOPERATIVA CHORTITZER",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_nov_b660bdc431.pdf",
+      "last_known_ends_on": "2026-11-27"
+    },
+    "a841bf638f25e356": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "POLLOS DON JUAN",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_nov_b660bdc431.pdf",
+      "last_known_ends_on": "2026-11-27"
+    },
+    "a841bf638f25e356-5d4bcbd5": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "POLLOS DON JUAN",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_nov_b660bdc431.pdf",
+      "last_known_ends_on": "2026-11-27"
     }
   },
   "schema_version": 2
