@@ -294,6 +294,8 @@ def normalize_row(bank, row, merchant_override=None, group_override=None, catego
         "verified_cards": first(row, "Tarjetas verificadas"),
         "original_source_text": first(row, "Texto original de la fuente"),
     }
+    if first(row, "Documento fuente URL"):
+        normalized["source_document_url"] = first(row, "Documento fuente URL")
     if first(row, "Vigencia de compras verificada"):
         normalized["source_purchase_validity"] = first(row, "Vigencia de compras verificada")
     if row.get("Topes revisados por variante") == "yes":

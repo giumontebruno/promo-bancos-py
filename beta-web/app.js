@@ -2847,6 +2847,8 @@ function formatBnfCapsText(text) {
 }
 
 function extractAdditionalInfo(promo, rawDetail, variant = null) {
+  // Preserve sequential discounts, payment exclusions and shared caps verbatim.
+  if (promo.bank === "GNB" && promo.merchant_name === "Farmacenter") return formatDetailText(promo.raw_detail || rawDetail);
   if (promo.terms && !variant) return promo.terms.additional?.length
     ? promo.terms.additional.map(formatDetailText).join("\n")
     : "Consultá las condiciones completas en la fuente oficial.";

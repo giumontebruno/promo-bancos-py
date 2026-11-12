@@ -60,6 +60,8 @@ def build_additional(data):
                     'Tipo de variante': offer.get('kind', 'base'),
                     'Etiqueta de variante': offer.get('label', 'Cuotas'),
                     'Porcentaje efectivo': offer.get('effective_percent', ''),
+                    'Fecha verificacion fuente': campaign.get('checked_at', ''),
+                    'Documento fuente URL': campaign.get('source_url', ''),
                 })
     return rows
 

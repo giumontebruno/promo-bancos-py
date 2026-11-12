@@ -101214,12 +101214,11 @@
     "category": "Farmacias",
     "merchant_name": "Farmacenter",
     "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
-    "benefit_summary": "35% de descuento anunciado en perfumería (20% en caja + 15% de reintegro)",
+    "benefit_summary": "15% de reintegro sobre el importe final facturado en perfumería y otros productos; además 20% de descuento en caja",
     "benefit_type": "reintegro",
     "percentages": [
-      "35%",
-      "20%",
-      "15%"
+      "15%",
+      "20%"
     ],
     "promotion_days": [
       "lunes"
@@ -101228,7 +101227,7 @@
     "last_days_of_month": 0,
     "ordinal_weekdays": [],
     "day_text": "Lunes",
-    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "validity": "Desde 2026-11-02 hasta 2026-12-28",
     "source_period_end": "",
     "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
     "level_rules": "",
@@ -101236,20 +101235,21 @@
     "special_flags": [],
     "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
     "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
-    "raw_detail": "35% de descuento anunciado en perfumería (20% en caja + 15% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 32% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "raw_detail": "15% de reintegro sobre el importe final facturado en perfumería y otros productos; además 20% de descuento en caja. Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Tope de compra mensual de Gs. 1.000.000 por cuenta de tarjeta, compartido entre titular y adicionales y todos los locales. Descuentos sólo los lunes; hasta 3 cuotas sin intereses todos los días. Efecto combinado aproximado: 32% del precio original porque el reintegro se calcula sobre el importe ya rebajado. El simulador de Payback estima sólo el reintegro bancario: ingresá el importe final facturado, después del descuento en caja. Los porcentajes no se suman.",
     "source_warning": "",
     "verified_cards": "Mastercard Black, Black Premier y Metalcard Premier GNB",
     "original_source_text": "",
-    "id": "574e5a6ae806967c",
+    "source_document_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter-oct.pdf",
+    "id": "ca060f467226321f",
     "offer_kind": "premium",
     "offer_label": "Perfumería · Black",
-    "effective_percent": 32,
-    "source_checked_at": "2026-11-11T15:00:56.296350+00:00",
-    "source_file_updated_at": "2026-09-22T09:57:01-03:00",
+    "effective_percent": 15,
+    "source_checked_at": "2026-11-12T15:59:22.405600+00:00",
+    "source_file_updated_at": "2026-11-11T15:22:37Z",
     "terms": {
       "version": 1,
-      "starts_on": "2026-03-16",
-      "ends_on": "2026-09-28",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-12-28",
       "conflicting_dates": false,
       "limits": [
         {
@@ -101257,7 +101257,7 @@
           "amount": 1000000,
           "currency": "PYG",
           "period": "mensual",
-          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+          "evidence": "Tope de compra mensual de Gs. 1.000.000 por cuenta de tarjeta, compartido entre titular y adicionales y todos los locales"
         }
       ],
       "cards": [
@@ -101276,12 +101276,11 @@
     "category": "Farmacias",
     "merchant_name": "Farmacenter",
     "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
-    "benefit_summary": "30% de descuento anunciado en perfumería (20% en caja + 10% de reintegro)",
+    "benefit_summary": "10% de reintegro sobre el importe final facturado en perfumería y otros productos; además 20% de descuento en caja",
     "benefit_type": "reintegro",
     "percentages": [
-      "30%",
-      "20%",
-      "10%"
+      "10%",
+      "20%"
     ],
     "promotion_days": [
       "lunes"
@@ -101290,7 +101289,7 @@
     "last_days_of_month": 0,
     "ordinal_weekdays": [],
     "day_text": "Lunes",
-    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "validity": "Desde 2026-11-02 hasta 2026-12-28",
     "source_period_end": "",
     "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
     "level_rules": "",
@@ -101298,20 +101297,21 @@
     "special_flags": [],
     "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
     "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
-    "raw_detail": "30% de descuento anunciado en perfumería (20% en caja + 10% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 28% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "raw_detail": "10% de reintegro sobre el importe final facturado en perfumería y otros productos; además 20% de descuento en caja. Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Tope de compra mensual de Gs. 1.000.000 por cuenta de tarjeta, compartido entre titular y adicionales y todos los locales. Descuentos sólo los lunes; hasta 3 cuotas sin intereses todos los días. Efecto combinado aproximado: 28% del precio original porque el reintegro se calcula sobre el importe ya rebajado. El simulador de Payback estima sólo el reintegro bancario: ingresá el importe final facturado, después del descuento en caja. Los porcentajes no se suman.",
     "source_warning": "",
     "verified_cards": "Mastercard Clásica y Oro GNB",
     "original_source_text": "",
-    "id": "9a7db7fb46217e19",
+    "source_document_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter-oct.pdf",
+    "id": "43f0379d8030d52a",
     "offer_kind": "base",
     "offer_label": "Perfumería · Clásica/Oro",
-    "effective_percent": 28,
-    "source_checked_at": "2026-11-11T15:00:56.296350+00:00",
-    "source_file_updated_at": "2026-09-22T09:57:01-03:00",
+    "effective_percent": 10,
+    "source_checked_at": "2026-11-12T15:59:22.405600+00:00",
+    "source_file_updated_at": "2026-11-11T15:22:37Z",
     "terms": {
       "version": 1,
-      "starts_on": "2026-03-16",
-      "ends_on": "2026-09-28",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-12-28",
       "conflicting_dates": false,
       "limits": [
         {
@@ -101319,7 +101319,7 @@
           "amount": 1000000,
           "currency": "PYG",
           "period": "mensual",
-          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+          "evidence": "Tope de compra mensual de Gs. 1.000.000 por cuenta de tarjeta, compartido entre titular y adicionales y todos los locales"
         }
       ],
       "cards": [
@@ -101338,10 +101338,9 @@
     "category": "Farmacias",
     "merchant_name": "Farmacenter",
     "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
-    "benefit_summary": "30% de descuento anunciado en medicamentos (15% en caja + 15% de reintegro)",
+    "benefit_summary": "15% de reintegro sobre el importe final facturado en medicamentos; además 15% de descuento en caja",
     "benefit_type": "reintegro",
     "percentages": [
-      "30%",
       "15%"
     ],
     "promotion_days": [
@@ -101351,7 +101350,7 @@
     "last_days_of_month": 0,
     "ordinal_weekdays": [],
     "day_text": "Lunes",
-    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "validity": "Desde 2026-11-02 hasta 2026-12-28",
     "source_period_end": "",
     "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
     "level_rules": "",
@@ -101359,20 +101358,21 @@
     "special_flags": [],
     "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
     "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
-    "raw_detail": "30% de descuento anunciado en medicamentos (15% en caja + 15% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 27,75% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "raw_detail": "15% de reintegro sobre el importe final facturado en medicamentos; además 15% de descuento en caja. Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Tope de compra mensual de Gs. 1.000.000 por cuenta de tarjeta, compartido entre titular y adicionales y todos los locales. Descuentos sólo los lunes; hasta 3 cuotas sin intereses todos los días. Efecto combinado aproximado: 27,75% del precio original porque el reintegro se calcula sobre el importe ya rebajado. El simulador de Payback estima sólo el reintegro bancario: ingresá el importe final facturado, después del descuento en caja. Los porcentajes no se suman.",
     "source_warning": "",
     "verified_cards": "Mastercard Black, Black Premier y Metalcard Premier GNB",
     "original_source_text": "",
-    "id": "01101d38eb5229e4",
+    "source_document_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter-oct.pdf",
+    "id": "5a3b75998f33348f",
     "offer_kind": "premium",
     "offer_label": "Medicamentos · Black",
-    "effective_percent": 27.75,
-    "source_checked_at": "2026-11-11T15:00:56.296350+00:00",
-    "source_file_updated_at": "2026-09-22T09:57:01-03:00",
+    "effective_percent": 15,
+    "source_checked_at": "2026-11-12T15:59:22.405600+00:00",
+    "source_file_updated_at": "2026-11-11T15:22:37Z",
     "terms": {
       "version": 1,
-      "starts_on": "2026-03-16",
-      "ends_on": "2026-09-28",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-12-28",
       "conflicting_dates": false,
       "limits": [
         {
@@ -101380,7 +101380,7 @@
           "amount": 1000000,
           "currency": "PYG",
           "period": "mensual",
-          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+          "evidence": "Tope de compra mensual de Gs. 1.000.000 por cuenta de tarjeta, compartido entre titular y adicionales y todos los locales"
         }
       ],
       "cards": [
@@ -101399,12 +101399,11 @@
     "category": "Farmacias",
     "merchant_name": "Farmacenter",
     "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
-    "benefit_summary": "25% de descuento anunciado en medicamentos (15% en caja + 10% de reintegro)",
+    "benefit_summary": "10% de reintegro sobre el importe final facturado en medicamentos; además 15% de descuento en caja",
     "benefit_type": "reintegro",
     "percentages": [
-      "25%",
-      "15%",
-      "10%"
+      "10%",
+      "15%"
     ],
     "promotion_days": [
       "lunes"
@@ -101413,7 +101412,7 @@
     "last_days_of_month": 0,
     "ordinal_weekdays": [],
     "day_text": "Lunes",
-    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "validity": "Desde 2026-11-02 hasta 2026-12-28",
     "source_period_end": "",
     "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
     "level_rules": "",
@@ -101421,20 +101420,21 @@
     "special_flags": [],
     "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
     "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
-    "raw_detail": "25% de descuento anunciado en medicamentos (15% en caja + 10% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 23,5% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "raw_detail": "10% de reintegro sobre el importe final facturado en medicamentos; además 15% de descuento en caja. Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Tope de compra mensual de Gs. 1.000.000 por cuenta de tarjeta, compartido entre titular y adicionales y todos los locales. Descuentos sólo los lunes; hasta 3 cuotas sin intereses todos los días. Efecto combinado aproximado: 23,5% del precio original porque el reintegro se calcula sobre el importe ya rebajado. El simulador de Payback estima sólo el reintegro bancario: ingresá el importe final facturado, después del descuento en caja. Los porcentajes no se suman.",
     "source_warning": "",
     "verified_cards": "Mastercard Clásica y Oro GNB",
     "original_source_text": "",
-    "id": "1f78ea50bae3e0e5",
+    "source_document_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter-oct.pdf",
+    "id": "ced472cd8ffbec62",
     "offer_kind": "base",
     "offer_label": "Medicamentos · Clásica/Oro",
-    "effective_percent": 23.5,
-    "source_checked_at": "2026-11-11T15:00:56.296350+00:00",
-    "source_file_updated_at": "2026-09-22T09:57:01-03:00",
+    "effective_percent": 10,
+    "source_checked_at": "2026-11-12T15:59:22.405600+00:00",
+    "source_file_updated_at": "2026-11-11T15:22:37Z",
     "terms": {
       "version": 1,
-      "starts_on": "2026-03-16",
-      "ends_on": "2026-09-28",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-12-28",
       "conflicting_dates": false,
       "limits": [
         {
@@ -101442,7 +101442,7 @@
           "amount": 1000000,
           "currency": "PYG",
           "period": "mensual",
-          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+          "evidence": "Tope de compra mensual de Gs. 1.000.000 por cuenta de tarjeta, compartido entre titular y adicionales y todos los locales"
         }
       ],
       "cards": [
@@ -101477,7 +101477,7 @@
     "last_days_of_month": 0,
     "ordinal_weekdays": [],
     "day_text": "Todos los días",
-    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "validity": "Desde 2026-11-02 hasta 2026-12-28",
     "source_period_end": "",
     "caps_and_minimums": "Sin tope monetario indicado en las bases.",
     "level_rules": "",
@@ -101485,21 +101485,30 @@
     "special_flags": [],
     "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
     "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
-    "raw_detail": "Hasta 3 cuotas sin intereses. Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Solicitar o seleccionar la cantidad de cuotas al pagar.",
+    "raw_detail": "Hasta 3 cuotas sin intereses. Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Tope de compra mensual de Gs. 1.000.000 por cuenta de tarjeta, compartido entre titular y adicionales y todos los locales. Descuentos sólo los lunes; hasta 3 cuotas sin intereses todos los días. Solicitar o seleccionar la cantidad de cuotas al pagar.",
     "source_warning": "",
     "verified_cards": "Tarjetas de crédito Mastercard GNB",
     "original_source_text": "",
-    "id": "384d668898b22e38",
+    "source_document_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter-oct.pdf",
+    "id": "4f04f696f56c2f18",
     "offer_kind": "base",
     "offer_label": "Cuotas",
-    "source_checked_at": "2026-11-11T15:00:56.296350+00:00",
-    "source_file_updated_at": "2026-09-22T09:57:01-03:00",
+    "source_checked_at": "2026-11-12T15:59:22.405600+00:00",
+    "source_file_updated_at": "2026-11-11T15:22:37Z",
     "terms": {
       "version": 1,
-      "starts_on": "2026-03-16",
-      "ends_on": "2026-09-28",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-12-28",
       "conflicting_dates": false,
-      "limits": [],
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de compra mensual de Gs. 1.000.000 por cuenta de tarjeta, compartido entre titular y adicionales y todos los locales"
+        }
+      ],
       "cards": [
         "Tarjetas de crédito Mastercard GNB"
       ],
@@ -101507,10 +101516,8 @@
       "additional": [
         "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard"
       ],
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "status": "needs_review"
+      "issues": [],
+      "status": "parsed"
     }
   },
   {
@@ -223774,6 +223781,315 @@
       "source_verification": null
     },
     "source_verification": "unconfirmed"
+  },
+  {
+    "bank": "GNB",
+    "category": "Farmacias",
+    "merchant_name": "Farmacenter",
+    "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
+    "benefit_summary": "35% de descuento anunciado en perfumería (20% en caja + 15% de reintegro)",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "35%",
+      "20%",
+      "15%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Lunes",
+    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
+    "raw_detail": "35% de descuento anunciado en perfumería (20% en caja + 15% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 32% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "source_warning": "",
+    "verified_cards": "Mastercard Black, Black Premier y Metalcard Premier GNB",
+    "original_source_text": "",
+    "id": "574e5a6ae806967c",
+    "offer_kind": "premium",
+    "offer_label": "Perfumería · Black",
+    "effective_percent": 32,
+    "source_checked_at": "2026-11-11T15:00:56.296350+00:00",
+    "source_file_updated_at": "2026-09-22T09:57:01-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-03-16",
+      "ends_on": "2026-09-28",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+        }
+      ],
+      "cards": [
+        "Mastercard Black, Black Premier y Metalcard Premier GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [],
+      "status": "parsed"
+    },
+    "archived": true
+  },
+  {
+    "bank": "GNB",
+    "category": "Farmacias",
+    "merchant_name": "Farmacenter",
+    "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
+    "benefit_summary": "30% de descuento anunciado en perfumería (20% en caja + 10% de reintegro)",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "30%",
+      "20%",
+      "10%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Lunes",
+    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
+    "raw_detail": "30% de descuento anunciado en perfumería (20% en caja + 10% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 28% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "source_warning": "",
+    "verified_cards": "Mastercard Clásica y Oro GNB",
+    "original_source_text": "",
+    "id": "9a7db7fb46217e19",
+    "offer_kind": "base",
+    "offer_label": "Perfumería · Clásica/Oro",
+    "effective_percent": 28,
+    "source_checked_at": "2026-11-11T15:00:56.296350+00:00",
+    "source_file_updated_at": "2026-09-22T09:57:01-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-03-16",
+      "ends_on": "2026-09-28",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+        }
+      ],
+      "cards": [
+        "Mastercard Clásica y Oro GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [],
+      "status": "parsed"
+    },
+    "archived": true
+  },
+  {
+    "bank": "GNB",
+    "category": "Farmacias",
+    "merchant_name": "Farmacenter",
+    "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
+    "benefit_summary": "30% de descuento anunciado en medicamentos (15% en caja + 15% de reintegro)",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "30%",
+      "15%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Lunes",
+    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
+    "raw_detail": "30% de descuento anunciado en medicamentos (15% en caja + 15% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 27,75% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "source_warning": "",
+    "verified_cards": "Mastercard Black, Black Premier y Metalcard Premier GNB",
+    "original_source_text": "",
+    "id": "01101d38eb5229e4",
+    "offer_kind": "premium",
+    "offer_label": "Medicamentos · Black",
+    "effective_percent": 27.75,
+    "source_checked_at": "2026-11-11T15:00:56.296350+00:00",
+    "source_file_updated_at": "2026-09-22T09:57:01-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-03-16",
+      "ends_on": "2026-09-28",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+        }
+      ],
+      "cards": [
+        "Mastercard Black, Black Premier y Metalcard Premier GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [],
+      "status": "parsed"
+    },
+    "archived": true
+  },
+  {
+    "bank": "GNB",
+    "category": "Farmacias",
+    "merchant_name": "Farmacenter",
+    "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
+    "benefit_summary": "25% de descuento anunciado en medicamentos (15% en caja + 10% de reintegro)",
+    "benefit_type": "reintegro",
+    "percentages": [
+      "25%",
+      "15%",
+      "10%"
+    ],
+    "promotion_days": [
+      "lunes"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Lunes",
+    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "source_period_end": "",
+    "caps_and_minimums": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000. Incluye titular y adicionales.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
+    "raw_detail": "25% de descuento anunciado en medicamentos (15% en caja + 10% de reintegro). Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Efecto combinado aproximado: 23,5% del precio original porque el reintegro se calcula sobre el importe ya rebajado.",
+    "source_warning": "",
+    "verified_cards": "Mastercard Clásica y Oro GNB",
+    "original_source_text": "",
+    "id": "1f78ea50bae3e0e5",
+    "offer_kind": "base",
+    "offer_label": "Medicamentos · Clásica/Oro",
+    "effective_percent": 23.5,
+    "source_checked_at": "2026-11-11T15:00:56.296350+00:00",
+    "source_file_updated_at": "2026-09-22T09:57:01-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-03-16",
+      "ends_on": "2026-09-28",
+      "conflicting_dates": false,
+      "limits": [
+        {
+          "kind": "purchase",
+          "amount": 1000000,
+          "currency": "PYG",
+          "period": "mensual",
+          "evidence": "Tope de compra mensual por cuenta, compartido entre todas las sucursales: Gs. 1.000.000"
+        }
+      ],
+      "cards": [
+        "Mastercard Clásica y Oro GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [],
+      "status": "parsed"
+    },
+    "archived": true
+  },
+  {
+    "bank": "GNB",
+    "category": "Farmacias",
+    "merchant_name": "Farmacenter",
+    "merchant_locations_or_group": "Todas las sucursales de Farmacenter",
+    "benefit_summary": "Hasta 3 cuotas sin intereses",
+    "benefit_type": "cuotas_sin_intereses",
+    "percentages": [],
+    "promotion_days": [
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+      "domingo"
+    ],
+    "month_days": [],
+    "last_days_of_month": 0,
+    "ordinal_weekdays": [],
+    "day_text": "Todos los días",
+    "validity": "Desde 2026-03-16 hasta 2026-09-28",
+    "source_period_end": "",
+    "caps_and_minimums": "Sin tope monetario indicado en las bases.",
+    "level_rules": "",
+    "level_benefits": [],
+    "special_flags": [],
+    "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
+    "source_page_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/598",
+    "raw_detail": "Hasta 3 cuotas sin intereses. Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Solicitar o seleccionar la cantidad de cuotas al pagar.",
+    "source_warning": "",
+    "verified_cards": "Tarjetas de crédito Mastercard GNB",
+    "original_source_text": "",
+    "id": "384d668898b22e38",
+    "offer_kind": "base",
+    "offer_label": "Cuotas",
+    "source_checked_at": "2026-11-11T15:00:56.296350+00:00",
+    "source_file_updated_at": "2026-09-22T09:57:01-03:00",
+    "terms": {
+      "version": 1,
+      "starts_on": "2026-03-16",
+      "ends_on": "2026-09-28",
+      "conflicting_dates": false,
+      "limits": [],
+      "cards": [
+        "Tarjetas de crédito Mastercard GNB"
+      ],
+      "exclusions": [],
+      "additional": [
+        "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard"
+      ],
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "status": "needs_review"
+    },
+    "archived": true
   },
   {
     "bank": "BNF",

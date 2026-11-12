@@ -35,36 +35,118 @@
       "cards": "Tarjetas de crédito GNB",
       "conditions": "Todos los días. Pagos con tarjeta física, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. Solicitar la cantidad de cuotas al pagar. No acumulable con otras promociones.",
       "municipalities": [
-        ["Municipalidad de Asunción", "Asunción"],
-        ["Municipalidad de Fernando de la Mora", "Fernando de la Mora"],
-        ["Municipalidad de Benjamín Aceval", "Benjamín Aceval"],
-        ["Municipalidad de Ciudad del Este", "Ciudad del Este"],
-        ["Municipalidad de Encarnación", "Encarnación"],
-        ["Municipalidad de Hernandarias", "Hernandarias"],
-        ["Municipalidad de Hohenau", "Hohenau"],
-        ["Municipalidad de Lambaré", "Lambaré"],
-        ["Municipalidad de Luque", "Luque"],
-        ["Municipalidad de Nueva Colombia", "Nueva Colombia"],
-        ["Municipalidad de San Bernardino", "San Bernardino"],
-        ["Municipalidad de Pilar", "Pilar"]
+        [
+          "Municipalidad de Asunción",
+          "Asunción"
+        ],
+        [
+          "Municipalidad de Fernando de la Mora",
+          "Fernando de la Mora"
+        ],
+        [
+          "Municipalidad de Benjamín Aceval",
+          "Benjamín Aceval"
+        ],
+        [
+          "Municipalidad de Ciudad del Este",
+          "Ciudad del Este"
+        ],
+        [
+          "Municipalidad de Encarnación",
+          "Encarnación"
+        ],
+        [
+          "Municipalidad de Hernandarias",
+          "Hernandarias"
+        ],
+        [
+          "Municipalidad de Hohenau",
+          "Hohenau"
+        ],
+        [
+          "Municipalidad de Lambaré",
+          "Lambaré"
+        ],
+        [
+          "Municipalidad de Luque",
+          "Luque"
+        ],
+        [
+          "Municipalidad de Nueva Colombia",
+          "Nueva Colombia"
+        ],
+        [
+          "Municipalidad de San Bernardino",
+          "San Bernardino"
+        ],
+        [
+          "Municipalidad de Pilar",
+          "Pilar"
+        ]
       ]
     },
     {
-      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter.2.pdf",
-      "source_version": "V1 - 11/03/2026",
-      "starts_on": "2026-03-16",
-      "ends_on": "2026-09-28",
+      "source_url": "https://www.beneficiosbancognb.com.py/imagenes/5086_bases-y-condiciones-farmacenter-oct.pdf",
+      "source_version": "V1 - 30/10/2026",
+      "starts_on": "2026-11-02",
+      "ends_on": "2026-12-28",
       "merchant": "Farmacenter",
       "category": "Farmacias",
       "location": "Todas las sucursales de Farmacenter",
-      "conditions": "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja.",
+      "conditions": "Pagos con tarjetas de crédito Mastercard GNB físicas, Apple Pay, Google Pay o QR en POS Bancard. No participan tarjetas de débito ni crédito Visa, Empresariales, Corporativas, Gift Card, Gourmet ni Prepagas. No acumulable. El reintegro bancario se calcula sobre el importe final facturado después del descuento en caja. Tope de compra mensual de Gs. 1.000.000 por cuenta de tarjeta, compartido entre titular y adicionales y todos los locales. Descuentos sólo los lunes; hasta 3 cuotas sin intereses todos los días.",
       "offers": [
-        {"variant": "perfumeria-premium", "label": "Perfumería · Black", "kind": "premium", "benefit": "35% de descuento anunciado en perfumería (20% en caja + 15% de reintegro)", "effective_percent": 32, "cards": "Mastercard Black, Black Premier y Metalcard Premier GNB", "day": "Lunes", "conditions": "Efecto combinado aproximado: 32% del precio original porque el reintegro se calcula sobre el importe ya rebajado."},
-        {"variant": "perfumeria-base", "label": "Perfumería · Clásica/Oro", "kind": "base", "benefit": "30% de descuento anunciado en perfumería (20% en caja + 10% de reintegro)", "effective_percent": 28, "cards": "Mastercard Clásica y Oro GNB", "day": "Lunes", "conditions": "Efecto combinado aproximado: 28% del precio original porque el reintegro se calcula sobre el importe ya rebajado."},
-        {"variant": "medicamentos-premium", "label": "Medicamentos · Black", "kind": "premium", "benefit": "30% de descuento anunciado en medicamentos (15% en caja + 15% de reintegro)", "effective_percent": 27.75, "cards": "Mastercard Black, Black Premier y Metalcard Premier GNB", "day": "Lunes", "conditions": "Efecto combinado aproximado: 27,75% del precio original porque el reintegro se calcula sobre el importe ya rebajado."},
-        {"variant": "medicamentos-base", "label": "Medicamentos · Clásica/Oro", "kind": "base", "benefit": "25% de descuento anunciado en medicamentos (15% en caja + 10% de reintegro)", "effective_percent": 23.5, "cards": "Mastercard Clásica y Oro GNB", "day": "Lunes", "conditions": "Efecto combinado aproximado: 23,5% del precio original porque el reintegro se calcula sobre el importe ya rebajado."},
-        {"variant": "financing", "label": "Cuotas", "kind": "base", "benefit": "Hasta 3 cuotas sin intereses", "cards": "Tarjetas de crédito Mastercard GNB", "day": "Todos los días", "conditions": "Solicitar o seleccionar la cantidad de cuotas al pagar."}
-      ]
+        {
+          "variant": "perfumeria-premium",
+          "label": "Perfumería · Black",
+          "kind": "premium",
+          "benefit": "15% de reintegro sobre el importe final facturado en perfumería y otros productos; además 20% de descuento en caja",
+          "effective_percent": 15,
+          "cards": "Mastercard Black, Black Premier y Metalcard Premier GNB",
+          "day": "Lunes",
+          "conditions": "Efecto combinado aproximado: 32% del precio original porque el reintegro se calcula sobre el importe ya rebajado. El simulador de Payback estima sólo el reintegro bancario: ingresá el importe final facturado, después del descuento en caja. Los porcentajes no se suman."
+        },
+        {
+          "variant": "perfumeria-base",
+          "label": "Perfumería · Clásica/Oro",
+          "kind": "base",
+          "benefit": "10% de reintegro sobre el importe final facturado en perfumería y otros productos; además 20% de descuento en caja",
+          "effective_percent": 10,
+          "cards": "Mastercard Clásica y Oro GNB",
+          "day": "Lunes",
+          "conditions": "Efecto combinado aproximado: 28% del precio original porque el reintegro se calcula sobre el importe ya rebajado. El simulador de Payback estima sólo el reintegro bancario: ingresá el importe final facturado, después del descuento en caja. Los porcentajes no se suman."
+        },
+        {
+          "variant": "medicamentos-premium",
+          "label": "Medicamentos · Black",
+          "kind": "premium",
+          "benefit": "15% de reintegro sobre el importe final facturado en medicamentos; además 15% de descuento en caja",
+          "effective_percent": 15,
+          "cards": "Mastercard Black, Black Premier y Metalcard Premier GNB",
+          "day": "Lunes",
+          "conditions": "Efecto combinado aproximado: 27,75% del precio original porque el reintegro se calcula sobre el importe ya rebajado. El simulador de Payback estima sólo el reintegro bancario: ingresá el importe final facturado, después del descuento en caja. Los porcentajes no se suman."
+        },
+        {
+          "variant": "medicamentos-base",
+          "label": "Medicamentos · Clásica/Oro",
+          "kind": "base",
+          "benefit": "10% de reintegro sobre el importe final facturado en medicamentos; además 15% de descuento en caja",
+          "effective_percent": 10,
+          "cards": "Mastercard Clásica y Oro GNB",
+          "day": "Lunes",
+          "conditions": "Efecto combinado aproximado: 23,5% del precio original porque el reintegro se calcula sobre el importe ya rebajado. El simulador de Payback estima sólo el reintegro bancario: ingresá el importe final facturado, después del descuento en caja. Los porcentajes no se suman."
+        },
+        {
+          "variant": "financing",
+          "label": "Cuotas",
+          "kind": "base",
+          "benefit": "Hasta 3 cuotas sin intereses",
+          "cards": "Tarjetas de crédito Mastercard GNB",
+          "day": "Todos los días",
+          "conditions": "Solicitar o seleccionar la cantidad de cuotas al pagar."
+        }
+      ],
+      "checked_at": "2026-11-12T15:59:22.405600+00:00",
+      "pdf_sha256": "b7d807c5880b953e8d73718bdb31021f9fb39e3e613dc1e00efe1e99a92466f4"
     }
   ]
 }

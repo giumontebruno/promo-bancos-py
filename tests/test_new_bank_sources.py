@@ -89,7 +89,7 @@ class FamiliarTests(unittest.TestCase):
         self.assertTrue(all(len(row['promotion_days']) == 7 for row in normalized if row['merchant_name'] != 'Farmacenter'))
         pharmacy = [row for row in normalized if row['merchant_name'] == 'Farmacenter']
         self.assertEqual(len(pharmacy), 5)
-        self.assertEqual([row.get('effective_percent') for row in pharmacy], [32, 28, 27.75, 23.5, None])
+        self.assertEqual([row.get('effective_percent') for row in pharmacy], [15, 10, 15, 10, None])
         self.assertTrue(all(row['promotion_days'] == ['lunes'] for row in pharmacy[:4]))
         self.assertEqual(len(pharmacy[4]['promotion_days']), 7)
 
