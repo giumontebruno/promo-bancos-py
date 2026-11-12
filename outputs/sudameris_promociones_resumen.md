@@ -2,13 +2,14 @@
 
 Extraidas desde https://www.sudameris.com.py/personas/beneficios
 
-Total: 57
+Total: 58
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
+| Sudameris | Trovari e-commerce | • Desde el 06 al 29 de noviembre 2026 | • Martes y viernes. • 20% de descuento pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/trovari-e-commerce |
 | Sudameris | Trovari | • Desde el 06 al 29 de noviembre 2026 | • Viernes a domingos. • Desde el 06 al 29 de noviembre 2026 • 20% de descuento en caja pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/tovari |
-| Sudameris | Paraná Hogar / Colchones | • Desde el 6 de noviembre hasta el 29 de enero 2027. | • Todos los viernes. • Desde el 6 de noviembre hasta el 29 de enero 2027. • 20% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin intereses. | https://www.sudameris.com.py/personas/beneficios/parana-hogar-colchones |
 | Sudameris | Casa Lorenzo | .• Desde el 2 de noviembre 2026 hasta el 31 de diciembre 2027. | • Lunes a jueves • Desde el 2 de noviembre 2026 hasta el 31 de diciembre 2027. • 20% de reintegro directo con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. | https://www.sudameris.com.py/personas/beneficios/casa-lorenzo |
+| Sudameris | Paraná Hogar / Colchones | • Desde el 6 de noviembre hasta el 29 de enero 2027. | • Todos los viernes. • Desde el 6 de noviembre hasta el 29 de enero 2027. • 20% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin intereses. | https://www.sudameris.com.py/personas/beneficios/parana-hogar-colchones |
 | Sudameris | GASTRONOMIA 26 | Verifique según aplicación de promoción | Disfrute del Reintegro en Gastronomía y Ahorre con reintegros directos sin canjes de puntos. | https://www.sudameris.com.py/beneficios/destacado/636/detalle |
 | Sudameris | Mentes Expertas – Borja Vilaseca | • Desde el 28 de octubre 2026 | • 20% de descuento directo en compra de entradas, pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/personas/beneficios/mentes-expertas-borja-vilaseca |
 | Sudameris | Asunción y Gran Asunción | • Verificar según aplicación de promoción (ver bases y condicones). | • Descuentos en caja según aplicación de promoción (ver bases y condicones). • Reintegro en extracto, según aplicación de promoción (ver bases y condicones). • Cuotas sin interés, según aplicación de promoción (ver bases | https://www.sudameris.com.py/personas/beneficios/zona-central-asuncion-y-gran-asuncion |

@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 353
+Total de promociones: 354
 
 ## Clubes
 
@@ -119,6 +119,7 @@ Total de promociones: 353
 | Napy | 20%; 25%; Hasta 12 cuotas sin intereses | No especificado | • Jueves 5 de noviembre 2026. |
 | SASPY EXPRESS | 15%; 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | Desde el 01 de octubre hasta el 31 de diciembre 2026. |
 | Trovari | 20%; Hasta 10 cuotas sin interés | Viernes a domingo | • Desde el 06 al 29 de noviembre 2026 |
+| Trovari e-commerce | 20%; Hasta 10 cuotas sin interés | No especificado | • Desde el 06 al 29 de noviembre 2026 |
 | ZONA NORTE | en tu zona | No especificado | • Verificar según aplicación de promoción (ver cuadro más abajo). |
 
 ## Deportes y clubes

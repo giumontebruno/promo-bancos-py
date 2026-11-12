@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T16:20:40.175Z",
-  "promotion_count": 4208,
+  "generated_at": "2026-11-12T17:47:08.226767+00:00",
+  "promotion_count": 4247,
   "banks": [
     "Atlas",
     "BNF",
@@ -3883,34 +3883,6 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
       "last_known_ends_on": "2027-11-27"
     },
-    "780c37f1bdf55476": {
-      "reason": "not_in_current_sources",
-      "bank": "Familiar",
-      "merchant_name": "PANDOLFO",
-      "source_url": "https://www.familiar.com.py/pdfs/promociones-y-beneficios-pandolfo",
-      "last_known_ends_on": "2026-12-31"
-    },
-    "a628f30e6fa5f9a5": {
-      "reason": "not_in_current_sources",
-      "bank": "Familiar",
-      "merchant_name": "PANDOLFO",
-      "source_url": "https://www.familiar.com.py/pdfs/promociones-y-beneficios-pandolfo",
-      "last_known_ends_on": "2026-12-31"
-    },
-    "b0c468a263e7d7d6": {
-      "reason": "not_in_current_sources",
-      "bank": "Familiar",
-      "merchant_name": "PANDOLFO",
-      "source_url": "https://www.familiar.com.py/pdfs/promociones-y-beneficios-pandolfo",
-      "last_known_ends_on": "2026-12-31"
-    },
-    "12064976dd3ad913": {
-      "reason": "not_in_current_sources",
-      "bank": "Familiar",
-      "merchant_name": "PANDOLFO",
-      "source_url": "https://www.familiar.com.py/pdfs/promociones-y-beneficios-pandolfo",
-      "last_known_ends_on": "2026-12-31"
-    },
     "58a79f1df099b21b": {
       "reason": "not_in_current_sources",
       "bank": "Familiar",
@@ -4169,6 +4141,13 @@
       "merchant_name": "POLLOS DON JUAN",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Frigorificos_2026_nov_b660bdc431.pdf",
       "last_known_ends_on": "2026-11-27"
+    },
+    "d1f40943987b04a3": {
+      "reason": "not_in_current_sources",
+      "bank": "Continental",
+      "merchant_name": "Restaurante - Don Papalo",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "last_known_ends_on": "2026-12-06"
     }
   },
   "schema_version": 2

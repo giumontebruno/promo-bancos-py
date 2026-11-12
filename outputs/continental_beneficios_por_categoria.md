@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 835
+Total de beneficios/comercios: 834
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -402,7 +402,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Ánima | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 21 de septiembre de 2027 | Asunción |
 | Ñe'ẽ Porã Tecnologia y confort | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | Todos los días | Vigente hasta el 17 de octubre de 2027 | San Ignacio, Misiones |
 
-## Hoteles (10)
+## Hoteles (9)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -415,7 +415,6 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Hotel de Colleville | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de marzo de 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | San Estanislao |
 | La Candelaria - Hotel | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de junio de 2027 | Areguá |
 | Las Hortensias - Hotel | 35%; 35% de reintegro; 30% de reintegro | Todos los días | No especificado | Pilar |
-| Restaurante - Don Papalo | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 06 de diciembre de 2026 | No especificado |
 
 ## Indumentaria (7)
 

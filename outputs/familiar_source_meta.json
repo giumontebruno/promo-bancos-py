@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-11T15:03:49.931051+00:00",
-  "published": 417,
+  "checked_at": "2026-11-12T17:32:43.574754+00:00",
+  "published": 420,
   "pending": [
     {
       "merchant_name": "LUNES DE MALL EXCELSIOR",
@@ -42,16 +42,6 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-optica-santa-lucia",
       "reason": "complex_monetary_and_installment_variants",
       "retained_unsplit": true
-    },
-    {
-      "merchant_name": "GASTRO - PLAZA NORTE",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro-plaza-norte",
-      "reason": "campaign_requires_merchant_expansion"
-    },
-    {
-      "merchant_name": "GASTRO - SHOPPING MARIANO",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro-shopping-mariano",
-      "reason": "campaign_requires_merchant_expansion"
     },
     {
       "merchant_name": "JOYERIAS",
@@ -409,11 +399,6 @@
       "reason": "ambiguous_dates"
     },
     {
-      "merchant_name": "GASTRO - SHOPPING MARISCAL",
-      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-gastro---shopping-mariscal-bases-y-condiciones",
-      "reason": "campaign_requires_merchant_expansion"
-    },
-    {
       "merchant_name": "PROSEGUR",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-prosegur-bases-y-condiciones",
       "reason": "unconfirmed_cards"
@@ -438,15 +423,5 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-fermaq-bases-y-condiciones",
       "reason": "unconfirmed_schedule"
     }
-  ],
-  "targeted_review": {
-    "merchants": [
-      "McDonald's - Plaza Norte",
-      "McDonald's - Shopping Mariano",
-      "McDonald's - Shopping Mariscal"
-    ],
-    "published_rows": 6,
-    "note": "PDF and text hashes verified for these locations only; generic Gastro campaigns remain pending for other merchants."
-  },
-  "exported_rows": 417
+  ]
 }

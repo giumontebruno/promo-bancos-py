@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T16:20:37.980310+00:00",
-  "input_count": 3446,
-  "promotion_count": 4208,
-  "duplicates_removed": -762,
+  "generated_at": "2026-11-12T17:47:08.226767+00:00",
+  "input_count": 3483,
+  "promotion_count": 4247,
+  "duplicates_removed": -764,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1415,17 +1415,17 @@
     "Basa": 95,
     "Continental": 937,
     "Coop. Universitaria": 72,
-    "Familiar": 417,
+    "Familiar": 420,
     "GNB": 508,
-    "Interfisa": 180,
-    "Itaú": 622,
+    "Interfisa": 214,
+    "Itaú": 623,
     "Solar": 63,
-    "Sudameris": 355,
+    "Sudameris": 356,
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 342,
-    "limits_unconfirmed": 443,
+    "source_verification_pending": 349,
+    "limits_unconfirmed": 449,
     "validity_unconfirmed": 35,
     "multiple_purchase_limits": 337,
     "source_amount_conflict": 19,
@@ -2577,15 +2577,6 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "d1f40943987b04a3",
-      "bank": "Continental",
-      "merchant": "Restaurante - Don Papalo",
-      "issues": [
-        "multiple_purchase_limits"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
       "id": "492f65ae0e6c3b5f",
       "bank": "Continental",
       "merchant": "CAT",
@@ -3330,6 +3321,15 @@
       "id": "0c4631bdb1ae2773",
       "bank": "Continental",
       "merchant": "Jeep Apparel",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "4be488d3f6b21a68",
+      "bank": "Continental",
+      "merchant": "Kami Store",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -4673,6 +4673,16 @@
       "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/570"
     },
     {
+      "id": "b329e7281a313dd0",
+      "bank": "Interfisa",
+      "merchant": "CIMON",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-cimon-3.pdf"
+    },
+    {
       "id": "3569b2e1377011d0",
       "bank": "Interfisa",
       "merchant": "COPETROL SANTANI",
@@ -4833,6 +4843,26 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-vitalmed4.pdf"
     },
     {
+      "id": "b45fef08a1952e86",
+      "bank": "Interfisa",
+      "merchant": "VITTAMED",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-vittamed-1.pdf"
+    },
+    {
+      "id": "a00f7e11ed4269de",
+      "bank": "Interfisa",
+      "merchant": "VITTAMED",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-vittamed-1.pdf"
+    },
+    {
       "id": "4be75429e12ff3e3",
       "bank": "Interfisa",
       "merchant": "ALL YOU NEED",
@@ -4893,6 +4923,16 @@
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20TENDENCIAS%20CHIC1.pdf"
     },
     {
+      "id": "dd3128d8cbd1b829",
+      "bank": "Interfisa",
+      "merchant": "BELEZE",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20BELEZE.pdf"
+    },
+    {
       "id": "e17acdf5e35c6f06",
       "bank": "Interfisa",
       "merchant": "DERLIS ZEBALLOS",
@@ -4911,6 +4951,16 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-diana-apodaca-1.pdf"
+    },
+    {
+      "id": "75022f777d41e9e6",
+      "bank": "Interfisa",
+      "merchant": "COMERCIAL EL TRIANGULO",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20COMERCIAL%20EL%20TRIANGULO%202026.pdf"
     },
     {
       "id": "654d8334e2c21073",
@@ -4971,6 +5021,16 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-crocs-1.pdf"
+    },
+    {
+      "id": "c3faf078948b0f16",
+      "bank": "Interfisa",
+      "merchant": "DASCOOL / KAVARA",
+      "issues": [
+        "source_verification_pending",
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20DASCOOL%20-%20KAVARA%201.pdf"
     },
     {
       "id": "a5727d00da779c58",
@@ -6021,6 +6081,15 @@
         "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/personas/beneficios/tovari"
+    },
+    {
+      "id": "eb1b2d408a8d7355",
+      "bank": "Sudameris",
+      "merchant": "Trovari e-commerce",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/trovari-e-commerce"
     },
     {
       "id": "7fca8ed534f6adcd",
