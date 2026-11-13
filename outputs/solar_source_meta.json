@@ -20,10 +20,6 @@
       "status": "blocked_specific_ambiguity_or_representation: Catalogo descuento30% sin segmentar; PDF medicamentos hasta20%,otros hasta30%. No publicar30% universal ni sumar caja+reintegro. Requiere variantes por producto y hasta."
     },
     {
-      "id": 132,
-      "status": "expired"
-    },
-    {
       "id": 129,
       "status": "blocked_specific_ambiguity_or_representation: Canal PDF3 afirma valida con dispositivos diferentes al POS Infonet sin aclarar redes. No transformar en POS exclusivo. Representacion del descuento debe separar medicamentos/otros y hasta."
     },
@@ -130,6 +126,10 @@
     {
       "id": 71,
       "status": "expired"
+    },
+    {
+      "id": 132,
+      "status": "expired"
     }
   ],
   "skipped": [
@@ -140,10 +140,6 @@
     {
       "id": 134,
       "reason": "blocked_specific_ambiguity_or_representation: Catalogo descuento30% sin segmentar; PDF medicamentos hasta20%,otros hasta30%. No publicar30% universal ni sumar caja+reintegro. Requiere variantes por producto y hasta."
-    },
-    {
-      "id": 132,
-      "reason": "expired"
     },
     {
       "id": 129,
@@ -176,11 +172,15 @@
     {
       "id": 71,
       "reason": "expired"
+    },
+    {
+      "id": 132,
+      "reason": "expired"
     }
   ],
   "coverage_complete": false,
   "reason": "All known catalog campaigns individually reviewed; expired/ineligible and specific ambiguous campaigns excluded. Changed sources fail closed.",
   "bank": "solar",
-  "attempted_at": "2026-11-12T17:44:08.255826+00:00",
+  "attempted_at": "2026-11-13T15:31:59.619269+00:00",
   "rows": 60
 }

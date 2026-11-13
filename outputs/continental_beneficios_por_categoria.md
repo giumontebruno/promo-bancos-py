@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 834
+Total de beneficios/comercios: 832
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -160,7 +160,7 @@ Total de beneficios/comercios: 834
 | Petromax | 20%; 20% de reintegro | los viernes | Vigente hasta el 01 de octubre del 2027 | Todo el país |
 | Petropar - Curuguaty | 10%; 10% de reintegro | los viernes | Vigente hasta el 29 de enero de 2027 | Curuguaty |
 | Petrosur | 20%; 20% de reintegro | Los viernes | Vigente hasta el 13 de noviembre de 2026 | Todo el país |
-| Puma Energy | 15%; 15% de reintegro | los viernes | Vigente hasta el 30 de abril del 2027 | No especificado |
+| Puma Energy | 15%; 15% de reintegro | Los viernes | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 | Ultra Estaciones de Servicio | 10%; 10% de reintegro | Los viernes | Vigente hasta el 09 de abril de 2027 | No especificado |
 
 ## Estudios Jurídicos (1)
@@ -550,7 +550,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 
-## Promociones especiales (17)
+## Promociones especiales (18)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -567,6 +567,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | La Almenas - Las Almenitas - Las Colinas - Campoalto - Torrefuerte | 6% de reintegro | Todos los días | Desde el 1 de diciembre de 2026 hasta el 31 de diciembre de 2026 | Todo el país |
 | La Almenas - Las Almenitas - Las Colinas - Campoalto - Torrefuerte | Hasta 12 cuotas sin intereses | Todos los días | Desde el 15 de octubre de 2026 hasta el 31 de diciembre de 2026 | Todo el país |
 | Las Hortensias - Cine | 50%; 50% de reintegro | Todos los días | Vigente hasta el 10 de junio del 2027 | Pilar |
+| Mango /Cortefiel / Pedro de Hierro | 25%; 25% de reintegro; 20% de reintegro | No especificado | Vigente hasta el 13 de noviembre de 2026 | Asunción |
 | Nissei - Cyber Day | Hasta 18 cuotas sin intereses | No especificado | Vigente hasta el 04 de noviembre de 2026 | Todo el país |
 | Puerto Liebig | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de marzo de 2027 | Asunción |
 | The Vitamin Shoppe | 25%; 25% de reintegro | No especificado | Vigente hasta el 10 de noviembre de 2026 | Todo el país |
@@ -720,7 +721,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 
 _Se omitieron 41 filas en este resumen; están en el CSV._
 
-## Tiendas (207)
+## Tiendas (204)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -729,7 +730,6 @@ _Se omitieron 41 filas en este resumen; están en el CSV._
 | AB Alejandro Benítez Calzados - Encarnación | 20%; 20% de reintegro | Los jueves | Vigente hasta el 27 de mayo de 2027 | Encarnación |
 | AL Store | 20%; 20% de reintegro | Los jueves | Vigente hasta el 17 de junio de 2027 | No especificado |
 | Active | 20%; 20% de reintegro | Los jueves | Vigente hasta el 19 de febrero de 2027 | Naranjal |
-| Acuario Comercial | 20%; 20% de reintegro | Los jueves | Vigente hasta el 06 de noviembre de 2026 | Concepción |
 | Adidas | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Agugu Bebés | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de agosto de 2027 | Asunción |
 | Alborada Super Store | 20%; 20% de reintegro | Los jueves | Vigente hasta el 15 de julio de 2027 | No especificado |
@@ -804,8 +804,9 @@ _Se omitieron 41 filas en este resumen; están en el CSV._
 | Guess | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 01 de julio de 2027 | San Lorenzo |
 | HeartWood | 20%; 20% de reintegro | los jueves | Vigente hasta el 12 de agosto de 2027 | Santa Rita (Alto Paraná) |
 | Hey Dude | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 01 de julio de 2027 | Asunción |
+| Hope | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de agosto de 2027 | Asunción |
 
-_Se omitieron 127 filas en este resumen; están en el CSV._
+_Se omitieron 124 filas en este resumen; están en el CSV._
 
 ## Vehículos (38)
 

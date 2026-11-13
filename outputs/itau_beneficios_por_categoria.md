@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 458
+Total de beneficios: 462
 
 ## Alemania Cell
 
@@ -244,7 +244,6 @@ Total de beneficios: 458
 | Luminotecnia | 6 Cuotas sin intereses; hasta 6 cuotas sin intereses. | No especificado | 2026-01-06 hasta 2026-12-31 |
 | Maquicenter | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2022-12-05 hasta 2026-12-31 |
 | Olier | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2025-05-11 hasta 2026-12-31 |
-| Sara Comercial | 10 Cuotas sin intereses 15 %; Tenés 15% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2024-01-26 hasta 2026-11-16 |
 | Tecnocentro | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 35% de descuento y hasta 10 cuotas sin intereses | No especificado | 2026-01-08 hasta 2026-11-30 |
 
 ## Indumentaria
@@ -265,7 +264,7 @@ Total de beneficios: 458
 | Aphrodite | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. Aplica los martes. | Aplica los martes | 2025-10-03 hasta 2026-12-31 |
 | Areté | 20 %; 20% de ahorro | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
 | Armele | 20 % 12 Cuotas sin intereses; Tenes 20% de ahorro y hasta 12 cuotas sin intereses. | No especificado | 2023-08-30 hasta 2026-12-31 |
-| Ashley | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-01-13 hasta 2026-12-31 |
+| Ashley | 20 % 12 Cuotas sin intereses; 20% de ahorro y hasta 12 cuotas sin intereses. | No especificado | 2026-01-13 hasta 2026-12-31 |
 | Brave | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | CASA GIN | 20 %; Tenes 20% de reintegro. | Aplica Martes a Viernes; Martes a Viernes | 2026-10-01 hasta 2026-12-31 |
 | Casa Luma | 20 %; 20% de reintegro | Miercoles a Domingo | 2026-01-14 hasta 2026-12-31 |
@@ -276,8 +275,8 @@ Total de beneficios: 458
 | Coquetas legacy | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | El Café de aca | 20 %; Tenes 20% de reintegro | sábado a domingo | 2025-10-06 hasta 2026-12-31 |
 | Estudio Barcelona | 10 Cuotas sin intereses 10 %; Tenes 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-07-01 hasta 2026-12-31 |
-| Fabric Sushi | 20 %; Tenes 20% de reintegro. | lunes a jueves | 2026-09-07 hasta 2026-11-30 |
-| Fabric Sushi | 25 %; Tenes 25% de reintegro. | No especificado | 2026-01-01 hasta 2026-11-30 |
+| Fabric Sushi | 25 %; Tenes 25% de reintegro. | lunes a jueves | 2026-09-07 hasta 2026-11-30 |
+| Fabric Sushi | 20 %; Tenes 20% de reintegro. | No especificado | 2026-01-01 hasta 2026-11-30 |
 | Gilardini | 15 % 6 Cuotas sin intereses; 15% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-11-30 |
 | Golden Closet | 6 Cuotas sin intereses 20 %; 20% de reintegro y hasta 6 cuotas sin intereses. | Aplica los MIERCOLES, JUEVES Y VIERNES | 2025-08-14 hasta 2026-12-31 |
 | Gond Wana | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses | No especificado | 2026-01-12 hasta 2026-12-31 |
@@ -297,7 +296,7 @@ Total de beneficios: 458
 | Levis | 6 Cuotas sin intereses 15 %; 15% de ahorro y hasta 6 cuotas sin intereses. | Todos los jueves | 2025-01-01 hasta 2026-12-31 |
 | Loccitane | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. Aplica los martes. | Aplica los martes | 2025-10-03 hasta 2026-12-31 |
 | Luminotecnia | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | Todos los sábados | 2026-01-10 hasta 2026-12-26 |
-| Marketplace | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-01-13 hasta 2026-12-31 |
+| Marketplace | 20 % 12 Cuotas sin intereses; 20% de ahorro y hasta 12 cuotas sin intereses. | No especificado | 2026-01-13 hasta 2026-12-31 |
 | Maurice | 20 %; 20% de reintegro. | miércoles a domingo | 2026-01-01 hasta 2026-12-31 |
 | Mercato | 20 %; 20% de reintegro. | Miércoles a Domingo | 2025-01-02 hasta 2026-12-31 |
 | Musiu | 20 %; 20% de reintergo. | miércoles a domingo | 2025-01-02 hasta 2026-12-31 |
@@ -387,6 +386,7 @@ Total de beneficios: 458
 |---|---|---|---|
 | AVENTURA PARK | 10 % 10 Cuotas sin intereses; Tenés 10% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2018-01-01 hasta 2027-01-31 |
 | Estoy Jugueteria | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2025-06-06 hasta 2026-12-25 |
+| Owoki | 10 Cuotas sin intereses 20 %; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-12-01 hasta 2027-02-28 |
 
 ## Sallustro Sport San Martin
 
@@ -640,5 +640,9 @@ Total de beneficios: 458
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Jack & Jones | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro + hasta 10 cuotas sin intereses | No especificado | 2025-10-10 hasta 2026-11-14 |
+| Sara Comercial | 10 Cuotas sin intereses 15 %; Tenés 15% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2024-01-26 hasta 2026-11-16 |
 | Sara Comercial | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2025-06-26 hasta 2026-11-14 |
+| Shopping Mariscal | 6 Cuotas sin intereses 25 % Hasta; Tenés hasta 20% de ahorro + 5% pagando con APPLE PAY y GPAY y hasta 6 cuotas sin intereses en locales adheridos. | No especificado | 2020-12-15 hasta 2026-11-14 |
+| Shopping Multiplaza | 40 % Hasta 6 Cuotas sin intereses; Tenés hasta 40% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2020-11-14 hasta 2026-11-15 |
 

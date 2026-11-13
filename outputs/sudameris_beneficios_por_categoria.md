@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 354
+Total de promociones: 355
 
 ## Clubes
 
@@ -150,6 +150,7 @@ Total de promociones: 354
 |---|---|---|---|
 | Aniversario – Distrito Perseverancia | Hasta 12 cuotas sin interés; Tope de compra: Gs. 15.000.000. | No especificado | • Desde el 30 de octubre hasta el 1 de noviembre de 2026. |
 | DISTRITO PERSEVERANCIA - BENEFICIOS PERMANENTES | ¡Disfrutá de Distrito Perseverancia todo el año! Aprovechá hasta 12 cuotas sin interés en locales adheridos. Vigencia: Del 03/08 al 31/12/2026. | No especificado | Del 03/08 al 31/12/2026. |
+| Distrito Perseverancia | Hasta 12 cuotas sin interés | No especificado | • Desde el 03 de agosto hasta el 31 de diciembre de 2026. |
 | Late Night – Distrito Perseverancia | Hasta 12 cuotas sin interés | No especificado | •Jueves 29 de octubre 2026. |
 | McLaren Mastercard Formula 1®Team | Sudameris te acerca la emoción del simulador oficial del McLaren Mastercard Formula 1® Team por primera vez en Paraguay. 📍 Distrito Perseverancia 🗓️ Del 21 de septiembre hasta el 1 | No especificado | No especificado |
 | PROMOCIÓN MCLAREN MASTERCARD F1 TEAM | Participación en sorteos de merchandising McLaren Mastercard | Todos los días | Desde 2026-04-10 hasta 2026-11-06 |

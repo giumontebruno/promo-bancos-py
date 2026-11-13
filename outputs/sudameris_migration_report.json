@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T17:33:12.554083+00:00",
+  "checked_at": "2026-11-13T15:19:15.122591+00:00",
   "campaigns": 58,
   "failures": [
     {
@@ -88,15 +88,10 @@
       "reason": "No quantified benefit on official page; retained in staging only"
     },
     {
-      "campaign": "Distrito Perseverancia",
-      "url": "https://www.sudameris.com.py/personas/beneficios/distrito-perseverancia",
-      "reason": "No quantified benefit on official page; retained in staging only"
-    },
-    {
       "campaign": "scoped_review",
       "url": "https://www.sudameris.com.py/descargas/documentos/6ad238969b346325834826/B%26C-VEREDEADA-17-10-26.pdf",
       "reason": "404 Client Error: Not Found for url: https://www.sudameris.com.py/descargas/documentos/6ad238969b346325834826/B%26C-VEREDEADA-17-10-26.pdf"
     }
   ],
-  "retained_unconfirmed": 289
+  "retained_unconfirmed": 290
 }

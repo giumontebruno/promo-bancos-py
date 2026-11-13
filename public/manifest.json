@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T17:47:08.226767+00:00",
-  "promotion_count": 4247,
+  "generated_at": "2026-11-13T15:37:22.505208+00:00",
+  "promotion_count": 4255,
   "banks": [
     "Atlas",
     "BNF",
@@ -1439,9 +1439,6 @@
     "679372c9ec9ad997": "c044dfedee7cc091",
     "53d611b44f2e2cd9": "5b998be7e989176c",
     "4811305b68a9a84d": "ec94e997f8fa3ae4",
-    "f320bfef8b9ee79c": "920104d28aed623b",
-    "de6fc87be4310f59": "e57f551fcc7ebc98",
-    "1b994449f06361cf": "c6a9ae2b07bbde01",
     "61082383b5eb20f7": "bde1f47827e1e424",
     "ee04afe8a7d06f42": "f9f9411abc07ae0b",
     "1ef91b46e12bcac4": "b34be2a03b6c9d32",
@@ -1570,7 +1567,10 @@
     "f32df86d27e78a78": "a14830b567dc22b1",
     "fb55900a68b24081": "96d8eb9049f4f935",
     "44226b82a3682cdb": "ea306ba34ba7fcdf",
-    "3e6bec2b7296ff1f": "79db00b58924240a"
+    "3e6bec2b7296ff1f": "79db00b58924240a",
+    "3714f91394a2a036": "5d32c85730d3eae4",
+    "4be488d3f6b21a68": "e7cefbccde8f4f0b",
+    "59fe8498388fc63e": "fc86c6c6339d9d59"
   },
   "favorite_unavailable": {
     "84714bfec7199316": {
@@ -4148,6 +4148,27 @@
       "merchant_name": "Restaurante - Don Papalo",
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
       "last_known_ends_on": "2026-12-06"
+    },
+    "920104d28aed623b": {
+      "reason": "not_in_current_sources",
+      "bank": "Interfisa",
+      "merchant_name": "OPTICA ARAR",
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20OPTICA%20ARAR3.pdf",
+      "last_known_ends_on": "2026-12-30"
+    },
+    "e57f551fcc7ebc98": {
+      "reason": "not_in_current_sources",
+      "bank": "Interfisa",
+      "merchant_name": "OPTICA ARAR",
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20OPTICA%20ARAR3.pdf",
+      "last_known_ends_on": "2026-12-30"
+    },
+    "c6a9ae2b07bbde01": {
+      "reason": "not_in_current_sources",
+      "bank": "Interfisa",
+      "merchant_name": "OPTICA ARAR",
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20OPTICA%20ARAR3.pdf",
+      "last_known_ends_on": "2026-12-30"
     }
   },
   "schema_version": 2
