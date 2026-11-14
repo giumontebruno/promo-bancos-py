@@ -181,6 +181,6 @@
   "coverage_complete": false,
   "reason": "All known catalog campaigns individually reviewed; expired/ineligible and specific ambiguous campaigns excluded. Changed sources fail closed.",
   "bank": "solar",
-  "attempted_at": "2026-11-13T15:31:59.619269+00:00",
+  "attempted_at": "2026-11-14T14:17:39.120472+00:00",
   "rows": 60
 }

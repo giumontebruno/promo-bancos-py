@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 462
+Total de beneficios: 469
 
 ## Alemania Cell
 
@@ -43,6 +43,8 @@ Total de beneficios: 462
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Asismed | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2025-04-04 hasta 2026-12-31 |
+| Dermage | 10 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses | No especificado | 2025-09-27 hasta 2026-11-26 |
+| Fuschia | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses | Aplica los sábados | 2025-09-27 hasta 2026-11-28 |
 | HALO CLUB | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-11-11 hasta 2026-11-25 |
 | ODONTOS | 12 Cuotas sin intereses; Tenes 12 cuotas sin intereses | No especificado | 2026-03-27 hasta 2026-12-31 |
 | Optica Santa Lucía | 60 % Hasta 10 Cuotas sin intereses; hasta 60% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-07-24 hasta 2026-11-25 |
@@ -236,7 +238,9 @@ Total de beneficios: 462
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Achon | 10 Cuotas sin intereses 10 %; Tenes 10% de descuento + hasta 10 cuotas sin intereses | No especificado | 2026-01-05 hasta 2026-11-30 |
+| CENTRO DE MATERIALES | 40 % 10 Cuotas sin intereses; Tenes 40% de ahorro con Tarjeta de Crédito y hasta 10 cuotas sin intereses. | No especificado | 2026-04-27 hasta 2026-11-30 |
 | Casa Pro | 30 % Hasta 6 Cuotas sin intereses; Tenes hasta 30% de descuento en caja + hasta 6 cuotas sin intereses | No especificado | 2025-06-19 hasta 2026-12-31 |
+| Corporacion Mercantil | 25 % 10 Cuotas sin intereses; 25% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-08-03 hasta 2026-12-31 |
 | Essen | 10 Cuotas sin intereses 30 %; Tenes 30% de ahorro en combos promocionales con tarjeta de crédito Itaú y hasta 10 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
 | Ipale | 30 % 10 Cuotas sin intereses; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-23 hasta 2026-11-30 |
 | Kekas Design | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-11-10 hasta 2026-11-23 |
@@ -244,12 +248,14 @@ Total de beneficios: 462
 | Luminotecnia | 6 Cuotas sin intereses; hasta 6 cuotas sin intereses. | No especificado | 2026-01-06 hasta 2026-12-31 |
 | Maquicenter | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2022-12-05 hasta 2026-12-31 |
 | Olier | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2025-05-11 hasta 2026-12-31 |
+| Saccaro | 10 Cuotas sin intereses 25 %; Tenes 25% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-06-09 hasta 2026-11-30 |
 | Tecnocentro | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 35% de descuento y hasta 10 cuotas sin intereses | No especificado | 2026-01-08 hasta 2026-11-30 |
 
 ## Indumentaria
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Springfield | 20 % 10 Cuotas sin intereses; Tenés 20% ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-12-26 hasta 2026-11-19 |
 | Todo Costura | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-12 hasta 2026-12-31 |
 | Zora | 6 Cuotas sin intereses 20 %; 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-11-05 hasta 2026-11-19 |
 
@@ -640,6 +646,7 @@ Total de beneficios: 462
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| CAPRO | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses | No especificado | 2026-11-14 hasta 2026-11-15 |
 | Jack & Jones | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro + hasta 10 cuotas sin intereses | No especificado | 2025-10-10 hasta 2026-11-14 |
 | Sara Comercial | 10 Cuotas sin intereses 15 %; Tenés 15% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2024-01-26 hasta 2026-11-16 |
 | Sara Comercial | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2025-06-26 hasta 2026-11-14 |

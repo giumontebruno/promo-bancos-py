@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T15:37:22.505208+00:00",
-  "promotion_count": 4255,
+  "generated_at": "2026-11-14T14:22:35.648166+00:00",
+  "promotion_count": 4264,
   "banks": [
     "Atlas",
     "BNF",
@@ -4169,6 +4169,20 @@
       "merchant_name": "OPTICA ARAR",
       "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/BYC%20OPTICA%20ARAR3.pdf",
       "last_known_ends_on": "2026-12-30"
+    },
+    "e219372906e11d0e": {
+      "reason": "not_in_current_sources",
+      "bank": "Atlas",
+      "merchant_name": "Nueva Americana",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "last_known_ends_on": null
+    },
+    "49f5ed48f86f9f1c": {
+      "reason": "not_in_current_sources",
+      "bank": "Bancop",
+      "merchant_name": "CINES & TEATROS",
+      "source_url": "https://www.bancop.com.py:443/public/e060374ea5e92fd6b566abf0c6099d37.pdf",
+      "last_known_ends_on": "2026-12-31"
     }
   },
   "schema_version": 2

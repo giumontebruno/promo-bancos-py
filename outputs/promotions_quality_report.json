@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T15:37:22.505208+00:00",
-  "input_count": 3488,
-  "promotion_count": 4255,
+  "generated_at": "2026-11-14T14:22:35.648166+00:00",
+  "input_count": 3497,
+  "promotion_count": 4264,
   "duplicates_removed": -767,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
@@ -1409,26 +1409,26 @@
     "59fe8498388fc63e": "fc86c6c6339d9d59"
   },
   "by_bank": {
-    "Atlas": 55,
+    "Atlas": 54,
     "BNF": 142,
-    "Bancop": 68,
+    "Bancop": 67,
     "Basa": 95,
     "Continental": 938,
     "Coop. Universitaria": 72,
     "Familiar": 420,
     "GNB": 508,
     "Interfisa": 214,
-    "Itaú": 627,
+    "Itaú": 634,
     "Solar": 63,
-    "Sudameris": 357,
+    "Sudameris": 361,
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 350,
+    "source_verification_pending": 354,
     "limits_unconfirmed": 451,
-    "validity_unconfirmed": 37,
+    "validity_unconfirmed": 40,
     "multiple_purchase_limits": 338,
-    "source_amount_conflict": 19,
+    "source_amount_conflict": 20,
     "multiple_refund_limits": 195
   },
   "review_queue": [
@@ -1503,15 +1503,6 @@
       "merchant": "Impuestos al día",
       "issues": [
         "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "e219372906e11d0e",
-      "bank": "Atlas",
-      "merchant": "Nueva Americana",
-      "issues": [
-        "validity_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
@@ -5231,6 +5222,15 @@
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16921&c=1115"
     },
     {
+      "id": "c8ac25a1a6151891",
+      "bank": "Itaú",
+      "merchant": "Fuschia",
+      "issues": [
+        "source_amount_conflict"
+      ],
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16662&c=10"
+    },
+    {
       "id": "41d4e33bbd542505",
       "bank": "Itaú",
       "merchant": "Benditta Collection",
@@ -6755,6 +6755,46 @@
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/929/detalle"
+    },
+    {
+      "id": "8200200d641d6036",
+      "bank": "Sudameris",
+      "merchant": "Adolfo Dominguez",
+      "issues": [
+        "source_verification_pending",
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/adolfo-dominguez"
+    },
+    {
+      "id": "22d04f5802e4bba6",
+      "bank": "Sudameris",
+      "merchant": "Baby Cottons",
+      "issues": [
+        "source_verification_pending",
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/baby-cottons"
+    },
+    {
+      "id": "962d3ad2f21f87d4",
+      "bank": "Sudameris",
+      "merchant": "Caro Cuore",
+      "issues": [
+        "source_verification_pending",
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/caro-cuore"
+    },
+    {
+      "id": "c33232e94f1c8f60",
+      "bank": "Sudameris",
+      "merchant": "Rapsodia",
+      "issues": [
+        "source_verification_pending",
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/rapsodia"
     },
     {
       "id": "081091c5a967bb9c",

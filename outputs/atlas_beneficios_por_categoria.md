@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 35
+Total de beneficios: 34
 
 ## Bienestar
 
@@ -39,7 +39,6 @@ Total de beneficios: 35
 | Estaciones de Servicio | 25% de reintegro; 20% de reintegro | Todos los Martes | Mínimo de compra Gs. 200.000. Tope de compra acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 700.000 para tarjetas de crédito Clásica y Oro en  |
 | Impuestos al día | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | L'uomo | 6 cuotas sin intereses | Todos los días | Desde 2026-06-01 hasta 2026-12-31 |
-| Nueva Americana | 25% de descuento; 20% de descuento; 12 cuotas sin intereses | 13 y 14 de noviembre | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 200.000. Vigente los días 12 y 13 de noviembre del 2026. Válido para transacciones realizadas a través del POS de la R |
 | Pinedo Shopping | 20% de descuento; 3 cuotas sin intereses | Todos los viernes | El descuento se realiza en caja. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica para tiendas adheridas a la promoci |
 | delSol | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Promoción válida todos los días para tarjetas afinidad delSol en todos |
 

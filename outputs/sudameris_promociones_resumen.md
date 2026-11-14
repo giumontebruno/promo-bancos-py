@@ -2,10 +2,14 @@
 
 Extraidas desde https://www.sudameris.com.py/personas/beneficios
 
-Total: 58
+Total: 62
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
+| Sudameris | Rapsodia | • Desde el viernes 13 al sábado 14 de noviembre 2026. | • Desde el viernes 13 al sábado 14 de noviembre 2026. • 20% de descuento en caja pagando con tarjetas de crédito de Sudameris. • 25% de descuento en caja pagando con tarjetas Sudameris Mastercard Black y Visa Infinite. • | https://www.sudameris.com.py/personas/beneficios/rapsodia |
+| Sudameris | Caro Cuore | • Desde el viernes 13 al sábado 14 de noviembre 2026. | • Desde el viernes 13 al sábado 14 de noviembre 2026. • 20% de descuento en caja pagando con tarjetas de crédito de Sudameris. • 25% de descuento en caja pagando con tarjetas Sudameris Mastercard Black y Visa Infinite. • | https://www.sudameris.com.py/personas/beneficios/caro-cuore |
+| Sudameris | Baby Cottons | • Desde el viernes 13 al sábado 14 de noviembre 2026. | • Desde el viernes 13 al sábado 14 de noviembre 2026. • 20% de descuento en caja pagando con tarjetas de crédito de Sudameris. • 25% de descuento en caja pagando con tarjetas Sudameris Mastercard Black y Visa Infinite. • | https://www.sudameris.com.py/personas/beneficios/baby-cottons |
+| Sudameris | Adolfo Dominguez | • Desde el viernes 13 al sábado 14 de noviembre 2026. | • Desde el viernes 13 al sábado 14 de noviembre 2026. • 20% de descuento en caja pagando con tarjetas de crédito de Sudameris. • 25% de descuento en caja pagando con tarjetas Sudameris Mastercard Black y Visa Infinite. • | https://www.sudameris.com.py/personas/beneficios/adolfo-dominguez |
 | Sudameris | Distrito Perseverancia | • Desde el 03 de agosto hasta el 31 de diciembre de 2026. | • Hasta 12 cuotas sin interés en tiendas seleccionadas dentro de Distrito Perseverancia. | https://www.sudameris.com.py/personas/beneficios/distrito-perseverancia |
 | Sudameris | Trovari e-commerce | • Desde el 06 al 29 de noviembre 2026 | • Martes y viernes. • 20% de descuento pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/trovari-e-commerce |
 | Sudameris | Trovari | • Desde el 06 al 29 de noviembre 2026 | • Viernes a domingos. • Desde el 06 al 29 de noviembre 2026 • 20% de descuento en caja pagando con tarjetas de crédito de Sudameris. • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/tovari |

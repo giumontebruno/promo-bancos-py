@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 355
+Total de promociones: 359
 
 ## Clubes
 
@@ -257,8 +257,12 @@ Total de promociones: 355
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | ADOLFO DOMINGUEZ | 20%; Hasta 10 cuotas sin interés | No especificado | • Desde el 07 y 08 de octubre 2026. |
+| Adolfo Dominguez | 20%; 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el viernes 13 al sábado 14 de noviembre 2026. |
+| Baby Cottons | 20%; 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el viernes 13 al sábado 14 de noviembre 2026. |
+| Caro Cuore | 20%; 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el viernes 13 al sábado 14 de noviembre 2026. |
 | Cecconello | 20% de descuento en caja | Todos los días | Desde 2026-10-07 hasta 2026-10-17 |
 | Cecconello | Hasta 10 cuotas sin intereses | Todos los días | Desde 2026-10-07 hasta 2026-10-17 |
+| Rapsodia | 20%; 25%; Hasta 10 cuotas sin interés | No especificado | • Desde el viernes 13 al sábado 14 de noviembre 2026. |
 | YOUNIQUE | 25%; 30%; Hasta 12 cuotas sin interés | No especificado | Del 01 de setiembre hasta el 31 de octubre 2026 |
 | Younique | 25%; 30%; Hasta 12 cuotas sin interés | Todos los martes | • Del 3 de noviembre hasta el 28 de febrero 2026. |
 | Younique | 25% de descuento en caja | Martes y miércoles | Desde 2026-09-01 hasta 2026-10-31 |
