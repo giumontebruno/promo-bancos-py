@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T14:22:35.648166+00:00",
-  "promotion_count": 4264,
+  "generated_at": "2026-11-15T14:56:15.943111+00:00",
+  "promotion_count": 4266,
   "banks": [
     "Atlas",
     "BNF",
@@ -1570,7 +1570,8 @@
     "3e6bec2b7296ff1f": "79db00b58924240a",
     "3714f91394a2a036": "5d32c85730d3eae4",
     "4be488d3f6b21a68": "e7cefbccde8f4f0b",
-    "59fe8498388fc63e": "fc86c6c6339d9d59"
+    "59fe8498388fc63e": "fc86c6c6339d9d59",
+    "c179e4f73e656033": "1462c356059fb368"
   },
   "favorite_unavailable": {
     "84714bfec7199316": {
@@ -4176,13 +4177,6 @@
       "merchant_name": "Nueva Americana",
       "source_url": "https://www.bancoatlas.com.py/web/beneficios",
       "last_known_ends_on": null
-    },
-    "49f5ed48f86f9f1c": {
-      "reason": "not_in_current_sources",
-      "bank": "Bancop",
-      "merchant_name": "CINES & TEATROS",
-      "source_url": "https://www.bancop.com.py:443/public/e060374ea5e92fd6b566abf0c6099d37.pdf",
-      "last_known_ends_on": "2026-12-31"
     }
   },
   "schema_version": 2

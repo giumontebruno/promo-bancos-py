@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 469
+Total de beneficios: 467
 
 ## Alemania Cell
 
@@ -503,9 +503,9 @@ Total de beneficios: 469
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Claro | 12 Cuotas sin intereses; Tenes hasta 12 cuotas sin intereses. | No especificado | 2025-07-07 hasta 2026-12-31 |
-| Compumarket | 25 % 18 Cuotas sin intereses; Tenés hasta 12 cuotas sin intereses. | No especificado | 2026-11-09 hasta 2026-11-18 |
 | Hp Store | 25 % 10 Cuotas sin intereses; Tenes hasta 25% de descuento y hasta 10 cuotas sin intereses. | No especificado | 2025-01-02 hasta 2026-11-30 |
 | Personal | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses. | No especificado | 2024-04-05 hasta 2026-12-31 |
+| Tienda Móvil | 18 Cuotas sin intereses; hasta 18 cuotas sin intereses | No especificado | 2025-01-24 hasta 2026-11-30 |
 | Tigo | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
 
 ## Tienda Movil
@@ -647,9 +647,7 @@ Total de beneficios: 469
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | CAPRO | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses | No especificado | 2026-11-14 hasta 2026-11-15 |
-| Jack & Jones | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro + hasta 10 cuotas sin intereses | No especificado | 2025-10-10 hasta 2026-11-14 |
+| Compumarket | 25 % 18 Cuotas sin intereses; Tenés hasta 12 cuotas sin intereses. | No especificado | 2026-11-09 hasta 2026-11-18 |
 | Sara Comercial | 10 Cuotas sin intereses 15 %; Tenés 15% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2024-01-26 hasta 2026-11-16 |
-| Sara Comercial | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2025-06-26 hasta 2026-11-14 |
-| Shopping Mariscal | 6 Cuotas sin intereses 25 % Hasta; Tenés hasta 20% de ahorro + 5% pagando con APPLE PAY y GPAY y hasta 6 cuotas sin intereses en locales adheridos. | No especificado | 2020-12-15 hasta 2026-11-14 |
 | Shopping Multiplaza | 40 % Hasta 6 Cuotas sin intereses; Tenés hasta 40% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2020-11-14 hasta 2026-11-15 |
 

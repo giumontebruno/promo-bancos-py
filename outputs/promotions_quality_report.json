@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14T14:22:35.648166+00:00",
-  "input_count": 3497,
-  "promotion_count": 4264,
-  "duplicates_removed": -767,
+  "generated_at": "2026-11-15T14:56:15.943111+00:00",
+  "input_count": 3496,
+  "promotion_count": 4266,
+  "duplicates_removed": -770,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1406,19 +1406,20 @@
     "3e6bec2b7296ff1f": "79db00b58924240a",
     "3714f91394a2a036": "5d32c85730d3eae4",
     "4be488d3f6b21a68": "e7cefbccde8f4f0b",
-    "59fe8498388fc63e": "fc86c6c6339d9d59"
+    "59fe8498388fc63e": "fc86c6c6339d9d59",
+    "c179e4f73e656033": "1462c356059fb368"
   },
   "by_bank": {
     "Atlas": 54,
     "BNF": 142,
-    "Bancop": 67,
+    "Bancop": 68,
     "Basa": 95,
     "Continental": 938,
     "Coop. Universitaria": 72,
     "Familiar": 420,
     "GNB": 508,
     "Interfisa": 214,
-    "Itaú": 634,
+    "Itaú": 635,
     "Solar": 63,
     "Sudameris": 361,
     "ueno bank": 696
