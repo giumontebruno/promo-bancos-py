@@ -812,7 +812,7 @@ _Se omitieron 124 filas en este resumen; están en el CSV._
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
-| ACE Tape Ruvicha | 20%; Hasta 12 cuotas sin intereses; 20% de descuento | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
+| ACE - Grupo Tape Ruvicha | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de noviembre de 2027 | Asunción |
 | Acisa | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 09 de febrero de 2027 | Todo el país |
 | AutoShopping | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 02 de enero del 2027 | San Ignacio, Misiones |
 | Automaq | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de octubre de 2027 | Todo el país |
@@ -828,7 +828,7 @@ _Se omitieron 124 filas en este resumen; están en el CSV._
 | Euroimport | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 13 de agosto de 2027 | Asunción |
 | Eze Equipamientos | 10%; hasta 12 cuotas sin intereses; 10% de descuento | todos los días | Vigente hasta el 18 de marzo de 2027 | San Ignacio, Misiones |
 | Ferrari Autocentro | Hasta 12 cuotas sin intereses | Todos los días | Vigente desde el 19 de enero de 2026 al 18 de enero del 2027 | Ciudad del Este |
-| Ford - Tape Ruvicha | 15%; hasta 24 cuotas sin intereses; 15% de descuento | Todos los días | Vigente hasta el 14 de noviembre del 2026 | No especificado |
+| Ford Posventa - Tape Ruvicha | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 14 de noviembre de 2027 | Todo el país |
 | Full Equipo | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de enero de 2027 | Asunción |
 | GM Centro S.A | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de septiembre de 2027 | Mariano Roque Alonso |
 | Garden | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 13 de abril de 2027 | No especificado |
@@ -848,7 +848,7 @@ _Se omitieron 124 filas en este resumen; están en el CSV._
 | San Thiago Repuestos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 05 de junio de 2027 | Nueva Esperanza (Canindeyú) |
 | Score Car | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 10 de abril del 2027 | Ciudad del Este |
 | Taller Juank | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 11 de septiembre de 2027 | Encarnación |
-| Tonina | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de noviembre de 2026 | No especificado |
+| Tonina | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de noviembre de 2027 | Todo el país |
 | Toyotoshi | 30%; Hasta 12 cuotas sin intereses; 30% de descuento; 20% de descuento; 10% de descuento; 5% de descuento | Todos los días | Vigente hasta el 03 de julio de 2027 | Todo el país |
 
 ## Veterinarias (7)

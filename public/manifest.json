@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T14:56:15.943111+00:00",
-  "promotion_count": 4266,
+  "generated_at": "2026-11-16T17:09:20.914101+00:00",
+  "promotion_count": 4274,
   "banks": [
     "Atlas",
     "BNF",
@@ -73,6 +73,7 @@
     "Financiación",
     "Florerías",
     "Frigorificos",
+    "Fuschia",
     "Gastronomia",
     "Gastronomía",
     "Generales",
@@ -90,7 +91,6 @@
     "Inmuebles",
     "Instituciones Educativas",
     "Itaú Personal Bank",
-    "Joyas",
     "Joyerías",
     "Jugueterías",
     "Katuete",
@@ -1571,7 +1571,11 @@
     "3714f91394a2a036": "5d32c85730d3eae4",
     "4be488d3f6b21a68": "e7cefbccde8f4f0b",
     "59fe8498388fc63e": "fc86c6c6339d9d59",
-    "c179e4f73e656033": "1462c356059fb368"
+    "c179e4f73e656033": "1462c356059fb368",
+    "c8ac25a1a6151891": "5e4f8a72bd828b50",
+    "7a77c0e3c4c3d45d": "01a843ac9d14eba6",
+    "6d1b0277e2be4405": "2fd6dbf4e27c620b",
+    "40da645d3696d520": "62c11a7886814515"
   },
   "favorite_unavailable": {
     "84714bfec7199316": {
@@ -4177,6 +4181,27 @@
       "merchant_name": "Nueva Americana",
       "source_url": "https://www.bancoatlas.com.py/web/beneficios",
       "last_known_ends_on": null
+    },
+    "fa7b8799fd55e59f": {
+      "reason": "not_in_current_sources",
+      "bank": "Atlas",
+      "merchant_name": "Parfois",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "last_known_ends_on": null
+    },
+    "dcc81d92434c7443": {
+      "reason": "not_in_current_sources",
+      "bank": "Atlas",
+      "merchant_name": "Biggie",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "last_known_ends_on": "2026-12-15"
+    },
+    "d5af13b5ac1f8e0d": {
+      "reason": "not_in_current_sources",
+      "bank": "Continental",
+      "merchant_name": "ACE Tape Ruvicha",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "last_known_ends_on": "2026-12-31"
     }
   },
   "schema_version": 2

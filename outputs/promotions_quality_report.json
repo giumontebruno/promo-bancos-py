@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-15T14:56:15.943111+00:00",
-  "input_count": 3496,
-  "promotion_count": 4266,
-  "duplicates_removed": -770,
+  "generated_at": "2026-11-16T17:09:20.914101+00:00",
+  "input_count": 3499,
+  "promotion_count": 4274,
+  "duplicates_removed": -775,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1407,19 +1407,23 @@
     "3714f91394a2a036": "5d32c85730d3eae4",
     "4be488d3f6b21a68": "e7cefbccde8f4f0b",
     "59fe8498388fc63e": "fc86c6c6339d9d59",
-    "c179e4f73e656033": "1462c356059fb368"
+    "c179e4f73e656033": "1462c356059fb368",
+    "c8ac25a1a6151891": "5e4f8a72bd828b50",
+    "7a77c0e3c4c3d45d": "01a843ac9d14eba6",
+    "6d1b0277e2be4405": "2fd6dbf4e27c620b",
+    "40da645d3696d520": "62c11a7886814515"
   },
   "by_bank": {
-    "Atlas": 54,
+    "Atlas": 52,
     "BNF": 142,
     "Bancop": 68,
     "Basa": 95,
-    "Continental": 938,
+    "Continental": 940,
     "Coop. Universitaria": 72,
     "Familiar": 420,
     "GNB": 508,
     "Interfisa": 214,
-    "Itaú": 635,
+    "Itaú": 643,
     "Solar": 63,
     "Sudameris": 361,
     "ueno bank": 696
@@ -1427,8 +1431,8 @@
   "issue_counts": {
     "source_verification_pending": 354,
     "limits_unconfirmed": 451,
-    "validity_unconfirmed": 40,
-    "multiple_purchase_limits": 338,
+    "validity_unconfirmed": 39,
+    "multiple_purchase_limits": 337,
     "source_amount_conflict": 20,
     "multiple_refund_limits": 195
   },
@@ -1531,16 +1535,6 @@
       "merchant": "SUEÑOLAR",
       "issues": [
         "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "fa7b8799fd55e59f",
-      "bank": "Atlas",
-      "merchant": "Parfois",
-      "issues": [
-        "validity_unconfirmed",
-        "multiple_purchase_limits"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
@@ -5223,15 +5217,6 @@
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16921&c=1115"
     },
     {
-      "id": "c8ac25a1a6151891",
-      "bank": "Itaú",
-      "merchant": "Fuschia",
-      "issues": [
-        "source_amount_conflict"
-      ],
-      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16662&c=10"
-    },
-    {
       "id": "41d4e33bbd542505",
       "bank": "Itaú",
       "merchant": "Benditta Collection",
@@ -5260,6 +5245,15 @@
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=1040"
+    },
+    {
+      "id": "5e4f8a72bd828b50",
+      "bank": "Itaú",
+      "merchant": "Fuschia",
+      "issues": [
+        "source_amount_conflict"
+      ],
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16662&c=10"
     },
     {
       "id": "492690ff0f68bb90",

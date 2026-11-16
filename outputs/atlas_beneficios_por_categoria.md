@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 34
+Total de beneficios: 32
 
 ## Bienestar
 
@@ -49,12 +49,6 @@ Total de beneficios: 34
 | Renová tu Hogar | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | SUEÑOLAR | 18 Cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 y transacciones realizadas a través del POS de la red Infonet. Válido todos los días hasta el 31 de diciembre en las tiendas Sueñolar y tie |
 
-## Joyas
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Parfois | 25% de reintegro; 20% de reintegro; hasta 6 cuotas sin intereses | 12 al 15 de noviembre | Promoción válida solo para la tienda Parfois en Shopping Paris de CDE. Tope de compra Gs. 2.500.000 para TC Visa Infinite, Gs. 2.000.000 para TC Mastercard Black, Visa Signature, Visa Clásica y Visa Oro. La cantidad de c |
-
 ## Moda
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -68,7 +62,6 @@ Total de beneficios: 34
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | BOX Mayorista | 20% de reintegro | Tercer Lunes del mes | Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para todas las tarjetas de crédito. Las transacciones deben ser realizadas a través del POS de la Red Infonet. Beneficio exclusivo para consumo persona |
-| Biggie | 20% de reintegro; +5% de reintegro | 15 de cada mes | Monto mínimo de compra Gs. 50.000. Tope de compra acumulado por cuenta de tarjeta Gs. 800.000 para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Gs. 400.000 para tarjetas de crédito Clásica, Oro y |
 | Delimarket | 20% de reintegro; 15% de reintegro | Todos los Sábados | Tope de compra acumulado por cuenta de tarjeta Gs. 2.000.000 para tarjetas de crédito delSol Atlas Visa Signature, Gs. 1.500.000 para tarjetas de crédito delSol Atlas Visa Clásica. Aplica para compras realizadas a través |
 | Gran Vía | 20% de reintegro | Tercer miércoles del mes | Tope de compra acumulado en comercios adheridos a la promoción de “Supermercados zona Este” Gs. 1.000.000 por cuneta de tarjeta, para compras a través del POS de la Red Infonet. Vigente el tercer miércoles del mes hasta  |
 | Supermercados | 20% de reintegro | Todos los Viernes | Mínimo de compra para todas las afinidades Gs. 200.000.Tope de compra mensual acumulado por cuenta de tarjeta Gs. 1.000.000 para tarjetas de crédito Visa Infinite, Mastercard Black y Visa Signature y Gs. 700.000 para tar |
