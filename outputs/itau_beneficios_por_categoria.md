@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 472
+Total de beneficios: 473
 
 ## Alemania Cell
 
@@ -262,6 +262,8 @@ Total de beneficios: 472
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Bazzar | 30 % 6 Cuotas sin intereses; Tenes 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-12-27 hasta 2026-11-21 |
+| Laguna Blanca | 6 Cuotas sin intereses 20 %; Tenés 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-04-01 hasta 2026-11-30 |
 | Todo Costura | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-12 hasta 2026-12-31 |
 
 ## Itaú Personal Bank
@@ -550,6 +552,7 @@ Total de beneficios: 472
 | Municipalidad de San Bernardino | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
 | New Balance | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Nice | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
+| PIK | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | No especificado | 2026-07-21 hasta 2026-11-21 |
 | Pampero | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Patrol | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Primer Martes | 25 % Hasta 10 Cuotas sin intereses; hasta 25% de ahorro y hasta 10 cuotas sin intereses + 10% con código QR, Apple Pay, Google Pay. | No especificado | 2026-01-06 hasta 2026-12-01 |
@@ -651,8 +654,6 @@ Total de beneficios: 472
 | APRENDIENDO A QUERER-ME | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-11-19 |
 | Casa rica | 20 %; 20% de ahorro. | No especificado | 2025-11-20 hasta 2026-11-19 |
 | Compumarket | 25 % 18 Cuotas sin intereses; Tenés hasta 12 cuotas sin intereses. | No especificado | 2026-11-09 hasta 2026-11-18 |
-| Marketplace | 25 % Hasta 12 Cuotas sin intereses; Tenes 20% de ahorro + 5% pagando con PERSONAL BANK y hasta 12 cuotas sin intereses. | No especificado | 2025-11-06 hasta 2026-11-16 |
-| Sara Comercial | 10 Cuotas sin intereses 15 %; Tenés 15% de reintegro y hasta 10 cuotas sin intereses. | No especificado | 2024-01-26 hasta 2026-11-16 |
 | Springfield | 20 % 10 Cuotas sin intereses; Tenés 20% ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-12-26 hasta 2026-11-19 |
 | Zora | 6 Cuotas sin intereses 20 %; 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-11-05 hasta 2026-11-19 |
 

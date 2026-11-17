@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 832
+Total de beneficios/comercios: 833
 
 ## Agencias de Viaje y Compañías Aéreas (6)
 
@@ -206,13 +206,13 @@ Total de beneficios/comercios: 832
 | Farmalab | 15%; 15% de reintegro | los martes | Vigente hasta 13 de abril de 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | Naranjal |
 | Farmalife | 20%; 20% de reintegro | los martes | Vigente hasta el 06 de abril de 2027 | San Estanislao |
 | Farmaoliva | 40%; 15% de reintegro; 25% de descuento; 15% de descuento | los martes | Vigente hasta el 05 de enero del 2027 | No especificado |
-| Farmatotal | 30%; 10% de reintegro; 20% de descuento | Los martes | Vigente hasta el 10 de noviembre de 2026 | No especificado |
+| Farmatotal | 30%; 10% de reintegro; 20% de descuento | Los martes | Vigente hasta el 16 de noviembre de 2027 | Todo el país |
 | Farmavida | 20%; 20% de reintegro | Los martes | Vigente hasta el 29 de diciembre del 2026 | No especificado |
 | Farmavip | 30%; 30% de reintegro | Los martes | Vigente hasta el 16 de febrero de 2027 | No especificado |
 | Maxi Farma | 20%; 20% de reintegro | Los martes | Vigente hasta el 07 de septiembre de 2027 | Encarnación |
 | New Arrow - Perfumería | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 18 de febrero de 2027 | No especificado |
 | Nutrilife | 30%; 10% de reintegro; 20% de descuento | Los martes | Vigente hasta el 08 de junio del 2027 | Salto del Guairá |
-| Total Farma | 20%; 20% de reintegro | los Martes | Vigente hasta el 10 de noviembre del 2026 | San Alberto (Alto Paraná) |
+| Total Farma | 20%; 20% de reintegro | Los martes | Vigente hasta el 16 de noviembre de 2027 | San Alberto (Alto Paraná) |
 | Vicente Scavone | 30%; hasta 6 cuotas sin intereses; 10 % de reintegro; 20% de descuento | todos los días | Vigente hasta el 06 de enero del 2027 | No especificado |
 | Vitalmed | 20%; 20% de reintegro | Los martes | Vigente hasta el 06 de julio de 2027 | No especificado |
 
@@ -337,7 +337,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 |---|---|---|---|---|
 | Kekala | 20%; 20% de reintegro | Los sábados | Vigente hasta el 12 de junio de 2027 | San Lorenzo |
 
-## Hogar (60)
+## Hogar (61)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -369,6 +369,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Impacto | 10%; hasta 18 cuotas sin intereses; 10% de reintegro; 5% de reintegro; 15% de descuento | todos los días | Vigente desde el 21 de febrero al 21 de noviembre del 2026 | No especificado |
 | Inoga - Inmapol | Hasta 18 cuotas sin intereses; 25% de descuento | Todos los días | Vigente hasta 31 de julio de 2027 | Asunción |
 | Inverfin | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 08 de agosto de 2027 | Todo el país |
+| Jegua Deco Home | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de noviembre de 2027 | Asunción |
 | Luminotecnia | 25%; 25% de reintegro; 20% de reintegro | Los jueves | Vigente hasta el 19 de octubre de 2027 | Todo el país |
 | Meyer Gini | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 05 de noviembre de 2026 | Asunción |
 | Mirno | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de diciembre de 2026 | Luque |

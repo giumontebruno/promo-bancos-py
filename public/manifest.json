@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T17:09:20.914101+00:00",
+  "generated_at": "2026-11-17T17:06:29.282666+00:00",
   "promotion_count": 4274,
   "banks": [
     "Atlas",
@@ -132,7 +132,6 @@
     "Supermercados",
     "Teatro",
     "Tecnología",
-    "Tienda",
     "Tienda Movil",
     "Tiendas",
     "Tiendas de Moda",
@@ -4201,6 +4200,55 @@
       "bank": "Continental",
       "merchant_name": "ACE Tape Ruvicha",
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "2cfb9cd8678d662c": {
+      "reason": "not_in_current_sources",
+      "bank": "Atlas",
+      "merchant_name": "BOX Mayorista",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "last_known_ends_on": null
+    },
+    "2dd7979df8afbfac": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "Casa Paraná",
+      "source_url": "https://api.solar.com.py/documents/426/Casa_Parana_-_Bases_y_condiciones_2026__.docx.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "624d6d5f62eb39b5": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "Casa Paraná",
+      "source_url": "https://api.solar.com.py/documents/426/Casa_Parana_-_Bases_y_condiciones_2026__.docx.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "7bc00af36faed4f1": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "Casa Paraná",
+      "source_url": "https://api.solar.com.py/documents/426/Casa_Parana_-_Bases_y_condiciones_2026__.docx.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "d022cc6349218342": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "RND | RONDINA | marie marie",
+      "source_url": "https://api.solar.com.py/documents/499/Rondina_RND_y_Marie_Marie_Bases_y_condiciones_2026_V03.docx.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "e69260eff3c0435a": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "RND | RONDINA | marie marie",
+      "source_url": "https://api.solar.com.py/documents/499/Rondina_RND_y_Marie_Marie_Bases_y_condiciones_2026_V03.docx.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "8b6023b12ea53ecc": {
+      "reason": "not_in_current_sources",
+      "bank": "Solar",
+      "merchant_name": "RND | RONDINA | marie marie",
+      "source_url": "https://api.solar.com.py/documents/499/Rondina_RND_y_Marie_Marie_Bases_y_condiciones_2026_V03.docx.pdf",
       "last_known_ends_on": "2026-12-31"
     }
   },

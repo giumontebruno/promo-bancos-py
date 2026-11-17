@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T17:09:20.914101+00:00",
-  "input_count": 3499,
+  "generated_at": "2026-11-17T17:06:29.282666+00:00",
+  "input_count": 3495,
   "promotion_count": 4274,
-  "duplicates_removed": -775,
+  "duplicates_removed": -779,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1414,24 +1414,24 @@
     "40da645d3696d520": "62c11a7886814515"
   },
   "by_bank": {
-    "Atlas": 52,
+    "Atlas": 51,
     "BNF": 142,
     "Bancop": 68,
     "Basa": 95,
-    "Continental": 940,
+    "Continental": 943,
     "Coop. Universitaria": 72,
     "Familiar": 420,
     "GNB": 508,
     "Interfisa": 214,
-    "Itaú": 643,
-    "Solar": 63,
-    "Sudameris": 361,
+    "Itaú": 646,
+    "Solar": 57,
+    "Sudameris": 362,
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 354,
+    "source_verification_pending": 355,
     "limits_unconfirmed": 451,
-    "validity_unconfirmed": 39,
+    "validity_unconfirmed": 38,
     "multiple_purchase_limits": 337,
     "source_amount_conflict": 20,
     "multiple_refund_limits": 195
@@ -1542,15 +1542,6 @@
       "id": "dd57615188aaaac1",
       "bank": "Atlas",
       "merchant": "Sfera",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "2cfb9cd8678d662c",
-      "bank": "Atlas",
-      "merchant": "BOX Mayorista",
       "issues": [
         "validity_unconfirmed"
       ],
@@ -6077,6 +6068,15 @@
         "validity_unconfirmed"
       ],
       "source_url": "https://www.sudameris.com.py/personas/beneficios/aniversario-plaza-nova"
+    },
+    {
+      "id": "cf2fdd843d4f1d57",
+      "bank": "Sudameris",
+      "merchant": "Impacto home",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/impacto"
     },
     {
       "id": "efd35f36432b2546",

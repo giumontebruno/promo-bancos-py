@@ -3,6 +3,11 @@
   "catalog_discovered": 59,
   "skipped": [
     {
+      "id": "552",
+      "title": "FACUNDO DE SALTERIN",
+      "reason": "new_campaign_requires_review"
+    },
+    {
       "id": "464",
       "title": "SUPERMERCADO CHORTITZER",
       "reason": "new_campaign_requires_review"
@@ -36,16 +41,11 @@
       "id": "541",
       "title": "MUNDO LED",
       "reason": "PDF omite el año de vigencia (1 septiembre a 31 diciembre)."
-    },
-    {
-      "id": "552",
-      "title": "FACUNDO DE SALTERIN",
-      "reason": "new_campaign_requires_review"
     }
   ],
   "coverage_complete": false,
   "reason": "All 58 initial cards individually reviewed. Missing-year and wrong-merchant documents quarantined; changed/new campaigns require review.",
   "bank": "bancop",
-  "attempted_at": "2026-11-16T17:05:24.685944+00:00",
+  "attempted_at": "2026-11-17T17:02:14.254927+00:00",
   "rows": 66
 }
