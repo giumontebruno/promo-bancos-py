@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-17T17:06:29.282666+00:00",
-  "input_count": 3495,
-  "promotion_count": 4274,
-  "duplicates_removed": -779,
+  "generated_at": "2026-11-18T16:38:20.615334+00:00",
+  "input_count": 3503,
+  "promotion_count": 4286,
+  "duplicates_removed": -783,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -720,7 +720,6 @@
     "790bab08cad62bb7": "9160dcea2abd7186",
     "d30842bcc08c972e": "940b44ec1dd40641",
     "3dae4249cf36d101": "046270a8a7f95cde",
-    "820f8f6f97bf831c": "95a62440aa5e167b",
     "39813547af091893": "2c227f01034cc837",
     "befcc0278ea0ee60": "d4f55af7e7f78fe5",
     "f158208addeb6ad0": "4ddd0894bb6e9d5f",
@@ -1208,7 +1207,6 @@
     "dd4ca4cf30bca697": "562de6992fe2b32c",
     "207e210a5a46e7be": "f5b3c7c2c13d61a1",
     "4518353c7367f2f0": "961ac08764510df9",
-    "ae2ffe772ca595c1": "7504d6a61472f7c3",
     "520e5864e2a9db0c": "b2f82c5371c6bed1",
     "8a6c7298d9e204d9": "b2f82c5371c6bed1",
     "c558e3319e4962dc": "b2f82c5371c6bed1",
@@ -1411,40 +1409,77 @@
     "c8ac25a1a6151891": "5e4f8a72bd828b50",
     "7a77c0e3c4c3d45d": "01a843ac9d14eba6",
     "6d1b0277e2be4405": "2fd6dbf4e27c620b",
-    "40da645d3696d520": "62c11a7886814515"
+    "40da645d3696d520": "62c11a7886814515",
+    "9f4d77411d441b80": "2e7bb42d848d27af",
+    "b3ea343f66ee6cfd": "f19624503b6cedf1",
+    "305906888419e8ce": "1aae4d73f036cf3c",
+    "e2bb7c9ecf5fa093": "d1229ae1604f959b",
+    "f720724ab129e13d": "5b612889e4165491",
+    "353ed7fa6373080c": "0fb9a4addd5065f6",
+    "fcbed3e39b2aa2ee": "8ac9b491dfe8f7c3",
+    "966edec5f86579a9": "f11352d21be35508",
+    "25de6d76423d527d": "4501924b91941c84",
+    "d797e952c9ac7cfe": "5952e0fd3114b15b",
+    "0bb5c44cfaf3ff51": "62d0aef17d4d8fb9",
+    "d2f51c207a5b5cab": "7e5b58d041e0eab8",
+    "2870a0334be3dba3": "7550bf7be3f6f0d1",
+    "c95335796ab3c9b3": "b53e7ab5c22b248e",
+    "bc428cc34573447b": "e0dbff8f2e102954",
+    "5a2e53fb2c5ab2fb": "1be35f4a8bf8f95a",
+    "6eecbf2c8cacb178": "1ecf717517e48002",
+    "8ecd05d8dd1dd237": "7cf7d9eec76790ad",
+    "ee669c59506d88f9": "e795676f786bbe4f",
+    "724dc30abbc7c129": "117d8e4c69776377",
+    "ff236b02af9f77b7": "efc386a27a08440f",
+    "f6482375faae2b10": "a50ed6c462487aa3",
+    "c7a1ca62b26ef9c1": "8d57efefcb1756dd",
+    "b83d96231d3356d5": "bc5fa5598d876cb2",
+    "4b57fff861921c0b": "cba5cc3119190eee",
+    "1f7cab8b3b7510ef": "ff329ed31133f11d",
+    "8226415ed82c7067": "02d1b07b13a861e4",
+    "084b9f3d13240720": "f32af543e75ccd75"
   },
   "by_bank": {
-    "Atlas": 51,
+    "Atlas": 54,
     "BNF": 142,
     "Bancop": 68,
-    "Basa": 95,
-    "Continental": 943,
+    "Basa": 93,
+    "Continental": 947,
     "Coop. Universitaria": 72,
     "Familiar": 420,
-    "GNB": 508,
-    "Interfisa": 214,
-    "Itaú": 646,
+    "GNB": 509,
+    "Interfisa": 216,
+    "Itaú": 649,
     "Solar": 57,
-    "Sudameris": 362,
+    "Sudameris": 363,
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 355,
-    "limits_unconfirmed": 451,
-    "validity_unconfirmed": 38,
+    "source_verification_pending": 356,
+    "validity_unconfirmed": 41,
+    "limits_unconfirmed": 450,
     "multiple_purchase_limits": 337,
     "source_amount_conflict": 20,
     "multiple_refund_limits": 195
   },
   "review_queue": [
     {
-      "id": "1a8397a547b253ae",
+      "id": "06d316c4958c9d29",
       "bank": "Atlas",
       "merchant": "Miércoles Plus",
       "issues": [
         "source_verification_pending"
       ],
-      "source_url": "https://www.bancoatlas.com.py/web//Mi%C3%A9rcoles%20Plus.pdf"
+      "source_url": "https://www.bancoatlas.com.py/web//Mi%C3%A9rcoles%20Plus%20Noviembre.jpg"
+    },
+    {
+      "id": "fa8dfe552e764c6b",
+      "bank": "Atlas",
+      "merchant": "Sueñolar",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
       "id": "d70ba6f32e9a8624",
@@ -1512,11 +1547,30 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
+      "id": "fd5e2809115dc0ec",
+      "bank": "Atlas",
+      "merchant": "Preventa Cheques delSol",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
       "id": "5f25d91d35d7793d",
       "bank": "Atlas",
       "merchant": "delSol",
       "issues": [
         "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "ae2ffe772ca595c1",
+      "bank": "Atlas",
+      "merchant": "delSol Shopping - Cheques delSol",
+      "issues": [
+        "validity_unconfirmed",
+        "limits_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
@@ -1557,22 +1611,22 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "c4252ed48fc89156",
+      "id": "7cba95e03bdc2337",
       "bank": "Atlas",
       "merchant": "Supermercados",
       "issues": [
         "validity_unconfirmed"
       ],
-      "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg"
+      "source_url": "https://www.bancoatlas.com.py/web//Supermercados%20Noviembre.jpg"
     },
     {
-      "id": "ca6027520aa6c007",
+      "id": "e6d757945ddcfcec",
       "bank": "Atlas",
       "merchant": "Supermercados",
       "issues": [
         "validity_unconfirmed"
       ],
-      "source_url": "https://www.bancoatlas.com.py/web/supermercados%20adheridos.jpg"
+      "source_url": "https://www.bancoatlas.com.py/web//Supermercados%20Noviembre.jpg"
     },
     {
       "id": "e77fe8d93e9865f3",
@@ -1737,31 +1791,31 @@
       "source_url": "https://www.bancop.com.py:443/public/46a987455a1b4d66cc5bc0c23045d8b4.pdf"
     },
     {
-      "id": "9f4d77411d441b80",
+      "id": "2e7bb42d848d27af",
       "bank": "Basa",
       "merchant": "ACM Group",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/ACM%20Group.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/ACM%20Group.pdf"
     },
     {
-      "id": "b3ea343f66ee6cfd",
+      "id": "f19624503b6cedf1",
       "bank": "Basa",
       "merchant": "AMPAC STJ",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/DESTACADAS%20AGOSTO/Basa_Alianzas_Bases-Y-Condiciones_Ampac.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Ampac.pdf"
     },
     {
-      "id": "305906888419e8ce",
+      "id": "1aae4d73f036cf3c",
       "bank": "Basa",
       "merchant": "APEI Campoalto y Torrefuerte",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/Basa_Alianzas_Bases-Y-Condiciones_Campoalto.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Campoalto.pdf"
     },
     {
       "id": "37cdb8dd6b38ca37",
@@ -1773,229 +1827,211 @@
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/DESTACADAS%20AGOSTO/las%20almenas.pdf"
     },
     {
-      "id": "e2bb7c9ecf5fa093",
+      "id": "d1229ae1604f959b",
       "bank": "Basa",
       "merchant": "APEP",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/Basa_Alianzas_Bases-Y-Condiciones_Apep.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Apep.pdf"
     },
     {
-      "id": "90d0802ff7f83b6f",
-      "bank": "Basa",
-      "merchant": "Acquaconsult",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/DESTACADAS%20AGOSTO/Acquaconsult.pdf"
-    },
-    {
-      "id": "f720724ab129e13d",
+      "id": "5b612889e4165491",
       "bank": "Basa",
       "merchant": "All Office",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/all%20office.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/all%20office.pdf"
     },
     {
-      "id": "353ed7fa6373080c",
+      "id": "0fb9a4addd5065f6",
       "bank": "Basa",
       "merchant": "Automotor",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/Basa_Alianzas_Bases-Y-Condiciones_Automotor.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Automotor.pdf"
     },
     {
-      "id": "fcbed3e39b2aa2ee",
+      "id": "8ac9b491dfe8f7c3",
       "bank": "Basa",
       "merchant": "Baza Rattan",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/Basa_Alianzas_Bases-Y-Condiciones%20Baza%20Rattan.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Baza%20Rattan.pdf"
     },
     {
-      "id": "966edec5f86579a9",
+      "id": "f11352d21be35508",
       "bank": "Basa",
       "merchant": "Bazzar",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/Basa_Alianzas_Bases-Y-Condiciones_Bazzar.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Bazzar.pdf"
     },
     {
-      "id": "25de6d76423d527d",
+      "id": "4501924b91941c84",
       "bank": "Basa",
       "merchant": "Bs As Eventos",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/Basa_Alianzas_Bases-Y-Condiciones%20Bs%20As%20eventos.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Bs%20As%20eventos.pdf"
     },
     {
-      "id": "d797e952c9ac7cfe",
+      "id": "5952e0fd3114b15b",
       "bank": "Basa",
       "merchant": "CDP",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_CPD%20muebles%20santa%20rita.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/CDP%20muebles%20santa%20rita.pdf"
     },
     {
-      "id": "0bb5c44cfaf3ff51",
+      "id": "62d0aef17d4d8fb9",
       "bank": "Basa",
       "merchant": "CIELLA",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/ciella.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/ciella.pdf"
     },
     {
-      "id": "d2f51c207a5b5cab",
+      "id": "7e5b58d041e0eab8",
       "bank": "Basa",
       "merchant": "CLEVER STORE",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/CLEVER%20STORE.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/CLEVER%20STORE.pdf"
     },
     {
-      "id": "f02dc2895b315950",
-      "bank": "Basa",
-      "merchant": "CPH",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Cph.pdf"
-    },
-    {
-      "id": "2870a0334be3dba3",
+      "id": "7550bf7be3f6f0d1",
       "bank": "Basa",
       "merchant": "Casa Debarro",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/Basa_Alianzas_Bases-Y-Condiciones_Casa%20debarro.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Casa%20debarro.pdf"
     },
     {
-      "id": "c95335796ab3c9b3",
+      "id": "b53e7ab5c22b248e",
       "bank": "Basa",
       "merchant": "Casa Paola",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/Basa_Alianzas_Bases-Y-Condiciones_Casa%20paola.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Casa%20paola.pdf"
     },
     {
-      "id": "bc428cc34573447b",
+      "id": "e0dbff8f2e102954",
       "bank": "Basa",
       "merchant": "Celebra",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/Basa_Alianzas_Bases-Y-Condiciones_Celebra.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Celebra.pdf"
     },
     {
-      "id": "5a2e53fb2c5ab2fb",
+      "id": "1be35f4a8bf8f95a",
       "bank": "Basa",
       "merchant": "Central Shop",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/modificacion%20cambio%20de%20la%20B/CENTRAL%20SHOP.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/CENTRAL%20SHOP.pdf"
     },
     {
-      "id": "6eecbf2c8cacb178",
+      "id": "1ecf717517e48002",
       "bank": "Basa",
       "merchant": "Centro del Audífono",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Centro%20del%20audifono.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Centro%20del%20audifono.pdf"
     },
     {
-      "id": "8ecd05d8dd1dd237",
+      "id": "7cf7d9eec76790ad",
       "bank": "Basa",
       "merchant": "Chacomer",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Chacomer%20Automotores.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Chacomer%20Automotores.pdf"
     },
     {
-      "id": "ee669c59506d88f9",
+      "id": "e795676f786bbe4f",
       "bank": "Basa",
       "merchant": "Colegio Gimnasio del Saber",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Colegio%20gimnasio%20del%20saber.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Colegio%20gimnasio%20del%20saber.pdf"
     },
     {
-      "id": "724dc30abbc7c129",
+      "id": "117d8e4c69776377",
       "bank": "Basa",
       "merchant": "Colegio Santa Teresita",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Colegio%20santa%20teresita%20CDE.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Colegio%20santa%20teresita%20CDE.pdf"
     },
     {
-      "id": "ff236b02af9f77b7",
+      "id": "efc386a27a08440f",
       "bank": "Basa",
       "merchant": "Compulandia",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_compulandia.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/compulandia.pdf"
     },
     {
-      "id": "f6482375faae2b10",
+      "id": "a50ed6c462487aa3",
       "bank": "Basa",
       "merchant": "El closet",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_El%20closet.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/El%20closet.pdf"
     },
     {
-      "id": "c7a1ca62b26ef9c1",
+      "id": "8d57efefcb1756dd",
       "bank": "Basa",
       "merchant": "Electroban",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Electroban.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Electroban.pdf"
     },
     {
-      "id": "b83d96231d3356d5",
+      "id": "bc5fa5598d876cb2",
       "bank": "Basa",
       "merchant": "Electrostock",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/OCTUBRE%202026/Electrostock.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Electrostock.pdf"
     },
     {
-      "id": "4b57fff861921c0b",
+      "id": "cba5cc3119190eee",
       "bank": "Basa",
       "merchant": "Ferrex",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_ferrex.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/ferrex.pdf"
     },
     {
-      "id": "1f7cab8b3b7510ef",
+      "id": "ff329ed31133f11d",
       "bank": "Basa",
       "merchant": "Fleykoop",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Fleykoop.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Fleykoop.pdf"
     },
     {
       "id": "dac20ecc220aeb77",
@@ -2861,15 +2897,6 @@
       "issues": [
         "validity_unconfirmed",
         "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
-    },
-    {
-      "id": "e733bb052543a1e0",
-      "bank": "Continental",
-      "merchant": "Doctor Hair",
-      "issues": [
-        "multiple_purchase_limits"
       ],
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
@@ -7326,6 +7353,15 @@
       "source_url": "https://www.sudameris.com.py/storage/app/media/ByC/bc-zonasurencarnacion-29926.pdf"
     },
     {
+      "id": "8d5fc84c1882c0e0",
+      "bank": "Sudameris",
+      "merchant": "Lido Bar",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/lido-bar"
+    },
+    {
       "id": "28ce6ec36e86ec26",
       "bank": "Sudameris",
       "merchant": "MASARTE",
@@ -9723,6 +9759,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-VIAJES-_-NOV-2026v1.pdf"
+    },
+    {
+      "id": "e733bb052543a1e0",
+      "bank": "Continental",
+      "merchant": "Doctor Hair",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
       "id": "384d668898b22e38",

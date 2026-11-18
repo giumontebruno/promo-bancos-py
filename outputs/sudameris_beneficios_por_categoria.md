@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 360
+Total de promociones: 361
 
 ## Clubes
 
@@ -341,6 +341,7 @@ Total de promociones: 360
 | La Guarania Gran Almacén | 25% de reintegro Hasta 12 cuotas sin interés | Último sábado de cada mes | Desde 2026-07-01 hasta 2026-12-31 |
 | Le Chic | 20% de reintegro + 5% elite Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Liberato | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
+| Lido Bar | 20% | Todos los martes | • Desde el 17 de noviembre 2026 hasta el 16 de noviembre 2027. |
 | MASARTE | 20% de reintegro | Miércoles y jueves | Desde 2026-09-30 hasta 2026-12-31 |
 | MAX SUPERMERCADO | 20% de reintegro | Último sábado de cada mes | Desde 2026-08-29 hasta 2026-12-31 |
 | MAX SUPERMERCADO | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2025-09-05 hasta 2025-12-31 |

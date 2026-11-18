@@ -1,6 +1,6 @@
 {
   "status": "partial",
-  "catalog_discovered": 59,
+  "catalog_discovered": 60,
   "skipped": [
     {
       "id": "552",
@@ -33,6 +33,11 @@
       "reason": "PDF omite el año de vigencia (1 septiembre a 31 diciembre)."
     },
     {
+      "id": "553",
+      "title": "PUBLISPORT",
+      "reason": "new_campaign_requires_review"
+    },
+    {
       "id": "487",
       "title": "NISSEI",
       "reason": "Ficha Nissei enlaza PDF de Visuar/Tienda Móvil, no prueba promoción Nissei."
@@ -46,6 +51,6 @@
   "coverage_complete": false,
   "reason": "All 58 initial cards individually reviewed. Missing-year and wrong-merchant documents quarantined; changed/new campaigns require review.",
   "bank": "bancop",
-  "attempted_at": "2026-11-17T17:02:14.254927+00:00",
+  "attempted_at": "2026-11-18T16:34:01.259600+00:00",
   "rows": 66
 }

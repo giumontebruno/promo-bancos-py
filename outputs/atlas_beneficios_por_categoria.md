@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 31
+Total de beneficios: 34
 
 ## Bienestar
 
@@ -11,6 +11,7 @@ Total de beneficios: 31
 | Martiderm | 20% de descuento; 3 cuotas sin intereses | Último jueves del mes | La cantidad de cuotas deberá solicitarse al momento del pago en caja o desde la App, para compras a partir de Gs. 200.000. Válido para transacciones realizadas a través de POS de la red Bacard. Vigente el último jueves d |
 | Miércoles Plus | 20% de descuento; +10% de reintegro; 3 cuotas sin intereses | 18 de noviembre | Desde 2026-11-18 hasta 2026-11-18 |
 | Prepaga Joven | 20% de reintegro; En tiendas adheridas: | Todos los días | Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 d |
+| Sueñolar | 55% de descuento; Pagando con tu TC Atlas, te llevas una alfombra de regalo; 18 cuotas sin intereses | 16 al 30 de noviembre | Descuento aplicado en caja. La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 y transacciones realizadas a través del POS de Bancard. Válido solo para compras de productos de las categorías |
 
 ## Educación
 
@@ -40,7 +41,9 @@ Total de beneficios: 31
 | Impuestos al día | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | L'uomo | 6 cuotas sin intereses | Todos los días | Desde 2026-06-01 hasta 2026-12-31 |
 | Pinedo Shopping | 20% de descuento; 3 cuotas sin intereses | Todos los viernes | El descuento se realiza en caja. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica para tiendas adheridas a la promoci |
+| Preventa Cheques delSol | 45% de bonificación; 12 cuotas sin intereses | 19 de noviembre | Beneficio exclusivo para las tarjetas Signature Atlas delSol. Tope de compra acumulado por cuenta de tarjeta para todos los días de la promoción Gs. 70.000.000 para la TC Signature Atlas delSol. La cantidad de cuotas deb |
 | delSol | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Promoción válida todos los días para tarjetas afinidad delSol en todos |
+| delSol Shopping - Cheques delSol | 40% de bonificación; 30% de bonificación; 12 cuotas sin intereses | 20 y 21 de noviembre | Beneficio exclusivo para las tarjetas afinidad Atlas delSol. Tope de compra acumulado por cuenta de tarjeta Gs. 70.000.000 para TC Visa Signature Atlas delSol y Gs. 30.000.000 para TC Visa Clásica Atlas delSol. La cantid |
 
 ## Hogar
 

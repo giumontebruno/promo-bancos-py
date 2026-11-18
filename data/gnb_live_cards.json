@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-17T16:49:07.552336+00:00",
-  "total": 257,
+  "checkedAt": "2026-11-18T16:20:14.643871+00:00",
+  "total": 258,
   "cards": [
     {
       "id": 688,
@@ -223,7 +223,7 @@
         "Se excluyen de la promoción pagos con tarjetas de débito y crédito Visa y afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas.",
         "Para más información acerca de las estaciones adheridas y del beneficio visitar las bases y condiciones."
       ],
-      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/3872_bases-y-condiciones-copetrol-.v2.pdf",
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/3872_bases-y-condiciones-copetrol-nov.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/3607_copetrol-2024-web.png"
     },
     {
@@ -4967,6 +4967,24 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5435_bases-y-condiciones-nangaro.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5436_nangaro-web.png"
+    },
+    {
+      "id": 697,
+      "title": "Ink NDM",
+      "startDate": "2026-11-10",
+      "endDate": "2027-04-30",
+      "miniDescription": "Hasta 12 cuotas sin intereses todos los días.",
+      "category": "Cuotas sin intereses",
+      "lines": [
+        "Hasta 12 cuotas sin intereses todos los días.",
+        "Del 10 de noviembre del 2026 30 de abril del 2027.",
+        "Hasta 12 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "No participan de la promoción las tarjetas de débito y crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas.",
+        "Para el fraccionamiento de las cuotas el cliente deberá solicitar/seleccionar la cantidad de cuotas que desea al momento del pago. Las cuotas se verán reflejadas en el extracto del cliente.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5437_bases-y-condiciones-ink-ndm.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5438_ndm-11-2026-web.png"
     },
     {
       "id": 168,

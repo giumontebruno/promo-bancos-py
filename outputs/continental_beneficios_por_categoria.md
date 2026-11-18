@@ -64,10 +64,11 @@ Total de beneficios/comercios: 833
 | Rackpar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de marzo de 2027 | Ypané |
 | Universo Emprendimientos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 03 de diciembre de 2026 | Pedro Juan Caballero |
 
-## Contimarket (1)
+## Contimarket (2)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
+| Contimarket - 25% | 25% de reintegro | 2026-11-18 | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 | Contimarket.com | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 
 ## Courier (2)
@@ -216,7 +217,7 @@ Total de beneficios/comercios: 833
 | Vicente Scavone | 30%; hasta 6 cuotas sin intereses; 10 % de reintegro; 20% de descuento | todos los días | Vigente hasta el 06 de enero del 2027 | No especificado |
 | Vitalmed | 20%; 20% de reintegro | Los martes | Vigente hasta el 06 de julio de 2027 | No especificado |
 
-## Ferreterías (11)
+## Ferreterías (10)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -226,7 +227,6 @@ Total de beneficios/comercios: 833
 | Ferretería Aquino | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 10 de agosto de 2027 | Curuguaty |
 | Ferretería El Rey | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 29 de abril de 2027 | Santa Rosa del Aguaray |
 | Ferretería La Familia | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 10 de agosto de 2027 | María Auxiliadora (Itapúa) |
-| Ferretería Oriental | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 17 de noviembre del 2026 | No especificado |
 | Ferretería Tottal | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 27 de octubre del 2026 | No especificado |
 | Ferrex | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 06 de noviembre de 2027 | Todo el país |
 | Ferrizar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 04 de septiembre de 2027 | Coronel Oviedo |
@@ -594,7 +594,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Clínica Odontoestética | 30%; hasta 18 cuotas sin intereses; 30% de descuento | Todos los días | Vigente hasta el 07 de noviembre del 2026 | Asunción |
 | Clínica Odontológica Santa Teresa | 30%; 30% de descuento | Todos los días | Vigente hasta el 10 de noviembre del 2026 | San Estanislao |
 | Clínica Victoria | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 18 de febrero del 2027 | No especificado |
-| Doctor Hair | 20%; hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 12 de noviembre de 2026 | No especificado |
+| Doctor Hair | 10%; Hasta 12 cuotas sin intereses; 10% de descuento | todos los días | Vigente hasta el 18 de noviembre de 2027 | Todo el país |
 | Dra. Marianne Insua - El Centro S.A | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 20 de julio de 2027 | Encarnación |
 | El Buen Samaritano - EBSA | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 25 de agosto de 2027 | Asunción |
 | Fecundart Neovitae | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 25 de marzo de 2027 | Asunción |
@@ -707,6 +707,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | San Cayetano Comercial - Miércoles de Supermercados | 20%; Hasta 6 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 27 de noviembre de 2026 | Luque |
 | Stock Supermercados - Miércoles de Supermercados | 20%; Hasta 18 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 31 de diciembre de 2026 | Todo el país |
 | Super Favesa - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 03 de noviembre de 2027 | Coronel Oviedo |
+| Super Santa Rosa - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 03 de mayo de 2027 | Santa Rosa del Aguaray |
 | Super Total - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 25 de agosto de 2027 | Ayolas - Misiones |
 | Supermercado 7 de Agosto - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 29 de septiembre de 2027 | Tomás R. Pereira |
 | Supermercado Area 6 - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 08 de septiembre de 2027 | Hernandarias |
@@ -718,7 +719,6 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Supermercado Colonias Unidas - Miércoles de Supermercados | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 05 de mayo de 2027 | Obligado, Itapúa |
 | Supermercado Colón - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 25 de enero de 2027 | Guarambaré |
 | Supermercado Coop . Yguazu - Miércoles de supermercados | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 20 de octubre de 2027 | Yguazú |
-| Supermercado D y S - Miércoles de Supermercados | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 02 de diciembre de 2026 | Filadelfia |
 
 _Se omitieron 41 filas en este resumen; están en el CSV._
 

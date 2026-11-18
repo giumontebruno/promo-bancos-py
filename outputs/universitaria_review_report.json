@@ -1,5 +1,5 @@
 {
-  "source_cards": 49,
+  "source_cards": 51,
   "published_variants": 65,
   "withheld": [
     {
@@ -21,6 +21,16 @@
       "merchant": "SANTA CLARA",
       "source": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1793298079.pdf",
       "reason": "No se encontró el 10% revisado en el PDF"
+    },
+    {
+      "merchant": "CHACOMER",
+      "source": "https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1795011042.pdf",
+      "reason": "El título no identifica una tasa o cantidad de cuotas verificable"
+    },
+    {
+      "merchant": "CYCLES SHOP",
+      "source": "https://www.universitaria.coop/assets_front/img/promos/1795009985.pdf",
+      "reason": "El título no identifica una tasa o cantidad de cuotas verificable"
     },
     {
       "merchant": "ÓPTICA LUCE",
