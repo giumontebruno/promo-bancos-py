@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-18T16:38:20.615334+00:00",
-  "input_count": 3503,
-  "promotion_count": 4286,
-  "duplicates_removed": -783,
+  "generated_at": "2026-11-19T16:51:27.143054+00:00",
+  "input_count": 3517,
+  "promotion_count": 4311,
+  "duplicates_removed": -794,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1406,7 +1406,6 @@
     "4be488d3f6b21a68": "e7cefbccde8f4f0b",
     "59fe8498388fc63e": "fc86c6c6339d9d59",
     "c179e4f73e656033": "1462c356059fb368",
-    "c8ac25a1a6151891": "5e4f8a72bd828b50",
     "7a77c0e3c4c3d45d": "01a843ac9d14eba6",
     "6d1b0277e2be4405": "2fd6dbf4e27c620b",
     "40da645d3696d520": "62c11a7886814515",
@@ -1437,41 +1436,66 @@
     "4b57fff861921c0b": "cba5cc3119190eee",
     "1f7cab8b3b7510ef": "ff329ed31133f11d",
     "8226415ed82c7067": "02d1b07b13a861e4",
-    "084b9f3d13240720": "f32af543e75ccd75"
+    "084b9f3d13240720": "f32af543e75ccd75",
+    "37cdb8dd6b38ca37": "c32a5abb6854ff19",
+    "7e5b9d516e0b9416": "d30c8e69f530a083",
+    "f27a05dde5348381": "9ede2169a733bb2f",
+    "8b3566433a23a3b1": "d881d78524daa0e0",
+    "781ebf014d2c267e": "b1d40d1b388718d8",
+    "61eb54851b8eda7d": "e90b9ad0ce58f3db",
+    "024523329ec1b30b": "5d05aa447014f30e",
+    "52c64d88369f728f": "59ddea037798ce8b",
+    "11c07dd7749f1776": "505d549fc131e1aa",
+    "3d068b7344f21341": "fa8714fd07e22ec0",
+    "046298d4acf191d9": "e3ad1c9194a5cb45",
+    "de9227501010eb0f": "a821198f68dd65c8",
+    "061ca898059f3983": "3f0274229f0cd198",
+    "f23d0b9b16c6aec6": "345ca161fec1f954",
+    "1f2238d4f05ff429": "cdaf9d1ea8c9303a",
+    "526e34f5ba24cb3f": "3741c58fa948409f",
+    "195bfc7b6c4e934d": "805399294b289d1f",
+    "f26abf734094b7ce": "43cb563654567493",
+    "bbf8491394570bf9": "7f209321ac850564",
+    "976c9908f2a9166d": "83cf68b5524befa5",
+    "a556400182632898": "7e5ffeb9c63ed865",
+    "d5e231a8d8e70e58": "155f6989b650d860",
+    "66b7435adde86630": "e258d829391236a9",
+    "e932bfa794b7b126": "37299d119036b250",
+    "d4c0f3c08242e298": "3206c37e60bb8a3f",
+    "ebeaa4d0501f7d7d": "6ef87ea9e655ad3e",
+    "434df79cd6026ff2": "188759baa8f428a1",
+    "7b336a9e053a0e74": "75343679e11e430b",
+    "2e2adc11a3fd9223": "be9896b17bafc36d",
+    "fc66033f28dfef52": "d9dcd454b16bdb5e",
+    "6f295698cae71d46": "bdf72c6f4e7e7221",
+    "91ff86aa4fa2ea63": "e10d7fd58bf5545a",
+    "a4ee16bfc74630e8": "ad6c6e535e4724be",
+    "5e4f8a72bd828b50": "c8ac25a1a6151891"
   },
   "by_bank": {
-    "Atlas": 54,
+    "Atlas": 61,
     "BNF": 142,
     "Bancop": 68,
-    "Basa": 93,
-    "Continental": 947,
+    "Basa": 95,
+    "Continental": 956,
     "Coop. Universitaria": 72,
     "Familiar": 420,
     "GNB": 509,
     "Interfisa": 216,
-    "Itaú": 649,
+    "Itaú": 654,
     "Solar": 57,
-    "Sudameris": 363,
+    "Sudameris": 365,
     "ueno bank": 696
   },
   "issue_counts": {
-    "source_verification_pending": 356,
-    "validity_unconfirmed": 41,
-    "limits_unconfirmed": 450,
-    "multiple_purchase_limits": 337,
+    "validity_unconfirmed": 49,
+    "limits_unconfirmed": 452,
+    "multiple_purchase_limits": 339,
     "source_amount_conflict": 20,
-    "multiple_refund_limits": 195
+    "multiple_refund_limits": 195,
+    "source_verification_pending": 358
   },
   "review_queue": [
-    {
-      "id": "06d316c4958c9d29",
-      "bank": "Atlas",
-      "merchant": "Miércoles Plus",
-      "issues": [
-        "source_verification_pending"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web//Mi%C3%A9rcoles%20Plus%20Noviembre.jpg"
-    },
     {
       "id": "fa8dfe552e764c6b",
       "bank": "Atlas",
@@ -1528,16 +1552,6 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "b7c2cef1917f3a65",
-      "bank": "Atlas",
-      "merchant": "DG Market",
-      "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
       "id": "c518393e58fbd72c",
       "bank": "Atlas",
       "merchant": "Impuestos al día",
@@ -1575,6 +1589,15 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
+      "id": "0ab29c049b5fefd2",
+      "bank": "Atlas",
+      "merchant": "oBoticário",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
       "id": "f15cf9854b37b0c4",
       "bank": "Atlas",
       "merchant": "Renová tu Hogar",
@@ -1593,9 +1616,81 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
+      "id": "9545eb7875de777c",
+      "bank": "Atlas",
+      "merchant": "Champs Elysées",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "23d0d6964e7dfb9b",
+      "bank": "Atlas",
+      "merchant": "Cortefiel",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "ad5102312bef0c9b",
+      "bank": "Atlas",
+      "merchant": "ISDIN",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "abb401b91b1e7c5c",
+      "bank": "Atlas",
+      "merchant": "Jack & Jones",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "cb422200d1bc5926",
+      "bank": "Atlas",
+      "merchant": "Mango",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "9464631bc1cc4b2d",
+      "bank": "Atlas",
+      "merchant": "Pedro del Hierro",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
       "id": "dd57615188aaaac1",
       "bank": "Atlas",
       "merchant": "Sfera",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "5c51af65688f1fa4",
+      "bank": "Atlas",
+      "merchant": "Springfield",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
+      "id": "67d6f305ef8a3a00",
+      "bank": "Atlas",
+      "merchant": "women'secret",
       "issues": [
         "validity_unconfirmed"
       ],
@@ -1818,13 +1913,13 @@
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Campoalto.pdf"
     },
     {
-      "id": "37cdb8dd6b38ca37",
+      "id": "c32a5abb6854ff19",
       "bank": "Basa",
       "merchant": "APEI Las Almenas",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/DESTACADAS%20AGOSTO/las%20almenas.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/las%20almenas.pdf"
     },
     {
       "id": "d1229ae1604f959b",
@@ -1834,6 +1929,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Apep.pdf"
+    },
+    {
+      "id": "8e3c45211843c39e",
+      "bank": "Basa",
+      "merchant": "Acquaconsult",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Acquaconsult.pdf"
     },
     {
       "id": "5b612889e4165491",
@@ -1906,6 +2010,15 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/CLEVER%20STORE.pdf"
+    },
+    {
+      "id": "132687f954d328cc",
+      "bank": "Basa",
+      "merchant": "CPH",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Cph.pdf"
     },
     {
       "id": "7550bf7be3f6f0d1",
@@ -2043,76 +2156,67 @@
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/genz.pdf"
     },
     {
-      "id": "7e5b9d516e0b9416",
+      "id": "d30c8e69f530a083",
       "bank": "Basa",
       "merchant": "La casa Vro",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_La%20casa%20vro.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/La%20casa%20vro.pdf"
     },
     {
-      "id": "f27a05dde5348381",
+      "id": "9ede2169a733bb2f",
       "bank": "Basa",
       "merchant": "La hora de las compras",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_la%20hora%20de%20las%20compras.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/la%20hora%20de%20las%20compras.pdf"
     },
     {
-      "id": "8b3566433a23a3b1",
+      "id": "d881d78524daa0e0",
       "bank": "Basa",
       "merchant": "Lunita Kids",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_lunita%20kids.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/lunita%20kids.pdf"
     },
     {
-      "id": "781ebf014d2c267e",
+      "id": "b1d40d1b388718d8",
       "bank": "Basa",
       "merchant": "MEGA STAR",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_Mega%20star.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Mega%20star.pdf"
     },
     {
-      "id": "61eb54851b8eda7d",
+      "id": "e90b9ad0ce58f3db",
       "bank": "Basa",
       "merchant": "Master Shop",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/master%20shop.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/master%20shop.pdf"
     },
     {
-      "id": "024523329ec1b30b",
+      "id": "5d05aa447014f30e",
       "bank": "Basa",
       "merchant": "Match",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_Match.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Match.pdf"
     },
     {
-      "id": "3f26bd2659707184",
-      "bank": "Basa",
-      "merchant": "Metro Tela",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Metro%20Tela.pdf"
-    },
-    {
-      "id": "52c64d88369f728f",
+      "id": "59ddea037798ce8b",
       "bank": "Basa",
       "merchant": "Morfeo",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_Morfeo%20home.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Morfeo%20home.pdf"
     },
     {
       "id": "c671173e6e4d2bf4",
@@ -2124,229 +2228,238 @@
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_motorola.pdf"
     },
     {
-      "id": "11c07dd7749f1776",
+      "id": "505d549fc131e1aa",
       "bank": "Basa",
       "merchant": "Municipalidad de Asunción",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_Municipalidad%20asuncion.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Municipalidad%20asuncion.pdf"
     },
     {
-      "id": "3d068b7344f21341",
+      "id": "fa8714fd07e22ec0",
       "bank": "Basa",
       "merchant": "Municipalidad de San Bernardino",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_Municipalidad%20san%20bernardino.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Municipalidad%20san%20bernardino.pdf"
     },
     {
-      "id": "046298d4acf191d9",
+      "id": "e3ad1c9194a5cb45",
       "bank": "Basa",
       "merchant": "Municipios del País",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_Municipios%20del%20pais.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Municipios%20del%20pais.pdf"
     },
     {
-      "id": "de9227501010eb0f",
+      "id": "21cfa29a967eff5f",
+      "bank": "Basa",
+      "merchant": "NEW ZONE",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/new%20zone.pdf"
+    },
+    {
+      "id": "a821198f68dd65c8",
       "bank": "Basa",
       "merchant": "NGO",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_NGO.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/NGO.pdf"
     },
     {
-      "id": "061ca898059f3983",
+      "id": "3f0274229f0cd198",
       "bank": "Basa",
       "merchant": "NISSEI",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/NISSEI.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/NISSEI.pdf"
     },
     {
-      "id": "f23d0b9b16c6aec6",
+      "id": "345ca161fec1f954",
       "bank": "Basa",
       "merchant": "Novatech",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_novatech.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/novatech.pdf"
     },
     {
-      "id": "1f2238d4f05ff429",
+      "id": "cdaf9d1ea8c9303a",
       "bank": "Basa",
       "merchant": "Pandolfo",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_Pandolfo.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Pandolfo.pdf"
     },
     {
-      "id": "526e34f5ba24cb3f",
+      "id": "3741c58fa948409f",
       "bank": "Basa",
       "merchant": "Planet Outlet",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_Planet%20outlet.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Planet%20outlet.pdf"
     },
     {
-      "id": "195bfc7b6c4e934d",
+      "id": "805399294b289d1f",
       "bank": "Basa",
       "merchant": "Refrinar",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_Refrinar.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Refrinar.pdf"
     },
     {
-      "id": "f26abf734094b7ce",
+      "id": "43cb563654567493",
       "bank": "Basa",
       "merchant": "Repsur",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_Repsur.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Repsur.pdf"
     },
     {
-      "id": "bbf8491394570bf9",
+      "id": "7f209321ac850564",
       "bank": "Basa",
       "merchant": "SARA COMERCIAL",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/sara%20comercial.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/sara%20comercial.pdf"
     },
     {
-      "id": "976c9908f2a9166d",
+      "id": "83cf68b5524befa5",
       "bank": "Basa",
       "merchant": "SIENNA SPA",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_Sienna%20Spa.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Sienna%20Spa.pdf"
     },
     {
-      "id": "a556400182632898",
+      "id": "7e5ffeb9c63ed865",
       "bank": "Basa",
       "merchant": "Samsung House",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_samsung.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/samsung.pdf"
     },
     {
-      "id": "d5e231a8d8e70e58",
+      "id": "155f6989b650d860",
       "bank": "Basa",
       "merchant": "Siegen",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_Siegen.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Siegen.pdf"
     },
     {
-      "id": "66b7435adde86630",
+      "id": "e258d829391236a9",
       "bank": "Basa",
       "merchant": "Stilo Salud",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_stilo%20salud%20odontologia.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/stilo%20salud%20odontologia.pdf"
     },
     {
-      "id": "e932bfa794b7b126",
+      "id": "37299d119036b250",
       "bank": "Basa",
       "merchant": "Superior Life",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_superior%20life.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/superior%20life.pdf"
     },
     {
-      "id": "d4c0f3c08242e298",
+      "id": "3206c37e60bb8a3f",
       "bank": "Basa",
       "merchant": "Tienda Gonzalito",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_Tienda%20Gonzalito.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Tienda%20Gonzalito.pdf"
     },
     {
-      "id": "ebeaa4d0501f7d7d",
+      "id": "6ef87ea9e655ad3e",
       "bank": "Basa",
       "merchant": "Toy & House",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/basaalianzasbases-y-condicionestoy-house.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/toy-house.pdf"
     },
     {
-      "id": "434df79cd6026ff2",
+      "id": "188759baa8f428a1",
       "bank": "Basa",
       "merchant": "UNINTER",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_uninter.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/uninter.pdf"
     },
     {
-      "id": "7b336a9e053a0e74",
+      "id": "75343679e11e430b",
       "bank": "Basa",
       "merchant": "Universidad Autónoma de Asunción",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_UAA.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/UAA.pdf"
     },
     {
-      "id": "2e2adc11a3fd9223",
+      "id": "be9896b17bafc36d",
       "bank": "Basa",
       "merchant": "Universo Electrodomésticos",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_universo.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/universo%20electrodomesticos.pdf"
     },
     {
-      "id": "fc66033f28dfef52",
+      "id": "d9dcd454b16bdb5e",
       "bank": "Basa",
       "merchant": "Visuar",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_Visuar.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Visuar.pdf"
     },
     {
-      "id": "6f295698cae71d46",
+      "id": "bdf72c6f4e7e7221",
       "bank": "Basa",
       "merchant": "Wilmar Center",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20basa%20mastercard/Basa_Alianzas_Bases-Y-Condiciones_Wilmar.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Wilmar.pdf"
     },
     {
-      "id": "91ff86aa4fa2ea63",
+      "id": "e10d7fd58bf5545a",
       "bank": "Basa",
       "merchant": "Óptica Carrón",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_Optica%20carron.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Optica%20carron.pdf"
     },
     {
-      "id": "a4ee16bfc74630e8",
+      "id": "ad6c6e535e4724be",
       "bank": "Basa",
       "merchant": "Óptica Valemar",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_Optica%20Valemar.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Optica%20Valemar.pdf"
     },
     {
       "id": "7a929a949ff06f97",
@@ -2835,7 +2948,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "48a6c13c0d6e620c",
+      "id": "9ba96b0e285252ef",
       "bank": "Continental",
       "merchant": "DG Market - Distribuidora Gloria",
       "issues": [
@@ -2863,7 +2976,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "80375147c8d94271",
+      "id": "ad1a4c869e20a82f",
       "bank": "Continental",
       "merchant": "Koala",
       "issues": [
@@ -2922,6 +3035,15 @@
       "id": "e25e5af97f462fc7",
       "bank": "Continental",
       "merchant": "Óptica Valemar",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "da69d1fcee57125d",
+      "bank": "Continental",
+      "merchant": "Óptima Gamón",
       "issues": [
         "multiple_purchase_limits"
       ],
@@ -5235,6 +5357,15 @@
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16921&c=1115"
     },
     {
+      "id": "c8ac25a1a6151891",
+      "bank": "Itaú",
+      "merchant": "Fuschia",
+      "issues": [
+        "source_amount_conflict"
+      ],
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16662&c=10"
+    },
+    {
       "id": "41d4e33bbd542505",
       "bank": "Itaú",
       "merchant": "Benditta Collection",
@@ -5263,15 +5394,6 @@
         "multiple_purchase_limits"
       ],
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16359&c=1040"
-    },
-    {
-      "id": "5e4f8a72bd828b50",
-      "bank": "Itaú",
-      "merchant": "Fuschia",
-      "issues": [
-        "source_amount_conflict"
-      ],
-      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16662&c=10"
     },
     {
       "id": "492690ff0f68bb90",
@@ -6106,6 +6228,15 @@
       "source_url": "https://www.sudameris.com.py/personas/beneficios/impacto"
     },
     {
+      "id": "cdee4fe3f20bf0ae",
+      "bank": "Sudameris",
+      "merchant": "Kube",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/kube-octubre-2026"
+    },
+    {
       "id": "efd35f36432b2546",
       "bank": "Sudameris",
       "merchant": "Napy",
@@ -6123,6 +6254,15 @@
         "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/928/detalle"
+    },
+    {
+      "id": "60aa1a077736b630",
+      "bank": "Sudameris",
+      "merchant": "SAX – Fashion sale",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/sax-fashion-sale"
     },
     {
       "id": "aac6cd4889c9f734",
@@ -9759,6 +9899,33 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-VIAJES-_-NOV-2026v1.pdf"
+    },
+    {
+      "id": "06d316c4958c9d29",
+      "bank": "Atlas",
+      "merchant": "Miércoles Plus",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web//Mi%C3%A9rcoles%20Plus%20Noviembre.jpg"
+    },
+    {
+      "id": "48a6c13c0d6e620c",
+      "bank": "Continental",
+      "merchant": "DG Market - Distribuidora Gloria",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "80375147c8d94271",
+      "bank": "Continental",
+      "merchant": "Koala",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
       "id": "e733bb052543a1e0",

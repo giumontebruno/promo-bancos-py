@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:37:47+00:00",
+  "generated_at": "2026-11-19T16:50:49+00:00",
   "provider": "Official bank branch lists + reviewed location matches",
   "total_locations": 2013,
   "qa_held_locations": 79,
@@ -4215,15 +4215,15 @@
       "google_name": "Farmacenter Itauguá 3",
       "google_types": [
         "pharmacy",
-        "store",
-        "point_of_interest",
         "health",
+        "point_of_interest",
+        "store",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T05:24:07+00:00",
+      "location_verified_at": "2026-11-19T16:50:53+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T05:24:07.307527+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:53.409383+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -4308,15 +4308,15 @@
       "google_name": "Farmacenter Ita 2",
       "google_types": [
         "pharmacy",
-        "store",
-        "point_of_interest",
         "health",
+        "point_of_interest",
+        "store",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T05:24:08+00:00",
+      "location_verified_at": "2026-11-19T16:50:54+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T05:24:08.981668+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:54.462705+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -4401,15 +4401,15 @@
       "google_name": "Farmacenter 4 Mojones",
       "google_types": [
         "pharmacy",
-        "store",
         "health",
+        "store",
         "point_of_interest",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T05:24:11+00:00",
+      "location_verified_at": "2026-11-19T16:50:55+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T05:24:11.962039+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:55.353963+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -4499,11 +4499,19 @@
         "point_of_interest",
         "establishment"
       ],
-      "google_confidence": "high",
+      "google_confidence": "review",
       "location_verified_at": "2026-10-20T05:55:42+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T05:55:42.410895+00:00",
-      "google_enrichment_status": "matched"
+      "google_last_attempt_at": "2026-11-19T16:50:56.437986+00:00",
+      "google_enrichment_status": "needs_review",
+      "google_candidate_place_id": "ChIJPUuaIsqpXZQRbhi4QZSktsQ",
+      "google_candidate": {
+        "google_name": "Farmacenter Lambare 1",
+        "formatted_address": "Av. Cacique Lambare 1180 casi, Lambaré 0723",
+        "lat": -25.3431371,
+        "lng": -57.6219219,
+        "checked_at": "2026-11-19T16:50:56+00:00"
+      }
     },
     {
       "id": "loc-bnf-816273923d6550ff",
@@ -4527,15 +4535,15 @@
       "google_name": "Farmacenter San Isidro 2",
       "google_types": [
         "pharmacy",
-        "store",
         "health",
+        "store",
         "point_of_interest",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T05:55:45+00:00",
+      "location_verified_at": "2026-11-19T16:50:57+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T05:55:45.153026+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:57.553203+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -4560,15 +4568,15 @@
       "google_name": "Farmacenter Lambare 1",
       "google_types": [
         "pharmacy",
+        "health",
         "store",
         "point_of_interest",
-        "health",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T05:55:45+00:00",
+      "location_verified_at": "2026-11-19T16:50:58+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T05:55:45.942985+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:58.454954+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -4713,15 +4721,15 @@
       "google_name": "Farmacenter Limpio 1",
       "google_types": [
         "pharmacy",
-        "store",
         "health",
+        "store",
         "point_of_interest",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T05:55:48+00:00",
+      "location_verified_at": "2026-11-19T16:50:59+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T05:55:48.360465+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:59.325281+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -4926,15 +4934,15 @@
       "google_name": "Farmacenter Luque 7",
       "google_types": [
         "pharmacy",
+        "health",
         "store",
         "point_of_interest",
-        "health",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T05:55:54+00:00",
+      "location_verified_at": "2026-11-19T16:51:00+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T05:55:54.439027+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:00.238405+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -4965,9 +4973,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T05:55:55+00:00",
+      "location_verified_at": "2026-11-19T16:51:01+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T05:55:55.841786+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:01.337899+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -5112,15 +5120,15 @@
       "google_name": "Farmacias Catedral Suc. Luque 10",
       "google_types": [
         "pharmacy",
-        "store",
         "health",
+        "store",
         "point_of_interest",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-21T13:01:52+00:00",
+      "location_verified_at": "2026-11-19T16:51:02+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-21T13:01:52.754338+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:02.188983+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -5711,9 +5719,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T05:56:04+00:00",
+      "location_verified_at": "2026-11-19T16:51:03+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T05:56:04.659555+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:03.342748+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -5818,15 +5826,15 @@
       "google_name": "Farmacenter San Lorenzo 1",
       "google_types": [
         "pharmacy",
-        "health",
         "store",
         "point_of_interest",
+        "health",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T05:56:05+00:00",
+      "location_verified_at": "2026-11-19T16:51:04+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T05:56:05.393931+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:04.206533+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -5851,15 +5859,15 @@
       "google_name": "Farmacenter San Lorenzo 2",
       "google_types": [
         "pharmacy",
-        "store",
-        "point_of_interest",
         "health",
+        "point_of_interest",
+        "store",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:49:52+00:00",
+      "location_verified_at": "2026-11-19T16:51:05+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:49:52.900192+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:05.354751+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -5924,15 +5932,15 @@
       "google_name": "Farmacenter Avelino Martinez",
       "google_types": [
         "pharmacy",
+        "point_of_interest",
         "store",
         "health",
-        "point_of_interest",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:49:53+00:00",
+      "location_verified_at": "2026-11-19T16:51:06+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:49:53.289311+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:06.200103+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -5948,24 +5956,24 @@
       "country": "Paraguay",
       "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Farmacias_2026_NOV_e9456e6f48.pdf",
       "source_page": 13,
-      "lat": -25.3436283,
-      "lng": -57.4878526,
+      "lat": -25.3432938,
+      "lng": -57.5034159,
       "geocode_source": "google_places_text_search",
       "online_only": false,
-      "place_id": "ChIJW82rIWGvXZQRvZVpOlfp3pg",
-      "formatted_address": "Avda. Mcal Estigarribia c/ Sgto. Penayo San Lorenzo, San Lorenzo 1427",
-      "google_name": "Farmacenter Hospital San Lorenzo",
+      "place_id": "ChIJhTGmfsWuXZQRIbSVFePJero",
+      "formatted_address": "Avda. Mcal. Estigarribia y Mcal. López San Lorenzo, San Lorenzo 1423",
+      "google_name": "Farmacenter San Lorenzo 2",
       "google_types": [
         "pharmacy",
-        "store",
         "health",
+        "store",
         "point_of_interest",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:49:53+00:00",
+      "location_verified_at": "2026-11-19T16:51:06+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:49:53.794619+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:06.961330+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -5996,9 +6004,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:49:54+00:00",
+      "location_verified_at": "2026-11-19T16:51:07+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:49:54.564224+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:08.065703+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -6023,15 +6031,15 @@
       "google_name": "Farmacenter San Lorenzo 5",
       "google_types": [
         "pharmacy",
+        "point_of_interest",
         "store",
         "health",
-        "point_of_interest",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:49:54+00:00",
+      "location_verified_at": "2026-11-19T16:51:08+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:49:54.963999+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:08.916884+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -6056,15 +6064,15 @@
       "google_name": "Farmacenter San Lorenzo 10",
       "google_types": [
         "pharmacy",
-        "store",
         "health",
+        "store",
         "point_of_interest",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:49:55+00:00",
+      "location_verified_at": "2026-11-19T16:51:09+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:49:56.081240+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:09.747272+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -6549,15 +6557,15 @@
       "google_name": "Farmacenter Ypane",
       "google_types": [
         "pharmacy",
-        "store",
         "health",
+        "store",
         "point_of_interest",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:49:58+00:00",
+      "location_verified_at": "2026-11-19T16:51:10+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:49:58.569544+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:10.548581+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -6727,9 +6735,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:50:02+00:00",
+      "location_verified_at": "2026-11-19T16:51:11+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:50:03.083949+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:11.494026+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -6779,9 +6787,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:50:08+00:00",
+      "location_verified_at": "2026-11-19T16:51:12+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:50:08.423388+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:12.590063+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -6832,9 +6840,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:50:11+00:00",
+      "location_verified_at": "2026-11-19T16:51:13+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:50:11.982715+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:13.481206+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -6848,7 +6856,7 @@
       "city": "Asunción",
       "department": "Capital",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": -25.3249021,
       "lng": -57.5720697,
@@ -6910,7 +6918,7 @@
       "city": "Asunción",
       "department": "Capital",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": -25.3339988,
       "lng": -57.5775225,
@@ -6969,7 +6977,7 @@
       "city": "Asunción",
       "department": "Capital",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": -25.3339988,
       "lng": -57.5775225,
@@ -7028,7 +7036,7 @@
       "city": "Capiatá",
       "department": "Central",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": -25.3846168,
       "lng": -57.4704475,
@@ -7087,7 +7095,7 @@
       "city": "Capiatá",
       "department": "Central",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": -25.3846168,
       "lng": -57.4704475,
@@ -7146,7 +7154,7 @@
       "city": "Fernando de la Mora",
       "department": "Central",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": -25.3339988,
       "lng": -57.5775225,
@@ -7191,7 +7199,7 @@
       "city": "Luque",
       "department": "Central",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": -25.271454,
       "lng": -57.49035,
@@ -7250,7 +7258,7 @@
       "city": "Luque",
       "department": "Central",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": -25.2759704,
       "lng": -57.4854766,
@@ -7310,7 +7318,7 @@
       "city": "Mariano Roque Alonso",
       "department": "Central",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": -25.2312731,
       "lng": -57.5391078,
@@ -7372,7 +7380,7 @@
       "city": "San Lorenzo",
       "department": "Central",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": -25.3674232,
       "lng": -57.5165948,
@@ -7419,43 +7427,6 @@
       "location_review_status": "qa_hold",
       "location_review_reason": "Source or candidate changed; review required again.",
       "location_reviewed_on": "2026-10-17"
-    },
-    {
-      "id": "loc-bnf-85218af1754dd7e8",
-      "bank": "BNF",
-      "category": "Mayoristas",
-      "source_category": "Mayoristas",
-      "merchant_name": "El Ahorrazo",
-      "merchant_brand": "El Ahorrazo",
-      "address": "Julia Miranda Cueto",
-      "city": "San Lorenzo",
-      "department": "Central",
-      "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
-      "source_page": 2,
-      "lat": -25.3442505,
-      "lng": -57.5104264,
-      "geocode_source": "google_places_text_search",
-      "online_only": false,
-      "place_id": "ChIJ0c-npYeuXZQRZcdyT9MknVE",
-      "formatted_address": "MF4Q+4WM, Julia Miranda Cueto, San Lorenzo 111422",
-      "google_name": "El Ahorrazo Supermayorista",
-      "google_types": [
-        "wholesaler",
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "point_of_interest",
-        "food",
-        "service",
-        "establishment"
-      ],
-      "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:50:12+00:00",
-      "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:50:13.111965+00:00",
-      "google_enrichment_status": "matched"
     },
     {
       "id": "loc-d3dcfde46e",
@@ -8128,15 +8099,15 @@
         "supermarket",
         "grocery_store",
         "food_store",
-        "store",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-21T13:01:53+00:00",
+      "location_verified_at": "2026-11-19T16:51:14+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-21T13:01:53.995012+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:14.375618+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -8516,14 +8487,14 @@
         "grocery_store",
         "food_store",
         "food",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-21T13:01:54+00:00",
+      "location_verified_at": "2026-11-19T16:51:15+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-21T13:01:54.415606+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:15.153655+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -8896,15 +8867,15 @@
         "supermarket",
         "grocery_store",
         "food_store",
-        "store",
-        "point_of_interest",
         "food",
+        "point_of_interest",
+        "store",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-21T13:01:54+00:00",
+      "location_verified_at": "2026-11-19T16:51:15+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-21T13:01:54.898306+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:15.962763+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -9601,9 +9572,9 @@
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-21T13:01:55+00:00",
+      "location_verified_at": "2026-11-19T16:51:16+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-21T13:01:55.382880+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:16.864622+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -10238,15 +10209,15 @@
         "supermarket",
         "grocery_store",
         "food_store",
-        "store",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "google_confidence": "high",
-      "location_verified_at": "2026-10-20T12:50:14+00:00",
+      "location_verified_at": "2026-11-19T16:51:17+00:00",
       "needs_review": false,
-      "google_last_attempt_at": "2026-10-20T12:50:14.307758+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:17.740635+00:00",
       "google_enrichment_status": "matched"
     },
     {
@@ -29884,61 +29855,61 @@
       }
     },
     {
-      "id": "loc-bnf-c9c7a0667becc6d8",
+      "id": "loc-bnf-2b3beae946892a60",
       "bank": "BNF",
       "category": "Mayoristas",
       "source_category": "Mayoristas",
       "merchant_name": "El Ahorrazo",
       "merchant_brand": "El Ahorrazo",
-      "address": "Ahorrazo R1 – Ruta Departamental D027",
+      "address": "Ruta PYD027, Km 20 esq. Cpaiatá – Thompson, Posta Ybykua.",
       "city": "Capiatá",
       "department": "Central",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": null,
       "lng": null,
       "geocode_source": "",
       "online_only": false,
-      "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T12:50:12.387985+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:50.587589+00:00",
       "google_enrichment_status": "needs_review",
+      "google_confidence": "review",
       "google_candidate_place_id": "ChIJm3mq6rKtXZQRcS3Zdque_QI",
       "google_candidate": {
         "google_name": "El Ahorrazo R1",
         "formatted_address": "Capiatá 110245",
         "lat": -25.392956,
         "lng": -57.4698581,
-        "checked_at": "2026-10-20T12:50:12+00:00"
+        "checked_at": "2026-11-19T16:50:50+00:00"
       }
     },
     {
-      "id": "loc-bnf-f2302c46beb809be",
+      "id": "loc-bnf-0ed35837ada2a801",
       "bank": "BNF",
       "category": "Mayoristas",
       "source_category": "Mayoristas",
       "merchant_name": "El Ahorrazo",
       "merchant_brand": "El Ahorrazo",
-      "address": "Ahorrazo R2 – Ruta PY 02",
+      "address": "Ruta Nac. PY 02 Mcal.. José Félix Estigarribia, Km. 21,5 esq. Mons. Darío Céspedes.",
       "city": "Capiatá",
       "department": "Central",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": null,
       "lng": null,
       "geocode_source": "",
       "online_only": false,
-      "google_confidence": "review",
-      "google_last_attempt_at": "2026-10-20T12:50:12.758787+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:51.466309+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJNcJsk92zXZQR69oU7NZIm9o",
+      "google_confidence": "review",
+      "google_candidate_place_id": "ChIJm3mq6rKtXZQRcS3Zdque_QI",
       "google_candidate": {
-        "google_name": "El AHORRAZO R2",
-        "formatted_address": "JG5J+42X, Capiatá 110215",
-        "lat": -25.3504039,
-        "lng": -57.4517604,
-        "checked_at": "2026-10-20T12:50:12+00:00"
+        "google_name": "El Ahorrazo R1",
+        "formatted_address": "Capiatá 110245",
+        "lat": -25.392956,
+        "lng": -57.4698581,
+        "checked_at": "2026-11-19T16:50:51+00:00"
       }
     },
     {
@@ -29952,7 +29923,7 @@
       "city": "Ciudad del Este",
       "department": "Alto Paraná",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": null,
       "lng": null,
@@ -29970,12 +29941,49 @@
       "city": "Minga Guazú",
       "department": "Alto Paraná",
       "country": "Paraguay",
-      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
       "source_page": 2,
       "lat": null,
       "lng": null,
       "geocode_source": "",
       "online_only": false
+    },
+    {
+      "id": "loc-bnf-01372936a6266846",
+      "bank": "BNF",
+      "category": "Mayoristas",
+      "source_category": "Mayoristas",
+      "merchant_name": "El Ahorrazo",
+      "merchant_brand": "El Ahorrazo",
+      "address": "Julia Miranda Cueto c/ España.",
+      "city": "San Lorenzo",
+      "department": "Central",
+      "country": "Paraguay",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_8edaebd710.pdf",
+      "source_page": 2,
+      "lat": -25.3442505,
+      "lng": -57.5104264,
+      "geocode_source": "google_places_text_search",
+      "online_only": false,
+      "google_last_attempt_at": "2026-11-19T16:50:52.407887+00:00",
+      "place_id": "ChIJ0c-npYeuXZQRZcdyT9MknVE",
+      "formatted_address": "MF4Q+4WM, Julia Miranda Cueto, San Lorenzo 111422",
+      "google_name": "El Ahorrazo Supermayorista",
+      "google_types": [
+        "wholesaler",
+        "supermarket",
+        "grocery_store",
+        "food_store",
+        "food",
+        "point_of_interest",
+        "service",
+        "store",
+        "establishment"
+      ],
+      "google_confidence": "high",
+      "google_enrichment_status": "matched",
+      "needs_review": false,
+      "location_verified_at": "2026-11-19T16:50:52+00:00"
     },
     {
       "id": "loc-bnf-7e38a8fa1a40c8f9",
@@ -39796,7 +39804,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:18.317222+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:50.995910+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ89C8bOKnXZQRMsLXlHkPx0k",
       "google_candidate": {
@@ -39804,7 +39812,7 @@
         "formatted_address": "Chile, Asunción 001101",
         "lat": -25.283621,
         "lng": -57.6364232,
-        "checked_at": "2026-11-10T15:47:18+00:00"
+        "checked_at": "2026-11-19T16:50:50+00:00"
       }
     },
     {
@@ -39823,7 +39831,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:19.696224+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:51.992207+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJDxjtRgCpXZQRnCEUhLw1ez4",
       "google_candidate": {
@@ -39831,7 +39839,7 @@
         "formatted_address": "MCQ7+4X9, Av. Eusebio Ayala, Asunción 001419",
         "lat": -25.3122375,
         "lng": -57.5851719,
-        "checked_at": "2026-11-10T15:47:19+00:00"
+        "checked_at": "2026-11-19T16:50:51+00:00"
       }
     },
     {
@@ -39850,15 +39858,15 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:21.231613+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:52.969586+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ_Q367dyoXZQR2geJmC7PKjg",
       "google_candidate": {
         "google_name": "Petrobras",
         "formatted_address": "Km. 5, Av. Eusebio Ayala y, Asunción 001419",
-        "lat": -25.317306,
-        "lng": -57.5721161,
-        "checked_at": "2026-11-10T15:47:21+00:00"
+        "lat": -25.3173127,
+        "lng": -57.5721017,
+        "checked_at": "2026-11-19T16:50:52+00:00"
       }
     },
     {
@@ -39877,7 +39885,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:22.536722+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:53.893256+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJK4fHJACpXZQR3WSSvzc2_uw",
       "google_candidate": {
@@ -39885,7 +39893,7 @@
         "formatted_address": "Av. De La Victoria, e, Asunción 001426",
         "lat": -25.3195625,
         "lng": -57.5769375,
-        "checked_at": "2026-11-10T15:47:22+00:00"
+        "checked_at": "2026-11-19T16:50:53+00:00"
       }
     },
     {
@@ -39904,7 +39912,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:23.756425+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:54.877282+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJdzzxJaqpXZQRw0TUNh-Qi2E",
       "google_candidate": {
@@ -39912,7 +39920,7 @@
         "formatted_address": "Eusebio Lillo Robles 1750, Asunción 1750",
         "lat": -25.2902303,
         "lng": -57.5724937,
-        "checked_at": "2026-11-10T15:47:23+00:00"
+        "checked_at": "2026-11-19T16:50:54+00:00"
       }
     },
     {
@@ -39931,7 +39939,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:25.091472+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:55.842931+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJWTBZKXamXZQR7LpHjBBM2d0",
       "google_candidate": {
@@ -39939,7 +39947,7 @@
         "formatted_address": "Asunción 001509",
         "lat": -25.2507187,
         "lng": -57.5534328,
-        "checked_at": "2026-11-10T15:47:24+00:00"
+        "checked_at": "2026-11-19T16:50:55+00:00"
       }
     },
     {
@@ -39958,7 +39966,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:26.373218+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:56.963932+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJWUf8IQCpXZQRTawiu2L7Gec",
       "google_candidate": {
@@ -39966,7 +39974,7 @@
         "formatted_address": "M9VX+HR3 001230, José Asunción Flores y, Asunción 001230",
         "lat": -25.3062063,
         "lng": -57.6005603,
-        "checked_at": "2026-11-10T15:47:26+00:00"
+        "checked_at": "2026-11-19T16:50:56+00:00"
       }
     },
     {
@@ -39985,7 +39993,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:27.681573+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:58.045761+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJKQ5odrmoXZQRVGTx2pbM5KY",
       "google_candidate": {
@@ -39993,7 +40001,7 @@
         "formatted_address": "Av. Mariscal López 4841, Asunción 001408",
         "lat": -25.2994675,
         "lng": -57.5673387,
-        "checked_at": "2026-11-10T15:47:27+00:00"
+        "checked_at": "2026-11-19T16:50:57+00:00"
       }
     },
     {
@@ -40012,7 +40020,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:29.112026+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:58.911575+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJn-iCiCimXZQRgrbpW-BCJyM",
       "google_candidate": {
@@ -40020,7 +40028,7 @@
         "formatted_address": "Santisimo Sacramento, Asunción 001530",
         "lat": -25.2849276,
         "lng": -57.5880237,
-        "checked_at": "2026-11-10T15:47:28+00:00"
+        "checked_at": "2026-11-19T16:50:58+00:00"
       }
     },
     {
@@ -40039,7 +40047,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:30.405098+00:00",
+      "google_last_attempt_at": "2026-11-19T16:50:59.744290+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJAe9OiIqoXZQRJ2RQ-mwALnQ",
       "google_candidate": {
@@ -40047,7 +40055,7 @@
         "formatted_address": "MCR2+GW6, Martinez Ramella 1350, Asunción 001231",
         "lat": -25.3085229,
         "lng": -57.5977252,
-        "checked_at": "2026-11-10T15:47:30+00:00"
+        "checked_at": "2026-11-19T16:50:59+00:00"
       }
     },
     {
@@ -40066,7 +40074,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:31.835719+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:00.843546+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJT0otxw-mXZQRYG-57cAIyI4",
       "google_candidate": {
@@ -40074,7 +40082,7 @@
         "formatted_address": "Avda. Santísima Trinidad y la, Julio Correa, Asunción 001525",
         "lat": -25.2695625,
         "lng": -57.5633125,
-        "checked_at": "2026-11-10T15:47:31+00:00"
+        "checked_at": "2026-11-19T16:51:00+00:00"
       }
     },
     {
@@ -40093,7 +40101,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-10T15:47:32.648271+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:01.801321+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ03RrjnioXZQRWJQpW0sa54U",
       "google_candidate": {
@@ -40101,7 +40109,7 @@
         "formatted_address": "P94V+PC4 001228, Av. Mariscal López y, Asunción 001228",
         "lat": -25.2931875,
         "lng": -57.6064375,
-        "checked_at": "2026-11-10T15:47:32+00:00"
+        "checked_at": "2026-11-19T16:51:01+00:00"
       }
     },
     {
@@ -40120,7 +40128,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:21:57.878021+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:02.858948+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJSet5G72pXZQR5O21dzkPQ5k",
       "google_candidate": {
@@ -40128,7 +40136,7 @@
         "formatted_address": "M9FX+R62, Av. Médicos del Chaco, Asunción 001313",
         "lat": -25.3256179,
         "lng": -57.6019292,
-        "checked_at": "2026-11-11T15:21:57+00:00"
+        "checked_at": "2026-11-19T16:51:02+00:00"
       }
     },
     {
@@ -40147,7 +40155,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:21:58.930862+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:03.820292+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJkwPIVXOoXZQRvE3hb9f-has",
       "google_candidate": {
@@ -40155,7 +40163,7 @@
         "formatted_address": "Av. Dr. José Gaspar Rodriguez de Francia, Asunción 001223",
         "lat": -25.3012436,
         "lng": -57.6209736,
-        "checked_at": "2026-11-11T15:21:58+00:00"
+        "checked_at": "2026-11-19T16:51:03+00:00"
       }
     },
     {
@@ -40174,7 +40182,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:21:59.898451+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:04.775965+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJvTc4cxumXZQR1RiZdAyB-as",
       "google_candidate": {
@@ -40182,7 +40190,7 @@
         "formatted_address": "PCFM+V4M, Gral. José de San Martín, Asunción 001527",
         "lat": -25.2760213,
         "lng": -57.5670797,
-        "checked_at": "2026-11-11T15:21:59+00:00"
+        "checked_at": "2026-11-19T16:51:04+00:00"
       }
     },
     {
@@ -40201,7 +40209,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:00.731001+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:05.740200+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJfasTjPWnXZQRJ426sMKUshA",
       "google_candidate": {
@@ -40209,7 +40217,7 @@
         "formatted_address": "Piribebuy, Asunción 001012",
         "lat": -25.2839709,
         "lng": -57.6435176,
-        "checked_at": "2026-11-11T15:22:00+00:00"
+        "checked_at": "2026-11-19T16:51:05+00:00"
       }
     },
     {
@@ -40228,15 +40236,15 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:01.866101+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:06.577042+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJQwYn6AEIXZQRAmqSwqkyB18",
+      "google_candidate_place_id": "ChIJfasTjPWnXZQRJ426sMKUshA",
       "google_candidate": {
-        "google_name": "",
-        "formatted_address": "Ntra. Sra. de la Asunción 2135, Asunción 001104, Paraguay",
-        "lat": -25.2974126,
-        "lng": -57.6445424,
-        "checked_at": "2026-11-11T15:22:01+00:00"
+        "google_name": "Petrobras Nicolás Bo S.A.",
+        "formatted_address": "Piribebuy, Asunción 001012",
+        "lat": -25.2839709,
+        "lng": -57.6435176,
+        "checked_at": "2026-11-19T16:51:06+00:00"
       }
     },
     {
@@ -40255,7 +40263,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:02.791154+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:07.445799+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ03RrjnioXZQRWJQpW0sa54U",
       "google_candidate": {
@@ -40263,7 +40271,7 @@
         "formatted_address": "P94V+PC4 001228, Av. Mariscal López y, Asunción 001228",
         "lat": -25.2931875,
         "lng": -57.6064375,
-        "checked_at": "2026-11-11T15:22:02+00:00"
+        "checked_at": "2026-11-19T16:51:07+00:00"
       }
     },
     {
@@ -40282,7 +40290,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:03.609834+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:08.519601+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJoWanRrapXZQRUlVEtIKnSN8",
       "google_candidate": {
@@ -40290,7 +40298,7 @@
         "formatted_address": "Asunción 001425",
         "lat": -25.3208916,
         "lng": -57.5866547,
-        "checked_at": "2026-11-11T15:22:03+00:00"
+        "checked_at": "2026-11-19T16:51:08+00:00"
       }
     },
     {
@@ -40309,7 +40317,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:04.583661+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:09.333970+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJU1HcqIOpXZQR0iOksX8YKvE",
       "google_candidate": {
@@ -40317,7 +40325,7 @@
         "formatted_address": "Asunción 001304",
         "lat": -25.3426633,
         "lng": -57.6372332,
-        "checked_at": "2026-11-11T15:22:04+00:00"
+        "checked_at": "2026-11-19T16:51:09+00:00"
       }
     },
     {
@@ -40336,7 +40344,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:05.393292+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:10.152170+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ-c4tl6ulXZQRju5fsSH-XPA",
       "google_candidate": {
@@ -40344,7 +40352,7 @@
         "formatted_address": "PFJ2+CM5, Av. Primer Presidente, Asunción 001522",
         "lat": -25.2686975,
         "lng": -57.5481278,
-        "checked_at": "2026-11-11T15:22:05+00:00"
+        "checked_at": "2026-11-19T16:51:10+00:00"
       }
     },
     {
@@ -40363,7 +40371,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:06.315178+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:10.948791+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJKVDdAwCpXZQRadEb8PUmohE",
       "google_candidate": {
@@ -40371,7 +40379,7 @@
         "formatted_address": "M9MC+388, Madrinas de la Guerra del Chaco, Asunción 001240",
         "lat": -25.3173342,
         "lng": -57.6291667,
-        "checked_at": "2026-11-11T15:22:06+00:00"
+        "checked_at": "2026-11-19T16:51:10+00:00"
       }
     },
     {
@@ -40390,7 +40398,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:07.279446+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:11.895930+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJ4ZoN9eanXZQR6897IGxGCT0",
       "google_candidate": {
@@ -40398,7 +40406,7 @@
         "formatted_address": "Brasil, e/ 25 de Mayo y, Asunción 001220",
         "lat": -25.2890625,
         "lng": -57.6253125,
-        "checked_at": "2026-11-11T15:22:07+00:00"
+        "checked_at": "2026-11-19T16:51:11+00:00"
       }
     },
     {
@@ -40417,7 +40425,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:08.214613+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:12.999858+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJKcuxw0SmXZQRXmh1ji_uak8",
       "google_candidate": {
@@ -40425,7 +40433,7 @@
         "formatted_address": "Av. Santísima Trinidad y, Asunción 001519",
         "lat": -25.2562533,
         "lng": -57.5832816,
-        "checked_at": "2026-11-11T15:22:08+00:00"
+        "checked_at": "2026-11-19T16:51:12+00:00"
       }
     },
     {
@@ -40444,15 +40452,15 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:09.267025+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:13.974083+00:00",
       "google_enrichment_status": "needs_review",
-      "google_candidate_place_id": "ChIJ4ZoN9eanXZQR6897IGxGCT0",
+      "google_candidate_place_id": "ChIJNZCMii2mXZQR69_FtRSNnrg",
       "google_candidate": {
         "google_name": "Petrobras",
-        "formatted_address": "Brasil, e/ 25 de Mayo y, Asunción 001220",
-        "lat": -25.2890625,
-        "lng": -57.6253125,
-        "checked_at": "2026-11-11T15:22:09+00:00"
+        "formatted_address": "PCC4+F66, Tte. 2do. Benigno Villamayor, Asunción 001206",
+        "lat": -25.2789317,
+        "lng": -57.594346,
+        "checked_at": "2026-11-19T16:51:13+00:00"
       }
     },
     {
@@ -40471,7 +40479,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:10.175116+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:14.759568+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJaftc68unXZQReV273p1Bkn0",
       "google_candidate": {
@@ -40479,7 +40487,7 @@
         "formatted_address": "P97P+77, Washington Esq, Asunción 001209",
         "lat": -25.2868125,
         "lng": -57.6143125,
-        "checked_at": "2026-11-11T15:22:10+00:00"
+        "checked_at": "2026-11-19T16:51:14+00:00"
       }
     },
     {
@@ -40498,7 +40506,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:11.079005+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:15.581400+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJm6Ve7PilXZQRAFq24PFT8pw",
       "google_candidate": {
@@ -40506,7 +40514,7 @@
         "formatted_address": "PFF3+MQ, Av. Aviadores del Chaco y, Asunción 001401",
         "lat": -25.2758125,
         "lng": -57.5455625,
-        "checked_at": "2026-11-11T15:22:10+00:00"
+        "checked_at": "2026-11-19T16:51:15+00:00"
       }
     },
     {
@@ -41407,7 +41415,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:12.046377+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:16.387505+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJeeKg24yzXZQR4Kf3cIdx84M",
       "google_candidate": {
@@ -41415,7 +41423,7 @@
         "formatted_address": "Luís Fustagno &, Av. Moisés, Capiatá 110225",
         "lat": -25.3777633,
         "lng": -57.4102603,
-        "checked_at": "2026-11-11T15:22:11+00:00"
+        "checked_at": "2026-11-19T16:51:16+00:00"
       }
     },
     {
@@ -43038,7 +43046,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:12.863198+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:17.312244+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJC4pPxPKpXZQRwt48BP7HpfE",
       "google_candidate": {
@@ -43046,7 +43054,7 @@
         "formatted_address": "MCHP+2VR, Fernando de la Mora 110308",
         "lat": -25.3223806,
         "lng": -57.5627928,
-        "checked_at": "2026-11-11T15:22:12+00:00"
+        "checked_at": "2026-11-19T16:51:17+00:00"
       }
     },
     {
@@ -44257,7 +44265,7 @@
       "lng": null,
       "geocode_source": "",
       "google_confidence": "review",
-      "google_last_attempt_at": "2026-11-11T15:22:13.906822+00:00",
+      "google_last_attempt_at": "2026-11-19T16:51:18.183077+00:00",
       "google_enrichment_status": "needs_review",
       "google_candidate_place_id": "ChIJdZzzFFupXZQRvj2xVnTTCE0",
       "google_candidate": {
@@ -44265,7 +44273,7 @@
         "formatted_address": "M9PQ+WFC, Av. Bruno Guggiari, Asunción 001235",
         "lat": -25.312792,
         "lng": -57.6114591,
-        "checked_at": "2026-11-11T15:22:13+00:00"
+        "checked_at": "2026-11-19T16:51:18+00:00"
       }
     },
     {
@@ -48333,5 +48341,5 @@
   ],
   "google_enriched_locations": 157,
   "google_enrichment_focus": "Asunción y Gran Asunción",
-  "locations_updated_at": "2026-11-18T16:38:13+00:00"
+  "locations_updated_at": "2026-11-19T16:51:18+00:00"
 }

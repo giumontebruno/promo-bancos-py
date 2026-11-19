@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T16:38:20.615334+00:00",
-  "promotion_count": 4286,
+  "generated_at": "2026-11-19T16:51:27.143054+00:00",
+  "promotion_count": 4311,
   "banks": [
     "Atlas",
     "BNF",
@@ -64,6 +64,7 @@
     "Estética",
     "Eventos",
     "Exclusivo tienda Online",
+    "FERIA ASUNCION",
     "Farmacias",
     "Farmacias y Perfumerías",
     "Fast Food",
@@ -73,7 +74,6 @@
     "Financiación",
     "Florerías",
     "Frigorificos",
-    "Fuschia",
     "Gastronomia",
     "Gastronomía",
     "Generales",
@@ -1569,7 +1569,6 @@
     "4be488d3f6b21a68": "e7cefbccde8f4f0b",
     "59fe8498388fc63e": "fc86c6c6339d9d59",
     "c179e4f73e656033": "1462c356059fb368",
-    "c8ac25a1a6151891": "5e4f8a72bd828b50",
     "7a77c0e3c4c3d45d": "01a843ac9d14eba6",
     "6d1b0277e2be4405": "2fd6dbf4e27c620b",
     "40da645d3696d520": "62c11a7886814515",
@@ -1600,7 +1599,41 @@
     "4b57fff861921c0b": "cba5cc3119190eee",
     "1f7cab8b3b7510ef": "ff329ed31133f11d",
     "8226415ed82c7067": "02d1b07b13a861e4",
-    "084b9f3d13240720": "f32af543e75ccd75"
+    "084b9f3d13240720": "f32af543e75ccd75",
+    "37cdb8dd6b38ca37": "c32a5abb6854ff19",
+    "7e5b9d516e0b9416": "d30c8e69f530a083",
+    "f27a05dde5348381": "9ede2169a733bb2f",
+    "8b3566433a23a3b1": "d881d78524daa0e0",
+    "781ebf014d2c267e": "b1d40d1b388718d8",
+    "61eb54851b8eda7d": "e90b9ad0ce58f3db",
+    "024523329ec1b30b": "5d05aa447014f30e",
+    "52c64d88369f728f": "59ddea037798ce8b",
+    "11c07dd7749f1776": "505d549fc131e1aa",
+    "3d068b7344f21341": "fa8714fd07e22ec0",
+    "046298d4acf191d9": "e3ad1c9194a5cb45",
+    "de9227501010eb0f": "a821198f68dd65c8",
+    "061ca898059f3983": "3f0274229f0cd198",
+    "f23d0b9b16c6aec6": "345ca161fec1f954",
+    "1f2238d4f05ff429": "cdaf9d1ea8c9303a",
+    "526e34f5ba24cb3f": "3741c58fa948409f",
+    "195bfc7b6c4e934d": "805399294b289d1f",
+    "f26abf734094b7ce": "43cb563654567493",
+    "bbf8491394570bf9": "7f209321ac850564",
+    "976c9908f2a9166d": "83cf68b5524befa5",
+    "a556400182632898": "7e5ffeb9c63ed865",
+    "d5e231a8d8e70e58": "155f6989b650d860",
+    "66b7435adde86630": "e258d829391236a9",
+    "e932bfa794b7b126": "37299d119036b250",
+    "d4c0f3c08242e298": "3206c37e60bb8a3f",
+    "ebeaa4d0501f7d7d": "6ef87ea9e655ad3e",
+    "434df79cd6026ff2": "188759baa8f428a1",
+    "7b336a9e053a0e74": "75343679e11e430b",
+    "2e2adc11a3fd9223": "be9896b17bafc36d",
+    "fc66033f28dfef52": "d9dcd454b16bdb5e",
+    "6f295698cae71d46": "bdf72c6f4e7e7221",
+    "91ff86aa4fa2ea63": "e10d7fd58bf5545a",
+    "a4ee16bfc74630e8": "ad6c6e535e4724be",
+    "5e4f8a72bd828b50": "c8ac25a1a6151891"
   },
   "favorite_unavailable": {
     "84714bfec7199316": {
@@ -4310,6 +4343,90 @@
       "bank": "Basa",
       "merchant_name": "CPH",
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/Basa_Alianzas_Bases-Y-Condiciones_Cph.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "b7c2cef1917f3a65": {
+      "reason": "not_in_current_sources",
+      "bank": "Atlas",
+      "merchant_name": "DG Market",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "last_known_ends_on": null
+    },
+    "cb2d47ca1945e0e8": {
+      "reason": "not_in_current_sources",
+      "bank": "Atlas",
+      "merchant_name": "Gran Vía",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "last_known_ends_on": "2026-12-16"
+    },
+    "9cba3dba9d9345de": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "Aho Aho Comercial",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "last_known_ends_on": "2026-11-28"
+    },
+    "9cba3dba9d9345de-0e7d22d5": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "Aho Aho Comercial",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "last_known_ends_on": "2026-11-28"
+    },
+    "69cc7ddb26890b5d": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "BOX Mayorista",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "last_known_ends_on": "2026-11-28"
+    },
+    "69cc7ddb26890b5d-da7b2bce": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "BOX Mayorista",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "last_known_ends_on": "2026-11-28"
+    },
+    "7c61080c469cb193": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "Casa Grütter",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "last_known_ends_on": "2026-11-28"
+    },
+    "7c61080c469cb193-75506c3f": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "Casa Grütter",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "last_known_ends_on": "2026-11-28"
+    },
+    "e0397014277dc7ff": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "El Ahorrazo",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "last_known_ends_on": "2026-11-28"
+    },
+    "e0397014277dc7ff-23f69e5b": {
+      "reason": "not_in_current_sources",
+      "bank": "BNF",
+      "merchant_name": "El Ahorrazo",
+      "source_url": "https://www.bnf.gov.py/uploads/Promocion_Reintegro_Mayoristas_2026_NOV_2_50e50807e6.pdf",
+      "last_known_ends_on": "2026-11-28"
+    },
+    "3f26bd2659707184": {
+      "reason": "not_in_current_sources",
+      "bank": "Basa",
+      "merchant_name": "Metro Tela",
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Metro%20Tela.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "4c456852f003fe2d": {
+      "reason": "not_in_current_sources",
+      "bank": "Continental",
+      "merchant_name": "Consolid Travel",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
       "last_known_ends_on": "2026-12-31"
     }
   },
