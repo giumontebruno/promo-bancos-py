@@ -170,3 +170,6 @@ body[data-view="today"] .supermarket-pilot{display:none}
 .detail-local-list li { padding: 12px 0; border-bottom: 1px solid var(--line, #dedede); overflow-wrap: anywhere; }
 .detail-local-list p { margin: 5px 0; }
 .detail-location-count { line-height: 1.5; }
+
+/* Sandbox map explorer: progressive disclosure, no extra provider requests. */
+.nearby-toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:12px 0}.nearby-toolbar>span{flex:1 1 200px;overflow-wrap:anywhere;color:var(--ui-muted);font-size:13px}.nearby-toolbar button,.nearby-branch-list summary{min-height:44px;padding:12px 14px;border-radius:14px;border:1px solid var(--ui-line);background:var(--ui-surface);color:var(--ui-ink);cursor:pointer}.nearby-coverage-note{font-size:12px;color:var(--ui-muted)}.nearby-branch-list{margin:16px 0;min-width:0}.nearby-branch-list summary{font-weight:600}.map-expanded .map-stage{height:70vh;height:70dvh;min-height:320px;max-height:850px}.nearby-toolbar button:focus-visible,.nearby-branch-list summary:focus-visible{outline:3px solid var(--ui-accent);outline-offset:3px}

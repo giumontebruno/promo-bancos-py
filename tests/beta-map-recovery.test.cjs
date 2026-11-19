@@ -6,7 +6,7 @@ const source=fs.readFileSync('beta-web/app.js','utf8');
 const block=(a,b)=>source.slice(source.indexOf(a),source.indexOf(b));
 test('a failed locations download is retryable and never becomes an empty loaded map',async()=>{
  let response={ok:false};
- const c={selectedDateIso:()=>"2026-10-23",state:{locations:[],locationsLoaded:false},LOCATIONS_URL:'/locations',fetch:async()=>response};
+ const c={selectedDateIso:()=>"2026-10-23",state:{locations:[],locationsLoaded:false},LOCATIONS_URL:'/locations',loadMapReview:async()=>null,addReviewedRows:(rows)=>rows,fetch:async()=>response};
  vm.runInNewContext(block('async function loadLocations(','function toggleFavorite('),c);
  await assert.rejects(c.loadLocations());
  assert.equal(c.state.locationsLoaded,false);assert.equal(c.state.locationsStatus,'error');

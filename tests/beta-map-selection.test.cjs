@@ -28,7 +28,7 @@ function harness(provider, location = null) {
   const c={state:{location,activeView:'nearby',locationsLoaded:true},nearbyMapState:{markers:[],googleMarkers:[],renderId:0},
     document:{querySelector:()=>element},window:{clearTimeout(){},setTimeout(fn){timers.push(fn);}},setMapProviderStatus:()=>{},
     getPointKey:i=>i?.place.name,getMapVisiblePoints:p=>p,getGoogleMarkerIcon:()=>({}),
-    getPointPrimaryPromo:()=>null,getBankTheme:()=>({main:'red'}),getDominantPromoCategory:()=> 'test',CATEGORY_ICONS:{test:'test'},ICON_PATHS:{test:''},escapeAttribute:s=>s,isSelectedPoint:()=>false};
+    getPointPrimaryPromo:()=>null,getBankTheme:()=>({main:'red'}),getDominantPromoCategory:()=> 'test',CATEGORY_ICONS:{test:'test'},ICON_PATHS:{test:''},escapeAttribute:s=>s,escapeHtml:s=>s,getNearbyActiveFilterText:()=> 'Todos los bancos y categorías',isSelectedPoint:()=>false};
   c.window.google={maps:{Map:MapMock,Marker:MarkerMock,LatLngBounds:class {extend(){} isEmpty(){return false;}},SymbolPath:{CIRCLE:0},event:{addListenerOnce:(m,e,fn)=>timers.push(fn)}}};
   c.window.L={map:(el,o)=>new MapMock(el,o),marker:(pos,o)=>new MarkerMock({position:pos}),circleMarker:(pos)=>new MarkerMock({position:pos}),divIcon:o=>o,latLngBounds:x=>x,tileLayer:()=>({on(){return this;},addTo(){}})};
   function load(a,b){vm.runInNewContext(source.slice(source.indexOf(`function ${a}(`),source.indexOf(`function ${b}(`)),c);}

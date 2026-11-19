@@ -1,6 +1,47 @@
 const DATA_URL = "../public/promotions.json";
 const MANIFEST_URL = "../public/manifest.json";
 const LOCATIONS_URL = "../public/locations.json";
+const MAP_REVIEW_URL = "./reviewed-map-delta.json?v=20261119";
+const SUSPENSIONS_URL = "../public/promotion-suspensions.json";
+let mapReviewPromise;
+
+function loadMapReview() {
+  if (!mapReviewPromise) {
+    const options = { signal: AbortSignal.timeout(6000) };
+    mapReviewPromise = Promise.all([
+      fetch(MAP_REVIEW_URL, options), fetch(SUSPENSIONS_URL, options),
+    ]).then(async ([reviewRes, policyRes]) => {
+      if (!reviewRes.ok || !policyRes.ok) return null;
+      const [review, policy] = await Promise.all([reviewRes.json(), policyRes.json()]);
+      if (review?.schema !== 1 || !Array.isArray(review.promotions) || !Array.isArray(review.locations) ||
+          !review.contracts || !Array.isArray(policy?.banks)) return null;
+      const suspended = new Set(policy.banks.map(bank => String(bank).trim().toLowerCase()));
+      const allowed = item => !suspended.has(String(item.bank).trim().toLowerCase());
+      return { promotions: review.promotions.filter(allowed), locations: review.locations.filter(allowed).map(row => ({
+        ...row,
+        promotion_contracts: Object.fromEntries(row.promotion_ids.map(id => [id, review.contracts[id]])),
+      })) };
+    }).catch(() => null);
+  }
+  return mapReviewPromise;
+}
+
+function addReviewedRows(base, additions) {
+  const ids = new Set(base.map(row => row.id));
+  return [...base, ...additions.filter(row => {
+    if (!row?.id || ids.has(row.id)) return false;
+    ids.add(row.id);
+    return true;
+  })];
+}
+
+function appendReviewedPromotions(base, additions) {
+  // A live listing or explicit withholding from the shared refresh takes precedence.
+  const campaignKey = row => [row.bank, row.merchant_name].map(v => String(v).trim().toLowerCase()).join("|");
+  const live = new Set(base.map(campaignKey));
+  return addReviewedRows(base, additions.filter(row => !live.has(campaignKey(row))));
+}
+
 const STORAGE_KEYS = {
   user: "paybackPyBeta.user",
   favorites: "paybackPyBeta.favorites",
@@ -1691,6 +1732,12 @@ function renderNearbyView(selection = null) {
   els.results.innerHTML = `
     <section class="nearby-panel">
       ${state.detailMapPromo ? `<p class="detail-location-note">Sólo locales verificados de ${escapeHtml(getPromoTitle(state.detailMapPromo))}. <button type="button" data-clear-promo-map>Volver al mapa general</button></p>` : ""}
+      <div class="nearby-toolbar" aria-label="Explorar locales">
+        <span>${escapeHtml(getNearbyActiveFilterText())}</span>
+        <button type="button" data-map-action="expand" aria-expanded="false">Ampliar mapa</button>
+        <button type="button" data-location-action="detect">${state.location ? "Actualizar ubicación" : "Usar mi ubicación"}</button>
+      </div>
+      <p class="nearby-coverage-note">${points.length} ubicaciones verificadas. Los beneficios sin coordenadas confirmadas no aparecen como pines.</p>
       <div class="map-stage">
         ${state.location ? `<button type="button" class="map-user-center" data-map-action="center-user" aria-label="Centrar en mi ubicación" title="Mi ubicación">${renderIcon("target")}</button>` : ""}
         <div class="map-zoom-controls" aria-label="Controles del mapa">
@@ -1701,9 +1748,10 @@ function renderNearbyView(selection = null) {
       </div>
       <div id="mapProviderStatus" class="map-provider-status" role="status"><span>Cargando mapa… Podés consultar los locales de la lista.</span><button type="button" data-map-action="retry" hidden>Reintentar mapa</button></div>
       ${renderNearbySelectedPlace(selectedPoint, selectedTheme)}
-      <div class="place-list">
-        ${points.map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
-      </div>
+      <details class="nearby-branch-list">
+        <summary>Ver lista de ${points.length} locales</summary>
+        <div class="place-list">${points.map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}</div>
+      </details>
       ${promos.length ? renderNearbyPromoGroups(promos, selectedPoint?.place) : `<div class="empty">No encontramos locales geolocalizados para el filtro actual.</div>`}
     </section>
   `;
@@ -2036,6 +2084,17 @@ function centerNearbyMapOnUser() {
   if (nearbyMapState.map) {
     nearbyMapState.map.setView([position.lat, position.lng], Math.max(nearbyMapState.map.getZoom(), 16), { animate: true });
   }
+}
+
+function toggleNearbyMapExpansion(button) {
+  const panel = button.closest(".nearby-panel");
+  if (!panel) return;
+  const expanded = panel.classList.toggle("map-expanded");
+  button.setAttribute("aria-expanded", String(expanded));
+  button.textContent = expanded ? "Reducir mapa" : "Ampliar mapa";
+  // Resize the existing provider without recreating pins or losing camera position.
+  nearbyMapState.map?.invalidateSize();
+  if (nearbyMapState.googleMap) window.google?.maps?.event?.trigger(nearbyMapState.googleMap, "resize");
 }
 
 function zoomNearbyMap(direction) {
@@ -2429,8 +2488,11 @@ function matchesNearbyDay(promo) {
 function getPromotionsForLocation(place, promoIndex, category = state.activeCategory) {
   const pilotLinks = typeof PaybackSupermarketReviews !== "undefined" ? PaybackSupermarketReviews.branchOffers(place, [...promoIndex.values()].flat(), selectedDateIso()) : [];
   if (Array.isArray(place.promotion_ids)) {
-    if (!isActivePromotion({terms: {ends_on: place.participation_ends_on}}, selectedDateIso())) return pilotLinks;
-    return uniquePromos([...pilotLinks, ...[...promoIndex.values()].flat().filter(promo => place.promotion_ids.includes(promo.id))]);
+    if (!isActivePromotion({terms: {starts_on: place.participation_starts_on, ends_on: place.participation_ends_on}}, selectedDateIso())) return pilotLinks;
+    return uniquePromos([...pilotLinks, ...[...promoIndex.values()].flat().filter(promo => place.promotion_ids.includes(promo.id) && (!place.promotion_contracts || (() => {
+      const contract = place.promotion_contracts[promo.id];
+      return contract && Object.keys(contract).every(key => JSON.stringify(promo[key] ?? null) === JSON.stringify(contract[key]));
+    })()))]);
   }
   const bank = normalizeDayName(place.bank);
   const source = place.source_url || "";
@@ -2545,12 +2607,12 @@ async function loadLocations() {
   state.locationsPromise = (async () => {
   state.locationsStatus = "loading";
   try {
-    const response = await fetch(`${LOCATIONS_URL}?t=${Date.now()}`);
+    const [response, review] = await Promise.all([fetch(`${LOCATIONS_URL}?t=${Date.now()}`), loadMapReview()]);
     if (!response.ok) throw new Error("No se pudieron cargar ubicaciones");
     const payload = await response.json();
     if (!Array.isArray(payload.locations)) throw new Error("Formato de ubicaciones inválido");
     state.locationsUpdated = payload.generated_at || "";
-    state.locations = (payload.locations || []).map((item) => ({
+    state.locations = addReviewedRows(payload.locations, review?.locations || []).map((item) => ({
       ...item,
       name: item.google_name || [item.merchant_name, item.address].filter(Boolean).join(" · "),
       lat: item.lat === null || item.lat === "" ? null : Number(item.lat),
@@ -3351,9 +3413,10 @@ function openDetail(id, variantKey = "", placeId = "") {
 async function loadPromotions() {
   els.statusText.textContent = "Actualizando promociones...";
   els.results.innerHTML = renderSkeletons();
-  const [response, manifestResponse] = await Promise.all([
+  const [response, manifestResponse, review] = await Promise.all([
     fetch(`${DATA_URL}?t=${Date.now()}`),
     fetch(`${MANIFEST_URL}?t=${Date.now()}`).catch(() => null),
+    loadMapReview(),
   ]);
   if (!response.ok) throw new Error("No se pudo cargar promotions.json");
   if (manifestResponse?.ok) {
@@ -3361,7 +3424,7 @@ async function loadPromotions() {
     state.lastUpdated = manifest.generated_at || "";
     state.favoriteAliases = manifest.favorite_aliases || {};
   }
-  state.promotions = uniquePromos(PaybackEligibility.apply(PaybackCampaigns.apply(await response.json())).filter(promo => isDisplayablePromotion(promo) && promo.source_verification !== "unconfirmed" && !promo.terms?.conflicting_dates && promo.terms?.ends_on >= PaybackDates.today()));
+  state.promotions = uniquePromos(PaybackEligibility.apply(PaybackCampaigns.apply(appendReviewedPromotions(await response.json(), review?.promotions || []))).filter(promo => isDisplayablePromotion(promo) && promo.source_verification !== "unconfirmed" && !promo.terms?.conflicting_dates && promo.terms?.ends_on >= PaybackDates.today()));
   populatePilotCards();
   state.favorites = normalizeFavoriteIds(state.favorites);
   if (!window.PaybackBeta?.current) saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
@@ -3511,6 +3574,10 @@ els.results.addEventListener("click", (event) => {
   if (event.target.closest("[data-clear-promo-map]")) { state.detailMapPromo = null; render(); return; }
   const mapAction = event.target.closest("[data-map-action]");
   if (mapAction) {
+    if (mapAction.dataset.mapAction === "expand") {
+      toggleNearbyMapExpansion(mapAction);
+      return;
+    }
     if (mapAction.dataset.mapAction === "retry") {
       getMapProvider().retry();
       renderNearbyView();
