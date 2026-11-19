@@ -311,3 +311,66 @@ body.auth-required .app-shell, body.auth-required .bottom-nav { display: none; }
 .detail-share { display:inline-flex; align-items:center; gap:8px; }
 .detail-share svg, .share-toggle svg { width:20px; height:20px; stroke-width:2; }
 .share-toggle circle, .detail-share circle { fill:currentColor; }
+
+/* Promotion detail: warm coral hierarchy, scoped to this dialog. */
+#promoDialog { width: min(700px, calc(100% - 24px)); max-height: calc(100dvh - 24px); border: 1px solid #526058; border-radius: 26px; background: #17221d; color: #f5f7ef; }
+#promoDialog::backdrop { background: rgb(6 14 10 / 78%); }
+#promoDialog .dialog-card { padding: 0; background: #17221d; }
+#promoDialog .close-button { position: sticky; display: block; top: 12px; margin: 12px 12px -56px auto; z-index: 2; width: 44px; height: 44px; font-size: 26px; background: #17221d; color: #fff; border: 1px solid #75847b; }
+#promoDialog #dialogContent { padding: 0 24px 24px; overflow-wrap: anywhere; }
+#promoDialog .promo-detail-hero { margin: 0 -24px 20px; padding: 34px 24px 26px; background: radial-gradient(ellipse at top left, #593936 0, transparent 75%), #26342c; border-bottom: 1px solid #62604e; }
+#promoDialog .detail-eyebrow { display: flex; gap: 8px; align-items: center; padding-right: 48px; color: #ffa8ac; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+#promoDialog svg { width: 20px; height: 20px; flex: none; }
+#promoDialog .detail-bank-chip { display: flex; flex-wrap: wrap; gap: 8px 14px; margin: 22px 0 12px; font-size: 13px; font-weight: 750; color: #f7f6ee; }
+#promoDialog .detail-bank-chip span { color: #c3d0c6; font-weight: 400; }
+#promoDialog h2 { margin: 0; font-size: clamp(25px, 5vw, 36px); line-height: 1.15; letter-spacing: -.025em; color: #fff9ee; }
+#promoDialog .detail-hero-benefit { color: #ff939c; font-size: clamp(30px, 6vw, 46px); font-weight: 850; letter-spacing: -.035em; line-height: 1.15; margin: 20px 0 8px; }
+#promoDialog .detail-hero-note { margin: 0; font-size: 13px; line-height: 1.5; color: #d5dfd6; }
+#promoDialog .detail-quick-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+#promoDialog .detail-quick-facts section { padding: 15px; border-radius: 16px; background: #25342c; border: 1px solid #4e6154; }
+#promoDialog .detail-quick-facts span { display: block; color: #bacabd; font-size: 12px; margin-bottom: 8px; }
+#promoDialog .detail-quick-facts strong { display: block; color: #f4f7ed; font-size: 15px; line-height: 1.5; }
+#promoDialog .detail-saving { display: grid; grid-template-columns: 1fr; gap: 8px; margin: 12px 0 16px; padding: 18px; border-radius: 16px; border: 1px solid #987367; background: #382f29; }
+#promoDialog .detail-saving span { color: #f0c8ba; font-size: 11px; letter-spacing: .06em; }
+#promoDialog .detail-saving strong { color: #fff2df; font-size: clamp(26px, 6vw, 34px); line-height: 1.15; }
+#promoDialog .detail-saving small { color: #e0cfc4; font-size: 12px; line-height: 1.5; }
+#promoDialog .detail-social-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 22px; }
+#promoDialog .detail-social-actions button { margin: 0; min-height: 44px; padding: 10px 14px; border-radius: 12px; background: #24382c; border: 1px solid #607465; color: #eff5e9; font-size: 13px; }
+#promoDialog .detail-social-actions .active { color: #ffc0c5; border-color: #ff939c; }
+#promoDialog h3 { margin: 0; font-size: 19px; line-height: 1.3; color: #f5f7ed; letter-spacing: -.015em; }
+#promoDialog .detail-location-card { background: #26382e; border: 1px solid #617565; border-radius: 20px; padding: 20px; margin-bottom: 20px; }
+#promoDialog .detail-section-heading { display: flex; gap: 10px; align-items: center; color: #ff939c; margin-bottom: 16px; }
+#promoDialog .detail-branch-label { display: block; margin: 0 0 8px; color: #edf3e9; font-size: 13px; font-weight: 700; }
+#promoDialog select { display: block; width: 100%; max-width: 100%; min-height: 48px; padding: 12px; border-radius: 12px; background: #16271e; color: #fff; border: 1px solid #91a595; font: inherit; font-size: 14px; }
+#promoDialog .detail-location-note { margin: 10px 0; color: #bdcdbf; font-size: 13px; line-height: 1.6; }
+#promoDialog .detail-destination > strong { display: block; font-size: 16px; line-height: 1.5; }
+#promoDialog .detail-address { display: flex; align-items: flex-start; gap: 8px; color: #ffe4dc; font-size: 14px; line-height: 1.6; margin: 8px 0 16px; text-decoration: underline; text-underline-offset: 3px; }
+#promoDialog .detail-route-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+#promoDialog .detail-route-actions > * { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 8px; min-height: 52px; border-radius: 12px; padding: 12px; font: inherit; font-size: 14px; font-weight: 750; text-decoration: none; cursor: pointer; text-align: center; }
+#promoDialog .detail-map-action { color: #ffe4dc; background: #203127; border: 1px solid #aaafa0; }
+#promoDialog .detail-directions { color: #231816; background: #ff939c; border: 1px solid #ff939c; }
+#promoDialog .detail-external-label { flex-basis: 100%; font-size: 10px; font-weight: 600; line-height: 1.4; }
+#promoDialog .calculator { background: #202e25; border: 1px solid #526858; padding: 20px; margin: 0 0 26px; }
+#promoDialog .calculator input { color: #fff; background: #15221a; border: 1px solid #879b8b; font-size: 18px; }
+#promoDialog .calculator input::placeholder { color: #a9b8ac; }
+#promoDialog .calculator label, #promoDialog .calculator-result { color: #d2ddcf; }
+#promoDialog .detail-conditions { padding-top: 4px; }
+#promoDialog .detail-list { gap: 0; margin-top: 16px; }
+#promoDialog .detail-row { padding: 16px 0; border-color: #4e5f52; }
+#promoDialog .detail-row > span { color: #aebfac; font-size: 11px; letter-spacing: .04em; }
+#promoDialog .detail-row strong { color: #eef3e9; font-weight: 450; font-size: 14px; line-height: 1.7; }
+#promoDialog .detail-inline-action { color: #ffe0da; min-height: 44px; padding: 10px 14px; border-radius: 10px; border-color: #80927f; }
+#promoDialog #detailSourceLink { padding: 18px 0; }
+#promoDialog #detailSourceLink a { color: #ffb0b6; text-underline-offset: 4px; line-height: 1.6; }
+#promoDialog .detail-report { background: transparent; border: 0; color: #c4cfc0; font: inherit; font-size: 12px; text-decoration: underline; min-height: 44px; padding: 10px 0; cursor: pointer; }
+#promoDialog :is(button, a, input, select):focus-visible { outline: 3px solid #ffe2a7; outline-offset: 3px; }
+@media (max-width: 480px) {
+  #promoDialog { width: calc(100% - 16px); border-radius: 22px; }
+  #promoDialog #dialogContent { padding: 0 16px 20px; }
+  #promoDialog .promo-detail-hero { margin: 0 -16px 16px; padding: 30px 20px 24px; }
+  #promoDialog .detail-quick-facts { gap: 8px; }
+  #promoDialog .detail-quick-facts section { padding: 12px; }
+  #promoDialog .detail-location-card { padding: 16px; }
+  #promoDialog .detail-route-actions { grid-template-columns: 1fr; }
+}
+@media (max-width: 340px) { #promoDialog .detail-quick-facts { grid-template-columns: 1fr; } }

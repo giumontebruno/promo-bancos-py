@@ -68,6 +68,12 @@ function googleButton() {
 }
 async function login() {
   if (!client) throw new Error('El acceso no está disponible en este momento.');
+  try {
+    const query = new URLSearchParams();
+    const incoming = new URLSearchParams(location.search);
+    for (const field of ['view', 'promo', 'variant']) if (incoming.has(field)) query.set(field, incoming.get(field));
+    sessionStorage.setItem('paybackPy.oauthReturn', JSON.stringify({ query: query.toString(), at: Date.now() }));
+  } catch { /* Auth also works without session storage. */ }
   const { error } = await client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: new URL('./', location.href).href, scopes: 'openid email profile', queryParams: { prompt: 'select_account' } } });
   if (error) throw new Error('No pudimos iniciar el acceso con Google. Intentá nuevamente.');
 }
@@ -76,12 +82,12 @@ function shell(content) {
   if (!dialog.open) dialog.showModal();
 }
 function show() {
-  if (!ready) return shell(`<h2>Beta Payback PY</h2><p>${escape(initError || 'Preparando el acceso…')}</p><button data-beta-retry>Reintentar</button>`);
-  if (!client) return shell('<h2>Beta Payback PY</h2><p>El registro está en preparación. Tus favoritos locales siguen disponibles.</p>');
-  if (!current) return shell(`<h2>Ingresar a la beta</h2><form id="betaLogin"><button type="submit" class="google-signin">${googleButton()}</button></form><p>Ingresá con tu cuenta de Google. Solo solicitamos identidad básica y correo, sin acceso a Gmail, contactos ni Drive.</p><p>La beta registra por defecto contadores diarios de uso asociados a tu cuenta. No guarda lo que escribís en búsquedas ni tu ubicación. Podés desactivar esta medición y borrar sus datos en tu cuenta. <a href="./privacy.html">Privacidad</a></p>`);
-  shell(`<h2>Tu cuenta beta</h2><p>${escape(current.email)}</p>
+  if (!ready) return shell(`<h2>Payback PY</h2><p>${escape(initError || 'Preparando el acceso…')}</p><button data-beta-retry>Reintentar</button>`);
+  if (!client) return shell('<h2>Payback PY</h2><p>El registro está en preparación. Tus favoritos locales siguen disponibles.</p>');
+  if (!current) return shell(`<h2>Ingresar a Payback PY</h2><form id="betaLogin"><button type="submit" class="google-signin">${googleButton()}</button></form><p>Ingresá con tu cuenta de Google. Solo solicitamos identidad básica y correo, sin acceso a Gmail, contactos ni Drive.</p><p>Payback PY registra por defecto contadores diarios de uso asociados a tu cuenta. No guarda lo que escribís en búsquedas ni tu ubicación. Podés desactivar esta medición y borrar sus datos en tu cuenta. <a href="./privacy.html">Privacidad</a></p>`);
+  shell(`<h2>Tu cuenta Payback</h2><p>${escape(current.email)}</p>
     <p>Favoritos sincronizados: ${current.favorites.length}. Los avisos se activan por separado en cada dispositivo.</p>
-    <form id="betaPreferences"><label class="check-row"><input name="consent" type="checkbox" ${current.consent ? 'checked' : ''}>Medición básica de la beta</label>
+    <form id="betaPreferences"><label class="check-row"><input name="consent" type="checkbox" ${current.consent ? 'checked' : ''}>Medición básica de Payback PY</label>
     <p>Activa por defecto en cuentas nuevas. El administrador puede ver tu correo y contadores diarios de sesiones, búsquedas, filtros, promociones abiertas, favoritos agregados y clics en Maps. No guardamos el texto de las búsquedas ni coordenadas. Los contadores se conservan 30 días; si desactivás la medición, se borran.</p>
     <label>Nivel UENO<select name="level">${[1,2,3,4,5].map(n => `<option value="${n}" ${current.uenoLevel === n ? 'selected' : ''}>Nivel ${n}</option>`).join('')}</select></label><button>Guardar preferencias</button></form>
     <div class="beta-actions"><button data-beta-report>Enviar comentario</button><button data-beta-logout>Cerrar sesión</button><button data-beta-erase>Borrar mis datos de beta</button></div>`);

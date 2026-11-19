@@ -9,6 +9,7 @@ function setup() {
     state: { activeDay: 'hoy', query: '', promotions: [] },
     shouldShowPromotion: p => !p.expired,
     matchesBank: () => true,
+    matchesCardFilter: () => true,
     matchesCategory: () => true,
     matchesQuery: () => true,
     normalizeDayName: text => text.toLowerCase(),

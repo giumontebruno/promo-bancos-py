@@ -45,7 +45,7 @@ test('navigation away and replacement of map DOM cancel stale rendering',async()
 });
 test('branches load while GPS remains pending and concurrent requests share one fetch',async()=>{
  let finishFetch,fetches=0,gps=0;
- const c={state:{activeView:'nearby'},LOCATIONS_URL:'/locations',fetch:()=>{fetches++;return new Promise(r=>finishFetch=r)},render:()=>{},requestLocation:()=>gps++};
+ const c={state:{activeView:'nearby'},LOCATIONS_URL:'/locations',loadMapReview:async()=>null,addReviewedRows:(rows)=>rows,fetch:()=>{fetches++;return new Promise(r=>finishFetch=r)},render:()=>{},requestLocation:()=>gps++};
  vm.runInNewContext(source.slice(source.indexOf('async function requestNearbyLocationAutomatically('),source.indexOf('async function exploreNearbyManually(')),c);
  vm.runInNewContext(source.slice(source.indexOf('async function loadLocations('),source.indexOf('function toggleFavorite(')),c);
  await c.requestNearbyLocationAutomatically();const concurrent=c.loadLocations();assert.equal(fetches,1);assert.equal(gps,1);

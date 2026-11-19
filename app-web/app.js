@@ -1,6 +1,47 @@
 const DATA_URL = "../public/promotions.json";
 const MANIFEST_URL = "../public/manifest.json";
 const LOCATIONS_URL = "../public/locations.json";
+const MAP_REVIEW_URL = "./reviewed-map-delta.json?v=20261119";
+const SUSPENSIONS_URL = "../public/promotion-suspensions.json";
+let mapReviewPromise;
+
+function loadMapReview() {
+  if (!mapReviewPromise) {
+    const options = { signal: AbortSignal.timeout(6000) };
+    mapReviewPromise = Promise.all([
+      fetch(MAP_REVIEW_URL, options), fetch(SUSPENSIONS_URL, options),
+    ]).then(async ([reviewRes, policyRes]) => {
+      if (!reviewRes.ok || !policyRes.ok) return null;
+      const [review, policy] = await Promise.all([reviewRes.json(), policyRes.json()]);
+      if (review?.schema !== 1 || !Array.isArray(review.promotions) || !Array.isArray(review.locations) ||
+          !review.contracts || !Array.isArray(policy?.banks)) return null;
+      const suspended = new Set(policy.banks.map(bank => String(bank).trim().toLowerCase()));
+      const allowed = item => !suspended.has(String(item.bank).trim().toLowerCase());
+      return { promotions: review.promotions.filter(allowed), locations: review.locations.filter(allowed).map(row => ({
+        ...row,
+        promotion_contracts: Object.fromEntries(row.promotion_ids.map(id => [id, review.contracts[id]])),
+      })) };
+    }).catch(() => null);
+  }
+  return mapReviewPromise;
+}
+
+function addReviewedRows(base, additions) {
+  const ids = new Set(base.map(row => row.id));
+  return [...base, ...additions.filter(row => {
+    if (!row?.id || ids.has(row.id)) return false;
+    ids.add(row.id);
+    return true;
+  })];
+}
+
+function appendReviewedPromotions(base, additions) {
+  // A live listing or explicit withholding from the shared refresh takes precedence.
+  const campaignKey = row => [row.bank, row.merchant_name].map(v => String(v).trim().toLowerCase()).join("|");
+  const live = new Set(base.map(campaignKey));
+  return addReviewedRows(base, additions.filter(row => !live.has(campaignKey(row))));
+}
+
 const STORAGE_KEYS = {
   user: "paybackPy.user",
   favorites: "paybackPy.favorites",
@@ -113,6 +154,8 @@ const state = {
   activeBank: "Todos",
   activeCategory: "Todas",
   activeDay: "hoy",
+  selectedDate: "",
+  activeCard: "Todas",
   query: "",
   uenoLevel: Math.min(5, Math.max(1, Number(loadStoredJson("paybackPy.uenoLevel", 5)) || 5)),
   location: null,
@@ -129,6 +172,60 @@ const state = {
   pushMessage: "",
 };
 
+
+function selectedDateIso() {
+  const today = PaybackDates.today();
+  if (["favorites", "alerts"].includes(state.activeView)) return today;
+  if (state.activeDay === "mañana") return PaybackDates.shift(today, 1);
+  return state.activeDay === "fecha" && PaybackDates.valid(state.selectedDate) ? state.selectedDate : today;
+}
+function selectedDateLabel() { return new Intl.DateTimeFormat('es-PY',{weekday:'long',day:'numeric',month:'short',timeZone:'UTC'}).format(new Date(selectedDateIso()+'T12:00:00Z')); }
+function renderGlassBenefit(line) { const safe=escapeHtml(line);return safe.replace(/(\d+(?:[.,–-]\d+)?\s*%)/, '<b>$1</b>'); }
+function matchesCardFilter(promo) {
+  if (!state.activeCard || state.activeCard === "Todas") return true;
+  return normalizeDayName(extractApplicableCards(promo)).includes(normalizeDayName(state.activeCard));
+}
+function syncGlassFilters() {
+  const bank=document.querySelector('#bankSelect'),category=document.querySelector('#categorySelect'),card=document.querySelector('#cardSelect');
+  bank.innerHTML=BANKS.map(x=>`<option value="${escapeAttribute(x)}">${escapeHtml(x === 'Todos' ? 'Bancos' : getBankLabel(x))}</option>`).join('');bank.value=state.activeBank;
+  category.innerHTML=getCategories().map(x=>`<option value="${escapeAttribute(x)}">${escapeHtml(x === 'Todas' ? 'Categorías' : x)}</option>`).join('');category.value=state.activeCategory;
+  card.value=state.activeCard;
+}
+function renderGlassHeader() {
+  document.body.dataset.view=state.activeView;
+  const titles={today:'Hoy te conviene.',search:'Promociones',nearby:'Cerca tuyo',favorites:'Guardados',alerts:'Tu perfil'};
+  document.querySelector('#viewTitle').textContent=titles[state.activeView];
+  document.querySelector('#viewSubtitle').textContent=state.activeView==='today'?'Tus tarjetas. El día correcto.':state.activeView==='search'?'Encontrá el beneficio para tu plan.':state.activeView==='nearby'?'Elegí una sucursal antes de salir.':'';
+  document.querySelector('#homeDate').textContent=selectedDateLabel();
+  document.querySelector('#homeHero').hidden=state.activeView!=='today';document.querySelector('#homeDate').hidden=state.activeView!=='today';
+}
+// Discovery navigation reuses exact category/bank filters; it never merges offer terms.
+function renderHomeDiscovery() {
+  const host = document.getElementById('homeDiscovery');
+  host.hidden = state.activeView !== 'today';
+  if (host.hidden) return;
+  const categories = getCategories().filter(x => x !== 'Todas');
+  host.innerHTML = `<div class="discovery-heading"><h2>¿Qué tenés en mente?</h2><span>Explorá por categoría</span></div>
+    <div class="discovery-categories">${categories.map(category => `<button type="button" data-discovery-category="${escapeAttribute(category)}">${renderIcon(CATEGORY_ICONS[category] || 'star')}<span>${escapeHtml(category)}</span></button>`).join('')}</div>
+    <details class="discovery-banks"><summary>Explorar por banco o entidad</summary><div>${BANKS.filter(x => x !== 'Todos').map(bank => `<button type="button" data-discovery-bank="${escapeAttribute(bank)}">${escapeHtml(getBankLabel(bank))}</button>`).join('')}</div></details>`;
+}
+function discoverySections(promos) {
+  const categories = [...new Set(promos.map(getPromoCategoryGroup).filter(Boolean))]
+    .sort((a,b) => getCategoryOrder(a)-getCategoryOrder(b) || a.localeCompare(b,'es'));
+  return categories.map(category => [category, promos.filter(p => getPromoCategoryGroup(p) === category)]);
+}
+function renderDiscoveryResults(promos) {
+  return `<div class="discovery-heading"><h2>Beneficios para ${state.activeDay === 'hoy' ? 'hoy' : escapeHtml(selectedDateLabel())}</h2><p>Las condiciones cambian según banco, tarjeta y forma de pago.</p></div>` + discoverySections(promos).map(([category,items]) => `<section class="discovery-section" aria-label="${escapeAttribute(category)}">
+    <div class="discovery-section-heading"><h3>${renderIcon(CATEGORY_ICONS[category] || 'star')}${escapeHtml(category)}</h3><button type="button" data-discovery-category="${escapeAttribute(category)}">Ver ${items.length} promociones <span aria-hidden="true">→</span></button></div>
+    <div class="discovery-rail">${renderSectionCards(items.slice(0,6))}</div>
+    ${items.length > 6 ? '<p class="discovery-note">Una selección de esta categoría. Abrí «Ver promociones» para explorar todas.</p>' : ''}
+  </section>`).join('');
+}
+function showPromotionLoadError(error) {
+  els.statusText.textContent='No pudimos actualizar las promociones.';
+  els.results.innerHTML='<div class="empty" role="status"><h2>No pudimos actualizar</h2><p>Revisá tu conexión y volvé a intentar.</p><button type="button" data-retry-promotions>Reintentar</button></div>';
+}
+
 const nearbyMapState = {
   map: null,
   markers: [],
@@ -143,7 +240,7 @@ const nearbyMapState = {
 };
 
 const bankThemes = {
-  "GNB": { main: "#168443", soft: "#e5f5e9", card: "#f4faf5", logo: "./assets/logos/gnb-official.svg", logoBg: "#062b1a" },
+  "GNB": { main: "#168443", soft: "#e5f5e9", card: "#f4faf5", logo: "./assets/logos/gnb-provided.svg", logoBg: "#062b1a" },
   "Familiar": { main: "#f28c28", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/familiar-official.webp", logoBg: "#ffffff" },
   "ueno bank": { main: "#2bd98e", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno-icon-official.svg", logoBg: "#062017" },
   "Itaú": { main: "#ec7000", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/itau-official.svg", logoBg: "#ec7000" },
@@ -464,19 +561,19 @@ function getCardValidity(promo) {
   return "Ver detalle";
 }
 
-function isActivePromotion(promo) {
+function isActivePromotion(promo, dateOverride = null) {
   if (promo.source_verification === "unconfirmed") return false;
   // A transport outage grace period must expire even if this snapshot stays online.
   if (promo.source_retention_expires_at && !(Date.parse(promo.source_retention_expires_at) > Date.now())) return false;
   if (promo.terms?.conflicting_dates) return false;
-  const today = getDateTimeFormatter("en-CA", { timeZone: "America/Asuncion" }).format(new Date());
+  const today = dateOverride || getDateTimeFormatter("en-CA", { timeZone: "America/Asuncion" }).format(new Date());
   if (promo.terms?.starts_on && promo.terms.starts_on > today) return false;
   // Use the validated purchase window; unrelated dates in raw terms cannot revive it.
   return Boolean(promo.terms?.ends_on && promo.terms.ends_on >= today);
 }
 
 function shouldShowPromotion(promo) {
-  return isActivePromotion(promo) && isDisplayablePromotion(promo);
+  return isActivePromotion(promo, ["mañana", "fecha"].includes(state.activeDay) ? selectedDateIso() : null) && isDisplayablePromotion(promo);
 }
 
 function isDisplayablePromotion(promo) {
@@ -996,7 +1093,14 @@ function getPromoTitle(promo) {
   return normalizeDisplayName(promo.merchant_name || promo.category || "Promoción");
 }
 
-function appliesToSelectedDay(promo, selectedDay) {
+function appliesToSelectedDay(promo, selectedDay, dateOverride = null) {
+  if (["mañana", "fecha"].includes(selectedDay)) {
+    const iso = dateOverride || selectedDateIso();
+    let rules = getOrdinalWeekdayRules(promo);
+    const day = PaybackDates.weekday(iso);
+    if (!rules.length && new RegExp(`primer(?:os)? ${normalizeDayName(day)}`).test(normalizeDayName(`${promo.day_text || ""} ${promo.validity || ""}`))) rules = [{day, ordinal: 1}];
+    return PaybackDates.matches(iso, inferPromotionDaysFromText(promo), getMonthDays(promo), Number(promo.last_days_of_month || 0), rules);
+  }
   const monthDays = getMonthDays(promo);
   const lastDays = Number(promo.last_days_of_month || 0);
   if (monthDays.length || lastDays) {
@@ -1093,28 +1197,27 @@ function getFirstDayOfMonthDateLegacy(year, month, day) {
 }
 
 function matchesQuery(promo) {
-  const query = normalizeDayName(state.query);
+  const query = normalizeDayName(state.query).replace(/\bfarmacias?\b/g, "farmacia");
   if (!query) return true;
   const haystack = normalizeDayName([
     promo.merchant_name,
     promo.category,
+    /farma|drugstore/.test(normalizeDayName(promo.merchant_name)) ? "farmacia" : "",
     promo.bank,
     promo.benefit_summary,
     promo.caps_and_minimums,
     promo.level_rules,
     promo.merchant_locations_or_group,
   ].join(" "));
-  return haystack.includes(query);
+  return haystack.replace(/\bfarmacias?\b/g, "farmacia").includes(query);
 }
 
 function matchesBank(promo) {
-  if (state.query.trim()) return true;
   if (state.activeBank === "Todos") return true;
   return promo.bank === state.activeBank;
 }
 
 function matchesCategory(promo) {
-  if (state.query.trim()) return true;
   if (state.activeCategory === "Todas") return true;
   if (state.activeCategory === PREMIUM_CATEGORY) return hasPremiumVariant(promo);
   return getPromoCategoryGroup(promo) === state.activeCategory;
@@ -1228,12 +1331,10 @@ function renderTabs() {
     `<button class="${state.activeCategory === category ? "active" : ""} ${category === PREMIUM_CATEGORY ? "premium-filter" : ""}" data-category="${escapeAttribute(category)}">${renderIcon(CATEGORY_ICONS[category] || "star")}${escapeHtml(category)}</button>`
   )).join("");
 
-  const days = [["hoy", "Hoy"], ...DAYS.map((day) => [day, capitalize(day)])];
-  els.dayTabs.innerHTML = days.map(([value, label]) => {
-    const currentDay = state.activeDay === 'hoy' && value === getTodayInParaguay();
-    const active = state.activeDay === value || currentDay;
-    return `<button class="${active ? 'active' : ''}" title="${label}" aria-label="${label}" aria-pressed="${active}" ${currentDay ? 'disabled' : ''} data-day="${value}">${value === 'hoy' ? label : label.slice(0, 3)}</button>`;
-  }).join('');
+  els.dayTabs.innerHTML = [["hoy","Hoy"],["mañana","Mañana"],["fecha",state.activeDay === "fecha" ? selectedDateLabel() : "Elegir día"]].map(([value,label]) => `<button type="button" data-day="${value}" aria-pressed="${state.activeDay === value}" class="${state.activeDay === value ? "active" : ""}"><span>${escapeHtml(label)}</span></button>`).join("");
+  document.querySelector('#datePicker').value = selectedDateIso();
+  document.querySelector('#datePicker').min = PaybackDates.today();
+  syncGlassFilters();
 
   els.uenoLevelPanel.classList.toggle("hidden", state.activeBank !== "ueno bank");
   els.uenoLevelPanel.innerHTML = `<span class="label">Nivel ueno</span>` + [1, 2, 3, 4, 5].map((level) => (
@@ -1282,12 +1383,13 @@ function renderResults() {
     nearbyMapState.renderId += 1;
     cleanupNearbyMaps();
   }
-  state.promotions = state.promotions.filter(isActivePromotion);
+  renderGlassHeader();
   const personalView = state.activeView === "alerts" || state.activeView === "favorites";
   document.querySelector(".controls").hidden = personalView;
   els.refreshButton.hidden = personalView;
   renderTabs();
   renderBottomNav();
+  renderHomeDiscovery();
 
   if (state.activeView === "alerts") {
     renderAlertsView();
@@ -1299,11 +1401,14 @@ function renderResults() {
   }
 
   const base = state.promotions
+    .filter(promo => isActivePromotion(promo, personalView ? null : selectedDateIso()))
+    .filter(promo => personalView || matchesCardFilter(promo))
+    .filter(promo => personalView || matchesSupermarketPilot(promo))
     .filter((promo) => personalView || matchesBank(promo))
     .filter((promo) => personalView || matchesCategory(promo))
     .filter((promo) => personalView || matchesQuery(promo))
     .filter(matchesActiveView)
-    .filter((promo) => state.query.trim() ? true : matchesSelectedDay(promo))
+    .filter(matchesSelectedDay)
     .sort(sortByDayDisplayPriority);
 
   const hasQuery = !personalView && Boolean(state.query.trim());
@@ -1311,7 +1416,7 @@ function renderResults() {
     ? "Tus promociones guardadas"
     : hasQuery
       ? `Resultados para "${state.query.trim()}"`
-      : `Día activo: ${state.activeDay === "hoy" ? capitalize(getTodayInParaguay()) : capitalize(state.activeDay)}`;
+      : `Día activo: ${selectedDateLabel()}`;
   els.countText.textContent = `${base.length} ${hasQuery ? "promociones activas" : "promociones"}`;
 
   if (!base.length) {
@@ -1323,10 +1428,15 @@ function renderResults() {
     return;
   }
 
+  if (state.activeView === 'today' && state.activeCategory === 'Todas' && !state.query.trim()) {
+    els.results.innerHTML = renderDiscoveryResults(base);
+    return;
+  }
+
   els.results.innerHTML = (state.activeView === "favorites" ? renderFavoriteAlerts() : "") + buildResultSections(base).map(([title, items, mode], index) => {
     const isCollapsed = shouldCollapseSection(title, mode, index);
     return `
-    <section class="${mode === "featured" ? "featured-section" : ""} ${isCollapsed ? "collapsed" : ""}" data-section="${escapeAttribute(title)}">
+    <section class="${mode === "featured" ? "featured-section" : ""} ${mode === "premium" || title === "Club Black" ? "club-black-section" : ""} ${isCollapsed ? "collapsed" : ""}" data-section="${escapeAttribute(title)}">
       <button class="section-toggle" type="button" data-section-toggle="${escapeAttribute(title)}" aria-expanded="${String(!isCollapsed)}">
         <span class="chevron" aria-hidden="true"></span>
         <span class="section-copy">
@@ -1361,7 +1471,7 @@ function shouldCollapseSection(title, mode, index) {
 
 function buildResultSections(promos) {
   if (state.activeView === "favorites") return [["Tus favoritos", promos, "favorites"]];
-  if (state.query.trim()) return buildSearchSections(promos);
+  if (state.activeView === "search") return [["Promociones", promos, "featured"]];
   if (state.activeView === "today" && state.activeBank === "Todos" && state.activeCategory === "Todas") {
     return sectionPromotions(promos);
   }
@@ -1451,7 +1561,7 @@ function canonicalFavoriteId(id) {
 }
 
 function normalizeFavoriteIds(ids) {
-  return new Set([...ids].map(canonicalFavoriteId));
+  return new Set((typeof PaybackCampaigns !== "undefined" ? PaybackCampaigns.expandFavorites(ids) : [...ids]).map(canonicalFavoriteId));
 }
 
 function isFavoritePromotion(promo) {
@@ -1469,13 +1579,52 @@ function matchesSelectedDay(promo) {
 }
 
 function renderBottomNav() {
+  els.bottomNav.classList.toggle("is-profile", state.activeView === "alerts");
+  els.bottomNav.style.setProperty("--nav-index", Math.max(0, ["today","search","nearby","favorites"].indexOf(state.activeView)));
   els.bottomNav.querySelectorAll("button").forEach((button) => {
     button.classList.toggle("active", button.dataset.view === state.activeView);
+    button.setAttribute("aria-current", button.dataset.view === state.activeView ? "page" : "false");
   });
 }
 
+function renderBankBar(promo) {
+  const theme = getBankTheme(promo.bank);
+  return `<div class="bosque-bank-bar" style="--bank-color:${escapeAttribute(theme.main)};--bank-logo-bg:${escapeAttribute(theme.logoBg)}"><img src="${escapeAttribute(theme.logo)}" alt="" loading="lazy"><strong>${escapeHtml(getBankLabel(promo.bank))}</strong><span>${escapeHtml(getPromoCategoryGroup(promo))}</span></div>`;
+}
+
+function getProfileFavoriteMetrics() {
+  const today = PaybackDates.today();
+  const iso = state.activeDay === "mañana" ? PaybackDates.shift(today, 1) : state.activeDay === "fecha" && PaybackDates.valid(state.selectedDate) ? state.selectedDate : today;
+  const saved = normalizeFavoriteIds(state.favorites);
+  const eligible = new Set(state.promotions.filter(promo => saved.has(favoriteKey(promo)) && shouldShowPromotion(promo) && isActivePromotion(promo, iso) && appliesToSelectedDay(promo, "fecha", iso)).map(favoriteKey));
+  return {total: saved.size, eligible: eligible.size, date: iso};
+}
+
+function getNextFavoriteDate() {
+  const saved = normalizeFavoriteIds(state.favorites);
+  const items = state.promotions.filter(p => saved.has(favoriteKey(p)));
+  return PaybackProfile.next({today: PaybackDates.today(), items, key: favoriteKey, shift: PaybackDates.shift,
+    eligible: (p, date) => isDisplayablePromotion(p) && isActivePromotion(p,date) && appliesToSelectedDay(p,"fecha",date) && matchesCardFilter(p)
+      && !(p.terms?.exclusions?.length) && extractExcludedCards(p) === "No especificado"
+  });
+}
+function nextFavoriteLabel(date) { return new Intl.DateTimeFormat("es-PY",{weekday:"long",day:"numeric",month:"long",timeZone:"UTC"}).format(new Date(date+"T12:00:00Z")); }
+function renderNextFavorite() {
+  const next=getNextFavoriteDate(), p=next.items[0];
+  if(!p) return `<div class="next-favorite empty-next"><span class="filter-label">LO QUE VIENE</span><h3>${state.favorites.size ? "Sin próximas fechas verificadas" : "Tu próxima salida empieza acá"}</h3><p>${state.favorites.size ? "Buscamos los próximos 90 días. Las condiciones sin verificar no se cuentan." : "Guardá una promo con el corazón para ver su próxima fecha."}</p></div>`;
+  return `<button type="button" class="next-favorite" data-next-favorites><span class="filter-label">TU PRÓXIMA PROMO FAVORITA</span><strong>${escapeHtml(nextFavoriteLabel(next.date))}</strong><span class="next-merchant">${escapeHtml(p.merchant_name)}</span>${renderBankBar(p)}<span class="next-more">${next.items.length>1 ? `Y ${next.items.length-1} campaña(s) más · ` : ""}Ver favoritos de ese día →</span></button>`;
+}
+function openNextFavorites(trigger) {
+ const next=getNextFavoriteDate(); const dialog=document.createElement("dialog"); dialog.className="beta-dialog next-favorites-dialog";dialog.setAttribute("aria-labelledby","nextFavoritesTitle");
+ dialog.innerHTML=`<article class="dialog-card"><button type="button" class="close-button" data-next-close aria-label="Cerrar">×</button><span class="filter-label">TUS FAVORITOS</span><h2 id="nextFavoritesTitle">${next.date?escapeHtml(nextFavoriteLabel(next.date)):"Sin próximas fechas verificadas"}</h2><p>Próximos 90 días. Revisá tarjeta, sucursal y condiciones antes de salir.</p>${next.items.map(p=>`<section class="next-offer">${renderBankBar(p)}<h3>${escapeHtml(p.merchant_name)}</h3><p>${escapeHtml(p.benefit_summary||"Consultá las condiciones")}</p><button type="button" data-next-detail="${escapeAttribute(p.id)}">Ver condiciones</button></section>`).join("")}</article>`;
+ document.body.append(dialog);dialog.addEventListener("close",()=>{dialog.remove();if(trigger?.isConnected)trigger.focus();});dialog.querySelector("[data-next-close]").onclick=()=>dialog.close();dialog.addEventListener("click",e=>{const b=e.target.closest("[data-next-detail]");if(b){dialog.close();openDetail(b.dataset.nextDetail);}});dialog.showModal();
+}
+
+
 function renderAlertsView() {
   const account = window.PaybackBeta?.current;
+  const metrics = getProfileFavoriteMetrics();
+  const metricDate = new Intl.DateTimeFormat("es-PY", {day:"numeric",month:"short",timeZone:"UTC"}).format(new Date(metrics.date+"T12:00:00Z"));
   els.statusText.textContent = "Tu perfil";
   els.countText.textContent = `${state.favorites.size} favoritos`;
   els.results.innerHTML = `
@@ -1483,13 +1632,17 @@ function renderAlertsView() {
       <div class="profile-card">
         <span class="profile-logo profile-avatar">${renderIcon("user")}${account?.avatarUrl ? `<img class="google-profile-photo" src="${escapeAttribute(account.avatarUrl)}" alt="Foto de perfil de Google" referrerpolicy="no-referrer" />` : ""}</span>
         <div>
-          <h2>${account ? account.name ? `Hola, ${escapeHtml(account.name)}` : "Tu perfil Payback" : "Activá tu perfil Payback"}</h2>
-          <p>${account ? escapeHtml(account.email) : "Conectá tu cuenta para sincronizar tus favoritos."}</p>
+          <h2>${account ? account.name ? `Hola, ${escapeHtml(PaybackProfile.firstName(account))}` : "Tu perfil Payback" : "Activá tu perfil Payback"}</h2>
+          <p>${account ? escapeHtml(account.email) : "Ingresá para consultar los favoritos de tu cuenta."}</p>
         </div>
       </div>
       ${account
         ? '<div class="profile-account-actions"><button type="button" class="notification-action" data-beta-open>Administrar cuenta y comentarios</button><button type="button" class="notification-action" data-profile-logout>Cerrar sesión</button></div><p class="profile-session-status" role="status"></p>'
         : '<button type="button" class="google-signin google-icon-only" data-beta-login aria-label="Continuar con Google" title="Continuar con Google"><img src="./assets/logos/google-g-official.png" width="20" height="20" alt=""></button><p class="profile-note">Ingresá con tu cuenta de Google. Solo usamos tu identidad básica y correo.</p>'}
+      ${renderNextFavorite()}
+      <div class="bosque-profile-metrics"><div><strong>${metrics.total}</strong><span>Favoritos<br>guardados</span></div><div><strong>${state.promotions.length ? metrics.eligible : "—"}</strong><span>Con promo para<br>${escapeHtml(metricDate)}</span></div></div>
+      <p class="profile-note">Campañas únicas según vigencia y calendario del catálogo. Revisá tarjeta, sucursal y condiciones.${state.promotions.length ? "" : " Catálogo no disponible: no podemos calcular las vigentes."}</p>
+      <button type="button" class="bosque-favorites-link" data-profile-favorites>Ver todos mis favoritos ${renderIcon("heart")}</button>
       ${renderFavoriteAlerts()}
       ${account?.admin === true ? '<a class="notification-action" href="./admin.html">Panel de administración</a>' : ''}
       <form id="profileForm" class="profile-form">
@@ -1503,7 +1656,7 @@ function renderAlertsView() {
         </label>
         <button type="submit">Guardar preferencias</button>
       </form>
-      <div class="profile-note">${account ? "Tu nombre proviene de Google. Las preferencias de visualización se guardan en este dispositivo." : "Sin iniciar sesión, tus favoritos se guardan en este dispositivo."}</div>
+      <div class="profile-note">${account ? "Tu nombre proviene de Google. Las preferencias de visualización se guardan en este dispositivo." : "Ingresá con Google para sincronizar tus favoritos."}</div>
     </section>
   `;
 }
@@ -1548,6 +1701,12 @@ function renderNearbyView(selection = null) {
     return;
   }
   const points = getNearbyPromoPoints();
+  // A promotion detail can explicitly open a verified branch outside current filters.
+  if (selection?.point && (!state.detailMapPromo || points.some(item => getPointKey(item) === selection.pointKey))) {
+    const index = points.findIndex(item => getPointKey(item) === selection.pointKey);
+    if (index < 0) points.unshift(selection.point);
+    else points[index] = selection.point;
+  }
   const selectedPoint = points.find((item) => getPointKey(item) === state.activePlaceName || item.place.name === state.activePlaceName) || points[0];
   const selectedPlace = selectedPoint?.place || KNOWN_LOCAL_POINTS[0];
   const selectedDistance = selectedPoint?.distance || 0;
@@ -1578,6 +1737,13 @@ function renderNearbyView(selection = null) {
   els.countText.textContent = `${points.length} ubicaciones`;
   els.results.innerHTML = `
     <section class="nearby-panel">
+      ${state.detailMapPromo ? `<p class="detail-location-note">Sólo locales verificados de ${escapeHtml(getPromoTitle(state.detailMapPromo))}. <button type="button" data-clear-promo-map>Volver al mapa general</button></p>` : ""}
+      <div class="nearby-toolbar" aria-label="Explorar locales">
+        <span>${escapeHtml(getNearbyActiveFilterText())}</span>
+        <button type="button" data-map-action="expand" aria-expanded="false">Ampliar mapa</button>
+        <button type="button" data-location-action="detect">${state.location ? "Actualizar ubicación" : "Usar mi ubicación"}</button>
+      </div>
+      <p class="nearby-coverage-note">${points.length} ubicaciones verificadas. Los beneficios sin coordenadas confirmadas no aparecen como pines.</p>
       <div class="map-stage">
         ${state.location ? `<button type="button" class="map-user-center" data-map-action="center-user" aria-label="Centrar en mi ubicación" title="Mi ubicación">${renderIcon("target")}</button>` : ""}
         <div class="map-zoom-controls" aria-label="Controles del mapa">
@@ -1588,9 +1754,10 @@ function renderNearbyView(selection = null) {
       </div>
       <div id="mapProviderStatus" class="map-provider-status" role="status"><span>Cargando mapa… Podés consultar los locales de la lista.</span><button type="button" data-map-action="retry" hidden>Reintentar mapa</button></div>
       ${renderNearbySelectedPlace(selectedPoint, selectedTheme)}
-      <div class="place-list">
-        ${points.map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}
-      </div>
+      <details class="nearby-branch-list">
+        <summary>Ver lista de ${points.length} locales</summary>
+        <div class="place-list">${points.map((item) => renderNearbyPlaceButton(item, selectedPoint)).join("")}</div>
+      </details>
       ${promos.length ? renderNearbyPromoGroups(promos, selectedPoint?.place) : `<div class="empty">No encontramos locales geolocalizados para el filtro actual.</div>`}
     </section>
   `;
@@ -1602,6 +1769,7 @@ function renderNearbyView(selection = null) {
 }
 
 function getNearbyActiveFilterText() {
+  if (state.detailMapPromo) return `Locales de ${getPromoTitle(state.detailMapPromo)}`;
   const parts = [];
   if (state.activeBank !== "Todos") parts.push(getBankLabel(state.activeBank));
   if (state.activeCategory !== "Todas") parts.push(state.activeCategory);
@@ -1831,7 +1999,7 @@ function getMapProvider() {
     window, document, getGoogleKey: getGoogleMapsApiKey,
     onGoogleFailure: () => {
       if (state.activeView === "nearby" && document.querySelector("#nearbyMap")) {
-        if (nearbyMapState.selection) selectNearbyPlace(nearbyMapState.selection.pointKey);
+        if (nearbyMapState.selection) selectNearbyPlace(nearbyMapState.selection.pointKey, nearbyMapState.selection.point);
         else renderNearbyView();
       }
     },
@@ -1924,6 +2092,17 @@ function centerNearbyMapOnUser() {
   }
 }
 
+function toggleNearbyMapExpansion(button) {
+  const panel = button.closest(".nearby-panel");
+  if (!panel) return;
+  const expanded = panel.classList.toggle("map-expanded");
+  button.setAttribute("aria-expanded", String(expanded));
+  button.textContent = expanded ? "Reducir mapa" : "Ampliar mapa";
+  // Resize the existing provider without recreating pins or losing camera position.
+  nearbyMapState.map?.invalidateSize();
+  if (nearbyMapState.googleMap) window.google?.maps?.event?.trigger(nearbyMapState.googleMap, "resize");
+}
+
 function zoomNearbyMap(direction) {
   const delta = direction === "in" ? 1 : -1;
   if (nearbyMapState.googleMap) {
@@ -1943,12 +2122,13 @@ function getMapStart(selectedPlace) {
     : { lat: -25.2867, lng: -57.6282 };
 }
 
-function selectNearbyPlace(pointKey) {
+function selectNearbyPlace(pointKey, point = null) {
+  if (!point && nearbyMapState.selection?.pointKey === pointKey) point = nearbyMapState.selection.point;
   // Capture the camera before renderNearbyView tears down the current map.
   const map = nearbyMapState.googleMap || nearbyMapState.map;
   const zoom = map?.getZoom();
   state.activePlaceName = pointKey;
-  renderNearbyView({ pointKey, zoom: Math.max(16, Number.isFinite(zoom) ? zoom : 16) });
+  renderNearbyView({ pointKey, point, zoom: Math.max(16, Number.isFinite(zoom) ? zoom : 16) });
 }
 
 function renderGoogleNearbyMap(points, selectedPlace, focus = null) {
@@ -1984,7 +2164,7 @@ function renderGoogleNearbyMap(points, selectedPlace, focus = null) {
       icon: getGoogleMarkerIcon(item, selectedPlace),
     });
     marker.addListener("click", () => {
-      selectNearbyPlace(getPointKey(item));
+      selectNearbyPlace(getPointKey(item), item);
     });
     nearbyMapState.googleMarkers.push(marker);
     bounds.extend(marker.getPosition());
@@ -2077,7 +2257,7 @@ function renderLeafletNearbyMap(points, selectedPlace, focus = null) {
       }),
     }).addTo(map);
     marker.on("click", () => {
-      selectNearbyPlace(getPointKey(item));
+      selectNearbyPlace(getPointKey(item), item);
     });
     nearbyMapState.markers.push(marker);
   });
@@ -2167,6 +2347,8 @@ function uniquePromos(promos) {
 }
 
 function getNearbyPromoPoints() {
+  if (state.detailMapPromo && (!shouldShowPromotion(state.detailMapPromo) || !matchesNearbyDay(state.detailMapPromo) || !matchesBank(state.detailMapPromo) || !matchesCategory(state.detailMapPromo) || !matchesCardFilter(state.detailMapPromo))) return [];
+  if (state.detailMapPromo) return getDetailPlaces(state.detailMapPromo).map(place => enrichNearbyPoint({place, promos:[state.detailMapPromo], key:getPlaceGroupKey(place), distance:state.location ? distanceKm(state.location.lat,state.location.lng,place.lat,place.lng) : 0}));
   if (!state.location && !state.locationsLoaded) return [];
   const promoIndex = buildNearbyPromoIndex();
   const dynamicPoints = state.locations
@@ -2291,7 +2473,9 @@ function buildNearbyPromoIndex() {
     .filter(shouldShowPromotion)
     .filter(matchesBank)
     .filter(matchesCategory)
+    .filter(matchesCardFilter)
     .filter(matchesNearbyDay)
+    .filter(promo => typeof matchesSupermarketPilot !== "function" || matchesSupermarketPilot(promo))
     .filter((promo) => state.query.trim() ? matchesQuery(promo) : true)
     .forEach((promo) => {
       const bank = normalizeDayName(promo.bank);
@@ -2307,26 +2491,31 @@ function matchesNearbyDay(promo) {
   return appliesToSelectedDay(promo, state.activeDay);
 }
 
-function getPromotionsForLocation(place, promoIndex) {
+function getPromotionsForLocation(place, promoIndex, category = state.activeCategory) {
+  const pilotLinks = typeof PaybackSupermarketReviews !== "undefined" ? PaybackSupermarketReviews.branchOffers(place, [...promoIndex.values()].flat(), selectedDateIso()) : [];
   if (Array.isArray(place.promotion_ids)) {
-    if (!isActivePromotion({terms: {ends_on: place.participation_ends_on}})) return [];
-    return uniquePromos([...promoIndex.values()].flat().filter(promo => place.promotion_ids.includes(promo.id)));
+    if (!isActivePromotion({terms: {starts_on: place.participation_starts_on, ends_on: place.participation_ends_on}}, selectedDateIso())) return pilotLinks;
+    return uniquePromos([...pilotLinks, ...[...promoIndex.values()].flat().filter(promo => place.promotion_ids.includes(promo.id) && (!place.promotion_contracts || (() => {
+      const contract = place.promotion_contracts[promo.id];
+      return contract && Object.keys(contract).every(key => JSON.stringify(promo[key] ?? null) === JSON.stringify(contract[key]));
+    })()))]);
   }
   const bank = normalizeDayName(place.bank);
   const source = place.source_url || "";
   // A brand name alone does not establish this branch's participation.
-  if (!bank || bank === "varios" || !/\.pdf(?:[?#]|$)/i.test(source)) return [];
+  if (!bank || bank === "varios" || !/\.pdf(?:[?#]|$)/i.test(source)) return pilotLinks;
   const merchantTerms = [place.merchant_brand, place.merchant_name, place.name]
     .map(normalizeDayName)
     .filter(value => value && !["estaciones de servicio", "farmacias", "mayoristas", "supermercados"].includes(value));
-  if (!merchantTerms.length) return [];
+  if (!merchantTerms.length) return pilotLinks;
   const matches = uniquePromos([...promoIndex.values()].flat()).filter(promo => {
     if (normalizeDayName(promo.bank) !== bank) return false;
     if (![promo.source_url, promo.source_document_url, promo.source_page_url].includes(source)) return false;
     const merchant = normalizeDayName(promo.merchant_name);
     return merchantTerms.includes(merchant);
   });
-  return matches.filter(promo => state.activeCategory !== PREMIUM_CATEGORY || hasPremiumVariant(promo));
+  const reviewed = typeof PaybackCampaigns !== "undefined" ? PaybackCampaigns.branchOffers(place,[...promoIndex.values()].flat(),selectedDateIso()) : [];
+  return uniquePromos([...matches,...reviewed,...pilotLinks]).filter(promo => category !== PREMIUM_CATEGORY || hasPremiumVariant(promo));
 }
 
 function getFuelBrandsFromPlace(place) {
@@ -2424,12 +2613,12 @@ async function loadLocations() {
   state.locationsPromise = (async () => {
   state.locationsStatus = "loading";
   try {
-    const response = await fetch(`${LOCATIONS_URL}?t=${Date.now()}`);
+    const [response, review] = await Promise.all([fetch(`${LOCATIONS_URL}?t=${Date.now()}`), loadMapReview()]);
     if (!response.ok) throw new Error("No se pudieron cargar ubicaciones");
     const payload = await response.json();
     if (!Array.isArray(payload.locations)) throw new Error("Formato de ubicaciones inválido");
     state.locationsUpdated = payload.generated_at || "";
-    state.locations = (payload.locations || []).map((item) => ({
+    state.locations = addReviewedRows(payload.locations, review?.locations || []).map((item) => ({
       ...item,
       name: item.google_name || [item.merchant_name, item.address].filter(Boolean).join(" · "),
       lat: item.lat === null || item.lat === "" ? null : Number(item.lat),
@@ -2550,6 +2739,13 @@ function sortByDayDisplayPriority(a, b) {
   return sortByBenefitValue(a, b);
 }
 
+function contractPurchase(promo,variant) {
+ if((variant && !promo.offer_kind)||promo.level_benefits?.length||/nivel/i.test(promo.level_rules||""))return {label:"Tope de compra de esta tarjeta o nivel sin confirmar",evidence:"Revisá el límite específico en las bases. No se calcula a partir del reintegro."};
+ const caps=PaybackProfile.purchaseCaps(promo);
+ if(caps.length!==1)return {label:"Tope de compra no informado",evidence:"El reintegro máximo es un límite diferente."};
+ const c=caps[0];return {label:new Intl.NumberFormat("es-PY",{style:"currency",currency:c.currency,maximumFractionDigits:0}).format(c.amount)+(c.period?` · ${c.period}`:""),evidence:c.evidence};
+}
+
 function getEstimatedSavings(promo, amount = null, variant = null) {
   const level = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   const percent = promo.effective_percent || percentNumber(variant?.benefit || level?.percent || getMainBenefit(promo) || promo.benefit_summary);
@@ -2588,7 +2784,7 @@ function getDetailRows(promo, variant = null) {
     ["Fecha", getDisplayValidity(promo)],
     ["Reintegro o descuento", promo.bank === "Familiar" ? formatDetailText(promo.benefit_summary) : getDisplayBenefit(promo, variant)],
     ["Tarjetas que aplican", formatDetailText((!variant || promo.offer_kind) && promo.terms?.cards?.length ? promo.terms.cards.join("; ") : extractApplicableCards(promo, variant))],
-    ["Tarjetas excluidas", formatDetailText(promo.terms?.exclusions?.length ? promo.terms.exclusions.join("; ") : extractExcludedCards(promo))],
+    ["Exclusiones", getDetailExclusions(promo)],
     ["Topes y mínimos", formatCapsText(promo, variant), "caps"],
     ["Reglas por nivel", promo.level_rules || "", "levels"],
     ["Info adicional importante", extractAdditionalInfo(promo, rawDetail, variant)],
@@ -2640,20 +2836,7 @@ function formatBrandName(value) {
 }
 
 function extractApplicableCards(promo, variant = null) {
-  const text = cleanSentence([promo.raw_detail, promo.benefit_summary].join(" "));
-  if (variant?.kind === "premium") {
-    if (/privilege|privilegio/i.test(variant.label)) return "Tarjetas Continental Privilege";
-    if (/mastercard black|visa infinite|amex platinum|personal bank|premium/i.test(text)) {
-      return "Tarjetas premium indicadas en bases: Mastercard Black, Visa Infinite o equivalentes";
-    }
-  }
-  if (variant?.kind === "base" && promo.bank === "Sudameris") return "Tarjetas de crédito Sudameris";
-  const explicit = text.match(/(?:aplica exclusivamente para compras realizadas con|con|pagando con|válido con|valido con)\s+(?:tu\s+)?(?:tarjeta|tarjetas|tarjetas físicas)[^.]+/i)?.[0];
-  if (explicit) {
-    return cleanSentence(explicit.replace(/^(?:aplica exclusivamente para compras realizadas con|con|pagando con|válido con|valido con)\s+/i, ""));
-  }
-  const cards = text.match(/\b(?:visa|mastercard|mc|cabal|oro|premium|black|platinum|infinite|signature|cl[aá]sica|prepaga|albirroja)[^.;)]*/gi);
-  return cards ? cleanSentence([...new Set(cards.map((card) => cleanSentence(card)))].join("; ")) : "No especificado";
+  return PaybackEligibility.cards(promo,variant);
 }
 
 function extractExcludedCards(promo) {
@@ -2667,7 +2850,24 @@ function extractCapsText(text) {
   return matches ? cleanSentence([...new Set(matches)].join("; ")) : "";
 }
 
+function getDetailExclusions(promo) {
+  // Structured parsers may recognize cards but miss payment processors.
+  // Keep the source exclusion block rather than silently dropping clauses.
+  const sourceBlock = promo.bank === "BNF"
+    ? (promo.raw_detail || "").match(/Exclusiones:\s*([\s\S]+)$/i)?.[1]
+    : promo.bank === "Familiar" && /mc.?donald/i.test((promo.merchant_name || "").replace(/\s+/g, ""))
+      ? (promo.raw_detail || "").match(/No participan[^.]+\.?/i)?.[0]
+      : "";
+  return formatDetailText(sourceBlock || (promo.terms?.exclusions?.length
+    ? promo.terms.exclusions.join("; ") : extractExcludedCards(promo)));
+}
+
 function formatCapsText(promo, variant = null) {
+  // BNF caps include a shared account/rubro scope, not only amounts.
+  // These are tier-specific source fields; do not reconstruct from all-tier PDF text.
+  if (promo.bank === "BNF" && promo.caps_and_minimums && (!variant || promo.offer_kind)) {
+    return formatDetailText(promo.caps_and_minimums);
+  }
   const selectedLevel = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   if (promo.level_benefits?.length && selectedLevel) return [
     `Nivel ${state.uenoLevel} · ${selectedLevel.capLabel}`,
@@ -2721,6 +2921,8 @@ function formatBnfCapsText(text) {
 }
 
 function extractAdditionalInfo(promo, rawDetail, variant = null) {
+  // Preserve sequential discounts, payment exclusions and shared caps verbatim.
+  if ((promo.bank === "GNB" && promo.merchant_name === "Farmacenter") || (["Familiar", "Interfisa"].includes(promo.bank) && /mc.?donald/i.test(promo.merchant_name.replace(/\s+/g,"")))) return formatDetailText(promo.raw_detail || rawDetail);
   if (promo.terms && !variant) return promo.terms.additional?.length
     ? promo.terms.additional.map(formatDetailText).join("\n")
     : "Consultá las condiciones completas en la fuente oficial.";
@@ -2833,7 +3035,9 @@ function renderLevelTable(promo) {
 }
 
 function renderDetailRows(promo, variant = null) {
-  return getDetailRows(promo, variant).map(([label, value, type]) => `
+  // These facts are already shown with the same values in the detail header.
+  const headerLabels = new Set(["Banco", "Categoría", "Días", "Fecha"]);
+  return getDetailRows(promo, variant).filter(([label]) => !headerLabels.has(label)).map(([label, value, type]) => `
     <div class="detail-row">
       <span>${escapeHtml(label)}</span>
       ${type === "levels" ? renderLevelTable(promo) : renderDetailValue(value, type)}
@@ -3028,34 +3232,133 @@ function renderCard(promo, variant = null) {
   const powerBadge = isPowerPromo
     ? `<span class="power-badge" title="Promo ueno+ POWER"><img src="${escapeAttribute(bankThemes["ueno bank"].logo)}" alt="" />ueno+ POWER</span>`
     : "";
-  return `
-    <article tabindex="0" aria-label="${escapeAttribute(getPromoTitle(promo))}" class="promo-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""} ${reviewedCu ? "reviewed-cu-card" : ""}" data-id="${promo.id}" data-variant="${escapeAttribute(getVariantKey(promo, variant))}" data-place-id="${escapeAttribute(promo._nearbyPlaceId || "")}" style="--bank-main:${theme.main};--bank-soft:${theme.soft};--bank-card:${theme.card};--logo-bg:${theme.logoBg}">
-      <div class="logo-box">${merchantLogo ? `<img class="merchant-logo" src="${escapeAttribute(merchantLogo.src)}" alt="${escapeAttribute(merchantLogo.label)}" loading="lazy" />` : theme.logo ? `<img class="${escapeAttribute(logoClass)}" src="${escapeAttribute(theme.logo)}" alt="${escapeAttribute(getBankLabel(promo.bank))}" loading="lazy" />` : ""}</div>
-      <div class="promo-content">
-        <div class="promo-card-head">
-          <div>
-            <h3 class="store-name">${renderCategoryIcon(categoryGroup)}<span>${escapeHtml(getPromoTitle(promo))}</span></h3>
-            <div class="benefit-lines primary-benefit">${benefitLines.map((line) => `<span>${escapeHtml(line)}</span>`).join("")}</div>
-          </div>
-          <div class="card-actions">
-            ${premiumBadge || powerBadge}
-            <button class="favorite-toggle ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}" title="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-label="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-pressed="${isFavorite}">${renderIcon("heart")}</button>
-            <button class="favorite-toggle share-toggle" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variant?.key || '')}" title="Compartir promoción" aria-label="Compartir promoción">${renderIcon("share")}</button>
-          </div>
-        </div>
-        ${benefitScope ? `<p class="benefit-scope">${escapeHtml(benefitScope)}</p>` : ""}
-        ${savingsLabel ? `<div class="savings-line">${escapeHtml(savingsLabel)}</div>` : ""}
-        ${promo.verified_cards ? `<p class="eligible-card-label">${escapeHtml(promo.bank === "Familiar" && !promo.offer_kind && promo.verified_cards.length > 100 ? "Tarjetas de crédito Familiar" : promo.verified_cards.replace(/^Tarjetas de crédito\s+/i, ""))}</p>` : ""}
-        ${promo.source_warning ? `<p class="source-warning-label">Tope pendiente de aclaración del banco</p>` : ""}
-        ${levelDetails ? renderUenoLevelCaps(levelDetails) : ""}
-        <p class="bank-card-line">${escapeHtml(getBankLabel(promo.bank))} · ${escapeHtml(categoryGroup)}</p>
-        <div class="meta">
-          <div><strong>Día:</strong> ${escapeHtml(getDisplayDays(promo))}</div>
-          <div><strong>Vigencia:</strong> ${escapeHtml(getCardValidity(promo))}</div>
-        </div>
-      </div>
-    </article>
-  `;
+  const cards = extractApplicableCards(promo, variant) || promo.verified_cards || "Consultar tarjetas en condiciones";
+  const cap = savings.refundCap ? `${conditionalQr ? "Base: " : ""}${formatGuarani(savings.refundCap)}` : "Ver topes en condiciones";
+  return `<article tabindex="0" aria-label="${escapeAttribute(getPromoTitle(promo))}" class="promo-card glass-card ${isPowerPromo ? "ueno-power-card" : ""} ${isPremium ? "premium-card" : ""}" data-id="${escapeAttribute(promo.id)}" data-variant="${escapeAttribute(getVariantKey(promo, variant))}" data-place-id="${escapeAttribute(promo._nearbyPlaceId || "")}">
+    ${renderBankBar(promo)}
+    <div class="glass-card-head"><div class="glass-title"><h3 class="store-name">${escapeHtml(getPromoTitle(promo))}</h3><p>${escapeHtml(categoryGroup)} · ${escapeHtml(getBankLabel(promo.bank))}</p></div><button class="favorite-toggle ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}" title="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-label="${isFavorite ? "Quitar de favoritos" : "Guardar favorito"}" aria-pressed="${isFavorite}">${renderIcon("heart")}</button></div>
+    ${premiumBadge || powerBadge}
+    <div class="benefit-lines primary-benefit">${benefitLines.map(line => `<span>${renderGlassBenefit(line)}</span>`).join("")}</div>
+    ${benefitScope ? `<p class="benefit-scope">${escapeHtml(benefitScope)}</p>` : ""}
+    <div class="glass-facts"><div><span>Día válido</span><strong>${escapeHtml(getDisplayDays(promo))}</strong></div><div><span>Tarjeta válida</span><strong>${escapeHtml(cards)}</strong></div><div><span>Ahorro máximo estimado</span><strong>${escapeHtml(cap)}</strong></div><div><span>Vigencia</span><strong>${escapeHtml(getCardValidity(promo))}</strong></div></div>
+    ${promo.source_warning ? `<p class="source-warning-label">Tope pendiente de aclaración del banco</p>` : ""}
+    ${levelDetails ? renderUenoLevelCaps(levelDetails) : ""}
+    ${renderSupermarketAssessment(promo)}
+    <p class="glass-conditions-note">Sujeto a tarjeta, forma de pago y condiciones.</p>
+    <div class="glass-card-footer"><span>${escapeHtml(promo._nearbyPlaceName || "Confirmá la sucursal en el detalle")}</span><div><button type="button" class="glass-detail-action">Ver locales adheridos y detalle <span aria-hidden="true">→</span></button><button class="share-toggle" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variant?.key || '')}" title="Compartir promoción" aria-label="Compartir promoción">${renderIcon("share")}</button></div></div>
+  </article>`;
+}
+
+let detailLocationState = null;
+
+function getDocumentedDetailPlaces(promo) {
+  const index = new Map([["detail", [promo]]]);
+  const places = new Map();
+  state.locations.filter(place => !place.qa_hold && !place.needs_review && !place.online_only).forEach(place => {
+    if (!getPromotionsForLocation(place, index, "Todas").some(item => item.id === promo.id)) return;
+    const key = getPlaceGroupKey(place);
+    if (!key) return;
+    places.set(key, places.has(key) ? preferBetterPlace(places.get(key), place) : place);
+  });
+  return [...places.values()];
+}
+
+function getDetailPlaces(promo) {
+  return getDocumentedDetailPlaces(promo).filter(isReliableMapLocation);
+}
+
+function detailDistance(place) {
+  if (!state.location || !isReliableMapLocation(place)) return "";
+  return `${formatDistance(distanceKm(state.location.lat, state.location.lng, place.lat, place.lng))} en línea recta`;
+}
+
+function renderDetailDestination(context) {
+  const place = (context.adheredPlaces || context.places).find(item => getPlaceGroupKey(item) === context.selectedKey);
+  if (!place) return '<p class="detail-location-note">Elegí una sucursal para ver su dirección y las opciones disponibles.</p>';
+  if (!isReliableMapLocation(place)) return `<div class="detail-destination"><strong>${escapeHtml(place.merchant_name || place.name || "Local adherido")}</strong><p>${escapeHtml([place.address, place.city].filter(Boolean).join(", ") || "Dirección no publicada en la fuente")}</p><p class="detail-location-note">Local documentado, coordenadas sin verificar. No mostramos una ruta ni una distancia estimada.</p></div>`;
+  const url = getMapsUrl(place);
+  const address = formatPlaceAddress(place);
+  return `<div class="detail-destination">
+    <strong>${escapeHtml(getPlaceDisplayName(place))}</strong><p>${escapeHtml(detailDistance(place))}</p>
+    <a class="detail-address" href="${escapeAttribute(url)}" target="_blank" rel="noopener noreferrer">${renderIcon("mapPin")}${escapeHtml(address || "Ver ubicación verificada en Google Maps")}</a>
+    ${!address ? '<p class="detail-location-note">La dirección escrita no está disponible; la ruta usa las coordenadas verificadas.</p>' : ""}
+    <div class="detail-route-actions">
+      <button type="button" class="detail-map-action" data-detail-map>${renderIcon("mapPin")}Ver en el mapa</button>
+      <a class="detail-directions" href="${escapeAttribute(url)}" target="_blank" rel="noopener noreferrer">${renderIcon("plane")}Cómo llegar<span class="detail-external-label">Google Maps · abre otra pestaña</span></a>
+    </div>
+  </div>`;
+}
+
+function renderDetailLocations(context) {
+  if (context.loading) return '<p role="status">Buscando locales documentados…</p>';
+  if (context.error) return '<p role="status">No pudimos cargar las sucursales.</p><button type="button" data-detail-location-retry>Reintentar sucursales</button>';
+  const locals = context.adheredPlaces || context.places;
+  if (!locals.length) return '<p class="detail-location-note">Todavía no tenemos una ubicación verificada ni un listado estructurado de locales para esta promoción. Esto no significa que no haya locales adheridos.</p><button type="button" data-scroll-source>Consultar bases y locales</button>';
+  return `<p class="detail-location-count"><strong>${locals.length} locales adheridos documentados · ${context.places.length} en mapa</strong></p>
+    <p class="detail-location-note">Sólo locales vinculados a esta promoción. El listado puede ser parcial; no representa todas las sucursales de la marca.</p>
+    <details class="detail-local-list"><summary>Ver locales adheridos (${locals.length})</summary><ul>${locals.map(place => `<li><strong>${escapeHtml(place.merchant_name || place.name || "Local adherido")}</strong><p>${escapeHtml([place.address, place.city].filter(Boolean).join(", ") || "Dirección no publicada")}</p><small>${isReliableMapLocation(place) ? `Ubicación verificada${detailDistance(place) ? " · " + escapeHtml(detailDistance(place)) : ""}` : "Sin coordenadas verificadas"}</small></li>`).join("")}</ul></details>
+    ${context.places.length && !state.location ? '<button type="button" class="detail-inline-action" data-detail-location-enable>Usar mi ubicación para ver distancias</button>' : ""}
+    ${context.locationMessage ? `<p role="status">${escapeHtml(context.locationMessage)}</p>` : ""}
+    ${locals.length > 1 ? `<label for="detailBranch">Elegí un local para ver sus opciones</label><select id="detailBranch"><option value="">Seleccionar sucursal</option>${locals.map(place => `<option value="${escapeAttribute(getPlaceGroupKey(place))}" ${getPlaceGroupKey(place) === context.selectedKey ? "selected" : ""}>${escapeHtml([place.merchant_name || place.name, place.address, place.city].filter(Boolean).join(" · "))}</option>`).join("")}</select>` : ""}
+    <div id="detailLocationDestination" aria-live="polite">${renderDetailDestination(context)}</div>`;
+}
+
+function requestDetailLocation() {
+  const context = detailLocationState;
+  if (!context) return;
+  const update = message => {
+    if (detailLocationState !== context || !els.dialog.open) return;
+    context.locationMessage = message;
+    els.dialogContent.querySelector("#detailLocations").innerHTML = renderDetailLocations(context);
+  };
+  if (!navigator.geolocation) return update("Tu navegador no ofrece ubicación. Podés consultar las direcciones sin compartirla.");
+  update("Esperando permiso para consultar tu ubicación…");
+  navigator.geolocation.getCurrentPosition(position => {
+    state.location = {lat: position.coords.latitude, lng: position.coords.longitude};
+    state.locationStatus = "ready";
+    update("Distancias en línea recta, no tiempos de viaje.");
+  }, () => update("No obtuvimos tu ubicación. Las direcciones siguen disponibles sin compartirla."), {enableHighAccuracy: false, timeout: 10000, maximumAge: 300000});
+}
+
+async function loadDetailLocations(context) {
+  const current = () => detailLocationState === context && els.dialog.open;
+  try {
+    await loadLocations(); // Downloads branches only; never requests geolocation.
+    if (!current()) return;
+    context.adheredPlaces = getDocumentedDetailPlaces(context.promo);
+    context.places = getDetailPlaces(context.promo);
+    const requested = context.places.find(place => (place.id || getPlaceGroupKey(place)) === context.placeId);
+    context.selectedKey = requested ? getPlaceGroupKey(requested) : context.adheredPlaces.length === 1 ? getPlaceGroupKey(context.adheredPlaces[0]) : "";
+    context.error = false;
+  } catch {
+    if (!current()) return;
+    context.error = true;
+  }
+  if (!current()) return;
+  context.loading = false;
+  els.dialogContent.querySelector("#detailLocations").innerHTML = renderDetailLocations(context);
+}
+
+function openDetailMap() {
+  const context = detailLocationState;
+  if (!context) return;
+  // Revalidate eligibility so stale or unverified destinations cannot become map targets.
+  const place = getDetailPlaces(context.promo).find(item => getPlaceGroupKey(item) === context.selectedKey);
+  if (!place) return;
+  const point = enrichNearbyPoint({place, promos: [context.promo], key: getPlaceGroupKey(place),
+    distance: state.location ? distanceKm(state.location.lat, state.location.lng, place.lat, place.lng) : 0});
+  els.dialog.close();
+  state.activeView = "nearby";
+  state.detailMapPromo = context.promo;
+  state.nearbyAutoLocationTried = true; // Opening a map is not a GPS permission request.
+  render();
+  selectNearbyPlace(point.key, point);
+  const map = document.querySelector("#nearbyMap");
+  if (map) {
+    map.tabIndex = -1;
+    map.focus({preventScroll: true});
+    map.scrollIntoView({block: "center"});
+  }
 }
 
 function openDetail(id, variantKey = "", placeId = "") {
@@ -3068,37 +3371,58 @@ function openDetail(id, variantKey = "", placeId = "") {
   const isFavorite = isFavoritePromotion(promo);
   const levelDetails = getSelectedUenoLevelDetails(promo, state.uenoLevel);
   const savings = getEstimatedSavings(promo, null, variant);
+  detailLocationState = {promo: basePromo, placeId, places: [], selectedKey: "", loading: true, error: false};
   els.dialogContent.innerHTML = `
-    <h2>${escapeHtml(getPromoTitle(promo))}</h2>
-    <button type="button" class="detail-inline-action" data-beta-report-id="${escapeAttribute(promo.id)}">Reportar datos incorrectos</button>
-    ${variant?.kind === "premium" ? `<span class="premium-badge detail-premium">${escapeHtml(variant.label)}</span>` : ""}
-    <p class="benefit">${escapeHtml(getDisplayBenefit(promo, variant))}</p>
-    ${savings.refundCap ? `<div class="detail-saving"><span>Ahorro máximo estimado</span><strong>${escapeHtml(formatGuarani(savings.refundCap))}</strong></div>` : ""}
-    <button class="detail-favorite ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}">${renderIcon("heart")} ${isFavorite ? "Guardado en favoritos" : "Guardar en favoritos"}</button>
-    <button class="detail-inline-action detail-share" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variantKey)}">${renderIcon("share")} Compartir promoción</button>
+    <header class="promo-detail-hero">
+      <div class="detail-eyebrow">${renderIcon("ticket")}Tu próximo beneficio</div>
+      ${renderBankBar(promo)}
+      <h2 id="promoDetailTitle">${escapeHtml(getPromoTitle(promo))}</h2>
+      ${variant?.kind === "premium" ? `<span class="premium-badge detail-premium">${escapeHtml(variant.label)}</span>` : ""}
+      <p class="detail-hero-benefit">${escapeHtml(getDisplayBenefit(promo, variant))}</p>
+      <p class="detail-hero-note">Con las tarjetas y condiciones indicadas abajo.</p>
+    </header>
+    <div class="detail-quick-facts">
+      <section><span>Días para aprovechar</span><strong>${escapeHtml(getDisplayDays(promo))}</strong></section>
+      <section><span>Vigencia</span><strong>${escapeHtml(getDisplayValidity(promo))}</strong></section>
+    </div>
+    ${savings.refundCap ? `<div class="detail-saving"><span>Ahorro máximo estimado</span><strong>${escapeHtml(formatGuarani(savings.refundCap))}</strong><small>Sujeto a compra, tarjeta y saldo disponible del tope. Revisá topes y mínimos.</small></div>` : ""}
+    <div class="detail-social-actions">
+      <button class="detail-favorite ${isFavorite ? "active" : ""}" type="button" data-favorite-id="${escapeAttribute(promo.id)}">${renderIcon("heart")} ${isFavorite ? "Guardado en favoritos" : "Guardar en favoritos"}</button>
+      <button class="detail-inline-action detail-share" type="button" data-share-id="${escapeAttribute(promo.id)}" data-share-variant="${escapeAttribute(variantKey)}">${renderIcon("share")} Compartir</button>
+    </div>
+    <section class="detail-location-card" aria-labelledby="detailLocationTitle">
+      <div class="detail-section-heading">${renderIcon("mapPin")}<h3 id="detailLocationTitle">Tu próxima parada</h3></div>
+      <div id="detailLocations">${renderDetailLocations(detailLocationState)}</div>${promo.parent_campaign_id ? '<p class="detail-location-note">Adhesión declarada por alcance de cadena. Mostramos únicamente ubicaciones físicas ya verificadas; las bases no enumeran direcciones individuales.</p>' : ""}
+    </section>
     <div class="calculator" data-calculator-id="${escapeAttribute(promo.id)}" data-calculator-variant="${escapeAttribute(variantKey)}">
-      <label>¿Cuánto vas a gastar?
+      <div class="purchase-cap"><span>Podés gastar hasta</span><strong>${escapeHtml(contractPurchase(promo,variant).label)}</strong><small>${escapeHtml(contractPurchase(promo,variant).evidence)}</small></div>
+      <label>Monto para simular tu ahorro
         <input type="number" inputmode="numeric" min="0" step="1000" placeholder="Ej: 500000" />
       </label>
-      <div class="calculator-result">Ingresá un monto para calcular tu ahorro.</div>
+      <div class="calculator-result" aria-live="polite">Ingresá un monto para calcular tu ahorro.</div>
     </div>
+    <details class="detail-conditions"><summary id="detailConditionsTitle">Ver condiciones</summary><p class="detail-location-note">Tarjetas, topes y condiciones de la promoción.</p>
     <div class="detail-list">
       ${isUenoPowerPromo(promo) ? `<div class="power-detail"><strong>Promo especial:</strong> ueno+ POWER. Puede requerir desbloqueo o criterios adicionales en la app de ueno.</div>` : ""}
       ${levelDetails ? `<div><strong>Nivel UENO seleccionado:</strong> Nivel ${state.uenoLevel} · ${escapeHtml(levelDetails.percent)}${levelDetails.purchaseCap ? ` · Compra ${escapeHtml(levelDetails.purchaseCap)}` : ""}${levelDetails.refundCap ? ` · Reintegro ${escapeHtml(levelDetails.refundCap)}` : ""}</div>` : ""}
       ${renderDetailRows(promo, variant)}
       <div class="detail-row"><span>Fuente</span><strong>${escapeHtml(promo.bank || "Banco")} · Datos actualizados automáticamente${formatLastUpdated(promo) ? ` · ${escapeHtml(formatLastUpdated(promo))}` : ""}</strong></div>
-      <div id="detailSourceLink"><a href="${escapeAttribute(safeSourceUrl(promo.source_page_url || promo.source_url || "#"))}" target="_blank" rel="noreferrer">${promo.bank === 'Continental' ? 'Ver comercio y condiciones en Continental' : promo.bank === 'GNB' && !/\.pdf(?:[?#]|$)/i.test(promo.source_page_url || promo.source_url || '') ? 'Ver promoción y bases en GNB' : 'Ver bases y condiciones'}</a></div>
-    </div>
+      <div id="detailSourceLink">${renderSourceReference(promo)}</div>
+    </div></details>
+    <button type="button" class="detail-report" data-beta-report-id="${escapeAttribute(promo.id)}">Reportar datos incorrectos</button>
   `;
   els.dialog.showModal();
+  els.dialog.scrollTop = 0;
+  loadDetailLocations(detailLocationState);
 }
 
 async function loadPromotions() {
   els.statusText.textContent = "Actualizando promociones...";
   els.results.innerHTML = renderSkeletons();
-  const [response, manifestResponse] = await Promise.all([
+  const [response, manifestResponse, review] = await Promise.all([
     fetch(`${DATA_URL}?t=${Date.now()}`),
     fetch(`${MANIFEST_URL}?t=${Date.now()}`).catch(() => null),
+    loadMapReview(),
   ]);
   if (!response.ok) throw new Error("No se pudo cargar promotions.json");
   if (manifestResponse?.ok) {
@@ -3106,7 +3430,8 @@ async function loadPromotions() {
     state.lastUpdated = manifest.generated_at || "";
     state.favoriteAliases = manifest.favorite_aliases || {};
   }
-  state.promotions = uniquePromos((await response.json()).filter(shouldShowPromotion));
+  state.promotions = uniquePromos(PaybackEligibility.apply(PaybackCampaigns.apply(appendReviewedPromotions(await response.json(), review?.promotions || []))).filter(promo => isDisplayablePromotion(promo) && promo.source_verification !== "unconfirmed" && !promo.terms?.conflicting_dates && promo.terms?.ends_on >= PaybackDates.today()));
+  populatePilotCards();
   state.favorites = normalizeFavoriteIds(state.favorites);
   if (!window.PaybackBeta?.current) saveStoredJson(STORAGE_KEYS.favorites, [...state.favorites]);
   syncFavoriteAlerts();
@@ -3124,6 +3449,15 @@ function renderSkeletons() {
 
 function capitalize(value) {
   return String(value || "").charAt(0).toUpperCase() + String(value || "").slice(1);
+}
+
+function renderSourceReference(promo) {
+  const candidates=[promo.source_document_url,promo.source_url,promo.source_page_url].filter(Boolean);
+  const pdf=candidates.find(value=>/\.pdf(?:[?#]|$)/i.test(value)&&safeSourceUrl(value)!=="#");
+  if(pdf)return `<a href="${escapeAttribute(safeSourceUrl(pdf))}" target="_blank" rel="noopener noreferrer">Ver PDF de bases y condiciones</a>`;
+  if(promo.bank==='Continental')return `<p class="detail-location-note">No tenemos un PDF específico verificado para esta promoción. Podés consultar el listado oficial del banco y las condiciones registradas abajo.</p><a href="https://www.bancontinental.com.py/#/club-continental/comercios" target="_blank" rel="noopener noreferrer">Consultar listado oficial de comercios Continental</a><details><summary>Ver condiciones registradas del comercio</summary><p class="detail-readable">${escapeHtml(promo.raw_detail||'Condiciones pendientes de verificación.')}</p></details>`;
+  const url=candidates.map(safeSourceUrl).find(value=>value!=="#");
+  return url?`<a href="${escapeAttribute(url)}" target="_blank" rel="noopener noreferrer">Ver promoción y condiciones en la fuente oficial</a>`:'<p>Fuente oficial pendiente de verificación.</p>';
 }
 
 function safeSourceUrl(value) {
@@ -3161,10 +3495,10 @@ els.bankTabs.addEventListener("click", (event) => {
 
 document.getElementById('homeLogo').addEventListener('click', event => {
   event.preventDefault();
-  state.activeView = 'today'; state.activeBank = 'Todos'; state.activeCategory = 'Todas'; state.activeDay = 'hoy'; state.query = '';
+  state.activeView = 'today'; state.activeBank = 'Todos'; state.activeCategory = 'Todas'; state.activeCard = 'Todas'; state.activeDay = 'hoy'; state.query = '';
   els.searchInput.value = '';
   resetNearbySelection(); render();
-  window.scrollTo({top:0, behavior:'smooth'});
+  window.scrollTo({top:0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
 });
 
 els.categoryTabs.addEventListener("click", (event) => {
@@ -3178,7 +3512,9 @@ els.categoryTabs.addEventListener("click", (event) => {
 els.dayTabs.addEventListener("click", (event) => {
   const day = event.target.closest("button")?.dataset?.day;
   if (!day) return;
+  if (day === "fecha") { if(window.PaybackCalendar){window.PaybackCalendar.open();return;} const picker = document.querySelector('#datePicker'); picker.hidden = false; picker.focus(); if (picker.showPicker) { try { picker.showPicker(); } catch {} } return; }
   state.activeDay = day;
+  document.querySelector('#datePicker').hidden = true;
   resetNearbySelection();
   render();
 });
@@ -3224,6 +3560,7 @@ els.searchInput.addEventListener("input", (event) => {
 });
 
 els.results.addEventListener("click", (event) => {
+  if (event.target.closest("[data-share-id]")) return;
   const pushAction = event.target.closest("[data-push-action]");
   if (pushAction) {
     pushAction.disabled = true;
@@ -3240,8 +3577,13 @@ els.results.addEventListener("click", (event) => {
     toggleFavorite(favoriteToggle.dataset.favoriteId);
     return;
   }
+  if (event.target.closest("[data-clear-promo-map]")) { state.detailMapPromo = null; render(); return; }
   const mapAction = event.target.closest("[data-map-action]");
   if (mapAction) {
+    if (mapAction.dataset.mapAction === "expand") {
+      toggleNearbyMapExpansion(mapAction);
+      return;
+    }
     if (mapAction.dataset.mapAction === "retry") {
       getMapProvider().retry();
       renderNearbyView();
@@ -3258,6 +3600,8 @@ els.results.addEventListener("click", (event) => {
     if (locationButton.dataset.locationAction === "reset-filters") {
       state.activeBank = "Todos";
       state.activeCategory = "Todas";
+      state.activeCard = "Todas";
+      resetSupermarketPilot();
       state.activeDay = "hoy";
       state.query = "";
       els.searchInput.value = "";
@@ -3323,10 +3667,22 @@ els.results.addEventListener("submit", (event) => {
 });
 
 els.dialogContent.addEventListener("click", (event) => {
+  if (event.target.closest("[data-detail-location-enable]")) { requestDetailLocation(); return; }
+  if (event.target.closest("[data-detail-map]")) {
+    openDetailMap();
+    return;
+  }
+  if (event.target.closest("[data-detail-location-retry]") && detailLocationState) {
+    detailLocationState.loading = true;
+    els.dialogContent.querySelector("#detailLocations").innerHTML = renderDetailLocations(detailLocationState);
+    loadDetailLocations(detailLocationState);
+    return;
+  }
   const sourceButton = event.target.closest("[data-scroll-source]");
   if (sourceButton) {
     const sourceLink = els.dialogContent.querySelector("#detailSourceLink");
-    sourceLink?.scrollIntoView({ behavior: "smooth", block: "center" });
+    const conditions = sourceLink?.closest("details"); if (conditions) conditions.open = true;
+    sourceLink?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
     sourceLink?.classList.remove("pulse-source");
     window.setTimeout(() => sourceLink?.classList.add("pulse-source"), 80);
     window.setTimeout(() => sourceLink?.classList.remove("pulse-source"), 1800);
@@ -3336,6 +3692,12 @@ els.dialogContent.addEventListener("click", (event) => {
   if (!favoriteButton) return;
   toggleFavorite(favoriteButton.dataset.favoriteId);
   els.dialog.close();
+});
+
+els.dialogContent.addEventListener("change", (event) => {
+  if (event.target.id !== "detailBranch" || !detailLocationState) return;
+  detailLocationState.selectedKey = event.target.value;
+  els.dialogContent.querySelector("#detailLocationDestination").innerHTML = renderDetailDestination(detailLocationState);
 });
 
 els.dialogContent.addEventListener("input", (event) => {
@@ -3365,49 +3727,53 @@ els.bottomNav.addEventListener("click", (event) => {
   if (!view) return;
   state.activeView = view;
   if (view === "today") {
+    state.activeBank="Todos";state.activeCategory="Todas";state.activeCard="Todas";state.query="";els.searchInput.value="";
     state.activeDay = "hoy";
   }
   render();
   if (view === "alerts" || view === "favorites") {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
   }
   if (view === "search") {
     els.searchInput.focus({ preventScroll: true });
     window.setTimeout(() => {
-      els.searchInput.scrollIntoView({ behavior: "smooth", block: "center" });
+      els.searchInput.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
       els.searchInput.focus();
     }, 60);
   }
   if (view === "nearby") {
     requestNearbyLocationAutomatically();
     window.setTimeout(() => {
-      document.querySelector(".map-stage, .nearby-panel")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      document.querySelector(".map-stage, .nearby-panel")?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
     }, 60);
   }
 });
 
 els.closeDialog.addEventListener("click", () => els.dialog.close());
 els.refreshButton.addEventListener("click", () => loadPromotions().catch((error) => {
-  els.statusText.textContent = error.message;
+  showPromotionLoadError(error);
 }));
 
+let openedRequestedPromotion = false;
 window.addEventListener('beta-account', event => {
   state.favorites = normalizeFavoriteIds(event.detail ? event.detail.favorites : loadStoredJson(STORAGE_KEYS.favorites, []));
   state.uenoLevel = event.detail ? event.detail.uenoLevel : loadStoredJson('paybackPy.uenoLevel', 1);
   syncFavoriteAlerts();
   render();
+  openRequestedPromotion();
 });
 
-loadPromotions().then(() => {
+function openRequestedPromotion() {
+  if (openedRequestedPromotion || !window.PaybackBeta?.current || !state.promotions.length) return;
+  openedRequestedPromotion = true;
   const params = new URLSearchParams(location.search);
   const id = params.get('promo');
   if (!id) return;
   if (state.promotions.some(promo => promo.id === id && isActivePromotion(promo))) openDetail(id, params.get('variant') || '');
   else els.statusText.textContent = 'La promoción compartida ya no está disponible. Explorá las promociones vigentes.';
-}).catch((error) => {
-  els.statusText.textContent = error.message;
-  els.results.innerHTML = `<div class="empty">No se pudieron cargar las promociones.</div>`;
-});
+}
+
+loadPromotions().then(openRequestedPromotion).catch(showPromotionLoadError);
 
 function promotionShareData(promo, variantKey = '') {
   const appUrl = 'https://giumontebruno.github.io/promo-bancos-py/app-web/';
@@ -3449,4 +3815,97 @@ document.addEventListener('click', async event => {
   };
   shareDialog.showModal();
 }, true);
+
+
+document.querySelector('#datePicker').addEventListener('change',event=>{const iso=event.target.value;if(!PaybackDates.valid(iso)||iso<PaybackDates.today())return;state.selectedDate=iso;state.activeDay='fecha';resetNearbySelection();render();});
+for (const [id,key] of [['bankSelect','activeBank'],['categorySelect','activeCategory'],['cardSelect','activeCard']]) document.getElementById(id).addEventListener('change',e=>{state[key]=e.target.value;resetNearbySelection();render();});
+document.querySelector('#profileButton').addEventListener('click',()=>{state.activeView='alerts';render();window.scrollTo(0,0)});
+document.querySelector('#explorePromos').addEventListener('click',()=>{state.activeView='search';render();window.scrollTo(0,0)});
+document.addEventListener('click',e=>{if(e.target.closest('[data-retry-promotions]'))loadPromotions().catch(showPromotionLoadError)});
+document.querySelector('#themeToggle').addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;saveStoredJson('paybackPy.theme',theme);document.querySelector('#themeToggle').setAttribute('aria-label',theme==='dark'?'Usar tema claro':'Usar tema oscuro')});
+
+// Profile shortcut uses the same favorites view and catalog logic.
+document.addEventListener("click", event => { if (event.target.closest("[data-profile-favorites]")) {state.activeView="favorites";render();window.scrollTo(0,0);} });
+
+ document.addEventListener("click",e=>{const b=e.target.closest("[data-next-favorites]");if(b)openNextFavorites(b);});
+
+// Text inputs match :focus-visible after touch too; scope modality styling to search only.
+document.addEventListener('pointerdown',event=>{if(event.target.closest('.search-box'))document.documentElement.dataset.searchFocus='pointer';},true);
+document.addEventListener('keydown',event=>{if(event.key==='Tab')document.documentElement.dataset.searchFocus='keyboard';},true);
+
+
+// Shared pilot adapter: list cards and map cards use this exact evaluation.
+function isSupermarketPilotPromo(promo) {
+  return /supermercad/i.test(getPromoCategoryGroup(promo));
+}
+function getSupermarketAssessment(promo) {
+  const enabled = document.getElementById("pilotEnabled")?.checked;
+  if (!enabled || !isSupermarketPilotPromo(promo) || typeof PaybackSupermarkets === "undefined") return null;
+  const original = state.promotions.find(item => item.id === promo.id) || {...promo, merchant_name: promo._sourceMerchantName || promo.merchant_name};
+  const selectedCard = document.getElementById("pilotCard").value;
+  const supermarketReview = typeof PaybackSupermarketReviews !== "undefined" ? PaybackSupermarketReviews.verified(original, selectedCard) : null;
+  const reviewed = supermarketReview || PaybackEligibility.verified(promo);
+  const evidence = supermarketReview || (reviewed ? {...reviewed, channels: reviewed.payment === "POS Bancard / Infonet, sin cuotas" ? ["pos-bancard"] : reviewed.payment === "POS Dinelco físico; no app, online ni POS virtual" ? ["pos-dinelco"] : []} : null);
+  const place = state.locations.find(item => (item.id || getPlaceGroupKey(item)) === promo._nearbyPlaceId);
+  const reviewedBranch = typeof PaybackSupermarketReviews !== "undefined" ? PaybackSupermarketReviews.branchLink(original, place) : null;
+  const branch = reviewedBranch || (place ? {match: getPromotionsForLocation(place, new Map([["pilot", [original]]]), "Todas").some(item => item.id === promo.id), source: place.source_url || null} : null);
+  const result = PaybackSupermarkets.evaluate(promo, {
+    evidence, branch, dateMatches: isActivePromotion(promo, selectedDateIso()) && appliesToSelectedDay(promo, state.activeDay),
+    card: selectedCard,
+    channel: document.getElementById("pilotChannel").value,
+    amount: Number(document.getElementById("pilotAmount").value) || null,
+  });
+  if (supermarketReview?.branch) result.branchNote = `${supermarketReview.branch.name}: ${supermarketReview.branch.address}. ${supermarketReview.branch.existingMapLocation ? "Participación documentada en bases Familiar; ubicación existente verificada por separado." : "Sucursal listada en las bases; sin coordenadas verificadas para mostrar en el mapa."}`;
+  return result;
+}
+function matchesSupermarketPilot(promo) {
+  if (!document.getElementById("pilotEnabled")?.checked) return true;
+  // Keep explicit negatives visible with their reason, rather than implying no data.
+  return isSupermarketPilotPromo(promo);
+}
+function renderSupermarketAssessment(promo) {
+  const assessment = getSupermarketAssessment(promo);
+  if (!assessment) return "";
+  const label = {applies:"Aplica según las condiciones verificadas",not_applies:"No aplica",needs_confirmation:"Falta confirmar"}[assessment.status];
+  return `<div class="pilot-assessment" data-eligibility="${assessment.status}"><strong>${label}</strong><ul>${assessment.reasons.map(reason => `<li>${escapeHtml(reason)}</li>`).join("")}</ul>${assessment.branchNote ? `<p>${escapeHtml(assessment.branchNote)}</p>` : ""}${assessment.estimate !== null ? `<p>Estimación antes de consumos previos: ${formatGuarani(assessment.estimate)}. No es un reintegro confirmado.</p>` : ""}</div>`;
+}
+function populatePilotCards() {
+  const select = document.getElementById("pilotCard");
+  if (!select) return;
+  const value = select.value;
+  const cards = [...new Set(state.promotions.filter(isSupermarketPilotPromo).flatMap(promo => [...(PaybackEligibility.verified(promo)?.cards || []), ...(typeof PaybackSupermarketReviews !== "undefined" ? PaybackSupermarketReviews.cards(promo) : [])]))].sort();
+  select.innerHTML = '<option value="">Elegí tarjeta y banco</option>' + cards.map(card => `<option value="${escapeAttribute(card)}">${escapeHtml(card)}</option>`).join("");
+  select.value = cards.includes(value) ? value : "";
+}
+
+for (const id of ["pilotEnabled", "pilotCard", "pilotChannel", "pilotAmount"]) {
+  document.getElementById(id)?.addEventListener("change", () => { resetNearbySelection(); render(); });
+}
+function resetSupermarketPilot() {
+  const enabled = document.getElementById("pilotEnabled");
+  if (enabled) enabled.checked = false;
+  for (const id of ["pilotCard", "pilotChannel", "pilotAmount"]) { const node = document.getElementById(id); if (node) node.value = ""; }
+}
+document.getElementById("pilotReset")?.addEventListener("click", () => {
+  resetSupermarketPilot(); resetNearbySelection(); render();
+});
+
+// Delegated navigation works after every render, including search reset snapshots.
+document.addEventListener('click', event => {
+  const category = event.target.closest('[data-discovery-category]');
+  const bank = event.target.closest('[data-discovery-bank]');
+  if (!category && !bank) return;
+  if (category) state.activeCategory = category.dataset.discoveryCategory;
+  if (bank) { state.activeBank = bank.dataset.discoveryBank; state.activeCategory = 'Todas'; }
+  state.activeView = 'search'; state.query = ''; els.searchInput.value = '';
+  resetNearbySelection(); render();
+  document.querySelector('.controls').scrollIntoView({block:'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+});
+
+// Number edits must update estimates without requiring a different view or a blur.
+let supermarketAmountTimer = null;
+document.getElementById("pilotAmount")?.addEventListener("input", () => {
+  clearTimeout(supermarketAmountTimer);
+  supermarketAmountTimer = setTimeout(() => { resetNearbySelection(); render(); }, 180);
+});
 

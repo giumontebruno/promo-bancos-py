@@ -1,78 +1,9 @@
-const CACHE_NAME = "payback-py-beta-35-map-store-selection";
-const matchCurrentCache = (request) => caches.open(CACHE_NAME).then((cache) => cache.match(request));
-const APP_SHELL = [
-  "./",
-  "./index.html",
-  "./styles.css",
-  "./app.js",
-  "./map-provider.js",
-  "./vendor/leaflet/leaflet.js",
-  "./vendor/leaflet/leaflet.css",
-  "./benefit-rules.js",
-  "./push-client.js",
-  "./beta-bundle.js",
-  "./premium.css",
-  "./config.js",
-  "./manifest.webmanifest",
-  "./assets/logos/payback-py-wordmark.png",
-  "./assets/payback-login-map.png",
-  "./assets/logos/payback-py-icon-round-192.png",
-  "./assets/logos/payback-py-icon-round-512.png",
-  "./assets/logos/payback-py-launch-180.png",
-  "./assets/logos/payback-py-launch-192.png",
-  "./assets/logos/payback-py-launch-512.png",
-  "../public/promotions.json",
-];
-
-self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)));
-  self.skipWaiting();
-});
-
-self.addEventListener("activate", (event) => {
-  event.waitUntil(
-    caches.keys().then((keys) => Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))))
-  );
-  self.clients.claim();
-});
-
-self.addEventListener("fetch", (event) => {
-  if (event.request.method !== "GET") return;
-  const url = new URL(event.request.url);
-  if (url.origin !== self.location.origin || url.pathname.includes('/api/') || url.pathname.endsWith('/notifications-config.json')) return;
-  const cacheKey = url.origin + url.pathname;
-
-  if (event.request.mode === "navigate" || url.pathname.endsWith("/app-web/index.html")) {
-    event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          if (!response.ok) throw new Error('Navigation unavailable');
-          const copy = response.clone();
-          event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.put(cacheKey, copy)));
-          return response;
-        })
-        .catch(async () => await matchCurrentCache(cacheKey) || await matchCurrentCache('./index.html') || Response.error())
-    );
-    return;
-  }
-
-  if (url.pathname.endsWith("/public/promotions.json") || url.pathname.endsWith("/public/locations.json")) {
-    event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          if (!response.ok) throw new Error('Data unavailable');
-          const copy = response.clone();
-          event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.put(cacheKey, copy)));
-          return response;
-        })
-        .catch(async () => await matchCurrentCache(cacheKey) || Response.error())
-    );
-    return;
-  }
-
-  event.respondWith(
-    matchCurrentCache(event.request).then((cached) => cached || fetch(event.request).catch(async () => await matchCurrentCache(cacheKey) || Response.error()))
-  );
+// Official navigation stays fresh without purging caches used by other apps on this origin.
+self.addEventListener('install', () => self.skipWaiting());
+self.addEventListener('activate', event => event.waitUntil(self.clients.claim()));
+self.addEventListener('fetch', event => {
+  if (event.request.mode !== 'navigate') return;
+  event.respondWith(fetch(event.request).catch(() => new Response('<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Payback PY</title><body style="font:18px system-ui;padding:24px"><h1>Estás sin conexión</h1><p>Payback necesita conexión para comprobar tu sesión y cargar promociones.</p><button style="min-height:44px" onclick="location.reload()">Reintentar</button></body></html>', { status: 503, headers: { 'Content-Type': 'text/html; charset=utf-8' } })));
 });
 
 self.addEventListener('push', event => {
@@ -80,7 +11,7 @@ self.addEventListener('push', event => {
   try { data = event.data?.json() || {}; } catch { /* A malformed push still gets a safe notification. */ }
   event.waitUntil(self.registration.showNotification(data.title || 'Payback PY', {
     body: String(data.body || 'Consultá tus beneficios de hoy.').slice(0, 600),
-    icon: './assets/logos/payback-py-icon-round-192.png',
+    icon: './assets/logos/pase/icon-192.png',
     tag: data.tag || 'payback-favorites',
     data: { url: './?view=favorites' },
   }));

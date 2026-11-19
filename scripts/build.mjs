@@ -12,7 +12,16 @@ await build({ entryPoints: ['server/index.js'], bundle: true, format: 'esm', pla
 await cp('app-web', 'dist/client/app-web', { recursive: true });
 await prepareSuspensions('public');
 await cp('public', 'dist/client/public', { recursive: true });
-await writeFile('dist/client/index.html', '<!doctype html><html lang="es"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=https://giumontebruno.github.io/promo-bancos-py/app-web/"><title>Payback PY</title><a href="https://giumontebruno.github.io/promo-bancos-py/app-web/">Payback PY</a></html>');
+await writeFile('dist/client/index.html', `<!doctype html><html lang="es"><meta charset="utf-8"><title>Payback PY</title>
+<script>
+const source = new URL(location.href);
+const target = new URL('./app-web/', source);
+for (const field of ['view', 'promo', 'variant']) {
+  if (source.searchParams.has(field)) target.searchParams.set(field, source.searchParams.get(field));
+}
+location.replace(target.href);
+</script>
+<noscript><meta http-equiv="refresh" content="0;url=./app-web/"></noscript><a href="./app-web/">Payback PY</a></html>`);
 await mkdir('dist/.openai', { recursive: true });
 await cp('.openai/hosting.json', 'dist/.openai/hosting.json');
 await cp('drizzle', 'dist/.openai/drizzle', { recursive: true });

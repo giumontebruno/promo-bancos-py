@@ -1,0 +1,5 @@
+Approved: Pase, round Orbita/Pase/Brote.
+Library: libfile_ce3afc8a3974819189854f4361b2d8f1
+Source copied unchanged from task-5/payback-glass-logos-2/02-Pase-logo.svg
+SHA256: 6233e8942036e386cebbee2e04d15edc223efc8a4fd00b9ba86adc56d6275f66
+Header paths copied from same round; viewport cropped only. App icon from approved icon-128.svg; maskable retains paths with smaller transform inside 80% diameter safe circle.

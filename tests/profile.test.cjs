@@ -11,6 +11,9 @@ function profile(account) {
     window: { PaybackBeta: { current: account } },
     state: { favorites: new Set(), promotions: [], alertPrefs: {}, pushMessage: '', user: { name: 'Old manual name' } },
     els: { statusText: {}, countText: {}, results: {} },
+    getProfileFavoriteMetrics: () => ({date:'2026-11-19',total:0,eligible:0}),
+    renderNextFavorite: () => '',
+    PaybackProfile: require('../app-web/profile-next.js'),
     PaybackPush: { enabled: () => false }, renderIcon: () => '',
     escapeHtml: value => String(value).replaceAll('<', '&lt;').replaceAll('>', '&gt;'),
     escapeAttribute: value => String(value).replaceAll('"', '&quot;'),
@@ -31,8 +34,8 @@ test('Google account photo is displayed only for signed-in profile', () => {
   assert.doesNotMatch(profile(null), /class="google-profile-photo"/);
 });
 test('signed-in profile uses escaped Google name and account management instead of login', () => {
-  const html = profile({ name: '<Google Name>', email: 'tester@example.com' });
-  assert.match(html, /Hola, &lt;Google Name&gt;/);
+  const html = profile({ name: '<Google> Name', email: 'tester@example.com' });
+  assert.match(html, /Hola, &lt;Google&gt;/);
   assert.match(html, /data-beta-open/);
   assert.match(html, /data-profile-logout>Cerrar sesión/);
   assert.doesNotMatch(html, /data-beta-login|name="name"|Old manual name/);

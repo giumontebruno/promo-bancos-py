@@ -4,12 +4,12 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const source = fs.readFileSync('app-web/app.js','utf8');
 
-test('search ignores bank and category but empty search respects them', () => {
+test('search and empty search both respect bank and category', () => {
   const ctx = {state:{query:'farmacia',activeBank:'BNF',activeCategory:'Combustible'}, PREMIUM_CATEGORY:'Black', getPromoCategoryGroup:p=>p.category};
   vm.runInNewContext(source.slice(source.indexOf('function matchesBank('),source.indexOf('function sectionPromotions(')),ctx);
   const promo = {bank:'Itaú',category:'Farmacias'};
-  assert.equal(ctx.matchesBank(promo),true);
-  assert.equal(ctx.matchesCategory(promo),true);
+  assert.equal(ctx.matchesBank(promo),false);
+  assert.equal(ctx.matchesCategory(promo),false);
   ctx.state.query='';
   assert.equal(ctx.matchesBank(promo),false);
   assert.equal(ctx.matchesCategory(promo),false);
