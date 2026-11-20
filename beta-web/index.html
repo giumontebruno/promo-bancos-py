@@ -49,6 +49,7 @@
         <div id="dayTabs" class="tabs day-tabs" aria-label="Día de la promoción"></div>
         <input id="datePicker" type="date" aria-label="Elegir fecha de la promoción" hidden />
         <div class="glass-filters"><label><span class="sr-only">Banco</span><select id="bankSelect" aria-label="Banco"></select></label><label><span class="sr-only">Categoría</span><select id="categorySelect" aria-label="Categoría"></select></label><label><span class="sr-only">Tarjeta</span><select id="cardSelect" aria-label="Tarjeta"><option value="Todas">Tarjetas</option><option>Crédito</option><option>Débito</option><option>Visa</option><option>Mastercard</option><option>American Express</option></select></label></div>
+        <template id="supermarketPilotTemplate" data-enabled="false">
         <fieldset class="supermarket-pilot"><legend>Consulta de supermercados · piloto</legend>
           <label><input type="checkbox" id="pilotEnabled"> Evaluar mi compra (mismo criterio en lista y mapa)</label>
           <div class="pilot-inputs"><label>Tarjeta exacta<select id="pilotCard" aria-label="Tarjeta exacta"><option value="">Elegí tarjeta y banco</option></select></label>
@@ -57,6 +58,7 @@
           <p>No consultamos tus consumos. Si faltan condiciones o saldo del tope, mostramos «Falta confirmar», no una promesa de reintegro.</p>
           <button id="pilotReset" type="button">Limpiar consulta</button>
         </fieldset>
+        </template>
         <div id="bankTabs" hidden></div><div id="categoryTabs" hidden></div><div id="uenoLevelPanel" class="level-panel hidden"></div>
       </section>
       <section id="homeDiscovery" class="home-discovery" aria-label="Explorar beneficios"></section>
@@ -110,7 +112,7 @@
     <script src="./profile-next.js?v=1"></script>
     <script src="./supermarket-reviewed.js?v=1"></script>
     <script src="./supermarket-eligibility.js?v=readable-status-20261030"></script>
-    <script src="./app.js?v=discovery-20261112-map-20261119"></script>
+    <script src="./app.js?v=discovery-20261112-map-20261119-hide-supermarket-pilot-20261120"></script>
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("./sw.js", { scope: "./" });

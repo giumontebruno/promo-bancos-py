@@ -3878,6 +3878,11 @@ function populatePilotCards() {
   select.value = cards.includes(value) ? value : "";
 }
 
+// Keep the unfinished purchase evaluation out of the UI until explicitly enabled.
+const supermarketPilotTemplate = document.getElementById("supermarketPilotTemplate");
+if (supermarketPilotTemplate?.dataset.enabled === "true") {
+  supermarketPilotTemplate.replaceWith(supermarketPilotTemplate.content.cloneNode(true));
+}
 for (const id of ["pilotEnabled", "pilotCard", "pilotChannel", "pilotAmount"]) {
   document.getElementById(id)?.addEventListener("change", () => { resetNearbySelection(); render(); });
 }
