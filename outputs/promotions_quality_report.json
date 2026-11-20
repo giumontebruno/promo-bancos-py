@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T16:51:27.143054+00:00",
-  "input_count": 3517,
-  "promotion_count": 4311,
-  "duplicates_removed": -794,
+  "generated_at": "2026-11-20T16:19:27.897569+00:00",
+  "input_count": 3535,
+  "promotion_count": 4334,
+  "duplicates_removed": -799,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1194,8 +1194,6 @@
     "85703a4d9fc72213": "7018b2ee022a193b",
     "596130213dd0abbf": "287cc905ff41d436",
     "c80487ae50dff29c": "e3e817ac1e0235b8",
-    "6b361360013e9390": "8d89ae969eb7721b",
-    "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
     "706d7b8a4b417f99": "79db00b58924240a",
     "3a08dde3e44bd674": "7a584b45c4d9edfd",
     "af3d82672853e6c8": "4ce5aaa7ba85e9f5",
@@ -1419,11 +1417,8 @@
     "966edec5f86579a9": "f11352d21be35508",
     "25de6d76423d527d": "4501924b91941c84",
     "d797e952c9ac7cfe": "5952e0fd3114b15b",
-    "0bb5c44cfaf3ff51": "62d0aef17d4d8fb9",
     "d2f51c207a5b5cab": "7e5b58d041e0eab8",
-    "2870a0334be3dba3": "7550bf7be3f6f0d1",
     "c95335796ab3c9b3": "b53e7ab5c22b248e",
-    "bc428cc34573447b": "e0dbff8f2e102954",
     "5a2e53fb2c5ab2fb": "1be35f4a8bf8f95a",
     "6eecbf2c8cacb178": "1ecf717517e48002",
     "8ecd05d8dd1dd237": "7cf7d9eec76790ad",
@@ -1461,7 +1456,6 @@
     "d5e231a8d8e70e58": "155f6989b650d860",
     "66b7435adde86630": "e258d829391236a9",
     "e932bfa794b7b126": "37299d119036b250",
-    "d4c0f3c08242e298": "3206c37e60bb8a3f",
     "ebeaa4d0501f7d7d": "6ef87ea9e655ad3e",
     "434df79cd6026ff2": "188759baa8f428a1",
     "7b336a9e053a0e74": "75343679e11e430b",
@@ -1470,26 +1464,31 @@
     "6f295698cae71d46": "bdf72c6f4e7e7221",
     "91ff86aa4fa2ea63": "e10d7fd58bf5545a",
     "a4ee16bfc74630e8": "ad6c6e535e4724be",
-    "5e4f8a72bd828b50": "c8ac25a1a6151891"
+    "5e4f8a72bd828b50": "c8ac25a1a6151891",
+    "e45d6706ec738e16": "0177aeb41dcdd7b1",
+    "d399a9da48c46774": "d50c1ee58941e0fb",
+    "a33a3cd0b3c23c22": "326cedcb85cf1d2d",
+    "8d89ae969eb7721b": "6b361360013e9390",
+    "b89d12700f21e3ff": "b5d5c2bf0deba0dd"
   },
   "by_bank": {
-    "Atlas": 61,
+    "Atlas": 60,
     "BNF": 142,
-    "Bancop": 68,
-    "Basa": 95,
-    "Continental": 956,
+    "Bancop": 67,
+    "Basa": 91,
+    "Continental": 959,
     "Coop. Universitaria": 72,
     "Familiar": 420,
     "GNB": 509,
     "Interfisa": 216,
-    "Itaú": 654,
+    "Itaú": 680,
     "Solar": 57,
     "Sudameris": 365,
     "ueno bank": 696
   },
   "issue_counts": {
-    "validity_unconfirmed": 49,
-    "limits_unconfirmed": 452,
+    "validity_unconfirmed": 48,
+    "limits_unconfirmed": 448,
     "multiple_purchase_limits": 339,
     "source_amount_conflict": 20,
     "multiple_refund_limits": 195,
@@ -1557,15 +1556,6 @@
       "merchant": "Impuestos al día",
       "issues": [
         "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "fd5e2809115dc0ec",
-      "bank": "Atlas",
-      "merchant": "Preventa Cheques delSol",
-      "issues": [
-        "validity_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
@@ -1994,15 +1984,6 @@
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/CDP%20muebles%20santa%20rita.pdf"
     },
     {
-      "id": "62d0aef17d4d8fb9",
-      "bank": "Basa",
-      "merchant": "CIELLA",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/ciella.pdf"
-    },
-    {
       "id": "7e5b58d041e0eab8",
       "bank": "Basa",
       "merchant": "CLEVER STORE",
@@ -2021,15 +2002,6 @@
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Cph.pdf"
     },
     {
-      "id": "7550bf7be3f6f0d1",
-      "bank": "Basa",
-      "merchant": "Casa Debarro",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Casa%20debarro.pdf"
-    },
-    {
       "id": "b53e7ab5c22b248e",
       "bank": "Basa",
       "merchant": "Casa Paola",
@@ -2037,15 +2009,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Casa%20paola.pdf"
-    },
-    {
-      "id": "e0dbff8f2e102954",
-      "bank": "Basa",
-      "merchant": "Celebra",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Celebra.pdf"
     },
     {
       "id": "1be35f4a8bf8f95a",
@@ -2379,15 +2342,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/superior%20life.pdf"
-    },
-    {
-      "id": "3206c37e60bb8a3f",
-      "bank": "Basa",
-      "merchant": "Tienda Gonzalito",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Tienda%20Gonzalito.pdf"
     },
     {
       "id": "6ef87ea9e655ad3e",

@@ -1,11 +1,26 @@
 {
   "status": "partial",
-  "catalog_discovered": 60,
+  "catalog_discovered": 62,
   "skipped": [
+    {
+      "id": "554",
+      "title": "NISSEI CDE - BLACK FRIDAY",
+      "reason": "new_campaign_requires_review"
+    },
     {
       "id": "552",
       "title": "FACUNDO DE SALTERIN",
       "reason": "new_campaign_requires_review"
+    },
+    {
+      "id": "555",
+      "title": "BLACK FRIDAY - CDE",
+      "reason": "new_campaign_requires_review"
+    },
+    {
+      "id": "500",
+      "title": "ECOP RESTAURANTE",
+      "reason": "502 Server Error: Bad Gateway for url: https://www.bancop.com.py/ajax/promocion.php"
     },
     {
       "id": "464",
@@ -40,7 +55,7 @@
     {
       "id": "487",
       "title": "NISSEI",
-      "reason": "Ficha Nissei enlaza PDF de Visuar/Tienda Móvil, no prueba promoción Nissei."
+      "reason": "source_changed_requires_review"
     },
     {
       "id": "541",
@@ -51,6 +66,6 @@
   "coverage_complete": false,
   "reason": "All 58 initial cards individually reviewed. Missing-year and wrong-merchant documents quarantined; changed/new campaigns require review.",
   "bank": "bancop",
-  "attempted_at": "2026-11-19T16:45:19.019915+00:00",
-  "rows": 66
+  "attempted_at": "2026-11-20T16:14:54.805180+00:00",
+  "rows": 65
 }

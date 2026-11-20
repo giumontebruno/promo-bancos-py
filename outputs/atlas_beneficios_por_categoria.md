@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 40
+Total de beneficios: 39
 
 ## Bienestar
 
@@ -39,7 +39,6 @@ Total de beneficios: 40
 | Impuestos al día | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | L'uomo | 6 cuotas sin intereses | Todos los días | Desde 2026-06-01 hasta 2026-12-31 |
 | Pinedo Shopping | 20% de descuento; 3 cuotas sin intereses | Todos los viernes | El descuento se realiza en caja. La cantidad de cuotas se solicita en caja, hasta 3 cuotas sin intereses para compras a partir de Gs. 200.000 a través del POS de la Red Infonet. Aplica para tiendas adheridas a la promoci |
-| Preventa Cheques delSol | 45% de bonificación; 12 cuotas sin intereses | 19 de noviembre | Beneficio exclusivo para las tarjetas Signature Atlas delSol. Tope de compra acumulado por cuenta de tarjeta para todos los días de la promoción Gs. 70.000.000 para la TC Signature Atlas delSol. La cantidad de cuotas deb |
 | delSol | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 200.000 y transacciones realizadas a través del POS de la red Infonet. Promoción válida todos los días para tarjetas afinidad delSol en todos |
 | delSol Shopping - Cheques delSol | 40% de bonificación; 30% de bonificación; 12 cuotas sin intereses | 20 y 21 de noviembre | Beneficio exclusivo para las tarjetas afinidad Atlas delSol. Tope de compra acumulado por cuenta de tarjeta Gs. 70.000.000 para TC Visa Signature Atlas delSol y Gs. 30.000.000 para TC Visa Clásica Atlas delSol. La cantid |
 | oBoticário | 25% de reintegro; 20% de reintegro; 12 cuotas sin intereses | 21 y 22 de noviembre | Tope de compra acumulado por cuenta de tarjeta Gs. 1.500.000 en el conjunto de tiendas: ISDIN, Oboticario y Champs Elysées para tarjetas de crédito Visa Infinite, Visa Signature y Mastercard Black, Clásica y Oro. Aplica  |

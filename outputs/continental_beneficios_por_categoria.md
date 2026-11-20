@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 833
+Total de beneficios/comercios: 835
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -82,7 +82,7 @@ Total de beneficios/comercios: 833
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
 | Avant Padel | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de abril de 2027 | Curuguaty |
-| Bigg | 20%; 20% de reintegro | No especificado | Vigente hasta el 19 de noviembre de 2026 | Asunción |
+| Bigg - Débito automático | 20%; 20% de reintegro | No especificado | Vigente hasta el 19 de noviembre de 2027 | Asunción |
 | Complejo Rotela | 20%; 20% de reintegro | los viernes | Vigente hasta el 26 de febrero del 2027 | Ma. Auxiliadora (Itapúa) |
 | DT Básquet | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 19 de febrero de 2027 | Asunción |
 | Javi Deportes | 20%; 20% de reintegro | los jueves | Vigente hasta el 18 de marzo de 2027 | Encarnación |
@@ -550,7 +550,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 
-## Promociones especiales (19)
+## Promociones especiales (20)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -571,6 +571,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Mango /Cortefiel / Pedro de Hierro | 25%; 25% de reintegro; 20% de reintegro | No especificado | Vigente hasta el 13 de noviembre de 2026 | Asunción |
 | Nissei - Cyber Day | Hasta 18 cuotas sin intereses | No especificado | Vigente hasta el 04 de noviembre de 2026 | Todo el país |
 | Puerto Liebig | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de marzo de 2027 | Asunción |
+| Spinelli S.A - Promo especial | 20%; 20% de reintegro | No especificado | Vigente hasta el 29 de noviembre de 2026 | San Alberto (Alto Paraná) |
 | The Vitamin Shoppe | 25%; 25% de reintegro | No especificado | Vigente hasta el 10 de noviembre de 2026 | Todo el país |
 | UNISAL Universidad San Lorenzo | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | No especificado | Todo el país |
 
@@ -723,7 +724,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 
 _Se omitieron 39 filas en este resumen; están en el CSV._
 
-## Tiendas (205)
+## Tiendas (206)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -808,7 +809,7 @@ _Se omitieron 39 filas en este resumen; están en el CSV._
 | Hey Dude | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 01 de julio de 2027 | Asunción |
 | Hope | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de agosto de 2027 | Asunción |
 
-_Se omitieron 125 filas en este resumen; están en el CSV._
+_Se omitieron 126 filas en este resumen; están en el CSV._
 
 ## Vehículos (38)
 
