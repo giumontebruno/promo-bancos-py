@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T16:19:27.897569+00:00",
-  "promotion_count": 4334,
+  "generated_at": "2026-11-21T15:35:39.438931+00:00",
+  "promotion_count": 4338,
   "banks": [
     "Atlas",
     "BNF",
@@ -4433,13 +4433,6 @@
       "merchant_name": "Preventa Cheques delSol",
       "source_url": "https://www.bancoatlas.com.py/web/beneficios",
       "last_known_ends_on": null
-    },
-    "4c03afdcc5039273": {
-      "reason": "not_in_current_sources",
-      "bank": "Bancop",
-      "merchant_name": "ECOP RESTAURANTE",
-      "source_url": "https://www.bancop.com.py:443/public/49977cfdbeeff4c30feb279a88f8f38b.pdf",
-      "last_known_ends_on": "2026-12-31"
     },
     "62d0aef17d4d8fb9": {
       "reason": "not_in_current_sources",

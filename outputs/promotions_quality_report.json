@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T16:19:27.897569+00:00",
-  "input_count": 3535,
-  "promotion_count": 4334,
-  "duplicates_removed": -799,
+  "generated_at": "2026-11-21T15:35:39.438931+00:00",
+  "input_count": 3533,
+  "promotion_count": 4338,
+  "duplicates_removed": -805,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1472,22 +1472,22 @@
     "b89d12700f21e3ff": "b5d5c2bf0deba0dd"
   },
   "by_bank": {
-    "Atlas": 60,
+    "Atlas": 62,
     "BNF": 142,
-    "Bancop": 67,
+    "Bancop": 68,
     "Basa": 91,
     "Continental": 959,
     "Coop. Universitaria": 72,
     "Familiar": 420,
     "GNB": 509,
     "Interfisa": 216,
-    "Itaú": 680,
+    "Itaú": 681,
     "Solar": 57,
     "Sudameris": 365,
     "ueno bank": 696
   },
   "issue_counts": {
-    "validity_unconfirmed": 48,
+    "validity_unconfirmed": 50,
     "limits_unconfirmed": 448,
     "multiple_purchase_limits": 339,
     "source_amount_conflict": 20,
@@ -1606,6 +1606,15 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
+      "id": "adaa745fbb7f2288",
+      "bank": "Atlas",
+      "merchant": "Spinelli Muebles",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
+    },
+    {
       "id": "9545eb7875de777c",
       "bank": "Atlas",
       "merchant": "Champs Elysées",
@@ -1712,6 +1721,15 @@
         "validity_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web//Supermercados%20Noviembre.jpg"
+    },
+    {
+      "id": "9353ffbbbf6d4593",
+      "bank": "Atlas",
+      "merchant": "Feria Smart Personal",
+      "issues": [
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
       "id": "e77fe8d93e9865f3",

@@ -21,11 +21,11 @@
     },
     {
       "id": 129,
-      "status": "blocked_specific_ambiguity_or_representation: Canal PDF3 afirma valida con dispositivos diferentes al POS Infonet sin aclarar redes. No transformar en POS exclusivo. Representacion del descuento debe separar medicamentos/otros y hasta."
+      "status": "source_changed_requires_review"
     },
     {
       "id": 130,
-      "status": "blocked_specific_ambiguity_or_representation: Fin catalogo31/12/2026 vs generalPDF30/09/2027; tabla solo16oct20nov18dic sin ano; no extender a viernes2027. Canal3 inusual no permite inferir POS exclusivo."
+      "status": "source_changed_requires_review"
     },
     {
       "id": 128,
@@ -143,11 +143,11 @@
     },
     {
       "id": 129,
-      "reason": "blocked_specific_ambiguity_or_representation: Canal PDF3 afirma valida con dispositivos diferentes al POS Infonet sin aclarar redes. No transformar en POS exclusivo. Representacion del descuento debe separar medicamentos/otros y hasta."
+      "reason": "source_changed_requires_review"
     },
     {
       "id": 130,
-      "reason": "blocked_specific_ambiguity_or_representation: Fin catalogo31/12/2026 vs generalPDF30/09/2027; tabla solo16oct20nov18dic sin ano; no extender a viernes2027. Canal3 inusual no permite inferir POS exclusivo."
+      "reason": "source_changed_requires_review"
     },
     {
       "id": 123,
@@ -189,6 +189,6 @@
   "coverage_complete": false,
   "reason": "All known catalog campaigns individually reviewed; expired/ineligible and specific ambiguous campaigns excluded. Changed sources fail closed.",
   "bank": "solar",
-  "attempted_at": "2026-11-20T16:15:12.450382+00:00",
+  "attempted_at": "2026-11-21T15:30:15.932122+00:00",
   "rows": 54
 }

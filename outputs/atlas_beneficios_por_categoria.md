@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 39
+Total de beneficios: 41
 
 ## Bienestar
 
@@ -49,6 +49,7 @@ Total de beneficios: 39
 |---|---|---|---|
 | Renová tu Hogar | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 | SUEÑOLAR | 18 Cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 y transacciones realizadas a través del POS de la red Infonet. Válido todos los días hasta el 31 de diciembre en las tiendas Sueñolar y tie |
+| Spinelli Muebles | 20% de reintegro; 12 cuotas sin intereses | 26 al 29 de noviembre | Tope de compraacumulado por cuenta de tarjeta Gs. 2.000.000. La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 1.000.000 y transacciones realizadas a través del POS de la red Infonet. Benefic |
 
 ## Moda
 
@@ -78,6 +79,7 @@ Total de beneficios: 39
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| Feria Smart Personal | 18 cuotas sin intereses | del 23 al 30 de noviembre | La cantidad de cuotas debe ser solicitada en caja para compras a partir de Gs. 1.000.000 y transacciones realizadas a través del POS de la red Infonet. Se eexcluyen las tarjetas prepago, corporativas, gourmet card, gift  |
 | Tecnología a tu alcance | 12 cuotas sin intereses | Todos los días | La cantidad de cuotas se solicita en caja, hasta 12 cuotas sin intereses para compras a partir de Gs. 1.000.000 a través del POS de la Red Infonet en comercios adheridos a los rubros mencionados. Beneficio exclusivo para |
 
 ## Vehículo

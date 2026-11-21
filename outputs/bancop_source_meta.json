@@ -18,11 +18,6 @@
       "reason": "new_campaign_requires_review"
     },
     {
-      "id": "500",
-      "title": "ECOP RESTAURANTE",
-      "reason": "502 Server Error: Bad Gateway for url: https://www.bancop.com.py/ajax/promocion.php"
-    },
-    {
       "id": "464",
       "title": "SUPERMERCADO CHORTITZER",
       "reason": "new_campaign_requires_review"
@@ -66,6 +61,6 @@
   "coverage_complete": false,
   "reason": "All 58 initial cards individually reviewed. Missing-year and wrong-merchant documents quarantined; changed/new campaigns require review.",
   "bank": "bancop",
-  "attempted_at": "2026-11-20T16:14:54.805180+00:00",
-  "rows": 65
+  "attempted_at": "2026-11-21T15:29:54.147780+00:00",
+  "rows": 66
 }
