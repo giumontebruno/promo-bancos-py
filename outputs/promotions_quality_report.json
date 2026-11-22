@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-21T15:35:39.438931+00:00",
-  "input_count": 3533,
+  "generated_at": "2026-11-22T15:28:15.949871+00:00",
+  "input_count": 3528,
   "promotion_count": 4338,
-  "duplicates_removed": -805,
+  "duplicates_removed": -810,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1469,7 +1469,11 @@
     "d399a9da48c46774": "d50c1ee58941e0fb",
     "a33a3cd0b3c23c22": "326cedcb85cf1d2d",
     "8d89ae969eb7721b": "6b361360013e9390",
-    "b89d12700f21e3ff": "b5d5c2bf0deba0dd"
+    "b89d12700f21e3ff": "b5d5c2bf0deba0dd",
+    "e6ccf24a771ca317": "53d9aa873e810d9a",
+    "0078218e6330bd5e": "fc8d3903eff84527",
+    "21719dbf08e041fa": "99a2aff3d34ccca9",
+    "25171434282db5b6": "240a588409c101f9"
   },
   "by_bank": {
     "Atlas": 62,

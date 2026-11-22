@@ -2,7 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 503
+Total de beneficios: 498
 
 ## Alemania Cell
 
@@ -60,9 +60,7 @@ Total de beneficios: 503
 | CROSS COUNTRY 2026 | 10 % 6 Cuotas sin intereses; Tenes 10% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-11-18 hasta 2026-12-06 |
 | Dermage | 10 Cuotas sin intereses 40 % Hasta; Tenes 30% de ahorro + 10% pagando con GPAY y APPLE PAY y hasta 10 cuotas sin intereses | No especificado | 2025-09-27 hasta 2026-11-26 |
 | Fuschia | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses | Aplica los sábados | 2025-09-27 hasta 2026-11-28 |
-| HALO CLUB | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-11-11 hasta 2026-11-25 |
 | ODONTOS | 12 Cuotas sin intereses; Tenes 12 cuotas sin intereses | No especificado | 2026-03-27 hasta 2026-12-31 |
-| Optica Santa Lucía | 60 % Hasta 10 Cuotas sin intereses; hasta 60% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-07-24 hasta 2026-11-25 |
 | Punto Farma | 6 Cuotas sin intereses 35 % Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses. | Todos los Martes; todos los martes | 2024-12-30 hasta 2026-12-31 |
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
 | SANTO PILATES | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-10-19 hasta 2026-12-31 |
@@ -285,7 +283,6 @@ Total de beneficios: 503
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| LAS PEPAS | tarjeta de crédito; Tenes 20% de REINTEGRO para tarjetas de crédito Personal Bank + hasta 6 cuotas sin intereses | No especificado | 2026-11-24 hasta 2026-11-25 |
 | Laguna Blanca | 6 Cuotas sin intereses 20 %; Tenés 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-04-01 hasta 2026-11-30 |
 | Ocre | 40 % Hasta 10 Cuotas sin intereses; Tenés hasta 40% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2023-11-06 hasta 2026-11-28 |
 | Ocre Office | 40 % Hasta 10 Cuotas sin intereses; Tenés hasta 40% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2023-11-06 hasta 2026-11-28 |
@@ -560,7 +557,6 @@ Total de beneficios: 503
 | EXA GOETHE | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses. | No especificado | 2026-03-05 hasta 2026-12-31 |
 | El Deposito | 10 Cuotas sin intereses 30 % Hasta; Tenes hasta 30% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-24 hasta 2026-12-31 |
 | FAUSTO CULTURAL | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses. | No especificado | 2026-11-18 hasta 2026-12-15 |
-| FAUSTO CULTURAL | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2026-11-18 hasta 2026-11-25 |
 | GRILL WEST | 50 % Hasta 6 Cuotas sin intereses; Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-11-16 hasta 2026-11-28 |
 | Hering | 6 Cuotas sin intereses 20 % Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-03-26 hasta 2026-12-02 |
 | Import telas | 6 Cuotas sin intereses 15 %; Tenes 15% de ahorro y hasta 6 cuotas sin intereses. | Aplica los jueves | 2025-09-26 hasta 2026-11-26 |
@@ -677,13 +673,12 @@ Total de beneficios: 503
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Bazzar | 30 % 6 Cuotas sin intereses; Tenes 30% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-12-27 hasta 2026-11-21 |
+| FAUSTO CULTURAL | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2026-11-18 hasta 2026-11-25 |
 | Feria Asunción | 10 Cuotas sin intereses 30 % Hasta; Tenes 20% de ahorro más 10% adicional pagando con Google Pay y Apple Pay y hasta 10 cuotas sin intereses. | No especificado | 2025-08-08 hasta 2026-11-22 |
+| HALO CLUB | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-11-11 hasta 2026-11-25 |
 | Kekas Design | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-11-10 hasta 2026-11-23 |
-| Maria la Paz | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2025-08-28 hasta 2026-11-21 |
+| LAS PEPAS | tarjeta de crédito; Tenes 20% de REINTEGRO para tarjetas de crédito Personal Bank + hasta 6 cuotas sin intereses | No especificado | 2026-11-24 hasta 2026-11-25 |
 | Mongomery Calzados | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-10-30 hasta 2026-11-23 |
-| Nine West | 6 Cuotas sin intereses 20 %; 25% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-08-22 hasta 2026-11-21 |
-| PIK | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | No especificado | 2026-07-21 hasta 2026-11-21 |
-| PRUNE | 6 Cuotas sin intereses 20 %; 25% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-08-22 hasta 2026-11-21 |
+| Optica Santa Lucía | 60 % Hasta 10 Cuotas sin intereses; hasta 60% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-07-24 hasta 2026-11-25 |
 | Universal Import | 20 % 12 Cuotas sin intereses; Tenés 20% de ahorro y hasta 12 cuotas sin intereses. | No especificado | 2023-08-07 hasta 2026-11-22 |
 
