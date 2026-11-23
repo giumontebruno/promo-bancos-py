@@ -1,7 +1,12 @@
 {
-  "checked_at": "2026-11-22T15:12:57.051893+00:00",
+  "checked_at": "2026-11-23T19:10:19.365968+00:00",
   "published": 420,
   "pending": [
+    {
+      "merchant_name": "NICE 39° ANIVERSARIO",
+      "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-nice-39deg-aniversario",
+      "reason": "ambiguous_dates"
+    },
     {
       "merchant_name": "LUNES DE MALL EXCELSIOR",
       "source_url": "https://www.familiar.com.py/pdfs/lunes-de-mall-excelsior",

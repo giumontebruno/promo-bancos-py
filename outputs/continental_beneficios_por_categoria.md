@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 835
+Total de beneficios/comercios: 833
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -655,7 +655,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Carni Shop (Filas) - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 05 de mayo de 2027 | Filadelfia |
 | Carniceria Vera - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 14 de abril de 2027 | Encarnación |
 | Casa Grutter- Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 17 de marzo de 2027 | Asunción |
-| Casa Yasy - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 11 de noviembre de 2026 | Concepción |
+| Casa Yasy - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 11 de mayo de 2027 | Concepción |
 | Comercial Armin | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 18 de agosto de 2027 | No especificado |
 | Comercial Baratodo - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 02 de diciembre de 2026 | Capiatá |
 | Comercial Elena - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 29 de septiembre de 2027 | Coronel Oviedo |
@@ -724,7 +724,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 
 _Se omitieron 39 filas en este resumen; están en el CSV._
 
-## Tiendas (206)
+## Tiendas (204)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -763,7 +763,6 @@ _Se omitieron 39 filas en este resumen; están en el CSV._
 | Casa Heri Calzados | 20%; 20% de reintegro | Los jueves | Vigente hasta el 21 de enero de 2027 | Encarnación |
 | Casa Miró | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 30 de septiembre de 2027 | Encarnación |
 | Casa Omnia | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 20 de mayo de 2027 | Asunción |
-| Casa de Campo | 20%; 20% de reintegro | los jueves | Vigente hasta el 12 de noviembre del 2026 | Fernando de la Mora |
 | Centric Shopping Pilar | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de abril de 2027 | Pilar |
 | Champs Elysées | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | Chetos & Chetitos | 20%; 20% de reintegro | los jueves | Vigente hasta el 29 de abril del 2027 | Col. Hohenau |
@@ -808,8 +807,9 @@ _Se omitieron 39 filas en este resumen; están en el CSV._
 | HeartWood | 20%; 20% de reintegro | los jueves | Vigente hasta el 12 de agosto de 2027 | Santa Rita (Alto Paraná) |
 | Hey Dude | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro; 20% de reintegro | todos los días | Vigente hasta el 01 de julio de 2027 | Asunción |
 | Hope | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 14 de agosto de 2027 | Asunción |
+| Huggle | 20%; 20% de reintegro | Los jueves | Vigente hasta el 11 de noviembre de 2027 | Asunción |
 
-_Se omitieron 126 filas en este resumen; están en el CSV._
+_Se omitieron 124 filas en este resumen; están en el CSV._
 
 ## Vehículos (38)
 

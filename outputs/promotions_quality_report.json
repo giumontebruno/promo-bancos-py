@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T15:28:15.949871+00:00",
-  "input_count": 3528,
-  "promotion_count": 4338,
-  "duplicates_removed": -810,
+  "generated_at": "2026-11-23T19:27:24.637040+00:00",
+  "input_count": 3520,
+  "promotion_count": 4335,
+  "duplicates_removed": -815,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1473,25 +1473,39 @@
     "e6ccf24a771ca317": "53d9aa873e810d9a",
     "0078218e6330bd5e": "fc8d3903eff84527",
     "21719dbf08e041fa": "99a2aff3d34ccca9",
-    "25171434282db5b6": "240a588409c101f9"
+    "25171434282db5b6": "240a588409c101f9",
+    "0ab29c049b5fefd2": "f33ae1339564bcaf",
+    "9545eb7875de777c": "8d361d640884c0e9",
+    "23d0d6964e7dfb9b": "069fd5a1cbc00a62",
+    "ad5102312bef0c9b": "f06e4bba4fa3eee4",
+    "abb401b91b1e7c5c": "0c41f152052ec83a",
+    "cb422200d1bc5926": "4954945f12cae4f1",
+    "9464631bc1cc4b2d": "a05712dd33e6d78a",
+    "5c51af65688f1fa4": "8ca258c90804d203",
+    "67d6f305ef8a3a00": "1192ac8724e8d428",
+    "72410c09b15e7f94": "d6bc02544d03be71",
+    "b0fa5ada350b1d3e": "8ac8eb796363f460",
+    "3509f9a54b0dbb34": "1d31a12cc7cb79a7",
+    "4d389612c23088eb": "e6898aea93597627",
+    "299f37f514370b90": "700a5aded3d27dcd"
   },
   "by_bank": {
-    "Atlas": 62,
+    "Atlas": 53,
     "BNF": 142,
     "Bancop": 68,
     "Basa": 91,
-    "Continental": 959,
+    "Continental": 960,
     "Coop. Universitaria": 72,
     "Familiar": 420,
     "GNB": 509,
     "Interfisa": 216,
-    "Itaú": 681,
+    "Itaú": 686,
     "Solar": 57,
     "Sudameris": 365,
     "ueno bank": 696
   },
   "issue_counts": {
-    "validity_unconfirmed": 50,
+    "validity_unconfirmed": 41,
     "limits_unconfirmed": 448,
     "multiple_purchase_limits": 339,
     "source_amount_conflict": 20,
@@ -1583,15 +1597,6 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "0ab29c049b5fefd2",
-      "bank": "Atlas",
-      "merchant": "oBoticário",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
       "id": "f15cf9854b37b0c4",
       "bank": "Atlas",
       "merchant": "Renová tu Hogar",
@@ -1619,81 +1624,9 @@
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
     {
-      "id": "9545eb7875de777c",
-      "bank": "Atlas",
-      "merchant": "Champs Elysées",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "23d0d6964e7dfb9b",
-      "bank": "Atlas",
-      "merchant": "Cortefiel",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "ad5102312bef0c9b",
-      "bank": "Atlas",
-      "merchant": "ISDIN",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "abb401b91b1e7c5c",
-      "bank": "Atlas",
-      "merchant": "Jack & Jones",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "cb422200d1bc5926",
-      "bank": "Atlas",
-      "merchant": "Mango",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "9464631bc1cc4b2d",
-      "bank": "Atlas",
-      "merchant": "Pedro del Hierro",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
       "id": "dd57615188aaaac1",
       "bank": "Atlas",
       "merchant": "Sfera",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "5c51af65688f1fa4",
-      "bank": "Atlas",
-      "merchant": "Springfield",
-      "issues": [
-        "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "67d6f305ef8a3a00",
-      "bank": "Atlas",
-      "merchant": "women'secret",
       "issues": [
         "validity_unconfirmed"
       ],

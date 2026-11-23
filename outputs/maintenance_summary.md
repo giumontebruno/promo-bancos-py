@@ -1,10 +1,10 @@
 ## Payback daily maintenance
 
-Catalog: 2026-11-22T15:28:15.949871+00:00 · 4338 records
+Catalog: 2026-11-23T19:27:24.637040+00:00 · 4335 records
 Data commit: allowed (partial coverage may remain)
 Health: attention required
 
-Records added: 4; modified: 1663; removed: 4. Removed does not necessarily mean expired.
+Records added: 11; modified: 2486; removed: 14. Removed does not necessarily mean expired.
 
 - WARNING: GNB: no complete successful retrieval within 36 hours.
 - WARNING: GNB: partial; coverage is not complete.
@@ -15,7 +15,6 @@ Records added: 4; modified: 1663; removed: 4. Removed does not necessarily mean 
 - WARNING: Sudameris: no complete successful extraction within 72 hours.
 - WARNING: Itaú: partial; coverage is not complete.
 - WARNING: Itaú: no complete successful extraction within 72 hours.
-- WARNING: Continental: failed; coverage is not complete.
 - WARNING: Coop. Universitaria: partial; coverage is not complete.
 - WARNING: Coop. Universitaria: no complete successful extraction within 72 hours.
 - WARNING: Basa: no complete successful retrieval within 36 hours.
@@ -26,7 +25,7 @@ Records added: 4; modified: 1663; removed: 4. Removed does not necessarily mean 
 - WARNING: Interfisa: no complete successful extraction within 72 hours.
 - WARNING: Bancop: partial; coverage is not complete.
 - WARNING: Bancop: no complete successful extraction within 72 hours.
-- WARNING: Solar: failed; coverage is not complete.
+- WARNING: Solar: partial; coverage is not complete.
 - WARNING: Solar: no complete successful extraction within 72 hours.
 - WARNING: Zeta: no complete successful retrieval within 36 hours.
 - WARNING: Zeta: blocked; coverage is not complete.

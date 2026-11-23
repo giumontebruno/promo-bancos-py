@@ -1,7 +1,12 @@
 {
   "status": "partial",
-  "catalog_discovered": 62,
+  "catalog_discovered": 63,
   "skipped": [
+    {
+      "id": "556",
+      "title": "KOALA",
+      "reason": "new_campaign_requires_review"
+    },
     {
       "id": "554",
       "title": "NISSEI CDE - BLACK FRIDAY",
@@ -61,6 +66,6 @@
   "coverage_complete": false,
   "reason": "All 58 initial cards individually reviewed. Missing-year and wrong-merchant documents quarantined; changed/new campaigns require review.",
   "bank": "bancop",
-  "attempted_at": "2026-11-22T15:23:42.540859+00:00",
+  "attempted_at": "2026-11-23T19:23:02.807658+00:00",
   "rows": 66
 }
