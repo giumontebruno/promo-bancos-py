@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 833
+Total de beneficios/comercios: 834
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -503,7 +503,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | AS Alta Performance | 10%; hasta 12 cuotas sin intereses; 10% de descuento | Todos los días | Vigente hasta el 28 de noviembre de 2026 | Asunción |
 | Bomo | 35% de reintegro | Los sábados, en Bomo | Vigente hasta el 16 de enero de 2027 | Asunción |
 | Bomo | 25% de reintegro | Los sábados, en Bomo | Vigente hasta el 16 de enero de 2027 | Asunción |
-| Bomo | 20% de reintegro | Los sábados, en Bomo. Además: | Vigente hasta el 15 de noviembre de 2026 | Asunción |
+| Bomo | 20% de reintegro | Los sábados, en Bomo. Además: | Vigente hasta el 20 de noviembre de 2027 | Asunción |
 | Centro Legrand | 50%; hasta 24 cuotas sin intereses; 50% de descuento; 20% de descuento | todos los días | Vigente hasta el 04 de abril de 2027 | Asunción |
 | Clínica de la Belleza | 10% de descuento | Todos los días | Vigente hasta el 02 de diciembre del 2026 | San Ignacio, Misiones |
 | Joseph - Coronel Oviedo | 35% de reintegro | Los sábados, en Joseph de Coronel Oviedo | Vigente hasta el 16 de enero de 2027 | Coronel Oviedo |
@@ -550,7 +550,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Vans - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | Asunción |
 | Women'Secret - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | Asunción |
 
-## Promociones especiales (20)
+## Promociones especiales (21)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -572,6 +572,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Nissei - Cyber Day | Hasta 18 cuotas sin intereses | No especificado | Vigente hasta el 04 de noviembre de 2026 | Todo el país |
 | Puerto Liebig | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 12 de marzo de 2027 | Asunción |
 | Spinelli S.A - Promo especial | 20%; 20% de reintegro | No especificado | Vigente hasta el 29 de noviembre de 2026 | San Alberto (Alto Paraná) |
+| Superspuma - Promo especial | 20%; 20% de reintegro | No especificado | No especificado | Todo el país |
 | The Vitamin Shoppe | 25%; 25% de reintegro | No especificado | Vigente hasta el 10 de noviembre de 2026 | Todo el país |
 | UNISAL Universidad San Lorenzo | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | No especificado | Todo el país |
 

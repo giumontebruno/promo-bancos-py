@@ -63,7 +63,7 @@ Total de beneficios: 501
 | Punto Farma | 6 Cuotas sin intereses 35 % Pago con QR; Hasta 35% QR de ahorro y hasta 6 cuotas sin intereses. | Todos los Martes; todos los martes | 2024-12-30 hasta 2026-12-31 |
 | Punto Farma | 20 % Pago con QR; 20% de ahorro + 5% VISA y hasta 6 cuotas sin intereses. | viernes a domingo | 2026-01-03 hasta 2026-12-31 |
 | SANTO PILATES | 20 % 6 Cuotas sin intereses; Tenes 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-10-19 hasta 2026-12-31 |
-| Sanatorios y Clinicas | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2021-03-15 hasta 2026-12-31 |
+| Sanatorios y Clinicas | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2021-03-15 hasta 2027-06-30 |
 | Tippy Toe | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | Aplica los jueves | 2026-01-22 hasta 2026-12-03 |
 | Zona Fit | 25 % Hasta 12 Cuotas sin intereses; Hasta 25% de ahorro y hasta 12 cuotas sin intereses. | No especificado | 2024-01-01 hasta 2026-12-31 |
 | Zona Fit | 12 Cuotas sin intereses 30 % Hasta; Hasta 30% de ahorro y hasta 12 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-12-31 |
@@ -546,7 +546,7 @@ Total de beneficios: 501
 | CEDIVEP | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses | No especificado | 2026-08-06 hasta 2026-12-19 |
 | Casa Corbellani | 20 % 10 Cuotas sin intereses; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-05-10 hasta 2026-12-31 |
 | Cat | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
-| Colegios y Universidades de Py | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2022-01-25 hasta 2026-12-31 |
+| Colegios y Universidades de Py | 10 Cuotas sin intereses; Hasta 10 cuotas sin intereses. | No especificado | 2022-01-25 hasta 2027-06-30 |
 | Condor | 15 % 6 Cuotas sin intereses; Tenes 15% de ahorro con Tarjeta de Crédito + Hasta 6 cuotas sin intereses. | No especificado | 2026-10-16 hasta 2026-12-31 |
 | Crocs | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Decodepot | 10 Cuotas sin intereses 20 %; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2024-08-20 hasta 2026-12-24 |
@@ -560,17 +560,19 @@ Total de beneficios: 501
 | JOSEPH COIFFURE | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Lomas Padel | 20 %; Tenes 20% de ahorro con APPLE PAY o GOOGLE PAY (billeteras). | No especificado | 2024-04-15 hasta 2026-12-27 |
 | Mi portal Coca Cola | 25 %; 25% de ahorro. | Aplica los domingos | 2025-10-19 hasta 2026-11-29 |
-| Municipalidad de Asunción | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
-| Municipalidad de Caaguazu | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
-| Municipalidad de Encarnacion | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
-| Municipalidad de Hernandarias | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
-| Municipalidad de Lambare | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
-| Municipalidad de Luque | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
-| Municipalidad de Misiones | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
-| Municipalidad de San Bernardino | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2026-12-31 |
+| Municipalidad de Asunción | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2027-06-30 |
+| Municipalidad de Caaguazu | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2027-06-30 |
+| Municipalidad de Encarnacion | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2027-06-30 |
+| Municipalidad de Hernandarias | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2027-06-30 |
+| Municipalidad de Lambare | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2027-06-30 |
+| Municipalidad de Luque | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2027-06-30 |
+| Municipalidad de Misiones | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2027-06-30 |
+| Municipalidad de San Bernardino | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2022-01-12 hasta 2027-06-30 |
 | New Balance | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Nice | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
+| Nueva Americana | 10 Cuotas sin intereses 25 % Hasta; Tenes 20% de reintegro+ 5% con AMEX PLATINUM y VISA INFINITE y hasta 10 cuotas sin intereses. | No especificado | 2025-09-25 hasta 2026-11-28 |
 | Nueva Americana | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2024-07-06 hasta 2026-12-26 |
+| PIK | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | No especificado | 2026-07-21 hasta 2026-11-28 |
 | Pampero | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Patrol | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Primer Martes | 25 % Hasta 10 Cuotas sin intereses; hasta 25% de ahorro y hasta 10 cuotas sin intereses + 10% con código QR, Apple Pay, Google Pay. | No especificado | 2026-01-06 hasta 2026-12-01 |
@@ -626,7 +628,7 @@ Total de beneficios: 501
 | Coral Turismo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Frontur | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Go Travel | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
-| Hoteles | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses | No especificado | 2017-11-20 hasta 2026-12-31 |
+| Hoteles | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses | No especificado | 2017-11-20 hasta 2027-06-30 |
 | Interviajes | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
 | Latam | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses | No especificado | 2026-02-11 hasta 2026-12-31 |
 | Maral Turismo | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses | No especificado | 2025-02-01 hasta 2026-12-31 |
@@ -678,9 +680,7 @@ Total de beneficios: 501
 | FAUSTO CULTURAL | 10 % 10 Cuotas sin intereses; Tenes 10% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2026-11-18 hasta 2026-11-25 |
 | HALO CLUB | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-11-11 hasta 2026-11-25 |
 | Import telas | 6 Cuotas sin intereses 15 %; Tenes 15% de ahorro y hasta 6 cuotas sin intereses. | Aplica los jueves | 2025-09-26 hasta 2026-11-26 |
-| Kekas Design | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-11-10 hasta 2026-11-23 |
 | LAS PEPAS | tarjeta de crédito; Tenes 20% de REINTEGRO para tarjetas de crédito Personal Bank + hasta 6 cuotas sin intereses | No especificado | 2026-11-24 hasta 2026-11-25 |
-| Mongomery Calzados | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-10-30 hasta 2026-11-23 |
 | Optica Santa Lucía | 60 % Hasta 10 Cuotas sin intereses; hasta 60% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-07-24 hasta 2026-11-25 |
 | SFERA | 25 % Hasta; Tenes 20% de reintegro + 5% para las tarjetas Personal Bank + hasta 10 cuotas sin intereses. | No especificado | 2026-11-23 hasta 2026-11-26 |
 | Tatakua | 30 % Hasta; Tenes 25% de ahorro. Pagando con VISA INFINITE y AMEX PLATINUM tenes 30% de ahorro. | No especificado | 2026-09-17 hasta 2026-11-26 |

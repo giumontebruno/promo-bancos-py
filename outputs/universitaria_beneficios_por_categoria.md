@@ -19,7 +19,7 @@ Total de beneficios verificados: 65
 | Comercio/Promoción | Beneficio | Día | Vigencia | Bases |
 |---|---|---|---|---|
 | Cellshop Importados Paraguay | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 10 de junio de 2026 hasta el 10 de junio de 2027 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1781619937.pdf) |
-| Nissei | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre de 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1775478932.pdf) |
+| Nissei | Hasta 10 cuotas sin intereses | Todos los días | Vigencia Desde el 01 de abril de 2026 hasta el 31 de diciembre 2026 | [PDF](https://www.universitaria.coop/assets_front/img/promos/bases-y-condiciones1795543544.pdf) |
 
 ## Estaciones De Servicio
 
