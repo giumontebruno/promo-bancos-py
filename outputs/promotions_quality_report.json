@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T19:07:07.743783+00:00",
-  "input_count": 3521,
-  "promotion_count": 4339,
-  "duplicates_removed": -818,
+  "generated_at": "2026-11-25T18:15:26.457841+00:00",
+  "input_count": 3524,
+  "promotion_count": 4345,
+  "duplicates_removed": -821,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -532,7 +532,7 @@
     "cf1e06dbb3a4a8d7": "c43dcda6b5b18b47",
     "f907aa52db7ec5d9": "0e8cf5ee262d3f87",
     "9a3e4883d28e7cbe": "3b9d7240e72fa28c",
-    "a541e3f82afb4de3": "ebe23ded84b3aac2",
+    "a541e3f82afb4de3": "bb45c1ae4a33c58f",
     "794818538736a072": "429364a6f0ca746a",
     "39f10e7d97bd8c33": "a8640f695e6666cb",
     "689685a19c0c8d4c": "e5ccf83e338869e1",
@@ -674,7 +674,7 @@
     "405df50264da77c4": "452dc4accc34f4fc",
     "9531b8230b7e0de7": "cfeeb335616dd14a",
     "9073dba7dc928517": "3b9d7240e72fa28c",
-    "eddb84775e4a4e6e": "ebe23ded84b3aac2",
+    "eddb84775e4a4e6e": "bb45c1ae4a33c58f",
     "05d6ecfd14d6fb58": "429364a6f0ca746a",
     "e210528852840bbe": "a8640f695e6666cb",
     "d2689bab227d5b7a": "e5ccf83e338869e1",
@@ -1464,7 +1464,7 @@
     "6f295698cae71d46": "bdf72c6f4e7e7221",
     "91ff86aa4fa2ea63": "e10d7fd58bf5545a",
     "a4ee16bfc74630e8": "ad6c6e535e4724be",
-    "5e4f8a72bd828b50": "c8ac25a1a6151891",
+    "5e4f8a72bd828b50": "e8d3832f9836c9ed",
     "e45d6706ec738e16": "0177aeb41dcdd7b1",
     "d399a9da48c46774": "d50c1ee58941e0fb",
     "a33a3cd0b3c23c22": "326cedcb85cf1d2d",
@@ -1499,30 +1499,42 @@
     "cb8b18e8df36cca2": "69b7915e6aeec3a7",
     "39f2f98b1cbe0521": "6aae43e7c1f14dd5",
     "14f3e6fb6496ef52": "96c1d28714f6ed52",
-    "c4809ba41528e4c6": "430207ae8c7b1943"
+    "c4809ba41528e4c6": "430207ae8c7b1943",
+    "ae2ffe772ca595c1": "7504d6a61472f7c3",
+    "dac20ecc220aeb77": "f6ac3c3ff958cd35",
+    "c671173e6e4d2bf4": "6a29ab2bdac96df5",
+    "d9e168b11860b831": "7cd7d8cae0667a3c",
+    "c8ac25a1a6151891": "e8d3832f9836c9ed",
+    "395d299648400ab3": "2dee8a63ae28dd2a",
+    "2ec29502444dfb2f": "38879a75b7e2cf1d",
+    "45598b85124a3462": "37a4773fc94bbf3c",
+    "de08567d6d05e59c": "3b0fa9faeef1e222",
+    "68793615716c252c": "ddd3a352f97086fe",
+    "995869b29859c635": "c5711e1661667d1e",
+    "ebe23ded84b3aac2": "bb45c1ae4a33c58f"
   },
   "by_bank": {
-    "Atlas": 53,
+    "Atlas": 52,
     "BNF": 142,
     "Bancop": 68,
     "Basa": 91,
-    "Continental": 962,
+    "Continental": 964,
     "Coop. Universitaria": 72,
     "Familiar": 420,
     "GNB": 509,
     "Interfisa": 216,
-    "Itaú": 688,
+    "Itaú": 689,
     "Solar": 57,
-    "Sudameris": 365,
+    "Sudameris": 369,
     "ueno bank": 696
   },
   "issue_counts": {
-    "validity_unconfirmed": 42,
-    "limits_unconfirmed": 448,
+    "validity_unconfirmed": 41,
+    "limits_unconfirmed": 447,
     "multiple_purchase_limits": 339,
     "source_amount_conflict": 20,
     "multiple_refund_limits": 195,
-    "source_verification_pending": 358
+    "source_verification_pending": 362
   },
   "review_queue": [
     {
@@ -1595,16 +1607,6 @@
       "merchant": "delSol",
       "issues": [
         "validity_unconfirmed"
-      ],
-      "source_url": "https://www.bancoatlas.com.py/web/beneficios"
-    },
-    {
-      "id": "ae2ffe772ca595c1",
-      "bank": "Atlas",
-      "merchant": "delSol Shopping - Cheques delSol",
-      "issues": [
-        "validity_unconfirmed",
-        "limits_unconfirmed"
       ],
       "source_url": "https://www.bancoatlas.com.py/web/beneficios"
     },
@@ -2077,13 +2079,13 @@
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Fleykoop.pdf"
     },
     {
-      "id": "dac20ecc220aeb77",
+      "id": "f6ac3c3ff958cd35",
       "bank": "Basa",
       "merchant": "Genz",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/modificacion%20byc%20vencidas%20junio%20sin%20tarjetas/genz.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/genz.pdf"
     },
     {
       "id": "d30c8e69f530a083",
@@ -2149,13 +2151,13 @@
       "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/Morfeo%20home.pdf"
     },
     {
-      "id": "c671173e6e4d2bf4",
+      "id": "6a29ab2bdac96df5",
       "bank": "Basa",
       "merchant": "Motorola",
       "issues": [
         "limits_unconfirmed"
       ],
-      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/destacadas%20de%20julio/Basa_Alianzas_Bases-Y-Condiciones_motorola.pdf"
+      "source_url": "https://www.bancobasa.com.py/storage/app/media/pdf/bases-condiciones/tarjetas-institucionales/CUOTAS%20EXTENDIDAS%202027/motorola.pdf"
     },
     {
       "id": "505d549fc131e1aa",
@@ -5287,15 +5289,6 @@
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16921&c=1115"
     },
     {
-      "id": "c8ac25a1a6151891",
-      "bank": "Itaú",
-      "merchant": "Fuschia",
-      "issues": [
-        "source_amount_conflict"
-      ],
-      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16662&c=10"
-    },
-    {
       "id": "41d4e33bbd542505",
       "bank": "Itaú",
       "merchant": "Benditta Collection",
@@ -5333,6 +5326,15 @@
         "source_verification_pending"
       ],
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16790&c=31515"
+    },
+    {
+      "id": "e8d3832f9836c9ed",
+      "bank": "Itaú",
+      "merchant": "Fuschia",
+      "issues": [
+        "source_amount_conflict"
+      ],
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=16662&c=10"
     },
     {
       "id": "910b03e7aa96db46",
@@ -6642,6 +6644,15 @@
       "source_url": "https://www.sudameris.com.py/personas/beneficios/kessel"
     },
     {
+      "id": "0d18dd5172adb20d",
+      "bank": "Sudameris",
+      "merchant": "LA PANERA ROSA",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/uploads/public/6ab/eac/909/6abeac9098afc518629989.pdf"
+    },
+    {
       "id": "8f4a1c5309c12c51",
       "bank": "Sudameris",
       "merchant": "LE BISTRO DE LA ROTONDE – DISTRITO PERSEVERANCIA",
@@ -6658,6 +6669,15 @@
         "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/beneficios/destacado/142/detalle"
+    },
+    {
+      "id": "3d3ca16e11dd5978",
+      "bank": "Sudameris",
+      "merchant": "PATIO COLONIAL",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/storage/app/uploads/public/6ab/eac/909/6abeac9098afc518629989.pdf"
     },
     {
       "id": "ce609d3b4e379b48",
@@ -6753,6 +6773,15 @@
         "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/personas/beneficios/kube-octubre-2026"
+    },
+    {
+      "id": "6a10234d2f276b83",
+      "bank": "Sudameris",
+      "merchant": "Lincoln",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/lincoln"
     },
     {
       "id": "879b26f1ab15cbcb",
@@ -7615,6 +7644,15 @@
         "source_verification_pending"
       ],
       "source_url": "https://www.sudameris.com.py/descargas/documentos/san-alberto-bases-y-condiciones"
+    },
+    {
+      "id": "a97f4fef65aa4dc4",
+      "bank": "Sudameris",
+      "merchant": "PLUB",
+      "issues": [
+        "source_verification_pending"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/plub"
     },
     {
       "id": "fce5c7eefb8b9690",

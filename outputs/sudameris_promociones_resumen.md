@@ -2,11 +2,13 @@
 
 Extraidas desde https://www.sudameris.com.py/personas/beneficios
 
-Total: 61
+Total: 63
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
+| Sudameris | Lincoln | • Desde el 01 de diciembre hasta el 31 de diciembre de 2026. | Todos los días • 20% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/lincoln |
 | Sudameris | Kube | • Desde el 19 al 25 de noviembre 2026. | • 20% de reintegro directo en extracto pagando con tarjetas de crédito. • 25% de reintegro directo en extracto pagando con tarjetas de crédito MasterCard Black y Visa Infinite. • Hasta 15 cuotas sin intereses. | https://www.sudameris.com.py/personas/beneficios/kube-octubre-2026 |
+| Sudameris | PLUB | • Desde el 01 de noviembre 2026 hasta el 31 de diciembre de 2026. | • Último viernes de cada mes. • 20% de reintegro directo con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/personas/beneficios/plub |
 | Sudameris | Lido Bar | • Desde el 17 de noviembre 2026 hasta el 16 de noviembre 2027. | • Todos los martes. • 20% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/personas/beneficios/lido-bar |
 | Sudameris | Impacto home | • Desde el 16 hasta el 30 de noviembre de 2026 | • 20% de descuento en caja con tarjetas de crédito de Sudameris. • 25% de descuento en caja con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 15 cuotas sin intereses. | https://www.sudameris.com.py/personas/beneficios/impacto |
 | Sudameris | Distrito Perseverancia | • Desde el 03 de agosto hasta el 31 de diciembre de 2026. | • Hasta 12 cuotas sin interés en tiendas seleccionadas dentro de Distrito Perseverancia. | https://www.sudameris.com.py/personas/beneficios/distrito-perseverancia |

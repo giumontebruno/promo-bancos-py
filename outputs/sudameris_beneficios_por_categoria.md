@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 363
+Total de promociones: 365
 
 ## Clubes
 
@@ -198,7 +198,7 @@ Total de promociones: 363
 | Asadito Aquino - CNSB | 20% de reintegro | Todos los días | Desde 2025-01-01 hasta 2026-03-31 |
 | BIGGIE EXPRESS - PRIMERO DE CADA MES | 30% | 01 de cada mes | • 01 de cada mes. • Desde el 01 de julio hasta el 31 de diciembre 2026. |
 | CAFÉ JARDIN | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A DOMINGO | Desde 2026-08-06 hasta 2026-12-31 |
-| CAFÉ QUINTO | 25% DE REINTEGRO | MARTES | Desde 2026-08-04 hasta 2026-12-29 |
+| CAFÉ QUINTO | 25% DE REINTEGRO | MARTES | Desde 2025-11-18 hasta 2026-12-29 |
 | CHAVAL | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A SÁBADO | Desde 2026-08-06 hasta 2026-12-31 |
 | CHEF’S KITCHEN | 20% de reintegro | Viernes y sábado | Desde 2026-08-28 hasta 2026-12-26 |
 | CHEF’S KITCHEN | 25% de reintegro | Viernes y sábado | Desde 2026-08-28 hasta 2026-12-26 |
@@ -218,10 +218,10 @@ Total de promociones: 363
 | KAISEKI | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | LUNES A VIERNES | Desde 2025-08-03 hasta 2026-12-31 |
 | Kessel | 20% de reintegro directo | Jueves a sábado | Desde 2026-10-10 hasta 2026-10-31 |
 | Kessel | 25% de reintegro directo | Jueves a sábado | Desde 2026-10-10 hasta 2026-10-31 |
-| LA CANDELARIA | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | LUNES A VIERNES | Desde 2026-08-10 hasta 2026-10-30 |
+| LA CANDELARIA | 20% DE REINTEGRO + 5% PARA BLACK E INFINITE | JUEVES A DOMINGO | Desde 2026-11-05 hasta 2026-12-31 |
 | LA PANERA ROSA | 20% DE REINTEGRO | SÁBADOS | Desde 2025-01-01 hasta 2026-08-05 |
 | LE BISTRO DE LA ROTONDE – DISTRITO PERSEVERANCIA | 20%; 25% | lunes a miércoles | • De lunes a miércoles. • Desde el 06 de julio hasta el 30 de diciembre 2026. |
-| LIDO BAR | 30% DE REINTEGRO | MARTES | Desde 2025-11-11 hasta 2026-10-31 |
+| LIDO BAR | 20% DE REINTEGRO | MARTES | Desde 2026-11-17 hasta 2027-11-16 |
 | La Casita Gourmet de Yudith - CNSB | 20% de reintegro | Todos los días | Desde 2026-01-02 hasta 2026-03-31 |
 | PATIO COLONIAL | 20% DE REINTEGRO | JUEVES A DOMINGO | Desde 2026-01-01 hasta 2026-08-02 |
 | PLUB | 20% de reintegro | Último viernes de cada mes | Desde 2026-08-01 hasta 2026-10-31 |
@@ -240,6 +240,7 @@ Total de promociones: 363
 | Kube - Octubre 2026 | 20% de reintegro | Todos los días | Desde 2026-10-19 hasta 2026-10-24 |
 | Kube - Octubre 2026 | 25% de reintegro | Todos los días | Desde 2026-10-19 hasta 2026-10-24 |
 | Kube - Octubre 2026 | Hasta 15 cuotas sin interés | Todos los días | Desde 2026-10-19 hasta 2026-10-24 |
+| Lincoln | 20%; Hasta 12 cuotas sin interés | Todos los días | • Desde el 01 de diciembre hasta el 31 de diciembre de 2026. |
 | MATERASSI | 10%; 30%; Hasta 12 cuotas sin interés | Miércoles a sábado | • Desde el 19 de agosto hasta el 31 de diciembre 2026. BENEFICIOS |
 | Materassi | 30% de descuento directo en caja | Miércoles a sábado | Desde 2026-08-19 hasta 2026-12-31 |
 | Materassi | 10% de reintegro directo | Miércoles a sábado | Desde 2026-08-19 hasta 2026-12-31 |
@@ -371,6 +372,7 @@ Total de promociones: 363
 | Otti Rolls | 20% de reintegro + 5% elite | viernes y sábados | Desde 2026-03-06 hasta 2027-02-27 |
 | PETROBRAS SAN ALBERTO FUERZA MERCANTIL | 20% de reintegro | Viernes y sábado | Desde 2025-09-05 hasta 2025-12-31 |
 | PETROBRAS SAN ALBERTO FUERZA MERCANTIL | Hasta 10 cuotas sin interés | Viernes y sábado | Desde 2025-09-05 hasta 2025-12-31 |
+| PLUB | 20% | No especificado | • Desde el 01 de noviembre 2026 hasta el 31 de diciembre de 2026. |
 | Paseo Repsur | 20% de reintegro Hasta 12 cuotas sin interés | Viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Patri Duar Moda Infantil | 20% de reintegro Hasta 10 cuotas sin interés | viernes y sábado | Desde 2026-03-06 hasta 2027-02-28 |
 | Patymel Make Up | 20% de reintegro + 5% elite Hasta 12 cuotas sin interés | miércoles y jueves | Desde 2026-03-04 hasta 2027-02-28 |

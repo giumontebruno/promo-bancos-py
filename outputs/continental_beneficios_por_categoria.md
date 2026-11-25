@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 834
+Total de beneficios/comercios: 835
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -376,7 +376,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Morare Electrodomésticos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 07 de septiembre de 2027 | San Lorenzo |
 | Muebles Schmitz | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 08 de diciembre de 2026 | Nueva Esperanza (Canindeyú) |
 | NGO | Hasta 24 cuotas sin intereses | Todos los días | Vigente hasta el 10 de agosto de 2027 | No especificado |
-| Novedades Cristian | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de noviembre de 2026 | Presidente Franco |
+| Novedades Cristian | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 24 de noviembre de 2027 | Presidente Franco |
 | Nuñez Electrodomésticos | Hasta 12 cuotas sin intereses; 30% de descuento | Todos los días | Vigente hasta el 30 de enero de 2027 | Santa Rita (Alto Paraná) |
 | Olier | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 22 de enero de 2027 | No especificado |
 | Plastienvase | 20%; 20% de reintegro | los jueves | Vigente hasta el 04 de marzo del 2027 (*) No participan las tarjetas Pre-Pagas, Gourmet Card ni Cabal | Encarnación |
@@ -543,7 +543,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | O Boticário - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | Privilege - Peluquerías y Spa | 35%; 35% de reintegro | los sábados | Vigente hasta el 16 de enero del 2027 | No especificado |
 | Privilege - Restaurantes de todo el país | 35%; 35% de reintegro | Los sábados | Vigente hasta el 25 de octubre de 2027 | Todo el país |
-| Promo cumpleaños - Privilege | 50% | No especificado | Vigente desde el 27 de agosto hasta el 26 de noviembre de 2026 | Todo el país |
+| Promo cumpleaños - Privilege | 50% | No especificado | Vigente hasta el 26 de mayo de 2027 | Todo el país |
 | Rookie - Privilege | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 03 de junio de 2027 | No especificado |
 | Springfield - Privilege | 25%; Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 07 de octubre de 2027 | No especificado |
 | Top Tenis - Privilege | Hasta 12 cuotas sin intereses; 25% de reintegro | todos los días | Vigente hasta el 28 de mayo de 2027 | Asunción |
@@ -638,7 +638,7 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Progresar Corporation S.A. | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 18 de febrero de 2027 | No especificado |
 | Todo huerta | 10% de reintegro | los jueves | Vigente hasta el 28 de enero del 2027 | No especificado |
 
-## Supermercados (119)
+## Supermercados (120)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -715,15 +715,15 @@ _Se omitieron 19 filas en este resumen; están en el CSV._
 | Supermercado 7 de Agosto - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 29 de septiembre de 2027 | Tomás R. Pereira |
 | Supermercado Area 6 - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 08 de septiembre de 2027 | Hernandarias |
 | Supermercado Beto | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 13 de abril de 2027 | María Auxiliadora (Itapúa) |
+| Supermercado Campo 9 - Miércoles de Supermercados | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 17 de noviembre de 2027 | Campo 9 |
 | Supermercado Cardoso - Miércoles de supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 21 de abril de 2027 | Santa Rita (Alto Paraná) |
 | Supermercado Cavian - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 16 de junio de 2027 | San Estanislao |
 | Supermercado Colonias Unidas - Miércoles de Supermercados | 15%; 15% de reintegro | Los miércoles | Vigente hasta el 05 de mayo de 2027 | Obligado, Itapúa |
 | Supermercado Colón - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 25 de enero de 2027 | Guarambaré |
 | Supermercado Coop . Yguazu - Miércoles de supermercados | 10%; 10% de reintegro | Los miércoles | Vigente hasta el 20 de octubre de 2027 | Yguazú |
 | Supermercado D y S - Miércoles de Supermercados | 20%; Hasta 12 cuotas sin intereses; 20% de reintegro | todos los días | Vigente hasta el 02 de diciembre de 2026 | Filadelfia |
-| Supermercado El Cacique S.R.L - Miércoles de Supermercados | 20%; 20% de reintegro | Los miércoles | Vigente hasta el 20 de enero de 2027 | No especificado |
 
-_Se omitieron 39 filas en este resumen; están en el CSV._
+_Se omitieron 40 filas en este resumen; están en el CSV._
 
 ## Tiendas (204)
 

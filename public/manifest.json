@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T19:07:07.743783+00:00",
-  "promotion_count": 4339,
+  "generated_at": "2026-11-25T18:15:26.457841+00:00",
+  "promotion_count": 4345,
   "banks": [
     "Atlas",
     "BNF",
@@ -694,7 +694,7 @@
     "cf1e06dbb3a4a8d7": "c43dcda6b5b18b47",
     "f907aa52db7ec5d9": "0e8cf5ee262d3f87",
     "9a3e4883d28e7cbe": "3b9d7240e72fa28c",
-    "a541e3f82afb4de3": "ebe23ded84b3aac2",
+    "a541e3f82afb4de3": "bb45c1ae4a33c58f",
     "794818538736a072": "429364a6f0ca746a",
     "39f10e7d97bd8c33": "a8640f695e6666cb",
     "689685a19c0c8d4c": "e5ccf83e338869e1",
@@ -836,7 +836,7 @@
     "405df50264da77c4": "452dc4accc34f4fc",
     "9531b8230b7e0de7": "cfeeb335616dd14a",
     "9073dba7dc928517": "3b9d7240e72fa28c",
-    "eddb84775e4a4e6e": "ebe23ded84b3aac2",
+    "eddb84775e4a4e6e": "bb45c1ae4a33c58f",
     "05d6ecfd14d6fb58": "429364a6f0ca746a",
     "e210528852840bbe": "a8640f695e6666cb",
     "d2689bab227d5b7a": "e5ccf83e338869e1",
@@ -1626,7 +1626,7 @@
     "6f295698cae71d46": "bdf72c6f4e7e7221",
     "91ff86aa4fa2ea63": "e10d7fd58bf5545a",
     "a4ee16bfc74630e8": "ad6c6e535e4724be",
-    "5e4f8a72bd828b50": "c8ac25a1a6151891",
+    "5e4f8a72bd828b50": "e8d3832f9836c9ed",
     "e45d6706ec738e16": "0177aeb41dcdd7b1",
     "d399a9da48c46774": "d50c1ee58941e0fb",
     "a33a3cd0b3c23c22": "326cedcb85cf1d2d",
@@ -1661,7 +1661,19 @@
     "cb8b18e8df36cca2": "69b7915e6aeec3a7",
     "39f2f98b1cbe0521": "6aae43e7c1f14dd5",
     "14f3e6fb6496ef52": "96c1d28714f6ed52",
-    "c4809ba41528e4c6": "430207ae8c7b1943"
+    "c4809ba41528e4c6": "430207ae8c7b1943",
+    "ae2ffe772ca595c1": "7504d6a61472f7c3",
+    "dac20ecc220aeb77": "f6ac3c3ff958cd35",
+    "c671173e6e4d2bf4": "6a29ab2bdac96df5",
+    "d9e168b11860b831": "7cd7d8cae0667a3c",
+    "c8ac25a1a6151891": "e8d3832f9836c9ed",
+    "395d299648400ab3": "2dee8a63ae28dd2a",
+    "2ec29502444dfb2f": "38879a75b7e2cf1d",
+    "45598b85124a3462": "37a4773fc94bbf3c",
+    "de08567d6d05e59c": "3b0fa9faeef1e222",
+    "68793615716c252c": "ddd3a352f97086fe",
+    "995869b29859c635": "c5711e1661667d1e",
+    "ebe23ded84b3aac2": "bb45c1ae4a33c58f"
   },
   "favorite_unavailable": {
     "84714bfec7199316": {
@@ -4498,6 +4510,20 @@
       "merchant_name": "Penina",
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
       "last_known_ends_on": "2027-11-11"
+    },
+    "d934efd0f9d30259": {
+      "reason": "not_in_current_sources",
+      "bank": "Itaú",
+      "merchant_name": "Hp Store",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=14814&c=1033",
+      "last_known_ends_on": "2026-11-30"
+    },
+    "3c033a943e275a9b": {
+      "reason": "not_in_current_sources",
+      "bank": "Itaú",
+      "merchant_name": "Tiendas Martel",
+      "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=17078&c=30119",
+      "last_known_ends_on": "2026-12-02"
     }
   },
   "schema_version": 2
