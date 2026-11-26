@@ -239,7 +239,17 @@ const nearbyMapState = {
   tileTimer: null,
 };
 
+// Resolve relative to the loaded app script, independent of the current route.
+const bankLogoBase = new URL("./", document.currentScript.src);
+document.addEventListener("error", (event) => {
+  if (event.target.matches?.("img[data-bank-logo]")) event.target.remove();
+}, true);
+
 const bankThemes = {
+  "Bancop": { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "./assets/logos/bancop-official.png", logoBg: "#216532" },
+  "Basa": { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "./assets/logos/basa-official.svg", logoBg: "#ffffff" },
+  "Interfisa": { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "./assets/logos/interfisa-official.png", logoBg: "#ffffff" },
+  "Solar": { main: "#334155", soft: "#eef2f7", card: "#ffffff", logo: "./assets/logos/solar-official.svg", logoBg: "#ffffff" },
   "GNB": { main: "#168443", soft: "#e5f5e9", card: "#f4faf5", logo: "./assets/logos/gnb-provided.svg", logoBg: "#062b1a" },
   "Familiar": { main: "#f28c28", soft: "#fff0df", card: "#fff8f0", logo: "./assets/logos/familiar-official.webp", logoBg: "#ffffff" },
   "ueno bank": { main: "#2bd98e", soft: "#e2f8ef", card: "#f3fcf8", logo: "./assets/logos/ueno-icon-official.svg", logoBg: "#062017" },
@@ -1589,7 +1599,8 @@ function renderBottomNav() {
 
 function renderBankBar(promo) {
   const theme = getBankTheme(promo.bank);
-  return `<div class="bosque-bank-bar" style="--bank-color:${escapeAttribute(theme.main)};--bank-logo-bg:${escapeAttribute(theme.logoBg)}"><img src="${escapeAttribute(theme.logo)}" alt="" loading="lazy"><strong>${escapeHtml(getBankLabel(promo.bank))}</strong><span>${escapeHtml(getPromoCategoryGroup(promo))}</span></div>`;
+  const logo = theme.logo ? `<img src="${escapeAttribute(new URL(theme.logo, bankLogoBase).href)}" data-bank-logo alt="" loading="lazy">` : "";
+  return `<div class="bosque-bank-bar" style="--bank-color:${escapeAttribute(theme.main)};--bank-logo-bg:${escapeAttribute(theme.logoBg)}">${logo}<strong>${escapeHtml(getBankLabel(promo.bank))}</strong><span>${escapeHtml(getPromoCategoryGroup(promo))}</span></div>`;
 }
 
 function getProfileFavoriteMetrics() {
