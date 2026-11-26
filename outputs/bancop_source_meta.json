@@ -1,7 +1,12 @@
 {
   "status": "partial",
-  "catalog_discovered": 63,
+  "catalog_discovered": 64,
   "skipped": [
+    {
+      "id": "557",
+      "title": "“Black Friday – Nissei Sucursal España”",
+      "reason": "new_campaign_requires_review"
+    },
     {
       "id": "556",
       "title": "KOALA",
@@ -66,6 +71,6 @@
   "coverage_complete": false,
   "reason": "All 58 initial cards individually reviewed. Missing-year and wrong-merchant documents quarantined; changed/new campaigns require review.",
   "bank": "bancop",
-  "attempted_at": "2026-11-25T18:10:01.420990+00:00",
+  "attempted_at": "2026-11-26T17:56:38.656616+00:00",
   "rows": 66
 }

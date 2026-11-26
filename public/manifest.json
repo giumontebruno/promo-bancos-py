@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T18:15:26.457841+00:00",
-  "promotion_count": 4345,
+  "generated_at": "2026-11-26T18:01:39.463178+00:00",
+  "promotion_count": 4358,
   "banks": [
     "Atlas",
     "BNF",
@@ -1673,7 +1673,9 @@
     "de08567d6d05e59c": "3b0fa9faeef1e222",
     "68793615716c252c": "ddd3a352f97086fe",
     "995869b29859c635": "c5711e1661667d1e",
-    "ebe23ded84b3aac2": "bb45c1ae4a33c58f"
+    "ebe23ded84b3aac2": "bb45c1ae4a33c58f",
+    "11f6a7bbdaa49995": "f261ad98996b15bd",
+    "1eec6725fff6f020": "07a45d708f55eb98"
   },
   "favorite_unavailable": {
     "84714bfec7199316": {
@@ -4524,6 +4526,27 @@
       "merchant_name": "Tiendas Martel",
       "source_url": "https://www.itau.com.py/beneficios2/Detalle?b=17078&c=30119",
       "last_known_ends_on": "2026-12-02"
+    },
+    "3a9e373f128f0cc9": {
+      "reason": "not_in_current_sources",
+      "bank": "Continental",
+      "merchant_name": "Nelore Estrellita",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "last_known_ends_on": "2027-10-25"
+    },
+    "150a9608df47d100": {
+      "reason": "not_in_current_sources",
+      "bank": "Continental",
+      "merchant_name": "Nelore Estrellita",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "last_known_ends_on": "2027-10-25"
+    },
+    "70c50b380d0e667a": {
+      "reason": "not_in_current_sources",
+      "bank": "Continental",
+      "merchant_name": "Novedades Cristian",
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
+      "last_known_ends_on": "2027-11-24"
     }
   },
   "schema_version": 2

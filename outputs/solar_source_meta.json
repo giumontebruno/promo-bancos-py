@@ -1,7 +1,7 @@
 {
   "status": "partial",
   "catalog_discovered": 32,
-  "catalog_reviewed": 30,
+  "catalog_reviewed": 29,
   "catalog_review_complete": false,
   "verified_campaigns": 18,
   "reviewed_at_utc": "2026-10-30T16:06:06.818836+00:00",
@@ -13,6 +13,10 @@
     },
     {
       "id": 107,
+      "status": "new_campaign_requires_review"
+    },
+    {
+      "id": 136,
       "status": "new_campaign_requires_review"
     },
     {
@@ -128,10 +132,6 @@
       "status": "verified"
     },
     {
-      "id": 71,
-      "status": "expired"
-    },
-    {
       "id": 132,
       "status": "expired"
     }
@@ -139,6 +139,10 @@
   "skipped": [
     {
       "id": 107,
+      "reason": "new_campaign_requires_review"
+    },
+    {
+      "id": 136,
       "reason": "new_campaign_requires_review"
     },
     {
@@ -186,10 +190,6 @@
       "reason": "blocked_specific_ambiguity_or_representation: PDF titulo y clausula1 Subway pero clausula2.C Popeyes: sucursales aplicables contradictorias."
     },
     {
-      "id": 71,
-      "reason": "expired"
-    },
-    {
       "id": 132,
       "reason": "expired"
     }
@@ -197,6 +197,6 @@
   "coverage_complete": false,
   "reason": "All known catalog campaigns individually reviewed; expired/ineligible and specific ambiguous campaigns excluded. Changed sources fail closed.",
   "bank": "solar",
-  "attempted_at": "2026-11-25T18:10:19.241829+00:00",
+  "attempted_at": "2026-11-26T17:56:58.967654+00:00",
   "rows": 54
 }

@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-25T17:54:11.770784+00:00",
-  "total": 256,
+  "checkedAt": "2026-11-26T17:38:47.522764+00:00",
+  "total": 259,
   "cards": [
     {
       "id": 688,
@@ -202,6 +202,42 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/4567_bases-y-condiciones-cuotas-universidades-agosto.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/4568_cuotas-universidades-2026-web.png"
+    },
+    {
+      "id": 699,
+      "title": "Farmacenter - Black Friday",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-26",
+      "miniDescription": "15% de reintegro.",
+      "category": "Días GNB",
+      "lines": [
+        "15% de reintegro.",
+        "Del 23 al 26 de noviembre del 2026",
+        "15% de reintegro para pagos con tarjetas de crédito MasterCard del Banco GNB Paraguay.",
+        "Tope de compra por periodo de la promoción: Gs. 500.000 (guaraníes quinientos mil) por cuenta de tarjeta de crédito (Incluye titulares y adicionales) para pagos con tarjetas de crédito Banco GNB Mastercard.",
+        "Beneficio aplica única y exclusivamente a productos de la categoría No Farma y Suplementos."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5442_bases-y-condiciones-farmacenter-black-friday.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5087_farmacenter-2026-web.png"
+    },
+    {
+      "id": 700,
+      "title": "Paraguay Courier",
+      "startDate": "2026-11-13",
+      "endDate": "2027-05-31",
+      "miniDescription": "20% de descuento + hasta 6 cuotas sin intereses.",
+      "category": "Cuotas sin intereses",
+      "lines": [
+        "20% de descuento + hasta 6 cuotas sin intereses.",
+        "Del 23 de noviembre del 2026 al 31 de mayo del 2027.",
+        "20% de descuento para pagos con tarjetas de crédito Mastercard del Banco GNB Paraguay.",
+        "Hasta 6 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Tope de compra mensual: Gs. 700.000 (guaraníes setecientos mil) por cuenta de tarjeta de crédito (incluye titulares y adicionales), el cual aplica en forma conjunta a todos los locales de los comercios adheridos.",
+        "Los reintegros serán reflejados de manera automática en el extracto del cliente, en un período de 24 a 48hs hábiles luego de la compra.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5446_bases-y-condiciones-paraguay-courier.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5445_paraguay-courier-11-2026-web.png"
     },
     {
       "id": 148,
@@ -483,6 +519,24 @@
       ],
       "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5396_bases-y-condiciones-mercedes-benz-collection.pdf",
       "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5397_mercedes-benz-2026-web.png"
+    },
+    {
+      "id": 698,
+      "title": "Feria Smart Personal",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-30",
+      "miniDescription": "Hasta 18 cuotas sin intereses.",
+      "category": "Cuotas sin intereses",
+      "lines": [
+        "Hasta 18 cuotas sin intereses.",
+        "Del 23 al 30 de noviembre del 2026",
+        "Hasta 18 cuotas sin intereses todos los días para pagos con tarjetas de crédito del Banco GNB Paraguay.",
+        "Para el fraccionamiento de las cuotas el cliente deberá solicitar/seleccionar la cantidad de cuotas que desea al momento del pago. Las cuotas se verán reflejadas en el extracto del cliente.",
+        "No participan de la promoción las tarjetas de débito y crédito de afinidades Empresariales, Corporativas, Gift Card, Gourmet y Prepagas.",
+        "No acumulable con otras promociones."
+      ],
+      "termsUrl": "https://www.beneficiosbancognb.com.py/imagenes/5444_bases-y-condiciones-feria-smart-personal.pdf",
+      "imageUrl": "https://www.beneficiosbancognb.com.py/imagenes/5443_personal-feria-smart-web.png"
     },
     {
       "id": 300,
