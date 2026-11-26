@@ -3,38 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#17191c" />
+    <meta name="theme-color" content="#f7f7f5" />
     <meta name="referrer" content="strict-origin" />
     <title>paybackpy beta</title>
     <meta name="apple-mobile-web-app-title" content="paybackpy beta">
-    <link rel="manifest" href="./manifest.webmanifest?v=pase-1" />
-    <link rel="icon" href="./assets/logos/pase/icon-192.png" type="image/png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/logos/pase/apple-touch-180.png" />
+    <link rel="manifest" href="./manifest.webmanifest?v=20261126-launch" />
+    <link rel="icon" href="./assets/logos/pase/icon-192.png?v=20261126-launch" type="image/png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/logos/pase/apple-touch-180.png?v=20261126-launch" />
     <link rel="stylesheet" href="./vendor/leaflet/leaflet.css" />
     <link rel="stylesheet" href="./styles.css?v=20260825-clean-map-controls" />
     <link rel="stylesheet" href="./premium.css?v=beta-13-login-cover" />
   <link rel="stylesheet" href="./glass-ui.css?v=discovery-20261112-map-20261119" />
-    <script>try { const t=JSON.parse(localStorage.getItem('paybackPyBeta.theme')); document.documentElement.dataset.theme=t==='dark'?'dark':'light'; } catch { document.documentElement.dataset.theme='light'; }</script>
+    <script>try { const t=JSON.parse(localStorage.getItem('paybackPyBeta.theme')); document.documentElement.dataset.theme=t==='dark'?'dark':'light'; document.querySelector('meta[name=theme-color]').content=t==='dark'?'#191919':'#f7f7f5'; } catch { document.documentElement.dataset.theme='light'; }</script>
+    <link rel="stylesheet" href="./payback-launch.css?v=20261126-launch" />
   </head>
   <body>
     <section id="authGate" hidden class="auth-gate" data-state="checking" aria-busy="true" aria-labelledby="authTitle">
       <div class="auth-gate-inner">
-        <div class="auth-brand pase-auth" role="img" aria-label="paybackpy beta"><img class="pase-light" src="./assets/logos/pase/wordmark-light.svg" alt=""><img class="pase-dark" src="./assets/logos/pase/wordmark-dark.svg" alt=""></div>
-        <div class="auth-map" role="img" aria-label="Mapa de beneficios cercanos en Asunción"></div>
-        <div class="auth-copy">
-          <span class="auth-eyebrow">HECHO PARA TU DÍA A DÍA</span>
-          <h1 id="authTitle">Tus beneficios,<br>en un solo lugar.</h1>
-          <p>Explorá sin registro. Ingresá sólo si querés usar tu cuenta.</p>
-        </div>
+        <div class="auth-brand pase-auth" role="img" aria-label="Payback"><img class="pase-light" src="./assets/logos/pase/wordmark-light.svg?v=20261126-launch" alt=""><img class="pase-dark" src="./assets/logos/pase/wordmark-dark.svg?v=20261126-launch" alt=""></div>
+        <div class="auth-art" aria-hidden="true"><span></span><span></span><img src="./assets/logos/pase/icon.svg?v=20261126-launch" alt="" width="64" height="64"></div>
+        <div class="auth-copy"><h1 id="authTitle">Tus beneficios.<br>Un solo lugar.</h1></div>
         <div class="auth-actions">
-          <span class="auth-spinner" aria-hidden="true"></span>
-          <p id="authStatus" class="auth-status" role="status" aria-live="polite">Comprobando tu sesión…</p>
-          <button type="button" class="auth-google" data-auth-login disabled><img src="./assets/logos/google-g-official.png" width="22" height="22" alt="">Continuar con Google</button>
-          <p class="auth-account-hint">Los cambios de favoritos de esta beta quedan en este navegador, separados de la app principal.</p>
-          <button type="button" class="auth-retry" data-auth-retry hidden>Reintentar</button>
-          <button type="button" class="auth-retry" data-auth-guest>Seguir sin iniciar sesión</button>
+          <button type="button" class="auth-guest" data-auth-guest>Entrar como invitado <span aria-hidden="true">&rarr;</span></button>
+          <button type="button" class="auth-google" data-auth-login disabled><img src="./assets/logos/google-g-official.png" width="18" height="18" alt="">Continuar con Google</button>
+          <p id="authStatus" class="auth-status" role="status" aria-live="polite"></p>
+          <button type="button" class="auth-retry" data-auth-retry hidden>Reintentar Google</button>
         </div>
-        <p class="auth-legal">Al continuar, aceptás las <a href="./terms.html">Condiciones de uso</a><br>y la <a href="./privacy.html">Política de privacidad</a>.</p>
+        <p class="auth-legal"><a href="./terms.html">Condiciones de uso</a><span aria-hidden="true">&middot;</span><a href="./privacy.html">Privacidad</a></p>
       </div>
     </section>
     <main class="app-shell">
@@ -105,14 +100,14 @@
     <script src="./map-provider.js"></script>
     <script src="./benefit-rules.js?v=20260909"></script>
     <script src="./push-client.js?v=beta-2-round-logo"></script>
-    <script src="./beta-bundle.js?v=readable-status-20261030"></script>
+    <script src="./beta-bundle.js?v=readable-status-20261030-20261126-launch"></script>
     <script src="./ui-date.js?v=glass-1"></script>
     <script src="./reviewed-campaigns.js?v=2"></script>
     <script src="./verified-eligibility.js?v=1"></script>
     <script src="./profile-next.js?v=1"></script>
     <script src="./supermarket-reviewed.js?v=1"></script>
     <script src="./supermarket-eligibility.js?v=readable-status-20261030"></script>
-    <script src="./app.js?v=discovery-20261112-map-20261119-hide-supermarket-pilot-20261120-20261126-bank-logos"></script>
+    <script src="./app.js?v=discovery-20261112-map-20261119-hide-supermarket-pilot-20261120-20261126-bank-logos-20261126-launch"></script>
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("./sw.js", { scope: "./" });

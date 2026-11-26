@@ -34,7 +34,7 @@ test('catalog is public before JavaScript and authentication starts', () => {
   const html = read('index.html');
   assert.match(html, /<body>/);
   assert.match(html, /<section id="authGate" hidden/);
-  assert.match(html, /data-auth-guest>Seguir sin iniciar sesión/);
+  assert.match(html, /data-auth-guest>Entrar como invitado/);
   assert.doesNotMatch(html, /<main[^>]*inert/);
 });
 

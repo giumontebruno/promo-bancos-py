@@ -4,13 +4,14 @@ const app=()=>read('app-web/index.html');
 const manifest=(target)=>JSON.parse(read(`${target}/manifest.webmanifest`));
 const official='https://giumontebruno.github.io/promo-bancos-py/app-web/';
 
-test('official uses beta artwork but retains existing manifest identity and required account gate',()=>{
+test('official uses beta artwork but retains existing manifest identity and guest entry and Google sign-in',()=>{
  const m=manifest('app-web');
  assert.equal(m.start_url,'./index.html');assert.equal(m.scope,'./');assert.equal(m.id,undefined);
  assert.deepEqual(m.icons,manifest('beta-web').icons);
- for(const icon of m.icons) assert.ok(fs.existsSync('app-web/'+icon.src));
- assert.match(app(),/class="auth-required"/);assert.doesNotMatch(app(),/data-auth-guest|paybackPyBeta/);
- assert.match(app(),/wordmark-light\.svg\?v=official-20261119/);
+ for(const icon of m.icons) assert.ok(fs.existsSync('app-web/'+icon.src.split('?')[0]));
+ assert.match(app(),/class="auth-required"/);assert.ok(app().indexOf('data-auth-guest>Entrar como invitado') < app().indexOf('data-auth-login disabled'));assert.match(app(),/data-auth-guest>Entrar como invitado/);assert.doesNotMatch(app(),/Explorá sin registro|paybackPyBeta/);
+ assert.equal(m.background_color,'#f7f7f5');assert.equal(m.theme_color,m.background_color);assert.ok(m.icons.every(icon=>icon.src.includes('?v=20261126-launch')));
+ assert.match(app(),/wordmark-light\.svg\?v=20261126-launch/);
  assert.match(read('app-web/beta-client.js'),/flowType: 'pkce'/);
  assert.match(read('app-web/beta-client.js'),/await api\('favorite', selected \? 'PUT' : 'DELETE'/);
 });

@@ -7,14 +7,14 @@ dialog.className = 'beta-dialog';
 document.body.append(dialog);
 const authGate = document.getElementById('authGate');
 const authStatus = document.getElementById('authStatus');
-let gateMessage = '', authPhase = 'checking', authAttempt = 0;
+let gateMessage = '', authPhase = 'checking', authAttempt = 0, guest = false;
 clearTimeout(window.paybackAuthWatchdog);
 function deadline(promise, ms = 12000) {
   let timer;
   return Promise.race([promise, new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('La comprobación tardó demasiado. Reintentá para continuar.')), ms); })]).finally(() => clearTimeout(timer));
 }
 function updateGate() {
-  const locked = !current || authPhase === 'checking';
+  const locked = !guest && (!current || authPhase === 'checking');
   document.body.classList.toggle('auth-required', locked);
   authGate.hidden = !locked;
   document.querySelector('.app-shell').inert = locked;
@@ -185,6 +185,11 @@ dialog.addEventListener('click', async e => {
   } catch (error) { message(error.message); }
 });
 authGate.addEventListener('click', async e => {
+  if (e.target.closest('[data-auth-guest]')) {
+    guest = true; changed();
+    document.getElementById('searchInput')?.focus({ preventScroll: true });
+    return;
+  }
   if (e.target.closest('[data-auth-retry]')) { await init(); return; }
   const button = e.target.closest('[data-auth-login]');
   if (!button || busy || authPhase !== 'anonymous') return;
@@ -282,7 +287,7 @@ async function init() {
 window.addEventListener('pageshow', e => { if (e.persisted) init(); });
 window.addEventListener('offline', () => { if (!current && authPhase !== 'checking') { authPhase = 'error'; initError = 'Estás sin conexión. Conectate y reintentá.'; updateGate(); } });
 
-window.PaybackBeta = { accessToken, favorite, level, event, get current() { return current; } };
+window.PaybackBeta = { accessToken, favorite, level, event, get current() { return current; }, get canBrowse() { return guest || !!current; } };
 updateGate();
 init();
 
