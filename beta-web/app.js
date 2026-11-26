@@ -3823,7 +3823,6 @@ for (const [id,key] of [['bankSelect','activeBank'],['categorySelect','activeCat
 document.querySelector('#profileButton').addEventListener('click',()=>{state.activeView='alerts';render();window.scrollTo(0,0)});
 document.querySelector('#explorePromos').addEventListener('click',()=>{state.activeView='search';render();window.scrollTo(0,0)});
 document.addEventListener('click',e=>{if(e.target.closest('[data-retry-promotions]'))loadPromotions().catch(showPromotionLoadError)});
-document.querySelector('#themeToggle').addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;document.querySelector('meta[name=theme-color]').content=theme==='dark'?'#191919':'#f7f7f5';saveStoredJson('paybackPyBeta.theme',theme);document.querySelector('#themeToggle').setAttribute('aria-label',theme==='dark'?'Usar tema claro':'Usar tema oscuro')});
 
 // Profile shortcut uses the same favorites view and catalog logic.
 document.addEventListener("click", event => { if (event.target.closest("[data-profile-favorites]")) {state.activeView="favorites";render();window.scrollTo(0,0);} });

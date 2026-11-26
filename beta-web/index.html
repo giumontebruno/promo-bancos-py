@@ -1,27 +1,28 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#f7f7f5" />
+    <meta name="theme-color" content="#0e1512" />
+    <meta name="color-scheme" content="dark" />
+    <style>html{background:#0e1512;color-scheme:dark}</style>
     <meta name="referrer" content="strict-origin" />
     <title>paybackpy beta</title>
     <meta name="apple-mobile-web-app-title" content="paybackpy beta">
-    <link rel="manifest" href="./manifest.webmanifest?v=20261126-launch" />
-    <link rel="icon" href="./assets/logos/pase/icon-192.png?v=20261126-launch" type="image/png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/logos/pase/apple-touch-180.png?v=20261126-launch" />
+    <link rel="manifest" href="./manifest.webmanifest?v=20261126-dark" />
+    <link rel="icon" href="./assets/logos/pase/icon-192.png?v=20261126-dark" type="image/png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/logos/pase/apple-touch-180.png?v=20261126-dark" />
     <link rel="stylesheet" href="./vendor/leaflet/leaflet.css" />
     <link rel="stylesheet" href="./styles.css?v=20260825-clean-map-controls" />
     <link rel="stylesheet" href="./premium.css?v=beta-13-login-cover" />
   <link rel="stylesheet" href="./glass-ui.css?v=discovery-20261112-map-20261119" />
-    <script>try { const t=JSON.parse(localStorage.getItem('paybackPyBeta.theme')); document.documentElement.dataset.theme=t==='dark'?'dark':'light'; document.querySelector('meta[name=theme-color]').content=t==='dark'?'#191919':'#f7f7f5'; } catch { document.documentElement.dataset.theme='light'; }</script>
-    <link rel="stylesheet" href="./payback-launch.css?v=20261126-launch" />
+    <link rel="stylesheet" href="./payback-launch.css?v=20261126-dark-cta2" />
   </head>
   <body>
     <section id="authGate" hidden class="auth-gate" data-state="checking" aria-busy="true" aria-labelledby="authTitle">
       <div class="auth-gate-inner">
-        <div class="auth-brand pase-auth" role="img" aria-label="Payback"><img class="pase-light" src="./assets/logos/pase/wordmark-light.svg?v=20261126-launch" alt=""><img class="pase-dark" src="./assets/logos/pase/wordmark-dark.svg?v=20261126-launch" alt=""></div>
-        <div class="auth-art" aria-hidden="true"><span></span><span></span><img src="./assets/logos/pase/icon.svg?v=20261126-launch" alt="" width="64" height="64"></div>
+        <div class="auth-brand pase-auth" role="img" aria-label="Payback"><img class="pase-light" src="./assets/logos/pase/wordmark-light.svg?v=20261126-dark" alt=""><img class="pase-dark" src="./assets/logos/pase/wordmark-dark.svg?v=20261126-dark" alt=""></div>
+        <div class="auth-art" aria-hidden="true"><span></span><span></span><img src="./assets/logos/pase/icon.svg?v=20261126-dark" alt="" width="64" height="64"></div>
         <div class="auth-copy"><h1 id="authTitle">Tus beneficios.<br>Un solo lugar.</h1></div>
         <div class="auth-actions">
           <button type="button" class="auth-guest" data-auth-guest>Entrar como invitado <span aria-hidden="true">&rarr;</span></button>
@@ -35,7 +36,7 @@
     <main class="app-shell">
       <header class="topbar">
         <a class="glass-brand" id="homeLogo" href="./" aria-label="Payback: volver al inicio"><img class="pase-light" src="./assets/logos/pase/wordmark-light.svg" alt="Payback"><img class="pase-dark" src="./assets/logos/pase/wordmark-dark.svg" alt="Payback"></a>
-        <div class="glass-header-actions"><button id="themeToggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">◐</button><button id="profileButton" type="button" aria-label="Ver perfil" title="Ver perfil"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></svg></button></div>
+        <div class="glass-header-actions"><button id="profileButton" type="button" aria-label="Ver perfil" title="Ver perfil"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></svg></button></div>
       </header>
       <p id="homeDate" class="glass-date"></p><h1 id="viewTitle">Hoy te conviene.</h1><p id="viewSubtitle">Tus tarjetas. El día correcto.</p>
       <section id="homeHero" class="glass-hero"><span>MENOS BÚSQUEDA, MÁS PLANES</span><h2>Tu próximo plan,<br>con beneficio.</h2><p>Revisá qué aplica antes de salir.</p><button id="explorePromos" type="button">Explorar promociones <span aria-hidden="true">→</span></button></section>
@@ -100,14 +101,14 @@
     <script src="./map-provider.js"></script>
     <script src="./benefit-rules.js?v=20260909"></script>
     <script src="./push-client.js?v=beta-2-round-logo"></script>
-    <script src="./beta-bundle.js?v=readable-status-20261030-20261126-launch"></script>
+    <script src="./beta-bundle.js?v=readable-status-20261030-20261126-dark"></script>
     <script src="./ui-date.js?v=glass-1"></script>
     <script src="./reviewed-campaigns.js?v=2"></script>
     <script src="./verified-eligibility.js?v=1"></script>
     <script src="./profile-next.js?v=1"></script>
     <script src="./supermarket-reviewed.js?v=1"></script>
     <script src="./supermarket-eligibility.js?v=readable-status-20261030"></script>
-    <script src="./app.js?v=discovery-20261112-map-20261119-hide-supermarket-pilot-20261120-20261126-bank-logos-20261126-launch"></script>
+    <script src="./app.js?v=discovery-20261112-map-20261119-hide-supermarket-pilot-20261120-20261126-bank-logos-20261126-dark"></script>
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("./sw.js", { scope: "./" });

@@ -12,10 +12,10 @@ await build({ entryPoints: ['server/index.js'], bundle: true, format: 'esm', pla
 await cp('app-web', 'dist/client/app-web', { recursive: true });
 await prepareSuspensions('public');
 await cp('public', 'dist/client/public', { recursive: true });
-await writeFile('dist/client/index.html', `<!doctype html><html lang="es"><meta charset="utf-8"><meta name="theme-color" content="#f7f7f5"><title>Payback PY</title>
-<link rel="icon" href="./app-web/assets/logos/pase/icon-192.png?v=20261126-launch">
-<link rel="apple-touch-icon" href="./app-web/assets/logos/pase/apple-touch-180.png?v=20261126-launch">
-<style>html{background:#f7f7f5}</style>
+await writeFile('dist/client/index.html', `<!doctype html><html lang="es"><meta charset="utf-8"><meta name="theme-color" content="#0e1512"><title>Payback PY</title>
+<link rel="icon" href="./app-web/assets/logos/pase/icon-192.png?v=20261126-dark">
+<link rel="apple-touch-icon" href="./app-web/assets/logos/pase/apple-touch-180.png?v=20261126-dark">
+<style>html{background:#0e1512;color-scheme:dark}</style>
 <script>
 const source = new URL(location.href);
 const target = new URL('./app-web/', source);

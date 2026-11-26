@@ -10,8 +10,8 @@ test('official uses beta artwork but retains existing manifest identity and gues
  assert.deepEqual(m.icons,manifest('beta-web').icons);
  for(const icon of m.icons) assert.ok(fs.existsSync('app-web/'+icon.src.split('?')[0]));
  assert.match(app(),/class="auth-required"/);assert.ok(app().indexOf('data-auth-guest>Entrar como invitado') < app().indexOf('data-auth-login disabled'));assert.match(app(),/data-auth-guest>Entrar como invitado/);assert.doesNotMatch(app(),/Explorá sin registro|paybackPyBeta/);
- assert.equal(m.background_color,'#f7f7f5');assert.equal(m.theme_color,m.background_color);assert.ok(m.icons.every(icon=>icon.src.includes('?v=20261126-launch')));
- assert.match(app(),/wordmark-light\.svg\?v=20261126-launch/);
+ assert.equal(m.background_color,'#0e1512');assert.equal(m.theme_color,m.background_color);assert.ok(m.icons.every(icon=>icon.src.includes('?v=20261126-dark')));
+ assert.match(app(),/wordmark-light\.svg\?v=20261126-dark/);
  assert.match(read('app-web/beta-client.js'),/flowType: 'pkce'/);
  assert.match(read('app-web/beta-client.js'),/await api\('favorite', selected \? 'PUT' : 'DELETE'/);
 });
@@ -34,4 +34,17 @@ test('official worker replaces old scope without clearing caches; push retains t
  assert.match(source,/self\.skipWaiting\(\)/);assert.match(source,/self\.clients\.claim\(\)/);
  assert.match(source,/new URL\('\.\/\?view=favorites', self.registration.scope\)/);
  assert.match(source,/assets\/logos\/pase\/icon-192.png/);
+});
+
+test('official and beta keep dark mode from launch through the app',()=>{
+ for(const folder of ['app-web','beta-web']){
+  const html=read(folder+'/index.html'), m=manifest(folder);
+  assert.match(html,/<html lang="es" data-theme="dark">/);
+  assert.match(html,/name="color-scheme" content="dark"/);
+  assert.match(html,new RegExp('name="theme-color" content="'+m.background_color+'"'));
+  assert.equal(m.background_color,'#0e1512'); assert.equal(m.theme_color,m.background_color);
+  assert.doesNotMatch(html+read(folder+'/app.js'),/themeToggle|localStorage\.getItem\('paybackPy(?:Beta)?\.theme'/);
+  assert.match(read(folder+'/payback-launch.css'),/--launch-cta:#54e5a3/);
+ }
+ assert.match(read('scripts/build.mjs'),/html\{background:#0e1512;color-scheme:dark\}/);
 });
