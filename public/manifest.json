@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:01:39.463178+00:00",
+  "generated_at": "2026-11-27T17:44:21.499925+00:00",
   "promotion_count": 4358,
   "banks": [
     "Atlas",
@@ -754,11 +754,10 @@
     "9786dcc4de02f80e": "7fb22736c18bc27b",
     "1ad32ad3e88fde7b": "e9dc71e53b7136f8",
     "0967ae697a6c3ea1": "eb42d1399288661c",
-    "619875cb4297b219": "198a0d0821a7a7cd",
     "8e1991c33b0b3544": "cdaea31044ae4846",
     "aad034ba9c466183": "9d9cb95dc64c2047",
     "c399503d5f653669": "cb024de12f1475b6",
-    "115a6b1af8aad4ff": "6a12e6d379d9e442",
+    "115a6b1af8aad4ff": "a24f8146b7049a1e",
     "01bb16ca13d4bc02": "477fdf0aa59cea7c",
     "7bdf8341c07bf61a": "6d4d1ca538a843f5",
     "719b925d2d1e803b": "baeb9010c85bb4a6",
@@ -878,7 +877,7 @@
     "eb8d4d0c7f39fa64": "0f163fd773f66f02",
     "4500ec771475870f": "2c600f207db238ee",
     "609657535743699a": "6fc95787159944f3",
-    "faffa4f8f35e4813": "6a12e6d379d9e442",
+    "faffa4f8f35e4813": "a24f8146b7049a1e",
     "790bab08cad62bb7": "9160dcea2abd7186",
     "d30842bcc08c972e": "940b44ec1dd40641",
     "3dae4249cf36d101": "046270a8a7f95cde",
@@ -1388,8 +1387,8 @@
     "b35ccf52b8d748bb": "d2556dce472096b8",
     "6129b9582f2868b9": "d2556dce472096b8",
     "e129eb39359c7c7b": "d2556dce472096b8",
-    "dd1a8f168632e17b": "6a12e6d379d9e442",
-    "ce32304dc87e0a98": "9e3753fc26c6a85e",
+    "dd1a8f168632e17b": "a24f8146b7049a1e",
+    "ce32304dc87e0a98": "d27ed50cc9d9c72e",
     "4df1dd6f23bcc1b0": "cf8e9ae1da41b604",
     "273dffecf1972342": "9107591ecb0a9485",
     "53cd95d4732906df": "f9ad958309b34d00",
@@ -1510,9 +1509,6 @@
     "c1f7ea7da701936a": "9a3facc99aca2592",
     "5d942f75d89ffa01": "d75807ad500f4c4e",
     "c90ced81d79e2cbc": "796e8be228b78c82",
-    "0d2a85d1f1500848": "fc12495e744a5df8",
-    "bfb59bf3b2c05084": "a5505050921ed8e9",
-    "c5ca0af2c4a8038a": "f83c50f21212f552",
     "e7a33f0f46ede30b": "8c822690844dfc77",
     "5dbc57f7ca87e599": "94f0817b29897ed0",
     "97abb6d573ed39b3": "e5e8c391c8648d16",
@@ -1675,7 +1671,26 @@
     "995869b29859c635": "c5711e1661667d1e",
     "ebe23ded84b3aac2": "bb45c1ae4a33c58f",
     "11f6a7bbdaa49995": "f261ad98996b15bd",
-    "1eec6725fff6f020": "07a45d708f55eb98"
+    "1eec6725fff6f020": "07a45d708f55eb98",
+    "6a12e6d379d9e442": "a24f8146b7049a1e",
+    "0610578c4caf1b1b": "8336b65c3c5b0be5",
+    "3b15c47b8b1f80ba": "520cbc23d0356887",
+    "e3b9b34f9e808542": "32bbda1801b43290",
+    "9e3753fc26c6a85e": "d27ed50cc9d9c72e",
+    "9ca4cde2de958884": "2fac360a1f07cf40",
+    "48070644a950466b": "40ad9808d33f51d7",
+    "79da226ea8de1c88": "5f907c8c0aeaae4c",
+    "347b11ec78c901e5": "b7cfc17b963f3b89",
+    "a68934ddf2582182": "86ed9b151a1a56b4",
+    "45f9a59c8f7543c1": "fb0e35fff7da0ac9",
+    "619152dad14644dc": "1aba652231080644",
+    "6423eae70a1e2890": "1221eb05b6a1931a",
+    "da424173459f01e7": "ace1c6bbbb51099c",
+    "5464cf6271838d24": "01c63b42a15b7814",
+    "f96b75cbf3bcdfa7": "a0ac1b2645f732dc",
+    "aca9161434d882b8": "6e12ed372b796d4f",
+    "103b4d89d60f6ee0": "5913617d8a830a7c",
+    "3ec033c31312e8ae": "77144dd3c9a93489"
   },
   "favorite_unavailable": {
     "84714bfec7199316": {
@@ -4547,6 +4562,41 @@
       "merchant_name": "Novedades Cristian",
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
       "last_known_ends_on": "2027-11-24"
+    },
+    "2f4fe5a355a0b84f": {
+      "reason": "not_in_current_sources",
+      "bank": "Atlas",
+      "merchant_name": "Martiderm",
+      "source_url": "https://www.bancoatlas.com.py/web/beneficios",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "198a0d0821a7a7cd": {
+      "reason": "not_in_current_sources",
+      "bank": "GNB",
+      "merchant_name": "Casa Paraná",
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/234",
+      "last_known_ends_on": "2026-11-28"
+    },
+    "fc12495e744a5df8": {
+      "reason": "not_in_current_sources",
+      "bank": "Interfisa",
+      "merchant_name": "CERO GRADO",
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-cero-grado-1.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "a5505050921ed8e9": {
+      "reason": "not_in_current_sources",
+      "bank": "Interfisa",
+      "merchant_name": "CERO GRADO",
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-cero-grado-1.pdf",
+      "last_known_ends_on": "2026-12-31"
+    },
+    "f83c50f21212f552": {
+      "reason": "not_in_current_sources",
+      "bank": "Interfisa",
+      "merchant_name": "CERO GRADO",
+      "source_url": "https://www.interfisa.com.py/storage/app/media/PDF%20PROMOCIONES/byc-cero-grado-1.pdf",
+      "last_known_ends_on": "2026-12-31"
     }
   },
   "schema_version": 2

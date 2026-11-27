@@ -1,10 +1,25 @@
 {
   "status": "partial",
-  "catalog_discovered": 64,
+  "catalog_discovered": 67,
   "skipped": [
+    {
+      "id": "558",
+      "title": "BLACK SHOPPING WEEKEND",
+      "reason": "new_campaign_requires_review"
+    },
     {
       "id": "557",
       "title": "“Black Friday – Nissei Sucursal España”",
+      "reason": "new_campaign_requires_review"
+    },
+    {
+      "id": "560",
+      "title": "BLACK FRIDAY Comercios adheridos",
+      "reason": "new_campaign_requires_review"
+    },
+    {
+      "id": "559",
+      "title": "CYBER MONDAY NISSEI",
       "reason": "new_campaign_requires_review"
     },
     {
@@ -71,6 +86,6 @@
   "coverage_complete": false,
   "reason": "All 58 initial cards individually reviewed. Missing-year and wrong-merchant documents quarantined; changed/new campaigns require review.",
   "bank": "bancop",
-  "attempted_at": "2026-11-26T17:56:38.656616+00:00",
+  "attempted_at": "2026-11-27T17:39:32.549164+00:00",
   "rows": 66
 }

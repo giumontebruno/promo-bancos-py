@@ -1,6 +1,6 @@
 # Sudameris - beneficios por categoria
 
-Total de promociones: 365
+Total de promociones: 367
 
 ## Clubes
 
@@ -116,9 +116,11 @@ Total de promociones: 365
 |---|---|---|---|
 | 6 CUOTAS SIN INTERÉS - COMPRAS EN EL EXTERIOR | 6 cuotas sin interés | Todos los días | • Todos los días hasta el 31 de diciembre del 2026. |
 | Aniversario Plaza Nova | Hasta 10 cuotas sin interés | No especificado | • Jueves 29 de octubre de 2026. |
+| BLACK SHOPPING WEEKEND – NOVIEMBRE 2026 | Hasta 10 cuotas sin interés | No especificado | • Del 27 al 29 de noviembre de 2026. |
 | Impacto home | 20%; 25%; Hasta 15 cuotas sin intereses | No especificado | • Desde el 16 hasta el 30 de noviembre de 2026 |
 | Kube | 20%; 25%; Hasta 15 cuotas sin intereses | No especificado | • Desde el 19 al 25 de noviembre 2026. |
 | Napy | 20%; 25%; Hasta 12 cuotas sin intereses | No especificado | • Jueves 5 de noviembre 2026. |
+| Nissei | 10%; 70%; Hasta 18 cuotas sin interés | No especificado | • Viernes 27 de noviembre del 2026. |
 | SASPY EXPRESS | 15%; 20%; Hasta 10 cuotas sin interés; 6 CUOTAS SIN INTERÉS | Todos los días | Desde el 01 de octubre hasta el 31 de diciembre 2026. |
 | SAX – Fashion sale | 5%; 70%; Hasta 12 cuotas sin intereses | No especificado | • Desde el 19 hasta el 22 de noviembre de 2026. |
 | Trovari | 20%; Hasta 10 cuotas sin interés | Viernes a domingo | • Desde el 06 al 29 de noviembre 2026 |

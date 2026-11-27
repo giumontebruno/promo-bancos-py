@@ -2,13 +2,12 @@
 
 Fuente: https://www.bancoatlas.com.py/web/beneficios
 
-Total de beneficios: 31
+Total de beneficios: 30
 
 ## Bienestar
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
-| Martiderm | 20% de descuento; 3 cuotas sin intereses | Último jueves del mes | La cantidad de cuotas deberá solicitarse al momento del pago en caja o desde la App, para compras a partir de Gs. 200.000. Válido para transacciones realizadas a través de POS de la red Bacard. Vigente el último jueves d |
 | Prepaga Joven | 20% de reintegro; En tiendas adheridas: | Todos los días | Válido exclusivamente para compras realizadas con tarjeta de crédito Prepaga Joven Atlas, a través del POS de la Red Infonet. Tope de compra mensual Gs. 1.000.000 acumulado en locales adheridos. Vigente a partir del 20 d |
 | Sueñolar | 55% de descuento; Pagando con tu TC Atlas, te llevas una alfombra de regalo; 18 cuotas sin intereses | 16 al 30 de noviembre | Descuento aplicado en caja. La cantidad de cuotas se solicita en caja para compras a partir de Gs. 1.000.000 y transacciones realizadas a través del POS de Bancard. Válido solo para compras de productos de las categorías |
 

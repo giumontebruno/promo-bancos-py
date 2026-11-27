@@ -1,7 +1,12 @@
 {
-  "checked_at": "2026-11-26T17:41:30.439189+00:00",
+  "checked_at": "2026-11-27T17:24:49.986101+00:00",
   "published": 420,
   "pending": [
+    {
+      "merchant_name": "FARMATOTAL BLACK FRIDAY",
+      "source_url": "https://www.familiar.com.py/pdfs/farma-total-black-friday",
+      "reason": "ambiguous_dates"
+    },
     {
       "merchant_name": "NICE 39° ANIVERSARIO",
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-nice-39deg-aniversario",

@@ -154,7 +154,7 @@ Total de beneficios/comercios: 817
 | HN - Petróleos | 20%; 20% de reintegro | los viernes | Vigente hasta el 23 de abril de 2027 | No especificado |
 | Petrobras | 25%; 25% de reintegro; 20% de reintegro | Los viernes | Vigente hasta el 10 de septiembre de 2027 | Todo el país |
 | Petrobras - Privilege | 25%; 25% de reintegro | los viernes | Vigente hasta el 10 de septiembre de 2027 | Todo el país |
-| Petrochaco | 20%; 20% de reintegro | Los viernes | Vigente hasta el 20 de noviembre de 2026 | Todo el país |
+| Petrochaco | 20%; 20% de reintegro | Los viernes | Vigente hasta el 26 de noviembre de 2027 | Todo el país |
 | Petromax | 20%; 20% de reintegro | los viernes | Vigente hasta el 01 de octubre del 2027 | Todo el país |
 | Petropar - Curuguaty | 10%; 10% de reintegro | los viernes | Vigente hasta el 29 de enero de 2027 | Curuguaty |
 | Petrosur | 20%; 20% de reintegro | Los viernes | Vigente hasta el 19 de noviembre de 2027 | Todo el país |
