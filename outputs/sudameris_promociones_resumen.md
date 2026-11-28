@@ -2,13 +2,12 @@
 
 Extraidas desde https://www.sudameris.com.py/personas/beneficios
 
-Total: 64
+Total: 63
 
 | Banco | Comercio/Promocion | Vigencia | Beneficios | URL |
 |---|---|---|---|---|
+| Sudameris | MANTECA SESSIONS | • Sábado 28 de noviembre 2026. | • 20% de reintegro directo pagando con tarjetas de crédito de Sudameris. • 25% de reintegro directo pagando con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameri | https://www.sudameris.com.py/personas/beneficios/manteca-sessions |
 | Sudameris | BLACK SHOPPING WEEKEND – NOVIEMBRE 2026 | • Del 27 al 29 de noviembre de 2026. | • Hasta 10 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/black-shopping-weekend-noviembre-2026 |
-| Sudameris | Nissei | • Viernes 27 de noviembre del 2026. | • Hasta 70% de descuento en caja en productos seleccionados por el comercio. • + 10% de reintegro adicional en extracto pagando con Tarjetas de crédito Sudameris. • Hasta 18 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/nissei |
-| Sudameris | PLUB | • 27 de noviembre de 2026. | • Último viernes de cada mes. • 20% de reintegro en caja directo con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/personas/beneficios/plub |
 | Sudameris | Lincoln | • Desde el 01 de diciembre hasta el 31 de diciembre de 2026. | Todos los días • 20% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. • Hasta 12 cuotas sin interés. | https://www.sudameris.com.py/personas/beneficios/lincoln |
 | Sudameris | Lido Bar | • Desde el 17 de noviembre 2026 hasta el 16 de noviembre 2027. | • Todos los martes. • 20% de reintegro directo en extracto pagando con tarjetas de crédito de Sudameris. | https://www.sudameris.com.py/personas/beneficios/lido-bar |
 | Sudameris | Impacto home | • Desde el 16 hasta el 30 de noviembre de 2026 | • 20% de descuento en caja con tarjetas de crédito de Sudameris. • 25% de descuento en caja con tarjetas de crédito MasterCard Black y Visa Infinite de Sudameris. • Hasta 15 cuotas sin intereses. | https://www.sudameris.com.py/personas/beneficios/impacto |

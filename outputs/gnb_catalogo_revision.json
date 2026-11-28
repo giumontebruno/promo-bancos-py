@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-27T17:22:16.349386+00:00",
+  "checked_at": "2026-11-28T16:05:40.956701+00:00",
   "source": "GNB card catalog displayed in Chrome; representation checked against reviewed app data",
-  "total_source_cards": 244,
-  "already_represented_source_cards": 239,
+  "total_source_cards": 207,
+  "already_represented_source_cards": 202,
   "source_cards_not_yet_in_app": [
     688,
     52,
@@ -84,11 +84,6 @@
     {
       "id": 352,
       "name": "Farmatotal",
-      "flags": "source_start_date_stale"
-    },
-    {
-      "id": 491,
-      "name": "Artemera",
       "flags": "source_start_date_stale"
     },
     {

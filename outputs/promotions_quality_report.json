@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T17:44:21.499925+00:00",
-  "input_count": 3463,
-  "promotion_count": 4358,
-  "duplicates_removed": -895,
+  "generated_at": "2026-11-28T16:22:26.549558+00:00",
+  "input_count": 3359,
+  "promotion_count": 4366,
+  "duplicates_removed": -1007,
   "favorite_aliases": {
     "9aa7480300887091": "3d0750c855e68124",
     "458726a1d0c21190": "cde2865dba869485",
@@ -1464,8 +1464,6 @@
     "e45d6706ec738e16": "0177aeb41dcdd7b1",
     "d399a9da48c46774": "d50c1ee58941e0fb",
     "a33a3cd0b3c23c22": "326cedcb85cf1d2d",
-    "8d89ae969eb7721b": "6b361360013e9390",
-    "b89d12700f21e3ff": "b5d5c2bf0deba0dd",
     "e6ccf24a771ca317": "53d9aa873e810d9a",
     "0078218e6330bd5e": "fc8d3903eff84527",
     "21719dbf08e041fa": "99a2aff3d34ccca9",
@@ -1528,30 +1526,36 @@
     "f96b75cbf3bcdfa7": "a0ac1b2645f732dc",
     "aca9161434d882b8": "6e12ed372b796d4f",
     "103b4d89d60f6ee0": "5913617d8a830a7c",
-    "3ec033c31312e8ae": "77144dd3c9a93489"
+    "3ec033c31312e8ae": "77144dd3c9a93489",
+    "ff0851c0dce862fc": "de0599ec21653a1c",
+    "d482354c19639f98": "2c139621d5eca701",
+    "4861065646e7575c": "fe07ee9680d3be7f",
+    "6b361360013e9390": "8d89ae969eb7721b",
+    "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
+    "d09f3027e8c28c60": "1e56dc5b57d1a05c"
   },
   "by_bank": {
     "Atlas": 51,
     "BNF": 142,
     "Bancop": 68,
     "Basa": 91,
-    "Continental": 969,
+    "Continental": 973,
     "Coop. Universitaria": 72,
     "Familiar": 420,
     "GNB": 512,
     "Interfisa": 213,
-    "Itaú": 696,
+    "Itaú": 699,
     "Solar": 57,
-    "Sudameris": 371,
+    "Sudameris": 372,
     "ueno bank": 696
   },
   "issue_counts": {
-    "validity_unconfirmed": 43,
+    "validity_unconfirmed": 44,
     "limits_unconfirmed": 446,
-    "multiple_purchase_limits": 339,
+    "multiple_purchase_limits": 340,
     "source_amount_conflict": 20,
     "multiple_refund_limits": 195,
-    "source_verification_pending": 363
+    "source_verification_pending": 364
   },
   "review_queue": [
     {
@@ -2609,7 +2613,7 @@
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
     },
     {
-      "id": "ea44b0918408a1d7",
+      "id": "51f10feaa4dad78c",
       "bank": "Continental",
       "merchant": "Impacto",
       "issues": [
@@ -4192,33 +4196,6 @@
       "source_url": "https://www.familiar.com.py/pdfs/promocionesybeneficios-las-hortensias-hotel-bases-y-condiciones"
     },
     {
-      "id": "9490270a6a10ec8c",
-      "bank": "GNB",
-      "merchant": "Puma",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/579"
-    },
-    {
-      "id": "93cd91613e6b079d",
-      "bank": "GNB",
-      "merchant": "Puma",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/579"
-    },
-    {
-      "id": "f5fe03cb71609b93",
-      "bank": "GNB",
-      "merchant": "Puma",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/579"
-    },
-    {
       "id": "c516aa07c1e06f43",
       "bank": "GNB",
       "merchant": "Cinemark",
@@ -4354,87 +4331,6 @@
       "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/73"
     },
     {
-      "id": "3a396cdad6a66c5c",
-      "bank": "GNB",
-      "merchant": "Aero",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/573"
-    },
-    {
-      "id": "38d1496a5d767918",
-      "bank": "GNB",
-      "merchant": "Aero",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/573"
-    },
-    {
-      "id": "6d98f5596f0aef3b",
-      "bank": "GNB",
-      "merchant": "Aero",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/573"
-    },
-    {
-      "id": "2339a6bb78e25ed9",
-      "bank": "GNB",
-      "merchant": "American Look",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/574"
-    },
-    {
-      "id": "e11e2b213e642dc9",
-      "bank": "GNB",
-      "merchant": "American Look",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/574"
-    },
-    {
-      "id": "95f620b041e01610",
-      "bank": "GNB",
-      "merchant": "American Look",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/574"
-    },
-    {
-      "id": "7aec62d32484cc34",
-      "bank": "GNB",
-      "merchant": "Brooksfield",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/575"
-    },
-    {
-      "id": "f0d6050865441f51",
-      "bank": "GNB",
-      "merchant": "Brooksfield",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/575"
-    },
-    {
-      "id": "77cb6cb0669249ec",
-      "bank": "GNB",
-      "merchant": "Brooksfield",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/575"
-    },
-    {
       "id": "48c476ce1f785700",
       "bank": "GNB",
       "merchant": "Delimarket",
@@ -4442,195 +4338,6 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/414"
-    },
-    {
-      "id": "7054e733d144bccc",
-      "bank": "GNB",
-      "merchant": "Kappa",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/576"
-    },
-    {
-      "id": "4d46d4047854cd02",
-      "bank": "GNB",
-      "merchant": "Kappa",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/576"
-    },
-    {
-      "id": "0b11ea3549c19880",
-      "bank": "GNB",
-      "merchant": "Kappa",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/576"
-    },
-    {
-      "id": "be0da9ea662e582b",
-      "bank": "GNB",
-      "merchant": "Kenneth Cole",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/577"
-    },
-    {
-      "id": "d5bcf5fa9a31af6a",
-      "bank": "GNB",
-      "merchant": "Kenneth Cole",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/577"
-    },
-    {
-      "id": "35695e3d1efe065b",
-      "bank": "GNB",
-      "merchant": "Kenneth Cole",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/577"
-    },
-    {
-      "id": "71171c2f1c5c9760",
-      "bank": "GNB",
-      "merchant": "Lotto",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/578"
-    },
-    {
-      "id": "366de3f0b2c7968e",
-      "bank": "GNB",
-      "merchant": "Lotto",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/578"
-    },
-    {
-      "id": "defc440e916bb422",
-      "bank": "GNB",
-      "merchant": "Lotto",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/578"
-    },
-    {
-      "id": "73ecac626685553c",
-      "bank": "GNB",
-      "merchant": "New Balance",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/34"
-    },
-    {
-      "id": "3e2bb6fce076e17d",
-      "bank": "GNB",
-      "merchant": "New Balance",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/34"
-    },
-    {
-      "id": "ac39a8060c8dc035",
-      "bank": "GNB",
-      "merchant": "New Balance",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/34"
-    },
-    {
-      "id": "95e6cb19931e50ca",
-      "bank": "GNB",
-      "merchant": "Skechers",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/581"
-    },
-    {
-      "id": "26cc5567531ce327",
-      "bank": "GNB",
-      "merchant": "Skechers",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/581"
-    },
-    {
-      "id": "a0e278ceccf28024",
-      "bank": "GNB",
-      "merchant": "Skechers",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/581"
-    },
-    {
-      "id": "e0698964c667f9eb",
-      "bank": "GNB",
-      "merchant": "Sport House",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/582"
-    },
-    {
-      "id": "121c88ae2ebb8cf6",
-      "bank": "GNB",
-      "merchant": "Sport House",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/582"
-    },
-    {
-      "id": "57fab25883c7dc9a",
-      "bank": "GNB",
-      "merchant": "Sport House",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/582"
-    },
-    {
-      "id": "6af8936b69852299",
-      "bank": "GNB",
-      "merchant": "Jeep",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/570"
-    },
-    {
-      "id": "939af38c8702d3c9",
-      "bank": "GNB",
-      "merchant": "Jeep",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/570"
-    },
-    {
-      "id": "471b7209bb68ff52",
-      "bank": "GNB",
-      "merchant": "Jeep",
-      "issues": [
-        "limits_unconfirmed"
-      ],
-      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/570"
     },
     {
       "id": "b329e7281a313dd0",
@@ -7343,6 +7050,16 @@
       "source_url": "https://www.sudameris.com.py/personas/beneficios/lido-bar"
     },
     {
+      "id": "86cc0511066c5c92",
+      "bank": "Sudameris",
+      "merchant": "MANTECA SESSIONS",
+      "issues": [
+        "source_verification_pending",
+        "validity_unconfirmed"
+      ],
+      "source_url": "https://www.sudameris.com.py/personas/beneficios/manteca-sessions"
+    },
+    {
       "id": "28ce6ec36e86ec26",
       "bank": "Sudameris",
       "merchant": "MASARTE",
@@ -9749,6 +9466,312 @@
         "limits_unconfirmed"
       ],
       "source_url": "https://www.ueno.com.py/wp-content/uploads/2026/10/Beneficio-de-Reintegro-BLACK-VIAJES-_-NOV-2026v1.pdf"
+    },
+    {
+      "id": "ea44b0918408a1d7",
+      "bank": "Continental",
+      "merchant": "Impacto",
+      "issues": [
+        "multiple_purchase_limits"
+      ],
+      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1"
+    },
+    {
+      "id": "9490270a6a10ec8c",
+      "bank": "GNB",
+      "merchant": "Puma",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/579"
+    },
+    {
+      "id": "93cd91613e6b079d",
+      "bank": "GNB",
+      "merchant": "Puma",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/579"
+    },
+    {
+      "id": "f5fe03cb71609b93",
+      "bank": "GNB",
+      "merchant": "Puma",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/579"
+    },
+    {
+      "id": "3a396cdad6a66c5c",
+      "bank": "GNB",
+      "merchant": "Aero",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/573"
+    },
+    {
+      "id": "38d1496a5d767918",
+      "bank": "GNB",
+      "merchant": "Aero",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/573"
+    },
+    {
+      "id": "6d98f5596f0aef3b",
+      "bank": "GNB",
+      "merchant": "Aero",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/573"
+    },
+    {
+      "id": "2339a6bb78e25ed9",
+      "bank": "GNB",
+      "merchant": "American Look",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/574"
+    },
+    {
+      "id": "e11e2b213e642dc9",
+      "bank": "GNB",
+      "merchant": "American Look",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/574"
+    },
+    {
+      "id": "95f620b041e01610",
+      "bank": "GNB",
+      "merchant": "American Look",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/574"
+    },
+    {
+      "id": "7aec62d32484cc34",
+      "bank": "GNB",
+      "merchant": "Brooksfield",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/575"
+    },
+    {
+      "id": "f0d6050865441f51",
+      "bank": "GNB",
+      "merchant": "Brooksfield",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/575"
+    },
+    {
+      "id": "77cb6cb0669249ec",
+      "bank": "GNB",
+      "merchant": "Brooksfield",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/575"
+    },
+    {
+      "id": "7054e733d144bccc",
+      "bank": "GNB",
+      "merchant": "Kappa",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/576"
+    },
+    {
+      "id": "4d46d4047854cd02",
+      "bank": "GNB",
+      "merchant": "Kappa",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/576"
+    },
+    {
+      "id": "0b11ea3549c19880",
+      "bank": "GNB",
+      "merchant": "Kappa",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/576"
+    },
+    {
+      "id": "be0da9ea662e582b",
+      "bank": "GNB",
+      "merchant": "Kenneth Cole",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/577"
+    },
+    {
+      "id": "d5bcf5fa9a31af6a",
+      "bank": "GNB",
+      "merchant": "Kenneth Cole",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/577"
+    },
+    {
+      "id": "35695e3d1efe065b",
+      "bank": "GNB",
+      "merchant": "Kenneth Cole",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/577"
+    },
+    {
+      "id": "71171c2f1c5c9760",
+      "bank": "GNB",
+      "merchant": "Lotto",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/578"
+    },
+    {
+      "id": "366de3f0b2c7968e",
+      "bank": "GNB",
+      "merchant": "Lotto",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/578"
+    },
+    {
+      "id": "defc440e916bb422",
+      "bank": "GNB",
+      "merchant": "Lotto",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/578"
+    },
+    {
+      "id": "73ecac626685553c",
+      "bank": "GNB",
+      "merchant": "New Balance",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/34"
+    },
+    {
+      "id": "3e2bb6fce076e17d",
+      "bank": "GNB",
+      "merchant": "New Balance",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/34"
+    },
+    {
+      "id": "ac39a8060c8dc035",
+      "bank": "GNB",
+      "merchant": "New Balance",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/34"
+    },
+    {
+      "id": "95e6cb19931e50ca",
+      "bank": "GNB",
+      "merchant": "Skechers",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/581"
+    },
+    {
+      "id": "26cc5567531ce327",
+      "bank": "GNB",
+      "merchant": "Skechers",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/581"
+    },
+    {
+      "id": "a0e278ceccf28024",
+      "bank": "GNB",
+      "merchant": "Skechers",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/581"
+    },
+    {
+      "id": "e0698964c667f9eb",
+      "bank": "GNB",
+      "merchant": "Sport House",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/582"
+    },
+    {
+      "id": "121c88ae2ebb8cf6",
+      "bank": "GNB",
+      "merchant": "Sport House",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/582"
+    },
+    {
+      "id": "57fab25883c7dc9a",
+      "bank": "GNB",
+      "merchant": "Sport House",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/582"
+    },
+    {
+      "id": "6af8936b69852299",
+      "bank": "GNB",
+      "merchant": "Jeep",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/570"
+    },
+    {
+      "id": "939af38c8702d3c9",
+      "bank": "GNB",
+      "merchant": "Jeep",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/570"
+    },
+    {
+      "id": "471b7209bb68ff52",
+      "bank": "GNB",
+      "merchant": "Jeep",
+      "issues": [
+        "limits_unconfirmed"
+      ],
+      "source_url": "https://www.beneficiosbancognb.com.py/v2/beneficios/categorias/570"
     },
     {
       "id": "7bee8ebaf7fa2f73",

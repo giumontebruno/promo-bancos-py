@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T17:44:21.499925+00:00",
-  "promotion_count": 4358,
+  "generated_at": "2026-11-28T16:22:26.549558+00:00",
+  "promotion_count": 4366,
   "banks": [
     "Atlas",
     "BNF",
@@ -64,7 +64,6 @@
     "Estética",
     "Eventos",
     "Exclusivo tienda Online",
-    "FERIA ASUNCION",
     "Farmacias",
     "Farmacias y Perfumerías",
     "Fast Food",
@@ -109,6 +108,7 @@
     "Niños",
     "Otros",
     "PROMOS ESPECIALES",
+    "Paseo Via Allegra",
     "Peluquerías y Spas",
     "Privilege",
     "Promociones especiales",
@@ -128,6 +128,7 @@
     "Shoppings y Tiendas",
     "Sin categoría",
     "Spa y Peluquerías",
+    "Stock & Superseis",
     "Supermercados",
     "Teatro",
     "Tecnología",
@@ -1626,8 +1627,6 @@
     "e45d6706ec738e16": "0177aeb41dcdd7b1",
     "d399a9da48c46774": "d50c1ee58941e0fb",
     "a33a3cd0b3c23c22": "326cedcb85cf1d2d",
-    "8d89ae969eb7721b": "6b361360013e9390",
-    "b89d12700f21e3ff": "b5d5c2bf0deba0dd",
     "e6ccf24a771ca317": "53d9aa873e810d9a",
     "0078218e6330bd5e": "fc8d3903eff84527",
     "21719dbf08e041fa": "99a2aff3d34ccca9",
@@ -1690,7 +1689,13 @@
     "f96b75cbf3bcdfa7": "a0ac1b2645f732dc",
     "aca9161434d882b8": "6e12ed372b796d4f",
     "103b4d89d60f6ee0": "5913617d8a830a7c",
-    "3ec033c31312e8ae": "77144dd3c9a93489"
+    "3ec033c31312e8ae": "77144dd3c9a93489",
+    "ff0851c0dce862fc": "de0599ec21653a1c",
+    "d482354c19639f98": "2c139621d5eca701",
+    "4861065646e7575c": "fe07ee9680d3be7f",
+    "6b361360013e9390": "8d89ae969eb7721b",
+    "b5d5c2bf0deba0dd": "b89d12700f21e3ff",
+    "d09f3027e8c28c60": "1e56dc5b57d1a05c"
   },
   "favorite_unavailable": {
     "84714bfec7199316": {
@@ -4093,20 +4098,6 @@
       "merchant_name": "Movil.com",
       "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
       "last_known_ends_on": "2026-11-07"
-    },
-    "26726a50f6ccdd2a": {
-      "reason": "not_in_current_sources",
-      "bank": "Continental",
-      "merchant_name": "El Viejo Marino",
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
-      "last_known_ends_on": "2027-10-25"
-    },
-    "a485764cb170ae3c": {
-      "reason": "not_in_current_sources",
-      "bank": "Continental",
-      "merchant_name": "El Viejo Marino",
-      "source_url": "https://www.bancontinental.com.py/api/comercios?_limit=-1",
-      "last_known_ends_on": "2027-10-25"
     },
     "1fd664997cac880c": {
       "reason": "not_in_current_sources",

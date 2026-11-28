@@ -2,7 +2,7 @@
 
 Fuente: https://www.bancontinental.com.py/api/comercios?_limit=-1
 
-Total de beneficios/comercios: 817
+Total de beneficios/comercios: 820
 
 ## Agencias de Viaje y Compañías Aéreas (5)
 
@@ -242,7 +242,7 @@ Total de beneficios/comercios: 817
 |---|---|---|---|---|
 | Fiori Florería | 15%; Hasta 6 cuotas sin intereses; 15% de reintegro | todos los días | Vigente hasta el 21 de diciembre de 2026 | Asunción |
 
-## Gastronomía (96)
+## Gastronomía (99)
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia | Ciudad |
 |---|---|---|---|---|
@@ -283,6 +283,9 @@ Total de beneficios/comercios: 817
 | De Las Sierras - Restaurante | 25% de reintegro | Los sábados y domingos, en De las Sierras Restaurante | Vigente hasta el 25 de octubre de 2027 | Caacupé |
 | De Las Sierras - Restaurante | 20% de reintegro | Los sábados y domingos, en De las Sierras Restaurante. Además: | Vigente hasta el 07 de agosto de 2027 | Caacupé |
 | Don Beling | 20%; 20% de reintegro | Todos los días | Vigente hasta el 25 de agosto de 2027 | Ayolas - Misiones |
+| El Viejo Marino | 35% de reintegro | Los sábados y domingos, en El Viejo Marino | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| El Viejo Marino | 25% de reintegro | Los sábados y domingos, en El Viejo Marino | Vigente hasta el 25 de octubre de 2027 | Asunción |
+| El Viejo Marino | 20% de reintegro | Los sábados y domingos, en El Viejo Marino. Además: | Vigente hasta el 31 de octubre de 2027 | Asunción |
 | Game Core | 35% de reintegro | Los sábados y domingos, en Game Core | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Game Core | 25% de reintegro | Los sábados y domingos, en Game Core | Vigente hasta el 25 de octubre de 2027 | Asunción |
 | Game Core | 20% de reintegro | Los sábados y domingos, en Game Core. Además: | Vigente hasta el 24 de abril de 2027 | Asunción |
@@ -323,11 +326,8 @@ Total de beneficios/comercios: 817
 | Real Costanera Restaurante - Encarnación | 25% de reintegro | Los sábados y domingos, en Real Costanera - Encarnación | Vigente hasta el 25 de octubre de 2027 | Encarnación |
 | Real Costanera Restaurante - Encarnación | 20% de reintegro | Los sábados y domingos, en Real Costanera - Encarnación. Además: | Vigente hasta el 07 de agosto de 2027 | Encarnación |
 | Real Restaurante - Luque | 35% de reintegro | Los sábados y domingos, en Real Restaurante - Luque | Vigente hasta el 25 de octubre de 2027 | Luque |
-| Real Restaurante - Luque | 25% de reintegro | Los sábados y domingos, en Real Restaurante - Luque | Vigente hasta el 25 de octubre de 2027 | Luque |
-| Real Restaurante - Luque | 20% de reintegro | Los sábados y domingos, en Real Restaurante - Luque. Además: | Vigente hasta el 07 de agosto de 2027 | Luque |
-| Restaurante - Soho Savoy Hotel | 35% de reintegro | Los sábados y domingos, en el Restaurante Soho del Hotel Savoy | Vigente hasta el 25 de octubre de 2027 | Encarnación |
 
-_Se omitieron 16 filas en este resumen; están en el CSV._
+_Se omitieron 19 filas en este resumen; están en el CSV._
 
 ## Heladerías (1)
 
@@ -363,7 +363,7 @@ _Se omitieron 16 filas en este resumen; están en el CSV._
 | Grupo Sauce - electrodomésticos | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 17 de septiembre de 2027 | Asunción |
 | Hoc Cell | 10%; Hasta 12 cuotas sin intereses; 10% de descuento | Todos los días | Vigente hasta el 11 de junio de 2027 | Concepción |
 | Hogar Feliz | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 04 de noviembre de 2026 | No especificado |
-| Impacto | 10%; hasta 18 cuotas sin intereses; 10% de reintegro; 5% de reintegro; 15% de descuento | todos los días | Vigente desde el 21 de febrero al 21 de noviembre del 2026 | No especificado |
+| Impacto | 15%; Hasta 18 cuotas sin intereses; 10% de reintegro; 5% de reintegro; 15% de descuento | todos los días | Vigente hasta el 26 de diciembre de 2026 | Todo el país |
 | Inoga - Inmapol | Hasta 18 cuotas sin intereses; 25% de descuento | Todos los días | Vigente hasta 31 de julio de 2027 | Asunción |
 | Inverfin | Hasta 18 cuotas sin intereses | Todos los días | Vigente hasta el 08 de agosto de 2027 | Todo el país |
 | Jegua Deco Home | Hasta 12 cuotas sin intereses | Todos los días | Vigente hasta el 16 de noviembre de 2027 | Asunción |

@@ -2,13 +2,7 @@
 
 Fuente: https://www.itau.com.py/beneficios
 
-Total de beneficios: 498
-
-## Alemania Cell
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Alemania Cell | 15 Cuotas sin intereses 20 %; Tenes 20% de descuento y hasta 15 cuotas sin intereses. | No especificado | 2025-10-01 hasta 2026-11-30 |
+Total de beneficios: 499
 
 ## American Express
 
@@ -227,12 +221,6 @@ Total de beneficios: 498
 |---|---|---|---|
 | Cines Itaú | 2x1; 2 x 1 | No especificado | 2021-07-23 hasta 2026-12-31 |
 
-## FERIA ASUNCION
-
-| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
-|---|---|---|---|
-| Feria Asunción | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2025-03-14 hasta 2026-12-31 |
-
 ## Filadelfia
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -275,6 +263,7 @@ Total de beneficios: 498
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
+| LAS PEPAS | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2026-11-24 hasta 2026-12-31 |
 | Todo Costura | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-12 hasta 2026-12-31 |
 
 ## Itaú Personal Bank
@@ -410,6 +399,12 @@ Total de beneficios: 498
 | Estoy Jugueteria | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | Aplica los viernes | 2025-06-06 hasta 2026-12-25 |
 | Owoki | 10 Cuotas sin intereses 20 %; 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-12-01 hasta 2027-02-28 |
 
+## Paseo Via Allegra
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Paseo Via Allegra | 6 Cuotas sin intereses 25 % Hasta; Tenés 20% de ahorro + 5% PERSONAL BANK y hasta 6 cuotas sin intereses | No especificado | 2024-03-13 hasta 2026-11-28 |
+
 ## Sallustro Sport San Martin
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
@@ -483,19 +478,23 @@ Total de beneficios: 498
 | Under Armour | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% adicional pagando con Google Pay y Apple Pay y hasta 6 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-12-03 |
 | Veronica Torres | 6 Cuotas sin intereses 15 % Hasta; 10% de ahorro mas 5% adicional pagando con QR, Google Pay y Gpay y hasta 6 cuotas sin intereses. | No especificado | 2025-08-07 hasta 2026-12-03 |
 
+## Stock & Superseis
+
+| Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
+|---|---|---|---|
+| Stock | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
+| SuperSeis | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
+
 ## Supermercados
 
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Areté | 15 %; Tenes 15% de ahorro. | Aplica los domingos | 2026-01-04 hasta 2026-12-31 |
 | Biggie | 15 %; 15% de ahorro. | No especificado | 2025-01-31 hasta 2026-12-04 |
-| CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-12-01 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
 | Delimarket | 20% de reintegro. | sábados | Desde 2026-03-07 hasta 2026-12-31 |
 | Salones Chortitzer | 20 % Hasta; Tenes 15% de reintegro + 5% reintegro con PERSONAL BANK | No especificado | 2026-11-19 hasta 2026-12-29 |
-| Stock | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
 | Super Real | 15 %; 15% de ahorro. | Aplica los LUNES | 2025-10-06 hasta 2026-12-31 |
-| SuperSeis | 15 %; 15% de ahorro. | todos los sábados | 2025-09-06 hasta 2026-12-31 |
 
 ## Teatro
 
@@ -508,6 +507,7 @@ Total de beneficios: 498
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Claro | 12 Cuotas sin intereses; Tenes hasta 12 cuotas sin intereses. | No especificado | 2025-07-07 hasta 2026-12-31 |
+| Gonzalez Gimenez | 10 Cuotas sin intereses; hasta 10 cuotas sin intereses. | No especificado | 2025-11-10 hasta 2026-12-13 |
 | Personal | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses. | No especificado | 2024-04-05 hasta 2026-12-31 |
 | Tigo | 12 Cuotas sin intereses; Hasta 12 cuotas sin intereses. | No especificado | 2026-01-07 hasta 2026-12-31 |
 
@@ -538,6 +538,7 @@ Total de beneficios: 498
 | EXA GOETHE | 6 Cuotas sin intereses; Tenes 6 cuotas sin intereses. | No especificado | 2026-03-05 hasta 2026-12-31 |
 | El Deposito | 10 Cuotas sin intereses 30 % Hasta; Tenes hasta 30% de ahorro y hasta 10 cuotas sin intereses | No especificado | 2025-11-24 hasta 2026-12-31 |
 | FAUSTO CULTURAL | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses. | No especificado | 2026-11-18 hasta 2026-12-15 |
+| Feria Asunción | 10 Cuotas sin intereses; Tenes hasta 10 cuotas sin intereses. | No especificado | 2025-03-14 hasta 2026-12-31 |
 | Hering | 6 Cuotas sin intereses 20 % Hasta; Tenes 15% de ahorro mas 5% pagando con GPAY y APPLE PAY y hasta 6 cuotas sin intereses | No especificado | 2026-03-26 hasta 2026-12-02 |
 | Indio Termos | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | JOSEPH COIFFURE | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
@@ -555,7 +556,6 @@ Total de beneficios: 498
 | Nueva Americana | 20 % 6 Cuotas sin intereses; 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2024-07-06 hasta 2026-12-26 |
 | Pampero | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Patrol | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
-| Primer Martes | 25 % Hasta 10 Cuotas sin intereses; hasta 25% de ahorro y hasta 10 cuotas sin intereses + 10% con código QR, Apple Pay, Google Pay. | No especificado | 2026-01-06 hasta 2026-12-01 |
 | Pulsak | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Rondina | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
 | Sallustro | 6 Cuotas sin intereses 25 % Hasta; 20% de ahorro mas 5% pagando con Billetera y hasta 6 cuotas sin intereses | No especificado | 2025-05-30 hasta 2026-12-02 |
@@ -654,10 +654,12 @@ Total de beneficios: 498
 | Comercio/Promoción | Descuento / beneficio | Día | Vigencia |
 |---|---|---|---|
 | Achon | 10 Cuotas sin intereses 10 %; Tenes 10% de descuento + hasta 10 cuotas sin intereses | No especificado | 2026-01-05 hasta 2026-11-30 |
+| Alemania Cell | 15 Cuotas sin intereses 20 %; Tenes 20% de descuento y hasta 15 cuotas sin intereses. | No especificado | 2025-10-01 hasta 2026-11-30 |
 | Almacen De Pizzas | 30 %; Tenés 30% de reintegro | No especificado | 2020-03-02 hasta 2026-11-30 |
 | Anima | 10 Cuotas sin intereses; Tenes 10 cuotas sin intereses. | No especificado | 2026-01-05 hasta 2026-11-30 |
 | Boarding Pass | 18 Cuotas sin intereses; Tenés hasta 18 cuotas sin intereses. | No especificado | 2024-09-28 hasta 2026-11-30 |
 | Bristol | 12 Cuotas sin intereses; hasta 12 cuotas sin intereses. | No especificado | 2023-12-14 hasta 2026-11-30 |
+| CASA GRUTTER | 15 % Hasta; Tenes 10% de reintegro para todas las Tarjetas de crédito y 15% para tarjetas de crédito Personal Bank VISA INFINITE y AMEX PLATINUM | No especificado | 2026-08-04 hasta 2026-12-01 |
 | CENTRO DE MATERIALES | 40 % 10 Cuotas sin intereses; Tenes 40% de ahorro con Tarjeta de Crédito y hasta 10 cuotas sin intereses. | No especificado | 2026-04-27 hasta 2026-11-30 |
 | Celebra | 10 Cuotas sin intereses 25 % Hasta; Tenés 20% de ahorro + 5% con billeteras GPAY y APPLE PAY + Hasta 10 cuotas sin intereses. | No especificado | 2024-10-25 hasta 2026-11-28 |
 | Compumarket | 15 Cuotas sin intereses; hasta 15 cuotas sin intereses. | No especificado | 2024-12-09 hasta 2026-11-30 |
@@ -666,17 +668,16 @@ Total de beneficios: 498
 | Fuschia | 25 % Hasta 6 Cuotas sin intereses; Tenes 20% de ahorro + 5% adicional pagando con VISA via GPAY y APPLE PAY y hasta 6 cuotas sin intereses | Aplica los sábados | 2025-09-27 hasta 2026-11-28 |
 | GRILL WEST | 50 % Hasta 6 Cuotas sin intereses; Tenes hasta 50% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-11-16 hasta 2026-11-28 |
 | Gilardini | 15 % 6 Cuotas sin intereses; 15% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2026-01-01 hasta 2026-11-30 |
-| Ginebra | 25 % 10 Cuotas sin intereses; Tenes 25% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-12-03 hasta 2026-11-27 |
 | Ipale | 30 % 10 Cuotas sin intereses; Tenes 30% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-10-23 hasta 2026-11-30 |
 | Itau Shopping Days | 10 Cuotas sin intereses; Tenes 10 cuotas sin interéses | No especificado | 2026-01-30 hasta 2026-11-30 |
 | LA JENNY | 20 % 10 Cuotas sin intereses; Tenes 20% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2026-05-08 hasta 2026-11-29 |
 | La Cabrera | 40 % Hasta; Tenes 30% de reintegro con tu AMEX ORO y un 10% adicional con AMEX PLATINUM. | No especificado | 2026-01-01 hasta 2026-11-30 |
 | Laguna Blanca | 6 Cuotas sin intereses 20 %; Tenés 20% de ahorro y hasta 6 cuotas sin intereses. | No especificado | 2025-04-01 hasta 2026-11-30 |
 | Mi portal Coca Cola | 25 %; 25% de ahorro. | Aplica los domingos | 2025-10-19 hasta 2026-11-29 |
-| Nueva Americana | 10 Cuotas sin intereses 25 % Hasta; Tenes 20% de reintegro + 5% con AMEX PLATINUM y VISA INFINITE y hasta 10 cuotas sin intereses. | No especificado | 2025-09-25 hasta 2026-11-27 |
 | Ocre | 40 % Hasta 10 Cuotas sin intereses; Tenés hasta 40% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2023-11-06 hasta 2026-11-28 |
 | Ocre Office | 40 % Hasta 10 Cuotas sin intereses; Tenés hasta 40% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2023-11-06 hasta 2026-11-28 |
 | PIK | 20 % 6 Cuotas sin intereses; 20% de reintegro y hasta 6 cuotas sin intereses | No especificado | 2026-07-21 hasta 2026-11-28 |
+| Primer Martes | 25 % Hasta 10 Cuotas sin intereses; hasta 25% de ahorro y hasta 10 cuotas sin intereses + 10% con código QR, Apple Pay, Google Pay. | No especificado | 2026-01-06 hasta 2026-12-01 |
 | Punto Farma | 10 Cuotas sin intereses; Tenés hasta 10 cuotas sin intereses. | No especificado | 2024-06-15 hasta 2026-11-30 |
 | Saccaro | 10 Cuotas sin intereses 25 %; Tenes 25% de ahorro y hasta 10 cuotas sin intereses. | No especificado | 2025-06-09 hasta 2026-11-30 |
 | Tecnocentro | 10 Cuotas sin intereses 35 % Hasta; Tenes hasta 35% de descuento y hasta 10 cuotas sin intereses | No especificado | 2026-01-08 hasta 2026-11-30 |
